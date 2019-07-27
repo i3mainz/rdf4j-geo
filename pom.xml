@@ -1,0 +1,105 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>rdf4j-postgis</groupId>
+  <artifactId>rdf4j-postgis</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <build>
+        <sourceDirectory>src</sourceDirectory>
+        <testSourceDirectory>test</testSourceDirectory>
+        <resources>
+            <resource>
+                <directory>src</directory>
+                <excludes>
+                    <exclude>**/*.java</exclude>
+                </excludes>
+            </resource>
+        </resources>
+        <testResources>
+            <testResource>
+                <directory>test</directory>
+                <excludes>
+                    <exclude>**/*.java</exclude>
+                </excludes>
+            </testResource>
+        </testResources>
+        <plugins>
+            <plugin>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.1</version>
+                <configuration>
+                    <source/>
+                    <target/>
+                    <encoding>${project.build.sourceEncoding}</encoding>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-resources-plugin</artifactId>
+                <version>2.4.3</version>
+                <configuration>
+                    <encoding>${project.build.sourceEncoding}</encoding>
+                </configuration>
+            </plugin>
+             <plugin>
+                <artifactId>maven-war-plugin</artifactId>
+                <version>2.4</version>
+                <configuration>
+                    <warSourceDirectory>WebContent</warSourceDirectory>
+                    <failOnMissingWebXml>false</failOnMissingWebXml>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+ <properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<geotools.version>15.1</geotools.version>
+		  <geotk.version>4.0.4</geotk.version>
+		  <sis.version>0.8-jdk7-M1</sis.version>
+		  <geoapi.version>4.0-M05</geoapi.version>
+		  <jena.version>3.10.0</jena.version>
+		  <maven.compiler.source>1.8</maven.compiler.source>
+   		  <maven.compiler.target>1.8</maven.compiler.target>
+	</properties>
+ 
+  <dependencies>
+  
+  <!-- https://mvnrepository.com/artifact/org.eclipse.rdf4j/rdf4j-query -->
+<dependency>
+    <groupId>org.eclipse.rdf4j</groupId>
+    <artifactId>rdf4j-query</artifactId>
+    <version>3.0.0-M2</version>
+</dependency>
+  <dependency>
+    <groupId>org.locationtech.jts</groupId>
+    <artifactId>jts</artifactId>
+    <version>1.16.1</version>
+    <type>pom</type>
+</dependency>
+     
+      <dependency>
+    <groupId>org.wololo</groupId>
+    <artifactId>jts2geojson</artifactId>
+    <version>0.13.0</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/org.eclipse.rdf4j/rdf4j-queryalgebra-model -->
+<dependency>
+    <groupId>org.eclipse.rdf4j</groupId>
+    <artifactId>rdf4j-queryalgebra-model</artifactId>
+    <version>3.0.0-M2</version>
+</dependency>
+
+
+<dependency>
+    <groupId>org.eclipse.rdf4j</groupId>
+    <artifactId>rdf4j-storage</artifactId>
+    <version>3.0.0-M2</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/org.eclipse.rdf4j/rdf4j-queryalgebra-geosparql -->
+<dependency>
+    <groupId>org.eclipse.rdf4j</groupId>
+    <artifactId>rdf4j-queryalgebra-geosparql</artifactId>
+    <version>3.0.0-M2</version>
+</dependency>
+
+  </dependencies>
+</project>
