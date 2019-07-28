@@ -3,7 +3,7 @@ package main.java.de.hsmainz.rdf4jpostgis.geometry;
 import org.locationtech.jts.geom.Geometry;
 import org.locationtech.jts.operation.valid.RepeatedPointTester;
 
-public class HasRepeatedPoints extends GeometricAttributeFunction {
+public class HasRepeatedPoints extends GeometricBinaryAttributeFunction {
 
 	@Override
 	public boolean attribute(Geometry geom) {

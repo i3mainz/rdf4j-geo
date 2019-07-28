@@ -2,7 +2,7 @@ package main.java.de.hsmainz.rdf4jpostgis.geometry;
 
 import org.locationtech.jts.geom.Geometry;
 
-public class IsEmpty extends GeometricAttributeFunction {
+public class IsEmpty extends GeometricBinaryAttributeFunction {
 
 	@Override
 	public String getURI() {

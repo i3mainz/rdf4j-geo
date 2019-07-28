@@ -10,7 +10,7 @@ import org.locationtech.jts.geom.Geometry;
 import org.locationtech.spatial4j.context.SpatialContext;
 import org.locationtech.spatial4j.shape.Shape;
 
-public abstract class GeometricAttributeFunction implements Function {
+public abstract class GeometricBinaryAttributeFunction implements Function {
 
 	@Override
 	public String getURI() {
@@ -37,6 +37,7 @@ public abstract class GeometricAttributeFunction implements Function {
 		return valueFactory.createLiteral(wkt, GEO.WKT_LITERAL);
 	}
 	
-	public abstract double attribute(Geometry geom);
+	public abstract boolean attribute(Geometry geom);
+	
 
 }

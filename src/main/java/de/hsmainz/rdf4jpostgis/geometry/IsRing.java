@@ -3,7 +3,7 @@ package main.java.de.hsmainz.rdf4jpostgis.geometry;
 import org.locationtech.jts.geom.Geometry;
 import org.locationtech.jts.geom.LineString;
 
-public class IsRing extends GeometricAttributeFunction {
+public class IsRing extends GeometricBinaryAttributeFunction {
 
 	@Override
 	public boolean attribute(Geometry geom) {

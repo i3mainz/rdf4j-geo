@@ -3,24 +3,18 @@ package main.java.de.hsmainz.rdf4jpostgis.geometry;
 import org.locationtech.jts.geom.Coordinate;
 import org.locationtech.jts.geom.Geometry;
 
-public class Is3D extends GeometricBinaryAttributeFunction {
-
-	@Override
-	public String getURI() {
-		// TODO Auto-generated method stub
-		return null;
-	}
+public class IsMeasured extends GeometricBinaryAttributeFunction {
 
 	@Override
 	public boolean attribute(Geometry geom) {
-		Boolean is3D=true;
+		Boolean isMeasured=true;
         for(Coordinate coord:geom.getCoordinates()) {
-        	if(Double.isNaN(coord.getZ())) {
-        		is3D=false;
+        	if(Double.isNaN(coord.getM())) {
+        		isMeasured=false;
         	}
         }
-        return is3D;
+        return isMeasured;
 	}
-
+	
 
 }

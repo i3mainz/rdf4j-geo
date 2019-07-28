@@ -7,7 +7,7 @@ import org.locationtech.jts.geom.MultiPoint;
 import org.locationtech.jts.geom.Point;
 import org.locationtech.jts.geom.Polygon;
 
-public class IsClosed extends GeometricAttributeFunction {
+public class IsClosed extends GeometricBinaryAttributeFunction {
 
 	@Override
 	public boolean attribute(Geometry geom) {
