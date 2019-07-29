@@ -10,12 +10,18 @@ import org.locationtech.jts.geom.Geometry;
 import org.locationtech.spatial4j.context.SpatialContext;
 import org.locationtech.spatial4j.shape.Shape;
 
-public abstract class GeometricUnaryFunction implements Function {
+public abstract class GeometricStringExportFunction implements Function {
+
+	@Override
+	public String getURI() {
+		// TODO Auto-generated method stub
+		return null;
+	}
 
 	@Override
 	public Value evaluate(ValueFactory valueFactory, Value... args) throws ValueExprEvaluationException {
-		if (args.length != 2) {
-			throw new ValueExprEvaluationException(getURI() + " requires exactly 2 arguments, got " + args.length);
+		if (args.length != 1) {
+			throw new ValueExprEvaluationException(getURI() + " requires exactly 1 arguments, got " + args.length);
 		}
 
 		SpatialContext geoContext = SpatialSupport.getSpatialContext();
@@ -23,14 +29,15 @@ public abstract class GeometricUnaryFunction implements Function {
 
 		String wkt;
 		try {
-			Shape result = operation(geom1, geom2);
+			Shape result = attribute(geom1);
 			wkt = SpatialSupport.getWktWriter().toWkt(result);
 		} catch (IOException | RuntimeException e) {
 			throw new ValueExprEvaluationException(e);
 		}
 		return valueFactory.createLiteral(wkt, GEO.WKT_LITERAL);
 	}
+	
+	public abstract String operation(Geometry geom);
 
-	protected abstract Geometry operation(Geometry geom);
+
 }
-

@@ -5,6 +5,7 @@ import org.eclipse.rdf4j.model.ValueFactory;
 import org.eclipse.rdf4j.query.algebra.evaluation.ValueExprEvaluationException;
 import org.eclipse.rdf4j.query.algebra.evaluation.function.Function;
 import org.locationtech.jts.geom.Geometry;
+import org.locationtech.spatial4j.context.SpatialContext;
 
 public class GeometricRelationFunction implements Function {
 

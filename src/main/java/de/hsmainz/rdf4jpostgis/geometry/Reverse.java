@@ -2,7 +2,7 @@ package main.java.de.hsmainz.rdf4jpostgis.geometry;
 
 import org.locationtech.jts.geom.Geometry;
 
-public class IsRectangle extends GeometricBinaryAttributeFunction {
+public class Reverse extends GeometricUnaryFunction {
 
 	@Override
 	public String getURI() {
@@ -11,7 +11,9 @@ public class IsRectangle extends GeometricBinaryAttributeFunction {
 	}
 
 	@Override
-	public boolean attribute(Geometry geom) {
-		return geom.isRectangle();
+	protected Geometry operation(Geometry geom) {		
+        Geometry reverseGeom = geom.reverse();
+        return reverseGeom;
 	}
+
 }

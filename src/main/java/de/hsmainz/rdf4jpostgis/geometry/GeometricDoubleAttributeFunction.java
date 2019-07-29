@@ -10,7 +10,7 @@ import org.locationtech.jts.geom.Geometry;
 import org.locationtech.spatial4j.context.SpatialContext;
 import org.locationtech.spatial4j.shape.Shape;
 
-public abstract class GeometricAttributeFunction implements Function {
+public abstract class GeometricDoubleAttributeFunction implements Function {
 
 	@Override
 	public String getURI() {

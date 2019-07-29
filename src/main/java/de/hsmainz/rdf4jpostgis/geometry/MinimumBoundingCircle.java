@@ -2,12 +2,18 @@ package main.java.de.hsmainz.rdf4jpostgis.geometry;
 
 import org.locationtech.jts.geom.Geometry;
 
-public class MinimumBoundingRadius extends GeometricDoubleAttributeFunction {
+public class MinimumBoundingCircle extends GeometricUnaryFunction{
 
 	@Override
-	public double attribute(Geometry geom) {
+	public String getURI() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	protected Geometry operation(Geometry geom) {
 		org.locationtech.jts.algorithm.MinimumBoundingCircle minCircle = new org.locationtech.jts.algorithm.MinimumBoundingCircle(geom);
-        return minCircle.getRadius();
+        return minCircle.getCircle();
 	}
 
 }

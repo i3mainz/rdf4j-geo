@@ -10,7 +10,13 @@ import org.locationtech.jts.geom.Geometry;
 import org.locationtech.spatial4j.context.SpatialContext;
 import org.locationtech.spatial4j.shape.Shape;
 
-public abstract class GeometricUnaryFunction implements Function {
+public class GeometricEditFunction implements Function {
+
+	@Override
+	public String getURI() {
+		// TODO Auto-generated method stub
+		return null;
+	}
 
 	@Override
 	public Value evaluate(ValueFactory valueFactory, Value... args) throws ValueExprEvaluationException {
@@ -31,6 +37,4 @@ public abstract class GeometricUnaryFunction implements Function {
 		return valueFactory.createLiteral(wkt, GEO.WKT_LITERAL);
 	}
 
-	protected abstract Geometry operation(Geometry geom);
 }
-

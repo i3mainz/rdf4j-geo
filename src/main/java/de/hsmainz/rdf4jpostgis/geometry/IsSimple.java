@@ -1,13 +1,8 @@
 package main.java.de.hsmainz.rdf4jpostgis.geometry;
 
-import org.eclipse.rdf4j.model.Value;
-import org.eclipse.rdf4j.model.ValueFactory;
-import org.eclipse.rdf4j.query.algebra.evaluation.ValueExprEvaluationException;
-import org.eclipse.rdf4j.query.algebra.evaluation.function.Function;
 import org.locationtech.jts.geom.Geometry;
-import org.locationtech.spatial4j.shape.Shape;
 
-public class IsSimple extends GeometricAttributeFunction {
+public class IsSimple extends GeometricBinaryAttributeFunction {
 
 	@Override
 	public String getURI() {
@@ -15,9 +10,11 @@ public class IsSimple extends GeometricAttributeFunction {
 		return null;
 	}
 
-@Override
-protected boolean attribute(Geometry g1) {
-	reutrn g1.
-}
+	@Override
+	public boolean attribute(Geometry geom) {
+		return geom.isSimple();
+	}
+
+
 
 }
