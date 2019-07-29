@@ -9,9 +9,10 @@ import org.locationtech.jts.geom.Geometry;
 
 import de.hsmainz.cs.semgis.arqextension.util.LiteralUtils;
 import io.github.galbiston.geosparql_jena.implementation.GeometryWrapper;
+import main.java.de.hsmainz.rdf4jpostgis.geometry.base.GeometricModifierFunction;
 import main.java.de.hsmainz.rdf4jpostgis.geometry.base.GeometricUnaryFunction;
 
-public class MultiplyZ extends GeometricUnaryFunction {
+public class MultiplyZ extends GeometricModifierFunction {
 
 	@Override
 	public String getURI() {
@@ -29,6 +30,12 @@ public class MultiplyZ extends GeometricUnaryFunction {
         }
         GeometryWrapper res=LiteralUtils.createGeometry(newcoords, geometry.getGeometryType(), geometry);
         return res.asNodeValue();
+	}
+
+	@Override
+	protected Geometry relation(Geometry g1, Geometry g2) {
+		// TODO Auto-generated method stub
+		return null;
 	}
 
 }

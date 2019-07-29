@@ -1,4 +1,4 @@
-package main.java.de.hsmainz.rdf4jpostgis.geometry;
+package main.java.de.hsmainz.rdf4jpostgis.geometry.transform;
 
 import java.util.ArrayList;
 import java.util.List;
