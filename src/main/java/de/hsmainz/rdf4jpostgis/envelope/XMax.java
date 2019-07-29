@@ -4,8 +4,8 @@ import org.apache.jena.sparql.expr.NodeValue;
 import org.locationtech.jts.geom.Coordinate;
 import org.locationtech.jts.geom.Geometry;
 
-import main.java.de.hsmainz.rdf4jpostgis.geometry.GeometricDoubleAttributeFunction;
-import main.java.de.hsmainz.rdf4jpostgis.geometry.GeometricUnaryFunction;
+import main.java.de.hsmainz.rdf4jpostgis.geometry.base.GeometricDoubleAttributeFunction;
+import main.java.de.hsmainz.rdf4jpostgis.geometry.base.GeometricUnaryFunction;
 
 public class XMax extends GeometricDoubleAttributeFunction {
 

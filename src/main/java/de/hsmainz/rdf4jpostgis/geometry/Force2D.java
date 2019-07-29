@@ -7,6 +7,7 @@ import org.locationtech.jts.geom.Coordinate;
 import org.locationtech.jts.geom.Geometry;
 
 import de.hsmainz.rdf4jpostgis.util.LiteralUtils;
+import main.java.de.hsmainz.rdf4jpostgis.geometry.base.GeometricUnaryFunction;
 
 
 public class Force2D extends GeometricUnaryFunction {

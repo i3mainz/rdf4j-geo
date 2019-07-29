@@ -3,6 +3,8 @@ package main.java.de.hsmainz.rdf4jpostgis.geometry;
 import org.locationtech.jts.geom.Geometry;
 import org.locationtech.jts.geom.Point;
 
+import main.java.de.hsmainz.rdf4jpostgis.geometry.base.GeometricUnaryFunction;
+
 public class Centroid extends GeometricUnaryFunction {
 
 	@Override

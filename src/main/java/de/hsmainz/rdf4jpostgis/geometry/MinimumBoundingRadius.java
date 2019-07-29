@@ -2,6 +2,8 @@ package main.java.de.hsmainz.rdf4jpostgis.geometry;
 
 import org.locationtech.jts.geom.Geometry;
 
+import main.java.de.hsmainz.rdf4jpostgis.geometry.base.GeometricDoubleAttributeFunction;
+
 public class MinimumBoundingRadius extends GeometricDoubleAttributeFunction {
 
 	@Override

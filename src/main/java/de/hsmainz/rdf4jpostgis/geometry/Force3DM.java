@@ -8,6 +8,7 @@ import org.locationtech.jts.geom.CoordinateXYM;
 import org.locationtech.jts.geom.Geometry;
 
 import de.hsmainz.rdf4jpostgis.util.LiteralUtils;
+import main.java.de.hsmainz.rdf4jpostgis.geometry.base.GeometricUnaryFunction;
 
 
 public class Force3DM extends GeometricUnaryFunction {

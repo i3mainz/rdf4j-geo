@@ -10,6 +10,7 @@ import org.locationtech.jts.geom.CoordinateXYZM;
 import org.locationtech.jts.geom.Geometry;
 
 import de.hsmainz.rdf4jpostgis.util.LiteralUtils;
+import main.java.de.hsmainz.rdf4jpostgis.geometry.base.GeometricUnaryFunction;
 
 
 

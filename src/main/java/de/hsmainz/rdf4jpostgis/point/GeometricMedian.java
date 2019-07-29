@@ -8,7 +8,7 @@ import org.locationtech.jts.geom.GeometryFactory;
 
 import io.github.galbiston.geosparql_jena.implementation.GeometryWrapper;
 import io.github.galbiston.geosparql_jena.implementation.GeometryWrapperFactory;
-import main.java.de.hsmainz.rdf4jpostgis.geometry.GeometricUnaryFunction;
+import main.java.de.hsmainz.rdf4jpostgis.geometry.base.GeometricUnaryFunction;
 
 public class GeometricMedian extends GeometricUnaryFunction {
 

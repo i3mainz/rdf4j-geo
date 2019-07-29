@@ -14,6 +14,7 @@ import de.hsmainz.rdf4jpostgis.util.LiteralUtils;
 import io.github.galbiston.geosparql_jena.implementation.GeometryWrapper;
 import io.github.galbiston.geosparql_jena.implementation.GeometryWrapperFactory;
 import io.github.galbiston.geosparql_jena.implementation.datatype.WKTDatatype;
+import main.java.de.hsmainz.rdf4jpostgis.geometry.base.GeometricUnaryFunction;
 
 public class Multi extends GeometricUnaryFunction {
 

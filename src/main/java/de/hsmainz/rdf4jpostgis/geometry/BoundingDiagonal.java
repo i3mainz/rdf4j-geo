@@ -4,6 +4,8 @@ import org.locationtech.jts.geom.Coordinate;
 import org.locationtech.jts.geom.Geometry;
 import org.locationtech.jts.geom.GeometryFactory;
 
+import main.java.de.hsmainz.rdf4jpostgis.geometry.base.GeometricUnaryFunction;
+
 public class BoundingDiagonal extends GeometricUnaryFunction {
 
 	@Override

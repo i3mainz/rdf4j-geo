@@ -2,7 +2,7 @@ package main.java.de.hsmainz.rdf4jpostgis.point;
 
 import org.locationtech.jts.geom.Geometry;
 
-import main.java.de.hsmainz.rdf4jpostgis.geometry.GeometricDoubleAttributeFunction;
+import main.java.de.hsmainz.rdf4jpostgis.geometry.base.GeometricDoubleAttributeFunction;
 
 public class Y extends GeometricDoubleAttributeFunction {
 

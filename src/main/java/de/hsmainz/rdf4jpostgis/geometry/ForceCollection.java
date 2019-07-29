@@ -4,6 +4,8 @@ import org.locationtech.jts.geom.Geometry;
 import org.locationtech.jts.geom.GeometryFactory;
 import org.locationtech.jts.io.WKTReader;
 
+import main.java.de.hsmainz.rdf4jpostgis.geometry.base.GeometricUnaryFunction;
+
 public class ForceCollection extends GeometricUnaryFunction {
 
 	@Override
