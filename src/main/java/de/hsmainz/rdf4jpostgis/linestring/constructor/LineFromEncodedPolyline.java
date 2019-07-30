@@ -4,6 +4,7 @@ import java.math.BigInteger;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.eclipse.rdf4j.model.vocabulary.POSTGIS;
 import org.locationtech.jts.geom.Coordinate;
 import org.locationtech.jts.geom.Geometry;
 import org.locationtech.jts.geom.GeometryFactory;
@@ -59,5 +60,10 @@ public class LineFromEncodedPolyline extends GeometricConstructor {
 
         return coordinates;
     }
+
+	@Override
+	public String getURI() {
+		return POSTGIS.st_lineFromEncodedPolyline.stringValue();
+	}
 
 }

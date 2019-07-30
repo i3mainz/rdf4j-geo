@@ -1,5 +1,6 @@
 package main.java.de.hsmainz.rdf4jpostgis.geometry.transform;
 
+import org.eclipse.rdf4j.model.vocabulary.POSTGIS;
 import org.locationtech.jts.geom.Geometry;
 import org.locationtech.jts.operation.overlay.snap.GeometrySnapper;
 
@@ -9,8 +10,7 @@ public class Snap extends GeometricModifierFunction {
 
 	@Override
 	public String getURI() {
-		// TODO Auto-generated method stub
-		return null;
+		return POSTGIS.st_snap.stringValue();
 	}
 
 	@Override

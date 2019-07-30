@@ -1,5 +1,6 @@
 package main.java.de.hsmainz.rdf4jpostgis.envelope;
 
+import org.eclipse.rdf4j.model.vocabulary.POSTGIS;
 import org.locationtech.jts.geom.Coordinate;
 import org.locationtech.jts.geom.Geometry;
 
@@ -7,6 +8,11 @@ import main.java.de.hsmainz.rdf4jpostgis.geometry.base.GeometricDoubleAttributeF
 
 public class YMax extends GeometricDoubleAttributeFunction {
 
+	@Override
+	public String getURI() {
+		return POSTGIS.st_yMax.stringValue();
+	}
+	
 	@Override
 	public double attribute(Geometry geom) {
         Geometry geo=geom;

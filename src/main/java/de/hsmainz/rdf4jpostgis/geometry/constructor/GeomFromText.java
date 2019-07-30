@@ -1,5 +1,6 @@
 package main.java.de.hsmainz.rdf4jpostgis.geometry.constructor;
 
+import org.eclipse.rdf4j.model.vocabulary.POSTGIS;
 import org.locationtech.jts.geom.Geometry;
 import org.locationtech.jts.io.ParseException;
 import org.locationtech.jts.io.WKTReader;
@@ -19,6 +20,11 @@ public class GeomFromText extends GeometricConstructor {
 			e.printStackTrace();
 		}
         return geom;           
+	}
+
+	@Override
+	public String getURI() {
+		return POSTGIS.st_geomFromText.stringValue();
 	}
 
 }

@@ -4,6 +4,7 @@ import java.nio.ByteBuffer;
 import java.nio.ByteOrder;
 
 import org.apache.jena.sparql.expr.NodeValue;
+import org.eclipse.rdf4j.model.vocabulary.POSTGIS;
 import org.locationtech.jts.geom.Geometry;
 import org.locationtech.jts.io.WKBWriter;
 
@@ -28,6 +29,11 @@ public class AsBinary extends GeometricStringExportFunction {
             return bb.toString();
         }
         return result.toString();
+	}
+
+	@Override
+	public String getURI() {
+		return POSTGIS.ASBINARY.stringValue();
 	}
 	
 	

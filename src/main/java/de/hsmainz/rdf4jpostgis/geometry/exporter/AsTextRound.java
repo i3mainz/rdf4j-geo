@@ -1,6 +1,7 @@
 package main.java.de.hsmainz.rdf4jpostgis.geometry.exporter;
 
 import org.apache.jena.sparql.expr.NodeValue;
+import org.eclipse.rdf4j.model.vocabulary.POSTGIS;
 import org.locationtech.jts.geom.Geometry;
 import org.locationtech.jts.geom.PrecisionModel;
 import org.locationtech.jts.precision.GeometryPrecisionReducer;
@@ -22,6 +23,11 @@ public class AsTextRound extends GeometricStringExportFunction {
         //NodeValue wrapper2=flip.exec(wrapper.asNodeValue());
         //GeometryWrapper resultwrapper=GeometryWrapper.extract(wrapper2);
         return NodeValue.makeString(wrapper.getXYGeometry().toText());
+	}
+
+	@Override
+	public String getURI() {
+		return POSTGIS.ASTEXTROUND.stringValue();
 	}
 
 }

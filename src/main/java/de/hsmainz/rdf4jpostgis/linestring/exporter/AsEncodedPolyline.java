@@ -1,5 +1,6 @@
 package main.java.de.hsmainz.rdf4jpostgis.linestring.exporter;
 
+import org.eclipse.rdf4j.model.vocabulary.POSTGIS;
 import org.locationtech.jts.geom.Coordinate;
 import org.locationtech.jts.geom.Geometry;
 import org.locationtech.jts.geom.LineString;
@@ -47,5 +48,10 @@ public class AsEncodedPolyline extends GeometricStringExportFunction {
         }
         result.append(Character.toChars((int) (v + 63)));
     }
+
+	@Override
+	public String getURI() {
+		return POSTGIS.ST_ASENCODEDPOLYLINE.stringValue();
+	}
 
 }

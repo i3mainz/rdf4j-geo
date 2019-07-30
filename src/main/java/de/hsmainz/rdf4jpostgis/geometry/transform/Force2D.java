@@ -3,6 +3,7 @@ package main.java.de.hsmainz.rdf4jpostgis.geometry.transform;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.eclipse.rdf4j.model.vocabulary.POSTGIS;
 import org.locationtech.jts.geom.Coordinate;
 import org.locationtech.jts.geom.Geometry;
 
@@ -14,8 +15,7 @@ public class Force2D extends GeometricUnaryFunction {
 
 	@Override
 	public String getURI() {
-		// TODO Auto-generated method stub
-		return null;
+		return POSTGIS.st_force2d.stringValue();
 	}
 
 	@Override

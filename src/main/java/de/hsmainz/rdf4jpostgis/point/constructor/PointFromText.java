@@ -1,5 +1,6 @@
 package main.java.de.hsmainz.rdf4jpostgis.point.constructor;
 
+import org.eclipse.rdf4j.model.vocabulary.POSTGIS;
 import org.locationtech.jts.geom.Geometry;
 import org.locationtech.jts.geom.GeometryFactory;
 import org.locationtech.jts.io.ParseException;
@@ -23,6 +24,11 @@ public class PointFromText extends GeometricConstructor {
 			e.printStackTrace();
 		} 
         return null;
+	}
+
+	@Override
+	public String getURI() {
+		return POSTGIS.st_pointFromText.stringValue();
 	}
 
 }

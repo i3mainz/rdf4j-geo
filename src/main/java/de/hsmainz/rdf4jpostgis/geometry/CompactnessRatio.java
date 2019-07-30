@@ -1,5 +1,6 @@
 package main.java.de.hsmainz.rdf4jpostgis.geometry;
 
+import org.eclipse.rdf4j.model.vocabulary.POSTGIS;
 import org.locationtech.jts.geom.Geometry;
 import org.locationtech.jts.geom.Polygon;
 
@@ -15,6 +16,11 @@ public class CompactnessRatio extends GeometricDoubleAttributeFunction {
             return circleCurcumference / geom.getLength();
         }
 		return Double.NaN;
+	}
+
+	@Override
+	public String getURI() {
+		return POSTGIS.ST_COMPACTNESSRATIO.stringValue();
 	}
 
 }

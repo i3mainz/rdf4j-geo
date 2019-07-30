@@ -1,5 +1,6 @@
 package main.java.de.hsmainz.rdf4jpostgis.point;
 
+import org.eclipse.rdf4j.model.vocabulary.POSTGIS;
 import org.locationtech.jts.geom.Geometry;
 
 import main.java.de.hsmainz.rdf4jpostgis.geometry.base.GeometricDoubleAttributeFunction;
@@ -12,6 +13,11 @@ public class Z extends GeometricDoubleAttributeFunction {
 			return geom.getCoordinate().z;
 		}
 		return geom.getCentroid().getZ();
+	}
+
+	@Override
+	public String getURI() {
+		return POSTGIS.st_z.stringValue();
 	}
 
 }

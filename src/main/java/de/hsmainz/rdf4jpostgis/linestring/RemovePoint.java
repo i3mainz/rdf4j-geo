@@ -3,23 +3,20 @@ package main.java.de.hsmainz.rdf4jpostgis.linestring;
 import java.math.BigInteger;
 
 import org.apache.commons.lang3.ArrayUtils;
+import org.eclipse.rdf4j.model.vocabulary.POSTGIS;
 import org.locationtech.jts.geom.Coordinate;
 import org.locationtech.jts.geom.Geometry;
 import org.locationtech.jts.geom.LineString;
 import org.locationtech.jts.geom.Point;
 
 import de.hsmainz.rdf4jpostgis.util.LiteralUtils;
-import io.github.galbiston.geosparql_jena.implementation.GeometryWrapper;
-import io.github.galbiston.geosparql_jena.implementation.GeometryWrapperFactory;
-import io.github.galbiston.geosparql_jena.implementation.datatype.WKTDatatype;
 import main.java.de.hsmainz.rdf4jpostgis.geometry.base.GeometricModifierFunction;
 
 public class RemovePoint extends GeometricModifierFunction {
 
 	@Override
 	public String getURI() {
-		// TODO Auto-generated method stub
-		return null;
+		return POSTGIS.st_removePoint.stringValue();
 	}
 
 	@Override

@@ -1,5 +1,6 @@
 package main.java.de.hsmainz.rdf4jpostgis.envelope;
 
+import org.eclipse.rdf4j.model.vocabulary.POSTGIS;
 import org.locationtech.jts.geom.Coordinate;
 import org.locationtech.jts.geom.Geometry;
 
@@ -17,6 +18,11 @@ public class ZMin extends GeometricDoubleAttributeFunction {
         	}
         }
         return minZ;
+	}
+
+	@Override
+	public String getURI() {
+		return POSTGIS.st_zMin.stringValue();
 	}
 
 }

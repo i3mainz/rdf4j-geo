@@ -22,4 +22,9 @@ public class AsGeoHash extends GeometricStringExportFunction {
 
 	}
 
+	@Override
+	public String getURI() {
+		return POSTGIS.ASGEOHASH.stringValue();
+	}
+
 }

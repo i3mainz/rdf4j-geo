@@ -3,6 +3,7 @@ package main.java.de.hsmainz.rdf4jpostgis.geometry.constructor;
 import java.text.ParseException;
 
 import org.apache.jena.sparql.expr.ExprEvalException;
+import org.eclipse.rdf4j.model.vocabulary.POSTGIS;
 import org.locationtech.jts.geom.Coordinate;
 import org.locationtech.jts.geom.Geometry;
 import org.opengis.geometry.DirectPosition;
@@ -20,6 +21,11 @@ public class GeomFromGeoHash extends GeometricConstructor{
 		Coordinate coord=new Coordinate(pos.getCoordinate()[1], pos.getCoordinate()[0]);
 		return GeometryWrapperFactory.createPoint(coord,WKTDatatype.URI).asNodeValue();
 		
+	}
+
+	@Override
+	public String getURI() {
+		return POSTGIS.st_geomFromGeoHash.stringValue();
 	}
 
 }

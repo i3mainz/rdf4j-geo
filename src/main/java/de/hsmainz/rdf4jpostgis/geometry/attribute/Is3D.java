@@ -1,5 +1,6 @@
 package main.java.de.hsmainz.rdf4jpostgis.geometry.attribute;
 
+import org.eclipse.rdf4j.model.vocabulary.POSTGIS;
 import org.locationtech.jts.geom.Coordinate;
 import org.locationtech.jts.geom.Geometry;
 
@@ -9,8 +10,7 @@ public class Is3D extends GeometricBinaryAttributeFunction {
 
 	@Override
 	public String getURI() {
-		// TODO Auto-generated method stub
-		return null;
+		return POSTGIS.st_is3D.stringValue();
 	}
 
 	@Override

@@ -1,5 +1,6 @@
 package main.java.de.hsmainz.rdf4jpostgis.point.constructor;
 
+import org.eclipse.rdf4j.model.vocabulary.POSTGIS;
 import org.locationtech.jts.geom.Geometry;
 import org.locationtech.jts.io.ParseException;
 import org.locationtech.jts.io.WKBReader;
@@ -22,6 +23,11 @@ public class PointFromWKB extends GeometricConstructor {
 			e.printStackTrace();
 		} 
         return null;
+	}
+
+	@Override
+	public String getURI() {
+		return POSTGIS.st_pointFromWKB.stringValue();
 	}
 
 }

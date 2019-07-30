@@ -1,6 +1,7 @@
 package main.java.de.hsmainz.rdf4jpostgis.geometry.exporter;
 
 
+import org.eclipse.rdf4j.model.vocabulary.POSTGIS;
 import org.locationtech.jts.geom.Geometry;
 
 import main.java.de.hsmainz.rdf4jpostgis.geometry.base.GeometricStringExportFunction;
@@ -37,6 +38,11 @@ public class AsLatLonText  extends GeometricStringExportFunction{
 		Double min=D%1*60;
 		Double sec=(D*60%1*6000)/100;
 		return deg+"°"+min+"'"+sec+"\""+dir;
+	}
+
+	@Override
+	public String getURI() {
+		return POSTGIS.ASLATLONTEXT.stringValue();
 	}
 
 }

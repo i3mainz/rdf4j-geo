@@ -2,6 +2,7 @@ package main.java.de.hsmainz.rdf4jpostgis.linestring;
 
 import java.math.BigInteger;
 
+import org.eclipse.rdf4j.model.vocabulary.POSTGIS;
 import org.locationtech.jts.geom.Coordinate;
 import org.locationtech.jts.geom.Geometry;
 import org.locationtech.jts.geom.LineString;
@@ -17,8 +18,7 @@ public class SetPoint extends GeometricModifierFunction {
 
 	@Override
 	public String getURI() {
-		// TODO Auto-generated method stub
-		return null;
+		return POSTGIS.st_setPoint.stringValue();
 	}
 
 	@Override

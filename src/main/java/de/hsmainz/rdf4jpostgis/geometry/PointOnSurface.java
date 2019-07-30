@@ -5,17 +5,16 @@ import org.locationtech.jts.geom.Geometry;
 
 import main.java.de.hsmainz.rdf4jpostgis.geometry.base.GeometricUnaryFunction;
 
-public class MinimumBoundingCircleCenter extends GeometricUnaryFunction {
+public class PointOnSurface extends GeometricUnaryFunction {
 
 	@Override
 	public String getURI() {
-		return POSTGIS.st_minimumBoundingCircleCenter.stringValue();
+		return POSTGIS.st_pointOnSurface.stringValue();
 	}
 
 	@Override
 	protected Geometry operation(Geometry geom) {
-		org.locationtech.jts.algorithm.MinimumBoundingCircle minCircle = new org.locationtech.jts.algorithm.MinimumBoundingCircle(geom);
-        return minCircle.getCircle().getCentroid();
+		return geom.getInteriorPoint();
 	}
 
 }

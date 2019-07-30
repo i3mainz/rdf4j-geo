@@ -1,5 +1,6 @@
 package main.java.de.hsmainz.rdf4jpostgis.geometry.exporter;
 
+import org.eclipse.rdf4j.model.vocabulary.POSTGIS;
 import org.locationtech.jts.geom.Geometry;
 
 import main.java.de.hsmainz.rdf4jpostgis.geometry.base.GeometricStringExportFunction;
@@ -25,5 +26,9 @@ public class AsGeoRSS extends GeometricStringExportFunction {
 			      "<guid isPermaLink=\"false\">00000111c36421c1321d3</guid>"+
 			      "<pubDate>"+System.currentTimeMillis()+"</pubDate>";
 	String out2="</item></channel></rss>";
+	@Override
+	public String getURI() {
+		return POSTGIS.ASGEORSS.stringValue();
+	}
 
 }

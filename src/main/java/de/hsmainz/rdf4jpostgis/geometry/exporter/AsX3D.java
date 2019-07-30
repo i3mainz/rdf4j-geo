@@ -5,6 +5,7 @@ import java.math.BigInteger;
 import org.apache.jena.datatypes.DatatypeFormatException;
 import org.apache.jena.sparql.expr.ExprEvalException;
 import org.apache.jena.sparql.expr.NodeValue;
+import org.eclipse.rdf4j.model.vocabulary.POSTGIS;
 import org.locationtech.jts.geom.Coordinate;
 import org.locationtech.jts.geom.Geometry;
 
@@ -35,5 +36,10 @@ public class AsX3D extends GeometricStringExportFunction {
 			"<!DOCTYPE X3D PUBLIC \"ISO//Web3D//DTD X3D 3.2//EN\""+
 			  "http://www.web3d.org/specifications/x3d-3.2.dtd\"><Scene><Shape>";
 			String footer="</Shape></Scene></X3D>";
+			@Override
+			public String getURI() {
+				// TODO Auto-generated method stub
+				return POSTGIS.ASX3D.stringValue();
+			}
 
 }

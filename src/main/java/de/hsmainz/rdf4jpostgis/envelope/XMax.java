@@ -1,6 +1,6 @@
 package main.java.de.hsmainz.rdf4jpostgis.envelope;
 
-import org.apache.jena.sparql.expr.NodeValue;
+import org.eclipse.rdf4j.model.vocabulary.POSTGIS;
 import org.locationtech.jts.geom.Coordinate;
 import org.locationtech.jts.geom.Geometry;
 
@@ -11,8 +11,7 @@ public class XMax extends GeometricDoubleAttributeFunction {
 
 	@Override
 	public String getURI() {
-		// TODO Auto-generated method stub
-		return null;
+		return POSTGIS.st_xMax.stringValue();
 	}
 
 	@Override

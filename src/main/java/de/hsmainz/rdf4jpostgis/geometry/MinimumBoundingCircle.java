@@ -1,5 +1,6 @@
 package main.java.de.hsmainz.rdf4jpostgis.geometry;
 
+import org.eclipse.rdf4j.model.vocabulary.POSTGIS;
 import org.locationtech.jts.geom.Geometry;
 
 import main.java.de.hsmainz.rdf4jpostgis.geometry.base.GeometricUnaryFunction;
@@ -8,8 +9,7 @@ public class MinimumBoundingCircle extends GeometricUnaryFunction{
 
 	@Override
 	public String getURI() {
-		// TODO Auto-generated method stub
-		return null;
+		return POSTGIS.st_minimumBoundingCircle.stringValue();
 	}
 
 	@Override

@@ -3,20 +3,19 @@ package main.java.de.hsmainz.rdf4jpostgis.geometry.transform;
 import java.util.LinkedList;
 import java.util.List;
 
+import org.eclipse.rdf4j.model.vocabulary.POSTGIS;
 import org.locationtech.jts.geom.Coordinate;
 import org.locationtech.jts.geom.Geometry;
 import org.locationtech.jts.geom.GeometryFactory;
 
 import de.hsmainz.rdf4jpostgis.util.LiteralUtils;
-import io.github.galbiston.geosparql_jena.implementation.GeometryWrapper;
 import main.java.de.hsmainz.rdf4jpostgis.geometry.base.GeometricUnaryFunction;
 
 public class ShiftLongitude extends GeometricUnaryFunction{
 
 	@Override
 	public String getURI() {
-		// TODO Auto-generated method stub
-		return null;
+		return POSTGIS.st_shiftLongitude.stringValue();
 	}
 
 	@Override

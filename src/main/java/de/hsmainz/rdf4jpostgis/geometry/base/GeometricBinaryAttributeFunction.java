@@ -13,12 +13,6 @@ import org.locationtech.spatial4j.shape.Shape;
 public abstract class GeometricBinaryAttributeFunction implements Function {
 
 	@Override
-	public String getURI() {
-		// TODO Auto-generated method stub
-		return null;
-	}
-
-	@Override
 	public Value evaluate(ValueFactory valueFactory, Value... args) throws ValueExprEvaluationException {
 		if (args.length != 1) {
 			throw new ValueExprEvaluationException(getURI() + " requires exactly 1 arguments, got " + args.length);

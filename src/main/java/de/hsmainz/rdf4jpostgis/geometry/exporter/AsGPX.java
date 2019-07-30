@@ -1,5 +1,6 @@
 package main.java.de.hsmainz.rdf4jpostgis.geometry.exporter;
 
+import org.eclipse.rdf4j.model.vocabulary.POSTGIS;
 import org.locationtech.jts.geom.Coordinate;
 import org.locationtech.jts.geom.Geometry;
 
@@ -7,6 +8,8 @@ import main.java.de.hsmainz.rdf4jpostgis.geometry.base.GeometricStringExportFunc
 
 public class AsGPX extends GeometricStringExportFunction {
 
+	
+	
 	String out="<?xml version='1.0' encoding='UTF-8' standalone='no' ?>" + 
 			"<gpx version='1.0'>"+
 			"<name>Example gpx</name>";
@@ -26,6 +29,11 @@ public class AsGPX extends GeometricStringExportFunction {
         	trackpoints.append("</trkpt>");
         }
         return out+out2+trackpoints+out3;
+	}
+
+	@Override
+	public String getURI() {
+		return POSTGIS.ASGPX.stringValue();
 	}
 
 }

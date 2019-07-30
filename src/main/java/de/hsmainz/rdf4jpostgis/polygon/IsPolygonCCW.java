@@ -1,5 +1,6 @@
 package main.java.de.hsmainz.rdf4jpostgis.polygon;
 
+import org.eclipse.rdf4j.model.vocabulary.POSTGIS;
 import org.locationtech.jts.algorithm.Orientation;
 import org.locationtech.jts.geom.Geometry;
 import org.locationtech.jts.geom.Polygon;
@@ -14,6 +15,11 @@ public class IsPolygonCCW extends GeometricBinaryAttributeFunction {
                 return Orientation.isCCW(geom.getCoordinates());
             }
             return false;
+	}
+
+	@Override
+	public String getURI() {
+		return POSTGIS.st_isPolygonCCW.stringValue();
 	}
 
 }

@@ -2,6 +2,7 @@ package main.java.de.hsmainz.rdf4jpostgis.point;
 
 import org.apache.jena.datatypes.DatatypeFormatException;
 import org.apache.jena.sparql.expr.ExprEvalException;
+import org.eclipse.rdf4j.model.vocabulary.POSTGIS;
 import org.locationtech.jts.geom.Coordinate;
 import org.locationtech.jts.geom.Geometry;
 import org.locationtech.jts.geom.GeometryFactory;
@@ -14,8 +15,7 @@ public class GeometricMedian extends GeometricUnaryFunction {
 
 	@Override
 	public String getURI() {
-		// TODO Auto-generated method stub
-		return null;
+		return POSTGIS.st_geometricMedian.stringValue();
 	}
 
 	@Override

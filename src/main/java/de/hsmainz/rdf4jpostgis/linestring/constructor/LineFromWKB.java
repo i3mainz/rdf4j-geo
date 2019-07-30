@@ -1,5 +1,6 @@
 package main.java.de.hsmainz.rdf4jpostgis.linestring.constructor;
 
+import org.eclipse.rdf4j.model.vocabulary.POSTGIS;
 import org.locationtech.jts.geom.Geometry;
 import org.locationtech.jts.io.ParseException;
 import org.locationtech.jts.io.WKBReader;
@@ -24,6 +25,11 @@ public class LineFromWKB extends GeometricConstructor {
 		}
 
          return null;
+	}
+
+	@Override
+	public String getURI() {
+		return POSTGIS.st_lineFromWKB.stringValue();
 	}
 
 }

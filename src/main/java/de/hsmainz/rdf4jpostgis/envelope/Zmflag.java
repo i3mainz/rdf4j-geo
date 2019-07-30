@@ -3,6 +3,7 @@ package main.java.de.hsmainz.rdf4jpostgis.envelope;
 import org.apache.jena.datatypes.DatatypeFormatException;
 import org.apache.jena.sparql.expr.ExprEvalException;
 import org.apache.jena.sparql.expr.NodeValue;
+import org.eclipse.rdf4j.model.vocabulary.POSTGIS;
 import org.locationtech.jts.geom.Coordinate;
 import org.locationtech.jts.geom.Geometry;
 
@@ -24,6 +25,11 @@ public class Zmflag extends GeometricStringExportFunction {
 	            	return 3;
 	            }
 	            return null;
+	}
+
+	@Override
+	public String getURI() {
+		return POSTGIS.st_zmFlag.stringValue();
 	}
 
 }

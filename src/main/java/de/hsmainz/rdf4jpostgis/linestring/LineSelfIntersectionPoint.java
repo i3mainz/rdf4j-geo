@@ -1,5 +1,6 @@
 package main.java.de.hsmainz.rdf4jpostgis.linestring;
 
+import org.eclipse.rdf4j.model.vocabulary.POSTGIS;
 import org.locationtech.jts.geom.Geometry;
 import org.locationtech.jts.geom.GeometryFactory;
 
@@ -10,8 +11,7 @@ public class LineSelfIntersectionPoint extends GeometricUnaryFunction {
 
 	@Override
 	public String getURI() {
-		// TODO Auto-generated method stub
-		return null;
+		return POSTGIS.st_lineSelfIntersectionPoint.stringValue();
 	}
 
 	@Override

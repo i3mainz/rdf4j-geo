@@ -1,6 +1,6 @@
 package main.java.de.hsmainz.rdf4jpostgis.geometry.attribute;
 
-import org.apache.jena.sparql.expr.NodeValue;
+import org.eclipse.rdf4j.model.vocabulary.POSTGIS;
 import org.locationtech.jts.geom.Coordinate;
 import org.locationtech.jts.geom.Geometry;
 import org.locationtech.jts.geom.LineString;
@@ -23,6 +23,11 @@ public class IsValidTrajectory extends GeometricBinaryAttributeFunction {
 			return true;
 		}
 		return false;
+	}
+
+	@Override
+	public String getURI() {
+		return POSTGIS.st_isValidTrajectory.stringValue();
 	}
 	
 

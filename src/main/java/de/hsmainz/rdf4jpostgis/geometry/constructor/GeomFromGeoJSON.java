@@ -1,5 +1,6 @@
 package main.java.de.hsmainz.rdf4jpostgis.geometry.constructor;
 
+import org.eclipse.rdf4j.model.vocabulary.POSTGIS;
 import org.locationtech.jts.geom.Geometry;
 import org.wololo.jts2geojson.GeoJSONReader;
 
@@ -13,5 +14,10 @@ public class GeomFromGeoJSON extends GeometricConstructor {
 		GeoJSONReader reader = new GeoJSONReader();
 		Geometry geom = reader.read(input);
         return geom;	 
+	}
+
+	@Override
+	public String getURI() {
+		return POSTGIS.st_geomFromGeoJSON.toString();
 	}
 }
