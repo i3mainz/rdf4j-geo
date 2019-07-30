@@ -1,4 +1,4 @@
-package main.java.de.hsmainz.rdf4jpostgis.linestring;
+package org.eclipse.rdf4j.query.algebra.postgis.linestring;
 
 import java.util.Arrays;
 import java.util.List;
@@ -10,7 +10,7 @@ import org.locationtech.jts.geom.Geometry;
 import org.locationtech.jts.geom.GeometryFactory;
 import org.locationtech.jts.geom.Point;
 
-import main.java.de.hsmainz.rdf4jpostgis.geometry.base.GeometricModifierFunction;
+import org.eclipse.rdf4j.query.algebra.postgis.geometry.base.GeometricModifierFunction;
 
 public class AddPoint extends GeometricModifierFunction {
 

@@ -1,4 +1,4 @@
-package main.java.de.hsmainz.rdf4jpostgis.geometry;
+package org.eclipse.rdf4j.query.algebra.postgis.geometry;
 
 import java.util.LinkedList;
 import java.util.List;
@@ -9,7 +9,7 @@ import org.locationtech.jts.geom.Coordinate;
 import org.locationtech.jts.geom.CoordinateXYZM;
 import org.locationtech.jts.geom.Geometry;
 
-import main.java.de.hsmainz.rdf4jpostgis.geometry.base.GeometricModifierDoubleFunction;
+import org.eclipse.rdf4j.query.algebra.postgis.geometry.base.GeometricModifierDoubleFunction;
 
 public class MultiplyZ extends GeometricModifierDoubleFunction {
 

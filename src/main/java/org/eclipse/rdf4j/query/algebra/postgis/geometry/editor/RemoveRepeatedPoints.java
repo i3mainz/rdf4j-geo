@@ -1,4 +1,4 @@
-package main.java.de.hsmainz.rdf4jpostgis.geometry.editor;
+package org.eclipse.rdf4j.query.algebra.postgis.geometry.editor;
 
 import java.util.LinkedList;
 import java.util.List;
@@ -8,7 +8,7 @@ import org.eclipse.rdf4j.query.algebra.postgis.util.LiteralUtils;
 import org.locationtech.jts.geom.Coordinate;
 import org.locationtech.jts.geom.Geometry;
 
-import main.java.de.hsmainz.rdf4jpostgis.geometry.base.GeometricModifierDoubleFunction;
+import org.eclipse.rdf4j.query.algebra.postgis.geometry.base.GeometricModifierDoubleFunction;
 
 public class RemoveRepeatedPoints extends GeometricModifierDoubleFunction {
 

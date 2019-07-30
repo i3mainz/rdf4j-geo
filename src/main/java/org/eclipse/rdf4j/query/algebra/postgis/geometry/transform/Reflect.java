@@ -1,10 +1,10 @@
-package main.java.de.hsmainz.rdf4jpostgis.geometry.transform;
+package org.eclipse.rdf4j.query.algebra.postgis.geometry.transform;
 
 import org.eclipse.rdf4j.model.vocabulary.POSTGIS;
 import org.locationtech.jts.geom.Geometry;
 import org.locationtech.jts.geom.util.AffineTransformation;
 
-import main.java.de.hsmainz.rdf4jpostgis.geometry.base.GeometricModifierFunction;
+import org.eclipse.rdf4j.query.algebra.postgis.geometry.base.GeometricModifierFunction;
 
 public class Reflect extends GeometricModifierFunction {
 

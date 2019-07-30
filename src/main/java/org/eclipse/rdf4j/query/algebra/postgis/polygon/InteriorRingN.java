@@ -1,4 +1,4 @@
-package main.java.de.hsmainz.rdf4jpostgis.polygon;
+package org.eclipse.rdf4j.query.algebra.postgis.polygon;
 
 public class InteriorRingN extends Geom {
 

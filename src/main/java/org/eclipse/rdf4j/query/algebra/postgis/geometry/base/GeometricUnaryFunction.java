@@ -1,4 +1,4 @@
-package main.java.de.hsmainz.rdf4jpostgis.geometry.base;
+package org.eclipse.rdf4j.query.algebra.postgis.geometry.base;
 
 import java.io.IOException;
 

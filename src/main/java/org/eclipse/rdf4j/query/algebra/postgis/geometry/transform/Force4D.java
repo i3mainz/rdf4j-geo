@@ -1,4 +1,4 @@
-package main.java.de.hsmainz.rdf4jpostgis.geometry.transform;
+package org.eclipse.rdf4j.query.algebra.postgis.geometry.transform;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -11,7 +11,7 @@ import org.locationtech.jts.geom.Coordinate;
 import org.locationtech.jts.geom.CoordinateXYZM;
 import org.locationtech.jts.geom.Geometry;
 
-import main.java.de.hsmainz.rdf4jpostgis.geometry.base.GeometricUnaryFunction;
+import org.eclipse.rdf4j.query.algebra.postgis.geometry.base.GeometricUnaryFunction;
 
 
 

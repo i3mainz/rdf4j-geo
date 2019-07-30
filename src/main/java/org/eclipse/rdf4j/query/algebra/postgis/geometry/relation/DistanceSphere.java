@@ -1,4 +1,4 @@
-package main.java.de.hsmainz.rdf4jpostgis.geometry.relation;
+package org.eclipse.rdf4j.query.algebra.postgis.geometry.relation;
 
 public class DistanceSphere {
 

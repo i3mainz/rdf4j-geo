@@ -1,4 +1,4 @@
-package main.java.de.hsmainz.rdf4jpostgis.linestring;
+package org.eclipse.rdf4j.query.algebra.postgis.linestring;
 
 import org.eclipse.rdf4j.model.vocabulary.POSTGIS;
 import org.locationtech.jts.geom.Coordinate;
@@ -7,7 +7,7 @@ import org.locationtech.jts.geom.GeometryFactory;
 import org.locationtech.jts.linearref.LengthLocationMap;
 import org.locationtech.jts.linearref.LinearLocation;
 
-import main.java.de.hsmainz.rdf4jpostgis.geometry.base.GeometricModifierDoubleFunction;
+import org.eclipse.rdf4j.query.algebra.postgis.geometry.base.GeometricModifierDoubleFunction;
 
 public class LineInterpolatePoint extends GeometricModifierDoubleFunction {
 

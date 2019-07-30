@@ -1,4 +1,4 @@
-package main.java.de.hsmainz.rdf4jpostgis.polygon.constructor;
+package org.eclipse.rdf4j.query.algebra.postgis.polygon.constructor;
 
 public class MakePolygon {
 

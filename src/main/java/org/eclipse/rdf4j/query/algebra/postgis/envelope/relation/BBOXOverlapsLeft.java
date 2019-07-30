@@ -1,10 +1,10 @@
-package main.java.de.hsmainz.rdf4jpostgis.envelope.relation;
+package org.eclipse.rdf4j.query.algebra.postgis.envelope.relation;
 
 import org.eclipse.rdf4j.model.vocabulary.POSTGIS;
 import org.eclipse.rdf4j.query.algebra.postgis.util.LiteralUtils;
 import org.locationtech.jts.geom.Geometry;
 
-import main.java.de.hsmainz.rdf4jpostgis.geometry.base.GeometricRelationBinaryFunction;
+import org.eclipse.rdf4j.query.algebra.postgis.geometry.base.GeometricRelationBinaryFunction;
 
 public class BBOXOverlapsLeft extends GeometricRelationBinaryFunction {
 

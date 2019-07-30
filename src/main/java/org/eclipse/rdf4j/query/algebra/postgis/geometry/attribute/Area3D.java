@@ -1,4 +1,4 @@
-package main.java.de.hsmainz.rdf4jpostgis.geometry.attribute;
+package org.eclipse.rdf4j.query.algebra.postgis.geometry.attribute;
 
 public class Area3D extends GEom {
 

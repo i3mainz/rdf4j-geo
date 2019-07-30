@@ -1,4 +1,4 @@
-package main.java.de.hsmainz.rdf4jpostgis.geometry.constructor;
+package org.eclipse.rdf4j.query.algebra.postgis.geometry.constructor;
 
 import java.text.ParseException;
 
@@ -10,7 +10,7 @@ import org.opengis.geometry.DirectPosition;
 
 import io.github.galbiston.geosparql_jena.implementation.GeometryWrapperFactory;
 import io.github.galbiston.geosparql_jena.implementation.datatype.WKTDatatype;
-import main.java.de.hsmainz.rdf4jpostgis.geometry.base.GeometricConstructor;
+import org.eclipse.rdf4j.query.algebra.postgis.geometry.base.GeometricConstructor;
 
 public class GeomFromGeoHash extends GeometricConstructor{
 

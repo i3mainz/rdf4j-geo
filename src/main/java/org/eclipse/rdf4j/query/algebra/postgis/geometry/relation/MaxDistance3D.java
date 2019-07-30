@@ -1,4 +1,4 @@
-package main.java.de.hsmainz.rdf4jpostgis.geometry.relation;
+package org.eclipse.rdf4j.query.algebra.postgis.geometry.relation;
 
 import org.apache.jena.sparql.expr.NodeValue;
 import org.eclipse.rdf4j.model.vocabulary.POSTGIS;
@@ -8,8 +8,8 @@ import org.locationtech.jts.geom.Geometry;
 import org.locationtech.jts.geom.GeometryFactory;
 import org.locationtech.jts.operation.distance3d.Distance3DOp;
 
-import main.java.de.hsmainz.rdf4jpostgis.geometry.base.GeometricModifierDoubleFunction;
-import main.java.de.hsmainz.rdf4jpostgis.geometry.base.GeometricRelationDoubleFunction;
+import org.eclipse.rdf4j.query.algebra.postgis.geometry.base.GeometricModifierDoubleFunction;
+import org.eclipse.rdf4j.query.algebra.postgis.geometry.base.GeometricRelationDoubleFunction;
 
 public class MaxDistance3D extends GeometricRelationDoubleFunction {
 

@@ -1,4 +1,4 @@
-package main.java.de.hsmainz.rdf4jpostgis.linestring;
+package org.eclipse.rdf4j.query.algebra.postgis.linestring;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -15,7 +15,7 @@ import org.locationtech.jts.geom.PrecisionModel;
 import org.opengis.referencing.NoSuchAuthorityCodeException;
 import org.opengis.util.FactoryException;
 
-import main.java.de.hsmainz.rdf4jpostgis.geometry.base.GeometricModifierDoubleFunction;
+import org.eclipse.rdf4j.query.algebra.postgis.geometry.base.GeometricModifierDoubleFunction;
 
 public class Segmentize extends GeometricModifierDoubleFunction{
 

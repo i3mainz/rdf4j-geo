@@ -1,6 +1,6 @@
-package main.java.de.hsmainz.rdf4jpostgis.linestring.constructor;
+package org.eclipse.rdf4j.query.algebra.postgis.linestring.constructor;
 
-import main.java.de.hsmainz.rdf4jpostgis.geometry.base.GeometricConstructor;
+import org.eclipse.rdf4j.query.algebra.postgis.geometry.base.GeometricConstructor;
 
 public class MakeLine extends GeometricArrayConstructor {
 

@@ -1,11 +1,11 @@
-package main.java.de.hsmainz.rdf4jpostgis.polygon;
+package org.eclipse.rdf4j.query.algebra.postgis.polygon;
 
 import org.eclipse.rdf4j.model.vocabulary.POSTGIS;
 import org.locationtech.jts.algorithm.Orientation;
 import org.locationtech.jts.geom.Geometry;
 import org.locationtech.jts.geom.Polygon;
 
-import main.java.de.hsmainz.rdf4jpostgis.geometry.base.GeometricBinaryAttributeFunction;
+import org.eclipse.rdf4j.query.algebra.postgis.geometry.base.GeometricBinaryAttributeFunction;
 
 public class IsPolygonCCW extends GeometricBinaryAttributeFunction {
 

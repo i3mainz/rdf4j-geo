@@ -1,4 +1,4 @@
-package main.java.de.hsmainz.rdf4jpostgis.linestring.constructor;
+package org.eclipse.rdf4j.query.algebra.postgis.linestring.constructor;
 
 import java.math.BigInteger;
 
@@ -7,7 +7,7 @@ import org.locationtech.jts.geom.Geometry;
 import org.locationtech.jts.io.ParseException;
 import org.locationtech.jts.io.WKTReader;
 
-import main.java.de.hsmainz.rdf4jpostgis.geometry.base.GeometricConstructor;
+import org.eclipse.rdf4j.query.algebra.postgis.geometry.base.GeometricConstructor;
 
 public class MLineFromText extends GeometricConstructor {
 

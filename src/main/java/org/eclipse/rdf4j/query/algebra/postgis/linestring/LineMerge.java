@@ -1,4 +1,4 @@
-package main.java.de.hsmainz.rdf4jpostgis.linestring;
+package org.eclipse.rdf4j.query.algebra.postgis.linestring;
 
 import java.util.Arrays;
 import java.util.LinkedList;
@@ -11,7 +11,7 @@ import org.locationtech.jts.geom.Geometry;
 import org.locationtech.jts.geom.GeometryFactory;
 import org.locationtech.jts.geom.MultiLineString;
 
-import main.java.de.hsmainz.rdf4jpostgis.geometry.base.GeometricUnaryFunction;
+import org.eclipse.rdf4j.query.algebra.postgis.geometry.base.GeometricUnaryFunction;
 
 public class LineMerge extends GeometricUnaryFunction {
 

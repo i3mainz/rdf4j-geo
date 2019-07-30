@@ -1,4 +1,4 @@
-package main.java.de.hsmainz.rdf4jpostgis.geometry.attribute;
+package org.eclipse.rdf4j.query.algebra.postgis.geometry.attribute;
 
 import org.eclipse.rdf4j.model.vocabulary.POSTGIS;
 import org.locationtech.jts.geom.Coordinate;
@@ -6,7 +6,7 @@ import org.locationtech.jts.geom.CoordinateXY;
 import org.locationtech.jts.geom.Geometry;
 import org.locationtech.jts.geom.GeometryFactory;
 
-import main.java.de.hsmainz.rdf4jpostgis.geometry.base.GeometricModifierIntegerFunction;
+import org.eclipse.rdf4j.query.algebra.postgis.geometry.base.GeometricModifierIntegerFunction;
 
 public class PointN extends GeometricModifierIntegerFunction {
 

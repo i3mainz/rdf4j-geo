@@ -1,4 +1,4 @@
-package main.java.de.hsmainz.rdf4jpostgis.geometry;
+package org.eclipse.rdf4j.query.algebra.postgis.geometry;
 
 import java.math.BigInteger;
 
@@ -11,7 +11,7 @@ import org.locationtech.jts.triangulate.DelaunayTriangulationBuilder;
 
 import io.github.galbiston.geosparql_jena.implementation.GeometryWrapper;
 import io.github.galbiston.geosparql_jena.implementation.GeometryWrapperFactory;
-import main.java.de.hsmainz.rdf4jpostgis.geometry.base.GeometricUnaryFunction;
+import org.eclipse.rdf4j.query.algebra.postgis.geometry.base.GeometricUnaryFunction;
 
 public class DelaunayTriangles extends GeometricUnaryFunction {
 

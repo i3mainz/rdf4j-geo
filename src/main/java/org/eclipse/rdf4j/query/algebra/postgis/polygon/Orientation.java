@@ -1,10 +1,10 @@
-package main.java.de.hsmainz.rdf4jpostgis.polygon;
+package org.eclipse.rdf4j.query.algebra.postgis.polygon;
 
 import org.eclipse.rdf4j.model.vocabulary.POSTGIS;
 import org.locationtech.jts.geom.Geometry;
 import org.locationtech.jts.geom.Polygon;
 
-import main.java.de.hsmainz.rdf4jpostgis.geometry.base.GeometricIntegerAttributeFunction;
+import org.eclipse.rdf4j.query.algebra.postgis.geometry.base.GeometricIntegerAttributeFunction;
 
 public class Orientation extends GeometricIntegerAttributeFunction {
 

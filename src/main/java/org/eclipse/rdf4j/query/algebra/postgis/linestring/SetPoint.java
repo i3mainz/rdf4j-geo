@@ -1,4 +1,4 @@
-package main.java.de.hsmainz.rdf4jpostgis.linestring;
+package org.eclipse.rdf4j.query.algebra.postgis.linestring;
 
 import java.math.BigInteger;
 
@@ -12,7 +12,7 @@ import org.locationtech.jts.geom.Point;
 import io.github.galbiston.geosparql_jena.implementation.GeometryWrapper;
 import io.github.galbiston.geosparql_jena.implementation.GeometryWrapperFactory;
 import io.github.galbiston.geosparql_jena.implementation.datatype.WKTDatatype;
-import main.java.de.hsmainz.rdf4jpostgis.geometry.base.GeometricModifierFunction;
+import org.eclipse.rdf4j.query.algebra.postgis.geometry.base.GeometricModifierFunction;
 
 public class SetPoint extends GeometricModifierFunction {
 

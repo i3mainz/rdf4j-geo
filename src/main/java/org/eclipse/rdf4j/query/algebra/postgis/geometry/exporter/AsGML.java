@@ -1,10 +1,10 @@
-package main.java.de.hsmainz.rdf4jpostgis.geometry.exporter;
+package org.eclipse.rdf4j.query.algebra.postgis.geometry.exporter;
 
 import org.eclipse.rdf4j.model.vocabulary.POSTGIS;
 import org.locationtech.jts.geom.Geometry;
 import org.locationtech.jts.io.gml2.GMLWriter;
 
-import main.java.de.hsmainz.rdf4jpostgis.geometry.base.GeometricStringExportFunction;
+import org.eclipse.rdf4j.query.algebra.postgis.geometry.base.GeometricStringExportFunction;
 
 public class AsGML extends GeometricStringExportFunction {
 

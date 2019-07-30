@@ -1,10 +1,10 @@
-package main.java.de.hsmainz.rdf4jpostgis.geometry.attribute;
+package org.eclipse.rdf4j.query.algebra.postgis.geometry.attribute;
 
 import org.apache.sis.referencing.CRS;
 import org.locationtech.jts.geom.Geometry;
 import org.opengis.util.FactoryException;
 
-import main.java.de.hsmainz.rdf4jpostgis.geometry.base.GeometricBinaryAttributeFunction;
+import org.eclipse.rdf4j.query.algebra.postgis.geometry.base.GeometricBinaryAttributeFunction;
 
 public class HasHorizontalCRS extends GeometricBinaryAttributeFunction {
 

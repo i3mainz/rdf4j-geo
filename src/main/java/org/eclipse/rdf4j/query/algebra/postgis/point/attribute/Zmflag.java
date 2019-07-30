@@ -1,4 +1,4 @@
-package main.java.de.hsmainz.rdf4jpostgis.point.attribute;
+package org.eclipse.rdf4j.query.algebra.postgis.point.attribute;
 
 import org.apache.jena.datatypes.DatatypeFormatException;
 import org.apache.jena.sparql.expr.ExprEvalException;
@@ -8,7 +8,7 @@ import org.locationtech.jts.geom.Coordinate;
 import org.locationtech.jts.geom.Geometry;
 
 import io.github.galbiston.geosparql_jena.implementation.GeometryWrapper;
-import main.java.de.hsmainz.rdf4jpostgis.geometry.base.GeometricStringExportFunction;
+import org.eclipse.rdf4j.query.algebra.postgis.geometry.base.GeometricStringExportFunction;
 
 public class Zmflag extends GeometricStringExportFunction {
 
