@@ -133,6 +133,7 @@ public class POSTGIS {
         public static final IRI st_isClosed=factory.createIRI(NAMESPACE, "ST_IsClosed");
         public static final IRI st_isConvex=factory.createIRI(NAMESPACE, "ST_IsConvex");
         public static final IRI st_isEmpty=factory.createIRI(NAMESPACE, "ST_IsEmpty");
+        public static final IRI st_isLocationOnEdge=factory.createIRI(NAMESPACE, "ST_IsLocationOnEdge");
         public static final IRI st_isMeasured=factory.createIRI(NAMESPACE, "ST_IsMeasured");
         public static final IRI st_isMorePrecise=factory.createIRI(NAMESPACE, "ST_IsMorePrecise");
         public static final IRI st_isNodingValid=factory.createIRI(NAMESPACE, "ST_IsNodingValid");

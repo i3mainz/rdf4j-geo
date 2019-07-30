@@ -1,32 +1,36 @@
 package main.java.de.hsmainz.rdf4jpostgis.geometry.base;
 
+import java.io.IOException;
+
 import org.eclipse.rdf4j.model.Value;
 import org.eclipse.rdf4j.model.ValueFactory;
 import org.eclipse.rdf4j.query.algebra.evaluation.ValueExprEvaluationException;
 import org.eclipse.rdf4j.query.algebra.evaluation.function.Function;
 import org.locationtech.jts.geom.Geometry;
 import org.locationtech.spatial4j.context.SpatialContext;
+import org.locationtech.spatial4j.shape.Shape;
 
-public abstract class GeometricRelationModifierFunction implements Function {
+public abstract class GeometricIntegerAttributeFunction implements Function {
 
 	@Override
 	public Value evaluate(ValueFactory valueFactory, Value... args) throws ValueExprEvaluationException {
-		if (args.length != 2) {
-			throw new ValueExprEvaluationException(getURI() + " requires exactly 2 arguments, got " + args.length);
+		if (args.length != 1) {
+			throw new ValueExprEvaluationException(getURI() + " requires exactly 1 arguments, got " + args.length);
 		}
 
 		SpatialContext geoContext = SpatialSupport.getSpatialContext();
 		Geometry geom1 = FunctionArguments.getShape(this, args[0], geoContext);
-		Geometry geom2 = FunctionArguments.getShape(this, args[0], geoContext);
+
+		String wkt;
 		try {
-			boolean result = relation(geom1, geom2);
-
-			return valueFactory.createLiteral(result);
-		} catch (RuntimeException e) {
-			throw new ValueExprEvaluationException("error evaluating geospatial relation", e);
+			Shape result = attribute(geom1);
+			wkt = SpatialSupport.getWktWriter().toWkt(result);
+		} catch (IOException | RuntimeException e) {
+			throw new ValueExprEvaluationException(e);
 		}
+		return valueFactory.createLiteral(wkt, GEO.WKT_LITERAL);
 	}
-
-	protected abstract Geometry relation(Geometry g1, Geometry g2);
+	
+	public abstract int attribute(Geometry geom);
 
 }
