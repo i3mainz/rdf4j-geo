@@ -1,4 +1,4 @@
-package de.hsmainz.rdf4jpostgis.util;
+package org.eclipse.rdf4j.query.algebra.postgis.util;
 
 import java.io.IOException;
 import java.text.ParseException;

@@ -1,4 +1,4 @@
-package de.hsmainz.rdf4jpostgis.util;
+package org.eclipse.rdf4j.query.algebra.postgis.util;
 
 import java.awt.Rectangle;
 import java.util.Arrays;
