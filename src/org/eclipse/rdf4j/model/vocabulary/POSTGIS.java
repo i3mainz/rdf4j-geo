@@ -94,6 +94,7 @@ public class POSTGIS {
         public static final IRI st_equalsTopo=factory.createIRI(NAMESPACE, "ST_EqualTopo");
         public static final IRI st_equalSRS=factory.createIRI(NAMESPACE, "ST_EqualSRS");
         public static final IRI st_epsgToSRID=factory.createIRI(NAMESPACE, "ST_EPSGToSRID");
+        public static final IRI st_exteriorRing=factory.createIRI(NAMESPACE, "ST_ExteriorRing");
         public static final IRI st_filterByM=factory.createIRI(NAMESPACE, "ST_FilterByM");
         public static final IRI st_filterByT=factory.createIRI(NAMESPACE, "ST_FilterByT");
         public static final IRI st_flipCoordinates=factory.createIRI(NAMESPACE, "ST_FlipCoordinates");
@@ -214,7 +215,7 @@ public class POSTGIS {
         public static final IRI st_offsetCurve=factory.createIRI(NAMESPACE, "ST_OffsetCurve");
         public static final IRI st_orientation=factory.createIRI(NAMESPACE, "ST_Orientation");
         public static final IRI st_orderingEquals=factory.createIRI(NAMESPACE, "ST_OrderingEquals");
-        public static final IRI st_osmlink=factory.createIRI(NAMESPACE, "ST_OSMLink");
+        public static final IRI st_osmlink=factory.createIRI(NAMESPACE, "ST_AsOSMLink");
         public static final IRI st_patchN=factory.createIRI(NAMESPACE, "ST_PatchN");
         public static final IRI st_partOfGeometryAfter=factory.createIRI(NAMESPACE, "ST_PartOfGeometryAfter");
         public static final IRI st_partOfGeometryBefore=factory.createIRI(NAMESPACE, "ST_PartOfGeometryBefore");

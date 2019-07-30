@@ -7,7 +7,7 @@ import org.locationtech.jts.geom.Geometry;
 
 import main.java.de.hsmainz.rdf4jpostgis.geometry.base.GeometricStringExportFunction;
 
-public class OSMLink extends GeometricStringExportFunction{
+public class AsOSMLink extends GeometricStringExportFunction{
 
 	@Override
 	public String operation(Geometry geom) { 
