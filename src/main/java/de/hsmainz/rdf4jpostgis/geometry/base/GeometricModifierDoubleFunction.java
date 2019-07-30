@@ -7,7 +7,7 @@ import org.eclipse.rdf4j.query.algebra.evaluation.function.Function;
 import org.locationtech.jts.geom.Geometry;
 import org.locationtech.spatial4j.context.SpatialContext;
 
-public abstract class GeometricModifierFunction implements Function {
+public abstract class GeometricModifierDoubleFunction implements Function {
 
 	@Override
 	public Value evaluate(ValueFactory valueFactory, Value... args) throws ValueExprEvaluationException {
@@ -27,7 +27,6 @@ public abstract class GeometricModifierFunction implements Function {
 		}
 	}
 
-	protected abstract Geometry relation(Geometry g1, Geometry g2);
+	protected abstract Geometry relation(Geometry geom, Double value);
+
 }
-
-
