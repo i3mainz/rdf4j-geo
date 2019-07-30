@@ -1,4 +1,4 @@
-package main.java.de.hsmainz.rdf4jpostgis.envelope;
+package main.java.de.hsmainz.rdf4jpostgis.point.attribute;
 
 import org.eclipse.rdf4j.model.vocabulary.POSTGIS;
 import org.locationtech.jts.geom.Coordinate;
@@ -6,22 +6,22 @@ import org.locationtech.jts.geom.Geometry;
 
 import main.java.de.hsmainz.rdf4jpostgis.geometry.base.GeometricDoubleAttributeFunction;
 
-public class MMax extends GeometricDoubleAttributeFunction {
+public class YMin extends GeometricDoubleAttributeFunction {
 
 	@Override
 	public double attribute(Geometry geom) {
-        Double maxM=0.;
+        Double minY=0.;
         for(Coordinate coord:geom.getCoordinates()) {
-        	if(maxM<coord.getM()) {
-        		maxM=coord.getM();
+        	if(minY<coord.getY()) {
+        		minY=coord.getY();
         	}
         }
-        return maxM;
+        return minY;
 	}
 
 	@Override
 	public String getURI() {
-		return POSTGIS.st_mMax.stringValue();
+		return POSTGIS.st_yMin.stringValue();
 	}
 
 }

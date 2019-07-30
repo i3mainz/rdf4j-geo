@@ -1,4 +1,4 @@
-package main.java.de.hsmainz.rdf4jpostgis.envelope;
+package main.java.de.hsmainz.rdf4jpostgis.point.attribute;
 
 import org.apache.jena.datatypes.DatatypeFormatException;
 import org.apache.jena.sparql.expr.ExprEvalException;

@@ -5,6 +5,8 @@ import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.List;
 
+import org.apache.sis.geometry.Envelope2D;
+import org.apache.sis.referencing.CRS;
 import org.locationtech.jts.geom.Coordinate;
 import org.locationtech.jts.geom.Envelope;
 import org.locationtech.jts.geom.Geometry;
@@ -12,6 +14,15 @@ import org.locationtech.jts.geom.GeometryFactory;
 import org.locationtech.jts.geom.LineString;
 import org.locationtech.jts.geom.OctagonalEnvelope;
 import org.locationtech.jts.geom.Polygon;
+import org.opengis.geometry.MismatchedDimensionException;
+import org.opengis.referencing.crs.CoordinateReferenceSystem;
+import org.opengis.referencing.operation.CoordinateOperation;
+import org.opengis.referencing.operation.MathTransform;
+import org.opengis.referencing.operation.TransformException;
+import org.opengis.util.FactoryException;
+import org.opengis.referencing.crs.CoordinateReferenceSystem;
+import org.opengis.referencing.operation.MathTransform;
+
 
 public class LiteralUtils {
 
@@ -36,6 +47,8 @@ public class LiteralUtils {
 			return toGeometry(((CoverageWrapper) wrapper).getXYGeometry().getEnvelope2D());
 		}
 	}
+	
+
 	
 	public static Geometry toGeometry(final Envelope2D envelope) {
         GeometryFactory gf = new GeometryFactory();
@@ -137,5 +150,34 @@ public class LiteralUtils {
 		
 		public static Geometry createGeometry(List<Coordinate> coordarray,String geomtype,Integer srid) {
 			return createGeometry(coordarray.toArray(new Coordinate[0]), geomtype,srid);
+		}
+		
+		public static Geometry transform(Geometry sourcegeom,Geometry targetgeom) {
+		
+			CoordinateReferenceSystem source = CRS.forCode("EPSG:"+sourcegeom.getSRID());                   // WGS 84
+			CoordinateReferenceSystem target = CRS.forCode("EPSG:"+targetgeom.getSRID());                   // WGS 84 / World Mercator
+			CoordinateOperation operation = CRS.findOperation(source, target, null);
+			if (CRS.getLinearAccuracy(operation) > 100) {
+			    // If the accuracy is coarser than 100 metres (or any other threshold at application choice)
+			    // maybe the operation is not suitable. Decide here what to do (throw an exception, etc).
+			}
+			MathTransform mt = operation.getMathTransform();
+			mt.
+			DirectPosition position = new DirectPosition2D(20, 30);            // 20°N 30°E   (watch out axis order!)
+			position = mt.transform(position, position);
+			System.out.println(position);
+			
+			
+			CoordinateReferenceSystem sourceCRS = source.getCRS();
+			CoordinateReferenceSystem targetCRS = SRSRegistry.getCRS(srsURI);
+			MathTransform transform = MathTransformRegistry.getMathTransform(sourceCRS, targetCRS);
+			Geometry parsingGeometry = sourceGeometryWrapper.getParsingGeometry();
+
+			//Transform the coordinates into a new Geometry.
+			Geometry transformedGeometry = GeometryTransformation.transform(parsingGeometry, transform);
+
+			//Construct a new GeometryWrapper using info from original GeometryWrapper.
+			String geometryDatatypeURI = sourceGeometryWrapper.getGeometryDatatypeURI();
+			DimensionInfo dimensionInfo = sourceGeometryWrapper.getDimensionInfo();
 		}
 }

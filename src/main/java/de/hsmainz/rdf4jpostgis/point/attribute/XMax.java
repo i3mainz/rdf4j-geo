@@ -1,4 +1,4 @@
-package main.java.de.hsmainz.rdf4jpostgis.envelope;
+package main.java.de.hsmainz.rdf4jpostgis.point.attribute;
 
 import org.eclipse.rdf4j.model.vocabulary.POSTGIS;
 import org.locationtech.jts.geom.Coordinate;

@@ -4,6 +4,22 @@ import org.eclipse.rdf4j.model.IRI;
 import org.eclipse.rdf4j.model.ValueFactory;
 import org.eclipse.rdf4j.model.impl.SimpleValueFactory;
 
+import de.hsmainz.cs.semgis.arqextension.envelope.relation.BBOXAbove;
+import de.hsmainz.cs.semgis.arqextension.envelope.relation.BBOXBelow;
+import de.hsmainz.cs.semgis.arqextension.envelope.relation.BBOXContains;
+import de.hsmainz.cs.semgis.arqextension.envelope.relation.BBOXDistance;
+import de.hsmainz.cs.semgis.arqextension.envelope.relation.BBOXEquals;
+import de.hsmainz.cs.semgis.arqextension.envelope.relation.BBOXFPIntersects;
+import de.hsmainz.cs.semgis.arqextension.envelope.relation.BBOXIntersects;
+import de.hsmainz.cs.semgis.arqextension.envelope.relation.BBOXIsContainedBy;
+import de.hsmainz.cs.semgis.arqextension.envelope.relation.BBOXLeftOf;
+import de.hsmainz.cs.semgis.arqextension.envelope.relation.BBOXOverlapsAbove;
+import de.hsmainz.cs.semgis.arqextension.envelope.relation.BBOXOverlapsBelow;
+import de.hsmainz.cs.semgis.arqextension.envelope.relation.BBOXOverlapsLeft;
+import de.hsmainz.cs.semgis.arqextension.envelope.relation.BBOXOverlapsRight;
+import de.hsmainz.cs.semgis.arqextension.envelope.relation.BBOXRightOf;
+import de.hsmainz.cs.semgis.arqextension.vocabulary.PostGISGeo;
+
 public class POSTGIS {
 
 	public static final String NAMESPACE="POSTGIS";
@@ -48,6 +64,20 @@ public class POSTGIS {
 	public static final	IRI ST_AREA=factory.createIRI(NAMESPACE, "ST_Area");
 	public static final	IRI ST_AREASIMILARITY=factory.createIRI(NAMESPACE, "ST_AreaSimilarity");
 	public static final	IRI ST_AZIMUTH=factory.createIRI(NAMESPACE, "ST_Azimuth");
+	public static final	IRI st_bboxabove =factory.createIRI(NAMESPACE,"ST_BBOXAbove");
+    public static final IRI st_bboxbelow = factory.createIRI(NAMESPACE,"ST_BBOXBelow");
+    public static final	IRI st_bboxcontains = factory.createIRI(NAMESPACE,"ST_BBOXContains");
+    public static final	IRI st_bboxdistance = factory.createIRI(NAMESPACE,"ST_BBOXDistance");
+    public static final	IRI st_bboxequals = factory.createIRI(NAMESPACE, "ST_BBOXEquals");
+    public static final	IRI st_bboxfpintersects = factory.createIRI(NAMESPACE, "ST_BBOXFPIntersects");
+    public static final	IRI st_bboxintersect = factory.createIRI(NAMESPACE, "ST_BBOXIntersects");
+    public static final	IRI st_bboxiscontainedby =factory.createIRI(NAMESPACE, "ST_BBOXIsContainedBy");
+    public static final	IRI st_bboxleftof = factory.createIRI(NAMESPACE, "ST_BBOXLeftOf");
+    public static final	IRI st_bboxoverlapsabove = factory.createIRI(NAMESPACE, "ST_BBOXOverlapsAbove");
+    public static final	IRI st_bboxoverlapsbelow =factory.createIRI(NAMESPACE, "ST_BBOXOverlapsBelow");
+    public static final	IRI st_bboxoverlapsleft = factory.createIRI(NAMESPACE ,"ST_BBOXOverlapsLeft");
+    public static final	IRI st_bboxoverlapsright = factory.createIRI(NAMESPACE, "ST_BBOXOverlapsRight");
+    public static final	IRI st_bboxrightof = factory.createIRI(NAMESPACE, "ST_BBOXRightOf");
 	public static final	IRI ST_BAND=factory.createIRI(NAMESPACE, "ST_Band");
 	public static final	IRI ST_BANDMETADATA=factory.createIRI(NAMESPACE, "ST_BandMetaData");
 	public static final	IRI ST_BANDNODATAVALUE=factory.createIRI(NAMESPACE, "ST_BandNoDataValue");

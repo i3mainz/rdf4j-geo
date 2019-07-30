@@ -1,23 +1,23 @@
-package main.java.de.hsmainz.rdf4jpostgis.point;
+package main.java.de.hsmainz.rdf4jpostgis.point.attribute;
 
 import org.eclipse.rdf4j.model.vocabulary.POSTGIS;
 import org.locationtech.jts.geom.Geometry;
 
 import main.java.de.hsmainz.rdf4jpostgis.geometry.base.GeometricDoubleAttributeFunction;
 
-public class M extends GeometricDoubleAttributeFunction {
+public class X extends GeometricDoubleAttributeFunction {
 
 	@Override
 	public double attribute(Geometry geom) {
 		if(geom.getGeometryType().equalsIgnoreCase("Point")) {
-			return geom.getCoordinate().getM();
+			return geom.getCoordinate().x;
 		}
-		return geom.getCentroid().getCoordinate().getM();
+		return geom.getCentroid().getX();
 	}
 
 	@Override
 	public String getURI() {
-		return POSTGIS.st_m.stringValue();
+		return POSTGIS.st_x.stringValue();
 	}
 
 }
