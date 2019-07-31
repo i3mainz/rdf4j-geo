@@ -15,9 +15,9 @@ public class Snap extends GeometricModifierFunction {
 
 	@Override
 	protected Geometry relation(Geometry g1, Geometry g2) {
-		GeometrySnapper snapper = new GeometrySnapper(g1));
-        Geometry snapGeom = snapper.snapTo(g2, tolerance);
-
+		GeometrySnapper snapper = new GeometrySnapper(g1);
+        //Geometry snapGeom = snapper.snapTo(g2, tolerance);
+		return null;
 	}
 
 }

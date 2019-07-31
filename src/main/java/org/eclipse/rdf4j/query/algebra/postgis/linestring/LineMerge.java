@@ -27,7 +27,6 @@ public class LineMerge extends GeometricUnaryFunction {
          	for(int i=0;i<((MultiLineString) geom).getLength();i++) {
          		resultcoords.addAll(Arrays.asList(((MultiLineString) geom).getGeometryN(i).getCoordinates()));
          	}
-         	GeometryFactory fac=new GeometryFactory();
          	return LiteralUtils.createGeometry(resultcoords.toArray(new Coordinate[0]), "LINESTRING",geom.getSRID());
          }
          return null;

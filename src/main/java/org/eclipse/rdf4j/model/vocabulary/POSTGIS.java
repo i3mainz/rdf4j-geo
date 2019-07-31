@@ -203,6 +203,8 @@ public class POSTGIS {
         public static final IRI st_m=factory.createIRI(NAMESPACE, "ST_M");
         public static final IRI st_maxDistance=factory.createIRI(NAMESPACE, "ST_MaxDistance");
         public static final IRI st_maxDistance3D=factory.createIRI(NAMESPACE, "ST_MaxDistance3D");
+        public static final IRI st_makeBox2D=factory.createIRI(NAMESPACE, "ST_MakeBox2D");
+        public static final IRI st_makeBox3D=factory.createIRI(NAMESPACE, "ST_MakeBox3D");
         public static final IRI st_makeCircle=factory.createIRI(NAMESPACE, "ST_MakeCircle");
         public static final IRI st_makeEllipse=factory.createIRI(NAMESPACE, "ST_MakeEllipse");
         public static final IRI st_makeEmptyCoverage=factory.createIRI(NAMESPACE, "ST_MakeEmptyCoverage");

@@ -147,6 +147,15 @@ public class LiteralUtils {
 				return null;
 			}
 		}
+
+		public static Geometry createGeometryCollection(List<Geometry> geometries,String geomtype,Integer srid) {
+			createGeometryCollection(geometries.toArray(new Geometry[0]), geomtype, srid);		
+		}
+		
+		public static Geometry createGeometryCollection(Geometry[] geometries,String geomtype,Integer srid) {
+			GeometryFactory fac=new GeometryFactory();
+			return fac.createGeometryCollection(geometries);			
+		}
 		
 		public static Geometry createGeometry(List<Coordinate> coordarray,String geomtype,Integer srid) {
 			return createGeometry(coordarray.toArray(new Coordinate[0]), geomtype,srid);

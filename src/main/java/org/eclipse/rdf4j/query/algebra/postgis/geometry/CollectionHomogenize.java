@@ -11,9 +11,6 @@ import org.locationtech.jts.geom.GeometryFactory;
 import org.locationtech.jts.geom.LineString;
 import org.locationtech.jts.geom.Polygon;
 
-import io.github.galbiston.geosparql_jena.implementation.GeometryWrapper;
-import io.github.galbiston.geosparql_jena.implementation.GeometryWrapperFactory;
-import io.github.galbiston.geosparql_jena.implementation.datatype.WKTDatatype;
 import org.eclipse.rdf4j.query.algebra.postgis.geometry.base.GeometricUnaryFunction;
 
 public class CollectionHomogenize extends GeometricUnaryFunction{

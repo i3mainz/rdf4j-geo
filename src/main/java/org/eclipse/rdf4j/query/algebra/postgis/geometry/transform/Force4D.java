@@ -3,8 +3,6 @@ package org.eclipse.rdf4j.query.algebra.postgis.geometry.transform;
 import java.util.ArrayList;
 import java.util.List;
 
-import org.apache.jena.datatypes.DatatypeFormatException;
-import org.apache.jena.sparql.expr.ExprEvalException;
 import org.eclipse.rdf4j.model.vocabulary.POSTGIS;
 import org.eclipse.rdf4j.query.algebra.postgis.util.LiteralUtils;
 import org.locationtech.jts.geom.Coordinate;
