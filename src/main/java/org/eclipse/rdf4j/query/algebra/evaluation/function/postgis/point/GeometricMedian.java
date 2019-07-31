@@ -1,14 +1,10 @@
 package org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.point;
 
-import org.apache.jena.datatypes.DatatypeFormatException;
-import org.apache.jena.sparql.expr.ExprEvalException;
 import org.eclipse.rdf4j.model.vocabulary.POSTGIS;
 import org.locationtech.jts.geom.Coordinate;
 import org.locationtech.jts.geom.Geometry;
 import org.locationtech.jts.geom.GeometryFactory;
 
-import io.github.galbiston.geosparql_jena.implementation.GeometryWrapper;
-import io.github.galbiston.geosparql_jena.implementation.GeometryWrapperFactory;
 import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.geometry.base.GeometricUnaryFunction;
 
 public class GeometricMedian extends GeometricUnaryFunction {

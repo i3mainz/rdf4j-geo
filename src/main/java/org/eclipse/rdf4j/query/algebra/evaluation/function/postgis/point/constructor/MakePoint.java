@@ -9,7 +9,7 @@ public class MakePoint extends GeometricConstructor {
 
 	@Override
 	public Geometry construct(String input) {
-		
+		return null;
 	}
 
 	@Override

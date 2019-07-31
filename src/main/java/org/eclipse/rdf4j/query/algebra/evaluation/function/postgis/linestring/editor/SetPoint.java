@@ -23,9 +23,9 @@ public class SetPoint extends GeometricModifierFunction {
 
 	@Override
 	protected Geometry relation(Geometry geom1, Geometry geom2) {
-        GeometryWrapper transGeom2 = geom2.transform(geom1.getSRID());
+		Geometry transformed=LiteralUtils.transform(geom2, geom1);
         BigInteger zerobasedposition=arg1.getInteger();
-        if (geom1 instanceof LineString && transGeom2 instanceof Point) {
+        if (geom1 instanceof LineString && transformed instanceof Point) {
             Coordinate[] coords=geom1.getCoordinates();
             Coordinate[] newcoords=coords;
             newcoords[zerobasedposition.intValue()]=geom2.getCoordinate();

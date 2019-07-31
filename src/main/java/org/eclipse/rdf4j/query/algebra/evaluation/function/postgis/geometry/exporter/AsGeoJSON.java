@@ -11,7 +11,7 @@ public class AsGeoJSON extends GeometricStringExportFunction{
 
 	@Override
 	public String getURI() {
-		return POSTGIS.ASGEOJSON.stringValue();
+		return POSTGIS.ST_ASGEOJSON.stringValue();
 	}
 
 	@Override

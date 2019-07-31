@@ -4,25 +4,10 @@ import org.eclipse.rdf4j.model.IRI;
 import org.eclipse.rdf4j.model.ValueFactory;
 import org.eclipse.rdf4j.model.impl.SimpleValueFactory;
 
-import de.hsmainz.cs.semgis.arqextension.envelope.relation.BBOXAbove;
-import de.hsmainz.cs.semgis.arqextension.envelope.relation.BBOXBelow;
-import de.hsmainz.cs.semgis.arqextension.envelope.relation.BBOXContains;
-import de.hsmainz.cs.semgis.arqextension.envelope.relation.BBOXDistance;
-import de.hsmainz.cs.semgis.arqextension.envelope.relation.BBOXEquals;
-import de.hsmainz.cs.semgis.arqextension.envelope.relation.BBOXFPIntersects;
-import de.hsmainz.cs.semgis.arqextension.envelope.relation.BBOXIntersects;
-import de.hsmainz.cs.semgis.arqextension.envelope.relation.BBOXIsContainedBy;
-import de.hsmainz.cs.semgis.arqextension.envelope.relation.BBOXLeftOf;
-import de.hsmainz.cs.semgis.arqextension.envelope.relation.BBOXOverlapsAbove;
-import de.hsmainz.cs.semgis.arqextension.envelope.relation.BBOXOverlapsBelow;
-import de.hsmainz.cs.semgis.arqextension.envelope.relation.BBOXOverlapsLeft;
-import de.hsmainz.cs.semgis.arqextension.envelope.relation.BBOXOverlapsRight;
-import de.hsmainz.cs.semgis.arqextension.envelope.relation.BBOXRightOf;
-import de.hsmainz.cs.semgis.arqextension.vocabulary.PostGISGeo;
 
 public class POSTGIS {
 
-	public static final String NAMESPACE="POSTGIS";
+	public static final String NAMESPACE="http://www.opengis.net/ont/geosparql#";
 	
 	public static final	ValueFactory factory = SimpleValueFactory.getInstance();
 	public static final	IRI ST_DWITHIN3D=factory.createIRI(NAMESPACE, "ST_3DDWithin");
@@ -39,6 +24,7 @@ public class POSTGIS {
 	public static final	IRI ST_ASHEXEWKB=factory.createIRI(NAMESPACE, "ST_AsHEXEWKB");
 	public static final	IRI ST_ASKML=factory.createIRI(NAMESPACE, "ST_AsKML");
 	public static final	IRI ST_ASGML=factory.createIRI(NAMESPACE, "ST_AsGML");
+	public static final	IRI ST_ASGEOHASH=factory.createIRI(NAMESPACE, "ST_AsGeoHash");
 	public static final	IRI ST_ASGEOURI=factory.createIRI(NAMESPACE, "ST_AsGeoURI");
 	public static final	IRI ST_ASGEOBUF=factory.createIRI(NAMESPACE, "ST_AsGeoBuf");
 	public static final	IRI ST_ASGEOJSON=factory.createIRI(NAMESPACE, "ST_AsGeoJSON");
@@ -386,8 +372,8 @@ public class POSTGIS {
         public static final String TemporalRange="TemporalRange";
         public static final String CoverageJSON = "CoverageJSON";
 
-		public static String SVG="SVG";
+		public static final String SVG="SVG";
 
-		public static String NETCDF="NetCDF";
+		public static final String NETCDF="NetCDF";
 
 }

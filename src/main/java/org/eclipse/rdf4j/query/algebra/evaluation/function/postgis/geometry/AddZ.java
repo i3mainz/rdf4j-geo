@@ -8,11 +8,10 @@ import org.locationtech.jts.geom.Coordinate;
 import org.locationtech.jts.geom.CoordinateXYZM;
 import org.locationtech.jts.geom.Geometry;
 
-import de.hsmainz.cs.semgis.arqextension.util.LiteralUtils;
-import io.github.galbiston.geosparql_jena.implementation.GeometryWrapper;
-import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.geometry.base.GeometricUnaryFunction;
+import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.geometry.base.GeometricModifierDoubleFunction;
+import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.LiteralUtils;
 
-public class AddZ extends GeometricUnaryFunction {
+public class AddZ extends GeometricModifierDoubleFunction {
 
 	@Override
 	public String getURI() {
@@ -20,15 +19,15 @@ public class AddZ extends GeometricUnaryFunction {
 	}
 
 	@Override
-	protected Geometry operation(Geometry geom) {
-		GeometryWrapper geometry = GeometryWrapper.extract(v1);
-        Double zValue=v2.getDouble();
+	protected Geometry relation(Geometry geom,Double value) {
+        Double zValue=value;
         List<Coordinate> newcoords=new LinkedList<Coordinate>();
-        for(Coordinate coord:geometry.getParsingGeometry().getCoordinates()) {
+        for(Coordinate coord:geom.getCoordinates()) {
         	newcoords.add(new CoordinateXYZM(coord.x,coord.y,zValue,Double.NaN));
         }
-        GeometryWrapper res=LiteralUtils.createGeometry(newcoords, geometry.getGeometryType(), geometry);
-        return res.asNodeValue();
+        return LiteralUtils.createGeometry(newcoords, geom.getGeometryType(), geom.getSRID());
+
 	}
+
 
 }

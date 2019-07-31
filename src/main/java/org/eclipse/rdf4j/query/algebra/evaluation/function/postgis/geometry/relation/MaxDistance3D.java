@@ -1,6 +1,5 @@
 package org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.geometry.relation;
 
-import org.apache.jena.sparql.expr.NodeValue;
 import org.eclipse.rdf4j.model.vocabulary.POSTGIS;
 import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.LiteralUtils;
 import org.locationtech.jts.geom.Coordinate;

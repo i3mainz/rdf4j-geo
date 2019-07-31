@@ -3,8 +3,6 @@ package org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.geometry.tra
 import org.locationtech.jts.geom.Geometry;
 import org.locationtech.jts.geom.util.AffineTransformation;
 
-import io.github.galbiston.geosparql_jena.implementation.GeometryWrapper;
-import io.github.galbiston.geosparql_jena.implementation.GeometryWrapperFactory;
 import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.geometry.base.GeometricUnaryFunction;
 
 public class Translate extends GeometricUnaryFunction{

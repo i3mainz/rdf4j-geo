@@ -1,10 +1,9 @@
 package org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.geometry.exporter;
 
-import java.math.BigInteger;
-
 import org.locationtech.jts.algorithm.Angle;
 import org.locationtech.jts.geom.Geometry;
-
+import org.apache.sis.index.GeoHashCoder;
+import org.eclipse.rdf4j.model.vocabulary.POSTGIS;
 import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.geometry.base.GeometricStringExportFunction;
 
 
@@ -24,7 +23,7 @@ public class AsGeoHash extends GeometricStringExportFunction {
 
 	@Override
 	public String getURI() {
-		return POSTGIS.ASGEOHASH.stringValue();
+		return POSTGIS.ST_ASGEOHASH.stringValue();
 	}
 
 }

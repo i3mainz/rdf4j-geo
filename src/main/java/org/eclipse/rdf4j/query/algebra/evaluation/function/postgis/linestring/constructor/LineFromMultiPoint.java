@@ -1,7 +1,5 @@
 package org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.linestring.constructor;
 
-import org.apache.jena.datatypes.DatatypeFormatException;
-import org.apache.jena.sparql.expr.ExprEvalException;
 import org.eclipse.rdf4j.model.vocabulary.POSTGIS;
 import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.LiteralUtils;
 import org.locationtech.jts.geom.Geometry;

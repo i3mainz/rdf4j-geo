@@ -2,11 +2,15 @@ package org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.geometry.bas
 
 import java.io.IOException;
 
+import org.eclipse.rdf4j.model.Literal;
 import org.eclipse.rdf4j.model.Value;
 import org.eclipse.rdf4j.model.ValueFactory;
 import org.eclipse.rdf4j.model.vocabulary.GEO;
 import org.eclipse.rdf4j.query.algebra.evaluation.ValueExprEvaluationException;
 import org.eclipse.rdf4j.query.algebra.evaluation.function.Function;
+import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.LiteralRegistry;
+import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.literals.LiteralType;
+import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.literals.vector.VectorLiteral;
 import org.locationtech.jts.geom.Geometry;
 import org.locationtech.spatial4j.context.SpatialContext;
 import org.locationtech.spatial4j.shape.Shape;
@@ -18,18 +22,14 @@ public abstract class GeometricUnaryFunction implements Function {
 		if (args.length != 2) {
 			throw new ValueExprEvaluationException(getURI() + " requires exactly 2 arguments, got " + args.length);
 		}
-
-		SpatialContext geoContext = SpatialSupport.getSpatialContext();
-		Geometry geom1 = FunctionArguments.getShape(this, args[0], geoContext);
-
-		String wkt;
-		try {
-			Geometry result = operation(geom1);
-			wkt = result.toText();
-		} catch (IOException | RuntimeException e) {
-			throw new ValueExprEvaluationException(e);
+		
+		LiteralType l=LiteralRegistry.getLiteral(((Literal)args[0]).getDatatype().toString());
+		if(l instanceof VectorLiteral) {
+			Geometry geom=((VectorLiteral)l).read(args[0].stringValue());
+			Geometry result = operation(geom);
+			return valueFactory.createLiteral(((VectorLiteral) l).unparse(result),((Literal)args[0]).getDatatype());
 		}
-		return valueFactory.createLiteral(wkt, GEO.WKT_LITERAL);
+		throw new ValueExprEvaluationException("Argument given is not a geometry literal");
 	}
 
 	protected abstract Geometry operation(Geometry geom);
