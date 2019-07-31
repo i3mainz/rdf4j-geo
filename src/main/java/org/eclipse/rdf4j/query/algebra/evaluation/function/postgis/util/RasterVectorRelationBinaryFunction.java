@@ -8,6 +8,9 @@ import org.eclipse.rdf4j.model.Value;
 import org.eclipse.rdf4j.model.ValueFactory;
 import org.eclipse.rdf4j.query.algebra.evaluation.ValueExprEvaluationException;
 import org.eclipse.rdf4j.query.algebra.evaluation.function.Function;
+import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.literals.LiteralType;
+import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.literals.raster.RasterLiteral;
+import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.literals.vector.VectorLiteral;
 
 public abstract class RasterVectorRelationBinaryFunction implements Function {
 	@Override
@@ -24,10 +27,13 @@ public abstract class RasterVectorRelationBinaryFunction implements Function {
 	public static Set<String> vectorLiteralURIs=new TreeSet<String>();
 	
 	public static Boolean vectorOrRaster(Literal lit) {
-		if(rasterLiteralURIs.contains(lit.getDatatype())) {
-			return false;
-		}else if(vectorLiteralURIs.contains(lit.getDatatype())) {
-			return true;
+		if(LiteralRegistry.literals.containsKey(lit.getDatatype().toString())) {
+			LiteralType lite=LiteralRegistry.literals.get(lit.getDatatype().toString());
+			if(lite instanceof VectorLiteral) {
+				return true;
+			}else if(lite instanceof RasterLiteral) {
+				return false;
+			}
 		}
 		return null;
 	}

@@ -362,5 +362,32 @@ public class POSTGIS {
         public static final IRI st_zMax=factory.createIRI(NAMESPACE, "ST_ZMax");
         public static final IRI st_zmFlag=factory.createIRI(NAMESPACE, "ST_Zmflag");
 		
-	
+        public static final String WKB = "WKB";
+        public static final String GeoJSON = "GeoJSON";
+        public static final String GeoJSONLD = "GeoJSONLD";
+        public static final String GeoHash = "GeoHash";
+        public static final String GeoBuf = "GeoBuf";
+        public static final String GeoURI="GeoURI";
+        public static final String GeoRSS="GeoRSS";
+        public static final String GMLCOV="GMLCOV";
+        public static final String KML = "KML";
+        public static final String WKBRaster = "WKBRaster";
+        public static final String GEOTIFF = "GeoTIFF";
+        public static final String EncodedPolyline = "EncodedPolyline";
+        public static final String Polyshape= "Polyshape";
+        public static final String TWKB = "TWKB";
+        public static final String HEXWKB = "HEXWKB";
+        public static final String DXF="DXF";
+        public static final String MVT = "MVT";
+        public static final String X3D = "X3D";
+        public static final String OSM= "OSM";
+        public static final String HexWKBRaster = "HexWKBRaster";
+        public static final String TopoJSON = "TopoJSON";
+        public static final String TemporalRange="TemporalRange";
+        public static final String CoverageJSON = "CoverageJSON";
+
+		public static String SVG="SVG";
+
+		public static String NETCDF="NetCDF";
+
 }
