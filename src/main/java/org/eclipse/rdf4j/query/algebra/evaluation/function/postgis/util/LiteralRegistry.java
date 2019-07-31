@@ -55,6 +55,14 @@ public class LiteralRegistry {
 	}
 	
 	
+	public static LiteralType getLiteral(String uri) {
+		if(literals.containsKey(uri)) {
+			return literals.get(uri);
+		}
+		return null;
+	}
+	
+	
 	
 
 }

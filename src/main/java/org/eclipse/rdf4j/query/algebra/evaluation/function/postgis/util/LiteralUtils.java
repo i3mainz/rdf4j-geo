@@ -20,8 +20,6 @@ import org.opengis.referencing.operation.CoordinateOperation;
 import org.opengis.referencing.operation.MathTransform;
 import org.opengis.referencing.operation.TransformException;
 import org.opengis.util.FactoryException;
-import org.opengis.referencing.crs.CoordinateReferenceSystem;
-import org.opengis.referencing.operation.MathTransform;
 
 
 public class LiteralUtils {
@@ -48,7 +46,30 @@ public class LiteralUtils {
 		}
 	}
 	
-
+	public static Geometry toGeometry(final org.opengis.geometry.Envelope envelope) {
+		
+        GeometryFactory gf = new GeometryFactory();
+        return gf.createPolygon(gf.createLinearRing(
+                new Coordinate[]{
+                    new Coordinate(envelope.getLowerCorner().getDirectPosition().getCoordinate()[0], envelope.getLowerCorner().getDirectPosition().getCoordinate()[1]),
+                    new Coordinate(envelope.getUpperCorner().getDirectPosition().getCoordinate()[0], envelope.getLowerCorner().getDirectPosition().getCoordinate()[1]),
+                    new Coordinate(envelope.getUpperCorner().getDirectPosition().getCoordinate()[0], envelope.getUpperCorner().getDirectPosition().getCoordinate()[1]),
+                    new Coordinate(envelope.getLowerCorner().getDirectPosition().getCoordinate()[0], envelope.getLowerCorner().getDirectPosition().getCoordinate()[1]),
+                    new Coordinate(envelope.getLowerCorner().getDirectPosition().getCoordinate()[0], envelope.getLowerCorner().getDirectPosition().getCoordinate()[1])
+                }), null);
+    }
+	
+	public static Geometry toGeometry(final Envelope envelope) {
+        GeometryFactory gf = new GeometryFactory();
+        return gf.createPolygon(gf.createLinearRing(
+                new Coordinate[]{
+                    new Coordinate(envelope.getMinX(), envelope.getMinY()),
+                    new Coordinate(envelope.getMaxX(), envelope.getMinY()),
+                    new Coordinate(envelope.getMaxX(), envelope.getMaxY()),
+                    new Coordinate(envelope.getMinX(), envelope.getMaxY()),
+                    new Coordinate(envelope.getMinX(), envelope.getMinY())
+                }), null);
+    }
 	
 	public static Geometry toGeometry(final Envelope2D envelope) {
         GeometryFactory gf = new GeometryFactory();
@@ -74,17 +95,7 @@ public class LiteralUtils {
                 }), null);
     }
 	
-	public static Geometry toGeometry(final Envelope envelope) {
-        GeometryFactory gf = new GeometryFactory();
-        return gf.createPolygon(gf.createLinearRing(
-                new Coordinate[]{
-                    new Coordinate(envelope.getMinX(), envelope.getMinY()),
-                    new Coordinate(envelope.getMaxX(), envelope.getMinY()),
-                    new Coordinate(envelope.getMaxX(), envelope.getMaxY()),
-                    new Coordinate(envelope.getMinX(), envelope.getMaxY()),
-                    new Coordinate(envelope.getMinX(), envelope.getMinY())
-                }), null);
-    }
+
 	
 	public static Geometry toGeometry(final BoundingBox envelope) {
         GeometryFactory gf = new GeometryFactory();
