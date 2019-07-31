@@ -17,12 +17,8 @@
  */
 package org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.literals.vector;
 
-import io.github.galbiston.geosparql_jena.implementation.GeometryWrapper; import io.github.galbiston.geosparql_jena.implementation.GeometryWrapperFactory;
-
 import org.eclipse.rdf4j.model.vocabulary.POSTGIS;
 import org.locationtech.jts.geom.Geometry;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 import org.wololo.geojson.GeoJSON;
 import org.wololo.jts2geojson.GeoJSONReader;
 import org.wololo.jts2geojson.GeoJSONWriter;
@@ -43,8 +39,6 @@ import org.wololo.jts2geojson.GeoJSONWriter;
  * specify an explicit spatial reference system URI.
  */
 public class TopoJSONDatatype extends VectorLiteral {
-
-    private static final Logger LOGGER = LoggerFactory.getLogger(TopoJSONDatatype.class);
 
     /**
      * The default WKT type URI.
@@ -77,8 +71,7 @@ public class TopoJSONDatatype extends VectorLiteral {
     public Geometry read(String geometryLiteral) {
 		GeoJSONReader reader = new GeoJSONReader();
 		Geometry geom = reader.read(geometryLiteral);
-        GeometryWrapper wrapper = GeometryWrapperFactory.createGeometry(geom, "<http://www.opengis.net/def/crs/EPSG/0/"+geom.getSRID()+">", GeoJSONDatatype.URI);	
-        return wrapper;
+		return geom;
     }
 
 

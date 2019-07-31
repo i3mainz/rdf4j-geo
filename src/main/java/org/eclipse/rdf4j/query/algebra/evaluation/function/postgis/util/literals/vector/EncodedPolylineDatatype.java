@@ -1,8 +1,5 @@
 package org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.literals.vector;
 
-import io.github.galbiston.geosparql_jena.implementation.GeometryWrapper; 
-import io.github.galbiston.geosparql_jena.implementation.GeometryWrapperFactory;
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -14,7 +11,6 @@ import org.locationtech.jts.geom.LineString;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import de.hsmainz.cs.semgis.arqextension.vocabulary.PostGISGeo;
 
 /**
  * WKTDatatype class allows the URI "geo:wktLiteral" to be used as a datatype

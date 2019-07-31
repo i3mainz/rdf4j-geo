@@ -3,8 +3,6 @@ package org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.literal
 import org.eclipse.rdf4j.model.vocabulary.POSTGIS;
 import org.locationtech.jts.geom.Geometry;
 import org.locationtech.jts.io.kml.KMLWriter;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 
 /**
  *
@@ -12,8 +10,6 @@ import org.slf4j.LoggerFactory;
  *
  */
 public class KMLDatatype extends VectorLiteral {
-
-    private static final Logger LOGGER = LoggerFactory.getLogger(KMLDatatype.class);
 
     /**
      * The default GML type URI.

@@ -3,7 +3,6 @@ package org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.literal
 import java.io.ByteArrayInputStream;
 import java.io.IOException;
 import java.io.InputStream;
-import java.io.StringReader;
 import java.nio.charset.StandardCharsets;
 
 import javax.xml.parsers.ParserConfigurationException;
@@ -11,16 +10,13 @@ import javax.xml.parsers.SAXParser;
 import javax.xml.parsers.SAXParserFactory;
 
 import org.eclipse.rdf4j.model.vocabulary.POSTGIS;
+import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.GPXHandler;
 import org.locationtech.jts.geom.Coordinate;
 import org.locationtech.jts.geom.Geometry;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+import org.locationtech.jts.geom.GeometryFactory;
 import org.xml.sax.SAXException;
-import org.xml.sax.ext.DefaultHandler2;
 
 public class GPXDatatype extends VectorLiteral {
-
-	private static final Logger LOGGER = LoggerFactory.getLogger(GPXDatatype.class);
 
     /**
      * The default WKT type URI.
@@ -48,13 +44,14 @@ public class GPXDatatype extends VectorLiteral {
 		try {
 			SAXParser parser=SAXParserFactory.newInstance().newSAXParser();
 			InputStream stream = new ByteArrayInputStream(geometryLiteral.getBytes(StandardCharsets.UTF_8));
-			de.hsmainz.cs.semgis.arqextension.util.GPXHandler handler=new de.hsmainz.cs.semgis.arqextension.util.GPXHandler();
+			GPXHandler handler=new GPXHandler();
 			parser.parse(stream, handler);
+			GeometryFactory fac=new GeometryFactory();
 			if(handler.coordinates.size()==1 && handler.coordinates.get(0).size()==1) {
-				return GeometryWrapperFactory.createPoint(handler.coordinates.get(0).get(0), URI);
+				return fac.createPoint(handler.coordinates.get(0).get(0));
 			}
 			if(handler.coordinates.size()==1 && handler.coordinates.get(0).size()>1) {
-				return GeometryWrapperFactory.createLineString(handler.coordinates.get(0), URI);
+				return fac.createLineString(handler.coordinates.get(0).toArray(new Coordinate[0]));
 			}
 			/*if(handler.coordinates.size()>1 && handler.coordinates.get(0).size()>1) {
 			return GeometryWrapperFactory.createMultiLineString(lineStrings, URI);

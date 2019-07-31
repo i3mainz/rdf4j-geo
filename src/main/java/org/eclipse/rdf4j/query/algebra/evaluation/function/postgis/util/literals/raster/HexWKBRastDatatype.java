@@ -41,7 +41,7 @@ public class HexWKBRastDatatype extends RasterLiteral {
 		WKBRasterReader reader2=new WKBRasterReader();
 		BufferedImage img=reader2.read(WKBReader.hexToBytes(geometryLiteral));
 		GridCoverage2D coverage=reader2.readCoverage(WKBReader.hexToBytes(geometryLiteral), CRS.forCode("EPSG:4326"));
-		return new CoverageWrapper(coverage, URI);
+		return coverage;
 	}
 	
     @Override

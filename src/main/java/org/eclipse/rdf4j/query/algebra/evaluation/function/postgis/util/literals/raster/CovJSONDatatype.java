@@ -5,7 +5,6 @@ import org.geotoolkit.coverage.grid.GridCoverage2D;
 import org.locationtech.jts.geom.Geometry;
 import org.opengis.coverage.grid.GridCoverage;
 
-import de.hsmainz.cs.semgis.arqextension.vocabulary.PostGISGeo;
 import io.github.galbiston.geosparql_jena.implementation.CoverageWrapper;
 import uk.ac.rdg.resc.edal.covjson.CoverageJsonConverterImpl;
 import uk.ac.rdg.resc.edal.covjson.CoverageJsonWriter;

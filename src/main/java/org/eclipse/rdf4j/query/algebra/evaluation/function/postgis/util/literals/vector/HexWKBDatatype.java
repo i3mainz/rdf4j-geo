@@ -1,17 +1,11 @@
 package org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.literals.vector;
 
-import io.github.galbiston.geosparql_jena.implementation.GeometryWrapper; import io.github.galbiston.geosparql_jena.implementation.GeometryWrapperFactory;
-import io.github.galbiston.geosparql_jena.implementation.vocabulary.SRS_URI;
-
 import org.eclipse.rdf4j.model.vocabulary.POSTGIS;
 import org.locationtech.jts.geom.Geometry;
 import org.locationtech.jts.io.ParseException;
 import org.locationtech.jts.io.WKBReader;
 import org.locationtech.jts.io.WKBWriter;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 
-import de.hsmainz.cs.semgis.arqextension.vocabulary.PostGISGeo;
 
 /**
  * WKTDatatype class allows the URI "geo:wktLiteral" to be used as a datatype
@@ -29,8 +23,6 @@ import de.hsmainz.cs.semgis.arqextension.vocabulary.PostGISGeo;
  * specify an explicit spatial reference system URI.
  */
 public class HexWKBDatatype extends VectorLiteral {
-
-    private static final Logger LOGGER = LoggerFactory.getLogger(HexWKBDatatype.class);
 
     /**
      * The default WKT type URI.

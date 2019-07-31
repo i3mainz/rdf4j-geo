@@ -4,20 +4,11 @@ import java.io.IOException;
 import java.text.ParseException;
 
 import org.eclipse.rdf4j.model.vocabulary.POSTGIS;
+import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.JtsPolyshapeWriter;
+import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.PolyshapeReader;
 import org.locationtech.jts.geom.Geometry;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
-
-import de.hsmainz.cs.semgis.arqextension.util.JtsPolyshapeWriter;
-import de.hsmainz.cs.semgis.arqextension.util.PolyshapeReader;
-import de.hsmainz.cs.semgis.arqextension.util.PolyshapeWriter;
-import de.hsmainz.cs.semgis.arqextension.vocabulary.PostGISGeo;
-import io.github.galbiston.geosparql_jena.implementation.GeometryWrapper;
-import io.github.galbiston.geosparql_jena.implementation.GeometryWrapperFactory;
 
 public class PolyshapeDatatype extends VectorLiteral {
-
-    private static final Logger LOGGER = LoggerFactory.getLogger(EncodedPolylineDatatype.class);
 
     /**
      * The default WKT type URI.
@@ -49,12 +40,9 @@ public class PolyshapeDatatype extends VectorLiteral {
 
     @Override
     public Geometry read(String geometryLiteral) {
-	    GeometryWrapper wrapper;
-		try {
-			wrapper = GeometryWrapperFactory.createGeometry(reader.read(geometryLiteral), "<http://www.opengis.net/def/crs/EPSG/0/4326>", PolyshapeDatatype.URI);
-			return wrapper;
+    	try {
+			return reader.read(geometryLiteral);
 		} catch (IOException | ParseException e) {
-			// TODO Auto-generated catch block
 			throw new RuntimeException(e.getMessage());
 		}
     }

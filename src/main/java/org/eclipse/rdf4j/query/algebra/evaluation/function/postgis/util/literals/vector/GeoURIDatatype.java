@@ -8,10 +8,6 @@ import org.locationtech.jts.geom.GeometryFactory;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import de.hsmainz.cs.semgis.arqextension.vocabulary.PostGISGeo;
-import io.github.galbiston.geosparql_jena.implementation.GeometryWrapper;
-import io.github.galbiston.geosparql_jena.implementation.GeometryWrapperFactory;
-
 public class GeoURIDatatype extends VectorLiteral {
 
 	private static final Logger LOGGER = LoggerFactory.getLogger(GeoURIDatatype.class);

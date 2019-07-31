@@ -1,8 +1,5 @@
 package org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.literals.vector;
 
-import io.github.galbiston.geosparql_jena.implementation.GeometryWrapper; 
-import io.github.galbiston.geosparql_jena.implementation.GeometryWrapperFactory;
-
 import java.io.ByteArrayInputStream;
 import java.io.InputStream;
 import java.util.ArrayList;
@@ -26,8 +23,6 @@ import org.locationtech.jts.geom.LineString;
 import org.locationtech.jts.geom.Point;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-
-import de.hsmainz.cs.semgis.arqextension.vocabulary.PostGISGeo;
 
 /**
  * WKTDatatype class allows the URI "geo:wktLiteral" to be used as a datatype
@@ -109,7 +104,7 @@ public class DXFDatatype extends VectorLiteral {
     }
 
     @Override
-    public GeometryWrapper read(String geometryLiteral) {
+    public Geometry read(String geometryLiteral) {
 	    GeometryWrapper wrapper;
 		try {
 			wrapper = GeometryWrapperFactory.createMultiLineString(readDXFLiteral(geometryLiteral), "<http://www.opengis.net/def/crs/EPSG/0/4326>", EncodedPolylineDatatype.URI);

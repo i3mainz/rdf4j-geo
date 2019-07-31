@@ -17,16 +17,11 @@
  */
 package org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.literals.vector;
 
-import io.github.galbiston.geosparql_jena.implementation.DimensionInfo;
-import io.github.galbiston.geosparql_jena.implementation.GeometryWrapper;
-import io.github.galbiston.geosparql_jena.implementation.parsers.gml.GMLReader;
-import io.github.galbiston.geosparql_jena.implementation.parsers.gml.GMLWriter;
-import io.github.galbiston.geosparql_jena.implementation.vocabulary.Geo;
 import java.io.IOException;
-import org.apache.jena.datatypes.DatatypeFormatException;
 import org.eclipse.rdf4j.model.vocabulary.POSTGIS;
-import org.jdom2.JDOMException;
 import org.locationtech.jts.geom.Geometry;
+import org.locationtech.jts.io.gml2.GMLReader;
+import org.locationtech.jts.io.gml2.GMLWriter;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

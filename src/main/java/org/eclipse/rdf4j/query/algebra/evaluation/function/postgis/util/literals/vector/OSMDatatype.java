@@ -1,12 +1,5 @@
 package org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.literals.vector;
 
-	import io.github.galbiston.geosparql_jena.implementation.DimensionInfo;
-	import io.github.galbiston.geosparql_jena.implementation.GeometryWrapper; import io.github.galbiston.geosparql_jena.implementation.GeometryWrapperFactory;
-import io.github.galbiston.geosparql_jena.implementation.parsers.wkt.WKTReader;
-	import io.github.galbiston.geosparql_jena.implementation.parsers.wkt.WKTWriter;
-	import io.github.galbiston.geosparql_jena.implementation.vocabulary.Geo;
-	import io.github.galbiston.geosparql_jena.implementation.vocabulary.SRS_URI;
-
 import org.eclipse.rdf4j.model.vocabulary.POSTGIS;
 import org.geotoolkit.data.osm.OSMMemoryFeatureStore;
 import org.geotoolkit.data.osm.OSMMemoryFeatureStoreFactory;
@@ -19,7 +12,6 @@ import org.slf4j.Logger;
 	import org.slf4j.LoggerFactory;
 import org.wololo.jts2geojson.GeoJSONReader;
 
-import de.hsmainz.cs.semgis.arqextension.vocabulary.PostGISGeo;
 
 	/**
 	 * WKTDatatype class allows the URI "geo:wktLiteral" to be used as a datatype
@@ -37,8 +29,6 @@ import de.hsmainz.cs.semgis.arqextension.vocabulary.PostGISGeo;
 	 * specify an explicit spatial reference system URI.
 	 */
 	public class OSMDatatype extends VectorLiteral {
-
-	    private static final Logger LOGGER = LoggerFactory.getLogger(OSMDatatype.class);
 
 	    /**
 	     * The default WKT type URI.

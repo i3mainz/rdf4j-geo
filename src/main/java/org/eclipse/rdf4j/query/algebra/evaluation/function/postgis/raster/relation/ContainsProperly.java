@@ -3,7 +3,6 @@ package org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.raster.relat
 import org.eclipse.rdf4j.model.Value;
 import org.eclipse.rdf4j.model.vocabulary.POSTGIS;
 import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.RasterVectorRelationBinaryFunction;
-import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.RasterVectorRelationFunction;
 
 public class ContainsProperly extends RasterVectorRelationBinaryFunction {
 

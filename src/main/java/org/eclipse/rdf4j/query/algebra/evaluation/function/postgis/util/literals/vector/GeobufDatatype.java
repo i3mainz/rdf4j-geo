@@ -15,9 +15,6 @@ import org.slf4j.LoggerFactory;
 import com.conveyal.data.geobuf.GeobufDecoder;
 import com.conveyal.data.geobuf.GeobufEncoder;
 
-import de.hsmainz.cs.semgis.arqextension.vocabulary.PostGISGeo;
-import io.github.galbiston.geosparql_jena.implementation.GeometryWrapper; import io.github.galbiston.geosparql_jena.implementation.GeometryWrapperFactory;
-
 public class GeobufDatatype extends VectorLiteral  {
 
 	    private static final Logger LOGGER = LoggerFactory.getLogger(GeobufDatatype.class);
@@ -45,8 +42,8 @@ public class GeobufDatatype extends VectorLiteral  {
 	    @Override
 	    public String unparse(Geometry geometry) {
 	            ByteArrayOutputStream output=new ByteArrayOutputStream();
-	            GeobufEncoder enc=new GeobufEncoder(output,geometryWrapper.getXYGeometry().getPrecisionModel().getMaximumSignificantDigits());
-	            return enc.geomToGeobuf(geometryWrapper.getXYGeometry()).toString();
+	            GeobufEncoder enc=new GeobufEncoder(output,geometry.getPrecisionModel().getMaximumSignificantDigits());
+	            return enc.geomToGeobuf(geometry).toString();
 	    }
 
 	    @Override

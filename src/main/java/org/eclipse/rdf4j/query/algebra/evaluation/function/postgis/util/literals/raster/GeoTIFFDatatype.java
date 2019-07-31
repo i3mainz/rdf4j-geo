@@ -2,7 +2,6 @@ package org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.literal
 
 import java.io.IOException;
 
-import org.apache.jena.sparql.expr.NodeValue;
 import org.eclipse.rdf4j.model.vocabulary.POSTGIS;
 import org.geotoolkit.coverage.grid.GridCoverage2D;
 import org.geotoolkit.coverage.io.CoverageIO;
@@ -10,9 +9,6 @@ import org.geotoolkit.coverage.io.CoverageStoreException;
 import org.geotoolkit.image.io.SpatialImageWriteParam;
 import org.geotoolkit.image.io.plugin.TiffImageWriter;
 import org.opengis.coverage.grid.GridCoverage;
-
-import de.hsmainz.cs.semgis.arqextension.vocabulary.PostGISGeo;
-import io.github.galbiston.geosparql_jena.implementation.CoverageWrapper;
 
 public class GeoTIFFDatatype extends RasterLiteral {
 
