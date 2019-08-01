@@ -3,7 +3,7 @@ package org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.geometry.att
 import org.apache.sis.referencing.CRS;
 import org.locationtech.jts.geom.Geometry;
 import org.opengis.util.FactoryException;
-
+import org.eclipse.rdf4j.model.vocabulary.POSTGIS;
 import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.geometry.base.GeometricBinaryAttributeFunction;
 
 public class HasHorizontalCRS extends GeometricBinaryAttributeFunction {
@@ -11,7 +11,7 @@ public class HasHorizontalCRS extends GeometricBinaryAttributeFunction {
 	@Override
 	public String getURI() {
 		// TODO Auto-generated method stub
-		return null;
+		return POSTGIS.ST_hasHorizontalCRS.stringValue();
 	}
 	
 	@Override

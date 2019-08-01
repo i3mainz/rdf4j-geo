@@ -139,6 +139,7 @@ public class POSTGIS {
         public static final IRI st_geometryType=factory.createIRI(NAMESPACE, "ST_GeometryType");
         public static final IRI st_gmlToSQL=factory.createIRI(NAMESPACE, "ST_GeomFromGML");
         public static final IRI st_hasNoBand=factory.createIRI(NAMESPACE, "ST_HasNoBand");
+        public static final IRI ST_hasHorizontalCRS=factory.createIRI(NAMESPACE, "ST_HasHorizontalCRS");
         public static final IRI st_hasRepeatedPoints=factory.createIRI(NAMESPACE, "ST_HasRepeatedPoints");
         public static final IRI st_height=factory.createIRI(NAMESPACE, "ST_Height");
         public static final IRI st_hausdorffDistance=factory.createIRI(NAMESPACE, "ST_HausdorffDistance");

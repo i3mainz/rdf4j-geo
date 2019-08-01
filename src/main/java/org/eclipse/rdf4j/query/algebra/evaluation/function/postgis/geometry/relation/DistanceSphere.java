@@ -1,5 +1,6 @@
 package org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.geometry.relation;
 
+import org.eclipse.rdf4j.model.vocabulary.POSTGIS;
 import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.geometry.base.GeometricDoubleAttributeFunction;
 import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.geometry.base.GeometricModifierDoubleFunction;
 import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.geometry.base.GeometricRelationDoubleFunction;
@@ -14,7 +15,7 @@ public class DistanceSphere extends GeometricRelationDoubleFunction {
 	@Override
 	public String getURI() {
 		// TODO Auto-generated method stub
-		return null;
+		return POSTGIS.ST_DISTANCESPHERE.stringValue();
 	}
 
 

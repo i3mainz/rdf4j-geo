@@ -2,15 +2,14 @@ package org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.geometry.tra
 
 import org.locationtech.jts.geom.Geometry;
 import org.locationtech.jts.geom.util.AffineTransformation;
-
+import org.eclipse.rdf4j.model.vocabulary.POSTGIS;
 import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.geometry.base.GeometricUnaryFunction;
 
 public class Translate extends GeometricUnaryFunction{
 
 	@Override
 	public String getURI() {
-		// TODO Auto-generated method stub
-		return null;
+		return POSTGIS.st_translate.stringValue();
 	}
 
 	@Override
