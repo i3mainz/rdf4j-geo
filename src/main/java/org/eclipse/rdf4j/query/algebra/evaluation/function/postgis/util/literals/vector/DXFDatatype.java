@@ -66,7 +66,8 @@ public class DXFDatatype extends VectorLiteral {
     @Override
     public String unparse(Geometry geometry) {
             DXFDocument doc=new DXFDocument();
-            if(geom instanceof Point) {
+           return null;
+            /*if(geom instanceof Point) {
             	DXFPoint point=new DXFPoint();
             	point.setX(((Point)geom).getX());
             	point.setY(((Point)geom).getY());
@@ -81,7 +82,7 @@ public class DXFDatatype extends VectorLiteral {
             }
         } else {
             throw new AssertionError("Object passed to EncodedPolylineDatatype is not a GeometryWrapper: " + geometry);
-        }
+        }*/
     }
     
     public static ArrayList<LineString> readDXFLiteral(String literalContent) throws ParseException  {
@@ -105,7 +106,8 @@ public class DXFDatatype extends VectorLiteral {
 
     @Override
     public Geometry read(String geometryLiteral) {
-	    GeometryWrapper wrapper;
+    	return null;
+	    /*GeometryWrapper wrapper;
 		try {
 			wrapper = GeometryWrapperFactory.createMultiLineString(readDXFLiteral(geometryLiteral), "<http://www.opengis.net/def/crs/EPSG/0/4326>", EncodedPolylineDatatype.URI);
 			return wrapper;
@@ -113,7 +115,7 @@ public class DXFDatatype extends VectorLiteral {
 			// TODO Auto-generated catch block
 			throw new RuntimeException(e.getMessage());
 			
-		}	
+		}*/	
 	    
     }
     

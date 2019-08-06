@@ -6,7 +6,6 @@ import org.eclipse.rdf4j.model.vocabulary.POSTGIS;
 import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.LiteralRegistry;
 import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.LiteralUtils;
 import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.RasterVectorRelationBinaryFunction;
-import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.RasterVectorRelationFunction;
 import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.literals.raster.RasterLiteral;
 import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.literals.vector.VectorLiteral;
 import org.geotoolkit.coverage.grid.GridCoverage2D;

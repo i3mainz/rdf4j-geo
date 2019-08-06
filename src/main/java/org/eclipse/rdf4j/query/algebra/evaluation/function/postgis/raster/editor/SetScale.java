@@ -1,14 +1,14 @@
-package org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.raster.transform;
+package org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.raster.editor;
 
 import org.eclipse.rdf4j.model.vocabulary.POSTGIS;
 import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.raster.base.RasterModifierFunction;
 import org.opengis.coverage.grid.GridCoverage;
 
-public class ScaleX extends RasterModifierFunction{
+public class SetScale extends RasterModifierFunction  {
 
 	@Override
 	public String getURI() {
-		return POSTGIS.st_scaleX.stringValue();
+		return POSTGIS.st_setScale.stringValue();
 	}
 
 	@Override

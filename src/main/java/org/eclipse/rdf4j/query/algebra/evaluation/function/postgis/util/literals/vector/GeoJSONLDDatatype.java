@@ -17,8 +17,6 @@
  */
 package org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.literals.vector;
 
-import io.github.galbiston.geosparql_jena.implementation.GeometryWrapper; import io.github.galbiston.geosparql_jena.implementation.GeometryWrapperFactory;
-
 import org.eclipse.rdf4j.model.vocabulary.POSTGIS;
 import org.locationtech.jts.geom.Geometry;
 import org.slf4j.Logger;
@@ -26,8 +24,6 @@ import org.slf4j.LoggerFactory;
 import org.wololo.geojson.GeoJSON;
 import org.wololo.jts2geojson.GeoJSONReader;
 import org.wololo.jts2geojson.GeoJSONWriter;
-
-import de.hsmainz.cs.semgis.arqextension.vocabulary.PostGISGeo;
 
 /**
  * WKTDatatype class allows the URI "geo:wktLiteral" to be used as a datatype

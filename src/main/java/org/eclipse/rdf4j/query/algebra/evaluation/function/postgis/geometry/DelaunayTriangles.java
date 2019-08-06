@@ -2,15 +2,11 @@ package org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.geometry;
 
 import java.math.BigInteger;
 
-import org.apache.jena.datatypes.DatatypeFormatException;
-import org.apache.jena.sparql.expr.ExprEvalException;
 import org.eclipse.rdf4j.model.vocabulary.POSTGIS;
 import org.locationtech.jts.geom.Geometry;
 import org.locationtech.jts.geom.GeometryFactory;
 import org.locationtech.jts.triangulate.DelaunayTriangulationBuilder;
 
-import io.github.galbiston.geosparql_jena.implementation.GeometryWrapper;
-import io.github.galbiston.geosparql_jena.implementation.GeometryWrapperFactory;
 import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.geometry.base.GeometricUnaryFunction;
 
 public class DelaunayTriangles extends GeometricUnaryFunction {
@@ -21,10 +17,9 @@ public class DelaunayTriangles extends GeometricUnaryFunction {
 	}
 
 	@Override
-	protected Geometry operation(Geometry g1) {
-		 try {
-	            GeometryWrapper geom = GeometryWrapper.extract(arg0);
-	            float tolerance = arg1.getFloat();
+	protected Geometry operation(Geometry geom) {
+		 //try {
+	           /* float tolerance = arg1.getFloat();
 	            BigInteger flags = arg2.getInteger();
 
 	            DelaunayTriangulationBuilder builder = new DelaunayTriangulationBuilder();
@@ -36,7 +31,8 @@ public class DelaunayTriangles extends GeometricUnaryFunction {
 
 	        } catch (DatatypeFormatException ex) {
 	            throw new ExprEvalException(ex.getMessage(), ex);
-	        }
+	        }*/
+			 return null;
 	}
 
 }

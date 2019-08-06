@@ -25,16 +25,20 @@ import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.literals
 import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.literals.vector.TWKBDatatype;
 import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.literals.vector.TopoJSONDatatype;
 import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.literals.vector.WKBDatatype;
+import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.literals.vector.WKTDatatype;
 
 public class LiteralRegistry {
 	
 	public static final Map<String,LiteralType> literals=new TreeMap<>();
+	
+	public static final LiteralRegistry INSTANCE=new LiteralRegistry();
 	
 	public LiteralRegistry() {
 		literals.put(GMLDatatype.URI, GMLDatatype.INSTANCE);
 		literals.put(KMLDatatype.URI, KMLDatatype.INSTANCE);
 		literals.put(TWKBDatatype.URI, TWKBDatatype.INSTANCE);
 		literals.put(WKBDatatype.URI, WKBDatatype.INSTANCE);
+		literals.put(WKTDatatype.URI, WKTDatatype.INSTANCE);
 		literals.put(GeoJSONDatatype.URI, GeoJSONDatatype.INSTANCE);
 		literals.put(GeoURIDatatype.URI, GeoURIDatatype.INSTANCE);
 		literals.put(GPXDatatype.URI, GPXDatatype.INSTANCE);

@@ -298,6 +298,11 @@ public class POSTGIS {
         public static final IRI st_scaleY=factory.createIRI(NAMESPACE, "ST_ScaleY");
         public static final IRI st_shearTransformation=factory.createIRI(NAMESPACE, "ST_ShearTransformation");
         public static final IRI st_segmentize=factory.createIRI(NAMESPACE, "ST_Segmentize");
+        public static final IRI st_setScale=factory.createIRI(NAMESPACE, "ST_SetScale");
+        public static final IRI st_setSkew=factory.createIRI(NAMESPACE, "ST_SetSkew");
+        public static final IRI st_setRotation=factory.createIRI(NAMESPACE, "ST_SetRotation");
+        public static final IRI st_setGeoReference=factory.createIRI(NAMESPACE, "ST_SetGeoReference");
+        public static final IRI st_setUpperLeft=factory.createIRI(NAMESPACE, "ST_SetUpperLeft");
         public static final IRI st_setPoint=factory.createIRI(NAMESPACE, "ST_SetPoint");
         public static final IRI st_setSRID=factory.createIRI(NAMESPACE, "ST_SetSRID");
         public static final IRI st_simplify=factory.createIRI(NAMESPACE, "ST_Simplify");
@@ -376,5 +381,7 @@ public class POSTGIS {
 		public static final String SVG="SVG";
 
 		public static final String NETCDF="NetCDF";
+		public static final String GML="GML";
+		public static final String WKT="WKT";
 
 }

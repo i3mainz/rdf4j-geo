@@ -9,9 +9,6 @@ import org.locationtech.jts.geom.Geometry;
 import org.locationtech.jts.geom.LineString;
 import org.locationtech.jts.geom.Point;
 
-import io.github.galbiston.geosparql_jena.implementation.GeometryWrapper;
-import io.github.galbiston.geosparql_jena.implementation.GeometryWrapperFactory;
-import io.github.galbiston.geosparql_jena.implementation.datatype.WKTDatatype;
 import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.geometry.base.GeometricModifierFunction;
 
 public class SetPoint extends GeometricModifierFunction {
