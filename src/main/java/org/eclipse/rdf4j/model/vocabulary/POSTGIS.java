@@ -31,6 +31,7 @@ public class POSTGIS {
 	public static final	IRI ST_ASGEOJSONLD=factory.createIRI(NAMESPACE, "ST_AsGeoJSONLD");
 	public static final	IRI ST_ASGEORSS=factory.createIRI(NAMESPACE, "ST_AsGeoRSS");
 	public static final	IRI ST_ASGPX=factory.createIRI(NAMESPACE, "ST_AsGPX");
+    public static final IRI st_aspect=factory.createIRI(NAMESPACE, "ST_Aspect");
 	public static final	IRI ST_ASPOLYSHAPE=factory.createIRI(NAMESPACE, "ST_AsPolyshape");
 	public static final	IRI ST_ASTIFF=factory.createIRI(NAMESPACE, "ST_AsTIFF");
 	public static final	IRI ST_ASTOPOJSON=factory.createIRI(NAMESPACE, "ST_AsTopoJSON");
@@ -89,6 +90,7 @@ public class POSTGIS {
 	public static final	IRI ST_CONVEXHULL=factory.createIRI(NAMESPACE, "ST_ConvexHull");
 	public static final	IRI ST_COUNT=factory.createIRI(NAMESPACE, "ST_Count");
 	public static final	IRI ST_CURVETOLINE=factory.createIRI(NAMESPACE, "ST_CurveToLine");
+    public static final IRI st_curvature=factory.createIRI(NAMESPACE, "ST_Curvature");
 	public static final	IRI ST_DENSIFY=factory.createIRI(NAMESPACE, "ST_Densify");
 	public static final	IRI ST_DELAUNAYTRIANGLES=factory.createIRI(NAMESPACE, "ST_DelaunayTriangles");
 	public static final	IRI ST_DIMENSION=factory.createIRI(NAMESPACE, "ST_Dimension");
@@ -104,6 +106,7 @@ public class POSTGIS {
 	public static final	IRI ST_EPSGTOSRID=factory.createIRI(NAMESPACE, "ST_EPSGToSRID");
 	public static final	IRI ST_FILTERBYM=factory.createIRI(NAMESPACE, "ST_FilterByM");
 	public static final	IRI ST_FILTERBYT=factory.createIRI(NAMESPACE, "ST_FilterByT");
+    public static final IRI st_flip=factory.createIRI(NAMESPACE, "ST_Flip");
 	public static final	IRI ST_FLIPCOORDINATES=factory.createIRI(NAMESPACE, "ST_FlipCoordinates");
 	public static final IRI st_equals=factory.createIRI(NAMESPACE, "ST_Equals");
         public static final IRI st_equalsNorm=factory.createIRI(NAMESPACE, "ST_EqualNorm");
@@ -151,6 +154,10 @@ public class POSTGIS {
         public static final IRI st_isClosed=factory.createIRI(NAMESPACE, "ST_IsClosed");
         public static final IRI st_isConvex=factory.createIRI(NAMESPACE, "ST_IsConvex");
         public static final IRI st_isEmpty=factory.createIRI(NAMESPACE, "ST_IsEmpty");
+        public static final IRI st_isGrayscale=factory.createIRI(NAMESPACE, "ST_IsGrayscale");
+        public static final IRI st_isIndexed=factory.createIRI(NAMESPACE, "ST_IsIndexed");
+        public static final IRI st_isTiled=factory.createIRI(NAMESPACE, "ST_IsTiled");
+        public static final IRI st_isTranslucent=factory.createIRI(NAMESPACE, "ST_IsTranslucent");
         public static final IRI st_isLocationOnEdge=factory.createIRI(NAMESPACE, "ST_IsLocationOnEdge");
         public static final IRI st_isMeasured=factory.createIRI(NAMESPACE, "ST_IsMeasured");
         public static final IRI st_isMorePrecise=factory.createIRI(NAMESPACE, "ST_IsMorePrecise");
@@ -212,6 +219,7 @@ public class POSTGIS {
         public static final IRI st_minimumDiameterLine=factory.createIRI(NAMESPACE, "ST_MinimumDiameterLine");
         public static final IRI st_minimumRectangle=factory.createIRI(NAMESPACE, "ST_MinimumRectangle");
         public static final IRI st_minConvexHull=factory.createIRI(NAMESPACE, "ST_MinConvexHull");
+        public static final IRI st_mirror=factory.createIRI(NAMESPACE, "ST_Mirror");
         public static final IRI st_mLineFromText=factory.createIRI(NAMESPACE, "ST_MLineFromText");
         public static final IRI st_mMin=factory.createIRI(NAMESPACE, "ST_MMin");
         public static final IRI st_mMax=factory.createIRI(NAMESPACE, "ST_MMax");
@@ -293,6 +301,8 @@ public class POSTGIS {
         public static final IRI st_rotateX=factory.createIRI(NAMESPACE, "ST_RotateX");
         public static final IRI st_rotateY=factory.createIRI(NAMESPACE, "ST_RotateY");
         public static final IRI st_rotateZ=factory.createIRI(NAMESPACE, "ST_RotateZ");
+        public static final IRI st_rotation=factory.createIRI(NAMESPACE, "ST_Rotation");
+        public static final IRI st_roughness=factory.createIRI(NAMESPACE, "ST_Roughness");
         public static final IRI st_scale=factory.createIRI(NAMESPACE, "ST_Scale");
         public static final IRI st_scaleX=factory.createIRI(NAMESPACE, "ST_ScaleX");
         public static final IRI st_scaleY=factory.createIRI(NAMESPACE, "ST_ScaleY");
@@ -312,6 +322,7 @@ public class POSTGIS {
         public static final IRI st_shiftLongitude=factory.createIRI(NAMESPACE, "ST_ShiftLongitude");
         public static final IRI st_shortestLine=factory.createIRI(NAMESPACE, "ST_ShortestLine");
         public static final IRI st_shortestLine3D=factory.createIRI(NAMESPACE, "ST_ShortestLine3D");
+        public static final IRI st_slope=factory.createIRI(NAMESPACE, "ST_Slope");
         public static final IRI st_skewX=factory.createIRI(NAMESPACE, "ST_SkewX");
         public static final IRI st_skewY=factory.createIRI(NAMESPACE, "ST_SkewY");
         public static final IRI st_snap=factory.createIRI(NAMESPACE, "ST_Snap");
@@ -327,6 +338,8 @@ public class POSTGIS {
         public static final IRI st_t=factory.createIRI(NAMESPACE, "ST_T");
         public static final IRI st_tMin=factory.createIRI(NAMESPACE, "ST_TMin");
         public static final IRI st_tMax=factory.createIRI(NAMESPACE, "ST_TMax");
+        public static final IRI st_tpi=factory.createIRI(NAMESPACE, "ST_TPI");
+        public static final IRI st_tri=factory.createIRI(NAMESPACE, "ST_TRI");
         public static final IRI st_transscale=factory.createIRI(NAMESPACE, "ST_TransScale");
         public static final IRI st_translate=factory.createIRI(NAMESPACE, "ST_Translate");
         public static final IRI st_transform=factory.createIRI(NAMESPACE, "ST_Transform");
@@ -383,5 +396,8 @@ public class POSTGIS {
 		public static final String NETCDF="NetCDF";
 		public static final String GML="GML";
 		public static final String WKT="WKT";
+
+
+
 
 }

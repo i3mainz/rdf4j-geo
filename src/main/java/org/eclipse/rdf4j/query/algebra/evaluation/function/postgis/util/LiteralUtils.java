@@ -5,6 +5,7 @@ import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.List;
 
+import org.apache.sis.geometry.DirectPosition2D;
 import org.apache.sis.geometry.Envelope2D;
 import org.apache.sis.referencing.CRS;
 import org.locationtech.jts.geom.Coordinate;
@@ -24,28 +25,6 @@ import org.opengis.util.FactoryException;
 
 public class LiteralUtils {
 
-	public static Wrapper rasterOrVector(NodeValue v) {
-			GeometryDatatype datatype=GeometryDatatype.get(v.getDatatypeURI());
-			if(datatype==null) {
-				RasterDataType rdatatype=RasterDataType.get(v.getDatatypeURI());
-				if(rdatatype==null) {
-					throw new AssertionError("No valid raster or vector geometry definition given!");
-				}else {
-					return CoverageWrapper.extract(v);	
-				}	
-			}else{
-				return  GeometryWrapper.extract(v);
-			}	
-	}
-	
-	public static Geometry getCorrectVectorRepresentation(Wrapper wrapper) {
-		if(wrapper instanceof GeometryWrapper) {
-			return ((GeometryWrapper) wrapper).getXYGeometry();
-		}else {
-			return toGeometry(((CoverageWrapper) wrapper).getXYGeometry().getEnvelope2D());
-		}
-	}
-	
 	public static Geometry toGeometry(final org.opengis.geometry.Envelope envelope) {
 		
         GeometryFactory gf = new GeometryFactory();
@@ -182,7 +161,6 @@ public class LiteralUtils {
 			    // maybe the operation is not suitable. Decide here what to do (throw an exception, etc).
 			}
 			MathTransform mt = operation.getMathTransform();
-			mt.
 			DirectPosition position = new DirectPosition2D(20, 30);            // 20°N 30°E   (watch out axis order!)
 			position = mt.transform(position, position);
 			System.out.println(position);

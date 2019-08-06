@@ -18,6 +18,7 @@
 
 package org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util;
 
+import java.awt.geom.Rectangle2D;
 import java.io.IOException;
 import java.io.StringWriter;
 import java.io.Writer;
