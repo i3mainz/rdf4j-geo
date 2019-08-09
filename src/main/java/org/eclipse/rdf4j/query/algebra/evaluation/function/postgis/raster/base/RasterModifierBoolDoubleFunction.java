@@ -9,10 +9,8 @@ import org.eclipse.rdf4j.query.algebra.evaluation.function.Function;
 import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.LiteralRegistry;
 import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.literals.LiteralType;
 import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.literals.raster.RasterLiteral;
-import org.locationtech.jts.geom.Geometry;
 
-public abstract class RasterAttributeIntIntGeomFunction implements Function {
-
+public abstract class RasterModifierBoolDoubleFunction implements Function {
 
 	@Override
 	public Value evaluate(ValueFactory valueFactory, Value... args) throws ValueExprEvaluationException {
@@ -22,16 +20,13 @@ public abstract class RasterAttributeIntIntGeomFunction implements Function {
 		LiteralType l=LiteralRegistry.getLiteral(((Literal)args[0]).getDatatype().toString());
 		if(l instanceof RasterLiteral) {
 			GridCoverage geom=((RasterLiteral)l).read(args[0].stringValue());
-			Integer longitude = Integer.valueOf(args[1].stringValue());
-			Integer latitude = Integer.valueOf(args[2].stringValue());
-			Geometry result = attribute(geom,longitude,latitude);
-			return valueFactory.createLiteral(result);
+			Boolean type = Boolean.valueOf(args[1].stringValue());
+			Double zFactor = Double.valueOf(args[2].stringValue());
+			GridCoverage result = modify(geom,type,zFactor);
+			return valueFactory.createLiteral(((RasterLiteral) l).unparse(result),((Literal)args[0]).getDatatype());
 		}
 		return null;
 	}
 	
-	public abstract Geometry attribute(GridCoverage geom,Integer longitude,Integer latitude);
-
-
-
+	public abstract GridCoverage modify(GridCoverage coverage, Boolean type, Double zFactor);
 }

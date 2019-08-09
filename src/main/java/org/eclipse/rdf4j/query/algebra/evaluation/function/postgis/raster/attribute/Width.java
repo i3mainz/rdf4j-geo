@@ -1,8 +1,8 @@
 package org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.raster.attribute;
 
+import org.apache.sis.coverage.grid.GridCoverage;
 import org.eclipse.rdf4j.model.vocabulary.POSTGIS;
 import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.raster.base.RasterAttributeFunction;
-import org.geotoolkit.coverage.grid.GridCoverage2D;
 
 public class Width extends RasterAttributeFunction {
 
@@ -12,7 +12,7 @@ public class Width extends RasterAttributeFunction {
 	}
 
 	@Override
-	public double attribute(GridCoverage2D raster) {
+	public double attribute(GridCoverage raster) {
 		return raster.getRenderedImage().getWidth();
 	}
 

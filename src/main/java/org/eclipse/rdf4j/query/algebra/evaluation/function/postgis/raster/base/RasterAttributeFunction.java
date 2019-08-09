@@ -1,10 +1,10 @@
 package org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.raster.base;
 
+import org.apache.sis.coverage.grid.GridCoverage;
 import org.eclipse.rdf4j.model.Value;
 import org.eclipse.rdf4j.model.ValueFactory;
 import org.eclipse.rdf4j.query.algebra.evaluation.ValueExprEvaluationException;
 import org.eclipse.rdf4j.query.algebra.evaluation.function.Function;
-import org.geotoolkit.coverage.grid.GridCoverage2D;
 
 public abstract class RasterAttributeFunction implements Function {
 
@@ -14,6 +14,6 @@ public abstract class RasterAttributeFunction implements Function {
 		return null;
 	}
 	
-	public abstract double attribute(GridCoverage2D geom);
+	public abstract double attribute(GridCoverage geom);
 	
 }

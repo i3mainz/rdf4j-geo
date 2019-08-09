@@ -4,16 +4,16 @@ import org.apache.sis.coverage.grid.GridCoverage;
 import org.eclipse.rdf4j.model.vocabulary.POSTGIS;
 import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.raster.base.RasterAttributeFunction;
 
-public class NumBands extends RasterAttributeFunction{
+public class TileHeight extends RasterAttributeFunction {
 
 	@Override
 	public String getURI() {
-		return POSTGIS.st_numBands.stringValue();
+		return POSTGIS.st_tileHeight.stringValue();
 	}
 
 	@Override
 	public double attribute(GridCoverage raster) {
-		return raster.getSampleDimensions().size();
+		return raster.render(raster.getGridGeometry().getExtent()).getTileHeight();
 	}
 
 }

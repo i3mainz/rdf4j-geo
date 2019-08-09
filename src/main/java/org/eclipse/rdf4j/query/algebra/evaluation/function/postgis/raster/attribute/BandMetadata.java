@@ -1,8 +1,8 @@
 package org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.raster.attribute;
 
+import org.apache.sis.coverage.grid.GridCoverage;
 import org.eclipse.rdf4j.model.vocabulary.POSTGIS;
 import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.raster.base.RasterStringExportFunction;
-import org.geotoolkit.coverage.grid.GridCoverage2D;
 
 public class BandMetadata extends RasterStringExportFunction {
 
@@ -12,7 +12,7 @@ public class BandMetadata extends RasterStringExportFunction {
 	}
 
 	@Override
-	public String operation(GridCoverage2D raster) {
+	public String operation(GridCoverage raster) {
 		// TODO Auto-generated method stub
 		return null;
 	}

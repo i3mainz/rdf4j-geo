@@ -2,9 +2,9 @@ package org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.raster.const
 
 import java.io.IOException;
 
+import org.apache.sis.coverage.grid.GridCoverage;
 import org.eclipse.rdf4j.model.vocabulary.POSTGIS;
 import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.raster.base.RasterConstructorFunction;
-import org.geotoolkit.coverage.grid.GridCoverage2D;
 import org.geotoolkit.coverage.wkb.WKBRasterReader;
 import org.opengis.referencing.NoSuchAuthorityCodeException;
 import org.opengis.util.FactoryException;
@@ -17,10 +17,10 @@ public class RastFromWKB extends RasterConstructorFunction {
 	}
 
 	@Override
-	public GridCoverage2D construct(String input) {
+	public GridCoverage construct(String input) {
             String wkbstring=input;
     		WKBRasterReader reader=new WKBRasterReader();
-    		GridCoverage2D coverage;
+    		GridCoverage coverage;
 			try {
 				coverage = reader.readCoverage(wkbstring.getBytes(),null);
 	    		return coverage;

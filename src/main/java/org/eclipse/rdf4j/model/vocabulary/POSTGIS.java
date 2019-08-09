@@ -91,6 +91,7 @@ public class POSTGIS {
 	public static final	IRI ST_COUNT=factory.createIRI(NAMESPACE, "ST_Count");
 	public static final	IRI ST_CURVETOLINE=factory.createIRI(NAMESPACE, "ST_CurveToLine");
     public static final IRI st_curvature=factory.createIRI(NAMESPACE, "ST_Curvature");
+    public static final IRI st_crop=factory.createIRI(NAMESPACE, "ST_Crop");
 	public static final	IRI ST_DENSIFY=factory.createIRI(NAMESPACE, "ST_Densify");
 	public static final	IRI ST_DELAUNAYTRIANGLES=factory.createIRI(NAMESPACE, "ST_DelaunayTriangles");
 	public static final	IRI ST_DIMENSION=factory.createIRI(NAMESPACE, "ST_Dimension");
@@ -144,8 +145,9 @@ public class POSTGIS {
         public static final IRI st_hasNoBand=factory.createIRI(NAMESPACE, "ST_HasNoBand");
         public static final IRI ST_hasHorizontalCRS=factory.createIRI(NAMESPACE, "ST_HasHorizontalCRS");
         public static final IRI st_hasRepeatedPoints=factory.createIRI(NAMESPACE, "ST_HasRepeatedPoints");
-        public static final IRI st_height=factory.createIRI(NAMESPACE, "ST_Height");
         public static final IRI st_hausdorffDistance=factory.createIRI(NAMESPACE, "ST_HausdorffDistance");
+        public static final IRI st_height=factory.createIRI(NAMESPACE, "ST_Height");
+        public static final IRI st_hillshade=factory.createIRI(NAMESPACE, "ST_Hillshade");
         public static final IRI st_interiorRingN=factory.createIRI(NAMESPACE, "ST_InteriorRingN");
         public static final IRI st_interpolatePoint=factory.createIRI(NAMESPACE, "ST_InterpolatePoint");
         public static final IRI st_intersectionPercentage=factory.createIRI(NAMESPACE, "ST_IntersectionPercentage");
@@ -219,6 +221,8 @@ public class POSTGIS {
         public static final IRI st_minimumDiameterLine=factory.createIRI(NAMESPACE, "ST_MinimumDiameterLine");
         public static final IRI st_minimumRectangle=factory.createIRI(NAMESPACE, "ST_MinimumRectangle");
         public static final IRI st_minConvexHull=factory.createIRI(NAMESPACE, "ST_MinConvexHull");
+        public static final IRI st_minTileX=factory.createIRI(NAMESPACE, "ST_MinTileX");
+        public static final IRI st_minTileY=factory.createIRI(NAMESPACE, "ST_MinTileY");
         public static final IRI st_mirror=factory.createIRI(NAMESPACE, "ST_Mirror");
         public static final IRI st_mLineFromText=factory.createIRI(NAMESPACE, "ST_MLineFromText");
         public static final IRI st_mMin=factory.createIRI(NAMESPACE, "ST_MMin");
@@ -233,6 +237,8 @@ public class POSTGIS {
         public static final IRI st_numInteriorRings=factory.createIRI(NAMESPACE, "ST_NumInteriorRings");
         public static final IRI st_numPatches=factory.createIRI(NAMESPACE, "ST_NumPatches");
         public static final IRI st_numPoints=factory.createIRI(NAMESPACE, "ST_NumPoints");
+        public static final IRI st_numXTiles=factory.createIRI(NAMESPACE, "ST_NumXTiles");
+        public static final IRI st_numYTiles=factory.createIRI(NAMESPACE, "ST_NumYTiles");
         public static final IRI st_nDims=factory.createIRI(NAMESPACE, "ST_NDims");
         public static final IRI st_nPoints=factory.createIRI(NAMESPACE, "ST_NumPoints");
         public static final IRI st_nRings=factory.createIRI(NAMESPACE, "ST_NRings");
@@ -294,6 +300,8 @@ public class POSTGIS {
         public static final IRI st_removePoints=factory.createIRI(NAMESPACE, "ST_RemovePoints");
         public static final IRI st_removeRepeatedPoints=factory.createIRI(NAMESPACE, "ST_RemoveRepeatedPoints");
         public static final IRI st_reskew=factory.createIRI(NAMESPACE, "ST_Reskew");
+        public static final IRI st_resample=factory.createIRI(NAMESPACE, "ST_Resample");
+        public static final IRI st_rescale=factory.createIRI(NAMESPACE, "ST_Rescale");
         public static final IRI st_resize=factory.createIRI(NAMESPACE, "ST_Resize");
         public static final IRI st_retile=factory.createIRI(NAMESPACE, "ST_Retile");
         public static final IRI st_reverse=factory.createIRI(NAMESPACE, "ST_Reverse");
@@ -315,6 +323,7 @@ public class POSTGIS {
         public static final IRI st_setUpperLeft=factory.createIRI(NAMESPACE, "ST_SetUpperLeft");
         public static final IRI st_setPoint=factory.createIRI(NAMESPACE, "ST_SetPoint");
         public static final IRI st_setSRID=factory.createIRI(NAMESPACE, "ST_SetSRID");
+        public static final IRI st_shift=factory.createIRI(NAMESPACE, "ST_Shift");
         public static final IRI st_simplify=factory.createIRI(NAMESPACE, "ST_Simplify");
         public static final IRI st_simplifyPreserveTopology=factory.createIRI(NAMESPACE, "ST_SimplifyPreserveTopology");
         public static final IRI st_simplifyVW=factory.createIRI(NAMESPACE, "ST_SimplifyVW");
@@ -336,6 +345,10 @@ public class POSTGIS {
         public static final IRI st_symDifference=factory.createIRI(NAMESPACE, "ST_SymDifference");
         public static final IRI st_tesselate=factory.createIRI(NAMESPACE, "ST_Tesselate");
         public static final IRI st_t=factory.createIRI(NAMESPACE, "ST_T");
+		public static final IRI st_tileGridXOffset = factory.createIRI(NAMESPACE, "ST_TileGridXOffset");
+		public static final IRI st_tileGridYOffset = factory.createIRI(NAMESPACE, "ST_TileGridYOffset");
+		public static final IRI st_tileHeight = factory.createIRI(NAMESPACE, "ST_TileHeight");
+		public static final IRI st_tileWidth = factory.createIRI(NAMESPACE, "ST_TileWidth");
         public static final IRI st_tMin=factory.createIRI(NAMESPACE, "ST_TMin");
         public static final IRI st_tMax=factory.createIRI(NAMESPACE, "ST_TMax");
         public static final IRI st_tpi=factory.createIRI(NAMESPACE, "ST_TPI");
@@ -396,6 +409,21 @@ public class POSTGIS {
 		public static final String NETCDF="NetCDF";
 		public static final String GML="GML";
 		public static final String WKT="WKT";
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

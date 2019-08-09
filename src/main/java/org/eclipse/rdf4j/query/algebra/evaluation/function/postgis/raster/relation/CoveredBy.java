@@ -1,5 +1,6 @@
 package org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.raster.relation;
 
+import org.apache.sis.coverage.grid.GridCoverage;
 import org.eclipse.rdf4j.model.Literal;
 import org.eclipse.rdf4j.model.Value;
 import org.eclipse.rdf4j.model.vocabulary.POSTGIS;
@@ -8,7 +9,6 @@ import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.LiteralU
 import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.RasterVectorRelationBinaryFunction;
 import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.literals.raster.RasterLiteral;
 import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.literals.vector.VectorLiteral;
-import org.geotoolkit.coverage.grid.GridCoverage2D;
 
 public class CoveredBy extends RasterVectorRelationBinaryFunction {
 
@@ -32,15 +32,15 @@ public class CoveredBy extends RasterVectorRelationBinaryFunction {
 		}else if(type && !type2) {
 			VectorLiteral vec1=(VectorLiteral) LiteralRegistry.getLiteral(lit1.getDatatype().toString());
 			RasterLiteral vec2=(RasterLiteral) LiteralRegistry.getLiteral(lit2.getDatatype().toString());
-			return vec1.read(v1.stringValue()).coveredBy(LiteralUtils.toGeometry(vec2.read(v2.stringValue()).getEnvelope()));
+			return vec1.read(v1.stringValue()).coveredBy(LiteralUtils.toGeometry(vec2.read(v2.stringValue()).getGridGeometry().getEnvelope()));
 		}else if(!type && type2) {
 			RasterLiteral vec1=(RasterLiteral) LiteralRegistry.getLiteral(lit1.getDatatype().toString());
 			VectorLiteral vec2=(VectorLiteral) LiteralRegistry.getLiteral(lit2.getDatatype().toString());
-			return LiteralUtils.toGeometry(((GridCoverage2D)vec1.read(v1.stringValue())).getEnvelope()).coveredBy(vec2.read(v2.stringValue()));
+			return LiteralUtils.toGeometry(((GridCoverage)vec1.read(v1.stringValue())).getGridGeometry().getEnvelope()).coveredBy(vec2.read(v2.stringValue()));
 		}else {
 			RasterLiteral vec1=(RasterLiteral) LiteralRegistry.getLiteral(lit1.getDatatype().toString());
 			RasterLiteral vec2=(RasterLiteral) LiteralRegistry.getLiteral(lit2.getDatatype().toString());
-			return LiteralUtils.toGeometry(((GridCoverage2D)vec1.read(v1.stringValue())).getEnvelope()).coveredBy(LiteralUtils.toGeometry(vec2.read(v2.stringValue()).getEnvelope()));
+			return LiteralUtils.toGeometry(((GridCoverage)vec1.read(v1.stringValue())).getGridGeometry().getEnvelope()).coveredBy(LiteralUtils.toGeometry(vec2.read(v2.stringValue()).getGridGeometry().getEnvelope()));
 		}
 	}
 
