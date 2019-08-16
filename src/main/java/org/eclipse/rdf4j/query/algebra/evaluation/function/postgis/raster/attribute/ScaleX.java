@@ -1,10 +1,14 @@
-package org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.raster.transform;
+package org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.raster.attribute;
 
+import java.awt.geom.AffineTransform;
+
+import org.apache.sis.coverage.grid.GridCoverage;
+import org.apache.sis.coverage.grid.GridGeometry;
 import org.eclipse.rdf4j.model.vocabulary.POSTGIS;
-import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.raster.base.RasterModifierFunction;
-import org.opengis.coverage.grid.GridCoverage;
+import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.raster.base.RasterAttributeFunction;
+import org.opengis.referencing.datum.PixelInCell;
 
-public class ScaleX extends RasterModifierFunction{
+public class ScaleX extends RasterAttributeFunction{
 
 	@Override
 	public String getURI() {
@@ -12,9 +16,10 @@ public class ScaleX extends RasterModifierFunction{
 	}
 
 	@Override
-	public GridCoverage modify(GridCoverage coverage) {
-		// TODO Auto-generated method stub
-		return null;
+	public double attribute(GridCoverage raster) {
+		GridGeometry gridGeometry2D = raster.getGridGeometry();
+        AffineTransform gridToWorld = (AffineTransform) gridGeometry2D.getGridToCRS(PixelInCell.CELL_CENTER);
+        return gridToWorld.getScaleX();
 	}
 
 }

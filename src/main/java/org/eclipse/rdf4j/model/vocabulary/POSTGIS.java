@@ -109,6 +109,7 @@ public class POSTGIS {
 	public static final	IRI ST_FILTERBYT=factory.createIRI(NAMESPACE, "ST_FilterByT");
     public static final IRI st_flip=factory.createIRI(NAMESPACE, "ST_Flip");
 	public static final	IRI ST_FLIPCOORDINATES=factory.createIRI(NAMESPACE, "ST_FlipCoordinates");
+	public static final	IRI ST_flowdirection=factory.createIRI(NAMESPACE, "ST_FlowDirection");
 	public static final IRI st_equals=factory.createIRI(NAMESPACE, "ST_Equals");
         public static final IRI st_equalsNorm=factory.createIRI(NAMESPACE, "ST_EqualNorm");
         public static final IRI st_equalsTopo=factory.createIRI(NAMESPACE, "ST_EqualTopo");
@@ -148,6 +149,7 @@ public class POSTGIS {
         public static final IRI st_hausdorffDistance=factory.createIRI(NAMESPACE, "ST_HausdorffDistance");
         public static final IRI st_height=factory.createIRI(NAMESPACE, "ST_Height");
         public static final IRI st_hillshade=factory.createIRI(NAMESPACE, "ST_Hillshade");
+		public static final IRI st_histogram = factory.createIRI(NAMESPACE,"ST_Histogram");
         public static final IRI st_interiorRingN=factory.createIRI(NAMESPACE, "ST_InteriorRingN");
         public static final IRI st_interpolatePoint=factory.createIRI(NAMESPACE, "ST_InterpolatePoint");
         public static final IRI st_intersectionPercentage=factory.createIRI(NAMESPACE, "ST_IntersectionPercentage");
@@ -409,6 +411,12 @@ public class POSTGIS {
 		public static final String NETCDF="NetCDF";
 		public static final String GML="GML";
 		public static final String WKT="WKT";
+
+
+
+
+
+
 
 		
 

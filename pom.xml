@@ -87,6 +87,22 @@
     <artifactId>rdf4j-queryalgebra-model</artifactId>
     <version>3.0.0-M2</version>
 </dependency>
+<!-- https://mvnrepository.com/artifact/it.geosolutions.jaiext/jaiext -->
+<dependency>
+    <groupId>it.geosolutions.jaiext</groupId>
+    <artifactId>jaiext</artifactId>
+    <version>1.1.11</version>
+    <type>pom</type>
+</dependency>
+<!-- https://mvnrepository.com/artifact/it.geosolutions.jaiext.stats/jt-stats -->
+<dependency>
+    <groupId>it.geosolutions.jaiext.stats</groupId>
+    <artifactId>jt-stats</artifactId>
+    <version>1.1.11</version>
+    <scope>test</scope>
+</dependency>
+
+
       <dependency>
             <groupId>org.opengis</groupId>
             <artifactId>geoapi</artifactId>

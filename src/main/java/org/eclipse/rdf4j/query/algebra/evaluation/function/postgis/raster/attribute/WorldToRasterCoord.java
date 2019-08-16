@@ -9,6 +9,7 @@ import org.locationtech.jts.geom.Coordinate;
 import org.locationtech.jts.geom.Geometry;
 import org.locationtech.jts.geom.GeometryFactory;
 import org.opengis.geometry.DirectPosition;
+import org.opengis.referencing.datum.PixelInCell;
 import org.opengis.referencing.operation.MathTransform;
 import org.opengis.referencing.operation.TransformException;
 
@@ -24,7 +25,7 @@ public class WorldToRasterCoord extends RasterAttributeIntIntGeomFunction {
         try {
         	
        	 GridGeometry gg2D = raster.getGridGeometry();
-            MathTransform gridToCRS = gg2D.getGridToCRS();
+            MathTransform gridToCRS = gg2D.getGridToCRS(PixelInCell.CELL_CENTER);
             MathTransform crsToGrid = gridToCRS.inverse();
             DirectPosition realPos=new DirectPosition2D(latitude, longitude);
             DirectPosition gridPos = new DirectPosition2D();
