@@ -3,7 +3,6 @@ package org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util;
 import java.util.Set;
 import java.util.TreeSet;
 
-import org.eclipse.rdf4j.model.IRI;
 import org.eclipse.rdf4j.model.Literal;
 import org.eclipse.rdf4j.model.Value;
 import org.eclipse.rdf4j.model.ValueFactory;

@@ -12,6 +12,7 @@ import org.locationtech.jts.geom.LineString;
 import org.locationtech.jts.geom.Polygon;
 
 import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.geometry.base.GeometricUnaryFunction;
+import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.LiteralUtils;
 
 public class CollectionHomogenize extends GeometricUnaryFunction{
 
@@ -26,7 +27,7 @@ public class CollectionHomogenize extends GeometricUnaryFunction{
          GeometryFactory fac=new GeometryFactory();
          if(collection.getNumGeometries()==1) {
          	Geometry singlegeom=collection.getGeometryN(0);
-         	return LiteralUtils.fac.createGeometry(singlegeom, "<http://www.opengis.net/def/crs/EPSG/0/"+collection.getSRID()+">", WKTDatatype.URI).asNodeValue();           	
+         	return LiteralUtils.createGeometry(singlegeom, "<http://www.opengis.net/def/crs/EPSG/0/"+collection.getSRID()+">", WKTDatatype.URI).asNodeValue();           	
          }else if(collection.getNumGeometries()==0) {
          	return geom1.asNodeValue();
          }else {

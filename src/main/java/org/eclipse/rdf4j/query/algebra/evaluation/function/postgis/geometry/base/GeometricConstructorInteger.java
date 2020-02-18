@@ -22,6 +22,7 @@ public abstract class GeometricConstructorInteger implements Function {
 
 		String input=args[0].stringValue();
 		Integer srid = Integer.valueOf(args[1].stringValue());
+		LiteralType l=LiteralRegistry.getLiteral(((Literal)args[0]).getDatatype().toString());
 		if(l instanceof VectorLiteral) {
 			Geometry result = construct(input,srid);
 			return valueFactory.createLiteral(((VectorLiteral) l).unparse(result),((Literal)args[0]).getDatatype());

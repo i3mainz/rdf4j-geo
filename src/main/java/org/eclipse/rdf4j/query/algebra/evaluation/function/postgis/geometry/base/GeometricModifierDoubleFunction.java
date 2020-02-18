@@ -9,7 +9,6 @@ import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.LiteralR
 import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.literals.LiteralType;
 import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.literals.vector.VectorLiteral;
 import org.locationtech.jts.geom.Geometry;
-import org.locationtech.spatial4j.context.SpatialContext;
 
 public abstract class GeometricModifierDoubleFunction implements Function {
 
