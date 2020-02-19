@@ -39,13 +39,13 @@ public class CollectionHomogenize extends GeometricUnaryFunction{
              			coords.add(coord2);
              		}
              	}
-             	GeometryWrapper pointWrapper = GeometryWrapperFactory.createMultiPoint(coords, "<http://www.opengis.net/def/crs/EPSG/0/"+geom1.getSRID()+">", WKTDatatype.URI);	
-                 return pointWrapper.asNodeValue();
+             	return LiteralUtils.createGeometry(coords, "Point", geom.getSRID());
              case "LineString":
              	List<LineString> lines=new ArrayList<LineString>();
              	for(int i=0;i<collection.getNumGeometries();i++) {
              			lines.add((LineString)collection.getGeometryN(i));
              	}
+             	return LiteralUtils.createGeometry(coords, "LineString", geom.getSRID());
              	GeometryWrapper lineWrapper = GeometryWrapperFactory.createMultiLineString(lines, "<http://www.opengis.net/def/crs/EPSG/0/"+geom1.getSRID()+">", WKTDatatype.URI);	
              	return lineWrapper.asNodeValue();
              case "Polygon": 

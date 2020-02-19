@@ -22,8 +22,9 @@ public class DistanceSphere extends GeometricRelationDoubleFunction {
 	@Override
 	protected double relation(Geometry geom1, Geometry geom2) {
 			Geometry transformed=LiteralUtils.transform(geom2, geom1);
-            double distance = geom1.distanceGreatCircle(transformed);
-            return distance;
+			return 0.;
+            //double distance = geom1. distanceGreatCircle(transformed);
+            //return distance;
        
 	}
 

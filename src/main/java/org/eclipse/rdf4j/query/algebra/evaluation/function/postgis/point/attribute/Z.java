@@ -12,7 +12,7 @@ public class Z extends GeometricDoubleAttributeFunction {
 		if(geom.getGeometryType().equalsIgnoreCase("Point")) {
 			return geom.getCoordinate().z;
 		}
-		return geom.getCentroid().getZ();
+		return geom.getCentroid().getCoordinate().z;
 	}
 
 	@Override

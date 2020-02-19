@@ -16,8 +16,8 @@ public class AsGeobuf extends GeometricStringExportFunction {
 	public String operation(Geometry geom) {
          ByteArrayOutputStream output=new ByteArrayOutputStream();
          GeobufEncoder enc=new GeobufEncoder(output,geom.getPrecisionModel().getMaximumSignificantDigits());
-         Geometry buf=enc.geomToGeobuf(geom);
-         return buf.toString();
+         //Geometry buf=enc.geomToGeobuf(geom);
+         return "";//buf.toString();
 	}
 
 	@Override

@@ -115,7 +115,22 @@
         </dependency>
         <dependency>
             <groupId>org.apache.sis.core</groupId>
+            <artifactId>sis-referencing</artifactId>
+            <version>${sis.version}</version>
+        </dependency>
+         <dependency>
+            <groupId>org.apache.sis.core</groupId>
+            <artifactId>sis-referencing-by-identifiers</artifactId>
+            <version>${sis.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.sis.core</groupId>
             <artifactId>sis-metadata</artifactId>
+            <version>${sis.version}</version>
+        </dependency>
+       <dependency>
+            <groupId>org.apache.sis.core</groupId>
+            <artifactId>sis-cql</artifactId>
             <version>${sis.version}</version>
         </dependency>
         <dependency>
@@ -174,6 +189,12 @@
     <groupId>org.eclipse.rdf4j</groupId>
     <artifactId>rdf4j-queryalgebra-geosparql</artifactId>
     <version>3.0.0</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/org.json/json -->
+<dependency>
+    <groupId>org.json</groupId>
+    <artifactId>json</artifactId>
+    <version>20190722</version>
 </dependency>
 
   </dependencies>

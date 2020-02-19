@@ -5,6 +5,7 @@ import org.locationtech.jts.geom.Geometry;
 import org.locationtech.jts.geom.Polygon;
 
 import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.geometry.base.GeometricDoubleAttributeFunction;
+import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.linestring.LineLength3D;
 
 public class Perimeter3D extends GeometricDoubleAttributeFunction {
 

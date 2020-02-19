@@ -191,6 +191,7 @@ public class POSTGIS {
         public static final IRI st_lineInterpolatePoint=factory.createIRI(NAMESPACE, "ST_LineInterpolatePoint");
         public static final IRI st_lineInterpolatePoints=factory.createIRI(NAMESPACE, "ST_LineInterpolatePoints");
         public static final IRI st_lineLocatePoint=factory.createIRI(NAMESPACE, "ST_LineLocatePoint");
+        public static final IRI st_lineLength3D=factory.createIRI(NAMESPACE, "ST_LineLength3D");
         public static final IRI st_lineMerge=factory.createIRI(NAMESPACE, "ST_LineMerge");
         public static final IRI st_lineSelfIntersectionPoint=factory.createIRI(NAMESPACE, "ST_LineSelfIntersectionPoint");
         public static final IRI st_lineSubstring=factory.createIRI(NAMESPACE, "ST_LineSubstring");
