@@ -46,7 +46,7 @@ public class CollectionHomogenize extends GeometricUnaryFunction{
              	for(int i=0;i<collection.getNumGeometries();i++) {
              			lines.add((LineString)collection.getGeometryN(i));
              	}
-             	return LiteralUtils.createGeometry(coords, "LineString", geom.getSRID());
+             	return LiteralUtils.createGeometry(lines.get, "LineString", geom.getSRID());
              case "Polygon": 
              	List<Polygon> polys=new ArrayList<Polygon>();
              	for(int i=0;i<collection.getNumGeometries();i++) {
