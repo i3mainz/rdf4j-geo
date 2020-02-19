@@ -1,13 +1,11 @@
 package org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.geometry;
 
-import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.List;
 
 import org.eclipse.rdf4j.model.vocabulary.POSTGIS;
 import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.LiteralUtils;
 import org.locationtech.jts.geom.Geometry;
-import org.locationtech.jts.geom.GeometryFactory;
 import org.locationtech.jts.geom.LineString;
 import org.locationtech.jts.geom.Polygon;
 
@@ -22,7 +20,6 @@ public class Multi extends GeometricUnaryFunction {
 
 	@Override
 	protected Geometry operation(Geometry geom) {
-		GeometryFactory fac=new GeometryFactory();
         if(geom.getGeometryType().toUpperCase().contains("MULTI")) {
         	return geom;
         }
@@ -32,13 +29,13 @@ public class Multi extends GeometricUnaryFunction {
         case "Polygon":
         	List<Polygon> polylist=new LinkedList<Polygon>();
         	polylist.add((Polygon)geom);
-        	return GeometryWrapperFactory.createMultiPolygon(polylist, geom.getSrsURI(), WKTDatatype.URI).asNodeValue();	
+        	return LiteralUtils.createGeometry(geom.getCoordinates(), "MultiPolygon", geom.getSRID());	
         case "LineString":
         	List<LineString> linelist=new LinkedList<LineString>();
-        	linelist.add((LineString)geometry.getXYGeometry());
-        	return GeometryWrapperFactory.createMultiLineString(linelist, geometry.getSrsURI(), WKTDatatype.URI).asNodeValue();
+        	linelist.add((LineString)geom);
+        	return LiteralUtils.createGeometry(geom.getCoordinates(), "MultiLineString", geom.getSRID());	
         default:
-        	throw new ExprEvalException("Geometry type does not have a Multi representation or is not supported", null);
+        	return null;
         }
 	}
 

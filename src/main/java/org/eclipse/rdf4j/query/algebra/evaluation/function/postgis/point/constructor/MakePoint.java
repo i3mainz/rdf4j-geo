@@ -1,7 +1,6 @@
 package org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.point.constructor;
 
 import org.eclipse.rdf4j.model.vocabulary.POSTGIS;
-import org.locationtech.jts.geom.Coordinate;
 import org.locationtech.jts.geom.Geometry;
 import org.locationtech.jts.io.ParseException;
 import org.locationtech.jts.io.WKTReader;
@@ -15,7 +14,10 @@ public class MakePoint extends GeometricConstructor {
         Geometry geom;
 		try {
 			geom = wktreader.read(input);
-			if()
+			if(!"Point".equals(geom.getGeometryType())) {
+				return null;
+			}
+			return geom;
 		} catch (ParseException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();

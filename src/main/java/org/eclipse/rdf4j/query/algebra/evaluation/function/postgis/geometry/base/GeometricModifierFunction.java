@@ -24,7 +24,7 @@ public abstract class GeometricModifierFunction implements Function {
 		Double value=Double.valueOf(args[1].stringValue());
 		if(l instanceof VectorLiteral) {
 			Geometry geom=((VectorLiteral)l).read(args[0].stringValue());
-			Geometry geom2=((VectorLiteral)l).read(args[1].stringValue());
+			Geometry geom2=((VectorLiteral)l2).read(args[1].stringValue());
 			Geometry result = relation(geom,geom2);
 			return valueFactory.createLiteral(((VectorLiteral) l).unparse(result),((Literal)args[0]).getDatatype());
 		}

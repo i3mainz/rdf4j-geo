@@ -1,8 +1,8 @@
 package org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.raster.editor;
 
+import org.apache.sis.coverage.grid.GridCoverage;
 import org.eclipse.rdf4j.model.vocabulary.POSTGIS;
 import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.raster.base.RasterModifierFunction;
-import org.opengis.coverage.grid.GridCoverage;
 
 public class SetScale extends RasterModifierFunction  {
 

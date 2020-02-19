@@ -9,7 +9,6 @@ import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.LiteralR
 import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.literals.LiteralType;
 import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.literals.vector.VectorLiteral;
 import org.locationtech.jts.geom.Geometry;
-import org.locationtech.spatial4j.context.SpatialContext;
 
 public abstract class GeometricRelationBinaryFunction implements Function {
 
@@ -17,14 +16,12 @@ public abstract class GeometricRelationBinaryFunction implements Function {
 	public Value evaluate(ValueFactory valueFactory, Value... args) throws ValueExprEvaluationException {
 		if (args.length != 2) {
 			throw new ValueExprEvaluationException(getURI() + " requires exactly 2 arguments, got " + args.length);
-		}
-
-		
+		}	
 		LiteralType l=LiteralRegistry.getLiteral(((Literal)args[0]).getDatatype().toString());
 		LiteralType l2=LiteralRegistry.getLiteral(((Literal)args[1]).getDatatype().toString());
 		if(l instanceof VectorLiteral && l2 instanceof VectorLiteral) {
 			Geometry geom=((VectorLiteral)l).read(args[0].stringValue());
-			Geometry geom2=((VectorLiteral)l).read(args[1].stringValue());
+			Geometry geom2=((VectorLiteral)l2).read(args[1].stringValue());
 			boolean result = relation(geom,geom2);
 			return valueFactory.createLiteral(result);
 		}

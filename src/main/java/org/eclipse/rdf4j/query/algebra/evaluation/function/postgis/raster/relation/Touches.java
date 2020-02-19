@@ -9,7 +9,6 @@ import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.LiteralU
 import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.RasterVectorRelationBinaryFunction;
 import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.literals.raster.RasterLiteral;
 import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.literals.vector.VectorLiteral;
-import org.geotoolkit.coverage.grid.GridCoverage2D;
 
 public class Touches extends RasterVectorRelationBinaryFunction {
 

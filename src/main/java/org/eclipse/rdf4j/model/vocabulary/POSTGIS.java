@@ -49,6 +49,7 @@ public class POSTGIS {
 	public static final	IRI ST_ASWKT=factory.createIRI(NAMESPACE, "ST_AsWKT");
 	public static final	IRI ST_ASX3D=factory.createIRI(NAMESPACE, "ST_AsX3D");
 	public static final	IRI ST_AREA=factory.createIRI(NAMESPACE, "ST_Area");
+	public static final IRI ST_AREA3D =factory.createIRI(NAMESPACE, "ST_Area3D");
 	public static final	IRI ST_AREASIMILARITY=factory.createIRI(NAMESPACE, "ST_AreaSimilarity");
 	public static final	IRI ST_AZIMUTH=factory.createIRI(NAMESPACE, "ST_Azimuth");
 	public static final	IRI st_bboxabove =factory.createIRI(NAMESPACE,"ST_BBOXAbove");
@@ -412,28 +413,6 @@ public class POSTGIS {
 		public static final String GML="GML";
 		public static final String WKT="WKT";
 
-
-
-
-
-
-
-		
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+	
 
 }

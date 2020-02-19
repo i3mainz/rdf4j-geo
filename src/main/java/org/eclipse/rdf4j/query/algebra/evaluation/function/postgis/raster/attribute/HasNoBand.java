@@ -1,16 +1,10 @@
 package org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.raster.attribute;
 
-import java.math.BigInteger;
-
 import org.apache.sis.coverage.grid.GridCoverage;
-import org.eclipse.rdf4j.model.Value;
-import org.eclipse.rdf4j.model.ValueFactory;
 import org.eclipse.rdf4j.model.vocabulary.POSTGIS;
-import org.eclipse.rdf4j.query.algebra.evaluation.ValueExprEvaluationException;
-import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.raster.base.RasterAttributeBinaryFunction;
-import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.raster.base.RasterAttributeFunction;
+import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.raster.base.RasterAttributeBooleanIntFunction;
 
-public class HasNoBand extends RasterAttributeBinaryFunction {
+public class HasNoBand extends RasterAttributeBooleanIntFunction {
 
 	@Override
 	public String getURI() {
@@ -18,9 +12,8 @@ public class HasNoBand extends RasterAttributeBinaryFunction {
 	}
 
 	@Override
-	public boolean attribute(GridCoverage raster) {
-		BigInteger noband=v1.getInteger();
-		if(noband.intValue()>raster.getRenderedImage().getData().getNumBands()) {
+	public Boolean attribute(GridCoverage raster, Integer noband) {
+		if(noband>raster.getSampleDimensions().size()) {
 			return false;
 		}
 		return true;

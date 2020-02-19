@@ -7,7 +7,6 @@ import org.eclipse.rdf4j.model.vocabulary.POSTGIS;
 import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.LiteralUtils;
 import org.locationtech.jts.geom.Coordinate;
 import org.locationtech.jts.geom.Geometry;
-import org.locationtech.jts.geom.GeometryFactory;
 import org.locationtech.jts.geom.Point;
 
 import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.geometry.base.GeometricModifierFunction;
@@ -22,7 +21,6 @@ public class AddPoint extends GeometricModifierFunction {
 	@Override
 	protected Geometry relation(Geometry geom1, Geometry geom2) {
 		Coordinate[] coords=geom1.getCoordinates();
-		GeometryFactory fac=new GeometryFactory();
         Point point = ((Point) geom2);
         List<Coordinate> newcoords=Arrays.asList(coords);
         newcoords.add(point.getCoordinate());
