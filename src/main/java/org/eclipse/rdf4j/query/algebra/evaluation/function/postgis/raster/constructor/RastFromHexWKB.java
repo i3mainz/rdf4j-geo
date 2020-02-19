@@ -7,7 +7,7 @@ import org.eclipse.rdf4j.model.vocabulary.POSTGIS;
 import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.raster.base.RasterConstructorFunction;
 import org.opengis.util.FactoryException;
 
-import com.vividsolutions.jts.io.WKBReader;
+import org.locationtech.jts.io.WKBReader;
 
 public class RastFromHexWKB extends RasterConstructorFunction {
 

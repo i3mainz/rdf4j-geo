@@ -8,7 +8,7 @@ public class TileGridXOffset extends RasterAttributeFunction {
 
 	@Override
 	public String getURI() {
-		return POSTGIS.st_tileHeight.stringValue();
+		return POSTGIS.st_tileGridXOffset.stringValue();
 	}
 
 	@Override

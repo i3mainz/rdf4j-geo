@@ -1,5 +1,6 @@
 package org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.raster.attribute;
 
+import org.apache.sis.coverage.grid.GridCoverage;
 import org.eclipse.rdf4j.model.Value;
 import org.eclipse.rdf4j.model.ValueFactory;
 import org.eclipse.rdf4j.model.vocabulary.POSTGIS;
@@ -17,6 +18,12 @@ public class Band extends RasterAttributeFunction {
 	public Value evaluate(ValueFactory valueFactory, Value... args) throws ValueExprEvaluationException {
 		// TODO Auto-generated method stub
 		return null;
+	}
+
+	@Override
+	public double attribute(GridCoverage geom) {
+		// TODO Auto-generated method stub
+		return 0;
 	}
 
 }

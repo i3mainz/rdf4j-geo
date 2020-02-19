@@ -15,7 +15,6 @@ public class ConvexHull extends GeometricUnaryFunction {
 	@Override
 	protected Geometry operation(Geometry geom) {
 		org.locationtech.jts.algorithm.ConvexHull convex=new org.locationtech.jts.algorithm.ConvexHull(geom);
-
         Geometry convexHull = convex.getConvexHull();
         return convexHull;
 	}
