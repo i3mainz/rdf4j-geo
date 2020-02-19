@@ -10,8 +10,6 @@ import org.kabeja.dxf.Bounds;
 import org.kabeja.dxf.DXFConstants;
 import org.kabeja.dxf.DXFDocument;
 import org.kabeja.dxf.DXFLine;
-import org.kabeja.dxf.DXFPoint;
-import org.kabeja.dxf.helpers.TextDocument;
 import org.kabeja.parser.DXFParser;
 import org.kabeja.parser.ParseException;
 import org.kabeja.parser.Parser;
@@ -20,7 +18,6 @@ import org.locationtech.jts.geom.Coordinate;
 import org.locationtech.jts.geom.Geometry;
 import org.locationtech.jts.geom.GeometryFactory;
 import org.locationtech.jts.geom.LineString;
-import org.locationtech.jts.geom.Point;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

@@ -1,6 +1,7 @@
 package org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.literals.vector;
 
 import org.eclipse.rdf4j.model.vocabulary.POSTGIS;
+import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.LiteralUtils;
 import org.locationtech.geowave.core.geotime.util.TWKBReader;
 import org.locationtech.geowave.core.geotime.util.TWKBWriter;
 import org.locationtech.jts.geom.Geometry;
@@ -47,7 +48,7 @@ public class TWKBDatatype extends VectorLiteral {
     @Override
     public String unparse(Geometry geometry) {
             TWKBWriter writer=new TWKBWriter();
-            return writer.write(geometryWrapper.getXYGeometry()).toString();
+            return writer.write(geometry).toString();
     }
 
     @Override
@@ -58,8 +59,7 @@ public class TWKBDatatype extends VectorLiteral {
         Geometry geometry;
 		try {
 			geometry = wkbReader.read(wkbTextSRS.getWkbText().getBytes());
-	        GeometryWrapper wrapper = GeometryWrapperFactory.createGeometry(geometry, "<http://www.opengis.net/def/crs/EPSG/0/"+geometry.getSRID()+">", TWKBDatatype.URI);	
-	        return wrapper;
+			return LiteralUtils.createGeometry(geometry.getCoordinates(), geometry.getGeometryType(), geometry.getSRID());
 		} catch (ParseException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();

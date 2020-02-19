@@ -1,16 +1,11 @@
 package org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.literals.vector;
 
 import org.eclipse.rdf4j.model.vocabulary.POSTGIS;
-import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.LiteralUtils;
 import org.locationtech.jts.geom.Coordinate;
 import org.locationtech.jts.geom.Geometry;
 import org.locationtech.jts.geom.GeometryFactory;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 
 public class GeoURIDatatype extends VectorLiteral {
-
-	private static final Logger LOGGER = LoggerFactory.getLogger(GeoURIDatatype.class);
 
     /**
      * The default WKT type URI.

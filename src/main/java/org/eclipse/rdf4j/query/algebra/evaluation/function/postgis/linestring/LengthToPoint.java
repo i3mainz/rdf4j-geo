@@ -3,11 +3,6 @@ package org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.linestring;
 import org.eclipse.rdf4j.model.vocabulary.POSTGIS;
 import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.geometry.base.GeometricDoubleModifierIntegerFunction;
 import org.locationtech.jts.geom.Geometry;
-import org.locationtech.jts.geom.LineString;
-import org.locationtech.jts.geom.Point;
-import org.opengis.geometry.MismatchedDimensionException;
-import org.opengis.referencing.operation.TransformException;
-import org.opengis.util.FactoryException;
 
 public class LengthToPoint extends GeometricDoubleModifierIntegerFunction {
 
@@ -18,7 +13,7 @@ public class LengthToPoint extends GeometricDoubleModifierIntegerFunction {
 
 	@Override
 	protected Geometry relation(Geometry line, Geometry point, Integer value) {
-		org.locationtech.jump.algorithm.LengthToPoint ltop=new org.locationtech.jump.algorithm.LengthToPoint(line, point.getCoordinates()[0]);
+		/*org.locationtech.jump.algorithm.LengthToPoint ltop=new org.locationtech.jump.algorithm.LengthToPoint(line, point.getCoordinates()[0]);
 			GeometryWrapper transGeom2;
 			try {
 				transGeom2 = geom2.transform(geom1.getSrsInfo());
@@ -35,7 +30,8 @@ public class LengthToPoint extends GeometricDoubleModifierIntegerFunction {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
 				throw new ExprEvalException("An exception occurred: "+e.getMessage());
-			}
+			}*/
+		return null;
 	}
 
 }

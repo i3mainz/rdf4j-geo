@@ -13,8 +13,9 @@ public class IsTranslucent extends RasterAttributeBinaryFunction{
 
 	@Override
 	public boolean attribute(GridCoverage raster) {
-	    ImageWorker worker=new ImageWorker(raster.getRenderedImage());
-		return worker.isTranslucent();
+	    /*ImageWorker worker=new ImageWorker(raster.getRenderedImage());
+		return worker.isTranslucent();*/
+		return false;
 	}
 
 }

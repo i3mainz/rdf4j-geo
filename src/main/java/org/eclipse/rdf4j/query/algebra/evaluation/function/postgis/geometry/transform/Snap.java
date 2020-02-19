@@ -4,10 +4,9 @@ import org.eclipse.rdf4j.model.vocabulary.POSTGIS;
 import org.locationtech.jts.geom.Geometry;
 import org.locationtech.jts.operation.overlay.snap.GeometrySnapper;
 
-import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.geometry.base.GeometricModifierFunction;
-import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.geometry.base.GeometricModifierIntegerFunction;
+import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.geometry.base.GeometricModifierGeometryIntegerFunction;
 
-public class Snap extends GeometricModifierIntegerFunction {
+public class Snap extends GeometricModifierGeometryIntegerFunction {
 
 	@Override
 	public String getURI() {
@@ -15,16 +14,11 @@ public class Snap extends GeometricModifierIntegerFunction {
 	}
 
 	@Override
-	protected Geometry relation(Geometry g1, Geometry g2) {
+	protected Geometry relation(Geometry g1, Geometry g2,Integer tolerance) {
 		GeometrySnapper snapper = new GeometrySnapper(g1);
-        //Geometry snapGeom = snapper.snapTo(g2, tolerance);
-		return null;
+        Geometry snapGeom = snapper.snapTo(g2, tolerance);
+		return snapGeom;
 	}
 
-	@Override
-	protected Geometry relation(Geometry geom, Integer value) {
-		// TODO Auto-generated method stub
-		return null;
-	}
 
 }

@@ -1,11 +1,9 @@
 package org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.literals.raster;
 
+import org.apache.sis.coverage.grid.GridCoverage;
 import org.eclipse.rdf4j.model.vocabulary.POSTGIS;
-import org.geotoolkit.coverage.grid.GridCoverage2D;
 import org.locationtech.jts.geom.Geometry;
-import org.opengis.coverage.grid.GridCoverage;
 
-import io.github.galbiston.geosparql_jena.implementation.CoverageWrapper;
 import uk.ac.rdg.resc.edal.covjson.CoverageJsonConverterImpl;
 import uk.ac.rdg.resc.edal.covjson.CoverageJsonWriter;
 import uk.ac.rdg.resc.edal.covjson.StreamingEncoder;
@@ -27,7 +25,7 @@ public class CovJSONDatatype extends RasterLiteral{
 	}
 	
 	@Override
-	public String unparse(GridCoverage value) {
+	public String unparse(GridCoverage geom) {
 		CoverageJsonWriter writer=new CoverageJsonWriter(new StreamingEncoder());
 		// TODO Auto-generated method stub
 		return super.unparse(value);

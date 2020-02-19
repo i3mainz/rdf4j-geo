@@ -3,7 +3,6 @@ package org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.raster.attri
 import org.apache.sis.coverage.grid.GridCoverage;
 import org.eclipse.rdf4j.model.vocabulary.POSTGIS;
 import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.raster.base.RasterAttributeFunction;
-import org.opengis.referencing.operation.TransformException;
 
 public class UpperLeftY extends RasterAttributeFunction {
 
@@ -14,11 +13,12 @@ public class UpperLeftY extends RasterAttributeFunction {
 
 	@Override
 	public double attribute(GridCoverage raster) {
-		try {
+		/*try {
 			return raster.getGridGeometry().getGridToCRS2D().transform(new GridCoordinates(0, 0),null).getY();
 		} catch (InvalidGridGeometryException | TransformException e) {
 			throw new RuntimeException(e.getMessage());
-		}
+		}*/
+		return 0.;
 	}
 
 }

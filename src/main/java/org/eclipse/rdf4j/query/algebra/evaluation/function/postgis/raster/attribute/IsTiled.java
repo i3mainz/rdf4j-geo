@@ -13,8 +13,9 @@ public class IsTiled extends RasterAttributeBinaryFunction{
 
 	@Override
 	public boolean attribute(GridCoverage raster) {
-	    ImageWorker worker=new ImageWorker(raster.getRenderedImage());
-		return worker.isTiled();
+	    /*ImageWorker worker=new ImageWorker(raster.getRenderedImage());
+		return worker.isTiled();*/
+		return false;
 	}
 
 }

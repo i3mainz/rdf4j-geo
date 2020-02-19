@@ -13,8 +13,9 @@ public class IsGrayscale extends RasterAttributeBinaryFunction{
 
 	@Override
 	public boolean attribute(GridCoverage raster) {
-	    ImageWorker worker=new ImageWorker(raster.getRenderedImage());
-		return worker.isGrayScale();
+	    /*ImageWorker worker=new ImageWorker(raster.getRenderedImage());
+		return worker.isGrayScale();*/
+		return false;
 	}
 
 }

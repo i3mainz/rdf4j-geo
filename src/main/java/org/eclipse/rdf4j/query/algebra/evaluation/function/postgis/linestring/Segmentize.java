@@ -1,17 +1,12 @@
 package org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.linestring;
 
 import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.Iterator;
 import java.util.List;
 
 import org.eclipse.rdf4j.model.vocabulary.POSTGIS;
-import org.locationtech.jts.geom.Coordinate;
 import org.locationtech.jts.geom.Geometry;
 import org.locationtech.jts.geom.GeometryFactory;
 import org.locationtech.jts.geom.LineString;
-import org.locationtech.jts.geom.PrecisionModel;
 import org.opengis.referencing.NoSuchAuthorityCodeException;
 import org.opengis.util.FactoryException;
 
@@ -42,16 +37,16 @@ public class Segmentize extends GeometricModifierDoubleFunction{
 	
 	public List<LineString> createSegments(Geometry track, double segmentLength) throws NoSuchAuthorityCodeException, FactoryException {
 
-        GeometryFactory geometryFactory = new GeometryFactory(new PrecisionModel(PrecisionModel.FLOATING));
-
-        SRSInfo srsInfo = track.getSrsInfo();
+        //GeometryFactory geometryFactory = new GeometryFactory(new PrecisionModel(PrecisionModel.FLOATING));
+        List<LineString> segments = new ArrayList<>();
+        /*SRSInfo srsInfo = track.getSrsInfo();
 
         List<Coordinate> coordinates = new ArrayList<>(track.getCoordinates().length);
         Collections.addAll(coordinates, track.getCoordinates());
 
         double accumulatedLength = 0;
         List<Coordinate> lastSegment = new ArrayList<>();
-        List<LineString> segments = new ArrayList<>();
+ 
         Iterator<Coordinate> itCoordinates = coordinates.iterator();
 
         for (int i = 0; itCoordinates.hasNext() && i < coordinates.size() - 1; i++) {
@@ -90,7 +85,7 @@ public class Segmentize extends GeometricModifierDoubleFunction{
 
         lastSegment.add(coordinates.get(coordinates.size() - 1)); // Because the last one is never added in the loop above
         segments.add(geometryFactory.createLineString(lastSegment.toArray(new Coordinate[lastSegment.size()])));
-
+		*/
         return segments;
     }
 

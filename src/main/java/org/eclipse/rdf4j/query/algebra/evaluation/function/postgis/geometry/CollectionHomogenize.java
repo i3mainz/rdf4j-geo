@@ -13,6 +13,7 @@ import org.locationtech.jts.geom.Polygon;
 
 import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.geometry.base.GeometricUnaryFunction;
 import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.LiteralUtils;
+import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.literals.vector.WKTDatatype;
 
 public class CollectionHomogenize extends GeometricUnaryFunction{
 
@@ -27,9 +28,9 @@ public class CollectionHomogenize extends GeometricUnaryFunction{
          GeometryFactory fac=new GeometryFactory();
          if(collection.getNumGeometries()==1) {
          	Geometry singlegeom=collection.getGeometryN(0);
-         	return LiteralUtils.createGeometry(singlegeom, "<http://www.opengis.net/def/crs/EPSG/0/"+collection.getSRID()+">", WKTDatatype.URI).asNodeValue();           	
+         	return LiteralUtils.createGeometry(singlegeom.getCoordinates(),singlegeom.getGeometryType(),collection.getSRID());           	
          }else if(collection.getNumGeometries()==0) {
-         	return geom1.asNodeValue();
+         	return geom;
          }else {
          	switch(collection.getGeometryN(0).getGeometryType()) {
              case "Point":
@@ -46,17 +47,15 @@ public class CollectionHomogenize extends GeometricUnaryFunction{
              			lines.add((LineString)collection.getGeometryN(i));
              	}
              	return LiteralUtils.createGeometry(coords, "LineString", geom.getSRID());
-             	GeometryWrapper lineWrapper = GeometryWrapperFactory.createMultiLineString(lines, "<http://www.opengis.net/def/crs/EPSG/0/"+geom1.getSRID()+">", WKTDatatype.URI);	
-             	return lineWrapper.asNodeValue();
              case "Polygon": 
              	List<Polygon> polys=new ArrayList<Polygon>();
              	for(int i=0;i<collection.getNumGeometries();i++) {
              			polys.add((Polygon)collection.getGeometryN(i));
              	}
-             	GeometryWrapper polyWrapper = GeometryWrapperFactory.createMultiPolygon(polys, "<http://www.opengis.net/def/crs/EPSG/0/"+geom1.getSRID()+">", WKTDatatype.URI);	
-                 return polyWrapper.asNodeValue();
+             	return LiteralUtils.createGeometry(coords, "Polygon", geom.getSRID());
          	}
          }
+        return null;
 	}
 
 }

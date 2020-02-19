@@ -13,8 +13,9 @@ public class IsIndexed extends RasterAttributeBinaryFunction{
 
 	@Override
 	public boolean attribute(GridCoverage raster) {
-	    ImageWorker worker=new ImageWorker(raster.getRenderedImage());
-		return worker.isIndexed();
+	    /*ImageWorker worker=new ImageWorker(raster.getRenderedImage());
+		return worker.isIndexed();*/
+		return false;
 	}
 
 }

@@ -8,8 +8,6 @@ import org.locationtech.jts.geom.Coordinate;
 import org.locationtech.jts.geom.Geometry;
 import org.locationtech.jts.geom.GeometryFactory;
 import org.locationtech.jts.geom.LineString;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 
 
 /**
@@ -28,8 +26,6 @@ import org.slf4j.LoggerFactory;
  * specify an explicit spatial reference system URI.
  */
 public class EncodedPolylineDatatype extends VectorLiteral {
-
-    private static final Logger LOGGER = LoggerFactory.getLogger(EncodedPolylineDatatype.class);
 
     /**
      * The default WKT type URI.
