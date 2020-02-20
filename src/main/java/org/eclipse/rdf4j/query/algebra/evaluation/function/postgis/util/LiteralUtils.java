@@ -14,7 +14,6 @@ import org.locationtech.jts.geom.GeometryFactory;
 import org.locationtech.jts.geom.LineString;
 import org.locationtech.jts.geom.OctagonalEnvelope;
 import org.locationtech.jts.geom.Polygon;
-import org.opengis.geometry.BoundingBox;
 import org.opengis.geometry.DirectPosition;
 import org.opengis.geometry.MismatchedDimensionException;
 import org.opengis.referencing.crs.CoordinateReferenceSystem;
@@ -77,7 +76,7 @@ public class LiteralUtils {
 	
 
 	
-	public static Geometry toGeometry(final BoundingBox envelope) {
+	/*public static Geometry toGeometry(final BoundingBox envelope) {
         GeometryFactory gf = new GeometryFactory();
         return gf.createPolygon(gf.createLinearRing(
                 new Coordinate[]{
@@ -87,7 +86,7 @@ public class LiteralUtils {
                     new Coordinate(envelope.getMinX(), envelope.getMaxY()),
                     new Coordinate(envelope.getMinX(), envelope.getMinY())
                 }), null);
-    }
+    }*/
 	
 	 public static Geometry toGeometry(final Rectangle envelope) {
 	        GeometryFactory gf = new GeometryFactory();

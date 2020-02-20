@@ -10,8 +10,8 @@ import org.eclipse.rdf4j.model.vocabulary.POSTGIS;
 import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.LiteralUtils;
 import org.locationtech.jts.geom.Geometry;
 
-import com.conveyal.data.geobuf.GeobufDecoder;
-import com.conveyal.data.geobuf.GeobufEncoder;
+//import com.conveyal.data.geobuf.GeobufDecoder;
+//import com.conveyal.data.geobuf.GeobufEncoder;
 
 public class GeobufDatatype extends VectorLiteral  {
 
@@ -37,15 +37,16 @@ public class GeobufDatatype extends VectorLiteral  {
 	     */
 	    @Override
 	    public String unparse(Geometry geometry) {
-	            ByteArrayOutputStream output=new ByteArrayOutputStream();
+	            /*ByteArrayOutputStream output=new ByteArrayOutputStream();
 	            GeobufEncoder enc=new GeobufEncoder(output,geometry.getPrecisionModel().getMaximumSignificantDigits());
-	            return enc.geomToGeobuf(geometry).toString();
+	            return enc.geomToGeobuf(geometry).toString();*/
+	    	return "";
 	    }
 
 	    @Override
 	    public Geometry read(String geometryLiteral) {
 	    	InputStream stream = new ByteArrayInputStream(geometryLiteral.getBytes(StandardCharsets.UTF_8));
-	    	GeobufDecoder decoder;
+	    	/*GeobufDecoder decoder;
 			try {
 				decoder = new GeobufDecoder(stream);
 		    	Geometry geom=decoder.next().geometry;
@@ -54,7 +55,8 @@ public class GeobufDatatype extends VectorLiteral  {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
 				throw new RuntimeException();
-			}
+			}*/
+	    	return null;
 	    }
 
 
