@@ -218,12 +218,27 @@
 </dependency>
 
   </dependencies>
+  <distributionManagement>
+    <repository>
+      <id>gitlab-maven</id>
+      <url>https://gitlab.rlp.net/api/v4/projects/9173/packages/maven</url>
+    </repository>
+    <snapshotRepository>
+      <id>gitlab-maven</id>
+      <url>https://gitlab.rlp.net/api/v4/projects/9173/packages/maven</url>
+    </snapshotRepository>
+  </distributionManagement>
+
       <repositories>
         <repository>
             <id>geosolutions</id>
             <name>Geosolutions</name>
             <url>http://maven.geo-solutions.it/</url>
         </repository>
+    <repository>
+      <id>gitlab-maven</id>
+      <url>https://gitlab.rlp.net/api/v4/projects/9173/packages/maven</url>
+    </repository>
         <repository>
             <id>conveyal</id>
             <name>Conveyal</name>
