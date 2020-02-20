@@ -83,12 +83,11 @@
     <version>0.13.0</version>
 </dependency>
 <!-- https://mvnrepository.com/artifact/uk.ac.rdg.resc/edal-coveragejson -->
-<!-- <dependency>
+ <dependency>
     <groupId>uk.ac.rdg.resc</groupId>
     <artifactId>edal-coveragejson</artifactId>
     <version>1.4.1</version>
 </dependency>
--->
 <!-- https://mvnrepository.com/artifact/org.eclipse.rdf4j/rdf4j-queryalgebra-model -->
 <dependency>
     <groupId>org.eclipse.rdf4j</groupId>
