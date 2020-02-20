@@ -22,10 +22,11 @@ public class HexWKBRastDatatype extends RasterLiteral {
 	
 	@Override
 	public GridCoverage read(String geometryLiteral) {
-		WKBRasterReader reader2=new WKBRasterReader();
+		/*WKBRasterReader reader2=new WKBRasterReader();
 		BufferedImage img=reader2.read(WKBReader.hexToBytes(geometryLiteral));
 		GridCoverage coverage=reader2.readCoverage(WKBReader.hexToBytes(geometryLiteral), CRS.forCode("EPSG:4326"));
-		return coverage;
+		return coverage;*/
+		return null;
 	}
 	
     @Override
@@ -36,6 +37,7 @@ public class HexWKBRastDatatype extends RasterLiteral {
 
 	@Override
 	public String unparse(GridCoverage geom) {
+		/*
         WKBRasterWriter writer=new WKBRasterWriter();
 		String rasterWKB;
 		try {
@@ -43,6 +45,7 @@ public class HexWKBRastDatatype extends RasterLiteral {
 			return rasterWKB.toString();
 		} catch (IOException | FactoryException e) {
 			throw new AssertionError(e.getMessage());
-		}
+		}*/
+		return null;
 	}
 }

@@ -17,9 +17,11 @@ public class WKBRastDatatype extends RasterLiteral {
 	
 	@Override
 	public GridCoverage read(String geometryLiteral) {
-		WKBRasterReader reader2=new WKBRasterReader();
+		/*WKBRasterReader reader2=new WKBRasterReader();
 		GridCoverage coverage=reader2.readCoverage(geometryLiteral.getBytes(), authorityFactory);
 		return coverage;
+		*/
+		return null;
 	}
 	
     @Override
@@ -29,6 +31,7 @@ public class WKBRastDatatype extends RasterLiteral {
 
 	@Override
 	public String unparse(GridCoverage geom) {
+		/*
         WKBRasterWriter writer=new WKBRasterWriter();
 		String rasterWKB;
 		try {
@@ -36,7 +39,8 @@ public class WKBRastDatatype extends RasterLiteral {
 			return rasterWKB.toString();
 		} catch (IOException | FactoryException e) {
 			throw new AssertionError(e.getMessage());
-		}
+		}*/
+		return null;
 	}
 
 }

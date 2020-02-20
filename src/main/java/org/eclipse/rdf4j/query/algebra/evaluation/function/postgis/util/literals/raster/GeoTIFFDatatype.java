@@ -15,27 +15,28 @@ public class GeoTIFFDatatype extends RasterLiteral {
 	@Override
 	public GridCoverage read(String geometryLiteral) {
 		GridCoverage coverage;
-		try {
+		/*try {
 			coverage = CoverageIO.read(geometryLiteral);
 			return coverage;
 		} catch (CoverageStoreException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 			throw new RuntimeException();
-		}
+		}*/
+		return null;
 
 	}
 
 	@Override
 	public String unparse(GridCoverage geom) {
-		TiffImageWriter writer = new TiffImageWriter(null);
+		/*TiffImageWriter writer = new TiffImageWriter(null);
 		SpatialImageWriteParam writerParam = writer.getDefaultWriteParam();
 		String compression = null;
 		/*
 		 * if (compression != null) {
 		 * writerParam.setCompressionMode(ImageWriteParam.MODE_EXPLICIT);
 		 * writerParam.setCompressionType(compression); }
-		 */
+		 
 		try {
 			writer.write(((GridCoverage)geometry).getRenderedImage());
 			writer.endWriteSequence();
@@ -44,7 +45,8 @@ public class GeoTIFFDatatype extends RasterLiteral {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 			throw new RuntimeException();
-		}
+		}*/
+		return null;
 	}
 
 }

@@ -9,8 +9,6 @@ import org.eclipse.rdf4j.query.algebra.evaluation.function.Function;
 import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.LiteralRegistry;
 import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.literals.LiteralType;
 import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.literals.raster.RasterLiteral;
-import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.literals.vector.VectorLiteral;
-import org.locationtech.jts.geom.Geometry;
 
 public abstract class RasterModifierFunction implements Function {
 
@@ -21,10 +19,11 @@ public abstract class RasterModifierFunction implements Function {
 		}
 		LiteralType l=LiteralRegistry.getLiteral(((Literal)args[0]).getDatatype().toString());
 		if(l instanceof RasterLiteral) {
-			String geomString = args[0].stringValue();
-			GridCoverage result = modify(geomString);
+			GridCoverage geom=((RasterLiteral)l).read(args[0].stringValue());
+			GridCoverage result = modify(geom);
 			return valueFactory.createLiteral(((RasterLiteral) l).unparse(result),((Literal)args[0]).getDatatype());
 		}
+		return null;
 	}
 	
 	public abstract GridCoverage modify(GridCoverage coverage);

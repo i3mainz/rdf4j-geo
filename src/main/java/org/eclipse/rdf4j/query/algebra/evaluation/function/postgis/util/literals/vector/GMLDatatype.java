@@ -18,12 +18,19 @@
 package org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.literals.vector;
 
 import java.io.IOException;
+import java.io.StringReader;
+import java.io.StringWriter;
+
+import javax.xml.parsers.ParserConfigurationException;
+
 import org.eclipse.rdf4j.model.vocabulary.POSTGIS;
 import org.locationtech.jts.geom.Geometry;
+import org.locationtech.jts.geom.GeometryFactory;
 import org.locationtech.jts.io.gml2.GMLReader;
 import org.locationtech.jts.io.gml2.GMLWriter;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.xml.sax.SAXException;
 
 /**
  *
@@ -59,20 +66,32 @@ public class GMLDatatype extends VectorLiteral {
      */
     @Override
     public String unparse(Geometry geometry) {
-         return GMLWriter.write(geometry);
+    	 GMLWriter gmlw=new GMLWriter();
+    	 StringWriter writer=new StringWriter();
+    	 try {
+			gmlw.write(geometry, writer);
+	    	 return writer.toString();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+			return null;
+		}
+
     }
 
     @Override
     public Geometry read(String geometryLiteral) {
-        try {
-            GMLReader gmlReader = GMLReader.extract(geometryLiteral);
-            Geometry geometry = gmlReader.getGeometry();
-            DimensionInfo dimensionInfo = gmlReader.getDimensionInfo();
-
-            return geometry;
-        } catch (JDOMException | IOException ex) {
-            throw new DatatypeFormatException("Illegal GML literal:" + geometryLiteral + ". " + ex.getMessage());
-        }
+    	StringReader reader=new StringReader(geometryLiteral);
+    	GMLReader read=new GMLReader();
+    	Geometry geom;
+		try {
+			geom = read.read(reader, new GeometryFactory());
+			return geom;
+		} catch (SAXException | IOException | ParserConfigurationException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+        return null;
     }
 
     @Override
