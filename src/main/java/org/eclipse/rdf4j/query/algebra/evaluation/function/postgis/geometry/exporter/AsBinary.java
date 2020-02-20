@@ -1,19 +1,18 @@
 package org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.geometry.exporter;
 
-import java.nio.ByteBuffer;
-import java.nio.ByteOrder;
 
 import org.eclipse.rdf4j.model.vocabulary.POSTGIS;
 import org.locationtech.jts.geom.Geometry;
-import org.locationtech.jts.io.WKBWriter;
 
 import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.geometry.base.GeometricStringExportFunction;
+import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.literals.vector.WKBDatatype;
 
 public class AsBinary extends GeometricStringExportFunction {
 
 	@Override
 	public String operation(Geometry geom) {
-        String endianness = arg1.getString();
+		return WKBDatatype.INSTANCE.unparse(geom);
+       /* String endianness = arg1.getString();
         WKBWriter writer=new WKBWriter();
         
         byte[] result=writer.write(geom);
@@ -26,7 +25,7 @@ public class AsBinary extends GeometricStringExportFunction {
         	}
             return bb.toString();
         }
-        return result.toString();
+        return result.toString();*/
 	}
 
 	@Override

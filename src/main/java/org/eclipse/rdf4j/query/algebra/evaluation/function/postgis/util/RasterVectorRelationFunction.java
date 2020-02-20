@@ -27,9 +27,9 @@ public abstract class RasterVectorRelationFunction implements Function {
 	public static Set<String> vectorLiteralURIs=new TreeSet<String>();
 	
 	public static Boolean vectorOrRaster(Literal lit) {
-		if(rasterLiteralURIs.contains(lit.getDatatype())) {
+		if(rasterLiteralURIs.contains(lit.getDatatype().toString())) {
 			return false;
-		}else if(vectorLiteralURIs.contains(lit.getDatatype())) {
+		}else if(vectorLiteralURIs.contains(lit.getDatatype().toString())) {
 			return true;
 		}
 		return null;

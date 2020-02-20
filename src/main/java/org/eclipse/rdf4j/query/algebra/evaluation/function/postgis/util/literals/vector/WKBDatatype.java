@@ -81,7 +81,7 @@ import org.slf4j.Logger;
 	                wkbText = wkbLiteral.substring(endSRS + 1);
 
 	            } else {
-	                srsURI = SRS_URI.DEFAULT_WKT_CRS84;
+	                srsURI = "<http://www.opengis.net/def/crs/OGC/1.3/CRS84>";
 	                wkbText = wkbLiteral;
 	            }
 	        }

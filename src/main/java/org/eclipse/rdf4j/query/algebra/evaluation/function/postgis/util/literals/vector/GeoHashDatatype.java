@@ -17,20 +17,15 @@
  */
 package org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.literals.vector;
 
-import java.text.ParseException;
+import java.util.LinkedList;
+import java.util.List;
 
-import org.apache.sis.index.GeoHashCoder;
-import org.eclipse.rdf4j.model.Literal;
-import org.eclipse.rdf4j.model.ValueFactory;
-import org.eclipse.rdf4j.model.impl.ValueFactoryImpl;
 import org.eclipse.rdf4j.model.vocabulary.POSTGIS;
-import org.locationtech.jts.algorithm.Angle;
+import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.LiteralUtils;
 import org.locationtech.jts.geom.Coordinate;
 import org.locationtech.jts.geom.Geometry;
-import org.locationtech.jts.geom.GeometryFactory;
-import org.opengis.geometry.DirectPosition;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+
+import ch.hsr.geohash.GeoHash;
 
 /**
  * WKTDatatype class allows the URI "geo:wktLiteral" to be used as a datatype
@@ -58,8 +53,6 @@ public class GeoHashDatatype extends VectorLiteral {
      * A static instance of WKTDatatype.
      */
     public static final GeoHashDatatype INSTANCE = new GeoHashDatatype();
-    
-    GeoHashCoder coder=new GeoHashCoder();
 
     /**
      * This method Un-parses the JTS Geometry to the WKT literal
@@ -72,23 +65,20 @@ public class GeoHashDatatype extends VectorLiteral {
      */
     @Override
     public String unparse(Geometry geom1) {
-            if(geom1.getGeometryType().equalsIgnoreCase("Point")) {
-            	String geohash = coder.encode(Angle.toDegrees(geom1.getCoordinate().getX()), Angle.toDegrees(geom1.getCoordinate().getY()));
-            	return geohash;
-            } else {
-                throw new AssertionError("Object passed to GeoHashDatatype is not a Point: " + geom1);
-            }	
+    	if(geom1.getGeometryType().equalsIgnoreCase("Point")) {
+    		return GeoHash.geoHashStringWithCharacterPrecision(geom1.getCoordinate().getY(), geom1.getCoordinate().getX(), 32);
+    	}else {
+    		return GeoHash.geoHashStringWithCharacterPrecision(geom1.getCentroid().getCoordinate().getY(), geom1.getCentroid().getCoordinate().getX(), 32);
+    	}
     }
 
     @Override
     public Geometry read(String geometryLiteral) {
-    	try {
-			DirectPosition pos=coder.decode(geometryLiteral);
-			GeometryFactory fac=new GeometryFactory();
-			return fac.createPoint(new Coordinate(pos.getCoordinate()[0],pos.getCoordinate()[1]));
-		} catch (ParseException e) {
-			throw new AssertionError("Could not read GeoHash representation of: " + geometryLiteral);
-		}
+    	GeoHash hash=GeoHash.fromGeohashString(geometryLiteral);
+    	Coordinate coord=new Coordinate(hash.getOriginatingPoint().getLatitude(), hash.getOriginatingPoint().getLongitude());
+    	List<Coordinate> coords=new LinkedList<Coordinate>();
+    	coords.add(coord);
+    	return LiteralUtils.createGeometry(coords, "Point", 4326);				
     }
 
 

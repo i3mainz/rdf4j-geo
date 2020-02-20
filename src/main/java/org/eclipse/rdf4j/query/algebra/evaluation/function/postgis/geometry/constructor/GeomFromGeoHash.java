@@ -1,23 +1,26 @@
 package org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.geometry.constructor;
 
-import java.text.ParseException;
+import java.util.LinkedList;
+import java.util.List;
 
 import org.eclipse.rdf4j.model.vocabulary.POSTGIS;
 import org.locationtech.jts.geom.Coordinate;
 import org.locationtech.jts.geom.Geometry;
-import org.opengis.geometry.DirectPosition;
+
+import ch.hsr.geohash.GeoHash;
 
 import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.geometry.base.GeometricConstructor;
+import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.LiteralUtils;
 
 public class GeomFromGeoHash extends GeometricConstructor{
 
 	@Override
 	public Geometry construct(String input) {
-		Double precision=v2.getDouble();
-		DirectPosition pos=coder.decode(input);
-		Coordinate coord=new Coordinate(pos.getCoordinate()[1], pos.getCoordinate()[0]);
-		return GeometryWrapperFactory.createPoint(coord,WKTDatatype.URI).asNodeValue();
-		
+		GeoHash hash=GeoHash.fromGeohashString(input);
+		Coordinate coord=new Coordinate(hash.getOriginatingPoint().getLatitude(), hash.getOriginatingPoint().getLongitude());
+		List<Coordinate> coords=new LinkedList<Coordinate>();
+		coords.add(coord);
+		return LiteralUtils.createGeometry(coords, "Point", 4326);	
 	}
 
 	@Override

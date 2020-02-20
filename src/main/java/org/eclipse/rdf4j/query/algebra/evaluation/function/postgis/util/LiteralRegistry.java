@@ -19,7 +19,6 @@ import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.literals
 import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.literals.vector.GeobufDatatype;
 import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.literals.vector.HexWKBDatatype;
 import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.literals.vector.KMLDatatype;
-import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.literals.vector.OSMDatatype;
 import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.literals.vector.PolyshapeDatatype;
 import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.literals.vector.SVGDatatype;
 import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.literals.vector.TWKBDatatype;
@@ -43,7 +42,6 @@ public class LiteralRegistry {
 		literals.put(GeoURIDatatype.URI, GeoURIDatatype.INSTANCE);
 		literals.put(GPXDatatype.URI, GPXDatatype.INSTANCE);
 		literals.put(HexWKBDatatype.URI, HexWKBDatatype.INSTANCE);
-		literals.put(OSMDatatype.URI, OSMDatatype.INSTANCE);
 		literals.put(SVGDatatype.URI, SVGDatatype.INSTANCE);
 		literals.put(GeobufDatatype.URI, GeobufDatatype.INSTANCE);
 		literals.put(TopoJSONDatatype.URI, TopoJSONDatatype.INSTANCE);

@@ -38,8 +38,6 @@ import org.slf4j.LoggerFactory;
  */
 public class DXFDatatype extends VectorLiteral {
 
-    private static final Logger LOGGER = LoggerFactory.getLogger(EncodedPolylineDatatype.class);
-
     /**
      * The default WKT type URI.
      */

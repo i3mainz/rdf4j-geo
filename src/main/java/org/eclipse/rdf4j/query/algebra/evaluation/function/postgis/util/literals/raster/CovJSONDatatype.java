@@ -20,12 +20,17 @@ public class CovJSONDatatype extends RasterLiteral{
 	public GridCoverage read(String geometryLiteral) {
 		CoverageJsonConverterImpl covjsonconverter=new CoverageJsonConverterImpl();
 		Feature feat;
+		feat=new Feature();
 		Coverage coverage;
-		covjsonconverter.convertFeatureToJson(os, feat);
+		covjsonconverter.conver
+		
 	}
 	
 	@Override
 	public String unparse(GridCoverage geom) {
+		CoverageJsonConverterImpl covjsonconverter=new CoverageJsonConverterImpl();
+		covjsonconverter.con
+		covjsonconverter.convertFeatureToJson(os, feat);
 		CoverageJsonWriter writer=new CoverageJsonWriter(new StreamingEncoder());
 		// TODO Auto-generated method stub
 		return super.unparse(value);

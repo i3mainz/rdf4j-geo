@@ -39,7 +39,7 @@ public class HexWKBRastDatatype extends RasterLiteral {
         WKBRasterWriter writer=new WKBRasterWriter();
 		String rasterWKB;
 		try {
-			rasterWKB = WKBWriter.toHex(writer.write((GridCoverage2D) geometry)).toString();
+			rasterWKB = WKBWriter.toHex(writer.write((GridCoverage) geom)).toString();
 			return rasterWKB.toString();
 		} catch (IOException | FactoryException e) {
 			throw new AssertionError(e.getMessage());
