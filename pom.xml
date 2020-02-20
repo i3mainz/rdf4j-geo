@@ -50,6 +50,17 @@
             </plugin>
         </plugins>
     </build>
+    <distributionManagement>
+		<repository>
+			<id>gitlab-maven</id>
+			<url>https://gitlab.rlp.net/api/v4/projects/9173/packages/maven</url>
+		</repository>
+		<snapshotRepository>
+			<id>gitlab-maven</id>
+			<url>https://gitlab.rlp.net/api/v4/projects/9173/packages/maven</url>
+		</snapshotRepository>
+	</distributionManagement>
+
  <properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<geotools.version>15.1</geotools.version>
