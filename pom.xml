@@ -235,6 +235,11 @@
         <url>https://52north.org/maven/repo/releases/</url>
         </repository>
         <repository>
+            <id>kabeja</id>
+            <name>Kabeja Repo</name>
+            <url>http://maven.openkm.com/</url>
+        </repository>
+        <repository>
             <id>geotoolkit</id>
             <name>Geotk repository</name>
             <url>https://nexus.geomatys.com/repository/geotoolkit/</url>
