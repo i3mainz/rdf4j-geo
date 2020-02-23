@@ -19,6 +19,7 @@ public class POSTGIS {
 	public static final	IRI ST_ADDBAND=factory.createIRI(NAMESPACE, "ST_AddBand");
 	public static final	IRI ST_ADDPOINT=factory.createIRI(NAMESPACE, "ST_AddPoint");
 	public static final	IRI ST_ADDZ=factory.createIRI(NAMESPACE, "ST_AddZ");
+	public static final IRI st_angle = factory.createIRI(NAMESPACE,"ST_Angle");
 	public static final	IRI ST_ASBINARY=factory.createIRI(NAMESPACE, "ST_AsBinary");
 	public static final	IRI ST_ASENCODEDPOLYLINE=factory.createIRI(NAMESPACE, "ST_AsEncodedPolyline");
 	public static final	IRI ST_ASHEXEWKB=factory.createIRI(NAMESPACE, "ST_AsHEXEWKB");
@@ -140,6 +141,7 @@ public class POSTGIS {
         public static final IRI st_frechetDistance=factory.createIRI(NAMESPACE, "ST_FrechetDistance");
         public static final IRI st_generatePoints=factory.createIRI(NAMESPACE, "ST_GeneratePoints");
         public static final IRI st_geohash=factory.createIRI(NAMESPACE, "ST_AsGeoHash");
+        public static final IRI st_geomCollFromText = factory.createIRI(NAMESPACE,"ST_GeomCollFromText");
         public static final IRI st_geomFromGeoJSON=factory.createIRI(NAMESPACE, "ST_GeomFromGeoJSON");
         public static final IRI st_geomFromGeoHash=factory.createIRI(NAMESPACE, "ST_GeomFromGeoHash");
         public static final IRI st_geomFromGML=factory.createIRI(NAMESPACE, "ST_GeomFromGML");
@@ -422,6 +424,15 @@ public class POSTGIS {
 		public static final String NETCDF="NetCDF";
 		public static final String GML="GML";
 		public static final String WKT="WKT";
+
+		public static final IRI ST_ToDegrees=factory.createIRI(NAMESPACE, "ST_ToDegrees");
+		
+		public static final IRI ST_ToRadians=factory.createIRI(NAMESPACE, "ST_ToRadians");
+
+
+
+
+		
 
 
 
