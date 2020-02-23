@@ -30,9 +30,13 @@ public class POSTGIS {
 	public static final	IRI ST_ASGEOJSON=factory.createIRI(NAMESPACE, "ST_AsGeoJSON");
 	public static final	IRI ST_ASGEOJSONLD=factory.createIRI(NAMESPACE, "ST_AsGeoJSONLD");
 	public static final	IRI ST_ASGEORSS=factory.createIRI(NAMESPACE, "ST_AsGeoRSS");
+	public static final	IRI ST_ASGEOTIFF=factory.createIRI(NAMESPACE, "ST_AsGeoTIFF");
+	public static final	IRI ST_ASCOVERAGEJSON=factory.createIRI(NAMESPACE, "ST_AsCoverageJSON");
+	public static final	IRI ST_ASGMLCOV=factory.createIRI(NAMESPACE, "ST_AsGMLCOV");
 	public static final	IRI ST_ASGPX=factory.createIRI(NAMESPACE, "ST_AsGPX");
     public static final IRI st_aspect=factory.createIRI(NAMESPACE, "ST_Aspect");
-	public static final	IRI ST_ASPOLYSHAPE=factory.createIRI(NAMESPACE, "ST_AsPolyshape");
+	public static final	IRI ST_ASNETCDF=factory.createIRI(NAMESPACE, "ST_AsNetCDF");
+    public static final	IRI ST_ASPOLYSHAPE=factory.createIRI(NAMESPACE, "ST_AsPolyshape");
 	public static final	IRI ST_ASTIFF=factory.createIRI(NAMESPACE, "ST_AsTIFF");
 	public static final	IRI ST_ASTOPOJSON=factory.createIRI(NAMESPACE, "ST_AsTopoJSON");
 	public static final	IRI ST_ASJPG=factory.createIRI(NAMESPACE, "ST_AsJPG");
@@ -46,6 +50,8 @@ public class POSTGIS {
 	public static final	IRI ST_ASTEXTROUND=factory.createIRI(NAMESPACE, "ST_AsTextRound");
 	public static final	IRI ST_ASTWKB=factory.createIRI(NAMESPACE, "ST_AsTWKB");
 	public static final	IRI ST_ASWKB=factory.createIRI(NAMESPACE, "ST_AsWKB");
+	public static final IRI st_asRasterHexWKB = factory.createIRI(NAMESPACE,"ST_AsRasterHexWKB");
+	public static final IRI st_asRasterWKB = factory.createIRI(NAMESPACE,"ST_AsRasterWKB");
 	public static final	IRI ST_ASWKT=factory.createIRI(NAMESPACE, "ST_AsWKT");
 	public static final	IRI ST_ASX3D=factory.createIRI(NAMESPACE, "ST_AsX3D");
 	public static final	IRI ST_AREA=factory.createIRI(NAMESPACE, "ST_Area");
@@ -280,7 +286,10 @@ public class POSTGIS {
         public static final IRI st_polygonFromText=factory.createIRI(NAMESPACE, "ST_PolygonFromText");
         public static final IRI st_polygonFromWKB=factory.createIRI(NAMESPACE, "ST_PolygonFromWKB");
         public static final IRI st_precisionReducer=factory.createIRI(NAMESPACE, "ST_PrecisionReducer");
-        public static final IRI st_rastFromWKB=factory.createIRI(NAMESPACE, "ST_RastFromWKB");
+		public static final IRI st_rastFromCovJSON=factory.createIRI(NAMESPACE,"ST_RastFromCovJSON");
+		public static final IRI st_rastFromGMLCOV=factory.createIRI(NAMESPACE,"ST_RastFromGMLCOV");
+		public static final IRI st_rastFromNetCDF=factory.createIRI(NAMESPACE,"ST_RastFromNetCDF");
+		public static final IRI st_rastFromWKB=factory.createIRI(NAMESPACE, "ST_RastFromWKB");
         public static final IRI st_rastFromHexWKB=factory.createIRI(NAMESPACE, "ST_RastFromHexWKB");
         public static final IRI st_rast_isEmpty=factory.createIRI(NAMESPACE, "ST_IsEmpty");
         public static final IRI st_rast_Contains=factory.createIRI(NAMESPACE, "ST_Contains");
@@ -413,6 +422,10 @@ public class POSTGIS {
 		public static final String NETCDF="NetCDF";
 		public static final String GML="GML";
 		public static final String WKT="WKT";
+
+
+
+
 
 	
 
