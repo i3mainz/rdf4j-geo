@@ -235,7 +235,11 @@ public class POSTGIS {
         public static final IRI st_minConvexHull=factory.createIRI(NAMESPACE, "ST_MinConvexHull");
         public static final IRI st_minTileX=factory.createIRI(NAMESPACE, "ST_MinTileX");
         public static final IRI st_minTileY=factory.createIRI(NAMESPACE, "ST_MinTileY");
-        public static final IRI st_mirror=factory.createIRI(NAMESPACE, "ST_Mirror");
+		public static final IRI st_rast_minX = factory.createIRI(NAMESPACE, "ST_MinX");
+		public static final IRI st_rast_maxX = factory.createIRI(NAMESPACE, "ST_MaxX");
+		public static final IRI st_rast_minY = factory.createIRI(NAMESPACE, "ST_MinY");
+		public static final IRI st_rast_maxY = factory.createIRI(NAMESPACE, "ST_MaxY");
+		public static final IRI st_mirror=factory.createIRI(NAMESPACE, "ST_Mirror");
         public static final IRI st_mLineFromText=factory.createIRI(NAMESPACE, "ST_MLineFromText");
         public static final IRI st_mMin=factory.createIRI(NAMESPACE, "ST_MMin");
         public static final IRI st_mMax=factory.createIRI(NAMESPACE, "ST_MMax");
@@ -428,6 +432,8 @@ public class POSTGIS {
 		public static final IRI ST_ToDegrees=factory.createIRI(NAMESPACE, "ST_ToDegrees");
 		
 		public static final IRI ST_ToRadians=factory.createIRI(NAMESPACE, "ST_ToRadians");
+
+
 
 
 
