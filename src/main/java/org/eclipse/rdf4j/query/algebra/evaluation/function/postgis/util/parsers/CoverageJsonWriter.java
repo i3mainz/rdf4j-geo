@@ -33,11 +33,6 @@ import org.apache.sis.coverage.grid.GridCoverage;
 import org.json.JSONArray;
 import org.json.JSONObject;
 
-/**
- * 
- * @author Maik Riechert
- *
- */
 public class CoverageJsonWriter {
 	GridCoverage coverage;
 
@@ -58,6 +53,11 @@ public class CoverageJsonWriter {
 		JSONArray y=new JSONArray();
 		axes.put("x", x);
 		axes.put("y", y);
+		if(coverage.getGridGeometry().getEnvelope().getDimension()>2) {
+			JSONArray z=new JSONArray();
+			axes.put("z", z);
+		}
+		
 		JSONArray referencing=new JSONArray();
 		domain.put("referencing", referencing);
 		//coverage.getGridGeometry().getCoordinateReferenceSystem().getName()
@@ -74,7 +74,30 @@ public class CoverageJsonWriter {
 		JSONObject parameters=new JSONObject();
 		result.put("parameters", parameters);
 		for(SampleDimension dimension:coverage.getSampleDimensions()) {
-			parameters.put(dimension.getName(),
+			JSONObject sampledim=new JSONObject();
+			parameters.put(dimension.getName().toString(),sampledim);
+			sampledim.put("type","Parameter");
+			JSONObject description=new JSONObject();
+			sampledim.put("description",description);
+			description.put("en",dimension.getName().toString());
+			if(dimension.getUnits()!=null && dimension.getUnits().isPresent()) {
+				JSONObject unit=new JSONObject();
+				sampledim.put("unit",unit);
+				JSONObject unitlabel=new JSONObject();
+				unit.put("label",unitlabel);
+				unitlabel.put("en",dimension.getUnits().get().getName());
+				JSONObject symbol=new JSONObject();
+				unit.put("symbol",symbol);
+				symbol.put("value",dimension.getUnits().get());
+			}
+			JSONObject observedProperty=new JSONObject();
+			sampledim.put("observedProperty",observedProperty);
+			JSONObject oPLabel=new JSONObject();
+			observedProperty.put("label",oPLabel);
+			oPLabel.put("en",dimension.)
+			
+			dimension.getCategories();
+			dimension.getMeasurementRange()
 		}
 
 		JSONObject ranges=new JSONObject();

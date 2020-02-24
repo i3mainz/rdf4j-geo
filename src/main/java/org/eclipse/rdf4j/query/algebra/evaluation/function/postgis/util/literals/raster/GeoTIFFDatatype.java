@@ -3,6 +3,7 @@ package org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.literal
 import java.io.IOException;
 
 import org.apache.sis.coverage.grid.GridCoverage;
+import org.apache.sis.storage.geotiff.GeoTiffStore;
 import org.eclipse.rdf4j.model.vocabulary.POSTGIS;
 
 
@@ -15,6 +16,7 @@ public class GeoTIFFDatatype extends RasterLiteral {
 	@Override
 	public GridCoverage read(String geometryLiteral) {
 		GridCoverage coverage;
+		GeoTiffStore store=new GeoTiffStore(provider, connector)
 		/*try {
 			coverage = CoverageIO.read(geometryLiteral);
 			return coverage;

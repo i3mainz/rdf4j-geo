@@ -74,6 +74,7 @@ public class POSTGIS {
     public static final	IRI st_bboxoverlapsright = factory.createIRI(NAMESPACE, "ST_BBOXOverlapsRight");
     public static final	IRI st_bboxrightof = factory.createIRI(NAMESPACE, "ST_BBOXRightOf");
 	public static final	IRI ST_BAND=factory.createIRI(NAMESPACE, "ST_Band");
+	public static final IRI ST_BANDISNODATA=factory.createIRI(NAMESPACE, "ST_BandIsNoData");
 	public static final	IRI ST_BANDMETADATA=factory.createIRI(NAMESPACE, "ST_BandMetaData");
 	public static final	IRI ST_BANDNODATAVALUE=factory.createIRI(NAMESPACE, "ST_BandNoDataValue");
 	public static final	IRI ST_BANDPIXELTYPE=factory.createIRI(NAMESPACE, "ST_BandPixelType");
@@ -175,6 +176,7 @@ public class POSTGIS {
         public static final IRI st_isMeasured=factory.createIRI(NAMESPACE, "ST_IsMeasured");
         public static final IRI st_isMorePrecise=factory.createIRI(NAMESPACE, "ST_IsMorePrecise");
         public static final IRI st_isNodingValid=factory.createIRI(NAMESPACE, "ST_IsNodingValid");
+		public static final IRI st_isPlanar = factory.createIRI(NAMESPACE, "ST_IsPlanar");
         public static final IRI st_isPointOnLine=factory.createIRI(NAMESPACE, "ST_IsPointOnLine");
         public static final IRI st_isPointInRing=factory.createIRI(NAMESPACE, "ST_IsPointInRing");
         public static final IRI st_isPolygonCW=factory.createIRI(NAMESPACE, "ST_IsPolygonCW");
@@ -182,6 +184,7 @@ public class POSTGIS {
         public static final IRI st_isRectangle=factory.createIRI(NAMESPACE, "ST_IsRectangle");
         public static final IRI st_isRing=factory.createIRI(NAMESPACE, "ST_IsRing");
         public static final IRI st_isSimple=factory.createIRI(NAMESPACE, "ST_IsSimpleFF");
+		public static final IRI st_isSolid = factory.createIRI(NAMESPACE, "ST_IsSolid");
         public static final IRI st_isValid=factory.createIRI(NAMESPACE, "ST_IsValidFF");
         public static final IRI st_isValidTrajectory=factory.createIRI(NAMESPACE, "ST_IsValidTrajectory");
         public static final IRI st_isValidReason=factory.createIRI(NAMESPACE, "ST_IsValidReason");
@@ -299,9 +302,12 @@ public class POSTGIS {
         public static final IRI st_rast_CoveredBy=factory.createIRI(NAMESPACE, "ST_CoveredBy");
         public static final IRI st_rast_Crosses=factory.createIRI(NAMESPACE, "ST_Crosses");
         public static final IRI st_rast_Disjoint=factory.createIRI(NAMESPACE, "ST_Disjoint");
+		public static final IRI st_rast_DWithin = factory.createIRI(NAMESPACE, "ST_DWithin");
+		public static final IRI st_rast_DFullyWithin = factory.createIRI(NAMESPACE, "ST_DFullyWithin");
         public static final IRI st_rast_Intersects=factory.createIRI(NAMESPACE, "ST_Intersects");
         public static final IRI st_rast_Intersection=factory.createIRI(NAMESPACE, "ST_Intersection");
         public static final IRI st_rast_Overlaps=factory.createIRI(NAMESPACE, "ST_Overlaps");
+		public static final IRI st_rast_SameAlignment = factory.createIRI(NAMESPACE, "ST_SameAlignment");
         public static final IRI st_rast_srid=factory.createIRI(NAMESPACE, "ST_SRID");
         public static final IRI st_rast_Touches=factory.createIRI(NAMESPACE, "ST_Touches");
         public static final IRI st_rast_Within=factory.createIRI(NAMESPACE, "ST_Within");
@@ -331,6 +337,7 @@ public class POSTGIS {
         public static final IRI st_scaleY=factory.createIRI(NAMESPACE, "ST_ScaleY");
         public static final IRI st_shearTransformation=factory.createIRI(NAMESPACE, "ST_ShearTransformation");
         public static final IRI st_segmentize=factory.createIRI(NAMESPACE, "ST_Segmentize");
+		public static final IRI st_setBandNoDataValue = factory.createIRI(NAMESPACE, "ST_SetBandNoDataValue");
         public static final IRI st_setScale=factory.createIRI(NAMESPACE, "ST_SetScale");
         public static final IRI st_setSkew=factory.createIRI(NAMESPACE, "ST_SetSkew");
         public static final IRI st_setRotation=factory.createIRI(NAMESPACE, "ST_SetRotation");
@@ -375,6 +382,7 @@ public class POSTGIS {
         public static final IRI st_unaryUnion=factory.createIRI(NAMESPACE, "ST_UnaryUnion");
         public static final IRI st_upperLeftX=factory.createIRI(NAMESPACE, "ST_UpperLeftX");
         public static final IRI st_upperLeftY=factory.createIRI(NAMESPACE, "ST_UpperLeftY");
+		public static final IRI st_value = factory.createIRI(NAMESPACE, "ST_Value");
         public static final IRI st_vectorize=factory.createIRI(NAMESPACE, "ST_Vectorize");
         public static final IRI st_voronoiLines=factory.createIRI(NAMESPACE, "ST_VoronoiLines");
         public static final IRI st_voronoiPolygons=factory.createIRI(NAMESPACE, "ST_VoronoiPolygons");
@@ -428,6 +436,22 @@ public class POSTGIS {
 		public static final IRI ST_ToDegrees=factory.createIRI(NAMESPACE, "ST_ToDegrees");
 		
 		public static final IRI ST_ToRadians=factory.createIRI(NAMESPACE, "ST_ToRadians");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
