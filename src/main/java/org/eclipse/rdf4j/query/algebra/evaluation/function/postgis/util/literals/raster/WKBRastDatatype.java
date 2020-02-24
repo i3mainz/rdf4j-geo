@@ -1,13 +1,12 @@
 package org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.literals.raster;
 
 import java.io.IOException;
-import java.util.List;
 
 import org.apache.sis.coverage.grid.GridCoverage;
 import org.eclipse.rdf4j.model.vocabulary.POSTGIS;
+import org.geotoolkit.coverage.wkb.WKBRasterReader;
+import org.geotoolkit.coverage.wkb.WKBRasterWriter;
 import org.opengis.util.FactoryException;
-import org.wololo.geojson.GeoJSON;
-import org.wololo.jts2geojson.GeoJSONWriter;
 
 public class WKBRastDatatype extends RasterLiteral {
 
@@ -17,11 +16,17 @@ public class WKBRastDatatype extends RasterLiteral {
 	
 	@Override
 	public GridCoverage read(String geometryLiteral) {
-		/*WKBRasterReader reader2=new WKBRasterReader();
-		GridCoverage coverage=reader2.readCoverage(geometryLiteral.getBytes(), authorityFactory);
-		return coverage;
-		*/
-		return null;
+		WKBRasterReader reader2=new WKBRasterReader();
+		GridCoverage coverage;
+		try {
+			coverage = reader2.readCoverage(geometryLiteral.getBytes(), null);
+			return coverage;
+		} catch (IOException | FactoryException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+			return null;
+		}
+
 	}
 	
     @Override
@@ -31,7 +36,6 @@ public class WKBRastDatatype extends RasterLiteral {
 
 	@Override
 	public String unparse(GridCoverage geom) {
-		/*
         WKBRasterWriter writer=new WKBRasterWriter();
 		String rasterWKB;
 		try {
@@ -39,8 +43,7 @@ public class WKBRastDatatype extends RasterLiteral {
 			return rasterWKB.toString();
 		} catch (IOException | FactoryException e) {
 			throw new AssertionError(e.getMessage());
-		}*/
-		return null;
+		}
 	}
 
 }

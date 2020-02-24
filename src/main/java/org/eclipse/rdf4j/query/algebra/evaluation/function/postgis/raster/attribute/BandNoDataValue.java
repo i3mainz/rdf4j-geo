@@ -2,9 +2,9 @@ package org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.raster.attri
 
 import org.apache.sis.coverage.grid.GridCoverage;
 import org.eclipse.rdf4j.model.vocabulary.POSTGIS;
-import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.raster.base.RasterStringExportFunction;
+import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.raster.base.RasterAttributeIntIntFunction;
 
-public class BandNoDataValue extends RasterStringExportFunction {
+public class BandNoDataValue extends RasterAttributeIntIntFunction {
 
 	@Override
 	public String getURI() {
@@ -12,9 +12,8 @@ public class BandNoDataValue extends RasterStringExportFunction {
 	}
 
 	@Override
-	public String operation(GridCoverage raster) {
-		// TODO Auto-generated method stub
-		return null;
+	public Integer attribute(GridCoverage coverage,Integer bandno) {
+		return coverage.getSampleDimensions().get(bandno).getNoDataValues().iterator().next().intValue();
 	}
 
 }

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 package org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.raster.transform;
 
 import java.awt.geom.AffineTransform;
@@ -80,3 +81,10 @@ public class Rescale extends RasterModifierDoubleDoubleFunction {
 	}
 
 }
+=======
+package org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.raster.transform;
+
+public class Rescale {
+
+}
+>>>>>>> 4f1693d6221908cc061feca88e6b7c8b2d806705
