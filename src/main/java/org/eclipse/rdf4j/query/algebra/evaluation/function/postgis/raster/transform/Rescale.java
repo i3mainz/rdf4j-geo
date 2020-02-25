@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 package org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.raster.transform;
 
 import java.awt.geom.AffineTransform;
@@ -24,7 +23,7 @@ public class Rescale extends RasterModifierDoubleDoubleFunction {
 
 	@Override
 	public GridCoverage modify(GridCoverage inputCoverage, Double xScale, Double yScale) {
-		if (xScale <= 0) {
+		/*if (xScale <= 0) {
             throw new InvalidParameterValueException("xScale must be greater than zero", "xScale",
                     xScale);
         }
@@ -78,13 +77,8 @@ public class Rescale extends RasterModifierDoubleDoubleFunction {
             return factory.create(inputCoverage.getName(), inputImage, Extent, bands, null,
                     properties);
         }
-	}
+	}*/
+		return null;
 
 }
-=======
-package org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.raster.transform;
-
-public class Rescale {
-
 }
->>>>>>> 4f1693d6221908cc061feca88e6b7c8b2d806705

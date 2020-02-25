@@ -24,7 +24,7 @@ public class GeomCollFromText extends GeometricConstructor{
 
 	@Override
 	public String getURI() {
-		return POSTGIS.st_geomFromGeoHash.stringValue();
+		return POSTGIS.st_geomCollFromText.stringValue();
 	}
 
 }

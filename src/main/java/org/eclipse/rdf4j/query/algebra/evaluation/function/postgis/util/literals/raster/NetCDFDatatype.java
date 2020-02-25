@@ -14,9 +14,9 @@ public class NetCDFDatatype extends RasterLiteral {
 
 	@Override
 	public GridCoverage read(String literalValue) {
-		StorageConnector connect=new StorageConnector(connect);
-		NetcdfStore netcdf=new NetcdfStoreProvider().open(connector);
-		netcdf.
+		//StorageConnector connect=new StorageConnector(connect);
+		//NetcdfStore netcdf=new NetcdfStoreProvider().open(connector);
+		//netcdf.
 		// TODO Auto-generated method stub
 		return null;
 	}

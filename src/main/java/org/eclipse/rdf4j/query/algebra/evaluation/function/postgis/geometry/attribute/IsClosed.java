@@ -10,6 +10,9 @@ import org.locationtech.jts.geom.Polygon;
 
 import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.geometry.base.GeometricBinaryAttributeFunction;
 
+/**
+ * Returns true if the given geometry is closed, false otherwise.
+ */
 public class IsClosed extends GeometricBinaryAttributeFunction {
 
 	@Override

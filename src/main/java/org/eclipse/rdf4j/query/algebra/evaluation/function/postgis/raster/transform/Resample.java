@@ -20,7 +20,7 @@ public class Resample extends RasterModifierFunction {
 
 	@Override
 	public GridCoverage modify(GridCoverage inputCoverage) {
-		Interpolation interpolation = Interpolation.getInstance(Interpolation.INTERP_NEAREST);
+		/*Interpolation interpolation = Interpolation.getInstance(Interpolation.INTERP_NEAREST);
         switch (resamplingType) {
         case BICUBIC:
             interpolation = Interpolation.getInstance(Interpolation.INTERP_BICUBIC);
@@ -48,7 +48,8 @@ public class Resample extends RasterModifierFunction {
                     interpolation);
         } catch (CoverageProcessingException e) {
             throw new ProcessException(e);
-        }
+        }*/
+		return null;
 	}
 
 }

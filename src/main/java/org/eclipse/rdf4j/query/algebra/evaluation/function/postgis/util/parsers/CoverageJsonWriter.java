@@ -57,7 +57,6 @@ public class CoverageJsonWriter {
 			JSONArray z=new JSONArray();
 			axes.put("z", z);
 		}
-		
 		JSONArray referencing=new JSONArray();
 		domain.put("referencing", referencing);
 		//coverage.getGridGeometry().getCoordinateReferenceSystem().getName()
@@ -94,16 +93,14 @@ public class CoverageJsonWriter {
 			sampledim.put("observedProperty",observedProperty);
 			JSONObject oPLabel=new JSONObject();
 			observedProperty.put("label",oPLabel);
-			oPLabel.put("en",dimension.)
+			/*oPLabel.put("en",dimension.)
 			
 			dimension.getCategories();
-			dimension.getMeasurementRange()
+			dimension.getMeasurementRange()*/
 		}
 
 		JSONObject ranges=new JSONObject();
 		result.put("ranges",ranges);
-		
-		coverage.getSampleDimensions()
 		return result;
 	}
 	

@@ -13,10 +13,15 @@ import org.apache.sis.coverage.grid.GridExtent;
 import org.apache.sis.coverage.grid.GridGeometry;
 import org.apache.sis.geometry.Envelope2D;
 import org.apache.sis.internal.coverage.GridCoverage2D;
+import org.apache.sis.measure.Range;
+import org.apache.sis.referencing.NamedIdentifier;
+import org.apache.sis.util.iso.Names;
+import org.geotoolkit.util.NumberRange;
 import org.json.JSONArray;
 import org.json.JSONObject;
 import org.opengis.metadata.spatial.DimensionNameType;
 import org.opengis.util.FactoryException;
+import org.opengis.util.GenericName;
 
 public class CoverageJSONReader {
 
@@ -123,13 +128,33 @@ public class CoverageJSONReader {
 		GridGeometry gridgeom=new GridGeometry(extent, gridenv);//domain
 		Map<String,List<Category>> categories=new TreeMap<>();
 		for(String key:covjson.getJSONObject("ranges").keySet()) {
-			Category cat=new Category(key,)
+			if(!categories.containsKey(key)) {
+				categories.put(key,new LinkedList<Category>());
+			}
+			if("NdArray".equals(covjson.getJSONObject("ranges").getJSONObject(key).getString("type"))) {
+				JSONArray values=covjson.getJSONObject("ranges").getJSONObject(key).getJSONArray("values");
+				Integer[] intrange=new Integer[values.length()];
+				for (int i = 0; i < values.length(); i++) {
+				    intrange[i] = values.optInt(i);
+				}
+				NumberRange<Integer> range=new NumberRange<Integer>(null);
+
+			}
+			//Category cat=new Category(key,)
+			//categories.get(key).add(cat);
+
+					
 		}
 		List<SampleDimension> dimensions=new LinkedList<SampleDimension>();
 		for(String key:covjson.getJSONObject("parameters").keySet()) {
-			dimensions.add(new SampleDimension(key, 0, categories));
+			GenericName name=Names.createGenericName("http://www.semgis.de/geodata#", "#", new String[] {key});
+			if(categories.containsKey(key)) {
+				NamedIdentifier id=new NamedIdentifier(name);
+				dimensions.add(new SampleDimension(name, Integer.valueOf("0"), categories.get(key)));
+			}else {
+				dimensions.add(new SampleDimension(name, 0, new LinkedList<Category>()));
+			}
 		}
-		//SampleDimension dim=new SampleDimension(name, background, categories)
 		GridCoverage res;
 		try {
 			res = new GridCoverage2D(gridgeom,dimensions,null);
