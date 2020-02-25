@@ -2,13 +2,7 @@ package org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.literal
 
 import org.apache.sis.coverage.grid.GridCoverage;
 import org.eclipse.rdf4j.model.vocabulary.POSTGIS;
-import org.locationtech.jts.geom.Geometry;
-
-import uk.ac.rdg.resc.edal.covjson.CoverageJsonConverterImpl;
-import uk.ac.rdg.resc.edal.covjson.CoverageJsonWriter;
-import uk.ac.rdg.resc.edal.covjson.StreamingEncoder;
-import uk.ac.rdg.resc.edal.covjson.writers.Coverage;
-import uk.ac.rdg.resc.edal.feature.Feature;
+import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.parsers.CoverageJSONReader;
 
 public class CovJSONDatatype extends RasterLiteral{
 
@@ -18,12 +12,7 @@ public class CovJSONDatatype extends RasterLiteral{
 
 	@Override
 	public GridCoverage read(String geometryLiteral) {
-		/*CoverageJsonConverterImpl covjsonconverter=new CoverageJsonConverterImpl();
-		Feature feat;
-		feat=new Feature();
-		Coverage coverage;
-		covjsonconverter.conver*/
-		return null;
+		return CoverageJSONReader.covJSONStringToCoverage(geometryLiteral);
 		
 	}
 	
