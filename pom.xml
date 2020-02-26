@@ -137,6 +137,21 @@
             <version>${sis.version}</version>
         </dependency>
         <dependency>
+            <groupId>org.apache.sis.storage</groupId>
+            <artifactId>sis-storage</artifactId>
+            <version>${sis.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.sis.storage</groupId>
+            <artifactId>sis-netcdf</artifactId>
+            <version>${sis.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.sis.storage</groupId>
+            <artifactId>sis-geotiff</artifactId>
+            <version>${sis.version}</version>
+        </dependency>
+        <dependency>
             <groupId>org.apache.sis.core</groupId>
             <artifactId>sis-referencing</artifactId>
             <version>${sis.version}</version>
