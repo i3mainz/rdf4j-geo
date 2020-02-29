@@ -6,6 +6,9 @@ import org.locationtech.jts.operation.valid.RepeatedPointTester;
 
 import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.geometry.base.GeometricBinaryAttributeFunction;
 
+/**
+ * Returns true if the geometry has repeated points.
+ */
 public class HasRepeatedPoints extends GeometricBinaryAttributeFunction {
 
 	@Override

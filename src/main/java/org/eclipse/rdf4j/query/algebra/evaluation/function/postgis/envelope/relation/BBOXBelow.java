@@ -6,6 +6,9 @@ import org.locationtech.jts.geom.Geometry;
 
 import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.geometry.base.GeometricRelationBinaryFunction;
 
+/**
+ * Returns true if the bounding box of geometry 1 is below the boundingbox of geometry 2.
+ */
 public class BBOXBelow extends GeometricRelationBinaryFunction {
 
 	@Override

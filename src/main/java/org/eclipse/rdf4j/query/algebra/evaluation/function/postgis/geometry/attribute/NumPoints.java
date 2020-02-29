@@ -5,6 +5,9 @@ import org.locationtech.jts.geom.Geometry;
 
 import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.geometry.base.GeometricIntegerAttributeFunction;
 
+/**
+ * Returns the number of points of the given geometry.
+ */
 public class NumPoints extends GeometricIntegerAttributeFunction {
 
 	@Override

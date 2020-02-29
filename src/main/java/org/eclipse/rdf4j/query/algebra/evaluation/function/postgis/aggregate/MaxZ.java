@@ -4,6 +4,11 @@ import org.eclipse.rdf4j.query.algebra.AbstractAggregateOperator;
 import org.eclipse.rdf4j.query.algebra.QueryModelVisitor;
 import org.eclipse.rdf4j.query.algebra.ValueExpr;
 
+
+/**
+ * Aggregate function to find the maximum z coordinate of a set of geometries.
+ *
+ */
 public class MaxZ extends AbstractAggregateOperator {
 
 	public MaxZ(ValueExpr arg) {

@@ -5,6 +5,9 @@ import org.locationtech.jts.geom.Geometry;
 
 import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.geometry.base.GeometricDoubleAttributeFunction;
 
+/**
+ * Returns the perimeter of the given geometry.
+ */
 public class Perimeter extends GeometricDoubleAttributeFunction {
 
 	@Override

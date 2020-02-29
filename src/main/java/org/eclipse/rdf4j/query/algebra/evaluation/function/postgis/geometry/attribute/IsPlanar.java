@@ -9,7 +9,7 @@ public class IsPlanar extends GeometricBinaryAttributeFunction {
 
 	@Override
 	public String getURI() {
-		return POSTGIS.st_isSolid.stringValue();
+		return POSTGIS.st_isPlanar.stringValue();
 	}
 
 	@Override

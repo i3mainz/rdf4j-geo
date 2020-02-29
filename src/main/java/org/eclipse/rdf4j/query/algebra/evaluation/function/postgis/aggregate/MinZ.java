@@ -4,6 +4,11 @@ import org.eclipse.rdf4j.query.algebra.AbstractAggregateOperator;
 import org.eclipse.rdf4j.query.algebra.QueryModelVisitor;
 import org.eclipse.rdf4j.query.algebra.ValueExpr;
 
+
+/**
+ * Aggregate function to find the minimum z coordinate of a set of geometries.
+ *
+ */
 public class MinZ extends AbstractAggregateOperator {
 
 	public MinZ(ValueExpr arg) {

@@ -16,7 +16,7 @@ public class GeoTIFFDatatype extends RasterLiteral {
 	@Override
 	public GridCoverage read(String geometryLiteral) {
 		GridCoverage coverage;
-		GeoTiffStore store=new GeoTiffStore(provider, connector)
+		//GeoTiffStore store=new GeoTiffStore(provider, connector)
 		/*try {
 			coverage = CoverageIO.read(geometryLiteral);
 			return coverage;

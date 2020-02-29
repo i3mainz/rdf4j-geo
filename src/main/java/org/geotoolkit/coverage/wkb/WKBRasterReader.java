@@ -34,12 +34,10 @@ import java.io.InputStream;
 import javax.media.jai.PlanarImage;
 import javax.media.jai.RasterFactory;
 import org.apache.sis.coverage.grid.GridCoverage;
-import org.geotoolkit.coverage.grid.GridCoverageBuilder;
 import static org.geotoolkit.coverage.wkb.WKBRasterConstants.*;
 import org.geotoolkit.io.LEDataInputStream;
 import org.apache.sis.referencing.CRS;
 import org.apache.sis.internal.referencing.j2d.AffineTransform2D;
-import org.apache.sis.internal.raster.ColorModelFactory;
 import org.opengis.referencing.NoSuchAuthorityCodeException;
 import org.opengis.referencing.crs.CRSAuthorityFactory;
 import org.opengis.referencing.operation.MathTransform;
@@ -105,7 +103,7 @@ public class WKBRasterReader {
     public GridCoverage readCoverage(final InputStream stream, CRSAuthorityFactory authorityFactory)
             throws IOException, NoSuchAuthorityCodeException, FactoryException{
         final BufferedImage image = read(stream);
-        final GridCoverageBuilder gcb = new GridCoverageBuilder();
+        /*final GridCoverageBuilder gcb = new GridCoverageBuilder();
         final String epsgCode = "EPSG:"+srid;
         if(authorityFactory != null){
             gcb.setCoordinateReferenceSystem(authorityFactory.createCoordinateReferenceSystem(epsgCode));
@@ -114,7 +112,8 @@ public class WKBRasterReader {
         }
         gcb.setGridToCRS((MathTransform)getGridToCRS());
         gcb.setRenderedImage(image);
-        return gcb.getGridCoverage2D();
+        return gcb.getGridCoverage2D();*/
+        return null;
     }
 
     /**
@@ -335,9 +334,10 @@ public class WKBRasterReader {
 
 
     private static ColorModel createGrayScaleColorModel(int dataType, int nbBand, int visibleBand, double min, double max) {
-        final ColorSpace colors = ColorModelFactory.createColorSpace(nbBand, visibleBand, min, max);
+        /*final ColorSpace colors = ColorModelFactory.createColorSpace(nbBand, visibleBand, min, max);
         final ColorModel cm = new ComponentColorModel(colors, false, false, Transparency.OPAQUE, dataType);
-        return cm;
+        return cm;*/
+    	return null;
     }
 
 }

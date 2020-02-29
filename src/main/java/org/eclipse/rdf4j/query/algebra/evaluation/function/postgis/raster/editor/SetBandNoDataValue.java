@@ -13,6 +13,7 @@ public class SetBandNoDataValue extends RasterModifierIntIntFunction {
 
 	@Override
 	public GridCoverage modify(GridCoverage coverage, Integer bandno, Integer nodatavalue) {
+		//coverage.getSampleDimensions().get(bandno).getNoDataValues()
 		// TODO Auto-generated method stub
 		return null;
 	}

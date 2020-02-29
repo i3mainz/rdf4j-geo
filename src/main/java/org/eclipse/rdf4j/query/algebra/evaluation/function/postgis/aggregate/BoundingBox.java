@@ -4,6 +4,10 @@ import org.eclipse.rdf4j.query.algebra.AbstractAggregateOperator;
 import org.eclipse.rdf4j.query.algebra.QueryModelVisitor;
 import org.eclipse.rdf4j.query.algebra.ValueExpr;
 
+/**
+ * Aggregate function to calculate a boundingbox of a set of geometries.
+ *
+ */
 public class BoundingBox extends AbstractAggregateOperator {
 
 	public BoundingBox(ValueExpr arg) {

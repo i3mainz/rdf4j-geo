@@ -8,6 +8,10 @@ import org.locationtech.jts.geom.Polygon;
 
 import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.geometry.base.GeometricBinaryAttributeFunction;
 
+
+/**
+ * Returns true if the given geometry is convex.
+ */
 public class IsConvex extends GeometricBinaryAttributeFunction {
 
 	@Override

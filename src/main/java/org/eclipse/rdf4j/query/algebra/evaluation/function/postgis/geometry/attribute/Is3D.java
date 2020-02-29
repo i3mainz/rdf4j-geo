@@ -6,6 +6,9 @@ import org.locationtech.jts.geom.Geometry;
 
 import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.geometry.base.GeometricBinaryAttributeFunction;
 
+/**
+ * Returns true if the given geometry is a 3D geometry, false otherwise.
+ */
 public class Is3D extends GeometricBinaryAttributeFunction {
 
 	@Override
