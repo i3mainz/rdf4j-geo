@@ -5,6 +5,9 @@ import org.locationtech.jts.geom.Geometry;
 
 import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.geometry.base.GeometricDoubleAttributeFunction;
 
+/**
+ * Calculates the length of the geometry .
+ */
 public class Length extends GeometricDoubleAttributeFunction {
 
 	@Override

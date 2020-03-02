@@ -5,6 +5,9 @@ import org.locationtech.jts.geom.Geometry;
 
 import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.geometry.base.GeometricDoubleAttributeFunction;
 
+/**
+ * Returns the mininum bounding radius of the minimum bounding circle surrounding the geometry.
+ */
 public class MinimumBoundingRadius extends GeometricDoubleAttributeFunction {
 
 	@Override

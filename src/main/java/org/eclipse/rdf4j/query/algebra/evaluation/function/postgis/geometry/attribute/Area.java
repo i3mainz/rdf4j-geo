@@ -5,6 +5,9 @@ import org.locationtech.jts.geom.Geometry;
 
 import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.geometry.base.GeometricDoubleAttributeFunction;
 
+/**
+ * Calculates the area of the given geometry.
+ */
 public class Area extends GeometricDoubleAttributeFunction {
 
 	@Override

@@ -8,6 +8,9 @@ import org.locationtech.jts.geom.GeometryFactory;
 
 import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.geometry.base.GeometricModifierIntegerFunction;
 
+/**
+ * Returns the nth point of the given geometry if it exists.
+ */
 public class PointN extends GeometricModifierIntegerFunction {
 
 	@Override

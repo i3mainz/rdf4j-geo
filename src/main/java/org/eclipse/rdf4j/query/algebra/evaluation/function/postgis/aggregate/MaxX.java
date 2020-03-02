@@ -5,7 +5,8 @@ import org.eclipse.rdf4j.query.algebra.QueryModelVisitor;
 import org.eclipse.rdf4j.query.algebra.ValueExpr;
 
 /**
- * @author David Huynh
+ * Aggregate function to find the maximum x coordinate of a set of geometries.
+ *
  */
 public class MaxX extends AbstractAggregateOperator {
 

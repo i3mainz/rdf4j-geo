@@ -6,6 +6,9 @@ import org.locationtech.jts.geom.Geometry;
 
 import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.geometry.base.GeometricRelationDoubleFunction;
 
+/**
+ * Returns the distance between the two bounding boxes of geometry 1 and geometry 2.
+ */
 public class BBOXDistance extends GeometricRelationDoubleFunction {
 
 	@Override

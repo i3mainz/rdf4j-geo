@@ -5,6 +5,10 @@ import org.locationtech.jts.geom.Geometry;
 
 import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.geometry.base.GeometricModifierIntegerFunction;
 
+
+/**
+ * Returns the nth geometry of a given geometry collection.
+ */
 public class GeometryN extends GeometricModifierIntegerFunction {
 
 	@Override

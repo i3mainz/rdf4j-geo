@@ -6,6 +6,9 @@ import org.locationtech.jts.geom.Geometry;
 
 import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.geometry.base.GeometricRelationBinaryFunction;
 
+/**
+ * Returns true if the boundingbox of the first geometry equals the boundingbox of the second geometry.
+ */
 public class BBOXEquals extends GeometricRelationBinaryFunction {
 
 	@Override

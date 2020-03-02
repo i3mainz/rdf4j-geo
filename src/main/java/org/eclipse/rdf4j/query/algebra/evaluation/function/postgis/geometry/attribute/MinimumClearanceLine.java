@@ -5,6 +5,9 @@ import org.locationtech.jts.geom.Geometry;
 
 import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.geometry.base.GeometricUnaryFunction;
 
+/**
+ * Returns the minimum clearance line of this geometry.
+ */
 public class MinimumClearanceLine extends GeometricUnaryFunction {
 
 	@Override
