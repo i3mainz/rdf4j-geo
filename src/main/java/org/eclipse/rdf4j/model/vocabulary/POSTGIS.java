@@ -53,6 +53,7 @@ public class POSTGIS {
 	public static final	IRI ST_ASWKB=factory.createIRI(NAMESPACE, "ST_AsWKB");
 	public static final IRI st_asRasterHexWKB = factory.createIRI(NAMESPACE,"ST_AsRasterHexWKB");
 	public static final IRI st_asRasterWKB = factory.createIRI(NAMESPACE,"ST_AsRasterWKB");
+	public static final IRI st_asRaster = factory.createIRI(NAMESPACE,"ST_AsRaster");
 	public static final	IRI ST_ASWKT=factory.createIRI(NAMESPACE, "ST_AsWKT");
 	public static final	IRI ST_ASX3D=factory.createIRI(NAMESPACE, "ST_AsX3D");
 	public static final	IRI ST_AREA=factory.createIRI(NAMESPACE, "ST_Area");
@@ -440,6 +441,8 @@ public class POSTGIS {
 		public static final IRI ST_ToDegrees=factory.createIRI(NAMESPACE, "ST_ToDegrees");
 		
 		public static final IRI ST_ToRadians=factory.createIRI(NAMESPACE, "ST_ToRadians");
+
+
 
 
 }
