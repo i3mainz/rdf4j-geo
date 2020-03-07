@@ -182,6 +182,7 @@ public class POSTGIS {
         public static final IRI st_isPolygonCW=factory.createIRI(NAMESPACE, "ST_IsPolygonCW");
         public static final IRI st_isPolygonCCW=factory.createIRI(NAMESPACE, "ST_IsPolygonCCW");
         public static final IRI st_isRectangle=factory.createIRI(NAMESPACE, "ST_IsRectangle");
+        public static final IRI st_isRightTriangle=factory.createIRI(NAMESPACE, "ST_IsRightTriangle");
         public static final IRI st_isRing=factory.createIRI(NAMESPACE, "ST_IsRing");
         public static final IRI st_isSimple=factory.createIRI(NAMESPACE, "ST_IsSimpleFF");
 		public static final IRI st_isSolid = factory.createIRI(NAMESPACE, "ST_IsSolid");
