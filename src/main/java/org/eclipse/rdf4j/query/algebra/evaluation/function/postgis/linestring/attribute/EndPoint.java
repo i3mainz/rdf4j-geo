@@ -7,6 +7,9 @@ import org.locationtech.jts.geom.Point;
 
 import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.geometry.base.GeometricUnaryFunction;
 
+/**
+ * Returns the last point of the given geometry.
+ */
 public class EndPoint extends GeometricUnaryFunction {
 
 	@Override

@@ -4,6 +4,9 @@ import org.eclipse.rdf4j.model.vocabulary.POSTGIS;
 import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.geometry.base.GeometricDoubleModifierIntegerFunction;
 import org.locationtech.jts.geom.Geometry;
 
+/**
+ * Returns the point within the given geometry nearest to the given length.
+ */
 public class LengthToPoint extends GeometricDoubleModifierIntegerFunction {
 
 	@Override

@@ -6,6 +6,9 @@ import org.locationtech.jts.geom.Geometry;
 
 import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.geometry.base.GeometricDoubleAttributeFunction;
 
+/**
+ * Returns minimum y coordinate of the given geometry.
+ */
 public class YMin extends GeometricDoubleAttributeFunction {
 
 	@Override
