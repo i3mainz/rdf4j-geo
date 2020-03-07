@@ -18,7 +18,7 @@ public class IsClosed extends GeometricBinaryAttributeFunction {
 	@Override
 	public boolean attribute(Geometry geom) {
 		if(geom instanceof Point)
-        	return true;
+        	return false;
         if(geom instanceof MultiPoint) {
         	GeometryFactory fac=new GeometryFactory();
         	LineString line=fac.createLineString(((MultiPoint)geom).getCoordinates());
