@@ -5,6 +5,9 @@ import org.locationtech.jts.geom.Geometry;
 
 import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.geometry.base.GeometricRelationBinaryFunction;
 
+/**
+ * Returns true if the two given geometries have the same geocoordinate system.
+ */
 public class EqualSRS extends GeometricRelationBinaryFunction {
 
 	@Override

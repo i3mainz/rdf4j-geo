@@ -253,6 +253,7 @@ public class POSTGIS {
         public static final IRI st_multiplyz=factory.createIRI(NAMESPACE, "ST_MultiplyZ");
         public static final IRI st_nearestValue=factory.createIRI(NAMESPACE, "ST_NearestValue");
         public static final IRI st_numBands=factory.createIRI(NAMESPACE, "ST_NumBands");
+		public static final IRI st_numdistinctPoints = factory.createIRI(NAMESPACE, "ST_NumDistinctPoints");
         public static final IRI st_numGeometries=factory.createIRI(NAMESPACE, "ST_NumGeometries");
         public static final IRI st_numInteriorRings=factory.createIRI(NAMESPACE, "ST_NumInteriorRings");
         public static final IRI st_numPatches=factory.createIRI(NAMESPACE, "ST_NumPatches");
@@ -441,6 +442,8 @@ public class POSTGIS {
 		public static final IRI ST_ToDegrees=factory.createIRI(NAMESPACE, "ST_ToDegrees");
 		
 		public static final IRI ST_ToRadians=factory.createIRI(NAMESPACE, "ST_ToRadians");
+
+
 
 
 
