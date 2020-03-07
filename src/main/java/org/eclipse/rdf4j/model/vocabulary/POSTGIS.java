@@ -171,8 +171,7 @@ public class POSTGIS {
         public static final IRI st_isEmpty=factory.createIRI(NAMESPACE, "ST_IsEmpty");
         public static final IRI st_isGrayscale=factory.createIRI(NAMESPACE, "ST_IsGrayscale");
         public static final IRI st_isIndexed=factory.createIRI(NAMESPACE, "ST_IsIndexed");
-        public static final IRI st_isTiled=factory.createIRI(NAMESPACE, "ST_IsTiled");
-        public static final IRI st_isTranslucent=factory.createIRI(NAMESPACE, "ST_IsTranslucent");
+		public static final IRI st_isIsocelesTriangle=factory.createIRI(NAMESPACE, "ST_IsIsocelesTriangle");
         public static final IRI st_isLocationOnEdge=factory.createIRI(NAMESPACE, "ST_IsLocationOnEdge");
         public static final IRI st_isMeasured=factory.createIRI(NAMESPACE, "ST_IsMeasured");
         public static final IRI st_isMorePrecise=factory.createIRI(NAMESPACE, "ST_IsMorePrecise");
@@ -186,6 +185,9 @@ public class POSTGIS {
         public static final IRI st_isRing=factory.createIRI(NAMESPACE, "ST_IsRing");
         public static final IRI st_isSimple=factory.createIRI(NAMESPACE, "ST_IsSimpleFF");
 		public static final IRI st_isSolid = factory.createIRI(NAMESPACE, "ST_IsSolid");
+		public static final IRI st_isTiled=factory.createIRI(NAMESPACE, "ST_IsTiled");
+	    public static final IRI st_isTranslucent=factory.createIRI(NAMESPACE, "ST_IsTranslucent");
+		public static final IRI st_isTriangle= factory.createIRI(NAMESPACE, "ST_IsTriangle");
         public static final IRI st_isValid=factory.createIRI(NAMESPACE, "ST_IsValidFF");
         public static final IRI st_isValidTrajectory=factory.createIRI(NAMESPACE, "ST_IsValidTrajectory");
         public static final IRI st_isValidReason=factory.createIRI(NAMESPACE, "ST_IsValidReason");
@@ -344,6 +346,7 @@ public class POSTGIS {
         public static final IRI st_scaleY=factory.createIRI(NAMESPACE, "ST_ScaleY");
         public static final IRI st_shearTransformation=factory.createIRI(NAMESPACE, "ST_ShearTransformation");
         public static final IRI st_segmentize=factory.createIRI(NAMESPACE, "ST_Segmentize");
+		public static final IRI ST_selfIntersections=factory.createIRI(NAMESPACE, "ST_SelfIntersections");
 		public static final IRI st_setBandNoDataValue = factory.createIRI(NAMESPACE, "ST_SetBandNoDataValue");
         public static final IRI st_setScale=factory.createIRI(NAMESPACE, "ST_SetScale");
         public static final IRI st_setSkew=factory.createIRI(NAMESPACE, "ST_SetSkew");
@@ -443,6 +446,11 @@ public class POSTGIS {
 		public static final IRI ST_ToDegrees=factory.createIRI(NAMESPACE, "ST_ToDegrees");
 		
 		public static final IRI ST_ToRadians=factory.createIRI(NAMESPACE, "ST_ToRadians");
+
+
+
+
+
 
 
 
