@@ -7,6 +7,9 @@ import org.locationtech.jts.noding.SegmentStringUtil;
 
 import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.geometry.base.GeometricBinaryAttributeFunction;
 
+/**
+ * Returns true if the given geometries' noding is valid.
+ */
 public class IsNodingValid extends GeometricBinaryAttributeFunction {
 
 	@Override
