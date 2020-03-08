@@ -390,6 +390,7 @@ public class POSTGIS {
         public static final IRI st_upperLeftY=factory.createIRI(NAMESPACE, "ST_UpperLeftY");
 		public static final IRI st_value = factory.createIRI(NAMESPACE, "ST_Value");
         public static final IRI st_vectorize=factory.createIRI(NAMESPACE, "ST_Vectorize");
+		public static final IRI st_volume=factory.createIRI(NAMESPACE, "ST_Volume");
         public static final IRI st_voronoiLines=factory.createIRI(NAMESPACE, "ST_VoronoiLines");
         public static final IRI st_voronoiPolygons=factory.createIRI(NAMESPACE, "ST_VoronoiPolygons");
         public static final IRI st_width=factory.createIRI(NAMESPACE, "ST_Width");
@@ -442,6 +443,8 @@ public class POSTGIS {
 		public static final IRI ST_ToDegrees=factory.createIRI(NAMESPACE, "ST_ToDegrees");
 		
 		public static final IRI ST_ToRadians=factory.createIRI(NAMESPACE, "ST_ToRadians");
+
+
 
 
 
