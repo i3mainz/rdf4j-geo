@@ -22,8 +22,6 @@ public abstract class RasterRelationBooleanFunction implements Function {
 		if(l instanceof RasterLiteral && l2 instanceof RasterLiteral) {
 			GridCoverage geom=((RasterLiteral)l).read(args[0].stringValue());
 			GridCoverage geom2=((RasterLiteral)l).read(args[1].stringValue());
-			Integer longitude = Integer.valueOf(args[1].stringValue());
-			Integer latitude = Integer.valueOf(args[2].stringValue());
 			Boolean result = relation(geom,geom2);
 			return valueFactory.createLiteral(result);
 		}

@@ -109,6 +109,8 @@ public class POSTGIS {
 	public static final	IRI ST_DISTANCE=factory.createIRI(NAMESPACE, "ST_Distance");
 	public static final	IRI ST_DISTANCE3D=factory.createIRI(NAMESPACE, "ST_Distance3D");
 	public static final	IRI ST_DISTANCESPHERE=factory.createIRI(NAMESPACE, "ST_DistanceSphere");
+	public static final	IRI st_dissolvepoints=factory.createIRI(NAMESPACE, "ST_DissolvePoints");
+	public static final	IRI st_dissolvesegments=factory.createIRI(NAMESPACE, "ST_DissolveSegments");
 	public static final	IRI ST_DWITHIN=factory.createIRI(NAMESPACE, "ST_DWithin");;
 	public static final	IRI ST_ENDPOINT=factory.createIRI(NAMESPACE, "ST_EndPoint");
 	public static final	IRI ST_EQUALS=factory.createIRI(NAMESPACE, "ST_Equals");
@@ -426,7 +428,8 @@ public class POSTGIS {
 		public static final IRI CosH = factory.createIRI(NAMESPACE, "CosH");	
 		public static final IRI ACos=factory.createIRI(NAMESPACE, "ACos");
 		public static final IRI Sin=factory.createIRI(NAMESPACE, "Sin");
-		public static final IRI SinH = factory.createIRI(NAMESPACE, "SinH");		
+		public static final IRI SinH = factory.createIRI(NAMESPACE, "SinH");
+		public static final IRI Sqrt = factory.createIRI(NAMESPACE, "Sqrt");
 		public static final IRI ASin=factory.createIRI(NAMESPACE, "ASin");		
 		public static final IRI Tan=factory.createIRI(NAMESPACE, "Tan");
 		public static final IRI TanH=factory.createIRI(NAMESPACE, "TanH");
@@ -498,6 +501,10 @@ public class POSTGIS {
 		public static final IRI ST_ToDegrees=factory.createIRI(NAMESPACE, "ST_ToDegrees");
 		
 		public static final IRI ST_ToRadians=factory.createIRI(NAMESPACE, "ST_ToRadians");
+
+
+
+
 
 
 

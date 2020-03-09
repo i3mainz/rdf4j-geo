@@ -7,6 +7,9 @@ import org.locationtech.jts.geom.Geometry;
 import java.util.Set;
 import java.util.HashSet;
 
+/**
+ * Returns the number of distinct points of the given geometry.
+ */
 public class NumDistinctPoints extends GeometricIntegerAttributeFunction {
 
 	@Override

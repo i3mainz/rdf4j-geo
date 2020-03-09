@@ -7,6 +7,9 @@ import org.eclipse.rdf4j.model.vocabulary.POSTGIS;
 import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.geometry.base.GeometricIntegerAttributeFunction;
 import org.locationtech.jts.geom.Geometry;
 
+/**
+ * Returns the number of distinct geometries included in this geometry.
+ */
 public class NumDistinctGeometries extends GeometricIntegerAttributeFunction {
 
 	@Override
