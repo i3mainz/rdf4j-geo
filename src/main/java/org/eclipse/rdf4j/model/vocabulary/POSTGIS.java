@@ -390,6 +390,7 @@ public class POSTGIS {
         public static final IRI st_tMax=factory.createIRI(NAMESPACE, "ST_TMax");
         public static final IRI st_tpi=factory.createIRI(NAMESPACE, "ST_TPI");
         public static final IRI st_tri=factory.createIRI(NAMESPACE, "ST_TRI");
+		public static final IRI st_trajectoryInterpolatePoint=factory.createIRI(NAMESPACE, "ST_TrajectoryInterpolatePoint");
         public static final IRI st_transscale=factory.createIRI(NAMESPACE, "ST_TransScale");
         public static final IRI st_translate=factory.createIRI(NAMESPACE, "ST_Translate");
         public static final IRI st_transform=factory.createIRI(NAMESPACE, "ST_Transform");
@@ -494,6 +495,8 @@ public class POSTGIS {
 		public static final IRI ST_ToDegrees=factory.createIRI(NAMESPACE, "ST_ToDegrees");
 		
 		public static final IRI ST_ToRadians=factory.createIRI(NAMESPACE, "ST_ToRadians");
+
+
 
 
 
