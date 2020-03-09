@@ -11,7 +11,7 @@ public class Sign implements Function {
 	@Override
 	public String getURI() {
 		// TODO Auto-generated method stub
-		return POSTGIS.Sin.stringValue();
+		return POSTGIS.Sign.stringValue();
 	}
 
 	@Override

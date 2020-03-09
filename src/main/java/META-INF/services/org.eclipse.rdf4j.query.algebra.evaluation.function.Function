@@ -18,8 +18,10 @@ org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.envelope.relation.BB
 org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.envelope.relation.BBOXRightOf
 
 org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.geometry.attribute.Area
+org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.geometry.attribute.Area3D
 org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.geometry.attribute.CompactnessRatio
 org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.geometry.attribute.GeometryN
+org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.geometry.attribute.GeometryType
 org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.geometry.attribute.HasHorizontalCRS
 org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.geometry.attribute.HasRepeatedPoints
 org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.geometry.attribute.Is3D
@@ -28,14 +30,18 @@ org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.geometry.attribute.I
 org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.geometry.attribute.IsConvex
 org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.geometry.attribute.IsEmpty
 org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.geometry.attribute.IsMeasured
+org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.geometry.attribute.IsPlanar
 org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.geometry.attribute.IsNodingValid
 org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.geometry.attribute.IsRectangle
 org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.geometry.attribute.IsRing
 org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.geometry.attribute.IsSimple
+org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.geometry.attribute.IsSolid
 org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.geometry.attribute.IsValid
 org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.geometry.attribute.IsValidTrajectory
 org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.geometry.attribute.Length3D
 org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.geometry.attribute.Length
+org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.geometry.attribute.LocateAlong
+org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.geometry.attribute.LocateBetweenMeasures
 org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.geometry.attribute.MinimumBoundingCircleCenter
 org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.geometry.attribute.MinimumBoundingCircle
 org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.geometry.attribute.MinimumBoundingRadius
@@ -45,11 +51,14 @@ org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.geometry.attribute.M
 org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.geometry.attribute.MinimumDiameterLine
 org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.geometry.attribute.MinimumRectangle
 org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.geometry.attribute.NDims
+org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.geometry.attribute.NumDistinctGeometries
+org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.geometry.attribute.NumDistinctPoints
 org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.geometry.attribute.NumGeometries
 org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.geometry.attribute.NumPatches
 org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.geometry.attribute.NumPoints
 org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.geometry.attribute.PointN
 
+org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.geometry.constructor.GeomCollFromText
 org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.geometry.constructor.GeomFromGeoHash
 org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.geometry.constructor.GeomFromGeoJSON
 org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.geometry.constructor.GeomFromText
@@ -82,7 +91,9 @@ org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.geometry.relation.Di
 org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.geometry.relation.EqualsNorm
 org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.geometry.relation.EqualSRS
 org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.geometry.relation.EqualsTopo
+org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.geometry.relation.EqualType
 org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.geometry.relation.HausdorffDistance
+org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.geometry.relation.IntersectionMatrix
 org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.geometry.relation.IntersectionPercentage
 org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.geometry.relation.IsMorePrecise
 org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.geometry.relation.LongestLine
@@ -92,6 +103,7 @@ org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.geometry.relation.Or
 org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.geometry.relation.Relate
 org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.geometry.relation.ShortestLine
 org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.geometry.relation.ShortestLine3D
+org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.geometry.relation.WithinDistance3D
 
 org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.geometry.transform.FlipCoordinates
 org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.geometry.transform.Force2D
@@ -140,6 +152,8 @@ org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.linestring.construct
 org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.linestring.editor.AddPoint
 org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.linestring.editor.RemovePoint
 org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.linestring.editor.SetPoint
+org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.linestring.editor.SetStartPoint
+org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.linestring.editor.SetEndPoint
 
 org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.linestring.exporter.AsEncodedPolyline
 
@@ -149,6 +163,7 @@ org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.linestring.LineSelfI
 org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.linestring.Segmentize
 org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.linestring.SharedPaths
 
+org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.point.attribute.Angle
 org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.point.attribute.IsPointInRing
 org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.point.attribute.IsPointOnLine
 org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.point.attribute.M
@@ -185,20 +200,52 @@ org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.polygon.InteriorRing
 org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.polygon.Orientation
 
 org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.raster.attribute.Band
+org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.raster.attribute.BandIsNoData
+org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.raster.attribute.BandNoDataValue
+org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.raster.attribute.BandMetadata
 org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.raster.attribute.HasNoBand
 org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.raster.attribute.Height
+org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.raster.attribute.IsTiled
+org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.raster.attribute.IsIndexed
+org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.raster.attribute.IsTiled
+org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.raster.attribute.IsTranslucent
+org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.raster.attribute.MinTileX
+org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.raster.attribute.MinTileY
 org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.raster.attribute.NumBands
+org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.raster.attribute.NumXTiles
+org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.raster.attribute.NumYTiles
+org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.raster.attribute.PixelAsPoint
+org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.raster.attribute.RasterToWorldCoord
+org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.raster.attribute.RasterToWorldCoordX
+org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.raster.attribute.RasterToWorldCoordY
+org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.raster.attribute.ScaleX
+org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.raster.attribute.ScaleY
+org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.raster.attribute.SkewX
+org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.raster.attribute.SkewY
+org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.raster.attribute.TileGridXOffset
+org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.raster.attribute.TileGridYOffset
+org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.raster.attribute.TileHeight
+org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.raster.attribute.TileWidth
 org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.raster.attribute.UpperLeftX
 org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.raster.attribute.UpperLeftY
+org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.raster.attribute.Value
 org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.raster.attribute.Width
+org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.raster.attribute.WorldToRasterCoord
+org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.raster.attribute.WorldToRasterCoordX
+org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.raster.attribute.WorldToRasterCoordY
 
 org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.raster.constructor.RastFromHexWKB
 org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.raster.constructor.RastFromWKB
 
 org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.raster.editor.AddBand
+org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.raster.editor.SetRotation
 
 org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.raster.exporter.AsBinary
+org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.raster.exporter.AsCoverageJSON
 org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.raster.exporter.AsHexWKB
+org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.raster.exporter.AsGeoTIFF
+org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.raster.exporter.AsGMLCOV
+org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.raster.exporter.AsNetCDF
 
 org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.raster.relation.Contains
 org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.raster.relation.ContainsProperly
@@ -214,3 +261,46 @@ org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.raster.relation.With
 
 org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.raster.transform.ScaleX
 org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.raster.transform.ScaleY
+
+org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.ACos
+org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.ASin
+org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.ATan
+org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.CosH
+org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.Cosine
+org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.Sign
+org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.Sine
+org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.Tangent
+org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.TanH
+org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.ToDegrees
+org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.ToRadians
+
+org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.units.CentimeterToMeter
+org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.units.ChainToMeter
+org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.units.DecimeterToMeter
+org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.units.FathomToMeter
+org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.units.FootToMeter
+org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.units.InchToMeter
+org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.units.KilometerToMeter
+org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.units.LinkToMeter
+org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.units.MeterToCentimeter
+org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.units.MeterToFathom
+org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.units.MeterToFoot
+org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.units.MeterToInch
+org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.units.MeterToKilometer
+org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.units.MeterToLink
+org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.units.MeterToMile
+org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.units.MeterToMillimeter
+org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.units.MeterToNauticalMile
+org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.units.MeterToUSFoot
+org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.units.MeterToUSInch
+org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.units.MeterToUSMile
+org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.units.MeterToUSYard
+org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.units.MeterToYard
+org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.units.MileToMeter
+org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.units.MillimeterToMeter
+org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.units.NauticalMileToMeter
+org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.units.USFootToMeter
+org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.units.USInchToMeter
+org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.units.USMileToMeter
+org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.units.USYardToMeter
+org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.units.YardToMeter
