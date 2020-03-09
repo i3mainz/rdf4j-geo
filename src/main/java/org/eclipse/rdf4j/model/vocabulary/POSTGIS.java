@@ -429,6 +429,7 @@ public class POSTGIS {
 		public static final IRI Tan=factory.createIRI(NAMESPACE, "Tan");
 		public static final IRI TanH=factory.createIRI(NAMESPACE, "TanH");
 		public static final IRI ATan=factory.createIRI(NAMESPACE, "ATan");
+		public static final IRI Sign=factory.createIRI(NAMESPACE, "Sign");
 		public static final IRI CentimeterToMeter =factory.createIRI(NAMESPACE, "CentimeterToMeter");
 		public static final IRI MillimeterToMeter =factory.createIRI(NAMESPACE, "MillimeterToMeter");
 		public static final IRI KilometerToMeter =factory.createIRI(NAMESPACE, "KilometerToMeter");
@@ -495,6 +496,7 @@ public class POSTGIS {
 		public static final IRI ST_ToDegrees=factory.createIRI(NAMESPACE, "ST_ToDegrees");
 		
 		public static final IRI ST_ToRadians=factory.createIRI(NAMESPACE, "ST_ToRadians");
+
 
 
 

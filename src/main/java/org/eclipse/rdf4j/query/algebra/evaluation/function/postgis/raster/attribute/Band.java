@@ -16,15 +16,11 @@ public class Band extends RasterAttributeIntIntFunction {
 		return POSTGIS.ST_BAND.stringValue();
 	}
 
-	@Override
-	public Value evaluate(ValueFactory valueFactory, Value... args) throws ValueExprEvaluationException {
-		// TODO Auto-generated method stub
-		return null;
-	}
 
 	@Override
-	public SampleDimension attribute(GridCoverage geom,Integer numband) {
-		return geom.getSampleDimensions().get(numband);
+	public Integer attribute(GridCoverage geom,Integer numband) {
+		//return geom.getSampleDimensions().get(numband);
+		return 0;
 	}
 
 }
