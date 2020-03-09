@@ -11,7 +11,7 @@ public class SRIDToEPSG implements Function {
 	@Override
 	public String getURI() {
 		// TODO Auto-generated method stub
-		return POSTGIS.CentimeterToMeter.stringValue();
+		return POSTGIS.SRIDToEPSG.stringValue();
 	}
 
 	@Override
