@@ -19,7 +19,7 @@ public class Tangent implements Function {
 		if (args.length != 1) {
 			throw new ValueExprEvaluationException(getURI() + " requires exactly 1 arguments, got " + args.length);
 		}			
-		Double value=Double.valueOf(args[1].stringValue());
+		Double value=Double.valueOf(args[0].stringValue());
 		return valueFactory.createLiteral(Math.tan(value));
 	}
 
