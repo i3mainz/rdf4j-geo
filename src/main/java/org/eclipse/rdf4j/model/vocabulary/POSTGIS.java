@@ -466,7 +466,11 @@ public class POSTGIS {
 		public static final IRI USFootToMeter =factory.createIRI(NAMESPACE, "USFootToMeter");		
 		public static final IRI USYardToMeter =factory.createIRI(NAMESPACE, "USYardToMeter");
 		public static final IRI USInchToMeter =factory.createIRI(NAMESPACE, "USInchToMeter");
-
+		public static final IRI SRIDGetAxis1Name =factory.createIRI(NAMESPACE, "SRID_GetAxis1Name");
+		public static final IRI SRIDGetAxis2Name =factory.createIRI(NAMESPACE, "SRID_GetAxis2Name");
+		public static final IRI SRIDGetAxis1Orientation =factory.createIRI(NAMESPACE, "SRID_GetAxis1Orientation");
+		public static final IRI SRIDGetAxis2Orientation =factory.createIRI(NAMESPACE, "SRID_GetAxis2Orientation");
+		public static final IRI SRIDHasFlippedAxis =factory.createIRI(NAMESPACE, "SRID_HasFlippedAxis");
 		
         public static final String WKB = "WKB";
         public static final String GeoJSON = "GeoJSON";
@@ -501,6 +505,12 @@ public class POSTGIS {
 		public static final IRI ST_ToDegrees=factory.createIRI(NAMESPACE, "ST_ToDegrees");
 		
 		public static final IRI ST_ToRadians=factory.createIRI(NAMESPACE, "ST_ToRadians");
+
+
+
+
+
+
 
 
 
