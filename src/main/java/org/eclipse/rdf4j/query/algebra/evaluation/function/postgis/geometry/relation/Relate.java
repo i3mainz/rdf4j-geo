@@ -3,6 +3,7 @@ package org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.geometry.rel
 import org.eclipse.rdf4j.model.vocabulary.POSTGIS;
 import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.geometry.base.GeometricRelationModifierFunction;
 import org.locationtech.jts.geom.Geometry;
+import org.locationtech.jts.geom.IntersectionMatrix;
 
 public class Relate extends GeometricRelationModifierFunction {
 
@@ -11,6 +12,8 @@ public class Relate extends GeometricRelationModifierFunction {
 		return POSTGIS.st_relate.stringValue();
 	}
 
+	
+	IntersectionMatrix matrix=new IntersectionMatrix();
 	@Override
 	protected Geometry relation(Geometry g1, Geometry g2) {
 		// TODO Auto-generated method stub
