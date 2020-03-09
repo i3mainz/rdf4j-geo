@@ -175,6 +175,7 @@ public class POSTGIS {
         public static final IRI st_isClosed=factory.createIRI(NAMESPACE, "ST_IsClosed");
         public static final IRI st_isConvex=factory.createIRI(NAMESPACE, "ST_IsConvex");
         public static final IRI st_isEmpty=factory.createIRI(NAMESPACE, "ST_IsEmpty");
+		public static final IRI st_isEquilateralTriangle=factory.createIRI(NAMESPACE, "ST_IsEquilateralTriangle");
         public static final IRI st_isGrayscale=factory.createIRI(NAMESPACE, "ST_IsGrayscale");
         public static final IRI st_isIndexed=factory.createIRI(NAMESPACE, "ST_IsIndexed");
 		public static final IRI st_isIsocelesTriangle=factory.createIRI(NAMESPACE, "ST_IsIsocelesTriangle");
@@ -507,6 +508,8 @@ public class POSTGIS {
 		public static final IRI ST_ToDegrees=factory.createIRI(NAMESPACE, "ST_ToDegrees");
 		
 		public static final IRI ST_ToRadians=factory.createIRI(NAMESPACE, "ST_ToRadians");
+
+
 
 
 
