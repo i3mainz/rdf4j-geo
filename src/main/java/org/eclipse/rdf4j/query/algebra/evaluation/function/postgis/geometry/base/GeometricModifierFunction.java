@@ -6,6 +6,7 @@ import org.eclipse.rdf4j.model.ValueFactory;
 import org.eclipse.rdf4j.query.algebra.evaluation.ValueExprEvaluationException;
 import org.eclipse.rdf4j.query.algebra.evaluation.function.Function;
 import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.LiteralRegistry;
+import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.LiteralUtils;
 import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.literals.LiteralType;
 import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.literals.vector.VectorLiteral;
 import org.locationtech.jts.geom.Geometry;
@@ -23,7 +24,8 @@ public abstract class GeometricModifierFunction implements Function {
 		if(l instanceof VectorLiteral) {
 			Geometry geom=((VectorLiteral)l).read(args[0].stringValue());
 			Geometry geom2=((VectorLiteral)l2).read(args[1].stringValue());
-			Geometry result = relation(geom,geom2);
+			Geometry transformed=LiteralUtils.transform(geom2, geom);
+			Geometry result = relation(geom,transformed);
 			return valueFactory.createLiteral(((VectorLiteral) l).unparse(result),((Literal)args[0]).getDatatype());
 		}
 		throw new ValueExprEvaluationException("Argument given is not a geometry literal");
