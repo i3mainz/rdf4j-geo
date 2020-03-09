@@ -24,6 +24,7 @@ public class POSTGIS {
 	public static final	IRI ST_ASENCODEDPOLYLINE=factory.createIRI(NAMESPACE, "ST_AsEncodedPolyline");
 	public static final	IRI ST_ASHEXEWKB=factory.createIRI(NAMESPACE, "ST_AsHEXEWKB");
 	public static final	IRI ST_ASKML=factory.createIRI(NAMESPACE, "ST_AsKML");
+	public static final	IRI ST_ASGARS=factory.createIRI(NAMESPACE, "ST_AsGARS");
 	public static final	IRI ST_ASGML=factory.createIRI(NAMESPACE, "ST_AsGML");
 	public static final	IRI ST_ASGEOHASH=factory.createIRI(NAMESPACE, "ST_AsGeoHash");
 	public static final	IRI ST_ASGEOURI=factory.createIRI(NAMESPACE, "ST_AsGeoURI");
@@ -126,6 +127,7 @@ public class POSTGIS {
 		public static final IRI st_equalType=factory.createIRI(NAMESPACE, "ST_EqualType");
         public static final IRI st_equalSRS=factory.createIRI(NAMESPACE, "ST_EqualSRS");
         public static final IRI st_epsgToSRID=factory.createIRI(NAMESPACE, "ST_EPSGToSRID");
+		public static final IRI st_expand=factory.createIRI(NAMESPACE, "ST_Expand");
         public static final IRI st_exteriorRing=factory.createIRI(NAMESPACE, "ST_ExteriorRing");
         public static final IRI st_filterByM=factory.createIRI(NAMESPACE, "ST_FilterByM");
         public static final IRI st_filterByT=factory.createIRI(NAMESPACE, "ST_FilterByT");
@@ -496,6 +498,8 @@ public class POSTGIS {
 		public static final IRI ST_ToDegrees=factory.createIRI(NAMESPACE, "ST_ToDegrees");
 		
 		public static final IRI ST_ToRadians=factory.createIRI(NAMESPACE, "ST_ToRadians");
+
+
 
 
 

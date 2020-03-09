@@ -31,6 +31,7 @@ org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.raster.relation
 org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.raster.transform
 org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util
 org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.functions
+org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.functions.units
 org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.literals
 org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.literals.raster
 org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.literals.vector

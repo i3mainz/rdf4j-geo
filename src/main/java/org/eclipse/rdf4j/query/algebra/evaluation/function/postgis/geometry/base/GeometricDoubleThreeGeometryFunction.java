@@ -18,7 +18,6 @@ public abstract class GeometricDoubleThreeGeometryFunction implements Function {
 			throw new ValueExprEvaluationException(getURI() + " requires exactly 3 arguments, got " + args.length);
 		}		
 		
-		Integer value=Integer.valueOf(args[1].stringValue());
 		LiteralType l=LiteralRegistry.getLiteral(((Literal)args[0]).getDatatype().toString());
 		LiteralType l2=LiteralRegistry.getLiteral(((Literal)args[1]).getDatatype().toString());
 		LiteralType l3=LiteralRegistry.getLiteral(((Literal)args[2]).getDatatype().toString());
