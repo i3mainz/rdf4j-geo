@@ -16,11 +16,11 @@ import org.apache.sis.internal.coverage.BufferedGridCoverage;
 import org.eclipse.rdf4j.model.vocabulary.POSTGIS;
 import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.raster.base.RasterAlgebraFunction;
 
-public class Div extends RasterAlgebraFunction {
+public class Mult extends RasterAlgebraFunction {
 
 	@Override
 	public String getURI() {
-		return POSTGIS.ST_rast_algebra_div.stringValue();
+		return POSTGIS.ST_rast_algebra_mult.stringValue();
 	}
 
 	@Override
@@ -28,7 +28,7 @@ public class Div extends RasterAlgebraFunction {
 		ParameterBlock pbSubtracted = new ParameterBlock();
 		pbSubtracted.addSource(raster.render(raster.getGridGeometry().getExtent()));
 		pbSubtracted.addSource(raster2.render(raster2.getGridGeometry().getExtent()));
-		RenderedOp subtractedImage = JAI.create("divide", pbSubtracted);
+		RenderedOp subtractedImage = JAI.create("multiply", pbSubtracted);
 		/*
 		 * final GridGeometry grid = new
 		 * GridGeometry(raster.getGridGeometry().getExtent(), PixelInCell.CELL_CENTER,
@@ -40,7 +40,7 @@ public class Div extends RasterAlgebraFunction {
 		 */
 		final SampleDimension sd = new SampleDimension.Builder().setName("t")
 				.addQuantitative(
-						(raster.getSampleDimensions().get(rd1).getName() + "/"
+						(raster.getSampleDimensions().get(rd1).getName() + "*"
 								+ raster2.getSampleDimensions().get(rd2).getName()).toString(),
 						raster.getSampleDimensions().get(0).getMeasurementRange().get(),
 						raster.getSampleDimensions().get(0).getTransferFunction().get(),

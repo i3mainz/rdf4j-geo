@@ -6,12 +6,12 @@ import org.eclipse.rdf4j.model.vocabulary.POSTGIS;
 import org.eclipse.rdf4j.query.algebra.evaluation.ValueExprEvaluationException;
 import org.eclipse.rdf4j.query.algebra.evaluation.function.Function;
 
-public class ATan implements Function {
+public class Exp implements Function {
 
 	@Override
 	public String getURI() {
 		// TODO Auto-generated method stub
-		return POSTGIS.ATan.stringValue();
+		return POSTGIS.Floor.stringValue();
 	}
 
 	@Override
@@ -20,7 +20,7 @@ public class ATan implements Function {
 			throw new ValueExprEvaluationException(getURI() + " requires exactly 1 arguments, got " + args.length);
 		}			
 		Double value=Double.valueOf(args[0].stringValue());
-		return valueFactory.createLiteral(Math.atan(value));
+		return valueFactory.createLiteral(Math.exp(value));
 	}
 
 }

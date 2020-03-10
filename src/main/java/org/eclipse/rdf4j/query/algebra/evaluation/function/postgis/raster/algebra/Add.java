@@ -1,6 +1,8 @@
 package org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.raster.algebra;
 
+import java.awt.image.BufferedImage;
 import java.awt.image.DataBuffer;
+import java.awt.image.WritableRaster;
 import java.awt.image.renderable.ParameterBlock;
 import java.util.LinkedList;
 import java.util.List;
@@ -11,20 +13,19 @@ import javax.media.jai.RenderedOp;
 import org.apache.sis.coverage.SampleDimension;
 import org.apache.sis.coverage.grid.GridCoverage;
 import org.apache.sis.internal.coverage.BufferedGridCoverage;
+import org.eclipse.rdf4j.model.vocabulary.POSTGIS;
 import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.raster.base.RasterAlgebraFunction;
-
 
 public class Add extends RasterAlgebraFunction {
 
 	@Override
 	public String getURI() {
-		// TODO Auto-generated method stub
-		return null;
+		return POSTGIS.ST_rast_algebra_add.stringValue();
 	}
 
+
 	@Override
-	public GridCoverage modify(GridCoverage raster, GridCoverage raster2) {
-		Integer rd1 = 0, rd2 = 0;
+	public GridCoverage modify(GridCoverage raster,Integer rd1,GridCoverage raster2,Integer rd2) {
 		ParameterBlock pbSubtracted = new ParameterBlock();
 		pbSubtracted.addSource(raster.render(raster.getGridGeometry().getExtent()));
 		pbSubtracted.addSource(raster2.render(raster2.getGridGeometry().getExtent()));
@@ -55,6 +56,8 @@ public class Add extends RasterAlgebraFunction {
 		 */
 		BufferedGridCoverage coverage = new BufferedGridCoverage(raster2.getGridGeometry(),
 				sds, DataBuffer.TYPE_SHORT);
+		WritableRaster rasterr = ((BufferedImage) coverage.render(null)).getRaster();
+		rasterr.setRect(subtractedImage.getSourceImage(0).getData());
 		return coverage;
 	}
 

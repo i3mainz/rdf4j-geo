@@ -1,4 +1,4 @@
-package org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.functions;
+package org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.functions.math;
 
 import org.eclipse.rdf4j.model.Value;
 import org.eclipse.rdf4j.model.ValueFactory;

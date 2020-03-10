@@ -20,13 +20,14 @@ public abstract class RasterAlgebraConstFunction implements Function {
 		LiteralType l=LiteralRegistry.getLiteral(((Literal)args[0]).getDatatype().toString());
 		if(l instanceof RasterLiteral) {
 			GridCoverage geom=((RasterLiteral)l).read(args[0].stringValue());
-			Double constt=Double.valueOf(args[1].stringValue());
-			GridCoverage result = modify(geom,constt);
+			Integer band=Integer.valueOf(args[1].stringValue());
+			Double constt=Double.valueOf(args[2].stringValue());
+			GridCoverage result = modify(geom,band,constt);
 			return valueFactory.createLiteral(((RasterLiteral) l).unparse(result),((Literal)args[0]).getDatatype());
 		}
 		return null;
 	}
 	
-	public abstract GridCoverage modify(GridCoverage coverage, Double constt);
+	public abstract GridCoverage modify(GridCoverage coverage,Integer band, Double constt);
 
 }

@@ -14,6 +14,7 @@ public class Expand extends GeometricModifierDoubleFunction {
 	}
 
 	@Override
+
 	protected Geometry relation(Geometry geom, Double value) {
 		Envelope env=geom.getEnvelopeInternal();
 		env.expandBy(value);
