@@ -123,6 +123,7 @@ public class POSTGIS {
     public static final IRI st_flip=factory.createIRI(NAMESPACE, "ST_Flip");
 	public static final	IRI ST_FLIPCOORDINATES=factory.createIRI(NAMESPACE, "ST_FlipCoordinates");
 	public static final	IRI ST_flowdirection=factory.createIRI(NAMESPACE, "ST_FlowDirection");
+	public static final	IRI st_ensureClosedRings=factory.createIRI(NAMESPACE, "ST_EnsureClosedRings");
 	public static final IRI st_equals=factory.createIRI(NAMESPACE, "ST_Equals");
         public static final IRI st_equalsNorm=factory.createIRI(NAMESPACE, "ST_EqualNorm");
         public static final IRI st_equalsTopo=factory.createIRI(NAMESPACE, "ST_EqualTopo");
@@ -313,6 +314,16 @@ public class POSTGIS {
 		public static final IRI st_rastFromNetCDF=factory.createIRI(NAMESPACE,"ST_RastFromNetCDF");
 		public static final IRI st_rastFromWKB=factory.createIRI(NAMESPACE, "ST_RastFromWKB");
         public static final IRI st_rastFromHexWKB=factory.createIRI(NAMESPACE, "ST_RastFromHexWKB");
+		public static final IRI ST_rast_algebra_add =factory.createIRI(NAMESPACE, "ST_Add");
+		public static final IRI ST_rast_algebra_and =factory.createIRI(NAMESPACE, "ST_And");
+		public static final IRI ST_rast_algebra_equal =factory.createIRI(NAMESPACE, "ST_Equal");
+		public static final IRI ST_rast_algebra_subtract =factory.createIRI(NAMESPACE, "ST_Subtract");
+		public static final IRI ST_rast_algebra_div =factory.createIRI(NAMESPACE, "ST_Divide");
+		public static final IRI ST_rast_algebra_log =factory.createIRI(NAMESPACE, "ST_Log");
+		public static final IRI ST_rast_algebra_or =factory.createIRI(NAMESPACE, "ST_Or");
+		public static final IRI ST_rast_algebra_mult =factory.createIRI(NAMESPACE, "ST_Mult");
+		public static final IRI ST_rast_algebra_xor =factory.createIRI(NAMESPACE, "ST_Xor");
+		public static final IRI ST_rast_algebra_xorconst =factory.createIRI(NAMESPACE, "ST_XorConst");
         public static final IRI st_rast_isEmpty=factory.createIRI(NAMESPACE, "ST_IsEmpty");
         public static final IRI st_rast_Contains=factory.createIRI(NAMESPACE, "ST_Contains");
         public static final IRI st_rast_Covers=factory.createIRI(NAMESPACE, "ST_Covers");
@@ -516,6 +527,10 @@ public class POSTGIS {
 		public static final IRI ST_ToDegrees=factory.createIRI(NAMESPACE, "ST_ToDegrees");
 		
 		public static final IRI ST_ToRadians=factory.createIRI(NAMESPACE, "ST_ToRadians");
+
+
+
+
 
 
 
