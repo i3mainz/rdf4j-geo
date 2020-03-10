@@ -425,17 +425,25 @@ public class POSTGIS {
         public static final IRI st_zMax=factory.createIRI(NAMESPACE, "ST_ZMax");
         public static final IRI st_zmFlag=factory.createIRI(NAMESPACE, "ST_Zmflag");
 		
+		public static final IRI Abs =factory.createIRI(NAMESPACE, "Abs");
 		public static final IRI Cos=factory.createIRI(NAMESPACE, "Cos");
 		public static final IRI CosH = factory.createIRI(NAMESPACE, "CosH");	
 		public static final IRI ACos=factory.createIRI(NAMESPACE, "ACos");
+		public static final IRI Exp =factory.createIRI(NAMESPACE, "Exp");
 		public static final IRI Sin=factory.createIRI(NAMESPACE, "Sin");
 		public static final IRI SinH = factory.createIRI(NAMESPACE, "SinH");
 		public static final IRI Sqrt = factory.createIRI(NAMESPACE, "Sqrt");
-		public static final IRI ASin=factory.createIRI(NAMESPACE, "ASin");		
+		public static final IRI ASin=factory.createIRI(NAMESPACE, "ASin");
+		public static final IRI Log =factory.createIRI(NAMESPACE, "Log");
+		public static final IRI Log10 =factory.createIRI(NAMESPACE, "Log10");
+		public static final IRI Pow =factory.createIRI(NAMESPACE, "Pow");
 		public static final IRI Tan=factory.createIRI(NAMESPACE, "Tan");
 		public static final IRI TanH=factory.createIRI(NAMESPACE, "TanH");
 		public static final IRI ATan=factory.createIRI(NAMESPACE, "ATan");
+		public static final IRI Ceil=factory.createIRI(NAMESPACE, "Ceil");
 		public static final IRI Sign=factory.createIRI(NAMESPACE, "Sign");
+		public static final IRI Floor=factory.createIRI(NAMESPACE, "Floor");
+		public static final IRI PI =factory.createIRI(NAMESPACE, "PI");
 		public static final IRI CentimeterToMeter =factory.createIRI(NAMESPACE, "CentimeterToMeter");
 		public static final IRI MillimeterToMeter =factory.createIRI(NAMESPACE, "MillimeterToMeter");
 		public static final IRI KilometerToMeter =factory.createIRI(NAMESPACE, "KilometerToMeter");
@@ -508,6 +516,17 @@ public class POSTGIS {
 		public static final IRI ST_ToDegrees=factory.createIRI(NAMESPACE, "ST_ToDegrees");
 		
 		public static final IRI ST_ToRadians=factory.createIRI(NAMESPACE, "ST_ToRadians");
+
+
+
+
+
+
+
+
+
+
+
 
 
 
