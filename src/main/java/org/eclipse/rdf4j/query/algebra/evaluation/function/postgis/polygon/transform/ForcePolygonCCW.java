@@ -1,4 +1,4 @@
-package org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.polygon;
+package org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.polygon.transform;
 
 import java.util.Arrays;
 
