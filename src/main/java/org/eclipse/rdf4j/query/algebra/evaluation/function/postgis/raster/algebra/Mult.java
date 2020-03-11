@@ -13,14 +13,14 @@ import javax.media.jai.RenderedOp;
 import org.apache.sis.coverage.SampleDimension;
 import org.apache.sis.coverage.grid.GridCoverage;
 import org.apache.sis.internal.coverage.BufferedGridCoverage;
+import org.eclipse.rdf4j.model.vocabulary.POSTGIS;
 import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.raster.base.RasterAlgebraFunction;
 
 public class Mult extends RasterAlgebraFunction {
 
 	@Override
 	public String getURI() {
-		// TODO Auto-generated method stub
-		return null;
+		return POSTGIS.ST_rast_algebra_mult.stringValue();
 	}
 
 	@Override
