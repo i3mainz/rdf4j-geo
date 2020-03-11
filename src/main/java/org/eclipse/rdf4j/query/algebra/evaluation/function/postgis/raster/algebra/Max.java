@@ -15,13 +15,12 @@ import org.apache.sis.coverage.grid.GridCoverage;
 import org.apache.sis.internal.coverage.BufferedGridCoverage;
 import org.eclipse.rdf4j.model.vocabulary.POSTGIS;
 import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.raster.base.RasterAlgebraFunction;
-import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.raster.base.RasterAttributeIntIntFunction;
 
-public class Add extends RasterAlgebraFunction {
+public class Max extends RasterAlgebraFunction {
 
 	@Override
 	public String getURI() {
-		return POSTGIS.ST_rast_algebra_add.stringValue();
+		return POSTGIS.ST_rast_algebra_max.stringValue();
 	}
 
 
@@ -30,7 +29,7 @@ public class Add extends RasterAlgebraFunction {
 		ParameterBlock pbSubtracted = new ParameterBlock();
 		pbSubtracted.addSource(raster.render(raster.getGridGeometry().getExtent()));
 		pbSubtracted.addSource(raster2.render(raster2.getGridGeometry().getExtent()));
-		RenderedOp subtractedImage = JAI.create("add", pbSubtracted);
+		RenderedOp subtractedImage = JAI.create("max", pbSubtracted);
 		/*
 		 * final GridGeometry grid = new
 		 * GridGeometry(raster.getGridGeometry().getExtent(), PixelInCell.CELL_CENTER,
@@ -42,7 +41,7 @@ public class Add extends RasterAlgebraFunction {
 		 */
 		final SampleDimension sd = new SampleDimension.Builder().setName("t")
 				.addQuantitative(
-						(raster.getSampleDimensions().get(rd1).getName() + "+"
+						(raster.getSampleDimensions().get(rd1).getName() + "max"
 								+ raster2.getSampleDimensions().get(rd2).getName()).toString(),
 						raster.getSampleDimensions().get(0).getMeasurementRange().get(),
 						raster.getSampleDimensions().get(0).getTransferFunction().get(),
