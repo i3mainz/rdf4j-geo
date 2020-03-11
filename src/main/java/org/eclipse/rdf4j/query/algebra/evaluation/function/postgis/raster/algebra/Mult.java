@@ -40,7 +40,7 @@ public class Mult extends RasterAlgebraFunction {
 		 */
 		final SampleDimension sd = new SampleDimension.Builder().setName("t")
 				.addQuantitative(
-						(raster.getSampleDimensions().get(rd1).getName() + "+"
+						(raster.getSampleDimensions().get(rd1).getName() + "*"
 								+ raster2.getSampleDimensions().get(rd2).getName()).toString(),
 						raster.getSampleDimensions().get(0).getMeasurementRange().get(),
 						raster.getSampleDimensions().get(0).getTransferFunction().get(),

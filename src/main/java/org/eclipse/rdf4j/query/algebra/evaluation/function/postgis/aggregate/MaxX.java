@@ -10,6 +10,11 @@ import org.eclipse.rdf4j.query.algebra.ValueExpr;
  */
 public class MaxX extends AbstractAggregateOperator {
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 7571485725124116851L;
+
 	public MaxX(ValueExpr arg) {
 		super(arg);
 	}

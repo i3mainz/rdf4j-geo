@@ -10,6 +10,11 @@ import org.eclipse.rdf4j.query.algebra.ValueExpr;
  */
 public class AvgX extends AbstractAggregateOperator {
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = -4165503381085356852L;
+
 	public AvgX(ValueExpr arg) {
 		super(arg);
 	}

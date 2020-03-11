@@ -14,34 +14,26 @@ import org.apache.sis.coverage.SampleDimension;
 import org.apache.sis.coverage.grid.GridCoverage;
 import org.apache.sis.internal.coverage.BufferedGridCoverage;
 import org.eclipse.rdf4j.model.vocabulary.POSTGIS;
-import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.raster.base.RasterAlgebraFunction;
+import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.raster.base.RasterAlgebraConstFunction;
 
-public class Div extends RasterAlgebraFunction {
+public class AndConst extends RasterAlgebraConstFunction {
 
 	@Override
 	public String getURI() {
-		return POSTGIS.ST_rast_algebra_div.stringValue();
+		return POSTGIS.ST_rast_algebra_andconst.stringValue();
 	}
 
+
 	@Override
-	public GridCoverage modify(GridCoverage raster, Integer rd1, GridCoverage raster2, Integer rd2) {
+	public GridCoverage modify(GridCoverage raster,Integer rd1,Double constt) {
 		ParameterBlock pbSubtracted = new ParameterBlock();
 		pbSubtracted.addSource(raster.render(raster.getGridGeometry().getExtent()));
-		pbSubtracted.addSource(raster2.render(raster2.getGridGeometry().getExtent()));
-		RenderedOp subtractedImage = JAI.create("divide", pbSubtracted);
-		/*
-		 * final GridGeometry grid = new
-		 * GridGeometry(raster.getGridGeometry().getExtent(), PixelInCell.CELL_CENTER,
-		 * MathTransforms.identity(2),
-		 * raster.getGridGeometry().getCoordinateReferenceSystem());
-		 * 
-		 * final MathTransform1D toUnits = (MathTransform1D) MathTransforms.linear(0.5,
-		 * 100);
-		 */
+		pbSubtracted.add(constt);
+		RenderedOp subtractedImage = JAI.create("andconst", pbSubtracted);
 		final SampleDimension sd = new SampleDimension.Builder().setName("t")
 				.addQuantitative(
-						(raster.getSampleDimensions().get(rd1).getName() + "/"
-								+ raster2.getSampleDimensions().get(rd2).getName()).toString(),
+						(raster.getSampleDimensions().get(rd1).getName() + " andconst "
+								+ constt).toString(),
 						raster.getSampleDimensions().get(0).getMeasurementRange().get(),
 						raster.getSampleDimensions().get(0).getTransferFunction().get(),
 						raster.getSampleDimensions().get(0).getUnits().get())
@@ -53,7 +45,7 @@ public class Div extends RasterAlgebraFunction {
 		 * Create the grid coverage, gets its image and set values directly as short
 		 * integers.
 		 */
-		BufferedGridCoverage coverage = new BufferedGridCoverage(raster2.getGridGeometry(),
+		BufferedGridCoverage coverage = new BufferedGridCoverage(raster.getGridGeometry(),
 				sds, DataBuffer.TYPE_SHORT);
 		WritableRaster rasterr = ((BufferedImage) coverage.render(null)).getRaster();
 		rasterr.setRect(subtractedImage.getSourceImage(0).getData());

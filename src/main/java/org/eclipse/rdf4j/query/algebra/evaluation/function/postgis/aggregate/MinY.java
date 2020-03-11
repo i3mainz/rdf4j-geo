@@ -11,6 +11,11 @@ import org.eclipse.rdf4j.query.algebra.ValueExpr;
  */
 public class MinY extends AbstractAggregateOperator {
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = -5941565197575871003L;
+
 	public MinY(ValueExpr arg) {
 		super(arg);
 	}

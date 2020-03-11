@@ -13,14 +13,14 @@ import javax.media.jai.RenderedOp;
 import org.apache.sis.coverage.SampleDimension;
 import org.apache.sis.coverage.grid.GridCoverage;
 import org.apache.sis.internal.coverage.BufferedGridCoverage;
+import org.eclipse.rdf4j.model.vocabulary.POSTGIS;
 import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.raster.base.RasterAlgebraFunction;
 
 public class Subtract extends RasterAlgebraFunction{
 
 	@Override
 	public String getURI() {
-		// TODO Auto-generated method stub
-		return null;
+		return POSTGIS.ST_rast_algebra_subtract.stringValue();
 	}
 
 	@Override
@@ -40,7 +40,7 @@ public class Subtract extends RasterAlgebraFunction{
 		 */
 		final SampleDimension sd = new SampleDimension.Builder().setName("t")
 				.addQuantitative(
-						(raster.getSampleDimensions().get(rd1).getName() + "+"
+						(raster.getSampleDimensions().get(rd1).getName() + "-"
 								+ raster2.getSampleDimensions().get(rd2).getName()).toString(),
 						raster.getSampleDimensions().get(0).getMeasurementRange().get(),
 						raster.getSampleDimensions().get(0).getTransferFunction().get(),

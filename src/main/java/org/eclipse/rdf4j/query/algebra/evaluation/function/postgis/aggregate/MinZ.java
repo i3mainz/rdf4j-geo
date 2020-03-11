@@ -11,6 +11,11 @@ import org.eclipse.rdf4j.query.algebra.ValueExpr;
  */
 public class MinZ extends AbstractAggregateOperator {
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = -6545650405164933961L;
+
 	public MinZ(ValueExpr arg) {
 		super(arg);
 	}

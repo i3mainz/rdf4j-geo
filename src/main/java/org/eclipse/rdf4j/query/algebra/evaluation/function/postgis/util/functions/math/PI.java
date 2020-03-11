@@ -11,7 +11,7 @@ public class PI implements Function {
 	@Override
 	public String getURI() {
 		// TODO Auto-generated method stub
-		return POSTGIS.Log.stringValue();
+		return POSTGIS.PI.stringValue();
 	}
 
 	@Override
