@@ -1,4 +1,4 @@
-package org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.geometry;
+package org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.geometry.transform;
 
 import java.util.LinkedList;
 import java.util.List;

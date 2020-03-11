@@ -10,6 +10,11 @@ import org.eclipse.rdf4j.query.algebra.ValueExpr;
  */
 public class BoundingBox extends AbstractAggregateOperator {
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = -6961038171918023822L;
+
 	public BoundingBox(ValueExpr arg) {
 		super(arg);
 	}
@@ -37,4 +42,6 @@ public class BoundingBox extends AbstractAggregateOperator {
 	public BoundingBox clone() {
 		return (BoundingBox) super.clone();
 	}
+	
+	
 }

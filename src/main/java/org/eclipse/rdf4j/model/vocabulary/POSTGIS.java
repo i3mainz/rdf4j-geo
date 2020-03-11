@@ -314,6 +314,7 @@ public class POSTGIS {
 		public static final IRI st_rastFromNetCDF=factory.createIRI(NAMESPACE,"ST_RastFromNetCDF");
 		public static final IRI st_rastFromWKB=factory.createIRI(NAMESPACE, "ST_RastFromWKB");
         public static final IRI st_rastFromHexWKB=factory.createIRI(NAMESPACE, "ST_RastFromHexWKB");
+		public static final IRI ST_rast_algebra_abs = factory.createIRI(NAMESPACE, "ST_Abs");
 		public static final IRI ST_rast_algebra_add =factory.createIRI(NAMESPACE, "ST_Add");
 		public static final IRI ST_rast_algebra_addconst =factory.createIRI(NAMESPACE, "ST_AddConst");
 		public static final IRI ST_rast_algebra_and =factory.createIRI(NAMESPACE, "ST_And");
@@ -326,8 +327,12 @@ public class POSTGIS {
 		public static final IRI ST_rast_algebra_log =factory.createIRI(NAMESPACE, "ST_Log");
 		public static final IRI ST_rast_algebra_or =factory.createIRI(NAMESPACE, "ST_Or");
 		public static final IRI ST_rast_algebra_orconst =factory.createIRI(NAMESPACE, "ST_OrConst");
+		public static final IRI ST_rast_algebra_max=factory.createIRI(NAMESPACE, "ST_Max");
+		public static final IRI ST_rast_algebra_mean =factory.createIRI(NAMESPACE, "ST_Mean");
+		public static final IRI ST_rast_algebra_min=factory.createIRI(NAMESPACE, "ST_Min");
 		public static final IRI ST_rast_algebra_mult =factory.createIRI(NAMESPACE, "ST_Mult");
-		public static final IRI ST_rast_algebra_multconst =factory.createIRI(NAMESPACE, "ST_MultConst");		
+		public static final IRI ST_rast_algebra_multconst =factory.createIRI(NAMESPACE, "ST_MultConst");
+		public static final IRI ST_rast_algebra_not  =factory.createIRI(NAMESPACE, "ST_Not");
 		public static final IRI ST_rast_algebra_xor =factory.createIRI(NAMESPACE, "ST_Xor");
 		public static final IRI ST_rast_algebra_xorconst =factory.createIRI(NAMESPACE, "ST_XorConst");
         public static final IRI st_rast_isEmpty=factory.createIRI(NAMESPACE, "ST_IsEmpty");
@@ -533,6 +538,13 @@ public class POSTGIS {
 		public static final IRI ST_ToDegrees=factory.createIRI(NAMESPACE, "ST_ToDegrees");
 		
 		public static final IRI ST_ToRadians=factory.createIRI(NAMESPACE, "ST_ToRadians");
+
+
+
+
+
+
+
 
 
 
