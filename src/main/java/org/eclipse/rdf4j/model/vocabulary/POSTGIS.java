@@ -101,6 +101,7 @@ public class POSTGIS {
 	public static final	IRI ST_CONVEXHULL=factory.createIRI(NAMESPACE, "ST_ConvexHull");
 	public static final	IRI ST_COUNT=factory.createIRI(NAMESPACE, "ST_Count");
 	public static final	IRI ST_CURVETOLINE=factory.createIRI(NAMESPACE, "ST_CurveToLine");
+	public static final	IRI st_circularity=factory.createIRI(NAMESPACE, "ST_Circularity");
     public static final IRI st_curvature=factory.createIRI(NAMESPACE, "ST_Curvature");
     public static final IRI st_crop=factory.createIRI(NAMESPACE, "ST_Crop");
 	public static final	IRI ST_DENSIFY=factory.createIRI(NAMESPACE, "ST_Densify");
@@ -320,16 +321,23 @@ public class POSTGIS {
 		public static final IRI ST_rast_algebra_and =factory.createIRI(NAMESPACE, "ST_And");
 		public static final IRI ST_rast_algebra_andconst =factory.createIRI(NAMESPACE, "ST_AndConst");
 		public static final IRI ST_rast_algebra_equal =factory.createIRI(NAMESPACE, "ST_Equal");
+		public static final IRI ST_rast_algebra_exp =factory.createIRI(NAMESPACE, "ST_Exp");
+		public static final IRI ST_rast_algebra_idct =factory.createIRI(NAMESPACE, "ST_IDCT");
+		public static final IRI ST_rast_algebra_idft =factory.createIRI(NAMESPACE, "ST_IDFT");
 		public static final IRI ST_rast_algebra_subtract =factory.createIRI(NAMESPACE, "ST_Subtract");
 		public static final IRI ST_rast_algebra_subtractconst =factory.createIRI(NAMESPACE, "ST_SubtractConst");
 		public static final IRI ST_rast_algebra_div =factory.createIRI(NAMESPACE, "ST_Divide");
 		public static final IRI ST_rast_algebra_divconst =factory.createIRI(NAMESPACE, "ST_DivideConst");
+		public static final IRI ST_rast_algebra_invert =factory.createIRI(NAMESPACE, "ST_Invert");
 		public static final IRI ST_rast_algebra_log =factory.createIRI(NAMESPACE, "ST_Log");
 		public static final IRI ST_rast_algebra_or =factory.createIRI(NAMESPACE, "ST_Or");
 		public static final IRI ST_rast_algebra_orconst =factory.createIRI(NAMESPACE, "ST_OrConst");
 		public static final IRI ST_rast_algebra_max=factory.createIRI(NAMESPACE, "ST_Max");
+		public static final IRI ST_rast_algebra_maxfilter=factory.createIRI(NAMESPACE, "ST_MaxFilter");
 		public static final IRI ST_rast_algebra_mean =factory.createIRI(NAMESPACE, "ST_Mean");
+		public static final IRI ST_rast_algebra_medianfilter =factory.createIRI(NAMESPACE, "ST_MedianFilter");
 		public static final IRI ST_rast_algebra_min=factory.createIRI(NAMESPACE, "ST_Min");
+		public static final IRI ST_rast_algebra_minfilter =factory.createIRI(NAMESPACE, "ST_MinFilter");
 		public static final IRI ST_rast_algebra_mult =factory.createIRI(NAMESPACE, "ST_Mult");
 		public static final IRI ST_rast_algebra_multconst =factory.createIRI(NAMESPACE, "ST_MultConst");
 		public static final IRI ST_rast_algebra_not  =factory.createIRI(NAMESPACE, "ST_Not");
@@ -538,6 +546,19 @@ public class POSTGIS {
 		public static final IRI ST_ToDegrees=factory.createIRI(NAMESPACE, "ST_ToDegrees");
 		
 		public static final IRI ST_ToRadians=factory.createIRI(NAMESPACE, "ST_ToRadians");
+
+	
+
+
+
+	
+
+
+
+
+
+
+
 
 
 
