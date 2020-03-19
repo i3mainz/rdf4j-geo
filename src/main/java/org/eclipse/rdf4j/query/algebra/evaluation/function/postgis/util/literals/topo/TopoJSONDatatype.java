@@ -15,10 +15,14 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.literals.vector;
+package org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.literals.topo;
 
 import org.eclipse.rdf4j.model.vocabulary.POSTGIS;
+import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.literals.vector.VectorLiteral;
 import org.locationtech.jts.geom.Geometry;
+import org.mibcxb.McException;
+import org.mibcxb.topojson.McGsonHandler;
+import org.mibcxb.topojson.Topology;
 import org.wololo.geojson.GeoJSON;
 import org.wololo.jts2geojson.GeoJSONReader;
 import org.wololo.jts2geojson.GeoJSONWriter;
@@ -38,7 +42,7 @@ import org.wololo.jts2geojson.GeoJSONWriter;
  * be assumed as the spatial reference system for geo:wktLiterals that do not *
  * specify an explicit spatial reference system URI.
  */
-public class TopoJSONDatatype extends VectorLiteral {
+public class TopoJSONDatatype extends TopologyLiteral {
 
     /**
      * The default WKT type URI.
@@ -60,18 +64,29 @@ public class TopoJSONDatatype extends VectorLiteral {
      *
      */
     @Override
-    public String unparse(Geometry geometry) {
-            GeoJSONWriter writer = new GeoJSONWriter();
-            GeoJSON json = writer.write(geometry);
-            String jsonstring = json.toString();
-            return jsonstring;
+    public String unparse(Topology geometry) {
+    	McGsonHandler handler=new McGsonHandler();
+    	try {
+			return handler.encode(geometry);
+		} catch (McException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+			return "{}";
+		}
     }
 
     @Override
-    public Geometry read(String geometryLiteral) {
-		GeoJSONReader reader = new GeoJSONReader();
-		Geometry geom = reader.read(geometryLiteral);
-		return geom;
+    public Topology read(String geometryLiteral) {
+    	McGsonHandler handler=new McGsonHandler();
+    	Topology topo;
+		try {
+			topo = handler.decode(geometryLiteral);
+			return topo;
+		} catch (McException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+    	return null;
     }
 
 
