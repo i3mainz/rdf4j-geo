@@ -1,6 +1,7 @@
 package org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.topo.editor;
 
 import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.topo.base.TopologyModificationFunction;
+import org.mibcxb.topojson.TopoObject;
 import org.mibcxb.topojson.Topology;
 
 public class AddIsoNode extends TopologyModificationFunction {
@@ -13,6 +14,7 @@ public class AddIsoNode extends TopologyModificationFunction {
 
 	@Override
 	public Topology modify(Topology topo) {
+		TopoObject topobj;
 		// TODO Auto-generated method stub
 		return null;
 	}
