@@ -95,7 +95,7 @@ public class POSTGIS {
 	public static final	IRI ST_CLUSTERKMEANS=factory.createIRI(NAMESPACE, "ST_ClusterKMeans");
 	public static final	IRI ST_CLUSTERWITHIN=factory.createIRI(NAMESPACE, "ST_ClusterWithin");
 	public static final	IRI ST_COLLECTIONHOMOGENIZE=factory.createIRI(NAMESPACE, "ST_CollectionHomogenize");
-	public static final IRI st_collectionextract=factory.createIRI(NAMESPACE, "ST_CollectionExtract");
+	public static final	IRI st_collectionextract=factory.createIRI(NAMESPACE, "ST_CollectionExtract");
 	public static final	IRI ST_COMPACTNESSRATIO=factory.createIRI(NAMESPACE, "ST_CompactnessRatio");
 	public static final	IRI ST_CONCAVEHULL=factory.createIRI(NAMESPACE, "ST_ConcaveHull");
 	public static final	IRI ST_CONTAINS=factory.createIRI(NAMESPACE, "ST_Contains");

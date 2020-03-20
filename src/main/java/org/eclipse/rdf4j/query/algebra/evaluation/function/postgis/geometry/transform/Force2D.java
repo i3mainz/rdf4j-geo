@@ -10,7 +10,9 @@ import org.locationtech.jts.geom.Geometry;
 
 import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.geometry.base.GeometricUnaryFunction;
 
-
+/**
+ * Transforms a geometry to its 2D representation.
+ */
 public class Force2D extends GeometricUnaryFunction {
 
 	@Override
