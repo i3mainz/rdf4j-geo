@@ -1,4 +1,4 @@
-package org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.linestring;
+package org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.linestring.transform;
 
 import java.util.Arrays;
 import java.util.LinkedList;
