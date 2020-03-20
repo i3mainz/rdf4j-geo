@@ -17,6 +17,7 @@ public class POSTGIS {
 	public static final	IRI ST_SHORTESTLINE3D=factory.createIRI(NAMESPACE, "ST_ShortestLine3D");
 	public static final	IRI ST_ACCUM=factory.createIRI(NAMESPACE, "ST_Accum");
 	public static final	IRI ST_ADDBAND=factory.createIRI(NAMESPACE, "ST_AddBand");
+	public static final IRI st_addMeasure=factory.createIRI(NAMESPACE, "ST_AddMeasure");
 	public static final	IRI ST_ADDPOINT=factory.createIRI(NAMESPACE, "ST_AddPoint");
 	public static final	IRI ST_ADDZ=factory.createIRI(NAMESPACE, "ST_AddZ");
 	public static final IRI st_angle = factory.createIRI(NAMESPACE,"ST_Angle");
@@ -412,6 +413,7 @@ public class POSTGIS {
         public static final IRI st_sridToEPSG=factory.createIRI(NAMESPACE, "ST_SRIDToEPSG");
         public static final IRI st_startPoint=factory.createIRI(NAMESPACE, "ST_StartPoint");
         public static final IRI st_straightSkeleton=factory.createIRI(NAMESPACE, "ST_StraightSkeleton");
+		public static final IRI st_subdividelines = factory.createIRI(NAMESPACE, "ST_SubdivideLines");
         public static final IRI st_summary=factory.createIRI(NAMESPACE, "ST_Summary");
         public static final IRI st_swapOrdinates=factory.createIRI(NAMESPACE, "ST_SwapOrdinates");
         public static final IRI st_symDifference=factory.createIRI(NAMESPACE, "ST_SymDifference");
@@ -429,7 +431,9 @@ public class POSTGIS {
         public static final IRI st_transscale=factory.createIRI(NAMESPACE, "ST_TransScale");
         public static final IRI st_translate=factory.createIRI(NAMESPACE, "ST_Translate");
         public static final IRI st_transform=factory.createIRI(NAMESPACE, "ST_Transform");
-        public static final IRI st_union=factory.createIRI(NAMESPACE, "ST_Union");
+		public static final IRI ST_Topo_AddPoint = factory.createIRI(NAMESPACE, "ST_Topo_AddPoint");
+		public static final IRI ST_Topo_AddLineString = factory.createIRI(NAMESPACE, "ST_Topo_AddLineString");
+		public static final IRI st_union=factory.createIRI(NAMESPACE, "ST_Union");
         public static final IRI st_unaryUnion=factory.createIRI(NAMESPACE, "ST_UnaryUnion");
         public static final IRI st_upperLeftX=factory.createIRI(NAMESPACE, "ST_UpperLeftX");
         public static final IRI st_upperLeftY=factory.createIRI(NAMESPACE, "ST_UpperLeftY");
@@ -546,6 +550,10 @@ public class POSTGIS {
 		public static final IRI ST_ToDegrees=factory.createIRI(NAMESPACE, "ST_ToDegrees");
 		
 		public static final IRI ST_ToRadians=factory.createIRI(NAMESPACE, "ST_ToRadians");
+
+
+
+
 
 	
 
