@@ -1,4 +1,4 @@
-package org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.linestring;
+package org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.linestring.attribute;
 
 import org.eclipse.rdf4j.model.vocabulary.POSTGIS;
 import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.LiteralUtils;

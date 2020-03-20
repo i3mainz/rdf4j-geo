@@ -11,7 +11,9 @@ import org.locationtech.jts.geom.Geometry;
 
 import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.geometry.base.GeometricUnaryFunction;
 
-
+/**
+ * Transforms a geometry to a 3DM representation.
+ */
 public class Force3DM extends GeometricUnaryFunction {
 
 	@Override

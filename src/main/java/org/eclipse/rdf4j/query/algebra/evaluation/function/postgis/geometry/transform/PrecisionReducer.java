@@ -7,6 +7,9 @@ import org.locationtech.jts.precision.GeometryPrecisionReducer;
 
 import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.geometry.base.GeometricModifierIntegerFunction;
 
+/**
+ * Reduces the precision of a given geometry by a given factor.
+ */
 public class PrecisionReducer extends GeometricModifierIntegerFunction {
 
 	@Override
