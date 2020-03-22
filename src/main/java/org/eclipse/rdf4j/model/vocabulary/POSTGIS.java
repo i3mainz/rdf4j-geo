@@ -114,7 +114,8 @@ public class POSTGIS {
 	public static final	IRI ST_DISTANCESPHERE=factory.createIRI(NAMESPACE, "ST_DistanceSphere");
 	public static final	IRI st_dissolvepoints=factory.createIRI(NAMESPACE, "ST_DissolvePoints");
 	public static final	IRI st_dissolvesegments=factory.createIRI(NAMESPACE, "ST_DissolveSegments");
-	public static final	IRI ST_DWITHIN=factory.createIRI(NAMESPACE, "ST_DWithin");;
+	public static final IRI st_dump=factory.createIRI(NAMESPACE, "ST_Dump");
+	public static final	IRI ST_DWITHIN=factory.createIRI(NAMESPACE, "ST_DWithin");
 	public static final	IRI ST_ENDPOINT=factory.createIRI(NAMESPACE, "ST_EndPoint");
 	public static final	IRI ST_EQUALS=factory.createIRI(NAMESPACE, "ST_Equals");
 	public static final	IRI ST_EQUALSNORM=factory.createIRI(NAMESPACE, "ST_EqualsNorm");
@@ -551,6 +552,7 @@ public class POSTGIS {
 		public static final IRI ST_ToDegrees=factory.createIRI(NAMESPACE, "ST_ToDegrees");
 		
 		public static final IRI ST_ToRadians=factory.createIRI(NAMESPACE, "ST_ToRadians");
+
 
 
 
