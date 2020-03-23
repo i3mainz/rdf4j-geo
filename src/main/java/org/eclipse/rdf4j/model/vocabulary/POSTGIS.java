@@ -17,6 +17,7 @@ public class POSTGIS {
 	public static final	IRI ST_SHORTESTLINE3D=factory.createIRI(NAMESPACE, "ST_ShortestLine3D");
 	public static final	IRI ST_ACCUM=factory.createIRI(NAMESPACE, "ST_Accum");
 	public static final	IRI ST_ADDBAND=factory.createIRI(NAMESPACE, "ST_AddBand");
+	public static final	IRI st_addGeometry=factory.createIRI(NAMESPACE, "ST_AddGeometry");
 	public static final IRI st_addMeasure=factory.createIRI(NAMESPACE, "ST_AddMeasure");
 	public static final	IRI ST_ADDPOINT=factory.createIRI(NAMESPACE, "ST_AddPoint");
 	public static final	IRI ST_ADDZ=factory.createIRI(NAMESPACE, "ST_AddZ");
@@ -434,6 +435,7 @@ public class POSTGIS {
         public static final IRI st_transform=factory.createIRI(NAMESPACE, "ST_Transform");
 		public static final IRI ST_Topo_AddPoint = factory.createIRI(NAMESPACE, "ST_Topo_AddPoint");
 		public static final IRI ST_Topo_AddLineString = factory.createIRI(NAMESPACE, "ST_Topo_AddLineString");
+		public static final IRI ST_TopologyFromTopoJSON = factory.createIRI(NAMESPACE, "ST_TopologyFromTopoJSON");
 		public static final IRI st_union=factory.createIRI(NAMESPACE, "ST_Union");
         public static final IRI st_unaryUnion=factory.createIRI(NAMESPACE, "ST_UnaryUnion");
         public static final IRI st_upperLeftX=factory.createIRI(NAMESPACE, "ST_UpperLeftX");
@@ -551,77 +553,6 @@ public class POSTGIS {
 		public static final IRI ST_ToDegrees=factory.createIRI(NAMESPACE, "ST_ToDegrees");
 		
 		public static final IRI ST_ToRadians=factory.createIRI(NAMESPACE, "ST_ToRadians");
-
-
-
-
-
-
-	
-
-
-
-	
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
