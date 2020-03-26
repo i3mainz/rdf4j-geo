@@ -518,7 +518,10 @@ public class POSTGIS {
 		public static final IRI SRIDGetAxis2Name =factory.createIRI(NAMESPACE, "SRID_GetAxis2Name");
 		public static final IRI SRIDGetAxis1Orientation =factory.createIRI(NAMESPACE, "SRID_GetAxis1Orientation");
 		public static final IRI SRIDGetAxis2Orientation =factory.createIRI(NAMESPACE, "SRID_GetAxis2Orientation");
+		public static final IRI SRIDGetDatum =factory.createIRI(NAMESPACE, "SRID_GetDatum");
+		public static final IRI SRIDGetUnit =factory.createIRI(NAMESPACE, "SRID_GetUnit");
 		public static final IRI SRIDHasFlippedAxis =factory.createIRI(NAMESPACE, "SRID_HasFlippedAxis");
+		public static final IRI SRIDIsProjected =factory.createIRI(NAMESPACE, "SRID_IsProjected");
 		public static final IRI SRIDToEPSG =factory.createIRI(NAMESPACE, "SRIDToEPSG");
 		
         public static final String WKB = "WKB";
@@ -554,5 +557,7 @@ public class POSTGIS {
 		public static final IRI ST_ToDegrees=factory.createIRI(NAMESPACE, "ST_ToDegrees");
 		
 		public static final IRI ST_ToRadians=factory.createIRI(NAMESPACE, "ST_ToRadians");
+
+
 
 }
