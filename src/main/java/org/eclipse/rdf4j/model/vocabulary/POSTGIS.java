@@ -118,6 +118,7 @@ public class POSTGIS {
 	public static final IRI st_dump=factory.createIRI(NAMESPACE, "ST_Dump");
 	public static final	IRI ST_DWITHIN=factory.createIRI(NAMESPACE, "ST_DWithin");
 	public static final	IRI ST_ENDPOINT=factory.createIRI(NAMESPACE, "ST_EndPoint");
+	public static final IRI st_ensureClosed=factory.createIRI(NAMESPACE, "ST_EnsureClosed");
 	public static final	IRI ST_EQUALS=factory.createIRI(NAMESPACE, "ST_Equals");
 	public static final	IRI ST_EQUALSNORM=factory.createIRI(NAMESPACE, "ST_EqualsNorm");
 	public static final	IRI ST_EQUALSTOPO=factory.createIRI(NAMESPACE, "ST_EqualsTopo");
@@ -183,6 +184,7 @@ public class POSTGIS {
         public static final IRI st_isEmpty=factory.createIRI(NAMESPACE, "ST_IsEmpty");
 		public static final IRI st_isEquilateralTriangle=factory.createIRI(NAMESPACE, "ST_IsEquilateralTriangle");
         public static final IRI st_isGrayscale=factory.createIRI(NAMESPACE, "ST_IsGrayscale");
+		public static final IRI st_isInCRSAreaOfValidity=factory.createIRI(NAMESPACE, "ST_IsInCRSAreaOfValidity");
         public static final IRI st_isIndexed=factory.createIRI(NAMESPACE, "ST_IsIndexed");
 		public static final IRI st_isIsocelesTriangle=factory.createIRI(NAMESPACE, "ST_IsIsocelesTriangle");
         public static final IRI st_isLocationOnEdge=factory.createIRI(NAMESPACE, "ST_IsLocationOnEdge");
@@ -377,6 +379,7 @@ public class POSTGIS {
         public static final IRI st_resize=factory.createIRI(NAMESPACE, "ST_Resize");
         public static final IRI st_retile=factory.createIRI(NAMESPACE, "ST_Retile");
         public static final IRI st_reverse=factory.createIRI(NAMESPACE, "ST_Reverse");
+		public static final IRI st_reverseRing=factory.createIRI(NAMESPACE, "ST_ReverseRing");
         public static final IRI st_rotate=factory.createIRI(NAMESPACE, "ST_Rotate");
         public static final IRI st_rotateX=factory.createIRI(NAMESPACE, "ST_RotateX");
         public static final IRI st_rotateY=factory.createIRI(NAMESPACE, "ST_RotateY");
@@ -521,6 +524,7 @@ public class POSTGIS {
 		public static final IRI SRIDGetDatum =factory.createIRI(NAMESPACE, "SRID_GetDatum");
 		public static final IRI SRIDGetUnit =factory.createIRI(NAMESPACE, "SRID_GetUnit");
 		public static final IRI SRIDHasFlippedAxis =factory.createIRI(NAMESPACE, "SRID_HasFlippedAxis");
+		public static final IRI SRIDIsGeographic = factory.createIRI(NAMESPACE, "SRID_IsGeographic");
 		public static final IRI SRIDIsProjected =factory.createIRI(NAMESPACE, "SRID_IsProjected");
 		public static final IRI SRIDToEPSG =factory.createIRI(NAMESPACE, "SRIDToEPSG");
 		
@@ -557,6 +561,11 @@ public class POSTGIS {
 		public static final IRI ST_ToDegrees=factory.createIRI(NAMESPACE, "ST_ToDegrees");
 		
 		public static final IRI ST_ToRadians=factory.createIRI(NAMESPACE, "ST_ToRadians");
+
+
+
+
+
 
 
 
