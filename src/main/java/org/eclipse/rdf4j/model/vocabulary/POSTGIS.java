@@ -166,6 +166,8 @@ public class POSTGIS {
         public static final IRI st_geometryN=factory.createIRI(NAMESPACE, "ST_GeometryN");
         public static final IRI st_geometryType=factory.createIRI(NAMESPACE, "ST_GeometryType");
         public static final IRI st_gmlToSQL=factory.createIRI(NAMESPACE, "ST_GeomFromGML");
+		public static final IRI st_hasConnectedInterior=factory.createIRI(NAMESPACE, "ST_HasConnectedInterior");
+		public static final IRI st_hasNestedRings=factory.createIRI(NAMESPACE, "ST_HasNestedRings");
         public static final IRI st_hasNoBand=factory.createIRI(NAMESPACE, "ST_HasNoBand");
         public static final IRI ST_hasHorizontalCRS=factory.createIRI(NAMESPACE, "ST_HasHorizontalCRS");
         public static final IRI st_hasRepeatedPoints=factory.createIRI(NAMESPACE, "ST_HasRepeatedPoints");
@@ -561,6 +563,8 @@ public class POSTGIS {
 		public static final IRI ST_ToDegrees=factory.createIRI(NAMESPACE, "ST_ToDegrees");
 		
 		public static final IRI ST_ToRadians=factory.createIRI(NAMESPACE, "ST_ToRadians");
+
+
 
 
 
