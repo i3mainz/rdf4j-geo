@@ -153,6 +153,7 @@ public class POSTGIS {
         public static final IRI st_forcePolygonCCW=factory.createIRI(NAMESPACE, "ST_ForcePolygonCCW");
         public static final IRI st_forceSFS=factory.createIRI(NAMESPACE, "ST_ForceSFS");
         public static final IRI st_frechetDistance=factory.createIRI(NAMESPACE, "ST_FrechetDistance");
+		public static final IRI st_furthestcoordinate=factory.createIRI(NAMESPACE, "ST_FurthestCoordinate");
         public static final IRI st_generatePoints=factory.createIRI(NAMESPACE, "ST_GeneratePoints");
         public static final IRI st_geohash=factory.createIRI(NAMESPACE, "ST_AsGeoHash");
         public static final IRI st_geomCollFromText = factory.createIRI(NAMESPACE,"ST_GeomCollFromText");
@@ -563,6 +564,9 @@ public class POSTGIS {
 		public static final IRI ST_ToDegrees=factory.createIRI(NAMESPACE, "ST_ToDegrees");
 		
 		public static final IRI ST_ToRadians=factory.createIRI(NAMESPACE, "ST_ToRadians");
+
+
+;
 
 
 
