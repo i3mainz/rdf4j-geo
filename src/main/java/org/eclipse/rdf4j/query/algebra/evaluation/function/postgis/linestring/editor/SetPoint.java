@@ -8,6 +8,7 @@ import org.locationtech.jts.geom.LineString;
 import org.locationtech.jts.geom.Point;
 import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.geometry.base.GeometricDoubleModifierIntegerFunction;
 
+
 public class SetPoint extends GeometricDoubleModifierIntegerFunction {
 
 	@Override
@@ -17,8 +18,7 @@ public class SetPoint extends GeometricDoubleModifierIntegerFunction {
 
 	@Override
 	protected Geometry relation(Geometry geom1, Geometry geom2,Integer zerobasedposition) {
-		Geometry transformed=LiteralUtils.transform(geom2, geom1);
-        if (geom1 instanceof LineString && transformed instanceof Point) {
+        if (geom2 instanceof Point) {
             Coordinate[] coords=geom1.getCoordinates();
             Coordinate[] newcoords=coords;
             newcoords[zerobasedposition.intValue()]=geom2.getCoordinate();

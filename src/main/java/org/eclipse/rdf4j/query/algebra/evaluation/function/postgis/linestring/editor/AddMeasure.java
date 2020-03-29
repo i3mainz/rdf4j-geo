@@ -4,6 +4,9 @@ import org.eclipse.rdf4j.model.vocabulary.POSTGIS;
 import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.geometry.base.GeometricModifierDoubleFunction;
 import org.locationtech.jts.geom.Geometry;
 
+/**
+ * Adds a measurement coordinate M which is extrapolated over the length of the given geometry.
+ */
 public class AddMeasure extends GeometricModifierDoubleFunction {
 
 	@Override

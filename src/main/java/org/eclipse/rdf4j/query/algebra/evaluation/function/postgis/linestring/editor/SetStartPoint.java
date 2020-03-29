@@ -8,6 +8,10 @@ import org.locationtech.jts.geom.Geometry;
 import org.locationtech.jts.geom.LineString;
 import org.locationtech.jts.geom.Point;
 
+/**
+ * Sets the first point of the given geometry to the point given in the second parameter.
+ *
+ */
 public class SetStartPoint extends GeometricModifierFunction {
 
 	@Override
@@ -17,8 +21,7 @@ public class SetStartPoint extends GeometricModifierFunction {
 
 	@Override
 	protected Geometry relation(Geometry geom1, Geometry geom2) {
-		Geometry transformed=LiteralUtils.transform(geom2, geom1);
-        if (geom1 instanceof LineString && transformed instanceof Point) {
+        if (geom2 instanceof Point) {
             Coordinate[] coords=geom1.getCoordinates();
             Coordinate[] newcoords=coords;
             newcoords[0]=geom2.getCoordinate();

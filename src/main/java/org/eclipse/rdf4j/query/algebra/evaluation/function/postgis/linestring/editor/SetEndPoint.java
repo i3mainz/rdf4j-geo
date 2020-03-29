@@ -8,6 +8,10 @@ import org.locationtech.jts.geom.Geometry;
 import org.locationtech.jts.geom.LineString;
 import org.locationtech.jts.geom.Point;
 
+/**
+ * Sets the last point of the given geometry to the point given in the second parameter.
+ *
+ */
 public class SetEndPoint extends GeometricModifierFunction {
 
 	@Override

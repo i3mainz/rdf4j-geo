@@ -8,6 +8,10 @@ import org.locationtech.jts.geom.Geometry;
 
 import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.geometry.base.GeometricModifierIntegerFunction;
 
+/**
+ * Removes a point at a given index position from the given geometry.
+ *
+ */
 public class RemovePoint extends GeometricModifierIntegerFunction {
 
 	@Override
