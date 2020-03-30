@@ -45,6 +45,7 @@ public class CoverageJSONReader {
 		if(axes.getJSONObject("x").has("values")) {
 			JSONArray xvalues=axes.getJSONObject("x").getJSONArray("values");
 			for(int i=0;i<xvalues.length();i++) {
+
 				if(xvalues.getInt(i)<minX) {
 					minX=xvalues.getInt(i);
 				}
@@ -52,6 +53,7 @@ public class CoverageJSONReader {
 					maxX=xvalues.getInt(i);
 				}
 			}
+			System.out.println(minX+" - "+Long.valueOf(minX));
 			mins.add(Long.valueOf(minX));
 			maxs.add(Long.valueOf(maxX));
 			axestypes.add(DimensionNameType.COLUMN);
@@ -61,6 +63,8 @@ public class CoverageJSONReader {
 			maxs.add(axes.getJSONObject("x").getLong("stop"));
 			axestypes.add(DimensionNameType.COLUMN);
 		}
+		System.out.println(mins);
+		System.out.println(maxs);
 		if(axes.getJSONObject("y").has("values")) {
 			JSONArray yvalues=axes.getJSONObject("y").getJSONArray("values");
 			for(int i=0;i<yvalues.length();i++) {
@@ -80,6 +84,8 @@ public class CoverageJSONReader {
 			maxs.add(axes.getJSONObject("y").getLong("stop"));
 			axestypes.add(DimensionNameType.ROW);
 		}
+		System.out.println(mins);
+		System.out.println(maxs);
 		if(axes.has("z")) {
 			if(axes.getJSONObject("z").has("values")) {
 				JSONArray zvalues=axes.getJSONObject("z").getJSONArray("values");
@@ -94,16 +100,20 @@ public class CoverageJSONReader {
 				mins.add(Long.valueOf(minZ).longValue());
 				maxs.add(Long.valueOf(maxZ).longValue());
 				axestypes.add(DimensionNameType.VERTICAL);
-			}else if(axes.getJSONObject("y").has("start") && axes.getJSONObject("y").has("stop")
-					&& axes.getJSONObject("y").has("num")) {
-				mins.add(axes.getJSONObject("y").getLong("start"));
-				maxs.add(axes.getJSONObject("y").getLong("stop"));
+			}else if(axes.getJSONObject("z").has("start") && axes.getJSONObject("z").has("stop")
+					&& axes.getJSONObject("z").has("num")) {
+				mins.add(axes.getJSONObject("z").getLong("start"));
+				maxs.add(axes.getJSONObject("z").getLong("stop"));
 				axestypes.add(DimensionNameType.VERTICAL);
 			}
 		}
-		if(axes.has("t")) {
+		System.out.println(mins);
+		System.out.println(maxs);
+		/*if(axes.has("t")) {
 			if(axes.getJSONObject("t").has("values")) {
 				JSONArray tvalues=axes.getJSONObject("t").getJSONArray("values");
+				System.out.println(tvalues);
+				try {
 				for(int i=0;i<tvalues.length();i++) {
 					if(tvalues.getInt(i)<minT) {
 						minT=tvalues.getInt(i);
@@ -112,18 +122,27 @@ public class CoverageJSONReader {
 						maxT=tvalues.getInt(i);
 					}
 				}
+				}catch(Exception e) {
+					e.printStackTrace();
+				}
 				mins.add(Long.valueOf(minT).longValue());
 				maxs.add(Long.valueOf(maxT).longValue());
 				axestypes.add(DimensionNameType.TIME);
-			}else if(axes.getJSONObject("y").has("start") && axes.getJSONObject("y").has("stop")
-					&& axes.getJSONObject("y").has("num")) {
-				mins.add(axes.getJSONObject("y").getLong("start"));
-				maxs.add(axes.getJSONObject("y").getLong("stop"));
+			}else if(axes.getJSONObject("t").has("start") && axes.getJSONObject("t").has("stop")
+					&& axes.getJSONObject("t").has("num")) {
+				mins.add(axes.getJSONObject("t").getLong("start"));
+				maxs.add(axes.getJSONObject("t").getLong("stop"));
 				axestypes.add(DimensionNameType.TIME);
 			}
-		}
+		}*/
+		System.out.println(mins);
+		System.out.println(maxs);
+		System.out.println("DimensionNameType: "+axestypes);
+		System.out.println("Mins: "+mins);
+		System.out.println("Maxs: "+maxs);
 		GridExtent extent=new GridExtent(axestypes.toArray(new DimensionNameType[0]),
-				ArrayUtils.toPrimitive(mins.toArray(new Long[0])), ArrayUtils.toPrimitive(maxs.toArray(new Long[0])),true);		
+				ArrayUtils.toPrimitive(mins.toArray(new Long[0])), 
+				ArrayUtils.toPrimitive(maxs.toArray(new Long[0])),true);		
 		Envelope2D gridenv=new Envelope2D();
 		GridGeometry gridgeom=new GridGeometry(extent, gridenv);//domain
 		Map<String,List<Category>> categories=new TreeMap<>();
@@ -137,7 +156,7 @@ public class CoverageJSONReader {
 				for (int i = 0; i < values.length(); i++) {
 				    intrange[i] = values.optInt(i);
 				}
-				NumberRange<Integer> range=new NumberRange<Integer>(null);
+				//NumberRange<Integer> range=new NumberRange<Integer>(null);
 
 			}
 			//Category cat=new Category(key,)
@@ -164,5 +183,68 @@ public class CoverageJSONReader {
 			e.printStackTrace();
 		}
 		return null;
+	}
+	
+	
+	public static void main(String[] args) {
+		String covjson="{\r\n" + 
+				"  \"type\" : \"Coverage\",\r\n" + 
+				"  \"domain\" : {\r\n" + 
+				"    \"type\" : \"Domain\",\r\n" + 
+				"    \"domainType\" : \"Grid\",\r\n" + 
+				"    \"axes\": {\r\n" + 
+				"      \"x\" : { \"values\": [-10,-5,0] },\r\n" + 
+				"      \"y\" : { \"values\": [40,50] },\r\n" + 
+				"      \"z\" : { \"values\": [ 5] },\r\n" + 
+				"      \"t\" : { \"values\": [\"2010-01-01T00:12:20Z\"] }\r\n" + 
+				"    },\r\n" + 
+				"    \"referencing\": [{\r\n" + 
+				"      \"coordinates\": [\"y\",\"x\",\"z\"],\r\n" + 
+				"      \"system\": {\r\n" + 
+				"        \"type\": \"GeographicCRS\",\r\n" + 
+				"        \"id\": \"http://www.opengis.net/def/crs/EPSG/0/4979\"\r\n" + 
+				"      }\r\n" + 
+				"    }, {\r\n" + 
+				"      \"coordinates\": [\"t\"],\r\n" + 
+				"      \"system\": {\r\n" + 
+				"        \"type\": \"TemporalRS\",\r\n" + 
+				"        \"calendar\": \"Gregorian\"\r\n" + 
+				"      }\r\n" + 
+				"    }]\r\n" + 
+				"  },\r\n" + 
+				"  \"parameters\" : {\r\n" + 
+				"    \"ICEC\": {\r\n" + 
+				"      \"type\" : \"Parameter\",\r\n" + 
+				"      \"description\": {\r\n" + 
+				"      	\"en\": \"Sea Ice concentration (ice=1;no ice=0)\"\r\n" + 
+				"      },\r\n" + 
+				"      \"unit\" : {\r\n" + 
+				"        \"label\": {\r\n" + 
+				"          \"en\": \"Ratio\"\r\n" + 
+				"        },\r\n" + 
+				"        \"symbol\": {\r\n" + 
+				"          \"value\": \"1\",\r\n" + 
+				"          \"type\": \"http://www.opengis.net/def/uom/UCUM/\"\r\n" + 
+				"        }\r\n" + 
+				"      },\r\n" + 
+				"      \"observedProperty\" : {\r\n" + 
+				"        \"id\" : \"http://vocab.nerc.ac.uk/standard_name/sea_ice_area_fraction/\",\r\n" + 
+				"        \"label\" : {\r\n" + 
+				"          \"en\": \"Sea Ice Concentration\"\r\n" + 
+				"        }\r\n" + 
+				"      }\r\n" + 
+				"    }\r\n" + 
+				"  },\r\n" + 
+				"  \"ranges\" : {\r\n" + 
+				"    \"ICEC\" : {\r\n" + 
+				"      \"type\" : \"NdArray\",\r\n" + 
+				"      \"dataType\": \"float\",\r\n" + 
+				"      \"axisNames\": [\"t\",\"z\",\"y\",\"x\"],\r\n" + 
+				"      \"shape\": [1, 1, 2, 3],\r\n" + 
+				"      \"values\" : [ 0.5, 0.6, 0.4, 0.6, 0.2, null ]\r\n" + 
+				"    }\r\n" + 
+				"  }\r\n" + 
+				"}";
+			GridCoverage cov=covJSONStringToCoverage(covjson);
 	}
 }
