@@ -88,6 +88,7 @@ public class POSTGIS {
 	public static final	IRI ST_CENTROID=factory.createIRI(NAMESPACE, "ST_Centroid");
 	public static final	IRI ST_CENTROIDDISTANCE=factory.createIRI(NAMESPACE, "ST_CentroidDistance");
 	public static final	IRI ST_CHAIKINSMOOTHING=factory.createIRI(NAMESPACE, "ST_ChaikinSmoothing");
+	public static final	IRI st_circumcentre=factory.createIRI(NAMESPACE, "ST_Circumcentre");
 	public static final	IRI ST_CLIP=factory.createIRI(NAMESPACE, "ST_Clip");
 	public static final	IRI ST_CLIPBYBOX2D=factory.createIRI(NAMESPACE, "ST_ClipByBox2D");
 	public static final	IRI ST_CLOSESTPOINT=factory.createIRI(NAMESPACE, "ST_ClosestPoint");
@@ -181,9 +182,11 @@ public class POSTGIS {
         public static final IRI st_intersectionMatrix=factory.createIRI(NAMESPACE, "ST_IntersectionMatrix");
         public static final IRI st_intersectionPercentage=factory.createIRI(NAMESPACE, "ST_IntersectionPercentage");
         public static final IRI st_is3D=factory.createIRI(NAMESPACE, "ST_Is3D");
+		public static final IRI st_isAcute=factory.createIRI(NAMESPACE, "ST_IsAcute");
         public static final IRI st_isCollection=factory.createIRI(NAMESPACE, "ST_IsCollection");
         public static final IRI st_isClosed=factory.createIRI(NAMESPACE, "ST_IsClosed");
         public static final IRI st_isConvex=factory.createIRI(NAMESPACE, "ST_IsConvex");
+		public static final IRI st_isDegenerate=factory.createIRI(NAMESPACE, "ST_IsDegenerate");
         public static final IRI st_isEmpty=factory.createIRI(NAMESPACE, "ST_IsEmpty");
 		public static final IRI st_isEquilateralTriangle=factory.createIRI(NAMESPACE, "ST_IsEquilateralTriangle");
         public static final IRI st_isGrayscale=factory.createIRI(NAMESPACE, "ST_IsGrayscale");
@@ -370,6 +373,7 @@ public class POSTGIS {
         public static final IRI st_rasterToWorldCoord=factory.createIRI(NAMESPACE, "ST_RasterToWorldCoord");
         public static final IRI st_rasterToWorldCoordX=factory.createIRI(NAMESPACE, "ST_RasterToWorldCoordX");
         public static final IRI st_rasterToWorldCoordY=factory.createIRI(NAMESPACE, "ST_RasterToWorldCoordY");
+		public static final IRI st_rayCrossings=factory.createIRI(NAMESPACE, "ST_RayCrossings");
         public static final IRI st_reflect=factory.createIRI(NAMESPACE, "ST_Reflect");
         public static final IRI st_relate=factory.createIRI(NAMESPACE, "ST_Relate");
         public static final IRI st_relateMatch=factory.createIRI(NAMESPACE, "ST_RelateMatch");
@@ -564,6 +568,10 @@ public class POSTGIS {
 		public static final IRI ST_ToDegrees=factory.createIRI(NAMESPACE, "ST_ToDegrees");
 		
 		public static final IRI ST_ToRadians=factory.createIRI(NAMESPACE, "ST_ToRadians");
+
+
+
+
 
 
 ;
