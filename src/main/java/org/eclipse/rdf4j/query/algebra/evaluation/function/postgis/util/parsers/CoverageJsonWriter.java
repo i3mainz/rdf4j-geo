@@ -28,10 +28,12 @@
 
 package org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.parsers;
 
+import org.apache.sis.coverage.Category;
 import org.apache.sis.coverage.SampleDimension;
 import org.apache.sis.coverage.grid.GridCoverage;
 import org.json.JSONArray;
 import org.json.JSONObject;
+import org.opengis.metadata.spatial.DimensionNameType;
 
 public class CoverageJsonWriter {
 	GridCoverage coverage;
@@ -47,34 +49,75 @@ public class CoverageJsonWriter {
 		result.put("domain",domain);
 		domain.put("type", "Domain");
 		domain.put("domainType", "Grid");
+		JSONArray geocoords=new JSONArray();
+		JSONArray tempcoords=new JSONArray();
 		JSONObject axes=new JSONObject();
 		domain.put("axes",axes);
-		JSONArray x=new JSONArray();
-		JSONArray y=new JSONArray();
-		axes.put("x", x);
-		axes.put("y", y);
-		if(coverage.getGridGeometry().getEnvelope().getDimension()>2) {
-			JSONArray z=new JSONArray();
-			axes.put("z", z);
+		for(int i=0;i<coverage.getGridGeometry().getExtent().getDimension();i++) {
+			if(coverage.getGridGeometry().getExtent().getAxisType(i).get().equals(DimensionNameType.COLUMN)) {
+				axes.put("x",new JSONObject());
+				geocoords.put("x");
+			}
+			else if(coverage.getGridGeometry().getExtent().getAxisType(i).get().equals(DimensionNameType.ROW)) {
+				axes.put("y",new JSONObject());
+				geocoords.put("y");
+			}
+			else if(coverage.getGridGeometry().getExtent().getAxisType(i).get().equals(DimensionNameType.VERTICAL)) {
+				axes.put("z",new JSONObject());
+				geocoords.put("z");
+			}
+			else if(coverage.getGridGeometry().getExtent().getAxisType(i).get().equals(DimensionNameType.TIME)) {
+				axes.put("t",new JSONObject());
+				tempcoords.put("t");
+			}
 		}
 		JSONArray referencing=new JSONArray();
 		domain.put("referencing", referencing);
-		//coverage.getGridGeometry().getCoordinateReferenceSystem().getName()
-		JSONObject ref=new JSONObject();
-		referencing.put(ref);
-		ref.put("coordinates",new JSONArray());
-		JSONObject crs=new JSONObject();
-		ref.put("system",crs);
-		crs.put("type", "GeopraphicCRS");
-		crs.put("id", coverage.getCoordinateReferenceSystem().getName());
-		if(coverage.getGridGeometry().getTemporalExtent().length!=0) {
-			
+		if(!geocoords.isEmpty()) {
+			JSONObject crs=new JSONObject();
+			JSONObject tcrs=new JSONObject();
+			crs.put("system",tcrs);
+			crs.put("coordinates",geocoords);
+			referencing.put(crs);
+			tcrs.put("type", "GeopraphicCRS");
+			try {
+				if(coverage.getCoordinateReferenceSystem()!=null) {
+					tcrs.put("id", coverage.getCoordinateReferenceSystem().getName());
+				}
+			}catch(Exception e) {
+				e.printStackTrace();
+			}
 		}
+		if(!tempcoords.isEmpty()) {
+			JSONObject tcrs=new JSONObject();
+			JSONObject tcrstype=new JSONObject();
+			tcrs.put("coordinates",new JSONArray());
+			tcrs.put("system",tcrstype);
+			tcrs.put("type", "TemporalRS");
+			tcrs.put("calendar", "Gregorian");
+			referencing.put(tcrs);
+		}
+		//if(coverage.getGridGeometry().getTemporalExtent().length!=0) {
+			
+		//}
+		JSONObject ranges=new JSONObject();
+		result.put("ranges",ranges);
 		JSONObject parameters=new JSONObject();
 		result.put("parameters", parameters);
 		for(SampleDimension dimension:coverage.getSampleDimensions()) {
 			JSONObject sampledim=new JSONObject();
 			parameters.put(dimension.getName().toString(),sampledim);
+			JSONObject paramrange=new JSONObject();
+			ranges.put(dimension.getName().toString(),paramrange);
+			paramrange.put("type","NdArray");
+			paramrange.put("dataType","float");
+			JSONArray axiss=new JSONArray();
+			paramrange.put("axisNames",axiss);
+			for(String ax:axes.keySet()) {
+				axiss.put(ax);
+			}
+			paramrange.put("shape",new JSONArray());
+			paramrange.put("values",new JSONArray());
 			sampledim.put("type","Parameter");
 			JSONObject description=new JSONObject();
 			sampledim.put("description",description);
@@ -91,6 +134,25 @@ public class CoverageJsonWriter {
 			}
 			JSONObject observedProperty=new JSONObject();
 			sampledim.put("observedProperty",observedProperty);
+			JSONObject catencoding=null;
+			if(dimension.getCategories()!=null && !dimension.getCategories().isEmpty()) {
+				catencoding=new JSONObject();
+				JSONArray categories=new JSONArray();
+				observedProperty.put("categories",categories);
+				for(Category cat:dimension.getCategories()) {
+					JSONObject category=new JSONObject();
+					JSONObject catlabel=new JSONObject();
+					category.put("label",catlabel);
+					catlabel.put("en",dimension.getUnits().get().getName());
+					JSONObject catdesc=new JSONObject();
+					category.put("description",catdesc);
+					catdesc.put("en",dimension.getUnits().get().getName());
+					categories.put(category);
+				}
+			}
+			if(catencoding!=null) {
+				observedProperty.put("categoryEncoding",catencoding);
+			}
 			JSONObject oPLabel=new JSONObject();
 			observedProperty.put("label",oPLabel);
 			/*oPLabel.put("en",dimension.)
@@ -99,8 +161,7 @@ public class CoverageJsonWriter {
 			dimension.getMeasurementRange()*/
 		}
 
-		JSONObject ranges=new JSONObject();
-		result.put("ranges",ranges);
+
 		return result;
 	}
 	

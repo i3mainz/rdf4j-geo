@@ -18,6 +18,7 @@ public class POSTGIS {
 	public static final	IRI ST_ACCUM=factory.createIRI(NAMESPACE, "ST_Accum");
 	public static final	IRI ST_ADDBAND=factory.createIRI(NAMESPACE, "ST_AddBand");
 	public static final	IRI st_addGeometry=factory.createIRI(NAMESPACE, "ST_AddGeometry");
+	public static final	IRI st_addInteriorRing=factory.createIRI(NAMESPACE, "ST_AddInteriorRing");
 	public static final IRI st_addMeasure=factory.createIRI(NAMESPACE, "ST_AddMeasure");
 	public static final	IRI ST_ADDPOINT=factory.createIRI(NAMESPACE, "ST_AddPoint");
 	public static final	IRI ST_ADDZ=factory.createIRI(NAMESPACE, "ST_AddZ");
@@ -377,6 +378,8 @@ public class POSTGIS {
         public static final IRI st_reflect=factory.createIRI(NAMESPACE, "ST_Reflect");
         public static final IRI st_relate=factory.createIRI(NAMESPACE, "ST_Relate");
         public static final IRI st_relateMatch=factory.createIRI(NAMESPACE, "ST_RelateMatch");
+		public static final IRI st_removeGeometry=factory.createIRI(NAMESPACE, "ST_RemoveGeometry");
+		public static final IRI st_removeInteriorRing=factory.createIRI(NAMESPACE, "ST_RemoveInteriorRing");
         public static final IRI st_removePoint=factory.createIRI(NAMESPACE, "ST_RemovePoint");
         public static final IRI st_removePoints=factory.createIRI(NAMESPACE, "ST_RemovePoints");
         public static final IRI st_removeRepeatedPoints=factory.createIRI(NAMESPACE, "ST_RemoveRepeatedPoints");
@@ -401,11 +404,13 @@ public class POSTGIS {
 		public static final IRI ST_selfIntersections=factory.createIRI(NAMESPACE, "ST_SelfIntersections");
 		public static final IRI st_setBandNoDataValue = factory.createIRI(NAMESPACE, "ST_SetBandNoDataValue");
 		public static final IRI st_setEndPoint=factory.createIRI(NAMESPACE, "ST_SetEndPoint");
+		public static final IRI st_setGeometry=factory.createIRI(NAMESPACE, "ST_SetGeometry");
 		public static final IRI st_setScale=factory.createIRI(NAMESPACE, "ST_SetScale");
         public static final IRI st_setSkew=factory.createIRI(NAMESPACE, "ST_SetSkew");
 		public static final IRI st_setStartPoint=factory.createIRI(NAMESPACE, "ST_SetStartPoint");
         public static final IRI st_setRotation=factory.createIRI(NAMESPACE, "ST_SetRotation");
         public static final IRI st_setGeoReference=factory.createIRI(NAMESPACE, "ST_SetGeoReference");
+		public static final IRI st_setInteriorRing=factory.createIRI(NAMESPACE, "ST_SetInteriorRing");
         public static final IRI st_setUpperLeft=factory.createIRI(NAMESPACE, "ST_SetUpperLeft");
         public static final IRI st_setPoint=factory.createIRI(NAMESPACE, "ST_SetPoint");
         public static final IRI st_setSRID=factory.createIRI(NAMESPACE, "ST_SetSRID");
@@ -533,6 +538,7 @@ public class POSTGIS {
 		public static final IRI SRIDHasFlippedAxis =factory.createIRI(NAMESPACE, "SRID_HasFlippedAxis");
 		public static final IRI SRIDIsGeographic = factory.createIRI(NAMESPACE, "SRID_IsGeographic");
 		public static final IRI SRIDIsProjected =factory.createIRI(NAMESPACE, "SRID_IsProjected");
+		public static final IRI SRIDIsVertical =factory.createIRI(NAMESPACE, "SRID_IsVertical");
 		public static final IRI SRIDToEPSG =factory.createIRI(NAMESPACE, "SRIDToEPSG");
 		
         public static final String WKB = "WKB";
@@ -568,6 +574,12 @@ public class POSTGIS {
 		public static final IRI ST_ToDegrees=factory.createIRI(NAMESPACE, "ST_ToDegrees");
 		
 		public static final IRI ST_ToRadians=factory.createIRI(NAMESPACE, "ST_ToRadians");
+
+
+
+
+
+
 
 
 
