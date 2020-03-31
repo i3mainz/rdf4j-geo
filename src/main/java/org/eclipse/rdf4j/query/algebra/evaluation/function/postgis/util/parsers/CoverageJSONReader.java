@@ -1,5 +1,8 @@
 package org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.parsers;
 
+import java.awt.image.BufferedImage;
+import java.awt.image.DataBuffer;
+import java.awt.image.WritableRaster;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
@@ -11,15 +14,25 @@ import org.apache.sis.coverage.SampleDimension;
 import org.apache.sis.coverage.grid.GridCoverage;
 import org.apache.sis.coverage.grid.GridExtent;
 import org.apache.sis.coverage.grid.GridGeometry;
+import org.apache.sis.coverage.grid.ImageRenderer;
 import org.apache.sis.geometry.Envelope2D;
+import org.apache.sis.internal.coverage.BufferedGridCoverage;
 import org.apache.sis.internal.coverage.GridCoverage2D;
 import org.apache.sis.measure.Range;
 import org.apache.sis.referencing.NamedIdentifier;
+import org.apache.sis.referencing.crs.DefaultTemporalCRS;
+import org.apache.sis.referencing.datum.DefaultTemporalDatum;
+import org.apache.sis.referencing.factory.GeodeticAuthorityFactory;
 import org.apache.sis.util.iso.Names;
+import org.geotoolkit.referencing.CRS;
 import org.geotoolkit.util.NumberRange;
 import org.json.JSONArray;
 import org.json.JSONObject;
 import org.opengis.metadata.spatial.DimensionNameType;
+import org.opengis.referencing.crs.CoordinateReferenceSystem;
+import org.opengis.referencing.datum.TemporalDatum;
+import org.opengis.referencing.operation.MathTransform;
+import org.opengis.temporal.TemporalReferenceSystem;
 import org.opengis.util.FactoryException;
 import org.opengis.util.GenericName;
 
@@ -135,6 +148,31 @@ public class CoverageJSONReader {
 				axestypes.add(DimensionNameType.TIME);
 			}
 		}*/
+		String epsg="";
+		CoordinateReferenceSystem sys=null;
+		MathTransform transform;
+		if(covjson.getJSONObject("domain").has("referencing")) {
+			JSONArray refs=covjson.getJSONObject("domain").getJSONArray("referencing");
+			for(int i=0;i<refs.length();i++) {
+				JSONObject ref=refs.getJSONObject(i);
+				if(ref.getJSONObject("system").getString("type").equals("GeographicCRS")) {
+					epsg=ref.getJSONObject("system").getString("id").substring(ref.getJSONObject("system").getString("id").lastIndexOf('/')+1);
+					try {
+						//sys=CRS.decode("EPSG:"+epsg);
+					} catch (Exception e) {
+						// TODO Auto-generated catch block
+						e.printStackTrace();
+					}
+				}
+				/*if(ref.getJSONObject("system").getString("type").equals("TemporalRS")) {
+					TemporalDatum datum=new TemporalDatum
+					datum.
+				    DefaultTemporalCRS tcrs=DefaultTemporalCRS(new TreeMap<>(), datum, cs)
+				}*/
+			}
+			
+		}
+
 		System.out.println(mins);
 		System.out.println(maxs);
 		System.out.println("DimensionNameType: "+axestypes);
@@ -142,9 +180,15 @@ public class CoverageJSONReader {
 		System.out.println("Maxs: "+maxs);
 		GridExtent extent=new GridExtent(axestypes.toArray(new DimensionNameType[0]),
 				ArrayUtils.toPrimitive(mins.toArray(new Long[0])), 
-				ArrayUtils.toPrimitive(maxs.toArray(new Long[0])),true);		
+				ArrayUtils.toPrimitive(maxs.toArray(new Long[0])),true);	
 		Envelope2D gridenv=new Envelope2D();
-		GridGeometry gridgeom=new GridGeometry(extent, gridenv);//domain
+		GridGeometry gridgeom=null;
+		if(sys!=null) {
+			gridgeom=new GridGeometry(extent,null,null,sys);//domain
+		}else {
+			gridgeom=new GridGeometry(extent, gridenv);//domain
+		}
+
 		Map<String,List<Category>> categories=new TreeMap<>();
 		for(String key:covjson.getJSONObject("ranges").keySet()) {
 			if(!categories.containsKey(key)) {
@@ -156,33 +200,56 @@ public class CoverageJSONReader {
 				for (int i = 0; i < values.length(); i++) {
 				    intrange[i] = values.optInt(i);
 				}
+				org.apache.sis.measure.NumberRange<?> range;
 				//NumberRange<Integer> range=new NumberRange<Integer>(null);
+				/*Category.
+				Category cat=new Category(key,range,null,null,null);
+				categories.get(key).add(cat);*/
 
 			}
-			//Category cat=new Category(key,)
-			//categories.get(key).add(cat);
+
 
 					
 		}
+/*		
+		ParameterBlock pb = new ParameterBlock();
+        pb.add(
+                spi.createInputStreamInstance(
+                        inFile, ImageIO.getUseCache(), ImageIO.getCacheDirectory()));
+        pb.add(index);
+        pb.add(Boolean.FALSE);
+        pb.add(Boolean.FALSE);
+        pb.add(Boolean.FALSE);
+        pb.add(null);
+        pb.add(null);
+        pb.add(readP);
+        pb.add(READER_SPI.createReaderInstance());
+	*/
 		List<SampleDimension> dimensions=new LinkedList<SampleDimension>();
 		for(String key:covjson.getJSONObject("parameters").keySet()) {
 			GenericName name=Names.createGenericName("http://www.semgis.de/geodata#", "#", new String[] {key});
 			if(categories.containsKey(key)) {
-				NamedIdentifier id=new NamedIdentifier(name);
 				dimensions.add(new SampleDimension(name, Integer.valueOf("0"), categories.get(key)));
 			}else {
 				dimensions.add(new SampleDimension(name, 0, new LinkedList<Category>()));
 			}
 		}
-		GridCoverage res;
-		try {
-			res = new GridCoverage2D(gridgeom,dimensions,null);
-			return res;
-		} catch (FactoryException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-		return null;
+		System.out.println(dimensions);
+		/*
+		 * Create the grid coverage, gets its image and set values directly as short
+		 * integers.
+		 */
+		BufferedGridCoverage coverage = new BufferedGridCoverage(gridgeom,
+				dimensions, DataBuffer.TYPE_INT);
+		System.out.println(coverage);
+		ImageRenderer renderer=new ImageRenderer(coverage,extent);
+		//renderer.setData(data);
+		//WritableRaster raster=renderer.raster();
+		//WritableRaster rasterr = ((BufferedImage) coverage.render(null)).getRaster();
+		
+		//rasterr.setDataElements(x, y, rasterr);
+		//rasterr.setRect(subtractedImage.getSourceImage(0).getData());
+		return coverage;
 	}
 	
 	
@@ -246,5 +313,7 @@ public class CoverageJSONReader {
 				"  }\r\n" + 
 				"}";
 			GridCoverage cov=covJSONStringToCoverage(covjson);
+			System.out.println(CoverageJsonWriter.coverageToCovJSON(cov).toString(2));
+			
 	}
 }
