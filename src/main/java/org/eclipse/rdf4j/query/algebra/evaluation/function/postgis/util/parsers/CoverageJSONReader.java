@@ -13,7 +13,6 @@ import org.apache.sis.coverage.grid.GridExtent;
 import org.apache.sis.coverage.grid.GridGeometry;
 import org.apache.sis.geometry.Envelope2D;
 import org.apache.sis.internal.coverage.GridCoverage2D;
-import org.apache.sis.measure.Range;
 import org.apache.sis.referencing.NamedIdentifier;
 import org.apache.sis.util.iso.Names;
 import org.geotoolkit.util.NumberRange;
