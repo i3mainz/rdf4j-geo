@@ -6,7 +6,6 @@ import org.eclipse.rdf4j.model.Value;
 import org.eclipse.rdf4j.model.ValueFactory;
 import org.eclipse.rdf4j.model.impl.SimpleValueFactory;
 import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.geometry.attribute.IsPlanar;
-import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.geometry.attribute.IsSolid;
 import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.literals.vector.WKTDatatype;
 import org.junit.Test;
 

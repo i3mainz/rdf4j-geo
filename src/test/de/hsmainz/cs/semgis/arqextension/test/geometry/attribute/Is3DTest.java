@@ -5,7 +5,6 @@ import static org.junit.Assert.assertEquals;
 import org.eclipse.rdf4j.model.Value;
 import org.eclipse.rdf4j.model.ValueFactory;
 import org.eclipse.rdf4j.model.impl.SimpleValueFactory;
-import org.eclipse.rdf4j.model.impl.ValueFactoryImpl;
 import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.geometry.attribute.Is3D;
 import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.literals.vector.WKTDatatype;
 import org.junit.Test;
@@ -25,3 +24,4 @@ public class Is3DTest {
 	
 
 }
+

@@ -5,7 +5,6 @@ import static org.junit.Assert.assertEquals;
 import org.eclipse.rdf4j.model.Value;
 import org.eclipse.rdf4j.model.ValueFactory;
 import org.eclipse.rdf4j.model.impl.SimpleValueFactory;
-import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.geometry.attribute.MinimumBoundingRadius;
 import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.geometry.attribute.MinimumDiameter;
 import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.literals.vector.WKTDatatype;
 import org.junit.jupiter.api.Test;
