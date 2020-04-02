@@ -14,8 +14,8 @@ public abstract class GeometricUnaryFunction implements Function {
 
 	@Override
 	public Value evaluate(ValueFactory valueFactory, Value... args) throws ValueExprEvaluationException {
-		if (args.length != 2) {
-			throw new ValueExprEvaluationException(getURI() + " requires exactly 2 arguments, got " + args.length);
+		if (args.length != 1) {
+			throw new ValueExprEvaluationException(getURI() + " requires exactly 1 argument, got " + args.length);
 		}
 		
 		LiteralType l=LiteralRegistry.getLiteral(((Literal)args[0]).getDatatype().toString());
