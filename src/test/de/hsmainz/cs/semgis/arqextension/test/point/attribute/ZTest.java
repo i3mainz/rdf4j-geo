@@ -11,7 +11,7 @@ import org.junit.jupiter.api.Test;
 
 public class ZTest {
 
-public static final String testPoint="POINT(1 2 3 4)";
+public static final String testPoint="POINT Z (1 2 3)";
 	
 	@Test
 	public void testZ() {

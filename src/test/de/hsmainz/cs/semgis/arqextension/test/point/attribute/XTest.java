@@ -12,7 +12,7 @@ import org.junit.jupiter.api.Test;
 
 public class XTest {
 
-	public static final String testPoint="POINT(1 2 3 4)";
+	public static final String testPoint="POINT(1 2 3)";
 	
 	@Test
 	public void testX() {

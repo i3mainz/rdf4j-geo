@@ -11,7 +11,7 @@ import org.junit.jupiter.api.Test;
 
 public class MTest {
 
-	public static final String testPoint="POINT(1 2 3 4)";
+	public static final String testPoint="POINT M (1 2 3)";
 	
 	@Test
 	public void testM() {
@@ -19,7 +19,7 @@ public class MTest {
 		ValueFactory valfac=SimpleValueFactory.getInstance();
 		Value geo=valfac.createLiteral(testPoint, WKTDatatype.LiteralIRI);
 		Value result=instance.evaluate(valfac, geo);
-		Value expResult=valfac.createLiteral(4.);
+		Value expResult=valfac.createLiteral(3.);
 		assertEquals(expResult, result);
 	}
 	
