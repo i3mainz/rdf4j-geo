@@ -19,7 +19,7 @@ public static final String testLineString="LINESTRING(1 2,1 10)";
 		ValueFactory valfac=SimpleValueFactory.getInstance();
 		Value geo=valfac.createLiteral(testLineString, WKTDatatype.LiteralIRI);
 		Value result=instance.evaluate(valfac, geo);
-		Value expResult=valfac.createLiteral(true);
+		Value expResult=valfac.createLiteral("LINESTRING (1 10, 1 2)",WKTDatatype.LiteralIRI);
 	    assertEquals(expResult, result);
 	}
 }

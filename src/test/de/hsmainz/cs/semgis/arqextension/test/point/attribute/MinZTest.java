@@ -14,7 +14,7 @@ public class MinZTest {
 public static final String testPoint="LINESTRING(1 2 3, 4 5 6,7 8 9)";
 	
 	@Test
-	public void testMinZ() {
+	public void testZMin() {
 		ZMin instance=new ZMin();
 		ValueFactory valfac=SimpleValueFactory.getInstance();
 		Value geo=valfac.createLiteral(testPoint, WKTDatatype.LiteralIRI);
