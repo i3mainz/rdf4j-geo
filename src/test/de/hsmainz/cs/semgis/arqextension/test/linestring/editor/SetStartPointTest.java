@@ -1,4 +1,4 @@
-package de.hsmainz.cs.semgis.arqextension.test.geometry.editor;
+package de.hsmainz.cs.semgis.arqextension.test.linestring.editor;
 
 import static org.junit.Assert.assertEquals;
 
