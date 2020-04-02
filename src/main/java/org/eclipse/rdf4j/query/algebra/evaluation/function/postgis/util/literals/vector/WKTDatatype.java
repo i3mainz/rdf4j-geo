@@ -1,5 +1,11 @@
 package org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.literals.vector;
 
+import org.eclipse.rdf4j.model.IRI;
+import org.eclipse.rdf4j.model.ValueFactory;
+import org.eclipse.rdf4j.model.impl.SimpleIRI;
+import org.eclipse.rdf4j.model.impl.SimpleValueFactory;
+import org.eclipse.rdf4j.model.impl.URIImpl;
+import org.eclipse.rdf4j.model.impl.ValueFactoryImpl;
 import org.eclipse.rdf4j.model.vocabulary.POSTGIS;
 import org.locationtech.jts.geom.Geometry;
 import org.locationtech.jts.io.ParseException;
@@ -11,7 +17,9 @@ public class WKTDatatype extends VectorLiteral {
     /**
      * The default WKT type URI.
      */
-    public static final String URI = POSTGIS.NAMESPACE+POSTGIS.WKT.toLowerCase()+"Literal";
+    public static final String URI = POSTGIS.NAMESPACE+"wktLiteral";
+    
+    public static final IRI LiteralIRI=SimpleValueFactory.getInstance().createIRI(POSTGIS.NAMESPACE+"wktLiteral");
 
     /**
      * A static instance of WKTDatatype.
