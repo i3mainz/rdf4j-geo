@@ -11,7 +11,7 @@ public class Exp implements Function {
 	@Override
 	public String getURI() {
 		// TODO Auto-generated method stub
-		return POSTGIS.Floor.stringValue();
+		return POSTGIS.Exp.stringValue();
 	}
 
 	@Override
