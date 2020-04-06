@@ -208,6 +208,7 @@ public class POSTGIS {
         public static final IRI st_isRing=factory.createIRI(NAMESPACE, "ST_IsRing");
         public static final IRI st_isSimple=factory.createIRI(NAMESPACE, "ST_IsSimpleFF");
 		public static final IRI st_isSolid = factory.createIRI(NAMESPACE, "ST_IsSolid");
+		public static final IRI st_isSquare= factory.createIRI(NAMESPACE, "ST_IsSquare");
 		public static final IRI st_isTiled=factory.createIRI(NAMESPACE, "ST_IsTiled");
 	    public static final IRI st_isTranslucent=factory.createIRI(NAMESPACE, "ST_IsTranslucent");
 		public static final IRI st_isTriangle= factory.createIRI(NAMESPACE, "ST_IsTriangle");
@@ -233,6 +234,8 @@ public class POSTGIS {
         public static final IRI st_lineSelfIntersectionPoint=factory.createIRI(NAMESPACE, "ST_LineSelfIntersectionPoint");
         public static final IRI st_lineSubstring=factory.createIRI(NAMESPACE, "ST_LineSubstring");
         public static final IRI st_lineToCurve=factory.createIRI(NAMESPACE, "ST_LineToCurve");
+		public static final IRI st_linesCutAtNodes=factory.createIRI(NAMESPACE, "ST_LinesCutAtNodes");
+		public static final IRI st_linesFromRings=factory.createIRI(NAMESPACE, "ST_LinesFromRings");
         public static final IRI st_locateAlong=factory.createIRI(NAMESPACE, "ST_LocateAlong");
         public static final IRI st_locateBetween=factory.createIRI(NAMESPACE, "ST_LocateBetween");
         public static final IRI st_locateBetweenElevations=factory.createIRI(NAMESPACE, "ST_LocateBetweenElevations");
@@ -252,6 +255,7 @@ public class POSTGIS {
         public static final IRI st_makePointM=factory.createIRI(NAMESPACE, "ST_MakePointM");
         public static final IRI st_makePolygon=factory.createIRI(NAMESPACE, "ST_MakePolygon");
         public static final IRI st_makeValid=factory.createIRI(NAMESPACE, "ST_MakeValid");
+		public static final IRI st_makeValidDiscarded=factory.createIRI(NAMESPACE, "ST_MakeValidDiscarded");
         public static final IRI st_memsize=factory.createIRI(NAMESPACE, "ST_MemSize");
         public static final IRI st_minimumBoundingCircle=factory.createIRI(NAMESPACE, "ST_MinimumBoundingCircle");
         public static final IRI st_minimumBoundingCircleCenter=factory.createIRI(NAMESPACE, "ST_MinimumBoundingCircleCenter");
@@ -390,6 +394,7 @@ public class POSTGIS {
         public static final IRI st_retile=factory.createIRI(NAMESPACE, "ST_Retile");
         public static final IRI st_reverse=factory.createIRI(NAMESPACE, "ST_Reverse");
 		public static final IRI st_reverseRing=factory.createIRI(NAMESPACE, "ST_ReverseRing");
+		public static final IRI st_ringsCutAtNodes=factory.createIRI(NAMESPACE, "ST_RingsCutAtNodes");
         public static final IRI st_rotate=factory.createIRI(NAMESPACE, "ST_Rotate");
         public static final IRI st_rotateX=factory.createIRI(NAMESPACE, "ST_RotateX");
         public static final IRI st_rotateY=factory.createIRI(NAMESPACE, "ST_RotateY");
@@ -574,25 +579,6 @@ public class POSTGIS {
 		public static final IRI ST_ToDegrees=factory.createIRI(NAMESPACE, "ST_ToDegrees");
 		
 		public static final IRI ST_ToRadians=factory.createIRI(NAMESPACE, "ST_ToRadians");
-
-
-
-
-
-
-
-
-
-
-
-
-;
-
-
-
-
-
-
 
 
 
