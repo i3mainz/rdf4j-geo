@@ -5,8 +5,6 @@ import org.locationtech.jts.geom.Geometry;
 import org.locationtech.jts.io.ParseException;
 import org.locationtech.jts.io.WKBReader;
 import org.locationtech.jts.io.WKBWriter;
-import org.slf4j.Logger;
-	import org.slf4j.LoggerFactory;
 
 	/**
 	 * WKTDatatype class allows the URI "geo:wktLiteral" to be used as a datatype

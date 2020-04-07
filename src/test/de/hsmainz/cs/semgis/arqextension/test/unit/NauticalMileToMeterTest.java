@@ -15,7 +15,7 @@ public class NauticalMileToMeterTest {
 		ValueFactory valfac=SimpleValueFactory.getInstance();
         Value unitamount = valfac.createLiteral(1.);
         NauticalMileToMeter instance=new NauticalMileToMeter();
-        Value expResult = valfac.createLiteral(1852);
+        Value expResult = valfac.createLiteral(1852.0);
         Value result= instance.evaluate(valfac,unitamount);
         System.out.println(result);
         assertEquals(expResult, result);

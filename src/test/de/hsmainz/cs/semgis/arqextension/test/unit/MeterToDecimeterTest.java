@@ -17,7 +17,7 @@ public class MeterToDecimeterTest {
 		ValueFactory valfac=SimpleValueFactory.getInstance();
         Value unitamount = valfac.createLiteral(1.);
         MeterToDecimeter instance=new MeterToDecimeter();
-        Value expResult = valfac.createLiteral(1.);
+        Value expResult = valfac.createLiteral(10.);
         Value result= instance.evaluate(valfac,unitamount);
         System.out.println(result);
         assertEquals(expResult, result);        

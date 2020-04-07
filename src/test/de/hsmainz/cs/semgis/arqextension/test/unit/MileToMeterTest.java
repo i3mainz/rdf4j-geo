@@ -13,7 +13,7 @@ public class MileToMeterTest {
 	@Test
 	public void testMileToMeter() {
 		ValueFactory valfac=SimpleValueFactory.getInstance();
-        Value unitamount = valfac.createLiteral(1000.);
+        Value unitamount = valfac.createLiteral(1.);
         MileToMeter instance=new MileToMeter();
         Value expResult = valfac.createLiteral(1609.3470878864446);
         Value result= instance.evaluate(valfac,unitamount);
