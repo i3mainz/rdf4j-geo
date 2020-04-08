@@ -6,7 +6,7 @@ import static org.junit.Assert.assertEquals;
 import org.eclipse.rdf4j.model.Value;
 import org.eclipse.rdf4j.model.ValueFactory;
 import org.eclipse.rdf4j.model.impl.SimpleValueFactory;
-import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.functions.units.MeterToChain;
+import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.unit.MeterToChain;
 import org.junit.jupiter.api.Test;
 
 
