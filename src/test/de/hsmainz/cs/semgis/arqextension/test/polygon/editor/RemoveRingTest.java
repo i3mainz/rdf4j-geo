@@ -12,7 +12,7 @@ import org.junit.jupiter.api.Test;
 
 public class RemoveRingTest {
 
-	public static final String duplicateRings="POLYGON((8 2, 11 13, 2 6, 8 2), (8 2, 11 13, 2 6, 8 2))";
+	public static final String duplicateRings="POLYGON ((8 2, 11 13, 2 6, 8 2), (8 2, 11 13, 2 6, 8 2))";
 	
 	public static final String nonduplicateRings="POLYGON ((8 2, 11 13, 2 6, 8 2))";
 	

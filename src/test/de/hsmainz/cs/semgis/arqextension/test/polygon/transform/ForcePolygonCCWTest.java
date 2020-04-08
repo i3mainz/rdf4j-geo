@@ -12,9 +12,9 @@ import org.junit.jupiter.api.Test;
 
 public class ForcePolygonCCWTest {
 
-	public static final String testPolygon="POLYGON((1 2, 7 8, 5 6, 3 4, 1 2))";
+	public static final String testPolygon="POLYGON ((1 2, 7 8, 5 6, 3 4, 1 2))";
 	
-	public static final String testPolygon2="POLYGON((1 2, 3 4, 5 6, 1 2))";
+	public static final String testPolygon2="POLYGON ((1 2, 3 4, 5 6, 1 2))";
 	
 	@Test
 	public void testForcePolygonCCW() {
