@@ -1,4 +1,4 @@
-package org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.functions.units;
+package org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.math;
 
 import org.eclipse.rdf4j.model.Value;
 import org.eclipse.rdf4j.model.ValueFactory;
@@ -6,12 +6,12 @@ import org.eclipse.rdf4j.model.vocabulary.POSTGIS;
 import org.eclipse.rdf4j.query.algebra.evaluation.ValueExprEvaluationException;
 import org.eclipse.rdf4j.query.algebra.evaluation.function.Function;
 
-public class MeterToKilometer implements Function {
+public class ToDegrees implements Function {
 
 	@Override
 	public String getURI() {
 		// TODO Auto-generated method stub
-		return POSTGIS.MeterToKilometer.stringValue();
+		return POSTGIS.ST_ToDegrees.stringValue();
 	}
 
 	@Override
@@ -20,7 +20,7 @@ public class MeterToKilometer implements Function {
 			throw new ValueExprEvaluationException(getURI() + " requires exactly 1 arguments, got " + args.length);
 		}			
 		Double value=Double.valueOf(args[0].stringValue());
-		return valueFactory.createLiteral(value/1000);
+		return valueFactory.createLiteral(Math.toDegrees(value));
 	}
 
 }

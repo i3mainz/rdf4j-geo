@@ -1,4 +1,4 @@
-package org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.functions.units;
+package org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.math;
 
 import org.eclipse.rdf4j.model.Value;
 import org.eclipse.rdf4j.model.ValueFactory;
@@ -6,12 +6,12 @@ import org.eclipse.rdf4j.model.vocabulary.POSTGIS;
 import org.eclipse.rdf4j.query.algebra.evaluation.ValueExprEvaluationException;
 import org.eclipse.rdf4j.query.algebra.evaluation.function.Function;
 
-public class MeterToYard implements Function {
+public class TanH implements Function {
 
 	@Override
 	public String getURI() {
 		// TODO Auto-generated method stub
-		return POSTGIS.MeterToYard.stringValue();
+		return POSTGIS.TanH.stringValue();
 	}
 
 	@Override
@@ -20,7 +20,7 @@ public class MeterToYard implements Function {
 			throw new ValueExprEvaluationException(getURI() + " requires exactly 1 arguments, got " + args.length);
 		}			
 		Double value=Double.valueOf(args[0].stringValue());
-		return valueFactory.createLiteral(value*1.0936);
+		return valueFactory.createLiteral(Math.tanh(value));
 	}
 
 }
