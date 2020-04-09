@@ -28,15 +28,29 @@ public class OrConst extends RasterAlgebraConstFunction {
 	public GridCoverage modify(GridCoverage raster,Integer rd1,Double constt) {
 		ParameterBlock pbSubtracted = new ParameterBlock();
 		pbSubtracted.addSource(raster.render(raster.getGridGeometry().getExtent()));
-		pbSubtracted.add(constt);
+		double[] consts=new double[raster.getSampleDimensions().size()];
+		if(rd1.intValue()<0) {
+			for(int i=0;i<consts.length;i++) {
+				consts[i]=constt;
+			}
+		}else {
+			for(int i=0;i<consts.length;i++) {
+				if(i==rd1.intValue()) {
+					consts[i]=constt;
+				}else {
+					consts[i]=0;
+				}
+			}
+		}
+		pbSubtracted.add(consts);
 		RenderedOp subtractedImage = JAI.create("orconst", pbSubtracted);
 		final SampleDimension sd = new SampleDimension.Builder().setName("t")
 				.addQuantitative(
 						(raster.getSampleDimensions().get(rd1).getName() + " orconst "
 								+ constt).toString(),
-						raster.getSampleDimensions().get(0).getMeasurementRange().get(),
-						raster.getSampleDimensions().get(0).getTransferFunction().get(),
-						raster.getSampleDimensions().get(0).getUnits().get())
+						raster.getSampleDimensions().get(rd1).getMeasurementRange().get(),
+						raster.getSampleDimensions().get(rd1).getTransferFunction().get(),
+						raster.getSampleDimensions().get(rd1).getUnits().get())
 				.build();
 		
 		List<SampleDimension>sds=new LinkedList<SampleDimension>();

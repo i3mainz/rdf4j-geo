@@ -15,7 +15,6 @@ import org.apache.sis.coverage.grid.GridCoverage;
 import org.apache.sis.internal.coverage.BufferedGridCoverage;
 import org.eclipse.rdf4j.model.vocabulary.POSTGIS;
 import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.raster.base.RasterAlgebraFunction;
-import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.raster.base.RasterAttributeIntIntFunction;
 
 public class Add extends RasterAlgebraFunction {
 
