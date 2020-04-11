@@ -20,6 +20,7 @@ public abstract class GeometricBinaryAttributeFunction implements Function {
 		}
 		
 		LiteralType l=LiteralRegistry.getLiteral(((Literal)args[0]).getDatatype().toString());
+		System.out.println(l);
 		if(l instanceof VectorLiteral) {
 			Geometry geom=((VectorLiteral)l).read(args[0].stringValue());
 			boolean result = attribute(geom);
