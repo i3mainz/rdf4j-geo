@@ -1,5 +1,7 @@
 package org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.literals.vector;
 
+import org.eclipse.rdf4j.model.IRI;
+import org.eclipse.rdf4j.model.impl.SimpleValueFactory;
 import org.eclipse.rdf4j.model.vocabulary.POSTGIS;
 import org.locationtech.jts.geom.Geometry;
 import org.locationtech.jts.io.ParseException;
@@ -27,12 +29,14 @@ public class HexWKBDatatype extends VectorLiteral {
     /**
      * The default WKT type URI.
      */
-    public static final String URI = POSTGIS.HEXWKB;
+    public static final String URI = POSTGIS.NAMESPACE+POSTGIS.HEXWKB;
 
     /**
      * A static instance of WKTDatatype.
      */
     public static final HexWKBDatatype INSTANCE = new HexWKBDatatype();
+    
+	public static final IRI LiteralIRI=SimpleValueFactory.getInstance().createIRI(POSTGIS.NAMESPACE+POSTGIS.HEXWKB);
 
 
     /**

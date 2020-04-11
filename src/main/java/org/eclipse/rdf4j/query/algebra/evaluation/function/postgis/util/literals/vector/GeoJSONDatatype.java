@@ -18,6 +18,8 @@
  */
 package org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.literals.vector;
 
+import org.eclipse.rdf4j.model.IRI;
+import org.eclipse.rdf4j.model.impl.SimpleValueFactory;
 import org.eclipse.rdf4j.model.vocabulary.POSTGIS;
 import org.locationtech.jts.geom.Geometry;
 import org.wololo.geojson.GeoJSON;
@@ -44,12 +46,15 @@ public class GeoJSONDatatype extends VectorLiteral {
     /**
      * The default WKT type URI.
      */
-    public static final String URI = POSTGIS.GeoJSON;
+    public static final String URI = POSTGIS.NAMESPACE+POSTGIS.GeoJSON;
 
     /**
      * A static instance of WKTDatatype.
      */
     public static final GeoJSONDatatype INSTANCE = new GeoJSONDatatype();
+    
+    public static final IRI LiteralIRI=SimpleValueFactory.getInstance().createIRI(POSTGIS.NAMESPACE+POSTGIS.GeoJSON);
+
     
 
     /**

@@ -13,6 +13,7 @@ public class NumBands extends RasterAttributeFunction{
 
 	@Override
 	public double attribute(GridCoverage raster) {
+		System.out.println(raster);
 		return raster.getSampleDimensions().size();
 	}
 

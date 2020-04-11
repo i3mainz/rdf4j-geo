@@ -10,24 +10,26 @@ import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.LiteralR
 import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.literals.LiteralType;
 import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.literals.raster.RasterLiteral;
 
-public abstract class RasterAlgebraConstFunction implements Function {
+public abstract class RasterAttributeIntIntIntBooleanFunction implements Function {
+
 
 	@Override
 	public Value evaluate(ValueFactory valueFactory, Value... args) throws ValueExprEvaluationException {
 		if (args.length != 3) {
-			throw new ValueExprEvaluationException(getURI() + " requires exactly 3 arguments, got " + args.length);
+			throw new ValueExprEvaluationException(getURI() + " requires exactly 4 arguments, got " + args.length);
 		}
 		LiteralType l=LiteralRegistry.getLiteral(((Literal)args[0]).getDatatype().toString());
 		if(l instanceof RasterLiteral) {
 			GridCoverage geom=((RasterLiteral)l).read(args[0].stringValue());
-			Integer band=Integer.valueOf(args[1].stringValue());
-			Double constt=Double.valueOf(args[2].stringValue());
-			GridCoverage result = modify(geom,band,constt);
-			return valueFactory.createLiteral(((RasterLiteral) l).unparse(result),((Literal)args[0]).getDatatype());
+			Integer noband = Integer.valueOf(args[1].stringValue());
+			Integer x = Integer.valueOf(args[2].stringValue());
+			Integer y = Integer.valueOf(args[2].stringValue());
+			Boolean result = attribute(geom,noband,x,y);
+			return valueFactory.createLiteral(result);
 		}
 		return null;
 	}
 	
-	public abstract GridCoverage modify(GridCoverage coverage,Integer band, Double constt);
+	public abstract Boolean attribute(GridCoverage geom,Integer noband,Integer x,Integer y);
 
 }

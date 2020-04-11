@@ -39,8 +39,6 @@ import org.xml.sax.SAXException;
  */
 public class GMLDatatype extends VectorLiteral {
 
-    private static final Logger LOGGER = LoggerFactory.getLogger(GMLDatatype.class);
-
     /**
      * The default GML type URI.
      */

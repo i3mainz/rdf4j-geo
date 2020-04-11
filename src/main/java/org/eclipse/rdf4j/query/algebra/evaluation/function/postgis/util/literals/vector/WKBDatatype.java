@@ -1,5 +1,7 @@
 package org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.literals.vector;
 
+import org.eclipse.rdf4j.model.IRI;
+import org.eclipse.rdf4j.model.impl.SimpleValueFactory;
 import org.eclipse.rdf4j.model.vocabulary.POSTGIS;
 import org.locationtech.jts.geom.Geometry;
 import org.locationtech.jts.io.ParseException;
@@ -26,12 +28,15 @@ import org.locationtech.jts.io.WKBWriter;
 	    /**
 	     * The default WKT type URI.
 	     */
-	    public static final String URI = POSTGIS.WKB;
+	    public static final String URI = POSTGIS.NAMESPACE+POSTGIS.WKB;
 
 	    /**
 	     * A static instance of WKTDatatype.
 	     */
 	    public static final WKBDatatype INSTANCE = new WKBDatatype();
+	    
+	    public static final IRI LiteralIRI=SimpleValueFactory.getInstance().createIRI(POSTGIS.NAMESPACE+POSTGIS.WKB);
+
 
 	    /**
 	     * This method Un-parses the JTS Geometry to the WKT literal

@@ -3,6 +3,8 @@ package org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.literal
 import java.io.IOException;
 
 import org.apache.sis.coverage.grid.GridCoverage;
+import org.eclipse.rdf4j.model.IRI;
+import org.eclipse.rdf4j.model.impl.SimpleValueFactory;
 import org.eclipse.rdf4j.model.vocabulary.POSTGIS;
 import org.geotoolkit.coverage.wkb.WKBRasterReader;
 import org.geotoolkit.coverage.wkb.WKBRasterWriter;
@@ -10,9 +12,12 @@ import org.opengis.util.FactoryException;
 
 public class WKBRastDatatype extends RasterLiteral {
 
-	public static final String URI = POSTGIS.WKBRaster;
+	public static final String URI = POSTGIS.NAMESPACE+POSTGIS.WKBRaster;
 	
 	public static final WKBRastDatatype INSTANCE = new WKBRastDatatype();
+	
+	public static final IRI LiteralIRI=SimpleValueFactory.getInstance().createIRI(POSTGIS.NAMESPACE+POSTGIS.WKBRaster);
+
 	
 	@Override
 	public GridCoverage read(String geometryLiteral) {

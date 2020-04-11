@@ -1,7 +1,8 @@
 package org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.polygon.attribute;
 
 import org.eclipse.rdf4j.model.vocabulary.POSTGIS;
-import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.geometry.base.GeometricIntegerAttributeFunction;
+import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.geometry.base.GeometricBinaryAttributeFunction;
+import org.locationtech.jts.algorithm.Orientation;
 import org.locationtech.jts.geom.Geometry;
 import org.locationtech.jts.geom.Polygon;
 
@@ -9,7 +10,7 @@ import org.locationtech.jts.geom.Polygon;
  * Returns true if all exterior rings are oriented clockwise and all interior rings are oriented counter-clockwise. 
  *
  */
-public class IsPolygonCW extends GeometricIntegerAttributeFunction {
+public class IsPolygonCW extends GeometricBinaryAttributeFunction {
 
 	@Override
 	public String getURI() {
@@ -17,10 +18,10 @@ public class IsPolygonCW extends GeometricIntegerAttributeFunction {
 	}
 
 	@Override
-	public int attribute(Geometry geom) {
+	public boolean attribute(Geometry geom) {
 	     if (geom instanceof Polygon) {
-	         return ((Polygon) geom).getNumInteriorRing();
+	         return !Orientation.isCCW(geom.getCoordinates());
 	     }
-	     return 0;
+	     return false;
 	}
 }
