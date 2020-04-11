@@ -13,7 +13,7 @@ public class NumYTiles extends RasterAttributeFunction{
 
 	@Override
 	public double attribute(GridCoverage raster) {
-		return raster.render(raster.getGridGeometry().getExtent()).getNumYTiles();
+		return raster.render(raster.getGridGeometry().getExtent()). getNumYTiles();
 	}
 
 }

@@ -1,5 +1,7 @@
 package org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.literals.vector;
 
+import org.eclipse.rdf4j.model.IRI;
+import org.eclipse.rdf4j.model.impl.SimpleValueFactory;
 import org.eclipse.rdf4j.model.vocabulary.POSTGIS;
 import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.LiteralUtils;
 import org.locationtech.geowave.core.geotime.util.TWKBReader;
@@ -29,12 +31,14 @@ public class TWKBDatatype extends VectorLiteral {
     /**
      * The default WKT type URI.
      */
-    public static final String URI = POSTGIS.TWKB;
+    public static final String URI = POSTGIS.NAMESPACE+POSTGIS.TWKB;
 
     /**
      * A static instance of WKTDatatype.
      */
     public static final TWKBDatatype INSTANCE = new TWKBDatatype();
+    
+	public static final IRI LiteralIRI=SimpleValueFactory.getInstance().createIRI(POSTGIS.NAMESPACE+POSTGIS.TWKB);
 
     /**
      * This method Un-parses the JTS Geometry to the WKT literal

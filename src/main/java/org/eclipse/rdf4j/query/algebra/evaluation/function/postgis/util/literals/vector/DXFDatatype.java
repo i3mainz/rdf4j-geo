@@ -18,8 +18,6 @@ import org.locationtech.jts.geom.Coordinate;
 import org.locationtech.jts.geom.Geometry;
 import org.locationtech.jts.geom.GeometryFactory;
 import org.locationtech.jts.geom.LineString;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 
 /**
  * WKTDatatype class allows the URI "geo:wktLiteral" to be used as a datatype

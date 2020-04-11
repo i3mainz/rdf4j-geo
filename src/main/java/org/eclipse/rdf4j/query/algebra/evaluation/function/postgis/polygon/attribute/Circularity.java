@@ -12,8 +12,6 @@ public class Circularity extends GeometricDoubleAttributeFunction {
 		return POSTGIS.st_circularity.stringValue();
 	}
 
-
-
 	@Override
 	public double attribute(Geometry geom) {
         if (geom instanceof Polygon) {

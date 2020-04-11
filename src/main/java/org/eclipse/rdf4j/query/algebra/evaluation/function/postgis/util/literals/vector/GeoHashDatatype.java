@@ -20,7 +20,8 @@ package org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.literal
 import java.util.LinkedList;
 import java.util.List;
 
-import org.apache.sis.referencing.gazetteer.GeohashReferenceSystem;
+import org.eclipse.rdf4j.model.IRI;
+import org.eclipse.rdf4j.model.impl.SimpleValueFactory;
 import org.eclipse.rdf4j.model.vocabulary.POSTGIS;
 import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.LiteralUtils;
 import org.locationtech.jts.geom.Coordinate;
@@ -48,12 +49,14 @@ public class GeoHashDatatype extends VectorLiteral {
     /**
      * The default WKT type URI.
      */
-    public static final String URI = POSTGIS.GeoHash;
+    public static final String URI = POSTGIS.NAMESPACE+POSTGIS.GeoHash;
 
     /**
      * A static instance of WKTDatatype.
      */
     public static final GeoHashDatatype INSTANCE = new GeoHashDatatype();
+    
+	public static final IRI LiteralIRI=SimpleValueFactory.getInstance().createIRI(POSTGIS.NAMESPACE+POSTGIS.GeoHash);
 
     /**
      * This method Un-parses the JTS Geometry to the WKT literal

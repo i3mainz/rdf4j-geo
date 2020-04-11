@@ -1,7 +1,6 @@
 package org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.polygon.attribute;
 
 import org.eclipse.rdf4j.model.vocabulary.POSTGIS;
-import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.geometry.base.GeometricBinaryAttributeFunction;
 import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.geometry.base.GeometricUnaryFunction;
 import org.locationtech.jts.geom.Coordinate;
 import org.locationtech.jts.geom.Geometry;

@@ -8,12 +8,11 @@ import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.parsers.
 
 public class CovJSONDatatype extends RasterLiteral{
 
-	public static final String URI = POSTGIS.CoverageJSON;
+	public static final String URI = POSTGIS.NAMESPACE+POSTGIS.CoverageJSON;
 	
 	public static final CovJSONDatatype INSTANCE=new CovJSONDatatype();
 	
-	public static final IRI LiteralIRI=SimpleValueFactory.getInstance().createIRI(POSTGIS.NAMESPACE+"covJSONLiteral");
-
+	public static final IRI LiteralIRI=SimpleValueFactory.getInstance().createIRI(POSTGIS.NAMESPACE+POSTGIS.CoverageJSON);
 
 	@Override
 	public GridCoverage read(String geometryLiteral) {

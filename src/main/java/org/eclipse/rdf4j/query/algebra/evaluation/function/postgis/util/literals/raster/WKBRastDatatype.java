@@ -12,11 +12,11 @@ import org.opengis.util.FactoryException;
 
 public class WKBRastDatatype extends RasterLiteral {
 
-	public static final String URI = POSTGIS.WKBRaster;
+	public static final String URI = POSTGIS.NAMESPACE+POSTGIS.WKBRaster;
 	
 	public static final WKBRastDatatype INSTANCE = new WKBRastDatatype();
 	
-	public static final IRI LiteralIRI=SimpleValueFactory.getInstance().createIRI(POSTGIS.NAMESPACE+"rastwkbLiteral");
+	public static final IRI LiteralIRI=SimpleValueFactory.getInstance().createIRI(POSTGIS.NAMESPACE+POSTGIS.WKBRaster);
 	
 	@Override
 	public GridCoverage read(String geometryLiteral) {

@@ -20,7 +20,8 @@ public class PolygonFromText extends GeometricConstructor {
         Geometry geom;
 		try {
 			geom = wktreader.read(input);
-	        if("POLYGON".equalsIgnoreCase(geom.getGeometryType().toUpperCase())){
+			System.out.println(geom.getGeometryType());
+	        if("Polygon".equals(geom.getGeometryType())){
 	        	return geom;
 	        }
 		} catch (ParseException e) {

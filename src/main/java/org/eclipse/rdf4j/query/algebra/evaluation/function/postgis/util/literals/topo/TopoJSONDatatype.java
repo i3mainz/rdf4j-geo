@@ -17,6 +17,8 @@
  */
 package org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.literals.topo;
 
+import org.eclipse.rdf4j.model.IRI;
+import org.eclipse.rdf4j.model.impl.SimpleValueFactory;
 import org.eclipse.rdf4j.model.vocabulary.POSTGIS;
 import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.literals.vector.VectorLiteral;
 import org.locationtech.jts.geom.Geometry;
@@ -47,12 +49,15 @@ public class TopoJSONDatatype extends TopologyLiteral {
     /**
      * The default WKT type URI.
      */
-    public static final String URI = POSTGIS.TopoJSON;
+    public static final String URI = POSTGIS.NAMESPACE+POSTGIS.TopoJSON;
 
     /**
      * A static instance of WKTDatatype.
      */
     public static final TopoJSONDatatype INSTANCE = new TopoJSONDatatype();
+    
+    public static final IRI LiteralIRI=SimpleValueFactory.getInstance().createIRI(POSTGIS.NAMESPACE+POSTGIS.TopoJSON);
+
     
     /**
      * This method Un-parses the JTS Geometry to the WKT literal
