@@ -15,7 +15,7 @@ public abstract class RasterAlgebraFunction implements Function {
 	@Override
 	public Value evaluate(ValueFactory valueFactory, Value... args) throws ValueExprEvaluationException {
 		if (args.length != 4) {
-			throw new ValueExprEvaluationException(getURI() + " requires exactly 1 arguments, got " + args.length);
+			throw new ValueExprEvaluationException(getURI() + " requires exactly 4 arguments, got " + args.length);
 		}
 		LiteralType l=LiteralRegistry.getLiteral(((Literal)args[0]).getDatatype().toString());
 		LiteralType l2=LiteralRegistry.getLiteral(((Literal)args[2]).getDatatype().toString());

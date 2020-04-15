@@ -14,7 +14,7 @@ public class XMin extends GeometricDoubleAttributeFunction {
 	@Override
 	public double attribute(Geometry geom) {
         Geometry geo=geom;
-        Double minX=0.;
+        Double minX=Double.MAX_VALUE;
         for(Coordinate coord:geo.getCoordinates()) {
         	if(minX>coord.getX()) {
         		minX=coord.getX();

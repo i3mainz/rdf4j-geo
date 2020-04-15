@@ -18,7 +18,7 @@ public class IsSquare extends GeometricBinaryAttributeFunction {
 			Double distance12=geom.getCoordinates()[1].distance(geom.getCoordinates()[2]);
 			Double distance23=geom.getCoordinates()[2].distance(geom.getCoordinates()[3]);
 			Double distance34=geom.getCoordinates()[3].distance(geom.getCoordinates()[0]);
-			if(distance01==distance23 && distance12==distance34)
+			if(distance01==distance23 && distance12==distance34 && distance01==distance12 && distance23==distance34)
 				return true;
 		}
 		return false;
