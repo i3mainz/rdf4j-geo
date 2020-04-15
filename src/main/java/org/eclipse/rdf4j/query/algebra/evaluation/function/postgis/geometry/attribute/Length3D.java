@@ -4,7 +4,7 @@ import org.eclipse.rdf4j.model.vocabulary.POSTGIS;
 import org.locationtech.jts.geom.Geometry;
 
 import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.geometry.base.GeometricDoubleAttributeFunction;
-import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.linestring.LineLength3D;
+import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.linestring.attribute.LineLength3D;
 
 public class Length3D extends GeometricDoubleAttributeFunction {
 

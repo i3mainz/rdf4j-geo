@@ -13,9 +13,9 @@ public class YMin extends GeometricDoubleAttributeFunction {
 
 	@Override
 	public double attribute(Geometry geom) {
-        Double minY=0.;
+        Double minY=Double.MAX_VALUE;
         for(Coordinate coord:geom.getCoordinates()) {
-        	if(minY<coord.getY()) {
+        	if(minY>coord.getY()) {
         		minY=coord.getY();
         	}
         }
