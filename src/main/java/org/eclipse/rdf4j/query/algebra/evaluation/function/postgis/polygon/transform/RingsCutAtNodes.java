@@ -5,25 +5,24 @@ import java.util.List;
 
 import org.eclipse.rdf4j.model.vocabulary.POSTGIS;
 import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.geometry.base.GeometricModifierDoubleFunction;
+import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.geometry.base.GeometricModifierFunction;
+import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.geometry.base.GeometricUnaryFunction;
 import org.locationtech.jts.geom.Geometry;
 import org.locationtech.jts.geom.GeometryFactory;
 import org.locationtech.jts.geom.LinearRing;
 import org.locationtech.jts.geom.Polygon;
 
-public class ReverseRing extends GeometricModifierDoubleFunction {
+public class RingsCutAtNodes extends GeometricUnaryFunction {
 
 	@Override
 	public String getURI() {
-		return POSTGIS.st_reverseRing.toString();
+		return POSTGIS.st_ringsCutAtNodes.toString();
 	}
 
 	@Override
-	protected Geometry relation(Geometry geom, Double value) {
+	protected Geometry operation(Geometry geom) {
 		if(geom instanceof Polygon) {
 			Polygon poly=(Polygon) geom;
-			if(value<0 || value>poly.getNumInteriorRing()) {
-				return geom;
-			}
 			List<LinearRing> rings=new LinkedList<LinearRing>();
 			for(int i=0;i<poly.getNumInteriorRing();i++) {
 				if(i==value) {
@@ -37,5 +36,5 @@ public class ReverseRing extends GeometricModifierDoubleFunction {
 		}
 		return null;
 	}
-
+	
 }

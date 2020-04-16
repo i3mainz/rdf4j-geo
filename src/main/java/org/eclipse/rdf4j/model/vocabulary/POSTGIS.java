@@ -103,6 +103,8 @@ public class POSTGIS {
 	public static final	IRI st_collectionextract=factory.createIRI(NAMESPACE, "ST_CollectionExtract");
 	public static final	IRI ST_COMPACTNESSRATIO=factory.createIRI(NAMESPACE, "ST_CompactnessRatio");
 	public static final	IRI ST_CONCAVEHULL=factory.createIRI(NAMESPACE, "ST_ConcaveHull");
+	public static final	IRI st_cosinedistance=factory.createIRI(NAMESPACE, "ST_CosineDistance");
+	public static final	IRI st_cosinesimilarity=factory.createIRI(NAMESPACE, "ST_CosineSimilarity");
 	public static final	IRI ST_CONTAINS=factory.createIRI(NAMESPACE, "ST_Contains");
 	public static final	IRI ST_CONTAINSPROPERLY=factory.createIRI(NAMESPACE, "ST_ContainsProperly");
 	public static final	IRI ST_CONVEXHULL=factory.createIRI(NAMESPACE, "ST_ConvexHull");
@@ -264,6 +266,7 @@ public class POSTGIS {
         public static final IRI st_makeValid=factory.createIRI(NAMESPACE, "ST_MakeValid");
 		public static final IRI st_makeValidDiscarded=factory.createIRI(NAMESPACE, "ST_MakeValidDiscarded");
         public static final IRI st_memsize=factory.createIRI(NAMESPACE, "ST_MemSize");
+		public static final IRI st_minkowskidistance=factory.createIRI(NAMESPACE, "ST_MinkowskiDistance");
         public static final IRI st_minimumBoundingCircle=factory.createIRI(NAMESPACE, "ST_MinimumBoundingCircle");
         public static final IRI st_minimumBoundingCircleCenter=factory.createIRI(NAMESPACE, "ST_MinimumBoundingCircleCenter");
         public static final IRI st_minimumBoundingRadius=factory.createIRI(NAMESPACE, "ST_MinimumBoundingRadius");
@@ -279,6 +282,7 @@ public class POSTGIS {
 		public static final IRI st_rast_maxX = factory.createIRI(NAMESPACE, "ST_MaxX");
 		public static final IRI st_rast_minY = factory.createIRI(NAMESPACE, "ST_MinY");
 		public static final IRI st_rast_maxY = factory.createIRI(NAMESPACE, "ST_MaxY");
+		public static final IRI st_manhattandistance= factory.createIRI(NAMESPACE, "ST_ManhattanDistance");
 		public static final IRI st_mirror=factory.createIRI(NAMESPACE, "ST_Mirror");
         public static final IRI st_mLineFromText=factory.createIRI(NAMESPACE, "ST_MLineFromText");
         public static final IRI st_mMin=factory.createIRI(NAMESPACE, "ST_MMin");
@@ -471,6 +475,7 @@ public class POSTGIS {
 		public static final IRI ST_Topo_AddPoint = factory.createIRI(NAMESPACE, "ST_Topo_AddPoint");
 		public static final IRI ST_Topo_AddLineString = factory.createIRI(NAMESPACE, "ST_Topo_AddLineString");
 		public static final IRI ST_TopologyFromTopoJSON = factory.createIRI(NAMESPACE, "ST_TopologyFromTopoJSON");
+		public static final IRI st_toRaster= factory.createIRI(NAMESPACE, "ST_ToRaster");
 		public static final IRI st_union=factory.createIRI(NAMESPACE, "ST_Union");
         public static final IRI st_unaryUnion=factory.createIRI(NAMESPACE, "ST_UnaryUnion");
         public static final IRI st_upperLeftX=factory.createIRI(NAMESPACE, "ST_UpperLeftX");
@@ -593,15 +598,5 @@ public class POSTGIS {
 		public static final IRI ST_ToDegrees=factory.createIRI(NAMESPACE, "ST_ToDegrees");
 	
 		public static final IRI ST_ToRadians=factory.createIRI(NAMESPACE, "ST_ToRadians");
-
-
-
-
-
-
-
-
-
-
 
 }

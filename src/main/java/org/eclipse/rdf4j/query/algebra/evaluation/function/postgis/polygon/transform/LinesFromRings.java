@@ -15,7 +15,7 @@ public class LinesFromRings extends GeometricUnaryFunction {
 
 	@Override
 	public String getURI() {
-		return POSTGIS.st_reverseRing.toString();
+		return POSTGIS.st_linesFromRings.toString();
 	}
 
 	@Override
