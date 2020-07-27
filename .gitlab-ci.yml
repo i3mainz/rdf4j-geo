@@ -37,6 +37,7 @@ pages:
   script:
   - cd docs
   - doxygen Doxyfile
+  - mv docs/css/doxy-boot.js ../public
   - mv html ../public 
   artifacts:
     paths:
