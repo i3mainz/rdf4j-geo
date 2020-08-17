@@ -1,5 +1,5 @@
 var a05572 =
 [
-    [ "testZMax", "a05572.html#aa30e80ee55397130f30395f3c09b1e39", null ],
-    [ "testPoint", "a05572.html#af26f700ee129f846cac58735f6dcc380", null ]
+    [ "testAsEncodedPolyline", "a05572.html#a77e364f1e18fbe312ed563af435ddc8f", null ],
+    [ "testGeometry", "a05572.html#abc3f514f005cba49e406658e2d3086eb", null ]
 ];

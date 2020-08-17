@@ -1,6 +1,7 @@
 var a05540 =
 [
-    [ "testLineString2D", "a05540.html#a100e1041d9eed0108cb20adfb3ccb714", null ],
-    [ "LineString2D", "a05540.html#a4a6127d0b7f1eecce2d32442325f7735", null ],
-    [ "point", "a05540.html#a081811ff1c2bedd0a20703599f90114f", null ]
+    [ "testHasSelfIntersectionsFalse", "a05540.html#a4a909b32ed78a5e48e6acd2cdd04519b", null ],
+    [ "testHasSelfIntersectionsTrue", "a05540.html#ae67f84fa98ae098d78896e2c9885a5ca", null ],
+    [ "testGeom", "a05540.html#a03a5f5da0ccbeed8c1678d4317cf2672", null ],
+    [ "testGeom2", "a05540.html#a6b4be369c8f60e973cd5126e69cd33a4", null ]
 ];

@@ -1,6 +1,5 @@
 var a05452 =
 [
-    [ "testDensify", "a05452.html#a94a17603d200a0a1f4817b4687ee592d", null ],
-    [ "densified", "a05452.html#a2286b0f7822c7fda647fa426d8177283", null ],
-    [ "isocelesTriangle", "a05452.html#aa04dfbec745e2622b9f7646f8572e501", null ]
+    [ "testSridIsProjectedTrue", "a05452.html#a79fa3e75c2d90e917a8ece94f56a16ba", null ],
+    [ "testPoint", "a05452.html#af26f700ee129f846cac58735f6dcc380", null ]
 ];

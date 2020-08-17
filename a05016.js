@@ -1,18 +1,14 @@
 var a05016 =
 [
-    [ "ByteBufferInputStream", "a05020.html", "a05020" ],
-    [ "ExtendedPrecisionReader", "a05028.html", "a05028" ],
-    [ "PrecisionReader", "a05024.html", "a05024" ],
-    [ "TWKBReader", "a05016.html#a2d0cf62133f736a6dec7fbe015b659b3", null ],
-    [ "read", "a05016.html#a4dc57ab77430b9455e05befca4bab869", null ],
-    [ "read", "a05016.html#a9f8cf66c196738c08a011f5cf5360c62", null ],
-    [ "read", "a05016.html#a9652885c7bbb8ceaa0fd9449fe537fba", null ],
-    [ "readGeometryCollection", "a05016.html#ab4d4478c3bf2e64323326c692fc8423c", null ],
-    [ "readLineString", "a05016.html#acede6c0ca02364e8d3082860dbc85756", null ],
-    [ "readMultiLineString", "a05016.html#a2eb2c0cc11788b2a6b4076b1cbc33d4d", null ],
-    [ "readMultiPoint", "a05016.html#a2839b0647e24edb08f4d36933d5085d0", null ],
-    [ "readMultiPolygon", "a05016.html#a9cc7f376f2d046a015b6d579aa02880f", null ],
-    [ "readPoint", "a05016.html#a5f412336d0409a4764a3f8c7f32d762d", null ],
-    [ "readPolygon", "a05016.html#aaf811e3872d22365c43a9226c5ba9a5e", null ],
-    [ "fac", "a05016.html#af84c5a6556159f41065ba301d8ff9ddd", null ]
+    [ "WKBRasterReader", "a05016.html#ae793783ce299284ee201fd7c8313c1d6", null ],
+    [ "createGrayScaleColorModel", "a05016.html#afcfcdba92bf5faa9dfc8a1c7a652c7a9", null ],
+    [ "getGridToCRS", "a05016.html#aef748f2853b5fa1a44ed7c589b2bb197", null ],
+    [ "getSRID", "a05016.html#ade744464aeafe5c61497905c4bac4d95", null ],
+    [ "read", "a05016.html#a14456bc52e7f626048f58646a17a9039", null ],
+    [ "read", "a05016.html#ab8d0b6608f158d1234999e80670eba0e", null ],
+    [ "readCoverage", "a05016.html#aa9fe8abf761e9a17b671b3f8ca04ef37", null ],
+    [ "readCoverage", "a05016.html#a167d89e301db4c86565d6cbf8998b5fa", null ],
+    [ "reset", "a05016.html#ad20897c5c8bd47f5d4005989bead0e55", null ],
+    [ "gridToCRS", "a05016.html#a7074295224e2ade372af7fc4571cdc28", null ],
+    [ "srid", "a05016.html#a7e5be5f62324d24835447fc98661e30b", null ]
 ];

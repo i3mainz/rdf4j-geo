@@ -1,14 +1,8 @@
 var a04928 =
 [
-    [ "Feature", "a04940.html", "a04940" ],
-    [ "FeatureIterable", "a04932.html", "a04932" ],
-    [ "FeatureIterator", "a04936.html", "a04936" ],
-    [ "decode", "a04928.html#aeac0ef15a5dbde26de719ed120f0bae6", null ],
-    [ "decode", "a04928.html#a1c0d64906a835d2288ee30feb7545848", null ],
-    [ "decode", "a04928.html#ac99b1183cf25fdfe9867cb6cc430b532", null ],
-    [ "decode", "a04928.html#aa482114a9e8ad29862090e575092e402", null ],
-    [ "isAutoScale", "a04928.html#a0e526e00d1b2957904d449bc7777d825", null ],
-    [ "setAutoScale", "a04928.html#a8401969dcac5a6db6e988640169b38b4", null ],
-    [ "zigZagDecode", "a04928.html#ae93433e3dbddfef46bfcfad99ea0c45b", null ],
-    [ "autoScale", "a04928.html#a790b272bcf5713954b8582330074dfc8", null ]
+    [ "WKBTextSRS", "a04928.html#a12d2a5c4b7a29eae5d108bccb1e55b11", null ],
+    [ "getSrsURI", "a04928.html#a7d7dded4f73b0a90d90f68ccc5f16bc3", null ],
+    [ "getWkbText", "a04928.html#a4a2ce7a2dcd4fa0818378fb8b97931fb", null ],
+    [ "srsURI", "a04928.html#aaa7845d06052bead86bb2de40935e4d9", null ],
+    [ "wkbText", "a04928.html#a7b6ce5371e4ad222f4b09eaadfdcae09", null ]
 ];

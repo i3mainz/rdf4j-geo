@@ -1,5 +1,6 @@
 var a05180 =
 [
-    [ "testMinimumClearance", "a05180.html#a66deeca736cad11f886ba1567bcb6fe1", null ],
+    [ "testMinimumBoundingCircle", "a05180.html#ae83e48bad70898d10790438246feadad", null ],
+    [ "result", "a05180.html#aab356d6554a7301750f11ec7a85ac47d", null ],
     [ "testPolygon", "a05180.html#a1e3187cbc25299380589200c398b3ffd", null ]
 ];

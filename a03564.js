@@ -1,7 +1,10 @@
 var a03564 =
 [
-    [ "construct", "a03564.html#aed4306d2bdbe40c21c01706f365e83cd", null ],
-    [ "decodePolyline", "a03564.html#afdf77a0767731ca8ed4f32b202562e6c", null ],
+    [ "attribute", "a03564.html#a96c8c336ce0b2174abd59cfbcdb28860", null ],
     [ "evaluate", "a03564.html#a43b4c73244bc6722ce551c1033cf1115", null ],
-    [ "getURI", "a03564.html#ad9fb16b36dd4ccc533d4f05ff94646e3", null ]
+    [ "getURI", "a03564.html#ad9fb16b36dd4ccc533d4f05ff94646e3", null ],
+    [ "length3D", "a03564.html#aea2b9caf141ab6d1b3c6dcdcf12ed005", null ],
+    [ "length3D", "a03564.html#abe1f067229849f6e8f5bd4339dbd5d87", null ],
+    [ "length3D", "a03564.html#a777028c987a1408bfa30fe646fe85238", null ],
+    [ "length3D", "a03564.html#a6dadf778f6bdae08facc7d4743817b99", null ]
 ];

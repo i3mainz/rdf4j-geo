@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>rdf4j-postgis: GPXDatatype Class Reference</title>
+<title>rdf4j-postgis: GeoJSONDatatype Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -63,57 +63,59 @@ $(document).ready(function(){initNavTree('a04860.html','');});
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-attribs">Static Public Attributes</a> &#124;
-<a href="#pac-attribs">Package Attributes</a> &#124;
 <a href="a04857.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">GPXDatatype Class Reference</div>  </div>
+<div class="title">GeoJSONDatatype Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p><a class="el" href="a04924.html">WKTDatatype</a> class allows the URI "geo:wktLiteral" to be used as a datatype and it will parse that datatype to a JTS Geometry.  
+ <a href="a04860.html#details">More...</a></p>
 <div class="dynheader">
-Inheritance diagram for GPXDatatype:</div>
+Inheritance diagram for GeoJSONDatatype:</div>
 <div class="dyncontent">
-<div class="center"><img src="a04859.png" border="0" usemap="#GPXDatatype_inherit__map" alt="Inheritance graph"/></div>
-<map name="GPXDatatype_inherit__map" id="GPXDatatype_inherit__map">
-<area shape="rect" id="node2" href="a04896.html" title="VectorLiteral" alt="" coords="9,80,104,107"/>
-<area shape="rect" id="node3" href="a04788.html" title="LiteralType" alt="" coords="13,5,100,32"/>
+<div class="center"><img src="a04859.png" border="0" usemap="#GeoJSONDatatype_inherit__map" alt="Inheritance graph"/></div>
+<map name="GeoJSONDatatype_inherit__map" id="GeoJSONDatatype_inherit__map">
+<area shape="rect" id="node2" href="a04912.html" title="VectorLiteral" alt="" coords="25,80,120,107"/>
+<area shape="rect" id="node3" href="a04804.html" title="LiteralType" alt="" coords="29,5,116,32"/>
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <div class="dynheader">
-Collaboration diagram for GPXDatatype:</div>
+Collaboration diagram for GeoJSONDatatype:</div>
 <div class="dyncontent">
-<div class="center"><img src="a04858.png" border="0" usemap="#GPXDatatype_coll__map" alt="Collaboration graph"/></div>
-<map name="GPXDatatype_coll__map" id="GPXDatatype_coll__map">
-<area shape="rect" id="node2" href="a04896.html" title="VectorLiteral" alt="" coords="5,81,100,108"/>
-<area shape="rect" id="node3" href="a04788.html" title="LiteralType" alt="" coords="9,5,96,32"/>
+<div class="center"><img src="a04858.png" border="0" usemap="#GeoJSONDatatype_coll__map" alt="Collaboration graph"/></div>
+<map name="GeoJSONDatatype_coll__map" id="GeoJSONDatatype_coll__map">
+<area shape="rect" id="node2" href="a04912.html" title="VectorLiteral" alt="" coords="5,81,100,108"/>
+<area shape="rect" id="node3" href="a04804.html" title="LiteralType" alt="" coords="9,5,96,32"/>
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
+<tr class="memitem:ae918a517e1ebcc44beeee2c55008d248"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a04860.html#ae918a517e1ebcc44beeee2c55008d248">unparse</a> (Geometry geometry)</td></tr>
+<tr class="memdesc:ae918a517e1ebcc44beeee2c55008d248"><td class="mdescLeft">&#160;</td><td class="mdescRight">This method Un-parses the JTS Geometry to the WKT literal.  <a href="#ae918a517e1ebcc44beeee2c55008d248">More...</a><br /></td></tr>
+<tr class="separator:ae918a517e1ebcc44beeee2c55008d248"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a793358fbd6ef538a24eabab1bd50ef01"><td class="memItemLeft" align="right" valign="top">Geometry&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a04860.html#a793358fbd6ef538a24eabab1bd50ef01">read</a> (String geometryLiteral)</td></tr>
 <tr class="separator:a793358fbd6ef538a24eabab1bd50ef01"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8f23415f60c2281824a1ca004a2fce9b"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a04860.html#a8f23415f60c2281824a1ca004a2fce9b">unparse</a> (Geometry geom)</td></tr>
-<tr class="separator:a8f23415f60c2281824a1ca004a2fce9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad146fa8579a5f8a876c4688cc5a68520"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a04860.html#ad146fa8579a5f8a876c4688cc5a68520">toString</a> ()</td></tr>
+<tr class="separator:ad146fa8579a5f8a876c4688cc5a68520"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
-<tr class="memitem:addbf30e6c0ad68fa34277d59a2c6eb5e"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a04860.html#addbf30e6c0ad68fa34277d59a2c6eb5e">URI</a> = <a class="el" href="a02612.html#ae057d879404ce3e744998d9f7e62c8b4">POSTGIS.HEXWKB</a></td></tr>
+<tr class="memitem:addbf30e6c0ad68fa34277d59a2c6eb5e"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a04860.html#addbf30e6c0ad68fa34277d59a2c6eb5e">URI</a> = <a class="el" href="a02624.html#ad263658bd03fbb2214983c7860869a23">POSTGIS.NAMESPACE</a>+<a class="el" href="a02624.html#a85309429582435ba7cfd598e0df35e70">POSTGIS.GeoJSON</a></td></tr>
 <tr class="memdesc:addbf30e6c0ad68fa34277d59a2c6eb5e"><td class="mdescLeft">&#160;</td><td class="mdescRight">The default WKT type URI.  <a href="#addbf30e6c0ad68fa34277d59a2c6eb5e">More...</a><br /></td></tr>
 <tr class="separator:addbf30e6c0ad68fa34277d59a2c6eb5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adbea894b7f5a12d5d110c7b4f9ae435e"><td class="memItemLeft" align="right" valign="top">static final <a class="el" href="a04860.html">GPXDatatype</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a04860.html#adbea894b7f5a12d5d110c7b4f9ae435e">INSTANCE</a> = new <a class="el" href="a04860.html">GPXDatatype</a>()</td></tr>
-<tr class="memdesc:adbea894b7f5a12d5d110c7b4f9ae435e"><td class="mdescLeft">&#160;</td><td class="mdescRight">A static instance of <a class="el" href="a04908.html">WKTDatatype</a>.  <a href="#adbea894b7f5a12d5d110c7b4f9ae435e">More...</a><br /></td></tr>
-<tr class="separator:adbea894b7f5a12d5d110c7b4f9ae435e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pac-attribs"></a>
-Package Attributes</h2></td></tr>
-<tr class="memitem:ab64766cccc4f8fdf5c87b8bcc9493c4a"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a04860.html#ab64766cccc4f8fdf5c87b8bcc9493c4a">out</a></td></tr>
-<tr class="separator:ab64766cccc4f8fdf5c87b8bcc9493c4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a48b1d378681cc025612af2d5d3f4e749"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a04860.html#a48b1d378681cc025612af2d5d3f4e749">out2</a></td></tr>
-<tr class="separator:a48b1d378681cc025612af2d5d3f4e749"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaa6d0ac1bcefab2bfcec1f103c1aec4d"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a04860.html#aaa6d0ac1bcefab2bfcec1f103c1aec4d">out3</a> =&quot; &lt;/trkseg&gt;&lt;/trk&gt;&lt;/gpx&gt;&quot;</td></tr>
-<tr class="separator:aaa6d0ac1bcefab2bfcec1f103c1aec4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac55256a5d2432ae12b6846d3416c13e0"><td class="memItemLeft" align="right" valign="top">static final <a class="el" href="a04860.html">GeoJSONDatatype</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a04860.html#ac55256a5d2432ae12b6846d3416c13e0">INSTANCE</a> = new <a class="el" href="a04860.html">GeoJSONDatatype</a>()</td></tr>
+<tr class="memdesc:ac55256a5d2432ae12b6846d3416c13e0"><td class="mdescLeft">&#160;</td><td class="mdescRight">A static instance of <a class="el" href="a04924.html">WKTDatatype</a>.  <a href="#ac55256a5d2432ae12b6846d3416c13e0">More...</a><br /></td></tr>
+<tr class="separator:ac55256a5d2432ae12b6846d3416c13e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae02c2e86ac0dea8538c7b43e9e82421a"><td class="memItemLeft" align="right" valign="top">static final IRI&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a04860.html#ae02c2e86ac0dea8538c7b43e9e82421a">LiteralIRI</a> =SimpleValueFactory.getInstance().createIRI(<a class="el" href="a02624.html#ad263658bd03fbb2214983c7860869a23">POSTGIS.NAMESPACE</a>+<a class="el" href="a02624.html#a85309429582435ba7cfd598e0df35e70">POSTGIS.GeoJSON</a>)</td></tr>
+<tr class="separator:ae02c2e86ac0dea8538c7b43e9e82421a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Function Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p><a class="el" href="a04924.html">WKTDatatype</a> class allows the URI "geo:wktLiteral" to be used as a datatype and it will parse that datatype to a JTS Geometry. </p>
+<p>Req 10 All RDFS Literals of type geo:wktLiteral shall consist of an optional URI identifying the coordinate reference system followed by Simple Features Well Known Text (WKT) describing a geometric value. Valid geo:wktLiterals are formed by concatenating a valid, absolute URI as defined in [RFC 2396], one or more spaces (Unicode U+0020 character) as a separator, and a WKT string as defined in Simple Features [ISO 19125-1].</p>
+<p>Req 11 The URI</p><div class="fragment"><div class="line">&lt;http:<span class="comment">//www.opengis.net/def/crs/OGC/1.3/CRS84&gt; </span></div></div><!-- fragment --><p> shall be assumed as the spatial reference system for geo:wktLiterals that do not * specify an explicit spatial reference system URI. </p>
+</div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a793358fbd6ef538a24eabab1bd50ef01"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a793358fbd6ef538a24eabab1bd50ef01">&#9670;&nbsp;</a></span>read()</h2>
 
@@ -129,11 +131,29 @@ Package Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;                                                     {</div><div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;</div><div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;                <span class="keywordflow">try</span> {</div><div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;                        SAXParser parser=SAXParserFactory.newInstance().newSAXParser();</div><div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;                        InputStream stream = <span class="keyword">new</span> ByteArrayInputStream(geometryLiteral.getBytes(StandardCharsets.UTF_8));</div><div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;                        GPXHandler handler=<span class="keyword">new</span> GPXHandler();</div><div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;                        parser.parse(stream, handler);</div><div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;                        GeometryFactory fac=<span class="keyword">new</span> GeometryFactory();</div><div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;                        <span class="keywordflow">if</span>(handler.coordinates.size()==1 &amp;&amp; handler.coordinates.get(0).size()==1) {</div><div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;                                <span class="keywordflow">return</span> fac.createPoint(handler.coordinates.get(0).get(0));</div><div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;                        }</div><div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;                        <span class="keywordflow">if</span>(handler.coordinates.size()==1 &amp;&amp; handler.coordinates.get(0).size()&gt;1) {</div><div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;                                <span class="keywordflow">return</span> fac.createLineString(handler.coordinates.get(0).toArray(<span class="keyword">new</span> Coordinate[0]));</div><div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;                        }</div><div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;                        <span class="comment">/*if(handler.coordinates.size()&gt;1 &amp;&amp; handler.coordinates.get(0).size()&gt;1) {</span></div><div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;<span class="comment">                        return GeometryWrapperFactory.createMultiLineString(lineStrings, URI);</span></div><div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;<span class="comment">                        }*/</span></div><div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;                } <span class="keywordflow">catch</span> (SAXException | IOException | ParserConfigurationException e) {</div><div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;                        <span class="keywordflow">throw</span> <span class="keyword">new</span> AssertionError(<span class="stringliteral">&quot;There was an error parsing GPXLiteral: &quot;</span> + geometryLiteral);</div><div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;                }</div><div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;                <span class="keywordflow">throw</span> <span class="keyword">new</span> AssertionError(<span class="stringliteral">&quot;Error parsing GPXLiteral: &quot;</span> + geometryLiteral);</div><div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;        }</div></div><!-- fragment -->
+<div class="fragment"><div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;                                                 {</div><div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;                GeoJSONReader reader = <span class="keyword">new</span> GeoJSONReader();</div><div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;                Geometry geom = reader.read(geometryLiteral);</div><div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;                <span class="keywordflow">return</span> geom;</div><div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;    }</div></div><!-- fragment -->
 </div>
 </div>
-<a id="a8f23415f60c2281824a1ca004a2fce9b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8f23415f60c2281824a1ca004a2fce9b">&#9670;&nbsp;</a></span>unparse()</h2>
+<a id="ad146fa8579a5f8a876c4688cc5a68520"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad146fa8579a5f8a876c4688cc5a68520">&#9670;&nbsp;</a></span>toString()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">String toString </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;                             {</div><div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;        <span class="keywordflow">return</span> <span class="stringliteral">&quot;GeoJSONDatatype{&quot;</span> + <a class="code" href="a04860.html#addbf30e6c0ad68fa34277d59a2c6eb5e">URI</a> + <span class="charliteral">&#39;}&#39;</span>;</div><div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;    }</div><div class="ttc" id="a04860_html_addbf30e6c0ad68fa34277d59a2c6eb5e"><div class="ttname"><a href="a04860.html#addbf30e6c0ad68fa34277d59a2c6eb5e">org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.literals.vector.GeoJSONDatatype.URI</a></div><div class="ttdeci">static final String URI</div><div class="ttdoc">The default WKT type URI. </div><div class="ttdef"><b>Definition:</b> GeoJSONDatatype.java:49</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="ae918a517e1ebcc44beeee2c55008d248"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae918a517e1ebcc44beeee2c55008d248">&#9670;&nbsp;</a></span>unparse()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -142,22 +162,27 @@ Package Attributes</h2></td></tr>
           <td class="memname">String unparse </td>
           <td>(</td>
           <td class="paramtype">Geometry&#160;</td>
-          <td class="paramname"><em>geom</em></td><td>)</td>
+          <td class="paramname"><em>geometry</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="a04860.html#aaa6d0ac1bcefab2bfcec1f103c1aec4d">GPXDatatype.out3</a>.</p>
-<div class="fragment"><div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;                                             {</div><div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;            StringBuilder trackpoints=<span class="keyword">new</span> StringBuilder();</div><div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;            <span class="keywordflow">for</span>(Coordinate coord:geom.getCoordinates()) {</div><div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;                trackpoints.append(<span class="stringliteral">&quot;&lt;trkpt lat=&#39;&quot;</span>+coord.x+<span class="stringliteral">&quot;&#39; lon=&#39;&quot;</span>+coord.y+<span class="stringliteral">&quot;&#39;&gt;&quot;</span>);</div><div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;                <span class="keywordflow">if</span>(!Double.isNaN(coord.getZ()))</div><div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;                        trackpoints.append(<span class="stringliteral">&quot;&lt;ele&gt;&quot;</span>+coord.getZ()+<span class="stringliteral">&quot;&lt;/ele&gt;&quot;</span>);</div><div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;                trackpoints.append(<span class="stringliteral">&quot;&lt;/trkpt&gt;&quot;</span>);</div><div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;            }</div><div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;            <span class="keywordflow">return</span> <a class="code" href="a04860.html#ab64766cccc4f8fdf5c87b8bcc9493c4a">out</a>+<a class="code" href="a04860.html#a48b1d378681cc025612af2d5d3f4e749">out2</a>+trackpoints+<a class="code" href="a04860.html#aaa6d0ac1bcefab2bfcec1f103c1aec4d">out3</a>;</div><div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;        }</div><div class="ttc" id="a04860_html_aaa6d0ac1bcefab2bfcec1f103c1aec4d"><div class="ttname"><a href="a04860.html#aaa6d0ac1bcefab2bfcec1f103c1aec4d">org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.literals.vector.GPXDatatype.out3</a></div><div class="ttdeci">String out3</div><div class="ttdef"><b>Definition:</b> GPXDatatype.java:38</div></div>
-<div class="ttc" id="a04860_html_ab64766cccc4f8fdf5c87b8bcc9493c4a"><div class="ttname"><a href="a04860.html#ab64766cccc4f8fdf5c87b8bcc9493c4a">org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.literals.vector.GPXDatatype.out</a></div><div class="ttdeci">String out</div><div class="ttdef"><b>Definition:</b> GPXDatatype.java:31</div></div>
-<div class="ttc" id="a04860_html_a48b1d378681cc025612af2d5d3f4e749"><div class="ttname"><a href="a04860.html#a48b1d378681cc025612af2d5d3f4e749">org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.literals.vector.GPXDatatype.out2</a></div><div class="ttdeci">String out2</div><div class="ttdef"><b>Definition:</b> GPXDatatype.java:34</div></div>
-</div><!-- fragment -->
+<p>This method Un-parses the JTS Geometry to the WKT literal. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">geometry</td><td>- the JTS Geometry to be un-parsed </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>WKT - the returned WKT Literal. <br />
+ Notice that the Spatial Reference System is not specified in returned WKT literal. </dd></dl>
+<div class="fragment"><div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;                                             {</div><div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;            GeoJSONWriter writer = <span class="keyword">new</span> GeoJSONWriter();</div><div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;            GeoJSON json = writer.write(geometry);</div><div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;            String jsonstring = json.toString();</div><div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;            <span class="keywordflow">return</span> jsonstring;</div><div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;    }</div></div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="adbea894b7f5a12d5d110c7b4f9ae435e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adbea894b7f5a12d5d110c7b4f9ae435e">&#9670;&nbsp;</a></span>INSTANCE</h2>
+<a id="ac55256a5d2432ae12b6846d3416c13e0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac55256a5d2432ae12b6846d3416c13e0">&#9670;&nbsp;</a></span>INSTANCE</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -166,7 +191,7 @@ Package Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">final <a class="el" href="a04860.html">GPXDatatype</a> INSTANCE = new <a class="el" href="a04860.html">GPXDatatype</a>()</td>
+          <td class="memname">final <a class="el" href="a04860.html">GeoJSONDatatype</a> INSTANCE = new <a class="el" href="a04860.html">GeoJSONDatatype</a>()</td>
         </tr>
       </table>
   </td>
@@ -176,36 +201,14 @@ Package Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>A static instance of <a class="el" href="a04908.html">WKTDatatype</a>. </p>
+<p>A static instance of <a class="el" href="a04924.html">WKTDatatype</a>. </p>
 
-<p class="reference">Referenced by <a class="el" href="a04784.html#ab2c1f34f60c2740f703068f27871a32b">LiteralRegistry.LiteralRegistry()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="a04800.html#ab2c1f34f60c2740f703068f27871a32b">LiteralRegistry.LiteralRegistry()</a>.</p>
 
 </div>
 </div>
-<a id="ab64766cccc4f8fdf5c87b8bcc9493c4a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab64766cccc4f8fdf5c87b8bcc9493c4a">&#9670;&nbsp;</a></span>out</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">String out</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">package</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">=               <span class="stringliteral">&quot;&lt;?xml version=&#39;1.0&#39; encoding=&#39;UTF-8&#39; standalone=&#39;no&#39; ?&gt;&quot;</span> + </div><div class="line">                        <span class="stringliteral">&quot;&lt;gpx version=&#39;1.0&#39;&gt;&quot;</span>+</div><div class="line">                        <span class="stringliteral">&quot;&lt;name&gt;Example gpx&lt;/name&gt;&quot;</span></div></div><!-- fragment -->
-</div>
-</div>
-<a id="a48b1d378681cc025612af2d5d3f4e749"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a48b1d378681cc025612af2d5d3f4e749">&#9670;&nbsp;</a></span>out2</h2>
+<a id="ae02c2e86ac0dea8538c7b43e9e82421a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae02c2e86ac0dea8538c7b43e9e82421a">&#9670;&nbsp;</a></span>LiteralIRI</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -214,39 +217,17 @@ Package Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">String out2</td>
+          <td class="memname">final IRI LiteralIRI =SimpleValueFactory.getInstance().createIRI(<a class="el" href="a02624.html#ad263658bd03fbb2214983c7860869a23">POSTGIS.NAMESPACE</a>+<a class="el" href="a02624.html#a85309429582435ba7cfd598e0df35e70">POSTGIS.GeoJSON</a>)</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">package</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">= </div><div class="line">                        <span class="stringliteral">&quot;  &lt;trk&gt;&quot;</span> + </div><div class="line">                        <span class="stringliteral">&quot;    &lt;name&gt;Example gpx&lt;/name&gt;&quot;</span> + </div><div class="line">                        <span class="stringliteral">&quot;    &lt;trkseg&gt;&quot;</span></div></div><!-- fragment -->
-</div>
-</div>
-<a id="aaa6d0ac1bcefab2bfcec1f103c1aec4d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aaa6d0ac1bcefab2bfcec1f103c1aec4d">&#9670;&nbsp;</a></span>out3</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">String out3 =&quot; &lt;/trkseg&gt;&lt;/trk&gt;&lt;/gpx&gt;&quot;</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="a04860.html#a8f23415f60c2281824a1ca004a2fce9b">GPXDatatype.unparse()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="a05236.html#a64b3f7b5bcdec5b93820a9958c0622a3">GeomFromGeoJSONTest.testGeomFromGeoJSON()</a>.</p>
 
 </div>
 </div>
@@ -260,7 +241,7 @@ Package Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">final String URI = <a class="el" href="a02612.html#ae057d879404ce3e744998d9f7e62c8b4">POSTGIS.HEXWKB</a></td>
+          <td class="memname">final String URI = <a class="el" href="a02624.html#ad263658bd03fbb2214983c7860869a23">POSTGIS.NAMESPACE</a>+<a class="el" href="a02624.html#a85309429582435ba7cfd598e0df35e70">POSTGIS.GeoJSON</a></td>
         </tr>
       </table>
   </td>
@@ -272,7 +253,7 @@ Package Attributes</h2></td></tr>
 
 <p>The default WKT type URI. </p>
 
-<p class="reference">Referenced by <a class="el" href="a04784.html#ab2c1f34f60c2740f703068f27871a32b">LiteralRegistry.LiteralRegistry()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="a04800.html#ab2c1f34f60c2740f703068f27871a32b">LiteralRegistry.LiteralRegistry()</a>.</p>
 
 </div>
 </div>
@@ -282,7 +263,7 @@ Package Attributes</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="a02466.html">org</a></li><li class="navelem"><a class="el" href="a02467.html">eclipse</a></li><li class="navelem"><a class="el" href="a02468.html">rdf4j</a></li><li class="navelem"><a class="el" href="a02471.html">query</a></li><li class="navelem"><a class="el" href="a02472.html">algebra</a></li><li class="navelem"><a class="el" href="a02473.html">evaluation</a></li><li class="navelem"><a class="el" href="a02474.html">function</a></li><li class="navelem"><a class="el" href="a02475.html">postgis</a></li><li class="navelem"><a class="el" href="a02525.html">util</a></li><li class="navelem"><a class="el" href="a02527.html">literals</a></li><li class="navelem"><a class="el" href="a02530.html">vector</a></li><li class="navelem"><a class="el" href="a04860.html">GPXDatatype</a></li>
+    <li class="navelem"><a class="el" href="a02478.html">org</a></li><li class="navelem"><a class="el" href="a02479.html">eclipse</a></li><li class="navelem"><a class="el" href="a02480.html">rdf4j</a></li><li class="navelem"><a class="el" href="a02483.html">query</a></li><li class="navelem"><a class="el" href="a02484.html">algebra</a></li><li class="navelem"><a class="el" href="a02485.html">evaluation</a></li><li class="navelem"><a class="el" href="a02486.html">function</a></li><li class="navelem"><a class="el" href="a02487.html">postgis</a></li><li class="navelem"><a class="el" href="a02537.html">util</a></li><li class="navelem"><a class="el" href="a02539.html">literals</a></li><li class="navelem"><a class="el" href="a02542.html">vector</a></li><li class="navelem"><a class="el" href="a04860.html">GeoJSONDatatype</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>

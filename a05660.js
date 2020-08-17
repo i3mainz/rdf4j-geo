@@ -1,7 +1,7 @@
 var a05660 =
 [
-    [ "testAddRing", "a05660.html#abfc2c7e942ef652635d2256ba4e1fa47", null ],
-    [ "duplicateRings", "a05660.html#a92f3ef00fc079a76b7f943d9ed6cec77", null ],
-    [ "nonduplicateRings", "a05660.html#a675a0b1b194538fc07fa716705f883a5", null ],
-    [ "ring", "a05660.html#a3e4a839eee2eb5791f90656e82eec721", null ]
+    [ "testIsConvexFalse", "a05660.html#a84d7af36a321a8f38760993ee03431f1", null ],
+    [ "testIsConvexTrue", "a05660.html#a72b02d577b66678dc78571b6ca1901cc", null ],
+    [ "isocelesTriangle", "a05660.html#aa04dfbec745e2622b9f7646f8572e501", null ],
+    [ "notIsocelesTriangle", "a05660.html#a055d99fb63bcee37763ffcf4da9e0521", null ]
 ];

@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>rdf4j-postgis: SridIsVerticalTest Class Reference</title>
+<title>rdf4j-postgis: SridGetAxis2OrientationTest Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -65,21 +65,21 @@ $(document).ready(function(){initNavTree('a05436.html','');});
 <a href="#pub-static-attribs">Static Public Attributes</a> &#124;
 <a href="a05433.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">SridIsVerticalTest Class Reference</div>  </div>
+<div class="title">SridGetAxis2OrientationTest Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 <div class="dynheader">
-Collaboration diagram for SridIsVerticalTest:</div>
+Collaboration diagram for SridGetAxis2OrientationTest:</div>
 <div class="dyncontent">
-<div class="center"><img src="a05434.png" border="0" usemap="#SridIsVerticalTest_coll__map" alt="Collaboration graph"/></div>
-<map name="SridIsVerticalTest_coll__map" id="SridIsVerticalTest_coll__map">
+<div class="center"><img src="a05434.png" border="0" usemap="#SridGetAxis2OrientationTest_coll__map" alt="Collaboration graph"/></div>
+<map name="SridGetAxis2OrientationTest_coll__map" id="SridGetAxis2OrientationTest_coll__map">
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a0b5d17dad676c3ce02f884832b907843"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05436.html#a0b5d17dad676c3ce02f884832b907843">testSridIsVerticalTrue</a> ()</td></tr>
-<tr class="separator:a0b5d17dad676c3ce02f884832b907843"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4cce208d444c0a86d19f93731ff4a6b3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05436.html#a4cce208d444c0a86d19f93731ff4a6b3">testSridAxis2Orientation</a> ()</td></tr>
+<tr class="separator:a4cce208d444c0a86d19f93731ff4a6b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
@@ -87,14 +87,14 @@ Static Public Attributes</h2></td></tr>
 <tr class="separator:af26f700ee129f846cac58735f6dcc380"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a0b5d17dad676c3ce02f884832b907843"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0b5d17dad676c3ce02f884832b907843">&#9670;&nbsp;</a></span>testSridIsVerticalTrue()</h2>
+<a id="a4cce208d444c0a86d19f93731ff4a6b3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4cce208d444c0a86d19f93731ff4a6b3">&#9670;&nbsp;</a></span>testSridAxis2Orientation()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void testSridIsVerticalTrue </td>
+          <td class="memname">void testSridAxis2Orientation </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -102,8 +102,8 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="a02972.html#a43b4c73244bc6722ce551c1033cf1115">GeometricBinaryAttributeFunction.evaluate()</a>, and <a class="el" href="a04908.html#ae02c2e86ac0dea8538c7b43e9e82421a">WKTDatatype.LiteralIRI</a>.</p>
-<div class="fragment"><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;                                             {</div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;                SridIsVertical is3d=<span class="keyword">new</span> SridIsVertical();</div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;                ValueFactory valfac=SimpleValueFactory.getInstance();</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;                Value geo=valfac.createLiteral(<a class="code" href="a05436.html#af26f700ee129f846cac58735f6dcc380">testPoint</a>,WKTDatatype.LiteralIRI);</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;                Value result=is3d.evaluate(valfac, geo);</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;                Value expResult=valfac.createLiteral(<span class="keyword">true</span>);</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;            assertEquals(expResult, result);</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;        }</div><div class="ttc" id="a05436_html_af26f700ee129f846cac58735f6dcc380"><div class="ttname"><a href="a05436.html#af26f700ee129f846cac58735f6dcc380">de.hsmainz.cs.semgis.arqextension.test.geometry.srid.SridIsVerticalTest.testPoint</a></div><div class="ttdeci">static final String testPoint</div><div class="ttdef"><b>Definition:</b> SridIsVerticalTest.java:14</div></div>
+<p class="reference">References <a class="el" href="a03092.html#a43b4c73244bc6722ce551c1033cf1115">GeometricStringExportFunction.evaluate()</a>, and <a class="el" href="a04924.html#ae02c2e86ac0dea8538c7b43e9e82421a">WKTDatatype.LiteralIRI</a>.</p>
+<div class="fragment"><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;                                               {</div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;                SridGetAxis2Orientation is3d=<span class="keyword">new</span> SridGetAxis2Orientation();</div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;                ValueFactory valfac=SimpleValueFactory.getInstance();</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;                Value geo=valfac.createLiteral(<a class="code" href="a05436.html#af26f700ee129f846cac58735f6dcc380">testPoint</a>,WKTDatatype.LiteralIRI);</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;                Value result=is3d.evaluate(valfac, geo);</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;                Value expResult=valfac.createLiteral(<span class="stringliteral">&quot;X&quot;</span>);</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;            assertEquals(expResult, result);</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;        }</div><div class="ttc" id="a05436_html_af26f700ee129f846cac58735f6dcc380"><div class="ttname"><a href="a05436.html#af26f700ee129f846cac58735f6dcc380">de.hsmainz.cs.semgis.arqextension.test.geometry.srid.SridGetAxis2OrientationTest.testPoint</a></div><div class="ttdeci">static final String testPoint</div><div class="ttdef"><b>Definition:</b> SridGetAxis2OrientationTest.java:14</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -136,7 +136,7 @@ Static Public Attributes</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="a02455.html">de</a></li><li class="navelem"><a class="el" href="a02456.html">hsmainz</a></li><li class="navelem"><a class="el" href="a02457.html">cs</a></li><li class="navelem"><a class="el" href="a02458.html">semgis</a></li><li class="navelem"><a class="el" href="a02459.html">arqextension</a></li><li class="navelem"><a class="el" href="a02549.html">test</a></li><li class="navelem"><a class="el" href="a02552.html">geometry</a></li><li class="navelem"><a class="el" href="a02557.html">srid</a></li><li class="navelem"><a class="el" href="a05436.html">SridIsVerticalTest</a></li>
+    <li class="navelem"><a class="el" href="a02467.html">de</a></li><li class="navelem"><a class="el" href="a02468.html">hsmainz</a></li><li class="navelem"><a class="el" href="a02469.html">cs</a></li><li class="navelem"><a class="el" href="a02470.html">semgis</a></li><li class="navelem"><a class="el" href="a02471.html">arqextension</a></li><li class="navelem"><a class="el" href="a02561.html">test</a></li><li class="navelem"><a class="el" href="a02564.html">geometry</a></li><li class="navelem"><a class="el" href="a02569.html">srid</a></li><li class="navelem"><a class="el" href="a05436.html">SridGetAxis2OrientationTest</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>

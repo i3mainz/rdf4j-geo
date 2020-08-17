@@ -1,5 +1,6 @@
 var a05408 =
 [
-    [ "testSridAxis1Orientation", "a05408.html#ae0ff51be0fe1734cba043c3509606d4d", null ],
-    [ "testPoint", "a05408.html#af26f700ee129f846cac58735f6dcc380", null ]
+    [ "testRelate", "a05408.html#a8592662d9e01b3d8f2f9a86b6bb48372", null ],
+    [ "isocelesTriangle", "a05408.html#aa04dfbec745e2622b9f7646f8572e501", null ],
+    [ "notIsocelesTriangle", "a05408.html#a055d99fb63bcee37763ffcf4da9e0521", null ]
 ];

@@ -1,5 +1,4 @@
 var a05576 =
 [
-    [ "testMMin", "a05576.html#a11f2bb6837c81b000eee4c62ba8ce7f0", null ],
-    [ "testPoint", "a05576.html#af26f700ee129f846cac58735f6dcc380", null ]
+    [ "testRadiansToDegrees", "a05576.html#a558079b3822b724819ac704ef17d1fc7", null ]
 ];

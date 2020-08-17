@@ -1,5 +1,5 @@
 var a05220 =
 [
-    [ "testGeomFromGeoJSON", "a05220.html#a64b3f7b5bcdec5b93820a9958c0622a3", null ],
-    [ "geoJsonTestGeom", "a05220.html#a117e8ff340791b5aa0658f5840b5dcf4", null ]
+    [ "testNumDistinctPoints", "a05220.html#aac9f79f9e21b36c6addad28b9e81bec6", null ],
+    [ "testGeom", "a05220.html#a03a5f5da0ccbeed8c1678d4317cf2672", null ]
 ];

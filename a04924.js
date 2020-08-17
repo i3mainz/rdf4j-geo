@@ -1,6 +1,10 @@
 var a04924 =
 [
-    [ "CoverageJsonWriter", "a04924.html#a808b85bccc4d21848073a44984c752b7", null ],
-    [ "coverageToCovJSON", "a04924.html#a5f7211b80d30549d072ee3e90cc72ee0", null ],
-    [ "coverage", "a04924.html#a0db1f475b2dcaa5dfc0e64e99d84b135", null ]
+    [ "WKBTextSRS", "a04928.html", "a04928" ],
+    [ "read", "a04924.html#a793358fbd6ef538a24eabab1bd50ef01", null ],
+    [ "toString", "a04924.html#ad146fa8579a5f8a876c4688cc5a68520", null ],
+    [ "unparse", "a04924.html#ae918a517e1ebcc44beeee2c55008d248", null ],
+    [ "INSTANCE", "a04924.html#a3e60086252e5262f1238a2d9cbd491d9", null ],
+    [ "LiteralIRI", "a04924.html#ae02c2e86ac0dea8538c7b43e9e82421a", null ],
+    [ "URI", "a04924.html#addbf30e6c0ad68fa34277d59a2c6eb5e", null ]
 ];

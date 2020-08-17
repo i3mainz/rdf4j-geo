@@ -1,4 +1,4 @@
 var a02469 =
 [
-    [ "vocabulary", "a02465.html", "a02465" ]
+    [ "semgis", "a02470.html", "a02470" ]
 ];

@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>rdf4j-postgis: SimplifyVWTest Class Reference</title>
+<title>rdf4j-postgis: RemoveRepeatedPointsTest Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -65,36 +65,38 @@ $(document).ready(function(){initNavTree('a05504.html','');});
 <a href="#pub-static-attribs">Static Public Attributes</a> &#124;
 <a href="a05501.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">SimplifyVWTest Class Reference</div>  </div>
+<div class="title">RemoveRepeatedPointsTest Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 <div class="dynheader">
-Collaboration diagram for SimplifyVWTest:</div>
+Collaboration diagram for RemoveRepeatedPointsTest:</div>
 <div class="dyncontent">
-<div class="center"><img src="a05502.png" border="0" usemap="#SimplifyVWTest_coll__map" alt="Collaboration graph"/></div>
-<map name="SimplifyVWTest_coll__map" id="SimplifyVWTest_coll__map">
+<div class="center"><img src="a05502.png" border="0" usemap="#RemoveRepeatedPointsTest_coll__map" alt="Collaboration graph"/></div>
+<map name="RemoveRepeatedPointsTest_coll__map" id="RemoveRepeatedPointsTest_coll__map">
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a4b0417b619689d07743ff9d72212c847"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05504.html#a4b0417b619689d07743ff9d72212c847">testSimplifyVW</a> ()</td></tr>
-<tr class="separator:a4b0417b619689d07743ff9d72212c847"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a473d131a5f96a89f9502570a50d06e65"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05504.html#a473d131a5f96a89f9502570a50d06e65">testRemoveRepeatedPoints</a> ()</td></tr>
+<tr class="separator:a473d131a5f96a89f9502570a50d06e65"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
-<tr class="memitem:a03a5f5da0ccbeed8c1678d4317cf2672"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05504.html#a03a5f5da0ccbeed8c1678d4317cf2672">testGeom</a> =&quot;LINESTRING(5 2, 3 8, 6 20, 7 25, 10 10)&quot;</td></tr>
-<tr class="separator:a03a5f5da0ccbeed8c1678d4317cf2672"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abc3f514f005cba49e406658e2d3086eb"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05504.html#abc3f514f005cba49e406658e2d3086eb">testGeometry</a> =&quot;LINESTRING (0 0, 0 1, 1 1, 1 0, 0 0)&quot;</td></tr>
+<tr class="separator:abc3f514f005cba49e406658e2d3086eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af1173652e671b8f9051f8630b98c73fb"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05504.html#af1173652e671b8f9051f8630b98c73fb">testGeometry2</a> =&quot;LINESTRING (0 1, 1 1, 1 0)&quot;</td></tr>
+<tr class="separator:af1173652e671b8f9051f8630b98c73fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a4b0417b619689d07743ff9d72212c847"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4b0417b619689d07743ff9d72212c847">&#9670;&nbsp;</a></span>testSimplifyVW()</h2>
+<a id="a473d131a5f96a89f9502570a50d06e65"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a473d131a5f96a89f9502570a50d06e65">&#9670;&nbsp;</a></span>testRemoveRepeatedPoints()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void testSimplifyVW </td>
+          <td class="memname">void testRemoveRepeatedPoints </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -102,14 +104,15 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="a03024.html#a43b4c73244bc6722ce551c1033cf1115">GeometricModifierDoubleFunction.evaluate()</a>, and <a class="el" href="a04908.html#ae02c2e86ac0dea8538c7b43e9e82421a">WKTDatatype.LiteralIRI</a>.</p>
-<div class="fragment"><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;                                     {</div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;                SimplifyVW instance=<span class="keyword">new</span> SimplifyVW();</div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;                ValueFactory valfac=SimpleValueFactory.getInstance();</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;                Value geo=valfac.createLiteral(<a class="code" href="a05504.html#a03a5f5da0ccbeed8c1678d4317cf2672">testGeom</a>, WKTDatatype.LiteralIRI);</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;                Value result=instance.evaluate(valfac, geo,valfac.createLiteral(0.));</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;                Value expResult=valfac.createLiteral(<span class="stringliteral">&quot;LINESTRING (5 2, 7 25, 10 10)&quot;</span>);</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;                assertEquals(expResult, result);</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;        }</div><div class="ttc" id="a05504_html_a03a5f5da0ccbeed8c1678d4317cf2672"><div class="ttname"><a href="a05504.html#a03a5f5da0ccbeed8c1678d4317cf2672">de.hsmainz.cs.semgis.arqextension.test.geometry.transform.SimplifyVWTest.testGeom</a></div><div class="ttdeci">static final String testGeom</div><div class="ttdef"><b>Definition:</b> SimplifyVWTest.java:14</div></div>
+<p class="reference">References <a class="el" href="a03036.html#a43b4c73244bc6722ce551c1033cf1115">GeometricModifierDoubleFunction.evaluate()</a>, and <a class="el" href="a04924.html#ae02c2e86ac0dea8538c7b43e9e82421a">WKTDatatype.LiteralIRI</a>.</p>
+<div class="fragment"><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;                                               {</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;                RemoveRepeatedPoints instance=<span class="keyword">new</span> RemoveRepeatedPoints();</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;                ValueFactory valfac=SimpleValueFactory.getInstance();</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;                Value geo=valfac.createLiteral(<a class="code" href="a05504.html#abc3f514f005cba49e406658e2d3086eb">testGeometry</a>, WKTDatatype.LiteralIRI);</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;                Value result=instance.evaluate(valfac, geo,valfac.createLiteral(0.));</div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;                Value expResult=valfac.createLiteral(<a class="code" href="a05504.html#af1173652e671b8f9051f8630b98c73fb">testGeometry2</a>,WKTDatatype.LiteralIRI);</div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;            assertEquals(expResult, result);</div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;        }</div><div class="ttc" id="a05504_html_abc3f514f005cba49e406658e2d3086eb"><div class="ttname"><a href="a05504.html#abc3f514f005cba49e406658e2d3086eb">de.hsmainz.cs.semgis.arqextension.test.geometry.transform.RemoveRepeatedPointsTest.testGeometry</a></div><div class="ttdeci">static final String testGeometry</div><div class="ttdef"><b>Definition:</b> RemoveRepeatedPointsTest.java:15</div></div>
+<div class="ttc" id="a05504_html_af1173652e671b8f9051f8630b98c73fb"><div class="ttname"><a href="a05504.html#af1173652e671b8f9051f8630b98c73fb">de.hsmainz.cs.semgis.arqextension.test.geometry.transform.RemoveRepeatedPointsTest.testGeometry2</a></div><div class="ttdeci">static final String testGeometry2</div><div class="ttdef"><b>Definition:</b> RemoveRepeatedPointsTest.java:17</div></div>
 </div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="a03a5f5da0ccbeed8c1678d4317cf2672"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a03a5f5da0ccbeed8c1678d4317cf2672">&#9670;&nbsp;</a></span>testGeom</h2>
+<a id="abc3f514f005cba49e406658e2d3086eb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abc3f514f005cba49e406658e2d3086eb">&#9670;&nbsp;</a></span>testGeometry</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -118,7 +121,29 @@ Static Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">final String testGeom =&quot;LINESTRING(5 2, 3 8, 6 20, 7 25, 10 10)&quot;</td>
+          <td class="memname">final String testGeometry =&quot;LINESTRING (0 0, 0 1, 1 1, 1 0, 0 0)&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af1173652e671b8f9051f8630b98c73fb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af1173652e671b8f9051f8630b98c73fb">&#9670;&nbsp;</a></span>testGeometry2</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final String testGeometry2 =&quot;LINESTRING (0 1, 1 1, 1 0)&quot;</td>
         </tr>
       </table>
   </td>
@@ -136,7 +161,7 @@ Static Public Attributes</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="a02455.html">de</a></li><li class="navelem"><a class="el" href="a02456.html">hsmainz</a></li><li class="navelem"><a class="el" href="a02457.html">cs</a></li><li class="navelem"><a class="el" href="a02458.html">semgis</a></li><li class="navelem"><a class="el" href="a02459.html">arqextension</a></li><li class="navelem"><a class="el" href="a02549.html">test</a></li><li class="navelem"><a class="el" href="a02552.html">geometry</a></li><li class="navelem"><a class="el" href="a02558.html">transform</a></li><li class="navelem"><a class="el" href="a05504.html">SimplifyVWTest</a></li>
+    <li class="navelem"><a class="el" href="a02467.html">de</a></li><li class="navelem"><a class="el" href="a02468.html">hsmainz</a></li><li class="navelem"><a class="el" href="a02469.html">cs</a></li><li class="navelem"><a class="el" href="a02470.html">semgis</a></li><li class="navelem"><a class="el" href="a02471.html">arqextension</a></li><li class="navelem"><a class="el" href="a02561.html">test</a></li><li class="navelem"><a class="el" href="a02564.html">geometry</a></li><li class="navelem"><a class="el" href="a02570.html">transform</a></li><li class="navelem"><a class="el" href="a05504.html">RemoveRepeatedPointsTest</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>

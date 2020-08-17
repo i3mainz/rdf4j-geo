@@ -1,11 +1,9 @@
 var a02508 =
 [
-    [ "algebra", "a02507.html", "a02507" ],
-    [ "attribute", "a02509.html", "a02509" ],
-    [ "base", "a02510.html", "a02510" ],
-    [ "constructor", "a02511.html", "a02511" ],
-    [ "editor", "a02512.html", "a02512" ],
-    [ "exporter", "a02513.html", "a02513" ],
-    [ "relation", "a02514.html", "a02514" ],
-    [ "transform", "a02515.html", "a02515" ]
+    [ "LineMerge", "a03648.html", "a03648" ],
+    [ "LinesCutAtNodes", "a03652.html", "a03652" ],
+    [ "OffsetCurve", "a03656.html", "a03656" ],
+    [ "Segmentize", "a03660.html", "a03660" ],
+    [ "SharedPaths", "a03664.html", "a03664" ],
+    [ "SubdivideLines", "a03668.html", "a03668" ]
 ];

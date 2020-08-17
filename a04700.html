@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>rdf4j-postgis: ASin Class Reference</title>
+<title>rdf4j-postgis: USYardToMeter Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -64,21 +64,21 @@ $(document).ready(function(){initNavTree('a04700.html','');});
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="a04697.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">ASin Class Reference</div>  </div>
+<div class="title">USYardToMeter Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 <div class="dynheader">
-Inheritance diagram for ASin:</div>
+Inheritance diagram for USYardToMeter:</div>
 <div class="dyncontent">
-<div class="center"><img src="a04699.png" border="0" usemap="#ASin_inherit__map" alt="Inheritance graph"/></div>
-<map name="ASin_inherit__map" id="ASin_inherit__map">
+<div class="center"><img src="a04699.png" border="0" usemap="#USYardToMeter_inherit__map" alt="Inheritance graph"/></div>
+<map name="USYardToMeter_inherit__map" id="USYardToMeter_inherit__map">
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <div class="dynheader">
-Collaboration diagram for ASin:</div>
+Collaboration diagram for USYardToMeter:</div>
 <div class="dyncontent">
-<div class="center"><img src="a04698.png" border="0" usemap="#ASin_coll__map" alt="Collaboration graph"/></div>
-<map name="ASin_coll__map" id="ASin_coll__map">
+<div class="center"><img src="a04698.png" border="0" usemap="#USYardToMeter_coll__map" alt="Collaboration graph"/></div>
+<map name="USYardToMeter_coll__map" id="USYardToMeter_coll__map">
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -116,8 +116,10 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="a04700.html#ad9fb16b36dd4ccc533d4f05ff94646e3">ASin.getURI()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;                                                                                                            {</div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;                <span class="keywordflow">if</span> (args.length != 1) {</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;                        <span class="keywordflow">throw</span> <span class="keyword">new</span> ValueExprEvaluationException(<a class="code" href="a04700.html#ad9fb16b36dd4ccc533d4f05ff94646e3">getURI</a>() + <span class="stringliteral">&quot; requires exactly 1 arguments, got &quot;</span> + args.length);</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;                }                       </div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;                Double value=Double.valueOf(args[0].stringValue());</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;                <span class="keywordflow">return</span> valueFactory.createLiteral(Math.asin(value));</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;        }</div><div class="ttc" id="a04700_html_ad9fb16b36dd4ccc533d4f05ff94646e3"><div class="ttname"><a href="a04700.html#ad9fb16b36dd4ccc533d4f05ff94646e3">org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.functions.math.ASin.getURI</a></div><div class="ttdeci">String getURI()</div><div class="ttdef"><b>Definition:</b> util/functions/math/ASin.java:12</div></div>
+<p class="reference">References <a class="el" href="a04700.html#ad9fb16b36dd4ccc533d4f05ff94646e3">USYardToMeter.getURI()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="a06064.html#a10f5134cb63efc8398d5875bab8801b4">USYardToMeterTest.testUSYardToMeter()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;                                                                                                            {</div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;                <span class="keywordflow">if</span> (args.length != 1) {</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;                        <span class="keywordflow">throw</span> <span class="keyword">new</span> ValueExprEvaluationException(<a class="code" href="a04700.html#ad9fb16b36dd4ccc533d4f05ff94646e3">getURI</a>() + <span class="stringliteral">&quot; requires exactly 1 arguments, got &quot;</span> + args.length);</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;                }                       </div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;                Double value=Double.valueOf(args[0].stringValue());</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;                <span class="keywordflow">return</span> valueFactory.createLiteral(value/1.094);</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;        }</div><div class="ttc" id="a04700_html_ad9fb16b36dd4ccc533d4f05ff94646e3"><div class="ttname"><a href="a04700.html#ad9fb16b36dd4ccc533d4f05ff94646e3">org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.unit.USYardToMeter.getURI</a></div><div class="ttdeci">String getURI()</div><div class="ttdef"><b>Definition:</b> USYardToMeter.java:12</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -136,10 +138,10 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="a02612.html#ab07d628e5ae7a88cbedcedefdbfae1c4">POSTGIS.ASin</a>.</p>
+<p class="reference">References <a class="el" href="a02624.html#af9c166d12c383cb0e2ffd43e366d2f3d">POSTGIS.USYardToMeter</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="a04700.html#a43b4c73244bc6722ce551c1033cf1115">ASin.evaluate()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;                               {</div><div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;                <span class="comment">// TODO Auto-generated method stub</span></div><div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;                <span class="keywordflow">return</span> POSTGIS.ASin.stringValue();</div><div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;        }</div></div><!-- fragment -->
+<p class="reference">Referenced by <a class="el" href="a04700.html#a43b4c73244bc6722ce551c1033cf1115">USYardToMeter.evaluate()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;                               {</div><div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;                <span class="comment">// TODO Auto-generated method stub</span></div><div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;                <span class="keywordflow">return</span> POSTGIS.USYardToMeter.stringValue();</div><div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;        }</div></div><!-- fragment -->
 </div>
 </div>
 </div><!-- contents -->
@@ -148,7 +150,7 @@ Public Member Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="a02466.html">org</a></li><li class="navelem"><a class="el" href="a02467.html">eclipse</a></li><li class="navelem"><a class="el" href="a02468.html">rdf4j</a></li><li class="navelem"><a class="el" href="a02471.html">query</a></li><li class="navelem"><a class="el" href="a02472.html">algebra</a></li><li class="navelem"><a class="el" href="a02473.html">evaluation</a></li><li class="navelem"><a class="el" href="a02474.html">function</a></li><li class="navelem"><a class="el" href="a02475.html">postgis</a></li><li class="navelem"><a class="el" href="a02525.html">util</a></li><li class="navelem"><a class="el" href="a02526.html">functions</a></li><li class="navelem"><a class="el" href="a02524.html">math</a></li><li class="navelem"><a class="el" href="a04700.html">ASin</a></li>
+    <li class="navelem"><a class="el" href="a02478.html">org</a></li><li class="navelem"><a class="el" href="a02479.html">eclipse</a></li><li class="navelem"><a class="el" href="a02480.html">rdf4j</a></li><li class="navelem"><a class="el" href="a02483.html">query</a></li><li class="navelem"><a class="el" href="a02484.html">algebra</a></li><li class="navelem"><a class="el" href="a02485.html">evaluation</a></li><li class="navelem"><a class="el" href="a02486.html">function</a></li><li class="navelem"><a class="el" href="a02487.html">postgis</a></li><li class="navelem"><a class="el" href="a02535.html">unit</a></li><li class="navelem"><a class="el" href="a04700.html">USYardToMeter</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>

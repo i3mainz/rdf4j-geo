@@ -1,8 +1,19 @@
 var a05052 =
 [
-    [ "DimensionalComparator", "a05052.html#a5bd255213663b3596e2de221144f1ab1", null ],
-    [ "DimensionalComparator", "a05052.html#aa12c933fd5275be6824111b1f2c92cd6", null ],
-    [ "compare", "a05052.html#a55bbcaf3b85142c9878f7b8ac44290fb", null ],
-    [ "compare", "a05052.html#a22ae744431802300f10565640dec04c5", null ],
-    [ "dimensionsToTest", "a05052.html#a6bb6df1c2db1f7b9fe46d4be2d0083af", null ]
+    [ "ExtendedPrecisionWriter", "a05060.html", "a05060" ],
+    [ "PrecisionWriter", "a05056.html", "a05056" ],
+    [ "TWKBWriter", "a05052.html#a2990399609cc699aee5a40156feee03e", null ],
+    [ "TWKBWriter", "a05052.html#abf98331626990ede53fbe5a1827b91b9", null ],
+    [ "getType", "a05052.html#af6ac6c1ca84de00107ff33acf010fb56", null ],
+    [ "getTypeAndPrecisionByte", "a05052.html#a2513e591488b85a0a4ffae1f192e48d1", null ],
+    [ "write", "a05052.html#a226242e33fa2ddb80db6f65fea7e88d5", null ],
+    [ "write", "a05052.html#a1ad170fc53b3438a213305dcf054c951", null ],
+    [ "writeGeometryCollection", "a05052.html#a4c1cd6a57426c5886efe0e46fb781c8a", null ],
+    [ "writeLineString", "a05052.html#a9e135bc7dac9b9305e7183a27ab0e55d", null ],
+    [ "writeMultiLineString", "a05052.html#a409eb1e30fb4f2a447147b6644ed96df", null ],
+    [ "writeMultiPoint", "a05052.html#ae1a496e7018e949f3af9aa1ec261a4a3", null ],
+    [ "writeMultiPolygon", "a05052.html#af88d38f76bbfee7f7c150d79b818e156", null ],
+    [ "writePoint", "a05052.html#a1d857a7f3e74e21f8fb4eb93e713ac0e", null ],
+    [ "writePolygon", "a05052.html#a97d9c7da786fbc6decfc325d9b2058fe", null ],
+    [ "maxPrecision", "a05052.html#a3790bdd1fc8284d93d59193536955934", null ]
 ];

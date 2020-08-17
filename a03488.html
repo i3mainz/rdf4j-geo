@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>rdf4j-postgis: Rotate Class Reference</title>
+<title>rdf4j-postgis: PrecisionReducer Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -65,23 +65,26 @@ $(document).ready(function(){initNavTree('a03488.html','');});
 <a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="a03485.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">Rotate Class Reference</div>  </div>
+<div class="title">PrecisionReducer Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>Reduces the precision of a given geometry by a given factor.  
+ <a href="a03488.html#details">More...</a></p>
 <div class="dynheader">
-Inheritance diagram for Rotate:</div>
+Inheritance diagram for PrecisionReducer:</div>
 <div class="dyncontent">
-<div class="center"><img src="a03487.png" border="0" usemap="#Rotate_inherit__map" alt="Inheritance graph"/></div>
-<map name="Rotate_inherit__map" id="Rotate_inherit__map">
-<area shape="rect" id="node2" href="a03024.html" title="GeometricModifierDoubleFunction" alt="" coords="5,80,224,107"/>
+<div class="center"><img src="a03487.png" border="0" usemap="#PrecisionReducer_inherit__map" alt="Inheritance graph"/></div>
+<map name="PrecisionReducer_inherit__map" id="PrecisionReducer_inherit__map">
+<area shape="rect" id="node2" href="a03048.html" title="GeometricModifierInteger\lFunction" alt="" coords="5,80,173,121"/>
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <div class="dynheader">
-Collaboration diagram for Rotate:</div>
+Collaboration diagram for PrecisionReducer:</div>
 <div class="dyncontent">
-<div class="center"><img src="a03486.png" border="0" usemap="#Rotate_coll__map" alt="Collaboration graph"/></div>
-<map name="Rotate_coll__map" id="Rotate_coll__map">
-<area shape="rect" id="node2" href="a03024.html" title="GeometricModifierDoubleFunction" alt="" coords="5,80,224,107"/>
+<div class="center"><img src="a03486.png" border="0" usemap="#PrecisionReducer_coll__map" alt="Collaboration graph"/></div>
+<map name="PrecisionReducer_coll__map" id="PrecisionReducer_coll__map">
+<area shape="rect" id="node2" href="a03048.html" title="GeometricModifierInteger\lFunction" alt="" coords="5,80,173,121"/>
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -89,15 +92,17 @@ Collaboration diagram for Rotate:</div>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:ad9fb16b36dd4ccc533d4f05ff94646e3"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a03488.html#ad9fb16b36dd4ccc533d4f05ff94646e3">getURI</a> ()</td></tr>
 <tr class="separator:ad9fb16b36dd4ccc533d4f05ff94646e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a43b4c73244bc6722ce551c1033cf1115"><td class="memItemLeft" align="right" valign="top">Value&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a03024.html#a43b4c73244bc6722ce551c1033cf1115">evaluate</a> (ValueFactory valueFactory, Value... args)  throws ValueExprEvaluationException </td></tr>
+<tr class="memitem:a43b4c73244bc6722ce551c1033cf1115"><td class="memItemLeft" align="right" valign="top">Value&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a03048.html#a43b4c73244bc6722ce551c1033cf1115">evaluate</a> (ValueFactory valueFactory, Value... args)  throws ValueExprEvaluationException </td></tr>
 <tr class="separator:a43b4c73244bc6722ce551c1033cf1115"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
-<tr class="memitem:a95653d594d6c3fdc0cada2156a9269f1"><td class="memItemLeft" align="right" valign="top">Geometry&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a03488.html#a95653d594d6c3fdc0cada2156a9269f1">relation</a> (Geometry geom, Double rotRadians)</td></tr>
-<tr class="separator:a95653d594d6c3fdc0cada2156a9269f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2ee54060e066d6c240bd4231000b749a"><td class="memItemLeft" align="right" valign="top">Geometry&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a03488.html#a2ee54060e066d6c240bd4231000b749a">relation</a> (Geometry geom, Integer value)</td></tr>
+<tr class="separator:a2ee54060e066d6c240bd4231000b749a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Function Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Reduces the precision of a given geometry by a given factor. </p>
+</div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a43b4c73244bc6722ce551c1033cf1115"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a43b4c73244bc6722ce551c1033cf1115">&#9670;&nbsp;</a></span>evaluate()</h2>
 
@@ -132,10 +137,10 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="a04784.html#a8796f5aec1965b6c4e88b2ba7c1d2e53">LiteralRegistry.getLiteral()</a>, and <a class="el" href="a03024.html#a3e90404335d65a7dc26872963e46db87">GeometricModifierDoubleFunction.relation()</a>.</p>
+<p class="reference">References <a class="el" href="a04800.html#a8796f5aec1965b6c4e88b2ba7c1d2e53">LiteralRegistry.getLiteral()</a>, and <a class="el" href="a03048.html#a26c8d71d12c1da7317e44e93b0aec79f">GeometricModifierIntegerFunction.relation()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="a05244.html#a4ebf1443292e242753148cb8748d9169">RemoveGeometryTest.testAddGeometry()</a>, <a class="el" href="a05452.html#a94a17603d200a0a1f4817b4687ee592d">DensifyTest.testDensify()</a>, <a class="el" href="a05240.html#ace1b0f448a93ab083e49e59b851b8094">EnsureClosedTest.testEnsureClosed()</a>, <a class="el" href="a05240.html#a7a93140658cbcf5aea17d9f930cd5144">EnsureClosedTest.testEnsureClosed2()</a>, <a class="el" href="a05484.html#a473d131a5f96a89f9502570a50d06e65">RemoveRepeatedPointsTest.testRemoveRepeatedPoints()</a>, <a class="el" href="a05664.html#ad886abc46152c92cd03887b3f71760c7">RemoveRingTest.testRemoveRing()</a>, <a class="el" href="a05680.html#a341309060348e532f6606d50945a52bd">ReverseRingTest.testReverseRing()</a>, <a class="el" href="a05500.html#a4b0417b619689d07743ff9d72212c847">SimplifyTest.testSimplifyVW()</a>, and <a class="el" href="a05504.html#a4b0417b619689d07743ff9d72212c847">SimplifyVWTest.testSimplifyVW()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;                                                                                                            {</div><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;                <span class="keywordflow">if</span> (args.length != 2) {</div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;                        <span class="keywordflow">throw</span> <span class="keyword">new</span> ValueExprEvaluationException(getURI() + <span class="stringliteral">&quot; requires exactly 2 arguments, got &quot;</span> + args.length);</div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;                }</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;                LiteralType l=LiteralRegistry.getLiteral(((Literal)args[0]).getDatatype().toString());</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;                Double value=Double.valueOf(args[1].stringValue());</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;                <span class="keywordflow">if</span>(l instanceof VectorLiteral) {</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;                        Geometry geom=((VectorLiteral)l).read(args[0].stringValue());</div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;                        Geometry result = <a class="code" href="a03024.html#a3e90404335d65a7dc26872963e46db87">relation</a>(geom,value);</div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;                        <span class="keywordflow">return</span> valueFactory.createLiteral(((VectorLiteral) l).unparse(result),((Literal)args[0]).getDatatype());</div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;                }</div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;                <span class="keywordflow">throw</span> <span class="keyword">new</span> ValueExprEvaluationException(<span class="stringliteral">&quot;Argument given is not a geometry literal&quot;</span>);</div><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;        }</div><div class="ttc" id="a03024_html_a3e90404335d65a7dc26872963e46db87"><div class="ttname"><a href="a03024.html#a3e90404335d65a7dc26872963e46db87">org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.geometry.base.GeometricModifierDoubleFunction.relation</a></div><div class="ttdeci">abstract Geometry relation(Geometry geom, Double value)</div></div>
+<p class="reference">Referenced by <a class="el" href="a05464.html#ad65aa26b3876b84d26c4b988083bd940">CollectionExtractTest.testCollectionExtract()</a>, <a class="el" href="a05548.html#a0444ce8df222ae81e1a33426a32d8d7a">PointNTest.testLineString()</a>, <a class="el" href="a05500.html#a486d6504bb92a61902ac29e25b3d31a8">PrecisionReducerTest.testPrecisionReducer()</a>, and <a class="el" href="a05264.html#a5e9b64ff404fa9347af445dc61f510b7">RemovePointTest.testRemovePoint()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;                                                                                                            {</div><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;                <span class="keywordflow">if</span> (args.length != 2) {</div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;                        <span class="keywordflow">throw</span> <span class="keyword">new</span> ValueExprEvaluationException(getURI() + <span class="stringliteral">&quot; requires exactly 2 arguments, got &quot;</span> + args.length);</div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;                }               </div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;                </div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;                Integer value=Integer.valueOf(args[1].stringValue());</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;                LiteralType l=LiteralRegistry.getLiteral(((Literal)args[0]).getDatatype().toString());</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;                <span class="keywordflow">if</span>(l instanceof VectorLiteral) {</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;                        Geometry geom=((VectorLiteral)l).read(args[0].stringValue());</div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;                        Geometry result = <a class="code" href="a03048.html#a26c8d71d12c1da7317e44e93b0aec79f">relation</a>(geom,value);</div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;                        <span class="keywordflow">return</span> valueFactory.createLiteral(((VectorLiteral) l).unparse(result),((Literal)args[0]).getDatatype());</div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;                }</div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;                <span class="keywordflow">throw</span> <span class="keyword">new</span> ValueExprEvaluationException(<span class="stringliteral">&quot;Argument given is not a geometry literal&quot;</span>);</div><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;        }</div><div class="ttc" id="a03048_html_a26c8d71d12c1da7317e44e93b0aec79f"><div class="ttname"><a href="a03048.html#a26c8d71d12c1da7317e44e93b0aec79f">org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.geometry.base.GeometricModifierIntegerFunction.relation</a></div><div class="ttdeci">abstract Geometry relation(Geometry geom, Integer value)</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -154,12 +159,12 @@ Protected Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="a02612.html#aee3534d0cb8b799bc9ec5b044b5f2f29">POSTGIS.st_rotate</a>.</p>
-<div class="fragment"><div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;                               {</div><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;                <span class="keywordflow">return</span> POSTGIS.st_rotate.stringValue();</div><div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;        }</div></div><!-- fragment -->
+<p class="reference">References <a class="el" href="a02624.html#ae056916a3cd11a04b930386c28280d66">POSTGIS.st_precisionReducer</a>.</p>
+<div class="fragment"><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;                               {</div><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;                <span class="keywordflow">return</span> POSTGIS.st_precisionReducer.stringValue();</div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;        }</div></div><!-- fragment -->
 </div>
 </div>
-<a id="a95653d594d6c3fdc0cada2156a9269f1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a95653d594d6c3fdc0cada2156a9269f1">&#9670;&nbsp;</a></span>relation()</h2>
+<a id="a2ee54060e066d6c240bd4231000b749a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2ee54060e066d6c240bd4231000b749a">&#9670;&nbsp;</a></span>relation()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -176,8 +181,8 @@ Protected Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">Double&#160;</td>
-          <td class="paramname"><em>rotRadians</em>&#160;</td>
+          <td class="paramtype">Integer&#160;</td>
+          <td class="paramname"><em>value</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -191,7 +196,7 @@ Protected Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;                                                                     {</div><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;        AffineTransformation trans = <span class="keyword">new</span> AffineTransformation();</div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;        trans = trans.rotate(rotRadians);</div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;        Geometry transformGeom = trans.transform(geom);</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;        <span class="keywordflow">return</span> transformGeom;</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;        }       </div></div><!-- fragment -->
+<div class="fragment"><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;                                                                  {</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;        PrecisionModel pm = <span class="keyword">new</span> PrecisionModel(Math.pow(10.0, value));</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;        Geometry geom_mod=GeometryPrecisionReducer.reduce(geom, pm);</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;        <span class="keywordflow">return</span> geom_mod;</div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;        }</div></div><!-- fragment -->
 </div>
 </div>
 </div><!-- contents -->
@@ -200,7 +205,7 @@ Protected Member Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="a02466.html">org</a></li><li class="navelem"><a class="el" href="a02467.html">eclipse</a></li><li class="navelem"><a class="el" href="a02468.html">rdf4j</a></li><li class="navelem"><a class="el" href="a02471.html">query</a></li><li class="navelem"><a class="el" href="a02472.html">algebra</a></li><li class="navelem"><a class="el" href="a02473.html">evaluation</a></li><li class="navelem"><a class="el" href="a02474.html">function</a></li><li class="navelem"><a class="el" href="a02475.html">postgis</a></li><li class="navelem"><a class="el" href="a02482.html">geometry</a></li><li class="navelem"><a class="el" href="a02489.html">transform</a></li><li class="navelem"><a class="el" href="a03488.html">Rotate</a></li>
+    <li class="navelem"><a class="el" href="a02478.html">org</a></li><li class="navelem"><a class="el" href="a02479.html">eclipse</a></li><li class="navelem"><a class="el" href="a02480.html">rdf4j</a></li><li class="navelem"><a class="el" href="a02483.html">query</a></li><li class="navelem"><a class="el" href="a02484.html">algebra</a></li><li class="navelem"><a class="el" href="a02485.html">evaluation</a></li><li class="navelem"><a class="el" href="a02486.html">function</a></li><li class="navelem"><a class="el" href="a02487.html">postgis</a></li><li class="navelem"><a class="el" href="a02494.html">geometry</a></li><li class="navelem"><a class="el" href="a02501.html">transform</a></li><li class="navelem"><a class="el" href="a03488.html">PrecisionReducer</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>

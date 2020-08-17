@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>rdf4j-postgis: ToDegrees Class Reference</title>
+<title>rdf4j-postgis: SinH Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -64,21 +64,21 @@ $(document).ready(function(){initNavTree('a03732.html','');});
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="a03729.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">ToDegrees Class Reference</div>  </div>
+<div class="title">SinH Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 <div class="dynheader">
-Inheritance diagram for ToDegrees:</div>
+Inheritance diagram for SinH:</div>
 <div class="dyncontent">
-<div class="center"><img src="a03731.png" border="0" usemap="#ToDegrees_inherit__map" alt="Inheritance graph"/></div>
-<map name="ToDegrees_inherit__map" id="ToDegrees_inherit__map">
+<div class="center"><img src="a03731.png" border="0" usemap="#SinH_inherit__map" alt="Inheritance graph"/></div>
+<map name="SinH_inherit__map" id="SinH_inherit__map">
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <div class="dynheader">
-Collaboration diagram for ToDegrees:</div>
+Collaboration diagram for SinH:</div>
 <div class="dyncontent">
-<div class="center"><img src="a03730.png" border="0" usemap="#ToDegrees_coll__map" alt="Collaboration graph"/></div>
-<map name="ToDegrees_coll__map" id="ToDegrees_coll__map">
+<div class="center"><img src="a03730.png" border="0" usemap="#SinH_coll__map" alt="Collaboration graph"/></div>
+<map name="SinH_coll__map" id="SinH_coll__map">
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -116,10 +116,8 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="a03732.html#ad9fb16b36dd4ccc533d4f05ff94646e3">ToDegrees.getURI()</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="a05548.html#a558079b3822b724819ac704ef17d1fc7">ToDegreesTest.testRadiansToDegrees()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;                                                                                                            {</div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;                <span class="keywordflow">if</span> (args.length != 1) {</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;                        <span class="keywordflow">throw</span> <span class="keyword">new</span> ValueExprEvaluationException(<a class="code" href="a03732.html#ad9fb16b36dd4ccc533d4f05ff94646e3">getURI</a>() + <span class="stringliteral">&quot; requires exactly 1 arguments, got &quot;</span> + args.length);</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;                }                       </div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;                Double value=Double.valueOf(args[0].stringValue());</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;                <span class="keywordflow">return</span> valueFactory.createLiteral(Math.toDegrees(value));</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;        }</div><div class="ttc" id="a03732_html_ad9fb16b36dd4ccc533d4f05ff94646e3"><div class="ttname"><a href="a03732.html#ad9fb16b36dd4ccc533d4f05ff94646e3">org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.math.ToDegrees.getURI</a></div><div class="ttdeci">String getURI()</div><div class="ttdef"><b>Definition:</b> math/ToDegrees.java:12</div></div>
+<p class="reference">References <a class="el" href="a03732.html#ad9fb16b36dd4ccc533d4f05ff94646e3">SinH.getURI()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;                                                                                                            {</div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;                <span class="keywordflow">if</span> (args.length != 1) {</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;                        <span class="keywordflow">throw</span> <span class="keyword">new</span> ValueExprEvaluationException(<a class="code" href="a03732.html#ad9fb16b36dd4ccc533d4f05ff94646e3">getURI</a>() + <span class="stringliteral">&quot; requires exactly 1 arguments, got &quot;</span> + args.length);</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;                }                       </div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;                Double value=Double.valueOf(args[0].stringValue());</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;                <span class="keywordflow">return</span> valueFactory.createLiteral(Math.sinh(value));</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;        }</div><div class="ttc" id="a03732_html_ad9fb16b36dd4ccc533d4f05ff94646e3"><div class="ttname"><a href="a03732.html#ad9fb16b36dd4ccc533d4f05ff94646e3">org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.math.SinH.getURI</a></div><div class="ttdeci">String getURI()</div><div class="ttdef"><b>Definition:</b> math/SinH.java:12</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -138,10 +136,10 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="a02612.html#a4f0422a599a419a5b1d91bdb9e4f90c8">POSTGIS.ST_ToDegrees</a>.</p>
+<p class="reference">References <a class="el" href="a02624.html#aa48b25285cd640a3abc448800a0dec34">POSTGIS.SinH</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="a03732.html#a43b4c73244bc6722ce551c1033cf1115">ToDegrees.evaluate()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;                               {</div><div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;                <span class="comment">// TODO Auto-generated method stub</span></div><div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;                <span class="keywordflow">return</span> POSTGIS.ST_ToDegrees.stringValue();</div><div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;        }</div></div><!-- fragment -->
+<p class="reference">Referenced by <a class="el" href="a03732.html#a43b4c73244bc6722ce551c1033cf1115">SinH.evaluate()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;                               {</div><div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;                <span class="comment">// TODO Auto-generated method stub</span></div><div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;                <span class="keywordflow">return</span> POSTGIS.SinH.stringValue();</div><div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;        }</div></div><!-- fragment -->
 </div>
 </div>
 </div><!-- contents -->
@@ -150,7 +148,7 @@ Public Member Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="a02466.html">org</a></li><li class="navelem"><a class="el" href="a02467.html">eclipse</a></li><li class="navelem"><a class="el" href="a02468.html">rdf4j</a></li><li class="navelem"><a class="el" href="a02471.html">query</a></li><li class="navelem"><a class="el" href="a02472.html">algebra</a></li><li class="navelem"><a class="el" href="a02473.html">evaluation</a></li><li class="navelem"><a class="el" href="a02474.html">function</a></li><li class="navelem"><a class="el" href="a02475.html">postgis</a></li><li class="navelem"><a class="el" href="a02497.html">math</a></li><li class="navelem"><a class="el" href="a03732.html">ToDegrees</a></li>
+    <li class="navelem"><a class="el" href="a02478.html">org</a></li><li class="navelem"><a class="el" href="a02479.html">eclipse</a></li><li class="navelem"><a class="el" href="a02480.html">rdf4j</a></li><li class="navelem"><a class="el" href="a02483.html">query</a></li><li class="navelem"><a class="el" href="a02484.html">algebra</a></li><li class="navelem"><a class="el" href="a02485.html">evaluation</a></li><li class="navelem"><a class="el" href="a02486.html">function</a></li><li class="navelem"><a class="el" href="a02487.html">postgis</a></li><li class="navelem"><a class="el" href="a02509.html">math</a></li><li class="navelem"><a class="el" href="a03732.html">SinH</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>

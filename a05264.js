@@ -1,5 +1,5 @@
 var a05264 =
 [
-    [ "testAsGARS", "a05264.html#a80929de20ed59fa635418039d48a9ef7", null ],
-    [ "testPoint", "a05264.html#af26f700ee129f846cac58735f6dcc380", null ]
+    [ "testRemovePoint", "a05264.html#a5e9b64ff404fa9347af445dc61f510b7", null ],
+    [ "lineString", "a05264.html#a76e109dc83d6f4d16fcd2fa3e73054f6", null ]
 ];

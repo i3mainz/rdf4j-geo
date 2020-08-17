@@ -1,7 +1,7 @@
 var a05648 =
 [
-    [ "testIsTriangleFalse", "a05648.html#a9a683ec2f8cc07231bddc07213698183", null ],
-    [ "testIsTriangleTrue", "a05648.html#a6a1ccdd76246a421ef6ae80bc7c4e87c", null ],
-    [ "testPolygon", "a05648.html#a1e3187cbc25299380589200c398b3ffd", null ],
-    [ "testPolygon2", "a05648.html#a882729aec95621b4ad261714738ae3fd", null ]
+    [ "testHasDuplicateRingsFalse", "a05648.html#a3957683118b9d5473c635a38d7e6c6e8", null ],
+    [ "testHasDuplicateRingsTrue", "a05648.html#a3779f6b4849bf60c716f7dff71089a2a", null ],
+    [ "duplicateRings", "a05648.html#a92f3ef00fc079a76b7f943d9ed6cec77", null ],
+    [ "nonduplicateRings", "a05648.html#a675a0b1b194538fc07fa716705f883a5", null ]
 ];

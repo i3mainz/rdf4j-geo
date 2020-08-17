@@ -1,6 +1,7 @@
 var a05784 =
 [
-    [ "testMinTileY", "a05784.html#af08fbb0122dba67031d875a70cba9d7b", null ],
+    [ "testXor", "a05784.html#a11b935be18716d35402a7fec0817a727", null ],
+    [ "combinedRasterLiteral", "a05784.html#a6efe8702be34a67e2bcbba55588c5b5f", null ],
     [ "covJSONString1", "a05784.html#a993e2f127f3ec8f256e9799d77507223", null ],
     [ "rasterBand", "a05784.html#a44dd712968b2420bbfbf9ae21d476b87", null ],
     [ "rasterLiteral1", "a05784.html#a77798f856500689412dea069531a7606", null ],

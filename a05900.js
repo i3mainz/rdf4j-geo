@@ -1,6 +1,6 @@
 var a05900 =
 [
-    [ "testAsCoverageJSON", "a05900.html#a99cbe22c14a0664995f6267fad391287", null ],
+    [ "testRasterWidth", "a05900.html#a3aa04fe9c7acaf5cbe3a2a3e080112c7", null ],
     [ "covJSONString1", "a05900.html#a993e2f127f3ec8f256e9799d77507223", null ],
     [ "rasterBand", "a05900.html#a44dd712968b2420bbfbf9ae21d476b87", null ],
     [ "rasterLiteral1", "a05900.html#a77798f856500689412dea069531a7606", null ],

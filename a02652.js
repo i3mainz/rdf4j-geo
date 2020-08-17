@@ -1,10 +1,9 @@
 var a02652 =
 [
-    [ "MaxX", "a02652.html#aec1113c98298aeab85c7c4df89a91268", null ],
-    [ "MaxX", "a02652.html#ad49b0d2b5b23376871919c73e4fca6f2", null ],
-    [ "clone", "a02652.html#a4e31d589779d23cc6611db4c1a9a7d2f", null ],
+    [ "ConcatenateLines", "a02652.html#a1b2e5c911ff4119a29f2d63996752a52", null ],
+    [ "ConcatenateLines", "a02652.html#a440dbd8fb21ba76ca7f1e6bcd294be18", null ],
+    [ "clone", "a02652.html#a5559dec2de139a139572b84b9d71d79d", null ],
     [ "equals", "a02652.html#a8e18a3a952a9e38a9a4191004a30c938", null ],
     [ "hashCode", "a02652.html#a077e18fe97323c7194e2665ffc766399", null ],
-    [ "visit", "a02652.html#ace7c41d3761122fda287033559696cdd", null ],
-    [ "serialVersionUID", "a02652.html#a3238d314ecdee14d2966760945d00c3b", null ]
+    [ "visit", "a02652.html#ace7c41d3761122fda287033559696cdd", null ]
 ];

@@ -1,6 +1,5 @@
 var a05244 =
 [
-    [ "testAddGeometry", "a05244.html#a4ebf1443292e242753148cb8748d9169", null ],
-    [ "lineString", "a05244.html#a76e109dc83d6f4d16fcd2fa3e73054f6", null ],
-    [ "point", "a05244.html#a081811ff1c2bedd0a20703599f90114f", null ]
+    [ "testGeomFromGeoJSON", "a05244.html#a64b3f7b5bcdec5b93820a9958c0622a3", null ],
+    [ "geoJsonTestGeom", "a05244.html#a117e8ff340791b5aa0658f5840b5dcf4", null ]
 ];

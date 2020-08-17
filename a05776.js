@@ -1,7 +1,7 @@
 var a05776 =
 [
-    [ "testRasterIsEmptyFalse", "a05776.html#a84a92eab09d27516cd5aaed0af6eb63d", null ],
-    [ "testRasterIsEmptyTrue", "a05776.html#a7aef574b4a0dde52f4c89e915399a8d0", null ],
+    [ "testSubtract", "a05776.html#a6765d065ca3c27a56dc817aef23a2e41", null ],
+    [ "combinedRasterLiteral", "a05776.html#a6efe8702be34a67e2bcbba55588c5b5f", null ],
     [ "covJSONString1", "a05776.html#a993e2f127f3ec8f256e9799d77507223", null ],
     [ "rasterBand", "a05776.html#a44dd712968b2420bbfbf9ae21d476b87", null ],
     [ "rasterLiteral1", "a05776.html#a77798f856500689412dea069531a7606", null ],

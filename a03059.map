@@ -1,13 +1,22 @@
-<map id="GeometricRelationDoubleFunction" name="GeometricRelationDoubleFunction">
-<area shape="rect" id="node3" href="$a02712.html" title="Returns the distance between the two bounding boxes of geometry 1 and geometry 2. ..." alt="" coords="417,5,528,32"/>
-<area shape="rect" id="node4" href="$a03232.html" title="AreaSimilarity" alt="" coords="421,56,524,83"/>
-<area shape="rect" id="node5" href="$a03236.html" title="CentroidDistance" alt="" coords="411,107,534,133"/>
-<area shape="rect" id="node6" href="$a03248.html" title="Difference3D" alt="" coords="423,157,522,184"/>
-<area shape="rect" id="node7" href="$a03252.html" title="Distance3D" alt="" coords="427,208,518,235"/>
-<area shape="rect" id="node8" href="$a03260.html" title="DistanceSphere" alt="" coords="415,259,530,285"/>
-<area shape="rect" id="node9" href="$a03292.html" title="HausdorffDistance" alt="" coords="407,309,538,336"/>
-<area shape="rect" id="node10" href="$a03300.html" title="IntersectionPercentage" alt="" coords="395,360,551,387"/>
-<area shape="rect" id="node11" href="$a03312.html" title="ManhattanDistance" alt="" coords="405,411,540,437"/>
-<area shape="rect" id="node12" href="$a03316.html" title="MaxDistance" alt="" coords="423,461,522,488"/>
-<area shape="rect" id="node13" href="$a03320.html" title="MaxDistance3D" alt="" coords="415,512,531,539"/>
+<map id="GeometricRelationBinaryFunction" name="GeometricRelationBinaryFunction">
+<area shape="rect" id="node3" href="$a02712.html" title="Returns true if the bounding box of geometry 1 is above the boundingbox of geometry 2..." alt="" coords="417,5,513,32"/>
+<area shape="rect" id="node4" href="$a02716.html" title="Returns true if the bounding box of geometry 1 is below the boundingbox of geometry 2..." alt="" coords="417,56,512,83"/>
+<area shape="rect" id="node5" href="$a02720.html" title="Returns true if the bounding box of geometry 1 contains the boundingbox of geometry 2..." alt="" coords="409,107,520,133"/>
+<area shape="rect" id="node6" href="$a02728.html" title="Returns true if the boundingbox of the first geometry equals the boundingbox of the second geometry..." alt="" coords="415,157,514,184"/>
+<area shape="rect" id="node7" href="$a02732.html" title="BBOXFPIntersects" alt="" coords="397,208,532,235"/>
+<area shape="rect" id="node8" href="$a02736.html" title="BBOXIntersects" alt="" coords="406,259,523,285"/>
+<area shape="rect" id="node9" href="$a02740.html" title="BBOXIsContainedBy" alt="" coords="392,309,537,336"/>
+<area shape="rect" id="node10" href="$a02744.html" title="BBOXLeftOf" alt="" coords="417,360,512,387"/>
+<area shape="rect" id="node11" href="$a02748.html" title="BBOXOverlapsAbove" alt="" coords="391,411,539,437"/>
+<area shape="rect" id="node12" href="$a02752.html" title="BBOXOverlapsBelow" alt="" coords="391,461,538,488"/>
+<area shape="rect" id="node13" href="$a02756.html" title="BBOXOverlapsLeft" alt="" coords="398,512,531,539"/>
+<area shape="rect" id="node14" href="$a02760.html" title="BBOXOverlapsRight" alt="" coords="393,563,536,589"/>
+<area shape="rect" id="node15" href="$a02764.html" title="BBOXRightOf" alt="" coords="413,613,517,640"/>
+<area shape="rect" id="node16" href="$a03276.html" title="EqualsNorm" alt="" coords="417,664,512,691"/>
+<area shape="rect" id="node17" href="$a03280.html" title="Returns true if the two given geometries have the same geocoordinate system. " alt="" coords="423,715,506,741"/>
+<area shape="rect" id="node18" href="$a03284.html" title="EqualsTopo" alt="" coords="419,765,510,792"/>
+<area shape="rect" id="node19" href="$a03288.html" title="EqualType" alt="" coords="423,816,507,843"/>
+<area shape="rect" id="node20" href="$a03340.html" title="OrderingEquals" alt="" coords="409,867,520,893"/>
+<area shape="rect" id="node21" href="$a03760.html" title="IsPointInRing" alt="" coords="414,917,515,944"/>
+<area shape="rect" id="node22" href="$a03764.html" title="IsPointOnLine" alt="" coords="413,968,517,995"/>
 </map>

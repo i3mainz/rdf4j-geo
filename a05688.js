@@ -1,9 +1,7 @@
 var a05688 =
 [
-    [ "testAdd", "a05688.html#afd0ee1fd8a383350e390e5b63a8a1cda", null ],
-    [ "combinedRasterLiteral", "a05688.html#a6efe8702be34a67e2bcbba55588c5b5f", null ],
-    [ "covJSONString1", "a05688.html#a993e2f127f3ec8f256e9799d77507223", null ],
-    [ "rasterBand", "a05688.html#a44dd712968b2420bbfbf9ae21d476b87", null ],
-    [ "rasterLiteral1", "a05688.html#a77798f856500689412dea069531a7606", null ],
-    [ "wkbString1", "a05688.html#ac94c157f6beb145deb3abfe76cbf5de2", null ]
+    [ "testAddRing", "a05688.html#abfc2c7e942ef652635d2256ba4e1fa47", null ],
+    [ "duplicateRings", "a05688.html#a92f3ef00fc079a76b7f943d9ed6cec77", null ],
+    [ "nonduplicateRings", "a05688.html#a675a0b1b194538fc07fa716705f883a5", null ],
+    [ "ring", "a05688.html#a3e4a839eee2eb5791f90656e82eec721", null ]
 ];

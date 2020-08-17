@@ -1,8 +1,8 @@
 var a02668 =
 [
-    [ "MinY", "a02668.html#a62c25b2f0babdfb69b8cfc85a20fdff2", null ],
-    [ "MinY", "a02668.html#a11415c60c910e3d618d3e28b1141563f", null ],
-    [ "clone", "a02668.html#a406ca179976851ce21491d2ec95bfa29", null ],
+    [ "MaxY", "a02668.html#a1c6d34345a793350a9be211bf5e4c17a", null ],
+    [ "MaxY", "a02668.html#af3596a7e3ee90355aa1ffed928ef960c", null ],
+    [ "clone", "a02668.html#a49bf4efa9d10429d6f2fda3b4361ec1c", null ],
     [ "equals", "a02668.html#a8e18a3a952a9e38a9a4191004a30c938", null ],
     [ "hashCode", "a02668.html#a077e18fe97323c7194e2665ffc766399", null ],
     [ "visit", "a02668.html#ace7c41d3761122fda287033559696cdd", null ],

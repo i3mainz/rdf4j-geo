@@ -1,7 +1,7 @@
 var NAVTREE =
 [
   [ "rdf4j-postgis", "index.html", [
-    [ "Deprecated List", "a02453.html", null ],
+    [ "Deprecated List", "a02465.html", null ],
     [ "Packages", null, [
       [ "Packages", "namespaces.html", "namespaces" ]
     ] ],
@@ -24,29 +24,29 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "a00002.html",
-"a00764.html",
+"a00761.html",
 "a01577.html",
 "a02330.html",
-"a02558.html",
-"a02612.html#a30dc639bc1b01a525ebd63c46e14aef9",
-"a02612.html#a9a6be31ef63b02110bdd0ce156ca1b5b",
-"a02632.html#af0725a1816cbe85fd20e2c627b9ff923",
-"a02860.html#a43b4c73244bc6722ce551c1033cf1115",
-"a03140.html",
-"a03380.html#ad9fb16b36dd4ccc533d4f05ff94646e3",
-"a03628.html#a43b4c73244bc6722ce551c1033cf1115",
-"a03892.html#ad9fb16b36dd4ccc533d4f05ff94646e3",
-"a04148.html",
-"a04420.html#a43b4c73244bc6722ce551c1033cf1115",
-"a04684.html#a43b4c73244bc6722ce551c1033cf1115",
-"a04884.html#afb4dc47464d22ed20de4b4318bcf68ca",
-"a04984.html#a5719a77b44553fb4d1f140713379dc34",
-"a05028.html#ab356995ed7cff0226d75484d03a994f2",
-"a05136.html",
-"a05384.html",
-"a05636.html#aae4d62f37acbace0beb2e9dbba631072",
-"a05800.html#ac94c157f6beb145deb3abfe76cbf5de2",
-"a07589.html"
+"a02568.html",
+"a02624.html#a3023b1fcb8141b5451cd24bec4241fb1",
+"a02624.html#a991f5c37ab3d1d314a8c985b92323e51",
+"a02644.html#a3238d314ecdee14d2966760945d00c3b",
+"a02868.html",
+"a03144.html#ad9fb16b36dd4ccc533d4f05ff94646e3",
+"a03388.html#acffd07bcd4424073cb2871460076578a",
+"a03632.html#a43b4c73244bc6722ce551c1033cf1115",
+"a03904.html",
+"a04152.html",
+"a04428.html#a2bfa3f6fe437856574c81aa21f7f173e",
+"a04688.html#a43b4c73244bc6722ce551c1033cf1115",
+"a04896.html#aa1b091a220c464a72ed08bd283083286",
+"a05000.html#a43ef7a8ea242d58b19f08758a244b921",
+"a05040.html#a9aa85be4ec02c28a05cb552845fe08eb",
+"a05144.html#ab78a03db57d15bcac7ef5487e5bee11e",
+"a05392.html#acd5d6c70876299a0278552ba577a7efc",
+"a05652.html",
+"a05812.html#af08fbb0122dba67031d875a70cba9d7b",
+"a06056.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

@@ -1,8 +1,3 @@
-<map id="RasterAlgebraUnaryFunction" name="RasterAlgebraUnaryFunction">
-<area shape="rect" id="node3" href="$a03992.html" title="Exp" alt="" coords="5,155,51,181"/>
-<area shape="rect" id="node4" href="$a04004.html" title="Invert" alt="" coords="75,155,130,181"/>
-<area shape="rect" id="node5" href="$a04016.html" title="MaxFilter" alt="" coords="154,155,230,181"/>
-<area shape="rect" id="node6" href="$a04024.html" title="MedianFilter" alt="" coords="255,155,348,181"/>
-<area shape="rect" id="node7" href="$a04032.html" title="MinFilter" alt="" coords="372,155,444,181"/>
-<area shape="rect" id="node8" href="$a04044.html" title="Not" alt="" coords="468,155,511,181"/>
+<map id="WorldToRasterCoordX" name="WorldToRasterCoordX">
+<area shape="rect" id="node2" href="$a04296.html" title="RasterAttributeIntIntDouble\lFunction" alt="" coords="5,80,187,121"/>
 </map>

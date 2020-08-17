@@ -1,6 +1,5 @@
 var a05444 =
 [
-    [ "testCollectionExtract", "a05444.html#ad65aa26b3876b84d26c4b988083bd940", null ],
-    [ "res", "a05444.html#ab8deaae2f0a5506ff9fd02ff15e921cc", null ],
-    [ "testGeometry", "a05444.html#abc3f514f005cba49e406658e2d3086eb", null ]
+    [ "testEPSGToSRID", "a05444.html#a058152e783dcc1694eb060f5099630b1", null ],
+    [ "testPoint", "a05444.html#af26f700ee129f846cac58735f6dcc380", null ]
 ];

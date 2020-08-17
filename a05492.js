@@ -1,6 +1,5 @@
 var a05492 =
 [
-    [ "testShiftLongitude", "a05492.html#a706f714749526b3516c84d5741993811", null ],
-    [ "result", "a05492.html#aab356d6554a7301750f11ec7a85ac47d", null ],
-    [ "testPolygon", "a05492.html#a1e3187cbc25299380589200c398b3ffd", null ]
+    [ "testForce4D", "a05492.html#ad31ba6d34e7770eae5de0864a25b1766", null ],
+    [ "testLineString", "a05492.html#a33797029fadbcba01b4a4fafec88cf41", null ]
 ];

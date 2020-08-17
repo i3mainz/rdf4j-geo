@@ -1,4 +1,5 @@
 var a05156 =
 [
-    [ "testIsSolidFalse", "a05156.html#a0e3a5c39c0d37b52035d9e40cf70b7ef", null ]
+    [ "testIsMeasuredFalse", "a05156.html#a0d34749daed816e995d607f25393f8bd", null ],
+    [ "testIsMeasuredTrue", "a05156.html#a94b07ea8a866ff9332c709b77d204342", null ]
 ];

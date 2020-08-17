@@ -1,5 +1,5 @@
 var a05204 =
 [
-    [ "testNumDistinctPoints", "a05204.html#aac9f79f9e21b36c6addad28b9e81bec6", null ],
-    [ "testGeom", "a05204.html#a03a5f5da0ccbeed8c1678d4317cf2672", null ]
+    [ "testMinimumDiameter", "a05204.html#a73584ebc5e2d20692de63f5ae4f13387", null ],
+    [ "testPolygon", "a05204.html#a1e3187cbc25299380589200c398b3ffd", null ]
 ];

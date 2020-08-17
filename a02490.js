@@ -1,9 +1,9 @@
 var a02490 =
 [
-    [ "EndPoint", "a03540.html", "a03540" ],
-    [ "LineInterpolatePoint", "a03544.html", "a03544" ],
-    [ "LineLength3D", "a03548.html", "a03548" ],
-    [ "LineSelfIntersectionPoint", "a03552.html", "a03552" ],
-    [ "SelfIntersections", "a03556.html", "a03556" ],
-    [ "StartPoint", "a03560.html", "a03560" ]
+    [ "Box2DFromGeoHash", "a02688.html", null ],
+    [ "Expand", "a02692.html", "a02692" ],
+    [ "MakeBox2D", "a02696.html", "a02696" ],
+    [ "MakeBox3D", "a02700.html", "a02700" ],
+    [ "MakeEnvelope", "a02704.html", "a02704" ],
+    [ "OctogonalEnvelope", "a02708.html", "a02708" ]
 ];

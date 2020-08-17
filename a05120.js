@@ -1,5 +1,6 @@
 var a05120 =
 [
-    [ "testLineString", "a05120.html#a0444ce8df222ae81e1a33426a32d8d7a", null ],
-    [ "testGeom", "a05120.html#a03a5f5da0ccbeed8c1678d4317cf2672", null ]
+    [ "testBoundingDiagonal", "a05120.html#a5905b320ef165de047ef4ff2e9167268", null ],
+    [ "result", "a05120.html#aab356d6554a7301750f11ec7a85ac47d", null ],
+    [ "testPolygon", "a05120.html#a1e3187cbc25299380589200c398b3ffd", null ]
 ];

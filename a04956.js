@@ -1,10 +1,14 @@
 var a04956 =
 [
-    [ "XReader", "a04960.html", "a04960" ],
-    [ "getFormatName", "a04956.html#aecf7db5b6782ec66f95d40c786a4d223", null ],
-    [ "read", "a04956.html#a74ddfb2345fac670df368a87d8ef120e", null ],
-    [ "read", "a04956.html#abb0d91da5ace7eba640f9bfa11b48dbf", null ],
-    [ "readIfSupported", "a04956.html#abc9814e865cf8cb200e35ffe5d4b748f", null ],
-    [ "readPolygon", "a04956.html#a3c0fa677a36d744060c714da150b798c", null ],
-    [ "shpFactory", "a04956.html#a05afdb0d887f04c5eac83dd8132c87b6", null ]
+    [ "Feature", "a04956.html#a25b3a15065bb9a73fee34b7379efbc3d", null ],
+    [ "getAttributes", "a04956.html#a53df620362bb32e76ab5ba5eafd8d7f8", null ],
+    [ "getExtent", "a04956.html#a60bfe2643b9af68293e713563b2792aa", null ],
+    [ "getGeometry", "a04956.html#ac87f55eacfa366a66a2ee6ff6c2ab40b", null ],
+    [ "getId", "a04956.html#ac7a54ea5a10c5c4683f16e3f83f77104", null ],
+    [ "getLayerName", "a04956.html#abd0c38e946022b804d4941aba21e6fe1", null ],
+    [ "attributes", "a04956.html#aae9ec0aefa9ddf1a254dcbc8921f46b6", null ],
+    [ "extent", "a04956.html#a6156e4ea9ca15fc926007ca518111147", null ],
+    [ "geometry", "a04956.html#ab673ef7c52790753f9f4280de525611c", null ],
+    [ "id", "a04956.html#a98e184e3edd9278aa1590f8a1c9515d7", null ],
+    [ "layerName", "a04956.html#a46934b2a2a8bed19bd956bc3d16b9aa1", null ]
 ];

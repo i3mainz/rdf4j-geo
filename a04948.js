@@ -1,10 +1,10 @@
 var a04948 =
 [
-    [ "key", "a04948.html#a807f334d405d92bd2f38c380d4b9ed9a", null ],
-    [ "keys", "a04948.html#a5b7e54bc6f4d8855104d09ef3adb2606", null ],
-    [ "value", "a04948.html#a3220129efaffe512a5dded79b4e142ac", null ],
-    [ "values", "a04948.html#a297c543701acc405ac68122b9642cb28", null ],
-    [ "features", "a04948.html#a2b66f5f4579c910c9f7b7ccc043c3037", null ],
-    [ "keys", "a04948.html#a885c190e82027881ec3ed1533283c966", null ],
-    [ "values", "a04948.html#a8159c164675963389d4522cae972207b", null ]
+    [ "FeatureIterable", "a04948.html#a0aef380d3850d9aef520a366f68969e1", null ],
+    [ "asList", "a04948.html#abde7b9af6c5ae1a6a1662e734b00f377", null ],
+    [ "getLayerNames", "a04948.html#a5996dbdd0c9cc359e6a365affcf90fca", null ],
+    [ "iterator", "a04948.html#a3cd747c42f7ff4b3c10fc491c0770c34", null ],
+    [ "autoScale", "a04948.html#a790b272bcf5713954b8582330074dfc8", null ],
+    [ "filter", "a04948.html#a372cbadc592907caa755cab7031ff81a", null ],
+    [ "tile", "a04948.html#a65b030830248e3f718b7a12708274fb5", null ]
 ];

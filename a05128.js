@@ -1,4 +1,5 @@
 var a05128 =
 [
-    [ "testIs3DFalse", "a05128.html#ab78a03db57d15bcac7ef5487e5bee11e", null ]
+    [ "testCentroid", "a05128.html#a4d1dfbf2fba1b5c88a704bccbcb65cb9", null ],
+    [ "testGeometry", "a05128.html#abc3f514f005cba49e406658e2d3086eb", null ]
 ];

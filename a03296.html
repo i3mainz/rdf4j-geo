@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>rdf4j-postgis: IntersectionMatrix Class Reference</title>
+<title>rdf4j-postgis: FullyWithinDistance3D Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -63,26 +63,26 @@ $(document).ready(function(){initNavTree('a03296.html','');});
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
-<a href="#pac-attribs">Package Attributes</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
 <a href="a03293.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">IntersectionMatrix Class Reference</div>  </div>
+<div class="title">FullyWithinDistance3D Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 <div class="dynheader">
-Inheritance diagram for IntersectionMatrix:</div>
+Inheritance diagram for FullyWithinDistance3D:</div>
 <div class="dyncontent">
-<div class="center"><img src="a03295.png" border="0" usemap="#IntersectionMatrix_inherit__map" alt="Inheritance graph"/></div>
-<map name="IntersectionMatrix_inherit__map" id="IntersectionMatrix_inherit__map">
-<area shape="rect" id="node2" href="a03076.html" title="GeometricRelationStringFunction" alt="" coords="5,80,220,107"/>
+<div class="center"><img src="a03295.png" border="0" usemap="#FullyWithinDistance3D_inherit__map" alt="Inheritance graph"/></div>
+<map name="FullyWithinDistance3D_inherit__map" id="FullyWithinDistance3D_inherit__map">
+<area shape="rect" id="node2" href="a03064.html" title="GeometricRelationDoubleBinary\lFunction" alt="" coords="5,80,213,121"/>
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <div class="dynheader">
-Collaboration diagram for IntersectionMatrix:</div>
+Collaboration diagram for FullyWithinDistance3D:</div>
 <div class="dyncontent">
-<div class="center"><img src="a03294.png" border="0" usemap="#IntersectionMatrix_coll__map" alt="Collaboration graph"/></div>
-<map name="IntersectionMatrix_coll__map" id="IntersectionMatrix_coll__map">
-<area shape="rect" id="node2" href="a03076.html" title="GeometricRelationStringFunction" alt="" coords="5,81,220,108"/>
+<div class="center"><img src="a03294.png" border="0" usemap="#FullyWithinDistance3D_coll__map" alt="Collaboration graph"/></div>
+<map name="FullyWithinDistance3D_coll__map" id="FullyWithinDistance3D_coll__map">
+<area shape="rect" id="node2" href="a03064.html" title="GeometricRelationDoubleBinary\lFunction" alt="" coords="5,80,213,121"/>
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -90,18 +90,18 @@ Collaboration diagram for IntersectionMatrix:</div>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:ad9fb16b36dd4ccc533d4f05ff94646e3"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a03296.html#ad9fb16b36dd4ccc533d4f05ff94646e3">getURI</a> ()</td></tr>
 <tr class="separator:ad9fb16b36dd4ccc533d4f05ff94646e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a43b4c73244bc6722ce551c1033cf1115"><td class="memItemLeft" align="right" valign="top">Value&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a03076.html#a43b4c73244bc6722ce551c1033cf1115">evaluate</a> (ValueFactory valueFactory, Value... args)  throws ValueExprEvaluationException </td></tr>
+<tr class="memitem:a43b4c73244bc6722ce551c1033cf1115"><td class="memItemLeft" align="right" valign="top">Value&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a03064.html#a43b4c73244bc6722ce551c1033cf1115">evaluate</a> (ValueFactory valueFactory, Value... args)  throws ValueExprEvaluationException </td></tr>
 <tr class="separator:a43b4c73244bc6722ce551c1033cf1115"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
-<tr class="memitem:a6341f0053ece7443b65acc5fdaeddd85"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a03296.html#a6341f0053ece7443b65acc5fdaeddd85">relation</a> (Geometry geom, Geometry geom2)</td></tr>
-<tr class="separator:a6341f0053ece7443b65acc5fdaeddd85"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3e407c16e996b9e44960d88e3a0292d6"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a03296.html#a3e407c16e996b9e44960d88e3a0292d6">relation</a> (Geometry g1, Geometry g2, Double distance)</td></tr>
+<tr class="separator:a3e407c16e996b9e44960d88e3a0292d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pac-attribs"></a>
-Package Attributes</h2></td></tr>
-<tr class="memitem:acc9fd21667cf4e9b037fe6f1670a86f7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="a03296.html">IntersectionMatrix</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a03296.html#acc9fd21667cf4e9b037fe6f1670a86f7">matrix</a> =new <a class="el" href="a03296.html">IntersectionMatrix</a>()</td></tr>
-<tr class="separator:acc9fd21667cf4e9b037fe6f1670a86f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:a73d87f0fe9970e69748c9e4f157d7ba6"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a03296.html#a73d87f0fe9970e69748c9e4f157d7ba6">getMaxDistance3D</a> (Geometry geom1, Geometry geom2)</td></tr>
+<tr class="separator:a73d87f0fe9970e69748c9e4f157d7ba6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
 <a id="a43b4c73244bc6722ce551c1033cf1115"></a>
@@ -138,11 +138,49 @@ Package Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="a04784.html#a8796f5aec1965b6c4e88b2ba7c1d2e53">LiteralRegistry.getLiteral()</a>, <a class="el" href="a03076.html#a0b458080a4675316384bff3541b3dfb8">GeometricRelationStringFunction.relation()</a>, and <a class="el" href="a04916.html#adb6db926db08da5c0c4a8ad8cfb1ff2d">LiteralUtils.transform()</a>.</p>
+<p class="reference">References <a class="el" href="a04800.html#a8796f5aec1965b6c4e88b2ba7c1d2e53">LiteralRegistry.getLiteral()</a>, <a class="el" href="a03064.html#ab455a41dbd82435a53ebe7d7239853d2">GeometricRelationDoubleBinaryFunction.relation()</a>, and <a class="el" href="a04932.html#adb6db926db08da5c0c4a8ad8cfb1ff2d">LiteralUtils.transform()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="a05356.html#a8537ca55b85b9d59789190d637670f0b">IntersectionMatrixTest.testIntersectionMatrix()</a>, and <a class="el" href="a05388.html#a8592662d9e01b3d8f2f9a86b6bb48372">RelateTest.testRelate()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;                                                                                                            {</div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;                <span class="keywordflow">if</span> (args.length != 2) {</div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;                        <span class="keywordflow">throw</span> <span class="keyword">new</span> ValueExprEvaluationException(getURI() + <span class="stringliteral">&quot; requires exactly 2 arguments, got &quot;</span> + args.length);</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;                }</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;                LiteralType l=LiteralRegistry.getLiteral(((Literal)args[0]).getDatatype().toString());</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;                LiteralType l2=LiteralRegistry.getLiteral(((Literal)args[1]).getDatatype().toString());</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;                <span class="keywordflow">if</span>(l instanceof VectorLiteral &amp;&amp; l2 instanceof VectorLiteral) {</div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;                        Geometry geom=((VectorLiteral)l).read(args[0].stringValue());</div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;                        Geometry geom2=((VectorLiteral)l2).read(args[1].stringValue());</div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;                        Geometry transformed=LiteralUtils.transform(geom2, geom);</div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;                        String result = <a class="code" href="a03076.html#a0b458080a4675316384bff3541b3dfb8">relation</a>(geom,transformed);</div><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;                        <span class="keywordflow">return</span> valueFactory.createLiteral(result);</div><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;                }</div><div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;                <span class="keywordflow">throw</span> <span class="keyword">new</span> ValueExprEvaluationException(<span class="stringliteral">&quot;Arguments given are not a geometry literal&quot;</span>);</div><div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;</div><div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;        }</div><div class="ttc" id="a03076_html_a0b458080a4675316384bff3541b3dfb8"><div class="ttname"><a href="a03076.html#a0b458080a4675316384bff3541b3dfb8">org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.geometry.base.GeometricRelationStringFunction.relation</a></div><div class="ttdeci">abstract String relation(Geometry g1, Geometry g2)</div></div>
+<p class="reference">Referenced by <a class="el" href="a05364.html#ae3a3dc920c5179e22a01c5c5682989bd">FullyWithinDistanceTest.testFullyWithinDistanceFalse()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;                                                                                                                    {</div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;                        <span class="keywordflow">if</span> (args.length != 3) {</div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;                                <span class="keywordflow">throw</span> <span class="keyword">new</span> ValueExprEvaluationException(getURI() + <span class="stringliteral">&quot; requires exactly 3 arguments, got &quot;</span> + args.length);</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;                        }</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;                        LiteralType l=LiteralRegistry.getLiteral(((Literal)args[0]).getDatatype().toString());</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;                        LiteralType l2=LiteralRegistry.getLiteral(((Literal)args[1]).getDatatype().toString());</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;                        Double value=Double.valueOf(args[2].stringValue());</div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;                        <span class="keywordflow">if</span>(l instanceof VectorLiteral &amp;&amp; l2 instanceof VectorLiteral) {</div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;                                Geometry geom=((VectorLiteral)l).read(args[0].stringValue());</div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;                                Geometry geom2=((VectorLiteral)l2).read(args[1].stringValue());</div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;                                Geometry transformed=LiteralUtils.transform(geom2, geom);</div><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;                                <span class="keywordtype">boolean</span> result = <a class="code" href="a03064.html#ab455a41dbd82435a53ebe7d7239853d2">relation</a>(geom,transformed,value);</div><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;                                <span class="keywordflow">return</span> valueFactory.createLiteral(result);</div><div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;                        }</div><div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;                        <span class="keywordflow">throw</span> <span class="keyword">new</span> ValueExprEvaluationException(<span class="stringliteral">&quot;Arguments given are not a geometry literal&quot;</span>);</div><div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;</div><div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;                }</div><div class="ttc" id="a03064_html_ab455a41dbd82435a53ebe7d7239853d2"><div class="ttname"><a href="a03064.html#ab455a41dbd82435a53ebe7d7239853d2">org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.geometry.base.GeometricRelationDoubleBinaryFunction.relation</a></div><div class="ttdeci">abstract boolean relation(Geometry g1, Geometry g2, Double value)</div></div>
 </div><!-- fragment -->
+</div>
+</div>
+<a id="a73d87f0fe9970e69748c9e4f157d7ba6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a73d87f0fe9970e69748c9e4f157d7ba6">&#9670;&nbsp;</a></span>getMaxDistance3D()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double getMaxDistance3D </td>
+          <td>(</td>
+          <td class="paramtype">Geometry&#160;</td>
+          <td class="paramname"><em>geom1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Geometry&#160;</td>
+          <td class="paramname"><em>geom2</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="a03296.html#a3e407c16e996b9e44960d88e3a0292d6">FullyWithinDistance3D.relation()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;                                                                       {</div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;                Double maxDistance=0.;</div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;        GeometryFactory fac=<span class="keyword">new</span> GeometryFactory();</div><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;                        <span class="keywordflow">for</span>(Coordinate coord:geom1.getCoordinates()) {</div><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;                                <span class="keywordflow">for</span>(Coordinate coord2:geom2.getCoordinates()) {</div><div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;                                        Double curdistance=Distance3DOp.distance(fac.createPoint(coord), fac.createPoint(coord2));</div><div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;                                        <span class="keywordflow">if</span>(curdistance&gt;maxDistance) {</div><div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;                                                maxDistance=curdistance;</div><div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;                                        }</div><div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;                                }</div><div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;                        }</div><div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;                        <span class="keywordflow">return</span> maxDistance;</div><div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;        }</div></div><!-- fragment -->
 </div>
 </div>
 <a id="ad9fb16b36dd4ccc533d4f05ff94646e3"></a>
@@ -160,12 +198,12 @@ Package Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="a02612.html#a710b5fdf6af189f99ca4db73719e4b06">POSTGIS.st_intersectionMatrix</a>.</p>
-<div class="fragment"><div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;                               {</div><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;                <span class="keywordflow">return</span> POSTGIS.st_intersectionMatrix.stringValue();</div><div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;        }</div></div><!-- fragment -->
+<p class="reference">References <a class="el" href="a02624.html#aba709cbc72a3e4eea59dbe302e637361">POSTGIS.st_fullyWithinDistance3D</a>.</p>
+<div class="fragment"><div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;                               {</div><div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;                <span class="keywordflow">return</span> POSTGIS.st_fullyWithinDistance3D.stringValue();</div><div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;        }</div></div><!-- fragment -->
 </div>
 </div>
-<a id="a6341f0053ece7443b65acc5fdaeddd85"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6341f0053ece7443b65acc5fdaeddd85">&#9670;&nbsp;</a></span>relation()</h2>
+<a id="a3e407c16e996b9e44960d88e3a0292d6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3e407c16e996b9e44960d88e3a0292d6">&#9670;&nbsp;</a></span>relation()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -174,16 +212,22 @@ Package Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">String relation </td>
+          <td class="memname">boolean relation </td>
           <td>(</td>
           <td class="paramtype">Geometry&#160;</td>
-          <td class="paramname"><em>geom</em>, </td>
+          <td class="paramname"><em>g1</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">Geometry&#160;</td>
-          <td class="paramname"><em>geom2</em>&#160;</td>
+          <td class="paramname"><em>g2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Double&#160;</td>
+          <td class="paramname"><em>distance</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -197,35 +241,10 @@ Package Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;                                                                 {</div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;                RelateOp relop=<span class="keyword">new</span> RelateOp(geom, geom2);</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;        <a class="code" href="a02466.html">org</a>.<a class="code" href="a02537.html">locationtech</a>.<a class="code" href="a02542.html">jts</a>.<a class="code" href="a02541.html">geom</a>.IntersectionMatrix <a class="code" href="a03296.html#acc9fd21667cf4e9b037fe6f1670a86f7">matrix</a>=relop.getIntersectionMatrix();</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="a03296.html#acc9fd21667cf4e9b037fe6f1670a86f7">matrix</a>.toString();</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;        }</div><div class="ttc" id="a02542_html"><div class="ttname"><a href="a02542.html">org.locationtech.jts</a></div></div>
-<div class="ttc" id="a03296_html_acc9fd21667cf4e9b037fe6f1670a86f7"><div class="ttname"><a href="a03296.html#acc9fd21667cf4e9b037fe6f1670a86f7">org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.geometry.relation.IntersectionMatrix.matrix</a></div><div class="ttdeci">IntersectionMatrix matrix</div><div class="ttdef"><b>Definition:</b> IntersectionMatrix.java:16</div></div>
-<div class="ttc" id="a02541_html"><div class="ttname"><a href="a02541.html">org.locationtech.jts.geom</a></div><div class="ttdef"><b>Definition:</b> Coordinate.java:12</div></div>
-<div class="ttc" id="a02466_html"><div class="ttname"><a href="a02466.html">org</a></div></div>
-<div class="ttc" id="a02537_html"><div class="ttname"><a href="a02537.html">org.locationtech</a></div></div>
+
+<p class="reference">References <a class="el" href="a03296.html#a73d87f0fe9970e69748c9e4f157d7ba6">FullyWithinDistance3D.getMaxDistance3D()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;                                                                              {</div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;        <span class="keywordtype">double</span> maxdistance3d=<a class="code" href="a03296.html#a73d87f0fe9970e69748c9e4f157d7ba6">getMaxDistance3D</a>(g1,g2);</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;        <span class="keywordflow">if</span>(maxdistance3d&lt;=distance) {</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;                <span class="keywordflow">return</span> <span class="keyword">true</span>;</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;        }</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">false</span>;   </div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;        }</div><div class="ttc" id="a03296_html_a73d87f0fe9970e69748c9e4f157d7ba6"><div class="ttname"><a href="a03296.html#a73d87f0fe9970e69748c9e4f157d7ba6">org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.geometry.relation.FullyWithinDistance3D.getMaxDistance3D</a></div><div class="ttdeci">double getMaxDistance3D(Geometry geom1, Geometry geom2)</div><div class="ttdef"><b>Definition:</b> FullyWithinDistance3D.java:26</div></div>
 </div><!-- fragment -->
-</div>
-</div>
-<h2 class="groupheader">Member Data Documentation</h2>
-<a id="acc9fd21667cf4e9b037fe6f1670a86f7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acc9fd21667cf4e9b037fe6f1670a86f7">&#9670;&nbsp;</a></span>matrix</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="a03296.html">IntersectionMatrix</a> matrix =new <a class="el" href="a03296.html">IntersectionMatrix</a>()</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">package</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
 </div>
 </div>
 </div><!-- contents -->
@@ -234,7 +253,7 @@ Package Attributes</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="a02466.html">org</a></li><li class="navelem"><a class="el" href="a02467.html">eclipse</a></li><li class="navelem"><a class="el" href="a02468.html">rdf4j</a></li><li class="navelem"><a class="el" href="a02471.html">query</a></li><li class="navelem"><a class="el" href="a02472.html">algebra</a></li><li class="navelem"><a class="el" href="a02473.html">evaluation</a></li><li class="navelem"><a class="el" href="a02474.html">function</a></li><li class="navelem"><a class="el" href="a02475.html">postgis</a></li><li class="navelem"><a class="el" href="a02482.html">geometry</a></li><li class="navelem"><a class="el" href="a02487.html">relation</a></li><li class="navelem"><a class="el" href="a03296.html">IntersectionMatrix</a></li>
+    <li class="navelem"><a class="el" href="a02478.html">org</a></li><li class="navelem"><a class="el" href="a02479.html">eclipse</a></li><li class="navelem"><a class="el" href="a02480.html">rdf4j</a></li><li class="navelem"><a class="el" href="a02483.html">query</a></li><li class="navelem"><a class="el" href="a02484.html">algebra</a></li><li class="navelem"><a class="el" href="a02485.html">evaluation</a></li><li class="navelem"><a class="el" href="a02486.html">function</a></li><li class="navelem"><a class="el" href="a02487.html">postgis</a></li><li class="navelem"><a class="el" href="a02494.html">geometry</a></li><li class="navelem"><a class="el" href="a02499.html">relation</a></li><li class="navelem"><a class="el" href="a03296.html">FullyWithinDistance3D</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>

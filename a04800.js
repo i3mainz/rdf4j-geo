@@ -1,8 +1,7 @@
 var a04800 =
 [
-    [ "read", "a04800.html#a1cc8c62f94cc0157db4958fbe1f87310", null ],
-    [ "unparse", "a04800.html#a657560fc17175e794fe55d3b23643891", null ],
-    [ "INSTANCE", "a04800.html#aa67fd58121397b354e07fbf09cb4c945", null ],
-    [ "LiteralIRI", "a04800.html#ae02c2e86ac0dea8538c7b43e9e82421a", null ],
-    [ "URI", "a04800.html#addbf30e6c0ad68fa34277d59a2c6eb5e", null ]
+    [ "LiteralRegistry", "a04800.html#ab2c1f34f60c2740f703068f27871a32b", null ],
+    [ "getLiteral", "a04800.html#a8796f5aec1965b6c4e88b2ba7c1d2e53", null ],
+    [ "INSTANCE", "a04800.html#a750fe4eab7f7958aa7a5642659669c0e", null ],
+    [ "literals", "a04800.html#aca2348a6b1d6796d1e7034d4029e3817", null ]
 ];

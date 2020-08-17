@@ -1,5 +1,6 @@
 var a04444 =
 [
+    [ "containsProperly", "a04444.html#a6a88abd106a4bb7c20bd59b0b8833ed5", null ],
     [ "evaluate", "a04444.html#a43b4c73244bc6722ce551c1033cf1115", null ],
     [ "getLiteral", "a04444.html#ad5ea121d0231b4b209324202427665f0", null ],
     [ "getURI", "a04444.html#ad9fb16b36dd4ccc533d4f05ff94646e3", null ],

@@ -1,5 +1,8 @@
 var a04824 =
 [
-    [ "read", "a04824.html#a72ba573a80a1b3ca294b5610c665bb43", null ],
-    [ "unparse", "a04824.html#a04dfa27069856b0c596707d413282107", null ]
+    [ "read", "a04824.html#afd26f2137814b79e69d9f4cd66074c30", null ],
+    [ "unparse", "a04824.html#a657560fc17175e794fe55d3b23643891", null ],
+    [ "INSTANCE", "a04824.html#aa67fd58121397b354e07fbf09cb4c945", null ],
+    [ "LiteralIRI", "a04824.html#ae02c2e86ac0dea8538c7b43e9e82421a", null ],
+    [ "URI", "a04824.html#addbf30e6c0ad68fa34277d59a2c6eb5e", null ]
 ];

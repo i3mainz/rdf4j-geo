@@ -1,5 +1,5 @@
 var a05176 =
 [
-    [ "testMinimumClearanceLine", "a05176.html#a61877f78d0d415e1cd48f477474017e6", null ],
-    [ "testPolygon", "a05176.html#a1e3187cbc25299380589200c398b3ffd", null ]
+    [ "testLineString", "a05176.html#a0444ce8df222ae81e1a33426a32d8d7a", null ],
+    [ "testGeom", "a05176.html#a03a5f5da0ccbeed8c1678d4317cf2672", null ]
 ];

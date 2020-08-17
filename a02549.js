@@ -1,12 +1,7 @@
 var a02549 =
 [
-    [ "envelope", "a02550.html", "a02550" ],
-    [ "geometry", "a02552.html", "a02552" ],
-    [ "linestring", "a02560.html", "a02560" ],
-    [ "math", "a02564.html", "a02564" ],
-    [ "point", "a02566.html", "a02566" ],
-    [ "polygon", "a02569.html", "a02569" ],
-    [ "raster", "a02574.html", "a02574" ],
-    [ "unit", "a02578.html", "a02578" ],
-    [ "util", "a02579.html", "a02579" ]
+    [ "geowave", "a02550.html", "a02550" ],
+    [ "jts", "a02554.html", "a02554" ],
+    [ "jtstest", "a02556.html", "a02556" ],
+    [ "jump", "a02559.html", "a02559" ]
 ];

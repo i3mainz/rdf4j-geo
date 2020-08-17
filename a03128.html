@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>rdf4j-postgis: EnsureClosedRings Class Reference</title>
+<title>rdf4j-postgis: AddGeometry Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -65,23 +65,23 @@ $(document).ready(function(){initNavTree('a03128.html','');});
 <a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="a03125.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">EnsureClosedRings Class Reference</div>  </div>
+<div class="title">AddGeometry Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 <div class="dynheader">
-Inheritance diagram for EnsureClosedRings:</div>
+Inheritance diagram for AddGeometry:</div>
 <div class="dyncontent">
-<div class="center"><img src="a03127.png" border="0" usemap="#EnsureClosedRings_inherit__map" alt="Inheritance graph"/></div>
-<map name="EnsureClosedRings_inherit__map" id="EnsureClosedRings_inherit__map">
-<area shape="rect" id="node2" href="a03024.html" title="GeometricModifierDoubleFunction" alt="" coords="5,80,224,107"/>
+<div class="center"><img src="a03127.png" border="0" usemap="#AddGeometry_inherit__map" alt="Inheritance graph"/></div>
+<map name="AddGeometry_inherit__map" id="AddGeometry_inherit__map">
+<area shape="rect" id="node2" href="a03040.html" title="GeometricModifierFunction" alt="" coords="5,80,184,107"/>
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <div class="dynheader">
-Collaboration diagram for EnsureClosedRings:</div>
+Collaboration diagram for AddGeometry:</div>
 <div class="dyncontent">
-<div class="center"><img src="a03126.png" border="0" usemap="#EnsureClosedRings_coll__map" alt="Collaboration graph"/></div>
-<map name="EnsureClosedRings_coll__map" id="EnsureClosedRings_coll__map">
-<area shape="rect" id="node2" href="a03024.html" title="GeometricModifierDoubleFunction" alt="" coords="5,80,224,107"/>
+<div class="center"><img src="a03126.png" border="0" usemap="#AddGeometry_coll__map" alt="Collaboration graph"/></div>
+<map name="AddGeometry_coll__map" id="AddGeometry_coll__map">
+<area shape="rect" id="node2" href="a03040.html" title="GeometricModifierFunction" alt="" coords="5,80,184,107"/>
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -89,13 +89,13 @@ Collaboration diagram for EnsureClosedRings:</div>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:ad9fb16b36dd4ccc533d4f05ff94646e3"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a03128.html#ad9fb16b36dd4ccc533d4f05ff94646e3">getURI</a> ()</td></tr>
 <tr class="separator:ad9fb16b36dd4ccc533d4f05ff94646e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a43b4c73244bc6722ce551c1033cf1115"><td class="memItemLeft" align="right" valign="top">Value&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a03024.html#a43b4c73244bc6722ce551c1033cf1115">evaluate</a> (ValueFactory valueFactory, Value... args)  throws ValueExprEvaluationException </td></tr>
+<tr class="memitem:a43b4c73244bc6722ce551c1033cf1115"><td class="memItemLeft" align="right" valign="top">Value&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a03040.html#a43b4c73244bc6722ce551c1033cf1115">evaluate</a> (ValueFactory valueFactory, Value... args)  throws ValueExprEvaluationException </td></tr>
 <tr class="separator:a43b4c73244bc6722ce551c1033cf1115"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
-<tr class="memitem:aff25ff8b7911e1c241669531d923ae62"><td class="memItemLeft" align="right" valign="top">Geometry&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a03128.html#aff25ff8b7911e1c241669531d923ae62">relation</a> (Geometry geom, Double value)</td></tr>
-<tr class="separator:aff25ff8b7911e1c241669531d923ae62"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a01f7ce0a8ef37a90c49eb4805e9c0317"><td class="memItemLeft" align="right" valign="top">Geometry&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a03128.html#a01f7ce0a8ef37a90c49eb4805e9c0317">relation</a> (Geometry g1, Geometry g2)</td></tr>
+<tr class="separator:a01f7ce0a8ef37a90c49eb4805e9c0317"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
 <a id="a43b4c73244bc6722ce551c1033cf1115"></a>
@@ -132,10 +132,10 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="a04784.html#a8796f5aec1965b6c4e88b2ba7c1d2e53">LiteralRegistry.getLiteral()</a>, and <a class="el" href="a03024.html#a3e90404335d65a7dc26872963e46db87">GeometricModifierDoubleFunction.relation()</a>.</p>
+<p class="reference">References <a class="el" href="a04800.html#a8796f5aec1965b6c4e88b2ba7c1d2e53">LiteralRegistry.getLiteral()</a>, <a class="el" href="a03040.html#ad8955ef0238bd58223785eb653c90a5c">GeometricModifierFunction.relation()</a>, and <a class="el" href="a04932.html#adb6db926db08da5c0c4a8ad8cfb1ff2d">LiteralUtils.transform()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="a05244.html#a4ebf1443292e242753148cb8748d9169">RemoveGeometryTest.testAddGeometry()</a>, <a class="el" href="a05452.html#a94a17603d200a0a1f4817b4687ee592d">DensifyTest.testDensify()</a>, <a class="el" href="a05240.html#ace1b0f448a93ab083e49e59b851b8094">EnsureClosedTest.testEnsureClosed()</a>, <a class="el" href="a05240.html#a7a93140658cbcf5aea17d9f930cd5144">EnsureClosedTest.testEnsureClosed2()</a>, <a class="el" href="a05484.html#a473d131a5f96a89f9502570a50d06e65">RemoveRepeatedPointsTest.testRemoveRepeatedPoints()</a>, <a class="el" href="a05664.html#ad886abc46152c92cd03887b3f71760c7">RemoveRingTest.testRemoveRing()</a>, <a class="el" href="a05680.html#a341309060348e532f6606d50945a52bd">ReverseRingTest.testReverseRing()</a>, <a class="el" href="a05500.html#a4b0417b619689d07743ff9d72212c847">SimplifyTest.testSimplifyVW()</a>, and <a class="el" href="a05504.html#a4b0417b619689d07743ff9d72212c847">SimplifyVWTest.testSimplifyVW()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;                                                                                                            {</div><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;                <span class="keywordflow">if</span> (args.length != 2) {</div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;                        <span class="keywordflow">throw</span> <span class="keyword">new</span> ValueExprEvaluationException(getURI() + <span class="stringliteral">&quot; requires exactly 2 arguments, got &quot;</span> + args.length);</div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;                }</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;                LiteralType l=LiteralRegistry.getLiteral(((Literal)args[0]).getDatatype().toString());</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;                Double value=Double.valueOf(args[1].stringValue());</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;                <span class="keywordflow">if</span>(l instanceof VectorLiteral) {</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;                        Geometry geom=((VectorLiteral)l).read(args[0].stringValue());</div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;                        Geometry result = <a class="code" href="a03024.html#a3e90404335d65a7dc26872963e46db87">relation</a>(geom,value);</div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;                        <span class="keywordflow">return</span> valueFactory.createLiteral(((VectorLiteral) l).unparse(result),((Literal)args[0]).getDatatype());</div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;                }</div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;                <span class="keywordflow">throw</span> <span class="keyword">new</span> ValueExprEvaluationException(<span class="stringliteral">&quot;Argument given is not a geometry literal&quot;</span>);</div><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;        }</div><div class="ttc" id="a03024_html_a3e90404335d65a7dc26872963e46db87"><div class="ttname"><a href="a03024.html#a3e90404335d65a7dc26872963e46db87">org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.geometry.base.GeometricModifierDoubleFunction.relation</a></div><div class="ttdeci">abstract Geometry relation(Geometry geom, Double value)</div></div>
+<p class="reference">Referenced by <a class="el" href="a05248.html#a4ebf1443292e242753148cb8748d9169">AddGeometryTest.testAddGeometry()</a>, <a class="el" href="a05252.html#a788e3676eaba471d99d698f53d72615c">AddPointTest.testAddPoint()</a>, <a class="el" href="a05688.html#abfc2c7e942ef652635d2256ba4e1fa47">AddRingTest.testAddRing()</a>, <a class="el" href="a05336.html#af30fa8d36bc2cb8bd652397169d9708d">ClosestPointTest.testClosestPoint()</a>, <a class="el" href="a05368.html#a5bf1108229fcb950f9fe74e48a8aee7c">FurthestCoordinateTest.testFurthestCoordinate()</a>, <a class="el" href="a05564.html#a100e1041d9eed0108cb20adfb3ccb714">SetEndPointTest.testLineString2D()</a>, and <a class="el" href="a05568.html#a100e1041d9eed0108cb20adfb3ccb714">SetStartPointTest.testLineString2D()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;                                                                                                            {</div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;                <span class="keywordflow">if</span> (args.length != 2) {</div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;                        <span class="keywordflow">throw</span> <span class="keyword">new</span> ValueExprEvaluationException(getURI() + <span class="stringliteral">&quot; requires exactly 2 arguments, got &quot;</span> + args.length);</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;                }</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;                LiteralType l=LiteralRegistry.getLiteral(((Literal)args[0]).getDatatype().toString());</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;                LiteralType l2=LiteralRegistry.getLiteral(((Literal)args[1]).getDatatype().toString());</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;                <span class="keywordflow">if</span>(l instanceof VectorLiteral) {</div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;                        Geometry geom=((VectorLiteral)l).read(args[0].stringValue());</div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;                        Geometry geom2=((VectorLiteral)l2).read(args[1].stringValue());</div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;                        Geometry transformed=LiteralUtils.transform(geom2, geom);</div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;                        Geometry result = <a class="code" href="a03040.html#ad8955ef0238bd58223785eb653c90a5c">relation</a>(geom,transformed);</div><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;                        <span class="keywordflow">return</span> valueFactory.createLiteral(((VectorLiteral) l).unparse(result),((Literal)args[0]).getDatatype());</div><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;                }</div><div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;                <span class="keywordflow">throw</span> <span class="keyword">new</span> ValueExprEvaluationException(<span class="stringliteral">&quot;Argument given is not a geometry literal&quot;</span>);</div><div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;        }</div><div class="ttc" id="a03040_html_ad8955ef0238bd58223785eb653c90a5c"><div class="ttname"><a href="a03040.html#ad8955ef0238bd58223785eb653c90a5c">org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.geometry.base.GeometricModifierFunction.relation</a></div><div class="ttdeci">abstract Geometry relation(Geometry g1, Geometry g2)</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -154,12 +154,12 @@ Protected Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="a02612.html#a1ac51aba36cadc90a938d2c1e02684ee">POSTGIS.st_ensureClosedRings</a>.</p>
-<div class="fragment"><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;                               {</div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;                <span class="keywordflow">return</span> POSTGIS.st_ensureClosedRings.stringValue();</div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;        }</div></div><!-- fragment -->
+<p class="reference">References <a class="el" href="a02624.html#aab3af11b612e27375e40501af909f6c1">POSTGIS.st_addGeometry</a>.</p>
+<div class="fragment"><div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;                               {</div><div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;                <span class="keywordflow">return</span> POSTGIS.st_addGeometry.stringValue();</div><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;        }</div></div><!-- fragment -->
 </div>
 </div>
-<a id="aff25ff8b7911e1c241669531d923ae62"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aff25ff8b7911e1c241669531d923ae62">&#9670;&nbsp;</a></span>relation()</h2>
+<a id="a01f7ce0a8ef37a90c49eb4805e9c0317"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a01f7ce0a8ef37a90c49eb4805e9c0317">&#9670;&nbsp;</a></span>relation()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -171,13 +171,13 @@ Protected Member Functions</h2></td></tr>
           <td class="memname">Geometry relation </td>
           <td>(</td>
           <td class="paramtype">Geometry&#160;</td>
-          <td class="paramname"><em>geom</em>, </td>
+          <td class="paramname"><em>g1</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">Double&#160;</td>
-          <td class="paramname"><em>value</em>&#160;</td>
+          <td class="paramtype">Geometry&#160;</td>
+          <td class="paramname"><em>g2</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -191,7 +191,7 @@ Protected Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;                                                                 {</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;                <span class="keywordflow">if</span>(geom instanceof Polygon) {</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;                        GeometryFactory fac=<span class="keyword">new</span> GeometryFactory();</div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;</div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;                        Polygon poly=(Polygon) geom;</div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;                        List&lt;LinearRing&gt; rings=<span class="keyword">new</span> LinkedList&lt;LinearRing&gt;();</div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;                        <span class="keywordflow">for</span>(<span class="keywordtype">int</span> i=0;i&lt;poly.getNumInteriorRing();i++) {</div><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;                                <span class="keywordflow">if</span>(!poly.getInteriorRingN(i).isClosed()) {</div><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;                                        LinearRing ring=(LinearRing)poly.getInteriorRingN(i);</div><div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;                                        List&lt;Coordinate&gt; coords=<span class="keyword">new</span> LinkedList&lt;Coordinate&gt;();</div><div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;                                        <span class="keywordflow">for</span>(Coordinate coord:ring.getCoordinates()) {</div><div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;                                                coords.add(coord);</div><div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;                                        }</div><div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;                                        coords.add(ring.getCoordinates()[0]);</div><div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;                                        rings.add(fac.createLinearRing(coords.toArray(<span class="keyword">new</span> Coordinate[0])));</div><div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;                                }<span class="keywordflow">else</span> {</div><div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;                                        rings.add((LinearRing)poly.getInteriorRingN(i));</div><div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;                                }</div><div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;                        }</div><div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;                }</div><div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;        <span class="keywordflow">return</span> null;</div><div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;        }</div></div><!-- fragment -->
+<div class="fragment"><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;                                                              {</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;                GeometryFactory fac=<span class="keyword">new</span> GeometryFactory();</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;                List&lt;Geometry&gt; geometries=<span class="keyword">new</span> LinkedList&lt;Geometry&gt;();</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;                <span class="keywordflow">for</span>(<span class="keywordtype">int</span> i=0;i&lt;g1.getNumGeometries();i++) {</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;                        geometries.add(g1.getGeometryN(i));</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;                }</div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;                geometries.add(g2);</div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;                <span class="keywordflow">return</span> fac.createGeometryCollection(geometries.toArray(<span class="keyword">new</span> Geometry[0]));</div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;        }</div></div><!-- fragment -->
 </div>
 </div>
 </div><!-- contents -->
@@ -200,7 +200,7 @@ Protected Member Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="a02466.html">org</a></li><li class="navelem"><a class="el" href="a02467.html">eclipse</a></li><li class="navelem"><a class="el" href="a02468.html">rdf4j</a></li><li class="navelem"><a class="el" href="a02471.html">query</a></li><li class="navelem"><a class="el" href="a02472.html">algebra</a></li><li class="navelem"><a class="el" href="a02473.html">evaluation</a></li><li class="navelem"><a class="el" href="a02474.html">function</a></li><li class="navelem"><a class="el" href="a02475.html">postgis</a></li><li class="navelem"><a class="el" href="a02482.html">geometry</a></li><li class="navelem"><a class="el" href="a02485.html">editor</a></li><li class="navelem"><a class="el" href="a03128.html">EnsureClosedRings</a></li>
+    <li class="navelem"><a class="el" href="a02478.html">org</a></li><li class="navelem"><a class="el" href="a02479.html">eclipse</a></li><li class="navelem"><a class="el" href="a02480.html">rdf4j</a></li><li class="navelem"><a class="el" href="a02483.html">query</a></li><li class="navelem"><a class="el" href="a02484.html">algebra</a></li><li class="navelem"><a class="el" href="a02485.html">evaluation</a></li><li class="navelem"><a class="el" href="a02486.html">function</a></li><li class="navelem"><a class="el" href="a02487.html">postgis</a></li><li class="navelem"><a class="el" href="a02494.html">geometry</a></li><li class="navelem"><a class="el" href="a02497.html">editor</a></li><li class="navelem"><a class="el" href="a03128.html">AddGeometry</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>

@@ -1,6 +1,9 @@
 var a05256 =
 [
-    [ "testLineString2D", "a05256.html#a100e1041d9eed0108cb20adfb3ccb714", null ],
-    [ "LineString2D", "a05256.html#a4a6127d0b7f1eecce2d32442325f7735", null ],
-    [ "point", "a05256.html#a081811ff1c2bedd0a20703599f90114f", null ]
+    [ "testEnsureClosed", "a05256.html#ace1b0f448a93ab083e49e59b851b8094", null ],
+    [ "testEnsureClosed2", "a05256.html#a7a93140658cbcf5aea17d9f930cd5144", null ],
+    [ "closed", "a05256.html#ad8efa97b8aa775164dc4836b505fc315", null ],
+    [ "duplicateRings", "a05256.html#a92f3ef00fc079a76b7f943d9ed6cec77", null ],
+    [ "nonClosed", "a05256.html#aff993a2133bc6c6afe1012e13b5c028d", null ],
+    [ "ring", "a05256.html#a3e4a839eee2eb5791f90656e82eec721", null ]
 ];

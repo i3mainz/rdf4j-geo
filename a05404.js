@@ -1,5 +1,6 @@
 var a05404 =
 [
-    [ "testEPSGToSRID", "a05404.html#a058152e783dcc1694eb060f5099630b1", null ],
-    [ "testPoint", "a05404.html#af26f700ee129f846cac58735f6dcc380", null ]
+    [ "testRelateMatchFalse", "a05404.html#a16bf67312d8af3e076076fd8097969c5", null ],
+    [ "testRelateMatchTrue", "a05404.html#a47e32d919c84c1edd508a45d6c670e90", null ],
+    [ "notIsocelesTriangle", "a05404.html#a055d99fb63bcee37763ffcf4da9e0521", null ]
 ];

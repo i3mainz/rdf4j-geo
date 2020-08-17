@@ -1,7 +1,5 @@
 var a04784 =
 [
-    [ "LiteralRegistry", "a04784.html#ab2c1f34f60c2740f703068f27871a32b", null ],
-    [ "getLiteral", "a04784.html#a8796f5aec1965b6c4e88b2ba7c1d2e53", null ],
-    [ "INSTANCE", "a04784.html#a750fe4eab7f7958aa7a5642659669c0e", null ],
-    [ "literals", "a04784.html#aca2348a6b1d6796d1e7034d4029e3817", null ]
+    [ "evaluate", "a04784.html#a43b4c73244bc6722ce551c1033cf1115", null ],
+    [ "getURI", "a04784.html#ad9fb16b36dd4ccc533d4f05ff94646e3", null ]
 ];

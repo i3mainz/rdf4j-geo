@@ -1,8 +1,9 @@
 var a04892 =
 [
-    [ "WKBTextSRS", "a04892.html#a12d2a5c4b7a29eae5d108bccb1e55b11", null ],
-    [ "getSrsURI", "a04892.html#a7d7dded4f73b0a90d90f68ccc5f16bc3", null ],
-    [ "getWkbText", "a04892.html#a4a2ce7a2dcd4fa0818378fb8b97931fb", null ],
-    [ "srsURI", "a04892.html#aaa7845d06052bead86bb2de40935e4d9", null ],
-    [ "wkbText", "a04892.html#a7b6ce5371e4ad222f4b09eaadfdcae09", null ]
+    [ "read", "a04892.html#a793358fbd6ef538a24eabab1bd50ef01", null ],
+    [ "toString", "a04892.html#ad146fa8579a5f8a876c4688cc5a68520", null ],
+    [ "unparse", "a04892.html#ae918a517e1ebcc44beeee2c55008d248", null ],
+    [ "INSTANCE", "a04892.html#a2ef763e8a7d3b73f7a4eb1c3cb0f681b", null ],
+    [ "KML_PREFIX", "a04892.html#ad23c5afe46f654a7d409a229f54a9b2f", null ],
+    [ "URI", "a04892.html#addbf30e6c0ad68fa34277d59a2c6eb5e", null ]
 ];

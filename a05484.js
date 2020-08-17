@@ -1,6 +1,7 @@
 var a05484 =
 [
-    [ "testRemoveRepeatedPoints", "a05484.html#a473d131a5f96a89f9502570a50d06e65", null ],
-    [ "testGeometry", "a05484.html#abc3f514f005cba49e406658e2d3086eb", null ],
-    [ "testGeometry2", "a05484.html#af1173652e671b8f9051f8630b98c73fb", null ]
+    [ "testForce3DM", "a05484.html#a809df5824b4a08713e4ce726cb369a8d", null ],
+    [ "testForce3DM2", "a05484.html#a1efd448688434012347e3bc8972acb49", null ],
+    [ "testPolygon", "a05484.html#a1e3187cbc25299380589200c398b3ffd", null ],
+    [ "testPolygon2", "a05484.html#a882729aec95621b4ad261714738ae3fd", null ]
 ];

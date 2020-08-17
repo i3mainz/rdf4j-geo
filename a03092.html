@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>rdf4j-postgis: GeomCollFromText Class Reference</title>
+<title>rdf4j-postgis: GeometricStringExportFunction Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -64,64 +64,68 @@ $(document).ready(function(){initNavTree('a03092.html','');});
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="a03089.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">GeomCollFromText Class Reference</div>  </div>
+<div class="title">GeometricStringExportFunction Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
 </div><!--header-->
 <div class="contents">
 <div class="dynheader">
-Inheritance diagram for GeomCollFromText:</div>
+Inheritance diagram for GeometricStringExportFunction:</div>
 <div class="dyncontent">
-<div class="center"><img src="a03091.png" border="0" usemap="#GeomCollFromText_inherit__map" alt="Inheritance graph"/></div>
-<map name="GeomCollFromText_inherit__map" id="GeomCollFromText_inherit__map">
-<area shape="rect" id="node2" href="a02984.html" title="GeometricConstructor" alt="" coords="5,80,156,107"/>
+<div class="center"><img src="a03091.png" border="0" usemap="#GeometricStringExportFunction_inherit__map" alt="Inheritance graph"/></div>
+<map name="GeometricStringExportFunction_inherit__map" id="GeometricStringExportFunction_inherit__map">
+<area shape="rect" id="node3" href="a02804.html" title="Dump" alt="" coords="430,5,487,32"/>
+<area shape="rect" id="node4" href="a02816.html" title="Returns the type of the given geometry. " alt="" coords="405,56,513,83"/>
+<area shape="rect" id="node5" href="a02888.html" title="IsValidDetail" alt="" coords="411,107,507,133"/>
+<area shape="rect" id="node6" href="a02892.html" title="IsValidReason" alt="" coords="405,157,512,184"/>
+<area shape="rect" id="node7" href="a03160.html" title="AsBinary" alt="" coords="421,208,496,235"/>
+<area shape="rect" id="node8" href="a03164.html" title="AsGARS" alt="" coords="421,259,497,285"/>
+<area shape="rect" id="node9" href="a03168.html" title="AsGeobuf" alt="" coords="419,309,499,336"/>
+<area shape="rect" id="node10" href="a03172.html" title="AsGeoHash" alt="" coords="412,360,505,387"/>
+<area shape="rect" id="node11" href="a03176.html" title="AsGeoJSON" alt="" coords="409,411,508,437"/>
+<area shape="rect" id="node12" href="a03180.html" title="AsGeoRSS" alt="" coords="413,461,504,488"/>
+<area shape="rect" id="node13" href="a03184.html" title="AsGeoURI" alt="" coords="415,512,502,539"/>
+<area shape="rect" id="node14" href="a03188.html" title="AsGML" alt="" coords="425,563,492,589"/>
+<area shape="rect" id="node15" href="a03192.html" title="AsGPX" alt="" coords="425,613,492,640"/>
+<area shape="rect" id="node16" href="a03196.html" title="AsKML" alt="" coords="426,664,491,691"/>
+<area shape="rect" id="node17" href="a03200.html" title="AsLatLonText" alt="" coords="407,715,510,741"/>
+<area shape="rect" id="node18" href="a03204.html" title="AsMVT" alt="" coords="425,765,492,792"/>
+<area shape="rect" id="node19" href="a03208.html" title="AsOSMLink" alt="" coords="413,816,505,843"/>
+<area shape="rect" id="node20" href="a03212.html" title="AsPolyshape" alt="" coords="409,867,508,893"/>
+<area shape="rect" id="node21" href="a03216.html" title="AsSVG" alt="" coords="425,917,492,944"/>
+<area shape="rect" id="node22" href="a03220.html" title="AsText" alt="" coords="427,968,491,995"/>
+<area shape="rect" id="node23" href="a03224.html" title="AsTextRaw" alt="" coords="413,1019,504,1045"/>
+<area shape="rect" id="node24" href="a03232.html" title="AsTWKB" alt="" coords="420,1069,497,1096"/>
+<area shape="rect" id="node25" href="a03236.html" title="AsX3D" alt="" coords="427,1120,491,1147"/>
+<area shape="rect" id="node26" href="a03368.html" title="SridGetAxis1Name" alt="" coords="391,1171,526,1197"/>
+<area shape="rect" id="node27" href="a03372.html" title="SridGetAxis1Orientation" alt="" coords="377,1221,540,1248"/>
+<area shape="rect" id="node28" href="a03376.html" title="SridGetAxis2Name" alt="" coords="391,1272,526,1299"/>
+<area shape="rect" id="node29" href="a03380.html" title="SridGetAxis2Orientation" alt="" coords="377,1323,540,1349"/>
+<area shape="rect" id="node30" href="a03384.html" title="SridGetDatum" alt="" coords="406,1373,511,1400"/>
+<area shape="rect" id="node31" href="a03628.html" title="AsEncodedPolyline" alt="" coords="391,1424,526,1451"/>
+<area shape="rect" id="node32" href="a03816.html" title="Zmflag" alt="" coords="427,1475,490,1501"/>
+<area shape="rect" id="node33" href="a03860.html" title="DumpRings" alt="" coords="413,1525,504,1552"/>
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <div class="dynheader">
-Collaboration diagram for GeomCollFromText:</div>
+Collaboration diagram for GeometricStringExportFunction:</div>
 <div class="dyncontent">
-<div class="center"><img src="a03090.png" border="0" usemap="#GeomCollFromText_coll__map" alt="Collaboration graph"/></div>
-<map name="GeomCollFromText_coll__map" id="GeomCollFromText_coll__map">
-<area shape="rect" id="node2" href="a02984.html" title="GeometricConstructor" alt="" coords="5,80,156,107"/>
+<div class="center"><img src="a03090.png" border="0" usemap="#GeometricStringExportFunction_coll__map" alt="Collaboration graph"/></div>
+<map name="GeometricStringExportFunction_coll__map" id="GeometricStringExportFunction_coll__map">
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:aed4306d2bdbe40c21c01706f365e83cd"><td class="memItemLeft" align="right" valign="top">Geometry&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a03092.html#aed4306d2bdbe40c21c01706f365e83cd">construct</a> (String input)</td></tr>
-<tr class="separator:aed4306d2bdbe40c21c01706f365e83cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad9fb16b36dd4ccc533d4f05ff94646e3"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a03092.html#ad9fb16b36dd4ccc533d4f05ff94646e3">getURI</a> ()</td></tr>
-<tr class="separator:ad9fb16b36dd4ccc533d4f05ff94646e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a43b4c73244bc6722ce551c1033cf1115"><td class="memItemLeft" align="right" valign="top">Value&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a02984.html#a43b4c73244bc6722ce551c1033cf1115">evaluate</a> (ValueFactory valueFactory, Value... args)  throws ValueExprEvaluationException </td></tr>
+<tr class="memitem:a43b4c73244bc6722ce551c1033cf1115"><td class="memItemLeft" align="right" valign="top">Value&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a03092.html#a43b4c73244bc6722ce551c1033cf1115">evaluate</a> (ValueFactory valueFactory, Value... args)  throws ValueExprEvaluationException </td></tr>
 <tr class="separator:a43b4c73244bc6722ce551c1033cf1115"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aafa339a5d14ce5e00588251b6d7c910c"><td class="memItemLeft" align="right" valign="top">abstract String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a03092.html#aafa339a5d14ce5e00588251b6d7c910c">operation</a> (Geometry geom)</td></tr>
+<tr class="separator:aafa339a5d14ce5e00588251b6d7c910c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="aed4306d2bdbe40c21c01706f365e83cd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aed4306d2bdbe40c21c01706f365e83cd">&#9670;&nbsp;</a></span>construct()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">Geometry construct </td>
-          <td>(</td>
-          <td class="paramtype">String&#160;</td>
-          <td class="paramname"><em>input</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="reference">References <a class="el" href="a04916.html#aa9b8459efc091f657b74ed0e5a245375">LiteralUtils.createGeometry()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;                                                {</div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;                GeoHash hash=GeoHash.fromGeohashString(input);</div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;                Coordinate coord=<span class="keyword">new</span> Coordinate(hash.getOriginatingPoint().getLatitude(), hash.getOriginatingPoint().getLongitude());</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;                List&lt;Coordinate&gt; coords=<span class="keyword">new</span> LinkedList&lt;Coordinate&gt;();</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;                coords.add(coord);</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;                <span class="keywordflow">return</span> LiteralUtils.createGeometry(coords, <span class="stringliteral">&quot;Point&quot;</span>, 4326);      </div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;        }</div></div><!-- fragment -->
-</div>
-</div>
 <a id="a43b4c73244bc6722ce551c1033cf1115"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a43b4c73244bc6722ce551c1033cf1115">&#9670;&nbsp;</a></span>evaluate()</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">Value evaluate </td>
@@ -141,37 +145,41 @@ Public Member Functions</h2></td></tr>
           <td></td><td> throws ValueExprEvaluationException</td>
         </tr>
       </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="a04800.html#a8796f5aec1965b6c4e88b2ba7c1d2e53">LiteralRegistry.getLiteral()</a>, and <a class="el" href="a03092.html#aafa339a5d14ce5e00588251b6d7c910c">GeometricStringExportFunction.operation()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="a05276.html#ac230b10882e3be05bacc871fce2fc609">AsBinaryTest.testAsBinary()</a>, <a class="el" href="a05572.html#a77e364f1e18fbe312ed563af435ddc8f">AsEncodedPolylineTest.testAsEncodedPolyline()</a>, <a class="el" href="a05280.html#a80929de20ed59fa635418039d48a9ef7">AsGARSTest.testAsGARS()</a>, <a class="el" href="a05284.html#a6aee2cc3188bbf40fb4d946ed66e57c2">AsGeoJSONTest.testAsGeoJSON()</a>, <a class="el" href="a05288.html#aae403d68ccc2ecfb409ca338b5ba0101">AsGeoURITest.testAsGeoURI()</a>, <a class="el" href="a05296.html#a294440bf0a1785c6cea76200ebf53818">AsLatLonTextTest.testAsLatLonText()</a>, <a class="el" href="a05300.html#a31833fe8b6139bfbdcd328ee943729e2">AsOSMLinkTest.testAsOSMLink()</a>, <a class="el" href="a05304.html#aa4ec805ffcfb140ead8292a441244775">AsPolyshapeTest.testAsPolyShape()</a>, <a class="el" href="a05308.html#a7051938045f1413d97e8c5925b1c7677">AsSVGTest.testAsSVG()</a>, <a class="el" href="a05320.html#a2bc485e1c6e58872aaf6237c16706862">AsTextTest.testAsText()</a>, <a class="el" href="a05312.html#abe6b8113553114d4969c61497fcbd472">AsTextRawTest.testAsTextRaw()</a>, <a class="el" href="a05324.html#a651953dc3a68b5b3795c7e668472170e">AsTWKBTest.testAsTWKB()</a>, <a class="el" href="a05432.html#a058152e783dcc1694eb060f5099630b1">SridGetAxis2NameTest.testEPSGToSRID()</a>, <a class="el" href="a05424.html#a058152e783dcc1694eb060f5099630b1">SridGetAxis1NameTest.testEPSGToSRID()</a>, <a class="el" href="a05136.html#a0444ce8df222ae81e1a33426a32d8d7a">GeometryTypeTest.testLineString()</a>, <a class="el" href="a05428.html#ae0ff51be0fe1734cba043c3509606d4d">SridGetAxis1OrientationTest.testSridAxis1Orientation()</a>, <a class="el" href="a05436.html#a4cce208d444c0a86d19f93731ff4a6b3">SridGetAxis2OrientationTest.testSridAxis2Orientation()</a>, and <a class="el" href="a05440.html#a9d3a137e39e84c0018de3b734b787554">SridGetDatumTest.testSridGetDatum()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;                                                                                                            {</div><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;                <span class="keywordflow">if</span> (args.length != 1) {</div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;                        <span class="keywordflow">throw</span> <span class="keyword">new</span> ValueExprEvaluationException(getURI() + <span class="stringliteral">&quot; requires exactly 1 arguments, got &quot;</span> + args.length);</div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;                }</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;                LiteralType l=LiteralRegistry.getLiteral(((Literal)args[0]).getDatatype().toString());</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;                <span class="keywordflow">if</span>(l instanceof VectorLiteral) {</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;                        Geometry geom=((VectorLiteral)l).read(args[0].stringValue());</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;                        String result = <a class="code" href="a03092.html#aafa339a5d14ce5e00588251b6d7c910c">operation</a>(geom);</div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;                        <span class="keywordflow">return</span> valueFactory.createLiteral(result);</div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;                }</div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;                <span class="keywordflow">throw</span> <span class="keyword">new</span> ValueExprEvaluationException(<span class="stringliteral">&quot;Argument given is not a geometry literal&quot;</span>);</div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;                </div><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;        }</div><div class="ttc" id="a03092_html_aafa339a5d14ce5e00588251b6d7c910c"><div class="ttname"><a href="a03092.html#aafa339a5d14ce5e00588251b6d7c910c">org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.geometry.base.GeometricStringExportFunction.operation</a></div><div class="ttdeci">abstract String operation(Geometry geom)</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="aafa339a5d14ce5e00588251b6d7c910c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aafa339a5d14ce5e00588251b6d7c910c">&#9670;&nbsp;</a></span>operation()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">abstract String operation </td>
+          <td>(</td>
+          <td class="paramtype">Geometry&#160;</td>
+          <td class="paramname"><em>geom</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inherited</span></span>  </td>
+<span class="mlabels"><span class="mlabel">abstract</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="a02984.html#a6b6fd7e67c7e4fd6be1da3b1076a61de">GeometricConstructor.construct()</a>, and <a class="el" href="a04784.html#a8796f5aec1965b6c4e88b2ba7c1d2e53">LiteralRegistry.getLiteral()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="a03092.html#a43b4c73244bc6722ce551c1033cf1115">GeometricStringExportFunction.evaluate()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="a05220.html#a64b3f7b5bcdec5b93820a9958c0622a3">GeomFromGeoJSONTest.testGeomFromGeoJSON()</a>, <a class="el" href="a05224.html#a64b3f7b5bcdec5b93820a9958c0622a3">GeomFromTextTest.testGeomFromGeoJSON()</a>, <a class="el" href="a05228.html#a64b3f7b5bcdec5b93820a9958c0622a3">GeomFromWKBTest.testGeomFromGeoJSON()</a>, <a class="el" href="a05532.html#ae1794702b16fed527256a87c40858865">MakeLineTest.testMakeLine1()</a>, <a class="el" href="a05608.html#a2f24e9ad47589d2191a0512d20a8a9ba">MakePointTest.testMakePoint1()</a>, <a class="el" href="a05608.html#a3ba406df071dd5b2e9404776e414c4cd">MakePointTest.testMakePointXYZ()</a>, and <a class="el" href="a05656.html#ab92731bfcc813cfd3d1741c6033a79cb">PolygonFromTextTest.testPolygonFromText()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;                                                                                                            {</div><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;                <span class="keywordflow">if</span> (args.length != 1) {</div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;                        <span class="keywordflow">throw</span> <span class="keyword">new</span> ValueExprEvaluationException(getURI() + <span class="stringliteral">&quot; requires exactly 1 arguments, got &quot;</span> + args.length);</div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;                }</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;                LiteralType l=LiteralRegistry.getLiteral(((Literal)args[0]).getDatatype().toString());</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;                String geomString = args[0].stringValue();</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;                Geometry result = <a class="code" href="a02984.html#a6b6fd7e67c7e4fd6be1da3b1076a61de">construct</a>(geomString);</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;                <span class="keywordflow">return</span> valueFactory.createLiteral(((VectorLiteral) l).unparse(result),((Literal)args[0]).getDatatype());</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;        }</div><div class="ttc" id="a02984_html_a6b6fd7e67c7e4fd6be1da3b1076a61de"><div class="ttname"><a href="a02984.html#a6b6fd7e67c7e4fd6be1da3b1076a61de">org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.geometry.base.GeometricConstructor.construct</a></div><div class="ttdeci">abstract Geometry construct(String input)</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="ad9fb16b36dd4ccc533d4f05ff94646e3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad9fb16b36dd4ccc533d4f05ff94646e3">&#9670;&nbsp;</a></span>getURI()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">String getURI </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="reference">References <a class="el" href="a02612.html#ab167bfe863d83fce96e9dd35cf0d48f0">POSTGIS.st_geomCollFromText</a>.</p>
-<div class="fragment"><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;                               {</div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;                <span class="keywordflow">return</span> POSTGIS.st_geomCollFromText.stringValue();</div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;        }</div></div><!-- fragment -->
 </div>
 </div>
 </div><!-- contents -->
@@ -180,7 +188,7 @@ Public Member Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="a02466.html">org</a></li><li class="navelem"><a class="el" href="a02467.html">eclipse</a></li><li class="navelem"><a class="el" href="a02468.html">rdf4j</a></li><li class="navelem"><a class="el" href="a02471.html">query</a></li><li class="navelem"><a class="el" href="a02472.html">algebra</a></li><li class="navelem"><a class="el" href="a02473.html">evaluation</a></li><li class="navelem"><a class="el" href="a02474.html">function</a></li><li class="navelem"><a class="el" href="a02475.html">postgis</a></li><li class="navelem"><a class="el" href="a02482.html">geometry</a></li><li class="navelem"><a class="el" href="a02484.html">constructor</a></li><li class="navelem"><a class="el" href="a03092.html">GeomCollFromText</a></li>
+    <li class="navelem"><a class="el" href="a02478.html">org</a></li><li class="navelem"><a class="el" href="a02479.html">eclipse</a></li><li class="navelem"><a class="el" href="a02480.html">rdf4j</a></li><li class="navelem"><a class="el" href="a02483.html">query</a></li><li class="navelem"><a class="el" href="a02484.html">algebra</a></li><li class="navelem"><a class="el" href="a02485.html">evaluation</a></li><li class="navelem"><a class="el" href="a02486.html">function</a></li><li class="navelem"><a class="el" href="a02487.html">postgis</a></li><li class="navelem"><a class="el" href="a02494.html">geometry</a></li><li class="navelem"><a class="el" href="a02495.html">base</a></li><li class="navelem"><a class="el" href="a03092.html">GeometricStringExportFunction</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>

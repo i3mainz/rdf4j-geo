@@ -1,6 +1,10 @@
 var a05400 =
 [
-    [ "testEPSGToSRID", "a05400.html#a058152e783dcc1694eb060f5099630b1", null ],
-    [ "epsg", "a05400.html#ae984b1b4178b56b80cdb7a80eac64541", null ],
-    [ "srid", "a05400.html#a5ffebf384504d11b17aa9c75f4b92024", null ]
+    [ "testOrderingEquals1", "a05400.html#a35b0ff8ac582857f1742c06e5db14fb2", null ],
+    [ "testOrderingEquals2", "a05400.html#a258a7b3f7cf473377b4aaed9d19641c4", null ],
+    [ "testOrderingEquals3", "a05400.html#a47191a77968729eba6c2f943834b3992", null ],
+    [ "lineStringMedium", "a05400.html#a30a33894af6c6537b098f763a39d6054", null ],
+    [ "lineStringMedium2", "a05400.html#a6f7bc783bc9c02130f1251353e8efd7d", null ],
+    [ "lineStringSmall", "a05400.html#a12c9d589491219bf61791e12113fae06", null ],
+    [ "lineStringSmallReverse", "a05400.html#a2dd626abfe2d2e9dc2b4d1bc7f9dc810", null ]
 ];

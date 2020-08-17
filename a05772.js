@@ -1,6 +1,7 @@
 var a05772 =
 [
-    [ "testRasterHeight", "a05772.html#a33d5f0ef94c93f56cac1ee7c53e80076", null ],
+    [ "testSubtractConst", "a05772.html#aded17137e40500ef58611d80139e12b5", null ],
+    [ "combinedRasterLiteral", "a05772.html#a6efe8702be34a67e2bcbba55588c5b5f", null ],
     [ "covJSONString1", "a05772.html#a993e2f127f3ec8f256e9799d77507223", null ],
     [ "rasterBand", "a05772.html#a44dd712968b2420bbfbf9ae21d476b87", null ],
     [ "rasterLiteral1", "a05772.html#a77798f856500689412dea069531a7606", null ],
