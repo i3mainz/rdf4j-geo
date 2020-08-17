@@ -181,6 +181,7 @@ public class POSTGIS {
         public static final IRI st_hasNoBand=factory.createIRI(NAMESPACE, "ST_HasNoBand");
         public static final IRI ST_hasHorizontalCRS=factory.createIRI(NAMESPACE, "ST_HasHorizontalCRS");
         public static final IRI st_hasRepeatedPoints=factory.createIRI(NAMESPACE, "ST_HasRepeatedPoints");
+		public static final IRI ST_hasSelfIntersections = factory.createIRI(NAMESPACE, "ST_HasSelfIntersections");
         public static final IRI st_hausdorffDistance=factory.createIRI(NAMESPACE, "ST_HausdorffDistance");
         public static final IRI st_height=factory.createIRI(NAMESPACE, "ST_Height");
         public static final IRI st_hillshade=factory.createIRI(NAMESPACE, "ST_Hillshade");
@@ -598,5 +599,7 @@ public class POSTGIS {
 		public static final IRI ST_ToDegrees=factory.createIRI(NAMESPACE, "ST_ToDegrees");
 	
 		public static final IRI ST_ToRadians=factory.createIRI(NAMESPACE, "ST_ToRadians");
+
+
 
 }
