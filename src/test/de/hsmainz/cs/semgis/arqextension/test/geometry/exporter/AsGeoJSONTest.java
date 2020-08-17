@@ -20,7 +20,7 @@ public static final String testGeometry="LINESTRING(1 2 3, 4 5 6)";
 		ValueFactory valfac=SimpleValueFactory.getInstance();
 		Value geo=valfac.createLiteral(testGeometry, WKTDatatype.LiteralIRI);
 		Value result=instance.evaluate(valfac, geo);
-		Value expResult=valfac.createLiteral("{\"type\":\"LineString\",\"coordinates\":[[1,2,3],[4,5,6]]}");
+		Value expResult=valfac.createLiteral("{\"type\":\"LineString\",\"coordinates\":[[1.0,2.0,3.0],[4.0,5.0,6.0]]}");
 	    assertEquals(expResult, result);
 	}
 	

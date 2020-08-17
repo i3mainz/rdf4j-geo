@@ -30,7 +30,7 @@ public class HasDuplicateRingsTest {
 	public void testHasDuplicateRingsFalse() {
 		HasDuplicateRings instance=new HasDuplicateRings();
 		ValueFactory valfac=SimpleValueFactory.getInstance();
-		Value geo=valfac.createLiteral(duplicateRings, WKTDatatype.LiteralIRI);
+		Value geo=valfac.createLiteral(nonduplicateRings, WKTDatatype.LiteralIRI);
 		Value result=instance.evaluate(valfac, geo);
 		Value expResult=valfac.createLiteral(false);
 		assertEquals(expResult, result);

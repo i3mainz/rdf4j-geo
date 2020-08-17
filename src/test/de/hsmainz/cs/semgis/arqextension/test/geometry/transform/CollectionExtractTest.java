@@ -14,7 +14,7 @@ public class CollectionExtractTest {
 
 	public static final String testGeometry="GEOMETRYCOLLECTION(POINT(0 0))";
 
-	public static final String res="POINT(0 0)";
+	public static final String res="POINT (0 0)";
 		
 		@Test
 		public void testCollectionExtract() throws ParseException {

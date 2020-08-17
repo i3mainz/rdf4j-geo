@@ -19,7 +19,7 @@ public class SimplifyVWTest {
 		ValueFactory valfac=SimpleValueFactory.getInstance();
 		Value geo=valfac.createLiteral(testGeom, WKTDatatype.LiteralIRI);
 		Value result=instance.evaluate(valfac, geo,valfac.createLiteral(0.));
-		Value expResult=valfac.createLiteral("LINESTRING (5 2, 7 25, 10 10)");
+		Value expResult=valfac.createLiteral("LINESTRING (5 2, 7 25, 10 10)",WKTDatatype.LiteralIRI);
 		assertEquals(expResult, result);
 	}
 	
