@@ -78,8 +78,14 @@ Collaboration diagram for RemoveGeometryTest:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a4ebf1443292e242753148cb8748d9169"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05260.html#a4ebf1443292e242753148cb8748d9169">testAddGeometry</a> ()</td></tr>
-<tr class="separator:a4ebf1443292e242753148cb8748d9169"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a910e74995416610c31bdfb5ab3260d76"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05260.html#a910e74995416610c31bdfb5ab3260d76">testRemoveGeometry1</a> ()</td></tr>
+<tr class="separator:a910e74995416610c31bdfb5ab3260d76"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a60a65740b83f0a07de47b82baf1ff4e1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05260.html#a60a65740b83f0a07de47b82baf1ff4e1">testRemoveGeometry1Z</a> ()</td></tr>
+<tr class="separator:a60a65740b83f0a07de47b82baf1ff4e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:affbdb9b48b9af6eedbf8d011f683a631"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05260.html#affbdb9b48b9af6eedbf8d011f683a631">testRemoveGeometry2</a> ()</td></tr>
+<tr class="separator:affbdb9b48b9af6eedbf8d011f683a631"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af5c1b4eec2210853d1e7f1c6d6f2a02c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05260.html#af5c1b4eec2210853d1e7f1c6d6f2a02c">testRemoveGeometry2Z</a> ()</td></tr>
+<tr class="separator:af5c1b4eec2210853d1e7f1c6d6f2a02c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
@@ -89,14 +95,14 @@ Static Public Attributes</h2></td></tr>
 <tr class="separator:a081811ff1c2bedd0a20703599f90114f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a4ebf1443292e242753148cb8748d9169"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4ebf1443292e242753148cb8748d9169">&#9670;&nbsp;</a></span>testAddGeometry()</h2>
+<a id="a910e74995416610c31bdfb5ab3260d76"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a910e74995416610c31bdfb5ab3260d76">&#9670;&nbsp;</a></span>testRemoveGeometry1()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void testAddGeometry </td>
+          <td class="memname">void testRemoveGeometry1 </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -105,7 +111,67 @@ Static Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p class="reference">References <a class="el" href="a03036.html#a43b4c73244bc6722ce551c1033cf1115">GeometricModifierDoubleFunction.evaluate()</a>, and <a class="el" href="a04924.html#ae02c2e86ac0dea8538c7b43e9e82421a">WKTDatatype.LiteralIRI</a>.</p>
-<div class="fragment"><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;                                      {</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;                RemoveGeometry instance=<span class="keyword">new</span> RemoveGeometry();</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;                ValueFactory valfac=SimpleValueFactory.getInstance();</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;                Value geo=valfac.createLiteral(<a class="code" href="a05260.html#a76e109dc83d6f4d16fcd2fa3e73054f6">lineString</a>, WKTDatatype.LiteralIRI);</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;                Value result=instance.evaluate(valfac,geo,valfac.createLiteral(1));</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;                Value expResult=valfac.createLiteral(<span class="stringliteral">&quot;GEOMETRYCOLLECTION(LINESTRING(0 0 1, 1 1 1, 1 2 3))&quot;</span>, WKTDatatype.LiteralIRI);</div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;                assertEquals(expResult, result);</div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;        }</div><div class="ttc" id="a05260_html_a76e109dc83d6f4d16fcd2fa3e73054f6"><div class="ttname"><a href="a05260.html#a76e109dc83d6f4d16fcd2fa3e73054f6">de.hsmainz.cs.semgis.arqextension.test.geometry.editor.RemoveGeometryTest.lineString</a></div><div class="ttdeci">static final String lineString</div><div class="ttdef"><b>Definition:</b> RemoveGeometryTest.java:14</div></div>
+<div class="fragment"><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;                                          {</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;                RemoveGeometry instance=<span class="keyword">new</span> RemoveGeometry();</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;                ValueFactory valfac=SimpleValueFactory.getInstance();</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;                Value geo=valfac.createLiteral(<a class="code" href="a05260.html#a76e109dc83d6f4d16fcd2fa3e73054f6">lineString</a>, WKTDatatype.LiteralIRI);</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;                Value result=instance.evaluate(valfac,geo,valfac.createLiteral(1));</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;                Value expResult=valfac.createLiteral(<span class="stringliteral">&quot;GEOMETRYCOLLECTION (LINESTRING (0 0, 1 1, 1 2))&quot;</span>, WKTDatatype.LiteralIRI);</div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;                assertEquals(expResult, result);</div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;        }</div><div class="ttc" id="a05260_html_a76e109dc83d6f4d16fcd2fa3e73054f6"><div class="ttname"><a href="a05260.html#a76e109dc83d6f4d16fcd2fa3e73054f6">de.hsmainz.cs.semgis.arqextension.test.geometry.editor.RemoveGeometryTest.lineString</a></div><div class="ttdeci">static final String lineString</div><div class="ttdef"><b>Definition:</b> RemoveGeometryTest.java:14</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a60a65740b83f0a07de47b82baf1ff4e1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a60a65740b83f0a07de47b82baf1ff4e1">&#9670;&nbsp;</a></span>testRemoveGeometry1Z()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void testRemoveGeometry1Z </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="a03036.html#a43b4c73244bc6722ce551c1033cf1115">GeometricModifierDoubleFunction.evaluate()</a>, and <a class="el" href="a04924.html#ae02c2e86ac0dea8538c7b43e9e82421a">WKTDatatype.LiteralIRI</a>.</p>
+<div class="fragment"><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;                                           {</div><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;                RemoveGeometry instance=<span class="keyword">new</span> RemoveGeometry();</div><div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;                ValueFactory valfac=SimpleValueFactory.getInstance();</div><div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;                Value geo=valfac.createLiteral(<a class="code" href="a05260.html#a76e109dc83d6f4d16fcd2fa3e73054f6">lineString</a>, WKTDatatype.LiteralIRI);</div><div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;                Value result=instance.evaluate(valfac,geo,valfac.createLiteral(1));</div><div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;                Value expResult=valfac.createLiteral(<span class="stringliteral">&quot;GEOMETRYCOLLECTION (LINESTRING (0 0 1, 1 1 1, 1 2 3))&quot;</span>, WKTDatatype.LiteralIRI);</div><div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;                assertEquals(expResult, result);</div><div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;        }</div><div class="ttc" id="a05260_html_a76e109dc83d6f4d16fcd2fa3e73054f6"><div class="ttname"><a href="a05260.html#a76e109dc83d6f4d16fcd2fa3e73054f6">de.hsmainz.cs.semgis.arqextension.test.geometry.editor.RemoveGeometryTest.lineString</a></div><div class="ttdeci">static final String lineString</div><div class="ttdef"><b>Definition:</b> RemoveGeometryTest.java:14</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="affbdb9b48b9af6eedbf8d011f683a631"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#affbdb9b48b9af6eedbf8d011f683a631">&#9670;&nbsp;</a></span>testRemoveGeometry2()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void testRemoveGeometry2 </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="a03036.html#a43b4c73244bc6722ce551c1033cf1115">GeometricModifierDoubleFunction.evaluate()</a>, and <a class="el" href="a04924.html#ae02c2e86ac0dea8538c7b43e9e82421a">WKTDatatype.LiteralIRI</a>.</p>
+<div class="fragment"><div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;                                          {</div><div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;                RemoveGeometry instance=<span class="keyword">new</span> RemoveGeometry();</div><div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;                ValueFactory valfac=SimpleValueFactory.getInstance();</div><div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;                Value geo=valfac.createLiteral(<a class="code" href="a05260.html#a76e109dc83d6f4d16fcd2fa3e73054f6">lineString</a>, WKTDatatype.LiteralIRI);</div><div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;                Value result=instance.evaluate(valfac,geo,valfac.createLiteral(0));</div><div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;                Value expResult=valfac.createLiteral(<span class="stringliteral">&quot;GEOMETRYCOLLECTION (POINT (1 2))&quot;</span>, WKTDatatype.LiteralIRI);</div><div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;                assertEquals(expResult, result);</div><div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;        }</div><div class="ttc" id="a05260_html_a76e109dc83d6f4d16fcd2fa3e73054f6"><div class="ttname"><a href="a05260.html#a76e109dc83d6f4d16fcd2fa3e73054f6">de.hsmainz.cs.semgis.arqextension.test.geometry.editor.RemoveGeometryTest.lineString</a></div><div class="ttdeci">static final String lineString</div><div class="ttdef"><b>Definition:</b> RemoveGeometryTest.java:14</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="af5c1b4eec2210853d1e7f1c6d6f2a02c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af5c1b4eec2210853d1e7f1c6d6f2a02c">&#9670;&nbsp;</a></span>testRemoveGeometry2Z()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void testRemoveGeometry2Z </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="a03036.html#a43b4c73244bc6722ce551c1033cf1115">GeometricModifierDoubleFunction.evaluate()</a>, and <a class="el" href="a04924.html#ae02c2e86ac0dea8538c7b43e9e82421a">WKTDatatype.LiteralIRI</a>.</p>
+<div class="fragment"><div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;                                           {</div><div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;                RemoveGeometry instance=<span class="keyword">new</span> RemoveGeometry();</div><div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;                ValueFactory valfac=SimpleValueFactory.getInstance();</div><div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;                Value geo=valfac.createLiteral(<a class="code" href="a05260.html#a76e109dc83d6f4d16fcd2fa3e73054f6">lineString</a>, WKTDatatype.LiteralIRI);</div><div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;                Value result=instance.evaluate(valfac,geo,valfac.createLiteral(0));</div><div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;                Value expResult=valfac.createLiteral(<span class="stringliteral">&quot;GEOMETRYCOLLECTION (POINT (1 2 3))&quot;</span>, WKTDatatype.LiteralIRI);</div><div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;                assertEquals(expResult, result);</div><div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;        }</div><div class="ttc" id="a05260_html_a76e109dc83d6f4d16fcd2fa3e73054f6"><div class="ttname"><a href="a05260.html#a76e109dc83d6f4d16fcd2fa3e73054f6">de.hsmainz.cs.semgis.arqextension.test.geometry.editor.RemoveGeometryTest.lineString</a></div><div class="ttdeci">static final String lineString</div><div class="ttdef"><b>Definition:</b> RemoveGeometryTest.java:14</div></div>
 </div><!-- fragment -->
 </div>
 </div>
