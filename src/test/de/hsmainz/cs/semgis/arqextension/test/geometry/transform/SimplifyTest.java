@@ -14,7 +14,7 @@ public class SimplifyTest {
 	public static final String testGeom="LINESTRING(5 2, 3 8, 6 20, 7 25, 10 10)";
 	
 	@Test
-	public void testSimplifyVW() {
+	public void testSimplify() {
 		Simplify instance=new Simplify();
 		ValueFactory valfac=SimpleValueFactory.getInstance();
 		Value geo=valfac.createLiteral(testGeom, WKTDatatype.LiteralIRI);

@@ -14,7 +14,7 @@ public class SwapOrdinatesTest {
 
 	public static final String testPolygon="POLYGON((0 0 2,0 5 2,5 0 2,0 0 2))";
 	
-	public static final String res="POLYGON ((0 0,5 0,0 5,0 0))";
+	public static final String res="POLYGON ((0 0, 5 0, 0 5, 0 0))";
 	
 	@Test
 	public void testSwapOrdinates() {	

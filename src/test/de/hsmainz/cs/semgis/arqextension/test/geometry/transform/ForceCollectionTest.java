@@ -12,7 +12,9 @@ import org.junit.jupiter.api.Test;
 
 public class ForceCollectionTest {
 
-	public static final String testGeom="POLYGON((0 0 1,0 5 1,5 0 1,0 0 1),(1 1 1,3 1 1,1 3 1,1 1 1))";
+	public static final String testGeom="POLYGON ((0 0, 0 5, 5 0, 0 0),(1 1, 3 1, 1 3, 1 1))";
+
+	public static final String testGeomZ="POLYGON ((0 0 1,0 5 1,5 0 1,0 0 1),(1 1 1,3 1 1,1 3 1,1 1 1))";
 	
 	@Test
 	public void testForceCollection() {
@@ -20,8 +22,19 @@ public class ForceCollectionTest {
 		ValueFactory valfac=SimpleValueFactory.getInstance();
 		Value geo=valfac.createLiteral(testGeom, WKTDatatype.LiteralIRI);
 		Value result=instance.evaluate(valfac, geo);
-		Value expResult=valfac.createLiteral("GEOMETRYCOLLECTION (POLYGON((0 0 1,0 5 1,5 0 1,0 0 1),(1 1 1,3 1 1,1 3 1,1 1 1)))",WKTDatatype.LiteralIRI);
+		Value expResult=valfac.createLiteral("GEOMETRYCOLLECTION (POLYGON ((0 0, 0 5, 5 0, 0 0), (1 1, 3 1, 1 3, 1 1)))",WKTDatatype.LiteralIRI);
 		assertEquals(expResult, result);
 	}
+
+	@Test
+	public void testForceCollectionZ() {
+		ForceCollection instance=new ForceCollection();
+		ValueFactory valfac=SimpleValueFactory.getInstance();
+		Value geo=valfac.createLiteral(testGeomZ, WKTDatatype.LiteralIRI);
+		Value result=instance.evaluate(valfac, geo);
+		Value expResult=valfac.createLiteral("GEOMETRYCOLLECTION (POLYGON ((0 0 1,0 5 1,5 0 1,0 0 1),(1 1 1,3 1 1,1 3 1,1 1 1)))",WKTDatatype.LiteralIRI);
+		assertEquals(expResult, result);
+	}
+	
 	
 }

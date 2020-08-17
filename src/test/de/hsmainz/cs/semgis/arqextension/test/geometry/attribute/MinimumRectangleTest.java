@@ -19,7 +19,7 @@ public class MinimumRectangleTest {
 		ValueFactory valfac=SimpleValueFactory.getInstance();
 		Value geo=valfac.createLiteral(testPolygon, WKTDatatype.LiteralIRI);
 		Value result=instance.evaluate(valfac, geo);
-		Value expResult=valfac.createLiteral("LINESTRING (0.5 0.00032, 0.5 0)",WKTDatatype.LiteralIRI);
+		Value expResult=valfac.createLiteral("POLYGON ((0 0, 0.5 -0.5, 1.5 0.5, 1 1, 0 0))",WKTDatatype.LiteralIRI);
 		assertEquals(expResult, result);
 	}
 	
