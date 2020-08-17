@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>rdf4j-postgis: Member List</title>
+<title>rdf4j-postgis: RemoveGeometryTest Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -56,25 +56,111 @@ $(function() {
   </div>
 </div>
 <script type="text/javascript">
-$(document).ready(function(){initNavTree('a05247.html','');});
+$(document).ready(function(){initNavTree('a05244.html','');});
 </script>
 <div id="doc-content">
 <div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-attribs">Static Public Attributes</a> &#124;
+<a href="a05241.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">AsPolyshapeTest Member List</div>  </div>
+<div class="title">RemoveGeometryTest Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+<div class="dynheader">
+Collaboration diagram for RemoveGeometryTest:</div>
+<div class="dyncontent">
+<div class="center"><img src="a05242.png" border="0" usemap="#RemoveGeometryTest_coll__map" alt="Collaboration graph"/></div>
+<map name="RemoveGeometryTest_coll__map" id="RemoveGeometryTest_coll__map">
+</map>
+<center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:a4ebf1443292e242753148cb8748d9169"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05244.html#a4ebf1443292e242753148cb8748d9169">testAddGeometry</a> ()</td></tr>
+<tr class="separator:a4ebf1443292e242753148cb8748d9169"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
+Static Public Attributes</h2></td></tr>
+<tr class="memitem:a76e109dc83d6f4d16fcd2fa3e73054f6"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05244.html#a76e109dc83d6f4d16fcd2fa3e73054f6">lineString</a> =&quot;GEOMETRYCOLLECTION(LINESTRING(0 0 1, 1 1 1, 1 2 3),POINT(1 2 3))&quot;</td></tr>
+<tr class="separator:a76e109dc83d6f4d16fcd2fa3e73054f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a081811ff1c2bedd0a20703599f90114f"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05244.html#a081811ff1c2bedd0a20703599f90114f">point</a> =&quot;POINT(1 2 3)&quot;</td></tr>
+<tr class="separator:a081811ff1c2bedd0a20703599f90114f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a4ebf1443292e242753148cb8748d9169"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4ebf1443292e242753148cb8748d9169">&#9670;&nbsp;</a></span>testAddGeometry()</h2>
 
-<p>This is the complete list of members for <a class="el" href="a05247.html">AsPolyshapeTest</a>, including all inherited members.</p>
-<table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="a05247.html#aa4ec805ffcfb140ead8292a441244775">testAsPolyShape</a>()</td><td class="entry"><a class="el" href="a05247.html">AsPolyshapeTest</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="a05247.html#abc3f514f005cba49e406658e2d3086eb">testGeometry</a></td><td class="entry"><a class="el" href="a05247.html">AsPolyshapeTest</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
-</table></div><!-- contents -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void testAddGeometry </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="a03024.html#a43b4c73244bc6722ce551c1033cf1115">GeometricModifierDoubleFunction.evaluate()</a>, and <a class="el" href="a04908.html#ae02c2e86ac0dea8538c7b43e9e82421a">WKTDatatype.LiteralIRI</a>.</p>
+<div class="fragment"><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;                                      {</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;                RemoveGeometry instance=<span class="keyword">new</span> RemoveGeometry();</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;                ValueFactory valfac=SimpleValueFactory.getInstance();</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;                Value geo=valfac.createLiteral(<a class="code" href="a05244.html#a76e109dc83d6f4d16fcd2fa3e73054f6">lineString</a>, WKTDatatype.LiteralIRI);</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;                Value result=instance.evaluate(valfac,geo,valfac.createLiteral(1));</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;                Value expResult=valfac.createLiteral(<span class="stringliteral">&quot;GEOMETRYCOLLECTION(LINESTRING(0 0 1, 1 1 1, 1 2 3))&quot;</span>, WKTDatatype.LiteralIRI);</div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;                assertEquals(expResult, result);</div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;        }</div><div class="ttc" id="a05244_html_a76e109dc83d6f4d16fcd2fa3e73054f6"><div class="ttname"><a href="a05244.html#a76e109dc83d6f4d16fcd2fa3e73054f6">de.hsmainz.cs.semgis.arqextension.test.geometry.editor.RemoveGeometryTest.lineString</a></div><div class="ttdeci">static final String lineString</div><div class="ttdef"><b>Definition:</b> RemoveGeometryTest.java:14</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a76e109dc83d6f4d16fcd2fa3e73054f6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a76e109dc83d6f4d16fcd2fa3e73054f6">&#9670;&nbsp;</a></span>lineString</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final String lineString =&quot;GEOMETRYCOLLECTION(LINESTRING(0 0 1, 1 1 1, 1 2 3),POINT(1 2 3))&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a081811ff1c2bedd0a20703599f90114f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a081811ff1c2bedd0a20703599f90114f">&#9670;&nbsp;</a></span>point</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final String point =&quot;POINT(1 2 3)&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+</div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.13-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
+    <li class="navelem"><a class="el" href="a02455.html">de</a></li><li class="navelem"><a class="el" href="a02456.html">hsmainz</a></li><li class="navelem"><a class="el" href="a02457.html">cs</a></li><li class="navelem"><a class="el" href="a02458.html">semgis</a></li><li class="navelem"><a class="el" href="a02459.html">arqextension</a></li><li class="navelem"><a class="el" href="a02549.html">test</a></li><li class="navelem"><a class="el" href="a02552.html">geometry</a></li><li class="navelem"><a class="el" href="a02554.html">editor</a></li><li class="navelem"><a class="el" href="a05244.html">RemoveGeometryTest</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>

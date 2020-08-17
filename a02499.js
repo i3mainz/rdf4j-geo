@@ -1,5 +1,6 @@
 var a02499 =
 [
-    [ "LEDataInputStream", "a04971.html", "a04971" ],
-    [ "LEDataOutputStream", "a04975.html", "a04975" ]
+    [ "attribute", "a02498.html", "a02498" ],
+    [ "constructor", "a02500.html", "a02500" ],
+    [ "transform", "a02501.html", "a02501" ]
 ];

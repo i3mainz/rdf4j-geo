@@ -1,6 +1,25 @@
 var a02510 =
 [
-    [ "LengthSubstring", "a05027.html", "a05027" ],
-    [ "LengthToPoint", "a05031.html", "a05031" ],
-    [ "LocatePoint", "a05035.html", "a05035" ]
+    [ "RasterAlgebraConstFunction", "a04252.html", "a04252" ],
+    [ "RasterAlgebraFunction", "a04256.html", "a04256" ],
+    [ "RasterAlgebraUnaryFunction", "a04260.html", "a04260" ],
+    [ "RasterAttributeBinaryFunction", "a04264.html", "a04264" ],
+    [ "RasterAttributeBooleanIntFunction", "a04268.html", "a04268" ],
+    [ "RasterAttributeDoubleIntFunction", "a04272.html", "a04272" ],
+    [ "RasterAttributeFunction", "a04276.html", "a04276" ],
+    [ "RasterAttributeIntIntDoubleFunction", "a04280.html", "a04280" ],
+    [ "RasterAttributeIntIntFunction", "a04284.html", "a04284" ],
+    [ "RasterAttributeIntIntGeomFunction", "a04288.html", "a04288" ],
+    [ "RasterAttributeIntIntIntBooleanFunction", "a04292.html", "a04292" ],
+    [ "RasterAttributeIntIntIntStringFunction", "a04296.html", "a04296" ],
+    [ "RasterConstructorFunction", "a04300.html", "a04300" ],
+    [ "RasterGeometryConversionFunction", "a04304.html", "a04304" ],
+    [ "RasterModifierBoolDoubleFunction", "a04308.html", "a04308" ],
+    [ "RasterModifierDoubleDoubleFunction", "a04312.html", "a04312" ],
+    [ "RasterModifierFunction", "a04316.html", "a04316" ],
+    [ "RasterModifierGeometryFunction", "a04320.html", "a04320" ],
+    [ "RasterModifierIntIntFunction", "a04324.html", "a04324" ],
+    [ "RasterRelationBooleanFunction", "a04328.html", "a04328" ],
+    [ "RasterStringExportFunction", "a04332.html", "a04332" ],
+    [ "RasterToVectorExportFunction", "a04336.html", "a04336" ]
 ];

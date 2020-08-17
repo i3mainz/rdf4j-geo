@@ -1,8 +1,8 @@
 var a02484 =
 [
-    [ "AddIsoNode", "a04495.html", "a04495" ],
-    [ "MoveIsoNode", "a04499.html", null ],
-    [ "RemoveIsoNode", "a04503.html", null ],
-    [ "Topo_AddLineString", "a04507.html", null ],
-    [ "Topo_AddPoint", "a04511.html", "a04511" ]
+    [ "GeomCollFromText", "a03092.html", "a03092" ],
+    [ "GeomFromGeoHash", "a03096.html", "a03096" ],
+    [ "GeomFromGeoJSON", "a03100.html", "a03100" ],
+    [ "GeomFromText", "a03104.html", "a03104" ],
+    [ "GeomFromWKB", "a03108.html", "a03108" ]
 ];

@@ -1,0 +1,5 @@
+<map id="RasterAttributeIntIntGeomFunction" name="RasterAttributeIntIntGeomFunction">
+<area shape="rect" id="node3" href="$a04156.html" title="PixelAsPoint" alt="" coords="5,169,103,196"/>
+<area shape="rect" id="node4" href="$a04164.html" title="RasterToWorldCoord" alt="" coords="127,169,272,196"/>
+<area shape="rect" id="node5" href="$a04240.html" title="WorldToRasterCoord" alt="" coords="296,169,441,196"/>
+</map>

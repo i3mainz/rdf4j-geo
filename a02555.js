@@ -1,10 +1,16 @@
 var a02555 =
 [
-    [ "TripleStoreConnection", "a02555.html#a99975d732097fdfe4f47d2964403e230", null ],
-    [ "executeQuery", "a02555.html#afc28007d407dd38599a43837f62668c1", null ],
-    [ "main", "a02555.html#a8b260eecbaabcef8473fd87ada040682", null ],
-    [ "INSTANCE", "a02555.html#a6f5f1a252f13ef259f6f4fa12b72f2a4", null ],
-    [ "modelmap", "a02555.html#a3c4a20fbf4fb24d73799bdd30661d7b0", null ],
-    [ "prefixCollection", "a02555.html#ab228ed3bdfee44797a6b31717ec5022a", null ],
-    [ "repo", "a02555.html#aa988c42c1c1c9f1d313c217ec0b5e2e0", null ]
+    [ "AsBinaryTest", "a05260.html", "a05260" ],
+    [ "AsGARSTest", "a05264.html", "a05264" ],
+    [ "AsGeoJSONTest", "a05268.html", "a05268" ],
+    [ "AsGeoURITest", "a05272.html", "a05272" ],
+    [ "AsHexWKBTest", "a05276.html", "a05276" ],
+    [ "AsLatLonTextTest", "a05280.html", "a05280" ],
+    [ "AsOSMLinkTest", "a05284.html", "a05284" ],
+    [ "AsPolyshapeTest", "a05288.html", "a05288" ],
+    [ "AsSVGTest", "a05292.html", "a05292" ],
+    [ "AsTextRawTest", "a05296.html", "a05296" ],
+    [ "AsTextRoundTest", "a05300.html", "a05300" ],
+    [ "AsTextTest", "a05304.html", "a05304" ],
+    [ "AsTWKBTest", "a05308.html", "a05308" ]
 ];

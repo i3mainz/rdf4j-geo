@@ -1,5 +1,6 @@
 var a02505 =
 [
-    [ "Coordinate", "a05011.html", "a05011" ],
-    [ "CoordinateT", "a05019.html", null ]
+    [ "AddInteriorRing", "a03928.html", "a03928" ],
+    [ "RemoveInteriorRing", "a03932.html", "a03932" ],
+    [ "SetInteriorRing", "a03936.html", "a03936" ]
 ];

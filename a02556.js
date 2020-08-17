@@ -1,0 +1,25 @@
+var a02556 =
+[
+    [ "AreaSimilarityTest", "a05312.html", "a05312" ],
+    [ "CentroidDistanceTest", "a05316.html", "a05316" ],
+    [ "ClosestPointTest", "a05320.html", "a05320" ],
+    [ "DistanceSphereTest", "a05324.html", "a05324" ],
+    [ "DistanceTest", "a05328.html", "a05328" ],
+    [ "EqualNormTest", "a05332.html", "a05332" ],
+    [ "EqualSRSTest", "a05336.html", "a05336" ],
+    [ "EqualTopoTest", "a05340.html", "a05340" ],
+    [ "EqualTypeTest", "a05344.html", "a05344" ],
+    [ "FurthestCoordinateTest", "a05348.html", "a05348" ],
+    [ "HausdorffDistanceTest", "a05352.html", "a05352" ],
+    [ "IntersectionMatrixTest", "a05356.html", "a05356" ],
+    [ "IntersectionPercentageTest", "a05360.html", "a05360" ],
+    [ "IsMorePreciseTest", "a05364.html", "a05364" ],
+    [ "LongestLineTest", "a05368.html", "a05368" ],
+    [ "MaxDistance3DTest", "a05372.html", "a05372" ],
+    [ "MaxDistanceTest", "a05376.html", "a05376" ],
+    [ "OrderingEqualsTest", "a05380.html", "a05380" ],
+    [ "RelateMatchTest", "a05384.html", "a05384" ],
+    [ "RelateTest", "a05388.html", "a05388" ],
+    [ "ShortestLine3DTest", "a05392.html", "a05392" ],
+    [ "ShortestLineTest", "a05396.html", "a05396" ]
+];

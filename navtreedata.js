@@ -1,7 +1,7 @@
 var NAVTREE =
 [
   [ "rdf4j-postgis", "index.html", [
-    [ "Deprecated List", "a02417.html", null ],
+    [ "Deprecated List", "a02453.html", null ],
     [ "Packages", null, [
       [ "Packages", "namespaces.html", "namespaces" ]
     ] ],
@@ -27,26 +27,26 @@ var NAVTREEINDEX =
 "a00764.html",
 "a01577.html",
 "a02330.html",
-"a02528.html",
-"a02575.html#a38489e7aff8f63c338e68801d5e9d2cd",
-"a02575.html#aa15c19d19a43b9fc7940b9bc272ebce7",
-"a02611.html#a5b8abc050132eb40bba1242871140569",
-"a02835.html#ad9fb16b36dd4ccc533d4f05ff94646e3",
-"a03115.html#a4ab2ac9320ef97ac30e17776a179ac49",
-"a03359.html#ad9fb16b36dd4ccc533d4f05ff94646e3",
-"a03603.html#ad9fb16b36dd4ccc533d4f05ff94646e3",
-"a03871.html#a041666085738cb4cd7649f68428f9553",
-"a04123.html#a6806aef1be98bc1357386cca0f591808",
-"a04391.html#a6e7c25bfd07628e3e74ea4e1ddfcae70",
-"a04667.html",
-"a04859.html",
-"a04947.html#a81d06010fd5932cbc23bbbc386255181",
-"a04995.html#ad69af768670b09117152621e9765d4ca",
-"a05119.html#a0444ce8df222ae81e1a33426a32d8d7a",
-"a05355.html#afa1a1d15c5b993ecdc02ab403652c157",
-"a05599.html#a77798f856500689412dea069531a7606",
-"a05751.html#a77798f856500689412dea069531a7606",
-"files.html"
+"a02558.html",
+"a02612.html#a30dc639bc1b01a525ebd63c46e14aef9",
+"a02612.html#a9a6be31ef63b02110bdd0ce156ca1b5b",
+"a02632.html#af0725a1816cbe85fd20e2c627b9ff923",
+"a02860.html#a43b4c73244bc6722ce551c1033cf1115",
+"a03140.html",
+"a03380.html#ad9fb16b36dd4ccc533d4f05ff94646e3",
+"a03628.html#a43b4c73244bc6722ce551c1033cf1115",
+"a03892.html#ad9fb16b36dd4ccc533d4f05ff94646e3",
+"a04148.html",
+"a04420.html#a43b4c73244bc6722ce551c1033cf1115",
+"a04684.html#a43b4c73244bc6722ce551c1033cf1115",
+"a04884.html#afb4dc47464d22ed20de4b4318bcf68ca",
+"a04984.html#a5719a77b44553fb4d1f140713379dc34",
+"a05028.html#ab356995ed7cff0226d75484d03a994f2",
+"a05136.html",
+"a05384.html",
+"a05636.html#aae4d62f37acbace0beb2e9dbba631072",
+"a05800.html#ac94c157f6beb145deb3abfe76cbf5de2",
+"a07589.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

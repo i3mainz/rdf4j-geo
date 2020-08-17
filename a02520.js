@@ -1,25 +1,8 @@
 var a02520 =
 [
-    [ "AreaSimilarityTest", "a05271.html", "a05271" ],
-    [ "CentroidDistanceTest", "a05275.html", "a05275" ],
-    [ "ClosestPointTest", "a05279.html", "a05279" ],
-    [ "DistanceSphereTest", "a05283.html", "a05283" ],
-    [ "DistanceTest", "a05287.html", "a05287" ],
-    [ "EqualNormTest", "a05291.html", "a05291" ],
-    [ "EqualSRSTest", "a05295.html", "a05295" ],
-    [ "EqualTopoTest", "a05299.html", "a05299" ],
-    [ "EqualTypeTest", "a05303.html", "a05303" ],
-    [ "FurthestCoordinateTest", "a05307.html", "a05307" ],
-    [ "HausdorffDistanceTest", "a05311.html", "a05311" ],
-    [ "IntersectionMatrixTest", "a05315.html", "a05315" ],
-    [ "IntersectionPercentageTest", "a05319.html", "a05319" ],
-    [ "IsMorePreciseTest", "a05323.html", "a05323" ],
-    [ "LongestLineTest", "a05327.html", "a05327" ],
-    [ "MaxDistance3DTest", "a05331.html", "a05331" ],
-    [ "MaxDistanceTest", "a05335.html", "a05335" ],
-    [ "OrderingEqualsTest", "a05339.html", "a05339" ],
-    [ "RelateMatchTest", "a05343.html", "a05343" ],
-    [ "RelateTest", "a05347.html", "a05347" ],
-    [ "ShortestLine3DTest", "a05351.html", "a05351" ],
-    [ "ShortestLineTest", "a05355.html", "a05355" ]
+    [ "AddIsoNode", "a04532.html", "a04532" ],
+    [ "MoveIsoNode", "a04536.html", null ],
+    [ "RemoveIsoNode", "a04540.html", null ],
+    [ "Topo_AddLineString", "a04544.html", null ],
+    [ "Topo_AddPoint", "a04548.html", "a04548" ]
 ];
