@@ -1,9 +1,8 @@
 var a02560 =
 [
-    [ "BBOXAboveTest", "a05092.html", "a05092" ],
-    [ "BBOXBelowTest", "a05096.html", "a05096" ],
-    [ "BBOXDistanceTest", "a05100.html", "a05100" ],
-    [ "BBOXLeftOfTest", "a05104.html", "a05104" ],
-    [ "BBOXOverlapsRightTest", "a05108.html", "a05108" ],
-    [ "BBOXRightOfTest", "a05112.html", "a05112" ]
+    [ "Resample", "a04533.html", "a04533" ],
+    [ "Rescale", "a04537.html", "a04537" ],
+    [ "Resize", "a04541.html", null ],
+    [ "Reskew", "a04545.html", null ],
+    [ "Transform", "a04549.html", null ]
 ];

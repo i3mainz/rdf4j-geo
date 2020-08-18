@@ -1,6 +1,8 @@
 var a02565 =
 [
-    [ "GeomFromGeoJSONTest", "a05236.html", "a05236" ],
-    [ "GeomFromTextTest", "a05240.html", "a05240" ],
-    [ "GeomFromWKBTest", "a05244.html", "a05244" ]
+    [ "AddIsoNode", "a04581.html", "a04581" ],
+    [ "MoveIsoNode", "a04585.html", null ],
+    [ "RemoveIsoNode", "a04589.html", null ],
+    [ "Topo_AddLineString", "a04593.html", null ],
+    [ "Topo_AddPoint", "a04597.html", "a04597" ]
 ];

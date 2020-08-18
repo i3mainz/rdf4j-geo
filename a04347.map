@@ -1,9 +1,2 @@
-<map id="RasterStringExportFunction" name="RasterStringExportFunction">
-<area shape="rect" id="node3" href="$a04100.html" title="BandMetadata" alt="" coords="5,155,112,181"/>
-<area shape="rect" id="node4" href="$a04436.html" title="AsBinary" alt="" coords="136,155,211,181"/>
-<area shape="rect" id="node5" href="$a04416.html" title="AsCoverageJSON" alt="" coords="235,155,365,181"/>
-<area shape="rect" id="node6" href="$a04420.html" title="AsGeoTIFF" alt="" coords="389,155,480,181"/>
-<area shape="rect" id="node7" href="$a04424.html" title="AsGMLCOV" alt="" coords="505,155,599,181"/>
-<area shape="rect" id="node8" href="$a04432.html" title="AsHexWKB" alt="" coords="624,155,717,181"/>
-<area shape="rect" id="node9" href="$a04428.html" title="AsNetCDF" alt="" coords="742,155,829,181"/>
+<map id="RasterConstructorFunction" name="RasterConstructorFunction">
 </map>

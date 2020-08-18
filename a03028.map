@@ -1,0 +1,21 @@
+<map id="GeometricConstructor" name="GeometricConstructor">
+<area shape="rect" id="node3" href="$a02737.html" title="MakeEnvelope" alt="" coords="357,5,465,32"/>
+<area shape="rect" id="node4" href="$a03137.html" title="Returns a geometry collection from a WKT String. " alt="" coords="343,56,479,83"/>
+<area shape="rect" id="node5" href="$a03141.html" title="Returns a geometry from a GeoHash String. " alt="" coords="339,107,482,133"/>
+<area shape="rect" id="node6" href="$a03145.html" title="Returns a geometry from a GeoJSON String. " alt="" coords="337,157,484,184"/>
+<area shape="rect" id="node7" href="$a03149.html" title="Returns a geometry from a WKT String. " alt="" coords="354,208,467,235"/>
+<area shape="rect" id="node8" href="$a03153.html" title="Returns a geometry from a WKB String. " alt="" coords="351,259,470,285"/>
+<area shape="rect" id="node9" href="$a03613.html" title="LineFromEncodedPolyline" alt="" coords="324,309,497,336"/>
+<area shape="rect" id="node10" href="$a03621.html" title="LineFromText" alt="" coords="359,360,462,387"/>
+<area shape="rect" id="node11" href="$a03625.html" title="LineFromWKB" alt="" coords="357,411,464,437"/>
+<area shape="rect" id="node12" href="$a03629.html" title="MakeLine" alt="" coords="371,461,450,488"/>
+<area shape="rect" id="node13" href="$a03633.html" title="MLineFromText" alt="" coords="354,512,467,539"/>
+<area shape="rect" id="node14" href="$a03861.html" title="MakePoint" alt="" coords="369,563,453,589"/>
+<area shape="rect" id="node15" href="$a03865.html" title="MPointFromText" alt="" coords="351,613,470,640"/>
+<area shape="rect" id="node16" href="$a03869.html" title="PointFromGeoHash" alt="" coords="342,664,479,691"/>
+<area shape="rect" id="node17" href="$a03873.html" title="PointFromText" alt="" coords="357,715,465,741"/>
+<area shape="rect" id="node18" href="$a03877.html" title="PointFromWKB" alt="" coords="354,765,467,792"/>
+<area shape="rect" id="node19" href="$a03961.html" title="MakePolygon" alt="" coords="360,816,461,843"/>
+<area shape="rect" id="node20" href="$a03969.html" title="PolygonFromText" alt="" coords="348,867,473,893"/>
+<area shape="rect" id="node21" href="$a03973.html" title="PolygonFromWKB" alt="" coords="345,917,476,944"/>
+</map>

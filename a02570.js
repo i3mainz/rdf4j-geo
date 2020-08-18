@@ -1,21 +1,15 @@
 var a02570 =
 [
-    [ "CollectionExtractTest", "a05464.html", "a05464" ],
-    [ "CollectionHomogenizeTest", "a05468.html", "a05468" ],
-    [ "DensifyTest", "a05472.html", "a05472" ],
-    [ "FlipCoordinatesTest", "a05476.html", "a05476" ],
-    [ "Force2DTest", "a05480.html", "a05480" ],
-    [ "Force3DMTest", "a05484.html", "a05484" ],
-    [ "Force3DTest", "a05488.html", "a05488" ],
-    [ "Force4DTest", "a05492.html", "a05492" ],
-    [ "ForceCollectionTest", "a05496.html", "a05496" ],
-    [ "PrecisionReducerTest", "a05500.html", "a05500" ],
-    [ "RemoveRepeatedPointsTest", "a05504.html", "a05504" ],
-    [ "ReverseTest", "a05508.html", "a05508" ],
-    [ "ShiftLongitudeTest", "a05512.html", "a05512" ],
-    [ "SimplifyPreserveTopologyTest", "a05516.html", "a05516" ],
-    [ "SimplifyTest", "a05520.html", "a05520" ],
-    [ "SimplifyVWTest", "a05524.html", "a05524" ],
-    [ "SwapOrdinatesTest", "a05528.html", "a05528" ],
-    [ "TransScaleTest", "a05532.html", "a05532" ]
+    [ "functions", "a02571.html", "a02571" ],
+    [ "literals", "a02572.html", "a02572" ],
+    [ "parsers", "a02576.html", "a02576" ],
+    [ "GPXHandler", "a04825.html", "a04825" ],
+    [ "JtsPolyshapeWriter", "a04829.html", "a04829" ],
+    [ "LiteralRegistry", "a04833.html", "a04833" ],
+    [ "LiteralUtils", "a04965.html", "a04965" ],
+    [ "PolyshapeReader", "a05005.html", "a05005" ],
+    [ "PolyshapeWriter", "a05013.html", "a05013" ],
+    [ "RasterVectorRelationBinaryFunction", "a05021.html", "a05021" ],
+    [ "RasterVectorRelationFunction", "a05025.html", "a05025" ],
+    [ "RasterVectorRelationIntBinaryFunction", "a05029.html", "a05029" ]
 ];

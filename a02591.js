@@ -1,5 +1,6 @@
 var a02591 =
 [
-    [ "SampleGeometries", "a06072.html", null ],
-    [ "SampleRasters", "a06076.html", "a06076" ]
+    [ "LengthSubstring", "a05113.html", "a05113" ],
+    [ "LengthToPoint", "a05117.html", "a05117" ],
+    [ "LocatePoint", "a05121.html", "a05121" ]
 ];

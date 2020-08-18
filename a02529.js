@@ -1,9 +1,8 @@
 var a02529 =
 [
-    [ "attribute", "a02528.html", "a02528" ],
-    [ "base", "a02530.html", "a02530" ],
-    [ "constructor", "a02531.html", "a02531" ],
-    [ "editor", "a02532.html", "a02532" ],
-    [ "exporter", "a02533.html", "a02533" ],
-    [ "transform", "a02534.html", "a02534" ]
+    [ "GeomCollFromText", "a03137.html", "a03137" ],
+    [ "GeomFromGeoHash", "a03141.html", "a03141" ],
+    [ "GeomFromGeoJSON", "a03145.html", "a03145" ],
+    [ "GeomFromText", "a03149.html", "a03149" ],
+    [ "GeomFromWKB", "a03153.html", "a03153" ]
 ];

@@ -1,9 +1,17 @@
 var a02525 =
 [
-    [ "AsBinary", "a04436.html", "a04436" ],
-    [ "AsCoverageJSON", "a04416.html", "a04416" ],
-    [ "AsGeoTIFF", "a04420.html", "a04420" ],
-    [ "AsGMLCOV", "a04424.html", "a04424" ],
-    [ "AsHexWKB", "a04432.html", "a04432" ],
-    [ "AsNetCDF", "a04428.html", "a04428" ]
+    [ "BBOXAbove", "a02745.html", "a02745" ],
+    [ "BBOXBelow", "a02749.html", "a02749" ],
+    [ "BBOXContains", "a02753.html", "a02753" ],
+    [ "BBOXDistance", "a02757.html", "a02757" ],
+    [ "BBOXEquals", "a02761.html", "a02761" ],
+    [ "BBOXFPIntersects", "a02765.html", "a02765" ],
+    [ "BBOXIntersects", "a02769.html", "a02769" ],
+    [ "BBOXIsContainedBy", "a02773.html", "a02773" ],
+    [ "BBOXLeftOf", "a02777.html", "a02777" ],
+    [ "BBOXOverlapsAbove", "a02781.html", "a02781" ],
+    [ "BBOXOverlapsBelow", "a02785.html", "a02785" ],
+    [ "BBOXOverlapsLeft", "a02789.html", "a02789" ],
+    [ "BBOXOverlapsRight", "a02793.html", "a02793" ],
+    [ "BBOXRightOf", "a02797.html", "a02797" ]
 ];

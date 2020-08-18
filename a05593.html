@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>rdf4j-postgis: Member List</title>
+<title>rdf4j-postgis: TransScaleTest Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -56,25 +56,112 @@ $(function() {
   </div>
 </div>
 <script type="text/javascript">
-$(document).ready(function(){initNavTree('a05596.html','');});
+$(document).ready(function(){initNavTree('a05593.html','');});
 </script>
 <div id="doc-content">
 <div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-attribs">Static Public Attributes</a> &#124;
+<a href="a05590.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">MaxYTest Member List</div>  </div>
+<div class="title">TransScaleTest Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+<div class="dynheader">
+Collaboration diagram for TransScaleTest:</div>
+<div class="dyncontent">
+<div class="center"><img src="a05591.png" border="0" usemap="#TransScaleTest_coll__map" alt="Collaboration graph"/></div>
+<map name="TransScaleTest_coll__map" id="TransScaleTest_coll__map">
+</map>
+<center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:a8169037c504558c555e457db95ca9864"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05593.html#a8169037c504558c555e457db95ca9864">testTransScale</a> ()</td></tr>
+<tr class="separator:a8169037c504558c555e457db95ca9864"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
+Static Public Attributes</h2></td></tr>
+<tr class="memitem:a33797029fadbcba01b4a4fafec88cf41"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05593.html#a33797029fadbcba01b4a4fafec88cf41">testLineString</a> =&quot;LINESTRING(1 2,1 10)&quot;</td></tr>
+<tr class="separator:a33797029fadbcba01b4a4fafec88cf41"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab8deaae2f0a5506ff9fd02ff15e921cc"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05593.html#ab8deaae2f0a5506ff9fd02ff15e921cc">res</a> =&quot;LINESTRING (3 5, 3 20)&quot;</td></tr>
+<tr class="separator:ab8deaae2f0a5506ff9fd02ff15e921cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a8169037c504558c555e457db95ca9864"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8169037c504558c555e457db95ca9864">&#9670;&nbsp;</a></span>testTransScale()</h2>
 
-<p>This is the complete list of members for <a class="el" href="a05596.html">MaxYTest</a>, including all inherited members.</p>
-<table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="a05596.html#af26f700ee129f846cac58735f6dcc380">testPoint</a></td><td class="entry"><a class="el" href="a05596.html">MaxYTest</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
-  <tr><td class="entry"><a class="el" href="a05596.html#a98991d9326941ea2d984df31280c0db4">testYMax</a>()</td><td class="entry"><a class="el" href="a05596.html">MaxYTest</a></td><td class="entry"></td></tr>
-</table></div><!-- contents -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void testTransScale </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="a03133.html#a43b4c73244bc6722ce551c1033cf1115">GeometricUnaryFunction.evaluate()</a>, and <a class="el" href="a04957.html#ae02c2e86ac0dea8538c7b43e9e82421a">WKTDatatype.LiteralIRI</a>.</p>
+<div class="fragment"><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;                                     {</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;        TransScale instance=<span class="keyword">new</span> TransScale();</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;                ValueFactory valfac=SimpleValueFactory.getInstance();</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;                Value geo=valfac.createLiteral(<a class="code" href="a05593.html#a33797029fadbcba01b4a4fafec88cf41">testLineString</a>, WKTDatatype.LiteralIRI);</div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;                Value result=instance.evaluate(valfac, geo,valfac.createLiteral(2),valfac.createLiteral(2),valfac.createLiteral(2),valfac.createLiteral(2));</div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;                Value expResult=valfac.createLiteral(<a class="code" href="a05593.html#ab8deaae2f0a5506ff9fd02ff15e921cc">res</a>, WKTDatatype.LiteralIRI);</div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;            assertEquals(expResult, result);</div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;        }</div><div class="ttc" id="a05593_html_a33797029fadbcba01b4a4fafec88cf41"><div class="ttname"><a href="a05593.html#a33797029fadbcba01b4a4fafec88cf41">de.hsmainz.cs.semgis.arqextension.test.geometry.transform.TransScaleTest.testLineString</a></div><div class="ttdeci">static final String testLineString</div><div class="ttdef"><b>Definition:</b> TransScaleTest.java:16</div></div>
+<div class="ttc" id="a05593_html_ab8deaae2f0a5506ff9fd02ff15e921cc"><div class="ttname"><a href="a05593.html#ab8deaae2f0a5506ff9fd02ff15e921cc">de.hsmainz.cs.semgis.arqextension.test.geometry.transform.TransScaleTest.res</a></div><div class="ttdeci">static final String res</div><div class="ttdef"><b>Definition:</b> TransScaleTest.java:18</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="ab8deaae2f0a5506ff9fd02ff15e921cc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab8deaae2f0a5506ff9fd02ff15e921cc">&#9670;&nbsp;</a></span>res</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final String res =&quot;LINESTRING (3 5, 3 20)&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a33797029fadbcba01b4a4fafec88cf41"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a33797029fadbcba01b4a4fafec88cf41">&#9670;&nbsp;</a></span>testLineString</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final String testLineString =&quot;LINESTRING(1 2,1 10)&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+</div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.13-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
+    <li class="navelem"><a class="el" href="a02500.html">de</a></li><li class="navelem"><a class="el" href="a02501.html">hsmainz</a></li><li class="navelem"><a class="el" href="a02502.html">cs</a></li><li class="navelem"><a class="el" href="a02503.html">semgis</a></li><li class="navelem"><a class="el" href="a02504.html">arqextension</a></li><li class="navelem"><a class="el" href="a02594.html">test</a></li><li class="navelem"><a class="el" href="a02597.html">geometry</a></li><li class="navelem"><a class="el" href="a02603.html">transform</a></li><li class="navelem"><a class="el" href="a05593.html">TransScaleTest</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
