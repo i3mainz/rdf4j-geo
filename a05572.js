@@ -1,5 +1,5 @@
 var a05572 =
 [
-    [ "testAsEncodedPolyline", "a05572.html#a77e364f1e18fbe312ed563af435ddc8f", null ],
-    [ "testGeometry", "a05572.html#abc3f514f005cba49e406658e2d3086eb", null ]
+    [ "testSridHasFlippedAxis", "a05572.html#a94f12f6d4a3fe8f25be5144338eb0198", null ],
+    [ "testPoint", "a05572.html#af26f700ee129f846cac58735f6dcc380", null ]
 ];

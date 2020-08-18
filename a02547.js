@@ -1,5 +1,5 @@
 var a02547 =
 [
-    [ "GARStoLL", "a02686.html", "a02686" ],
-    [ "LLtoGARS", "a02690.html", "a02690" ]
+    [ "ExampleWebService", "a02684.html", "a02684" ],
+    [ "TripleStoreConnection", "a02688.html", "a02688" ]
 ];

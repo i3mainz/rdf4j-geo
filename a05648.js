@@ -1,7 +1,5 @@
 var a05648 =
 [
-    [ "testHasDuplicateRingsFalse", "a05648.html#a3957683118b9d5473c635a38d7e6c6e8", null ],
-    [ "testHasDuplicateRingsTrue", "a05648.html#a3779f6b4849bf60c716f7dff71089a2a", null ],
-    [ "duplicateRings", "a05648.html#a92f3ef00fc079a76b7f943d9ed6cec77", null ],
-    [ "nonduplicateRings", "a05648.html#a675a0b1b194538fc07fa716705f883a5", null ]
+    [ "testReverse", "a05648.html#ac38f1a963c4494ff939bad764b01b127", null ],
+    [ "testLineString", "a05648.html#a33797029fadbcba01b4a4fafec88cf41", null ]
 ];

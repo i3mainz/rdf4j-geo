@@ -1,3 +1,5 @@
-<map id="AsGeometry" name="AsGeometry">
-<area shape="rect" id="node2" href="$a04353.html" title="RasterGeometryConversion\lFunction" alt="" coords="5,80,189,121"/>
+<map id="RasterAttributeIntIntGeomFunction" name="RasterAttributeIntIntGeomFunction">
+<area shape="rect" id="node3" href="$a04256.html" title="PixelAsPoint" alt="" coords="5,169,103,196"/>
+<area shape="rect" id="node4" href="$a04264.html" title="RasterToWorldCoord" alt="" coords="127,169,272,196"/>
+<area shape="rect" id="node5" href="$a04340.html" title="WorldToRasterCoord" alt="" coords="296,169,441,196"/>
 </map>

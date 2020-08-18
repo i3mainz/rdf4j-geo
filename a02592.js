@@ -1,6 +1,6 @@
 var a02592 =
 [
-    [ "AddInteriorRing", "a04022.html", "a04022" ],
-    [ "RemoveInteriorRing", "a04026.html", "a04026" ],
-    [ "SetInteriorRing", "a04030.html", "a04030" ]
+    [ "attribute", "a02591.html", "a02591" ],
+    [ "constructor", "a02593.html", "a02593" ],
+    [ "transform", "a02594.html", "a02594" ]
 ];

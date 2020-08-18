@@ -1,7 +1,6 @@
 var a05640 =
 [
-    [ "testIsScaleneTriangleFalse", "a05640.html#ac6f7d4cf9bd1990319a4e7a5bb51d4b1", null ],
-    [ "testIsScaleneTriangleTrue", "a05640.html#a86b14a35c3e202b5a14bdaea4c16a441", null ],
-    [ "isocelesTriangle", "a05640.html#aa04dfbec745e2622b9f7646f8572e501", null ],
-    [ "notIsocelesTriangle", "a05640.html#a055d99fb63bcee37763ffcf4da9e0521", null ]
+    [ "testPrecisionReducer", "a05640.html#a486d6504bb92a61902ac29e25b3d31a8", null ],
+    [ "resultGeom", "a05640.html#a3eff685a59eb24ce11d6dbd456fae0c2", null ],
+    [ "testGeom", "a05640.html#a03a5f5da0ccbeed8c1678d4317cf2672", null ]
 ];

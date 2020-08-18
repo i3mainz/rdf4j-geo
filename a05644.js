@@ -1,7 +1,6 @@
 var a05644 =
 [
-    [ "testHasConnectedInteriorFalse", "a05644.html#a725a2cc1c4ba4909307c9a2fa07558d8", null ],
-    [ "testHasConnectedInteriorTrue", "a05644.html#a95e618db9d2053f26b5194e3bec0d2a0", null ],
-    [ "duplicateRings", "a05644.html#a92f3ef00fc079a76b7f943d9ed6cec77", null ],
-    [ "nonduplicateRings", "a05644.html#a675a0b1b194538fc07fa716705f883a5", null ]
+    [ "testRemoveRepeatedPoints", "a05644.html#a473d131a5f96a89f9502570a50d06e65", null ],
+    [ "testGeometry", "a05644.html#abc3f514f005cba49e406658e2d3086eb", null ],
+    [ "testGeometry2", "a05644.html#af1173652e671b8f9051f8630b98c73fb", null ]
 ];

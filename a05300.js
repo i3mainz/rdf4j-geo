@@ -1,5 +1,5 @@
 var a05300 =
 [
-    [ "testAsOSMLink", "a05300.html#a31833fe8b6139bfbdcd328ee943729e2", null ],
-    [ "testGeometry", "a05300.html#abc3f514f005cba49e406658e2d3086eb", null ]
+    [ "testLineString", "a05300.html#a0444ce8df222ae81e1a33426a32d8d7a", null ],
+    [ "testGeom", "a05300.html#a03a5f5da0ccbeed8c1678d4317cf2672", null ]
 ];

@@ -1,8 +1,7 @@
 var a05836 =
 [
-    [ "testRasterToWorldCoordY", "a05836.html#a24ce6ed3c7eedd4a897b2c7e85151c25", null ],
-    [ "covJSONString1", "a05836.html#a993e2f127f3ec8f256e9799d77507223", null ],
-    [ "rasterBand", "a05836.html#a44dd712968b2420bbfbf9ae21d476b87", null ],
-    [ "rasterLiteral1", "a05836.html#a77798f856500689412dea069531a7606", null ],
-    [ "wkbString1", "a05836.html#ac94c157f6beb145deb3abfe76cbf5de2", null ]
+    [ "testIsPolygonCCWFalse", "a05836.html#a68f9159867e6465340465684732c1eb6", null ],
+    [ "testIsPolygonCCWTrue", "a05836.html#a1f97fe37dded953f0f1c89d25f651edc", null ],
+    [ "testPolygon", "a05836.html#a1e3187cbc25299380589200c398b3ffd", null ],
+    [ "testPolygon2", "a05836.html#a882729aec95621b4ad261714738ae3fd", null ]
 ];

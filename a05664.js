@@ -1,7 +1,5 @@
 var a05664 =
 [
-    [ "testIsIsocelesTriangleFalse", "a05664.html#aa81dce05daae6f34aac43c24bd033ef0", null ],
-    [ "testIsIsocelesTriangleTrue", "a05664.html#aae4d62f37acbace0beb2e9dbba631072", null ],
-    [ "isocelesTriangle", "a05664.html#aa04dfbec745e2622b9f7646f8572e501", null ],
-    [ "notIsocelesTriangle", "a05664.html#a055d99fb63bcee37763ffcf4da9e0521", null ]
+    [ "testSimplifyVW", "a05664.html#a4b0417b619689d07743ff9d72212c847", null ],
+    [ "testGeom", "a05664.html#a03a5f5da0ccbeed8c1678d4317cf2672", null ]
 ];

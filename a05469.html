@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>rdf4j-postgis: ShortestLineTest Class Reference</title>
+<title>rdf4j-postgis: Member List</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -56,137 +56,28 @@ $(function() {
   </div>
 </div>
 <script type="text/javascript">
-$(document).ready(function(){initNavTree('a05469.html','');});
+$(document).ready(function(){initNavTree('a05472.html','');});
 </script>
 <div id="doc-content">
 <div class="header">
-  <div class="summary">
-<a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pub-static-attribs">Static Public Attributes</a> &#124;
-<a href="a05466.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">ShortestLineTest Class Reference</div>  </div>
+<div class="title">DistanceTest Member List</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="dynheader">
-Collaboration diagram for ShortestLineTest:</div>
-<div class="dyncontent">
-<div class="center"><img src="a05467.png" border="0" usemap="#ShortestLineTest_coll__map" alt="Collaboration graph"/></div>
-<map name="ShortestLineTest_coll__map" id="ShortestLineTest_coll__map">
-</map>
-<center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
-<table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
-Public Member Functions</h2></td></tr>
-<tr class="memitem:afa1a1d15c5b993ecdc02ab403652c157"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05469.html#afa1a1d15c5b993ecdc02ab403652c157">testShortestLine</a> ()</td></tr>
-<tr class="separator:afa1a1d15c5b993ecdc02ab403652c157"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
-Static Public Attributes</h2></td></tr>
-<tr class="memitem:a03a5f5da0ccbeed8c1678d4317cf2672"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05469.html#a03a5f5da0ccbeed8c1678d4317cf2672">testGeom</a> =&quot;LINESTRING(77.29 29.07,77.42 29.26,77.27 29.31,77.29 29.07)&quot;</td></tr>
-<tr class="separator:a03a5f5da0ccbeed8c1678d4317cf2672"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6b4be369c8f60e973cd5126e69cd33a4"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05469.html#a6b4be369c8f60e973cd5126e69cd33a4">testGeom2</a> =&quot;LINESTRING(5 5 ,10 10)&quot;</td></tr>
-<tr class="separator:a6b4be369c8f60e973cd5126e69cd33a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aab356d6554a7301750f11ec7a85ac47d"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05469.html#aab356d6554a7301750f11ec7a85ac47d">result</a> =&quot;LINESTRING(77.29 29.07, 10 10)&quot;</td></tr>
-<tr class="separator:aab356d6554a7301750f11ec7a85ac47d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table>
-<h2 class="groupheader">Member Function Documentation</h2>
-<a id="afa1a1d15c5b993ecdc02ab403652c157"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afa1a1d15c5b993ecdc02ab403652c157">&#9670;&nbsp;</a></span>testShortestLine()</h2>
 
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void testShortestLine </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="reference">References <a class="el" href="a03117.html#a43b4c73244bc6722ce551c1033cf1115">GeometricRelationModifierFunction.evaluate()</a>, and <a class="el" href="a04957.html#ae02c2e86ac0dea8538c7b43e9e82421a">WKTDatatype.LiteralIRI</a>.</p>
-<div class="fragment"><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;                                       {</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;                ShortestLine instance=<span class="keyword">new</span> ShortestLine();</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;                ValueFactory valfac=SimpleValueFactory.getInstance();</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;                Value geo=valfac.createLiteral(<a class="code" href="a05469.html#a03a5f5da0ccbeed8c1678d4317cf2672">testGeom</a>, WKTDatatype.LiteralIRI);</div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;                Value geo2=valfac.createLiteral(<a class="code" href="a05469.html#a6b4be369c8f60e973cd5126e69cd33a4">testGeom2</a>, WKTDatatype.LiteralIRI);</div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;                Value <a class="code" href="a05469.html#aab356d6554a7301750f11ec7a85ac47d">result</a>=instance.evaluate(valfac, geo,geo2);</div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;                Value expResult=valfac.createLiteral(0.);</div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;                assertEquals(expResult, result);</div><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;        }</div><div class="ttc" id="a05469_html_a6b4be369c8f60e973cd5126e69cd33a4"><div class="ttname"><a href="a05469.html#a6b4be369c8f60e973cd5126e69cd33a4">de.hsmainz.cs.semgis.arqextension.test.geometry.relation.ShortestLineTest.testGeom2</a></div><div class="ttdeci">static final String testGeom2</div><div class="ttdef"><b>Definition:</b> ShortestLineTest.java:16</div></div>
-<div class="ttc" id="a05469_html_a03a5f5da0ccbeed8c1678d4317cf2672"><div class="ttname"><a href="a05469.html#a03a5f5da0ccbeed8c1678d4317cf2672">de.hsmainz.cs.semgis.arqextension.test.geometry.relation.ShortestLineTest.testGeom</a></div><div class="ttdeci">static final String testGeom</div><div class="ttdef"><b>Definition:</b> ShortestLineTest.java:14</div></div>
-<div class="ttc" id="a05469_html_aab356d6554a7301750f11ec7a85ac47d"><div class="ttname"><a href="a05469.html#aab356d6554a7301750f11ec7a85ac47d">de.hsmainz.cs.semgis.arqextension.test.geometry.relation.ShortestLineTest.result</a></div><div class="ttdeci">static final String result</div><div class="ttdef"><b>Definition:</b> ShortestLineTest.java:18</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<h2 class="groupheader">Member Data Documentation</h2>
-<a id="aab356d6554a7301750f11ec7a85ac47d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aab356d6554a7301750f11ec7a85ac47d">&#9670;&nbsp;</a></span>result</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">final String result =&quot;LINESTRING(77.29 29.07, 10 10)&quot;</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a03a5f5da0ccbeed8c1678d4317cf2672"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a03a5f5da0ccbeed8c1678d4317cf2672">&#9670;&nbsp;</a></span>testGeom</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">final String testGeom =&quot;LINESTRING(77.29 29.07,77.42 29.26,77.27 29.31,77.29 29.07)&quot;</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a6b4be369c8f60e973cd5126e69cd33a4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6b4be369c8f60e973cd5126e69cd33a4">&#9670;&nbsp;</a></span>testGeom2</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">final String testGeom2 =&quot;LINESTRING(5 5 ,10 10)&quot;</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-</div><!-- contents -->
+<p>This is the complete list of members for <a class="el" href="a05472.html">DistanceTest</a>, including all inherited members.</p>
+<table class="directory">
+  <tr class="even"><td class="entry"><a class="el" href="a05472.html#aab356d6554a7301750f11ec7a85ac47d">result</a></td><td class="entry"><a class="el" href="a05472.html">DistanceTest</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
+  <tr><td class="entry"><a class="el" href="a05472.html#a046a87b712c4f6ddedaf1e78a64c5524">testDistance</a>()</td><td class="entry"><a class="el" href="a05472.html">DistanceTest</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="a05472.html#ae04fbd8c837f2115939842c0268c2a85">testDistance2</a>()</td><td class="entry"><a class="el" href="a05472.html">DistanceTest</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="a05472.html#a03a5f5da0ccbeed8c1678d4317cf2672">testGeom</a></td><td class="entry"><a class="el" href="a05472.html">DistanceTest</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="a05472.html#a6b4be369c8f60e973cd5126e69cd33a4">testGeom2</a></td><td class="entry"><a class="el" href="a05472.html">DistanceTest</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
+</table></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.13-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="a02500.html">de</a></li><li class="navelem"><a class="el" href="a02501.html">hsmainz</a></li><li class="navelem"><a class="el" href="a02502.html">cs</a></li><li class="navelem"><a class="el" href="a02503.html">semgis</a></li><li class="navelem"><a class="el" href="a02504.html">arqextension</a></li><li class="navelem"><a class="el" href="a02594.html">test</a></li><li class="navelem"><a class="el" href="a02597.html">geometry</a></li><li class="navelem"><a class="el" href="a02601.html">relation</a></li><li class="navelem"><a class="el" href="a05469.html">ShortestLineTest</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>

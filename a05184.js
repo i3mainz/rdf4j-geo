@@ -1,6 +1,9 @@
 var a05184 =
 [
-    [ "testMinimumBoundingCircle", "a05184.html#ae83e48bad70898d10790438246feadad", null ],
-    [ "result", "a05184.html#aab356d6554a7301750f11ec7a85ac47d", null ],
-    [ "testPolygon", "a05184.html#a1e3187cbc25299380589200c398b3ffd", null ]
+    [ "testBBOXContainsFalse", "a05184.html#acdd5bf40ab928cffac073b2a29a4d8bd", null ],
+    [ "testBBOXContainsTrue", "a05184.html#ad768af1415f572372ce470613e313973", null ],
+    [ "testGeom1", "a05184.html#aa4a3b1a7e778ece72382f6600fa96b47", null ],
+    [ "testGeom2", "a05184.html#a6b4be369c8f60e973cd5126e69cd33a4", null ],
+    [ "testGeom3", "a05184.html#a800b6bb875a8ff4404ea787c3df125a5", null ],
+    [ "testGeom4", "a05184.html#a4c55e7efe430d6d220fb05524c4bb940", null ]
 ];

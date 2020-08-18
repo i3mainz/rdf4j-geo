@@ -1,13 +1,9 @@
 var a05072 =
 [
-    [ "LocatePoint", "a05072.html#a0db8c96a170aff314d55b51d1090d8c7", null ],
-    [ "compute", "a05072.html#a4f513b82951056a3f579d95f215e9307", null ],
-    [ "getIndex", "a05072.html#a59d053c950ff1e9f8a004d493f34e754", null ],
-    [ "getPoint", "a05072.html#add97f503ca58503d04ac9150e6c8ef7f", null ],
-    [ "pointAlongLine", "a05072.html#aefeee61acc0d87ebcacf610af684935e", null ],
-    [ "pointAlongSegment", "a05072.html#a8138e49067c6447449ff0a8ce19bfed4", null ],
-    [ "pointAlongSegment", "a05072.html#a4b414ab63960ecfa283932288f9977f7", null ],
-    [ "pointAlongSegmentByFraction", "a05072.html#a9ecfa15254cc343c6166b5e9b3f05c03", null ],
-    [ "index", "a05072.html#a750b5d744c39a06bfb13e6eb010e35d0", null ],
-    [ "pt", "a05072.html#aae9b62bb90c0c25de44c11a2abc79afa", null ]
+    [ "evaluate", "a05072.html#a43b4c73244bc6722ce551c1033cf1115", null ],
+    [ "getLiteral", "a05072.html#ad5ea121d0231b4b209324202427665f0", null ],
+    [ "relation", "a05072.html#a71f3435eece62d00511b7d8ff45a1144", null ],
+    [ "vectorOrRaster", "a05072.html#ad5afdfd817cdf11ee0e48c7f56c5514c", null ],
+    [ "rasterLiteralURIs", "a05072.html#ac7dbee8298c097c6bd08da6002fd6ecb", null ],
+    [ "vectorLiteralURIs", "a05072.html#a6e7c25bfd07628e3e74ea4e1ddfcae70", null ]
 ];

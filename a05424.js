@@ -1,5 +1,5 @@
 var a05424 =
 [
-    [ "testEPSGToSRID", "a05424.html#a058152e783dcc1694eb060f5099630b1", null ],
-    [ "testPoint", "a05424.html#af26f700ee129f846cac58735f6dcc380", null ]
+    [ "testAsLatLonText", "a05424.html#a294440bf0a1785c6cea76200ebf53818", null ],
+    [ "testGeometry", "a05424.html#abc3f514f005cba49e406658e2d3086eb", null ]
 ];

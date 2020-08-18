@@ -1,8 +1,7 @@
 var a05808 =
 [
-    [ "testMinTileX", "a05808.html#a387b58e0580f047a27f53413d536186d", null ],
-    [ "covJSONString1", "a05808.html#a993e2f127f3ec8f256e9799d77507223", null ],
-    [ "rasterBand", "a05808.html#a44dd712968b2420bbfbf9ae21d476b87", null ],
-    [ "rasterLiteral1", "a05808.html#a77798f856500689412dea069531a7606", null ],
-    [ "wkbString1", "a05808.html#ac94c157f6beb145deb3abfe76cbf5de2", null ]
+    [ "testHasConnectedInteriorFalse", "a05808.html#a725a2cc1c4ba4909307c9a2fa07558d8", null ],
+    [ "testHasConnectedInteriorTrue", "a05808.html#a95e618db9d2053f26b5194e3bec0d2a0", null ],
+    [ "duplicateRings", "a05808.html#a92f3ef00fc079a76b7f943d9ed6cec77", null ],
+    [ "nonduplicateRings", "a05808.html#a675a0b1b194538fc07fa716705f883a5", null ]
 ];

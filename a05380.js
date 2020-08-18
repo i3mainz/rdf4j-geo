@@ -1,10 +1,9 @@
 var a05380 =
 [
-    [ "testIntersectionPercentage", "a05380.html#a49e1dab16866e800563f476db34781d5", null ],
-    [ "testIntersectionPercentage2", "a05380.html#a90a7db3783150309d73dc80df07f4b85", null ],
-    [ "isocelesTriangle", "a05380.html#aa04dfbec745e2622b9f7646f8572e501", null ],
-    [ "notIsocelesTriangle", "a05380.html#a055d99fb63bcee37763ffcf4da9e0521", null ],
-    [ "result", "a05380.html#aab356d6554a7301750f11ec7a85ac47d", null ],
-    [ "testGeom", "a05380.html#a03a5f5da0ccbeed8c1678d4317cf2672", null ],
-    [ "testGeom2", "a05380.html#a6b4be369c8f60e973cd5126e69cd33a4", null ]
+    [ "testEnsureClosed", "a05380.html#ace1b0f448a93ab083e49e59b851b8094", null ],
+    [ "testEnsureClosed2", "a05380.html#a7a93140658cbcf5aea17d9f930cd5144", null ],
+    [ "closed", "a05380.html#ad8efa97b8aa775164dc4836b505fc315", null ],
+    [ "duplicateRings", "a05380.html#a92f3ef00fc079a76b7f943d9ed6cec77", null ],
+    [ "nonClosed", "a05380.html#aff993a2133bc6c6afe1012e13b5c028d", null ],
+    [ "ring", "a05380.html#a3e4a839eee2eb5791f90656e82eec721", null ]
 ];

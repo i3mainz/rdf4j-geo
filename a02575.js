@@ -1,14 +1,15 @@
 var a02575 =
 [
-    [ "EPSGToSRID", "a03442.html", "a03442" ],
-    [ "SridGetAxis1Name", "a03446.html", "a03446" ],
-    [ "SridGetAxis1Orientation", "a03450.html", "a03450" ],
-    [ "SridGetAxis2Name", "a03454.html", "a03454" ],
-    [ "SridGetAxis2Orientation", "a03458.html", "a03458" ],
-    [ "SridGetDatum", "a03462.html", "a03462" ],
-    [ "SridHasFlippedAxis", "a03466.html", "a03466" ],
-    [ "SridIsGeographic", "a03470.html", "a03470" ],
-    [ "SridIsProjected", "a03474.html", "a03474" ],
-    [ "SridIsVertical", "a03478.html", "a03478" ],
-    [ "SRIDToEPSG", "a03482.html", "a03482" ]
+    [ "attribute", "a02574.html", "a02574" ],
+    [ "base", "a02576.html", "a02576" ],
+    [ "constructor", "a02577.html", "a02577" ],
+    [ "editor", "a02578.html", "a02578" ],
+    [ "exporter", "a02579.html", "a02579" ],
+    [ "relation", "a02580.html", "a02580" ],
+    [ "srid", "a02581.html", "a02581" ],
+    [ "transform", "a02582.html", "a02582" ],
+    [ "Boundary", "a02860.html", "a02860" ],
+    [ "BoundingDiagonal", "a02864.html", "a02864" ],
+    [ "DelaunayTriangles", "a03208.html", "a03208" ],
+    [ "PointOnSurface", "a03324.html", "a03324" ]
 ];

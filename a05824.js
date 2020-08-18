@@ -1,9 +1,7 @@
 var a05824 =
 [
-    [ "testNumYTiles", "a05824.html#a3d907c47d14c75d2d528f33c3a6c662e", null ],
-    [ "cov", "a05824.html#ae46fa35c884a8b26e022dedba4ba1350", null ],
-    [ "covJSONString1", "a05824.html#a993e2f127f3ec8f256e9799d77507223", null ],
-    [ "rasterBand", "a05824.html#a44dd712968b2420bbfbf9ae21d476b87", null ],
-    [ "rasterLiteral1", "a05824.html#a77798f856500689412dea069531a7606", null ],
-    [ "wkbString1", "a05824.html#ac94c157f6beb145deb3abfe76cbf5de2", null ]
+    [ "testIsConvexFalse", "a05824.html#a84d7af36a321a8f38760993ee03431f1", null ],
+    [ "testIsConvexTrue", "a05824.html#a72b02d577b66678dc78571b6ca1901cc", null ],
+    [ "isocelesTriangle", "a05824.html#aa04dfbec745e2622b9f7646f8572e501", null ],
+    [ "notIsocelesTriangle", "a05824.html#a055d99fb63bcee37763ffcf4da9e0521", null ]
 ];

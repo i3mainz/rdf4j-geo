@@ -1,5 +1,5 @@
 var a05432 =
 [
-    [ "testEPSGToSRID", "a05432.html#a058152e783dcc1694eb060f5099630b1", null ],
-    [ "testPoint", "a05432.html#af26f700ee129f846cac58735f6dcc380", null ]
+    [ "testAsPolyShape", "a05432.html#aa4ec805ffcfb140ead8292a441244775", null ],
+    [ "testGeometry", "a05432.html#abc3f514f005cba49e406658e2d3086eb", null ]
 ];

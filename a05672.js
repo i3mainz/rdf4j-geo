@@ -1,7 +1,6 @@
 var a05672 =
 [
-    [ "testIsPolygonCWFalse", "a05672.html#a017c3fe070c2ab2e34a67d428cec06d3", null ],
-    [ "testIsPolygonCWTrue", "a05672.html#a65124e83aa8d64983e3fc4a131479949", null ],
-    [ "testPolygon", "a05672.html#a1e3187cbc25299380589200c398b3ffd", null ],
-    [ "testPolygon2", "a05672.html#a882729aec95621b4ad261714738ae3fd", null ]
+    [ "testTransScale", "a05672.html#a8169037c504558c555e457db95ca9864", null ],
+    [ "res", "a05672.html#ab8deaae2f0a5506ff9fd02ff15e921cc", null ],
+    [ "testLineString", "a05672.html#a33797029fadbcba01b4a4fafec88cf41", null ]
 ];

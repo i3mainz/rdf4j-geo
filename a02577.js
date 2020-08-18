@@ -1,10 +1,8 @@
 var a02577 =
 [
-    [ "EndPoint", "a03630.html", "a03630" ],
-    [ "HasSelfIntersections", "a03634.html", "a03634" ],
-    [ "LineInterpolatePoint", "a03638.html", "a03638" ],
-    [ "LineLength3D", "a03642.html", "a03642" ],
-    [ "LineSelfIntersectionPoint", "a03646.html", "a03646" ],
-    [ "SelfIntersections", "a03650.html", "a03650" ],
-    [ "StartPoint", "a03654.html", "a03654" ]
+    [ "GeomCollFromText", "a03188.html", "a03188" ],
+    [ "GeomFromGeoHash", "a03192.html", "a03192" ],
+    [ "GeomFromGeoJSON", "a03196.html", "a03196" ],
+    [ "GeomFromText", "a03200.html", "a03200" ],
+    [ "GeomFromWKB", "a03204.html", "a03204" ]
 ];

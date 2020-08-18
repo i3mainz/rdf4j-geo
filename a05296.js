@@ -1,5 +1,5 @@
 var a05296 =
 [
-    [ "testAsLatLonText", "a05296.html#a294440bf0a1785c6cea76200ebf53818", null ],
-    [ "testGeometry", "a05296.html#abc3f514f005cba49e406658e2d3086eb", null ]
+    [ "testIsValidFalse", "a05296.html#abe8c10068a1ed9f8a4fea754990b0a48", null ],
+    [ "testIsValidTrue", "a05296.html#a9556e5304e9a52193523b36c47bcd844", null ]
 ];

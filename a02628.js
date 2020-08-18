@@ -1,5 +1,5 @@
 var a02628 =
 [
-    [ "Coordinate", "a05142.html", "a05142" ],
-    [ "CoordinateT", "a05150.html", null ]
+    [ "LEDataInputStream", "a05108.html", "a05108" ],
+    [ "LEDataOutputStream", "a05112.html", "a05112" ]
 ];

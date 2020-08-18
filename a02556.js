@@ -1,4 +1,4 @@
 var a02556 =
 [
-    [ "vocabulary", "a02552.html", "a02552" ]
+    [ "ncdc", "a02557.html", "a02557" ]
 ];

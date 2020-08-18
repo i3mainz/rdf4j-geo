@@ -1,6 +1,6 @@
 var a05464 =
 [
-    [ "testCollectionExtract", "a05464.html#ad65aa26b3876b84d26c4b988083bd940", null ],
-    [ "res", "a05464.html#ab8deaae2f0a5506ff9fd02ff15e921cc", null ],
-    [ "testGeometry", "a05464.html#abc3f514f005cba49e406658e2d3086eb", null ]
+    [ "testClosestPoint", "a05464.html#af30fa8d36bc2cb8bd652397169d9708d", null ],
+    [ "testLineString", "a05464.html#a33797029fadbcba01b4a4fafec88cf41", null ],
+    [ "testPoint", "a05464.html#af26f700ee129f846cac58735f6dcc380", null ]
 ];

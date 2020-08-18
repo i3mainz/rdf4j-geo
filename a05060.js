@@ -1,16 +1,19 @@
 var a05060 =
 [
-    [ "calculate", "a05060.html#a1b9dd1e59eac3a2a15cb68c19e994fe4", null ],
-    [ "checkCoordinate", "a05060.html#a0a01f90a7fe27e3b66f1c87f019e91bc", null ],
-    [ "finalize", "a05060.html#a7626720b9bf807253dd702a0214dc9f0", null ],
-    [ "writeExtendedPrecision", "a05060.html#a320ccd90ec0ef71a4353104b7fe98a1c", null ],
-    [ "writePoint", "a05060.html#adedb1cd853d00648be239477f7fe4e2a", null ],
-    [ "writePointArray", "a05060.html#afeed21e7153170021427b1e7001d952b", null ],
-    [ "hasM", "a05060.html#a1eccf09f4c826ba480ec832ac4ce7718", null ],
-    [ "hasZ", "a05060.html#ab356995ed7cff0226d75484d03a994f2", null ],
-    [ "mPrecision", "a05060.html#a1b92282fc8148f040078b9bb37b30b15", null ],
-    [ "mPrecisionMultiplier", "a05060.html#a4ea667f57906c038bb9717bc848df77a", null ],
-    [ "precisionMultiplier", "a05060.html#a9aa85be4ec02c28a05cb552845fe08eb", null ],
-    [ "zPrecision", "a05060.html#abdd886294f53edb9018d91b1e049bef8", null ],
-    [ "zPrecisionMultiplier", "a05060.html#abb32d6067d519044d8c44d52ab2cdd44", null ]
+    [ "XReader", "a05060.html#a66638412c8e597e7679a49b30d8cc503", null ],
+    [ "isData", "a05060.html#a73f9d3967881e9a41ee9637a1088c45b", null ],
+    [ "isDone", "a05060.html#a552bb801349e980b00cb44160babffeb", null ],
+    [ "isEvent", "a05060.html#ab8a53acb267876925142198a7680c0a7", null ],
+    [ "peek", "a05060.html#a9040fa1d479d71edf3a826f4691c35c4", null ],
+    [ "readDouble", "a05060.html#a840ea5c01770156bd51bdb9f65f44e30", null ],
+    [ "readInt", "a05060.html#ac4dc9964d286ddbbd2a108991190d39d", null ],
+    [ "readKey", "a05060.html#ad63c13e3dc040d1b9a35249edd1839c5", null ],
+    [ "readLat", "a05060.html#ad1c83e20d9757f70ff67315e5af2d823", null ],
+    [ "readLng", "a05060.html#aa705a4be038559a46acb9e3c30eda301", null ],
+    [ "readPoints", "a05060.html#a78f5424018ac75827d519ba60304bbfa", null ],
+    [ "head", "a05060.html#a20358970b1abaf992eb85e071e454653", null ],
+    [ "input", "a05060.html#ac50945c3e4c56b7167ff5ab33c478e42", null ],
+    [ "lat", "a05060.html#ad0c6d3a40d6093204d169a1928ec7fa5", null ],
+    [ "lng", "a05060.html#a8a9f3916588598fe817306c2b2ce3b3c", null ],
+    [ "shpFactory", "a05060.html#a05afdb0d887f04c5eac83dd8132c87b6", null ]
 ];

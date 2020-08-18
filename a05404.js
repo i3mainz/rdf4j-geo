@@ -1,6 +1,5 @@
 var a05404 =
 [
-    [ "testRelateMatchFalse", "a05404.html#a16bf67312d8af3e076076fd8097969c5", null ],
-    [ "testRelateMatchTrue", "a05404.html#a47e32d919c84c1edd508a45d6c670e90", null ],
-    [ "notIsocelesTriangle", "a05404.html#a055d99fb63bcee37763ffcf4da9e0521", null ]
+    [ "testAsGARS", "a05404.html#a80929de20ed59fa635418039d48a9ef7", null ],
+    [ "testPoint", "a05404.html#af26f700ee129f846cac58735f6dcc380", null ]
 ];

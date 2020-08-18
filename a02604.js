@@ -1,9 +1,11 @@
 var a02604 =
 [
-    [ "attribute", "a02603.html", "a02603" ],
-    [ "base", "a02605.html", "a02605" ],
-    [ "constructor", "a02606.html", "a02606" ],
-    [ "editor", "a02607.html", "a02607" ],
-    [ "exporter", "a02608.html", "a02608" ],
-    [ "transform", "a02609.html", "a02609" ]
+    [ "AsGeometry", "a04440.html", "a04440" ],
+    [ "AsRaster", "a04444.html", "a04444" ],
+    [ "MakeEmptyRaster", "a04448.html", "a04448" ],
+    [ "RastFromCoverageJSON", "a04452.html", "a04452" ],
+    [ "RastFromGMLCOV", "a04456.html", "a04456" ],
+    [ "RastFromHexWKB", "a04460.html", "a04460" ],
+    [ "RastFromNetCDF", "a04464.html", "a04464" ],
+    [ "RastFromWKB", "a04468.html", "a04468" ]
 ];

@@ -1,3 +1,6 @@
-<map id="EnsureClosed" name="EnsureClosed">
-<area shape="rect" id="node2" href="$a03069.html" title="GeometricModifierDoubleFunction" alt="" coords="5,80,224,107"/>
+<map id="GeometricRelationModifierFunction" name="GeometricRelationModifierFunction">
+<area shape="rect" id="node3" href="$a03404.html" title="LongestLine" alt="" coords="5,169,97,196"/>
+<area shape="rect" id="node4" href="$a03436.html" title="ShortestLine" alt="" coords="121,169,216,196"/>
+<area shape="rect" id="node5" href="$a03440.html" title="ShortestLine3D" alt="" coords="241,169,353,196"/>
+<area shape="rect" id="node6" href="$a03748.html" title="Calculates shared paths of two geometries. " alt="" coords="377,169,475,196"/>
 </map>

@@ -1,5 +1,7 @@
 var a05124 =
 [
-    [ "testBoundingDiagonal", "a05124.html#a5905b320ef165de047ef4ff2e9167268", null ],
-    [ "testPolygon", "a05124.html#a1e3187cbc25299380589200c398b3ffd", null ]
+    [ "PrecisionReader", "a05124.html#af4edc5e5b8d78201415bc23188bf2978", null ],
+    [ "readPoint", "a05124.html#a04d3647950410c96c47734decf0e12b5", null ],
+    [ "readPointArray", "a05124.html#a1bbf2e471d2964af19292437ad42729b", null ],
+    [ "precisionMultiplier", "a05124.html#a9aa85be4ec02c28a05cb552845fe08eb", null ]
 ];

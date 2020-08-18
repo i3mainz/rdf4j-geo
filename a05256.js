@@ -1,9 +1,10 @@
 var a05256 =
 [
-    [ "testEnsureClosed", "a05256.html#ace1b0f448a93ab083e49e59b851b8094", null ],
-    [ "testEnsureClosed2", "a05256.html#a7a93140658cbcf5aea17d9f930cd5144", null ],
-    [ "closed", "a05256.html#ad8efa97b8aa775164dc4836b505fc315", null ],
-    [ "duplicateRings", "a05256.html#a92f3ef00fc079a76b7f943d9ed6cec77", null ],
-    [ "nonClosed", "a05256.html#aff993a2133bc6c6afe1012e13b5c028d", null ],
-    [ "ring", "a05256.html#a3e4a839eee2eb5791f90656e82eec721", null ]
+    [ "testGeometryCollectionIsCollection", "a05256.html#ab8f9e80081b7ac2106ef406ffbb215e2", null ],
+    [ "testLineStringIsCollection", "a05256.html#a513937962f26a1affcc4d0c369733a79", null ],
+    [ "testMultiLineStringIsCollection", "a05256.html#af185514d9e978598dc7aa4ba06572494", null ],
+    [ "testMultiPointIsCollection", "a05256.html#abe0dc5056717b405438313e86f9017f2", null ],
+    [ "testMultiPolygonIsCollection", "a05256.html#a3cb8a0ddd3838eedbcbb6c1651e3a9c0", null ],
+    [ "testPointIsCollection", "a05256.html#ae050c74afe9d24c25aa8cfddca93609d", null ],
+    [ "testPolygonIsCollection", "a05256.html#aa73539bce49dc7ae2102874315d15e51", null ]
 ];

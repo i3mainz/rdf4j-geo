@@ -1,4 +1,7 @@
-<map id="WKBDatatype" name="WKBDatatype">
-<area shape="rect" id="node2" href="$a04975.html" title="VectorLiteral" alt="" coords="11,80,106,107"/>
-<area shape="rect" id="node3" href="$a04867.html" title="LiteralType" alt="" coords="15,5,102,32"/>
+<map id="PolyshapeDatatype" name="PolyshapeDatatype">
+<area shape="rect" id="node2" href="$a04996.html" title="VectorLiteral" alt="" coords="5,301,100,328"/>
+<area shape="rect" id="node3" href="$a04888.html" title="LiteralType" alt="" coords="9,212,96,239"/>
+<area shape="rect" id="node4" href="$a05056.html" title="PolyshapeReader" alt="" coords="125,301,250,328"/>
+<area shape="rect" id="node7" href="$a04880.html" title="JtsPolyshapeWriter" alt="" coords="354,301,490,328"/>
+<area shape="rect" id="node8" href="$a05064.html" title="Wrap the &#39;Encoded Polyline Algorithm Format&#39; defined in: Google Maps API with flags to encode various..." alt="" coords="363,212,481,239"/>
 </map>

@@ -1,5 +1,5 @@
 var a05452 =
 [
-    [ "testSridIsProjectedTrue", "a05452.html#a79fa3e75c2d90e917a8ece94f56a16ba", null ],
-    [ "testPoint", "a05452.html#af26f700ee129f846cac58735f6dcc380", null ]
+    [ "testAsTWKB", "a05452.html#a651953dc3a68b5b3795c7e668472170e", null ],
+    [ "testGeometry", "a05452.html#abc3f514f005cba49e406658e2d3086eb", null ]
 ];

@@ -1,8 +1,7 @@
 var a04884 =
 [
-    [ "HexWKBTextSRS", "a04884.html#a9551cc49d0697080a64a79a497cf35e9", null ],
-    [ "getSrsURI", "a04884.html#a7d7dded4f73b0a90d90f68ccc5f16bc3", null ],
-    [ "getWkbText", "a04884.html#a4a2ce7a2dcd4fa0818378fb8b97931fb", null ],
-    [ "srsURI", "a04884.html#aaa7845d06052bead86bb2de40935e4d9", null ],
-    [ "wkbText", "a04884.html#a7b6ce5371e4ad222f4b09eaadfdcae09", null ]
+    [ "LiteralRegistry", "a04884.html#ab2c1f34f60c2740f703068f27871a32b", null ],
+    [ "getLiteral", "a04884.html#a8796f5aec1965b6c4e88b2ba7c1d2e53", null ],
+    [ "INSTANCE", "a04884.html#a750fe4eab7f7958aa7a5642659669c0e", null ],
+    [ "literals", "a04884.html#aca2348a6b1d6796d1e7034d4029e3817", null ]
 ];

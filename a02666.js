@@ -1,7 +1,6 @@
 var a02666 =
 [
-    [ "AsCoverageJSONTest", "a06098.html", "a06098" ],
-    [ "AsGeoTIFFTest", "a06102.html", "a06102" ],
-    [ "AsRastHexWKBTest", "a06106.html", "a06106" ],
-    [ "AsRastWKBTest", "a06110.html", "a06110" ]
+    [ "ForcePolygonCCWTest", "a05876.html", "a05876" ],
+    [ "ForcePolygonCWTest", "a05880.html", "a05880" ],
+    [ "ReverseRingTest", "a05884.html", "a05884" ]
 ];

@@ -1,13 +1,6 @@
 var a05020 =
 [
-    [ "WKBRasterWriter", "a05020.html#ac554c69222b99b75f6e7bd0902a05cf8", null ],
-    [ "reset", "a05020.html#ad20897c5c8bd47f5d4005989bead0e55", null ],
-    [ "write", "a05020.html#a856e54e4f4722fb982aefe4b71c702db", null ],
-    [ "write", "a05020.html#a548c80a7e87fc26b84de1c8be26797df", null ],
-    [ "write", "a05020.html#a85eee5803cdc8926b61a167fa833c808", null ],
-    [ "write", "a05020.html#aa81b0fae18d5e64b155d0ea2afba77c1", null ],
-    [ "write", "a05020.html#a4ed3a6a532fffee3bc00f6a284480f32", null ],
-    [ "write", "a05020.html#a0acd711eb42afa0b71f0034a6a240311", null ],
-    [ "write", "a05020.html#a177a60820d9f841633957dbe681f46c8", null ],
-    [ "write", "a05020.html#a4d44c575b7d26f24882ee78b390f7ee4", null ]
+    [ "covJSONStringToCoverage", "a05020.html#ae6decb7a4836a29eec58527d271446a5", null ],
+    [ "covJSONToCoverage", "a05020.html#a6173d2d815625f94083125827c923521", null ],
+    [ "main", "a05020.html#a8b260eecbaabcef8473fd87ada040682", null ]
 ];

@@ -1,7 +1,7 @@
 var a05636 =
 [
-    [ "testMakePoint1", "a05636.html#a2f24e9ad47589d2191a0512d20a8a9ba", null ],
-    [ "testMakePointXYZ", "a05636.html#a3ba406df071dd5b2e9404776e414c4cd", null ],
-    [ "testPoint1", "a05636.html#ab20d196cb6e34afc2e9cff8074e43bfd", null ],
-    [ "testPointM", "a05636.html#a53dc8585c2a440c472be9609c86b0601", null ]
+    [ "testPoints", "a05636.html#a0c4e639ac6891f00e71463cfe4504aec", null ],
+    [ "testPoints3D", "a05636.html#a757f54bd6bd9ad86ecd364c346e80d73", null ],
+    [ "testGeometry", "a05636.html#abc3f514f005cba49e406658e2d3086eb", null ],
+    [ "testGeometryZ", "a05636.html#a7a113ffd7d8ff98f71b4361ffff21edc", null ]
 ];

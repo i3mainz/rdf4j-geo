@@ -1,5 +1,5 @@
 var a05292 =
 [
-    [ "testAsEncodedPolyline", "a05292.html#a77e364f1e18fbe312ed563af435ddc8f", null ],
-    [ "testGeometry", "a05292.html#abc3f514f005cba49e406658e2d3086eb", null ]
+    [ "testIsSquareFalse", "a05292.html#a173bda31cdc35a0e147f2c50957b2e27", null ],
+    [ "testIsSquareTrue", "a05292.html#af9173bfcbf2fff582439949957ccc709", null ]
 ];

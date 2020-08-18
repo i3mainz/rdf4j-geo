@@ -1,7 +1,6 @@
 var a05652 =
 [
-    [ "testIsAcuteFalse", "a05652.html#a5b3dbe6f41b97c30eaff61a7c0c6f344", null ],
-    [ "testIsAcuteTrue", "a05652.html#aea45a7ea1a6bbd2c8bf3bfa751ec4e1f", null ],
-    [ "isocelesTriangle", "a05652.html#aa04dfbec745e2622b9f7646f8572e501", null ],
-    [ "notIsocelesTriangle", "a05652.html#a055d99fb63bcee37763ffcf4da9e0521", null ]
+    [ "testShiftLongitude", "a05652.html#a706f714749526b3516c84d5741993811", null ],
+    [ "result", "a05652.html#aab356d6554a7301750f11ec7a85ac47d", null ],
+    [ "testPolygon", "a05652.html#a1e3187cbc25299380589200c398b3ffd", null ]
 ];

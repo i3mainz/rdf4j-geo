@@ -1,6 +1,7 @@
 var a05248 =
 [
-    [ "testAddGeometry", "a05248.html#a4ebf1443292e242753148cb8748d9169", null ],
-    [ "lineString", "a05248.html#a76e109dc83d6f4d16fcd2fa3e73054f6", null ],
-    [ "point", "a05248.html#a081811ff1c2bedd0a20703599f90114f", null ]
+    [ "testHasRepeatedPoints", "a05248.html#ac91c06c07e42b36c2957d3b47609ea12", null ],
+    [ "testHasRepeatedPoints2", "a05248.html#a573715384a3d69a8e8c4722bc82c5e5e", null ],
+    [ "testGeometry", "a05248.html#abc3f514f005cba49e406658e2d3086eb", null ],
+    [ "testGeometry2", "a05248.html#af1173652e671b8f9051f8630b98c73fb", null ]
 ];

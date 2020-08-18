@@ -1,6 +1,8 @@
 var a05500 =
 [
-    [ "testPrecisionReducer", "a05500.html#a486d6504bb92a61902ac29e25b3d31a8", null ],
-    [ "resultGeom", "a05500.html#a3eff685a59eb24ce11d6dbd456fae0c2", null ],
-    [ "testGeom", "a05500.html#a03a5f5da0ccbeed8c1678d4317cf2672", null ]
+    [ "testHausdorffDistance", "a05500.html#a865da90312a6602e13430f1b3218608b", null ],
+    [ "testGeom1", "a05500.html#aa4a3b1a7e778ece72382f6600fa96b47", null ],
+    [ "testGeom2", "a05500.html#a6b4be369c8f60e973cd5126e69cd33a4", null ],
+    [ "testGeom3", "a05500.html#a800b6bb875a8ff4404ea787c3df125a5", null ],
+    [ "testGeom4", "a05500.html#a4c55e7efe430d6d220fb05524c4bb940", null ]
 ];

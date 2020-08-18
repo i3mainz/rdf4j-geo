@@ -1,6 +1,8 @@
 var a05472 =
 [
-    [ "testDensify", "a05472.html#a94a17603d200a0a1f4817b4687ee592d", null ],
-    [ "densified", "a05472.html#a2286b0f7822c7fda647fa426d8177283", null ],
-    [ "isocelesTriangle", "a05472.html#aa04dfbec745e2622b9f7646f8572e501", null ]
+    [ "testDistance", "a05472.html#a046a87b712c4f6ddedaf1e78a64c5524", null ],
+    [ "testDistance2", "a05472.html#ae04fbd8c837f2115939842c0268c2a85", null ],
+    [ "result", "a05472.html#aab356d6554a7301750f11ec7a85ac47d", null ],
+    [ "testGeom", "a05472.html#a03a5f5da0ccbeed8c1678d4317cf2672", null ],
+    [ "testGeom2", "a05472.html#a6b4be369c8f60e973cd5126e69cd33a4", null ]
 ];

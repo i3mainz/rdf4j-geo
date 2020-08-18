@@ -1,5 +1,5 @@
 var a05320 =
 [
-    [ "testAsText", "a05320.html#a2bc485e1c6e58872aaf6237c16706862", null ],
-    [ "testGeometry", "a05320.html#abc3f514f005cba49e406658e2d3086eb", null ]
+    [ "testMinimumClearance", "a05320.html#a66deeca736cad11f886ba1567bcb6fe1", null ],
+    [ "testPolygon", "a05320.html#a1e3187cbc25299380589200c398b3ffd", null ]
 ];

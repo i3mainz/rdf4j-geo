@@ -1,12 +1,11 @@
 var a02578 =
 [
-    [ "attribute", "a02577.html", "a02577" ],
-    [ "constructor", "a02579.html", "a02579" ],
-    [ "editor", "a02580.html", "a02580" ],
-    [ "exporter", "a02581.html", "a02581" ],
-    [ "relation", "a02582.html", "a02582" ],
-    [ "transform", "a02583.html", "a02583" ],
-    [ "LengthToPoint", "a03710.html", "a03710" ],
-    [ "LineInterpolatePoint", "a03714.html", "a03714" ],
-    [ "Linesubstring", "a03718.html", null ]
+    [ "AddGeometry", "a03212.html", "a03212" ],
+    [ "AddZ", "a03216.html", "a03216" ],
+    [ "EnsureClosed", "a03220.html", "a03220" ],
+    [ "EnsureClosedRings", "a03224.html", "a03224" ],
+    [ "RemoveGeometry", "a03228.html", "a03228" ],
+    [ "RemoveRepeatedPoints", "a03232.html", "a03232" ],
+    [ "SetGeometry", "a03236.html", "a03236" ],
+    [ "SetSRID", "a03240.html", "a03240" ]
 ];

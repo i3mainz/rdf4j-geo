@@ -1,4 +1,5 @@
 var a05580 =
 [
-    [ "testDegreesToRadians", "a05580.html#a0222931f0ccdd18b3d8019eddcae0f03", null ]
+    [ "testSridIsProjectedTrue", "a05580.html#a79fa3e75c2d90e917a8ece94f56a16ba", null ],
+    [ "testPoint", "a05580.html#af26f700ee129f846cac58735f6dcc380", null ]
 ];

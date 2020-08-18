@@ -1,9 +1,7 @@
 var a05728 =
 [
-    [ "testDivConst", "a05728.html#a41679bcbed1ec2aa7d574727940c0407", null ],
-    [ "combinedRasterLiteral", "a05728.html#a6efe8702be34a67e2bcbba55588c5b5f", null ],
-    [ "covJSONString1", "a05728.html#a993e2f127f3ec8f256e9799d77507223", null ],
-    [ "rasterBand", "a05728.html#a44dd712968b2420bbfbf9ae21d476b87", null ],
-    [ "rasterLiteral1", "a05728.html#a77798f856500689412dea069531a7606", null ],
-    [ "wkbString1", "a05728.html#ac94c157f6beb145deb3abfe76cbf5de2", null ]
+    [ "testAzimuth1", "a05728.html#afb57967d41a75bfa55c7f1443b245d14", null ],
+    [ "testAzimuth2", "a05728.html#a5d42e5f7045b0a306fc1d39539491851", null ],
+    [ "testPoint1", "a05728.html#ab20d196cb6e34afc2e9cff8074e43bfd", null ],
+    [ "testPoint2", "a05728.html#aa0c0c6f5dda7a397fc50f4c22a2b180f", null ]
 ];

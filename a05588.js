@@ -1,5 +1,6 @@
 var a05588 =
 [
-    [ "testMMax", "a05588.html#afdcd3120493a23d4869c03134d63f41e", null ],
-    [ "testPoint", "a05588.html#af26f700ee129f846cac58735f6dcc380", null ]
+    [ "testEPSGToSRID", "a05588.html#a058152e783dcc1694eb060f5099630b1", null ],
+    [ "epsg", "a05588.html#ae984b1b4178b56b80cdb7a80eac64541", null ],
+    [ "srid", "a05588.html#a5ffebf384504d11b17aa9c75f4b92024", null ]
 ];

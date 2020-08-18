@@ -1,5 +1,5 @@
 var a05240 =
 [
-    [ "testGeomFromGeoJSON", "a05240.html#a64b3f7b5bcdec5b93820a9958c0622a3", null ],
-    [ "geoJsonTestGeom", "a05240.html#a117e8ff340791b5aa0658f5840b5dcf4", null ]
+    [ "testLineString", "a05240.html#a0444ce8df222ae81e1a33426a32d8d7a", null ],
+    [ "testGeom", "a05240.html#a03a5f5da0ccbeed8c1678d4317cf2672", null ]
 ];

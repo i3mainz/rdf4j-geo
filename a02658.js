@@ -1,5 +1,5 @@
 var a02658 =
 [
-    [ "PolygonFromTextTest", "a05842.html", "a05842" ],
-    [ "PolygonFromWKBTest", "a05846.html", "a05846" ]
+    [ "ToDegreesTest", "a05716.html", "a05716" ],
+    [ "ToRadiansTest", "a05720.html", "a05720" ]
 ];

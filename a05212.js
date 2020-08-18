@@ -1,9 +1,9 @@
 var a05212 =
 [
-    [ "test2DGeom", "a05212.html#a326426f92a343411bc6035a5e9a4192f", null ],
-    [ "test3DGeom", "a05212.html#aa6b2641c27685af72bd5946823648455", null ],
-    [ "testMGeom", "a05212.html#a17b047bacf8d47cfe9eb1b95260abd70", null ],
-    [ "geom2D", "a05212.html#a717e94cd8879a90c3d3fce5d3ae64eb6", null ],
-    [ "geom3D", "a05212.html#a972164b62d3d78e8fb03a17b761742a2", null ],
-    [ "geomM", "a05212.html#aa8cacb7883ca9f8160920fa287158fef", null ]
+    [ "testBBOXRightOf", "a05212.html#a1d3293620606e59a1f913178b94ea7fd", null ],
+    [ "testBBOXRightOf1", "a05212.html#ae27abe3e3daa14fdd8094ad71b5cb2cc", null ],
+    [ "testGeom1", "a05212.html#aa4a3b1a7e778ece72382f6600fa96b47", null ],
+    [ "testGeom2", "a05212.html#a6b4be369c8f60e973cd5126e69cd33a4", null ],
+    [ "testGeom3", "a05212.html#a800b6bb875a8ff4404ea787c3df125a5", null ],
+    [ "testGeom4", "a05212.html#a4c55e7efe430d6d220fb05524c4bb940", null ]
 ];

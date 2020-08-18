@@ -1,8 +1,6 @@
 var a05376 =
 [
-    [ "testIntersectionMatrix", "a05376.html#a8537ca55b85b9d59789190d637670f0b", null ],
-    [ "testGeom", "a05376.html#a03a5f5da0ccbeed8c1678d4317cf2672", null ],
-    [ "testGeom2", "a05376.html#a6b4be369c8f60e973cd5126e69cd33a4", null ],
-    [ "testGeom3", "a05376.html#a800b6bb875a8ff4404ea787c3df125a5", null ],
-    [ "testGeom4", "a05376.html#a4c55e7efe430d6d220fb05524c4bb940", null ]
+    [ "testAddPoint", "a05376.html#a788e3676eaba471d99d698f53d72615c", null ],
+    [ "lineString", "a05376.html#a76e109dc83d6f4d16fcd2fa3e73054f6", null ],
+    [ "point", "a05376.html#a081811ff1c2bedd0a20703599f90114f", null ]
 ];

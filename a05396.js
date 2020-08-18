@@ -1,6 +1,6 @@
 var a05396 =
 [
-    [ "testMaxDistance", "a05396.html#acd5d6c70876299a0278552ba577a7efc", null ],
-    [ "testGeom", "a05396.html#a03a5f5da0ccbeed8c1678d4317cf2672", null ],
-    [ "testGeom2", "a05396.html#a6b4be369c8f60e973cd5126e69cd33a4", null ]
+    [ "testSetPoint", "a05396.html#a52b4ba451c7a5d90f46ae63b5ac3919b", null ],
+    [ "LineString2D", "a05396.html#a4a6127d0b7f1eecce2d32442325f7735", null ],
+    [ "point", "a05396.html#a081811ff1c2bedd0a20703599f90114f", null ]
 ];

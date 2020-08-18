@@ -1,7 +1,5 @@
 var a05368 =
 [
-    [ "testFurthestCoordinate", "a05368.html#a5bf1108229fcb950f9fe74e48a8aee7c", null ],
-    [ "result", "a05368.html#aab356d6554a7301750f11ec7a85ac47d", null ],
-    [ "testGeom", "a05368.html#a03a5f5da0ccbeed8c1678d4317cf2672", null ],
-    [ "testGeom2", "a05368.html#a6b4be369c8f60e973cd5126e69cd33a4", null ]
+    [ "testGeomFromGeoJSON", "a05368.html#a64b3f7b5bcdec5b93820a9958c0622a3", null ],
+    [ "geoJsonTestGeom", "a05368.html#a117e8ff340791b5aa0658f5840b5dcf4", null ]
 ];

@@ -1,6 +1,5 @@
 var a03132 =
 [
     [ "evaluate", "a03132.html#a43b4c73244bc6722ce551c1033cf1115", null ],
-    [ "getURI", "a03132.html#ad9fb16b36dd4ccc533d4f05ff94646e3", null ],
-    [ "relation", "a03132.html#aff25ff8b7911e1c241669531d923ae62", null ]
+    [ "relation", "a03132.html#a26c8d71d12c1da7317e44e93b0aec79f", null ]
 ];

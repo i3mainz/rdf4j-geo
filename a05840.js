@@ -1,8 +1,7 @@
 var a05840 =
 [
-    [ "testMinScaleX", "a05840.html#aee1e07c53503a3adc527bf03d2b1382e", null ],
-    [ "covJSONString1", "a05840.html#a993e2f127f3ec8f256e9799d77507223", null ],
-    [ "rasterBand", "a05840.html#a44dd712968b2420bbfbf9ae21d476b87", null ],
-    [ "rasterLiteral1", "a05840.html#a77798f856500689412dea069531a7606", null ],
-    [ "wkbString1", "a05840.html#ac94c157f6beb145deb3abfe76cbf5de2", null ]
+    [ "testIsPolygonCWFalse", "a05840.html#a017c3fe070c2ab2e34a67d428cec06d3", null ],
+    [ "testIsPolygonCWTrue", "a05840.html#a65124e83aa8d64983e3fc4a131479949", null ],
+    [ "testPolygon", "a05840.html#a1e3187cbc25299380589200c398b3ffd", null ],
+    [ "testPolygon2", "a05840.html#a882729aec95621b4ad261714738ae3fd", null ]
 ];

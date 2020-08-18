@@ -1,5 +1,5 @@
 var a05312 =
 [
-    [ "testAsTextRaw", "a05312.html#abe6b8113553114d4969c61497fcbd472", null ],
-    [ "testGeometry", "a05312.html#abc3f514f005cba49e406658e2d3086eb", null ]
+    [ "testMinimumBoundingRadius", "a05312.html#a5667209a5677a7711029bc6a83d59d32", null ],
+    [ "testPolygon", "a05312.html#a1e3187cbc25299380589200c398b3ffd", null ]
 ];

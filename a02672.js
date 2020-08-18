@@ -1,7 +1,7 @@
 var a02672 =
 [
-    [ "GeneratePointsTest", "a06803.html", "a06803" ],
-    [ "MakePointTest", "a06807.html", "a06807" ],
-    [ "PointFromTextTest", "a06811.html", "a06811" ],
-    [ "PointFromWKBTest", "a06815.html", null ]
+    [ "AsCoverageJSONTest", "a06112.html", "a06112" ],
+    [ "AsGeoTIFFTest", "a06116.html", "a06116" ],
+    [ "AsRastHexWKBTest", "a06120.html", "a06120" ],
+    [ "AsRastWKBTest", "a06124.html", "a06124" ]
 ];

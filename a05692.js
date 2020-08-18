@@ -1,7 +1,9 @@
 var a05692 =
 [
-    [ "testRemoveRing", "a05692.html#ad886abc46152c92cd03887b3f71760c7", null ],
-    [ "duplicateRings", "a05692.html#a92f3ef00fc079a76b7f943d9ed6cec77", null ],
-    [ "nonduplicateRings", "a05692.html#a675a0b1b194538fc07fa716705f883a5", null ],
-    [ "ring", "a05692.html#a3e4a839eee2eb5791f90656e82eec721", null ]
+    [ "testNoSelfIntersections", "a05692.html#a08dd11e1d44a910007de229eada7aa6d", null ],
+    [ "testSelfIntersections", "a05692.html#a3d2c64bb3b45c45751b144babb6906da", null ],
+    [ "intersectResult", "a05692.html#ab431ece386e282254dd754494c7f6cd0", null ],
+    [ "intersectResult2", "a05692.html#a94c72a35c99c7c55f05a1f50c20f6cfd", null ],
+    [ "testGeom", "a05692.html#a03a5f5da0ccbeed8c1678d4317cf2672", null ],
+    [ "testGeom2", "a05692.html#a6b4be369c8f60e973cd5126e69cd33a4", null ]
 ];

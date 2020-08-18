@@ -1,5 +1,5 @@
 var a05232 =
 [
-    [ "testPerimeter", "a05232.html#ab5f32e4b3cc7543d929e0660b76d1973", null ],
-    [ "testPolygon", "a05232.html#a1e3187cbc25299380589200c398b3ffd", null ]
+    [ "testCentroid", "a05232.html#a4d1dfbf2fba1b5c88a704bccbcb65cb9", null ],
+    [ "testGeometry", "a05232.html#abc3f514f005cba49e406658e2d3086eb", null ]
 ];

@@ -1,5 +1,8 @@
 var a05152 =
 [
-    [ "testIsEmptyFalse", "a05152.html#ad6c1db43fc5b06667b4d7679c36196bf", null ],
-    [ "testIsEmptyTrue", "a05152.html#acf5aa6d804534044ced38ebbf685b780", null ]
+    [ "DimensionalComparator", "a05152.html#a5bd255213663b3596e2de221144f1ab1", null ],
+    [ "DimensionalComparator", "a05152.html#aa12c933fd5275be6824111b1f2c92cd6", null ],
+    [ "compare", "a05152.html#a55bbcaf3b85142c9878f7b8ac44290fb", null ],
+    [ "compare", "a05152.html#a22ae744431802300f10565640dec04c5", null ],
+    [ "dimensionsToTest", "a05152.html#a6bb6df1c2db1f7b9fe46d4be2d0083af", null ]
 ];

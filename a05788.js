@@ -1,8 +1,7 @@
 var a05788 =
 [
-    [ "testBandNoDataValue", "a05788.html#aaaf20855ce31778cb59733863e26fe2f", null ],
-    [ "covJSONString1", "a05788.html#a993e2f127f3ec8f256e9799d77507223", null ],
-    [ "rasterBand", "a05788.html#a44dd712968b2420bbfbf9ae21d476b87", null ],
-    [ "rasterLiteral1", "a05788.html#a77798f856500689412dea069531a7606", null ],
-    [ "wkbString1", "a05788.html#ac94c157f6beb145deb3abfe76cbf5de2", null ]
+    [ "testMakePoint1", "a05788.html#a2f24e9ad47589d2191a0512d20a8a9ba", null ],
+    [ "testMakePointXYZ", "a05788.html#a3ba406df071dd5b2e9404776e414c4cd", null ],
+    [ "testPoint1", "a05788.html#ab20d196cb6e34afc2e9cff8074e43bfd", null ],
+    [ "testPointM", "a05788.html#a53dc8585c2a440c472be9609c86b0601", null ]
 ];

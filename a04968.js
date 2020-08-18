@@ -1,6 +1,8 @@
 var a04968 =
 [
-    [ "geometry", "a04968.html#a6d74c3aac1525133bde98589527d1591", null ],
-    [ "id", "a04968.html#a7350fbd6ad10618f3b750b1f99ca5c3c", null ],
-    [ "tags", "a04968.html#a07f0767bc5cf0b77ab9cb1aa260765d5", null ]
+    [ "HexWKBTextSRS", "a04968.html#a9551cc49d0697080a64a79a497cf35e9", null ],
+    [ "getSrsURI", "a04968.html#a7d7dded4f73b0a90d90f68ccc5f16bc3", null ],
+    [ "getWkbText", "a04968.html#a4a2ce7a2dcd4fa0818378fb8b97931fb", null ],
+    [ "srsURI", "a04968.html#aaa7845d06052bead86bb2de40935e4d9", null ],
+    [ "wkbText", "a04968.html#a7b6ce5371e4ad222f4b09eaadfdcae09", null ]
 ];

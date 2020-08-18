@@ -1,14 +1,13 @@
 var a05016 =
 [
-    [ "WKBRasterReader", "a05016.html#ae793783ce299284ee201fd7c8313c1d6", null ],
-    [ "createGrayScaleColorModel", "a05016.html#afcfcdba92bf5faa9dfc8a1c7a652c7a9", null ],
-    [ "getGridToCRS", "a05016.html#aef748f2853b5fa1a44ed7c589b2bb197", null ],
-    [ "getSRID", "a05016.html#ade744464aeafe5c61497905c4bac4d95", null ],
-    [ "read", "a05016.html#a14456bc52e7f626048f58646a17a9039", null ],
-    [ "read", "a05016.html#ab8d0b6608f158d1234999e80670eba0e", null ],
-    [ "readCoverage", "a05016.html#aa9fe8abf761e9a17b671b3f8ca04ef37", null ],
-    [ "readCoverage", "a05016.html#a167d89e301db4c86565d6cbf8998b5fa", null ],
-    [ "reset", "a05016.html#ad20897c5c8bd47f5d4005989bead0e55", null ],
-    [ "gridToCRS", "a05016.html#a7074295224e2ade372af7fc4571cdc28", null ],
-    [ "srid", "a05016.html#a7e5be5f62324d24835447fc98661e30b", null ]
+    [ "createGeometry", "a05016.html#aa9b8459efc091f657b74ed0e5a245375", null ],
+    [ "createGeometry", "a05016.html#a9e565b4d0520b1fc30ab5fe2118abb5f", null ],
+    [ "createGeometryCollection", "a05016.html#a3475604f80ee636cca3d07baa336def7", null ],
+    [ "createGeometryCollection", "a05016.html#a7530a3b20b256d3096c63b5556adba6c", null ],
+    [ "toGeometry", "a05016.html#a6682d61dc04a15f1d55ed938e4ed5e7e", null ],
+    [ "toGeometry", "a05016.html#a7633468ef73e66833ef49d6d357d965f", null ],
+    [ "toGeometry", "a05016.html#a70d2c83f032867b59a3af555f1ff6d98", null ],
+    [ "toGeometry", "a05016.html#ad1731b05de5c7e8bae69ff8eb74036f2", null ],
+    [ "toGeometry", "a05016.html#ad7e9fd4bfe07509ba9bbd5a1e09c8a71", null ],
+    [ "transform", "a05016.html#adb6db926db08da5c0c4a8ad8cfb1ff2d", null ]
 ];

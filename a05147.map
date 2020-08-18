@@ -1,2 +1,4 @@
-<map id="AreaTest" name="AreaTest">
+<map id="Coordinate" name="Coordinate">
+<area shape="rect" id="node2" href="$a07804.html" title="Comparable\&lt; Coordinate \&gt;" alt="" coords="5,5,184,32"/>
+<area shape="rect" id="node3" href="$a07808.html" title="Cloneable" alt="" coords="208,5,288,32"/>
 </map>

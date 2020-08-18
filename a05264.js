@@ -1,7 +1,5 @@
 var a05264 =
 [
-    [ "testRemovePoint", "a05264.html#a5e9b64ff404fa9347af445dc61f510b7", null ],
-    [ "testRemovePointZ", "a05264.html#ab04b102dbd8ad6ffb069a768eaf23da4", null ],
-    [ "lineString", "a05264.html#a76e109dc83d6f4d16fcd2fa3e73054f6", null ],
-    [ "lineStringZ", "a05264.html#a6ea074c47e6616507d2fe90dc549765a", null ]
+    [ "testIsInCRSAreaOfValidityFalse", "a05264.html#ab086dd0d0debad3790e452ffa6c1fa28", null ],
+    [ "testIsInCRSAreaOfValidityTrue", "a05264.html#afff3ea2274b06643aaa5806616e7ca8e", null ]
 ];
