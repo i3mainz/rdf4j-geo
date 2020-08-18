@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>rdf4j-postgis: BoundaryTest Class Reference</title>
+<title>rdf4j-postgis: Member List</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -56,112 +56,47 @@ $(function() {
   </div>
 </div>
 <script type="text/javascript">
-$(document).ready(function(){initNavTree('a05120.html','');});
+$(document).ready(function(){initNavTree('a05123.html','');});
 </script>
 <div id="doc-content">
 <div class="header">
-  <div class="summary">
-<a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pub-static-attribs">Static Public Attributes</a> &#124;
-<a href="a05117.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">BoundaryTest Class Reference</div>  </div>
+<div class="title">LEDataOutputStream Member List</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="dynheader">
-Collaboration diagram for BoundaryTest:</div>
-<div class="dyncontent">
-<div class="center"><img src="a05118.png" border="0" usemap="#BoundaryTest_coll__map" alt="Collaboration graph"/></div>
-<map name="BoundaryTest_coll__map" id="BoundaryTest_coll__map">
-</map>
-<center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
-<table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
-Public Member Functions</h2></td></tr>
-<tr class="memitem:a5905b320ef165de047ef4ff2e9167268"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05120.html#a5905b320ef165de047ef4ff2e9167268">testBoundingDiagonal</a> ()</td></tr>
-<tr class="separator:a5905b320ef165de047ef4ff2e9167268"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
-Static Public Attributes</h2></td></tr>
-<tr class="memitem:a1e3187cbc25299380589200c398b3ffd"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05120.html#a1e3187cbc25299380589200c398b3ffd">testPolygon</a> =&quot;POLYGON ((0 0, 1 0, 1 1, 0.5 3.2e-4, 0 0))&quot;</td></tr>
-<tr class="separator:a1e3187cbc25299380589200c398b3ffd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aab356d6554a7301750f11ec7a85ac47d"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05120.html#aab356d6554a7301750f11ec7a85ac47d">result</a> =&quot;LINESTRING (0 0, 1 0, 1 1, 0.5 3.2E-4, 0 0)&quot;</td></tr>
-<tr class="separator:aab356d6554a7301750f11ec7a85ac47d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table>
-<h2 class="groupheader">Member Function Documentation</h2>
-<a id="a5905b320ef165de047ef4ff2e9167268"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5905b320ef165de047ef4ff2e9167268">&#9670;&nbsp;</a></span>testBoundingDiagonal()</h2>
 
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void testBoundingDiagonal </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="reference">References <a class="el" href="a04924.html#ae02c2e86ac0dea8538c7b43e9e82421a">WKTDatatype.LiteralIRI</a>.</p>
-<div class="fragment"><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;                                           {</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;                Boundary instance=<span class="keyword">new</span> Boundary();</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;                ValueFactory valfac=SimpleValueFactory.getInstance();</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;                Value geo=valfac.createLiteral(<a class="code" href="a05120.html#a1e3187cbc25299380589200c398b3ffd">testPolygon</a>, WKTDatatype.LiteralIRI);</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;                Value resultt=instance.evaluate(valfac, geo);</div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;                Value expResult=valfac.createLiteral(<a class="code" href="a05120.html#aab356d6554a7301750f11ec7a85ac47d">result</a>,WKTDatatype.LiteralIRI);</div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;                assertEquals(expResult, resultt);</div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;        }</div><div class="ttc" id="a05120_html_aab356d6554a7301750f11ec7a85ac47d"><div class="ttname"><a href="a05120.html#aab356d6554a7301750f11ec7a85ac47d">de.hsmainz.cs.semgis.arqextension.test.geometry.attribute.BoundaryTest.result</a></div><div class="ttdeci">static final String result</div><div class="ttdef"><b>Definition:</b> BoundaryTest.java:17</div></div>
-<div class="ttc" id="a05120_html_a1e3187cbc25299380589200c398b3ffd"><div class="ttname"><a href="a05120.html#a1e3187cbc25299380589200c398b3ffd">de.hsmainz.cs.semgis.arqextension.test.geometry.attribute.BoundaryTest.testPolygon</a></div><div class="ttdeci">static final String testPolygon</div><div class="ttdef"><b>Definition:</b> BoundaryTest.java:15</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<h2 class="groupheader">Member Data Documentation</h2>
-<a id="aab356d6554a7301750f11ec7a85ac47d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aab356d6554a7301750f11ec7a85ac47d">&#9670;&nbsp;</a></span>result</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">final String result =&quot;LINESTRING (0 0, 1 0, 1 1, 0.5 3.2E-4, 0 0)&quot;</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a1e3187cbc25299380589200c398b3ffd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1e3187cbc25299380589200c398b3ffd">&#9670;&nbsp;</a></span>testPolygon</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">final String testPolygon =&quot;POLYGON ((0 0, 1 0, 1 1, 0.5 3.2e-4, 0 0))&quot;</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-</div><!-- contents -->
+<p>This is the complete list of members for <a class="el" href="a05123.html">LEDataOutputStream</a>, including all inherited members.</p>
+<table class="directory">
+  <tr class="even"><td class="entry"><a class="el" href="a05123.html#ad8a2786c4ee713c917b468c59ec610df">getPosition</a>()</td><td class="entry"><a class="el" href="a05123.html">LEDataOutputStream</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="a05123.html#a08e5e85cf21039633a426452c6b944ee">LEDataOutputStream</a>(OutputStream out)</td><td class="entry"><a class="el" href="a05123.html">LEDataOutputStream</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="a05123.html#ac037f68bf86d3712a034faa2d3ac428a">position</a></td><td class="entry"><a class="el" href="a05123.html">LEDataOutputStream</a></td><td class="entry"><span class="mlabel">private</span></td></tr>
+  <tr><td class="entry"><a class="el" href="a05123.html#ad0e5489e60cebc32e12d78fe6abb2092">realign</a>(int padding)</td><td class="entry"><a class="el" href="a05123.html">LEDataOutputStream</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="a05123.html#a85df3c4fd2fb205ca532d8861d28cc27">write</a>(int b)</td><td class="entry"><a class="el" href="a05123.html">LEDataOutputStream</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="a05123.html#a61f17b65f2ac2fb7f0a119cd2c6451f2">write</a>(byte[] data, int offset, int length)</td><td class="entry"><a class="el" href="a05123.html">LEDataOutputStream</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="a05123.html#af15b120ff09c3716841515f75d241e66">writeBoolean</a>(boolean b)</td><td class="entry"><a class="el" href="a05123.html">LEDataOutputStream</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="a05123.html#a42b0850b32344f39d708666514fdfddd">writeByte</a>(int b)</td><td class="entry"><a class="el" href="a05123.html">LEDataOutputStream</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="a05123.html#a3e567d4365e19b559e3aaeea0a09de3a">writeBytes</a>(String s)</td><td class="entry"><a class="el" href="a05123.html">LEDataOutputStream</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="a05123.html#a1ad0223a70a62e0b2cb46259e5ba550d">writeChar</a>(int c)</td><td class="entry"><a class="el" href="a05123.html">LEDataOutputStream</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="a05123.html#a9e35e2da722a437646d8396e7e32ce48">writeChars</a>(String s)</td><td class="entry"><a class="el" href="a05123.html">LEDataOutputStream</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="a05123.html#a9a1b19adf99483ab5421f5abd9be1ee0">writeDouble</a>(double d)</td><td class="entry"><a class="el" href="a05123.html">LEDataOutputStream</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="a05123.html#a719c7e6e9f7c2ba46f78b335603c6b13">writeDoubles</a>(double[] values)</td><td class="entry"><a class="el" href="a05123.html">LEDataOutputStream</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="a05123.html#a4b08552792e2a9e330675b76cd4c9170">writeFloat</a>(float f)</td><td class="entry"><a class="el" href="a05123.html">LEDataOutputStream</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="a05123.html#ade431b8bb2a31304bfd780314827055f">writeFloats</a>(float[] values)</td><td class="entry"><a class="el" href="a05123.html">LEDataOutputStream</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="a05123.html#accc32fabddebac9fa7ea07fe07fe219e">writeInt</a>(int i)</td><td class="entry"><a class="el" href="a05123.html">LEDataOutputStream</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="a05123.html#a6f28d1bfd9781e586c236eaf6e225fcd">writeInts</a>(int[] values)</td><td class="entry"><a class="el" href="a05123.html">LEDataOutputStream</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="a05123.html#a2e87852cae58170b9cd59e1fbe1e625d">writeLong</a>(long l)</td><td class="entry"><a class="el" href="a05123.html">LEDataOutputStream</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="a05123.html#afd6593b15c3366b5d2c7978e6647ab4c">writeLongs</a>(long[] values)</td><td class="entry"><a class="el" href="a05123.html">LEDataOutputStream</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="a05123.html#a4318f5da1fdb856ff726801097cdb429">writeShort</a>(int s)</td><td class="entry"><a class="el" href="a05123.html">LEDataOutputStream</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="a05123.html#ac0e3fe2ab1ba3bb9fc12e4eb24be1a82">writeShorts</a>(short[] values)</td><td class="entry"><a class="el" href="a05123.html">LEDataOutputStream</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="a05123.html#ae923194a84fea5c316c69a9a71e1b09d">writeUnsignedShort</a>(int s)</td><td class="entry"><a class="el" href="a05123.html">LEDataOutputStream</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="a05123.html#a9c9793caecddc216cb3d39ff222e86c2">writeUnsignedShorts</a>(int[] values)</td><td class="entry"><a class="el" href="a05123.html">LEDataOutputStream</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="a05123.html#af884010e15f7514f7e08d9618c4c692c">writeUTF</a>(String s)</td><td class="entry"><a class="el" href="a05123.html">LEDataOutputStream</a></td><td class="entry"></td></tr>
+</table></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.13-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="a02467.html">de</a></li><li class="navelem"><a class="el" href="a02468.html">hsmainz</a></li><li class="navelem"><a class="el" href="a02469.html">cs</a></li><li class="navelem"><a class="el" href="a02470.html">semgis</a></li><li class="navelem"><a class="el" href="a02471.html">arqextension</a></li><li class="navelem"><a class="el" href="a02561.html">test</a></li><li class="navelem"><a class="el" href="a02564.html">geometry</a></li><li class="navelem"><a class="el" href="a02563.html">attribute</a></li><li class="navelem"><a class="el" href="a05120.html">BoundaryTest</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>

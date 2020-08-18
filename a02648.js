@@ -1,5 +1,6 @@
 var a02648 =
 [
-    [ "attribute", "a02648.html#acdd4815d6c10d509e8fa15627feb0d27", null ],
-    [ "evaluate", "a02648.html#a43b4c73244bc6722ce551c1033cf1115", null ]
+    [ "RastFromCoverageJSONTest", "a06051.html", "a06051" ],
+    [ "RastFromHexWKBTest", "a06055.html", "a06055" ],
+    [ "RastFromWKBTest", "a06059.html", "a06059" ]
 ];

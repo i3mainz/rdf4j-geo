@@ -1,9 +1,9 @@
 var a05671 =
 [
-    [ "testXor", "a05671.html#a11b935be18716d35402a7fec0817a727", null ],
-    [ "combinedRasterLiteral", "a05671.html#a6efe8702be34a67e2bcbba55588c5b5f", null ],
-    [ "covJSONString1", "a05671.html#a993e2f127f3ec8f256e9799d77507223", null ],
-    [ "rasterBand", "a05671.html#a44dd712968b2420bbfbf9ae21d476b87", null ],
-    [ "rasterLiteral1", "a05671.html#a77798f856500689412dea069531a7606", null ],
-    [ "wkbString1", "a05671.html#ac94c157f6beb145deb3abfe76cbf5de2", null ]
+    [ "testNoSelfIntersections", "a05671.html#a08dd11e1d44a910007de229eada7aa6d", null ],
+    [ "testSelfIntersections", "a05671.html#a3d2c64bb3b45c45751b144babb6906da", null ],
+    [ "intersectResult", "a05671.html#ab431ece386e282254dd754494c7f6cd0", null ],
+    [ "intersectResult2", "a05671.html#a94c72a35c99c7c55f05a1f50c20f6cfd", null ],
+    [ "testGeom", "a05671.html#a03a5f5da0ccbeed8c1678d4317cf2672", null ],
+    [ "testGeom2", "a05671.html#a6b4be369c8f60e973cd5126e69cd33a4", null ]
 ];

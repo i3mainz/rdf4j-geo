@@ -1,7 +1,9 @@
 var a05087 =
 [
-    [ "testHasRepeatedPoints", "a05087.html#ac91c06c07e42b36c2957d3b47609ea12", null ],
-    [ "testHasRepeatedPoints2", "a05087.html#a573715384a3d69a8e8c4722bc82c5e5e", null ],
-    [ "testGeometry", "a05087.html#abc3f514f005cba49e406658e2d3086eb", null ],
-    [ "testGeometry2", "a05087.html#af1173652e671b8f9051f8630b98c73fb", null ]
+    [ "evaluate", "a05087.html#a43b4c73244bc6722ce551c1033cf1115", null ],
+    [ "getLiteral", "a05087.html#ad5ea121d0231b4b209324202427665f0", null ],
+    [ "relation", "a05087.html#ab887cebaf1a6c595cd2fd74de03002d2", null ],
+    [ "vectorOrRaster", "a05087.html#ad5afdfd817cdf11ee0e48c7f56c5514c", null ],
+    [ "rasterLiteralURIs", "a05087.html#ac7dbee8298c097c6bd08da6002fd6ecb", null ],
+    [ "vectorLiteralURIs", "a05087.html#a6e7c25bfd07628e3e74ea4e1ddfcae70", null ]
 ];

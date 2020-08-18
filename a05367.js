@@ -1,6 +1,9 @@
 var a05367 =
 [
-    [ "testDensify", "a05367.html#a94a17603d200a0a1f4817b4687ee592d", null ],
-    [ "densified", "a05367.html#a2286b0f7822c7fda647fa426d8177283", null ],
-    [ "isocelesTriangle", "a05367.html#aa04dfbec745e2622b9f7646f8572e501", null ]
+    [ "testEnsureClosed", "a05367.html#ace1b0f448a93ab083e49e59b851b8094", null ],
+    [ "testEnsureClosed2", "a05367.html#a7a93140658cbcf5aea17d9f930cd5144", null ],
+    [ "closed", "a05367.html#ad8efa97b8aa775164dc4836b505fc315", null ],
+    [ "duplicateRings", "a05367.html#a92f3ef00fc079a76b7f943d9ed6cec77", null ],
+    [ "nonClosed", "a05367.html#aff993a2133bc6c6afe1012e13b5c028d", null ],
+    [ "ring", "a05367.html#a3e4a839eee2eb5791f90656e82eec721", null ]
 ];

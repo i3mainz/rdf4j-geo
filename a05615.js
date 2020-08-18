@@ -1,9 +1,7 @@
 var a05615 =
 [
-    [ "testDivConst", "a05615.html#a41679bcbed1ec2aa7d574727940c0407", null ],
-    [ "combinedRasterLiteral", "a05615.html#a6efe8702be34a67e2bcbba55588c5b5f", null ],
-    [ "covJSONString1", "a05615.html#a993e2f127f3ec8f256e9799d77507223", null ],
-    [ "rasterBand", "a05615.html#a44dd712968b2420bbfbf9ae21d476b87", null ],
-    [ "rasterLiteral1", "a05615.html#a77798f856500689412dea069531a7606", null ],
-    [ "wkbString1", "a05615.html#ac94c157f6beb145deb3abfe76cbf5de2", null ]
+    [ "testPoints", "a05615.html#a0c4e639ac6891f00e71463cfe4504aec", null ],
+    [ "testPoints3D", "a05615.html#a757f54bd6bd9ad86ecd364c346e80d73", null ],
+    [ "testGeometry", "a05615.html#abc3f514f005cba49e406658e2d3086eb", null ],
+    [ "testGeometryZ", "a05615.html#a7a113ffd7d8ff98f71b4361ffff21edc", null ]
 ];

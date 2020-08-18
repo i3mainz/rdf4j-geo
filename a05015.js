@@ -1,8 +1,8 @@
 var a05015 =
 [
-    [ "DimensionalComparator", "a05015.html#a5bd255213663b3596e2de221144f1ab1", null ],
-    [ "DimensionalComparator", "a05015.html#aa12c933fd5275be6824111b1f2c92cd6", null ],
-    [ "compare", "a05015.html#a55bbcaf3b85142c9878f7b8ac44290fb", null ],
-    [ "compare", "a05015.html#a22ae744431802300f10565640dec04c5", null ],
-    [ "dimensionsToTest", "a05015.html#a6bb6df1c2db1f7b9fe46d4be2d0083af", null ]
+    [ "WKBTextSRS", "a05015.html#a12d2a5c4b7a29eae5d108bccb1e55b11", null ],
+    [ "getSrsURI", "a05015.html#a7d7dded4f73b0a90d90f68ccc5f16bc3", null ],
+    [ "getWkbText", "a05015.html#a4a2ce7a2dcd4fa0818378fb8b97931fb", null ],
+    [ "srsURI", "a05015.html#aaa7845d06052bead86bb2de40935e4d9", null ],
+    [ "wkbText", "a05015.html#a7b6ce5371e4ad222f4b09eaadfdcae09", null ]
 ];

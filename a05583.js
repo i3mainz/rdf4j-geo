@@ -1,7 +1,6 @@
 var a05583 =
 [
-    [ "testSetRing", "a05583.html#ad03fb669accdb6228a8cd3c914d39cf4", null ],
-    [ "duplicateRings", "a05583.html#a92f3ef00fc079a76b7f943d9ed6cec77", null ],
-    [ "nonduplicateRings", "a05583.html#a675a0b1b194538fc07fa716705f883a5", null ],
-    [ "ring", "a05583.html#a3e4a839eee2eb5791f90656e82eec721", null ]
+    [ "testDensify", "a05583.html#a94a17603d200a0a1f4817b4687ee592d", null ],
+    [ "densified", "a05583.html#a2286b0f7822c7fda647fa426d8177283", null ],
+    [ "isocelesTriangle", "a05583.html#aa04dfbec745e2622b9f7646f8572e501", null ]
 ];

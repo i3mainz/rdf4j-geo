@@ -1,4 +1,6 @@
 var a02608 =
 [
-    [ "AsEncodedPolylineTest", "a05633.html", "a05633" ]
+    [ "TWKBReader", "a05127.html", "a05127" ],
+    [ "TWKBUtils", "a05143.html", "a05143" ],
+    [ "TWKBWriter", "a05147.html", "a05147" ]
 ];

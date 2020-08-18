@@ -1,6 +1,5 @@
 var a04375 =
 [
-    [ "evaluate", "a04375.html#a43b4c73244bc6722ce551c1033cf1115", null ],
-    [ "getURI", "a04375.html#ad9fb16b36dd4ccc533d4f05ff94646e3", null ],
-    [ "operation", "a04375.html#a2bfa3f6fe437856574c81aa21f7f173e", null ]
+    [ "attribute", "a04375.html#aef69ce6bb4c8684cf9a4a8768d97170b", null ],
+    [ "evaluate", "a04375.html#a43b4c73244bc6722ce551c1033cf1115", null ]
 ];

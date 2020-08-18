@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>rdf4j-postgis: AddZ Class Reference</title>
+<title>rdf4j-postgis: GeometricBinaryCRSAttributeFunction Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -65,37 +65,34 @@ $(document).ready(function(){initNavTree('a03083.html','');});
 <a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="a03080.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">AddZ Class Reference</div>  </div>
+<div class="title">GeometricBinaryCRSAttributeFunction Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
 </div><!--header-->
 <div class="contents">
 <div class="dynheader">
-Inheritance diagram for AddZ:</div>
+Inheritance diagram for GeometricBinaryCRSAttributeFunction:</div>
 <div class="dyncontent">
-<div class="center"><img src="a03082.png" border="0" usemap="#AddZ_inherit__map" alt="Inheritance graph"/></div>
-<map name="AddZ_inherit__map" id="AddZ_inherit__map">
-<area shape="rect" id="node2" href="a02987.html" title="GeometricModifierDoubleFunction" alt="" coords="5,80,224,107"/>
+<div class="center"><img src="a03082.png" border="0" usemap="#GeometricBinaryCRSAttributeFunction_inherit__map" alt="Inheritance graph"/></div>
+<map name="GeometricBinaryCRSAttributeFunction_inherit__map" id="GeometricBinaryCRSAttributeFunction_inherit__map">
+<area shape="rect" id="node3" href="a02943.html" title="IsInCRSAreaOfValidity" alt="" coords="25,169,183,196"/>
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <div class="dynheader">
-Collaboration diagram for AddZ:</div>
+Collaboration diagram for GeometricBinaryCRSAttributeFunction:</div>
 <div class="dyncontent">
-<div class="center"><img src="a03081.png" border="0" usemap="#AddZ_coll__map" alt="Collaboration graph"/></div>
-<map name="AddZ_coll__map" id="AddZ_coll__map">
-<area shape="rect" id="node2" href="a02987.html" title="GeometricModifierDoubleFunction" alt="" coords="5,80,224,107"/>
+<div class="center"><img src="a03081.png" border="0" usemap="#GeometricBinaryCRSAttributeFunction_coll__map" alt="Collaboration graph"/></div>
+<map name="GeometricBinaryCRSAttributeFunction_coll__map" id="GeometricBinaryCRSAttributeFunction_coll__map">
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ad9fb16b36dd4ccc533d4f05ff94646e3"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a03083.html#ad9fb16b36dd4ccc533d4f05ff94646e3">getURI</a> ()</td></tr>
-<tr class="separator:ad9fb16b36dd4ccc533d4f05ff94646e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a43b4c73244bc6722ce551c1033cf1115"><td class="memItemLeft" align="right" valign="top">Value&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a02987.html#a43b4c73244bc6722ce551c1033cf1115">evaluate</a> (ValueFactory valueFactory, Value... args)  throws ValueExprEvaluationException </td></tr>
+<tr class="memitem:a43b4c73244bc6722ce551c1033cf1115"><td class="memItemLeft" align="right" valign="top">Value&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a03083.html#a43b4c73244bc6722ce551c1033cf1115">evaluate</a> (ValueFactory valueFactory, Value... args)  throws ValueExprEvaluationException </td></tr>
 <tr class="separator:a43b4c73244bc6722ce551c1033cf1115"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
-<tr class="memitem:aff25ff8b7911e1c241669531d923ae62"><td class="memItemLeft" align="right" valign="top">Geometry&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a03083.html#aff25ff8b7911e1c241669531d923ae62">relation</a> (Geometry geom, Double value)</td></tr>
-<tr class="separator:aff25ff8b7911e1c241669531d923ae62"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2b91a48cf07f5ba58df8d3ffca2c920f"><td class="memItemLeft" align="right" valign="top">abstract boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a03083.html#a2b91a48cf07f5ba58df8d3ffca2c920f">operation</a> (Geometry g1, CoordinateReferenceSystem crs)</td></tr>
+<tr class="separator:a2b91a48cf07f5ba58df8d3ffca2c920f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
 <a id="a43b4c73244bc6722ce551c1033cf1115"></a>
@@ -103,9 +100,6 @@ Protected Member Functions</h2></td></tr>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">Value evaluate </td>
@@ -125,41 +119,17 @@ Protected Member Functions</h2></td></tr>
           <td></td><td> throws ValueExprEvaluationException</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inherited</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="a04747.html#a8796f5aec1965b6c4e88b2ba7c1d2e53">LiteralRegistry.getLiteral()</a>, and <a class="el" href="a02987.html#a3e90404335d65a7dc26872963e46db87">GeometricModifierDoubleFunction.relation()</a>.</p>
+<p class="reference">References <a class="el" href="a04895.html#a8796f5aec1965b6c4e88b2ba7c1d2e53">LiteralRegistry.getLiteral()</a>, and <a class="el" href="a03083.html#a2b91a48cf07f5ba58df8d3ffca2c920f">GeometricBinaryCRSAttributeFunction.operation()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="a05203.html#a4ebf1443292e242753148cb8748d9169">RemoveGeometryTest.testAddGeometry()</a>, <a class="el" href="a05367.html#a94a17603d200a0a1f4817b4687ee592d">DensifyTest.testDensify()</a>, <a class="el" href="a05199.html#ace1b0f448a93ab083e49e59b851b8094">EnsureClosedTest.testEnsureClosed()</a>, <a class="el" href="a05199.html#a7a93140658cbcf5aea17d9f930cd5144">EnsureClosedTest.testEnsureClosed2()</a>, <a class="el" href="a05399.html#a473d131a5f96a89f9502570a50d06e65">RemoveRepeatedPointsTest.testRemoveRepeatedPoints()</a>, <a class="el" href="a05579.html#ad886abc46152c92cd03887b3f71760c7">RemoveRingTest.testRemoveRing()</a>, <a class="el" href="a05595.html#a341309060348e532f6606d50945a52bd">ReverseRingTest.testReverseRing()</a>, <a class="el" href="a05415.html#a4b0417b619689d07743ff9d72212c847">SimplifyTest.testSimplifyVW()</a>, and <a class="el" href="a05419.html#a4b0417b619689d07743ff9d72212c847">SimplifyVWTest.testSimplifyVW()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;                                                                                                            {</div><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;                <span class="keywordflow">if</span> (args.length != 2) {</div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;                        <span class="keywordflow">throw</span> <span class="keyword">new</span> ValueExprEvaluationException(getURI() + <span class="stringliteral">&quot; requires exactly 2 arguments, got &quot;</span> + args.length);</div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;                }</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;                LiteralType l=LiteralRegistry.getLiteral(((Literal)args[0]).getDatatype().toString());</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;                Double value=Double.valueOf(args[1].stringValue());</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;                <span class="keywordflow">if</span>(l instanceof VectorLiteral) {</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;                        Geometry geom=((VectorLiteral)l).read(args[0].stringValue());</div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;                        Geometry result = <a class="code" href="a02987.html#a3e90404335d65a7dc26872963e46db87">relation</a>(geom,value);</div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;                        <span class="keywordflow">return</span> valueFactory.createLiteral(((VectorLiteral) l).unparse(result),((Literal)args[0]).getDatatype());</div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;                }</div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;                <span class="keywordflow">throw</span> <span class="keyword">new</span> ValueExprEvaluationException(<span class="stringliteral">&quot;Argument given is not a geometry literal&quot;</span>);</div><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;        }</div><div class="ttc" id="a02987_html_a3e90404335d65a7dc26872963e46db87"><div class="ttname"><a href="a02987.html#a3e90404335d65a7dc26872963e46db87">org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.geometry.base.GeometricModifierDoubleFunction.relation</a></div><div class="ttdeci">abstract Geometry relation(Geometry geom, Double value)</div></div>
+<p class="reference">Referenced by <a class="el" href="a05255.html#ab086dd0d0debad3790e452ffa6c1fa28">IsInCRSAreaOfValidityTest.testIsInCRSAreaOfValidityFalse()</a>, and <a class="el" href="a05255.html#afff3ea2274b06643aaa5806616e7ca8e">IsInCRSAreaOfValidityTest.testIsInCRSAreaOfValidityTrue()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;                                                                                                            {</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;                <span class="keywordflow">if</span> (args.length != 2) {</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;                        <span class="keywordflow">throw</span> <span class="keyword">new</span> ValueExprEvaluationException(getURI() + <span class="stringliteral">&quot; requires exactly 2 arguments, got &quot;</span> + args.length);</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;                }</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;                </div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;                LiteralType l=LiteralRegistry.getLiteral(((Literal)args[0]).getDatatype().toString());</div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;                Integer srid=Integer.valueOf(args[1].stringValue());</div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;                <span class="keywordflow">if</span>(l instanceof VectorLiteral) {</div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;                        Geometry geom=((VectorLiteral)l).read(args[0].stringValue());</div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;                        <span class="keywordtype">boolean</span> result;</div><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;                        <span class="keywordflow">try</span> {</div><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;                                result = <a class="code" href="a03083.html#a2b91a48cf07f5ba58df8d3ffca2c920f">operation</a>(geom,CRS.forCode(<span class="stringliteral">&quot;EPSG:&quot;</span>+srid));</div><div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;                                <span class="keywordflow">return</span> valueFactory.createLiteral(result);</div><div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;                        } <span class="keywordflow">catch</span> (FactoryException e) {</div><div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;                                <span class="comment">// TODO Auto-generated catch block</span></div><div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;                                e.printStackTrace();</div><div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;                                <span class="keywordflow">return</span> null;</div><div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;                        }</div><div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;        </div><div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;                }</div><div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;                <span class="keywordflow">throw</span> <span class="keyword">new</span> ValueExprEvaluationException(<span class="stringliteral">&quot;Arguments given are not geometry literals&quot;</span>);</div><div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;        }</div><div class="ttc" id="a03083_html_a2b91a48cf07f5ba58df8d3ffca2c920f"><div class="ttname"><a href="a03083.html#a2b91a48cf07f5ba58df8d3ffca2c920f">org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.geometry.base.GeometricBinaryCRSAttributeFunction.operation</a></div><div class="ttdeci">abstract boolean operation(Geometry g1, CoordinateReferenceSystem crs)</div></div>
 </div><!-- fragment -->
 </div>
 </div>
-<a id="ad9fb16b36dd4ccc533d4f05ff94646e3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad9fb16b36dd4ccc533d4f05ff94646e3">&#9670;&nbsp;</a></span>getURI()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">String getURI </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="reference">References <a class="el" href="a02575.html#afffb47272e7d3c722455e582f957d9c3">POSTGIS.ST_ADDZ</a>.</p>
-<div class="fragment"><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;                               {</div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;                <span class="keywordflow">return</span> POSTGIS.ST_ADDZ.stringValue();</div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;        }</div></div><!-- fragment -->
-</div>
-</div>
-<a id="aff25ff8b7911e1c241669531d923ae62"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aff25ff8b7911e1c241669531d923ae62">&#9670;&nbsp;</a></span>relation()</h2>
+<a id="a2b91a48cf07f5ba58df8d3ffca2c920f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2b91a48cf07f5ba58df8d3ffca2c920f">&#9670;&nbsp;</a></span>operation()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -168,16 +138,16 @@ Protected Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">Geometry relation </td>
+          <td class="memname">abstract boolean operation </td>
           <td>(</td>
           <td class="paramtype">Geometry&#160;</td>
-          <td class="paramname"><em>geom</em>, </td>
+          <td class="paramname"><em>g1</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">Double&#160;</td>
-          <td class="paramname"><em>value</em>&#160;</td>
+          <td class="paramtype">CoordinateReferenceSystem&#160;</td>
+          <td class="paramname"><em>crs</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -187,13 +157,13 @@ Protected Member Functions</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+<span class="mlabels"><span class="mlabel">abstract</span><span class="mlabel">protected</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="a04879.html#aa9b8459efc091f657b74ed0e5a245375">LiteralUtils.createGeometry()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;                                                                {</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;        Double zValue=value;</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;        List&lt;Coordinate&gt; newcoords=<span class="keyword">new</span> LinkedList&lt;Coordinate&gt;();</div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;        <span class="keywordflow">for</span>(Coordinate coord:geom.getCoordinates()) {</div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;                newcoords.add(<span class="keyword">new</span> CoordinateXYZM(coord.x,coord.y,zValue,Double.NaN));</div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;        }</div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;        <span class="keywordflow">return</span> LiteralUtils.createGeometry(newcoords, geom.getGeometryType(), geom.getSRID());</div><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;</div><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;        }</div></div><!-- fragment -->
+<p class="reference">Referenced by <a class="el" href="a03083.html#a43b4c73244bc6722ce551c1033cf1115">GeometricBinaryCRSAttributeFunction.evaluate()</a>.</p>
+
 </div>
 </div>
 </div><!-- contents -->
@@ -202,7 +172,7 @@ Protected Member Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="a02430.html">org</a></li><li class="navelem"><a class="el" href="a02431.html">eclipse</a></li><li class="navelem"><a class="el" href="a02432.html">rdf4j</a></li><li class="navelem"><a class="el" href="a02435.html">query</a></li><li class="navelem"><a class="el" href="a02436.html">algebra</a></li><li class="navelem"><a class="el" href="a02437.html">evaluation</a></li><li class="navelem"><a class="el" href="a02438.html">function</a></li><li class="navelem"><a class="el" href="a02439.html">postgis</a></li><li class="navelem"><a class="el" href="a02446.html">geometry</a></li><li class="navelem"><a class="el" href="a02449.html">editor</a></li><li class="navelem"><a class="el" href="a03083.html">AddZ</a></li>
+    <li class="navelem"><a class="el" href="a02538.html">org</a></li><li class="navelem"><a class="el" href="a02539.html">eclipse</a></li><li class="navelem"><a class="el" href="a02540.html">rdf4j</a></li><li class="navelem"><a class="el" href="a02543.html">query</a></li><li class="navelem"><a class="el" href="a02544.html">algebra</a></li><li class="navelem"><a class="el" href="a02545.html">evaluation</a></li><li class="navelem"><a class="el" href="a02546.html">function</a></li><li class="navelem"><a class="el" href="a02547.html">postgis</a></li><li class="navelem"><a class="el" href="a02554.html">geometry</a></li><li class="navelem"><a class="el" href="a02555.html">base</a></li><li class="navelem"><a class="el" href="a03083.html">GeometricBinaryCRSAttributeFunction</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>

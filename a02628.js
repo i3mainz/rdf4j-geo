@@ -1,9 +1,26 @@
 var a02628 =
 [
-    [ "AggCentroid", "a02628.html#a50accbcfba1cb62fd2c3c6945ad73523", null ],
-    [ "AggCentroid", "a02628.html#aa380b240515b7ef61a0a6ecbe81070af", null ],
-    [ "clone", "a02628.html#a4021a724a19ab359f4b16f3fcea1666b", null ],
-    [ "equals", "a02628.html#a8e18a3a952a9e38a9a4191004a30c938", null ],
-    [ "hashCode", "a02628.html#a077e18fe97323c7194e2665ffc766399", null ],
-    [ "visit", "a02628.html#ace7c41d3761122fda287033559696cdd", null ]
+    [ "AreaSimilarityTest", "a05439.html", "a05439" ],
+    [ "CentroidDistanceTest", "a05443.html", "a05443" ],
+    [ "ClosestPointTest", "a05447.html", "a05447" ],
+    [ "DistanceSphereTest", "a05451.html", "a05451" ],
+    [ "DistanceTest", "a05455.html", "a05455" ],
+    [ "EqualNormTest", "a05459.html", "a05459" ],
+    [ "EqualSRSTest", "a05463.html", "a05463" ],
+    [ "EqualTopoTest", "a05467.html", "a05467" ],
+    [ "EqualTypeTest", "a05471.html", "a05471" ],
+    [ "FullyWithinDistanceTest", "a05475.html", "a05475" ],
+    [ "FurthestCoordinateTest", "a05479.html", "a05479" ],
+    [ "HausdorffDistanceTest", "a05483.html", "a05483" ],
+    [ "IntersectionMatrixTest", "a05487.html", "a05487" ],
+    [ "IntersectionPercentageTest", "a05491.html", "a05491" ],
+    [ "IsMorePreciseTest", "a05495.html", "a05495" ],
+    [ "LongestLineTest", "a05499.html", "a05499" ],
+    [ "MaxDistance3DTest", "a05503.html", "a05503" ],
+    [ "MaxDistanceTest", "a05507.html", "a05507" ],
+    [ "OrderingEqualsTest", "a05511.html", "a05511" ],
+    [ "RelateMatchTest", "a05515.html", "a05515" ],
+    [ "RelateTest", "a05519.html", "a05519" ],
+    [ "ShortestLine3DTest", "a05523.html", "a05523" ],
+    [ "ShortestLineTest", "a05527.html", "a05527" ]
 ];

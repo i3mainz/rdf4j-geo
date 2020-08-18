@@ -1,6 +1,5 @@
 var a05423 =
 [
-    [ "testSwapOrdinates", "a05423.html#afb4577949dbe6ea13a5d8c00afd1c339", null ],
-    [ "res", "a05423.html#ab8deaae2f0a5506ff9fd02ff15e921cc", null ],
-    [ "testPolygon", "a05423.html#a1e3187cbc25299380589200c398b3ffd", null ]
+    [ "testAsTextRaw", "a05423.html#abe6b8113553114d4969c61497fcbd472", null ],
+    [ "testGeometry", "a05423.html#abc3f514f005cba49e406658e2d3086eb", null ]
 ];

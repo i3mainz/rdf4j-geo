@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>rdf4j-postgis: IDFT Class Reference</title>
+<title>rdf4j-postgis: HasConnectedInterior Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -64,23 +64,26 @@ $(document).ready(function(){initNavTree('a03963.html','');});
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="a03960.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">IDFT Class Reference</div>  </div>
+<div class="title">HasConnectedInterior Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>Checks if the interior rings of a polygon are connected.  
+ <a href="a03963.html#details">More...</a></p>
 <div class="dynheader">
-Inheritance diagram for IDFT:</div>
+Inheritance diagram for HasConnectedInterior:</div>
 <div class="dyncontent">
-<div class="center"><img src="a03962.png" border="0" usemap="#IDFT_inherit__map" alt="Inheritance graph"/></div>
-<map name="IDFT_inherit__map" id="IDFT_inherit__map">
-<area shape="rect" id="node2" href="a04219.html" title="RasterAlgebraFunction" alt="" coords="5,80,160,107"/>
+<div class="center"><img src="a03962.png" border="0" usemap="#HasConnectedInterior_inherit__map" alt="Inheritance graph"/></div>
+<map name="HasConnectedInterior_inherit__map" id="HasConnectedInterior_inherit__map">
+<area shape="rect" id="node2" href="a03079.html" title="GeometricBinaryAttribute\lFunction" alt="" coords="5,80,173,121"/>
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <div class="dynheader">
-Collaboration diagram for IDFT:</div>
+Collaboration diagram for HasConnectedInterior:</div>
 <div class="dyncontent">
-<div class="center"><img src="a03961.png" border="0" usemap="#IDFT_coll__map" alt="Collaboration graph"/></div>
-<map name="IDFT_coll__map" id="IDFT_coll__map">
-<area shape="rect" id="node2" href="a04219.html" title="RasterAlgebraFunction" alt="" coords="5,80,160,107"/>
+<div class="center"><img src="a03961.png" border="0" usemap="#HasConnectedInterior_coll__map" alt="Collaboration graph"/></div>
+<map name="HasConnectedInterior_coll__map" id="HasConnectedInterior_coll__map">
+<area shape="rect" id="node2" href="a03079.html" title="GeometricBinaryAttribute\lFunction" alt="" coords="5,80,173,121"/>
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -88,12 +91,32 @@ Collaboration diagram for IDFT:</div>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:ad9fb16b36dd4ccc533d4f05ff94646e3"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a03963.html#ad9fb16b36dd4ccc533d4f05ff94646e3">getURI</a> ()</td></tr>
 <tr class="separator:ad9fb16b36dd4ccc533d4f05ff94646e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acb42430c6e162d7bea46f8d37b0f88d7"><td class="memItemLeft" align="right" valign="top">GridCoverage&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a03963.html#acb42430c6e162d7bea46f8d37b0f88d7">modify</a> (GridCoverage raster, Integer rd1, GridCoverage raster2, Integer rd2)</td></tr>
-<tr class="separator:acb42430c6e162d7bea46f8d37b0f88d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a43b4c73244bc6722ce551c1033cf1115"><td class="memItemLeft" align="right" valign="top">Value&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a04219.html#a43b4c73244bc6722ce551c1033cf1115">evaluate</a> (ValueFactory valueFactory, Value... args)  throws ValueExprEvaluationException </td></tr>
+<tr class="memitem:acffd07bcd4424073cb2871460076578a"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a03963.html#acffd07bcd4424073cb2871460076578a">attribute</a> (Geometry geom)</td></tr>
+<tr class="separator:acffd07bcd4424073cb2871460076578a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a43b4c73244bc6722ce551c1033cf1115"><td class="memItemLeft" align="right" valign="top">Value&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a03079.html#a43b4c73244bc6722ce551c1033cf1115">evaluate</a> (ValueFactory valueFactory, Value... args)  throws ValueExprEvaluationException </td></tr>
 <tr class="separator:a43b4c73244bc6722ce551c1033cf1115"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Function Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Checks if the interior rings of a polygon are connected. </p>
+</div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="acffd07bcd4424073cb2871460076578a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acffd07bcd4424073cb2871460076578a">&#9670;&nbsp;</a></span>attribute()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean attribute </td>
+          <td>(</td>
+          <td class="paramtype">Geometry&#160;</td>
+          <td class="paramname"><em>geom</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;                                                {</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;                ConnectedInteriorTester tester=<span class="keyword">new</span> ConnectedInteriorTester(<span class="keyword">new</span> GeometryGraph(0,geom));</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;                <span class="keywordflow">return</span> tester.isInteriorsConnected();</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;        }</div></div><!-- fragment -->
+</div>
+</div>
 <a id="a43b4c73244bc6722ce551c1033cf1115"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a43b4c73244bc6722ce551c1033cf1115">&#9670;&nbsp;</a></span>evaluate()</h2>
 
@@ -128,10 +151,10 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="a04747.html#a8796f5aec1965b6c4e88b2ba7c1d2e53">LiteralRegistry.getLiteral()</a>, and <a class="el" href="a04219.html#a5b24a1b53fa41584bf65e96f8565f04a">RasterAlgebraFunction.modify()</a>.</p>
+<p class="reference">References <a class="el" href="a03079.html#acdd4815d6c10d509e8fa15627feb0d27">GeometricBinaryAttributeFunction.attribute()</a>, and <a class="el" href="a04895.html#a8796f5aec1965b6c4e88b2ba7c1d2e53">LiteralRegistry.getLiteral()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="a05635.html#afd0ee1fd8a383350e390e5b63a8a1cda">LogTest.testAdd()</a>, <a class="el" href="a05603.html#afd0ee1fd8a383350e390e5b63a8a1cda">AddTest.testAdd()</a>, <a class="el" href="a05611.html#ad8956827844f69009bc4c23a46ed322a">AndTest.testAnd()</a>, <a class="el" href="a05619.html#af62cdb248f1e7f2bb0372adcf20e8557">DivTest.testDiv()</a>, <a class="el" href="a05643.html#ab45f511a7f2f9c82a5f7d24e30e1cad0">MultTest.testMult()</a>, <a class="el" href="a05655.html#a3b09f558520898efdfaef60d84c52d8d">OrTest.testOr()</a>, <a class="el" href="a05663.html#a6765d065ca3c27a56dc817aef23a2e41">SubtractTest.testSubtract()</a>, and <a class="el" href="a05671.html#a11b935be18716d35402a7fec0817a727">XorTest.testXor()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;                                                                                                            {</div><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;                <span class="keywordflow">if</span> (args.length != 4) {</div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;                        <span class="keywordflow">throw</span> <span class="keyword">new</span> ValueExprEvaluationException(getURI() + <span class="stringliteral">&quot; requires exactly 4 arguments, got &quot;</span> + args.length);</div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;                }</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;                LiteralType l=LiteralRegistry.getLiteral(((Literal)args[0]).getDatatype().toString());</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;                LiteralType l2=LiteralRegistry.getLiteral(((Literal)args[2]).getDatatype().toString());</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;                <span class="keywordflow">if</span>(l instanceof RasterLiteral &amp;&amp; l2 instanceof RasterLiteral) {</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;                        GridCoverage geom=((RasterLiteral)l).read(args[0].stringValue());</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;                        Integer bd1=Integer.valueOf(args[1].stringValue());</div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;                        GridCoverage geom2=((RasterLiteral)l).read(args[2].stringValue());</div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;                        Integer bd2=Integer.valueOf(args[3].stringValue());</div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;                        GridCoverage result = <a class="code" href="a04219.html#a5b24a1b53fa41584bf65e96f8565f04a">modify</a>(geom,bd1,geom2,bd2);</div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;                        <span class="keywordflow">return</span> valueFactory.createLiteral(((RasterLiteral) l).unparse(result),((Literal)args[0]).getDatatype());</div><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;                }</div><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;                <span class="keywordflow">return</span> null;</div><div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;        }</div><div class="ttc" id="a04219_html_a5b24a1b53fa41584bf65e96f8565f04a"><div class="ttname"><a href="a04219.html#a5b24a1b53fa41584bf65e96f8565f04a">org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.raster.base.RasterAlgebraFunction.modify</a></div><div class="ttdeci">abstract GridCoverage modify(GridCoverage coverage, Integer bd1, GridCoverage coverage2, Integer bd2)</div></div>
+<p class="reference">Referenced by <a class="el" href="a05247.html#ab8f9e80081b7ac2106ef406ffbb215e2">IsCollectionTest.testGeometryCollectionIsCollection()</a>, <a class="el" href="a05779.html#a725a2cc1c4ba4909307c9a2fa07558d8">HasConnectedInteriorTest.testHasConnectedInteriorFalse()</a>, <a class="el" href="a05779.html#a95e618db9d2053f26b5194e3bec0d2a0">HasConnectedInteriorTest.testHasConnectedInteriorTrue()</a>, <a class="el" href="a05783.html#a3957683118b9d5473c635a38d7e6c6e8">HasDuplicateRingsTest.testHasDuplicateRingsFalse()</a>, <a class="el" href="a05783.html#a3779f6b4849bf60c716f7dff71089a2a">HasDuplicateRingsTest.testHasDuplicateRingsTrue()</a>, <a class="el" href="a05235.html#a9d25864362180719a756bf187c003b28">HasHorizontalCRSTest.testHasHorizontalCRSFalse()</a>, <a class="el" href="a05235.html#a9f2bde364661ddf6af32fec9ad9085b1">HasHorizontalCRSTest.testHasHorizontalCRSTrue()</a>, <a class="el" href="a05239.html#ac91c06c07e42b36c2957d3b47609ea12">HasRepeatedPointsTest.testHasRepeatedPoints()</a>, <a class="el" href="a05239.html#a573715384a3d69a8e8c4722bc82c5e5e">HasRepeatedPointsTest.testHasRepeatedPoints2()</a>, <a class="el" href="a05659.html#a4a909b32ed78a5e48e6acd2cdd04519b">HasSelfIntersectionsTest.testHasSelfIntersectionsFalse()</a>, <a class="el" href="a05659.html#ae67f84fa98ae098d78896e2c9885a5ca">HasSelfIntersectionsTest.testHasSelfIntersectionsTrue()</a>, <a class="el" href="a05243.html#ab78a03db57d15bcac7ef5487e5bee11e">Is3DTest.testIs3DFalse()</a>, <a class="el" href="a05787.html#a5b3dbe6f41b97c30eaff61a7c0c6f344">IsAcuteTest.testIsAcuteFalse()</a>, <a class="el" href="a05787.html#aea45a7ea1a6bbd2c8bf3bfa751ec4e1f">IsAcuteTest.testIsAcuteTrue()</a>, <a class="el" href="a05795.html#a84d7af36a321a8f38760993ee03431f1">IsConvexTest.testIsConvexFalse()</a>, <a class="el" href="a05795.html#a72b02d577b66678dc78571b6ca1901cc">IsConvexTest.testIsConvexTrue()</a>, <a class="el" href="a05251.html#ad6c1db43fc5b06667b4d7679c36196bf">IsEmptyTest.testIsEmptyFalse()</a>, <a class="el" href="a05251.html#acf5aa6d804534044ced38ebbf685b780">IsEmptyTest.testIsEmptyTrue()</a>, <a class="el" href="a05799.html#aa81dce05daae6f34aac43c24bd033ef0">IsIsocelesTriangleTest.testIsIsocelesTriangleFalse()</a>, <a class="el" href="a05799.html#aae4d62f37acbace0beb2e9dbba631072">IsIsocelesTriangleTest.testIsIsocelesTriangleTrue()</a>, <a class="el" href="a05259.html#a0d34749daed816e995d607f25393f8bd">IsMeasuredTest.testIsMeasuredFalse()</a>, <a class="el" href="a05259.html#a94b07ea8a866ff9332c709b77d204342">IsMeasuredTest.testIsMeasuredTrue()</a>, <a class="el" href="a05263.html#af36f9410a0c4d62c262b4398b5723223">IsNodingValidTest.testIsNodingValuedTrue()</a>, <a class="el" href="a05267.html#a0e75cb938cfe0c5f0e6555d748eccf2d">IsPlanarTest.testIsPlanarTrue()</a>, <a class="el" href="a05803.html#a68f9159867e6465340465684732c1eb6">IsPolygonCCWTest.testIsPolygonCCWFalse()</a>, <a class="el" href="a05803.html#a1f97fe37dded953f0f1c89d25f651edc">IsPolygonCCWTest.testIsPolygonCCWTrue()</a>, <a class="el" href="a05807.html#a017c3fe070c2ab2e34a67d428cec06d3">IsPolygonCWTest.testIsPolygonCWFalse()</a>, <a class="el" href="a05807.html#a65124e83aa8d64983e3fc4a131479949">IsPolygonCWTest.testIsPolygonCWTrue()</a>, <a class="el" href="a05271.html#a5f21b4a097f15af24dcc034f575e4e4a">IsRectangleTest.testIsRectangleFalse()</a>, <a class="el" href="a05271.html#acebf1f487a11cc34db915552f23c6383">IsRectangleTest.testIsRectangleTrue()</a>, <a class="el" href="a05275.html#a0e3a5c39c0d37b52035d9e40cf70b7ef">IsSolidTest.testIsSolidFalse()</a>, <a class="el" href="a05279.html#a173bda31cdc35a0e147f2c50957b2e27">IsSquareTest.testIsSquareFalse()</a>, <a class="el" href="a05279.html#af9173bfcbf2fff582439949957ccc709">IsSquareTest.testIsSquareTrue()</a>, <a class="el" href="a05811.html#a9a683ec2f8cc07231bddc07213698183">IsTriangleTest.testIsTriangleFalse()</a>, <a class="el" href="a05811.html#a6a1ccdd76246a421ef6ae80bc7c4e87c">IsTriangleTest.testIsTriangleTrue()</a>, <a class="el" href="a05283.html#abe8c10068a1ed9f8a4fea754990b0a48">IsValidTest.testIsValidFalse()</a>, <a class="el" href="a05283.html#a9556e5304e9a52193523b36c47bcd844">IsValidTest.testIsValidTrue()</a>, <a class="el" href="a05791.html#a535dfcf17dd3d286958ec2268d19deb5">IsClosedTest.testLineStringClosed()</a>, <a class="el" href="a05247.html#a513937962f26a1affcc4d0c369733a79">IsCollectionTest.testLineStringIsCollection()</a>, <a class="el" href="a05663.html#a321e37eed11ab4c4fb34459ff2f0c8a4">IsRingTest.testLineStringIsNotRing()</a>, <a class="el" href="a05663.html#af99150f0a2baa803f3a32475e363a546">IsRingTest.testLineStringIsRing()</a>, <a class="el" href="a05791.html#a73d74b41617d10452367388732cfdc67">IsClosedTest.testLineStringNotClosed()</a>, <a class="el" href="a05247.html#af185514d9e978598dc7aa4ba06572494">IsCollectionTest.testMultiLineStringIsCollection()</a>, <a class="el" href="a05791.html#a46c6b5fafb3fb83ca34bed8a76614a05">IsClosedTest.testMultiLineStringNotClosed()</a>, <a class="el" href="a05791.html#a3ccb0f6a8770f2a4ac3d61a34e17308e">IsClosedTest.testmultiPointClosed()</a>, <a class="el" href="a05247.html#abe0dc5056717b405438313e86f9017f2">IsCollectionTest.testMultiPointIsCollection()</a>, <a class="el" href="a05247.html#a3cb8a0ddd3838eedbcbb6c1651e3a9c0">IsCollectionTest.testMultiPolygonIsCollection()</a>, <a class="el" href="a05791.html#a833c7f3f2807c95b41de4f5c776b7eb0">IsClosedTest.testpointClosed()</a>, <a class="el" href="a05247.html#ae050c74afe9d24c25aa8cfddca93609d">IsCollectionTest.testPointIsCollection()</a>, <a class="el" href="a05247.html#aa73539bce49dc7ae2102874315d15e51">IsCollectionTest.testPolygonIsCollection()</a>, <a class="el" href="a05555.html#a94f12f6d4a3fe8f25be5144338eb0198">SridHasFlippedAxisTest.testSridHasFlippedAxis()</a>, <a class="el" href="a05559.html#abd1395d0581a64740ed1bae57b2882b3">SridIsGeographicTest.testSridIsGeographicFalse()</a>, <a class="el" href="a05559.html#a09f0ac6b4b2a063a3d1df32d600b9b11">SridIsGeographicTest.testSridIsGeographicTrue()</a>, <a class="el" href="a05563.html#a79fa3e75c2d90e917a8ece94f56a16ba">SridIsProjectedTest.testSridIsProjectedTrue()</a>, and <a class="el" href="a05567.html#a0b5d17dad676c3ce02f884832b907843">SridIsVerticalTest.testSridIsVerticalTrue()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;                                                                                                            {</div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;                <span class="keywordflow">if</span> (args.length != 1) {</div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;                        <span class="keywordflow">throw</span> <span class="keyword">new</span> ValueExprEvaluationException(getURI() + <span class="stringliteral">&quot; requires exactly 1 arguments, got &quot;</span> + args.length);</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;                }</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;                </div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;                LiteralType l=LiteralRegistry.getLiteral(((Literal)args[0]).getDatatype().toString());</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;                System.out.println(l);</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;                <span class="keywordflow">if</span>(l instanceof VectorLiteral) {</div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;                        Geometry geom=((VectorLiteral)l).read(args[0].stringValue());</div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;                        <span class="keywordtype">boolean</span> result = <a class="code" href="a03079.html#acdd4815d6c10d509e8fa15627feb0d27">attribute</a>(geom);</div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;                        <span class="keywordflow">return</span> valueFactory.createLiteral(result);</div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;                }</div><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;                <span class="keywordflow">throw</span> <span class="keyword">new</span> ValueExprEvaluationException(<span class="stringliteral">&quot;Argument given is not a geometry literal&quot;</span>);</div><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;</div><div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;        }</div><div class="ttc" id="a03079_html_acdd4815d6c10d509e8fa15627feb0d27"><div class="ttname"><a href="a03079.html#acdd4815d6c10d509e8fa15627feb0d27">org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.geometry.base.GeometricBinaryAttributeFunction.attribute</a></div><div class="ttdeci">abstract boolean attribute(Geometry geom)</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -150,48 +173,8 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="a02575.html#a4ebb7207c7aa62582089901b096cc127">POSTGIS.ST_rast_algebra_idft</a>.</p>
-<div class="fragment"><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;                               {</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;                <span class="keywordflow">return</span> POSTGIS.ST_rast_algebra_idft.stringValue();</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;        }</div></div><!-- fragment -->
-</div>
-</div>
-<a id="acb42430c6e162d7bea46f8d37b0f88d7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acb42430c6e162d7bea46f8d37b0f88d7">&#9670;&nbsp;</a></span>modify()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">GridCoverage modify </td>
-          <td>(</td>
-          <td class="paramtype">GridCoverage&#160;</td>
-          <td class="paramname"><em>raster</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">Integer&#160;</td>
-          <td class="paramname"><em>rd1</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">GridCoverage&#160;</td>
-          <td class="paramname"><em>raster2</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">Integer&#160;</td>
-          <td class="paramname"><em>rd2</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;                                                                                                     {</div><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;                ParameterBlock pbSubtracted = <span class="keyword">new</span> ParameterBlock();</div><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;                pbSubtracted.addSource(raster.render(raster.getGridGeometry().getExtent()));</div><div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;                pbSubtracted.addSource(raster2.render(raster2.getGridGeometry().getExtent()));</div><div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;                RenderedOp subtractedImage = JAI.create(<span class="stringliteral">&quot;idft&quot;</span>, pbSubtracted);</div><div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;                <span class="comment">/*</span></div><div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;<span class="comment">                 * final GridGeometry grid = new</span></div><div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;<span class="comment">                 * GridGeometry(raster.getGridGeometry().getExtent(), PixelInCell.CELL_CENTER,</span></div><div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;<span class="comment">                 * MathTransforms.identity(2),</span></div><div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;<span class="comment">                 * raster.getGridGeometry().getCoordinateReferenceSystem());</span></div><div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;<span class="comment">                 * </span></div><div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;<span class="comment">                 * final MathTransform1D toUnits = (MathTransform1D) MathTransforms.linear(0.5,</span></div><div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;<span class="comment">                 * 100);</span></div><div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;<span class="comment">                 */</span></div><div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;                <span class="keyword">final</span> SampleDimension sd = <span class="keyword">new</span> SampleDimension.Builder().setName(<span class="stringliteral">&quot;t&quot;</span>)</div><div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;                                .addQuantitative(</div><div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;                                                (raster.getSampleDimensions().get(rd1).getName() + <span class="stringliteral">&quot;idft&quot;</span></div><div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;                                                                + raster2.getSampleDimensions().get(rd2).getName()).toString(),</div><div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;                                                raster.getSampleDimensions().get(0).getMeasurementRange().get(),</div><div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;                                                raster.getSampleDimensions().get(0).getTransferFunction().get(),</div><div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;                                                raster.getSampleDimensions().get(0).getUnits().get())</div><div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;                                .build();</div><div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;                </div><div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;                List&lt;SampleDimension&gt;sds=<span class="keyword">new</span> LinkedList&lt;SampleDimension&gt;();</div><div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;                sds.add(sd);</div><div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;                <span class="comment">/*</span></div><div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;<span class="comment">                 * Create the grid coverage, gets its image and set values directly as short</span></div><div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;<span class="comment">                 * integers.</span></div><div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;<span class="comment">                 */</span></div><div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;                BufferedGridCoverage coverage = <span class="keyword">new</span> BufferedGridCoverage(raster2.getGridGeometry(),</div><div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;                                sds, DataBuffer.TYPE_SHORT);</div><div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;                WritableRaster rasterr = ((BufferedImage) coverage.render(null)).getRaster();</div><div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;                rasterr.setRect(subtractedImage.getSourceImage(0).getData());</div><div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;                <span class="keywordflow">return</span> coverage;</div><div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;        }</div></div><!-- fragment -->
+<p class="reference">References <a class="el" href="a02719.html#a7314c4c2fa4906c15925a79345d041c5">POSTGIS.st_hasConnectedInterior</a>.</p>
+<div class="fragment"><div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;                               {</div><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;                <span class="keywordflow">return</span> POSTGIS.st_hasConnectedInterior.stringValue();</div><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;        }</div></div><!-- fragment -->
 </div>
 </div>
 </div><!-- contents -->
@@ -200,7 +183,7 @@ Public Member Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="a02430.html">org</a></li><li class="navelem"><a class="el" href="a02431.html">eclipse</a></li><li class="navelem"><a class="el" href="a02432.html">rdf4j</a></li><li class="navelem"><a class="el" href="a02435.html">query</a></li><li class="navelem"><a class="el" href="a02436.html">algebra</a></li><li class="navelem"><a class="el" href="a02437.html">evaluation</a></li><li class="navelem"><a class="el" href="a02438.html">function</a></li><li class="navelem"><a class="el" href="a02439.html">postgis</a></li><li class="navelem"><a class="el" href="a02472.html">raster</a></li><li class="navelem"><a class="el" href="a02471.html">algebra</a></li><li class="navelem"><a class="el" href="a03963.html">IDFT</a></li>
+    <li class="navelem"><a class="el" href="a02538.html">org</a></li><li class="navelem"><a class="el" href="a02539.html">eclipse</a></li><li class="navelem"><a class="el" href="a02540.html">rdf4j</a></li><li class="navelem"><a class="el" href="a02543.html">query</a></li><li class="navelem"><a class="el" href="a02544.html">algebra</a></li><li class="navelem"><a class="el" href="a02545.html">evaluation</a></li><li class="navelem"><a class="el" href="a02546.html">function</a></li><li class="navelem"><a class="el" href="a02547.html">postgis</a></li><li class="navelem"><a class="el" href="a02575.html">polygon</a></li><li class="navelem"><a class="el" href="a02574.html">attribute</a></li><li class="navelem"><a class="el" href="a03963.html">HasConnectedInterior</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>

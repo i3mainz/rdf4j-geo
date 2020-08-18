@@ -1,9 +1,22 @@
 var a02645 =
 [
-    [ "getGARS", "a02645.html#ad32b2611bcfa60ea86cc4e6c3e17a7f9", null ],
-    [ "getGARS", "a02645.html#aab0ce72463899f6ec6442a3d84a3505e", null ],
-    [ "getKeyPad", "a02645.html#af7bff98d14ce187151a4a42f2f2dd8bf", null ],
-    [ "getLatitudeBand", "a02645.html#ad4746c530ec18633752a358cb6be1fca", null ],
-    [ "getLongitudeBand", "a02645.html#aed1e474b826a038d1709638ca60ed398", null ],
-    [ "getQudarant", "a02645.html#a71d9179536894e21c4fa1049adf3d105", null ]
+    [ "AddConstTest", "a05847.html", "a05847" ],
+    [ "AddTest", "a05851.html", "a05851" ],
+    [ "AndConstTest", "a05855.html", "a05855" ],
+    [ "AndTest", "a05859.html", "a05859" ],
+    [ "DivConstTest", "a05863.html", "a05863" ],
+    [ "DivTest", "a05867.html", "a05867" ],
+    [ "EqualTest", "a05871.html", "a05871" ],
+    [ "ExpTest", "a05875.html", "a05875" ],
+    [ "InvertTest", "a05879.html", "a05879" ],
+    [ "LogTest", "a05883.html", "a05883" ],
+    [ "MultConstTest", "a05887.html", "a05887" ],
+    [ "MultTest", "a05891.html", "a05891" ],
+    [ "NotTest", "a05895.html", "a05895" ],
+    [ "OrConstTest", "a05899.html", "a05899" ],
+    [ "OrTest", "a05903.html", "a05903" ],
+    [ "SubtractConstTest", "a05907.html", "a05907" ],
+    [ "SubtractTest", "a05911.html", "a05911" ],
+    [ "XorConstTest", "a05915.html", "a05915" ],
+    [ "XorTest", "a05919.html", "a05919" ]
 ];

@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>rdf4j-postgis: ClosestPointTest Class Reference</title>
+<title>rdf4j-postgis: IsSquareTest Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -62,41 +62,28 @@ $(document).ready(function(){initNavTree('a05279.html','');});
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pub-static-attribs">Static Public Attributes</a> &#124;
 <a href="a05276.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">ClosestPointTest Class Reference</div>  </div>
+<div class="title">IsSquareTest Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="dynheader">
-Collaboration diagram for ClosestPointTest:</div>
-<div class="dyncontent">
-<div class="center"><img src="a05277.png" border="0" usemap="#ClosestPointTest_coll__map" alt="Collaboration graph"/></div>
-<map name="ClosestPointTest_coll__map" id="ClosestPointTest_coll__map">
-</map>
-<center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:af30fa8d36bc2cb8bd652397169d9708d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05279.html#af30fa8d36bc2cb8bd652397169d9708d">testClosestPoint</a> ()</td></tr>
-<tr class="separator:af30fa8d36bc2cb8bd652397169d9708d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
-Static Public Attributes</h2></td></tr>
-<tr class="memitem:af26f700ee129f846cac58735f6dcc380"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05279.html#af26f700ee129f846cac58735f6dcc380">testPoint</a> =&quot;POINT(100 100)&quot;</td></tr>
-<tr class="separator:af26f700ee129f846cac58735f6dcc380"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a33797029fadbcba01b4a4fafec88cf41"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05279.html#a33797029fadbcba01b4a4fafec88cf41">testLineString</a> =&quot;LINESTRING (20 80, 98 190, 110 180, 50 75 )&quot;</td></tr>
-<tr class="separator:a33797029fadbcba01b4a4fafec88cf41"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a173bda31cdc35a0e147f2c50957b2e27"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05279.html#a173bda31cdc35a0e147f2c50957b2e27">testIsSquareFalse</a> ()</td></tr>
+<tr class="separator:a173bda31cdc35a0e147f2c50957b2e27"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af9173bfcbf2fff582439949957ccc709"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05279.html#af9173bfcbf2fff582439949957ccc709">testIsSquareTrue</a> ()</td></tr>
+<tr class="separator:af9173bfcbf2fff582439949957ccc709"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="af30fa8d36bc2cb8bd652397169d9708d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af30fa8d36bc2cb8bd652397169d9708d">&#9670;&nbsp;</a></span>testClosestPoint()</h2>
+<a id="a173bda31cdc35a0e147f2c50957b2e27"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a173bda31cdc35a0e147f2c50957b2e27">&#9670;&nbsp;</a></span>testIsSquareFalse()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void testClosestPoint </td>
+          <td class="memname">void testIsSquareFalse </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -104,55 +91,27 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="a02991.html#a43b4c73244bc6722ce551c1033cf1115">GeometricModifierFunction.evaluate()</a>, and <a class="el" href="a04871.html#ae02c2e86ac0dea8538c7b43e9e82421a">WKTDatatype.LiteralIRI</a>.</p>
-<div class="fragment"><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;                                       {                </div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;                ClosestPoint instance=<span class="keyword">new</span> ClosestPoint();</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;                ValueFactory valfac=SimpleValueFactory.getInstance();</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;                Value geo=valfac.createLiteral(<a class="code" href="a05279.html#af26f700ee129f846cac58735f6dcc380">testPoint</a>, WKTDatatype.LiteralIRI);</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;                Value geo2=valfac.createLiteral(<a class="code" href="a05279.html#a33797029fadbcba01b4a4fafec88cf41">testLineString</a>, WKTDatatype.LiteralIRI);</div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;                Value result=valfac.createLiteral(42.2736890060937);</div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;                Value expResult=instance.evaluate(valfac, geo,geo2);</div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;                assertEquals(expResult, result);</div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;        }</div><div class="ttc" id="a05279_html_af26f700ee129f846cac58735f6dcc380"><div class="ttname"><a href="a05279.html#af26f700ee129f846cac58735f6dcc380">de.hsmainz.cs.semgis.arqextension.test.geometry.relation.ClosestPointTest.testPoint</a></div><div class="ttdeci">static final String testPoint</div><div class="ttdef"><b>Definition:</b> ClosestPointTest.java:15</div></div>
-<div class="ttc" id="a05279_html_a33797029fadbcba01b4a4fafec88cf41"><div class="ttname"><a href="a05279.html#a33797029fadbcba01b4a4fafec88cf41">de.hsmainz.cs.semgis.arqextension.test.geometry.relation.ClosestPointTest.testLineString</a></div><div class="ttdeci">static final String testLineString</div><div class="ttdef"><b>Definition:</b> ClosestPointTest.java:17</div></div>
-</div><!-- fragment -->
+<p class="reference">References <a class="el" href="a03079.html#a43b4c73244bc6722ce551c1033cf1115">GeometricBinaryAttributeFunction.evaluate()</a>, and <a class="el" href="a05019.html#ae02c2e86ac0dea8538c7b43e9e82421a">WKTDatatype.LiteralIRI</a>.</p>
+<div class="fragment"><div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;                                        {</div><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;                IsSquare is3d=<span class="keyword">new</span> IsSquare();</div><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;                ValueFactory valfac=SimpleValueFactory.getInstance();</div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;                Value geo=valfac.createLiteral(<span class="stringliteral">&quot;&lt;http://www.opengis.net/def/crs/EPSG/0/27700&gt; MULTIPOINT (10 40, 40 30, 20 20, 30 10)&quot;</span>, WKTDatatype.LiteralIRI);</div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;                Value result=is3d.evaluate(valfac, geo);</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;                Value expResult=valfac.createLiteral(<span class="keyword">false</span>);</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;            assertEquals(expResult, result);</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;        }</div></div><!-- fragment -->
 </div>
 </div>
-<h2 class="groupheader">Member Data Documentation</h2>
-<a id="a33797029fadbcba01b4a4fafec88cf41"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a33797029fadbcba01b4a4fafec88cf41">&#9670;&nbsp;</a></span>testLineString</h2>
+<a id="af9173bfcbf2fff582439949957ccc709"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af9173bfcbf2fff582439949957ccc709">&#9670;&nbsp;</a></span>testIsSquareTrue()</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">final String testLineString =&quot;LINESTRING (20 80, 98 190, 110 180, 50 75 )&quot;</td>
+          <td class="memname">void testIsSquareTrue </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
-</div>
-</div>
-<a id="af26f700ee129f846cac58735f6dcc380"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af26f700ee129f846cac58735f6dcc380">&#9670;&nbsp;</a></span>testPoint</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">final String testPoint =&quot;POINT(100 100)&quot;</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
+<p class="reference">References <a class="el" href="a03079.html#a43b4c73244bc6722ce551c1033cf1115">GeometricBinaryAttributeFunction.evaluate()</a>, and <a class="el" href="a05019.html#ae02c2e86ac0dea8538c7b43e9e82421a">WKTDatatype.LiteralIRI</a>.</p>
+<div class="fragment"><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;                                       {</div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;                IsSquare is3d=<span class="keyword">new</span> IsSquare();</div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;                ValueFactory valfac=SimpleValueFactory.getInstance();</div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;                Value geo=valfac.createLiteral(<span class="stringliteral">&quot;&lt;http://www.opengis.net/def/crs/EPSG/0/27700&gt; POLYGON ((0 0, 1 0, 1 1, 0 1, 0 0))&quot;</span>, WKTDatatype.LiteralIRI);</div><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;                Value result=is3d.evaluate(valfac, geo);</div><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;                Value expResult=valfac.createLiteral(<span class="keyword">true</span>);</div><div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;            assertEquals(expResult, result);</div><div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;        }</div></div><!-- fragment -->
 </div>
 </div>
 </div><!-- contents -->
@@ -161,7 +120,7 @@ Static Public Attributes</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="a02419.html">de</a></li><li class="navelem"><a class="el" href="a02420.html">hsmainz</a></li><li class="navelem"><a class="el" href="a02421.html">cs</a></li><li class="navelem"><a class="el" href="a02422.html">semgis</a></li><li class="navelem"><a class="el" href="a02423.html">arqextension</a></li><li class="navelem"><a class="el" href="a02513.html">test</a></li><li class="navelem"><a class="el" href="a02516.html">geometry</a></li><li class="navelem"><a class="el" href="a02520.html">relation</a></li><li class="navelem"><a class="el" href="a05279.html">ClosestPointTest</a></li>
+    <li class="navelem"><a class="el" href="a02527.html">de</a></li><li class="navelem"><a class="el" href="a02528.html">hsmainz</a></li><li class="navelem"><a class="el" href="a02529.html">cs</a></li><li class="navelem"><a class="el" href="a02530.html">semgis</a></li><li class="navelem"><a class="el" href="a02531.html">arqextension</a></li><li class="navelem"><a class="el" href="a02621.html">test</a></li><li class="navelem"><a class="el" href="a02624.html">geometry</a></li><li class="navelem"><a class="el" href="a02623.html">attribute</a></li><li class="navelem"><a class="el" href="a05279.html">IsSquareTest</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>

@@ -1,4 +1,6 @@
 var a05843 =
 [
-    [ "fathomToMeter", "a05843.html#a8dac005b1e9f6ee28420c1c4488ff895", null ]
+    [ "testReverseRing", "a05843.html#a341309060348e532f6606d50945a52bd", null ],
+    [ "duplicateRings", "a05843.html#a92f3ef00fc079a76b7f943d9ed6cec77", null ],
+    [ "nonduplicateRings", "a05843.html#a675a0b1b194538fc07fa716705f883a5", null ]
 ];

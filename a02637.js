@@ -1,10 +1,17 @@
 var a02637 =
 [
-    [ "TripleStoreConnection", "a02637.html#a99975d732097fdfe4f47d2964403e230", null ],
-    [ "executeQuery", "a02637.html#afc28007d407dd38599a43837f62668c1", null ],
-    [ "main", "a02637.html#a8b260eecbaabcef8473fd87ada040682", null ],
-    [ "INSTANCE", "a02637.html#a6f5f1a252f13ef259f6f4fa12b72f2a4", null ],
-    [ "modelmap", "a02637.html#a3c4a20fbf4fb24d73799bdd30661d7b0", null ],
-    [ "prefixCollection", "a02637.html#ab228ed3bdfee44797a6b31717ec5022a", null ],
-    [ "repo", "a02637.html#aa988c42c1c1c9f1d313c217ec0b5e2e0", null ]
+    [ "AngleTest", "a05703.html", "a05703" ],
+    [ "MaxMTest", "a05707.html", "a05707" ],
+    [ "MaxXTest", "a05711.html", "a05711" ],
+    [ "MaxYTest", "a05715.html", "a05715" ],
+    [ "MaxZTest", "a05719.html", "a05719" ],
+    [ "MinMTest", "a05723.html", "a05723" ],
+    [ "MinXTest", "a05727.html", "a05727" ],
+    [ "MinYTest", "a05731.html", "a05731" ],
+    [ "MinZTest", "a05735.html", "a05735" ],
+    [ "MTest", "a05739.html", "a05739" ],
+    [ "PointInsideCircleTest", "a05743.html", "a05743" ],
+    [ "XTest", "a05747.html", "a05747" ],
+    [ "YTest", "a05751.html", "a05751" ],
+    [ "ZTest", "a05755.html", "a05755" ]
 ];

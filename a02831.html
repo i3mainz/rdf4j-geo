@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>rdf4j-postgis: IsSquare Class Reference</title>
+<title>rdf4j-postgis: BBOXIntersects Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -62,25 +62,26 @@ $(document).ready(function(){initNavTree('a02831.html','');});
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="a02828.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">IsSquare Class Reference</div>  </div>
+<div class="title">BBOXIntersects Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 <div class="dynheader">
-Inheritance diagram for IsSquare:</div>
+Inheritance diagram for BBOXIntersects:</div>
 <div class="dyncontent">
-<div class="center"><img src="a02830.png" border="0" usemap="#IsSquare_inherit__map" alt="Inheritance graph"/></div>
-<map name="IsSquare_inherit__map" id="IsSquare_inherit__map">
-<area shape="rect" id="node2" href="a02935.html" title="GeometricBinaryAttribute\lFunction" alt="" coords="5,80,173,121"/>
+<div class="center"><img src="a02830.png" border="0" usemap="#BBOXIntersects_inherit__map" alt="Inheritance graph"/></div>
+<map name="BBOXIntersects_inherit__map" id="BBOXIntersects_inherit__map">
+<area shape="rect" id="node2" href="a03155.html" title="GeometricRelationBinaryFunction" alt="" coords="5,80,223,107"/>
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <div class="dynheader">
-Collaboration diagram for IsSquare:</div>
+Collaboration diagram for BBOXIntersects:</div>
 <div class="dyncontent">
-<div class="center"><img src="a02829.png" border="0" usemap="#IsSquare_coll__map" alt="Collaboration graph"/></div>
-<map name="IsSquare_coll__map" id="IsSquare_coll__map">
-<area shape="rect" id="node2" href="a02935.html" title="GeometricBinaryAttribute\lFunction" alt="" coords="5,80,173,121"/>
+<div class="center"><img src="a02829.png" border="0" usemap="#BBOXIntersects_coll__map" alt="Collaboration graph"/></div>
+<map name="BBOXIntersects_coll__map" id="BBOXIntersects_coll__map">
+<area shape="rect" id="node2" href="a03155.html" title="GeometricRelationBinaryFunction" alt="" coords="5,80,223,107"/>
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -88,30 +89,15 @@ Collaboration diagram for IsSquare:</div>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:ad9fb16b36dd4ccc533d4f05ff94646e3"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a02831.html#ad9fb16b36dd4ccc533d4f05ff94646e3">getURI</a> ()</td></tr>
 <tr class="separator:ad9fb16b36dd4ccc533d4f05ff94646e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acffd07bcd4424073cb2871460076578a"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a02831.html#acffd07bcd4424073cb2871460076578a">attribute</a> (Geometry geom)</td></tr>
-<tr class="separator:acffd07bcd4424073cb2871460076578a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a43b4c73244bc6722ce551c1033cf1115"><td class="memItemLeft" align="right" valign="top">Value&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a02935.html#a43b4c73244bc6722ce551c1033cf1115">evaluate</a> (ValueFactory valueFactory, Value... args)  throws ValueExprEvaluationException </td></tr>
+<tr class="memitem:a43b4c73244bc6722ce551c1033cf1115"><td class="memItemLeft" align="right" valign="top">Value&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a03155.html#a43b4c73244bc6722ce551c1033cf1115">evaluate</a> (ValueFactory valueFactory, Value... args)  throws ValueExprEvaluationException </td></tr>
 <tr class="separator:a43b4c73244bc6722ce551c1033cf1115"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
+Protected Member Functions</h2></td></tr>
+<tr class="memitem:a55749ed449502e7f48f6e7e6bc7f1ea6"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a02831.html#a55749ed449502e7f48f6e7e6bc7f1ea6">relation</a> (Geometry g1, Geometry g2)</td></tr>
+<tr class="separator:a55749ed449502e7f48f6e7e6bc7f1ea6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="acffd07bcd4424073cb2871460076578a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acffd07bcd4424073cb2871460076578a">&#9670;&nbsp;</a></span>attribute()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">boolean attribute </td>
-          <td>(</td>
-          <td class="paramtype">Geometry&#160;</td>
-          <td class="paramname"><em>geom</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;                                                {</div><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;                <span class="keywordflow">if</span>(geom.isRectangle()) {</div><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;                        Double distance01=geom.getCoordinates()[0].distance(geom.getCoordinates()[1]);</div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;                        Double distance12=geom.getCoordinates()[1].distance(geom.getCoordinates()[2]);</div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;                        Double distance23=geom.getCoordinates()[2].distance(geom.getCoordinates()[3]);</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;                        Double distance34=geom.getCoordinates()[3].distance(geom.getCoordinates()[0]);</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;                        <span class="keywordflow">if</span>(distance01==distance23 &amp;&amp; distance12==distance34 &amp;&amp; distance01==distance12 &amp;&amp; distance23==distance34)</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;                                <span class="keywordflow">return</span> <span class="keyword">true</span>;</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;                }</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;                <span class="keywordflow">return</span> <span class="keyword">false</span>;</div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;        }</div></div><!-- fragment -->
-</div>
-</div>
 <a id="a43b4c73244bc6722ce551c1033cf1115"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a43b4c73244bc6722ce551c1033cf1115">&#9670;&nbsp;</a></span>evaluate()</h2>
 
@@ -146,10 +132,10 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="a02935.html#acdd4815d6c10d509e8fa15627feb0d27">GeometricBinaryAttributeFunction.attribute()</a>, and <a class="el" href="a04747.html#a8796f5aec1965b6c4e88b2ba7c1d2e53">LiteralRegistry.getLiteral()</a>.</p>
+<p class="reference">References <a class="el" href="a04895.html#a8796f5aec1965b6c4e88b2ba7c1d2e53">LiteralRegistry.getLiteral()</a>, <a class="el" href="a03155.html#a0222f40044556cbd0371e7d63eed32cb">GeometricRelationBinaryFunction.relation()</a>, and <a class="el" href="a05027.html#adb6db926db08da5c0c4a8ad8cfb1ff2d">LiteralUtils.transform()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="a05095.html#ab8f9e80081b7ac2106ef406ffbb215e2">IsCollectionTest.testGeometryCollectionIsCollection()</a>, <a class="el" href="a05531.html#a725a2cc1c4ba4909307c9a2fa07558d8">HasConnectedInteriorTest.testHasConnectedInteriorFalse()</a>, <a class="el" href="a05531.html#a95e618db9d2053f26b5194e3bec0d2a0">HasConnectedInteriorTest.testHasConnectedInteriorTrue()</a>, <a class="el" href="a05535.html#a3957683118b9d5473c635a38d7e6c6e8">HasDuplicateRingsTest.testHasDuplicateRingsFalse()</a>, <a class="el" href="a05535.html#a3779f6b4849bf60c716f7dff71089a2a">HasDuplicateRingsTest.testHasDuplicateRingsTrue()</a>, <a class="el" href="a05087.html#ac91c06c07e42b36c2957d3b47609ea12">HasRepeatedPointsTest.testHasRepeatedPoints()</a>, <a class="el" href="a05087.html#a573715384a3d69a8e8c4722bc82c5e5e">HasRepeatedPointsTest.testHasRepeatedPoints2()</a>, <a class="el" href="a05091.html#ab78a03db57d15bcac7ef5487e5bee11e">Is3DTest.testIs3DFalse()</a>, <a class="el" href="a05539.html#a5b3dbe6f41b97c30eaff61a7c0c6f344">IsAcuteTest.testIsAcuteFalse()</a>, <a class="el" href="a05539.html#aea45a7ea1a6bbd2c8bf3bfa751ec4e1f">IsAcuteTest.testIsAcuteTrue()</a>, <a class="el" href="a05547.html#a84d7af36a321a8f38760993ee03431f1">IsConvexTest.testIsConvexFalse()</a>, <a class="el" href="a05547.html#a72b02d577b66678dc78571b6ca1901cc">IsConvexTest.testIsConvexTrue()</a>, <a class="el" href="a05099.html#ad6c1db43fc5b06667b4d7679c36196bf">IsEmptyTest.testIsEmptyFalse()</a>, <a class="el" href="a05099.html#acf5aa6d804534044ced38ebbf685b780">IsEmptyTest.testIsEmptyTrue()</a>, <a class="el" href="a05551.html#aa81dce05daae6f34aac43c24bd033ef0">IsIsocelesTriangleTest.testIsIsocelesTriangleFalse()</a>, <a class="el" href="a05551.html#aae4d62f37acbace0beb2e9dbba631072">IsIsocelesTriangleTest.testIsIsocelesTriangleTrue()</a>, <a class="el" href="a05103.html#a0d34749daed816e995d607f25393f8bd">IsMeasuredTest.testIsMeasuredFalse()</a>, <a class="el" href="a05103.html#a94b07ea8a866ff9332c709b77d204342">IsMeasuredTest.testIsMeasuredTrue()</a>, <a class="el" href="a05107.html#af36f9410a0c4d62c262b4398b5723223">IsNodingValidTest.testIsNodingValuedTrue()</a>, <a class="el" href="a05111.html#a0e75cb938cfe0c5f0e6555d748eccf2d">IsPlanarTest.testIsPlanarTrue()</a>, <a class="el" href="a05555.html#a68f9159867e6465340465684732c1eb6">IsPolygonCCWTest.testIsPolygonCCWFalse()</a>, <a class="el" href="a05555.html#a1f97fe37dded953f0f1c89d25f651edc">IsPolygonCCWTest.testIsPolygonCCWTrue()</a>, <a class="el" href="a05559.html#a017c3fe070c2ab2e34a67d428cec06d3">IsPolygonCWTest.testIsPolygonCWFalse()</a>, <a class="el" href="a05559.html#a65124e83aa8d64983e3fc4a131479949">IsPolygonCWTest.testIsPolygonCWTrue()</a>, <a class="el" href="a05115.html#a0e3a5c39c0d37b52035d9e40cf70b7ef">IsSolidTest.testIsSolidFalse()</a>, <a class="el" href="a05563.html#a9a683ec2f8cc07231bddc07213698183">IsTriangleTest.testIsTriangleFalse()</a>, <a class="el" href="a05563.html#a6a1ccdd76246a421ef6ae80bc7c4e87c">IsTriangleTest.testIsTriangleTrue()</a>, <a class="el" href="a05543.html#a535dfcf17dd3d286958ec2268d19deb5">IsClosedTest.testLineStringClosed()</a>, <a class="el" href="a05095.html#a513937962f26a1affcc4d0c369733a79">IsCollectionTest.testLineStringIsCollection()</a>, <a class="el" href="a05435.html#a321e37eed11ab4c4fb34459ff2f0c8a4">IsRingTest.testLineStringIsNotRing()</a>, <a class="el" href="a05435.html#af99150f0a2baa803f3a32475e363a546">IsRingTest.testLineStringIsRing()</a>, <a class="el" href="a05543.html#a73d74b41617d10452367388732cfdc67">IsClosedTest.testLineStringNotClosed()</a>, <a class="el" href="a05095.html#af185514d9e978598dc7aa4ba06572494">IsCollectionTest.testMultiLineStringIsCollection()</a>, <a class="el" href="a05543.html#a46c6b5fafb3fb83ca34bed8a76614a05">IsClosedTest.testMultiLineStringNotClosed()</a>, <a class="el" href="a05543.html#a3ccb0f6a8770f2a4ac3d61a34e17308e">IsClosedTest.testmultiPointClosed()</a>, <a class="el" href="a05095.html#abe0dc5056717b405438313e86f9017f2">IsCollectionTest.testMultiPointIsCollection()</a>, <a class="el" href="a05095.html#a3cb8a0ddd3838eedbcbb6c1651e3a9c0">IsCollectionTest.testMultiPolygonIsCollection()</a>, <a class="el" href="a05543.html#a833c7f3f2807c95b41de4f5c776b7eb0">IsClosedTest.testpointClosed()</a>, <a class="el" href="a05095.html#ae050c74afe9d24c25aa8cfddca93609d">IsCollectionTest.testPointIsCollection()</a>, and <a class="el" href="a05095.html#aa73539bce49dc7ae2102874315d15e51">IsCollectionTest.testPolygonIsCollection()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;                                                                                                            {</div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;                <span class="keywordflow">if</span> (args.length != 1) {</div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;                        <span class="keywordflow">throw</span> <span class="keyword">new</span> ValueExprEvaluationException(getURI() + <span class="stringliteral">&quot; requires exactly 1 arguments, got &quot;</span> + args.length);</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;                }</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;                </div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;                LiteralType l=LiteralRegistry.getLiteral(((Literal)args[0]).getDatatype().toString());</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;                System.out.println(l);</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;                <span class="keywordflow">if</span>(l instanceof VectorLiteral) {</div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;                        Geometry geom=((VectorLiteral)l).read(args[0].stringValue());</div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;                        <span class="keywordtype">boolean</span> result = <a class="code" href="a02935.html#acdd4815d6c10d509e8fa15627feb0d27">attribute</a>(geom);</div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;                        <span class="keywordflow">return</span> valueFactory.createLiteral(result);</div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;                }</div><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;                <span class="keywordflow">throw</span> <span class="keyword">new</span> ValueExprEvaluationException(<span class="stringliteral">&quot;Argument given is not a geometry literal&quot;</span>);</div><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;</div><div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;        }</div><div class="ttc" id="a02935_html_acdd4815d6c10d509e8fa15627feb0d27"><div class="ttname"><a href="a02935.html#acdd4815d6c10d509e8fa15627feb0d27">org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.geometry.base.GeometricBinaryAttributeFunction.attribute</a></div><div class="ttdeci">abstract boolean attribute(Geometry geom)</div></div>
+<p class="reference">Referenced by <a class="el" href="a05187.html#a0e5151be9c17b1a363f0e9587a76dad8">BBOXAboveTest.testBBOXAbove()</a>, <a class="el" href="a05187.html#afef7a8dc9560d094946b475413049d29">BBOXAboveTest.testBBOXAbove1()</a>, <a class="el" href="a05191.html#a594cd72ca71bae81e2fc3388cd6a1acf">BBOXBelowTest.testBBOXBelow()</a>, <a class="el" href="a05191.html#a93106ea7627b07fa96ea139a729727c1">BBOXBelowTest.testBBOXBelow1()</a>, <a class="el" href="a05199.html#acc092dffcd1d5d422d27501b6b691ef0">BBOXLeftOfTest.testBBOXLeftOf()</a>, <a class="el" href="a05199.html#a635c2e49e869cfa91cf3defbcde7f5ad">BBOXLeftOfTest.testBBOXLeftOf1()</a>, <a class="el" href="a05203.html#a1d3293620606e59a1f913178b94ea7fd">BBOXOverlapsRightTest.testBBOXRightOf()</a>, <a class="el" href="a05207.html#a1d3293620606e59a1f913178b94ea7fd">BBOXRightOfTest.testBBOXRightOf()</a>, <a class="el" href="a05203.html#ae27abe3e3daa14fdd8094ad71b5cb2cc">BBOXOverlapsRightTest.testBBOXRightOf1()</a>, <a class="el" href="a05207.html#ae27abe3e3daa14fdd8094ad71b5cb2cc">BBOXRightOfTest.testBBOXRightOf1()</a>, <a class="el" href="a05471.html#a2a99a285d6ad7938bb12707abf0b2dd2">EqualTypeTest.testEqual()</a>, <a class="el" href="a05459.html#a1928f13a833e5a2e8b142a5937d86c8b">EqualNormTest.testEqualNormFalse()</a>, <a class="el" href="a05459.html#ab11a3d6b71627dd555022e7a29ada7be">EqualNormTest.testEqualNormTrue()</a>, <a class="el" href="a05463.html#a65423949d44f9275c8e65852f1d2c21f">EqualSRSTest.testEqualSRS()</a>, <a class="el" href="a05467.html#a8274875a2d4c85b886223bd494666e36">EqualTopoTest.testEqualTopoFalse()</a>, <a class="el" href="a05467.html#a523cb10739809e6f16d7ba6f26d34cde">EqualTopoTest.testEqualTopoTrue()</a>, <a class="el" href="a05463.html#a9512f8c6cc810712e75379a2ac3af62a">EqualSRSTest.testNoSRS()</a>, <a class="el" href="a05471.html#a9195b3462bb379b0139e99b85954d5e4">EqualTypeTest.testNotEqual()</a>, <a class="el" href="a05463.html#a53e030c2e7a0f1d14425a168c2add23b">EqualSRSTest.testNotEqualSRS()</a>, <a class="el" href="a05511.html#a35b0ff8ac582857f1742c06e5db14fb2">OrderingEqualsTest.testOrderingEquals1()</a>, <a class="el" href="a05511.html#a258a7b3f7cf473377b4aaed9d19641c4">OrderingEqualsTest.testOrderingEquals2()</a>, and <a class="el" href="a05511.html#a47191a77968729eba6c2f943834b3992">OrderingEqualsTest.testOrderingEquals3()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;                                                                                                            {</div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;                <span class="keywordflow">if</span> (args.length != 2) {</div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;                        <span class="keywordflow">throw</span> <span class="keyword">new</span> ValueExprEvaluationException(getURI() + <span class="stringliteral">&quot; requires exactly 2 arguments, got &quot;</span> + args.length);</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;                }       </div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;                LiteralType l=LiteralRegistry.getLiteral(((Literal)args[0]).getDatatype().toString());</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;                LiteralType l2=LiteralRegistry.getLiteral(((Literal)args[1]).getDatatype().toString());</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;                <span class="keywordflow">if</span>(l instanceof VectorLiteral &amp;&amp; l2 instanceof VectorLiteral) {</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;                        Geometry geom=((VectorLiteral)l).read(args[0].stringValue());</div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;                        Geometry geom2=((VectorLiteral)l2).read(args[1].stringValue());</div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;                        Geometry transformed=LiteralUtils.transform(geom2, geom);</div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;                        <span class="keywordtype">boolean</span> result = <a class="code" href="a03155.html#a0222f40044556cbd0371e7d63eed32cb">relation</a>(geom,transformed);</div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;                        <span class="keywordflow">return</span> valueFactory.createLiteral(result);</div><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;                }</div><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;                <span class="keywordflow">throw</span> <span class="keyword">new</span> ValueExprEvaluationException(<span class="stringliteral">&quot;Arguments given are not a geometry literal&quot;</span>);</div><div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;                </div><div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;        }</div><div class="ttc" id="a03155_html_a0222f40044556cbd0371e7d63eed32cb"><div class="ttname"><a href="a03155.html#a0222f40044556cbd0371e7d63eed32cb">org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.geometry.base.GeometricRelationBinaryFunction.relation</a></div><div class="ttdeci">abstract boolean relation(Geometry g1, Geometry g2)</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -168,8 +154,46 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="a02575.html#ab798bcd7497ccfa9d7bbeb7340800047">POSTGIS.st_isSquare</a>.</p>
-<div class="fragment"><div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;                               {</div><div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;                <span class="keywordflow">return</span> POSTGIS.st_isSquare.stringValue();</div><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;        }</div></div><!-- fragment -->
+<p class="reference">References <a class="el" href="a02719.html#a3fba73bbfa5d1296267164b0e413f7ec">POSTGIS.st_bboxintersect</a>.</p>
+<div class="fragment"><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;                               {</div><div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;                <span class="keywordflow">return</span> POSTGIS.st_bboxintersect.stringValue();</div><div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;        }</div></div><!-- fragment -->
+</div>
+</div>
+<a id="a55749ed449502e7f48f6e7e6bc7f1ea6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a55749ed449502e7f48f6e7e6bc7f1ea6">&#9670;&nbsp;</a></span>relation()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean relation </td>
+          <td>(</td>
+          <td class="paramtype">Geometry&#160;</td>
+          <td class="paramname"><em>g1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Geometry&#160;</td>
+          <td class="paramname"><em>g2</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="a05027.html#adb6db926db08da5c0c4a8ad8cfb1ff2d">LiteralUtils.transform()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;                                                             {</div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;                Geometry transformed=LiteralUtils.transform(g2, g1);</div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;                <span class="keywordflow">return</span> g1.getEnvelope().intersects(transformed);</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;        }</div></div><!-- fragment -->
 </div>
 </div>
 </div><!-- contents -->
@@ -178,7 +202,7 @@ Public Member Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="a02430.html">org</a></li><li class="navelem"><a class="el" href="a02431.html">eclipse</a></li><li class="navelem"><a class="el" href="a02432.html">rdf4j</a></li><li class="navelem"><a class="el" href="a02435.html">query</a></li><li class="navelem"><a class="el" href="a02436.html">algebra</a></li><li class="navelem"><a class="el" href="a02437.html">evaluation</a></li><li class="navelem"><a class="el" href="a02438.html">function</a></li><li class="navelem"><a class="el" href="a02439.html">postgis</a></li><li class="navelem"><a class="el" href="a02446.html">geometry</a></li><li class="navelem"><a class="el" href="a02445.html">attribute</a></li><li class="navelem"><a class="el" href="a02831.html">IsSquare</a></li>
+    <li class="navelem"><a class="el" href="a02538.html">org</a></li><li class="navelem"><a class="el" href="a02539.html">eclipse</a></li><li class="navelem"><a class="el" href="a02540.html">rdf4j</a></li><li class="navelem"><a class="el" href="a02543.html">query</a></li><li class="navelem"><a class="el" href="a02544.html">algebra</a></li><li class="navelem"><a class="el" href="a02545.html">evaluation</a></li><li class="navelem"><a class="el" href="a02546.html">function</a></li><li class="navelem"><a class="el" href="a02547.html">postgis</a></li><li class="navelem"><a class="el" href="a02551.html">envelope</a></li><li class="navelem"><a class="el" href="a02552.html">relation</a></li><li class="navelem"><a class="el" href="a02831.html">BBOXIntersects</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>

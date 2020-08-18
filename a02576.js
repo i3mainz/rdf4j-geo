@@ -1,7 +1,7 @@
 var a02576 =
 [
-    [ "CoverageJSONReader", "a04969.html", "a04969" ],
-    [ "CoverageJsonWriter", "a04973.html", "a04973" ],
-    [ "VectorTileDecoder", "a04977.html", "a04977" ],
-    [ "VectorTileEncoder", "a04993.html", "a04993" ]
+    [ "MakePolygon", "a04023.html", "a04023" ],
+    [ "Polygon", "a04027.html", "a04027" ],
+    [ "PolygonFromText", "a04031.html", "a04031" ],
+    [ "PolygonFromWKB", "a04035.html", "a04035" ]
 ];

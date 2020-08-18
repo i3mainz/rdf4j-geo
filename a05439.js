@@ -1,7 +1,6 @@
 var a05439 =
 [
-    [ "testLineString", "a05439.html#a0444ce8df222ae81e1a33426a32d8d7a", null ],
-    [ "circularLineString", "a05439.html#aee32055959200ebcac903d7824ea55d3", null ],
-    [ "lineString", "a05439.html#a76e109dc83d6f4d16fcd2fa3e73054f6", null ],
-    [ "lineString3D", "a05439.html#a44ce866b8b8e60a4c3e77653b907706d", null ]
+    [ "testAreaSimilarity", "a05439.html#a6be5d939e472b1ba6360e0aed0003e21", null ],
+    [ "isocelesTriangle", "a05439.html#aa04dfbec745e2622b9f7646f8572e501", null ],
+    [ "notIsocelesTriangle", "a05439.html#a055d99fb63bcee37763ffcf4da9e0521", null ]
 ];

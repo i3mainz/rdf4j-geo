@@ -1,3 +1,6 @@
-<map id="AsGeoRSS" name="AsGeoRSS">
-<area shape="rect" id="node2" href="$a03092.html" title="GeometricStringExportFunction" alt="" coords="5,81,209,108"/>
+<map id="GeometricRelationModifierFunction" name="GeometricRelationModifierFunction">
+<area shape="rect" id="node3" href="$a03415.html" title="LongestLine" alt="" coords="5,169,97,196"/>
+<area shape="rect" id="node4" href="$a03447.html" title="ShortestLine" alt="" coords="121,169,216,196"/>
+<area shape="rect" id="node5" href="$a03451.html" title="ShortestLine3D" alt="" coords="241,169,353,196"/>
+<area shape="rect" id="node6" href="$a03759.html" title="Calculates shared paths of two geometries. " alt="" coords="377,169,475,196"/>
 </map>

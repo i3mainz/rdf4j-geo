@@ -1,5 +1,5 @@
 var a05219 =
 [
-    [ "testAsBinary", "a05219.html#ac230b10882e3be05bacc871fce2fc609", null ],
-    [ "testGeometry", "a05219.html#abc3f514f005cba49e406658e2d3086eb", null ]
+    [ "testBoundingDiagonal", "a05219.html#a5905b320ef165de047ef4ff2e9167268", null ],
+    [ "testPolygon", "a05219.html#a1e3187cbc25299380589200c398b3ffd", null ]
 ];

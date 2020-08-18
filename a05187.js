@@ -1,5 +1,9 @@
 var a05187 =
 [
-    [ "testGeomFromGeoJSON", "a05187.html#a64b3f7b5bcdec5b93820a9958c0622a3", null ],
-    [ "geoJsonTestGeom", "a05187.html#a117e8ff340791b5aa0658f5840b5dcf4", null ]
+    [ "testBBOXAbove", "a05187.html#a0e5151be9c17b1a363f0e9587a76dad8", null ],
+    [ "testBBOXAbove1", "a05187.html#afef7a8dc9560d094946b475413049d29", null ],
+    [ "testGeom1", "a05187.html#aa4a3b1a7e778ece72382f6600fa96b47", null ],
+    [ "testGeom2", "a05187.html#a6b4be369c8f60e973cd5126e69cd33a4", null ],
+    [ "testGeom3", "a05187.html#a800b6bb875a8ff4404ea787c3df125a5", null ],
+    [ "testGeom4", "a05187.html#a4c55e7efe430d6d220fb05524c4bb940", null ]
 ];

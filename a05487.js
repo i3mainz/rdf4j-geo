@@ -1,5 +1,8 @@
 var a05487 =
 [
-    [ "testZMax", "a05487.html#aa30e80ee55397130f30395f3c09b1e39", null ],
-    [ "testPoint", "a05487.html#af26f700ee129f846cac58735f6dcc380", null ]
+    [ "testIntersectionMatrix", "a05487.html#a8537ca55b85b9d59789190d637670f0b", null ],
+    [ "testGeom", "a05487.html#a03a5f5da0ccbeed8c1678d4317cf2672", null ],
+    [ "testGeom2", "a05487.html#a6b4be369c8f60e973cd5126e69cd33a4", null ],
+    [ "testGeom3", "a05487.html#a800b6bb875a8ff4404ea787c3df125a5", null ],
+    [ "testGeom4", "a05487.html#a4c55e7efe430d6d220fb05524c4bb940", null ]
 ];

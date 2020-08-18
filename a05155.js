@@ -1,9 +1,16 @@
 var a05155 =
 [
-    [ "test2DGeom", "a05155.html#a326426f92a343411bc6035a5e9a4192f", null ],
-    [ "test3DGeom", "a05155.html#aa6b2641c27685af72bd5946823648455", null ],
-    [ "testMGeom", "a05155.html#a17b047bacf8d47cfe9eb1b95260abd70", null ],
-    [ "geom2D", "a05155.html#a717e94cd8879a90c3d3fce5d3ae64eb6", null ],
-    [ "geom3D", "a05155.html#a972164b62d3d78e8fb03a17b761742a2", null ],
-    [ "geomM", "a05155.html#aa8cacb7883ca9f8160920fa287158fef", null ]
+    [ "calculate", "a05155.html#a1b9dd1e59eac3a2a15cb68c19e994fe4", null ],
+    [ "checkCoordinate", "a05155.html#a0a01f90a7fe27e3b66f1c87f019e91bc", null ],
+    [ "finalize", "a05155.html#a7626720b9bf807253dd702a0214dc9f0", null ],
+    [ "writeExtendedPrecision", "a05155.html#a320ccd90ec0ef71a4353104b7fe98a1c", null ],
+    [ "writePoint", "a05155.html#adedb1cd853d00648be239477f7fe4e2a", null ],
+    [ "writePointArray", "a05155.html#afeed21e7153170021427b1e7001d952b", null ],
+    [ "hasM", "a05155.html#a1eccf09f4c826ba480ec832ac4ce7718", null ],
+    [ "hasZ", "a05155.html#ab356995ed7cff0226d75484d03a994f2", null ],
+    [ "mPrecision", "a05155.html#a1b92282fc8148f040078b9bb37b30b15", null ],
+    [ "mPrecisionMultiplier", "a05155.html#a4ea667f57906c038bb9717bc848df77a", null ],
+    [ "precisionMultiplier", "a05155.html#a9aa85be4ec02c28a05cb552845fe08eb", null ],
+    [ "zPrecision", "a05155.html#abdd886294f53edb9018d91b1e049bef8", null ],
+    [ "zPrecisionMultiplier", "a05155.html#abb32d6067d519044d8c44d52ab2cdd44", null ]
 ];

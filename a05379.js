@@ -1,7 +1,6 @@
 var a05379 =
 [
-    [ "testForce3DM", "a05379.html#a809df5824b4a08713e4ce726cb369a8d", null ],
-    [ "testForce3DM2", "a05379.html#a1efd448688434012347e3bc8972acb49", null ],
-    [ "testPolygon", "a05379.html#a1e3187cbc25299380589200c398b3ffd", null ],
-    [ "testPolygon2", "a05379.html#a882729aec95621b4ad261714738ae3fd", null ]
+    [ "testSetGeometry", "a05379.html#af89f48a1a50817a7d76674ee1fc57cce", null ],
+    [ "lineString", "a05379.html#a76e109dc83d6f4d16fcd2fa3e73054f6", null ],
+    [ "point", "a05379.html#a081811ff1c2bedd0a20703599f90114f", null ]
 ];

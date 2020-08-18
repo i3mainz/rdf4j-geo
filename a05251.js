@@ -1,5 +1,5 @@
 var a05251 =
 [
-    [ "testAsSVG", "a05251.html#a7051938045f1413d97e8c5925b1c7677", null ],
-    [ "testGeometry", "a05251.html#abc3f514f005cba49e406658e2d3086eb", null ]
+    [ "testIsEmptyFalse", "a05251.html#ad6c1db43fc5b06667b4d7679c36196bf", null ],
+    [ "testIsEmptyTrue", "a05251.html#acf5aa6d804534044ced38ebbf685b780", null ]
 ];

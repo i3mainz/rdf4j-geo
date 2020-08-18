@@ -1,6 +1,5 @@
 var a05407 =
 [
-    [ "testShiftLongitude", "a05407.html#a706f714749526b3516c84d5741993811", null ],
-    [ "result", "a05407.html#aab356d6554a7301750f11ec7a85ac47d", null ],
-    [ "testPolygon", "a05407.html#a1e3187cbc25299380589200c398b3ffd", null ]
+    [ "testAsLatLonText", "a05407.html#a294440bf0a1785c6cea76200ebf53818", null ],
+    [ "testGeometry", "a05407.html#abc3f514f005cba49e406658e2d3086eb", null ]
 ];

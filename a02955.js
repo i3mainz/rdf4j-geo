@@ -1,5 +1,6 @@
 var a02955 =
 [
-    [ "attribute", "a02955.html#a97042de62a179d892a7b8c3b8959e587", null ],
-    [ "evaluate", "a02955.html#a43b4c73244bc6722ce551c1033cf1115", null ]
+    [ "attribute", "a02955.html#acffd07bcd4424073cb2871460076578a", null ],
+    [ "evaluate", "a02955.html#a43b4c73244bc6722ce551c1033cf1115", null ],
+    [ "getURI", "a02955.html#ad9fb16b36dd4ccc533d4f05ff94646e3", null ]
 ];

@@ -1,9 +1,6 @@
 var a05619 =
 [
-    [ "testDiv", "a05619.html#af62cdb248f1e7f2bb0372adcf20e8557", null ],
-    [ "combinedRasterLiteral", "a05619.html#a6efe8702be34a67e2bcbba55588c5b5f", null ],
-    [ "covJSONString1", "a05619.html#a993e2f127f3ec8f256e9799d77507223", null ],
-    [ "rasterBand", "a05619.html#a44dd712968b2420bbfbf9ae21d476b87", null ],
-    [ "rasterLiteral1", "a05619.html#a77798f856500689412dea069531a7606", null ],
-    [ "wkbString1", "a05619.html#ac94c157f6beb145deb3abfe76cbf5de2", null ]
+    [ "testPrecisionReducer", "a05619.html#a486d6504bb92a61902ac29e25b3d31a8", null ],
+    [ "resultGeom", "a05619.html#a3eff685a59eb24ce11d6dbd456fae0c2", null ],
+    [ "testGeom", "a05619.html#a03a5f5da0ccbeed8c1678d4317cf2672", null ]
 ];

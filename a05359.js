@@ -1,6 +1,6 @@
 var a05359 =
 [
-    [ "testCollectionExtract", "a05359.html#ad65aa26b3876b84d26c4b988083bd940", null ],
-    [ "res", "a05359.html#ab8deaae2f0a5506ff9fd02ff15e921cc", null ],
-    [ "testGeometry", "a05359.html#abc3f514f005cba49e406658e2d3086eb", null ]
+    [ "testAddGeometry", "a05359.html#a4ebf1443292e242753148cb8748d9169", null ],
+    [ "lineString", "a05359.html#a76e109dc83d6f4d16fcd2fa3e73054f6", null ],
+    [ "point", "a05359.html#a081811ff1c2bedd0a20703599f90114f", null ]
 ];

@@ -1,9 +1,5 @@
 var a04839 =
 [
-    [ "read", "a04839.html#a793358fbd6ef538a24eabab1bd50ef01", null ],
-    [ "toString", "a04839.html#ad146fa8579a5f8a876c4688cc5a68520", null ],
-    [ "unparse", "a04839.html#ae918a517e1ebcc44beeee2c55008d248", null ],
-    [ "INSTANCE", "a04839.html#a2ef763e8a7d3b73f7a4eb1c3cb0f681b", null ],
-    [ "KML_PREFIX", "a04839.html#ad23c5afe46f654a7d409a229f54a9b2f", null ],
-    [ "URI", "a04839.html#addbf30e6c0ad68fa34277d59a2c6eb5e", null ]
+    [ "evaluate", "a04839.html#a43b4c73244bc6722ce551c1033cf1115", null ],
+    [ "getURI", "a04839.html#ad9fb16b36dd4ccc533d4f05ff94646e3", null ]
 ];

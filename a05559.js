@@ -1,7 +1,6 @@
 var a05559 =
 [
-    [ "testIsPolygonCWFalse", "a05559.html#a017c3fe070c2ab2e34a67d428cec06d3", null ],
-    [ "testIsPolygonCWTrue", "a05559.html#a65124e83aa8d64983e3fc4a131479949", null ],
-    [ "testPolygon", "a05559.html#a1e3187cbc25299380589200c398b3ffd", null ],
-    [ "testPolygon2", "a05559.html#a882729aec95621b4ad261714738ae3fd", null ]
+    [ "testSridIsGeographicFalse", "a05559.html#abd1395d0581a64740ed1bae57b2882b3", null ],
+    [ "testSridIsGeographicTrue", "a05559.html#a09f0ac6b4b2a063a3d1df32d600b9b11", null ],
+    [ "testPoint", "a05559.html#af26f700ee129f846cac58735f6dcc380", null ]
 ];

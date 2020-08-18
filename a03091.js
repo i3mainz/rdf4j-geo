@@ -1,6 +1,5 @@
 var a03091 =
 [
-    [ "evaluate", "a03091.html#a43b4c73244bc6722ce551c1033cf1115", null ],
-    [ "getURI", "a03091.html#ad9fb16b36dd4ccc533d4f05ff94646e3", null ],
-    [ "relation", "a03091.html#aff25ff8b7911e1c241669531d923ae62", null ]
+    [ "construct", "a03091.html#a6b6fd7e67c7e4fd6be1da3b1076a61de", null ],
+    [ "evaluate", "a03091.html#a43b4c73244bc6722ce551c1033cf1115", null ]
 ];

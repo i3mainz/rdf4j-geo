@@ -1,9 +1,7 @@
 var a05667 =
 [
-    [ "testXorConst", "a05667.html#a8625a2ec50f53b63873b3e598de8b71e", null ],
-    [ "combinedRasterLiteral", "a05667.html#a6efe8702be34a67e2bcbba55588c5b5f", null ],
-    [ "covJSONString1", "a05667.html#a993e2f127f3ec8f256e9799d77507223", null ],
-    [ "rasterBand", "a05667.html#a44dd712968b2420bbfbf9ae21d476b87", null ],
-    [ "rasterLiteral1", "a05667.html#a77798f856500689412dea069531a7606", null ],
-    [ "wkbString1", "a05667.html#ac94c157f6beb145deb3abfe76cbf5de2", null ]
+    [ "testLineString", "a05667.html#a0444ce8df222ae81e1a33426a32d8d7a", null ],
+    [ "circularLineString", "a05667.html#aee32055959200ebcac903d7824ea55d3", null ],
+    [ "lineString", "a05667.html#a76e109dc83d6f4d16fcd2fa3e73054f6", null ],
+    [ "lineString3D", "a05667.html#a44ce866b8b8e60a4c3e77653b907706d", null ]
 ];

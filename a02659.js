@@ -1,6 +1,10 @@
 var a02659 =
 [
-    [ "evaluate", "a02659.html#a43b4c73244bc6722ce551c1033cf1115", null ],
-    [ "getURI", "a02659.html#ad9fb16b36dd4ccc533d4f05ff94646e3", null ],
-    [ "operation", "a02659.html#a7719320b83dd8de753a7e13fc75c9c55", null ]
+    [ "AddGeometryTest", "a06391.html", "a06391" ],
+    [ "AddPointTest", "a06395.html", "a06395" ],
+    [ "EnsureClosedTest", "a06399.html", "a06399" ],
+    [ "RemoveGeometryTest", "a06403.html", "a06403" ],
+    [ "RemovePointTest", "a06407.html", "a06407" ],
+    [ "SetGeometryTest", "a06411.html", "a06411" ],
+    [ "SetPointTest", "a06415.html", "a06415" ]
 ];

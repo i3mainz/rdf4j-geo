@@ -1,5 +1,8 @@
 var a05495 =
 [
-    [ "testXMin", "a05495.html#aaa132c80f0f011e968829153a96b9402", null ],
-    [ "testPoint", "a05495.html#af26f700ee129f846cac58735f6dcc380", null ]
+    [ "testIsMorePreciseEqual", "a05495.html#af73484f4bc31d84668467514e4c723ab", null ],
+    [ "testIsMorePreciseFirst", "a05495.html#a0472b697feac19fb09cd117d6d4048f2", null ],
+    [ "testIsMorePreciseSecond", "a05495.html#a019fb2f806ef7386d3a5b6411e62ac44", null ],
+    [ "testGeom", "a05495.html#a03a5f5da0ccbeed8c1678d4317cf2672", null ],
+    [ "testGeom2", "a05495.html#a6b4be369c8f60e973cd5126e69cd33a4", null ]
 ];

@@ -1,8 +1,11 @@
 var a05675 =
 [
-    [ "testBandNoDataValue", "a05675.html#aaaf20855ce31778cb59733863e26fe2f", null ],
-    [ "covJSONString1", "a05675.html#a993e2f127f3ec8f256e9799d77507223", null ],
-    [ "rasterBand", "a05675.html#a44dd712968b2420bbfbf9ae21d476b87", null ],
-    [ "rasterLiteral1", "a05675.html#a77798f856500689412dea069531a7606", null ],
-    [ "wkbString1", "a05675.html#ac94c157f6beb145deb3abfe76cbf5de2", null ]
+    [ "testCircularString", "a05675.html#ab117b00757c51734ab1129a2d595a5cb", null ],
+    [ "testLineString2D", "a05675.html#a100e1041d9eed0108cb20adfb3ccb714", null ],
+    [ "testLineString3D", "a05675.html#aed8078596e87405b402dec09f15eb681", null ],
+    [ "testPoint", "a05675.html#a67242842aad66b0a00820a5d4d7ea731", null ],
+    [ "CircularString", "a05675.html#a36d54187644365aa1e8e8eded3076e3f", null ],
+    [ "LineString2D", "a05675.html#a4a6127d0b7f1eecce2d32442325f7735", null ],
+    [ "LineString3D", "a05675.html#a7f1b41b47d9de827d79c109c50a189f5", null ],
+    [ "point", "a05675.html#a081811ff1c2bedd0a20703599f90114f", null ]
 ];

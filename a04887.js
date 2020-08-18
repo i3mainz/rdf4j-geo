@@ -1,6 +1,8 @@
 var a04887 =
 [
-    [ "CoverageJsonWriter", "a04887.html#a808b85bccc4d21848073a44984c752b7", null ],
-    [ "coverageToCovJSON", "a04887.html#a5f7211b80d30549d072ee3e90cc72ee0", null ],
-    [ "coverage", "a04887.html#a0db1f475b2dcaa5dfc0e64e99d84b135", null ]
+    [ "endElement", "a04887.html#a10611466eae545076e06b863ab61bddc", null ],
+    [ "startElement", "a04887.html#a498ebb87fe1777ffb95b7425e8d91fc5", null ],
+    [ "coordinates", "a04887.html#abb24f058bb4de414d0a011098ce417d9", null ],
+    [ "currentIndex", "a04887.html#a1a96241ab9720c944927883db3f7c073", null ],
+    [ "insegment", "a04887.html#a806e19cbf1d5bbafe0133b9f2fd64cdd", null ]
 ];

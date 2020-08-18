@@ -1,5 +1,5 @@
 var a05387 =
 [
-    [ "testForce4D", "a05387.html#ad31ba6d34e7770eae5de0864a25b1766", null ],
-    [ "testLineString", "a05387.html#a33797029fadbcba01b4a4fafec88cf41", null ]
+    [ "testAsBinary", "a05387.html#ac230b10882e3be05bacc871fce2fc609", null ],
+    [ "testGeometry", "a05387.html#abc3f514f005cba49e406658e2d3086eb", null ]
 ];

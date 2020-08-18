@@ -1,4 +1,9 @@
 var a05891 =
 [
-    [ "testMeterToLink", "a05891.html#a8efd4bc66556367912a55c1d21a98740", null ]
+    [ "testMult", "a05891.html#ab45f511a7f2f9c82a5f7d24e30e1cad0", null ],
+    [ "combinedRasterLiteral", "a05891.html#a6efe8702be34a67e2bcbba55588c5b5f", null ],
+    [ "covJSONString1", "a05891.html#a993e2f127f3ec8f256e9799d77507223", null ],
+    [ "rasterBand", "a05891.html#a44dd712968b2420bbfbf9ae21d476b87", null ],
+    [ "rasterLiteral1", "a05891.html#a77798f856500689412dea069531a7606", null ],
+    [ "wkbString1", "a05891.html#ac94c157f6beb145deb3abfe76cbf5de2", null ]
 ];

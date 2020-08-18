@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>rdf4j-postgis: MinimumClearanceLineTest Class Reference</title>
+<title>rdf4j-postgis: TWKBReader.PrecisionReader Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -62,54 +62,104 @@ $(document).ready(function(){initNavTree('a05135.html','');});
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pub-static-attribs">Static Public Attributes</a> &#124;
+<a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="a05132.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">MinimumClearanceLineTest Class Reference</div>  </div>
+<div class="title">TWKBReader.PrecisionReader Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 <div class="dynheader">
-Collaboration diagram for MinimumClearanceLineTest:</div>
+Inheritance diagram for TWKBReader.PrecisionReader:</div>
 <div class="dyncontent">
-<div class="center"><img src="a05133.png" border="0" usemap="#MinimumClearanceLineTest_coll__map" alt="Collaboration graph"/></div>
-<map name="MinimumClearanceLineTest_coll__map" id="MinimumClearanceLineTest_coll__map">
+<div class="center"><img src="a05134.png" border="0" usemap="#TWKBReader_8PrecisionReader_inherit__map" alt="Inheritance graph"/></div>
+<map name="TWKBReader_8PrecisionReader_inherit__map" id="TWKBReader_8PrecisionReader_inherit__map">
+<area shape="rect" id="node2" href="a05139.html" title="TWKBReader.ExtendedPrecision\lReader" alt="" coords="5,80,221,121"/>
+</map>
+<center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
+<div class="dynheader">
+Collaboration diagram for TWKBReader.PrecisionReader:</div>
+<div class="dyncontent">
+<div class="center"><img src="a05133.png" border="0" usemap="#TWKBReader_8PrecisionReader_coll__map" alt="Collaboration graph"/></div>
+<map name="TWKBReader_8PrecisionReader_coll__map" id="TWKBReader_8PrecisionReader_coll__map">
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a61877f78d0d415e1cd48f477474017e6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05135.html#a61877f78d0d415e1cd48f477474017e6">testMinimumClearanceLine</a> ()</td></tr>
-<tr class="separator:a61877f78d0d415e1cd48f477474017e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af4edc5e5b8d78201415bc23188bf2978"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05135.html#af4edc5e5b8d78201415bc23188bf2978">PrecisionReader</a> (final int precision)</td></tr>
+<tr class="separator:af4edc5e5b8d78201415bc23188bf2978"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a04d3647950410c96c47734decf0e12b5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="a05159.html">Coordinate</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05135.html#a04d3647950410c96c47734decf0e12b5">readPoint</a> (final DataInput input)  throws IOException </td></tr>
+<tr class="separator:a04d3647950410c96c47734decf0e12b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1bbf2e471d2964af19292437ad42729b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="a05159.html">Coordinate</a> []&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05135.html#a1bbf2e471d2964af19292437ad42729b">readPointArray</a> (final DataInput input)  throws IOException </td></tr>
+<tr class="separator:a1bbf2e471d2964af19292437ad42729b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
-Static Public Attributes</h2></td></tr>
-<tr class="memitem:a1e3187cbc25299380589200c398b3ffd"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05135.html#a1e3187cbc25299380589200c398b3ffd">testPolygon</a> =&quot;POLYGON ((0 0, 1 0, 1 1, 0.5 3.2e-4, 0 0))&quot;</td></tr>
-<tr class="separator:a1e3187cbc25299380589200c398b3ffd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
+Protected Attributes</h2></td></tr>
+<tr class="memitem:a9aa85be4ec02c28a05cb552845fe08eb"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05135.html#a9aa85be4ec02c28a05cb552845fe08eb">precisionMultiplier</a></td></tr>
+<tr class="separator:a9aa85be4ec02c28a05cb552845fe08eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Function Documentation</h2>
-<a id="a61877f78d0d415e1cd48f477474017e6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a61877f78d0d415e1cd48f477474017e6">&#9670;&nbsp;</a></span>testMinimumClearanceLine()</h2>
+<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="af4edc5e5b8d78201415bc23188bf2978"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af4edc5e5b8d78201415bc23188bf2978">&#9670;&nbsp;</a></span>PrecisionReader()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void testMinimumClearanceLine </td>
+          <td class="memname"><a class="el" href="a05135.html">PrecisionReader</a> </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype">final int&#160;</td>
+          <td class="paramname"><em>precision</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160;                                               {</div><div class="line"><a name="l00235"></a><span class="lineno">  235</span>&#160;     <a class="code" href="a05135.html#a9aa85be4ec02c28a05cb552845fe08eb">precisionMultiplier</a> = Math.pow(10, precision);</div><div class="line"><a name="l00236"></a><span class="lineno">  236</span>&#160;   }</div><div class="ttc" id="a05135_html_a9aa85be4ec02c28a05cb552845fe08eb"><div class="ttname"><a href="a05135.html#a9aa85be4ec02c28a05cb552845fe08eb">org.locationtech.geowave.core.geotime.util.TWKBReader.PrecisionReader.precisionMultiplier</a></div><div class="ttdeci">double precisionMultiplier</div><div class="ttdef"><b>Definition:</b> TWKBReader.java:232</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a04d3647950410c96c47734decf0e12b5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a04d3647950410c96c47734decf0e12b5">&#9670;&nbsp;</a></span>readPoint()</h2>
 
-<p class="reference">References <a class="el" href="a03051.html#a43b4c73244bc6722ce551c1033cf1115">GeometricUnaryFunction.evaluate()</a>, and <a class="el" href="a04871.html#ae02c2e86ac0dea8538c7b43e9e82421a">WKTDatatype.LiteralIRI</a>.</p>
-<div class="fragment"><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;                                               {</div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;                MinimumClearanceLine instance=<span class="keyword">new</span> MinimumClearanceLine();</div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;                ValueFactory valfac=SimpleValueFactory.getInstance();</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;                Value geo=valfac.createLiteral(<a class="code" href="a05135.html#a1e3187cbc25299380589200c398b3ffd">testPolygon</a>, WKTDatatype.LiteralIRI);</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;                Value result=instance.evaluate(valfac, geo);</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;                Value expResult=valfac.createLiteral(<span class="stringliteral">&quot;LINESTRING (0.5 0.00032, 0.5 0)&quot;</span>, WKTDatatype.LiteralIRI);</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;            assertEquals(expResult, result);</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;        }</div><div class="ttc" id="a05135_html_a1e3187cbc25299380589200c398b3ffd"><div class="ttname"><a href="a05135.html#a1e3187cbc25299380589200c398b3ffd">de.hsmainz.cs.semgis.arqextension.test.geometry.attribute.MinimumClearanceLineTest.testPolygon</a></div><div class="ttdeci">static final String testPolygon</div><div class="ttdef"><b>Definition:</b> MinimumClearanceLineTest.java:14</div></div>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="a05159.html">Coordinate</a> readPoint </td>
+          <td>(</td>
+          <td class="paramtype">final DataInput&#160;</td>
+          <td class="paramname"><em>input</em></td><td>)</td>
+          <td> throws IOException</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00238"></a><span class="lineno">  238</span>&#160;                                                                         {</div><div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160;     <span class="keywordflow">return</span> <span class="keyword">new</span> Coordinate(</div><div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;         (Varint.readSignedVarLong(input)) / <a class="code" href="a05135.html#a9aa85be4ec02c28a05cb552845fe08eb">precisionMultiplier</a>,</div><div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160;         (Varint.readSignedVarLong(input)) / <a class="code" href="a05135.html#a9aa85be4ec02c28a05cb552845fe08eb">precisionMultiplier</a>);</div><div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160;   }</div><div class="ttc" id="a05135_html_a9aa85be4ec02c28a05cb552845fe08eb"><div class="ttname"><a href="a05135.html#a9aa85be4ec02c28a05cb552845fe08eb">org.locationtech.geowave.core.geotime.util.TWKBReader.PrecisionReader.precisionMultiplier</a></div><div class="ttdeci">double precisionMultiplier</div><div class="ttdef"><b>Definition:</b> TWKBReader.java:232</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a1bbf2e471d2964af19292437ad42729b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1bbf2e471d2964af19292437ad42729b">&#9670;&nbsp;</a></span>readPointArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="a05159.html">Coordinate</a> [] readPointArray </td>
+          <td>(</td>
+          <td class="paramtype">final DataInput&#160;</td>
+          <td class="paramname"><em>input</em></td><td>)</td>
+          <td> throws IOException</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160;                                                                                {</div><div class="line"><a name="l00245"></a><span class="lineno">  245</span>&#160;     <span class="keyword">final</span> <span class="keywordtype">int</span> numCoordinates = Varint.readUnsignedVarInt(input);</div><div class="line"><a name="l00246"></a><span class="lineno">  246</span>&#160;     <span class="keyword">final</span> Coordinate[] coordinates = <span class="keyword">new</span> Coordinate[numCoordinates];</div><div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160;     <span class="keywordtype">long</span> lastX = 0;</div><div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160;     <span class="keywordtype">long</span> lastY = 0;</div><div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160;     <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; numCoordinates; i++) {</div><div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;       lastX = Varint.readSignedVarLong(input) + lastX;</div><div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;       lastY = Varint.readSignedVarLong(input) + lastY;</div><div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;       coordinates[i] =</div><div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;           <span class="keyword">new</span> Coordinate((lastX) / <a class="code" href="a05135.html#a9aa85be4ec02c28a05cb552845fe08eb">precisionMultiplier</a>, (lastY) / <a class="code" href="a05135.html#a9aa85be4ec02c28a05cb552845fe08eb">precisionMultiplier</a>);</div><div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160;     }</div><div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160;     <span class="keywordflow">return</span> coordinates;</div><div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160;   }</div><div class="ttc" id="a05135_html_a9aa85be4ec02c28a05cb552845fe08eb"><div class="ttname"><a href="a05135.html#a9aa85be4ec02c28a05cb552845fe08eb">org.locationtech.geowave.core.geotime.util.TWKBReader.PrecisionReader.precisionMultiplier</a></div><div class="ttdeci">double precisionMultiplier</div><div class="ttdef"><b>Definition:</b> TWKBReader.java:232</div></div>
 </div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="a1e3187cbc25299380589200c398b3ffd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1e3187cbc25299380589200c398b3ffd">&#9670;&nbsp;</a></span>testPolygon</h2>
+<a id="a9aa85be4ec02c28a05cb552845fe08eb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9aa85be4ec02c28a05cb552845fe08eb">&#9670;&nbsp;</a></span>precisionMultiplier</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -118,12 +168,12 @@ Static Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">final String testPolygon =&quot;POLYGON ((0 0, 1 0, 1 1, 0.5 3.2e-4, 0 0))&quot;</td>
+          <td class="memname">double precisionMultiplier</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -136,7 +186,7 @@ Static Public Attributes</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="a02419.html">de</a></li><li class="navelem"><a class="el" href="a02420.html">hsmainz</a></li><li class="navelem"><a class="el" href="a02421.html">cs</a></li><li class="navelem"><a class="el" href="a02422.html">semgis</a></li><li class="navelem"><a class="el" href="a02423.html">arqextension</a></li><li class="navelem"><a class="el" href="a02513.html">test</a></li><li class="navelem"><a class="el" href="a02516.html">geometry</a></li><li class="navelem"><a class="el" href="a02515.html">attribute</a></li><li class="navelem"><a class="el" href="a05135.html">MinimumClearanceLineTest</a></li>
+    <li class="navelem"><a class="el" href="a02538.html">org</a></li><li class="navelem"><a class="el" href="a02609.html">locationtech</a></li><li class="navelem"><a class="el" href="a02610.html">geowave</a></li><li class="navelem"><a class="el" href="a02611.html">core</a></li><li class="navelem"><a class="el" href="a02612.html">geotime</a></li><li class="navelem"><a class="el" href="a02608.html">util</a></li><li class="navelem"><a class="el" href="a05127.html">TWKBReader</a></li><li class="navelem"><a class="el" href="a05135.html">PrecisionReader</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>

@@ -1,7 +1,5 @@
 var a05547 =
 [
-    [ "testIsConvexFalse", "a05547.html#a84d7af36a321a8f38760993ee03431f1", null ],
-    [ "testIsConvexTrue", "a05547.html#a72b02d577b66678dc78571b6ca1901cc", null ],
-    [ "isocelesTriangle", "a05547.html#aa04dfbec745e2622b9f7646f8572e501", null ],
-    [ "notIsocelesTriangle", "a05547.html#a055d99fb63bcee37763ffcf4da9e0521", null ]
+    [ "testSridAxis2Orientation", "a05547.html#a4cce208d444c0a86d19f93731ff4a6b3", null ],
+    [ "testPoint", "a05547.html#af26f700ee129f846cac58735f6dcc380", null ]
 ];

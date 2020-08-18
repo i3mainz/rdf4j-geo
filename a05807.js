@@ -1,8 +1,7 @@
 var a05807 =
 [
-    [ "testTileHeight", "a05807.html#a9d781bf26af7708485de4c5a108a5b5e", null ],
-    [ "covJSONString1", "a05807.html#a993e2f127f3ec8f256e9799d77507223", null ],
-    [ "rasterBand", "a05807.html#a44dd712968b2420bbfbf9ae21d476b87", null ],
-    [ "rasterLiteral1", "a05807.html#a77798f856500689412dea069531a7606", null ],
-    [ "wkbString1", "a05807.html#ac94c157f6beb145deb3abfe76cbf5de2", null ]
+    [ "testIsPolygonCWFalse", "a05807.html#a017c3fe070c2ab2e34a67d428cec06d3", null ],
+    [ "testIsPolygonCWTrue", "a05807.html#a65124e83aa8d64983e3fc4a131479949", null ],
+    [ "testPolygon", "a05807.html#a1e3187cbc25299380589200c398b3ffd", null ],
+    [ "testPolygon2", "a05807.html#a882729aec95621b4ad261714738ae3fd", null ]
 ];

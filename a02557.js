@@ -1,10 +1,11 @@
 var a02557 =
 [
-    [ "AddBand", "a04421.html", "a04421" ],
-    [ "SetBandNoDataValue", "a04425.html", "a04425" ],
-    [ "SetGeoReference", "a04429.html", null ],
-    [ "SetRotation", "a04433.html", "a04433" ],
-    [ "SetScale", "a04437.html", "a04437" ],
-    [ "SetSkew", "a04441.html", "a04441" ],
-    [ "SetUpperLeft", "a04445.html", "a04445" ]
+    [ "AddGeometry", "a03223.html", "a03223" ],
+    [ "AddZ", "a03227.html", "a03227" ],
+    [ "EnsureClosed", "a03231.html", "a03231" ],
+    [ "EnsureClosedRings", "a03235.html", "a03235" ],
+    [ "RemoveGeometry", "a03239.html", "a03239" ],
+    [ "RemoveRepeatedPoints", "a03243.html", "a03243" ],
+    [ "SetGeometry", "a03247.html", "a03247" ],
+    [ "SetSRID", "a03251.html", "a03251" ]
 ];

@@ -1,9 +1,6 @@
 var a05623 =
 [
-    [ "testAdd", "a05623.html#afd0ee1fd8a383350e390e5b63a8a1cda", null ],
-    [ "combinedRasterLiteral", "a05623.html#a6efe8702be34a67e2bcbba55588c5b5f", null ],
-    [ "covJSONString1", "a05623.html#a993e2f127f3ec8f256e9799d77507223", null ],
-    [ "rasterBand", "a05623.html#a44dd712968b2420bbfbf9ae21d476b87", null ],
-    [ "rasterLiteral1", "a05623.html#a77798f856500689412dea069531a7606", null ],
-    [ "wkbString1", "a05623.html#ac94c157f6beb145deb3abfe76cbf5de2", null ]
+    [ "testRemoveRepeatedPoints", "a05623.html#a473d131a5f96a89f9502570a50d06e65", null ],
+    [ "testGeometry", "a05623.html#abc3f514f005cba49e406658e2d3086eb", null ],
+    [ "testGeometry2", "a05623.html#af1173652e671b8f9051f8630b98c73fb", null ]
 ];

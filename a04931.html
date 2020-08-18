@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>rdf4j-postgis: PolyshapeWriter.Encoder Class Reference</title>
+<title>rdf4j-postgis: TopoJSONDatatype Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -62,231 +62,129 @@ $(document).ready(function(){initNavTree('a04931.html','');});
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pac-attribs">Package Attributes</a> &#124;
-<a href="#pri-methods">Private Member Functions</a> &#124;
+<a href="#pub-static-attribs">Static Public Attributes</a> &#124;
 <a href="a04928.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">PolyshapeWriter.Encoder Class Reference</div>  </div>
+<div class="title">TopoJSONDatatype Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>Encodes a sequence of LatLngs into an encoded path string.  
+<p>WKTDatatype class allows the URI "geo:wktLiteral" to be used as a datatype and it will parse that datatype to a JTS Geometry.  
  <a href="a04931.html#details">More...</a></p>
 <div class="dynheader">
-Collaboration diagram for PolyshapeWriter.Encoder:</div>
+Inheritance diagram for TopoJSONDatatype:</div>
 <div class="dyncontent">
-<div class="center"><img src="a04929.png" border="0" usemap="#PolyshapeWriter_8Encoder_coll__map" alt="Collaboration graph"/></div>
-<map name="PolyshapeWriter_8Encoder_coll__map" id="PolyshapeWriter_8Encoder_coll__map">
+<div class="center"><img src="a04930.png" border="0" usemap="#TopoJSONDatatype_inherit__map" alt="Inheritance graph"/></div>
+<map name="TopoJSONDatatype_inherit__map" id="TopoJSONDatatype_inherit__map">
+<area shape="rect" id="node2" href="a04935.html" title="TopologyLiteral" alt="" coords="20,80,131,107"/>
+<area shape="rect" id="node3" href="a04899.html" title="LiteralType" alt="" coords="32,5,119,32"/>
+</map>
+<center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
+<div class="dynheader">
+Collaboration diagram for TopoJSONDatatype:</div>
+<div class="dyncontent">
+<div class="center"><img src="a04929.png" border="0" usemap="#TopoJSONDatatype_coll__map" alt="Collaboration graph"/></div>
+<map name="TopoJSONDatatype_coll__map" id="TopoJSONDatatype_coll__map">
+<area shape="rect" id="node2" href="a04935.html" title="TopologyLiteral" alt="" coords="5,81,116,108"/>
+<area shape="rect" id="node3" href="a04899.html" title="LiteralType" alt="" coords="17,5,104,32"/>
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ae9b4d30bd3ef8dcabd2c471b856cc56f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a04931.html#ae9b4d30bd3ef8dcabd2c471b856cc56f">Encoder</a> (Writer <a class="el" href="a04931.html#ab56a5d0c4efb5c0d2c4f33d5dad8c917">writer</a>)</td></tr>
-<tr class="separator:ae9b4d30bd3ef8dcabd2c471b856cc56f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a39600d33dd97208ba398ac5c4340fa77"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a04931.html#a39600d33dd97208ba398ac5c4340fa77">seperator</a> ()  throws IOException </td></tr>
-<tr class="separator:a39600d33dd97208ba398ac5c4340fa77"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab6635935e270ce5b32d1efd4b377c983"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a04931.html#ab6635935e270ce5b32d1efd4b377c983">startRing</a> ()  throws IOException </td></tr>
-<tr class="separator:ab6635935e270ce5b32d1efd4b377c983"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a738ab332235183cb8c6acda151d9801c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a04931.html#a738ab332235183cb8c6acda151d9801c">write</a> (char event)  throws IOException </td></tr>
-<tr class="separator:a738ab332235183cb8c6acda151d9801c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a66b62fe86f9a7aa5e1fb78d2282adf66"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a04931.html#a66b62fe86f9a7aa5e1fb78d2282adf66">writeArg</a> (double value)  throws IOException </td></tr>
-<tr class="separator:a66b62fe86f9a7aa5e1fb78d2282adf66"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a67c54f108cb20c5a0f698e20a287724d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a04931.html#a67c54f108cb20c5a0f698e20a287724d">write</a> (double latitude, double longitude)  throws IOException </td></tr>
-<tr class="separator:a67c54f108cb20c5a0f698e20a287724d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3f8b22cffa4a049b993a6fd1d9f44ad5"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a04931.html#a3f8b22cffa4a049b993a6fd1d9f44ad5">unparse</a> (Topology geometry)</td></tr>
+<tr class="memdesc:a3f8b22cffa4a049b993a6fd1d9f44ad5"><td class="mdescLeft">&#160;</td><td class="mdescRight">This method Un-parses the JTS Geometry to the WKT literal.  <a href="#a3f8b22cffa4a049b993a6fd1d9f44ad5">More...</a><br /></td></tr>
+<tr class="separator:a3f8b22cffa4a049b993a6fd1d9f44ad5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8c18fe591d282696a39a8b3d522bc499"><td class="memItemLeft" align="right" valign="top">Topology&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a04931.html#a8c18fe591d282696a39a8b3d522bc499">read</a> (String geometryLiteral)</td></tr>
+<tr class="separator:a8c18fe591d282696a39a8b3d522bc499"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad146fa8579a5f8a876c4688cc5a68520"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a04931.html#ad146fa8579a5f8a876c4688cc5a68520">toString</a> ()</td></tr>
+<tr class="separator:ad146fa8579a5f8a876c4688cc5a68520"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pac-attribs"></a>
-Package Attributes</h2></td></tr>
-<tr class="memitem:a9cb6715e048613ba1adc6d02662c58bb"><td class="memItemLeft" align="right" valign="top">long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a04931.html#a9cb6715e048613ba1adc6d02662c58bb">lastLat</a> = 0</td></tr>
-<tr class="separator:a9cb6715e048613ba1adc6d02662c58bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6071d28e26a7046598083d44edae7168"><td class="memItemLeft" align="right" valign="top">long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a04931.html#a6071d28e26a7046598083d44edae7168">lastLng</a> = 0</td></tr>
-<tr class="separator:a6071d28e26a7046598083d44edae7168"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab56a5d0c4efb5c0d2c4f33d5dad8c917"><td class="memItemLeft" align="right" valign="top">final Writer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a04931.html#ab56a5d0c4efb5c0d2c4f33d5dad8c917">writer</a></td></tr>
-<tr class="separator:ab56a5d0c4efb5c0d2c4f33d5dad8c917"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
-Private Member Functions</h2></td></tr>
-<tr class="memitem:a0e57882e67b7da0cfbd8dd524d1a08aa"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a04931.html#a0e57882e67b7da0cfbd8dd524d1a08aa">encode</a> (long v)  throws IOException </td></tr>
-<tr class="separator:a0e57882e67b7da0cfbd8dd524d1a08aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
+Static Public Attributes</h2></td></tr>
+<tr class="memitem:addbf30e6c0ad68fa34277d59a2c6eb5e"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a04931.html#addbf30e6c0ad68fa34277d59a2c6eb5e">URI</a> = <a class="el" href="a02719.html#ad263658bd03fbb2214983c7860869a23">POSTGIS.NAMESPACE</a>+<a class="el" href="a02719.html#abf0b7e3824412b0927ac01caf498a038">POSTGIS.TopoJSON</a></td></tr>
+<tr class="memdesc:addbf30e6c0ad68fa34277d59a2c6eb5e"><td class="mdescLeft">&#160;</td><td class="mdescRight">The default WKT type URI.  <a href="#addbf30e6c0ad68fa34277d59a2c6eb5e">More...</a><br /></td></tr>
+<tr class="separator:addbf30e6c0ad68fa34277d59a2c6eb5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af65faaf63a905c915d906e2058488627"><td class="memItemLeft" align="right" valign="top">static final <a class="el" href="a04931.html">TopoJSONDatatype</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a04931.html#af65faaf63a905c915d906e2058488627">INSTANCE</a> = new <a class="el" href="a04931.html">TopoJSONDatatype</a>()</td></tr>
+<tr class="memdesc:af65faaf63a905c915d906e2058488627"><td class="mdescLeft">&#160;</td><td class="mdescRight">A static instance of WKTDatatype.  <a href="#af65faaf63a905c915d906e2058488627">More...</a><br /></td></tr>
+<tr class="separator:af65faaf63a905c915d906e2058488627"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae02c2e86ac0dea8538c7b43e9e82421a"><td class="memItemLeft" align="right" valign="top">static final IRI&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a04931.html#ae02c2e86ac0dea8538c7b43e9e82421a">LiteralIRI</a> =SimpleValueFactory.getInstance().createIRI(<a class="el" href="a02719.html#ad263658bd03fbb2214983c7860869a23">POSTGIS.NAMESPACE</a>+<a class="el" href="a02719.html#abf0b7e3824412b0927ac01caf498a038">POSTGIS.TopoJSON</a>)</td></tr>
+<tr class="separator:ae02c2e86ac0dea8538c7b43e9e82421a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Encodes a sequence of LatLngs into an encoded path string. </p>
-<p>from Apache 2.0 licensed: <a href="https://github.com/googlemaps/android-maps-utils/blob/master/library/src/com/google/maps/android/PolyUtil.java">https://github.com/googlemaps/android-maps-utils/blob/master/library/src/com/google/maps/android/PolyUtil.java</a> </p>
-</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="ae9b4d30bd3ef8dcabd2c471b856cc56f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae9b4d30bd3ef8dcabd2c471b856cc56f">&#9670;&nbsp;</a></span>Encoder()</h2>
+<div class="textblock"><p>WKTDatatype class allows the URI "geo:wktLiteral" to be used as a datatype and it will parse that datatype to a JTS Geometry. </p>
+<p>Req 10 All RDFS Literals of type geo:wktLiteral shall consist of an optional URI identifying the coordinate reference system followed by Simple Features Well Known Text (WKT) describing a geometric value. Valid geo:wktLiterals are formed by concatenating a valid, absolute URI as defined in [RFC 2396], one or more spaces (Unicode U+0020 character) as a separator, and a WKT string as defined in Simple Features [ISO 19125-1].</p>
+<p>Req 11 The URI</p><div class="fragment"><div class="line">&lt;http:<span class="comment">//www.opengis.net/def/crs/OGC/1.3/CRS84&gt; </span></div></div><!-- fragment --><p> shall be assumed as the spatial reference system for geo:wktLiterals that do not * specify an explicit spatial reference system URI. </p>
+</div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="a8c18fe591d282696a39a8b3d522bc499"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8c18fe591d282696a39a8b3d522bc499">&#9670;&nbsp;</a></span>read()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="a04931.html">Encoder</a> </td>
+          <td class="memname">Topology read </td>
           <td>(</td>
-          <td class="paramtype">Writer&#160;</td>
-          <td class="paramname"><em>writer</em></td><td>)</td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>geometryLiteral</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p class="reference">References <a class="el" href="a04931.html#ab56a5d0c4efb5c0d2c4f33d5dad8c917">PolyshapeWriter.Encoder.writer</a>.</p>
-<div class="fragment"><div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;                                  {</div><div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;      this.<a class="code" href="a04931.html#ab56a5d0c4efb5c0d2c4f33d5dad8c917">writer</a> = <a class="code" href="a04931.html#ab56a5d0c4efb5c0d2c4f33d5dad8c917">writer</a>;</div><div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;    }</div><div class="ttc" id="a04931_html_ab56a5d0c4efb5c0d2c4f33d5dad8c917"><div class="ttname"><a href="a04931.html#ab56a5d0c4efb5c0d2c4f33d5dad8c917">org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.PolyshapeWriter.Encoder.writer</a></div><div class="ttdeci">final Writer writer</div><div class="ttdef"><b>Definition:</b> PolyshapeWriter.java:163</div></div>
-</div><!-- fragment -->
+<div class="fragment"><div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;                                                 {</div><div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;        McGsonHandler handler=<span class="keyword">new</span> McGsonHandler();</div><div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;        Topology topo;</div><div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;                <span class="keywordflow">try</span> {</div><div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;                        topo = handler.decode(geometryLiteral);</div><div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;                        <span class="keywordflow">return</span> topo;</div><div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;                } <span class="keywordflow">catch</span> (McException e) {</div><div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;                        <span class="comment">// TODO Auto-generated catch block</span></div><div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;                        e.printStackTrace();</div><div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;                }</div><div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;        <span class="keywordflow">return</span> null;</div><div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;    }</div></div><!-- fragment -->
 </div>
 </div>
-<h2 class="groupheader">Member Function Documentation</h2>
-<a id="a0e57882e67b7da0cfbd8dd524d1a08aa"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0e57882e67b7da0cfbd8dd524d1a08aa">&#9670;&nbsp;</a></span>encode()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void encode </td>
-          <td>(</td>
-          <td class="paramtype">long&#160;</td>
-          <td class="paramname"><em>v</em></td><td>)</td>
-          <td> throws IOException</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="a04931.html#a67c54f108cb20c5a0f698e20a287724d">PolyshapeWriter.Encoder.write()</a>, and <a class="el" href="a04931.html#a66b62fe86f9a7aa5e1fb78d2282adf66">PolyshapeWriter.Encoder.writeArg()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;                                                   {</div><div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;      v = v &lt; 0 ? ~(v &lt;&lt; 1) : v &lt;&lt; 1;</div><div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160;      <span class="keywordflow">while</span> (v &gt;= 0x20) {</div><div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160;        <a class="code" href="a04931.html#ab56a5d0c4efb5c0d2c4f33d5dad8c917">writer</a>.write(Character.toChars((<span class="keywordtype">int</span>) ((0x20 | (v &amp; 0x1f)) + 63)));</div><div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;        v &gt;&gt;= 5;</div><div class="line"><a name="l00210"></a><span class="lineno">  210</span>&#160;      }</div><div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;      <a class="code" href="a04931.html#ab56a5d0c4efb5c0d2c4f33d5dad8c917">writer</a>.write(Character.toChars((<span class="keywordtype">int</span>) (v + 63)));</div><div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160;    }</div><div class="ttc" id="a04931_html_ab56a5d0c4efb5c0d2c4f33d5dad8c917"><div class="ttname"><a href="a04931.html#ab56a5d0c4efb5c0d2c4f33d5dad8c917">org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.PolyshapeWriter.Encoder.writer</a></div><div class="ttdeci">final Writer writer</div><div class="ttdef"><b>Definition:</b> PolyshapeWriter.java:163</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a39600d33dd97208ba398ac5c4340fa77"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a39600d33dd97208ba398ac5c4340fa77">&#9670;&nbsp;</a></span>seperator()</h2>
+<a id="ad146fa8579a5f8a876c4688cc5a68520"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad146fa8579a5f8a876c4688cc5a68520">&#9670;&nbsp;</a></span>toString()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void seperator </td>
+          <td class="memname">String toString </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td> throws IOException</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;                                               {</div><div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;      <a class="code" href="a04931.html#ab56a5d0c4efb5c0d2c4f33d5dad8c917">writer</a>.write(<a class="code" href="a04927.html#af7f80b3413766edf45bd57102852c8a6">KEY_SEPERATOR</a>);</div><div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;      <a class="code" href="a04931.html#a9cb6715e048613ba1adc6d02662c58bb">lastLat</a> = <a class="code" href="a04931.html#a6071d28e26a7046598083d44edae7168">lastLng</a> = 0;</div><div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;    }</div><div class="ttc" id="a04927_html_af7f80b3413766edf45bd57102852c8a6"><div class="ttname"><a href="a04927.html#af7f80b3413766edf45bd57102852c8a6">org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.PolyshapeWriter.KEY_SEPERATOR</a></div><div class="ttdeci">static final char KEY_SEPERATOR</div><div class="ttdef"><b>Definition:</b> PolyshapeWriter.java:150</div></div>
-<div class="ttc" id="a04931_html_a6071d28e26a7046598083d44edae7168"><div class="ttname"><a href="a04931.html#a6071d28e26a7046598083d44edae7168">org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.PolyshapeWriter.Encoder.lastLng</a></div><div class="ttdeci">long lastLng</div><div class="ttdef"><b>Definition:</b> PolyshapeWriter.java:161</div></div>
-<div class="ttc" id="a04931_html_a9cb6715e048613ba1adc6d02662c58bb"><div class="ttname"><a href="a04931.html#a9cb6715e048613ba1adc6d02662c58bb">org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.PolyshapeWriter.Encoder.lastLat</a></div><div class="ttdeci">long lastLat</div><div class="ttdef"><b>Definition:</b> PolyshapeWriter.java:160</div></div>
-<div class="ttc" id="a04931_html_ab56a5d0c4efb5c0d2c4f33d5dad8c917"><div class="ttname"><a href="a04931.html#ab56a5d0c4efb5c0d2c4f33d5dad8c917">org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.PolyshapeWriter.Encoder.writer</a></div><div class="ttdeci">final Writer writer</div><div class="ttdef"><b>Definition:</b> PolyshapeWriter.java:163</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="ab6635935e270ce5b32d1efd4b377c983"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab6635935e270ce5b32d1efd4b377c983">&#9670;&nbsp;</a></span>startRing()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void startRing </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> throws IOException</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;                                               {</div><div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;      <a class="code" href="a04931.html#ab56a5d0c4efb5c0d2c4f33d5dad8c917">writer</a>.write(<a class="code" href="a04927.html#aabe19399bfb7ad538e29aa8e7da1b661">KEY_ARG_START</a>);</div><div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;      <a class="code" href="a04931.html#a9cb6715e048613ba1adc6d02662c58bb">lastLat</a> = <a class="code" href="a04931.html#a6071d28e26a7046598083d44edae7168">lastLng</a> = 0;</div><div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;    }</div><div class="ttc" id="a04931_html_a6071d28e26a7046598083d44edae7168"><div class="ttname"><a href="a04931.html#a6071d28e26a7046598083d44edae7168">org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.PolyshapeWriter.Encoder.lastLng</a></div><div class="ttdeci">long lastLng</div><div class="ttdef"><b>Definition:</b> PolyshapeWriter.java:161</div></div>
-<div class="ttc" id="a04927_html_aabe19399bfb7ad538e29aa8e7da1b661"><div class="ttname"><a href="a04927.html#aabe19399bfb7ad538e29aa8e7da1b661">org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.PolyshapeWriter.KEY_ARG_START</a></div><div class="ttdeci">static final char KEY_ARG_START</div><div class="ttdef"><b>Definition:</b> PolyshapeWriter.java:148</div></div>
-<div class="ttc" id="a04931_html_a9cb6715e048613ba1adc6d02662c58bb"><div class="ttname"><a href="a04931.html#a9cb6715e048613ba1adc6d02662c58bb">org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.PolyshapeWriter.Encoder.lastLat</a></div><div class="ttdeci">long lastLat</div><div class="ttdef"><b>Definition:</b> PolyshapeWriter.java:160</div></div>
-<div class="ttc" id="a04931_html_ab56a5d0c4efb5c0d2c4f33d5dad8c917"><div class="ttname"><a href="a04931.html#ab56a5d0c4efb5c0d2c4f33d5dad8c917">org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.PolyshapeWriter.Encoder.writer</a></div><div class="ttdeci">final Writer writer</div><div class="ttdef"><b>Definition:</b> PolyshapeWriter.java:163</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a738ab332235183cb8c6acda151d9801c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a738ab332235183cb8c6acda151d9801c">&#9670;&nbsp;</a></span>write() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void write </td>
-          <td>(</td>
-          <td class="paramtype">char&#160;</td>
-          <td class="paramname"><em>event</em></td><td>)</td>
-          <td> throws IOException</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;                                                     {</div><div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;      <a class="code" href="a04931.html#ab56a5d0c4efb5c0d2c4f33d5dad8c917">writer</a>.write(event);</div><div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;      <a class="code" href="a04931.html#a9cb6715e048613ba1adc6d02662c58bb">lastLat</a> = <a class="code" href="a04931.html#a6071d28e26a7046598083d44edae7168">lastLng</a> = 0;</div><div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;    }</div><div class="ttc" id="a04931_html_a6071d28e26a7046598083d44edae7168"><div class="ttname"><a href="a04931.html#a6071d28e26a7046598083d44edae7168">org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.PolyshapeWriter.Encoder.lastLng</a></div><div class="ttdeci">long lastLng</div><div class="ttdef"><b>Definition:</b> PolyshapeWriter.java:161</div></div>
-<div class="ttc" id="a04931_html_a9cb6715e048613ba1adc6d02662c58bb"><div class="ttname"><a href="a04931.html#a9cb6715e048613ba1adc6d02662c58bb">org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.PolyshapeWriter.Encoder.lastLat</a></div><div class="ttdeci">long lastLat</div><div class="ttdef"><b>Definition:</b> PolyshapeWriter.java:160</div></div>
-<div class="ttc" id="a04931_html_ab56a5d0c4efb5c0d2c4f33d5dad8c917"><div class="ttname"><a href="a04931.html#ab56a5d0c4efb5c0d2c4f33d5dad8c917">org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.PolyshapeWriter.Encoder.writer</a></div><div class="ttdeci">final Writer writer</div><div class="ttdef"><b>Definition:</b> PolyshapeWriter.java:163</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a67c54f108cb20c5a0f698e20a287724d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a67c54f108cb20c5a0f698e20a287724d">&#9670;&nbsp;</a></span>write() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void write </td>
-          <td>(</td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>latitude</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>longitude</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td> throws IOException</td>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p class="reference">References <a class="el" href="a04931.html#a0e57882e67b7da0cfbd8dd524d1a08aa">PolyshapeWriter.Encoder.encode()</a>, <a class="el" href="a04931.html#a9cb6715e048613ba1adc6d02662c58bb">PolyshapeWriter.Encoder.lastLat</a>, and <a class="el" href="a04931.html#a6071d28e26a7046598083d44edae7168">PolyshapeWriter.Encoder.lastLng</a>.</p>
-<div class="fragment"><div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;                                                                            {</div><div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;</div><div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;      <span class="keywordtype">long</span> lat = Math.round(latitude * 1e5);</div><div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;      <span class="keywordtype">long</span> lng = Math.round(longitude * 1e5);</div><div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;</div><div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;      <span class="keywordtype">long</span> dLat = lat - <a class="code" href="a04931.html#a9cb6715e048613ba1adc6d02662c58bb">lastLat</a>;</div><div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;      <span class="keywordtype">long</span> dLng = lng - <a class="code" href="a04931.html#a6071d28e26a7046598083d44edae7168">lastLng</a>;</div><div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;</div><div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;      <a class="code" href="a04931.html#a0e57882e67b7da0cfbd8dd524d1a08aa">encode</a>(dLat);</div><div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;      <a class="code" href="a04931.html#a0e57882e67b7da0cfbd8dd524d1a08aa">encode</a>(dLng);</div><div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;</div><div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;      lastLat = lat;</div><div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;      lastLng = lng;</div><div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;    }</div><div class="ttc" id="a04931_html_a0e57882e67b7da0cfbd8dd524d1a08aa"><div class="ttname"><a href="a04931.html#a0e57882e67b7da0cfbd8dd524d1a08aa">org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.PolyshapeWriter.Encoder.encode</a></div><div class="ttdeci">void encode(long v)</div><div class="ttdef"><b>Definition:</b> PolyshapeWriter.java:205</div></div>
-<div class="ttc" id="a04931_html_a6071d28e26a7046598083d44edae7168"><div class="ttname"><a href="a04931.html#a6071d28e26a7046598083d44edae7168">org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.PolyshapeWriter.Encoder.lastLng</a></div><div class="ttdeci">long lastLng</div><div class="ttdef"><b>Definition:</b> PolyshapeWriter.java:161</div></div>
-<div class="ttc" id="a04931_html_a9cb6715e048613ba1adc6d02662c58bb"><div class="ttname"><a href="a04931.html#a9cb6715e048613ba1adc6d02662c58bb">org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.PolyshapeWriter.Encoder.lastLat</a></div><div class="ttdeci">long lastLat</div><div class="ttdef"><b>Definition:</b> PolyshapeWriter.java:160</div></div>
+<div class="fragment"><div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;                             {</div><div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;        <span class="keywordflow">return</span> <span class="stringliteral">&quot;TopoJSONDatatype{&quot;</span> + <a class="code" href="a04931.html#addbf30e6c0ad68fa34277d59a2c6eb5e">URI</a> + <span class="charliteral">&#39;}&#39;</span>;</div><div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;    }</div><div class="ttc" id="a04931_html_addbf30e6c0ad68fa34277d59a2c6eb5e"><div class="ttname"><a href="a04931.html#addbf30e6c0ad68fa34277d59a2c6eb5e">org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.literals.topo.TopoJSONDatatype.URI</a></div><div class="ttdeci">static final String URI</div><div class="ttdoc">The default WKT type URI. </div><div class="ttdef"><b>Definition:</b> TopoJSONDatatype.java:52</div></div>
 </div><!-- fragment -->
 </div>
 </div>
-<a id="a66b62fe86f9a7aa5e1fb78d2282adf66"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a66b62fe86f9a7aa5e1fb78d2282adf66">&#9670;&nbsp;</a></span>writeArg()</h2>
+<a id="a3f8b22cffa4a049b993a6fd1d9f44ad5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3f8b22cffa4a049b993a6fd1d9f44ad5">&#9670;&nbsp;</a></span>unparse()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void writeArg </td>
+          <td class="memname">String unparse </td>
           <td>(</td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>value</em></td><td>)</td>
-          <td> throws IOException</td>
+          <td class="paramtype">Topology&#160;</td>
+          <td class="paramname"><em>geometry</em></td><td>)</td>
+          <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="a04931.html#a0e57882e67b7da0cfbd8dd524d1a08aa">PolyshapeWriter.Encoder.encode()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;                                                          {</div><div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;      <a class="code" href="a04931.html#ab56a5d0c4efb5c0d2c4f33d5dad8c917">writer</a>.write(<a class="code" href="a04927.html#aabe19399bfb7ad538e29aa8e7da1b661">KEY_ARG_START</a>);</div><div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;      <a class="code" href="a04931.html#a0e57882e67b7da0cfbd8dd524d1a08aa">encode</a>(Math.round(value * 1e5));</div><div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;      <a class="code" href="a04931.html#ab56a5d0c4efb5c0d2c4f33d5dad8c917">writer</a>.write(<a class="code" href="a04927.html#a1c49a78fa17940a2ff4d36acab548b83">KEY_ARG_END</a>);</div><div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;    }</div><div class="ttc" id="a04931_html_a0e57882e67b7da0cfbd8dd524d1a08aa"><div class="ttname"><a href="a04931.html#a0e57882e67b7da0cfbd8dd524d1a08aa">org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.PolyshapeWriter.Encoder.encode</a></div><div class="ttdeci">void encode(long v)</div><div class="ttdef"><b>Definition:</b> PolyshapeWriter.java:205</div></div>
-<div class="ttc" id="a04927_html_aabe19399bfb7ad538e29aa8e7da1b661"><div class="ttname"><a href="a04927.html#aabe19399bfb7ad538e29aa8e7da1b661">org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.PolyshapeWriter.KEY_ARG_START</a></div><div class="ttdeci">static final char KEY_ARG_START</div><div class="ttdef"><b>Definition:</b> PolyshapeWriter.java:148</div></div>
-<div class="ttc" id="a04931_html_ab56a5d0c4efb5c0d2c4f33d5dad8c917"><div class="ttname"><a href="a04931.html#ab56a5d0c4efb5c0d2c4f33d5dad8c917">org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.PolyshapeWriter.Encoder.writer</a></div><div class="ttdeci">final Writer writer</div><div class="ttdef"><b>Definition:</b> PolyshapeWriter.java:163</div></div>
-<div class="ttc" id="a04927_html_a1c49a78fa17940a2ff4d36acab548b83"><div class="ttname"><a href="a04927.html#a1c49a78fa17940a2ff4d36acab548b83">org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.PolyshapeWriter.KEY_ARG_END</a></div><div class="ttdeci">static final char KEY_ARG_END</div><div class="ttdef"><b>Definition:</b> PolyshapeWriter.java:149</div></div>
-</div><!-- fragment -->
+<p>This method Un-parses the JTS Geometry to the WKT literal. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">geometry</td><td>- the JTS Geometry to be un-parsed </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>WKT - the returned WKT Literal. <br />
+ Notice that the Spatial Reference System is not specified in returned WKT literal. </dd></dl>
+
+<p class="reference">Referenced by <a class="el" href="a04663.html#ad19863e3954ac88cf4172f5c4192705c">AsTopoJSON.modify()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;                                             {</div><div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;        McGsonHandler handler=<span class="keyword">new</span> McGsonHandler();</div><div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;        <span class="keywordflow">try</span> {</div><div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;                        <span class="keywordflow">return</span> handler.encode(geometry);</div><div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;                } <span class="keywordflow">catch</span> (McException e) {</div><div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;                        <span class="comment">// TODO Auto-generated catch block</span></div><div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;                        e.printStackTrace();</div><div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;                        <span class="keywordflow">return</span> <span class="stringliteral">&quot;{}&quot;</span>;</div><div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;                }</div><div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;    }</div></div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="a9cb6715e048613ba1adc6d02662c58bb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9cb6715e048613ba1adc6d02662c58bb">&#9670;&nbsp;</a></span>lastLat</h2>
+<a id="af65faaf63a905c915d906e2058488627"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af65faaf63a905c915d906e2058488627">&#9670;&nbsp;</a></span>INSTANCE</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -295,22 +193,24 @@ Private Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">long lastLat = 0</td>
+          <td class="memname">final <a class="el" href="a04931.html">TopoJSONDatatype</a> INSTANCE = new <a class="el" href="a04931.html">TopoJSONDatatype</a>()</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="a04931.html#a67c54f108cb20c5a0f698e20a287724d">PolyshapeWriter.Encoder.write()</a>.</p>
+<p>A static instance of WKTDatatype. </p>
+
+<p class="reference">Referenced by <a class="el" href="a04663.html#ad19863e3954ac88cf4172f5c4192705c">AsTopoJSON.modify()</a>.</p>
 
 </div>
 </div>
-<a id="a6071d28e26a7046598083d44edae7168"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6071d28e26a7046598083d44edae7168">&#9670;&nbsp;</a></span>lastLng</h2>
+<a id="ae02c2e86ac0dea8538c7b43e9e82421a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae02c2e86ac0dea8538c7b43e9e82421a">&#9670;&nbsp;</a></span>LiteralIRI</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -319,22 +219,20 @@ Private Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">long lastLng = 0</td>
+          <td class="memname">final IRI LiteralIRI =SimpleValueFactory.getInstance().createIRI(<a class="el" href="a02719.html#ad263658bd03fbb2214983c7860869a23">POSTGIS.NAMESPACE</a>+<a class="el" href="a02719.html#abf0b7e3824412b0927ac01caf498a038">POSTGIS.TopoJSON</a>)</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="a04931.html#a67c54f108cb20c5a0f698e20a287724d">PolyshapeWriter.Encoder.write()</a>.</p>
-
 </div>
 </div>
-<a id="ab56a5d0c4efb5c0d2c4f33d5dad8c917"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab56a5d0c4efb5c0d2c4f33d5dad8c917">&#9670;&nbsp;</a></span>writer</h2>
+<a id="addbf30e6c0ad68fa34277d59a2c6eb5e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#addbf30e6c0ad68fa34277d59a2c6eb5e">&#9670;&nbsp;</a></span>URI</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -343,17 +241,17 @@ Private Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">final Writer writer</td>
+          <td class="memname">final String URI = <a class="el" href="a02719.html#ad263658bd03fbb2214983c7860869a23">POSTGIS.NAMESPACE</a>+<a class="el" href="a02719.html#abf0b7e3824412b0927ac01caf498a038">POSTGIS.TopoJSON</a></td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="a04931.html#ae9b4d30bd3ef8dcabd2c471b856cc56f">PolyshapeWriter.Encoder.Encoder()</a>.</p>
+<p>The default WKT type URI. </p>
 
 </div>
 </div>
@@ -363,7 +261,7 @@ Private Member Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="a02430.html">org</a></li><li class="navelem"><a class="el" href="a02431.html">eclipse</a></li><li class="navelem"><a class="el" href="a02432.html">rdf4j</a></li><li class="navelem"><a class="el" href="a02435.html">query</a></li><li class="navelem"><a class="el" href="a02436.html">algebra</a></li><li class="navelem"><a class="el" href="a02437.html">evaluation</a></li><li class="navelem"><a class="el" href="a02438.html">function</a></li><li class="navelem"><a class="el" href="a02439.html">postgis</a></li><li class="navelem"><a class="el" href="a02489.html">util</a></li><li class="navelem"><a class="el" href="a04927.html">PolyshapeWriter</a></li><li class="navelem"><a class="el" href="a04931.html">Encoder</a></li>
+    <li class="navelem"><a class="el" href="a02538.html">org</a></li><li class="navelem"><a class="el" href="a02539.html">eclipse</a></li><li class="navelem"><a class="el" href="a02540.html">rdf4j</a></li><li class="navelem"><a class="el" href="a02543.html">query</a></li><li class="navelem"><a class="el" href="a02544.html">algebra</a></li><li class="navelem"><a class="el" href="a02545.html">evaluation</a></li><li class="navelem"><a class="el" href="a02546.html">function</a></li><li class="navelem"><a class="el" href="a02547.html">postgis</a></li><li class="navelem"><a class="el" href="a02597.html">util</a></li><li class="navelem"><a class="el" href="a02599.html">literals</a></li><li class="navelem"><a class="el" href="a02601.html">topo</a></li><li class="navelem"><a class="el" href="a04931.html">TopoJSONDatatype</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>

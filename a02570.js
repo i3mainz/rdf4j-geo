@@ -1,15 +1,20 @@
 var a02570 =
 [
-    [ "functions", "a02571.html", "a02571" ],
-    [ "literals", "a02572.html", "a02572" ],
-    [ "parsers", "a02576.html", "a02576" ],
-    [ "GPXHandler", "a04825.html", "a04825" ],
-    [ "JtsPolyshapeWriter", "a04829.html", "a04829" ],
-    [ "LiteralRegistry", "a04833.html", "a04833" ],
-    [ "LiteralUtils", "a04965.html", "a04965" ],
-    [ "PolyshapeReader", "a05005.html", "a05005" ],
-    [ "PolyshapeWriter", "a05013.html", "a05013" ],
-    [ "RasterVectorRelationBinaryFunction", "a05021.html", "a05021" ],
-    [ "RasterVectorRelationFunction", "a05025.html", "a05025" ],
-    [ "RasterVectorRelationIntBinaryFunction", "a05029.html", "a05029" ]
+    [ "Angle", "a03851.html", "a03851" ],
+    [ "IsPointInRing", "a03855.html", "a03855" ],
+    [ "IsPointOnLine", "a03859.html", "a03859" ],
+    [ "M", "a03863.html", "a03863" ],
+    [ "MMax", "a03867.html", "a03867" ],
+    [ "MMin", "a03871.html", "a03871" ],
+    [ "PointInsideCircle", "a03875.html", "a03875" ],
+    [ "X", "a03879.html", "a03879" ],
+    [ "XMax", "a03883.html", "a03883" ],
+    [ "XMin", "a03887.html", "a03887" ],
+    [ "Y", "a03891.html", "a03891" ],
+    [ "YMax", "a03895.html", "a03895" ],
+    [ "YMin", "a03899.html", "a03899" ],
+    [ "Z", "a03903.html", "a03903" ],
+    [ "ZMax", "a03907.html", "a03907" ],
+    [ "Zmflag", "a03911.html", "a03911" ],
+    [ "ZMin", "a03915.html", "a03915" ]
 ];

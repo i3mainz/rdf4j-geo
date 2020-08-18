@@ -1,3 +1,9 @@
-<map id="ContainsProperly" name="ContainsProperly">
-<area shape="rect" id="node2" href="$a04988.html" title="RasterVectorRelationBinary\lFunction" alt="" coords="5,199,189,240"/>
+<map id="RasterStringExportFunction" name="RasterStringExportFunction">
+<area shape="rect" id="node3" href="$a04195.html" title="BandMetadata" alt="" coords="5,155,112,181"/>
+<area shape="rect" id="node4" href="$a04531.html" title="AsBinary" alt="" coords="136,155,211,181"/>
+<area shape="rect" id="node5" href="$a04511.html" title="AsCoverageJSON" alt="" coords="235,155,365,181"/>
+<area shape="rect" id="node6" href="$a04515.html" title="AsGeoTIFF" alt="" coords="389,155,480,181"/>
+<area shape="rect" id="node7" href="$a04519.html" title="AsGMLCOV" alt="" coords="505,155,599,181"/>
+<area shape="rect" id="node8" href="$a04527.html" title="AsHexWKB" alt="" coords="624,155,717,181"/>
+<area shape="rect" id="node9" href="$a04523.html" title="AsNetCDF" alt="" coords="742,155,829,181"/>
 </map>

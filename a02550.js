@@ -1,6 +1,9 @@
 var a02550 =
 [
-    [ "AddInteriorRing", "a03977.html", "a03977" ],
-    [ "RemoveInteriorRing", "a03981.html", "a03981" ],
-    [ "SetInteriorRing", "a03985.html", "a03985" ]
+    [ "Box2DFromGeoHash", "a02783.html", null ],
+    [ "Expand", "a02787.html", "a02787" ],
+    [ "MakeBox2D", "a02791.html", "a02791" ],
+    [ "MakeBox3D", "a02795.html", "a02795" ],
+    [ "MakeEnvelope", "a02799.html", "a02799" ],
+    [ "OctogonalEnvelope", "a02803.html", "a02803" ]
 ];

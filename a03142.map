@@ -1,3 +1,10 @@
-<map id="RemoveGeometry" name="RemoveGeometry">
-<area shape="rect" id="node2" href="$a03036.html" title="GeometricModifierDoubleFunction" alt="" coords="5,80,224,107"/>
+<map id="GeometricModifierIntegerFunction" name="GeometricModifierIntegerFunction">
+<area shape="rect" id="node3" href="$a02907.html" title="Returns the nth geometry of a given geometry collection. " alt="" coords="359,5,449,32"/>
+<area shape="rect" id="node4" href="$a03075.html" title="Returns the nth point of the given geometry if it exists. " alt="" coords="373,56,435,83"/>
+<area shape="rect" id="node5" href="$a03251.html" title="SetSRID" alt="" coords="367,107,441,133"/>
+<area shape="rect" id="node6" href="$a03503.html" title="CollectionExtract" alt="" coords="343,157,465,184"/>
+<area shape="rect" id="node7" href="$a03583.html" title="Reduces the precision of a given geometry by a given factor. " alt="" coords="341,208,467,235"/>
+<area shape="rect" id="node8" href="$a03707.html" title="Removes a point at a given index position from the given geometry. " alt="" coords="353,259,455,285"/>
+<area shape="rect" id="node9" href="$a03919.html" title="Generates a given number of points in a convex hull of a geometry. " alt="" coords="348,309,460,336"/>
+<area shape="rect" id="node10" href="$a03975.html" title="Returns the nth interior ring of a polygon. " alt="" coords="355,360,453,387"/>
 </map>

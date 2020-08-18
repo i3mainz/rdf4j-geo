@@ -1,10 +1,15 @@
 var a02640 =
 [
-    [ "AvgZ", "a02640.html#a0eb320f661f43101548b8c283ce76f3a", null ],
-    [ "AvgZ", "a02640.html#a10bbd4f0a26f89e07253086f2fc62c54", null ],
-    [ "clone", "a02640.html#a1a657324ea68911af08c52bc4a452138", null ],
-    [ "equals", "a02640.html#a8e18a3a952a9e38a9a4191004a30c938", null ],
-    [ "hashCode", "a02640.html#a077e18fe97323c7194e2665ffc766399", null ],
-    [ "visit", "a02640.html#ace7c41d3761122fda287033559696cdd", null ],
-    [ "serialVersionUID", "a02640.html#a3238d314ecdee14d2966760945d00c3b", null ]
+    [ "CircularityTest", "a05771.html", "a05771" ],
+    [ "CircumcentreTest", "a05775.html", "a05775" ],
+    [ "HasConnectedInteriorTest", "a05779.html", "a05779" ],
+    [ "HasDuplicateRingsTest", "a05783.html", "a05783" ],
+    [ "IsAcuteTest", "a05787.html", "a05787" ],
+    [ "IsClosedTest", "a05791.html", "a05791" ],
+    [ "IsConvexTest", "a05795.html", "a05795" ],
+    [ "IsIsocelesTriangleTest", "a05799.html", "a05799" ],
+    [ "IsPolygonCCWTest", "a05803.html", "a05803" ],
+    [ "IsPolygonCWTest", "a05807.html", "a05807" ],
+    [ "IsTriangleTest", "a05811.html", "a05811" ],
+    [ "NRingsTest", "a05815.html", "a05815" ]
 ];

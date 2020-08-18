@@ -1,9 +1,7 @@
 var a05607 =
 [
-    [ "testAndConst", "a05607.html#af66c1ec568a462c9337cd8fb4b541993", null ],
-    [ "combinedRasterLiteral", "a05607.html#a6efe8702be34a67e2bcbba55588c5b5f", null ],
-    [ "covJSONString1", "a05607.html#a993e2f127f3ec8f256e9799d77507223", null ],
-    [ "rasterBand", "a05607.html#a44dd712968b2420bbfbf9ae21d476b87", null ],
-    [ "rasterLiteral1", "a05607.html#a77798f856500689412dea069531a7606", null ],
-    [ "wkbString1", "a05607.html#ac94c157f6beb145deb3abfe76cbf5de2", null ]
+    [ "testForceCollection", "a05607.html#a80928c2dac15d3b159f8708462c2141e", null ],
+    [ "testForceCollectionZ", "a05607.html#a7fb6c41061d547328e4d4147ed19f55f", null ],
+    [ "testGeom", "a05607.html#a03a5f5da0ccbeed8c1678d4317cf2672", null ],
+    [ "testGeomZ", "a05607.html#a5e443ef12c7db96a5d27a951f9db5a08", null ]
 ];

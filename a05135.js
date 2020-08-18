@@ -1,5 +1,7 @@
 var a05135 =
 [
-    [ "testMinimumClearanceLine", "a05135.html#a61877f78d0d415e1cd48f477474017e6", null ],
-    [ "testPolygon", "a05135.html#a1e3187cbc25299380589200c398b3ffd", null ]
+    [ "PrecisionReader", "a05135.html#af4edc5e5b8d78201415bc23188bf2978", null ],
+    [ "readPoint", "a05135.html#a04d3647950410c96c47734decf0e12b5", null ],
+    [ "readPointArray", "a05135.html#a1bbf2e471d2964af19292437ad42729b", null ],
+    [ "precisionMultiplier", "a05135.html#a9aa85be4ec02c28a05cb552845fe08eb", null ]
 ];

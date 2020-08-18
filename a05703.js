@@ -1,8 +1,7 @@
 var a05703 =
 [
-    [ "testNumBands", "a05703.html#acbd68d09b85f29cb457f75f009ff1366", null ],
-    [ "covJSONString1", "a05703.html#a993e2f127f3ec8f256e9799d77507223", null ],
-    [ "rasterBand", "a05703.html#a44dd712968b2420bbfbf9ae21d476b87", null ],
-    [ "rasterLiteral1", "a05703.html#a77798f856500689412dea069531a7606", null ],
-    [ "wkbString1", "a05703.html#ac94c157f6beb145deb3abfe76cbf5de2", null ]
+    [ "testAngle", "a05703.html#a0cf5bb8fb4d0971e797f7a4e75601b26", null ],
+    [ "testPoint1", "a05703.html#ab20d196cb6e34afc2e9cff8074e43bfd", null ],
+    [ "testPoint2", "a05703.html#aa0c0c6f5dda7a397fc50f4c22a2b180f", null ],
+    [ "testPoint3", "a05703.html#a125d390ce5ab22a84d197ed08e237740", null ]
 ];

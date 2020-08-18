@@ -1,9 +1,17 @@
 var a02660 =
 [
-    [ "GeomUnion", "a02660.html#a5b8abc050132eb40bba1242871140569", null ],
-    [ "GeomUnion", "a02660.html#aadd560c908d8beca0c2dda2c4ac3006f", null ],
-    [ "clone", "a02660.html#ab17e10d88ff54332324b8b0865e9a243", null ],
-    [ "equals", "a02660.html#a8e18a3a952a9e38a9a4191004a30c938", null ],
-    [ "hashCode", "a02660.html#a077e18fe97323c7194e2665ffc766399", null ],
-    [ "visit", "a02660.html#ace7c41d3761122fda287033559696cdd", null ]
+    [ "AsBinaryTest", "a06419.html", "a06419" ],
+    [ "AsGARSTest", "a06423.html", "a06423" ],
+    [ "AsGeoJSONTest", "a06427.html", "a06427" ],
+    [ "AsGeoRSSTest", "a06431.html", "a06431" ],
+    [ "AsGeoURITest", "a06435.html", "a06435" ],
+    [ "AsHexWKBTest", "a06439.html", "a06439" ],
+    [ "AsLatLonTextTest", "a06443.html", "a06443" ],
+    [ "AsOSMLinkTest", "a06447.html", "a06447" ],
+    [ "AsPolyshapeTest", "a06451.html", "a06451" ],
+    [ "AsSVGTest", "a06455.html", "a06455" ],
+    [ "AsTextRawTest", "a06459.html", "a06459" ],
+    [ "AsTextRoundTest", "a06463.html", "a06463" ],
+    [ "AsTextTest", "a06467.html", "a06467" ],
+    [ "AsTWKBTest", "a06471.html", "a06471" ]
 ];

@@ -1,5 +1,6 @@
 var a05515 =
 [
-    [ "testY", "a05515.html#aa09d6b9dc5ef19f88e38f2d543d9715f", null ],
-    [ "testPoint", "a05515.html#af26f700ee129f846cac58735f6dcc380", null ]
+    [ "testRelateMatchFalse", "a05515.html#a16bf67312d8af3e076076fd8097969c5", null ],
+    [ "testRelateMatchTrue", "a05515.html#a47e32d919c84c1edd508a45d6c670e90", null ],
+    [ "notIsocelesTriangle", "a05515.html#a055d99fb63bcee37763ffcf4da9e0521", null ]
 ];

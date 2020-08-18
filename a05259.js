@@ -1,5 +1,5 @@
 var a05259 =
 [
-    [ "testAsTextRound", "a05259.html#a48e3642d229bd7292cf49871d69ed015", null ],
-    [ "testGeometry", "a05259.html#abc3f514f005cba49e406658e2d3086eb", null ]
+    [ "testIsMeasuredFalse", "a05259.html#a0d34749daed816e995d607f25393f8bd", null ],
+    [ "testIsMeasuredTrue", "a05259.html#a94b07ea8a866ff9332c709b77d204342", null ]
 ];

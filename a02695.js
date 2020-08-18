@@ -1,6 +1,6 @@
 var a02695 =
 [
-    [ "evaluate", "a02695.html#a43b4c73244bc6722ce551c1033cf1115", null ],
-    [ "getURI", "a02695.html#ad9fb16b36dd4ccc533d4f05ff94646e3", null ],
-    [ "relation", "a02695.html#a367f6a89c638fef951d171ac6d407993", null ]
+    [ "helloWorld", "a02695.html#ae310b4f88f65f8db789e31b8773c8965", null ],
+    [ "main", "a02695.html#a8b260eecbaabcef8473fd87ada040682", null ],
+    [ "queryService", "a02695.html#aa6e8851926af0396f20c9226f358174d", null ]
 ];

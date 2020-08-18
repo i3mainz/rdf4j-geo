@@ -1,10 +1,10 @@
 var annotated_dup =
 [
-    [ "de", "a02500.html", "a02500" ],
-    [ "gars", "a02505.html", "a02505" ],
-    [ "gov", "a02507.html", "a02507" ],
-    [ "org", "a02511.html", "a02511" ],
-    [ "Cloneable", "a07665.html", null ],
-    [ "Comparable", "a07661.html", null ],
-    [ "Iterable", "a07669.html", null ]
+    [ "de", "a02527.html", "a02527" ],
+    [ "gars", "a02532.html", "a02532" ],
+    [ "gov", "a02534.html", "a02534" ],
+    [ "org", "a02538.html", "a02538" ],
+    [ "Cloneable", "a08819.html", null ],
+    [ "Comparable", "a08815.html", null ],
+    [ "Iterable", "a08823.html", null ]
 ];

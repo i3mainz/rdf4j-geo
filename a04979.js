@@ -1,18 +1,8 @@
 var a04979 =
 [
-    [ "ByteBufferInputStream", "a04983.html", "a04983" ],
-    [ "ExtendedPrecisionReader", "a04991.html", "a04991" ],
-    [ "PrecisionReader", "a04987.html", "a04987" ],
-    [ "TWKBReader", "a04979.html#a2d0cf62133f736a6dec7fbe015b659b3", null ],
-    [ "read", "a04979.html#a4dc57ab77430b9455e05befca4bab869", null ],
-    [ "read", "a04979.html#a9f8cf66c196738c08a011f5cf5360c62", null ],
-    [ "read", "a04979.html#a9652885c7bbb8ceaa0fd9449fe537fba", null ],
-    [ "readGeometryCollection", "a04979.html#ab4d4478c3bf2e64323326c692fc8423c", null ],
-    [ "readLineString", "a04979.html#acede6c0ca02364e8d3082860dbc85756", null ],
-    [ "readMultiLineString", "a04979.html#a2eb2c0cc11788b2a6b4076b1cbc33d4d", null ],
-    [ "readMultiPoint", "a04979.html#a2839b0647e24edb08f4d36933d5085d0", null ],
-    [ "readMultiPolygon", "a04979.html#a9cc7f376f2d046a015b6d579aa02880f", null ],
-    [ "readPoint", "a04979.html#a5f412336d0409a4764a3f8c7f32d762d", null ],
-    [ "readPolygon", "a04979.html#aaf811e3872d22365c43a9226c5ba9a5e", null ],
-    [ "fac", "a04979.html#af84c5a6556159f41065ba301d8ff9ddd", null ]
+    [ "HexWKBTextSRS", "a04979.html#a9551cc49d0697080a64a79a497cf35e9", null ],
+    [ "getSrsURI", "a04979.html#a7d7dded4f73b0a90d90f68ccc5f16bc3", null ],
+    [ "getWkbText", "a04979.html#a4a2ce7a2dcd4fa0818378fb8b97931fb", null ],
+    [ "srsURI", "a04979.html#aaa7845d06052bead86bb2de40935e4d9", null ],
+    [ "wkbText", "a04979.html#a7b6ce5371e4ad222f4b09eaadfdcae09", null ]
 ];

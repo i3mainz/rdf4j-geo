@@ -1,11 +1,9 @@
 var a04991 =
 [
-    [ "ExtendedPrecisionReader", "a04991.html#a82112ea6921f2d28f7663dfa20ae32c6", null ],
-    [ "readPoint", "a04991.html#a04d3647950410c96c47734decf0e12b5", null ],
-    [ "readPointArray", "a04991.html#a1bbf2e471d2964af19292437ad42729b", null ],
-    [ "hasM", "a04991.html#a1eccf09f4c826ba480ec832ac4ce7718", null ],
-    [ "hasZ", "a04991.html#ab356995ed7cff0226d75484d03a994f2", null ],
-    [ "mPrecisionMultiplier", "a04991.html#a4ea667f57906c038bb9717bc848df77a", null ],
-    [ "precisionMultiplier", "a04991.html#a9aa85be4ec02c28a05cb552845fe08eb", null ],
-    [ "zPrecisionMultiplier", "a04991.html#abb32d6067d519044d8c44d52ab2cdd44", null ]
+    [ "read", "a04991.html#a793358fbd6ef538a24eabab1bd50ef01", null ],
+    [ "unparse", "a04991.html#ae918a517e1ebcc44beeee2c55008d248", null ],
+    [ "INSTANCE", "a04991.html#a37c7ccb039944a2be5bb9e33d190e504", null ],
+    [ "reader", "a04991.html#aa1b091a220c464a72ed08bd283083286", null ],
+    [ "URI", "a04991.html#addbf30e6c0ad68fa34277d59a2c6eb5e", null ],
+    [ "writer", "a04991.html#ae01fec3f5b78891669c5ad222eef8ca7", null ]
 ];

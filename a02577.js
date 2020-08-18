@@ -1,5 +1,6 @@
 var a02577 =
 [
-    [ "wkb", "a02579.html", "a02579" ],
-    [ "SampleDimensionType", "a05037.html", "a05037" ]
+    [ "AddInteriorRing", "a04039.html", "a04039" ],
+    [ "RemoveInteriorRing", "a04043.html", "a04043" ],
+    [ "SetInteriorRing", "a04047.html", "a04047" ]
 ];

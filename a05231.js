@@ -1,5 +1,5 @@
 var a05231 =
 [
-    [ "testAsGeoURI", "a05231.html#aae403d68ccc2ecfb409ca338b5ba0101", null ],
-    [ "testGeometry", "a05231.html#abc3f514f005cba49e406658e2d3086eb", null ]
+    [ "testLineString", "a05231.html#a0444ce8df222ae81e1a33426a32d8d7a", null ],
+    [ "testGeom", "a05231.html#a03a5f5da0ccbeed8c1678d4317cf2672", null ]
 ];

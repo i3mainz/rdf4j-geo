@@ -1,11 +1,8 @@
 var a05003 =
 [
-    [ "calculate", "a05003.html#a1b9dd1e59eac3a2a15cb68c19e994fe4", null ],
-    [ "checkCoordinate", "a05003.html#a0a01f90a7fe27e3b66f1c87f019e91bc", null ],
-    [ "finalize", "a05003.html#a7626720b9bf807253dd702a0214dc9f0", null ],
-    [ "writeExtendedPrecision", "a05003.html#a320ccd90ec0ef71a4353104b7fe98a1c", null ],
-    [ "writePoint", "a05003.html#adedb1cd853d00648be239477f7fe4e2a", null ],
-    [ "writePointArray", "a05003.html#afeed21e7153170021427b1e7001d952b", null ],
-    [ "precision", "a05003.html#aa95455ed52a8459fad69509a4a0411b5", null ],
-    [ "precisionMultiplier", "a05003.html#a9aa85be4ec02c28a05cb552845fe08eb", null ]
+    [ "WKBTextSRS", "a05003.html#a12d2a5c4b7a29eae5d108bccb1e55b11", null ],
+    [ "getSrsURI", "a05003.html#a7d7dded4f73b0a90d90f68ccc5f16bc3", null ],
+    [ "getWkbText", "a05003.html#a4a2ce7a2dcd4fa0818378fb8b97931fb", null ],
+    [ "srsURI", "a05003.html#aaa7845d06052bead86bb2de40935e4d9", null ],
+    [ "wkbText", "a05003.html#a7b6ce5371e4ad222f4b09eaadfdcae09", null ]
 ];

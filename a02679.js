@@ -1,6 +1,9 @@
 var a02679 =
 [
-    [ "evaluate", "a02679.html#a43b4c73244bc6722ce551c1033cf1115", null ],
-    [ "getURI", "a02679.html#ad9fb16b36dd4ccc533d4f05ff94646e3", null ],
-    [ "relation", "a02679.html#a55749ed449502e7f48f6e7e6bc7f1ea6", null ]
+    [ "algebra", "a02678.html", "a02678" ],
+    [ "attribute", "a02680.html", "a02680" ],
+    [ "constructor", "a02681.html", "a02681" ],
+    [ "editor", "a02682.html", "a02682" ],
+    [ "exporter", "a02683.html", "a02683" ],
+    [ "transform", "a02684.html", "a02684" ]
 ];

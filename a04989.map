@@ -1,3 +1,7 @@
-<map id="TWKBReader.ExtendedPrecisionReader" name="TWKBReader.ExtendedPrecisionReader">
-<area shape="rect" id="node2" href="$a04987.html" title="TWKBReader.PrecisionReader" alt="" coords="155,96,358,123"/>
+<map id="PolyshapeDatatype" name="PolyshapeDatatype">
+<area shape="rect" id="node2" href="$a05007.html" title="VectorLiteral" alt="" coords="5,301,100,328"/>
+<area shape="rect" id="node3" href="$a04899.html" title="LiteralType" alt="" coords="9,212,96,239"/>
+<area shape="rect" id="node4" href="$a05067.html" title="PolyshapeReader" alt="" coords="125,301,250,328"/>
+<area shape="rect" id="node7" href="$a04891.html" title="JtsPolyshapeWriter" alt="" coords="354,301,490,328"/>
+<area shape="rect" id="node8" href="$a05075.html" title="Wrap the &#39;Encoded Polyline Algorithm Format&#39; defined in: Google Maps API with flags to encode various..." alt="" coords="363,212,481,239"/>
 </map>

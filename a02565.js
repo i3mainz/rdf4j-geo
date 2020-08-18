@@ -1,8 +1,9 @@
 var a02565 =
 [
-    [ "AddIsoNode", "a04581.html", "a04581" ],
-    [ "MoveIsoNode", "a04585.html", null ],
-    [ "RemoveIsoNode", "a04589.html", null ],
-    [ "Topo_AddLineString", "a04593.html", null ],
-    [ "Topo_AddPoint", "a04597.html", "a04597" ]
+    [ "AddMeasure", "a03699.html", "a03699" ],
+    [ "AddPoint", "a03703.html", "a03703" ],
+    [ "RemovePoint", "a03707.html", "a03707" ],
+    [ "SetEndPoint", "a03711.html", "a03711" ],
+    [ "SetPoint", "a03715.html", "a03715" ],
+    [ "SetStartPoint", "a03719.html", "a03719" ]
 ];

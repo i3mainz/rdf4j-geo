@@ -1,10 +1,9 @@
 var a02664 =
 [
-    [ "MaxX", "a02664.html#aec1113c98298aeab85c7c4df89a91268", null ],
-    [ "MaxX", "a02664.html#ad49b0d2b5b23376871919c73e4fca6f2", null ],
-    [ "clone", "a02664.html#a4e31d589779d23cc6611db4c1a9a7d2f", null ],
-    [ "equals", "a02664.html#a8e18a3a952a9e38a9a4191004a30c938", null ],
-    [ "hashCode", "a02664.html#a077e18fe97323c7194e2665ffc766399", null ],
-    [ "visit", "a02664.html#ace7c41d3761122fda287033559696cdd", null ],
-    [ "serialVersionUID", "a02664.html#a3238d314ecdee14d2966760945d00c3b", null ]
+    [ "EndPointTest", "a06695.html", "a06695" ],
+    [ "HasSelfIntersectionsTest", "a06699.html", "a06699" ],
+    [ "IsRingTest", "a06703.html", "a06703" ],
+    [ "PointNTest", "a06707.html", "a06707" ],
+    [ "SelfIntersectionsTest", "a06711.html", "a06711" ],
+    [ "StartPointTest", "a06715.html", "a06715" ]
 ];

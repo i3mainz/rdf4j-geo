@@ -1,9 +1,6 @@
 var a05647 =
 [
-    [ "testNot", "a05647.html#a03f9a4dbae1bd075ea798b12122e40cf", null ],
-    [ "combinedRasterLiteral", "a05647.html#a6efe8702be34a67e2bcbba55588c5b5f", null ],
-    [ "covJSONString1", "a05647.html#a993e2f127f3ec8f256e9799d77507223", null ],
-    [ "rasterBand", "a05647.html#a44dd712968b2420bbfbf9ae21d476b87", null ],
-    [ "rasterLiteral1", "a05647.html#a77798f856500689412dea069531a7606", null ],
-    [ "wkbString1", "a05647.html#ac94c157f6beb145deb3abfe76cbf5de2", null ]
+    [ "testSwapOrdinates", "a05647.html#afb4577949dbe6ea13a5d8c00afd1c339", null ],
+    [ "res", "a05647.html#ab8deaae2f0a5506ff9fd02ff15e921cc", null ],
+    [ "testPolygon", "a05647.html#a1e3187cbc25299380589200c398b3ffd", null ]
 ];
