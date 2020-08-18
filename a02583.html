@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>rdf4j-postgis: Package org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.raster.constructor</title>
+<title>rdf4j-postgis: Package org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.linestring.transform</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -63,27 +63,27 @@ $(document).ready(function(){initNavTree('a02583.html','');});
   <div class="summary">
 <a href="#nested-classes">Classes</a>  </div>
   <div class="headertitle">
-<div class="title">Package org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.raster.constructor</div>  </div>
+<div class="title">Package org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.linestring.transform</div>  </div>
 </div><!--header-->
 <div class="contents">
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a04419.html">AsGeometry</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a03726.html">LineMerge</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a04423.html">AsRaster</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a03730.html">LinesCutAtNodes</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a04427.html">MakeEmptyRaster</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a03734.html">OffsetCurve</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates an offset curve from a given geometry and a given distance.  <a href="a03734.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a04431.html">RastFromCoverageJSON</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a03738.html">Segmentize</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Segmentizes a LineString into segments given a segment length.  <a href="a03738.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a04435.html">RastFromGMLCOV</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a03742.html">SharedPaths</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates shared paths of two geometries.  <a href="a03742.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a04439.html">RastFromHexWKB</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a04443.html">RastFromNetCDF</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a04447.html">RastFromWKB</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a03746.html">SubdivideLines</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Subdivides lines of a given LineString.  <a href="a03746.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
@@ -92,7 +92,7 @@ Classes</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="a02538.html">org</a></li><li class="navelem"><a class="el" href="a02539.html">eclipse</a></li><li class="navelem"><a class="el" href="a02540.html">rdf4j</a></li><li class="navelem"><a class="el" href="a02543.html">query</a></li><li class="navelem"><a class="el" href="a02544.html">algebra</a></li><li class="navelem"><a class="el" href="a02545.html">evaluation</a></li><li class="navelem"><a class="el" href="a02546.html">function</a></li><li class="navelem"><a class="el" href="a02547.html">postgis</a></li><li class="navelem"><a class="el" href="a02580.html">raster</a></li><li class="navelem"><a class="el" href="a02583.html">constructor</a></li>
+    <li class="navelem"><a class="el" href="a02553.html">org</a></li><li class="navelem"><a class="el" href="a02554.html">eclipse</a></li><li class="navelem"><a class="el" href="a02555.html">rdf4j</a></li><li class="navelem"><a class="el" href="a02558.html">query</a></li><li class="navelem"><a class="el" href="a02559.html">algebra</a></li><li class="navelem"><a class="el" href="a02560.html">evaluation</a></li><li class="navelem"><a class="el" href="a02561.html">function</a></li><li class="navelem"><a class="el" href="a02562.html">postgis</a></li><li class="navelem"><a class="el" href="a02578.html">linestring</a></li><li class="navelem"><a class="el" href="a02583.html">transform</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>

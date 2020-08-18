@@ -1,7 +1,10 @@
 var a02640 =
 [
-    [ "GeneratePointsTest", "a05743.html", "a05743" ],
-    [ "MakePointTest", "a05747.html", "a05747" ],
-    [ "PointFromTextTest", "a05751.html", "a05751" ],
-    [ "PointFromWKBTest", "a05755.html", null ]
+    [ "attribute", "a02639.html", "a02639" ],
+    [ "constructor", "a02641.html", "a02641" ],
+    [ "editor", "a02642.html", "a02642" ],
+    [ "exporter", "a02643.html", "a02643" ],
+    [ "relation", "a02644.html", "a02644" ],
+    [ "srid", "a02645.html", "a02645" ],
+    [ "transform", "a02646.html", "a02646" ]
 ];

@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>rdf4j-postgis: MinZTest Class Reference</title>
+<title>rdf4j-postgis: Member List</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -56,87 +56,27 @@ $(function() {
   </div>
 </div>
 <script type="text/javascript">
-$(document).ready(function(){initNavTree('a05719.html','');});
+$(document).ready(function(){initNavTree('a05722.html','');});
 </script>
 <div id="doc-content">
 <div class="header">
-  <div class="summary">
-<a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pub-static-attribs">Static Public Attributes</a> &#124;
-<a href="a05716.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">MinZTest Class Reference</div>  </div>
+<div class="title">AzimuthTest Member List</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="dynheader">
-Collaboration diagram for MinZTest:</div>
-<div class="dyncontent">
-<div class="center"><img src="a05717.png" border="0" usemap="#MinZTest_coll__map" alt="Collaboration graph"/></div>
-<map name="MinZTest_coll__map" id="MinZTest_coll__map">
-</map>
-<center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
-<table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
-Public Member Functions</h2></td></tr>
-<tr class="memitem:a4611a55cc1ca54817f58770fda369856"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05719.html#a4611a55cc1ca54817f58770fda369856">testZMin</a> ()</td></tr>
-<tr class="separator:a4611a55cc1ca54817f58770fda369856"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
-Static Public Attributes</h2></td></tr>
-<tr class="memitem:af26f700ee129f846cac58735f6dcc380"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05719.html#af26f700ee129f846cac58735f6dcc380">testPoint</a> =&quot;LINESTRING(1 2 3, 4 5 6,7 8 9)&quot;</td></tr>
-<tr class="separator:af26f700ee129f846cac58735f6dcc380"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table>
-<h2 class="groupheader">Member Function Documentation</h2>
-<a id="a4611a55cc1ca54817f58770fda369856"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4611a55cc1ca54817f58770fda369856">&#9670;&nbsp;</a></span>testZMin()</h2>
 
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void testZMin </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="reference">References <a class="el" href="a03067.html#a43b4c73244bc6722ce551c1033cf1115">GeometricDoubleAttributeFunction.evaluate()</a>, and <a class="el" href="a04987.html#ae02c2e86ac0dea8538c7b43e9e82421a">WKTDatatype.LiteralIRI</a>.</p>
-<div class="fragment"><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;                               {</div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;                ZMin instance=<span class="keyword">new</span> ZMin();</div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;                ValueFactory valfac=SimpleValueFactory.getInstance();</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;                Value geo=valfac.createLiteral(<a class="code" href="a05719.html#af26f700ee129f846cac58735f6dcc380">testPoint</a>, WKTDatatype.LiteralIRI);</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;                Value result=instance.evaluate(valfac, geo);</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;                Value expResult=valfac.createLiteral(3.);</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;                assertEquals(expResult, result);</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;        }</div><div class="ttc" id="a05719_html_af26f700ee129f846cac58735f6dcc380"><div class="ttname"><a href="a05719.html#af26f700ee129f846cac58735f6dcc380">org.eclipse.rdf4j.testsuites.postgis.point.attribute.MinZTest.testPoint</a></div><div class="ttdeci">static final String testPoint</div><div class="ttdef"><b>Definition:</b> MinZTest.java:14</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<h2 class="groupheader">Member Data Documentation</h2>
-<a id="af26f700ee129f846cac58735f6dcc380"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af26f700ee129f846cac58735f6dcc380">&#9670;&nbsp;</a></span>testPoint</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">final String testPoint =&quot;LINESTRING(1 2 3, 4 5 6,7 8 9)&quot;</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-</div><!-- contents -->
+<p>This is the complete list of members for <a class="el" href="a05722.html">AzimuthTest</a>, including all inherited members.</p>
+<table class="directory">
+  <tr class="even"><td class="entry"><a class="el" href="a05722.html#afb57967d41a75bfa55c7f1443b245d14">testAzimuth1</a>()</td><td class="entry"><a class="el" href="a05722.html">AzimuthTest</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="a05722.html#a5d42e5f7045b0a306fc1d39539491851">testAzimuth2</a>()</td><td class="entry"><a class="el" href="a05722.html">AzimuthTest</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="a05722.html#ab20d196cb6e34afc2e9cff8074e43bfd">testPoint1</a></td><td class="entry"><a class="el" href="a05722.html">AzimuthTest</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
+  <tr><td class="entry"><a class="el" href="a05722.html#aa0c0c6f5dda7a397fc50f4c22a2b180f">testPoint2</a></td><td class="entry"><a class="el" href="a05722.html">AzimuthTest</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
+</table></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.13-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="a02538.html">org</a></li><li class="navelem"><a class="el" href="a02539.html">eclipse</a></li><li class="navelem"><a class="el" href="a02540.html">rdf4j</a></li><li class="navelem"><a class="el" href="a02621.html">testsuites</a></li><li class="navelem"><a class="el" href="a02622.html">postgis</a></li><li class="navelem"><a class="el" href="a02639.html">point</a></li><li class="navelem"><a class="el" href="a02638.html">attribute</a></li><li class="navelem"><a class="el" href="a05719.html">MinZTest</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>

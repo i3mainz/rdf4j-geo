@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>rdf4j-postgis: Member List</title>
+<title>rdf4j-postgis: PointInsideCircle Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -56,26 +56,168 @@ $(function() {
   </div>
 </div>
 <script type="text/javascript">
-$(document).ready(function(){initNavTree('a03861.html','');});
+$(document).ready(function(){initNavTree('a03858.html','');});
 </script>
 <div id="doc-content">
 <div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pro-methods">Protected Member Functions</a> &#124;
+<a href="a03855.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">MakePoint Member List</div>  </div>
+<div class="title">PointInsideCircle Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>This is the complete list of members for <a class="el" href="a03861.html">MakePoint</a>, including all inherited members.</p>
-<table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="a03861.html#aed4306d2bdbe40c21c01706f365e83cd">construct</a>(String input)</td><td class="entry"><a class="el" href="a03861.html">MakePoint</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="a03029.html#a43b4c73244bc6722ce551c1033cf1115">evaluate</a>(ValueFactory valueFactory, Value... args)</td><td class="entry"><a class="el" href="a03029.html">GeometricConstructor</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="a03861.html#ad9fb16b36dd4ccc533d4f05ff94646e3">getURI</a>()</td><td class="entry"><a class="el" href="a03861.html">MakePoint</a></td><td class="entry"></td></tr>
-</table></div><!-- contents -->
+<p>Returns true if a point is found within the bounds of a given circle defintion.  
+ <a href="a03858.html#details">More...</a></p>
+<div class="dynheader">
+Inheritance diagram for PointInsideCircle:</div>
+<div class="dyncontent">
+<div class="center"><img src="a03857.png" border="0" usemap="#PointInsideCircle_inherit__map" alt="Inheritance graph"/></div>
+<map name="PointInsideCircle_inherit__map" id="PointInsideCircle_inherit__map">
+<area shape="rect" id="node2" href="a03106.html" title="GeometricModifierDoubleDouble\lDoubleFunction" alt="" coords="5,80,216,121"/>
+</map>
+<center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
+<div class="dynheader">
+Collaboration diagram for PointInsideCircle:</div>
+<div class="dyncontent">
+<div class="center"><img src="a03856.png" border="0" usemap="#PointInsideCircle_coll__map" alt="Collaboration graph"/></div>
+<map name="PointInsideCircle_coll__map" id="PointInsideCircle_coll__map">
+<area shape="rect" id="node2" href="a03106.html" title="GeometricModifierDoubleDouble\lDoubleFunction" alt="" coords="5,80,216,121"/>
+</map>
+<center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:ad9fb16b36dd4ccc533d4f05ff94646e3"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a03858.html#ad9fb16b36dd4ccc533d4f05ff94646e3">getURI</a> ()</td></tr>
+<tr class="separator:ad9fb16b36dd4ccc533d4f05ff94646e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a43b4c73244bc6722ce551c1033cf1115"><td class="memItemLeft" align="right" valign="top">Value&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a03106.html#a43b4c73244bc6722ce551c1033cf1115">evaluate</a> (ValueFactory valueFactory, Value... args)  throws ValueExprEvaluationException </td></tr>
+<tr class="separator:a43b4c73244bc6722ce551c1033cf1115"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
+Protected Member Functions</h2></td></tr>
+<tr class="memitem:aa73faa01f17cea948b820a1f3058889c"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a03858.html#aa73faa01f17cea948b820a1f3058889c">relation</a> (Geometry geom, Double centerx, Double centery, Double radius)</td></tr>
+<tr class="separator:aa73faa01f17cea948b820a1f3058889c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Returns true if a point is found within the bounds of a given circle defintion. </p>
+</div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="a43b4c73244bc6722ce551c1033cf1115"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a43b4c73244bc6722ce551c1033cf1115">&#9670;&nbsp;</a></span>evaluate()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Value evaluate </td>
+          <td>(</td>
+          <td class="paramtype">ValueFactory&#160;</td>
+          <td class="paramname"><em>valueFactory</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Value...&#160;</td>
+          <td class="paramname"><em>args</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> throws ValueExprEvaluationException</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="a04878.html#a8796f5aec1965b6c4e88b2ba7c1d2e53">LiteralRegistry.getLiteral()</a>, and <a class="el" href="a03106.html#aa7b44080c2da08470256b52c98b1c76c">GeometricModifierDoubleDoubleDoubleFunction.relation()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="a05762.html#a9a4ba902062dec5571daf7e79671a55b">PointInsideCircleTest.testPointInsideCircleFalse()</a>, and <a class="el" href="a05762.html#a69c706f18cbb51436922e86f97221780">PointInsideCircleTest.testPoitnInsideCircleTrue()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;                                                                                                            {</div><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;                <span class="keywordflow">if</span> (args.length != 4) {</div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;                        <span class="keywordflow">throw</span> <span class="keyword">new</span> ValueExprEvaluationException(getURI() + <span class="stringliteral">&quot; requires exactly 3 arguments, got &quot;</span> + args.length);</div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;                }</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;                LiteralType l=LiteralRegistry.getLiteral(((Literal)args[0]).getDatatype().toString());</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;                Double value=Double.valueOf(args[1].stringValue());</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;                Double value2=Double.valueOf(args[2].stringValue());</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;                Double value3=Double.valueOf(args[3].stringValue());</div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;                <span class="keywordflow">if</span>(l instanceof VectorLiteral) {</div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;                        Geometry geom=((VectorLiteral)l).read(args[0].stringValue());</div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;                        Boolean result = <a class="code" href="a03106.html#aa7b44080c2da08470256b52c98b1c76c">relation</a>(geom,value,value2,value3);</div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;                        <span class="keywordflow">return</span> valueFactory.createLiteral(result);</div><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;                }</div><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;                <span class="keywordflow">throw</span> <span class="keyword">new</span> ValueExprEvaluationException(<span class="stringliteral">&quot;Argument given is not a geometry literal&quot;</span>);</div><div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;        }</div><div class="ttc" id="a03106_html_aa7b44080c2da08470256b52c98b1c76c"><div class="ttname"><a href="a03106.html#aa7b44080c2da08470256b52c98b1c76c">org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.geometry.base.GeometricModifierDoubleDoubleDoubleFunction.relation</a></div><div class="ttdeci">abstract boolean relation(Geometry geom, Double value, Double value2, Double value3)</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="ad9fb16b36dd4ccc533d4f05ff94646e3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad9fb16b36dd4ccc533d4f05ff94646e3">&#9670;&nbsp;</a></span>getURI()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">String getURI </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="a02702.html#a8ff78e1c796ae4c164c16e1d0cc0b669">POSTGIS.st_pointInsideCircle</a>.</p>
+<div class="fragment"><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;                               {</div><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;                <span class="keywordflow">return</span> POSTGIS.st_pointInsideCircle.stringValue();</div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;        }</div></div><!-- fragment -->
+</div>
+</div>
+<a id="aa73faa01f17cea948b820a1f3058889c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa73faa01f17cea948b820a1f3058889c">&#9670;&nbsp;</a></span>relation()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean relation </td>
+          <td>(</td>
+          <td class="paramtype">Geometry&#160;</td>
+          <td class="paramname"><em>geom</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Double&#160;</td>
+          <td class="paramname"><em>centerx</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Double&#160;</td>
+          <td class="paramname"><em>centery</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Double&#160;</td>
+          <td class="paramname"><em>radius</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;                                                                                                 {</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;                 <span class="keywordflow">if</span>(<span class="stringliteral">&quot;POINT&quot;</span>.equals(geom.getGeometryType().toUpperCase())){</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;                        GeometricShapeFactory shapeFactory = <span class="keyword">new</span> GeometricShapeFactory();</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;                     shapeFactory.setNumPoints(32);</div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;                     shapeFactory.setCentre(<span class="keyword">new</span> Coordinate(centerx, centery));</div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;                     shapeFactory.setSize(radius * 2);</div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;                     Polygon circle=shapeFactory.createCircle();</div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;                     <span class="keywordflow">return</span> circle.contains(geom);</div><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;             }</div><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;                 <span class="keywordflow">return</span> <span class="keyword">false</span>;</div><div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;        }</div></div><!-- fragment -->
+</div>
+</div>
+</div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.13-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
+    <li class="navelem"><a class="el" href="a02553.html">org</a></li><li class="navelem"><a class="el" href="a02554.html">eclipse</a></li><li class="navelem"><a class="el" href="a02555.html">rdf4j</a></li><li class="navelem"><a class="el" href="a02558.html">query</a></li><li class="navelem"><a class="el" href="a02559.html">algebra</a></li><li class="navelem"><a class="el" href="a02560.html">evaluation</a></li><li class="navelem"><a class="el" href="a02561.html">function</a></li><li class="navelem"><a class="el" href="a02562.html">postgis</a></li><li class="navelem"><a class="el" href="a02586.html">point</a></li><li class="navelem"><a class="el" href="a02585.html">attribute</a></li><li class="navelem"><a class="el" href="a03858.html">PointInsideCircle</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>

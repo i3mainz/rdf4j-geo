@@ -1,7 +1,10 @@
 var a02642 =
 [
-    [ "attribute", "a02641.html", "a02641" ],
-    [ "constructor", "a02643.html", "a02643" ],
-    [ "editor", "a02644.html", "a02644" ],
-    [ "transform", "a02645.html", "a02645" ]
+    [ "AddGeometryTest", "a05366.html", "a05366" ],
+    [ "AddPointTest", "a05370.html", "a05370" ],
+    [ "EnsureClosedTest", "a05374.html", "a05374" ],
+    [ "RemoveGeometryTest", "a05378.html", "a05378" ],
+    [ "RemovePointTest", "a05382.html", "a05382" ],
+    [ "SetGeometryTest", "a05386.html", "a05386" ],
+    [ "SetPointTest", "a05390.html", "a05390" ]
 ];

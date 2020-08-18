@@ -1,6 +1,7 @@
 var a02618 =
 [
-    [ "LengthSubstring", "a05143.html", "a05143" ],
-    [ "LengthToPoint", "a05147.html", "a05147" ],
-    [ "LocatePoint", "a05151.html", "a05151" ]
+    [ "CoverageJSONReader", "a05014.html", "a05014" ],
+    [ "CoverageJsonWriter", "a05018.html", "a05018" ],
+    [ "VectorTileDecoder", "a05022.html", "a05022" ],
+    [ "VectorTileEncoder", "a05038.html", "a05038" ]
 ];

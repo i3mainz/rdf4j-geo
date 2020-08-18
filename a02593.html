@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>rdf4j-postgis: Package org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.topo.exporter</title>
+<title>rdf4j-postgis: Package org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.polygon.transform</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -63,13 +63,25 @@ $(document).ready(function(){initNavTree('a02593.html','');});
   <div class="summary">
 <a href="#nested-classes">Classes</a>  </div>
   <div class="headertitle">
-<div class="title">Package org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.topo.exporter</div>  </div>
+<div class="title">Package org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.polygon.transform</div>  </div>
 </div><!--header-->
 <div class="contents">
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a04631.html">AsTopoJSON</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a04038.html">ForcePolygonCCW</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Orients all exterior rings counter-clockwise and all interior rings clockwise.  <a href="a04038.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a04042.html">ForcePolygonCW</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Orients all exterior rings clockwise and all interior rings counter-clockwise.  <a href="a04042.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a04046.html">LinesFromRings</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Extracts LineStrings from rings of a polygon.  <a href="a04046.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a04050.html">ReverseRing</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reverses the coordinates of a given ring of a polygon.  <a href="a04050.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a04054.html">RingsCutAtNodes</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
@@ -78,7 +90,7 @@ Classes</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="a02538.html">org</a></li><li class="navelem"><a class="el" href="a02539.html">eclipse</a></li><li class="navelem"><a class="el" href="a02540.html">rdf4j</a></li><li class="navelem"><a class="el" href="a02543.html">query</a></li><li class="navelem"><a class="el" href="a02544.html">algebra</a></li><li class="navelem"><a class="el" href="a02545.html">evaluation</a></li><li class="navelem"><a class="el" href="a02546.html">function</a></li><li class="navelem"><a class="el" href="a02547.html">postgis</a></li><li class="navelem"><a class="el" href="a02589.html">topo</a></li><li class="navelem"><a class="el" href="a02593.html">exporter</a></li>
+    <li class="navelem"><a class="el" href="a02553.html">org</a></li><li class="navelem"><a class="el" href="a02554.html">eclipse</a></li><li class="navelem"><a class="el" href="a02555.html">rdf4j</a></li><li class="navelem"><a class="el" href="a02558.html">query</a></li><li class="navelem"><a class="el" href="a02559.html">algebra</a></li><li class="navelem"><a class="el" href="a02560.html">evaluation</a></li><li class="navelem"><a class="el" href="a02561.html">function</a></li><li class="navelem"><a class="el" href="a02562.html">postgis</a></li><li class="navelem"><a class="el" href="a02590.html">polygon</a></li><li class="navelem"><a class="el" href="a02593.html">transform</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>

@@ -1,10 +1,9 @@
 var a02600 =
 [
-    [ "CovJSONDatatype", "a04871.html", "a04871" ],
-    [ "GeoTIFFDatatype", "a04875.html", "a04875" ],
-    [ "GMLCOVDatatype", "a04879.html", "a04879" ],
-    [ "HexWKBRastDatatype", "a04883.html", "a04883" ],
-    [ "NetCDFDatatype", "a04887.html", "a04887" ],
-    [ "RasterLiteral", "a04891.html", "a04891" ],
-    [ "WKBRastDatatype", "a04895.html", "a04895" ]
+    [ "AsBinary", "a04514.html", "a04514" ],
+    [ "AsCoverageJSON", "a04494.html", "a04494" ],
+    [ "AsGeoTIFF", "a04498.html", "a04498" ],
+    [ "AsGMLCOV", "a04502.html", "a04502" ],
+    [ "AsHexWKB", "a04510.html", "a04510" ],
+    [ "AsNetCDF", "a04506.html", "a04506" ]
 ];

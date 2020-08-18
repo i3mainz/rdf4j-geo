@@ -1,4 +1,5 @@
 var a02616 =
 [
-    [ "util", "a02617.html", "a02617" ]
+    [ "TopoJSONDatatype", "a04914.html", "a04914" ],
+    [ "TopologyLiteral", "a04918.html", "a04918" ]
 ];

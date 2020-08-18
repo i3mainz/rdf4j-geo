@@ -1,8 +1,9 @@
 var a02587 =
 [
-    [ "Resample", "a04563.html", "a04563" ],
-    [ "Rescale", "a04567.html", "a04567" ],
-    [ "Resize", "a04571.html", null ],
-    [ "Reskew", "a04575.html", null ],
-    [ "Transform", "a04579.html", null ]
+    [ "GeneratePoints", "a03902.html", "a03902" ],
+    [ "MakePoint", "a03906.html", "a03906" ],
+    [ "MPointFromText", "a03910.html", "a03910" ],
+    [ "PointFromGeoHash", "a03914.html", "a03914" ],
+    [ "PointFromText", "a03918.html", "a03918" ],
+    [ "PointFromWKB", "a03922.html", "a03922" ]
 ];
