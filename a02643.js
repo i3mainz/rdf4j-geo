@@ -1,6 +1,5 @@
 var a02643 =
 [
-    [ "AddRingTest", "a05823.html", "a05823" ],
-    [ "RemoveRingTest", "a05827.html", "a05827" ],
-    [ "SetRingTest", "a05831.html", "a05831" ]
+    [ "PolygonFromTextTest", "a05807.html", "a05807" ],
+    [ "PolygonFromWKBTest", "a05811.html", "a05811" ]
 ];

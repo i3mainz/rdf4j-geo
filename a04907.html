@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>rdf4j-postgis: GeoTIFFDatatype Class Reference</title>
+<title>rdf4j-postgis: DXFDatatype Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -62,56 +62,72 @@ $(document).ready(function(){initNavTree('a04907.html','');});
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pub-static-attribs">Static Public Attributes</a> &#124;
 <a href="a04904.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">GeoTIFFDatatype Class Reference</div>  </div>
+<div class="title">DXFDatatype Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p><a class="el" href="a04987.html">WKTDatatype</a> class allows the URI "geo:wktLiteral" to be used as a datatype and it will parse that datatype to a JTS Geometry.  
+ <a href="a04907.html#details">More...</a></p>
 <div class="dynheader">
-Inheritance diagram for GeoTIFFDatatype:</div>
+Inheritance diagram for DXFDatatype:</div>
 <div class="dyncontent">
-<div class="center"><img src="a04906.png" border="0" usemap="#GeoTIFFDatatype_inherit__map" alt="Inheritance graph"/></div>
-<map name="GeoTIFFDatatype_inherit__map" id="GeoTIFFDatatype_inherit__map">
-<area shape="rect" id="node2" href="a04923.html" title="RasterLiteral" alt="" coords="21,80,117,107"/>
-<area shape="rect" id="node3" href="a04899.html" title="LiteralType" alt="" coords="25,5,112,32"/>
+<div class="center"><img src="a04906.png" border="0" usemap="#DXFDatatype_inherit__map" alt="Inheritance graph"/></div>
+<map name="DXFDatatype_inherit__map" id="DXFDatatype_inherit__map">
+<area shape="rect" id="node2" href="a04975.html" title="VectorLiteral" alt="" coords="9,80,104,107"/>
+<area shape="rect" id="node3" href="a04867.html" title="LiteralType" alt="" coords="13,5,100,32"/>
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <div class="dynheader">
-Collaboration diagram for GeoTIFFDatatype:</div>
+Collaboration diagram for DXFDatatype:</div>
 <div class="dyncontent">
-<div class="center"><img src="a04905.png" border="0" usemap="#GeoTIFFDatatype_coll__map" alt="Collaboration graph"/></div>
-<map name="GeoTIFFDatatype_coll__map" id="GeoTIFFDatatype_coll__map">
-<area shape="rect" id="node2" href="a04923.html" title="RasterLiteral" alt="" coords="5,81,101,108"/>
-<area shape="rect" id="node3" href="a04899.html" title="LiteralType" alt="" coords="10,5,97,32"/>
+<div class="center"><img src="a04905.png" border="0" usemap="#DXFDatatype_coll__map" alt="Collaboration graph"/></div>
+<map name="DXFDatatype_coll__map" id="DXFDatatype_coll__map">
+<area shape="rect" id="node2" href="a04975.html" title="VectorLiteral" alt="" coords="5,81,100,108"/>
+<area shape="rect" id="node3" href="a04867.html" title="LiteralType" alt="" coords="9,5,96,32"/>
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a1cc8c62f94cc0157db4958fbe1f87310"><td class="memItemLeft" align="right" valign="top">GridCoverage&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a04907.html#a1cc8c62f94cc0157db4958fbe1f87310">read</a> (String geometryLiteral)</td></tr>
-<tr class="separator:a1cc8c62f94cc0157db4958fbe1f87310"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a657560fc17175e794fe55d3b23643891"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a04907.html#a657560fc17175e794fe55d3b23643891">unparse</a> (GridCoverage geom)</td></tr>
-<tr class="separator:a657560fc17175e794fe55d3b23643891"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae918a517e1ebcc44beeee2c55008d248"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a04907.html#ae918a517e1ebcc44beeee2c55008d248">unparse</a> (Geometry geometry)</td></tr>
+<tr class="memdesc:ae918a517e1ebcc44beeee2c55008d248"><td class="mdescLeft">&#160;</td><td class="mdescRight">This method Un-parses the JTS Geometry to the WKT literal.  <a href="#ae918a517e1ebcc44beeee2c55008d248">More...</a><br /></td></tr>
+<tr class="separator:ae918a517e1ebcc44beeee2c55008d248"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a793358fbd6ef538a24eabab1bd50ef01"><td class="memItemLeft" align="right" valign="top">Geometry&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a04907.html#a793358fbd6ef538a24eabab1bd50ef01">read</a> (String geometryLiteral)</td></tr>
+<tr class="separator:a793358fbd6ef538a24eabab1bd50ef01"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad146fa8579a5f8a876c4688cc5a68520"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a04907.html#ad146fa8579a5f8a876c4688cc5a68520">toString</a> ()</td></tr>
+<tr class="separator:ad146fa8579a5f8a876c4688cc5a68520"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:aaed3b78f0a76b78caea160038eaf7fdb"><td class="memItemLeft" align="right" valign="top">static ArrayList&lt; LineString &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a04907.html#aaed3b78f0a76b78caea160038eaf7fdb">readDXFLiteral</a> (String literalContent)  throws ParseException  </td></tr>
+<tr class="separator:aaed3b78f0a76b78caea160038eaf7fdb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
-<tr class="memitem:addbf30e6c0ad68fa34277d59a2c6eb5e"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a04907.html#addbf30e6c0ad68fa34277d59a2c6eb5e">URI</a> = <a class="el" href="a02719.html#a51d0e1062b1f49b3ba792a0599474ee9">POSTGIS.GEOTIFF</a></td></tr>
+<tr class="memitem:addbf30e6c0ad68fa34277d59a2c6eb5e"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a04907.html#addbf30e6c0ad68fa34277d59a2c6eb5e">URI</a> = <a class="el" href="a02687.html#a1b84bc81bc36689450f6f54e374c5652">POSTGIS.DXF</a></td></tr>
+<tr class="memdesc:addbf30e6c0ad68fa34277d59a2c6eb5e"><td class="mdescLeft">&#160;</td><td class="mdescRight">The default WKT type URI.  <a href="#addbf30e6c0ad68fa34277d59a2c6eb5e">More...</a><br /></td></tr>
 <tr class="separator:addbf30e6c0ad68fa34277d59a2c6eb5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aecdfcd6a73eb74b717778e66dcd51854"><td class="memItemLeft" align="right" valign="top">static final <a class="el" href="a04907.html">GeoTIFFDatatype</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a04907.html#aecdfcd6a73eb74b717778e66dcd51854">INSTANCE</a> =new <a class="el" href="a04907.html">GeoTIFFDatatype</a>()</td></tr>
-<tr class="separator:aecdfcd6a73eb74b717778e66dcd51854"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae02c2e86ac0dea8538c7b43e9e82421a"><td class="memItemLeft" align="right" valign="top">static final IRI&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a04907.html#ae02c2e86ac0dea8538c7b43e9e82421a">LiteralIRI</a> =SimpleValueFactory.getInstance().createIRI(<a class="el" href="a02719.html#ad263658bd03fbb2214983c7860869a23">POSTGIS.NAMESPACE</a>+&quot;geoTIFFLiteral&quot;)</td></tr>
-<tr class="separator:ae02c2e86ac0dea8538c7b43e9e82421a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad9664f278eff85c98017f28ccc848700"><td class="memItemLeft" align="right" valign="top">static final <a class="el" href="a04907.html">DXFDatatype</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a04907.html#ad9664f278eff85c98017f28ccc848700">INSTANCE</a> = new <a class="el" href="a04907.html">DXFDatatype</a>()</td></tr>
+<tr class="memdesc:ad9664f278eff85c98017f28ccc848700"><td class="mdescLeft">&#160;</td><td class="mdescRight">A static instance of <a class="el" href="a04987.html">WKTDatatype</a>.  <a href="#ad9664f278eff85c98017f28ccc848700">More...</a><br /></td></tr>
+<tr class="separator:ad9664f278eff85c98017f28ccc848700"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Function Documentation</h2>
-<a id="a1cc8c62f94cc0157db4958fbe1f87310"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1cc8c62f94cc0157db4958fbe1f87310">&#9670;&nbsp;</a></span>read()</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p><a class="el" href="a04987.html">WKTDatatype</a> class allows the URI "geo:wktLiteral" to be used as a datatype and it will parse that datatype to a JTS Geometry. </p>
+<p>Req 10 All RDFS Literals of type geo:wktLiteral shall consist of an optional URI identifying the coordinate reference system followed by Simple Features Well Known Text (WKT) describing a geometric value. Valid geo:wktLiterals are formed by concatenating a valid, absolute URI as defined in [RFC 2396], one or more spaces (Unicode U+0020 character) as a separator, and a WKT string as defined in Simple Features [ISO 19125-1].</p>
+<p>Req 11 The URI</p><div class="fragment"><div class="line">&lt;http:<span class="comment">//www.opengis.net/def/crs/OGC/1.3/CRS84&gt; </span></div></div><!-- fragment --><p> shall be assumed as the spatial reference system for geo:wktLiterals that do not * specify an explicit spatial reference system URI. </p>
+</div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="a793358fbd6ef538a24eabab1bd50ef01"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a793358fbd6ef538a24eabab1bd50ef01">&#9670;&nbsp;</a></span>read()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">GridCoverage read </td>
+          <td class="memname">Geometry read </td>
           <td>(</td>
           <td class="paramtype">String&#160;</td>
           <td class="paramname"><em>geometryLiteral</em></td><td>)</td>
@@ -119,11 +135,55 @@ Static Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;                                                         {</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;                GridCoverage coverage;</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;                <span class="comment">/*GeoTiffStore store=new GeoTiffStore(provider, connector)</span></div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="comment">                //try {</span></div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="comment">                        coverage = CoverageIO.read(geometryLiteral);</span></div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="comment">                        return coverage;</span></div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="comment">                } catch (CoverageStoreException e) {</span></div><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="comment">                        // TODO Auto-generated catch block</span></div><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="comment">                        e.printStackTrace();</span></div><div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="comment">                        throw new RuntimeException();</span></div><div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;<span class="comment">                }*/</span></div><div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;                <span class="keywordflow">return</span> null;</div><div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;</div><div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;        }</div></div><!-- fragment -->
+<div class="fragment"><div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;                                                 {</div><div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;        <span class="keywordflow">return</span> null;</div><div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;            <span class="comment">/*GeometryWrapper wrapper;</span></div><div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;<span class="comment">                try {</span></div><div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;<span class="comment">                        wrapper = GeometryWrapperFactory.createMultiLineString(readDXFLiteral(geometryLiteral), &quot;&lt;http://www.opengis.net/def/crs/EPSG/0/4326&gt;&quot;, EncodedPolylineDatatype.URI);</span></div><div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;<span class="comment">                        return wrapper;</span></div><div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;<span class="comment">                } catch (ParseException e) {</span></div><div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;<span class="comment">                        // TODO Auto-generated catch block</span></div><div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;<span class="comment">                        throw new RuntimeException(e.getMessage());</span></div><div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;<span class="comment">                        </span></div><div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;<span class="comment">                }*/</span>     </div><div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;            </div><div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;    }</div></div><!-- fragment -->
 </div>
 </div>
-<a id="a657560fc17175e794fe55d3b23643891"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a657560fc17175e794fe55d3b23643891">&#9670;&nbsp;</a></span>unparse()</h2>
+<a id="aaed3b78f0a76b78caea160038eaf7fdb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaed3b78f0a76b78caea160038eaf7fdb">&#9670;&nbsp;</a></span>readDXFLiteral()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static ArrayList&lt;LineString&gt; readDXFLiteral </td>
+          <td>(</td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>literalContent</em></td><td>)</td>
+          <td> throws ParseException</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;                                                                                                     {</div><div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;        ArrayList&lt;LineString&gt; lines = <span class="keyword">new</span> ArrayList&lt;&gt;();</div><div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;        Parser parser = ParserBuilder.createDefaultParser();</div><div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;        InputStream targetStream = <span class="keyword">new</span> ByteArrayInputStream(literalContent.getBytes());</div><div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;        parser.parse(targetStream, DXFParser.DEFAULT_ENCODING);</div><div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;        DXFDocument doc = parser.getDocument();</div><div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;        List&lt;DXFLine&gt; lst = doc.getDXFLayer(<span class="stringliteral">&quot;layername&quot;</span>).getDXFEntities(DXFConstants.ENTITY_TYPE_LINE);</div><div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;        GeometryFactory fac=<span class="keyword">new</span> GeometryFactory();</div><div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;        <span class="keywordflow">for</span> (<span class="keywordtype">int</span> index = 0; index &lt; lst.size(); index++) {</div><div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;            Bounds bounds = lst.get(index).getBounds();</div><div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;            Coordinate[] coords=<span class="keyword">new</span> Coordinate[2];</div><div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;            coords[0]=<span class="keyword">new</span> Coordinate(bounds.getMinimumX(), bounds.getMinimumY());</div><div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;            coords[1]=<span class="keyword">new</span> Coordinate(bounds.getMaximumX(),bounds.getMaximumY());</div><div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;            LineString ls=fac.createLineString(coords);</div><div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;            lines.add(ls);</div><div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;        }</div><div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;        <span class="keywordflow">return</span> lines;</div><div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;    }</div></div><!-- fragment -->
+</div>
+</div>
+<a id="ad146fa8579a5f8a876c4688cc5a68520"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad146fa8579a5f8a876c4688cc5a68520">&#9670;&nbsp;</a></span>toString()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">String toString </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;                             {</div><div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;        <span class="keywordflow">return</span> <span class="stringliteral">&quot;DXFDatatype{&quot;</span> + <a class="code" href="a04907.html#addbf30e6c0ad68fa34277d59a2c6eb5e">URI</a> + <span class="charliteral">&#39;}&#39;</span>;</div><div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;    }</div><div class="ttc" id="a04907_html_addbf30e6c0ad68fa34277d59a2c6eb5e"><div class="ttname"><a href="a04907.html#addbf30e6c0ad68fa34277d59a2c6eb5e">org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.literals.vector.DXFDatatype.URI</a></div><div class="ttdeci">static final String URI</div><div class="ttdoc">The default WKT type URI. </div><div class="ttdef"><b>Definition:</b> DXFDatatype.java:42</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="ae918a517e1ebcc44beeee2c55008d248"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae918a517e1ebcc44beeee2c55008d248">&#9670;&nbsp;</a></span>unparse()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -131,20 +191,28 @@ Static Public Attributes</h2></td></tr>
         <tr>
           <td class="memname">String unparse </td>
           <td>(</td>
-          <td class="paramtype">GridCoverage&#160;</td>
-          <td class="paramname"><em>geom</em></td><td>)</td>
+          <td class="paramtype">Geometry&#160;</td>
+          <td class="paramname"><em>geometry</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="a04515.html#a2bfa3f6fe437856574c81aa21f7f173e">AsGeoTIFF.operation()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;                                                 {</div><div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;                <span class="comment">/*TiffImageWriter writer = new TiffImageWriter(null);</span></div><div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;<span class="comment">                SpatialImageWriteParam writerParam = writer.getDefaultWriteParam();</span></div><div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;<span class="comment">                String compression = null;</span></div><div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;<span class="comment">                /*</span></div><div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;<span class="comment">                 * if (compression != null) {</span></div><div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;<span class="comment">                 * writerParam.setCompressionMode(ImageWriteParam.MODE_EXPLICIT);</span></div><div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;<span class="comment">                 * writerParam.setCompressionType(compression); }</span></div><div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;<span class="comment">                 </span></div><div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;<span class="comment">                try {</span></div><div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;<span class="comment">                        writer.write(((GridCoverage)geometry).getRenderedImage());</span></div><div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;<span class="comment">                        writer.endWriteSequence();</span></div><div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;<span class="comment">                        return writer.getOutput().toString();</span></div><div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;<span class="comment">                } catch (IOException e) {</span></div><div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;<span class="comment">                        // TODO Auto-generated catch block</span></div><div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;<span class="comment">                        e.printStackTrace();</span></div><div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;<span class="comment">                        throw new RuntimeException();</span></div><div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;<span class="comment">                }*/</span></div><div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;                <span class="keywordflow">return</span> null;</div><div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;        }</div></div><!-- fragment -->
+<p>This method Un-parses the JTS Geometry to the WKT literal. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">geometry</td><td>- the JTS Geometry to be un-parsed </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>WKT - the returned WKT Literal. <br />
+ Notice that the Spatial Reference System is not specified in returned WKT literal. </dd></dl>
+<div class="fragment"><div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;                                             {</div><div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;            DXFDocument doc=<span class="keyword">new</span> DXFDocument();</div><div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;           <span class="keywordflow">return</span> null;</div><div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;            <span class="comment">/*if(geom instanceof Point) {</span></div><div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;<span class="comment">                DXFPoint point=new DXFPoint();</span></div><div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;<span class="comment">                point.setX(((Point)geom).getX());</span></div><div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;<span class="comment">                point.setY(((Point)geom).getY());</span></div><div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;<span class="comment">                doc.add</span></div><div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;<span class="comment">            }else if(geom instanceof LineString) {</span></div><div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;<span class="comment">                DXFLine line=new DXFLine();</span></div><div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;<span class="comment">            }</span></div><div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;<span class="comment">            if(geometryWrapper.getXYGeometry().getGeometryType().equals(&quot;LineString&quot;)){</span></div><div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;<span class="comment">                return encodePolyline((LineString)geometryWrapper.getXYGeometry());             </span></div><div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;<span class="comment">            }else {</span></div><div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;<span class="comment">                throw new AssertionError(&quot;Object passed to EncodedPolylineDatatype is not a LineString: &quot; + geometry);</span></div><div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;<span class="comment">            }</span></div><div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;<span class="comment">        } else {</span></div><div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;<span class="comment">            throw new AssertionError(&quot;Object passed to EncodedPolylineDatatype is not a GeometryWrapper: &quot; + geometry);</span></div><div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;<span class="comment">        }*/</span></div><div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;    }</div></div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="aecdfcd6a73eb74b717778e66dcd51854"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aecdfcd6a73eb74b717778e66dcd51854">&#9670;&nbsp;</a></span>INSTANCE</h2>
+<a id="ad9664f278eff85c98017f28ccc848700"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad9664f278eff85c98017f28ccc848700">&#9670;&nbsp;</a></span>INSTANCE</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -153,7 +221,7 @@ Static Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">final <a class="el" href="a04907.html">GeoTIFFDatatype</a> INSTANCE =new <a class="el" href="a04907.html">GeoTIFFDatatype</a>()</td>
+          <td class="memname">final <a class="el" href="a04907.html">DXFDatatype</a> INSTANCE = new <a class="el" href="a04907.html">DXFDatatype</a>()</td>
         </tr>
       </table>
   </td>
@@ -163,29 +231,9 @@ Static Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="a04895.html#ab2c1f34f60c2740f703068f27871a32b">LiteralRegistry.LiteralRegistry()</a>, and <a class="el" href="a04515.html#a2bfa3f6fe437856574c81aa21f7f173e">AsGeoTIFF.operation()</a>.</p>
+<p>A static instance of <a class="el" href="a04987.html">WKTDatatype</a>. </p>
 
-</div>
-</div>
-<a id="ae02c2e86ac0dea8538c7b43e9e82421a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae02c2e86ac0dea8538c7b43e9e82421a">&#9670;&nbsp;</a></span>LiteralIRI</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">final IRI LiteralIRI =SimpleValueFactory.getInstance().createIRI(<a class="el" href="a02719.html#ad263658bd03fbb2214983c7860869a23">POSTGIS.NAMESPACE</a>+&quot;geoTIFFLiteral&quot;)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
+<p class="reference">Referenced by <a class="el" href="a04863.html#ab2c1f34f60c2740f703068f27871a32b">LiteralRegistry.LiteralRegistry()</a>.</p>
 
 </div>
 </div>
@@ -199,7 +247,7 @@ Static Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">final String URI = <a class="el" href="a02719.html#a51d0e1062b1f49b3ba792a0599474ee9">POSTGIS.GEOTIFF</a></td>
+          <td class="memname">final String URI = <a class="el" href="a02687.html#a1b84bc81bc36689450f6f54e374c5652">POSTGIS.DXF</a></td>
         </tr>
       </table>
   </td>
@@ -209,7 +257,9 @@ Static Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="a04895.html#ab2c1f34f60c2740f703068f27871a32b">LiteralRegistry.LiteralRegistry()</a>.</p>
+<p>The default WKT type URI. </p>
+
+<p class="reference">Referenced by <a class="el" href="a04863.html#ab2c1f34f60c2740f703068f27871a32b">LiteralRegistry.LiteralRegistry()</a>.</p>
 
 </div>
 </div>
@@ -219,7 +269,7 @@ Static Public Attributes</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="a02538.html">org</a></li><li class="navelem"><a class="el" href="a02539.html">eclipse</a></li><li class="navelem"><a class="el" href="a02540.html">rdf4j</a></li><li class="navelem"><a class="el" href="a02543.html">query</a></li><li class="navelem"><a class="el" href="a02544.html">algebra</a></li><li class="navelem"><a class="el" href="a02545.html">evaluation</a></li><li class="navelem"><a class="el" href="a02546.html">function</a></li><li class="navelem"><a class="el" href="a02547.html">postgis</a></li><li class="navelem"><a class="el" href="a02597.html">util</a></li><li class="navelem"><a class="el" href="a02599.html">literals</a></li><li class="navelem"><a class="el" href="a02600.html">raster</a></li><li class="navelem"><a class="el" href="a04907.html">GeoTIFFDatatype</a></li>
+    <li class="navelem"><a class="el" href="a02538.html">org</a></li><li class="navelem"><a class="el" href="a02539.html">eclipse</a></li><li class="navelem"><a class="el" href="a02540.html">rdf4j</a></li><li class="navelem"><a class="el" href="a02543.html">query</a></li><li class="navelem"><a class="el" href="a02544.html">algebra</a></li><li class="navelem"><a class="el" href="a02545.html">evaluation</a></li><li class="navelem"><a class="el" href="a02546.html">function</a></li><li class="navelem"><a class="el" href="a02547.html">postgis</a></li><li class="navelem"><a class="el" href="a02597.html">util</a></li><li class="navelem"><a class="el" href="a02599.html">literals</a></li><li class="navelem"><a class="el" href="a02602.html">vector</a></li><li class="navelem"><a class="el" href="a04907.html">DXFDatatype</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>

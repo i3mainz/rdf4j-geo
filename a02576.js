@@ -1,7 +1,7 @@
 var a02576 =
 [
-    [ "MakePolygon", "a04023.html", "a04023" ],
-    [ "Polygon", "a04027.html", "a04027" ],
-    [ "PolygonFromText", "a04031.html", "a04031" ],
-    [ "PolygonFromWKB", "a04035.html", "a04035" ]
+    [ "MakePolygon", "a03991.html", "a03991" ],
+    [ "Polygon", "a03995.html", "a03995" ],
+    [ "PolygonFromText", "a03999.html", "a03999" ],
+    [ "PolygonFromWKB", "a04003.html", "a04003" ]
 ];

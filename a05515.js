@@ -1,6 +1,5 @@
 var a05515 =
 [
-    [ "testRelateMatchFalse", "a05515.html#a16bf67312d8af3e076076fd8097969c5", null ],
-    [ "testRelateMatchTrue", "a05515.html#a47e32d919c84c1edd508a45d6c670e90", null ],
-    [ "notIsocelesTriangle", "a05515.html#a055d99fb63bcee37763ffcf4da9e0521", null ]
+    [ "testSridAxis1Orientation", "a05515.html#ae0ff51be0fe1734cba043c3509606d4d", null ],
+    [ "testPoint", "a05515.html#af26f700ee129f846cac58735f6dcc380", null ]
 ];

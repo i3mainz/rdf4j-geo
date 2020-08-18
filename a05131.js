@@ -1,8 +1,8 @@
 var a05131 =
 [
-    [ "ByteBufferInputStream", "a05131.html#a45e3ebcf56fe2e78f77d9ddda8485fa0", null ],
-    [ "available", "a05131.html#a4549a76725f2e4c013e4d57018366109", null ],
-    [ "read", "a05131.html#aaab5dab5b969a87f538242e524431637", null ],
-    [ "read", "a05131.html#a248e13ef5029818776308e269fa7900e", null ],
-    [ "byteBuffer", "a05131.html#acb7716c09c3c94749ca0b1613ecfae6a", null ]
+    [ "DimensionalComparator", "a05131.html#a5bd255213663b3596e2de221144f1ab1", null ],
+    [ "DimensionalComparator", "a05131.html#aa12c933fd5275be6824111b1f2c92cd6", null ],
+    [ "compare", "a05131.html#a55bbcaf3b85142c9878f7b8ac44290fb", null ],
+    [ "compare", "a05131.html#a22ae744431802300f10565640dec04c5", null ],
+    [ "dimensionsToTest", "a05131.html#a6bb6df1c2db1f7b9fe46d4be2d0083af", null ]
 ];

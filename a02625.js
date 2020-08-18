@@ -1,6 +1,10 @@
 var a02625 =
 [
-    [ "GeomFromGeoJSONTest", "a05347.html", "a05347" ],
-    [ "GeomFromTextTest", "a05351.html", "a05351" ],
-    [ "GeomFromWKBTest", "a05355.html", "a05355" ]
+    [ "attribute", "a02624.html", "a02624" ],
+    [ "constructor", "a02626.html", "a02626" ],
+    [ "editor", "a02627.html", "a02627" ],
+    [ "exporter", "a02628.html", "a02628" ],
+    [ "relation", "a02629.html", "a02629" ],
+    [ "srid", "a02630.html", "a02630" ],
+    [ "transform", "a02631.html", "a02631" ]
 ];

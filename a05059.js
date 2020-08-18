@@ -1,10 +1,9 @@
 var a05059 =
 [
-    [ "key", "a05059.html#a807f334d405d92bd2f38c380d4b9ed9a", null ],
-    [ "keys", "a05059.html#a5b7e54bc6f4d8855104d09ef3adb2606", null ],
-    [ "value", "a05059.html#a3220129efaffe512a5dded79b4e142ac", null ],
-    [ "values", "a05059.html#a297c543701acc405ac68122b9642cb28", null ],
-    [ "features", "a05059.html#a2b66f5f4579c910c9f7b7ccc043c3037", null ],
-    [ "keys", "a05059.html#a885c190e82027881ec3ed1533283c966", null ],
-    [ "values", "a05059.html#a8159c164675963389d4522cae972207b", null ]
+    [ "evaluate", "a05059.html#a43b4c73244bc6722ce551c1033cf1115", null ],
+    [ "getLiteral", "a05059.html#ad5ea121d0231b4b209324202427665f0", null ],
+    [ "relation", "a05059.html#a1c73bf75db5306313ea4b0b4c2830d51", null ],
+    [ "vectorOrRaster", "a05059.html#ad5afdfd817cdf11ee0e48c7f56c5514c", null ],
+    [ "rasterLiteralURIs", "a05059.html#ac7dbee8298c097c6bd08da6002fd6ecb", null ],
+    [ "vectorLiteralURIs", "a05059.html#a6e7c25bfd07628e3e74ea4e1ddfcae70", null ]
 ];

@@ -1,5 +1,5 @@
 var a02526 =
 [
-    [ "ExampleWebService", "a02695.html", "a02695" ],
-    [ "TripleStoreConnection", "a02699.html", "a02699" ]
+    [ "ExampleWebService", "a02663.html", "a02663" ],
+    [ "TripleStoreConnection", "a02667.html", "a02667" ]
 ];

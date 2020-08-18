@@ -1,7 +1,7 @@
 var a02603 =
 [
-    [ "CoverageJSONReader", "a05031.html", "a05031" ],
-    [ "CoverageJsonWriter", "a05035.html", "a05035" ],
-    [ "VectorTileDecoder", "a05039.html", "a05039" ],
-    [ "VectorTileEncoder", "a05055.html", "a05055" ]
+    [ "CoverageJSONReader", "a04999.html", "a04999" ],
+    [ "CoverageJsonWriter", "a05003.html", "a05003" ],
+    [ "VectorTileDecoder", "a05007.html", "a05007" ],
+    [ "VectorTileEncoder", "a05023.html", "a05023" ]
 ];

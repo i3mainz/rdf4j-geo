@@ -1,5 +1,4 @@
 var a05751 =
 [
-    [ "testY", "a05751.html#aa09d6b9dc5ef19f88e38f2d543d9715f", null ],
-    [ "testPoint", "a05751.html#af26f700ee129f846cac58735f6dcc380", null ]
+    [ "testPointFromText", "a05751.html#a34b8808318d84beec7ded7da39c5ef6e", null ]
 ];

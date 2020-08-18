@@ -1,4 +1,5 @@
-<map id="GeometricModifierDoubleDoubleFunction" name="GeometricModifierDoubleDoubleFunction">
-<area shape="rect" id="node3" href="$a03007.html" title="LocateBetweenMeasures" alt="" coords="5,169,175,196"/>
-<area shape="rect" id="node4" href="$a03943.html" title="ShearTransformation" alt="" coords="199,169,341,196"/>
+<map id="GeometricRelationDoubleBinaryFunction" name="GeometricRelationDoubleBinaryFunction">
+<area shape="rect" id="node3" href="$a03355.html" title="FullyWithinDistance" alt="" coords="5,169,144,196"/>
+<area shape="rect" id="node4" href="$a03359.html" title="FullyWithinDistance3D" alt="" coords="169,169,325,196"/>
+<area shape="rect" id="node5" href="$a03423.html" title="WithinDistance3D" alt="" coords="349,169,477,196"/>
 </map>

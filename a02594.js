@@ -1,5 +1,5 @@
 var a02594 =
 [
-    [ "Topo_Polygonize", "a04667.html", null ],
-    [ "Topo_Snap", "a04671.html", null ]
+    [ "Topo_Polygonize", "a04635.html", null ],
+    [ "Topo_Snap", "a04639.html", null ]
 ];

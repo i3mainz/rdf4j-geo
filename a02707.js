@@ -1,9 +1,10 @@
 var a02707 =
 [
-    [ "getGARS", "a02707.html#ad32b2611bcfa60ea86cc4e6c3e17a7f9", null ],
-    [ "getGARS", "a02707.html#aab0ce72463899f6ec6442a3d84a3505e", null ],
-    [ "getKeyPad", "a02707.html#af7bff98d14ce187151a4a42f2f2dd8bf", null ],
-    [ "getLatitudeBand", "a02707.html#ad4746c530ec18633752a358cb6be1fca", null ],
-    [ "getLongitudeBand", "a02707.html#aed1e474b826a038d1709638ca60ed398", null ],
-    [ "getQudarant", "a02707.html#a71d9179536894e21c4fa1049adf3d105", null ]
+    [ "BoundingBox", "a02707.html#a3c620de9265c34f40a1906d0f92c77a3", null ],
+    [ "BoundingBox", "a02707.html#af0725a1816cbe85fd20e2c627b9ff923", null ],
+    [ "clone", "a02707.html#a627080b0fe2a414508b5faba13108498", null ],
+    [ "equals", "a02707.html#a8e18a3a952a9e38a9a4191004a30c938", null ],
+    [ "hashCode", "a02707.html#a077e18fe97323c7194e2665ffc766399", null ],
+    [ "visit", "a02707.html#ace7c41d3761122fda287033559696cdd", null ],
+    [ "serialVersionUID", "a02707.html#a3238d314ecdee14d2966760945d00c3b", null ]
 ];

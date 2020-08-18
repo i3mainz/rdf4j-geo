@@ -1,7 +1,9 @@
 var a05167 =
 [
-    [ "testNumGeometries", "a05167.html#a66251605d7d3ce37996ccd2d7fa613fd", null ],
-    [ "testNumGeometriesCollection", "a05167.html#a2ad2fa8733f1826ddd7c66355901ff7d", null ],
-    [ "testGeom", "a05167.html#a03a5f5da0ccbeed8c1678d4317cf2672", null ],
-    [ "testGeom2", "a05167.html#a6b4be369c8f60e973cd5126e69cd33a4", null ]
+    [ "testBBOXLeftOf", "a05167.html#acc092dffcd1d5d422d27501b6b691ef0", null ],
+    [ "testBBOXLeftOf1", "a05167.html#a635c2e49e869cfa91cf3defbcde7f5ad", null ],
+    [ "testGeom1", "a05167.html#aa4a3b1a7e778ece72382f6600fa96b47", null ],
+    [ "testGeom2", "a05167.html#a6b4be369c8f60e973cd5126e69cd33a4", null ],
+    [ "testGeom3", "a05167.html#a800b6bb875a8ff4404ea787c3df125a5", null ],
+    [ "testGeom4", "a05167.html#a4c55e7efe430d6d220fb05524c4bb940", null ]
 ];

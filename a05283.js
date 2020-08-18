@@ -1,5 +1,6 @@
 var a05283 =
 [
-    [ "testIsValidFalse", "a05283.html#abe8c10068a1ed9f8a4fea754990b0a48", null ],
-    [ "testIsValidTrue", "a05283.html#a9556e5304e9a52193523b36c47bcd844", null ]
+    [ "testMinimumDiameterLine", "a05283.html#ac6734228b3f88748ca1545e62811f616", null ],
+    [ "result", "a05283.html#aab356d6554a7301750f11ec7a85ac47d", null ],
+    [ "testPolygon", "a05283.html#a1e3187cbc25299380589200c398b3ffd", null ]
 ];

@@ -1,6 +1,6 @@
 var a02577 =
 [
-    [ "AddInteriorRing", "a04039.html", "a04039" ],
-    [ "RemoveInteriorRing", "a04043.html", "a04043" ],
-    [ "SetInteriorRing", "a04047.html", "a04047" ]
+    [ "AddInteriorRing", "a04007.html", "a04007" ],
+    [ "RemoveInteriorRing", "a04011.html", "a04011" ],
+    [ "SetInteriorRing", "a04015.html", "a04015" ]
 ];

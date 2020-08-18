@@ -1,5 +1,5 @@
 var a05223 =
 [
-    [ "testCentroid", "a05223.html#a4d1dfbf2fba1b5c88a704bccbcb65cb9", null ],
-    [ "testGeometry", "a05223.html#abc3f514f005cba49e406658e2d3086eb", null ]
+    [ "testIsInCRSAreaOfValidityFalse", "a05223.html#ab086dd0d0debad3790e452ffa6c1fa28", null ],
+    [ "testIsInCRSAreaOfValidityTrue", "a05223.html#afff3ea2274b06643aaa5806616e7ca8e", null ]
 ];

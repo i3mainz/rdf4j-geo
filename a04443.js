@@ -1,5 +1,6 @@
 var a04443 =
 [
+    [ "construct", "a04443.html#a39cd9b39bec9109d5b5b1c1e0aaeed10", null ],
     [ "evaluate", "a04443.html#a43b4c73244bc6722ce551c1033cf1115", null ],
-    [ "operation", "a04443.html#aff77eb261f1dcb19c9273dd8b9662dad", null ]
+    [ "getURI", "a04443.html#ad9fb16b36dd4ccc533d4f05ff94646e3", null ]
 ];

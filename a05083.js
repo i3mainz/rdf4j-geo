@@ -1,9 +1,13 @@
 var a05083 =
 [
-    [ "evaluate", "a05083.html#a43b4c73244bc6722ce551c1033cf1115", null ],
-    [ "getLiteral", "a05083.html#ad5ea121d0231b4b209324202427665f0", null ],
-    [ "relation", "a05083.html#a71f3435eece62d00511b7d8ff45a1144", null ],
-    [ "vectorOrRaster", "a05083.html#ad5afdfd817cdf11ee0e48c7f56c5514c", null ],
-    [ "rasterLiteralURIs", "a05083.html#ac7dbee8298c097c6bd08da6002fd6ecb", null ],
-    [ "vectorLiteralURIs", "a05083.html#a6e7c25bfd07628e3e74ea4e1ddfcae70", null ]
+    [ "WKBRasterWriter", "a05083.html#ac554c69222b99b75f6e7bd0902a05cf8", null ],
+    [ "reset", "a05083.html#ad20897c5c8bd47f5d4005989bead0e55", null ],
+    [ "write", "a05083.html#a856e54e4f4722fb982aefe4b71c702db", null ],
+    [ "write", "a05083.html#a548c80a7e87fc26b84de1c8be26797df", null ],
+    [ "write", "a05083.html#a85eee5803cdc8926b61a167fa833c808", null ],
+    [ "write", "a05083.html#aa81b0fae18d5e64b155d0ea2afba77c1", null ],
+    [ "write", "a05083.html#a4ed3a6a532fffee3bc00f6a284480f32", null ],
+    [ "write", "a05083.html#a0acd711eb42afa0b71f0034a6a240311", null ],
+    [ "write", "a05083.html#a177a60820d9f841633957dbe681f46c8", null ],
+    [ "write", "a05083.html#a4d44c575b7d26f24882ee78b390f7ee4", null ]
 ];

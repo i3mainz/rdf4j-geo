@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>rdf4j-postgis: GeometricRelationBinaryFunction Class Reference</title>
+<title>rdf4j-postgis: GeometricStringExportFunction Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -62,44 +62,54 @@ $(document).ready(function(){initNavTree('a03155.html','');});
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="a03152.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">GeometricRelationBinaryFunction Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
+<div class="title">GeometricStringExportFunction Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
 </div><!--header-->
 <div class="contents">
 <div class="dynheader">
-Inheritance diagram for GeometricRelationBinaryFunction:</div>
+Inheritance diagram for GeometricStringExportFunction:</div>
 <div class="dyncontent">
-<div class="center"><img src="a03154.png" border="0" usemap="#GeometricRelationBinaryFunction_inherit__map" alt="Inheritance graph"/></div>
-<map name="GeometricRelationBinaryFunction_inherit__map" id="GeometricRelationBinaryFunction_inherit__map">
-<area shape="rect" id="node3" href="a02807.html" title="Returns true if the bounding box of geometry 1 is above the boundingbox of geometry 2..." alt="" coords="417,5,513,32"/>
-<area shape="rect" id="node4" href="a02811.html" title="Returns true if the bounding box of geometry 1 is below the boundingbox of geometry 2..." alt="" coords="417,56,512,83"/>
-<area shape="rect" id="node5" href="a02815.html" title="Returns true if the bounding box of geometry 1 contains the boundingbox of geometry 2..." alt="" coords="409,107,520,133"/>
-<area shape="rect" id="node6" href="a02823.html" title="Returns true if the boundingbox of the first geometry equals the boundingbox of the second geometry..." alt="" coords="415,157,514,184"/>
-<area shape="rect" id="node7" href="a02827.html" title="BBOXFPIntersects" alt="" coords="397,208,532,235"/>
-<area shape="rect" id="node8" href="a02831.html" title="BBOXIntersects" alt="" coords="406,259,523,285"/>
-<area shape="rect" id="node9" href="a02835.html" title="BBOXIsContainedBy" alt="" coords="392,309,537,336"/>
-<area shape="rect" id="node10" href="a02839.html" title="BBOXLeftOf" alt="" coords="417,360,512,387"/>
-<area shape="rect" id="node11" href="a02843.html" title="BBOXOverlapsAbove" alt="" coords="391,411,539,437"/>
-<area shape="rect" id="node12" href="a02847.html" title="BBOXOverlapsBelow" alt="" coords="391,461,538,488"/>
-<area shape="rect" id="node13" href="a02851.html" title="BBOXOverlapsLeft" alt="" coords="398,512,531,539"/>
-<area shape="rect" id="node14" href="a02855.html" title="BBOXOverlapsRight" alt="" coords="393,563,536,589"/>
-<area shape="rect" id="node15" href="a02859.html" title="BBOXRightOf" alt="" coords="413,613,517,640"/>
-<area shape="rect" id="node16" href="a03371.html" title="EqualsNorm" alt="" coords="417,664,512,691"/>
-<area shape="rect" id="node17" href="a03375.html" title="Returns true if the two given geometries have the same geocoordinate system. " alt="" coords="423,715,506,741"/>
-<area shape="rect" id="node18" href="a03379.html" title="Returns true if two geometries are topologically equal. " alt="" coords="419,765,510,792"/>
-<area shape="rect" id="node19" href="a03383.html" title="EqualType" alt="" coords="423,816,507,843"/>
-<area shape="rect" id="node20" href="a03435.html" title="OrderingEquals" alt="" coords="409,867,520,893"/>
-<area shape="rect" id="node21" href="a03855.html" title="Checks if a given point is included in a given ring. " alt="" coords="414,917,515,944"/>
-<area shape="rect" id="node22" href="a03859.html" title="Returns true if a given point is found on a given LineString. " alt="" coords="413,968,517,995"/>
+<div class="center"><img src="a03154.png" border="0" usemap="#GeometricStringExportFunction_inherit__map" alt="Inheritance graph"/></div>
+<map name="GeometricStringExportFunction_inherit__map" id="GeometricStringExportFunction_inherit__map">
+<area shape="rect" id="node3" href="a02867.html" title="Dump" alt="" coords="430,5,487,32"/>
+<area shape="rect" id="node4" href="a02879.html" title="Returns the type of the given geometry. " alt="" coords="405,56,513,83"/>
+<area shape="rect" id="node5" href="a02951.html" title="Checks if the given geometry is valid and gives more details on a possible validation error..." alt="" coords="411,107,507,133"/>
+<area shape="rect" id="node6" href="a02955.html" title="Checks if the given geometry is valid and gives a reason for the geometry not being valid..." alt="" coords="405,157,512,184"/>
+<area shape="rect" id="node7" href="a03223.html" title="Returns a WKB representation of a given geometry. " alt="" coords="421,208,496,235"/>
+<area shape="rect" id="node8" href="a03227.html" title="Returns a GARS representation of a given geometry. " alt="" coords="421,259,497,285"/>
+<area shape="rect" id="node9" href="a03231.html" title="Returns a GeoBuf representation of a given geometry. " alt="" coords="419,309,499,336"/>
+<area shape="rect" id="node10" href="a03235.html" title="Returns a GeoHash representation of the given geometry. " alt="" coords="412,360,505,387"/>
+<area shape="rect" id="node11" href="a03239.html" title="Returns a GeoJSON representation of a given geometry. " alt="" coords="409,411,508,437"/>
+<area shape="rect" id="node12" href="a03243.html" title="Returns a GeoRSS representation of a given geometry. " alt="" coords="413,461,504,488"/>
+<area shape="rect" id="node13" href="a03247.html" title="Returns a GeoURI representation of a given geometry. " alt="" coords="415,512,502,539"/>
+<area shape="rect" id="node14" href="a03251.html" title="Returns a GML representation of a given geometry. " alt="" coords="425,563,492,589"/>
+<area shape="rect" id="node15" href="a03255.html" title="Returns a GPX representation of a given geometry. " alt="" coords="425,613,492,640"/>
+<area shape="rect" id="node16" href="a03259.html" title="Returns a KML representation of a given geometry. " alt="" coords="426,664,491,691"/>
+<area shape="rect" id="node17" href="a03263.html" title="Returns a Lat/Lon text representation of a given geometry. " alt="" coords="407,715,510,741"/>
+<area shape="rect" id="node18" href="a03267.html" title="AsMVT" alt="" coords="425,765,492,792"/>
+<area shape="rect" id="node19" href="a03271.html" title="Returns a OpenStreetMap link representation of a given geometry. " alt="" coords="413,816,505,843"/>
+<area shape="rect" id="node20" href="a03275.html" title="AsPolyshape" alt="" coords="409,867,508,893"/>
+<area shape="rect" id="node21" href="a03279.html" title="Returns a SVG representation of a given geometry. " alt="" coords="425,917,492,944"/>
+<area shape="rect" id="node22" href="a03283.html" title="Returns a WKT representation of a given geometry. " alt="" coords="427,968,491,995"/>
+<area shape="rect" id="node23" href="a03287.html" title="Returns a WKT representation of a given geometry with maximum precision. " alt="" coords="413,1019,504,1045"/>
+<area shape="rect" id="node24" href="a03295.html" title="Returns a TinyWKB representation of a given geometry. " alt="" coords="420,1069,497,1096"/>
+<area shape="rect" id="node25" href="a03299.html" title="Returns an X3D representation of a given geometry. " alt="" coords="427,1120,491,1147"/>
+<area shape="rect" id="node26" href="a03431.html" title="SridGetAxis1Name" alt="" coords="391,1171,526,1197"/>
+<area shape="rect" id="node27" href="a03435.html" title="SridGetAxis1Orientation" alt="" coords="377,1221,540,1248"/>
+<area shape="rect" id="node28" href="a03439.html" title="SridGetAxis2Name" alt="" coords="391,1272,526,1299"/>
+<area shape="rect" id="node29" href="a03443.html" title="SridGetAxis2Orientation" alt="" coords="377,1323,540,1349"/>
+<area shape="rect" id="node30" href="a03447.html" title="SridGetDatum" alt="" coords="406,1373,511,1400"/>
+<area shape="rect" id="node31" href="a03691.html" title="AsEncodedPolyline" alt="" coords="391,1424,526,1451"/>
+<area shape="rect" id="node32" href="a03879.html" title="Zmflag" alt="" coords="427,1475,490,1501"/>
+<area shape="rect" id="node33" href="a03923.html" title="Returns the rings of a polygon as a WKT String. " alt="" coords="413,1525,504,1552"/>
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <div class="dynheader">
-Collaboration diagram for GeometricRelationBinaryFunction:</div>
+Collaboration diagram for GeometricStringExportFunction:</div>
 <div class="dyncontent">
-<div class="center"><img src="a03153.png" border="0" usemap="#GeometricRelationBinaryFunction_coll__map" alt="Collaboration graph"/></div>
-<map name="GeometricRelationBinaryFunction_coll__map" id="GeometricRelationBinaryFunction_coll__map">
+<div class="center"><img src="a03153.png" border="0" usemap="#GeometricStringExportFunction_coll__map" alt="Collaboration graph"/></div>
+<map name="GeometricStringExportFunction_coll__map" id="GeometricStringExportFunction_coll__map">
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -107,11 +117,8 @@ Collaboration diagram for GeometricRelationBinaryFunction:</div>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a43b4c73244bc6722ce551c1033cf1115"><td class="memItemLeft" align="right" valign="top">Value&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a03155.html#a43b4c73244bc6722ce551c1033cf1115">evaluate</a> (ValueFactory valueFactory, Value... args)  throws ValueExprEvaluationException </td></tr>
 <tr class="separator:a43b4c73244bc6722ce551c1033cf1115"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
-Protected Member Functions</h2></td></tr>
-<tr class="memitem:a0222f40044556cbd0371e7d63eed32cb"><td class="memItemLeft" align="right" valign="top">abstract boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a03155.html#a0222f40044556cbd0371e7d63eed32cb">relation</a> (Geometry g1, Geometry g2)</td></tr>
-<tr class="separator:a0222f40044556cbd0371e7d63eed32cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aafa339a5d14ce5e00588251b6d7c910c"><td class="memItemLeft" align="right" valign="top">abstract String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a03155.html#aafa339a5d14ce5e00588251b6d7c910c">operation</a> (Geometry geom)</td></tr>
+<tr class="separator:aafa339a5d14ce5e00588251b6d7c910c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
 <a id="a43b4c73244bc6722ce551c1033cf1115"></a>
@@ -140,15 +147,15 @@ Protected Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="a04895.html#a8796f5aec1965b6c4e88b2ba7c1d2e53">LiteralRegistry.getLiteral()</a>, <a class="el" href="a03155.html#a0222f40044556cbd0371e7d63eed32cb">GeometricRelationBinaryFunction.relation()</a>, and <a class="el" href="a05027.html#adb6db926db08da5c0c4a8ad8cfb1ff2d">LiteralUtils.transform()</a>.</p>
+<p class="reference">References <a class="el" href="a04863.html#a8796f5aec1965b6c4e88b2ba7c1d2e53">LiteralRegistry.getLiteral()</a>, and <a class="el" href="a03155.html#aafa339a5d14ce5e00588251b6d7c910c">GeometricStringExportFunction.operation()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="a05187.html#a0e5151be9c17b1a363f0e9587a76dad8">BBOXAboveTest.testBBOXAbove()</a>, <a class="el" href="a05187.html#afef7a8dc9560d094946b475413049d29">BBOXAboveTest.testBBOXAbove1()</a>, <a class="el" href="a05191.html#a594cd72ca71bae81e2fc3388cd6a1acf">BBOXBelowTest.testBBOXBelow()</a>, <a class="el" href="a05191.html#a93106ea7627b07fa96ea139a729727c1">BBOXBelowTest.testBBOXBelow1()</a>, <a class="el" href="a05199.html#acc092dffcd1d5d422d27501b6b691ef0">BBOXLeftOfTest.testBBOXLeftOf()</a>, <a class="el" href="a05199.html#a635c2e49e869cfa91cf3defbcde7f5ad">BBOXLeftOfTest.testBBOXLeftOf1()</a>, <a class="el" href="a05203.html#a1d3293620606e59a1f913178b94ea7fd">BBOXOverlapsRightTest.testBBOXRightOf()</a>, <a class="el" href="a05207.html#a1d3293620606e59a1f913178b94ea7fd">BBOXRightOfTest.testBBOXRightOf()</a>, <a class="el" href="a05203.html#ae27abe3e3daa14fdd8094ad71b5cb2cc">BBOXOverlapsRightTest.testBBOXRightOf1()</a>, <a class="el" href="a05207.html#ae27abe3e3daa14fdd8094ad71b5cb2cc">BBOXRightOfTest.testBBOXRightOf1()</a>, <a class="el" href="a05471.html#a2a99a285d6ad7938bb12707abf0b2dd2">EqualTypeTest.testEqual()</a>, <a class="el" href="a05459.html#a1928f13a833e5a2e8b142a5937d86c8b">EqualNormTest.testEqualNormFalse()</a>, <a class="el" href="a05459.html#ab11a3d6b71627dd555022e7a29ada7be">EqualNormTest.testEqualNormTrue()</a>, <a class="el" href="a05463.html#a65423949d44f9275c8e65852f1d2c21f">EqualSRSTest.testEqualSRS()</a>, <a class="el" href="a05467.html#a8274875a2d4c85b886223bd494666e36">EqualTopoTest.testEqualTopoFalse()</a>, <a class="el" href="a05467.html#a523cb10739809e6f16d7ba6f26d34cde">EqualTopoTest.testEqualTopoTrue()</a>, <a class="el" href="a05463.html#a9512f8c6cc810712e75379a2ac3af62a">EqualSRSTest.testNoSRS()</a>, <a class="el" href="a05471.html#a9195b3462bb379b0139e99b85954d5e4">EqualTypeTest.testNotEqual()</a>, <a class="el" href="a05463.html#a53e030c2e7a0f1d14425a168c2add23b">EqualSRSTest.testNotEqualSRS()</a>, <a class="el" href="a05511.html#a35b0ff8ac582857f1742c06e5db14fb2">OrderingEqualsTest.testOrderingEquals1()</a>, <a class="el" href="a05511.html#a258a7b3f7cf473377b4aaed9d19641c4">OrderingEqualsTest.testOrderingEquals2()</a>, and <a class="el" href="a05511.html#a47191a77968729eba6c2f943834b3992">OrderingEqualsTest.testOrderingEquals3()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;                                                                                                            {</div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;                <span class="keywordflow">if</span> (args.length != 2) {</div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;                        <span class="keywordflow">throw</span> <span class="keyword">new</span> ValueExprEvaluationException(getURI() + <span class="stringliteral">&quot; requires exactly 2 arguments, got &quot;</span> + args.length);</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;                }       </div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;                LiteralType l=LiteralRegistry.getLiteral(((Literal)args[0]).getDatatype().toString());</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;                LiteralType l2=LiteralRegistry.getLiteral(((Literal)args[1]).getDatatype().toString());</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;                <span class="keywordflow">if</span>(l instanceof VectorLiteral &amp;&amp; l2 instanceof VectorLiteral) {</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;                        Geometry geom=((VectorLiteral)l).read(args[0].stringValue());</div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;                        Geometry geom2=((VectorLiteral)l2).read(args[1].stringValue());</div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;                        Geometry transformed=LiteralUtils.transform(geom2, geom);</div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;                        <span class="keywordtype">boolean</span> result = <a class="code" href="a03155.html#a0222f40044556cbd0371e7d63eed32cb">relation</a>(geom,transformed);</div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;                        <span class="keywordflow">return</span> valueFactory.createLiteral(result);</div><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;                }</div><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;                <span class="keywordflow">throw</span> <span class="keyword">new</span> ValueExprEvaluationException(<span class="stringliteral">&quot;Arguments given are not a geometry literal&quot;</span>);</div><div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;                </div><div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;        }</div><div class="ttc" id="a03155_html_a0222f40044556cbd0371e7d63eed32cb"><div class="ttname"><a href="a03155.html#a0222f40044556cbd0371e7d63eed32cb">org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.geometry.base.GeometricRelationBinaryFunction.relation</a></div><div class="ttdeci">abstract boolean relation(Geometry g1, Geometry g2)</div></div>
+<p class="reference">Referenced by <a class="el" href="a05359.html#ac230b10882e3be05bacc871fce2fc609">AsBinaryTest.testAsBinary()</a>, <a class="el" href="a05671.html#a77e364f1e18fbe312ed563af435ddc8f">AsEncodedPolylineTest.testAsEncodedPolyline()</a>, <a class="el" href="a05363.html#a80929de20ed59fa635418039d48a9ef7">AsGARSTest.testAsGARS()</a>, <a class="el" href="a05367.html#a6aee2cc3188bbf40fb4d946ed66e57c2">AsGeoJSONTest.testAsGeoJSON()</a>, <a class="el" href="a05371.html#aae403d68ccc2ecfb409ca338b5ba0101">AsGeoRSSTest.testAsGeoURI()</a>, <a class="el" href="a05375.html#aae403d68ccc2ecfb409ca338b5ba0101">AsGeoURITest.testAsGeoURI()</a>, <a class="el" href="a05383.html#a294440bf0a1785c6cea76200ebf53818">AsLatLonTextTest.testAsLatLonText()</a>, <a class="el" href="a05387.html#a31833fe8b6139bfbdcd328ee943729e2">AsOSMLinkTest.testAsOSMLink()</a>, <a class="el" href="a05391.html#aa4ec805ffcfb140ead8292a441244775">AsPolyshapeTest.testAsPolyShape()</a>, <a class="el" href="a05395.html#a7051938045f1413d97e8c5925b1c7677">AsSVGTest.testAsSVG()</a>, <a class="el" href="a05407.html#a2bc485e1c6e58872aaf6237c16706862">AsTextTest.testAsText()</a>, <a class="el" href="a05399.html#abe6b8113553114d4969c61497fcbd472">AsTextRawTest.testAsTextRaw()</a>, <a class="el" href="a05407.html#acb072617d87d75036d226b17ec239fad">AsTextTest.testAsTextZ()</a>, <a class="el" href="a05411.html#a651953dc3a68b5b3795c7e668472170e">AsTWKBTest.testAsTWKB()</a>, <a class="el" href="a05199.html#a0444ce8df222ae81e1a33426a32d8d7a">GeometryTypeTest.testLineString()</a>, <a class="el" href="a05515.html#ae0ff51be0fe1734cba043c3509606d4d">SridGetAxis1OrientationTest.testSridAxis1Orientation()</a>, <a class="el" href="a05523.html#a4cce208d444c0a86d19f93731ff4a6b3">SridGetAxis2OrientationTest.testSridAxis2Orientation()</a>, <a class="el" href="a05511.html#a15a1a9864e65a0020c26d406fd64b26a">SridGetAxis1NameTest.testSridGetAxis1Name()</a>, <a class="el" href="a05519.html#aa23d52a72eb64b4bee30038ab09e5e21">SridGetAxis2NameTest.testSridGetAxis2Name()</a>, and <a class="el" href="a05527.html#a9d3a137e39e84c0018de3b734b787554">SridGetDatumTest.testSridGetDatum()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;                                                                                                            {</div><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;                <span class="keywordflow">if</span> (args.length != 1) {</div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;                        <span class="keywordflow">throw</span> <span class="keyword">new</span> ValueExprEvaluationException(getURI() + <span class="stringliteral">&quot; requires exactly 1 arguments, got &quot;</span> + args.length);</div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;                }</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;                LiteralType l=LiteralRegistry.getLiteral(((Literal)args[0]).getDatatype().toString());</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;                <span class="keywordflow">if</span>(l instanceof VectorLiteral) {</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;                        Geometry geom=((VectorLiteral)l).read(args[0].stringValue());</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;                        String result = <a class="code" href="a03155.html#aafa339a5d14ce5e00588251b6d7c910c">operation</a>(geom);</div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;                        <span class="keywordflow">return</span> valueFactory.createLiteral(result);</div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;                }</div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;                <span class="keywordflow">throw</span> <span class="keyword">new</span> ValueExprEvaluationException(<span class="stringliteral">&quot;Argument given is not a geometry literal&quot;</span>);</div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;                </div><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;        }</div><div class="ttc" id="a03155_html_aafa339a5d14ce5e00588251b6d7c910c"><div class="ttname"><a href="a03155.html#aafa339a5d14ce5e00588251b6d7c910c">org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.geometry.base.GeometricStringExportFunction.operation</a></div><div class="ttdeci">abstract String operation(Geometry geom)</div></div>
 </div><!-- fragment -->
 </div>
 </div>
-<a id="a0222f40044556cbd0371e7d63eed32cb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0222f40044556cbd0371e7d63eed32cb">&#9670;&nbsp;</a></span>relation()</h2>
+<a id="aafa339a5d14ce5e00588251b6d7c910c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aafa339a5d14ce5e00588251b6d7c910c">&#9670;&nbsp;</a></span>operation()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -157,31 +164,21 @@ Protected Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">abstract boolean relation </td>
+          <td class="memname">abstract String operation </td>
           <td>(</td>
           <td class="paramtype">Geometry&#160;</td>
-          <td class="paramname"><em>g1</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
+          <td class="paramname"><em>geom</em></td><td>)</td>
           <td></td>
-          <td class="paramtype">Geometry&#160;</td>
-          <td class="paramname"><em>g2</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">abstract</span><span class="mlabel">protected</span></span>  </td>
+<span class="mlabels"><span class="mlabel">abstract</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="a03155.html#a43b4c73244bc6722ce551c1033cf1115">GeometricRelationBinaryFunction.evaluate()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="a03155.html#a43b4c73244bc6722ce551c1033cf1115">GeometricStringExportFunction.evaluate()</a>.</p>
 
 </div>
 </div>
@@ -191,7 +188,7 @@ Protected Member Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="a02538.html">org</a></li><li class="navelem"><a class="el" href="a02539.html">eclipse</a></li><li class="navelem"><a class="el" href="a02540.html">rdf4j</a></li><li class="navelem"><a class="el" href="a02543.html">query</a></li><li class="navelem"><a class="el" href="a02544.html">algebra</a></li><li class="navelem"><a class="el" href="a02545.html">evaluation</a></li><li class="navelem"><a class="el" href="a02546.html">function</a></li><li class="navelem"><a class="el" href="a02547.html">postgis</a></li><li class="navelem"><a class="el" href="a02554.html">geometry</a></li><li class="navelem"><a class="el" href="a02555.html">base</a></li><li class="navelem"><a class="el" href="a03155.html">GeometricRelationBinaryFunction</a></li>
+    <li class="navelem"><a class="el" href="a02538.html">org</a></li><li class="navelem"><a class="el" href="a02539.html">eclipse</a></li><li class="navelem"><a class="el" href="a02540.html">rdf4j</a></li><li class="navelem"><a class="el" href="a02543.html">query</a></li><li class="navelem"><a class="el" href="a02544.html">algebra</a></li><li class="navelem"><a class="el" href="a02545.html">evaluation</a></li><li class="navelem"><a class="el" href="a02546.html">function</a></li><li class="navelem"><a class="el" href="a02547.html">postgis</a></li><li class="navelem"><a class="el" href="a02554.html">geometry</a></li><li class="navelem"><a class="el" href="a02555.html">base</a></li><li class="navelem"><a class="el" href="a03155.html">GeometricStringExportFunction</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>

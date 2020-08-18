@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>rdf4j-postgis: VectorTileEncoder.Layer Class Reference</title>
+<title>rdf4j-postgis: RasterVectorRelationIntBinaryFunction Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -62,128 +62,197 @@ $(document).ready(function(){initNavTree('a05059.html','');});
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pac-attribs">Package Attributes</a> &#124;
-<a href="#pri-attribs">Private Attributes</a> &#124;
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
+<a href="#pub-static-attribs">Static Public Attributes</a> &#124;
 <a href="a05056.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">VectorTileEncoder.Layer Class Reference</div>  </div>
+<div class="title">RasterVectorRelationIntBinaryFunction Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
 </div><!--header-->
 <div class="contents">
 <div class="dynheader">
-Collaboration diagram for VectorTileEncoder.Layer:</div>
+Inheritance diagram for RasterVectorRelationIntBinaryFunction:</div>
 <div class="dyncontent">
-<div class="center"><img src="a05057.png" border="0" usemap="#VectorTileEncoder_8Layer_coll__map" alt="Collaboration graph"/></div>
-<map name="VectorTileEncoder_8Layer_coll__map" id="VectorTileEncoder_8Layer_coll__map">
+<div class="center"><img src="a05058.png" border="0" usemap="#RasterVectorRelationIntBinaryFunction_inherit__map" alt="Inheritance graph"/></div>
+<map name="RasterVectorRelationIntBinaryFunction_inherit__map" id="RasterVectorRelationIntBinaryFunction_inherit__map">
+<area shape="rect" id="node3" href="a04519.html" title="DFullyWithin" alt="" coords="5,169,103,196"/>
+<area shape="rect" id="node4" href="a04527.html" title="DWithin" alt="" coords="127,169,197,196"/>
+</map>
+<center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
+<div class="dynheader">
+Collaboration diagram for RasterVectorRelationIntBinaryFunction:</div>
+<div class="dyncontent">
+<div class="center"><img src="a05057.png" border="0" usemap="#RasterVectorRelationIntBinaryFunction_coll__map" alt="Collaboration graph"/></div>
+<map name="RasterVectorRelationIntBinaryFunction_coll__map" id="RasterVectorRelationIntBinaryFunction_coll__map">
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a807f334d405d92bd2f38c380d4b9ed9a"><td class="memItemLeft" align="right" valign="top">Integer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05059.html#a807f334d405d92bd2f38c380d4b9ed9a">key</a> (String key)</td></tr>
-<tr class="separator:a807f334d405d92bd2f38c380d4b9ed9a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5b7e54bc6f4d8855104d09ef3adb2606"><td class="memItemLeft" align="right" valign="top">List&lt; String &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05059.html#a5b7e54bc6f4d8855104d09ef3adb2606">keys</a> ()</td></tr>
-<tr class="separator:a5b7e54bc6f4d8855104d09ef3adb2606"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3220129efaffe512a5dded79b4e142ac"><td class="memItemLeft" align="right" valign="top">Integer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05059.html#a3220129efaffe512a5dded79b4e142ac">value</a> (Object value)</td></tr>
-<tr class="separator:a3220129efaffe512a5dded79b4e142ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a297c543701acc405ac68122b9642cb28"><td class="memItemLeft" align="right" valign="top">List&lt; Object &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05059.html#a297c543701acc405ac68122b9642cb28">values</a> ()</td></tr>
-<tr class="separator:a297c543701acc405ac68122b9642cb28"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a43b4c73244bc6722ce551c1033cf1115"><td class="memItemLeft" align="right" valign="top">Value&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05059.html#a43b4c73244bc6722ce551c1033cf1115">evaluate</a> (ValueFactory valueFactory, Value... args)  throws ValueExprEvaluationException </td></tr>
+<tr class="separator:a43b4c73244bc6722ce551c1033cf1115"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1c73bf75db5306313ea4b0b4c2830d51"><td class="memItemLeft" align="right" valign="top">abstract Boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05059.html#a1c73bf75db5306313ea4b0b4c2830d51">relation</a> (Value v1, Value v2, Integer parameter)</td></tr>
+<tr class="separator:a1c73bf75db5306313ea4b0b4c2830d51"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pac-attribs"></a>
-Package Attributes</h2></td></tr>
-<tr class="memitem:a2b66f5f4579c910c9f7b7ccc043c3037"><td class="memItemLeft" align="right" valign="top">final List&lt; <a class="el" href="a05063.html">Feature</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05059.html#a2b66f5f4579c910c9f7b7ccc043c3037">features</a> = new ArrayList&lt;VectorTileEncoder.Feature&gt;()</td></tr>
-<tr class="separator:a2b66f5f4579c910c9f7b7ccc043c3037"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:ad5afdfd817cdf11ee0e48c7f56c5514c"><td class="memItemLeft" align="right" valign="top">static Boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05059.html#ad5afdfd817cdf11ee0e48c7f56c5514c">vectorOrRaster</a> (Literal lit)</td></tr>
+<tr class="separator:ad5afdfd817cdf11ee0e48c7f56c5514c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad5ea121d0231b4b209324202427665f0"><td class="memItemLeft" align="right" valign="top">static Literal&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05059.html#ad5ea121d0231b4b209324202427665f0">getLiteral</a> (Function func, Value v)  throws ValueExprEvaluationException </td></tr>
+<tr class="separator:ad5ea121d0231b4b209324202427665f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
-Private Attributes</h2></td></tr>
-<tr class="memitem:a885c190e82027881ec3ed1533283c966"><td class="memItemLeft" align="right" valign="top">final Map&lt; String, Integer &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05059.html#a885c190e82027881ec3ed1533283c966">keys</a> = new LinkedHashMap&lt;String, Integer&gt;()</td></tr>
-<tr class="separator:a885c190e82027881ec3ed1533283c966"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8159c164675963389d4522cae972207b"><td class="memItemLeft" align="right" valign="top">final Map&lt; Object, Integer &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05059.html#a8159c164675963389d4522cae972207b">values</a> = new LinkedHashMap&lt;Object, Integer&gt;()</td></tr>
-<tr class="separator:a8159c164675963389d4522cae972207b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
+Static Public Attributes</h2></td></tr>
+<tr class="memitem:ac7dbee8298c097c6bd08da6002fd6ecb"><td class="memItemLeft" align="right" valign="top">static Set&lt; String &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05059.html#ac7dbee8298c097c6bd08da6002fd6ecb">rasterLiteralURIs</a> =new TreeSet&lt;String&gt;()</td></tr>
+<tr class="separator:ac7dbee8298c097c6bd08da6002fd6ecb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6e7c25bfd07628e3e74ea4e1ddfcae70"><td class="memItemLeft" align="right" valign="top">static Set&lt; String &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05059.html#a6e7c25bfd07628e3e74ea4e1ddfcae70">vectorLiteralURIs</a> =new TreeSet&lt;String&gt;()</td></tr>
+<tr class="separator:a6e7c25bfd07628e3e74ea4e1ddfcae70"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a807f334d405d92bd2f38c380d4b9ed9a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a807f334d405d92bd2f38c380d4b9ed9a">&#9670;&nbsp;</a></span>key()</h2>
+<a id="a43b4c73244bc6722ce551c1033cf1115"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a43b4c73244bc6722ce551c1033cf1115">&#9670;&nbsp;</a></span>evaluate()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">Integer key </td>
+          <td class="memname">Value evaluate </td>
           <td>(</td>
-          <td class="paramtype">String&#160;</td>
-          <td class="paramname"><em>key</em></td><td>)</td>
+          <td class="paramtype">ValueFactory&#160;</td>
+          <td class="paramname"><em>valueFactory</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">Value...&#160;</td>
+          <td class="paramname"><em>args</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> throws ValueExprEvaluationException</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="a05055.html#a2afe6a9071cc7d0e53c80fa46df18b61">VectorTileEncoder.addFeature()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00521"></a><span class="lineno">  521</span>&#160;                                       {</div><div class="line"><a name="l00522"></a><span class="lineno">  522</span>&#160;            Integer i = <a class="code" href="a05059.html#a5b7e54bc6f4d8855104d09ef3adb2606">keys</a>.get(<a class="code" href="a05059.html#a807f334d405d92bd2f38c380d4b9ed9a">key</a>);</div><div class="line"><a name="l00523"></a><span class="lineno">  523</span>&#160;            <span class="keywordflow">if</span> (i == null) {</div><div class="line"><a name="l00524"></a><span class="lineno">  524</span>&#160;                i = Integer.valueOf(<a class="code" href="a05059.html#a5b7e54bc6f4d8855104d09ef3adb2606">keys</a>.size());</div><div class="line"><a name="l00525"></a><span class="lineno">  525</span>&#160;                <a class="code" href="a05059.html#a5b7e54bc6f4d8855104d09ef3adb2606">keys</a>.put(<a class="code" href="a05059.html#a807f334d405d92bd2f38c380d4b9ed9a">key</a>, i);</div><div class="line"><a name="l00526"></a><span class="lineno">  526</span>&#160;            }</div><div class="line"><a name="l00527"></a><span class="lineno">  527</span>&#160;            <span class="keywordflow">return</span> i;</div><div class="line"><a name="l00528"></a><span class="lineno">  528</span>&#160;        }</div><div class="ttc" id="a05059_html_a5b7e54bc6f4d8855104d09ef3adb2606"><div class="ttname"><a href="a05059.html#a5b7e54bc6f4d8855104d09ef3adb2606">org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.parsers.VectorTileEncoder.Layer.keys</a></div><div class="ttdeci">List&lt; String &gt; keys()</div><div class="ttdef"><b>Definition:</b> VectorTileEncoder.java:530</div></div>
-<div class="ttc" id="a05059_html_a807f334d405d92bd2f38c380d4b9ed9a"><div class="ttname"><a href="a05059.html#a807f334d405d92bd2f38c380d4b9ed9a">org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.parsers.VectorTileEncoder.Layer.key</a></div><div class="ttdeci">Integer key(String key)</div><div class="ttdef"><b>Definition:</b> VectorTileEncoder.java:521</div></div>
-</div><!-- fragment -->
+<p class="reference">References <a class="el" href="a05059.html#a1c73bf75db5306313ea4b0b4c2830d51">RasterVectorRelationIntBinaryFunction.relation()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;                                                                                                            {</div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;                <span class="comment">// TODO Auto-generated method stub</span></div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;                <span class="keywordflow">return</span> null;</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;        }</div></div><!-- fragment -->
 </div>
 </div>
-<a id="a5b7e54bc6f4d8855104d09ef3adb2606"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5b7e54bc6f4d8855104d09ef3adb2606">&#9670;&nbsp;</a></span>keys()</h2>
+<a id="ad5ea121d0231b4b209324202427665f0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad5ea121d0231b4b209324202427665f0">&#9670;&nbsp;</a></span>getLiteral()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">List&lt;String&gt; keys </td>
+          <td class="memname">static Literal getLiteral </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype">Function&#160;</td>
+          <td class="paramname"><em>func</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">Value&#160;</td>
+          <td class="paramname"><em>v</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> throws ValueExprEvaluationException</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><a name="l00530"></a><span class="lineno">  530</span>&#160;                                   {</div><div class="line"><a name="l00531"></a><span class="lineno">  531</span>&#160;            <span class="keywordflow">return</span> <span class="keyword">new</span> ArrayList&lt;String&gt;(<a class="code" href="a05059.html#a5b7e54bc6f4d8855104d09ef3adb2606">keys</a>.keySet());</div><div class="line"><a name="l00532"></a><span class="lineno">  532</span>&#160;        }</div><div class="ttc" id="a05059_html_a5b7e54bc6f4d8855104d09ef3adb2606"><div class="ttname"><a href="a05059.html#a5b7e54bc6f4d8855104d09ef3adb2606">org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.parsers.VectorTileEncoder.Layer.keys</a></div><div class="ttdeci">List&lt; String &gt; keys()</div><div class="ttdef"><b>Definition:</b> VectorTileEncoder.java:530</div></div>
-</div><!-- fragment -->
+
+<p class="reference">Referenced by <a class="el" href="a04519.html#afc903896114f7537804d614c5d2cb701">DFullyWithin.relation()</a>, and <a class="el" href="a04527.html#afc903896114f7537804d614c5d2cb701">DWithin.relation()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;                                                                                                     {</div><div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;                <span class="keywordflow">if</span> (!(v instanceof Literal)) {</div><div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;                        <span class="keywordflow">throw</span> <span class="keyword">new</span> ValueExprEvaluationException(<span class="stringliteral">&quot;Invalid argument for &quot;</span> + func.getURI() + <span class="stringliteral">&quot;: &quot;</span> + v);</div><div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;                }</div><div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;                Literal lit = (Literal) v;</div><div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;                <span class="keywordflow">return</span> lit;</div><div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;        }</div></div><!-- fragment -->
 </div>
 </div>
-<a id="a3220129efaffe512a5dded79b4e142ac"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3220129efaffe512a5dded79b4e142ac">&#9670;&nbsp;</a></span>value()</h2>
+<a id="a1c73bf75db5306313ea4b0b4c2830d51"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1c73bf75db5306313ea4b0b4c2830d51">&#9670;&nbsp;</a></span>relation()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">Integer value </td>
+          <td class="memname">abstract Boolean relation </td>
           <td>(</td>
-          <td class="paramtype">Object&#160;</td>
-          <td class="paramname"><em>value</em></td><td>)</td>
+          <td class="paramtype">Value&#160;</td>
+          <td class="paramname"><em>v1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">Value&#160;</td>
+          <td class="paramname"><em>v2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Integer&#160;</td>
+          <td class="paramname"><em>parameter</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">abstract</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="a05055.html#a2afe6a9071cc7d0e53c80fa46df18b61">VectorTileEncoder.addFeature()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00534"></a><span class="lineno">  534</span>&#160;                                           {</div><div class="line"><a name="l00535"></a><span class="lineno">  535</span>&#160;            Integer i = <a class="code" href="a05059.html#a297c543701acc405ac68122b9642cb28">values</a>.get(<a class="code" href="a05059.html#a3220129efaffe512a5dded79b4e142ac">value</a>);</div><div class="line"><a name="l00536"></a><span class="lineno">  536</span>&#160;            <span class="keywordflow">if</span> (i == null) {</div><div class="line"><a name="l00537"></a><span class="lineno">  537</span>&#160;                i = Integer.valueOf(<a class="code" href="a05059.html#a297c543701acc405ac68122b9642cb28">values</a>.size());</div><div class="line"><a name="l00538"></a><span class="lineno">  538</span>&#160;                <a class="code" href="a05059.html#a297c543701acc405ac68122b9642cb28">values</a>.put(<a class="code" href="a05059.html#a3220129efaffe512a5dded79b4e142ac">value</a>, i);</div><div class="line"><a name="l00539"></a><span class="lineno">  539</span>&#160;            }</div><div class="line"><a name="l00540"></a><span class="lineno">  540</span>&#160;            <span class="keywordflow">return</span> i;</div><div class="line"><a name="l00541"></a><span class="lineno">  541</span>&#160;        }</div><div class="ttc" id="a05059_html_a297c543701acc405ac68122b9642cb28"><div class="ttname"><a href="a05059.html#a297c543701acc405ac68122b9642cb28">org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.parsers.VectorTileEncoder.Layer.values</a></div><div class="ttdeci">List&lt; Object &gt; values()</div><div class="ttdef"><b>Definition:</b> VectorTileEncoder.java:543</div></div>
-<div class="ttc" id="a05059_html_a3220129efaffe512a5dded79b4e142ac"><div class="ttname"><a href="a05059.html#a3220129efaffe512a5dded79b4e142ac">org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.parsers.VectorTileEncoder.Layer.value</a></div><div class="ttdeci">Integer value(Object value)</div><div class="ttdef"><b>Definition:</b> VectorTileEncoder.java:534</div></div>
-</div><!-- fragment -->
+<p class="reference">Referenced by <a class="el" href="a05059.html#a43b4c73244bc6722ce551c1033cf1115">RasterVectorRelationIntBinaryFunction.evaluate()</a>.</p>
+
 </div>
 </div>
-<a id="a297c543701acc405ac68122b9642cb28"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a297c543701acc405ac68122b9642cb28">&#9670;&nbsp;</a></span>values()</h2>
+<a id="ad5afdfd817cdf11ee0e48c7f56c5514c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad5afdfd817cdf11ee0e48c7f56c5514c">&#9670;&nbsp;</a></span>vectorOrRaster()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">List&lt;Object&gt; values </td>
+          <td class="memname">static Boolean vectorOrRaster </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype">Literal&#160;</td>
+          <td class="paramname"><em>lit</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><a name="l00543"></a><span class="lineno">  543</span>&#160;                                     {</div><div class="line"><a name="l00544"></a><span class="lineno">  544</span>&#160;            <span class="keywordflow">return</span> Collections.unmodifiableList(<span class="keyword">new</span> ArrayList&lt;Object&gt;(<a class="code" href="a05059.html#a297c543701acc405ac68122b9642cb28">values</a>.keySet()));</div><div class="line"><a name="l00545"></a><span class="lineno">  545</span>&#160;        }</div><div class="ttc" id="a05059_html_a297c543701acc405ac68122b9642cb28"><div class="ttname"><a href="a05059.html#a297c543701acc405ac68122b9642cb28">org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.parsers.VectorTileEncoder.Layer.values</a></div><div class="ttdeci">List&lt; Object &gt; values()</div><div class="ttdef"><b>Definition:</b> VectorTileEncoder.java:543</div></div>
-</div><!-- fragment -->
+
+<p class="reference">References <a class="el" href="a04863.html#aca2348a6b1d6796d1e7034d4029e3817">LiteralRegistry.literals</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="a04519.html#afc903896114f7537804d614c5d2cb701">DFullyWithin.relation()</a>, and <a class="el" href="a04527.html#afc903896114f7537804d614c5d2cb701">DWithin.relation()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;                                                          {</div><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;                <span class="keywordflow">if</span>(LiteralRegistry.literals.containsKey(lit.getDatatype().toString())) {</div><div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;                        LiteralType lite=LiteralRegistry.literals.get(lit.getDatatype().toString());</div><div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;                        <span class="keywordflow">if</span>(lite instanceof VectorLiteral) {</div><div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;                                <span class="keywordflow">return</span> <span class="keyword">true</span>;</div><div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;                        }<span class="keywordflow">else</span> <span class="keywordflow">if</span>(lite instanceof RasterLiteral) {</div><div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;                                <span class="keywordflow">return</span> <span class="keyword">false</span>;</div><div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;                        }</div><div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;                }</div><div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;                <span class="keywordflow">return</span> null;</div><div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;        }</div></div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="a2b66f5f4579c910c9f7b7ccc043c3037"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2b66f5f4579c910c9f7b7ccc043c3037">&#9670;&nbsp;</a></span>features</h2>
+<a id="ac7dbee8298c097c6bd08da6002fd6ecb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac7dbee8298c097c6bd08da6002fd6ecb">&#9670;&nbsp;</a></span>rasterLiteralURIs</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -192,22 +261,20 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">final List&lt;<a class="el" href="a05063.html">Feature</a>&gt; features = new ArrayList&lt;VectorTileEncoder.Feature&gt;()</td>
+          <td class="memname">Set&lt;String&gt; rasterLiteralURIs =new TreeSet&lt;String&gt;()</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="a05055.html#a2afe6a9071cc7d0e53c80fa46df18b61">VectorTileEncoder.addFeature()</a>, and <a class="el" href="a05055.html#ab467bae7ee09e6679725a5a385be624b">VectorTileEncoder.encode()</a>.</p>
-
 </div>
 </div>
-<a id="a885c190e82027881ec3ed1533283c966"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a885c190e82027881ec3ed1533283c966">&#9670;&nbsp;</a></span>keys</h2>
+<a id="a6e7c25bfd07628e3e74ea4e1ddfcae70"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6e7c25bfd07628e3e74ea4e1ddfcae70">&#9670;&nbsp;</a></span>vectorLiteralURIs</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -216,41 +283,15 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">final Map&lt;String, Integer&gt; keys = new LinkedHashMap&lt;String, Integer&gt;()</td>
+          <td class="memname">Set&lt;String&gt; vectorLiteralURIs =new TreeSet&lt;String&gt;()</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="a05055.html#ab467bae7ee09e6679725a5a385be624b">VectorTileEncoder.encode()</a>.</p>
-
-</div>
-</div>
-<a id="a8159c164675963389d4522cae972207b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8159c164675963389d4522cae972207b">&#9670;&nbsp;</a></span>values</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">final Map&lt;Object, Integer&gt; values = new LinkedHashMap&lt;Object, Integer&gt;()</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="a05055.html#ab467bae7ee09e6679725a5a385be624b">VectorTileEncoder.encode()</a>.</p>
 
 </div>
 </div>
@@ -260,7 +301,7 @@ Private Attributes</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="a02538.html">org</a></li><li class="navelem"><a class="el" href="a02539.html">eclipse</a></li><li class="navelem"><a class="el" href="a02540.html">rdf4j</a></li><li class="navelem"><a class="el" href="a02543.html">query</a></li><li class="navelem"><a class="el" href="a02544.html">algebra</a></li><li class="navelem"><a class="el" href="a02545.html">evaluation</a></li><li class="navelem"><a class="el" href="a02546.html">function</a></li><li class="navelem"><a class="el" href="a02547.html">postgis</a></li><li class="navelem"><a class="el" href="a02597.html">util</a></li><li class="navelem"><a class="el" href="a02603.html">parsers</a></li><li class="navelem"><a class="el" href="a05055.html">VectorTileEncoder</a></li><li class="navelem"><a class="el" href="a05059.html">Layer</a></li>
+    <li class="navelem"><a class="el" href="a02538.html">org</a></li><li class="navelem"><a class="el" href="a02539.html">eclipse</a></li><li class="navelem"><a class="el" href="a02540.html">rdf4j</a></li><li class="navelem"><a class="el" href="a02543.html">query</a></li><li class="navelem"><a class="el" href="a02544.html">algebra</a></li><li class="navelem"><a class="el" href="a02545.html">evaluation</a></li><li class="navelem"><a class="el" href="a02546.html">function</a></li><li class="navelem"><a class="el" href="a02547.html">postgis</a></li><li class="navelem"><a class="el" href="a02597.html">util</a></li><li class="navelem"><a class="el" href="a05059.html">RasterVectorRelationIntBinaryFunction</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>

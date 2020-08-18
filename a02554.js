@@ -8,8 +8,8 @@ var a02554 =
     [ "relation", "a02559.html", "a02559" ],
     [ "srid", "a02560.html", "a02560" ],
     [ "transform", "a02561.html", "a02561" ],
-    [ "Boundary", "a02871.html", "a02871" ],
-    [ "BoundingDiagonal", "a02875.html", "a02875" ],
-    [ "DelaunayTriangles", "a03219.html", "a03219" ],
-    [ "PointOnSurface", "a03335.html", "a03335" ]
+    [ "Boundary", "a02839.html", "a02839" ],
+    [ "BoundingDiagonal", "a02843.html", "a02843" ],
+    [ "DelaunayTriangles", "a03187.html", "a03187" ],
+    [ "PointOnSurface", "a03303.html", "a03303" ]
 ];

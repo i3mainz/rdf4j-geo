@@ -1,21 +1,13 @@
 var a05047 =
 [
-    [ "FeatureIterator", "a05047.html#a08854cdae8bd2e2223a9dd3fe6b071d7", null ],
-    [ "findNext", "a05047.html#a5b6607ffdded724cbb0e530103233093", null ],
-    [ "hasNext", "a05047.html#a58d1cc3d61071d927bf040bf0b035a22", null ],
-    [ "next", "a05047.html#ac27bd9fe293f952329e4f669922ea750", null ],
-    [ "parseFeature", "a05047.html#a5941b8943263ee9d9dbdd95dad8cab0a", null ],
-    [ "parseLayer", "a05047.html#aeb42734704906e8bdf1d674e62ea6b75", null ],
-    [ "remove", "a05047.html#a1fcb45e5d2428352eb36b487d1d4eea3", null ],
-    [ "autoScale", "a05047.html#a790b272bcf5713954b8582330074dfc8", null ],
-    [ "extent", "a05047.html#a08332e7941e91537fabb5c811306cbec", null ],
-    [ "featureIterator", "a05047.html#aaf3dc1e5338be9388f48f131fb3979e3", null ],
-    [ "filter", "a05047.html#a372cbadc592907caa755cab7031ff81a", null ],
-    [ "gf", "a05047.html#a584fada8e317e904ad3d8e8a20325f6f", null ],
-    [ "keys", "a05047.html#a3fd6cdc21222ea54397c9295148851dc", null ],
-    [ "layerIterator", "a05047.html#a12880f8b6f7ae10bdb4c097863e194e7", null ],
-    [ "layerName", "a05047.html#a19bfb03269d4716683c25852c9aa505a", null ],
-    [ "next", "a05047.html#a6583d8f4e5b9bafd677867c095e2a43a", null ],
-    [ "scale", "a05047.html#a80d402d10e8341004c0caf10133b80ab", null ],
-    [ "values", "a05047.html#a166d04e984f645452caf73d70c5fb011", null ]
+    [ "Encoder", "a05047.html#ae9b4d30bd3ef8dcabd2c471b856cc56f", null ],
+    [ "encode", "a05047.html#a0e57882e67b7da0cfbd8dd524d1a08aa", null ],
+    [ "seperator", "a05047.html#a39600d33dd97208ba398ac5c4340fa77", null ],
+    [ "startRing", "a05047.html#ab6635935e270ce5b32d1efd4b377c983", null ],
+    [ "write", "a05047.html#a738ab332235183cb8c6acda151d9801c", null ],
+    [ "write", "a05047.html#a67c54f108cb20c5a0f698e20a287724d", null ],
+    [ "writeArg", "a05047.html#a66b62fe86f9a7aa5e1fb78d2282adf66", null ],
+    [ "lastLat", "a05047.html#a9cb6715e048613ba1adc6d02662c58bb", null ],
+    [ "lastLng", "a05047.html#a6071d28e26a7046598083d44edae7168", null ],
+    [ "writer", "a05047.html#ab56a5d0c4efb5c0d2c4f33d5dad8c917", null ]
 ];

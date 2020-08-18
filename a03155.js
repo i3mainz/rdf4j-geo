@@ -1,5 +1,5 @@
 var a03155 =
 [
     [ "evaluate", "a03155.html#a43b4c73244bc6722ce551c1033cf1115", null ],
-    [ "relation", "a03155.html#a0222f40044556cbd0371e7d63eed32cb", null ]
+    [ "operation", "a03155.html#aafa339a5d14ce5e00588251b6d7c910c", null ]
 ];

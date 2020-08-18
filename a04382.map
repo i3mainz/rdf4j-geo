@@ -1,4 +1,3 @@
-<map id="RasterAttributeDoubleIntFunction" name="RasterAttributeDoubleIntFunction">
-<area shape="rect" id="node3" href="$a04191.html" title="BandMax" alt="" coords="5,169,83,196"/>
-<area shape="rect" id="node4" href="$a04199.html" title="BandMin" alt="" coords="107,169,181,196"/>
+<map id="RasterGeometryConversionFunction" name="RasterGeometryConversionFunction">
+<area shape="rect" id="node3" href="$a04419.html" title="AsGeometry" alt="" coords="50,169,145,196"/>
 </map>

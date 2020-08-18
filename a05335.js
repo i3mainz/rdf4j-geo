@@ -1,7 +1,6 @@
 var a05335 =
 [
-    [ "testNumGeometries", "a05335.html#a66251605d7d3ce37996ccd2d7fa613fd", null ],
-    [ "testNumGeometriesCollection", "a05335.html#a2ad2fa8733f1826ddd7c66355901ff7d", null ],
-    [ "testGeom", "a05335.html#a03a5f5da0ccbeed8c1678d4317cf2672", null ],
-    [ "testGeom2", "a05335.html#a6b4be369c8f60e973cd5126e69cd33a4", null ]
+    [ "testAddPoint", "a05335.html#a788e3676eaba471d99d698f53d72615c", null ],
+    [ "lineString", "a05335.html#a76e109dc83d6f4d16fcd2fa3e73054f6", null ],
+    [ "point", "a05335.html#a081811ff1c2bedd0a20703599f90114f", null ]
 ];

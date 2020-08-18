@@ -1,6 +1,5 @@
 var a03055 =
 [
-    [ "attribute", "a03055.html#a041666085738cb4cd7649f68428f9553", null ],
     [ "evaluate", "a03055.html#a43b4c73244bc6722ce551c1033cf1115", null ],
-    [ "getURI", "a03055.html#ad9fb16b36dd4ccc533d4f05ff94646e3", null ]
+    [ "operation", "a03055.html#a9fbdf1488fca6013553ca404743a6ab5", null ]
 ];

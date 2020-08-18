@@ -1,9 +1,9 @@
 var a02620 =
 [
-    [ "BBOXAboveTest", "a05187.html", "a05187" ],
-    [ "BBOXBelowTest", "a05191.html", "a05191" ],
-    [ "BBOXDistanceTest", "a05195.html", "a05195" ],
-    [ "BBOXLeftOfTest", "a05199.html", "a05199" ],
-    [ "BBOXOverlapsRightTest", "a05203.html", "a05203" ],
-    [ "BBOXRightOfTest", "a05207.html", "a05207" ]
+    [ "BBOXAboveTest", "a05155.html", "a05155" ],
+    [ "BBOXBelowTest", "a05159.html", "a05159" ],
+    [ "BBOXDistanceTest", "a05163.html", "a05163" ],
+    [ "BBOXLeftOfTest", "a05167.html", "a05167" ],
+    [ "BBOXOverlapsRightTest", "a05171.html", "a05171" ],
+    [ "BBOXRightOfTest", "a05175.html", "a05175" ]
 ];

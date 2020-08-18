@@ -1,5 +1,5 @@
 var a05391 =
 [
-    [ "testAsGARS", "a05391.html#a80929de20ed59fa635418039d48a9ef7", null ],
-    [ "testPoint", "a05391.html#af26f700ee129f846cac58735f6dcc380", null ]
+    [ "testAsPolyShape", "a05391.html#aa4ec805ffcfb140ead8292a441244775", null ],
+    [ "testGeometry", "a05391.html#abc3f514f005cba49e406658e2d3086eb", null ]
 ];

@@ -1,5 +1,6 @@
 var a05331 =
 [
-    [ "testNumDistinctPoints", "a05331.html#aac9f79f9e21b36c6addad28b9e81bec6", null ],
-    [ "testGeom", "a05331.html#a03a5f5da0ccbeed8c1678d4317cf2672", null ]
+    [ "testAddGeometry", "a05331.html#a4ebf1443292e242753148cb8748d9169", null ],
+    [ "lineString", "a05331.html#a76e109dc83d6f4d16fcd2fa3e73054f6", null ],
+    [ "point", "a05331.html#a081811ff1c2bedd0a20703599f90114f", null ]
 ];

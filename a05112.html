@@ -61,22 +61,26 @@ $(document).ready(function(){initNavTree('a05115.html','');});
 <div id="doc-content">
 <div class="header">
   <div class="headertitle">
-<div class="title">WKBRasterWriter Member List</div>  </div>
+<div class="title">TWKBWriter Member List</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>This is the complete list of members for <a class="el" href="a05115.html">WKBRasterWriter</a>, including all inherited members.</p>
+<p>This is the complete list of members for <a class="el" href="a05115.html">TWKBWriter</a>, including all inherited members.</p>
 <table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="a05115.html#ad20897c5c8bd47f5d4005989bead0e55">reset</a>()</td><td class="entry"><a class="el" href="a05115.html">WKBRasterWriter</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="a05115.html#ac554c69222b99b75f6e7bd0902a05cf8">WKBRasterWriter</a>()</td><td class="entry"><a class="el" href="a05115.html">WKBRasterWriter</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="a05115.html#a856e54e4f4722fb982aefe4b71c702db">write</a>(final GridCoverage coverage)</td><td class="entry"><a class="el" href="a05115.html">WKBRasterWriter</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="a05115.html#a548c80a7e87fc26b84de1c8be26797df">write</a>(final GridCoverage coverage, final OutputStream stream)</td><td class="entry"><a class="el" href="a05115.html">WKBRasterWriter</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="a05115.html#a85eee5803cdc8926b61a167fa833c808">write</a>(final GridCoverage coverage, final OutputStream stream, final boolean littleEndian)</td><td class="entry"><a class="el" href="a05115.html">WKBRasterWriter</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="a05115.html#aa81b0fae18d5e64b155d0ea2afba77c1">write</a>(final RenderedImage image, final AffineTransform gridToCRS, final int srid)</td><td class="entry"><a class="el" href="a05115.html">WKBRasterWriter</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="a05115.html#a4ed3a6a532fffee3bc00f6a284480f32">write</a>(final Raster image, final AffineTransform gridToCRS, final int srid)</td><td class="entry"><a class="el" href="a05115.html">WKBRasterWriter</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="a05115.html#a0acd711eb42afa0b71f0034a6a240311">write</a>(final RenderedImage image, AffineTransform gridToCRS, final int srid, final OutputStream stream)</td><td class="entry"><a class="el" href="a05115.html">WKBRasterWriter</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="a05115.html#a177a60820d9f841633957dbe681f46c8">write</a>(final Raster image, AffineTransform gridToCRS, final int srid, final OutputStream stream)</td><td class="entry"><a class="el" href="a05115.html">WKBRasterWriter</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="a05115.html#a4d44c575b7d26f24882ee78b390f7ee4">write</a>(final Raster image, AffineTransform gridToCRS, final int srid, OutputStream stream, final boolean littleEndian)</td><td class="entry"><a class="el" href="a05115.html">WKBRasterWriter</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="a05115.html#af6ac6c1ca84de00107ff33acf010fb56">getType</a>(final Geometry geom)</td><td class="entry"><a class="el" href="a05115.html">TWKBWriter</a></td><td class="entry"><span class="mlabel">private</span></td></tr>
+  <tr><td class="entry"><a class="el" href="a05115.html#a2513e591488b85a0a4ffae1f192e48d1">getTypeAndPrecisionByte</a>(final byte type, final int precision)</td><td class="entry"><a class="el" href="a05115.html">TWKBWriter</a></td><td class="entry"><span class="mlabel">private</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="a05115.html#a3790bdd1fc8284d93d59193536955934">maxPrecision</a></td><td class="entry"><a class="el" href="a05115.html">TWKBWriter</a></td><td class="entry"><span class="mlabel">private</span></td></tr>
+  <tr><td class="entry"><a class="el" href="a05115.html#a2990399609cc699aee5a40156feee03e">TWKBWriter</a>()</td><td class="entry"><a class="el" href="a05115.html">TWKBWriter</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="a05115.html#abf98331626990ede53fbe5a1827b91b9">TWKBWriter</a>(final int maxPrecision)</td><td class="entry"><a class="el" href="a05115.html">TWKBWriter</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="a05115.html#a226242e33fa2ddb80db6f65fea7e88d5">write</a>(final Geometry geom)</td><td class="entry"><a class="el" href="a05115.html">TWKBWriter</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="a05115.html#a1ad170fc53b3438a213305dcf054c951">write</a>(final Geometry geom, final DataOutput output)</td><td class="entry"><a class="el" href="a05115.html">TWKBWriter</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="a05115.html#a4c1cd6a57426c5886efe0e46fb781c8a">writeGeometryCollection</a>(final GeometryCollection geoms, final PrecisionWriter precision, final DataOutput output)</td><td class="entry"><a class="el" href="a05115.html">TWKBWriter</a></td><td class="entry"><span class="mlabel">private</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="a05115.html#a9e135bc7dac9b9305e7183a27ab0e55d">writeLineString</a>(final LineString line, final PrecisionWriter precision, final DataOutput output)</td><td class="entry"><a class="el" href="a05115.html">TWKBWriter</a></td><td class="entry"><span class="mlabel">private</span></td></tr>
+  <tr><td class="entry"><a class="el" href="a05115.html#a409eb1e30fb4f2a447147b6644ed96df">writeMultiLineString</a>(final MultiLineString multiLine, final PrecisionWriter precision, final DataOutput output)</td><td class="entry"><a class="el" href="a05115.html">TWKBWriter</a></td><td class="entry"><span class="mlabel">private</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="a05115.html#ae1a496e7018e949f3af9aa1ec261a4a3">writeMultiPoint</a>(final MultiPoint multiPoint, final PrecisionWriter precision, final DataOutput output)</td><td class="entry"><a class="el" href="a05115.html">TWKBWriter</a></td><td class="entry"><span class="mlabel">private</span></td></tr>
+  <tr><td class="entry"><a class="el" href="a05115.html#af88d38f76bbfee7f7c150d79b818e156">writeMultiPolygon</a>(final MultiPolygon multiPolygon, final PrecisionWriter precision, final DataOutput output)</td><td class="entry"><a class="el" href="a05115.html">TWKBWriter</a></td><td class="entry"><span class="mlabel">private</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="a05115.html#a1d857a7f3e74e21f8fb4eb93e713ac0e">writePoint</a>(final Point point, final PrecisionWriter precision, final DataOutput output)</td><td class="entry"><a class="el" href="a05115.html">TWKBWriter</a></td><td class="entry"><span class="mlabel">private</span></td></tr>
+  <tr><td class="entry"><a class="el" href="a05115.html#a97d9c7da786fbc6decfc325d9b2058fe">writePolygon</a>(final Polygon polygon, final PrecisionWriter precision, final DataOutput output)</td><td class="entry"><a class="el" href="a05115.html">TWKBWriter</a></td><td class="entry"><span class="mlabel">private</span></td></tr>
 </table></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.13-->

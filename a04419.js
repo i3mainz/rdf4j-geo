@@ -1,5 +1,6 @@
 var a04419 =
 [
+    [ "construct", "a04419.html#aec19f402d8216cf35063f0902d38abf0", null ],
     [ "evaluate", "a04419.html#a43b4c73244bc6722ce551c1033cf1115", null ],
-    [ "modify", "a04419.html#a073da7b946e8a0c3df6451c7b537944c", null ]
+    [ "getURI", "a04419.html#ad9fb16b36dd4ccc533d4f05ff94646e3", null ]
 ];

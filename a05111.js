@@ -1,14 +1,18 @@
 var a05111 =
 [
-    [ "WKBRasterReader", "a05111.html#ae793783ce299284ee201fd7c8313c1d6", null ],
-    [ "createGrayScaleColorModel", "a05111.html#afcfcdba92bf5faa9dfc8a1c7a652c7a9", null ],
-    [ "getGridToCRS", "a05111.html#aef748f2853b5fa1a44ed7c589b2bb197", null ],
-    [ "getSRID", "a05111.html#ade744464aeafe5c61497905c4bac4d95", null ],
-    [ "read", "a05111.html#a14456bc52e7f626048f58646a17a9039", null ],
-    [ "read", "a05111.html#ab8d0b6608f158d1234999e80670eba0e", null ],
-    [ "readCoverage", "a05111.html#aa9fe8abf761e9a17b671b3f8ca04ef37", null ],
-    [ "readCoverage", "a05111.html#a167d89e301db4c86565d6cbf8998b5fa", null ],
-    [ "reset", "a05111.html#ad20897c5c8bd47f5d4005989bead0e55", null ],
-    [ "gridToCRS", "a05111.html#a7074295224e2ade372af7fc4571cdc28", null ],
-    [ "srid", "a05111.html#a7e5be5f62324d24835447fc98661e30b", null ]
+    [ "zigZagDecode", "a05111.html#a39d960ba7b421538218960be0b75dbdb", null ],
+    [ "zigZagEncode", "a05111.html#ac56ffa9468f6d51a81dfc6a16c7553e7", null ],
+    [ "EMPTY_GEOMETRY", "a05111.html#acfd4b309722d80cbae834f273b479450", null ],
+    [ "EXTENDED_DIMENSIONS", "a05111.html#a0a64265ce21562ec2811dd05db08a9dd", null ],
+    [ "GEOMETRYCOLLECTION_TYPE", "a05111.html#ad69af768670b09117152621e9765d4ca", null ],
+    [ "LINESTRING_TYPE", "a05111.html#ae612cee125e86b43a8a0895733e73471", null ],
+    [ "MAX_COORD_PRECISION", "a05111.html#a2dd11c22d698708a6e11580242c97e89", null ],
+    [ "MAX_EXTENDED_PRECISION", "a05111.html#a5b750380e571ae88f99a796f9d54e49f", null ],
+    [ "MIN_COORD_PRECISION", "a05111.html#a5bee20a7d59eea71b635f7f136c48e91", null ],
+    [ "MIN_EXTENDED_PRECISION", "a05111.html#ad70b66875f973adc5547402ec3ab512d", null ],
+    [ "MULTILINESTRING_TYPE", "a05111.html#abc6a100cfe59d0f10d5ff0b83dd28e40", null ],
+    [ "MULTIPOINT_TYPE", "a05111.html#ab21548c889cf575c0452ce54b0bb1564", null ],
+    [ "MULTIPOLYGON_TYPE", "a05111.html#af8a8622de581648619916bb8eb6cea2d", null ],
+    [ "POINT_TYPE", "a05111.html#a92e0b11f85494a2b6953846ee6b4f88d", null ],
+    [ "POLYGON_TYPE", "a05111.html#a4e033b07cdccae3d93c0fe865a9bc513", null ]
 ];

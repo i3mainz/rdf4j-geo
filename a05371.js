@@ -1,9 +1,5 @@
 var a05371 =
 [
-    [ "testRemoveGeometry1", "a05371.html#a910e74995416610c31bdfb5ab3260d76", null ],
-    [ "testRemoveGeometry1Z", "a05371.html#a60a65740b83f0a07de47b82baf1ff4e1", null ],
-    [ "testRemoveGeometry2", "a05371.html#affbdb9b48b9af6eedbf8d011f683a631", null ],
-    [ "testRemoveGeometry2Z", "a05371.html#af5c1b4eec2210853d1e7f1c6d6f2a02c", null ],
-    [ "lineString", "a05371.html#a76e109dc83d6f4d16fcd2fa3e73054f6", null ],
-    [ "point", "a05371.html#a081811ff1c2bedd0a20703599f90114f", null ]
+    [ "testAsGeoURI", "a05371.html#aae403d68ccc2ecfb409ca338b5ba0101", null ],
+    [ "testGeometry", "a05371.html#abc3f514f005cba49e406658e2d3086eb", null ]
 ];

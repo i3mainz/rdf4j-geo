@@ -1,4 +1,5 @@
 var a02635 =
 [
-    [ "AsEncodedPolylineTest", "a05691.html", "a05691" ]
+    [ "SetEndPointTest", "a05663.html", "a05663" ],
+    [ "SetStartPointTest", "a05667.html", "a05667" ]
 ];

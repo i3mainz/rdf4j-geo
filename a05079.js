@@ -1,13 +1,14 @@
 var a05079 =
 [
-    [ "Encoder", "a05079.html#ae9b4d30bd3ef8dcabd2c471b856cc56f", null ],
-    [ "encode", "a05079.html#a0e57882e67b7da0cfbd8dd524d1a08aa", null ],
-    [ "seperator", "a05079.html#a39600d33dd97208ba398ac5c4340fa77", null ],
-    [ "startRing", "a05079.html#ab6635935e270ce5b32d1efd4b377c983", null ],
-    [ "write", "a05079.html#a738ab332235183cb8c6acda151d9801c", null ],
-    [ "write", "a05079.html#a67c54f108cb20c5a0f698e20a287724d", null ],
-    [ "writeArg", "a05079.html#a66b62fe86f9a7aa5e1fb78d2282adf66", null ],
-    [ "lastLat", "a05079.html#a9cb6715e048613ba1adc6d02662c58bb", null ],
-    [ "lastLng", "a05079.html#a6071d28e26a7046598083d44edae7168", null ],
-    [ "writer", "a05079.html#ab56a5d0c4efb5c0d2c4f33d5dad8c917", null ]
+    [ "WKBRasterReader", "a05079.html#ae793783ce299284ee201fd7c8313c1d6", null ],
+    [ "createGrayScaleColorModel", "a05079.html#afcfcdba92bf5faa9dfc8a1c7a652c7a9", null ],
+    [ "getGridToCRS", "a05079.html#aef748f2853b5fa1a44ed7c589b2bb197", null ],
+    [ "getSRID", "a05079.html#ade744464aeafe5c61497905c4bac4d95", null ],
+    [ "read", "a05079.html#a14456bc52e7f626048f58646a17a9039", null ],
+    [ "read", "a05079.html#ab8d0b6608f158d1234999e80670eba0e", null ],
+    [ "readCoverage", "a05079.html#aa9fe8abf761e9a17b671b3f8ca04ef37", null ],
+    [ "readCoverage", "a05079.html#a167d89e301db4c86565d6cbf8998b5fa", null ],
+    [ "reset", "a05079.html#ad20897c5c8bd47f5d4005989bead0e55", null ],
+    [ "gridToCRS", "a05079.html#a7074295224e2ade372af7fc4571cdc28", null ],
+    [ "srid", "a05079.html#a7e5be5f62324d24835447fc98661e30b", null ]
 ];

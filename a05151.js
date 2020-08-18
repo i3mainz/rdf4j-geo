@@ -1,11 +1,13 @@
 var a05151 =
 [
-    [ "calculate", "a05151.html#a1b9dd1e59eac3a2a15cb68c19e994fe4", null ],
-    [ "checkCoordinate", "a05151.html#a0a01f90a7fe27e3b66f1c87f019e91bc", null ],
-    [ "finalize", "a05151.html#a7626720b9bf807253dd702a0214dc9f0", null ],
-    [ "writeExtendedPrecision", "a05151.html#a320ccd90ec0ef71a4353104b7fe98a1c", null ],
-    [ "writePoint", "a05151.html#adedb1cd853d00648be239477f7fe4e2a", null ],
-    [ "writePointArray", "a05151.html#afeed21e7153170021427b1e7001d952b", null ],
-    [ "precision", "a05151.html#aa95455ed52a8459fad69509a4a0411b5", null ],
-    [ "precisionMultiplier", "a05151.html#a9aa85be4ec02c28a05cb552845fe08eb", null ]
+    [ "LocatePoint", "a05151.html#a0db8c96a170aff314d55b51d1090d8c7", null ],
+    [ "compute", "a05151.html#a4f513b82951056a3f579d95f215e9307", null ],
+    [ "getIndex", "a05151.html#a59d053c950ff1e9f8a004d493f34e754", null ],
+    [ "getPoint", "a05151.html#add97f503ca58503d04ac9150e6c8ef7f", null ],
+    [ "pointAlongLine", "a05151.html#aefeee61acc0d87ebcacf610af684935e", null ],
+    [ "pointAlongSegment", "a05151.html#a8138e49067c6447449ff0a8ce19bfed4", null ],
+    [ "pointAlongSegment", "a05151.html#a4b414ab63960ecfa283932288f9977f7", null ],
+    [ "pointAlongSegmentByFraction", "a05151.html#a9ecfa15254cc343c6166b5e9b3f05c03", null ],
+    [ "index", "a05151.html#a750b5d744c39a06bfb13e6eb010e35d0", null ],
+    [ "pt", "a05151.html#aae9b62bb90c0c25de44c11a2abc79afa", null ]
 ];

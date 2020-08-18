@@ -1,6 +1,6 @@
 var a02644 =
 [
-    [ "ForcePolygonCCWTest", "a05835.html", "a05835" ],
-    [ "ForcePolygonCWTest", "a05839.html", "a05839" ],
-    [ "ReverseRingTest", "a05843.html", "a05843" ]
+    [ "AddRingTest", "a05815.html", "a05815" ],
+    [ "RemoveRingTest", "a05819.html", "a05819" ],
+    [ "SetRingTest", "a05823.html", "a05823" ]
 ];

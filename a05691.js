@@ -1,5 +1,5 @@
 var a05691 =
 [
-    [ "testAsEncodedPolyline", "a05691.html#a77e364f1e18fbe312ed563af435ddc8f", null ],
-    [ "testGeometry", "a05691.html#abc3f514f005cba49e406658e2d3086eb", null ]
+    [ "testMMax", "a05691.html#afdcd3120493a23d4869c03134d63f41e", null ],
+    [ "testPoint", "a05691.html#af26f700ee129f846cac58735f6dcc380", null ]
 ];

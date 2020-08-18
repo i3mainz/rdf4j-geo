@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>rdf4j-postgis: HexWKBDatatype.HexWKBTextSRS Class Reference</title>
+<title>rdf4j-postgis: WKBDatatype Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -61,104 +61,138 @@ $(document).ready(function(){initNavTree('a04979.html','');});
 <div id="doc-content">
 <div class="header">
   <div class="summary">
+<a href="#nested-classes">Classes</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pri-attribs">Private Attributes</a> &#124;
+<a href="#pub-static-attribs">Static Public Attributes</a> &#124;
 <a href="a04976.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">HexWKBDatatype.HexWKBTextSRS Class Reference</div>  </div>
+<div class="title">WKBDatatype Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p><a class="el" href="a04987.html">WKTDatatype</a> class allows the URI "geo:wktLiteral" to be used as a datatype and it will parse that datatype to a JTS Geometry.  
+ <a href="a04979.html#details">More...</a></p>
 <div class="dynheader">
-Collaboration diagram for HexWKBDatatype.HexWKBTextSRS:</div>
+Inheritance diagram for WKBDatatype:</div>
 <div class="dyncontent">
-<div class="center"><img src="a04977.png" border="0" usemap="#HexWKBDatatype_8HexWKBTextSRS_coll__map" alt="Collaboration graph"/></div>
-<map name="HexWKBDatatype_8HexWKBTextSRS_coll__map" id="HexWKBDatatype_8HexWKBTextSRS_coll__map">
+<div class="center"><img src="a04978.png" border="0" usemap="#WKBDatatype_inherit__map" alt="Inheritance graph"/></div>
+<map name="WKBDatatype_inherit__map" id="WKBDatatype_inherit__map">
+<area shape="rect" id="node2" href="a04975.html" title="VectorLiteral" alt="" coords="11,80,106,107"/>
+<area shape="rect" id="node3" href="a04867.html" title="LiteralType" alt="" coords="15,5,102,32"/>
+</map>
+<center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
+<div class="dynheader">
+Collaboration diagram for WKBDatatype:</div>
+<div class="dyncontent">
+<div class="center"><img src="a04977.png" border="0" usemap="#WKBDatatype_coll__map" alt="Collaboration graph"/></div>
+<map name="WKBDatatype_coll__map" id="WKBDatatype_coll__map">
+<area shape="rect" id="node2" href="a04975.html" title="VectorLiteral" alt="" coords="5,81,100,108"/>
+<area shape="rect" id="node3" href="a04867.html" title="LiteralType" alt="" coords="9,5,96,32"/>
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a04983.html">WKBTextSRS</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a9551cc49d0697080a64a79a497cf35e9"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a04979.html#a9551cc49d0697080a64a79a497cf35e9">HexWKBTextSRS</a> (String wkbLiteral)</td></tr>
-<tr class="separator:a9551cc49d0697080a64a79a497cf35e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4a2ce7a2dcd4fa0818378fb8b97931fb"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a04979.html#a4a2ce7a2dcd4fa0818378fb8b97931fb">getWkbText</a> ()</td></tr>
-<tr class="separator:a4a2ce7a2dcd4fa0818378fb8b97931fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7d7dded4f73b0a90d90f68ccc5f16bc3"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a04979.html#a7d7dded4f73b0a90d90f68ccc5f16bc3">getSrsURI</a> ()</td></tr>
-<tr class="separator:a7d7dded4f73b0a90d90f68ccc5f16bc3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae918a517e1ebcc44beeee2c55008d248"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a04979.html#ae918a517e1ebcc44beeee2c55008d248">unparse</a> (Geometry geometry)</td></tr>
+<tr class="memdesc:ae918a517e1ebcc44beeee2c55008d248"><td class="mdescLeft">&#160;</td><td class="mdescRight">This method Un-parses the JTS Geometry to the WKT literal.  <a href="#ae918a517e1ebcc44beeee2c55008d248">More...</a><br /></td></tr>
+<tr class="separator:ae918a517e1ebcc44beeee2c55008d248"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a793358fbd6ef538a24eabab1bd50ef01"><td class="memItemLeft" align="right" valign="top">Geometry&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a04979.html#a793358fbd6ef538a24eabab1bd50ef01">read</a> (String geometryLiteral)</td></tr>
+<tr class="separator:a793358fbd6ef538a24eabab1bd50ef01"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad146fa8579a5f8a876c4688cc5a68520"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a04979.html#ad146fa8579a5f8a876c4688cc5a68520">toString</a> ()</td></tr>
+<tr class="separator:ad146fa8579a5f8a876c4688cc5a68520"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
-Private Attributes</h2></td></tr>
-<tr class="memitem:a7b6ce5371e4ad222f4b09eaadfdcae09"><td class="memItemLeft" align="right" valign="top">final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a04979.html#a7b6ce5371e4ad222f4b09eaadfdcae09">wkbText</a></td></tr>
-<tr class="separator:a7b6ce5371e4ad222f4b09eaadfdcae09"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaa7845d06052bead86bb2de40935e4d9"><td class="memItemLeft" align="right" valign="top">final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a04979.html#aaa7845d06052bead86bb2de40935e4d9">srsURI</a></td></tr>
-<tr class="separator:aaa7845d06052bead86bb2de40935e4d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
+Static Public Attributes</h2></td></tr>
+<tr class="memitem:addbf30e6c0ad68fa34277d59a2c6eb5e"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a04979.html#addbf30e6c0ad68fa34277d59a2c6eb5e">URI</a> = <a class="el" href="a02687.html#ad263658bd03fbb2214983c7860869a23">POSTGIS.NAMESPACE</a>+<a class="el" href="a02687.html#a4ac37e0ef0953ea896dbb0e77ac91539">POSTGIS.WKB</a></td></tr>
+<tr class="memdesc:addbf30e6c0ad68fa34277d59a2c6eb5e"><td class="mdescLeft">&#160;</td><td class="mdescRight">The default WKT type URI.  <a href="#addbf30e6c0ad68fa34277d59a2c6eb5e">More...</a><br /></td></tr>
+<tr class="separator:addbf30e6c0ad68fa34277d59a2c6eb5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaa7aacfed1dc452cff60a903d92cabb2"><td class="memItemLeft" align="right" valign="top">static final <a class="el" href="a04979.html">WKBDatatype</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a04979.html#aaa7aacfed1dc452cff60a903d92cabb2">INSTANCE</a> = new <a class="el" href="a04979.html">WKBDatatype</a>()</td></tr>
+<tr class="memdesc:aaa7aacfed1dc452cff60a903d92cabb2"><td class="mdescLeft">&#160;</td><td class="mdescRight">A static instance of <a class="el" href="a04987.html">WKTDatatype</a>.  <a href="#aaa7aacfed1dc452cff60a903d92cabb2">More...</a><br /></td></tr>
+<tr class="separator:aaa7aacfed1dc452cff60a903d92cabb2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae02c2e86ac0dea8538c7b43e9e82421a"><td class="memItemLeft" align="right" valign="top">static final IRI&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a04979.html#ae02c2e86ac0dea8538c7b43e9e82421a">LiteralIRI</a> =SimpleValueFactory.getInstance().createIRI(<a class="el" href="a02687.html#ad263658bd03fbb2214983c7860869a23">POSTGIS.NAMESPACE</a>+<a class="el" href="a02687.html#a4ac37e0ef0953ea896dbb0e77ac91539">POSTGIS.WKB</a>)</td></tr>
+<tr class="separator:ae02c2e86ac0dea8538c7b43e9e82421a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a9551cc49d0697080a64a79a497cf35e9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9551cc49d0697080a64a79a497cf35e9">&#9670;&nbsp;</a></span>HexWKBTextSRS()</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p><a class="el" href="a04987.html">WKTDatatype</a> class allows the URI "geo:wktLiteral" to be used as a datatype and it will parse that datatype to a JTS Geometry. </p>
+<p>Req 10 All RDFS Literals of type geo:wktLiteral shall consist of an optional URI identifying the coordinate reference system followed by Simple Features Well Known Text (WKT) describing a geometric value. Valid geo:wktLiterals are formed by concatenating a valid, absolute URI as defined in [RFC 2396], one or more spaces (Unicode U+0020 character) as a separator, and a WKT string as defined in Simple Features [ISO 19125-1].</p>
+<p>Req 11 The URI</p><div class="fragment"><div class="line">&lt;http:<span class="comment">//www.opengis.net/def/crs/OGC/1.3/CRS84&gt; </span></div></div><!-- fragment --><p> shall be assumed as the spatial reference system for geo:wktLiterals that do not * specify an explicit spatial reference system URI. </p>
+</div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="a793358fbd6ef538a24eabab1bd50ef01"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a793358fbd6ef538a24eabab1bd50ef01">&#9670;&nbsp;</a></span>read()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="a04979.html">HexWKBTextSRS</a> </td>
+          <td class="memname">Geometry read </td>
           <td>(</td>
           <td class="paramtype">String&#160;</td>
-          <td class="paramname"><em>wkbLiteral</em></td><td>)</td>
+          <td class="paramname"><em>geometryLiteral</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;                                                {</div><div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;            <span class="keywordtype">int</span> startSRS = wkbLiteral.indexOf(<span class="stringliteral">&quot;&lt;&quot;</span>);</div><div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;            <span class="keywordtype">int</span> endSRS = wkbLiteral.indexOf(<span class="stringliteral">&quot;&gt;&quot;</span>);</div><div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;</div><div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;            <span class="comment">//Check that both chevrons are located and extract SRS_URI name, otherwise default.</span></div><div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;            <span class="keywordflow">if</span> (startSRS != -1 &amp;&amp; endSRS != -1) {</div><div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;                <a class="code" href="a04979.html#aaa7845d06052bead86bb2de40935e4d9">srsURI</a> = wkbLiteral.substring(startSRS + 1, endSRS);</div><div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;                <a class="code" href="a04979.html#a7b6ce5371e4ad222f4b09eaadfdcae09">wkbText</a> = wkbLiteral.substring(endSRS + 1);</div><div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;</div><div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;            } <span class="keywordflow">else</span> {</div><div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;                <a class="code" href="a04979.html#aaa7845d06052bead86bb2de40935e4d9">srsURI</a> = <span class="stringliteral">&quot;&lt;http://www.opengis.net/def/crs/OGC/1.3/CRS84&gt;&quot;</span>;</div><div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;                <a class="code" href="a04979.html#a7b6ce5371e4ad222f4b09eaadfdcae09">wkbText</a> = wkbLiteral;</div><div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;            }</div><div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;        }</div><div class="ttc" id="a04979_html_a7b6ce5371e4ad222f4b09eaadfdcae09"><div class="ttname"><a href="a04979.html#a7b6ce5371e4ad222f4b09eaadfdcae09">org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.literals.vector.HexWKBDatatype.HexWKBTextSRS.wkbText</a></div><div class="ttdeci">final String wkbText</div><div class="ttdef"><b>Definition:</b> HexWKBDatatype.java:72</div></div>
-<div class="ttc" id="a04979_html_aaa7845d06052bead86bb2de40935e4d9"><div class="ttname"><a href="a04979.html#aaa7845d06052bead86bb2de40935e4d9">org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.literals.vector.HexWKBDatatype.HexWKBTextSRS.srsURI</a></div><div class="ttdeci">final String srsURI</div><div class="ttdef"><b>Definition:</b> HexWKBDatatype.java:73</div></div>
-</div><!-- fragment -->
+
+<p class="reference">References <a class="el" href="a04983.html#a4a2ce7a2dcd4fa0818378fb8b97931fb">WKBDatatype.WKBTextSRS.getWkbText()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;                                                         {</div><div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;                WKBTextSRS wkbTextSRS = <span class="keyword">new</span> WKBTextSRS(geometryLiteral);</div><div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;</div><div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;                WKBReader wkbReader = <span class="keyword">new</span> WKBReader();</div><div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;                Geometry geometry;</div><div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;                        <span class="keywordflow">try</span> {</div><div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;                                geometry = wkbReader.read(wkbTextSRS.getWkbText().getBytes());</div><div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;                                <span class="keywordflow">return</span> geometry;</div><div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;                        } <span class="keywordflow">catch</span> (ParseException e) {</div><div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;                                <span class="keywordflow">throw</span> <span class="keyword">new</span> RuntimeException(e.getMessage());</div><div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;                        }</div><div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;</div><div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;</div><div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;            }</div></div><!-- fragment -->
 </div>
 </div>
-<h2 class="groupheader">Member Function Documentation</h2>
-<a id="a7d7dded4f73b0a90d90f68ccc5f16bc3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7d7dded4f73b0a90d90f68ccc5f16bc3">&#9670;&nbsp;</a></span>getSrsURI()</h2>
+<a id="ad146fa8579a5f8a876c4688cc5a68520"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad146fa8579a5f8a876c4688cc5a68520">&#9670;&nbsp;</a></span>toString()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">String getSrsURI </td>
+          <td class="memname">String toString </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p class="reference">References <a class="el" href="a04979.html#aaa7845d06052bead86bb2de40935e4d9">HexWKBDatatype.HexWKBTextSRS.srsURI</a>.</p>
-<div class="fragment"><div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;                                  {</div><div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;            <span class="keywordflow">return</span> <a class="code" href="a04979.html#aaa7845d06052bead86bb2de40935e4d9">srsURI</a>;</div><div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;        }</div><div class="ttc" id="a04979_html_aaa7845d06052bead86bb2de40935e4d9"><div class="ttname"><a href="a04979.html#aaa7845d06052bead86bb2de40935e4d9">org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.literals.vector.HexWKBDatatype.HexWKBTextSRS.srsURI</a></div><div class="ttdeci">final String srsURI</div><div class="ttdef"><b>Definition:</b> HexWKBDatatype.java:73</div></div>
+<div class="fragment"><div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;                                     {</div><div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;                <span class="keywordflow">return</span> <span class="stringliteral">&quot;WKBDatatype{&quot;</span> + <a class="code" href="a04979.html#addbf30e6c0ad68fa34277d59a2c6eb5e">URI</a> + <span class="charliteral">&#39;}&#39;</span>;</div><div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;            }</div><div class="ttc" id="a04979_html_addbf30e6c0ad68fa34277d59a2c6eb5e"><div class="ttname"><a href="a04979.html#addbf30e6c0ad68fa34277d59a2c6eb5e">org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.literals.vector.WKBDatatype.URI</a></div><div class="ttdeci">static final String URI</div><div class="ttdoc">The default WKT type URI. </div><div class="ttdef"><b>Definition:</b> WKBDatatype.java:31</div></div>
 </div><!-- fragment -->
 </div>
 </div>
-<a id="a4a2ce7a2dcd4fa0818378fb8b97931fb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4a2ce7a2dcd4fa0818378fb8b97931fb">&#9670;&nbsp;</a></span>getWkbText()</h2>
+<a id="ae918a517e1ebcc44beeee2c55008d248"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae918a517e1ebcc44beeee2c55008d248">&#9670;&nbsp;</a></span>unparse()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">String getWkbText </td>
+          <td class="memname">String unparse </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype">Geometry&#160;</td>
+          <td class="paramname"><em>geometry</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="a04979.html#a7b6ce5371e4ad222f4b09eaadfdcae09">HexWKBDatatype.HexWKBTextSRS.wkbText</a>.</p>
+<p>This method Un-parses the JTS Geometry to the WKT literal. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">geometry</td><td>- the JTS Geometry to be un-parsed </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>WKT - the returned WKT Literal. <br />
+ Notice that the Spatial Reference System is not specified in returned WKT literal. </dd></dl>
 
-<p class="reference">Referenced by <a class="el" href="a04975.html#a793358fbd6ef538a24eabab1bd50ef01">HexWKBDatatype.read()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;                                   {</div><div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;            <span class="keywordflow">return</span> <a class="code" href="a04979.html#a7b6ce5371e4ad222f4b09eaadfdcae09">wkbText</a>;</div><div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;        }</div><div class="ttc" id="a04979_html_a7b6ce5371e4ad222f4b09eaadfdcae09"><div class="ttname"><a href="a04979.html#a7b6ce5371e4ad222f4b09eaadfdcae09">org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.literals.vector.HexWKBDatatype.HexWKBTextSRS.wkbText</a></div><div class="ttdeci">final String wkbText</div><div class="ttdef"><b>Definition:</b> HexWKBDatatype.java:72</div></div>
-</div><!-- fragment -->
+<p class="reference">Referenced by <a class="el" href="a03223.html#a4ab2ac9320ef97ac30e17776a179ac49">AsBinary.operation()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;                                                     {</div><div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;                    WKBWriter writer=<span class="keyword">new</span> WKBWriter();</div><div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;                    <span class="keywordflow">return</span> writer.write(geometry).toString();</div><div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;            }</div></div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="aaa7845d06052bead86bb2de40935e4d9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aaa7845d06052bead86bb2de40935e4d9">&#9670;&nbsp;</a></span>srsURI</h2>
+<a id="aaa7aacfed1dc452cff60a903d92cabb2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaa7aacfed1dc452cff60a903d92cabb2">&#9670;&nbsp;</a></span>INSTANCE</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -167,22 +201,24 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">final String srsURI</td>
+          <td class="memname">final <a class="el" href="a04979.html">WKBDatatype</a> INSTANCE = new <a class="el" href="a04979.html">WKBDatatype</a>()</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="a04979.html#a7d7dded4f73b0a90d90f68ccc5f16bc3">HexWKBDatatype.HexWKBTextSRS.getSrsURI()</a>.</p>
+<p>A static instance of <a class="el" href="a04987.html">WKTDatatype</a>. </p>
+
+<p class="reference">Referenced by <a class="el" href="a04863.html#ab2c1f34f60c2740f703068f27871a32b">LiteralRegistry.LiteralRegistry()</a>, and <a class="el" href="a03223.html#a4ab2ac9320ef97ac30e17776a179ac49">AsBinary.operation()</a>.</p>
 
 </div>
 </div>
-<a id="a7b6ce5371e4ad222f4b09eaadfdcae09"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7b6ce5371e4ad222f4b09eaadfdcae09">&#9670;&nbsp;</a></span>wkbText</h2>
+<a id="ae02c2e86ac0dea8538c7b43e9e82421a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae02c2e86ac0dea8538c7b43e9e82421a">&#9670;&nbsp;</a></span>LiteralIRI</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -191,17 +227,43 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">final String wkbText</td>
+          <td class="memname">final IRI LiteralIRI =SimpleValueFactory.getInstance().createIRI(<a class="el" href="a02687.html#ad263658bd03fbb2214983c7860869a23">POSTGIS.NAMESPACE</a>+<a class="el" href="a02687.html#a4ac37e0ef0953ea896dbb0e77ac91539">POSTGIS.WKB</a>)</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="a04979.html#a4a2ce7a2dcd4fa0818378fb8b97931fb">HexWKBDatatype.HexWKBTextSRS.getWkbText()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="a05327.html#a64b3f7b5bcdec5b93820a9958c0622a3">GeomFromWKBTest.testGeomFromGeoJSON()</a>.</p>
+
+</div>
+</div>
+<a id="addbf30e6c0ad68fa34277d59a2c6eb5e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#addbf30e6c0ad68fa34277d59a2c6eb5e">&#9670;&nbsp;</a></span>URI</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final String URI = <a class="el" href="a02687.html#ad263658bd03fbb2214983c7860869a23">POSTGIS.NAMESPACE</a>+<a class="el" href="a02687.html#a4ac37e0ef0953ea896dbb0e77ac91539">POSTGIS.WKB</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The default WKT type URI. </p>
+
+<p class="reference">Referenced by <a class="el" href="a04863.html#ab2c1f34f60c2740f703068f27871a32b">LiteralRegistry.LiteralRegistry()</a>.</p>
 
 </div>
 </div>
@@ -211,7 +273,7 @@ Private Attributes</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="a02538.html">org</a></li><li class="navelem"><a class="el" href="a02539.html">eclipse</a></li><li class="navelem"><a class="el" href="a02540.html">rdf4j</a></li><li class="navelem"><a class="el" href="a02543.html">query</a></li><li class="navelem"><a class="el" href="a02544.html">algebra</a></li><li class="navelem"><a class="el" href="a02545.html">evaluation</a></li><li class="navelem"><a class="el" href="a02546.html">function</a></li><li class="navelem"><a class="el" href="a02547.html">postgis</a></li><li class="navelem"><a class="el" href="a02597.html">util</a></li><li class="navelem"><a class="el" href="a02599.html">literals</a></li><li class="navelem"><a class="el" href="a02602.html">vector</a></li><li class="navelem"><a class="el" href="a04975.html">HexWKBDatatype</a></li><li class="navelem"><a class="el" href="a04979.html">HexWKBTextSRS</a></li>
+    <li class="navelem"><a class="el" href="a02538.html">org</a></li><li class="navelem"><a class="el" href="a02539.html">eclipse</a></li><li class="navelem"><a class="el" href="a02540.html">rdf4j</a></li><li class="navelem"><a class="el" href="a02543.html">query</a></li><li class="navelem"><a class="el" href="a02544.html">algebra</a></li><li class="navelem"><a class="el" href="a02545.html">evaluation</a></li><li class="navelem"><a class="el" href="a02546.html">function</a></li><li class="navelem"><a class="el" href="a02547.html">postgis</a></li><li class="navelem"><a class="el" href="a02597.html">util</a></li><li class="navelem"><a class="el" href="a02599.html">literals</a></li><li class="navelem"><a class="el" href="a02602.html">vector</a></li><li class="navelem"><a class="el" href="a04979.html">WKBDatatype</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>

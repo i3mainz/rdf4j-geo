@@ -1,6 +1,6 @@
 var a05835 =
 [
-    [ "testForcePolygonCCW", "a05835.html#aabb33f7582f68ceca6d6f943ee181450", null ],
-    [ "testPolygon", "a05835.html#a1e3187cbc25299380589200c398b3ffd", null ],
-    [ "testPolygon2", "a05835.html#a882729aec95621b4ad261714738ae3fd", null ]
+    [ "testReverseRing", "a05835.html#a341309060348e532f6606d50945a52bd", null ],
+    [ "duplicateRings", "a05835.html#a92f3ef00fc079a76b7f943d9ed6cec77", null ],
+    [ "nonduplicateRings", "a05835.html#a675a0b1b194538fc07fa716705f883a5", null ]
 ];

@@ -1,6 +1,10 @@
 var a02695 =
 [
-    [ "helloWorld", "a02695.html#ae310b4f88f65f8db789e31b8773c8965", null ],
-    [ "main", "a02695.html#a8b260eecbaabcef8473fd87ada040682", null ],
-    [ "queryService", "a02695.html#aa6e8851926af0396f20c9226f358174d", null ]
+    [ "AvgX", "a02695.html#a10b6c03397249a72335dba37c2081ca7", null ],
+    [ "AvgX", "a02695.html#a5016fc52295739edbf1f03e77724e3ea", null ],
+    [ "clone", "a02695.html#a352eb057d6e77fa0352c87042b505a17", null ],
+    [ "equals", "a02695.html#a8e18a3a952a9e38a9a4191004a30c938", null ],
+    [ "hashCode", "a02695.html#a077e18fe97323c7194e2665ffc766399", null ],
+    [ "visit", "a02695.html#ace7c41d3761122fda287033559696cdd", null ],
+    [ "serialVersionUID", "a02695.html#a3238d314ecdee14d2966760945d00c3b", null ]
 ];

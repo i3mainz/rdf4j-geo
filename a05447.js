@@ -1,6 +1,7 @@
 var a05447 =
 [
-    [ "testClosestPoint", "a05447.html#af30fa8d36bc2cb8bd652397169d9708d", null ],
-    [ "testLineString", "a05447.html#a33797029fadbcba01b4a4fafec88cf41", null ],
-    [ "testPoint", "a05447.html#af26f700ee129f846cac58735f6dcc380", null ]
+    [ "testEqual", "a05447.html#a2a99a285d6ad7938bb12707abf0b2dd2", null ],
+    [ "testNotEqual", "a05447.html#a9195b3462bb379b0139e99b85954d5e4", null ],
+    [ "testGeom", "a05447.html#a03a5f5da0ccbeed8c1678d4317cf2672", null ],
+    [ "testGeom2", "a05447.html#a6b4be369c8f60e973cd5126e69cd33a4", null ]
 ];

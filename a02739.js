@@ -1,8 +1,8 @@
 var a02739 =
 [
-    [ "BoundingBox", "a02739.html#a3c620de9265c34f40a1906d0f92c77a3", null ],
-    [ "BoundingBox", "a02739.html#af0725a1816cbe85fd20e2c627b9ff923", null ],
-    [ "clone", "a02739.html#a627080b0fe2a414508b5faba13108498", null ],
+    [ "MinX", "a02739.html#afb19b37d1bd062185351ae013bff80ad", null ],
+    [ "MinX", "a02739.html#a6af9af596f877b4d3973fb9c671f8dd5", null ],
+    [ "clone", "a02739.html#a2822519ae350450cca1b9ef14d4dcbad", null ],
     [ "equals", "a02739.html#a8e18a3a952a9e38a9a4191004a30c938", null ],
     [ "hashCode", "a02739.html#a077e18fe97323c7194e2665ffc766399", null ],
     [ "visit", "a02739.html#ace7c41d3761122fda287033559696cdd", null ],

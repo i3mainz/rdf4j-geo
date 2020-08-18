@@ -1,8 +1,11 @@
 var a04911 =
 [
-    [ "read", "a04911.html#a1cc8c62f94cc0157db4958fbe1f87310", null ],
-    [ "unparse", "a04911.html#a657560fc17175e794fe55d3b23643891", null ],
-    [ "INSTANCE", "a04911.html#aa67fd58121397b354e07fbf09cb4c945", null ],
-    [ "LiteralIRI", "a04911.html#ae02c2e86ac0dea8538c7b43e9e82421a", null ],
+    [ "decodePolyline", "a04911.html#afdf77a0767731ca8ed4f32b202562e6c", null ],
+    [ "encode", "a04911.html#a876025a55fcd314232a8273361dcc990", null ],
+    [ "encodePolyline", "a04911.html#aaa65610c4aa6918ed9f9e78ba2d8d9a9", null ],
+    [ "read", "a04911.html#a793358fbd6ef538a24eabab1bd50ef01", null ],
+    [ "toString", "a04911.html#ad146fa8579a5f8a876c4688cc5a68520", null ],
+    [ "unparse", "a04911.html#ae918a517e1ebcc44beeee2c55008d248", null ],
+    [ "INSTANCE", "a04911.html#a3be1b7911f02ee6aa966eb957e250fb7", null ],
     [ "URI", "a04911.html#addbf30e6c0ad68fa34277d59a2c6eb5e", null ]
 ];

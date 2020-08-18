@@ -1,5 +1,6 @@
 var a05547 =
 [
-    [ "testSridAxis2Orientation", "a05547.html#a4cce208d444c0a86d19f93731ff4a6b3", null ],
-    [ "testPoint", "a05547.html#af26f700ee129f846cac58735f6dcc380", null ]
+    [ "testEPSGToSRID", "a05547.html#a058152e783dcc1694eb060f5099630b1", null ],
+    [ "epsg", "a05547.html#ae984b1b4178b56b80cdb7a80eac64541", null ],
+    [ "srid", "a05547.html#a5ffebf384504d11b17aa9c75f4b92024", null ]
 ];

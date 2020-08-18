@@ -1,13 +1,10 @@
 var a05027 =
 [
-    [ "createGeometry", "a05027.html#aa9b8459efc091f657b74ed0e5a245375", null ],
-    [ "createGeometry", "a05027.html#a9e565b4d0520b1fc30ab5fe2118abb5f", null ],
-    [ "createGeometryCollection", "a05027.html#a3475604f80ee636cca3d07baa336def7", null ],
-    [ "createGeometryCollection", "a05027.html#a7530a3b20b256d3096c63b5556adba6c", null ],
-    [ "toGeometry", "a05027.html#a6682d61dc04a15f1d55ed938e4ed5e7e", null ],
-    [ "toGeometry", "a05027.html#a7633468ef73e66833ef49d6d357d965f", null ],
-    [ "toGeometry", "a05027.html#a70d2c83f032867b59a3af555f1ff6d98", null ],
-    [ "toGeometry", "a05027.html#ad1731b05de5c7e8bae69ff8eb74036f2", null ],
-    [ "toGeometry", "a05027.html#ad7e9fd4bfe07509ba9bbd5a1e09c8a71", null ],
-    [ "transform", "a05027.html#adb6db926db08da5c0c4a8ad8cfb1ff2d", null ]
+    [ "key", "a05027.html#a807f334d405d92bd2f38c380d4b9ed9a", null ],
+    [ "keys", "a05027.html#a5b7e54bc6f4d8855104d09ef3adb2606", null ],
+    [ "value", "a05027.html#a3220129efaffe512a5dded79b4e142ac", null ],
+    [ "values", "a05027.html#a297c543701acc405ac68122b9642cb28", null ],
+    [ "features", "a05027.html#a2b66f5f4579c910c9f7b7ccc043c3037", null ],
+    [ "keys", "a05027.html#a885c190e82027881ec3ed1533283c966", null ],
+    [ "values", "a05027.html#a8159c164675963389d4522cae972207b", null ]
 ];

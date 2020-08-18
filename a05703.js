@@ -1,7 +1,5 @@
 var a05703 =
 [
-    [ "testAngle", "a05703.html#a0cf5bb8fb4d0971e797f7a4e75601b26", null ],
-    [ "testPoint1", "a05703.html#ab20d196cb6e34afc2e9cff8074e43bfd", null ],
-    [ "testPoint2", "a05703.html#aa0c0c6f5dda7a397fc50f4c22a2b180f", null ],
-    [ "testPoint3", "a05703.html#a125d390ce5ab22a84d197ed08e237740", null ]
+    [ "testZMax", "a05703.html#aa30e80ee55397130f30395f3c09b1e39", null ],
+    [ "testPoint", "a05703.html#af26f700ee129f846cac58735f6dcc380", null ]
 ];

@@ -1,10 +1,8 @@
 var a04971 =
 [
-    [ "read", "a04971.html#a793358fbd6ef538a24eabab1bd50ef01", null ],
-    [ "unparse", "a04971.html#a8f23415f60c2281824a1ca004a2fce9b", null ],
-    [ "INSTANCE", "a04971.html#adbea894b7f5a12d5d110c7b4f9ae435e", null ],
-    [ "out", "a04971.html#ab64766cccc4f8fdf5c87b8bcc9493c4a", null ],
-    [ "out2", "a04971.html#a48b1d378681cc025612af2d5d3f4e749", null ],
-    [ "out3", "a04971.html#aaa6d0ac1bcefab2bfcec1f103c1aec4d", null ],
-    [ "URI", "a04971.html#addbf30e6c0ad68fa34277d59a2c6eb5e", null ]
+    [ "WKBTextSRS", "a04971.html#a12d2a5c4b7a29eae5d108bccb1e55b11", null ],
+    [ "getSrsURI", "a04971.html#a7d7dded4f73b0a90d90f68ccc5f16bc3", null ],
+    [ "getWkbText", "a04971.html#a4a2ce7a2dcd4fa0818378fb8b97931fb", null ],
+    [ "srsURI", "a04971.html#aaa7845d06052bead86bb2de40935e4d9", null ],
+    [ "wkbText", "a04971.html#a7b6ce5371e4ad222f4b09eaadfdcae09", null ]
 ];

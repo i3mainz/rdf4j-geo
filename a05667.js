@@ -1,7 +1,6 @@
 var a05667 =
 [
-    [ "testLineString", "a05667.html#a0444ce8df222ae81e1a33426a32d8d7a", null ],
-    [ "circularLineString", "a05667.html#aee32055959200ebcac903d7824ea55d3", null ],
-    [ "lineString", "a05667.html#a76e109dc83d6f4d16fcd2fa3e73054f6", null ],
-    [ "lineString3D", "a05667.html#a44ce866b8b8e60a4c3e77653b907706d", null ]
+    [ "testLineString2D", "a05667.html#a100e1041d9eed0108cb20adfb3ccb714", null ],
+    [ "LineString2D", "a05667.html#a4a6127d0b7f1eecce2d32442325f7735", null ],
+    [ "point", "a05667.html#a081811ff1c2bedd0a20703599f90114f", null ]
 ];

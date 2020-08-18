@@ -1,4 +1,4 @@
 var a06151 =
 [
-    [ "testMeterToNauticalMile", "a06151.html#a2a59e495832cfa2954bfde4c736c1b21", null ]
+    [ "testMeterToMile", "a06151.html#a9f0721768ad1ab28f9f50cf662c3d28c", null ]
 ];

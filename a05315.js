@@ -1,5 +1,5 @@
 var a05315 =
 [
-    [ "testMinimumDiameter", "a05315.html#a73584ebc5e2d20692de63f5ae4f13387", null ],
+    [ "testPerimeter", "a05315.html#ab5f32e4b3cc7543d929e0660b76d1973", null ],
     [ "testPolygon", "a05315.html#a1e3187cbc25299380589200c398b3ffd", null ]
 ];

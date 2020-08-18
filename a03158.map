@@ -1,5 +1,3 @@
-<map id="GeometricRelationDoubleBinaryFunction" name="GeometricRelationDoubleBinaryFunction">
-<area shape="rect" id="node3" href="$a03387.html" title="FullyWithinDistance" alt="" coords="5,169,144,196"/>
-<area shape="rect" id="node4" href="$a03391.html" title="FullyWithinDistance3D" alt="" coords="169,169,325,196"/>
-<area shape="rect" id="node5" href="$a03455.html" title="WithinDistance3D" alt="" coords="349,169,477,196"/>
+<map id="GeometricStringExportIntegerFunction" name="GeometricStringExportIntegerFunction">
+<area shape="rect" id="node3" href="$a03291.html" title="Returns a WKT representation of a given geometry with a given precision. " alt="" coords="51,169,154,196"/>
 </map>

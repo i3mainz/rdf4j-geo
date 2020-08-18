@@ -1,5 +1,7 @@
 var a05347 =
 [
-    [ "testGeomFromGeoJSON", "a05347.html#a64b3f7b5bcdec5b93820a9958c0622a3", null ],
-    [ "geoJsonTestGeom", "a05347.html#a117e8ff340791b5aa0658f5840b5dcf4", null ]
+    [ "testRemovePoint", "a05347.html#a5e9b64ff404fa9347af445dc61f510b7", null ],
+    [ "testRemovePointZ", "a05347.html#ab04b102dbd8ad6ffb069a768eaf23da4", null ],
+    [ "lineString", "a05347.html#a76e109dc83d6f4d16fcd2fa3e73054f6", null ],
+    [ "lineStringZ", "a05347.html#a6ea074c47e6616507d2fe90dc549765a", null ]
 ];

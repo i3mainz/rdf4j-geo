@@ -1,9 +1,4 @@
-<map id="RasterLiteral" name="RasterLiteral">
-<area shape="rect" id="node3" href="$a04903.html" title="CovJSONDatatype" alt="" coords="296,5,431,32"/>
-<area shape="rect" id="node4" href="$a04907.html" title="GeoTIFFDatatype" alt="" coords="300,56,427,83"/>
-<area shape="rect" id="node5" href="$a04911.html" title="GMLCOVDatatype" alt="" coords="297,107,429,133"/>
-<area shape="rect" id="node6" href="$a04915.html" title="HexWKBRastDatatype" alt="" coords="284,157,443,184"/>
-<area shape="rect" id="node7" href="$a04919.html" title="NetCDFDatatype" alt="" coords="301,208,425,235"/>
-<area shape="rect" id="node8" href="$a04927.html" title="WKBRastDatatype" alt="" coords="296,259,431,285"/>
-<area shape="rect" id="node2" href="$a04899.html" title="LiteralType" alt="" coords="5,132,92,159"/>
+<map id="GeoJSONDatatype" name="GeoJSONDatatype">
+<area shape="rect" id="node2" href="$a04975.html" title="VectorLiteral" alt="" coords="25,80,120,107"/>
+<area shape="rect" id="node3" href="$a04867.html" title="LiteralType" alt="" coords="29,5,116,32"/>
 </map>

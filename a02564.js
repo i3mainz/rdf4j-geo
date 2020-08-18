@@ -1,9 +1,9 @@
 var a02564 =
 [
-    [ "LineFromEncodedPolyline", "a03675.html", "a03675" ],
-    [ "LineFromMultiPoint", "a03679.html", "a03679" ],
-    [ "LineFromText", "a03683.html", "a03683" ],
-    [ "LineFromWKB", "a03687.html", "a03687" ],
-    [ "MakeLine", "a03691.html", "a03691" ],
-    [ "MLineFromText", "a03695.html", "a03695" ]
+    [ "LineFromEncodedPolyline", "a03643.html", "a03643" ],
+    [ "LineFromMultiPoint", "a03647.html", "a03647" ],
+    [ "LineFromText", "a03651.html", "a03651" ],
+    [ "LineFromWKB", "a03655.html", "a03655" ],
+    [ "MakeLine", "a03659.html", "a03659" ],
+    [ "MLineFromText", "a03663.html", "a03663" ]
 ];

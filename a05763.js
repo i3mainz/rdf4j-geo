@@ -1,7 +1,6 @@
 var a05763 =
 [
-    [ "testMakePoint1", "a05763.html#a2f24e9ad47589d2191a0512d20a8a9ba", null ],
-    [ "testMakePointXYZ", "a05763.html#a3ba406df071dd5b2e9404776e414c4cd", null ],
-    [ "testPoint1", "a05763.html#ab20d196cb6e34afc2e9cff8074e43bfd", null ],
-    [ "testPointM", "a05763.html#a53dc8585c2a440c472be9609c86b0601", null ]
+    [ "testCircumcentre1", "a05763.html#af8da9616fd1ee304df92759a8b87da02", null ],
+    [ "isocelesTriangle", "a05763.html#aa04dfbec745e2622b9f7646f8572e501", null ],
+    [ "notIsocelesTriangle", "a05763.html#a055d99fb63bcee37763ffcf4da9e0521", null ]
 ];

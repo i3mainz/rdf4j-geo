@@ -1,5 +1,5 @@
 var a05279 =
 [
-    [ "testIsSquareFalse", "a05279.html#a173bda31cdc35a0e147f2c50957b2e27", null ],
-    [ "testIsSquareTrue", "a05279.html#af9173bfcbf2fff582439949957ccc709", null ]
+    [ "testMinimumClearance", "a05279.html#a66deeca736cad11f886ba1567bcb6fe1", null ],
+    [ "testPolygon", "a05279.html#a1e3187cbc25299380589200c398b3ffd", null ]
 ];

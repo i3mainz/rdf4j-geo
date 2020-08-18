@@ -1,8 +1,8 @@
 var a02578 =
 [
-    [ "ForcePolygonCCW", "a04055.html", "a04055" ],
-    [ "ForcePolygonCW", "a04059.html", "a04059" ],
-    [ "LinesFromRings", "a04063.html", "a04063" ],
-    [ "ReverseRing", "a04067.html", "a04067" ],
-    [ "RingsCutAtNodes", "a04071.html", "a04071" ]
+    [ "ForcePolygonCCW", "a04023.html", "a04023" ],
+    [ "ForcePolygonCW", "a04027.html", "a04027" ],
+    [ "LinesFromRings", "a04031.html", "a04031" ],
+    [ "ReverseRing", "a04035.html", "a04035" ],
+    [ "RingsCutAtNodes", "a04039.html", "a04039" ]
 ];

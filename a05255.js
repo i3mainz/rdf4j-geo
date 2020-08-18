@@ -1,5 +1,5 @@
 var a05255 =
 [
-    [ "testIsInCRSAreaOfValidityFalse", "a05255.html#ab086dd0d0debad3790e452ffa6c1fa28", null ],
-    [ "testIsInCRSAreaOfValidityTrue", "a05255.html#afff3ea2274b06643aaa5806616e7ca8e", null ]
+    [ "testIsValidFalse", "a05255.html#abe8c10068a1ed9f8a4fea754990b0a48", null ],
+    [ "testIsValidTrue", "a05255.html#a9556e5304e9a52193523b36c47bcd844", null ]
 ];

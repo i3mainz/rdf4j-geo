@@ -1,4 +1,5 @@
 var a05695 =
 [
-    [ "testRadiansToDegrees", "a05695.html#a558079b3822b724819ac704ef17d1fc7", null ]
+    [ "testXMax", "a05695.html#af45d6c06ced12c7882c5eab73bcc9ec8", null ],
+    [ "testPoint", "a05695.html#af26f700ee129f846cac58735f6dcc380", null ]
 ];
