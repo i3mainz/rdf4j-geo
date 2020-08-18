@@ -5,12 +5,13 @@ import java.util.List;
 
 import org.eclipse.rdf4j.model.vocabulary.POSTGIS;
 import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.geometry.base.GeometricModifierDoubleFunction;
+import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.geometry.base.GeometricModifierIntegerFunction;
 import org.locationtech.jts.geom.Geometry;
 import org.locationtech.jts.geom.GeometryFactory;
 import org.locationtech.jts.geom.LinearRing;
 import org.locationtech.jts.geom.Polygon;
 
-public class RemoveInteriorRing extends GeometricModifierDoubleFunction {
+public class RemoveInteriorRing extends GeometricModifierIntegerFunction {
 
 	@Override
 	public String getURI() {
@@ -18,7 +19,7 @@ public class RemoveInteriorRing extends GeometricModifierDoubleFunction {
 	}
 
 	@Override
-	protected Geometry relation(Geometry geom, Double value) {
+	protected Geometry relation(Geometry geom, Integer value) {
 		if(geom instanceof Polygon) {
 			Polygon poly=(Polygon) geom;
 			List<LinearRing> rings=new LinkedList<LinearRing>();

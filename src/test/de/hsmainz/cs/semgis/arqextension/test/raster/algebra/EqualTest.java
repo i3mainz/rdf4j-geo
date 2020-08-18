@@ -17,7 +17,7 @@ public class EqualTest extends SampleRasters {
 	public static final String combinedRasterLiteral="";
 	
 	@Test
-	public void testAdd() {
+	public void testEqual() {
 		ValueFactory valfac=SimpleValueFactory.getInstance();
         Value cov1 = valfac.createLiteral(rasterLiteral1, CovJSONDatatype.LiteralIRI);
         Value cov2 = valfac.createLiteral(rasterLiteral1, CovJSONDatatype.LiteralIRI);

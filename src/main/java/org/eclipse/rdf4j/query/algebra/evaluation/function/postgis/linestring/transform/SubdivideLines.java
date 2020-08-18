@@ -17,7 +17,7 @@ public class SubdivideLines extends GeometricModifierDoubleFunction{
 
 	@Override
 	public String getURI() {
-		return POSTGIS.st_segmentize.stringValue();
+		return POSTGIS.st_subdividelines.stringValue();
 	}
 
 	@Override
