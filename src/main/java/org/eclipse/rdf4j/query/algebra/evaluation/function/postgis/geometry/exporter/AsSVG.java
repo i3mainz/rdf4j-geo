@@ -6,6 +6,9 @@ import org.locationtech.jtstest.util.io.SVGWriter;
 
 import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.geometry.base.GeometricStringExportFunction;
 
+/**
+ * Returns a SVG representation of a given geometry.
+ */
 public class AsSVG extends GeometricStringExportFunction {
 
 	@Override

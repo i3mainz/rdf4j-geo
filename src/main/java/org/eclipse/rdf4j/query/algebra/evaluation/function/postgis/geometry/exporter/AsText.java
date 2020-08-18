@@ -5,6 +5,9 @@ import org.locationtech.jts.geom.Geometry;
 
 import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.geometry.base.GeometricStringExportFunction;
 
+/**
+ * Returns a WKT representation of a given geometry.
+ */
 public class AsText extends GeometricStringExportFunction {
 
 	@Override

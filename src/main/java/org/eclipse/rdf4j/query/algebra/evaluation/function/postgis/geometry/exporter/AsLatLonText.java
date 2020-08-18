@@ -6,7 +6,9 @@ import org.locationtech.jts.geom.Geometry;
 
 import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.geometry.base.GeometricStringExportFunction;
 
-
+/**
+ * Returns a Lat/Lon text representation of a given geometry.
+ */
 public class AsLatLonText  extends GeometricStringExportFunction{
 
 	@Override
@@ -19,6 +21,12 @@ public class AsLatLonText  extends GeometricStringExportFunction{
 		}
 	}
 	
+	/**
+	 * Converts a decimal number to a latitude longitude representation.
+	 * @param D the decimal number
+	 * @param lng indicates if a latitude or longitude number should be returned
+	 * @return The number in lat/lon representation
+	 */
 	public String convertDecimalToLatLonText(Double D, Boolean lng){
 	    String dir;
 		if(D<0) {

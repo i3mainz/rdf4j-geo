@@ -23,4 +23,14 @@ public class SridIsGeographicTest {
 	    assertEquals(expResult, result);
 	}
 	
+	@Test
+	public void testSridIsGeographicFalse() {
+		SridIsGeographic is3d=new SridIsGeographic();
+		ValueFactory valfac=SimpleValueFactory.getInstance();
+		Value geo=valfac.createLiteral(testPoint,WKTDatatype.LiteralIRI);
+		Value result=is3d.evaluate(valfac, geo);
+		Value expResult=valfac.createLiteral(false);
+	    assertEquals(expResult, result);
+	}
+	
 }

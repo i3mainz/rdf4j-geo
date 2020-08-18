@@ -11,6 +11,9 @@ import org.locationtech.jts.geom.Geometry;
 
 import ch.hsr.geohash.GeoHash;
 
+/**
+ * Returns a geometry collection from a WKT String.
+ */
 public class GeomCollFromText extends GeometricConstructor{
 
 	@Override

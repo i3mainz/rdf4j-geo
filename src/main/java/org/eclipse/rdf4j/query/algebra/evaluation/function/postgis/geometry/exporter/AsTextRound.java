@@ -7,6 +7,10 @@ import org.locationtech.jts.precision.GeometryPrecisionReducer;
 
 import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.geometry.base.GeometricStringExportIntegerFunction;
 
+
+/**
+ * Returns a WKT representation of a given geometry with a given precision.
+ */
 public class AsTextRound extends GeometricStringExportIntegerFunction {
 
 	@Override

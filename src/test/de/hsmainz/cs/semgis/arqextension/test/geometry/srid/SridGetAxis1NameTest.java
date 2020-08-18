@@ -11,10 +11,10 @@ import org.junit.Test;
 
 public class SridGetAxis1NameTest {
 
-	public static final String testPoint="POINT(1 2 3)";
+	public static final String testPoint="<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(1 2 3)";
 	
 	@Test
-	public void testEPSGToSRID() {
+	public void testSridGetAxis1Name() {
 		SridGetAxis1Name is3d=new SridGetAxis1Name();
 		ValueFactory valfac=SimpleValueFactory.getInstance();
 		Value geo=valfac.createLiteral(testPoint,WKTDatatype.LiteralIRI);

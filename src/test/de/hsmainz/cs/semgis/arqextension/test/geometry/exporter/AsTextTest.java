@@ -12,10 +12,23 @@ import org.junit.jupiter.api.Test;
 
 public class AsTextTest {
 
-	public static final String testGeometry="LINESTRING Z(1 2 3, 4 5 6)";
+
+	public static final String testGeometryZ="LINESTRING Z(1 2 3, 4 5 6)";
+	
+	public static final String testGeometry="LINESTRING (1 2, 4 5)";
 	
 	@Test
 	public void testAsText() {
+		AsText instance=new AsText();
+		ValueFactory valfac=SimpleValueFactory.getInstance();
+		Value geo=valfac.createLiteral(testGeometry, WKTDatatype.LiteralIRI);
+		Value result=instance.evaluate(valfac, geo);
+		Value expResult=valfac.createLiteral("LINESTRING (1 2, 4 5)");
+	    assertEquals(expResult, result);
+	}
+	
+	@Test
+	public void testAsTextZ() {
 		AsText instance=new AsText();
 		ValueFactory valfac=SimpleValueFactory.getInstance();
 		Value geo=valfac.createLiteral(testGeometry, WKTDatatype.LiteralIRI);

@@ -14,7 +14,7 @@ public class NRingsTest {
 	public static final String testPolygon="POLYGON((1 2, 3 4, 5 6, 1 2))";
 	
 	@Test
-	public void testPolygon() {
+	public void testNRings() {
 		NumInteriorRings instance=new NumInteriorRings();
 		ValueFactory valfac=SimpleValueFactory.getInstance();
 		Value geo=valfac.createLiteral(testPolygon, WKTDatatype.LiteralIRI);

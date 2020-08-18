@@ -6,7 +6,9 @@ import org.eclipse.rdf4j.model.vocabulary.POSTGIS;
 import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.geometry.base.GeometricStringExportFunction;
 import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.literals.vector.GeoHashDatatype;
 
-
+/**
+ * Returns a GeoHash representation of the given geometry.
+ */
 public class AsGeoHash extends GeometricStringExportFunction {
 
 	GeohashReferenceSystem.Coder coder;

@@ -14,7 +14,7 @@ public class SridHasFlippedAxisTest {
 public static final String testPoint="<http://www.opengis.net/def/crs/EPSG/0/4326> POINT(1 2 3)";
 	
 	@Test
-	public void testEPSGToSRID() {
+	public void testSridHasFlippedAxis() {
 		SridHasFlippedAxis is3d=new SridHasFlippedAxis();
 		ValueFactory valfac=SimpleValueFactory.getInstance();
 		Value geo=valfac.createLiteral(testPoint,WKTDatatype.LiteralIRI);
