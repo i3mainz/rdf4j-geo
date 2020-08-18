@@ -68,6 +68,9 @@ $(document).ready(function(){initNavTree('a03813.html','');});
 <div class="title">PointInsideCircle Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>Returns true if a point is found within the bounds of a given circle defintion.  
+ <a href="a03813.html#details">More...</a></p>
 <div class="dynheader">
 Inheritance diagram for PointInsideCircle:</div>
 <div class="dyncontent">
@@ -97,7 +100,9 @@ Protected Member Functions</h2></td></tr>
 <tr class="memitem:aa73faa01f17cea948b820a1f3058889c"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a03813.html#aa73faa01f17cea948b820a1f3058889c">relation</a> (Geometry geom, Double centerx, Double centery, Double radius)</td></tr>
 <tr class="separator:aa73faa01f17cea948b820a1f3058889c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Function Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Returns true if a point is found within the bounds of a given circle defintion. </p>
+</div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a43b4c73244bc6722ce551c1033cf1115"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a43b4c73244bc6722ce551c1033cf1115">&#9670;&nbsp;</a></span>evaluate()</h2>
 
@@ -155,7 +160,7 @@ Protected Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p class="reference">References <a class="el" href="a02657.html#a8ff78e1c796ae4c164c16e1d0cc0b669">POSTGIS.st_pointInsideCircle</a>.</p>
-<div class="fragment"><div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;                               {</div><div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;                <span class="keywordflow">return</span> POSTGIS.st_pointInsideCircle.stringValue();</div><div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;        }</div></div><!-- fragment -->
+<div class="fragment"><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;                               {</div><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;                <span class="keywordflow">return</span> POSTGIS.st_pointInsideCircle.stringValue();</div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;        }</div></div><!-- fragment -->
 </div>
 </div>
 <a id="aa73faa01f17cea948b820a1f3058889c"></a>
@@ -203,7 +208,7 @@ Protected Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;                                                                                                 {</div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;                 <span class="keywordflow">if</span>(<span class="stringliteral">&quot;POINT&quot;</span>.equals(geom.getGeometryType().toUpperCase())){</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;                        GeometricShapeFactory shapeFactory = <span class="keyword">new</span> GeometricShapeFactory();</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;                     shapeFactory.setNumPoints(32);</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;                     shapeFactory.setCentre(<span class="keyword">new</span> Coordinate(centerx, centery));</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;                     shapeFactory.setSize(radius * 2);</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;                     Polygon circle=shapeFactory.createCircle();</div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;                     <span class="keywordflow">return</span> circle.contains(geom);</div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;             }</div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;                 <span class="keywordflow">return</span> <span class="keyword">false</span>;</div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;        }</div></div><!-- fragment -->
+<div class="fragment"><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;                                                                                                 {</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;                 <span class="keywordflow">if</span>(<span class="stringliteral">&quot;POINT&quot;</span>.equals(geom.getGeometryType().toUpperCase())){</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;                        GeometricShapeFactory shapeFactory = <span class="keyword">new</span> GeometricShapeFactory();</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;                     shapeFactory.setNumPoints(32);</div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;                     shapeFactory.setCentre(<span class="keyword">new</span> Coordinate(centerx, centery));</div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;                     shapeFactory.setSize(radius * 2);</div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;                     Polygon circle=shapeFactory.createCircle();</div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;                     <span class="keywordflow">return</span> circle.contains(geom);</div><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;             }</div><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;                 <span class="keywordflow">return</span> <span class="keyword">false</span>;</div><div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;        }</div></div><!-- fragment -->
 </div>
 </div>
 </div><!-- contents -->

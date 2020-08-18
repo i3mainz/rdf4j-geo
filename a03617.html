@@ -68,6 +68,9 @@ $(document).ready(function(){initNavTree('a03617.html','');});
 <div class="title">LineFromMultiPoint Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>Creates a LineString from a given MultiPoint representation.  
+ <a href="a03617.html#details">More...</a></p>
 <div class="dynheader">
 Inheritance diagram for LineFromMultiPoint:</div>
 <div class="dyncontent">
@@ -97,7 +100,9 @@ Protected Member Functions</h2></td></tr>
 <tr class="memitem:a7719320b83dd8de753a7e13fc75c9c55"><td class="memItemLeft" align="right" valign="top">Geometry&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a03617.html#a7719320b83dd8de753a7e13fc75c9c55">operation</a> (Geometry geom)</td></tr>
 <tr class="separator:a7719320b83dd8de753a7e13fc75c9c55"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Function Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Creates a LineString from a given MultiPoint representation. </p>
+</div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a43b4c73244bc6722ce551c1033cf1115"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a43b4c73244bc6722ce551c1033cf1115">&#9670;&nbsp;</a></span>evaluate()</h2>
 
@@ -155,7 +160,7 @@ Protected Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p class="reference">References <a class="el" href="a02657.html#aa34d2352b2bf700ba3ef116310d6e183">POSTGIS.st_lineFromMultiPoint</a>.</p>
-<div class="fragment"><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;                               {</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;                <span class="keywordflow">return</span> POSTGIS.st_lineFromMultiPoint.stringValue();</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;        }</div></div><!-- fragment -->
+<div class="fragment"><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;                               {</div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;                <span class="keywordflow">return</span> POSTGIS.st_lineFromMultiPoint.stringValue();</div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;        }</div></div><!-- fragment -->
 </div>
 </div>
 <a id="a7719320b83dd8de753a7e13fc75c9c55"></a>
@@ -183,7 +188,7 @@ Protected Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p class="reference">References <a class="el" href="a04965.html#aa9b8459efc091f657b74ed0e5a245375">LiteralUtils.createGeometry()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;                                                    {</div><div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;                <span class="keywordflow">if</span>(<span class="stringliteral">&quot;MultiPoint&quot;</span>.equals(geom.getGeometryType())){</div><div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;                        <span class="keywordflow">return</span> LiteralUtils.createGeometry(geom.getCoordinates(), <span class="stringliteral">&quot;LINESTRING&quot;</span>, geom.getSRID());</div><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;                }       </div><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;                <span class="keywordflow">return</span> null;</div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;        }</div></div><!-- fragment -->
+<div class="fragment"><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;                                                    {</div><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;                <span class="keywordflow">if</span>(<span class="stringliteral">&quot;MultiPoint&quot;</span>.equals(geom.getGeometryType())){</div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;                        <span class="keywordflow">return</span> LiteralUtils.createGeometry(geom.getCoordinates(), <span class="stringliteral">&quot;LINESTRING&quot;</span>, geom.getSRID());</div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;                }       </div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;                <span class="keywordflow">return</span> null;</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;        }</div></div><!-- fragment -->
 </div>
 </div>
 </div><!-- contents -->

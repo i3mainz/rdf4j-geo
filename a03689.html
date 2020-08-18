@@ -68,6 +68,9 @@ $(document).ready(function(){initNavTree('a03689.html','');});
 <div class="title">OffsetCurve Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>Calculates an offset curve from a given geometry and a given distance.  
+ <a href="a03689.html#details">More...</a></p>
 <div class="dynheader">
 Inheritance diagram for OffsetCurve:</div>
 <div class="dyncontent">
@@ -97,7 +100,9 @@ Protected Member Functions</h2></td></tr>
 <tr class="memitem:a30c253ae7ac1b8d438de9accb09713b4"><td class="memItemLeft" align="right" valign="top">Geometry&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a03689.html#a30c253ae7ac1b8d438de9accb09713b4">relation</a> (Geometry geom, Double distance)</td></tr>
 <tr class="separator:a30c253ae7ac1b8d438de9accb09713b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Function Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Calculates an offset curve from a given geometry and a given distance. </p>
+</div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a43b4c73244bc6722ce551c1033cf1115"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a43b4c73244bc6722ce551c1033cf1115">&#9670;&nbsp;</a></span>evaluate()</h2>
 
@@ -155,7 +160,7 @@ Protected Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p class="reference">References <a class="el" href="a02657.html#ae8be5a073315d74f7825b820808ebf98">POSTGIS.st_offsetCurve</a>.</p>
-<div class="fragment"><div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;                               {</div><div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;                <span class="keywordflow">return</span> POSTGIS.st_offsetCurve.stringValue();</div><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;        }</div></div><!-- fragment -->
+<div class="fragment"><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;                               {</div><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;                <span class="keywordflow">return</span> POSTGIS.st_offsetCurve.stringValue();</div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;        }</div></div><!-- fragment -->
 </div>
 </div>
 <a id="a30c253ae7ac1b8d438de9accb09713b4"></a>
@@ -191,7 +196,7 @@ Protected Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;                                                                    {</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;        BufferParameters bufParams = <span class="keyword">new</span> BufferParameters();</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;        OffsetCurveBuilder ocb = <span class="keyword">new</span> OffsetCurveBuilder(geom.getFactory().getPrecisionModel(), bufParams);</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;        Coordinate[] pts = ocb.getOffsetCurve(geom.getCoordinates(), distance);</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;        Geometry curve = geom.getFactory().createLineString(pts);</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;        <span class="keywordflow">return</span> curve;</div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;        }</div></div><!-- fragment -->
+<div class="fragment"><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;                                                                    {</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;        BufferParameters bufParams = <span class="keyword">new</span> BufferParameters();</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;        OffsetCurveBuilder ocb = <span class="keyword">new</span> OffsetCurveBuilder(geom.getFactory().getPrecisionModel(), bufParams);</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;        Coordinate[] pts = ocb.getOffsetCurve(geom.getCoordinates(), distance);</div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;        Geometry curve = geom.getFactory().createLineString(pts);</div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;        <span class="keywordflow">return</span> curve;</div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;        }</div></div><!-- fragment -->
 </div>
 </div>
 </div><!-- contents -->

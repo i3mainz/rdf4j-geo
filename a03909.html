@@ -67,6 +67,9 @@ $(document).ready(function(){initNavTree('a03909.html','');});
 <div class="title">HasNestedRings Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>Checks a polygon for nested rings.  
+ <a href="a03909.html#details">More...</a></p>
 <div class="dynheader">
 Inheritance diagram for HasNestedRings:</div>
 <div class="dyncontent">
@@ -93,7 +96,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a43b4c73244bc6722ce551c1033cf1115"><td class="memItemLeft" align="right" valign="top">Value&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a03017.html#a43b4c73244bc6722ce551c1033cf1115">evaluate</a> (ValueFactory valueFactory, Value... args)  throws ValueExprEvaluationException </td></tr>
 <tr class="separator:a43b4c73244bc6722ce551c1033cf1115"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Function Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Checks a polygon for nested rings. </p>
+</div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="acffd07bcd4424073cb2871460076578a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#acffd07bcd4424073cb2871460076578a">&#9670;&nbsp;</a></span>attribute()</h2>
 
@@ -109,7 +114,7 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;                                                {</div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;                IndexedNestedRingTester tester=<span class="keyword">new</span> IndexedNestedRingTester(<span class="keyword">new</span> GeometryGraph(0,geom));</div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;                <span class="keywordflow">return</span> !tester.isNonNested();</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;        }</div></div><!-- fragment -->
+<div class="fragment"><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;                                                {</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;                IndexedNestedRingTester tester=<span class="keyword">new</span> IndexedNestedRingTester(<span class="keyword">new</span> GeometryGraph(0,geom));</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;                <span class="keywordflow">return</span> !tester.isNonNested();</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;        }</div></div><!-- fragment -->
 </div>
 </div>
 <a id="a43b4c73244bc6722ce551c1033cf1115"></a>
@@ -169,7 +174,7 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p class="reference">References <a class="el" href="a02657.html#aa646a9f727124d5d67e35d539dbe695a">POSTGIS.st_hasNestedRings</a>.</p>
-<div class="fragment"><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;                               {</div><div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;                <span class="keywordflow">return</span> POSTGIS.st_hasNestedRings.stringValue();</div><div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;        }</div></div><!-- fragment -->
+<div class="fragment"><div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;                               {</div><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;                <span class="keywordflow">return</span> POSTGIS.st_hasNestedRings.stringValue();</div><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;        }</div></div><!-- fragment -->
 </div>
 </div>
 </div><!-- contents -->

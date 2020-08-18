@@ -67,6 +67,9 @@ $(document).ready(function(){initNavTree('a03941.html','');});
 <div class="title">IsRightTriangle Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>Checks if the given polygon is a right triangle.  
+ <a href="a03941.html#details">More...</a></p>
 <div class="dynheader">
 Inheritance diagram for IsRightTriangle:</div>
 <div class="dyncontent">
@@ -91,13 +94,17 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:acffd07bcd4424073cb2871460076578a"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a03941.html#acffd07bcd4424073cb2871460076578a">attribute</a> (Geometry geom)</td></tr>
 <tr class="separator:acffd07bcd4424073cb2871460076578a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5e3ceba1bea21f288f8c75a783ace8d5"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a03941.html#a5e3ceba1bea21f288f8c75a783ace8d5">isRightAngledTriangle</a> (<a class="el" href="a05097.html">Coordinate</a>[] coords)</td></tr>
+<tr class="memdesc:a5e3ceba1bea21f288f8c75a783ace8d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if a polygon with three coordinates is a right triangle.  <a href="#a5e3ceba1bea21f288f8c75a783ace8d5">More...</a><br /></td></tr>
 <tr class="separator:a5e3ceba1bea21f288f8c75a783ace8d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a43249b60979cd6760c28313511cc65d7"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a03941.html#a43249b60979cd6760c28313511cc65d7">getLength</a> (<a class="el" href="a05097.html">Coordinate</a> point1, <a class="el" href="a05097.html">Coordinate</a> point2)</td></tr>
+<tr class="memdesc:a43249b60979cd6760c28313511cc65d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates the length of an edge of a triangle.  <a href="#a43249b60979cd6760c28313511cc65d7">More...</a><br /></td></tr>
 <tr class="separator:a43249b60979cd6760c28313511cc65d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a43b4c73244bc6722ce551c1033cf1115"><td class="memItemLeft" align="right" valign="top">Value&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a03017.html#a43b4c73244bc6722ce551c1033cf1115">evaluate</a> (ValueFactory valueFactory, Value... args)  throws ValueExprEvaluationException </td></tr>
 <tr class="separator:a43b4c73244bc6722ce551c1033cf1115"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Function Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Checks if the given polygon is a right triangle. </p>
+</div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="acffd07bcd4424073cb2871460076578a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#acffd07bcd4424073cb2871460076578a">&#9670;&nbsp;</a></span>attribute()</h2>
 
@@ -115,7 +122,7 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p class="reference">References <a class="el" href="a03941.html#a5e3ceba1bea21f288f8c75a783ace8d5">IsRightTriangle.isRightAngledTriangle()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;                                                {</div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;                <span class="keywordflow">if</span> (geom instanceof Polygon) {</div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;                <span class="keywordflow">if</span>(geom.getCoordinates().length==3) {</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;                        <span class="keywordflow">return</span> <a class="code" href="a03941.html#a5e3ceba1bea21f288f8c75a783ace8d5">isRightAngledTriangle</a>(geom.getCoordinates());</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;                }</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;                }</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;                <span class="keywordflow">return</span> <span class="keyword">false</span>;</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;        }</div><div class="ttc" id="a03941_html_a5e3ceba1bea21f288f8c75a783ace8d5"><div class="ttname"><a href="a03941.html#a5e3ceba1bea21f288f8c75a783ace8d5">org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.polygon.attribute.IsRightTriangle.isRightAngledTriangle</a></div><div class="ttdeci">boolean isRightAngledTriangle(Coordinate[] coords)</div><div class="ttdef"><b>Definition:</b> IsRightTriangle.java:26</div></div>
+<div class="fragment"><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;                                                {</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;                <span class="keywordflow">if</span> (geom instanceof Polygon) {</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;                <span class="keywordflow">if</span>(geom.getCoordinates().length==3) {</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;                        <span class="keywordflow">return</span> <a class="code" href="a03941.html#a5e3ceba1bea21f288f8c75a783ace8d5">isRightAngledTriangle</a>(geom.getCoordinates());</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;                }</div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;                }</div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;                <span class="keywordflow">return</span> <span class="keyword">false</span>;</div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;        }</div><div class="ttc" id="a03941_html_a5e3ceba1bea21f288f8c75a783ace8d5"><div class="ttname"><a href="a03941.html#a5e3ceba1bea21f288f8c75a783ace8d5">org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.polygon.attribute.IsRightTriangle.isRightAngledTriangle</a></div><div class="ttdeci">boolean isRightAngledTriangle(Coordinate[] coords)</div><div class="ttdoc">Checks if a polygon with three coordinates is a right triangle. </div><div class="ttdef"><b>Definition:</b> IsRightTriangle.java:34</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -186,10 +193,20 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Calculates the length of an edge of a triangle. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">point1</td><td>the beginning point of the edge </td></tr>
+    <tr><td class="paramname">point2</td><td>the end point of the edge </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>the length of the edge </dd></dl>
+
 <p class="reference">References <a class="el" href="a05097.html#a2b69e4312b7814c6efce42f851893409">Coordinate.getX()</a>, and <a class="el" href="a05097.html#a15f19cf52955c8c3406831b288681358">Coordinate.getY()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="a03941.html#a5e3ceba1bea21f288f8c75a783ace8d5">IsRightTriangle.isRightAngledTriangle()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;                                                                      {</div><div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;            <span class="keywordflow">return</span> Math.sqrt((point2.getX()-point1.getX())*(point2.getX()-point1.getX()) + (point2.getY()-point1.getY())*(point2.getY()-point1.getY()));</div><div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;        }</div></div><!-- fragment -->
+<div class="fragment"><div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;                                                                      {</div><div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;            <span class="keywordflow">return</span> Math.sqrt((point2.getX()-point1.getX())*(point2.getX()-point1.getX()) + (point2.getY()-point1.getY())*(point2.getY()-point1.getY()));</div><div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;        }</div></div><!-- fragment -->
 </div>
 </div>
 <a id="ad9fb16b36dd4ccc533d4f05ff94646e3"></a>
@@ -208,7 +225,7 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p class="reference">References <a class="el" href="a02657.html#a4df669a468b82e67b5c7976d334291f9">POSTGIS.st_isRightTriangle</a>.</p>
-<div class="fragment"><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;                               {</div><div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;                <span class="keywordflow">return</span> POSTGIS.st_isRightTriangle.stringValue();</div><div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;        }</div></div><!-- fragment -->
+<div class="fragment"><div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;                               {</div><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;                <span class="keywordflow">return</span> POSTGIS.st_isRightTriangle.stringValue();</div><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;        }</div></div><!-- fragment -->
 </div>
 </div>
 <a id="a5e3ceba1bea21f288f8c75a783ace8d5"></a>
@@ -227,10 +244,19 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Checks if a polygon with three coordinates is a right triangle. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">coords</td><td>the coordinates to be analyzed </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>true if the triangle is right angled </dd></dl>
+
 <p class="reference">References <a class="el" href="a03941.html#a43249b60979cd6760c28313511cc65d7">IsRightTriangle.getLength()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="a03941.html#acffd07bcd4424073cb2871460076578a">IsRightTriangle.attribute()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;                                                                 {</div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;                Coordinate a=coords[0];</div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;                Coordinate b=coords[1];</div><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;                Coordinate c=coords[2];</div><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;            Double lengthA = <a class="code" href="a03941.html#a43249b60979cd6760c28313511cc65d7">getLength</a>(a,b);</div><div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;            Double lengthB = <a class="code" href="a03941.html#a43249b60979cd6760c28313511cc65d7">getLength</a>(b,c);</div><div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;            Double lengthC = <a class="code" href="a03941.html#a43249b60979cd6760c28313511cc65d7">getLength</a>(c,a);</div><div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;            <span class="keywordflow">return</span>  Math.pow(lengthA, 2) + Math.pow(lengthB, 2) == Math.pow(lengthC, 2) ||</div><div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;                    Math.pow(lengthA, 2) + Math.pow(lengthC, 2) == Math.pow(lengthB, 2) ||</div><div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;                    Math.pow(lengthC, 2) + Math.pow(lengthB, 2) == Math.pow(lengthA, 2);</div><div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;        }</div><div class="ttc" id="a03941_html_a43249b60979cd6760c28313511cc65d7"><div class="ttname"><a href="a03941.html#a43249b60979cd6760c28313511cc65d7">org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.polygon.attribute.IsRightTriangle.getLength</a></div><div class="ttdeci">double getLength(Coordinate point1, Coordinate point2)</div><div class="ttdef"><b>Definition:</b> IsRightTriangle.java:38</div></div>
+<div class="fragment"><div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;                                                                 {</div><div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;                Coordinate a=coords[0];</div><div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;                Coordinate b=coords[1];</div><div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;                Coordinate c=coords[2];</div><div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;            Double lengthA = <a class="code" href="a03941.html#a43249b60979cd6760c28313511cc65d7">getLength</a>(a,b);</div><div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;            Double lengthB = <a class="code" href="a03941.html#a43249b60979cd6760c28313511cc65d7">getLength</a>(b,c);</div><div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;            Double lengthC = <a class="code" href="a03941.html#a43249b60979cd6760c28313511cc65d7">getLength</a>(c,a);</div><div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;            <span class="keywordflow">return</span>  Math.pow(lengthA, 2) + Math.pow(lengthB, 2) == Math.pow(lengthC, 2) ||</div><div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;                    Math.pow(lengthA, 2) + Math.pow(lengthC, 2) == Math.pow(lengthB, 2) ||</div><div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;                    Math.pow(lengthC, 2) + Math.pow(lengthB, 2) == Math.pow(lengthA, 2);</div><div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;        }</div><div class="ttc" id="a03941_html_a43249b60979cd6760c28313511cc65d7"><div class="ttname"><a href="a03941.html#a43249b60979cd6760c28313511cc65d7">org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.polygon.attribute.IsRightTriangle.getLength</a></div><div class="ttdeci">double getLength(Coordinate point1, Coordinate point2)</div><div class="ttdoc">Calculates the length of an edge of a triangle. </div><div class="ttdef"><b>Definition:</b> IsRightTriangle.java:52</div></div>
 </div><!-- fragment -->
 </div>
 </div>

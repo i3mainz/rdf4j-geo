@@ -67,6 +67,9 @@ $(document).ready(function(){initNavTree('a03885.html','');});
 <div class="title">Circularity Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>Calculates a circularity score for a given polygon.  
+ <a href="a03885.html#details">More...</a></p>
 <div class="dynheader">
 Inheritance diagram for Circularity:</div>
 <div class="dyncontent">
@@ -93,7 +96,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a43b4c73244bc6722ce551c1033cf1115"><td class="memItemLeft" align="right" valign="top">Value&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a03037.html#a43b4c73244bc6722ce551c1033cf1115">evaluate</a> (ValueFactory valueFactory, Value... args)  throws ValueExprEvaluationException </td></tr>
 <tr class="separator:a43b4c73244bc6722ce551c1033cf1115"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Function Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Calculates a circularity score for a given polygon. </p>
+</div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a96c8c336ce0b2174abd59cfbcdb28860"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a96c8c336ce0b2174abd59cfbcdb28860">&#9670;&nbsp;</a></span>attribute()</h2>
 
@@ -109,7 +114,7 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;                                               {</div><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;        <span class="keywordflow">if</span> (geom instanceof Polygon) {</div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;                <span class="keywordtype">double</span> areasum=0.,perimetersum=0.;</div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;                <span class="keywordflow">for</span>(<span class="keywordtype">int</span> i=0;i&lt;geom.getNumGeometries();i++) {</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;                        areasum+=geom.getArea();</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;                        perimetersum+=geom.getLength();</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;                }</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;                <span class="keywordflow">return</span> (4*Math.PI*areasum)/(perimetersum*perimetersum);</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;        }</div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;        <span class="keywordflow">return</span> 0.;</div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;        }</div></div><!-- fragment -->
+<div class="fragment"><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;                                               {</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;        <span class="keywordflow">if</span> (geom instanceof Polygon) {</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;                <span class="keywordtype">double</span> areasum=0.,perimetersum=0.;</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;                <span class="keywordflow">for</span>(<span class="keywordtype">int</span> i=0;i&lt;geom.getNumGeometries();i++) {</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;                        areasum+=geom.getArea();</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;                        perimetersum+=geom.getLength();</div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;                }</div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;                <span class="keywordflow">return</span> (4*Math.PI*areasum)/(perimetersum*perimetersum);</div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;        }</div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;        <span class="keywordflow">return</span> 0.;</div><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;        }</div></div><!-- fragment -->
 </div>
 </div>
 <a id="a43b4c73244bc6722ce551c1033cf1115"></a>
@@ -169,7 +174,7 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p class="reference">References <a class="el" href="a02657.html#ac64500be386cbd0d7da5d376bbb61547">POSTGIS.st_circularity</a>.</p>
-<div class="fragment"><div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;                               {</div><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;                <span class="keywordflow">return</span> POSTGIS.st_circularity.stringValue();</div><div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;        }</div></div><!-- fragment -->
+<div class="fragment"><div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;                               {</div><div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;                <span class="keywordflow">return</span> POSTGIS.st_circularity.stringValue();</div><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;        }</div></div><!-- fragment -->
 </div>
 </div>
 </div><!-- contents -->

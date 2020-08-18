@@ -67,6 +67,9 @@ $(document).ready(function(){initNavTree('a03957.html','');});
 <div class="title">Orientation Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>Returns the orientation of the coordinates of a polygon.  
+ <a href="a03957.html#details">More...</a></p>
 <div class="dynheader">
 Inheritance diagram for Orientation:</div>
 <div class="dyncontent">
@@ -93,7 +96,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a43b4c73244bc6722ce551c1033cf1115"><td class="memItemLeft" align="right" valign="top">Value&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a03057.html#a43b4c73244bc6722ce551c1033cf1115">evaluate</a> (ValueFactory valueFactory, Value... args)  throws ValueExprEvaluationException </td></tr>
 <tr class="separator:a43b4c73244bc6722ce551c1033cf1115"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Function Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Returns the orientation of the coordinates of a polygon. </p>
+</div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a041666085738cb4cd7649f68428f9553"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a041666085738cb4cd7649f68428f9553">&#9670;&nbsp;</a></span>attribute()</h2>
 
@@ -109,7 +114,7 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;                                            {</div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;        <span class="keywordflow">if</span> (geom instanceof Polygon) {</div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;                <span class="keywordflow">if</span>(<a class="code" href="a02511.html">org</a>.<a class="code" href="a02582.html">locationtech</a>.<a class="code" href="a02587.html">jts</a>.algorithm.Orientation.isCCW(geom.getCoordinates())) {</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;                        <span class="keywordflow">return</span> -1;</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;                }</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;            <span class="keywordflow">return</span> 1;</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;        }</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;        <span class="keywordflow">return</span> 0;</div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;        }</div><div class="ttc" id="a02582_html"><div class="ttname"><a href="a02582.html">org.locationtech</a></div></div>
+<div class="fragment"><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;                                            {</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;        <span class="keywordflow">if</span> (geom instanceof Polygon) {</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;                <span class="keywordflow">if</span>(<a class="code" href="a02511.html">org</a>.<a class="code" href="a02582.html">locationtech</a>.<a class="code" href="a02587.html">jts</a>.algorithm.Orientation.isCCW(geom.getCoordinates())) {</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;                        <span class="keywordflow">return</span> -1;</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;                }</div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;            <span class="keywordflow">return</span> 1;</div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;        }</div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;        <span class="keywordflow">return</span> 0;</div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;        }</div><div class="ttc" id="a02582_html"><div class="ttname"><a href="a02582.html">org.locationtech</a></div></div>
 <div class="ttc" id="a02587_html"><div class="ttname"><a href="a02587.html">org.locationtech.jts</a></div></div>
 <div class="ttc" id="a02511_html"><div class="ttname"><a href="a02511.html">org</a></div></div>
 </div><!-- fragment -->
@@ -172,7 +177,7 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p class="reference">References <a class="el" href="a02657.html#a4226ecfdd6c162a6e4fadf57c9fe9bfe">POSTGIS.st_orientation</a>.</p>
-<div class="fragment"><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;                               {</div><div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;                <span class="keywordflow">return</span> POSTGIS.st_orientation.stringValue();</div><div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;        }</div></div><!-- fragment -->
+<div class="fragment"><div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;                               {</div><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;                <span class="keywordflow">return</span> POSTGIS.st_orientation.stringValue();</div><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;        }</div></div><!-- fragment -->
 </div>
 </div>
 </div><!-- contents -->

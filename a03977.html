@@ -68,6 +68,9 @@ $(document).ready(function(){initNavTree('a03977.html','');});
 <div class="title">AddInteriorRing Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>Adds an additional interior ring to a given polygon.  
+ <a href="a03977.html#details">More...</a></p>
 <div class="dynheader">
 Inheritance diagram for AddInteriorRing:</div>
 <div class="dyncontent">
@@ -97,7 +100,9 @@ Protected Member Functions</h2></td></tr>
 <tr class="memitem:a3235b91b2820d3d8fcc71391142c6b9e"><td class="memItemLeft" align="right" valign="top">Geometry&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a03977.html#a3235b91b2820d3d8fcc71391142c6b9e">relation</a> (Geometry geom, Geometry g2)</td></tr>
 <tr class="separator:a3235b91b2820d3d8fcc71391142c6b9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Function Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Adds an additional interior ring to a given polygon. </p>
+</div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a43b4c73244bc6722ce551c1033cf1115"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a43b4c73244bc6722ce551c1033cf1115">&#9670;&nbsp;</a></span>evaluate()</h2>
 
@@ -155,7 +160,7 @@ Protected Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p class="reference">References <a class="el" href="a02657.html#a5701f6280431aa3b2f18d1ab9d02ed65">POSTGIS.st_addInteriorRing</a>.</p>
-<div class="fragment"><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;                               {</div><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;                <span class="keywordflow">return</span> POSTGIS.st_addInteriorRing.toString();</div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;        }</div></div><!-- fragment -->
+<div class="fragment"><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;                               {</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;                <span class="keywordflow">return</span> POSTGIS.st_addInteriorRing.toString();</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;        }</div></div><!-- fragment -->
 </div>
 </div>
 <a id="a3235b91b2820d3d8fcc71391142c6b9e"></a>
@@ -191,7 +196,7 @@ Protected Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;                                                                {</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;                <span class="keywordflow">if</span>(geom instanceof Polygon) {</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;                        Polygon poly=(Polygon) geom;</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;                        List&lt;LinearRing&gt; rings=<span class="keyword">new</span> LinkedList&lt;LinearRing&gt;();</div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;                        <span class="keywordflow">for</span>(<span class="keywordtype">int</span> i=0;i&lt;poly.getNumInteriorRing();i++) {</div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;                                        rings.add((LinearRing)poly.getInteriorRingN(i));</div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;                        }</div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;                        rings.add((LinearRing)g2);</div><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;                        GeometryFactory fac=<span class="keyword">new</span> GeometryFactory();</div><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;                        <span class="keywordflow">return</span> fac.createPolygon((LinearRing)poly.getExteriorRing(), rings.toArray(<span class="keyword">new</span> LinearRing[0]));</div><div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;                }</div><div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;                <span class="keywordflow">return</span> null;</div><div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;        }</div></div><!-- fragment -->
+<div class="fragment"><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;                                                                {</div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;                <span class="keywordflow">if</span>(geom instanceof Polygon) {</div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;                        Polygon poly=(Polygon) geom;</div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;                        List&lt;LinearRing&gt; rings=<span class="keyword">new</span> LinkedList&lt;LinearRing&gt;();</div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;                        <span class="keywordflow">for</span>(<span class="keywordtype">int</span> i=0;i&lt;poly.getNumInteriorRing();i++) {</div><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;                                        rings.add((LinearRing)poly.getInteriorRingN(i));</div><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;                        }</div><div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;                        rings.add((LinearRing)g2);</div><div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;                        GeometryFactory fac=<span class="keyword">new</span> GeometryFactory();</div><div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;                        <span class="keywordflow">return</span> fac.createPolygon((LinearRing)poly.getExteriorRing(), rings.toArray(<span class="keyword">new</span> LinearRing[0]));</div><div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;                }</div><div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;                <span class="keywordflow">return</span> null;</div><div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;        }</div></div><!-- fragment -->
 </div>
 </div>
 </div><!-- contents -->

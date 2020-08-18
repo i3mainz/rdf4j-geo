@@ -68,7 +68,7 @@ $(document).ready(function(){initNavTree('a03937.html','');});
 </div><!--header-->
 <div class="contents">
 
-<p>Returns true if all exterior rings are oriented clockwise and all interior rings are oriented counter-clockwise.  
+<p>Returns true if all exterior rings are oriented clockwise and all interior rings are oriented clockwise.  
  <a href="a03937.html#details">More...</a></p>
 <div class="dynheader">
 Inheritance diagram for IsPolygonCW:</div>
@@ -97,7 +97,7 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a43b4c73244bc6722ce551c1033cf1115"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Returns true if all exterior rings are oriented clockwise and all interior rings are oriented counter-clockwise. </p>
+<div class="textblock"><p>Returns true if all exterior rings are oriented clockwise and all interior rings are oriented clockwise. </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="acffd07bcd4424073cb2871460076578a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#acffd07bcd4424073cb2871460076578a">&#9670;&nbsp;</a></span>attribute()</h2>
@@ -114,7 +114,7 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;                                                {</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;             <span class="keywordflow">if</span> (geom instanceof Polygon) {</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;                 <span class="keywordflow">return</span> !Orientation.isCCW(geom.getCoordinates());</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;             }</div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;             <span class="keywordflow">return</span> <span class="keyword">false</span>;</div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;        }</div></div><!-- fragment -->
+<div class="fragment"><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;                                                {</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;             <span class="keywordflow">if</span> (geom instanceof Polygon) {</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;                 <span class="keywordflow">return</span> !Orientation.isCCW(geom.getCoordinates());</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;             }</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;             <span class="keywordflow">return</span> <span class="keyword">false</span>;</div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;        }</div></div><!-- fragment -->
 </div>
 </div>
 <a id="a43b4c73244bc6722ce551c1033cf1115"></a>
@@ -174,7 +174,7 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p class="reference">References <a class="el" href="a02657.html#a23af9f0e3a26486c7454e1c9f2f7fe5d">POSTGIS.st_isPolygonCW</a>.</p>
-<div class="fragment"><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;                               {</div><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;                <span class="keywordflow">return</span> POSTGIS.st_isPolygonCW.stringValue();</div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;        }</div></div><!-- fragment -->
+<div class="fragment"><div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;                               {</div><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;                <span class="keywordflow">return</span> POSTGIS.st_isPolygonCW.stringValue();</div><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;        }</div></div><!-- fragment -->
 </div>
 </div>
 </div><!-- contents -->
