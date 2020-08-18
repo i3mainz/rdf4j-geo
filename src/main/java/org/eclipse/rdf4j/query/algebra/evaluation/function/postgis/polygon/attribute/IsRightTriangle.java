@@ -19,7 +19,7 @@ public class IsRightTriangle extends GeometricBinaryAttributeFunction {
 	@Override
 	public boolean attribute(Geometry geom) {
 		if (geom instanceof Polygon) {
-        	if(geom.getCoordinates().length==3) {
+        	if(geom.getCoordinates().length==4) {
         		return isRightAngledTriangle(geom.getCoordinates());
         	}
 		}

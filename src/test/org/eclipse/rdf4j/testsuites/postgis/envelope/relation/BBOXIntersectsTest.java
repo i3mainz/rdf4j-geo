@@ -26,7 +26,7 @@ public static final String testGeom1="LINESTRING (1 4, 1 7)";
 		Value geo=valfac.createLiteral(testGeom1, WKTDatatype.LiteralIRI);
 		Value geo2=valfac.createLiteral(testGeom2, WKTDatatype.LiteralIRI);
 		Value result=instance.evaluate(valfac, geo2,geo);
-		Value expResult=valfac.createLiteral(2);
+		Value expResult=valfac.createLiteral(true);
 		assertEquals(expResult, result);
 	}
 	
@@ -37,7 +37,7 @@ public static final String testGeom1="LINESTRING (1 4, 1 7)";
 		Value geo=valfac.createLiteral(testGeom1, WKTDatatype.LiteralIRI);
 		Value geo2=valfac.createLiteral(testGeom2, WKTDatatype.LiteralIRI);
 		Value result=instance.evaluate(valfac, geo,geo2);
-		Value expResult=valfac.createLiteral(2);
+		Value expResult=valfac.createLiteral(false);
 		assertEquals(expResult, result);
 	}
 	
