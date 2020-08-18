@@ -1,5 +1,5 @@
 var a05430 =
 [
-    [ "testAsSVG", "a05430.html#a7051938045f1413d97e8c5925b1c7677", null ],
+    [ "testAsBinary", "a05430.html#ac230b10882e3be05bacc871fce2fc609", null ],
     [ "testGeometry", "a05430.html#abc3f514f005cba49e406658e2d3086eb", null ]
 ];

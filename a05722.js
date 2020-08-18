@@ -1,7 +1,7 @@
 var a05722 =
 [
-    [ "testAzimuth1", "a05722.html#afb57967d41a75bfa55c7f1443b245d14", null ],
-    [ "testAzimuth2", "a05722.html#a5d42e5f7045b0a306fc1d39539491851", null ],
-    [ "testPoint1", "a05722.html#ab20d196cb6e34afc2e9cff8074e43bfd", null ],
-    [ "testPoint2", "a05722.html#aa0c0c6f5dda7a397fc50f4c22a2b180f", null ]
+    [ "testHasSelfIntersectionsFalse", "a05722.html#a4a909b32ed78a5e48e6acd2cdd04519b", null ],
+    [ "testHasSelfIntersectionsTrue", "a05722.html#ae67f84fa98ae098d78896e2c9885a5ca", null ],
+    [ "testGeom", "a05722.html#a03a5f5da0ccbeed8c1678d4317cf2672", null ],
+    [ "testGeom2", "a05722.html#a6b4be369c8f60e973cd5126e69cd33a4", null ]
 ];

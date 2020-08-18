@@ -1,6 +1,5 @@
 var a05298 =
 [
-    [ "testMinimumBoundingCircle", "a05298.html#ae83e48bad70898d10790438246feadad", null ],
-    [ "result", "a05298.html#aab356d6554a7301750f11ec7a85ac47d", null ],
-    [ "testPolygon", "a05298.html#a1e3187cbc25299380589200c398b3ffd", null ]
+    [ "testIsMeasuredFalse", "a05298.html#a0d34749daed816e995d607f25393f8bd", null ],
+    [ "testIsMeasuredTrue", "a05298.html#a94b07ea8a866ff9332c709b77d204342", null ]
 ];

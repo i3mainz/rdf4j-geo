@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>rdf4j-postgis: SimplifyPreserveTopologyTest Class Reference</title>
+<title>rdf4j-postgis: Force2DTest Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -65,36 +65,36 @@ $(document).ready(function(){initNavTree('a05650.html','');});
 <a href="#pub-static-attribs">Static Public Attributes</a> &#124;
 <a href="a05647.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">SimplifyPreserveTopologyTest Class Reference</div>  </div>
+<div class="title">Force2DTest Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 <div class="dynheader">
-Collaboration diagram for SimplifyPreserveTopologyTest:</div>
+Collaboration diagram for Force2DTest:</div>
 <div class="dyncontent">
-<div class="center"><img src="a05648.png" border="0" usemap="#SimplifyPreserveTopologyTest_coll__map" alt="Collaboration graph"/></div>
-<map name="SimplifyPreserveTopologyTest_coll__map" id="SimplifyPreserveTopologyTest_coll__map">
+<div class="center"><img src="a05648.png" border="0" usemap="#Force2DTest_coll__map" alt="Collaboration graph"/></div>
+<map name="Force2DTest_coll__map" id="Force2DTest_coll__map">
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a4b0417b619689d07743ff9d72212c847"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05650.html#a4b0417b619689d07743ff9d72212c847">testSimplifyVW</a> ()</td></tr>
-<tr class="separator:a4b0417b619689d07743ff9d72212c847"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac1b65b91741abc3458f3a8303d7c0388"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05650.html#ac1b65b91741abc3458f3a8303d7c0388">testForce2D</a> ()</td></tr>
+<tr class="separator:ac1b65b91741abc3458f3a8303d7c0388"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
-<tr class="memitem:a03a5f5da0ccbeed8c1678d4317cf2672"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05650.html#a03a5f5da0ccbeed8c1678d4317cf2672">testGeom</a> =&quot;LINESTRING(5 2, 3 8, 6 20, 7 25, 10 10)&quot;</td></tr>
-<tr class="separator:a03a5f5da0ccbeed8c1678d4317cf2672"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1e3187cbc25299380589200c398b3ffd"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05650.html#a1e3187cbc25299380589200c398b3ffd">testPolygon</a> =&quot;POLYGON((0 0 2,0 5 2,5 0 2,0 0 2))&quot;</td></tr>
+<tr class="separator:a1e3187cbc25299380589200c398b3ffd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a4b0417b619689d07743ff9d72212c847"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4b0417b619689d07743ff9d72212c847">&#9670;&nbsp;</a></span>testSimplifyVW()</h2>
+<a id="ac1b65b91741abc3458f3a8303d7c0388"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac1b65b91741abc3458f3a8303d7c0388">&#9670;&nbsp;</a></span>testForce2D()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void testSimplifyVW </td>
+          <td class="memname">void testForce2D </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -102,14 +102,14 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="a03178.html#a43b4c73244bc6722ce551c1033cf1115">GeometricUnaryFunction.evaluate()</a>, and <a class="el" href="a05002.html#ae02c2e86ac0dea8538c7b43e9e82421a">WKTDatatype.LiteralIRI</a>.</p>
-<div class="fragment"><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;                                     {</div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;                SimplifyPreserveTopology instance=<span class="keyword">new</span> SimplifyPreserveTopology();</div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;                ValueFactory valfac=SimpleValueFactory.getInstance();</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;                Value geo=valfac.createLiteral(<a class="code" href="a05650.html#a03a5f5da0ccbeed8c1678d4317cf2672">testGeom</a>, WKTDatatype.LiteralIRI);</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;                Value result=instance.evaluate(valfac, geo);</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;                Value expResult=valfac.createLiteral(<span class="stringliteral">&quot;LINESTRING (5 2, 7 25, 10 10)&quot;</span>);</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;                assertEquals(expResult, result);</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;        }</div><div class="ttc" id="a05650_html_a03a5f5da0ccbeed8c1678d4317cf2672"><div class="ttname"><a href="a05650.html#a03a5f5da0ccbeed8c1678d4317cf2672">org.eclipse.rdf4j.testsuites.postgis.geometry.transform.SimplifyPreserveTopologyTest.testGeom</a></div><div class="ttdeci">static final String testGeom</div><div class="ttdef"><b>Definition:</b> SimplifyPreserveTopologyTest.java:14</div></div>
+<p class="reference">References <a class="el" href="a03202.html#a43b4c73244bc6722ce551c1033cf1115">GeometricUnaryFunction.evaluate()</a>, and <a class="el" href="a05038.html#ae02c2e86ac0dea8538c7b43e9e82421a">WKTDatatype.LiteralIRI</a>.</p>
+<div class="fragment"><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;                                  {</div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;                Force2D instance=<span class="keyword">new</span> Force2D();</div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;                ValueFactory valfac=SimpleValueFactory.getInstance();</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;                Value geo=valfac.createLiteral(<a class="code" href="a05650.html#a1e3187cbc25299380589200c398b3ffd">testPolygon</a>, WKTDatatype.LiteralIRI);</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;                Value result=instance.evaluate(valfac, geo);</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;                Value expResult=valfac.createLiteral(<span class="stringliteral">&quot;POLYGON ((0 0, 0 5, 5 0, 0 0))&quot;</span>, WKTDatatype.LiteralIRI);</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;                assertEquals(expResult, result);</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;        }</div><div class="ttc" id="a05650_html_a1e3187cbc25299380589200c398b3ffd"><div class="ttname"><a href="a05650.html#a1e3187cbc25299380589200c398b3ffd">org.eclipse.rdf4j.testsuites.postgis.geometry.transform.Force2DTest.testPolygon</a></div><div class="ttdeci">static final String testPolygon</div><div class="ttdef"><b>Definition:</b> Force2DTest.java:14</div></div>
 </div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="a03a5f5da0ccbeed8c1678d4317cf2672"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a03a5f5da0ccbeed8c1678d4317cf2672">&#9670;&nbsp;</a></span>testGeom</h2>
+<a id="a1e3187cbc25299380589200c398b3ffd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1e3187cbc25299380589200c398b3ffd">&#9670;&nbsp;</a></span>testPolygon</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -118,7 +118,7 @@ Static Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">final String testGeom =&quot;LINESTRING(5 2, 3 8, 6 20, 7 25, 10 10)&quot;</td>
+          <td class="memname">final String testPolygon =&quot;POLYGON((0 0 2,0 5 2,5 0 2,0 0 2))&quot;</td>
         </tr>
       </table>
   </td>
@@ -136,7 +136,7 @@ Static Public Attributes</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="a02553.html">org</a></li><li class="navelem"><a class="el" href="a02554.html">eclipse</a></li><li class="navelem"><a class="el" href="a02555.html">rdf4j</a></li><li class="navelem"><a class="el" href="a02636.html">testsuites</a></li><li class="navelem"><a class="el" href="a02637.html">postgis</a></li><li class="navelem"><a class="el" href="a02640.html">geometry</a></li><li class="navelem"><a class="el" href="a02646.html">transform</a></li><li class="navelem"><a class="el" href="a05650.html">SimplifyPreserveTopologyTest</a></li>
+    <li class="navelem"><a class="el" href="a02577.html">org</a></li><li class="navelem"><a class="el" href="a02578.html">eclipse</a></li><li class="navelem"><a class="el" href="a02579.html">rdf4j</a></li><li class="navelem"><a class="el" href="a02660.html">testsuites</a></li><li class="navelem"><a class="el" href="a02661.html">postgis</a></li><li class="navelem"><a class="el" href="a02664.html">geometry</a></li><li class="navelem"><a class="el" href="a02670.html">transform</a></li><li class="navelem"><a class="el" href="a05650.html">Force2DTest</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>

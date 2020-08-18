@@ -1,5 +1,5 @@
 var a05706 =
 [
-    [ "testAsEncodedPolyline", "a05706.html#a77e364f1e18fbe312ed563af435ddc8f", null ],
-    [ "testGeometry", "a05706.html#abc3f514f005cba49e406658e2d3086eb", null ]
+    [ "testSimplifyVW", "a05706.html#a4b0417b619689d07743ff9d72212c847", null ],
+    [ "testGeom", "a05706.html#a03a5f5da0ccbeed8c1678d4317cf2672", null ]
 ];

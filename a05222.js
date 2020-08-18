@@ -1,5 +1,9 @@
 var a05222 =
 [
-    [ "testBoundingDiagonal", "a05222.html#a5905b320ef165de047ef4ff2e9167268", null ],
-    [ "testPolygon", "a05222.html#a1e3187cbc25299380589200c398b3ffd", null ]
+    [ "testBBOXEqualsFalse", "a05222.html#a65d4445f223ebf303b66d955c2e952a6", null ],
+    [ "testBBOXEqualsTrue", "a05222.html#ad1155a5de7fc0df0da73b9f0404c343e", null ],
+    [ "testGeom1", "a05222.html#aa4a3b1a7e778ece72382f6600fa96b47", null ],
+    [ "testGeom2", "a05222.html#a6b4be369c8f60e973cd5126e69cd33a4", null ],
+    [ "testGeom3", "a05222.html#a800b6bb875a8ff4404ea787c3df125a5", null ],
+    [ "testGeom4", "a05222.html#a4c55e7efe430d6d220fb05524c4bb940", null ]
 ];

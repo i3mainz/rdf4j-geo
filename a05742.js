@@ -1,5 +1,8 @@
 var a05742 =
 [
-    [ "testMMin", "a05742.html#a11f2bb6837c81b000eee4c62ba8ce7f0", null ],
-    [ "testPoint", "a05742.html#af26f700ee129f846cac58735f6dcc380", null ]
+    [ "testMakeLine1", "a05742.html#ae1794702b16fed527256a87c40858865", null ],
+    [ "testLine", "a05742.html#a297965df8c894198eea7203fde37542b", null ],
+    [ "testPoint1", "a05742.html#ab20d196cb6e34afc2e9cff8074e43bfd", null ],
+    [ "testPoint2", "a05742.html#aa0c0c6f5dda7a397fc50f4c22a2b180f", null ],
+    [ "testPointM", "a05742.html#a53dc8585c2a440c472be9609c86b0601", null ]
 ];

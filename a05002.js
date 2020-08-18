@@ -1,10 +1,9 @@
 var a05002 =
 [
-    [ "WKBTextSRS", "a05006.html", "a05006" ],
     [ "read", "a05002.html#a793358fbd6ef538a24eabab1bd50ef01", null ],
     [ "toString", "a05002.html#ad146fa8579a5f8a876c4688cc5a68520", null ],
     [ "unparse", "a05002.html#ae918a517e1ebcc44beeee2c55008d248", null ],
-    [ "INSTANCE", "a05002.html#a3e60086252e5262f1238a2d9cbd491d9", null ],
-    [ "LiteralIRI", "a05002.html#ae02c2e86ac0dea8538c7b43e9e82421a", null ],
+    [ "INSTANCE", "a05002.html#aa9592f3e3d3c425b71232c98120959c7", null ],
+    [ "KML_PREFIX", "a05002.html#ad23c5afe46f654a7d409a229f54a9b2f", null ],
     [ "URI", "a05002.html#addbf30e6c0ad68fa34277d59a2c6eb5e", null ]
 ];

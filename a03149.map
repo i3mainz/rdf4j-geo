@@ -1,13 +1,11 @@
-<map id="GeometricRelationDoubleFunction" name="GeometricRelationDoubleFunction">
-<area shape="rect" id="node3" href="$a02802.html" title="Returns the distance between the two bounding boxes of geometry 1 and geometry 2. ..." alt="" coords="417,5,528,32"/>
-<area shape="rect" id="node4" href="$a03322.html" title="AreaSimilarity" alt="" coords="421,56,524,83"/>
-<area shape="rect" id="node5" href="$a03326.html" title="Calculates the euclidean distance between the centroids of two given geometries. " alt="" coords="411,107,534,133"/>
-<area shape="rect" id="node6" href="$a03338.html" title="Difference3D" alt="" coords="423,157,522,184"/>
-<area shape="rect" id="node7" href="$a03342.html" title="Distance3D" alt="" coords="427,208,518,235"/>
-<area shape="rect" id="node8" href="$a03350.html" title="DistanceSphere" alt="" coords="415,259,530,285"/>
-<area shape="rect" id="node9" href="$a03382.html" title="HausdorffDistance" alt="" coords="407,309,538,336"/>
-<area shape="rect" id="node10" href="$a03390.html" title="IntersectionPercentage" alt="" coords="395,360,551,387"/>
-<area shape="rect" id="node11" href="$a03402.html" title="ManhattanDistance" alt="" coords="405,411,540,437"/>
-<area shape="rect" id="node12" href="$a03406.html" title="MaxDistance" alt="" coords="423,461,522,488"/>
-<area shape="rect" id="node13" href="$a03410.html" title="MaxDistance3D" alt="" coords="415,512,531,539"/>
+<map id="GeometricModifierIntegerFunction" name="GeometricModifierIntegerFunction">
+<area shape="rect" id="node3" href="$a02914.html" title="Returns the nth geometry of a given geometry collection. " alt="" coords="366,5,455,32"/>
+<area shape="rect" id="node4" href="$a03082.html" title="Returns the nth point of the given geometry if it exists. " alt="" coords="379,56,442,83"/>
+<area shape="rect" id="node5" href="$a03258.html" title="SetSRID" alt="" coords="373,107,448,133"/>
+<area shape="rect" id="node6" href="$a03522.html" title="CollectionExtract" alt="" coords="349,157,472,184"/>
+<area shape="rect" id="node7" href="$a03602.html" title="Reduces the precision of a given geometry by a given factor. " alt="" coords="348,208,473,235"/>
+<area shape="rect" id="node8" href="$a03726.html" title="Removes a point at a given index position from the given geometry. " alt="" coords="360,259,461,285"/>
+<area shape="rect" id="node9" href="$a03938.html" title="Generates a given number of points in a convex hull of a geometry. " alt="" coords="355,309,467,336"/>
+<area shape="rect" id="node10" href="$a03994.html" title="Returns the nth interior ring of a polygon. " alt="" coords="361,360,460,387"/>
+<area shape="rect" id="node11" href="$a04062.html" title="Removes an interior ring from a given polygon. " alt="" coords="341,411,480,437"/>
 </map>

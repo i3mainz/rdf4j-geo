@@ -1,8 +1,6 @@
 var a05494 =
 [
-    [ "testHausdorffDistance", "a05494.html#a865da90312a6602e13430f1b3218608b", null ],
-    [ "testGeom1", "a05494.html#aa4a3b1a7e778ece72382f6600fa96b47", null ],
-    [ "testGeom2", "a05494.html#a6b4be369c8f60e973cd5126e69cd33a4", null ],
-    [ "testGeom3", "a05494.html#a800b6bb875a8ff4404ea787c3df125a5", null ],
-    [ "testGeom4", "a05494.html#a4c55e7efe430d6d220fb05524c4bb940", null ]
+    [ "testClosestPoint", "a05494.html#af30fa8d36bc2cb8bd652397169d9708d", null ],
+    [ "testLineString", "a05494.html#a33797029fadbcba01b4a4fafec88cf41", null ],
+    [ "testPoint", "a05494.html#af26f700ee129f846cac58735f6dcc380", null ]
 ];

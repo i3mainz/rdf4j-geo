@@ -1,7 +1,5 @@
 var a05782 =
 [
-    [ "testMakePoint1", "a05782.html#a2f24e9ad47589d2191a0512d20a8a9ba", null ],
-    [ "testMakePointXYZ", "a05782.html#a3ba406df071dd5b2e9404776e414c4cd", null ],
-    [ "testPoint1", "a05782.html#ab20d196cb6e34afc2e9cff8074e43bfd", null ],
-    [ "testPointM", "a05782.html#a53dc8585c2a440c472be9609c86b0601", null ]
+    [ "testYMax", "a05782.html#a98991d9326941ea2d984df31280c0db4", null ],
+    [ "testPoint", "a05782.html#af26f700ee129f846cac58735f6dcc380", null ]
 ];

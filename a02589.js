@@ -1,9 +1,9 @@
 var a02589 =
 [
-    [ "LineMerge", "a03732.html", "a03732" ],
-    [ "LinesCutAtNodes", "a03736.html", "a03736" ],
-    [ "OffsetCurve", "a03740.html", "a03740" ],
-    [ "Segmentize", "a03744.html", "a03744" ],
-    [ "SharedPaths", "a03748.html", "a03748" ],
-    [ "SubdivideLines", "a03752.html", "a03752" ]
+    [ "Box2DFromGeoHash", "a02790.html", null ],
+    [ "Expand", "a02794.html", "a02794" ],
+    [ "MakeBox2D", "a02798.html", "a02798" ],
+    [ "MakeBox3D", "a02802.html", "a02802" ],
+    [ "MakeEnvelope", "a02806.html", "a02806" ],
+    [ "OctogonalEnvelope", "a02810.html", "a02810" ]
 ];

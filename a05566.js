@@ -1,5 +1,6 @@
 var a05566 =
 [
-    [ "testSridHasFlippedAxis", "a05566.html#a94f12f6d4a3fe8f25be5144338eb0198", null ],
-    [ "testPoint", "a05566.html#af26f700ee129f846cac58735f6dcc380", null ]
+    [ "testRelate", "a05566.html#a8592662d9e01b3d8f2f9a86b6bb48372", null ],
+    [ "isocelesTriangle", "a05566.html#aa04dfbec745e2622b9f7646f8572e501", null ],
+    [ "notIsocelesTriangle", "a05566.html#a055d99fb63bcee37763ffcf4da9e0521", null ]
 ];

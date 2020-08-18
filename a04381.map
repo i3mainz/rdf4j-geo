@@ -1,5 +1,9 @@
-<map id="RasterAttributeIntIntGeomFunction" name="RasterAttributeIntIntGeomFunction">
-<area shape="rect" id="node3" href="$a04250.html" title="PixelAsPoint" alt="" coords="5,169,103,196"/>
-<area shape="rect" id="node4" href="$a04258.html" title="RasterToWorldCoord" alt="" coords="127,169,272,196"/>
-<area shape="rect" id="node5" href="$a04334.html" title="WorldToRasterCoord" alt="" coords="296,169,441,196"/>
+<map id="RasterAlgebraConstFunction" name="RasterAlgebraConstFunction">
+<area shape="rect" id="node3" href="$a04102.html" title="AddConst" alt="" coords="5,155,85,181"/>
+<area shape="rect" id="node4" href="$a04110.html" title="AndConst" alt="" coords="109,155,189,181"/>
+<area shape="rect" id="node5" href="$a04118.html" title="DivConst" alt="" coords="213,155,291,181"/>
+<area shape="rect" id="node6" href="$a04170.html" title="MultConst" alt="" coords="315,155,397,181"/>
+<area shape="rect" id="node7" href="$a04182.html" title="OrConst" alt="" coords="422,155,493,181"/>
+<area shape="rect" id="node8" href="$a04190.html" title="SubtractConst" alt="" coords="517,155,624,181"/>
+<area shape="rect" id="node9" href="$a04198.html" title="XorConst" alt="" coords="648,155,725,181"/>
 </map>

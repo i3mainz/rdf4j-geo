@@ -1,6 +1,10 @@
 var a02786 =
 [
-    [ "evaluate", "a02786.html#a43b4c73244bc6722ce551c1033cf1115", null ],
-    [ "getURI", "a02786.html#ad9fb16b36dd4ccc533d4f05ff94646e3", null ],
-    [ "operation", "a02786.html#a7719320b83dd8de753a7e13fc75c9c55", null ]
+    [ "MinZ", "a02786.html#a8892afd02184445190ab600bad74bde2", null ],
+    [ "MinZ", "a02786.html#a64006e08bfd8d4c239091f3e6affea84", null ],
+    [ "clone", "a02786.html#ab8fb0ceb37fa95be82c4ef612118bccd", null ],
+    [ "equals", "a02786.html#a8e18a3a952a9e38a9a4191004a30c938", null ],
+    [ "hashCode", "a02786.html#a077e18fe97323c7194e2665ffc766399", null ],
+    [ "visit", "a02786.html#ace7c41d3761122fda287033559696cdd", null ],
+    [ "serialVersionUID", "a02786.html#a3238d314ecdee14d2966760945d00c3b", null ]
 ];

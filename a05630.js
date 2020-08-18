@@ -1,7 +1,7 @@
 var a05630 =
 [
-    [ "testPoints", "a05630.html#a0c4e639ac6891f00e71463cfe4504aec", null ],
-    [ "testPoints3D", "a05630.html#a757f54bd6bd9ad86ecd364c346e80d73", null ],
-    [ "testGeometry", "a05630.html#abc3f514f005cba49e406658e2d3086eb", null ],
-    [ "testGeometryZ", "a05630.html#a7a113ffd7d8ff98f71b4361ffff21edc", null ]
+    [ "testSRIDToWKT", "a05630.html#a8c6fef7babecb35acd09d8764ddcb858", null ],
+    [ "epsg", "a05630.html#ae984b1b4178b56b80cdb7a80eac64541", null ],
+    [ "epsg4326wkt", "a05630.html#ab74c72298a14045de8026d4c37013974", null ],
+    [ "srid", "a05630.html#a5ffebf384504d11b17aa9c75f4b92024", null ]
 ];

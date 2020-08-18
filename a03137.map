@@ -1,22 +1,22 @@
-<map id="GeometricRelationBinaryFunction" name="GeometricRelationBinaryFunction">
-<area shape="rect" id="node3" href="$a02790.html" title="Returns true if the bounding box of geometry 1 is above the boundingbox of geometry 2..." alt="" coords="417,5,513,32"/>
-<area shape="rect" id="node4" href="$a02794.html" title="Returns true if the bounding box of geometry 1 is below the boundingbox of geometry 2..." alt="" coords="417,56,512,83"/>
-<area shape="rect" id="node5" href="$a02798.html" title="Returns true if the bounding box of geometry 1 contains the boundingbox of geometry 2..." alt="" coords="409,107,520,133"/>
-<area shape="rect" id="node6" href="$a02806.html" title="Returns true if the boundingbox of the first geometry equals the boundingbox of the second geometry..." alt="" coords="415,157,514,184"/>
-<area shape="rect" id="node7" href="$a02810.html" title="BBOXFPIntersects" alt="" coords="397,208,532,235"/>
-<area shape="rect" id="node8" href="$a02814.html" title="BBOXIntersects" alt="" coords="406,259,523,285"/>
-<area shape="rect" id="node9" href="$a02818.html" title="BBOXIsContainedBy" alt="" coords="392,309,537,336"/>
-<area shape="rect" id="node10" href="$a02822.html" title="BBOXLeftOf" alt="" coords="417,360,512,387"/>
-<area shape="rect" id="node11" href="$a02826.html" title="BBOXOverlapsAbove" alt="" coords="391,411,539,437"/>
-<area shape="rect" id="node12" href="$a02830.html" title="BBOXOverlapsBelow" alt="" coords="391,461,538,488"/>
-<area shape="rect" id="node13" href="$a02834.html" title="BBOXOverlapsLeft" alt="" coords="398,512,531,539"/>
-<area shape="rect" id="node14" href="$a02838.html" title="BBOXOverlapsRight" alt="" coords="393,563,536,589"/>
-<area shape="rect" id="node15" href="$a02842.html" title="BBOXRightOf" alt="" coords="413,613,517,640"/>
-<area shape="rect" id="node16" href="$a03354.html" title="EqualsNorm" alt="" coords="417,664,512,691"/>
-<area shape="rect" id="node17" href="$a03358.html" title="Returns true if the two given geometries have the same geocoordinate system. " alt="" coords="423,715,506,741"/>
-<area shape="rect" id="node18" href="$a03362.html" title="Returns true if two geometries are topologically equal. " alt="" coords="419,765,510,792"/>
-<area shape="rect" id="node19" href="$a03366.html" title="EqualType" alt="" coords="423,816,507,843"/>
-<area shape="rect" id="node20" href="$a03418.html" title="OrderingEquals" alt="" coords="409,867,520,893"/>
-<area shape="rect" id="node21" href="$a03838.html" title="Checks if a given point is included in a given ring. " alt="" coords="414,917,515,944"/>
-<area shape="rect" id="node22" href="$a03842.html" title="Returns true if a given point is found on a given LineString. " alt="" coords="413,968,517,995"/>
+<map id="GeometricModifierDoubleFunction" name="GeometricModifierDoubleFunction">
+<area shape="rect" id="node3" href="$a02794.html" title="Expand" alt="" coords="441,5,507,32"/>
+<area shape="rect" id="node4" href="$a03010.html" title="LocateAlong" alt="" coords="427,56,521,83"/>
+<area shape="rect" id="node5" href="$a03234.html" title="AddZ" alt="" coords="447,107,501,133"/>
+<area shape="rect" id="node6" href="$a03238.html" title="EnsureClosed" alt="" coords="422,157,526,184"/>
+<area shape="rect" id="node7" href="$a03242.html" title="EnsureClosedRings" alt="" coords="405,208,543,235"/>
+<area shape="rect" id="node8" href="$a03246.html" title="RemoveGeometry" alt="" coords="410,259,538,285"/>
+<area shape="rect" id="node9" href="$a03250.html" title="RemoveRepeatedPoints" alt="" coords="392,309,556,336"/>
+<area shape="rect" id="node10" href="$a03530.html" title="DelaunayTriangles" alt="" coords="409,360,539,387"/>
+<area shape="rect" id="node11" href="$a03534.html" title="Densify" alt="" coords="441,411,507,437"/>
+<area shape="rect" id="node12" href="$a03582.html" title="MultiplyZ" alt="" coords="437,461,511,488"/>
+<area shape="rect" id="node13" href="$a03614.html" title="Rotate" alt="" coords="443,512,505,539"/>
+<area shape="rect" id="node14" href="$a03626.html" title="Simplify" alt="" coords="439,563,509,589"/>
+<area shape="rect" id="node15" href="$a03634.html" title="SimplifyVW" alt="" coords="429,613,519,640"/>
+<area shape="rect" id="node16" href="$a03662.html" title="VoronoiPolygons" alt="" coords="414,664,534,691"/>
+<area shape="rect" id="node17" href="$a03674.html" title="LineInterpolatePoint" alt="" coords="405,715,543,741"/>
+<area shape="rect" id="node18" href="$a03718.html" title="Adds a measurement coordinate M which is extrapolated over the length of the given geometry..." alt="" coords="427,765,521,792"/>
+<area shape="rect" id="node19" href="$a03770.html" title="Calculates an offset curve from a given geometry and a given distance. " alt="" coords="427,816,521,843"/>
+<area shape="rect" id="node20" href="$a03774.html" title="Segmentizes a LineString into segments given a segment length. " alt="" coords="429,867,519,893"/>
+<area shape="rect" id="node21" href="$a03782.html" title="Subdivides lines of a given LineString. " alt="" coords="419,917,529,944"/>
+<area shape="rect" id="node22" href="$a04086.html" title="Reverses the coordinates of a given ring of a polygon. " alt="" coords="425,968,523,995"/>
 </map>

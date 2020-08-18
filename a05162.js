@@ -1,11 +1,18 @@
 var a05162 =
 [
-    [ "LengthToPoint", "a05162.html#a240c29c1439f065c4a8ba368d3939d77", null ],
-    [ "computeLength", "a05162.html#a38bb2c05753ecb2766c7165fe435b8f4", null ],
-    [ "getLength", "a05162.html#ad38c5c76d09d90c6f92e043aca622ee9", null ],
-    [ "length", "a05162.html#a6a53c15d31eb67b1bbbccd1a406d1996", null ],
-    [ "lengthAlongSegment", "a05162.html#a111d4c1b1f75a9ce7d3d064d3d1eb2e5", null ],
-    [ "updateLength", "a05162.html#a9d5b2181752a05941b27adcec1703c38", null ],
-    [ "locationLength", "a05162.html#ace4b03aa8fde8dc676bc91c1e7cf3b77", null ],
-    [ "minDistanceToPoint", "a05162.html#a8c1ee7f7f7146ea833c6b544dcc60243", null ]
+    [ "zigZagDecode", "a05162.html#a39d960ba7b421538218960be0b75dbdb", null ],
+    [ "zigZagEncode", "a05162.html#ac56ffa9468f6d51a81dfc6a16c7553e7", null ],
+    [ "EMPTY_GEOMETRY", "a05162.html#acfd4b309722d80cbae834f273b479450", null ],
+    [ "EXTENDED_DIMENSIONS", "a05162.html#a0a64265ce21562ec2811dd05db08a9dd", null ],
+    [ "GEOMETRYCOLLECTION_TYPE", "a05162.html#ad69af768670b09117152621e9765d4ca", null ],
+    [ "LINESTRING_TYPE", "a05162.html#ae612cee125e86b43a8a0895733e73471", null ],
+    [ "MAX_COORD_PRECISION", "a05162.html#a2dd11c22d698708a6e11580242c97e89", null ],
+    [ "MAX_EXTENDED_PRECISION", "a05162.html#a5b750380e571ae88f99a796f9d54e49f", null ],
+    [ "MIN_COORD_PRECISION", "a05162.html#a5bee20a7d59eea71b635f7f136c48e91", null ],
+    [ "MIN_EXTENDED_PRECISION", "a05162.html#ad70b66875f973adc5547402ec3ab512d", null ],
+    [ "MULTILINESTRING_TYPE", "a05162.html#abc6a100cfe59d0f10d5ff0b83dd28e40", null ],
+    [ "MULTIPOINT_TYPE", "a05162.html#ab21548c889cf575c0452ce54b0bb1564", null ],
+    [ "MULTIPOLYGON_TYPE", "a05162.html#af8a8622de581648619916bb8eb6cea2d", null ],
+    [ "POINT_TYPE", "a05162.html#a92e0b11f85494a2b6953846ee6b4f88d", null ],
+    [ "POLYGON_TYPE", "a05162.html#a4e033b07cdccae3d93c0fe865a9bc513", null ]
 ];

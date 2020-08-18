@@ -1,19 +1,14 @@
 var a05130 =
 [
-    [ "ExtendedPrecisionWriter", "a05138.html", "a05138" ],
-    [ "PrecisionWriter", "a05134.html", "a05134" ],
-    [ "TWKBWriter", "a05130.html#a2990399609cc699aee5a40156feee03e", null ],
-    [ "TWKBWriter", "a05130.html#abf98331626990ede53fbe5a1827b91b9", null ],
-    [ "getType", "a05130.html#af6ac6c1ca84de00107ff33acf010fb56", null ],
-    [ "getTypeAndPrecisionByte", "a05130.html#a2513e591488b85a0a4ffae1f192e48d1", null ],
-    [ "write", "a05130.html#a226242e33fa2ddb80db6f65fea7e88d5", null ],
-    [ "write", "a05130.html#a1ad170fc53b3438a213305dcf054c951", null ],
-    [ "writeGeometryCollection", "a05130.html#a4c1cd6a57426c5886efe0e46fb781c8a", null ],
-    [ "writeLineString", "a05130.html#a9e135bc7dac9b9305e7183a27ab0e55d", null ],
-    [ "writeMultiLineString", "a05130.html#a409eb1e30fb4f2a447147b6644ed96df", null ],
-    [ "writeMultiPoint", "a05130.html#ae1a496e7018e949f3af9aa1ec261a4a3", null ],
-    [ "writeMultiPolygon", "a05130.html#af88d38f76bbfee7f7c150d79b818e156", null ],
-    [ "writePoint", "a05130.html#a1d857a7f3e74e21f8fb4eb93e713ac0e", null ],
-    [ "writePolygon", "a05130.html#a97d9c7da786fbc6decfc325d9b2058fe", null ],
-    [ "maxPrecision", "a05130.html#a3790bdd1fc8284d93d59193536955934", null ]
+    [ "WKBRasterReader", "a05130.html#ae793783ce299284ee201fd7c8313c1d6", null ],
+    [ "createGrayScaleColorModel", "a05130.html#afcfcdba92bf5faa9dfc8a1c7a652c7a9", null ],
+    [ "getGridToCRS", "a05130.html#aef748f2853b5fa1a44ed7c589b2bb197", null ],
+    [ "getSRID", "a05130.html#ade744464aeafe5c61497905c4bac4d95", null ],
+    [ "read", "a05130.html#a14456bc52e7f626048f58646a17a9039", null ],
+    [ "read", "a05130.html#ab8d0b6608f158d1234999e80670eba0e", null ],
+    [ "readCoverage", "a05130.html#aa9fe8abf761e9a17b671b3f8ca04ef37", null ],
+    [ "readCoverage", "a05130.html#a167d89e301db4c86565d6cbf8998b5fa", null ],
+    [ "reset", "a05130.html#ad20897c5c8bd47f5d4005989bead0e55", null ],
+    [ "gridToCRS", "a05130.html#a7074295224e2ade372af7fc4571cdc28", null ],
+    [ "srid", "a05130.html#a7e5be5f62324d24835447fc98661e30b", null ]
 ];

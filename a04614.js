@@ -1,5 +1,6 @@
 var a04614 =
 [
     [ "evaluate", "a04614.html#a43b4c73244bc6722ce551c1033cf1115", null ],
-    [ "modify", "a04614.html#a086eb967bb336ac8807372dfdc599b59", null ]
+    [ "getURI", "a04614.html#ad9fb16b36dd4ccc533d4f05ff94646e3", null ],
+    [ "modify", "a04614.html#ad9c0f58bcacb60ddaf0bd8a664ecaa76", null ]
 ];

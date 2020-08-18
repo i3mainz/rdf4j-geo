@@ -1,5 +1,9 @@
 var a05410 =
 [
-    [ "testAsGeoURI", "a05410.html#aae403d68ccc2ecfb409ca338b5ba0101", null ],
-    [ "testGeometry", "a05410.html#abc3f514f005cba49e406658e2d3086eb", null ]
+    [ "testEnsureClosed", "a05410.html#ace1b0f448a93ab083e49e59b851b8094", null ],
+    [ "testEnsureClosed2", "a05410.html#a7a93140658cbcf5aea17d9f930cd5144", null ],
+    [ "closed", "a05410.html#ad8efa97b8aa775164dc4836b505fc315", null ],
+    [ "duplicateRings", "a05410.html#a92f3ef00fc079a76b7f943d9ed6cec77", null ],
+    [ "nonClosed", "a05410.html#aff993a2133bc6c6afe1012e13b5c028d", null ],
+    [ "ring", "a05410.html#a3e4a839eee2eb5791f90656e82eec721", null ]
 ];

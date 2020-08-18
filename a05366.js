@@ -1,6 +1,9 @@
 var a05366 =
 [
-    [ "testAddGeometry", "a05366.html#a4ebf1443292e242753148cb8748d9169", null ],
-    [ "lineString", "a05366.html#a76e109dc83d6f4d16fcd2fa3e73054f6", null ],
-    [ "point", "a05366.html#a081811ff1c2bedd0a20703599f90114f", null ]
+    [ "test2DGeom", "a05366.html#a326426f92a343411bc6035a5e9a4192f", null ],
+    [ "test3DGeom", "a05366.html#aa6b2641c27685af72bd5946823648455", null ],
+    [ "testMGeom", "a05366.html#a17b047bacf8d47cfe9eb1b95260abd70", null ],
+    [ "geom2D", "a05366.html#a717e94cd8879a90c3d3fce5d3ae64eb6", null ],
+    [ "geom3D", "a05366.html#a972164b62d3d78e8fb03a17b761742a2", null ],
+    [ "geomM", "a05366.html#aa8cacb7883ca9f8160920fa287158fef", null ]
 ];

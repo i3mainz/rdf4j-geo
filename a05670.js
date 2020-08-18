@@ -1,9 +1,7 @@
 var a05670 =
 [
-    [ "testLineString2D", "a05670.html#a100e1041d9eed0108cb20adfb3ccb714", null ],
-    [ "testLineString3D", "a05670.html#aed8078596e87405b402dec09f15eb681", null ],
-    [ "testPoint", "a05670.html#a67242842aad66b0a00820a5d4d7ea731", null ],
-    [ "LineString2D", "a05670.html#a4a6127d0b7f1eecce2d32442325f7735", null ],
-    [ "LineString3D", "a05670.html#a7f1b41b47d9de827d79c109c50a189f5", null ],
-    [ "point", "a05670.html#a081811ff1c2bedd0a20703599f90114f", null ]
+    [ "testMulti2D", "a05670.html#a132a5ee02a51082794ac01f2787422c1", null ],
+    [ "testMulti3D", "a05670.html#afee46817e97b41a801cd7a7acf30e801", null ],
+    [ "testGeometry", "a05670.html#abc3f514f005cba49e406658e2d3086eb", null ],
+    [ "testGeometryZ", "a05670.html#a7a113ffd7d8ff98f71b4361ffff21edc", null ]
 ];

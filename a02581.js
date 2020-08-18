@@ -1,14 +1,17 @@
 var a02581 =
 [
-    [ "EPSGToSRID", "a03448.html", "a03448" ],
-    [ "SridGetAxis1Name", "a03452.html", "a03452" ],
-    [ "SridGetAxis1Orientation", "a03456.html", "a03456" ],
-    [ "SridGetAxis2Name", "a03460.html", "a03460" ],
-    [ "SridGetAxis2Orientation", "a03464.html", "a03464" ],
-    [ "SridGetDatum", "a03468.html", "a03468" ],
-    [ "SridHasFlippedAxis", "a03472.html", "a03472" ],
-    [ "SridIsGeographic", "a03476.html", "a03476" ],
-    [ "SridIsProjected", "a03480.html", "a03480" ],
-    [ "SridIsVertical", "a03484.html", "a03484" ],
-    [ "SRIDToEPSG", "a03488.html", "a03488" ]
+    [ "AggCentroid", "a02730.html", "a02730" ],
+    [ "AvgX", "a02734.html", "a02734" ],
+    [ "AvgY", "a02738.html", "a02738" ],
+    [ "AvgZ", "a02742.html", "a02742" ],
+    [ "BoundingBox", "a02746.html", "a02746" ],
+    [ "ConcatenateLines", "a02754.html", "a02754" ],
+    [ "ConvexHull", "a02758.html", null ],
+    [ "GeomUnion", "a02762.html", "a02762" ],
+    [ "MaxX", "a02766.html", "a02766" ],
+    [ "MaxY", "a02770.html", "a02770" ],
+    [ "MaxZ", "a02774.html", "a02774" ],
+    [ "MinX", "a02778.html", "a02778" ],
+    [ "MinY", "a02782.html", "a02782" ],
+    [ "MinZ", "a02786.html", "a02786" ]
 ];

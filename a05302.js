@@ -1,6 +1,4 @@
 var a05302 =
 [
-    [ "testMinimumBoundingCircle", "a05302.html#ae83e48bad70898d10790438246feadad", null ],
-    [ "result", "a05302.html#aab356d6554a7301750f11ec7a85ac47d", null ],
-    [ "testPolygon", "a05302.html#a1e3187cbc25299380589200c398b3ffd", null ]
+    [ "testIsNodingValuedTrue", "a05302.html#af36f9410a0c4d62c262b4398b5723223", null ]
 ];

@@ -1,4 +1,6 @@
 var a02683 =
 [
-    [ "FeatureRasterizerException", "a02683.html#ab471c3e3e86c898f11da2053b014dd60", null ]
+    [ "AddRingTest", "a05906.html", "a05906" ],
+    [ "RemoveRingTest", "a05910.html", "a05910" ],
+    [ "SetRingTest", "a05914.html", "a05914" ]
 ];

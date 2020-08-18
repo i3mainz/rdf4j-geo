@@ -1,5 +1,7 @@
 var a05770 =
 [
-    [ "testY", "a05770.html#aa09d6b9dc5ef19f88e38f2d543d9715f", null ],
-    [ "testPoint", "a05770.html#af26f700ee129f846cac58735f6dcc380", null ]
+    [ "testAzimuth1", "a05770.html#afb57967d41a75bfa55c7f1443b245d14", null ],
+    [ "testAzimuth2", "a05770.html#a5d42e5f7045b0a306fc1d39539491851", null ],
+    [ "testPoint1", "a05770.html#ab20d196cb6e34afc2e9cff8074e43bfd", null ],
+    [ "testPoint2", "a05770.html#aa0c0c6f5dda7a397fc50f4c22a2b180f", null ]
 ];

@@ -1,7 +1,7 @@
 var a06010 =
 [
     [ "getInstance", "a06010.html#af8afdd14b38b523d100805364a48ed63", null ],
-    [ "testShearX", "a06010.html#ae8186adb2589cb32e7783d339671181e", null ],
+    [ "testBand", "a06010.html#a2faee802b1b317c6ab8aef2ea846e168", null ],
     [ "covJSONString1", "a06010.html#a993e2f127f3ec8f256e9799d77507223", null ],
     [ "hexwkbString1", "a06010.html#a55fb5b5d665417265da09403128e396e", null ],
     [ "minwkbString", "a06010.html#aa5e2b5a6005895fc20b9f35523569430", null ],

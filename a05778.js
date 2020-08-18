@@ -1,4 +1,5 @@
 var a05778 =
 [
-    [ "testGeneratePoints", "a05778.html#a63588109fc080478770a7d3cc31b245d", null ]
+    [ "testXMax", "a05778.html#af45d6c06ced12c7882c5eab73bcc9ec8", null ],
+    [ "testPoint", "a05778.html#af26f700ee129f846cac58735f6dcc380", null ]
 ];

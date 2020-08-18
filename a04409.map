@@ -1,8 +1,6 @@
-<map id="RasterModifierFunction" name="RasterModifierFunction">
-<area shape="rect" id="node3" href="$a04466.html" title="AddBand" alt="" coords="5,155,80,181"/>
-<area shape="rect" id="node4" href="$a04478.html" title="SetRotation" alt="" coords="104,155,195,181"/>
-<area shape="rect" id="node5" href="$a04482.html" title="SetScale" alt="" coords="219,155,293,181"/>
-<area shape="rect" id="node6" href="$a04486.html" title="SetSkew" alt="" coords="317,155,392,181"/>
-<area shape="rect" id="node7" href="$a04490.html" title="SetUpperLeft" alt="" coords="416,155,515,181"/>
-<area shape="rect" id="node8" href="$a04578.html" title="Resample" alt="" coords="539,155,621,181"/>
+<map id="RasterAttributeIntIntDoubleFunction" name="RasterAttributeIntIntDoubleFunction">
+<area shape="rect" id="node3" href="$a04298.html" title="RasterToWorldCoordX" alt="" coords="5,169,160,196"/>
+<area shape="rect" id="node4" href="$a04302.html" title="RasterToWorldCoordY" alt="" coords="184,169,339,196"/>
+<area shape="rect" id="node5" href="$a04374.html" title="WorldToRasterCoordX" alt="" coords="363,169,517,196"/>
+<area shape="rect" id="node6" href="$a04378.html" title="WorldToRasterCoordY" alt="" coords="541,169,696,196"/>
 </map>

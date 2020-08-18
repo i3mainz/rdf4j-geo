@@ -1,5 +1,7 @@
 var a05274 =
 [
-    [ "testIsRectangleFalse", "a05274.html#a5f21b4a097f15af24dcc034f575e4e4a", null ],
-    [ "testIsRectangleTrue", "a05274.html#acebf1f487a11cc34db915552f23c6383", null ]
+    [ "testHasHorizontalCRSFalse", "a05274.html#a9d25864362180719a756bf187c003b28", null ],
+    [ "testHasHorizontalCRSTrue", "a05274.html#a9f2bde364661ddf6af32fec9ad9085b1", null ],
+    [ "testGeometry", "a05274.html#abc3f514f005cba49e406658e2d3086eb", null ],
+    [ "testGeometry2", "a05274.html#af1173652e671b8f9051f8630b98c73fb", null ]
 ];

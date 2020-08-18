@@ -1,7 +1,5 @@
 var a05606 =
 [
-    [ "testForce3DM", "a05606.html#a809df5824b4a08713e4ce726cb369a8d", null ],
-    [ "testForce3DM2", "a05606.html#a1efd448688434012347e3bc8972acb49", null ],
-    [ "testPolygon", "a05606.html#a1e3187cbc25299380589200c398b3ffd", null ],
-    [ "testPolygon2", "a05606.html#a882729aec95621b4ad261714738ae3fd", null ]
+    [ "testSridGetDatum", "a05606.html#a9d3a137e39e84c0018de3b734b787554", null ],
+    [ "testPoint", "a05606.html#af26f700ee129f846cac58735f6dcc380", null ]
 ];

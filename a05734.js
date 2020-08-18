@@ -1,5 +1,9 @@
 var a05734 =
 [
-    [ "testYMax", "a05734.html#a98991d9326941ea2d984df31280c0db4", null ],
-    [ "testPoint", "a05734.html#af26f700ee129f846cac58735f6dcc380", null ]
+    [ "testNoSelfIntersections", "a05734.html#a08dd11e1d44a910007de229eada7aa6d", null ],
+    [ "testSelfIntersections", "a05734.html#a3d2c64bb3b45c45751b144babb6906da", null ],
+    [ "intersectResult", "a05734.html#ab431ece386e282254dd754494c7f6cd0", null ],
+    [ "intersectResult2", "a05734.html#a94c72a35c99c7c55f05a1f50c20f6cfd", null ],
+    [ "testGeom", "a05734.html#a03a5f5da0ccbeed8c1678d4317cf2672", null ],
+    [ "testGeom2", "a05734.html#a6b4be369c8f60e973cd5126e69cd33a4", null ]
 ];

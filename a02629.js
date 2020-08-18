@@ -1,6 +1,7 @@
 var a02629 =
 [
-    [ "TWKBReader", "a05116.html", "a05116" ],
-    [ "TWKBUtils", "a05132.html", "a05132" ],
-    [ "TWKBWriter", "a05136.html", "a05136" ]
+    [ "TopologyExportFunction", "a04638.html", "a04638" ],
+    [ "TopologyModificationFunction", "a04642.html", "a04642" ],
+    [ "TopologyModificationGeometryFunction", "a04646.html", "a04646" ],
+    [ "TopologyStringExportFunction", "a04650.html", "a04650" ]
 ];

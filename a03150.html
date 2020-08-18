@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>rdf4j-postgis: GeometricRelationDoubleFunction Class Reference</title>
+<title>rdf4j-postgis: GeometricModifierIntegerFunction Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -65,32 +65,30 @@ $(document).ready(function(){initNavTree('a03150.html','');});
 <a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="a03147.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">GeometricRelationDoubleFunction Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
+<div class="title">GeometricModifierIntegerFunction Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
 </div><!--header-->
 <div class="contents">
 <div class="dynheader">
-Inheritance diagram for GeometricRelationDoubleFunction:</div>
+Inheritance diagram for GeometricModifierIntegerFunction:</div>
 <div class="dyncontent">
-<div class="center"><img src="a03149.png" border="0" usemap="#GeometricRelationDoubleFunction_inherit__map" alt="Inheritance graph"/></div>
-<map name="GeometricRelationDoubleFunction_inherit__map" id="GeometricRelationDoubleFunction_inherit__map">
-<area shape="rect" id="node3" href="a02802.html" title="Returns the distance between the two bounding boxes of geometry 1 and geometry 2. ..." alt="" coords="417,5,528,32"/>
-<area shape="rect" id="node4" href="a03322.html" title="AreaSimilarity" alt="" coords="421,56,524,83"/>
-<area shape="rect" id="node5" href="a03326.html" title="Calculates the euclidean distance between the centroids of two given geometries. " alt="" coords="411,107,534,133"/>
-<area shape="rect" id="node6" href="a03338.html" title="Difference3D" alt="" coords="423,157,522,184"/>
-<area shape="rect" id="node7" href="a03342.html" title="Distance3D" alt="" coords="427,208,518,235"/>
-<area shape="rect" id="node8" href="a03350.html" title="DistanceSphere" alt="" coords="415,259,530,285"/>
-<area shape="rect" id="node9" href="a03382.html" title="HausdorffDistance" alt="" coords="407,309,538,336"/>
-<area shape="rect" id="node10" href="a03390.html" title="IntersectionPercentage" alt="" coords="395,360,551,387"/>
-<area shape="rect" id="node11" href="a03402.html" title="ManhattanDistance" alt="" coords="405,411,540,437"/>
-<area shape="rect" id="node12" href="a03406.html" title="MaxDistance" alt="" coords="423,461,522,488"/>
-<area shape="rect" id="node13" href="a03410.html" title="MaxDistance3D" alt="" coords="415,512,531,539"/>
+<div class="center"><img src="a03149.png" border="0" usemap="#GeometricModifierIntegerFunction_inherit__map" alt="Inheritance graph"/></div>
+<map name="GeometricModifierIntegerFunction_inherit__map" id="GeometricModifierIntegerFunction_inherit__map">
+<area shape="rect" id="node3" href="a02914.html" title="Returns the nth geometry of a given geometry collection. " alt="" coords="366,5,455,32"/>
+<area shape="rect" id="node4" href="a03082.html" title="Returns the nth point of the given geometry if it exists. " alt="" coords="379,56,442,83"/>
+<area shape="rect" id="node5" href="a03258.html" title="SetSRID" alt="" coords="373,107,448,133"/>
+<area shape="rect" id="node6" href="a03522.html" title="CollectionExtract" alt="" coords="349,157,472,184"/>
+<area shape="rect" id="node7" href="a03602.html" title="Reduces the precision of a given geometry by a given factor. " alt="" coords="348,208,473,235"/>
+<area shape="rect" id="node8" href="a03726.html" title="Removes a point at a given index position from the given geometry. " alt="" coords="360,259,461,285"/>
+<area shape="rect" id="node9" href="a03938.html" title="Generates a given number of points in a convex hull of a geometry. " alt="" coords="355,309,467,336"/>
+<area shape="rect" id="node10" href="a03994.html" title="Returns the nth interior ring of a polygon. " alt="" coords="361,360,460,387"/>
+<area shape="rect" id="node11" href="a04062.html" title="Removes an interior ring from a given polygon. " alt="" coords="341,411,480,437"/>
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <div class="dynheader">
-Collaboration diagram for GeometricRelationDoubleFunction:</div>
+Collaboration diagram for GeometricModifierIntegerFunction:</div>
 <div class="dyncontent">
-<div class="center"><img src="a03148.png" border="0" usemap="#GeometricRelationDoubleFunction_coll__map" alt="Collaboration graph"/></div>
-<map name="GeometricRelationDoubleFunction_coll__map" id="GeometricRelationDoubleFunction_coll__map">
+<div class="center"><img src="a03148.png" border="0" usemap="#GeometricModifierIntegerFunction_coll__map" alt="Collaboration graph"/></div>
+<map name="GeometricModifierIntegerFunction_coll__map" id="GeometricModifierIntegerFunction_coll__map">
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -101,8 +99,8 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
-<tr class="memitem:a97f1a920fa100892e73d4b8036845531"><td class="memItemLeft" align="right" valign="top">abstract double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a03150.html#a97f1a920fa100892e73d4b8036845531">relation</a> (Geometry g1, Geometry g2)</td></tr>
-<tr class="separator:a97f1a920fa100892e73d4b8036845531"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a26c8d71d12c1da7317e44e93b0aec79f"><td class="memItemLeft" align="right" valign="top">abstract Geometry&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a03150.html#a26c8d71d12c1da7317e44e93b0aec79f">relation</a> (Geometry geom, Integer value)</td></tr>
+<tr class="separator:a26c8d71d12c1da7317e44e93b0aec79f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
 <a id="a43b4c73244bc6722ce551c1033cf1115"></a>
@@ -131,15 +129,15 @@ Protected Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="a04878.html#a8796f5aec1965b6c4e88b2ba7c1d2e53">LiteralRegistry.getLiteral()</a>, <a class="el" href="a03150.html#a97f1a920fa100892e73d4b8036845531">GeometricRelationDoubleFunction.relation()</a>, and <a class="el" href="a05010.html#adb6db926db08da5c0c4a8ad8cfb1ff2d">LiteralUtils.transform()</a>.</p>
+<p class="reference">References <a class="el" href="a04914.html#a8796f5aec1965b6c4e88b2ba7c1d2e53">LiteralRegistry.getLiteral()</a>, and <a class="el" href="a03150.html#a26c8d71d12c1da7317e44e93b0aec79f">GeometricModifierIntegerFunction.relation()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="a05450.html#a6be5d939e472b1ba6360e0aed0003e21">AreaSimilarityTest.testAreaSimilarity()</a>, <a class="el" href="a05182.html#a92dec506ee3b1258b55159ac890afd0a">BBOXDistanceTest.testBBOXDistance()</a>, <a class="el" href="a05454.html#a312e87d7afb4dd085ada4f2f2c8d288f">CentroidDistanceTest.testCentroidDistance()</a>, <a class="el" href="a05462.html#a00f0d8d505e98b0a2030febc43784429">DistanceSphereTest.testDistanceSphere()</a>, <a class="el" href="a05462.html#a4e55a7f6b607feb274072e2449231447">DistanceSphereTest.testDistanceSphere2()</a>, <a class="el" href="a05494.html#a865da90312a6602e13430f1b3218608b">HausdorffDistanceTest.testHausdorffDistance()</a>, <a class="el" href="a05502.html#a49e1dab16866e800563f476db34781d5">IntersectionPercentageTest.testIntersectionPercentage()</a>, <a class="el" href="a05502.html#a90a7db3783150309d73dc80df07f4b85">IntersectionPercentageTest.testIntersectionPercentage2()</a>, <a class="el" href="a05514.html#acd5d6c70876299a0278552ba577a7efc">MaxDistance3DTest.testMaxDistance()</a>, and <a class="el" href="a05518.html#acd5d6c70876299a0278552ba577a7efc">MaxDistanceTest.testMaxDistance()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;                                                                                                            {</div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;                <span class="keywordflow">if</span> (args.length != 2) {</div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;                        <span class="keywordflow">throw</span> <span class="keyword">new</span> ValueExprEvaluationException(getURI() + <span class="stringliteral">&quot; requires exactly 2 arguments, got &quot;</span> + args.length);</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;                }</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;        </div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;                LiteralType l=LiteralRegistry.getLiteral(((Literal)args[0]).getDatatype().toString());</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;                LiteralType l2=LiteralRegistry.getLiteral(((Literal)args[1]).getDatatype().toString());</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;                <span class="keywordflow">if</span>(l instanceof VectorLiteral &amp;&amp; l2 instanceof VectorLiteral) {</div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;                        Geometry geom=((VectorLiteral)l).read(args[0].stringValue());</div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;                        Geometry geom2=((VectorLiteral)l2).read(args[1].stringValue());</div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;                        Geometry transformed=LiteralUtils.transform(geom2, geom);</div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;                        <span class="keywordtype">double</span> result = <a class="code" href="a03150.html#a97f1a920fa100892e73d4b8036845531">relation</a>(geom,transformed);</div><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;                        <span class="keywordflow">return</span> valueFactory.createLiteral(result);</div><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;                }</div><div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;                <span class="keywordflow">throw</span> <span class="keyword">new</span> ValueExprEvaluationException(<span class="stringliteral">&quot;Arguments given are not a geometry literal&quot;</span>);</div><div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;</div><div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;        }</div><div class="ttc" id="a03150_html_a97f1a920fa100892e73d4b8036845531"><div class="ttname"><a href="a03150.html#a97f1a920fa100892e73d4b8036845531">org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.geometry.base.GeometricRelationDoubleFunction.relation</a></div><div class="ttdeci">abstract double relation(Geometry g1, Geometry g2)</div></div>
+<p class="reference">Referenced by <a class="el" href="a05634.html#ad65aa26b3876b84d26c4b988083bd940">CollectionExtractTest.testCollectionExtract()</a>, <a class="el" href="a05826.html#a63588109fc080478770a7d3cc31b245d">GeneratePointsTest.testGeneratePoints()</a>, <a class="el" href="a05730.html#a0444ce8df222ae81e1a33426a32d8d7a">PointNTest.testLineString()</a>, <a class="el" href="a05682.html#a486d6504bb92a61902ac29e25b3d31a8">PrecisionReducerTest.testPrecisionReducer()</a>, <a class="el" href="a05418.html#a5e9b64ff404fa9347af445dc61f510b7">RemovePointTest.testRemovePoint()</a>, <a class="el" href="a05418.html#ab04b102dbd8ad6ffb069a768eaf23da4">RemovePointTest.testRemovePointZ()</a>, and <a class="el" href="a05910.html#ad886abc46152c92cd03887b3f71760c7">RemoveRingTest.testRemoveRing()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;                                                                                                            {</div><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;                <span class="keywordflow">if</span> (args.length != 2) {</div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;                        <span class="keywordflow">throw</span> <span class="keyword">new</span> ValueExprEvaluationException(getURI() + <span class="stringliteral">&quot; requires exactly 2 arguments, got &quot;</span> + args.length);</div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;                }               </div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;                </div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;                Integer value=Integer.valueOf(args[1].stringValue());</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;                LiteralType l=LiteralRegistry.getLiteral(((Literal)args[0]).getDatatype().toString());</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;                <span class="keywordflow">if</span>(l instanceof VectorLiteral) {</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;                        Geometry geom=((VectorLiteral)l).read(args[0].stringValue());</div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;                        Geometry result = <a class="code" href="a03150.html#a26c8d71d12c1da7317e44e93b0aec79f">relation</a>(geom,value);</div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;                        <span class="keywordflow">return</span> valueFactory.createLiteral(((VectorLiteral) l).unparse(result),((Literal)args[0]).getDatatype());</div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;                }</div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;                <span class="keywordflow">throw</span> <span class="keyword">new</span> ValueExprEvaluationException(<span class="stringliteral">&quot;Argument given is not a geometry literal&quot;</span>);</div><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;        }</div><div class="ttc" id="a03150_html_a26c8d71d12c1da7317e44e93b0aec79f"><div class="ttname"><a href="a03150.html#a26c8d71d12c1da7317e44e93b0aec79f">org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.geometry.base.GeometricModifierIntegerFunction.relation</a></div><div class="ttdeci">abstract Geometry relation(Geometry geom, Integer value)</div></div>
 </div><!-- fragment -->
 </div>
 </div>
-<a id="a97f1a920fa100892e73d4b8036845531"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a97f1a920fa100892e73d4b8036845531">&#9670;&nbsp;</a></span>relation()</h2>
+<a id="a26c8d71d12c1da7317e44e93b0aec79f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a26c8d71d12c1da7317e44e93b0aec79f">&#9670;&nbsp;</a></span>relation()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -148,16 +146,16 @@ Protected Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">abstract double relation </td>
+          <td class="memname">abstract Geometry relation </td>
           <td>(</td>
           <td class="paramtype">Geometry&#160;</td>
-          <td class="paramname"><em>g1</em>, </td>
+          <td class="paramname"><em>geom</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">Geometry&#160;</td>
-          <td class="paramname"><em>g2</em>&#160;</td>
+          <td class="paramtype">Integer&#160;</td>
+          <td class="paramname"><em>value</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -172,7 +170,7 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="a03150.html#a43b4c73244bc6722ce551c1033cf1115">GeometricRelationDoubleFunction.evaluate()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="a03150.html#a43b4c73244bc6722ce551c1033cf1115">GeometricModifierIntegerFunction.evaluate()</a>.</p>
 
 </div>
 </div>
@@ -182,7 +180,7 @@ Protected Member Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="a02553.html">org</a></li><li class="navelem"><a class="el" href="a02554.html">eclipse</a></li><li class="navelem"><a class="el" href="a02555.html">rdf4j</a></li><li class="navelem"><a class="el" href="a02558.html">query</a></li><li class="navelem"><a class="el" href="a02559.html">algebra</a></li><li class="navelem"><a class="el" href="a02560.html">evaluation</a></li><li class="navelem"><a class="el" href="a02561.html">function</a></li><li class="navelem"><a class="el" href="a02562.html">postgis</a></li><li class="navelem"><a class="el" href="a02569.html">geometry</a></li><li class="navelem"><a class="el" href="a02570.html">base</a></li><li class="navelem"><a class="el" href="a03150.html">GeometricRelationDoubleFunction</a></li>
+    <li class="navelem"><a class="el" href="a02577.html">org</a></li><li class="navelem"><a class="el" href="a02578.html">eclipse</a></li><li class="navelem"><a class="el" href="a02579.html">rdf4j</a></li><li class="navelem"><a class="el" href="a02582.html">query</a></li><li class="navelem"><a class="el" href="a02583.html">algebra</a></li><li class="navelem"><a class="el" href="a02584.html">evaluation</a></li><li class="navelem"><a class="el" href="a02585.html">function</a></li><li class="navelem"><a class="el" href="a02586.html">postgis</a></li><li class="navelem"><a class="el" href="a02593.html">geometry</a></li><li class="navelem"><a class="el" href="a02594.html">base</a></li><li class="navelem"><a class="el" href="a03150.html">GeometricModifierIntegerFunction</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>

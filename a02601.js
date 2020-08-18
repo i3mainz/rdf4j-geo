@@ -1,11 +1,10 @@
 var a02601 =
 [
-    [ "algebra", "a02600.html", "a02600" ],
-    [ "attribute", "a02602.html", "a02602" ],
-    [ "base", "a02603.html", "a02603" ],
-    [ "constructor", "a02604.html", "a02604" ],
-    [ "editor", "a02605.html", "a02605" ],
-    [ "exporter", "a02606.html", "a02606" ],
-    [ "relation", "a02607.html", "a02607" ],
-    [ "transform", "a02608.html", "a02608" ]
+    [ "EndPoint", "a03666.html", "a03666" ],
+    [ "HasSelfIntersections", "a03670.html", "a03670" ],
+    [ "LineInterpolatePoint", "a03674.html", "a03674" ],
+    [ "LineLength3D", "a03678.html", "a03678" ],
+    [ "LineSelfIntersectionPoint", "a03682.html", "a03682" ],
+    [ "SelfIntersections", "a03686.html", "a03686" ],
+    [ "StartPoint", "a03690.html", "a03690" ]
 ];

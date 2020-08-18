@@ -1,6 +1,5 @@
 var a05450 =
 [
-    [ "testAreaSimilarity", "a05450.html#a6be5d939e472b1ba6360e0aed0003e21", null ],
-    [ "isocelesTriangle", "a05450.html#aa04dfbec745e2622b9f7646f8572e501", null ],
-    [ "notIsocelesTriangle", "a05450.html#a055d99fb63bcee37763ffcf4da9e0521", null ]
+    [ "testAsEncodedPolyline", "a05450.html#a77e364f1e18fbe312ed563af435ddc8f", null ],
+    [ "testGeometry", "a05450.html#abc3f514f005cba49e406658e2d3086eb", null ]
 ];

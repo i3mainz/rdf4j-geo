@@ -1,5 +1,7 @@
 var a02615 =
 [
-    [ "Topo_Polygonize", "a04656.html", null ],
-    [ "Topo_Snap", "a04660.html", null ]
+    [ "MakePolygon", "a04042.html", "a04042" ],
+    [ "Polygon", "a04046.html", "a04046" ],
+    [ "PolygonFromText", "a04050.html", "a04050" ],
+    [ "PolygonFromWKB", "a04054.html", "a04054" ]
 ];

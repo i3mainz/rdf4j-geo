@@ -1,7 +1,7 @@
 var a06058 =
 [
     [ "getInstance", "a06058.html#af8afdd14b38b523d100805364a48ed63", null ],
-    [ "testRasterValue", "a06058.html#a1e853e99473b2f68ad8e75f8f41715cd", null ],
+    [ "testMinScaleX", "a06058.html#aee1e07c53503a3adc527bf03d2b1382e", null ],
     [ "covJSONString1", "a06058.html#a993e2f127f3ec8f256e9799d77507223", null ],
     [ "hexwkbString1", "a06058.html#a55fb5b5d665417265da09403128e396e", null ],
     [ "minwkbString", "a06058.html#aa5e2b5a6005895fc20b9f35523569430", null ],

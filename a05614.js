@@ -1,5 +1,6 @@
 var a05614 =
 [
-    [ "testForce4D", "a05614.html#ad31ba6d34e7770eae5de0864a25b1766", null ],
-    [ "testLineString", "a05614.html#a33797029fadbcba01b4a4fafec88cf41", null ]
+    [ "testSridIsGeographicFalse", "a05614.html#abd1395d0581a64740ed1bae57b2882b3", null ],
+    [ "testSridIsGeographicTrue", "a05614.html#a09f0ac6b4b2a063a3d1df32d600b9b11", null ],
+    [ "testPoint", "a05614.html#af26f700ee129f846cac58735f6dcc380", null ]
 ];

@@ -1,5 +1,6 @@
 var a05354 =
 [
-    [ "testGeomFromGeoJSON", "a05354.html#a64b3f7b5bcdec5b93820a9958c0622a3", null ],
-    [ "geoJsonTestGeom", "a05354.html#a117e8ff340791b5aa0658f5840b5dcf4", null ]
+    [ "testMinimumDiameterLine", "a05354.html#ac6734228b3f88748ca1545e62811f616", null ],
+    [ "result", "a05354.html#aab356d6554a7301750f11ec7a85ac47d", null ],
+    [ "testPolygon", "a05354.html#a1e3187cbc25299380589200c398b3ffd", null ]
 ];

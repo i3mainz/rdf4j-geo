@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>rdf4j-postgis: VectorTileEncoder Class Reference</title>
+<title>rdf4j-postgis: WKTDatatype Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -63,891 +63,129 @@ $(document).ready(function(){initNavTree('a05038.html','');});
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pro-methods">Protected Member Functions</a> &#124;
-<a href="#pac-methods">Package Functions</a> &#124;
-<a href="#pac-static-methods">Static Package Functions</a> &#124;
-<a href="#pri-static-methods">Static Private Member Functions</a> &#124;
-<a href="#pri-attribs">Private Attributes</a> &#124;
+<a href="#pub-static-attribs">Static Public Attributes</a> &#124;
 <a href="a05035.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">VectorTileEncoder Class Reference</div>  </div>
+<div class="title">WKTDatatype Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 <div class="dynheader">
-Collaboration diagram for VectorTileEncoder:</div>
+Inheritance diagram for WKTDatatype:</div>
 <div class="dyncontent">
-<div class="center"><img src="a05036.png" border="0" usemap="#VectorTileEncoder_coll__map" alt="Collaboration graph"/></div>
-<map name="VectorTileEncoder_coll__map" id="VectorTileEncoder_coll__map">
+<div class="center"><img src="a05037.png" border="0" usemap="#WKTDatatype_inherit__map" alt="Inheritance graph"/></div>
+<map name="WKTDatatype_inherit__map" id="WKTDatatype_inherit__map">
+<area shape="rect" id="node2" href="a05026.html" title="VectorLiteral" alt="" coords="11,80,105,107"/>
+<area shape="rect" id="node3" href="a04918.html" title="LiteralType" alt="" coords="15,5,101,32"/>
+</map>
+<center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
+<div class="dynheader">
+Collaboration diagram for WKTDatatype:</div>
+<div class="dyncontent">
+<div class="center"><img src="a05036.png" border="0" usemap="#WKTDatatype_coll__map" alt="Collaboration graph"/></div>
+<map name="WKTDatatype_coll__map" id="WKTDatatype_coll__map">
+<area shape="rect" id="node2" href="a05026.html" title="VectorLiteral" alt="" coords="5,81,100,108"/>
+<area shape="rect" id="node3" href="a04918.html" title="LiteralType" alt="" coords="9,5,96,32"/>
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05046.html">Feature</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05042.html">Layer</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05042.html">WKBTextSRS</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ab65f6e10c646b4db158a5c42d39fe141"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05038.html#ab65f6e10c646b4db158a5c42d39fe141">VectorTileEncoder</a> ()</td></tr>
-<tr class="memdesc:ab65f6e10c646b4db158a5c42d39fe141"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a <a class="el" href="a05038.html">VectorTileEncoder</a> with the default extent of 4096 and clip buffer of 8.  <a href="#ab65f6e10c646b4db158a5c42d39fe141">More...</a><br /></td></tr>
-<tr class="separator:ab65f6e10c646b4db158a5c42d39fe141"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6899f21a676eda188153448587027273"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05038.html#a6899f21a676eda188153448587027273">VectorTileEncoder</a> (int <a class="el" href="a05038.html#a6156e4ea9ca15fc926007ca518111147">extent</a>)</td></tr>
-<tr class="memdesc:a6899f21a676eda188153448587027273"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a <a class="el" href="a05038.html">VectorTileEncoder</a> with the given extent and a clip buffer of 8.  <a href="#a6899f21a676eda188153448587027273">More...</a><br /></td></tr>
-<tr class="separator:a6899f21a676eda188153448587027273"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9c4c4a8c16cc3cb87db23b3002952288"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05038.html#a9c4c4a8c16cc3cb87db23b3002952288">VectorTileEncoder</a> (int <a class="el" href="a05038.html#a6156e4ea9ca15fc926007ca518111147">extent</a>, int clipBuffer, boolean <a class="el" href="a05038.html#a0d2071354864eea97c7aefbc7f3d2a5c">autoScale</a>)</td></tr>
-<tr class="separator:a9c4c4a8c16cc3cb87db23b3002952288"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a46ffbd751e81c8a09f9813029c5436ba"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05038.html#a46ffbd751e81c8a09f9813029c5436ba">VectorTileEncoder</a> (int <a class="el" href="a05038.html#a6156e4ea9ca15fc926007ca518111147">extent</a>, int clipBuffer, boolean <a class="el" href="a05038.html#a0d2071354864eea97c7aefbc7f3d2a5c">autoScale</a>, boolean <a class="el" href="a05038.html#a71c6a6d579e5725eac2cfe6ee6c9f031">autoincrementIds</a>)</td></tr>
-<tr class="separator:a46ffbd751e81c8a09f9813029c5436ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a755ece0c745563d98c1ca5715b7d5b98"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05038.html#a755ece0c745563d98c1ca5715b7d5b98">VectorTileEncoder</a> (int <a class="el" href="a05038.html#a6156e4ea9ca15fc926007ca518111147">extent</a>, int clipBuffer, boolean <a class="el" href="a05038.html#a0d2071354864eea97c7aefbc7f3d2a5c">autoScale</a>, boolean <a class="el" href="a05038.html#a71c6a6d579e5725eac2cfe6ee6c9f031">autoincrementIds</a>, double <a class="el" href="a05038.html#a94dd1626c23c7ad8ee43c4fa762d5954">simplificationDistanceTolerance</a>)</td></tr>
-<tr class="memdesc:a755ece0c745563d98c1ca5715b7d5b98"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a <a class="el" href="a05038.html">VectorTileEncoder</a> with the given extent value.  <a href="#a755ece0c745563d98c1ca5715b7d5b98">More...</a><br /></td></tr>
-<tr class="separator:a755ece0c745563d98c1ca5715b7d5b98"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae746f0d530da3673d0ecd420484ae60c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05038.html#ae746f0d530da3673d0ecd420484ae60c">addFeature</a> (String layerName, Map&lt; String, ?&gt; attributes, Geometry geometry)</td></tr>
-<tr class="separator:ae746f0d530da3673d0ecd420484ae60c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2afe6a9071cc7d0e53c80fa46df18b61"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05038.html#a2afe6a9071cc7d0e53c80fa46df18b61">addFeature</a> (String layerName, Map&lt; String, ?&gt; attributes, Geometry geometry, long id)</td></tr>
-<tr class="memdesc:a2afe6a9071cc7d0e53c80fa46df18b61"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a feature with layer name (typically feature type name), some attributes and a Geometry.  <a href="#a2afe6a9071cc7d0e53c80fa46df18b61">More...</a><br /></td></tr>
-<tr class="separator:a2afe6a9071cc7d0e53c80fa46df18b61"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab467bae7ee09e6679725a5a385be624b"><td class="memItemLeft" align="right" valign="top">byte []&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05038.html#ab467bae7ee09e6679725a5a385be624b">encode</a> ()</td></tr>
-<tr class="separator:ab467bae7ee09e6679725a5a385be624b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae918a517e1ebcc44beeee2c55008d248"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05038.html#ae918a517e1ebcc44beeee2c55008d248">unparse</a> (Geometry geometry)</td></tr>
+<tr class="memdesc:ae918a517e1ebcc44beeee2c55008d248"><td class="mdescLeft">&#160;</td><td class="mdescRight">This method Un-parses the JTS Geometry to the WKT literal.  <a href="#ae918a517e1ebcc44beeee2c55008d248">More...</a><br /></td></tr>
+<tr class="separator:ae918a517e1ebcc44beeee2c55008d248"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a793358fbd6ef538a24eabab1bd50ef01"><td class="memItemLeft" align="right" valign="top">Geometry&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05038.html#a793358fbd6ef538a24eabab1bd50ef01">read</a> (String geometryLiteral)</td></tr>
+<tr class="separator:a793358fbd6ef538a24eabab1bd50ef01"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad146fa8579a5f8a876c4688cc5a68520"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05038.html#ad146fa8579a5f8a876c4688cc5a68520">toString</a> ()</td></tr>
+<tr class="separator:ad146fa8579a5f8a876c4688cc5a68520"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
-Protected Member Functions</h2></td></tr>
-<tr class="memitem:a238fdb21a4261a0a87b5eabfafce414d"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05038.html#a238fdb21a4261a0a87b5eabfafce414d">clipCovers</a> (Geometry geom)</td></tr>
-<tr class="memdesc:a238fdb21a4261a0a87b5eabfafce414d"><td class="mdescLeft">&#160;</td><td class="mdescRight">A short circuit clip to the tile extent (tile boundary + buffer) for points to improve performance.  <a href="#a238fdb21a4261a0a87b5eabfafce414d">More...</a><br /></td></tr>
-<tr class="separator:a238fdb21a4261a0a87b5eabfafce414d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a472631d5396a7a9bb4e767a195df28d2"><td class="memItemLeft" align="right" valign="top">Geometry&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05038.html#a472631d5396a7a9bb4e767a195df28d2">clipGeometry</a> (Geometry geometry)</td></tr>
-<tr class="memdesc:a472631d5396a7a9bb4e767a195df28d2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clip geometry according to buffer given at construct time.  <a href="#a472631d5396a7a9bb4e767a195df28d2">More...</a><br /></td></tr>
-<tr class="separator:a472631d5396a7a9bb4e767a195df28d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pac-methods"></a>
-Package Functions</h2></td></tr>
-<tr class="memitem:a8d03e469a8388947a2eb2658c933fc4c"><td class="memItemLeft" align="right" valign="top">List&lt; Integer &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05038.html#a8d03e469a8388947a2eb2658c933fc4c">commands</a> (Geometry geometry)</td></tr>
-<tr class="separator:a8d03e469a8388947a2eb2658c933fc4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a609a36dc9d80dad25dff50842ab6648b"><td class="memItemLeft" align="right" valign="top">List&lt; Integer &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05038.html#a609a36dc9d80dad25dff50842ab6648b">commands</a> (MultiLineString mls)</td></tr>
-<tr class="separator:a609a36dc9d80dad25dff50842ab6648b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3130e3caabb2961fb886ac9756313c3d"><td class="memItemLeft" align="right" valign="top">List&lt; Integer &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05038.html#a3130e3caabb2961fb886ac9756313c3d">commands</a> (MultiPolygon mp)</td></tr>
-<tr class="separator:a3130e3caabb2961fb886ac9756313c3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae07815429fd6e209e9330fc56fc434c5"><td class="memItemLeft" align="right" valign="top">List&lt; Integer &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05038.html#ae07815429fd6e209e9330fc56fc434c5">commands</a> (Polygon polygon)</td></tr>
-<tr class="separator:ae07815429fd6e209e9330fc56fc434c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab6fa489aaca232801a274ecaae41afb5"><td class="memItemLeft" align="right" valign="top">List&lt; Integer &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05038.html#ab6fa489aaca232801a274ecaae41afb5">commands</a> (<a class="el" href="a05142.html">Coordinate</a>[] cs, boolean closePathAtEnd)</td></tr>
-<tr class="memdesc:ab6fa489aaca232801a274ecaae41afb5"><td class="mdescLeft">&#160;</td><td class="mdescRight">// // // Ex.  <a href="#ab6fa489aaca232801a274ecaae41afb5">More...</a><br /></td></tr>
-<tr class="separator:ab6fa489aaca232801a274ecaae41afb5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a03e45867801ab80f36bb0670fdabba04"><td class="memItemLeft" align="right" valign="top">List&lt; Integer &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05038.html#a03e45867801ab80f36bb0670fdabba04">commands</a> (<a class="el" href="a05142.html">Coordinate</a>[] cs, boolean closePathAtEnd, boolean multiPoint)</td></tr>
-<tr class="separator:a03e45867801ab80f36bb0670fdabba04"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pac-static-methods"></a>
-Static Package Functions</h2></td></tr>
-<tr class="memitem:a0897d6363c27cf553ee978eacaca4dad"><td class="memItemLeft" align="right" valign="top">static VectorTile.Tile.GeomType&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05038.html#a0897d6363c27cf553ee978eacaca4dad">toGeomType</a> (Geometry geometry)</td></tr>
-<tr class="separator:a0897d6363c27cf553ee978eacaca4dad"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5673340666e260f4fa2a46ae19a662a1"><td class="memItemLeft" align="right" valign="top">static boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05038.html#a5673340666e260f4fa2a46ae19a662a1">shouldClosePath</a> (Geometry geometry)</td></tr>
-<tr class="separator:a5673340666e260f4fa2a46ae19a662a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4721ad9ffd3b71c83dbd0908f5a3ad31"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05038.html#a4721ad9ffd3b71c83dbd0908f5a3ad31">commandAndLength</a> (int command, int repeat)</td></tr>
-<tr class="separator:a4721ad9ffd3b71c83dbd0908f5a3ad31"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4a332bf4dd7bd04e5f8e0f52d89ab043"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05038.html#a4a332bf4dd7bd04e5f8e0f52d89ab043">zigZagEncode</a> (int n)</td></tr>
-<tr class="separator:a4a332bf4dd7bd04e5f8e0f52d89ab043"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-static-methods"></a>
-Static Private Member Functions</h2></td></tr>
-<tr class="memitem:a54caaecad39ad5bf55f357dde42d9e03"><td class="memItemLeft" align="right" valign="top">static Geometry&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05038.html#a54caaecad39ad5bf55f357dde42d9e03">createTileEnvelope</a> (int buffer, int size)</td></tr>
-<tr class="separator:a54caaecad39ad5bf55f357dde42d9e03"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
-Private Attributes</h2></td></tr>
-<tr class="memitem:ae88dca2e5e3c5e871013b79575ee4bb5"><td class="memItemLeft" align="right" valign="top">final Map&lt; String, <a class="el" href="a05042.html">Layer</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05038.html#ae88dca2e5e3c5e871013b79575ee4bb5">layers</a> = new LinkedHashMap&lt;String, <a class="el" href="a05042.html">Layer</a>&gt;()</td></tr>
-<tr class="separator:ae88dca2e5e3c5e871013b79575ee4bb5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6156e4ea9ca15fc926007ca518111147"><td class="memItemLeft" align="right" valign="top">final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05038.html#a6156e4ea9ca15fc926007ca518111147">extent</a></td></tr>
-<tr class="separator:a6156e4ea9ca15fc926007ca518111147"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a11a086a1486cd3fe6eefad6bec4c48a6"><td class="memItemLeft" align="right" valign="top">final Geometry&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05038.html#a11a086a1486cd3fe6eefad6bec4c48a6">clipGeometry</a></td></tr>
-<tr class="separator:a11a086a1486cd3fe6eefad6bec4c48a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0d2071354864eea97c7aefbc7f3d2a5c"><td class="memItemLeft" align="right" valign="top">final boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05038.html#a0d2071354864eea97c7aefbc7f3d2a5c">autoScale</a></td></tr>
-<tr class="separator:a0d2071354864eea97c7aefbc7f3d2a5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4fca3b92acf7d6b65165575a46b6f40c"><td class="memItemLeft" align="right" valign="top">long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05038.html#a4fca3b92acf7d6b65165575a46b6f40c">autoincrement</a></td></tr>
-<tr class="separator:a4fca3b92acf7d6b65165575a46b6f40c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a71c6a6d579e5725eac2cfe6ee6c9f031"><td class="memItemLeft" align="right" valign="top">final boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05038.html#a71c6a6d579e5725eac2cfe6ee6c9f031">autoincrementIds</a></td></tr>
-<tr class="separator:a71c6a6d579e5725eac2cfe6ee6c9f031"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a94dd1626c23c7ad8ee43c4fa762d5954"><td class="memItemLeft" align="right" valign="top">final double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05038.html#a94dd1626c23c7ad8ee43c4fa762d5954">simplificationDistanceTolerance</a></td></tr>
-<tr class="separator:a94dd1626c23c7ad8ee43c4fa762d5954"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6150e0515f7202e2fb518f7206ed97dc"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05038.html#a6150e0515f7202e2fb518f7206ed97dc">x</a> = 0</td></tr>
-<tr class="separator:a6150e0515f7202e2fb518f7206ed97dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0a2f84ed7838f07779ae24c5a9086d33"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05038.html#a0a2f84ed7838f07779ae24c5a9086d33">y</a> = 0</td></tr>
-<tr class="separator:a0a2f84ed7838f07779ae24c5a9086d33"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
+Static Public Attributes</h2></td></tr>
+<tr class="memitem:addbf30e6c0ad68fa34277d59a2c6eb5e"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05038.html#addbf30e6c0ad68fa34277d59a2c6eb5e">URI</a> = <a class="el" href="a02726.html#ad263658bd03fbb2214983c7860869a23">POSTGIS.NAMESPACE</a>+&quot;wktLiteral&quot;</td></tr>
+<tr class="memdesc:addbf30e6c0ad68fa34277d59a2c6eb5e"><td class="mdescLeft">&#160;</td><td class="mdescRight">The default WKT type URI.  <a href="#addbf30e6c0ad68fa34277d59a2c6eb5e">More...</a><br /></td></tr>
+<tr class="separator:addbf30e6c0ad68fa34277d59a2c6eb5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae02c2e86ac0dea8538c7b43e9e82421a"><td class="memItemLeft" align="right" valign="top">static final IRI&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05038.html#ae02c2e86ac0dea8538c7b43e9e82421a">LiteralIRI</a> =SimpleValueFactory.getInstance().createIRI(<a class="el" href="a02726.html#ad263658bd03fbb2214983c7860869a23">POSTGIS.NAMESPACE</a>+&quot;wktLiteral&quot;)</td></tr>
+<tr class="separator:ae02c2e86ac0dea8538c7b43e9e82421a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3e60086252e5262f1238a2d9cbd491d9"><td class="memItemLeft" align="right" valign="top">static final <a class="el" href="a05038.html">WKTDatatype</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05038.html#a3e60086252e5262f1238a2d9cbd491d9">INSTANCE</a> = new <a class="el" href="a05038.html">WKTDatatype</a>()</td></tr>
+<tr class="memdesc:a3e60086252e5262f1238a2d9cbd491d9"><td class="mdescLeft">&#160;</td><td class="mdescRight">A static instance of <a class="el" href="a05038.html">WKTDatatype</a>.  <a href="#a3e60086252e5262f1238a2d9cbd491d9">More...</a><br /></td></tr>
+<tr class="separator:a3e60086252e5262f1238a2d9cbd491d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="ab65f6e10c646b4db158a5c42d39fe141"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab65f6e10c646b4db158a5c42d39fe141">&#9670;&nbsp;</a></span>VectorTileEncoder() <span class="overload">[1/5]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="a05038.html">VectorTileEncoder</a> </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Create a <a class="el" href="a05038.html">VectorTileEncoder</a> with the default extent of 4096 and clip buffer of 8. </p>
-<div class="fragment"><div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;                               {</div><div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;        <span class="keyword">this</span>(4096, 8, <span class="keyword">true</span>);</div><div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;    }</div></div><!-- fragment -->
-</div>
-</div>
-<a id="a6899f21a676eda188153448587027273"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6899f21a676eda188153448587027273">&#9670;&nbsp;</a></span>VectorTileEncoder() <span class="overload">[2/5]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="a05038.html">VectorTileEncoder</a> </td>
-          <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>extent</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Create a <a class="el" href="a05038.html">VectorTileEncoder</a> with the given extent and a clip buffer of 8. </p>
-
-<p class="reference">References <a class="el" href="a05038.html#a6156e4ea9ca15fc926007ca518111147">VectorTileEncoder.extent</a>.</p>
-<div class="fragment"><div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;                                         {</div><div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;        <span class="keyword">this</span>(<a class="code" href="a05038.html#a6156e4ea9ca15fc926007ca518111147">extent</a>, 8, <span class="keyword">true</span>);</div><div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;    }</div><div class="ttc" id="a05038_html_a6156e4ea9ca15fc926007ca518111147"><div class="ttname"><a href="a05038.html#a6156e4ea9ca15fc926007ca518111147">org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.parsers.VectorTileEncoder.extent</a></div><div class="ttdeci">final int extent</div><div class="ttdef"><b>Definition:</b> VectorTileEncoder.java:52</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a9c4c4a8c16cc3cb87db23b3002952288"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9c4c4a8c16cc3cb87db23b3002952288">&#9670;&nbsp;</a></span>VectorTileEncoder() <span class="overload">[3/5]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="a05038.html">VectorTileEncoder</a> </td>
-          <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>extent</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>clipBuffer</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">boolean&#160;</td>
-          <td class="paramname"><em>autoScale</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="reference">References <a class="el" href="a05038.html#a0d2071354864eea97c7aefbc7f3d2a5c">VectorTileEncoder.autoScale</a>, and <a class="el" href="a05038.html#a6156e4ea9ca15fc926007ca518111147">VectorTileEncoder.extent</a>.</p>
-<div class="fragment"><div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;                                                                            {</div><div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;        <span class="keyword">this</span>(<a class="code" href="a05038.html#a6156e4ea9ca15fc926007ca518111147">extent</a>, clipBuffer, <a class="code" href="a05038.html#a0d2071354864eea97c7aefbc7f3d2a5c">autoScale</a>, <span class="keyword">false</span>);</div><div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;    }</div><div class="ttc" id="a05038_html_a6156e4ea9ca15fc926007ca518111147"><div class="ttname"><a href="a05038.html#a6156e4ea9ca15fc926007ca518111147">org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.parsers.VectorTileEncoder.extent</a></div><div class="ttdeci">final int extent</div><div class="ttdef"><b>Definition:</b> VectorTileEncoder.java:52</div></div>
-<div class="ttc" id="a05038_html_a0d2071354864eea97c7aefbc7f3d2a5c"><div class="ttname"><a href="a05038.html#a0d2071354864eea97c7aefbc7f3d2a5c">org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.parsers.VectorTileEncoder.autoScale</a></div><div class="ttdeci">final boolean autoScale</div><div class="ttdef"><b>Definition:</b> VectorTileEncoder.java:56</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a46ffbd751e81c8a09f9813029c5436ba"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a46ffbd751e81c8a09f9813029c5436ba">&#9670;&nbsp;</a></span>VectorTileEncoder() <span class="overload">[4/5]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="a05038.html">VectorTileEncoder</a> </td>
-          <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>extent</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>clipBuffer</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">boolean&#160;</td>
-          <td class="paramname"><em>autoScale</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">boolean&#160;</td>
-          <td class="paramname"><em>autoincrementIds</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="reference">References <a class="el" href="a05038.html#a71c6a6d579e5725eac2cfe6ee6c9f031">VectorTileEncoder.autoincrementIds</a>, <a class="el" href="a05038.html#a0d2071354864eea97c7aefbc7f3d2a5c">VectorTileEncoder.autoScale</a>, and <a class="el" href="a05038.html#a6156e4ea9ca15fc926007ca518111147">VectorTileEncoder.extent</a>.</p>
-<div class="fragment"><div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;                                                                                                      {</div><div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;        <span class="keyword">this</span>(<a class="code" href="a05038.html#a6156e4ea9ca15fc926007ca518111147">extent</a>, clipBuffer, <a class="code" href="a05038.html#a0d2071354864eea97c7aefbc7f3d2a5c">autoScale</a>, <a class="code" href="a05038.html#a71c6a6d579e5725eac2cfe6ee6c9f031">autoincrementIds</a>, -1.0);</div><div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;    }</div><div class="ttc" id="a05038_html_a71c6a6d579e5725eac2cfe6ee6c9f031"><div class="ttname"><a href="a05038.html#a71c6a6d579e5725eac2cfe6ee6c9f031">org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.parsers.VectorTileEncoder.autoincrementIds</a></div><div class="ttdeci">final boolean autoincrementIds</div><div class="ttdef"><b>Definition:</b> VectorTileEncoder.java:60</div></div>
-<div class="ttc" id="a05038_html_a6156e4ea9ca15fc926007ca518111147"><div class="ttname"><a href="a05038.html#a6156e4ea9ca15fc926007ca518111147">org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.parsers.VectorTileEncoder.extent</a></div><div class="ttdeci">final int extent</div><div class="ttdef"><b>Definition:</b> VectorTileEncoder.java:52</div></div>
-<div class="ttc" id="a05038_html_a0d2071354864eea97c7aefbc7f3d2a5c"><div class="ttname"><a href="a05038.html#a0d2071354864eea97c7aefbc7f3d2a5c">org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.parsers.VectorTileEncoder.autoScale</a></div><div class="ttdeci">final boolean autoScale</div><div class="ttdef"><b>Definition:</b> VectorTileEncoder.java:56</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a755ece0c745563d98c1ca5715b7d5b98"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a755ece0c745563d98c1ca5715b7d5b98">&#9670;&nbsp;</a></span>VectorTileEncoder() <span class="overload">[5/5]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="a05038.html">VectorTileEncoder</a> </td>
-          <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>extent</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>clipBuffer</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">boolean&#160;</td>
-          <td class="paramname"><em>autoScale</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">boolean&#160;</td>
-          <td class="paramname"><em>autoincrementIds</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>simplificationDistanceTolerance</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Create a <a class="el" href="a05038.html">VectorTileEncoder</a> with the given extent value. </p>
-<p>The extent value control how detailed the coordinates are encoded in the vector tile. 4096 is a good default, 256 can be used to reduce density. </p>
-<p>The clip buffer value control how large the clipping area is outside of the tile for geometries. 0 means that the clipping is done at the tile border. 8 is a good default.</p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">extent</td><td>a int with extent value. 4096 is a good value. </td></tr>
-    <tr><td class="paramname">clipBuffer</td><td>a int with clip buffer size for geometries. 8 is a good value. </td></tr>
-    <tr><td class="paramname">autoScale</td><td>when true, the encoder expects coordinates in the 0..255 range and will scale them automatically to the 0..extent-1 range before encoding. when false, the encoder expects coordinates in the 0..extent-1 range. </td></tr>
-    <tr><td class="paramname">autoincrementIds</td><td></td></tr>
-    <tr><td class="paramname">simplificationDistanceTolerance</td><td>a positive double representing the distance tolerance to be used for non-points before (optional) scaling and encoding. A value &lt;= 0 will prevent simplifying geometry. 0.1 seem to be a good value when autoScale is turned on. </td></tr>
-  </table>
-  </dd>
-</dl>
-
-<p class="reference">References <a class="el" href="a05038.html#a71c6a6d579e5725eac2cfe6ee6c9f031">VectorTileEncoder.autoincrementIds</a>, <a class="el" href="a05038.html#a0d2071354864eea97c7aefbc7f3d2a5c">VectorTileEncoder.autoScale</a>, <a class="el" href="a05038.html#a54caaecad39ad5bf55f357dde42d9e03">VectorTileEncoder.createTileEnvelope()</a>, <a class="el" href="a05038.html#a6156e4ea9ca15fc926007ca518111147">VectorTileEncoder.extent</a>, and <a class="el" href="a05038.html#a94dd1626c23c7ad8ee43c4fa762d5954">VectorTileEncoder.simplificationDistanceTolerance</a>.</p>
-<div class="fragment"><div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;                                                                                                                                              {</div><div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;        this.<a class="code" href="a05038.html#a6156e4ea9ca15fc926007ca518111147">extent</a> = <a class="code" href="a05038.html#a6156e4ea9ca15fc926007ca518111147">extent</a>;</div><div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;        this.<a class="code" href="a05038.html#a0d2071354864eea97c7aefbc7f3d2a5c">autoScale</a> = <a class="code" href="a05038.html#a0d2071354864eea97c7aefbc7f3d2a5c">autoScale</a>;</div><div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;        this.<a class="code" href="a05038.html#a71c6a6d579e5725eac2cfe6ee6c9f031">autoincrementIds</a> = <a class="code" href="a05038.html#a71c6a6d579e5725eac2cfe6ee6c9f031">autoincrementIds</a>;</div><div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;        this.<a class="code" href="a05038.html#a4fca3b92acf7d6b65165575a46b6f40c">autoincrement</a> = 1;</div><div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;        this.<a class="code" href="a05038.html#a94dd1626c23c7ad8ee43c4fa762d5954">simplificationDistanceTolerance</a> = <a class="code" href="a05038.html#a94dd1626c23c7ad8ee43c4fa762d5954">simplificationDistanceTolerance</a>;</div><div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;</div><div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;        <span class="keyword">final</span> <span class="keywordtype">int</span> size = <a class="code" href="a05038.html#a0d2071354864eea97c7aefbc7f3d2a5c">autoScale</a> ? 256 : <a class="code" href="a05038.html#a6156e4ea9ca15fc926007ca518111147">extent</a>;</div><div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;        <a class="code" href="a05038.html#a11a086a1486cd3fe6eefad6bec4c48a6">clipGeometry</a> = <a class="code" href="a05038.html#a54caaecad39ad5bf55f357dde42d9e03">createTileEnvelope</a>(clipBuffer, size);</div><div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;    }</div><div class="ttc" id="a05038_html_a54caaecad39ad5bf55f357dde42d9e03"><div class="ttname"><a href="a05038.html#a54caaecad39ad5bf55f357dde42d9e03">org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.parsers.VectorTileEncoder.createTileEnvelope</a></div><div class="ttdeci">static Geometry createTileEnvelope(int buffer, int size)</div><div class="ttdef"><b>Definition:</b> VectorTileEncoder.java:125</div></div>
-<div class="ttc" id="a05038_html_a71c6a6d579e5725eac2cfe6ee6c9f031"><div class="ttname"><a href="a05038.html#a71c6a6d579e5725eac2cfe6ee6c9f031">org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.parsers.VectorTileEncoder.autoincrementIds</a></div><div class="ttdeci">final boolean autoincrementIds</div><div class="ttdef"><b>Definition:</b> VectorTileEncoder.java:60</div></div>
-<div class="ttc" id="a05038_html_a4fca3b92acf7d6b65165575a46b6f40c"><div class="ttname"><a href="a05038.html#a4fca3b92acf7d6b65165575a46b6f40c">org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.parsers.VectorTileEncoder.autoincrement</a></div><div class="ttdeci">long autoincrement</div><div class="ttdef"><b>Definition:</b> VectorTileEncoder.java:58</div></div>
-<div class="ttc" id="a05038_html_a6156e4ea9ca15fc926007ca518111147"><div class="ttname"><a href="a05038.html#a6156e4ea9ca15fc926007ca518111147">org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.parsers.VectorTileEncoder.extent</a></div><div class="ttdeci">final int extent</div><div class="ttdef"><b>Definition:</b> VectorTileEncoder.java:52</div></div>
-<div class="ttc" id="a05038_html_a94dd1626c23c7ad8ee43c4fa762d5954"><div class="ttname"><a href="a05038.html#a94dd1626c23c7ad8ee43c4fa762d5954">org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.parsers.VectorTileEncoder.simplificationDistanceTolerance</a></div><div class="ttdeci">final double simplificationDistanceTolerance</div><div class="ttdef"><b>Definition:</b> VectorTileEncoder.java:62</div></div>
-<div class="ttc" id="a05038_html_a0d2071354864eea97c7aefbc7f3d2a5c"><div class="ttname"><a href="a05038.html#a0d2071354864eea97c7aefbc7f3d2a5c">org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.parsers.VectorTileEncoder.autoScale</a></div><div class="ttdeci">final boolean autoScale</div><div class="ttdef"><b>Definition:</b> VectorTileEncoder.java:56</div></div>
-<div class="ttc" id="a05038_html_a11a086a1486cd3fe6eefad6bec4c48a6"><div class="ttname"><a href="a05038.html#a11a086a1486cd3fe6eefad6bec4c48a6">org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.parsers.VectorTileEncoder.clipGeometry</a></div><div class="ttdeci">final Geometry clipGeometry</div><div class="ttdef"><b>Definition:</b> VectorTileEncoder.java:54</div></div>
-</div><!-- fragment -->
-</div>
-</div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="ae746f0d530da3673d0ecd420484ae60c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae746f0d530da3673d0ecd420484ae60c">&#9670;&nbsp;</a></span>addFeature() <span class="overload">[1/2]</span></h2>
+<a id="a793358fbd6ef538a24eabab1bd50ef01"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a793358fbd6ef538a24eabab1bd50ef01">&#9670;&nbsp;</a></span>read()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void addFeature </td>
+          <td class="memname">Geometry read </td>
           <td>(</td>
           <td class="paramtype">String&#160;</td>
-          <td class="paramname"><em>layerName</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
+          <td class="paramname"><em>geometryLiteral</em></td><td>)</td>
           <td></td>
-          <td class="paramtype">Map&lt; String, ?&gt;&#160;</td>
-          <td class="paramname"><em>attributes</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">Geometry&#160;</td>
-          <td class="paramname"><em>geometry</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="a05038.html#a2afe6a9071cc7d0e53c80fa46df18b61">VectorTileEncoder.addFeature()</a>, and <a class="el" href="a04970.html#ae918a517e1ebcc44beeee2c55008d248">MVTDatatype.unparse()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;                                                                                           {</div><div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;        this.<a class="code" href="a05038.html#ae746f0d530da3673d0ecd420484ae60c">addFeature</a>(layerName, attributes, geometry, this.<a class="code" href="a05038.html#a71c6a6d579e5725eac2cfe6ee6c9f031">autoincrementIds</a> ? this.<a class="code" href="a05038.html#a4fca3b92acf7d6b65165575a46b6f40c">autoincrement</a>++ : -1);</div><div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;    }</div><div class="ttc" id="a05038_html_a71c6a6d579e5725eac2cfe6ee6c9f031"><div class="ttname"><a href="a05038.html#a71c6a6d579e5725eac2cfe6ee6c9f031">org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.parsers.VectorTileEncoder.autoincrementIds</a></div><div class="ttdeci">final boolean autoincrementIds</div><div class="ttdef"><b>Definition:</b> VectorTileEncoder.java:60</div></div>
-<div class="ttc" id="a05038_html_ae746f0d530da3673d0ecd420484ae60c"><div class="ttname"><a href="a05038.html#ae746f0d530da3673d0ecd420484ae60c">org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.parsers.VectorTileEncoder.addFeature</a></div><div class="ttdeci">void addFeature(String layerName, Map&lt; String, ?&gt; attributes, Geometry geometry)</div><div class="ttdef"><b>Definition:</b> VectorTileEncoder.java:135</div></div>
-<div class="ttc" id="a05038_html_a4fca3b92acf7d6b65165575a46b6f40c"><div class="ttname"><a href="a05038.html#a4fca3b92acf7d6b65165575a46b6f40c">org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.parsers.VectorTileEncoder.autoincrement</a></div><div class="ttdeci">long autoincrement</div><div class="ttdef"><b>Definition:</b> VectorTileEncoder.java:58</div></div>
-</div><!-- fragment -->
+<p class="reference">References <a class="el" href="a05042.html#a4a2ce7a2dcd4fa0818378fb8b97931fb">WKTDatatype.WKBTextSRS.getWkbText()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="a05826.html#a63588109fc080478770a7d3cc31b245d">GeneratePointsTest.testGeneratePoints()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;                                                 {</div><div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;        WKBTextSRS wkbTextSRS = <span class="keyword">new</span> WKBTextSRS(geometryLiteral);</div><div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;</div><div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;        WKTReader wkbReader = <span class="keyword">new</span> WKTReader();</div><div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;        Geometry geometry;</div><div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;                <span class="keywordflow">try</span> {</div><div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;                        geometry = wkbReader.read(wkbTextSRS.getWkbText());</div><div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;                        <span class="keywordflow">return</span> geometry;</div><div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;                } <span class="keywordflow">catch</span> (ParseException e) {</div><div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;                        <span class="keywordflow">throw</span> <span class="keyword">new</span> RuntimeException(e.getMessage());</div><div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;                }</div><div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;</div><div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;</div><div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    }</div></div><!-- fragment -->
 </div>
 </div>
-<a id="a2afe6a9071cc7d0e53c80fa46df18b61"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2afe6a9071cc7d0e53c80fa46df18b61">&#9670;&nbsp;</a></span>addFeature() <span class="overload">[2/2]</span></h2>
+<a id="ad146fa8579a5f8a876c4688cc5a68520"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad146fa8579a5f8a876c4688cc5a68520">&#9670;&nbsp;</a></span>toString()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void addFeature </td>
-          <td>(</td>
-          <td class="paramtype">String&#160;</td>
-          <td class="paramname"><em>layerName</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">Map&lt; String, ?&gt;&#160;</td>
-          <td class="paramname"><em>attributes</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">Geometry&#160;</td>
-          <td class="paramname"><em>geometry</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">long&#160;</td>
-          <td class="paramname"><em>id</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Add a feature with layer name (typically feature type name), some attributes and a Geometry. </p>
-<p>The Geometry must be in "pixel" space 0,0 upper left and 256,256 lower right. </p>
-<p>For optimization, geometries will be clipped and simplified. Features with geometries outside of the tile will be skipped.</p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">layerName</td><td></td></tr>
-    <tr><td class="paramname">attributes</td><td></td></tr>
-    <tr><td class="paramname">geometry</td><td></td></tr>
-    <tr><td class="paramname">id</td><td></td></tr>
-  </table>
-  </dd>
-</dl>
-
-<p class="reference">References <a class="el" href="a05038.html#ae746f0d530da3673d0ecd420484ae60c">VectorTileEncoder.addFeature()</a>, <a class="el" href="a05038.html#a238fdb21a4261a0a87b5eabfafce414d">VectorTileEncoder.clipCovers()</a>, <a class="el" href="a05038.html#a11a086a1486cd3fe6eefad6bec4c48a6">VectorTileEncoder.clipGeometry</a>, <a class="el" href="a05042.html#a2b66f5f4579c910c9f7b7ccc043c3037">VectorTileEncoder.Layer.features</a>, <a class="el" href="a05046.html#a6d74c3aac1525133bde98589527d1591">VectorTileEncoder.Feature.geometry</a>, <a class="el" href="a05046.html#a7350fbd6ad10618f3b750b1f99ca5c3c">VectorTileEncoder.Feature.id</a>, <a class="el" href="a05042.html#a807f334d405d92bd2f38c380d4b9ed9a">VectorTileEncoder.Layer.key()</a>, <a class="el" href="a05046.html#a07f0767bc5cf0b77ab9cb1aa260765d5">VectorTileEncoder.Feature.tags</a>, and <a class="el" href="a05042.html#a3220129efaffe512a5dded79b4e142ac">VectorTileEncoder.Layer.value()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;                                                                                                    {</div><div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;        </div><div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;        <span class="comment">// skip small Polygon/LineString.</span></div><div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;        <span class="keywordflow">if</span> (geometry instanceof MultiPolygon &amp;&amp; geometry.getArea() &lt; 1.0d) {</div><div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;            <span class="keywordflow">return</span>;</div><div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;        }</div><div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;        <span class="keywordflow">if</span> (geometry instanceof Polygon &amp;&amp; geometry.getArea() &lt; 1.0d) {</div><div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;            <span class="keywordflow">return</span>;</div><div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;        }</div><div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;        <span class="keywordflow">if</span> (geometry instanceof LineString &amp;&amp; geometry.getLength() &lt; 1.0d) {</div><div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;            <span class="keywordflow">return</span>;</div><div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;        }</div><div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;        </div><div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;        <span class="comment">// special handling of GeometryCollection. subclasses are not handled here.</span></div><div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;        <span class="keywordflow">if</span> (geometry.getClass().equals(GeometryCollection.class)) {</div><div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;            <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; geometry.getNumGeometries(); i++) {</div><div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;                Geometry subGeometry = geometry.getGeometryN(i);</div><div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;                <span class="comment">// keeping the id. any better suggestion?</span></div><div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;                <a class="code" href="a05038.html#ae746f0d530da3673d0ecd420484ae60c">addFeature</a>(layerName, attributes, subGeometry, <span class="keywordtype">id</span>);</div><div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;            }</div><div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;            <span class="keywordflow">return</span>;</div><div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;        }</div><div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;</div><div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;        <span class="comment">// clip geometry</span></div><div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;        <span class="keywordflow">if</span> (geometry instanceof Point) {</div><div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;            <span class="keywordflow">if</span> (!<a class="code" href="a05038.html#a238fdb21a4261a0a87b5eabfafce414d">clipCovers</a>(geometry)) {</div><div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;                <span class="keywordflow">return</span>;</div><div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;            }</div><div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;        } <span class="keywordflow">else</span> {</div><div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;            geometry = <a class="code" href="a05038.html#a11a086a1486cd3fe6eefad6bec4c48a6">clipGeometry</a>(geometry);</div><div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;        }</div><div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;        </div><div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;        <span class="comment">// simplify non-points</span></div><div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="a05038.html#a94dd1626c23c7ad8ee43c4fa762d5954">simplificationDistanceTolerance</a> &gt; 0.0 &amp;&amp; !(geometry instanceof Point)) {</div><div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;            geometry = TopologyPreservingSimplifier.simplify(geometry, <a class="code" href="a05038.html#a94dd1626c23c7ad8ee43c4fa762d5954">simplificationDistanceTolerance</a>);</div><div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;        }</div><div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;</div><div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;        <span class="comment">// no need to add empty geometry</span></div><div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;        <span class="keywordflow">if</span> (geometry.isEmpty()) {</div><div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;            <span class="keywordflow">return</span>;</div><div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;        }</div><div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;</div><div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;        Layer layer = <a class="code" href="a05038.html#ae88dca2e5e3c5e871013b79575ee4bb5">layers</a>.get(layerName);</div><div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;        <span class="keywordflow">if</span> (layer == null) {</div><div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;            layer = <span class="keyword">new</span> Layer();</div><div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;            <a class="code" href="a05038.html#ae88dca2e5e3c5e871013b79575ee4bb5">layers</a>.put(layerName, layer);</div><div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;        }</div><div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;</div><div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;        Feature feature = <span class="keyword">new</span> Feature();</div><div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;        feature.geometry = geometry;</div><div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;        feature.id = id;</div><div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;        this.<a class="code" href="a05038.html#a4fca3b92acf7d6b65165575a46b6f40c">autoincrement</a> = Math.max(this.<a class="code" href="a05038.html#a4fca3b92acf7d6b65165575a46b6f40c">autoincrement</a>, <span class="keywordtype">id</span> + 1);</div><div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;</div><div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;        <span class="keywordflow">for</span> (Map.Entry&lt;String, ?&gt; e : attributes.entrySet()) {</div><div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;            <span class="comment">// skip attribute without value</span></div><div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160;            <span class="keywordflow">if</span> (e.getValue() == null) {</div><div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160;                <span class="keywordflow">continue</span>;</div><div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;            }</div><div class="line"><a name="l00210"></a><span class="lineno">  210</span>&#160;            feature.tags.add(layer.key(e.getKey()));</div><div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;            feature.tags.add(layer.value(e.getValue()));</div><div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160;        }</div><div class="line"><a name="l00213"></a><span class="lineno">  213</span>&#160;</div><div class="line"><a name="l00214"></a><span class="lineno">  214</span>&#160;        layer.features.add(feature);</div><div class="line"><a name="l00215"></a><span class="lineno">  215</span>&#160;    }</div><div class="ttc" id="a05038_html_ae88dca2e5e3c5e871013b79575ee4bb5"><div class="ttname"><a href="a05038.html#ae88dca2e5e3c5e871013b79575ee4bb5">org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.parsers.VectorTileEncoder.layers</a></div><div class="ttdeci">final Map&lt; String, Layer &gt; layers</div><div class="ttdef"><b>Definition:</b> VectorTileEncoder.java:50</div></div>
-<div class="ttc" id="a05038_html_ae746f0d530da3673d0ecd420484ae60c"><div class="ttname"><a href="a05038.html#ae746f0d530da3673d0ecd420484ae60c">org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.parsers.VectorTileEncoder.addFeature</a></div><div class="ttdeci">void addFeature(String layerName, Map&lt; String, ?&gt; attributes, Geometry geometry)</div><div class="ttdef"><b>Definition:</b> VectorTileEncoder.java:135</div></div>
-<div class="ttc" id="a05038_html_a4fca3b92acf7d6b65165575a46b6f40c"><div class="ttname"><a href="a05038.html#a4fca3b92acf7d6b65165575a46b6f40c">org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.parsers.VectorTileEncoder.autoincrement</a></div><div class="ttdeci">long autoincrement</div><div class="ttdef"><b>Definition:</b> VectorTileEncoder.java:58</div></div>
-<div class="ttc" id="a05038_html_a238fdb21a4261a0a87b5eabfafce414d"><div class="ttname"><a href="a05038.html#a238fdb21a4261a0a87b5eabfafce414d">org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.parsers.VectorTileEncoder.clipCovers</a></div><div class="ttdeci">boolean clipCovers(Geometry geom)</div><div class="ttdoc">A short circuit clip to the tile extent (tile boundary + buffer) for points to improve performance...</div><div class="ttdef"><b>Definition:</b> VectorTileEncoder.java:224</div></div>
-<div class="ttc" id="a05038_html_a94dd1626c23c7ad8ee43c4fa762d5954"><div class="ttname"><a href="a05038.html#a94dd1626c23c7ad8ee43c4fa762d5954">org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.parsers.VectorTileEncoder.simplificationDistanceTolerance</a></div><div class="ttdeci">final double simplificationDistanceTolerance</div><div class="ttdef"><b>Definition:</b> VectorTileEncoder.java:62</div></div>
-<div class="ttc" id="a05038_html_a11a086a1486cd3fe6eefad6bec4c48a6"><div class="ttname"><a href="a05038.html#a11a086a1486cd3fe6eefad6bec4c48a6">org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.parsers.VectorTileEncoder.clipGeometry</a></div><div class="ttdeci">final Geometry clipGeometry</div><div class="ttdef"><b>Definition:</b> VectorTileEncoder.java:54</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a238fdb21a4261a0a87b5eabfafce414d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a238fdb21a4261a0a87b5eabfafce414d">&#9670;&nbsp;</a></span>clipCovers()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">boolean clipCovers </td>
-          <td>(</td>
-          <td class="paramtype">Geometry&#160;</td>
-          <td class="paramname"><em>geom</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>A short circuit clip to the tile extent (tile boundary + buffer) for points to improve performance. </p>
-<p>This method can be overridden to change clipping behavior. See also <a class="el" href="a05038.html#a472631d5396a7a9bb4e767a195df28d2">clipGeometry(Geometry)</a>.</p>
-<dl class="section see"><dt>See also</dt><dd><a href="https://github.com/ElectronicChartCentre/java-vector-tile/issues/13">https://github.com/ElectronicChartCentre/java-vector-tile/issues/13</a> </dd></dl>
-
-<p class="reference">Referenced by <a class="el" href="a05038.html#a2afe6a9071cc7d0e53c80fa46df18b61">VectorTileEncoder.addFeature()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160;                                                {</div><div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;        <span class="keywordflow">if</span> (geom instanceof Point) {</div><div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;            Point p = (Point) geom;</div><div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;            <span class="keywordflow">return</span> <a class="code" href="a05038.html#a11a086a1486cd3fe6eefad6bec4c48a6">clipGeometry</a>.getEnvelopeInternal().covers(p.getCoordinate());</div><div class="line"><a name="l00228"></a><span class="lineno">  228</span>&#160;        }</div><div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="a05038.html#a11a086a1486cd3fe6eefad6bec4c48a6">clipGeometry</a>.covers(geom);</div><div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;    }</div><div class="ttc" id="a05038_html_a11a086a1486cd3fe6eefad6bec4c48a6"><div class="ttname"><a href="a05038.html#a11a086a1486cd3fe6eefad6bec4c48a6">org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.parsers.VectorTileEncoder.clipGeometry</a></div><div class="ttdeci">final Geometry clipGeometry</div><div class="ttdef"><b>Definition:</b> VectorTileEncoder.java:54</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a472631d5396a7a9bb4e767a195df28d2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a472631d5396a7a9bb4e767a195df28d2">&#9670;&nbsp;</a></span>clipGeometry()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">Geometry clipGeometry </td>
-          <td>(</td>
-          <td class="paramtype">Geometry&#160;</td>
-          <td class="paramname"><em>geometry</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Clip geometry according to buffer given at construct time. </p>
-<p>This method can be overridden to change clipping behavior. See also <a class="el" href="a05038.html#a238fdb21a4261a0a87b5eabfafce414d">clipCovers(Geometry)</a>.</p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">geometry</td><td></td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd></dd></dl>
-<div class="fragment"><div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;                                                       {</div><div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160;        <span class="keywordflow">try</span> {</div><div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160;            Geometry original = geometry;</div><div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;            geometry = <a class="code" href="a05038.html#a11a086a1486cd3fe6eefad6bec4c48a6">clipGeometry</a>.intersection(original);</div><div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160;</div><div class="line"><a name="l00245"></a><span class="lineno">  245</span>&#160;            <span class="comment">// some times a intersection is returned as an empty geometry.</span></div><div class="line"><a name="l00246"></a><span class="lineno">  246</span>&#160;            <span class="comment">// going via wkt fixes the problem.</span></div><div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160;            <span class="keywordflow">if</span> (geometry.isEmpty() &amp;&amp; original.intersects(<a class="code" href="a05038.html#a11a086a1486cd3fe6eefad6bec4c48a6">clipGeometry</a>)) {</div><div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160;                Geometry originalViaWkt = <span class="keyword">new</span> WKTReader().read(original.toText());</div><div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160;                geometry = <a class="code" href="a05038.html#a11a086a1486cd3fe6eefad6bec4c48a6">clipGeometry</a>.intersection(originalViaWkt);</div><div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;            }</div><div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;</div><div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;            <span class="keywordflow">return</span> geometry;</div><div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;        } <span class="keywordflow">catch</span> (TopologyException e) {</div><div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160;            <span class="comment">// could not intersect. original geometry will be used instead.</span></div><div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160;            <span class="keywordflow">return</span> geometry;</div><div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160;        } <span class="keywordflow">catch</span> (ParseException e1) {</div><div class="line"><a name="l00257"></a><span class="lineno">  257</span>&#160;            <span class="comment">// could not encode/decode WKT. original geometry will be used</span></div><div class="line"><a name="l00258"></a><span class="lineno">  258</span>&#160;            <span class="comment">// instead.</span></div><div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160;            <span class="keywordflow">return</span> geometry;</div><div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160;        }</div><div class="line"><a name="l00261"></a><span class="lineno">  261</span>&#160;    }</div><div class="ttc" id="a05038_html_a11a086a1486cd3fe6eefad6bec4c48a6"><div class="ttname"><a href="a05038.html#a11a086a1486cd3fe6eefad6bec4c48a6">org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.parsers.VectorTileEncoder.clipGeometry</a></div><div class="ttdeci">final Geometry clipGeometry</div><div class="ttdef"><b>Definition:</b> VectorTileEncoder.java:54</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a4721ad9ffd3b71c83dbd0908f5a3ad31"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4721ad9ffd3b71c83dbd0908f5a3ad31">&#9670;&nbsp;</a></span>commandAndLength()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static int commandAndLength </td>
-          <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>command</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>repeat</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">package</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="a05038.html#a03e45867801ab80f36bb0670fdabba04">VectorTileEncoder.commands()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00505"></a><span class="lineno">  505</span>&#160;                                                         {</div><div class="line"><a name="l00506"></a><span class="lineno">  506</span>&#160;        <span class="keywordflow">return</span> repeat &lt;&lt; 3 | command;</div><div class="line"><a name="l00507"></a><span class="lineno">  507</span>&#160;    }</div></div><!-- fragment -->
-</div>
-</div>
-<a id="a8d03e469a8388947a2eb2658c933fc4c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8d03e469a8388947a2eb2658c933fc4c">&#9670;&nbsp;</a></span>commands() <span class="overload">[1/6]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">List&lt;Integer&gt; commands </td>
-          <td>(</td>
-          <td class="paramtype">Geometry&#160;</td>
-          <td class="paramname"><em>geometry</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">package</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="reference">References <a class="el" href="a05038.html#a5673340666e260f4fa2a46ae19a662a1">VectorTileEncoder.shouldClosePath()</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="a05038.html#a609a36dc9d80dad25dff50842ab6648b">VectorTileEncoder.commands()</a>, and <a class="el" href="a05038.html#ab467bae7ee09e6679725a5a385be624b">VectorTileEncoder.encode()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00356"></a><span class="lineno">  356</span>&#160;                                              {</div><div class="line"><a name="l00357"></a><span class="lineno">  357</span>&#160;        </div><div class="line"><a name="l00358"></a><span class="lineno">  358</span>&#160;        <span class="keywordflow">if</span> (geometry instanceof MultiLineString) {</div><div class="line"><a name="l00359"></a><span class="lineno">  359</span>&#160;            <span class="keywordflow">return</span> <a class="code" href="a05038.html#a8d03e469a8388947a2eb2658c933fc4c">commands</a>((MultiLineString) geometry);</div><div class="line"><a name="l00360"></a><span class="lineno">  360</span>&#160;        }</div><div class="line"><a name="l00361"></a><span class="lineno">  361</span>&#160;        <span class="keywordflow">if</span> (geometry instanceof Polygon) {</div><div class="line"><a name="l00362"></a><span class="lineno">  362</span>&#160;            <span class="keywordflow">return</span> <a class="code" href="a05038.html#a8d03e469a8388947a2eb2658c933fc4c">commands</a>((Polygon) geometry);</div><div class="line"><a name="l00363"></a><span class="lineno">  363</span>&#160;        }</div><div class="line"><a name="l00364"></a><span class="lineno">  364</span>&#160;        <span class="keywordflow">if</span> (geometry instanceof MultiPolygon) {</div><div class="line"><a name="l00365"></a><span class="lineno">  365</span>&#160;            <span class="keywordflow">return</span> <a class="code" href="a05038.html#a8d03e469a8388947a2eb2658c933fc4c">commands</a>((MultiPolygon) geometry);</div><div class="line"><a name="l00366"></a><span class="lineno">  366</span>&#160;        }        </div><div class="line"><a name="l00367"></a><span class="lineno">  367</span>&#160;        </div><div class="line"><a name="l00368"></a><span class="lineno">  368</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="a05038.html#a8d03e469a8388947a2eb2658c933fc4c">commands</a>(geometry.getCoordinates(), <a class="code" href="a05038.html#a5673340666e260f4fa2a46ae19a662a1">shouldClosePath</a>(geometry), geometry instanceof MultiPoint);</div><div class="line"><a name="l00369"></a><span class="lineno">  369</span>&#160;    }</div><div class="ttc" id="a05038_html_a8d03e469a8388947a2eb2658c933fc4c"><div class="ttname"><a href="a05038.html#a8d03e469a8388947a2eb2658c933fc4c">org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.parsers.VectorTileEncoder.commands</a></div><div class="ttdeci">List&lt; Integer &gt; commands(Geometry geometry)</div><div class="ttdef"><b>Definition:</b> VectorTileEncoder.java:356</div></div>
-<div class="ttc" id="a05038_html_a5673340666e260f4fa2a46ae19a662a1"><div class="ttname"><a href="a05038.html#a5673340666e260f4fa2a46ae19a662a1">org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.parsers.VectorTileEncoder.shouldClosePath</a></div><div class="ttdeci">static boolean shouldClosePath(Geometry geometry)</div><div class="ttdef"><b>Definition:</b> VectorTileEncoder.java:352</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a609a36dc9d80dad25dff50842ab6648b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a609a36dc9d80dad25dff50842ab6648b">&#9670;&nbsp;</a></span>commands() <span class="overload">[2/6]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">List&lt;Integer&gt; commands </td>
-          <td>(</td>
-          <td class="paramtype">MultiLineString&#160;</td>
-          <td class="paramname"><em>mls</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">package</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="reference">References <a class="el" href="a05038.html#a8d03e469a8388947a2eb2658c933fc4c">VectorTileEncoder.commands()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00371"></a><span class="lineno">  371</span>&#160;                                                {</div><div class="line"><a name="l00372"></a><span class="lineno">  372</span>&#160;        List&lt;Integer&gt; <a class="code" href="a05038.html#a8d03e469a8388947a2eb2658c933fc4c">commands</a> = <span class="keyword">new</span> ArrayList&lt;Integer&gt;();</div><div class="line"><a name="l00373"></a><span class="lineno">  373</span>&#160;        <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; mls.getNumGeometries(); i++) {</div><div class="line"><a name="l00374"></a><span class="lineno">  374</span>&#160;            commands.addAll(<a class="code" href="a05038.html#a8d03e469a8388947a2eb2658c933fc4c">commands</a>(mls.getGeometryN(i).getCoordinates(), <span class="keyword">false</span>));</div><div class="line"><a name="l00375"></a><span class="lineno">  375</span>&#160;        }</div><div class="line"><a name="l00376"></a><span class="lineno">  376</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="a05038.html#a8d03e469a8388947a2eb2658c933fc4c">commands</a>;</div><div class="line"><a name="l00377"></a><span class="lineno">  377</span>&#160;    }</div><div class="ttc" id="a05038_html_a8d03e469a8388947a2eb2658c933fc4c"><div class="ttname"><a href="a05038.html#a8d03e469a8388947a2eb2658c933fc4c">org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.parsers.VectorTileEncoder.commands</a></div><div class="ttdeci">List&lt; Integer &gt; commands(Geometry geometry)</div><div class="ttdef"><b>Definition:</b> VectorTileEncoder.java:356</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a3130e3caabb2961fb886ac9756313c3d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3130e3caabb2961fb886ac9756313c3d">&#9670;&nbsp;</a></span>commands() <span class="overload">[3/6]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">List&lt;Integer&gt; commands </td>
-          <td>(</td>
-          <td class="paramtype">MultiPolygon&#160;</td>
-          <td class="paramname"><em>mp</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">package</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="reference">References <a class="el" href="a05038.html#a8d03e469a8388947a2eb2658c933fc4c">VectorTileEncoder.commands()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00379"></a><span class="lineno">  379</span>&#160;                                            {</div><div class="line"><a name="l00380"></a><span class="lineno">  380</span>&#160;        List&lt;Integer&gt; <a class="code" href="a05038.html#a8d03e469a8388947a2eb2658c933fc4c">commands</a> = <span class="keyword">new</span> ArrayList&lt;Integer&gt;();</div><div class="line"><a name="l00381"></a><span class="lineno">  381</span>&#160;        <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; mp.getNumGeometries(); i++) {</div><div class="line"><a name="l00382"></a><span class="lineno">  382</span>&#160;            Polygon polygon = (Polygon) mp.getGeometryN(i);</div><div class="line"><a name="l00383"></a><span class="lineno">  383</span>&#160;            commands.addAll(<a class="code" href="a05038.html#a8d03e469a8388947a2eb2658c933fc4c">commands</a>(polygon));</div><div class="line"><a name="l00384"></a><span class="lineno">  384</span>&#160;        }</div><div class="line"><a name="l00385"></a><span class="lineno">  385</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="a05038.html#a8d03e469a8388947a2eb2658c933fc4c">commands</a>;</div><div class="line"><a name="l00386"></a><span class="lineno">  386</span>&#160;    }</div><div class="ttc" id="a05038_html_a8d03e469a8388947a2eb2658c933fc4c"><div class="ttname"><a href="a05038.html#a8d03e469a8388947a2eb2658c933fc4c">org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.parsers.VectorTileEncoder.commands</a></div><div class="ttdeci">List&lt; Integer &gt; commands(Geometry geometry)</div><div class="ttdef"><b>Definition:</b> VectorTileEncoder.java:356</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="ae07815429fd6e209e9330fc56fc434c5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae07815429fd6e209e9330fc56fc434c5">&#9670;&nbsp;</a></span>commands() <span class="overload">[4/6]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">List&lt;Integer&gt; commands </td>
-          <td>(</td>
-          <td class="paramtype">Polygon&#160;</td>
-          <td class="paramname"><em>polygon</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">package</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="reference">References <a class="el" href="a05038.html#a8d03e469a8388947a2eb2658c933fc4c">VectorTileEncoder.commands()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00388"></a><span class="lineno">  388</span>&#160;                                            {</div><div class="line"><a name="l00389"></a><span class="lineno">  389</span>&#160;        List&lt;Integer&gt; <a class="code" href="a05038.html#a8d03e469a8388947a2eb2658c933fc4c">commands</a> = <span class="keyword">new</span> ArrayList&lt;Integer&gt;();</div><div class="line"><a name="l00390"></a><span class="lineno">  390</span>&#160;</div><div class="line"><a name="l00391"></a><span class="lineno">  391</span>&#160;        <span class="comment">// According to the vector tile specification, the exterior ring of a polygon</span></div><div class="line"><a name="l00392"></a><span class="lineno">  392</span>&#160;        <span class="comment">// must be in clockwise order, while the interior ring in counter-clockwise order.</span></div><div class="line"><a name="l00393"></a><span class="lineno">  393</span>&#160;        <span class="comment">// In the tile coordinate system, Y axis is positive down.</span></div><div class="line"><a name="l00394"></a><span class="lineno">  394</span>&#160;        <span class="comment">//</span></div><div class="line"><a name="l00395"></a><span class="lineno">  395</span>&#160;        <span class="comment">// However, in geographic coordinate system, Y axis is positive up.</span></div><div class="line"><a name="l00396"></a><span class="lineno">  396</span>&#160;        <span class="comment">// Therefore, we must reverse the coordinates.</span></div><div class="line"><a name="l00397"></a><span class="lineno">  397</span>&#160;        <span class="comment">// So, the code below will make sure that exterior ring is in counter-clockwise order</span></div><div class="line"><a name="l00398"></a><span class="lineno">  398</span>&#160;        <span class="comment">// and interior ring in clockwise order.</span></div><div class="line"><a name="l00399"></a><span class="lineno">  399</span>&#160;        LineString exteriorRing = polygon.getExteriorRing();</div><div class="line"><a name="l00400"></a><span class="lineno">  400</span>&#160;        <span class="keywordflow">if</span> (!CGAlgorithms.isCCW(exteriorRing.getCoordinates())) {</div><div class="line"><a name="l00401"></a><span class="lineno">  401</span>&#160;            exteriorRing = (LineString) exteriorRing.reverse();</div><div class="line"><a name="l00402"></a><span class="lineno">  402</span>&#160;        }</div><div class="line"><a name="l00403"></a><span class="lineno">  403</span>&#160;        commands.addAll(<a class="code" href="a05038.html#a8d03e469a8388947a2eb2658c933fc4c">commands</a>(exteriorRing.getCoordinates(), <span class="keyword">true</span>));</div><div class="line"><a name="l00404"></a><span class="lineno">  404</span>&#160;</div><div class="line"><a name="l00405"></a><span class="lineno">  405</span>&#160;        <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; polygon.getNumInteriorRing(); i++) {</div><div class="line"><a name="l00406"></a><span class="lineno">  406</span>&#160;            LineString interiorRing = polygon.getInteriorRingN(i);</div><div class="line"><a name="l00407"></a><span class="lineno">  407</span>&#160;            <span class="keywordflow">if</span> (CGAlgorithms.isCCW(interiorRing.getCoordinates())) {</div><div class="line"><a name="l00408"></a><span class="lineno">  408</span>&#160;                interiorRing = (LineString) interiorRing.reverse();</div><div class="line"><a name="l00409"></a><span class="lineno">  409</span>&#160;            }</div><div class="line"><a name="l00410"></a><span class="lineno">  410</span>&#160;            commands.addAll(<a class="code" href="a05038.html#a8d03e469a8388947a2eb2658c933fc4c">commands</a>(interiorRing.getCoordinates(), <span class="keyword">true</span>));</div><div class="line"><a name="l00411"></a><span class="lineno">  411</span>&#160;        }</div><div class="line"><a name="l00412"></a><span class="lineno">  412</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="a05038.html#a8d03e469a8388947a2eb2658c933fc4c">commands</a>;</div><div class="line"><a name="l00413"></a><span class="lineno">  413</span>&#160;    }</div><div class="ttc" id="a05038_html_a8d03e469a8388947a2eb2658c933fc4c"><div class="ttname"><a href="a05038.html#a8d03e469a8388947a2eb2658c933fc4c">org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.parsers.VectorTileEncoder.commands</a></div><div class="ttdeci">List&lt; Integer &gt; commands(Geometry geometry)</div><div class="ttdef"><b>Definition:</b> VectorTileEncoder.java:356</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="ab6fa489aaca232801a274ecaae41afb5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab6fa489aaca232801a274ecaae41afb5">&#9670;&nbsp;</a></span>commands() <span class="overload">[5/6]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">List&lt;Integer&gt; commands </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="a05142.html">Coordinate</a> []&#160;</td>
-          <td class="paramname"><em>cs</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">boolean&#160;</td>
-          <td class="paramname"><em>closePathAtEnd</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">package</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>// // // Ex. </p>
-<p>: MoveTo(3, 6), LineTo(8, 12), LineTo(20, 34), ClosePath // Encoded as: [ 9 3 6 18 5 6 12 22 15 ] // == command type 7 (ClosePath), length 1 // ===== relative LineTo(+12, +22) == LineTo(20, 34) // === relative LineTo(+5, +6) == LineTo(8, 12) // == [00010 010] = command type 2 (LineTo), length 2 // === relative MoveTo(+3, +6) // == [00001 001] = command type 1 (MoveTo), length 1 // Commands are encoded as uint32 varints, vertex parameters are // encoded as sint32 varints (zigzag). Vertex parameters are // also encoded as deltas to the previous position. The original // position is (0,0)</p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">cs</td><td></td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd></dd></dl>
-
-<p class="reference">References <a class="el" href="a05038.html#a8d03e469a8388947a2eb2658c933fc4c">VectorTileEncoder.commands()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00432"></a><span class="lineno">  432</span>&#160;                                                                    {</div><div class="line"><a name="l00433"></a><span class="lineno">  433</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="a05038.html#a8d03e469a8388947a2eb2658c933fc4c">commands</a>(cs, closePathAtEnd, <span class="keyword">false</span>);</div><div class="line"><a name="l00434"></a><span class="lineno">  434</span>&#160;    }</div><div class="ttc" id="a05038_html_a8d03e469a8388947a2eb2658c933fc4c"><div class="ttname"><a href="a05038.html#a8d03e469a8388947a2eb2658c933fc4c">org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.parsers.VectorTileEncoder.commands</a></div><div class="ttdeci">List&lt; Integer &gt; commands(Geometry geometry)</div><div class="ttdef"><b>Definition:</b> VectorTileEncoder.java:356</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a03e45867801ab80f36bb0670fdabba04"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a03e45867801ab80f36bb0670fdabba04">&#9670;&nbsp;</a></span>commands() <span class="overload">[6/6]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">List&lt;Integer&gt; commands </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="a05142.html">Coordinate</a> []&#160;</td>
-          <td class="paramname"><em>cs</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">boolean&#160;</td>
-          <td class="paramname"><em>closePathAtEnd</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">boolean&#160;</td>
-          <td class="paramname"><em>multiPoint</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">package</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="reference">References <a class="el" href="a05038.html#a4721ad9ffd3b71c83dbd0908f5a3ad31">VectorTileEncoder.commandAndLength()</a>, <a class="el" href="a05142.html#a8e18a3a952a9e38a9a4191004a30c938">Coordinate.equals()</a>, <a class="el" href="a05142.html#af88b946fb90d5f08b5fb740c70e98c10">Coordinate.x</a>, <a class="el" href="a05142.html#ab927965981178aa1fba979a37168db2a">Coordinate.y</a>, and <a class="el" href="a05038.html#a4a332bf4dd7bd04e5f8e0f52d89ab043">VectorTileEncoder.zigZagEncode()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00436"></a><span class="lineno">  436</span>&#160;                                                                                        {</div><div class="line"><a name="l00437"></a><span class="lineno">  437</span>&#160;</div><div class="line"><a name="l00438"></a><span class="lineno">  438</span>&#160;        <span class="keywordflow">if</span> (cs.length == 0) {</div><div class="line"><a name="l00439"></a><span class="lineno">  439</span>&#160;            <span class="keywordflow">throw</span> <span class="keyword">new</span> IllegalArgumentException(<span class="stringliteral">&quot;empty geometry&quot;</span>);</div><div class="line"><a name="l00440"></a><span class="lineno">  440</span>&#160;        }</div><div class="line"><a name="l00441"></a><span class="lineno">  441</span>&#160;</div><div class="line"><a name="l00442"></a><span class="lineno">  442</span>&#160;        List&lt;Integer&gt; r = <span class="keyword">new</span> ArrayList&lt;Integer&gt;();</div><div class="line"><a name="l00443"></a><span class="lineno">  443</span>&#160;</div><div class="line"><a name="l00444"></a><span class="lineno">  444</span>&#160;        <span class="keywordtype">int</span> lineToIndex = 0;</div><div class="line"><a name="l00445"></a><span class="lineno">  445</span>&#160;        <span class="keywordtype">int</span> lineToLength = 0;</div><div class="line"><a name="l00446"></a><span class="lineno">  446</span>&#160;</div><div class="line"><a name="l00447"></a><span class="lineno">  447</span>&#160;        <span class="keywordtype">double</span> scale = <a class="code" href="a05038.html#a0d2071354864eea97c7aefbc7f3d2a5c">autoScale</a> ? (<a class="code" href="a05038.html#a6156e4ea9ca15fc926007ca518111147">extent</a> / 256.0) : 1.0;</div><div class="line"><a name="l00448"></a><span class="lineno">  448</span>&#160;</div><div class="line"><a name="l00449"></a><span class="lineno">  449</span>&#160;        <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; cs.length; i++) {</div><div class="line"><a name="l00450"></a><span class="lineno">  450</span>&#160;            Coordinate c = cs[i];</div><div class="line"><a name="l00451"></a><span class="lineno">  451</span>&#160;</div><div class="line"><a name="l00452"></a><span class="lineno">  452</span>&#160;            <span class="keywordflow">if</span> (i == 0) {</div><div class="line"><a name="l00453"></a><span class="lineno">  453</span>&#160;                r.add(<a class="code" href="a05038.html#a4721ad9ffd3b71c83dbd0908f5a3ad31">commandAndLength</a>(Command.MoveTo, multiPoint ? cs.length : 1));</div><div class="line"><a name="l00454"></a><span class="lineno">  454</span>&#160;            }</div><div class="line"><a name="l00455"></a><span class="lineno">  455</span>&#160;</div><div class="line"><a name="l00456"></a><span class="lineno">  456</span>&#160;            <span class="keywordtype">int</span> _x = (int) Math.round(c.x * scale);</div><div class="line"><a name="l00457"></a><span class="lineno">  457</span>&#160;            <span class="keywordtype">int</span> _y = (int) Math.round(c.y * scale);</div><div class="line"><a name="l00458"></a><span class="lineno">  458</span>&#160;</div><div class="line"><a name="l00459"></a><span class="lineno">  459</span>&#160;            <span class="comment">// prevent point equal to the previous</span></div><div class="line"><a name="l00460"></a><span class="lineno">  460</span>&#160;            <span class="keywordflow">if</span> (i &gt; 0 &amp;&amp; _x == <a class="code" href="a05038.html#a6150e0515f7202e2fb518f7206ed97dc">x</a> &amp;&amp; _y == <a class="code" href="a05038.html#a0a2f84ed7838f07779ae24c5a9086d33">y</a>) {</div><div class="line"><a name="l00461"></a><span class="lineno">  461</span>&#160;                lineToLength--;</div><div class="line"><a name="l00462"></a><span class="lineno">  462</span>&#160;                <span class="keywordflow">continue</span>;</div><div class="line"><a name="l00463"></a><span class="lineno">  463</span>&#160;            }</div><div class="line"><a name="l00464"></a><span class="lineno">  464</span>&#160;</div><div class="line"><a name="l00465"></a><span class="lineno">  465</span>&#160;            <span class="comment">// prevent double closing</span></div><div class="line"><a name="l00466"></a><span class="lineno">  466</span>&#160;            <span class="keywordflow">if</span> (closePathAtEnd &amp;&amp; cs.length &gt; 1 &amp;&amp; i == (cs.length - 1) &amp;&amp; cs[0].equals(c)) {</div><div class="line"><a name="l00467"></a><span class="lineno">  467</span>&#160;                lineToLength--;</div><div class="line"><a name="l00468"></a><span class="lineno">  468</span>&#160;                <span class="keywordflow">continue</span>;</div><div class="line"><a name="l00469"></a><span class="lineno">  469</span>&#160;            }</div><div class="line"><a name="l00470"></a><span class="lineno">  470</span>&#160;</div><div class="line"><a name="l00471"></a><span class="lineno">  471</span>&#160;            <span class="comment">// delta, then zigzag</span></div><div class="line"><a name="l00472"></a><span class="lineno">  472</span>&#160;            r.add(<a class="code" href="a05038.html#a4a332bf4dd7bd04e5f8e0f52d89ab043">zigZagEncode</a>(_x - <a class="code" href="a05038.html#a6150e0515f7202e2fb518f7206ed97dc">x</a>));</div><div class="line"><a name="l00473"></a><span class="lineno">  473</span>&#160;            r.add(<a class="code" href="a05038.html#a4a332bf4dd7bd04e5f8e0f52d89ab043">zigZagEncode</a>(_y - <a class="code" href="a05038.html#a0a2f84ed7838f07779ae24c5a9086d33">y</a>));</div><div class="line"><a name="l00474"></a><span class="lineno">  474</span>&#160;</div><div class="line"><a name="l00475"></a><span class="lineno">  475</span>&#160;            <a class="code" href="a05038.html#a6150e0515f7202e2fb518f7206ed97dc">x</a> = _x;</div><div class="line"><a name="l00476"></a><span class="lineno">  476</span>&#160;            <a class="code" href="a05038.html#a0a2f84ed7838f07779ae24c5a9086d33">y</a> = _y;</div><div class="line"><a name="l00477"></a><span class="lineno">  477</span>&#160;</div><div class="line"><a name="l00478"></a><span class="lineno">  478</span>&#160;            <span class="keywordflow">if</span> (i == 0 &amp;&amp; cs.length &gt; 1 &amp;&amp; !multiPoint) {</div><div class="line"><a name="l00479"></a><span class="lineno">  479</span>&#160;                <span class="comment">// can length be too long?</span></div><div class="line"><a name="l00480"></a><span class="lineno">  480</span>&#160;                lineToIndex = r.size();</div><div class="line"><a name="l00481"></a><span class="lineno">  481</span>&#160;                lineToLength = cs.length - 1;</div><div class="line"><a name="l00482"></a><span class="lineno">  482</span>&#160;                r.add(<a class="code" href="a05038.html#a4721ad9ffd3b71c83dbd0908f5a3ad31">commandAndLength</a>(Command.LineTo, lineToLength));</div><div class="line"><a name="l00483"></a><span class="lineno">  483</span>&#160;            }</div><div class="line"><a name="l00484"></a><span class="lineno">  484</span>&#160;</div><div class="line"><a name="l00485"></a><span class="lineno">  485</span>&#160;        }</div><div class="line"><a name="l00486"></a><span class="lineno">  486</span>&#160;</div><div class="line"><a name="l00487"></a><span class="lineno">  487</span>&#160;        <span class="comment">// update LineTo length</span></div><div class="line"><a name="l00488"></a><span class="lineno">  488</span>&#160;        <span class="keywordflow">if</span> (lineToIndex &gt; 0) {</div><div class="line"><a name="l00489"></a><span class="lineno">  489</span>&#160;            <span class="keywordflow">if</span> (lineToLength == 0) {</div><div class="line"><a name="l00490"></a><span class="lineno">  490</span>&#160;                <span class="comment">// remove empty LineTo</span></div><div class="line"><a name="l00491"></a><span class="lineno">  491</span>&#160;                r.remove(lineToIndex);</div><div class="line"><a name="l00492"></a><span class="lineno">  492</span>&#160;            } <span class="keywordflow">else</span> {</div><div class="line"><a name="l00493"></a><span class="lineno">  493</span>&#160;                <span class="comment">// update LineTo with new length</span></div><div class="line"><a name="l00494"></a><span class="lineno">  494</span>&#160;                r.set(lineToIndex, <a class="code" href="a05038.html#a4721ad9ffd3b71c83dbd0908f5a3ad31">commandAndLength</a>(Command.LineTo, lineToLength));</div><div class="line"><a name="l00495"></a><span class="lineno">  495</span>&#160;            }</div><div class="line"><a name="l00496"></a><span class="lineno">  496</span>&#160;        }</div><div class="line"><a name="l00497"></a><span class="lineno">  497</span>&#160;</div><div class="line"><a name="l00498"></a><span class="lineno">  498</span>&#160;        <span class="keywordflow">if</span> (closePathAtEnd) {</div><div class="line"><a name="l00499"></a><span class="lineno">  499</span>&#160;            r.add(<a class="code" href="a05038.html#a4721ad9ffd3b71c83dbd0908f5a3ad31">commandAndLength</a>(Command.ClosePath, 1));</div><div class="line"><a name="l00500"></a><span class="lineno">  500</span>&#160;        }</div><div class="line"><a name="l00501"></a><span class="lineno">  501</span>&#160;</div><div class="line"><a name="l00502"></a><span class="lineno">  502</span>&#160;        <span class="keywordflow">return</span> r;</div><div class="line"><a name="l00503"></a><span class="lineno">  503</span>&#160;    }</div><div class="ttc" id="a05038_html_a4721ad9ffd3b71c83dbd0908f5a3ad31"><div class="ttname"><a href="a05038.html#a4721ad9ffd3b71c83dbd0908f5a3ad31">org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.parsers.VectorTileEncoder.commandAndLength</a></div><div class="ttdeci">static int commandAndLength(int command, int repeat)</div><div class="ttdef"><b>Definition:</b> VectorTileEncoder.java:505</div></div>
-<div class="ttc" id="a05038_html_a4a332bf4dd7bd04e5f8e0f52d89ab043"><div class="ttname"><a href="a05038.html#a4a332bf4dd7bd04e5f8e0f52d89ab043">org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.parsers.VectorTileEncoder.zigZagEncode</a></div><div class="ttdeci">static int zigZagEncode(int n)</div><div class="ttdef"><b>Definition:</b> VectorTileEncoder.java:509</div></div>
-<div class="ttc" id="a05038_html_a6150e0515f7202e2fb518f7206ed97dc"><div class="ttname"><a href="a05038.html#a6150e0515f7202e2fb518f7206ed97dc">org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.parsers.VectorTileEncoder.x</a></div><div class="ttdeci">int x</div><div class="ttdef"><b>Definition:</b> VectorTileEncoder.java:415</div></div>
-<div class="ttc" id="a05038_html_a6156e4ea9ca15fc926007ca518111147"><div class="ttname"><a href="a05038.html#a6156e4ea9ca15fc926007ca518111147">org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.parsers.VectorTileEncoder.extent</a></div><div class="ttdeci">final int extent</div><div class="ttdef"><b>Definition:</b> VectorTileEncoder.java:52</div></div>
-<div class="ttc" id="a05038_html_a0a2f84ed7838f07779ae24c5a9086d33"><div class="ttname"><a href="a05038.html#a0a2f84ed7838f07779ae24c5a9086d33">org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.parsers.VectorTileEncoder.y</a></div><div class="ttdeci">int y</div><div class="ttdef"><b>Definition:</b> VectorTileEncoder.java:416</div></div>
-<div class="ttc" id="a05038_html_a0d2071354864eea97c7aefbc7f3d2a5c"><div class="ttname"><a href="a05038.html#a0d2071354864eea97c7aefbc7f3d2a5c">org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.parsers.VectorTileEncoder.autoScale</a></div><div class="ttdeci">final boolean autoScale</div><div class="ttdef"><b>Definition:</b> VectorTileEncoder.java:56</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a54caaecad39ad5bf55f357dde42d9e03"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a54caaecad39ad5bf55f357dde42d9e03">&#9670;&nbsp;</a></span>createTileEnvelope()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static Geometry createTileEnvelope </td>
-          <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>buffer</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>size</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="a05038.html#a755ece0c745563d98c1ca5715b7d5b98">VectorTileEncoder.VectorTileEncoder()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;                                                                     {</div><div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;        Coordinate[] coords = <span class="keyword">new</span> Coordinate[5];</div><div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;        coords[0] = <span class="keyword">new</span> Coordinate(0 - buffer, size + buffer);</div><div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;        coords[1] = <span class="keyword">new</span> Coordinate(size + buffer, size + buffer);</div><div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;        coords[2] = <span class="keyword">new</span> Coordinate(size + buffer, 0 - buffer);</div><div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;        coords[3] = <span class="keyword">new</span> Coordinate(0 - buffer, 0 - buffer);</div><div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;        coords[4] = coords[0];</div><div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">new</span> GeometryFactory().createPolygon(coords);</div><div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;    }</div></div><!-- fragment -->
-</div>
-</div>
-<a id="ab467bae7ee09e6679725a5a385be624b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab467bae7ee09e6679725a5a385be624b">&#9670;&nbsp;</a></span>encode()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">byte [] encode </td>
+          <td class="memname">String toString </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<dl class="section return"><dt>Returns</dt><dd>a byte array with the vector tile </dd></dl>
-
-<p class="reference">References <a class="el" href="a05038.html#a8d03e469a8388947a2eb2658c933fc4c">VectorTileEncoder.commands()</a>, <a class="el" href="a05042.html#a2b66f5f4579c910c9f7b7ccc043c3037">VectorTileEncoder.Layer.features</a>, <a class="el" href="a05046.html#a6d74c3aac1525133bde98589527d1591">VectorTileEncoder.Feature.geometry</a>, <a class="el" href="a05046.html#a7350fbd6ad10618f3b750b1f99ca5c3c">VectorTileEncoder.Feature.id</a>, <a class="el" href="a05042.html#a885c190e82027881ec3ed1533283c966">VectorTileEncoder.Layer.keys</a>, <a class="el" href="a05046.html#a07f0767bc5cf0b77ab9cb1aa260765d5">VectorTileEncoder.Feature.tags</a>, <a class="el" href="a05038.html#a0897d6363c27cf553ee978eacaca4dad">VectorTileEncoder.toGeomType()</a>, <a class="el" href="a05042.html#a8159c164675963389d4522cae972207b">VectorTileEncoder.Layer.values</a>, <a class="el" href="a05038.html#a6150e0515f7202e2fb518f7206ed97dc">VectorTileEncoder.x</a>, and <a class="el" href="a05038.html#a0a2f84ed7838f07779ae24c5a9086d33">VectorTileEncoder.y</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="a04970.html#ae918a517e1ebcc44beeee2c55008d248">MVTDatatype.unparse()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00266"></a><span class="lineno">  266</span>&#160;                           {</div><div class="line"><a name="l00267"></a><span class="lineno">  267</span>&#160;        </div><div class="line"><a name="l00268"></a><span class="lineno">  268</span>&#160;        VectorTile.Tile.Builder tile = VectorTile.Tile.newBuilder();</div><div class="line"><a name="l00269"></a><span class="lineno">  269</span>&#160;</div><div class="line"><a name="l00270"></a><span class="lineno">  270</span>&#160;        <span class="keywordflow">for</span> (Map.Entry&lt;String, Layer&gt; e : <a class="code" href="a05038.html#ae88dca2e5e3c5e871013b79575ee4bb5">layers</a>.entrySet()) {</div><div class="line"><a name="l00271"></a><span class="lineno">  271</span>&#160;            String layerName = e.getKey();</div><div class="line"><a name="l00272"></a><span class="lineno">  272</span>&#160;            Layer layer = e.getValue();</div><div class="line"><a name="l00273"></a><span class="lineno">  273</span>&#160;</div><div class="line"><a name="l00274"></a><span class="lineno">  274</span>&#160;            VectorTile.Tile.Layer.Builder tileLayer = VectorTile.Tile.Layer.newBuilder();</div><div class="line"><a name="l00275"></a><span class="lineno">  275</span>&#160;            </div><div class="line"><a name="l00276"></a><span class="lineno">  276</span>&#160;            tileLayer.setVersion(2);</div><div class="line"><a name="l00277"></a><span class="lineno">  277</span>&#160;            tileLayer.setName(layerName);</div><div class="line"><a name="l00278"></a><span class="lineno">  278</span>&#160;</div><div class="line"><a name="l00279"></a><span class="lineno">  279</span>&#160;            tileLayer.addAllKeys(layer.keys());</div><div class="line"><a name="l00280"></a><span class="lineno">  280</span>&#160;</div><div class="line"><a name="l00281"></a><span class="lineno">  281</span>&#160;            <span class="keywordflow">for</span> (Object value : layer.values()) {</div><div class="line"><a name="l00282"></a><span class="lineno">  282</span>&#160;                VectorTile.Tile.Value.Builder tileValue = VectorTile.Tile.Value.newBuilder();</div><div class="line"><a name="l00283"></a><span class="lineno">  283</span>&#160;                <span class="keywordflow">if</span> (value instanceof String) {</div><div class="line"><a name="l00284"></a><span class="lineno">  284</span>&#160;                    tileValue.setStringValue((String) value);</div><div class="line"><a name="l00285"></a><span class="lineno">  285</span>&#160;                } <span class="keywordflow">else</span> <span class="keywordflow">if</span> (value instanceof Integer) {</div><div class="line"><a name="l00286"></a><span class="lineno">  286</span>&#160;                    tileValue.setSintValue(((Integer) value).intValue());</div><div class="line"><a name="l00287"></a><span class="lineno">  287</span>&#160;                } <span class="keywordflow">else</span> <span class="keywordflow">if</span> (value instanceof Long) {</div><div class="line"><a name="l00288"></a><span class="lineno">  288</span>&#160;                    tileValue.setSintValue(((Long) value).longValue());</div><div class="line"><a name="l00289"></a><span class="lineno">  289</span>&#160;                } <span class="keywordflow">else</span> <span class="keywordflow">if</span> (value instanceof Float) {</div><div class="line"><a name="l00290"></a><span class="lineno">  290</span>&#160;                    tileValue.setFloatValue(((Float) value).floatValue());</div><div class="line"><a name="l00291"></a><span class="lineno">  291</span>&#160;                } <span class="keywordflow">else</span> <span class="keywordflow">if</span> (value instanceof Double) {</div><div class="line"><a name="l00292"></a><span class="lineno">  292</span>&#160;                    tileValue.setDoubleValue(((Double) value).doubleValue());</div><div class="line"><a name="l00293"></a><span class="lineno">  293</span>&#160;                } <span class="keywordflow">else</span> <span class="keywordflow">if</span> (value instanceof Boolean) {</div><div class="line"><a name="l00294"></a><span class="lineno">  294</span>&#160;                    tileValue.setBoolValue(((Boolean) value).booleanValue());</div><div class="line"><a name="l00295"></a><span class="lineno">  295</span>&#160;                } <span class="keywordflow">else</span> {</div><div class="line"><a name="l00296"></a><span class="lineno">  296</span>&#160;                    tileValue.setStringValue(value.toString());</div><div class="line"><a name="l00297"></a><span class="lineno">  297</span>&#160;                }</div><div class="line"><a name="l00298"></a><span class="lineno">  298</span>&#160;                tileLayer.addValues(tileValue.build());</div><div class="line"><a name="l00299"></a><span class="lineno">  299</span>&#160;            }</div><div class="line"><a name="l00300"></a><span class="lineno">  300</span>&#160;</div><div class="line"><a name="l00301"></a><span class="lineno">  301</span>&#160;            tileLayer.setExtent(<a class="code" href="a05038.html#a6156e4ea9ca15fc926007ca518111147">extent</a>);</div><div class="line"><a name="l00302"></a><span class="lineno">  302</span>&#160;</div><div class="line"><a name="l00303"></a><span class="lineno">  303</span>&#160;            <span class="keywordflow">for</span> (Feature feature : layer.features) {</div><div class="line"><a name="l00304"></a><span class="lineno">  304</span>&#160;</div><div class="line"><a name="l00305"></a><span class="lineno">  305</span>&#160;                Geometry geometry = feature.geometry;</div><div class="line"><a name="l00306"></a><span class="lineno">  306</span>&#160;</div><div class="line"><a name="l00307"></a><span class="lineno">  307</span>&#160;                VectorTile.Tile.Feature.Builder featureBuilder = VectorTile.Tile.Feature.newBuilder();</div><div class="line"><a name="l00308"></a><span class="lineno">  308</span>&#160;</div><div class="line"><a name="l00309"></a><span class="lineno">  309</span>&#160;                featureBuilder.addAllTags(feature.tags);</div><div class="line"><a name="l00310"></a><span class="lineno">  310</span>&#160;                <span class="keywordflow">if</span> (feature.id &gt;= 0) {</div><div class="line"><a name="l00311"></a><span class="lineno">  311</span>&#160;                    featureBuilder.setId(feature.id);</div><div class="line"><a name="l00312"></a><span class="lineno">  312</span>&#160;                }</div><div class="line"><a name="l00313"></a><span class="lineno">  313</span>&#160;</div><div class="line"><a name="l00314"></a><span class="lineno">  314</span>&#160;                featureBuilder.setType(<a class="code" href="a05038.html#a0897d6363c27cf553ee978eacaca4dad">toGeomType</a>(geometry));</div><div class="line"><a name="l00315"></a><span class="lineno">  315</span>&#160;                </div><div class="line"><a name="l00316"></a><span class="lineno">  316</span>&#160;                <a class="code" href="a05038.html#a6150e0515f7202e2fb518f7206ed97dc">x</a> = 0;</div><div class="line"><a name="l00317"></a><span class="lineno">  317</span>&#160;                <a class="code" href="a05038.html#a0a2f84ed7838f07779ae24c5a9086d33">y</a> = 0;</div><div class="line"><a name="l00318"></a><span class="lineno">  318</span>&#160;                featureBuilder.addAllGeometry(<a class="code" href="a05038.html#a8d03e469a8388947a2eb2658c933fc4c">commands</a>(geometry));</div><div class="line"><a name="l00319"></a><span class="lineno">  319</span>&#160;</div><div class="line"><a name="l00320"></a><span class="lineno">  320</span>&#160;                tileLayer.addFeatures(featureBuilder.build());</div><div class="line"><a name="l00321"></a><span class="lineno">  321</span>&#160;            }</div><div class="line"><a name="l00322"></a><span class="lineno">  322</span>&#160;</div><div class="line"><a name="l00323"></a><span class="lineno">  323</span>&#160;            tile.addLayers(tileLayer.build());</div><div class="line"><a name="l00324"></a><span class="lineno">  324</span>&#160;</div><div class="line"><a name="l00325"></a><span class="lineno">  325</span>&#160;        }</div><div class="line"><a name="l00326"></a><span class="lineno">  326</span>&#160;</div><div class="line"><a name="l00327"></a><span class="lineno">  327</span>&#160;        <span class="keywordflow">return</span> tile.build().toByteArray();</div><div class="line"><a name="l00328"></a><span class="lineno">  328</span>&#160;    }</div><div class="ttc" id="a05038_html_ae88dca2e5e3c5e871013b79575ee4bb5"><div class="ttname"><a href="a05038.html#ae88dca2e5e3c5e871013b79575ee4bb5">org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.parsers.VectorTileEncoder.layers</a></div><div class="ttdeci">final Map&lt; String, Layer &gt; layers</div><div class="ttdef"><b>Definition:</b> VectorTileEncoder.java:50</div></div>
-<div class="ttc" id="a05038_html_a8d03e469a8388947a2eb2658c933fc4c"><div class="ttname"><a href="a05038.html#a8d03e469a8388947a2eb2658c933fc4c">org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.parsers.VectorTileEncoder.commands</a></div><div class="ttdeci">List&lt; Integer &gt; commands(Geometry geometry)</div><div class="ttdef"><b>Definition:</b> VectorTileEncoder.java:356</div></div>
-<div class="ttc" id="a05038_html_a0897d6363c27cf553ee978eacaca4dad"><div class="ttname"><a href="a05038.html#a0897d6363c27cf553ee978eacaca4dad">org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.parsers.VectorTileEncoder.toGeomType</a></div><div class="ttdeci">static VectorTile.Tile.GeomType toGeomType(Geometry geometry)</div><div class="ttdef"><b>Definition:</b> VectorTileEncoder.java:330</div></div>
-<div class="ttc" id="a05038_html_a6150e0515f7202e2fb518f7206ed97dc"><div class="ttname"><a href="a05038.html#a6150e0515f7202e2fb518f7206ed97dc">org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.parsers.VectorTileEncoder.x</a></div><div class="ttdeci">int x</div><div class="ttdef"><b>Definition:</b> VectorTileEncoder.java:415</div></div>
-<div class="ttc" id="a05038_html_a6156e4ea9ca15fc926007ca518111147"><div class="ttname"><a href="a05038.html#a6156e4ea9ca15fc926007ca518111147">org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.parsers.VectorTileEncoder.extent</a></div><div class="ttdeci">final int extent</div><div class="ttdef"><b>Definition:</b> VectorTileEncoder.java:52</div></div>
-<div class="ttc" id="a05038_html_a0a2f84ed7838f07779ae24c5a9086d33"><div class="ttname"><a href="a05038.html#a0a2f84ed7838f07779ae24c5a9086d33">org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.parsers.VectorTileEncoder.y</a></div><div class="ttdeci">int y</div><div class="ttdef"><b>Definition:</b> VectorTileEncoder.java:416</div></div>
+<div class="fragment"><div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;                             {</div><div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;        <span class="keywordflow">return</span> <span class="stringliteral">&quot;WKTDatatype{&quot;</span> + <a class="code" href="a05038.html#addbf30e6c0ad68fa34277d59a2c6eb5e">URI</a> + <span class="charliteral">&#39;}&#39;</span>;</div><div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;    }</div><div class="ttc" id="a05038_html_addbf30e6c0ad68fa34277d59a2c6eb5e"><div class="ttname"><a href="a05038.html#addbf30e6c0ad68fa34277d59a2c6eb5e">org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.literals.vector.WKTDatatype.URI</a></div><div class="ttdeci">static final String URI</div><div class="ttdoc">The default WKT type URI. </div><div class="ttdef"><b>Definition:</b> WKTDatatype.java:20</div></div>
 </div><!-- fragment -->
 </div>
 </div>
-<a id="a5673340666e260f4fa2a46ae19a662a1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5673340666e260f4fa2a46ae19a662a1">&#9670;&nbsp;</a></span>shouldClosePath()</h2>
+<a id="ae918a517e1ebcc44beeee2c55008d248"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae918a517e1ebcc44beeee2c55008d248">&#9670;&nbsp;</a></span>unparse()</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static boolean shouldClosePath </td>
+          <td class="memname">String unparse </td>
           <td>(</td>
           <td class="paramtype">Geometry&#160;</td>
           <td class="paramname"><em>geometry</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">package</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="a05038.html#a8d03e469a8388947a2eb2658c933fc4c">VectorTileEncoder.commands()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00352"></a><span class="lineno">  352</span>&#160;                                                      {</div><div class="line"><a name="l00353"></a><span class="lineno">  353</span>&#160;        <span class="keywordflow">return</span> (geometry instanceof Polygon) || (geometry instanceof LinearRing);</div><div class="line"><a name="l00354"></a><span class="lineno">  354</span>&#160;    }</div></div><!-- fragment -->
-</div>
-</div>
-<a id="a0897d6363c27cf553ee978eacaca4dad"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0897d6363c27cf553ee978eacaca4dad">&#9670;&nbsp;</a></span>toGeomType()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static VectorTile.Tile.GeomType toGeomType </td>
-          <td>(</td>
-          <td class="paramtype">Geometry&#160;</td>
-          <td class="paramname"><em>geometry</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">package</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="a05038.html#ab467bae7ee09e6679725a5a385be624b">VectorTileEncoder.encode()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00330"></a><span class="lineno">  330</span>&#160;                                                                  {</div><div class="line"><a name="l00331"></a><span class="lineno">  331</span>&#160;        <span class="keywordflow">if</span> (geometry instanceof Point) {</div><div class="line"><a name="l00332"></a><span class="lineno">  332</span>&#160;            <span class="keywordflow">return</span> VectorTile.Tile.GeomType.POINT;</div><div class="line"><a name="l00333"></a><span class="lineno">  333</span>&#160;        }</div><div class="line"><a name="l00334"></a><span class="lineno">  334</span>&#160;        <span class="keywordflow">if</span> (geometry instanceof MultiPoint) {</div><div class="line"><a name="l00335"></a><span class="lineno">  335</span>&#160;            <span class="keywordflow">return</span> VectorTile.Tile.GeomType.POINT;</div><div class="line"><a name="l00336"></a><span class="lineno">  336</span>&#160;        }</div><div class="line"><a name="l00337"></a><span class="lineno">  337</span>&#160;        <span class="keywordflow">if</span> (geometry instanceof LineString) {</div><div class="line"><a name="l00338"></a><span class="lineno">  338</span>&#160;            <span class="keywordflow">return</span> VectorTile.Tile.GeomType.LINESTRING;</div><div class="line"><a name="l00339"></a><span class="lineno">  339</span>&#160;        }</div><div class="line"><a name="l00340"></a><span class="lineno">  340</span>&#160;        <span class="keywordflow">if</span> (geometry instanceof MultiLineString) {</div><div class="line"><a name="l00341"></a><span class="lineno">  341</span>&#160;            <span class="keywordflow">return</span> VectorTile.Tile.GeomType.LINESTRING;</div><div class="line"><a name="l00342"></a><span class="lineno">  342</span>&#160;        }</div><div class="line"><a name="l00343"></a><span class="lineno">  343</span>&#160;        <span class="keywordflow">if</span> (geometry instanceof Polygon) {</div><div class="line"><a name="l00344"></a><span class="lineno">  344</span>&#160;            <span class="keywordflow">return</span> VectorTile.Tile.GeomType.POLYGON;</div><div class="line"><a name="l00345"></a><span class="lineno">  345</span>&#160;        }</div><div class="line"><a name="l00346"></a><span class="lineno">  346</span>&#160;        <span class="keywordflow">if</span> (geometry instanceof MultiPolygon) {</div><div class="line"><a name="l00347"></a><span class="lineno">  347</span>&#160;            <span class="keywordflow">return</span> VectorTile.Tile.GeomType.POLYGON;</div><div class="line"><a name="l00348"></a><span class="lineno">  348</span>&#160;        }</div><div class="line"><a name="l00349"></a><span class="lineno">  349</span>&#160;        <span class="keywordflow">return</span> VectorTile.Tile.GeomType.UNKNOWN;</div><div class="line"><a name="l00350"></a><span class="lineno">  350</span>&#160;    }</div></div><!-- fragment -->
-</div>
-</div>
-<a id="a4a332bf4dd7bd04e5f8e0f52d89ab043"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4a332bf4dd7bd04e5f8e0f52d89ab043">&#9670;&nbsp;</a></span>zigZagEncode()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static int zigZagEncode </td>
-          <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>n</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">package</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="a05038.html#a03e45867801ab80f36bb0670fdabba04">VectorTileEncoder.commands()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00509"></a><span class="lineno">  509</span>&#160;                                   {</div><div class="line"><a name="l00510"></a><span class="lineno">  510</span>&#160;        <span class="comment">// https://developers.google.com/protocol-buffers/docs/encoding#types</span></div><div class="line"><a name="l00511"></a><span class="lineno">  511</span>&#160;        <span class="keywordflow">return</span> (n &lt;&lt; 1) ^ (n &gt;&gt; 31);</div><div class="line"><a name="l00512"></a><span class="lineno">  512</span>&#160;    }</div></div><!-- fragment -->
+<p>This method Un-parses the JTS Geometry to the WKT literal. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">geometry</td><td>- the JTS Geometry to be un-parsed </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>WKT - the returned WKT Literal. <br />
+ Notice that the Spatial Reference System is not specified in returned WKT literal. </dd></dl>
+<div class="fragment"><div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;                                             {</div><div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;            WKTWriter writer=<span class="keyword">new</span> WKTWriter();</div><div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;            <span class="keywordflow">return</span> writer.write(geometry).toString();</div><div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    }</div></div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="a4fca3b92acf7d6b65165575a46b6f40c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4fca3b92acf7d6b65165575a46b6f40c">&#9670;&nbsp;</a></span>autoincrement</h2>
+<a id="a3e60086252e5262f1238a2d9cbd491d9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3e60086252e5262f1238a2d9cbd491d9">&#9670;&nbsp;</a></span>INSTANCE</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -956,20 +194,24 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">long autoincrement</td>
+          <td class="memname">final <a class="el" href="a05038.html">WKTDatatype</a> INSTANCE = new <a class="el" href="a05038.html">WKTDatatype</a>()</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
+<p>A static instance of <a class="el" href="a05038.html">WKTDatatype</a>. </p>
+
+<p class="reference">Referenced by <a class="el" href="a04914.html#ab2c1f34f60c2740f703068f27871a32b">LiteralRegistry.LiteralRegistry()</a>, <a class="el" href="a05826.html#a63588109fc080478770a7d3cc31b245d">GeneratePointsTest.testGeneratePoints()</a>, and <a class="el" href="a05674.html#afddc561f05c41e1e550b54ca967bd2e9">NodeTest.testNode()</a>.</p>
+
 </div>
 </div>
-<a id="a71c6a6d579e5725eac2cfe6ee6c9f031"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a71c6a6d579e5725eac2cfe6ee6c9f031">&#9670;&nbsp;</a></span>autoincrementIds</h2>
+<a id="ae02c2e86ac0dea8538c7b43e9e82421a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae02c2e86ac0dea8538c7b43e9e82421a">&#9670;&nbsp;</a></span>LiteralIRI</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -978,22 +220,22 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">final boolean autoincrementIds</td>
+          <td class="memname">final IRI LiteralIRI =SimpleValueFactory.getInstance().createIRI(<a class="el" href="a02726.html#ad263658bd03fbb2214983c7860869a23">POSTGIS.NAMESPACE</a>+&quot;wktLiteral&quot;)</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="a05038.html#a46ffbd751e81c8a09f9813029c5436ba">VectorTileEncoder.VectorTileEncoder()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="a05366.html#a326426f92a343411bc6035a5e9a4192f">NDimsTest.test2DGeom()</a>, <a class="el" href="a05366.html#aa6b2641c27685af72bd5946823648455">NDimsTest.test3DGeom()</a>, <a class="el" href="a05402.html#a4ebf1443292e242753148cb8748d9169">AddGeometryTest.testAddGeometry()</a>, <a class="el" href="a05406.html#a788e3676eaba471d99d698f53d72615c">AddPointTest.testAddPoint()</a>, <a class="el" href="a05906.html#abfc2c7e942ef652635d2256ba4e1fa47">AddRingTest.testAddRing()</a>, <a class="el" href="a05766.html#a0cf5bb8fb4d0971e797f7a4e75601b26">AngleTest.testAngle()</a>, <a class="el" href="a05250.html#a0a36ddf1f9fc8aaeec6833dc8816cd41">AreaTest.testArea()</a>, <a class="el" href="a05486.html#a6be5d939e472b1ba6360e0aed0003e21">AreaSimilarityTest.testAreaSimilarity()</a>, <a class="el" href="a05430.html#ac230b10882e3be05bacc871fce2fc609">AsBinaryTest.testAsBinary()</a>, <a class="el" href="a05754.html#a77e364f1e18fbe312ed563af435ddc8f">AsEncodedPolylineTest.testAsEncodedPolyline()</a>, <a class="el" href="a05450.html#a77e364f1e18fbe312ed563af435ddc8f">AsHexWKBTest.testAsEncodedPolyline()</a>, <a class="el" href="a05434.html#a80929de20ed59fa635418039d48a9ef7">AsGARSTest.testAsGARS()</a>, <a class="el" href="a05438.html#a6aee2cc3188bbf40fb4d946ed66e57c2">AsGeoJSONTest.testAsGeoJSON()</a>, <a class="el" href="a05442.html#aae403d68ccc2ecfb409ca338b5ba0101">AsGeoRSSTest.testAsGeoURI()</a>, <a class="el" href="a05446.html#aae403d68ccc2ecfb409ca338b5ba0101">AsGeoURITest.testAsGeoURI()</a>, <a class="el" href="a05454.html#a294440bf0a1785c6cea76200ebf53818">AsLatLonTextTest.testAsLatLonText()</a>, <a class="el" href="a05458.html#a31833fe8b6139bfbdcd328ee943729e2">AsOSMLinkTest.testAsOSMLink()</a>, <a class="el" href="a05462.html#aa4ec805ffcfb140ead8292a441244775">AsPolyshapeTest.testAsPolyShape()</a>, <a class="el" href="a05466.html#a7051938045f1413d97e8c5925b1c7677">AsSVGTest.testAsSVG()</a>, <a class="el" href="a05478.html#a2bc485e1c6e58872aaf6237c16706862">AsTextTest.testAsText()</a>, <a class="el" href="a05470.html#abe6b8113553114d4969c61497fcbd472">AsTextRawTest.testAsTextRaw()</a>, <a class="el" href="a05474.html#a48e3642d229bd7292cf49871d69ed015">AsTextRoundTest.testAsTextRound()</a>, <a class="el" href="a05478.html#acb072617d87d75036d226b17ec239fad">AsTextTest.testAsTextZ()</a>, <a class="el" href="a05482.html#a651953dc3a68b5b3795c7e668472170e">AsTWKBTest.testAsTWKB()</a>, <a class="el" href="a05770.html#afb57967d41a75bfa55c7f1443b245d14">AzimuthTest.testAzimuth1()</a>, <a class="el" href="a05206.html#a0e5151be9c17b1a363f0e9587a76dad8">BBOXAboveTest.testBBOXAbove()</a>, <a class="el" href="a05206.html#afef7a8dc9560d094946b475413049d29">BBOXAboveTest.testBBOXAbove1()</a>, <a class="el" href="a05210.html#a594cd72ca71bae81e2fc3388cd6a1acf">BBOXBelowTest.testBBOXBelow()</a>, <a class="el" href="a05210.html#a93106ea7627b07fa96ea139a729727c1">BBOXBelowTest.testBBOXBelow1()</a>, <a class="el" href="a05214.html#acdd5bf40ab928cffac073b2a29a4d8bd">BBOXContainsTest.testBBOXContainsFalse()</a>, <a class="el" href="a05214.html#ad768af1415f572372ce470613e313973">BBOXContainsTest.testBBOXContainsTrue()</a>, <a class="el" href="a05218.html#a92dec506ee3b1258b55159ac890afd0a">BBOXDistanceTest.testBBOXDistance()</a>, <a class="el" href="a05222.html#a65d4445f223ebf303b66d955c2e952a6">BBOXEqualsTest.testBBOXEqualsFalse()</a>, <a class="el" href="a05222.html#ad1155a5de7fc0df0da73b9f0404c343e">BBOXEqualsTest.testBBOXEqualsTrue()</a>, <a class="el" href="a05226.html#aaa8cea420874d841f268b11df7527bf6">BBOXIntersectsTest.testBBOXIntersectsFalse()</a>, <a class="el" href="a05226.html#a459ad32373854b732ca67ab7578b6567">BBOXIntersectsTest.testBBOXIntersectsTrue()</a>, <a class="el" href="a05230.html#a4faa99f827f3e15f179704bfe38d73c9">BBOXIsContainedByTest.testBBOXIsContainedByFalse()</a>, <a class="el" href="a05230.html#a064a60b41689445f77952f6ee979fcf8">BBOXIsContainedByTest.testBBOXIsContainedByTrue()</a>, <a class="el" href="a05234.html#acc092dffcd1d5d422d27501b6b691ef0">BBOXLeftOfTest.testBBOXLeftOf()</a>, <a class="el" href="a05234.html#a635c2e49e869cfa91cf3defbcde7f5ad">BBOXLeftOfTest.testBBOXLeftOf1()</a>, <a class="el" href="a05238.html#ad8452bac5fb7d65a31413318229e0eeb">BBOXOverlapsLeftTest.testBBOXLeftOfFalse()</a>, <a class="el" href="a05238.html#a91d3692da3353932d8aebd7a73621805">BBOXOverlapsLeftTest.testBBOXLeftOfTrue()</a>, <a class="el" href="a05242.html#a1d3293620606e59a1f913178b94ea7fd">BBOXOverlapsRightTest.testBBOXRightOf()</a>, <a class="el" href="a05246.html#a1d3293620606e59a1f913178b94ea7fd">BBOXRightOfTest.testBBOXRightOf()</a>, <a class="el" href="a05242.html#ae27abe3e3daa14fdd8094ad71b5cb2cc">BBOXOverlapsRightTest.testBBOXRightOf1()</a>, <a class="el" href="a05246.html#ae27abe3e3daa14fdd8094ad71b5cb2cc">BBOXRightOfTest.testBBOXRightOf1()</a>, <a class="el" href="a05258.html#a5905b320ef165de047ef4ff2e9167268">BoundingDiagonalTest.testBoundingDiagonal()</a>, <a class="el" href="a05254.html#a5905b320ef165de047ef4ff2e9167268">BoundaryTest.testBoundingDiagonal()</a>, <a class="el" href="a05262.html#a4d1dfbf2fba1b5c88a704bccbcb65cb9">CentroidTest.testCentroid()</a>, <a class="el" href="a05490.html#a312e87d7afb4dd085ada4f2f2c8d288f">CentroidDistanceTest.testCentroidDistance()</a>, <a class="el" href="a05738.html#ab117b00757c51734ab1129a2d595a5cb">StartPointTest.testCircularString()</a>, <a class="el" href="a05846.html#af8da9616fd1ee304df92759a8b87da02">CircumcentreTest.testCircumcentre1()</a>, <a class="el" href="a05494.html#af30fa8d36bc2cb8bd652397169d9708d">ClosestPointTest.testClosestPoint()</a>, <a class="el" href="a05634.html#ad65aa26b3876b84d26c4b988083bd940">CollectionExtractTest.testCollectionExtract()</a>, <a class="el" href="a05638.html#a0a22ab00e85a35d2da22ba287cd37a3f">CollectionHomogenizeTest.testCollectionHomogenize()</a>, <a class="el" href="a05266.html#a59967568bbd6211556c900a674e7d734">CompactnessRatioTest.testCompactnessRatio()</a>, <a class="el" href="a05642.html#a94a17603d200a0a1f4817b4687ee592d">DensifyTest.testDensify()</a>, <a class="el" href="a05502.html#a046a87b712c4f6ddedaf1e78a64c5524">DistanceTest.testDistance()</a>, <a class="el" href="a05502.html#ae04fbd8c837f2115939842c0268c2a85">DistanceTest.testDistance2()</a>, <a class="el" href="a05498.html#a00f0d8d505e98b0a2030febc43784429">DistanceSphereTest.testDistanceSphere()</a>, <a class="el" href="a05498.html#a4e55a7f6b607feb274072e2449231447">DistanceSphereTest.testDistanceSphere2()</a>, <a class="el" href="a05410.html#ace1b0f448a93ab083e49e59b851b8094">EnsureClosedTest.testEnsureClosed()</a>, <a class="el" href="a05410.html#a7a93140658cbcf5aea17d9f930cd5144">EnsureClosedTest.testEnsureClosed2()</a>, <a class="el" href="a05518.html#a2a99a285d6ad7938bb12707abf0b2dd2">EqualTypeTest.testEqual()</a>, <a class="el" href="a05506.html#a1928f13a833e5a2e8b142a5937d86c8b">EqualNormTest.testEqualNormFalse()</a>, <a class="el" href="a05506.html#ab11a3d6b71627dd555022e7a29ada7be">EqualNormTest.testEqualNormTrue()</a>, <a class="el" href="a05510.html#a65423949d44f9275c8e65852f1d2c21f">EqualSRSTest.testEqualSRS()</a>, <a class="el" href="a05514.html#a8274875a2d4c85b886223bd494666e36">EqualTopoTest.testEqualTopoFalse()</a>, <a class="el" href="a05514.html#a523cb10739809e6f16d7ba6f26d34cde">EqualTopoTest.testEqualTopoTrue()</a>, <a class="el" href="a05646.html#ad1e5e682acb0c53bb386a80a7186ae38">FlipCoordinatesTest.testFlipCoordinates()</a>, <a class="el" href="a05650.html#ac1b65b91741abc3458f3a8303d7c0388">Force2DTest.testForce2D()</a>, <a class="el" href="a05658.html#a029b956696a32125657d2d2027b78866">Force3DTest.testForce3D()</a>, <a class="el" href="a05654.html#a809df5824b4a08713e4ce726cb369a8d">Force3DMTest.testForce3DM()</a>, <a class="el" href="a05654.html#a1efd448688434012347e3bc8972acb49">Force3DMTest.testForce3DM2()</a>, <a class="el" href="a05662.html#ad31ba6d34e7770eae5de0864a25b1766">Force4DTest.testForce4D()</a>, <a class="el" href="a05666.html#a80928c2dac15d3b159f8708462c2141e">ForceCollectionTest.testForceCollection()</a>, <a class="el" href="a05666.html#a7fb6c41061d547328e4d4147ed19f55f">ForceCollectionTest.testForceCollectionZ()</a>, <a class="el" href="a05918.html#aabb33f7582f68ceca6d6f943ee181450">ForcePolygonCCWTest.testForcePolygonCCW()</a>, <a class="el" href="a05922.html#a4a3251cf639eba4c1f3f2c4467d6434a">ForcePolygonCWTest.testForcePolygonCW()</a>, <a class="el" href="a05522.html#ae3a3dc920c5179e22a01c5c5682989bd">FullyWithinDistanceTest.testFullyWithinDistanceFalse()</a>, <a class="el" href="a05526.html#a5bf1108229fcb950f9fe74e48a8aee7c">FurthestCoordinateTest.testFurthestCoordinate()</a>, <a class="el" href="a05826.html#a63588109fc080478770a7d3cc31b245d">GeneratePointsTest.testGeneratePoints()</a>, <a class="el" href="a05586.html#a2c470394b50cb82403dc328abdcacff7">GeomCRSToWKTTest.testGeomCRSToWKT()</a>, <a class="el" href="a05286.html#ab8f9e80081b7ac2106ef406ffbb215e2">IsCollectionTest.testGeometryCollectionIsCollection()</a>, <a class="el" href="a05394.html#a64b3f7b5bcdec5b93820a9958c0622a3">GeomFromTextTest.testGeomFromGeoJSON()</a>, <a class="el" href="a05398.html#a64b3f7b5bcdec5b93820a9958c0622a3">GeomFromWKBTest.testGeomFromGeoJSON()</a>, <a class="el" href="a05850.html#a725a2cc1c4ba4909307c9a2fa07558d8">HasConnectedInteriorTest.testHasConnectedInteriorFalse()</a>, <a class="el" href="a05850.html#a95e618db9d2053f26b5194e3bec0d2a0">HasConnectedInteriorTest.testHasConnectedInteriorTrue()</a>, <a class="el" href="a05854.html#a3957683118b9d5473c635a38d7e6c6e8">HasDuplicateRingsTest.testHasDuplicateRingsFalse()</a>, <a class="el" href="a05854.html#a3779f6b4849bf60c716f7dff71089a2a">HasDuplicateRingsTest.testHasDuplicateRingsTrue()</a>, <a class="el" href="a05274.html#a9d25864362180719a756bf187c003b28">HasHorizontalCRSTest.testHasHorizontalCRSFalse()</a>, <a class="el" href="a05274.html#a9f2bde364661ddf6af32fec9ad9085b1">HasHorizontalCRSTest.testHasHorizontalCRSTrue()</a>, <a class="el" href="a05278.html#ac91c06c07e42b36c2957d3b47609ea12">HasRepeatedPointsTest.testHasRepeatedPoints()</a>, <a class="el" href="a05278.html#a573715384a3d69a8e8c4722bc82c5e5e">HasRepeatedPointsTest.testHasRepeatedPoints2()</a>, <a class="el" href="a05722.html#a4a909b32ed78a5e48e6acd2cdd04519b">HasSelfIntersectionsTest.testHasSelfIntersectionsFalse()</a>, <a class="el" href="a05722.html#ae67f84fa98ae098d78896e2c9885a5ca">HasSelfIntersectionsTest.testHasSelfIntersectionsTrue()</a>, <a class="el" href="a05530.html#a865da90312a6602e13430f1b3218608b">HausdorffDistanceTest.testHausdorffDistance()</a>, <a class="el" href="a05534.html#a8537ca55b85b9d59789190d637670f0b">IntersectionMatrixTest.testIntersectionMatrix()</a>, <a class="el" href="a05538.html#a49e1dab16866e800563f476db34781d5">IntersectionPercentageTest.testIntersectionPercentage()</a>, <a class="el" href="a05538.html#a90a7db3783150309d73dc80df07f4b85">IntersectionPercentageTest.testIntersectionPercentage2()</a>, <a class="el" href="a05282.html#ab78a03db57d15bcac7ef5487e5bee11e">Is3DTest.testIs3DFalse()</a>, <a class="el" href="a05858.html#a5b3dbe6f41b97c30eaff61a7c0c6f344">IsAcuteTest.testIsAcuteFalse()</a>, <a class="el" href="a05858.html#aea45a7ea1a6bbd2c8bf3bfa751ec4e1f">IsAcuteTest.testIsAcuteTrue()</a>, <a class="el" href="a05866.html#a84d7af36a321a8f38760993ee03431f1">IsConvexTest.testIsConvexFalse()</a>, <a class="el" href="a05866.html#a72b02d577b66678dc78571b6ca1901cc">IsConvexTest.testIsConvexTrue()</a>, <a class="el" href="a05290.html#ad6c1db43fc5b06667b4d7679c36196bf">IsEmptyTest.testIsEmptyFalse()</a>, <a class="el" href="a05290.html#acf5aa6d804534044ced38ebbf685b780">IsEmptyTest.testIsEmptyTrue()</a>, <a class="el" href="a05870.html#a571ad95224e990b47f1f7e3f98589811">IsEquilateralTriangleTest.testIsEquilateralTriangleFalse()</a>, <a class="el" href="a05870.html#a88faba98866013b2fa45b645b61965bf">IsEquilateralTriangleTest.testIsEquilateralTriangleTrue()</a>, <a class="el" href="a05294.html#ab086dd0d0debad3790e452ffa6c1fa28">IsInCRSAreaOfValidityTest.testIsInCRSAreaOfValidityFalse()</a>, <a class="el" href="a05294.html#afff3ea2274b06643aaa5806616e7ca8e">IsInCRSAreaOfValidityTest.testIsInCRSAreaOfValidityTrue()</a>, <a class="el" href="a05874.html#aa81dce05daae6f34aac43c24bd033ef0">IsIsocelesTriangleTest.testIsIsocelesTriangleFalse()</a>, <a class="el" href="a05874.html#aae4d62f37acbace0beb2e9dbba631072">IsIsocelesTriangleTest.testIsIsocelesTriangleTrue()</a>, <a class="el" href="a05298.html#a0d34749daed816e995d607f25393f8bd">IsMeasuredTest.testIsMeasuredFalse()</a>, <a class="el" href="a05298.html#a94b07ea8a866ff9332c709b77d204342">IsMeasuredTest.testIsMeasuredTrue()</a>, <a class="el" href="a05542.html#af73484f4bc31d84668467514e4c723ab">IsMorePreciseTest.testIsMorePreciseEqual()</a>, <a class="el" href="a05542.html#a0472b697feac19fb09cd117d6d4048f2">IsMorePreciseTest.testIsMorePreciseFirst()</a>, <a class="el" href="a05542.html#a019fb2f806ef7386d3a5b6411e62ac44">IsMorePreciseTest.testIsMorePreciseSecond()</a>, <a class="el" href="a05302.html#af36f9410a0c4d62c262b4398b5723223">IsNodingValidTest.testIsNodingValuedTrue()</a>, <a class="el" href="a05306.html#a0e75cb938cfe0c5f0e6555d748eccf2d">IsPlanarTest.testIsPlanarTrue()</a>, <a class="el" href="a05878.html#a68f9159867e6465340465684732c1eb6">IsPolygonCCWTest.testIsPolygonCCWFalse()</a>, <a class="el" href="a05878.html#a1f97fe37dded953f0f1c89d25f651edc">IsPolygonCCWTest.testIsPolygonCCWTrue()</a>, <a class="el" href="a05882.html#a017c3fe070c2ab2e34a67d428cec06d3">IsPolygonCWTest.testIsPolygonCWFalse()</a>, <a class="el" href="a05882.html#a65124e83aa8d64983e3fc4a131479949">IsPolygonCWTest.testIsPolygonCWTrue()</a>, <a class="el" href="a05310.html#a5f21b4a097f15af24dcc034f575e4e4a">IsRectangleTest.testIsRectangleFalse()</a>, <a class="el" href="a05310.html#acebf1f487a11cc34db915552f23c6383">IsRectangleTest.testIsRectangleTrue()</a>, <a class="el" href="a05886.html#a014f8772916bad586cbe991926c56e4b">IsRightTriangleTest.testIsRightTriangleFalse()</a>, <a class="el" href="a05886.html#a7a35cee3266bee7a434b79dd69e81373">IsRightTriangleTest.testIsRightTriangleTrue()</a>, <a class="el" href="a05842.html#ac6f7d4cf9bd1990319a4e7a5bb51d4b1">CircularityTest.testIsScaleneTriangleFalse()</a>, <a class="el" href="a05842.html#a86b14a35c3e202b5a14bdaea4c16a441">CircularityTest.testIsScaleneTriangleTrue()</a>, <a class="el" href="a05318.html#a0e3a5c39c0d37b52035d9e40cf70b7ef">IsSolidTest.testIsSolidFalse()</a>, <a class="el" href="a05322.html#a173bda31cdc35a0e147f2c50957b2e27">IsSquareTest.testIsSquareFalse()</a>, <a class="el" href="a05322.html#af9173bfcbf2fff582439949957ccc709">IsSquareTest.testIsSquareTrue()</a>, <a class="el" href="a05890.html#a9a683ec2f8cc07231bddc07213698183">IsTriangleTest.testIsTriangleFalse()</a>, <a class="el" href="a05890.html#a6a1ccdd76246a421ef6ae80bc7c4e87c">IsTriangleTest.testIsTriangleTrue()</a>, <a class="el" href="a05326.html#abe8c10068a1ed9f8a4fea754990b0a48">IsValidTest.testIsValidFalse()</a>, <a class="el" href="a05326.html#a9556e5304e9a52193523b36c47bcd844">IsValidTest.testIsValidTrue()</a>, <a class="el" href="a05270.html#a0444ce8df222ae81e1a33426a32d8d7a">GeometryTypeTest.testLineString()</a>, <a class="el" href="a05330.html#a0444ce8df222ae81e1a33426a32d8d7a">LengthTest.testLineString()</a>, <a class="el" href="a05730.html#a0444ce8df222ae81e1a33426a32d8d7a">PointNTest.testLineString()</a>, <a class="el" href="a05746.html#a100e1041d9eed0108cb20adfb3ccb714">SetEndPointTest.testLineString2D()</a>, <a class="el" href="a05750.html#a100e1041d9eed0108cb20adfb3ccb714">SetStartPointTest.testLineString2D()</a>, <a class="el" href="a05718.html#a100e1041d9eed0108cb20adfb3ccb714">EndPointTest.testLineString2D()</a>, <a class="el" href="a05738.html#a100e1041d9eed0108cb20adfb3ccb714">StartPointTest.testLineString2D()</a>, <a class="el" href="a05718.html#aed8078596e87405b402dec09f15eb681">EndPointTest.testLineString3D()</a>, <a class="el" href="a05738.html#aed8078596e87405b402dec09f15eb681">StartPointTest.testLineString3D()</a>, <a class="el" href="a05862.html#a535dfcf17dd3d286958ec2268d19deb5">IsClosedTest.testLineStringClosed()</a>, <a class="el" href="a05286.html#a513937962f26a1affcc4d0c369733a79">IsCollectionTest.testLineStringIsCollection()</a>, <a class="el" href="a05726.html#a321e37eed11ab4c4fb34459ff2f0c8a4">IsRingTest.testLineStringIsNotRing()</a>, <a class="el" href="a05726.html#af99150f0a2baa803f3a32475e363a546">IsRingTest.testLineStringIsRing()</a>, <a class="el" href="a05862.html#a73d74b41617d10452367388732cfdc67">IsClosedTest.testLineStringNotClosed()</a>, <a class="el" href="a05546.html#a67123b25e212bf04a36a62bbd917df3d">LongestLineTest.testLongestLine()</a>, <a class="el" href="a05806.html#adf992bfe9f69c80e821f0c3edfd18fca">MTest.testM()</a>, <a class="el" href="a05742.html#ae1794702b16fed527256a87c40858865">MakeLineTest.testMakeLine1()</a>, <a class="el" href="a05830.html#a2f24e9ad47589d2191a0512d20a8a9ba">MakePointTest.testMakePoint1()</a>, <a class="el" href="a05830.html#a3ba406df071dd5b2e9404776e414c4cd">MakePointTest.testMakePointXYZ()</a>, <a class="el" href="a05550.html#acd5d6c70876299a0278552ba577a7efc">MaxDistance3DTest.testMaxDistance()</a>, <a class="el" href="a05554.html#acd5d6c70876299a0278552ba577a7efc">MaxDistanceTest.testMaxDistance()</a>, <a class="el" href="a05366.html#a17b047bacf8d47cfe9eb1b95260abd70">NDimsTest.testMGeom()</a>, <a class="el" href="a05334.html#ae83e48bad70898d10790438246feadad">MinimumBoundingCircleCenterTest.testMinimumBoundingCircle()</a>, <a class="el" href="a05338.html#ae83e48bad70898d10790438246feadad">MinimumBoundingCircleTest.testMinimumBoundingCircle()</a>, <a class="el" href="a05342.html#a5667209a5677a7711029bc6a83d59d32">MinimumBoundingRadiusTest.testMinimumBoundingRadius()</a>, <a class="el" href="a05350.html#a66deeca736cad11f886ba1567bcb6fe1">MinimumClearanceTest.testMinimumClearance()</a>, <a class="el" href="a05346.html#a61877f78d0d415e1cd48f477474017e6">MinimumClearanceLineTest.testMinimumClearanceLine()</a>, <a class="el" href="a05358.html#a73584ebc5e2d20692de63f5ae4f13387">MinimumDiameterTest.testMinimumDiameter()</a>, <a class="el" href="a05354.html#ac6734228b3f88748ca1545e62811f616">MinimumDiameterLineTest.testMinimumDiameterLine()</a>, <a class="el" href="a05362.html#a113f2072fe3a9c6603a02548b81f6545">MinimumRectangleTest.testMinimumRectangle()</a>, <a class="el" href="a05774.html#afdcd3120493a23d4869c03134d63f41e">MaxMTest.testMMax()</a>, <a class="el" href="a05790.html#a11f2bb6837c81b000eee4c62ba8ce7f0">MinMTest.testMMin()</a>, <a class="el" href="a05670.html#a132a5ee02a51082794ac01f2787422c1">MultiTest.testMulti2D()</a>, <a class="el" href="a05670.html#afee46817e97b41a801cd7a7acf30e801">MultiTest.testMulti3D()</a>, <a class="el" href="a05286.html#af185514d9e978598dc7aa4ba06572494">IsCollectionTest.testMultiLineStringIsCollection()</a>, <a class="el" href="a05862.html#a46c6b5fafb3fb83ca34bed8a76614a05">IsClosedTest.testMultiLineStringNotClosed()</a>, <a class="el" href="a05862.html#a3ccb0f6a8770f2a4ac3d61a34e17308e">IsClosedTest.testmultiPointClosed()</a>, <a class="el" href="a05286.html#abe0dc5056717b405438313e86f9017f2">IsCollectionTest.testMultiPointIsCollection()</a>, <a class="el" href="a05286.html#a3cb8a0ddd3838eedbcbb6c1651e3a9c0">IsCollectionTest.testMultiPolygonIsCollection()</a>, <a class="el" href="a05674.html#afddc561f05c41e1e550b54ca967bd2e9">NodeTest.testNode()</a>, <a class="el" href="a05734.html#a08dd11e1d44a910007de229eada7aa6d">SelfIntersectionsTest.testNoSelfIntersections()</a>, <a class="el" href="a05510.html#a9512f8c6cc810712e75379a2ac3af62a">EqualSRSTest.testNoSRS()</a>, <a class="el" href="a05518.html#a9195b3462bb379b0139e99b85954d5e4">EqualTypeTest.testNotEqual()</a>, <a class="el" href="a05510.html#a53e030c2e7a0f1d14425a168c2add23b">EqualSRSTest.testNotEqualSRS()</a>, <a class="el" href="a05894.html#a232253c11ffc2c2e17e969ee3180b704">NRingsTest.testNRings()</a>, <a class="el" href="a05370.html#a4c2be1b9a8d6a00b4330789b2fb25b6d">NumDistinctGeometriesTest.testNumDistinctGeometries()</a>, <a class="el" href="a05370.html#ad95b2c5cc3431fd3f26670a7f769eec7">NumDistinctGeometriesTest.testNumDistinctGeometriesCollection()</a>, <a class="el" href="a05374.html#aac9f79f9e21b36c6addad28b9e81bec6">NumDistinctPointsTest.testNumDistinctPoints()</a>, <a class="el" href="a05378.html#a66251605d7d3ce37996ccd2d7fa613fd">NumGeometriesTest.testNumGeometries()</a>, <a class="el" href="a05378.html#a2ad2fa8733f1826ddd7c66355901ff7d">NumGeometriesTest.testNumGeometriesCollection()</a>, <a class="el" href="a05382.html#ab30b87a5d89bd6e36dae388ce20e61a7">NumPointsTest.testNumPoints()</a>, <a class="el" href="a05558.html#a35b0ff8ac582857f1742c06e5db14fb2">OrderingEqualsTest.testOrderingEquals1()</a>, <a class="el" href="a05558.html#a258a7b3f7cf473377b4aaed9d19641c4">OrderingEqualsTest.testOrderingEquals2()</a>, <a class="el" href="a05558.html#a47191a77968729eba6c2f943834b3992">OrderingEqualsTest.testOrderingEquals3()</a>, <a class="el" href="a05386.html#ab5f32e4b3cc7543d929e0660b76d1973">PerimeterTest.testPerimeter()</a>, <a class="el" href="a05718.html#a67242842aad66b0a00820a5d4d7ea731">EndPointTest.testPoint()</a>, <a class="el" href="a05738.html#a67242842aad66b0a00820a5d4d7ea731">StartPointTest.testPoint()</a>, <a class="el" href="a05862.html#a833c7f3f2807c95b41de4f5c776b7eb0">IsClosedTest.testpointClosed()</a>, <a class="el" href="a05834.html#a34b8808318d84beec7ded7da39c5ef6e">PointFromTextTest.testPointFromText()</a>, <a class="el" href="a05810.html#a9a4ba902062dec5571daf7e79671a55b">PointInsideCircleTest.testPointInsideCircleFalse()</a>, <a class="el" href="a05286.html#ae050c74afe9d24c25aa8cfddca93609d">IsCollectionTest.testPointIsCollection()</a>, <a class="el" href="a05678.html#a0c4e639ac6891f00e71463cfe4504aec">PointsTest.testPoints()</a>, <a class="el" href="a05678.html#a757f54bd6bd9ad86ecd364c346e80d73">PointsTest.testPoints3D()</a>, <a class="el" href="a05810.html#a69c706f18cbb51436922e86f97221780">PointInsideCircleTest.testPoitnInsideCircleTrue()</a>, <a class="el" href="a05898.html#ab92731bfcc813cfd3d1741c6033a79cb">PolygonFromTextTest.testPolygonFromText()</a>, <a class="el" href="a05286.html#aa73539bce49dc7ae2102874315d15e51">IsCollectionTest.testPolygonIsCollection()</a>, <a class="el" href="a05682.html#a486d6504bb92a61902ac29e25b3d31a8">PrecisionReducerTest.testPrecisionReducer()</a>, <a class="el" href="a05566.html#a8592662d9e01b3d8f2f9a86b6bb48372">RelateTest.testRelate()</a>, <a class="el" href="a05414.html#a910e74995416610c31bdfb5ab3260d76">RemoveGeometryTest.testRemoveGeometry1()</a>, <a class="el" href="a05414.html#a60a65740b83f0a07de47b82baf1ff4e1">RemoveGeometryTest.testRemoveGeometry1Z()</a>, <a class="el" href="a05414.html#affbdb9b48b9af6eedbf8d011f683a631">RemoveGeometryTest.testRemoveGeometry2()</a>, <a class="el" href="a05414.html#af5c1b4eec2210853d1e7f1c6d6f2a02c">RemoveGeometryTest.testRemoveGeometry2Z()</a>, <a class="el" href="a05418.html#a5e9b64ff404fa9347af445dc61f510b7">RemovePointTest.testRemovePoint()</a>, <a class="el" href="a05418.html#ab04b102dbd8ad6ffb069a768eaf23da4">RemovePointTest.testRemovePointZ()</a>, <a class="el" href="a05686.html#a473d131a5f96a89f9502570a50d06e65">RemoveRepeatedPointsTest.testRemoveRepeatedPoints()</a>, <a class="el" href="a05910.html#ad886abc46152c92cd03887b3f71760c7">RemoveRingTest.testRemoveRing()</a>, <a class="el" href="a05690.html#ac38f1a963c4494ff939bad764b01b127">ReverseTest.testReverse()</a>, <a class="el" href="a05926.html#a341309060348e532f6606d50945a52bd">ReverseRingTest.testReverseRing()</a>, <a class="el" href="a05734.html#a3d2c64bb3b45c45751b144babb6906da">SelfIntersectionsTest.testSelfIntersections()</a>, <a class="el" href="a05422.html#af89f48a1a50817a7d76674ee1fc57cce">SetGeometryTest.testSetGeometry()</a>, <a class="el" href="a05426.html#a52b4ba451c7a5d90f46ae63b5ac3919b">SetPointTest.testSetPoint()</a>, <a class="el" href="a05914.html#ad03fb669accdb6228a8cd3c914d39cf4">SetRingTest.testSetRing()</a>, <a class="el" href="a05694.html#a706f714749526b3516c84d5741993811">ShiftLongitudeTest.testShiftLongitude()</a>, <a class="el" href="a05570.html#afa1a1d15c5b993ecdc02ab403652c157">ShortestLine3DTest.testShortestLine()</a>, <a class="el" href="a05574.html#afa1a1d15c5b993ecdc02ab403652c157">ShortestLineTest.testShortestLine()</a>, <a class="el" href="a05702.html#aa558cd336665fb035373b5b11e212cb9">SimplifyTest.testSimplify()</a>, <a class="el" href="a05706.html#a4b0417b619689d07743ff9d72212c847">SimplifyVWTest.testSimplifyVW()</a>, <a class="el" href="a05698.html#a4b0417b619689d07743ff9d72212c847">SimplifyPreserveTopologyTest.testSimplifyVW()</a>, <a class="el" href="a05594.html#ae0ff51be0fe1734cba043c3509606d4d">SridGetAxis1OrientationTest.testSridAxis1Orientation()</a>, <a class="el" href="a05602.html#a4cce208d444c0a86d19f93731ff4a6b3">SridGetAxis2OrientationTest.testSridAxis2Orientation()</a>, <a class="el" href="a05590.html#a15a1a9864e65a0020c26d406fd64b26a">SridGetAxis1NameTest.testSridGetAxis1Name()</a>, <a class="el" href="a05598.html#aa23d52a72eb64b4bee30038ab09e5e21">SridGetAxis2NameTest.testSridGetAxis2Name()</a>, <a class="el" href="a05606.html#a9d3a137e39e84c0018de3b734b787554">SridGetDatumTest.testSridGetDatum()</a>, <a class="el" href="a05610.html#a94f12f6d4a3fe8f25be5144338eb0198">SridHasFlippedAxisTest.testSridHasFlippedAxis()</a>, <a class="el" href="a05614.html#abd1395d0581a64740ed1bae57b2882b3">SridIsGeographicTest.testSridIsGeographicFalse()</a>, <a class="el" href="a05614.html#a09f0ac6b4b2a063a3d1df32d600b9b11">SridIsGeographicTest.testSridIsGeographicTrue()</a>, <a class="el" href="a05618.html#a79fa3e75c2d90e917a8ece94f56a16ba">SridIsProjectedTest.testSridIsProjectedTrue()</a>, <a class="el" href="a05622.html#a0b5d17dad676c3ce02f884832b907843">SridIsVerticalTest.testSridIsVerticalTrue()</a>, <a class="el" href="a05710.html#afb4577949dbe6ea13a5d8c00afd1c339">SwapOrdinatesTest.testSwapOrdinates()</a>, <a class="el" href="a05714.html#a8169037c504558c555e457db95ca9864">TransScaleTest.testTransScale()</a>, <a class="el" href="a05814.html#a1e3155737e5f85b2951ee3c741495d07">XTest.testX()</a>, <a class="el" href="a05778.html#af45d6c06ced12c7882c5eab73bcc9ec8">MaxXTest.testXMax()</a>, <a class="el" href="a05794.html#aaa132c80f0f011e968829153a96b9402">MinXTest.testXMin()</a>, <a class="el" href="a05818.html#aa09d6b9dc5ef19f88e38f2d543d9715f">YTest.testY()</a>, <a class="el" href="a05782.html#a98991d9326941ea2d984df31280c0db4">MaxYTest.testYMax()</a>, <a class="el" href="a05798.html#ae9287504522420380f967a4bad0ce136">MinYTest.testYMin()</a>, <a class="el" href="a05822.html#ac463fcc72b3892f24bbd0dc3b8902044">ZTest.testZ()</a>, <a class="el" href="a05786.html#aa30e80ee55397130f30395f3c09b1e39">MaxZTest.testZMax()</a>, and <a class="el" href="a05802.html#a4611a55cc1ca54817f58770fda369856">MinZTest.testZMin()</a>.</p>
 
 </div>
 </div>
-<a id="a0d2071354864eea97c7aefbc7f3d2a5c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0d2071354864eea97c7aefbc7f3d2a5c">&#9670;&nbsp;</a></span>autoScale</h2>
+<a id="addbf30e6c0ad68fa34277d59a2c6eb5e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#addbf30e6c0ad68fa34277d59a2c6eb5e">&#9670;&nbsp;</a></span>URI</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1002,159 +244,19 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">final boolean autoScale</td>
+          <td class="memname">final String URI = <a class="el" href="a02726.html#ad263658bd03fbb2214983c7860869a23">POSTGIS.NAMESPACE</a>+&quot;wktLiteral&quot;</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="a05038.html#a9c4c4a8c16cc3cb87db23b3002952288">VectorTileEncoder.VectorTileEncoder()</a>.</p>
+<p>The default WKT type URI. </p>
 
-</div>
-</div>
-<a id="a11a086a1486cd3fe6eefad6bec4c48a6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a11a086a1486cd3fe6eefad6bec4c48a6">&#9670;&nbsp;</a></span>clipGeometry</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">final Geometry clipGeometry</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="a05038.html#a2afe6a9071cc7d0e53c80fa46df18b61">VectorTileEncoder.addFeature()</a>.</p>
-
-</div>
-</div>
-<a id="a6156e4ea9ca15fc926007ca518111147"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6156e4ea9ca15fc926007ca518111147">&#9670;&nbsp;</a></span>extent</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">final int extent</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="a05038.html#a6899f21a676eda188153448587027273">VectorTileEncoder.VectorTileEncoder()</a>.</p>
-
-</div>
-</div>
-<a id="ae88dca2e5e3c5e871013b79575ee4bb5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae88dca2e5e3c5e871013b79575ee4bb5">&#9670;&nbsp;</a></span>layers</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">final Map&lt;String, <a class="el" href="a05042.html">Layer</a>&gt; layers = new LinkedHashMap&lt;String, <a class="el" href="a05042.html">Layer</a>&gt;()</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a94dd1626c23c7ad8ee43c4fa762d5954"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a94dd1626c23c7ad8ee43c4fa762d5954">&#9670;&nbsp;</a></span>simplificationDistanceTolerance</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">final double simplificationDistanceTolerance</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="a05038.html#a755ece0c745563d98c1ca5715b7d5b98">VectorTileEncoder.VectorTileEncoder()</a>.</p>
-
-</div>
-</div>
-<a id="a6150e0515f7202e2fb518f7206ed97dc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6150e0515f7202e2fb518f7206ed97dc">&#9670;&nbsp;</a></span>x</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">int x = 0</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="a05038.html#ab467bae7ee09e6679725a5a385be624b">VectorTileEncoder.encode()</a>.</p>
-
-</div>
-</div>
-<a id="a0a2f84ed7838f07779ae24c5a9086d33"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0a2f84ed7838f07779ae24c5a9086d33">&#9670;&nbsp;</a></span>y</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">int y = 0</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="a05038.html#ab467bae7ee09e6679725a5a385be624b">VectorTileEncoder.encode()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="a04914.html#ab2c1f34f60c2740f703068f27871a32b">LiteralRegistry.LiteralRegistry()</a>, <a class="el" href="a05770.html#afb57967d41a75bfa55c7f1443b245d14">AzimuthTest.testAzimuth1()</a>, <a class="el" href="a05770.html#a5d42e5f7045b0a306fc1d39539491851">AzimuthTest.testAzimuth2()</a>, and <a class="el" href="a05902.html#ab595a17ecc4ca9c8bef45188c8afb6c3">PolygonFromWKBTest.testLineFromText()</a>.</p>
 
 </div>
 </div>
@@ -1164,7 +266,7 @@ Private Attributes</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="a02553.html">org</a></li><li class="navelem"><a class="el" href="a02554.html">eclipse</a></li><li class="navelem"><a class="el" href="a02555.html">rdf4j</a></li><li class="navelem"><a class="el" href="a02558.html">query</a></li><li class="navelem"><a class="el" href="a02559.html">algebra</a></li><li class="navelem"><a class="el" href="a02560.html">evaluation</a></li><li class="navelem"><a class="el" href="a02561.html">function</a></li><li class="navelem"><a class="el" href="a02562.html">postgis</a></li><li class="navelem"><a class="el" href="a02612.html">util</a></li><li class="navelem"><a class="el" href="a02618.html">parsers</a></li><li class="navelem"><a class="el" href="a05038.html">VectorTileEncoder</a></li>
+    <li class="navelem"><a class="el" href="a02577.html">org</a></li><li class="navelem"><a class="el" href="a02578.html">eclipse</a></li><li class="navelem"><a class="el" href="a02579.html">rdf4j</a></li><li class="navelem"><a class="el" href="a02582.html">query</a></li><li class="navelem"><a class="el" href="a02583.html">algebra</a></li><li class="navelem"><a class="el" href="a02584.html">evaluation</a></li><li class="navelem"><a class="el" href="a02585.html">function</a></li><li class="navelem"><a class="el" href="a02586.html">postgis</a></li><li class="navelem"><a class="el" href="a02636.html">util</a></li><li class="navelem"><a class="el" href="a02638.html">literals</a></li><li class="navelem"><a class="el" href="a02641.html">vector</a></li><li class="navelem"><a class="el" href="a05038.html">WKTDatatype</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>

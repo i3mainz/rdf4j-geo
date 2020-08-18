@@ -1,5 +1,6 @@
 var a05846 =
 [
-    [ "testLineFromText", "a05846.html#ab595a17ecc4ca9c8bef45188c8afb6c3", null ],
-    [ "testPolygon", "a05846.html#a1e3187cbc25299380589200c398b3ffd", null ]
+    [ "testCircumcentre1", "a05846.html#af8da9616fd1ee304df92759a8b87da02", null ],
+    [ "isocelesTriangle", "a05846.html#aa04dfbec745e2622b9f7646f8572e501", null ],
+    [ "notIsocelesTriangle", "a05846.html#a055d99fb63bcee37763ffcf4da9e0521", null ]
 ];

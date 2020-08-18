@@ -1,7 +1,7 @@
 var a02672 =
 [
-    [ "AsCoverageJSONTest", "a06112.html", "a06112" ],
-    [ "AsGeoTIFFTest", "a06116.html", "a06116" ],
-    [ "AsRastHexWKBTest", "a06120.html", "a06120" ],
-    [ "AsRastWKBTest", "a06124.html", "a06124" ]
+    [ "attribute", "a02671.html", "a02671" ],
+    [ "constructor", "a02673.html", "a02673" ],
+    [ "editor", "a02674.html", "a02674" ],
+    [ "exporter", "a02675.html", "a02675" ]
 ];

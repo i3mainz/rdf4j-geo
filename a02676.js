@@ -1,6 +1,5 @@
 var a02676 =
 [
-    [ "AddRingTest", "a06875.html", "a06875" ],
-    [ "RemoveRingTest", "a06879.html", "a06879" ],
-    [ "SetRingTest", "a06883.html", "a06883" ]
+    [ "ToDegreesTest", "a05758.html", "a05758" ],
+    [ "ToRadiansTest", "a05762.html", "a05762" ]
 ];

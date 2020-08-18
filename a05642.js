@@ -1,5 +1,6 @@
 var a05642 =
 [
-    [ "testReverse", "a05642.html#ac38f1a963c4494ff939bad764b01b127", null ],
-    [ "testLineString", "a05642.html#a33797029fadbcba01b4a4fafec88cf41", null ]
+    [ "testDensify", "a05642.html#a94a17603d200a0a1f4817b4687ee592d", null ],
+    [ "densified", "a05642.html#a2286b0f7822c7fda647fa426d8177283", null ],
+    [ "isocelesTriangle", "a05642.html#aa04dfbec745e2622b9f7646f8572e501", null ]
 ];

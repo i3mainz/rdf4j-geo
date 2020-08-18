@@ -1,13 +1,13 @@
 var a05098 =
 [
-    [ "WKBRasterWriter", "a05098.html#ac554c69222b99b75f6e7bd0902a05cf8", null ],
-    [ "reset", "a05098.html#ad20897c5c8bd47f5d4005989bead0e55", null ],
-    [ "write", "a05098.html#a856e54e4f4722fb982aefe4b71c702db", null ],
-    [ "write", "a05098.html#a548c80a7e87fc26b84de1c8be26797df", null ],
-    [ "write", "a05098.html#a85eee5803cdc8926b61a167fa833c808", null ],
-    [ "write", "a05098.html#aa81b0fae18d5e64b155d0ea2afba77c1", null ],
-    [ "write", "a05098.html#a4ed3a6a532fffee3bc00f6a284480f32", null ],
-    [ "write", "a05098.html#a0acd711eb42afa0b71f0034a6a240311", null ],
-    [ "write", "a05098.html#a177a60820d9f841633957dbe681f46c8", null ],
-    [ "write", "a05098.html#a4d44c575b7d26f24882ee78b390f7ee4", null ]
+    [ "Encoder", "a05098.html#ae9b4d30bd3ef8dcabd2c471b856cc56f", null ],
+    [ "encode", "a05098.html#a0e57882e67b7da0cfbd8dd524d1a08aa", null ],
+    [ "seperator", "a05098.html#a39600d33dd97208ba398ac5c4340fa77", null ],
+    [ "startRing", "a05098.html#ab6635935e270ce5b32d1efd4b377c983", null ],
+    [ "write", "a05098.html#a738ab332235183cb8c6acda151d9801c", null ],
+    [ "write", "a05098.html#a67c54f108cb20c5a0f698e20a287724d", null ],
+    [ "writeArg", "a05098.html#a66b62fe86f9a7aa5e1fb78d2282adf66", null ],
+    [ "lastLat", "a05098.html#a9cb6715e048613ba1adc6d02662c58bb", null ],
+    [ "lastLng", "a05098.html#a6071d28e26a7046598083d44edae7168", null ],
+    [ "writer", "a05098.html#ab56a5d0c4efb5c0d2c4f33d5dad8c917", null ]
 ];

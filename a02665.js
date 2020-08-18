@@ -1,6 +1,6 @@
 var a02665 =
 [
-    [ "AddRingTest", "a05864.html", "a05864" ],
-    [ "RemoveRingTest", "a05868.html", "a05868" ],
-    [ "SetRingTest", "a05872.html", "a05872" ]
+    [ "GeomFromGeoJSONTest", "a05390.html", "a05390" ],
+    [ "GeomFromTextTest", "a05394.html", "a05394" ],
+    [ "GeomFromWKBTest", "a05398.html", "a05398" ]
 ];

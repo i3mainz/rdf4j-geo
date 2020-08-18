@@ -1,7 +1,5 @@
 var a05622 =
 [
-    [ "testMulti2D", "a05622.html#a132a5ee02a51082794ac01f2787422c1", null ],
-    [ "testMulti3D", "a05622.html#afee46817e97b41a801cd7a7acf30e801", null ],
-    [ "testGeometry", "a05622.html#abc3f514f005cba49e406658e2d3086eb", null ],
-    [ "testGeometryZ", "a05622.html#a7a113ffd7d8ff98f71b4361ffff21edc", null ]
+    [ "testSridIsVerticalTrue", "a05622.html#a0b5d17dad676c3ce02f884832b907843", null ],
+    [ "testPoint", "a05622.html#af26f700ee129f846cac58735f6dcc380", null ]
 ];

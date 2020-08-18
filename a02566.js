@@ -1,4 +1,4 @@
 var a02566 =
 [
-    [ "function", "a02567.html", "a02567" ]
+    [ "hsmainz", "a02567.html", "a02567" ]
 ];

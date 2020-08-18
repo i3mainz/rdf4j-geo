@@ -1,5 +1,5 @@
 var a05434 =
 [
-    [ "testAsTextRaw", "a05434.html#abe6b8113553114d4969c61497fcbd472", null ],
-    [ "testGeometry", "a05434.html#abc3f514f005cba49e406658e2d3086eb", null ]
+    [ "testAsGARS", "a05434.html#a80929de20ed59fa635418039d48a9ef7", null ],
+    [ "testPoint", "a05434.html#af26f700ee129f846cac58735f6dcc380", null ]
 ];

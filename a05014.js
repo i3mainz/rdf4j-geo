@@ -1,6 +1,8 @@
 var a05014 =
 [
-    [ "covJSONStringToCoverage", "a05014.html#ae6decb7a4836a29eec58527d271446a5", null ],
-    [ "covJSONToCoverage", "a05014.html#a6173d2d815625f94083125827c923521", null ],
-    [ "main", "a05014.html#a8b260eecbaabcef8473fd87ada040682", null ]
+    [ "read", "a05014.html#a0a51e7a558c31dd59e2fb31c2b6b9a6d", null ],
+    [ "unparse", "a05014.html#a8f23415f60c2281824a1ca004a2fce9b", null ],
+    [ "INSTANCE", "a05014.html#afb4dc47464d22ed20de4b4318bcf68ca", null ],
+    [ "LiteralIRI", "a05014.html#ae02c2e86ac0dea8538c7b43e9e82421a", null ],
+    [ "URI", "a05014.html#addbf30e6c0ad68fa34277d59a2c6eb5e", null ]
 ];

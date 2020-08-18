@@ -1,5 +1,5 @@
 var a05294 =
 [
-    [ "testLineString", "a05294.html#a0444ce8df222ae81e1a33426a32d8d7a", null ],
-    [ "testGeom", "a05294.html#a03a5f5da0ccbeed8c1678d4317cf2672", null ]
+    [ "testIsInCRSAreaOfValidityFalse", "a05294.html#ab086dd0d0debad3790e452ffa6c1fa28", null ],
+    [ "testIsInCRSAreaOfValidityTrue", "a05294.html#afff3ea2274b06643aaa5806616e7ca8e", null ]
 ];

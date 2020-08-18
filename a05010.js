@@ -1,13 +1,9 @@
 var a05010 =
 [
-    [ "createGeometry", "a05010.html#aa9b8459efc091f657b74ed0e5a245375", null ],
-    [ "createGeometry", "a05010.html#a9e565b4d0520b1fc30ab5fe2118abb5f", null ],
-    [ "createGeometryCollection", "a05010.html#a3475604f80ee636cca3d07baa336def7", null ],
-    [ "createGeometryCollection", "a05010.html#a7530a3b20b256d3096c63b5556adba6c", null ],
-    [ "toGeometry", "a05010.html#a6682d61dc04a15f1d55ed938e4ed5e7e", null ],
-    [ "toGeometry", "a05010.html#a7633468ef73e66833ef49d6d357d965f", null ],
-    [ "toGeometry", "a05010.html#a70d2c83f032867b59a3af555f1ff6d98", null ],
-    [ "toGeometry", "a05010.html#ad1731b05de5c7e8bae69ff8eb74036f2", null ],
-    [ "toGeometry", "a05010.html#ad7e9fd4bfe07509ba9bbd5a1e09c8a71", null ],
-    [ "transform", "a05010.html#adb6db926db08da5c0c4a8ad8cfb1ff2d", null ]
+    [ "read", "a05010.html#a793358fbd6ef538a24eabab1bd50ef01", null ],
+    [ "unparse", "a05010.html#ae918a517e1ebcc44beeee2c55008d248", null ],
+    [ "INSTANCE", "a05010.html#a37c7ccb039944a2be5bb9e33d190e504", null ],
+    [ "reader", "a05010.html#aa1b091a220c464a72ed08bd283083286", null ],
+    [ "URI", "a05010.html#addbf30e6c0ad68fa34277d59a2c6eb5e", null ],
+    [ "writer", "a05010.html#ae01fec3f5b78891669c5ad222eef8ca7", null ]
 ];

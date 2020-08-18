@@ -1,2 +1,4 @@
-<map id="RasterModifierGeometryFunction" name="RasterModifierGeometryFunction">
+<map id="RasterAttributeIntIntFunction" name="RasterAttributeIntIntFunction">
+<area shape="rect" id="node3" href="$a04202.html" title="Band" alt="" coords="17,155,69,181"/>
+<area shape="rect" id="node4" href="$a04222.html" title="BandNoDataValue" alt="" coords="94,155,225,181"/>
 </map>

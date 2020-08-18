@@ -1,11 +1,9 @@
 var a02604 =
 [
-    [ "AsGeometry", "a04440.html", "a04440" ],
-    [ "AsRaster", "a04444.html", "a04444" ],
-    [ "MakeEmptyRaster", "a04448.html", "a04448" ],
-    [ "RastFromCoverageJSON", "a04452.html", "a04452" ],
-    [ "RastFromGMLCOV", "a04456.html", "a04456" ],
-    [ "RastFromHexWKB", "a04460.html", "a04460" ],
-    [ "RastFromNetCDF", "a04464.html", "a04464" ],
-    [ "RastFromWKB", "a04468.html", "a04468" ]
+    [ "AddMeasure", "a03718.html", "a03718" ],
+    [ "AddPoint", "a03722.html", "a03722" ],
+    [ "RemovePoint", "a03726.html", "a03726" ],
+    [ "SetEndPoint", "a03730.html", "a03730" ],
+    [ "SetPoint", "a03734.html", "a03734" ],
+    [ "SetStartPoint", "a03738.html", "a03738" ]
 ];

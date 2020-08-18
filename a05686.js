@@ -1,9 +1,6 @@
 var a05686 =
 [
-    [ "testNoSelfIntersections", "a05686.html#a08dd11e1d44a910007de229eada7aa6d", null ],
-    [ "testSelfIntersections", "a05686.html#a3d2c64bb3b45c45751b144babb6906da", null ],
-    [ "intersectResult", "a05686.html#ab431ece386e282254dd754494c7f6cd0", null ],
-    [ "intersectResult2", "a05686.html#a94c72a35c99c7c55f05a1f50c20f6cfd", null ],
-    [ "testGeom", "a05686.html#a03a5f5da0ccbeed8c1678d4317cf2672", null ],
-    [ "testGeom2", "a05686.html#a6b4be369c8f60e973cd5126e69cd33a4", null ]
+    [ "testRemoveRepeatedPoints", "a05686.html#a473d131a5f96a89f9502570a50d06e65", null ],
+    [ "testGeometry", "a05686.html#abc3f514f005cba49e406658e2d3086eb", null ],
+    [ "testGeometry2", "a05686.html#af1173652e671b8f9051f8630b98c73fb", null ]
 ];

@@ -1,3 +1,5 @@
-<map id="RasterRelationBooleanFunction" name="RasterRelationBooleanFunction">
-<area shape="rect" id="node3" href="$a04566.html" title="SameAlignment" alt="" coords="51,155,166,181"/>
+<map id="RasterAttributeIntIntIntBooleanFunction" name="RasterAttributeIntIntIntBooleanFunction">
+<area shape="rect" id="node3" href="$a04242.html" title="IsOpaquePixel" alt="" coords="5,169,112,196"/>
+<area shape="rect" id="node4" href="$a04254.html" title="IsTransparentPixel" alt="" coords="136,169,267,196"/>
+<area shape="rect" id="node5" href="$a04290.html" title="PixelHeight" alt="" coords="291,169,381,196"/>
 </map>

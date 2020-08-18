@@ -1,8 +1,5 @@
 var a05470 =
 [
-    [ "testEqualNormFalse", "a05470.html#a1928f13a833e5a2e8b142a5937d86c8b", null ],
-    [ "testEqualNormTrue", "a05470.html#ab11a3d6b71627dd555022e7a29ada7be", null ],
-    [ "result", "a05470.html#aab356d6554a7301750f11ec7a85ac47d", null ],
-    [ "testGeom", "a05470.html#a03a5f5da0ccbeed8c1678d4317cf2672", null ],
-    [ "testGeom2", "a05470.html#a6b4be369c8f60e973cd5126e69cd33a4", null ]
+    [ "testAsTextRaw", "a05470.html#abe6b8113553114d4969c61497fcbd472", null ],
+    [ "testGeometry", "a05470.html#abc3f514f005cba49e406658e2d3086eb", null ]
 ];
