@@ -1,4 +1,4 @@
-package de.hsmainz.cs.semgis.arqextension.test.geometry.exporter;
+package org.eclipse.rdf4j.testsuites.postgis.geometry.exporter;
 
 import static org.junit.Assert.assertEquals;
 
