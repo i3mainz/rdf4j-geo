@@ -6,6 +6,9 @@ import org.locationtech.jts.geom.Geometry;
 import org.locationtech.jts.geomgraph.GeometryGraph;
 import org.locationtech.jts.operation.valid.ConnectedInteriorTester;
 
+/**
+ * Checks if the interior rings of a polygon are connected.
+ */
 public class HasConnectedInterior extends GeometricBinaryAttributeFunction {
 
 	@Override

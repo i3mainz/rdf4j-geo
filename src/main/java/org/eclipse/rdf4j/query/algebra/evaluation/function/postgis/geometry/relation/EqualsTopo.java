@@ -5,6 +5,9 @@ import org.locationtech.jts.geom.Geometry;
 
 import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.geometry.base.GeometricRelationBinaryFunction;
 
+/**
+ * Returns true if two geometries are topologically equal.
+ */
 public class EqualsTopo extends GeometricRelationBinaryFunction{
 
 	@Override

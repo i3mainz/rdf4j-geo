@@ -6,6 +6,9 @@ import org.eclipse.rdf4j.model.vocabulary.POSTGIS;
 import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.geometry.base.GeometricStringExportFunction;
 import org.locationtech.jts.geom.Geometry;
 
+/**
+ * Returns a GARS representation of a given geometry.
+ */
 public class AsGARS extends GeometricStringExportFunction {
 	
 	@Override

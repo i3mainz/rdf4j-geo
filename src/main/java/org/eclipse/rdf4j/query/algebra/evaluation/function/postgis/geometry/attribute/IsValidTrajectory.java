@@ -7,6 +7,9 @@ import org.locationtech.jts.geom.LineString;
 
 import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.geometry.base.GeometricBinaryAttributeFunction;
 
+/**
+ * Checks if the a given trajectory is valid.
+ */
 public class IsValidTrajectory extends GeometricBinaryAttributeFunction {
 
 	@Override

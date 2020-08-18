@@ -13,6 +13,9 @@ import org.locationtech.jts.geom.LineString;
 import org.opengis.referencing.NoSuchAuthorityCodeException;
 import org.opengis.util.FactoryException;
 
+/**
+ * Subdivides lines of a given LineString.
+ */
 public class SubdivideLines extends GeometricModifierDoubleFunction{
 
 	@Override

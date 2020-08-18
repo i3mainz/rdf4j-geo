@@ -7,6 +7,10 @@ import org.locationtech.jts.geom.Geometry;
 import org.locationtech.jts.io.ParseException;
 import org.locationtech.jts.io.WKTReader;
 
+/**
+ * Creates a Polygon from a LineString given as a WKT String.
+ *
+ */
 public class Polygon extends GeometricConstructorInteger {
 
 	@Override

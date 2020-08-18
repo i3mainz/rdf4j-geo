@@ -7,6 +7,9 @@ import org.locationtech.jts.io.WKBReader;
 
 import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.geometry.base.GeometricConstructor;
 
+/**
+ * Creates a point from a WKB string representation.
+ */
 public class PointFromWKB extends GeometricConstructor {
 
 	@Override

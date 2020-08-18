@@ -7,6 +7,9 @@ import org.wololo.jts2geojson.GeoJSONWriter;
 
 import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.geometry.base.GeometricStringExportFunction;
 
+/**
+ * Returns a GeoJSON representation of a given geometry.
+ */
 public class AsGeoJSON extends GeometricStringExportFunction{
 
 	@Override

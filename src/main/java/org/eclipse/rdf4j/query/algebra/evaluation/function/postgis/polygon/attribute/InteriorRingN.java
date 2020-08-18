@@ -6,6 +6,9 @@ import org.locationtech.jts.geom.Geometry;
 import org.locationtech.jts.geom.LineString;
 import org.locationtech.jts.geom.Polygon;
 
+/**
+ * Returns the nth interior ring of a polygon.
+ */
 public class InteriorRingN extends GeometricModifierIntegerFunction  {
 
 

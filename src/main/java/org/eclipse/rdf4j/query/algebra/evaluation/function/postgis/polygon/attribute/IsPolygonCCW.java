@@ -7,6 +7,9 @@ import org.locationtech.jts.geom.Polygon;
 
 import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.geometry.base.GeometricBinaryAttributeFunction;
 
+/**
+ * Checks if the polygons coordinates' orientations are defined counter-clockwise.
+ */
 public class IsPolygonCCW extends GeometricBinaryAttributeFunction {
 
 	@Override

@@ -5,6 +5,9 @@ import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.geometry.base
 import org.locationtech.jts.geom.Geometry;
 import org.locationtech.jts.shape.random.RandomPointsBuilder;
 
+/**
+ * Generates a given number of points in a convex hull of a geometry.
+ */
 public class GeneratePoints extends GeometricModifierIntegerFunction {
 
 	@Override

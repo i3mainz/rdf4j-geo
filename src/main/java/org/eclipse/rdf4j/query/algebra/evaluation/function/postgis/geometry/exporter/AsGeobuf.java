@@ -8,6 +8,9 @@ import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.geometry.base
 import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.literals.vector.GeobufDatatype;
 
 
+/**
+ * Returns a GeoBuf representation of a given geometry.
+ */
 public class AsGeobuf extends GeometricStringExportFunction {
 
 	@Override

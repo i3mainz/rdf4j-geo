@@ -9,6 +9,9 @@ import org.locationtech.jts.geom.GeometryFactory;
 import org.locationtech.jts.operation.valid.IsValidOp;
 import org.locationtech.jts.operation.valid.TopologyValidationError;
 
+/**
+ * Checks if the given geometry is valid and gives more details on a possible validation error.
+ */
 public class IsValidDetail extends GeometricStringExportFunction {
 	
 	@Override

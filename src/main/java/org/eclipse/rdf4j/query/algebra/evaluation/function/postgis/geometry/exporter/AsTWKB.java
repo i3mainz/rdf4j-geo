@@ -5,6 +5,10 @@ import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.geometry.base
 import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.literals.vector.TWKBDatatype;
 import org.locationtech.jts.geom.Geometry;
 
+
+/**
+ * Returns a TinyWKB representation of a given geometry.
+ */
 public class AsTWKB extends GeometricStringExportFunction {
 
 	@Override

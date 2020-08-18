@@ -6,6 +6,9 @@ import org.locationtech.jts.geom.Geometry;
 
 import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.geometry.base.GeometricUnaryFunction;
 
+/**
+ * Creates a LineString from a given MultiPoint representation.
+ */
 public class LineFromMultiPoint extends GeometricUnaryFunction {
 
 

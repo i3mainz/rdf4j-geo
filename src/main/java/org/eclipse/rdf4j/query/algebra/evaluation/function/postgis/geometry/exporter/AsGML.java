@@ -6,6 +6,9 @@ import org.locationtech.jts.io.gml2.GMLWriter;
 
 import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.geometry.base.GeometricStringExportFunction;
 
+/**
+ * Returns a GML representation of a given geometry.
+ */
 public class AsGML extends GeometricStringExportFunction {
 
 	@Override

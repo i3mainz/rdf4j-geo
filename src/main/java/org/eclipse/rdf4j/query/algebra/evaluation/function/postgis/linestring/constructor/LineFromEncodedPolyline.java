@@ -11,6 +11,9 @@ import org.locationtech.jts.geom.LineString;
 
 import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.geometry.base.GeometricConstructor;
 
+/**
+ * Creates a LineString from the encoded polyline format.
+ */
 public class LineFromEncodedPolyline extends GeometricConstructor {
 
 	@Override
@@ -20,6 +23,12 @@ public class LineFromEncodedPolyline extends GeometricConstructor {
 		return ls;
 	}
 	
+	/**
+	 * Decodes a polyline with a given precision.
+	 * @param polyline the polyline String to decode
+	 * @param precision the precision used for decoding
+	 * @return the list of coordinates which have been decoded
+	 */
 	public static List<Coordinate> decodePolyline(String polyline, int precision)
     {
         List<Coordinate> coordinates = new ArrayList<Coordinate>();

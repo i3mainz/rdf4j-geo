@@ -12,6 +12,9 @@ import ch.hsr.geohash.GeoHash;
 import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.geometry.base.GeometricConstructor;
 import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.LiteralUtils;
 
+/**
+ * Returns a geometry from a GeoHash String.
+ */
 public class GeomFromGeoHash extends GeometricConstructor{
 
 	@Override

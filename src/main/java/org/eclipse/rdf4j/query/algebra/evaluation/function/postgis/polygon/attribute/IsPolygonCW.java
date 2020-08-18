@@ -7,8 +7,7 @@ import org.locationtech.jts.geom.Geometry;
 import org.locationtech.jts.geom.Polygon;
 
 /**
- * Returns true if all exterior rings are oriented clockwise and all interior rings are oriented counter-clockwise. 
- *
+ * Returns true if all exterior rings are oriented clockwise and all interior rings are oriented clockwise. 
  */
 public class IsPolygonCW extends GeometricBinaryAttributeFunction {
 

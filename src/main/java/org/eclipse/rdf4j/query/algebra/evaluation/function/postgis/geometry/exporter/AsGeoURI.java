@@ -6,6 +6,9 @@ import org.locationtech.jts.geom.Geometry;
 import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.geometry.base.GeometricStringExportFunction;
 
 
+/**
+ * Returns a GeoURI representation of a given geometry.
+ */
 public class AsGeoURI extends GeometricStringExportFunction {
 
 	@Override

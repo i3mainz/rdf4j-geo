@@ -5,6 +5,9 @@ import org.locationtech.jts.geom.Geometry;
 
 import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.geometry.base.GeometricRelationDoubleFunction;
 
+/**
+ * Calculates the euclidean distance between the centroids of two given geometries.
+ */
 public class CentroidDistance extends GeometricRelationDoubleFunction{
 
 	@Override

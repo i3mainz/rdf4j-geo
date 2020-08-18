@@ -7,6 +7,9 @@ import org.locationtech.jts.io.WKTReader;
 
 import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.geometry.base.GeometricConstructor;
 
+/**
+ * Returns a geometry from a WKT String.
+ */
 public class GeomFromText extends GeometricConstructor {
 
 	@Override

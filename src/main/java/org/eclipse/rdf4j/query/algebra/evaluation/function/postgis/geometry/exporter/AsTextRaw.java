@@ -6,14 +6,12 @@ import org.locationtech.jts.geom.Geometry;
 import org.locationtech.jts.geom.PrecisionModel;
 import org.locationtech.jts.precision.GeometryPrecisionReducer;
 
-
+/**
+ * Returns a WKT representation of a given geometry with maximum precision.
+ */
 public class AsTextRaw extends GeometricStringExportFunction {
 
-	
-	
-	
-	
-		@Override
+	@Override
 	public String getURI() {
 		return POSTGIS.ST_ASTEXTRAW.stringValue();
 	}

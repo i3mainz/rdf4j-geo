@@ -11,6 +11,9 @@ import org.locationtech.jts.geom.GeometryFactory;
 import org.locationtech.jts.geom.LinearRing;
 import org.locationtech.jts.geom.Polygon;
 
+/**
+ * Removes an interior ring from a given polygon.
+ */
 public class RemoveInteriorRing extends GeometricModifierIntegerFunction {
 
 	@Override
