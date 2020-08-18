@@ -7,6 +7,9 @@ import org.locationtech.jts.io.WKTReader;
 
 import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.geometry.base.GeometricConstructor;
 
+/**
+ * Creates a MultiLineString from a given WKT String.
+ */
 public class MLineFromText extends GeometricConstructor {
 
 	@Override

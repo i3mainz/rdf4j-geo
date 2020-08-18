@@ -6,6 +6,9 @@ import org.locationtech.jts.geom.Geometry;
 import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.geometry.base.GeometricDoubleAttributeFunction;
 import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.linestring.attribute.LineLength3D;
 
+/**
+ * Calculates the length of a 3D geometry.
+ */
 public class Length3D extends GeometricDoubleAttributeFunction {
 
 	@Override

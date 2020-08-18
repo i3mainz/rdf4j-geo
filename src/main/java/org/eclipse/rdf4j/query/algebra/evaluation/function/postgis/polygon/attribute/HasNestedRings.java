@@ -6,6 +6,9 @@ import org.locationtech.jts.geom.Geometry;
 import org.locationtech.jts.geomgraph.GeometryGraph;
 import org.locationtech.jts.operation.valid.IndexedNestedRingTester;
 
+/**
+ * Checks a polygon for nested rings.
+ */
 public class HasNestedRings extends GeometricBinaryAttributeFunction {
 
 	@Override

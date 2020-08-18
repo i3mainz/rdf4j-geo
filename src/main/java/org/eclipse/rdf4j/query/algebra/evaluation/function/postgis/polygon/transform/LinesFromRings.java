@@ -11,6 +11,9 @@ import org.locationtech.jts.geom.LineString;
 import org.locationtech.jts.geom.MultiPolygon;
 import org.locationtech.jts.geom.Polygon;
 
+/**
+ * Extracts LineStrings from rings of a polygon.
+ */
 public class LinesFromRings extends GeometricUnaryFunction {
 
 	@Override

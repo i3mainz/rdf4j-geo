@@ -10,6 +10,9 @@ import org.locationtech.jts.geom.GeometryFactory;
 import org.locationtech.jts.geom.LinearRing;
 import org.locationtech.jts.geom.Polygon;
 
+/**
+ * Reverses the coordinates of a given ring of a polygon.
+ */
 public class ReverseRing extends GeometricModifierDoubleFunction {
 
 	@Override

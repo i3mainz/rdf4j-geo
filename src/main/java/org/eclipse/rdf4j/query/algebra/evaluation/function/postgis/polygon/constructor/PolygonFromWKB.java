@@ -7,6 +7,9 @@ import org.locationtech.jts.io.WKBReader;
 
 import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.geometry.base.GeometricConstructor;
 
+/**
+ * Creates a polygon from a WKB String.
+ */
 public class PolygonFromWKB extends GeometricConstructor{
 
 	@Override

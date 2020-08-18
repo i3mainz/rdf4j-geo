@@ -7,6 +7,9 @@ import org.locationtech.jts.geom.Polygon;
 
 import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.geometry.base.GeometricUnaryFunction;
 
+/**
+ * Returns the exterior ring of a polygon.
+ */
 public class ExteriorRing extends GeometricUnaryFunction {
 
 	@Override

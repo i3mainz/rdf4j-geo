@@ -6,6 +6,9 @@ import org.locationtech.jts.geom.Polygon;
 
 import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.geometry.base.GeometricIntegerAttributeFunction;
 
+/**
+ * Returns the orientation of the coordinates of a polygon.
+ */
 public class Orientation extends GeometricIntegerAttributeFunction {
 
 	@Override

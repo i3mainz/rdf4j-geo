@@ -8,6 +8,9 @@ import org.locationtech.jts.io.WKBReader;
 
 import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.geometry.base.GeometricConstructor;
 
+/**
+ * Creates a LineString from a WKB String.
+ */
 public class LineFromWKB extends GeometricConstructor {
 
 	@Override

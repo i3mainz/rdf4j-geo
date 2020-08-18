@@ -7,6 +7,9 @@ import org.locationtech.jts.geom.Geometry;
 import org.locationtech.jts.geom.Polygon;
 import org.locationtech.jts.geom.Triangle;
 
+/**
+ * Checks if a given polygon is acute.
+ */
 public class IsAcute extends GeometricBinaryAttributeFunction {
 
 	@Override

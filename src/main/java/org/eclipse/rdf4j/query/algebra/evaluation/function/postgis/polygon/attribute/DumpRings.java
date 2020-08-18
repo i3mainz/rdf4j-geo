@@ -5,6 +5,9 @@ import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.geometry.base
 import org.locationtech.jts.geom.Geometry;
 import org.locationtech.jts.geom.Polygon;
 
+/**
+ * Returns the rings of a polygon as a WKT String.
+ */
 public class DumpRings extends GeometricStringExportFunction {
 
 	@Override

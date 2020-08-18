@@ -12,6 +12,9 @@ import org.opengis.util.FactoryException;
 
 import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.geometry.base.GeometricModifierDoubleFunction;
 
+/**
+ * Segmentizes a LineString into segments given a segment length.
+ */
 public class Segmentize extends GeometricModifierDoubleFunction{
 
 	@Override

@@ -5,6 +5,9 @@ import org.locationtech.jts.geom.Geometry;
 
 import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.geometry.base.GeometricConstructor;
 
+/**
+ * Creates a point from a GeoHash representation.
+ */
 public class PointFromGeoHash extends GeometricConstructor {
 
 	@Override

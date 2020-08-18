@@ -5,6 +5,9 @@ import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.geometry.base
 import org.locationtech.jts.geom.Geometry;
 import org.locationtech.jts.geom.Polygon;
 
+/**
+ * Calculates a circularity score for a given polygon.
+ */
 public class Circularity extends GeometricDoubleAttributeFunction {
 
 	@Override

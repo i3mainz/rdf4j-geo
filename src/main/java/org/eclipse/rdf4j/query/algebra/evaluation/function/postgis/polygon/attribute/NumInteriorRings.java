@@ -9,6 +9,9 @@ import org.locationtech.jts.geom.Polygon;
 
 import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.geometry.base.GeometricIntegerAttributeFunction;
 
+/**
+ * Returns the number of interior rings of a polygon.
+ */
 public class NumInteriorRings extends GeometricIntegerAttributeFunction {
 
 	@Override

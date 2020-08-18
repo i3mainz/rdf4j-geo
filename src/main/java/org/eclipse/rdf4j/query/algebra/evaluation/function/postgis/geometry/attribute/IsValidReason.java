@@ -6,6 +6,9 @@ import org.locationtech.jts.geom.Geometry;
 import org.locationtech.jts.operation.valid.IsValidOp;
 import org.locationtech.jts.operation.valid.TopologyValidationError;
 
+/**
+ * Checks if the given geometry is valid and gives a reason for the geometry not being valid.
+ */
 public class IsValidReason extends GeometricStringExportFunction {
 
 	@Override

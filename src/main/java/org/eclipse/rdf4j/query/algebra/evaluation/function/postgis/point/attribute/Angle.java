@@ -5,10 +5,18 @@ import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.geometry.base
 import org.locationtech.jts.geom.Coordinate;
 import org.locationtech.jts.geom.Geometry;
 
+/**
+ * Calculates an angle between three given points.
+ */
 public class Angle extends GeometricDoubleThreeGeometryFunction {
 
-	
-	
+	/**
+	 * Calculates an angle between three diffrent coordinates.
+	 * @param a the first coordinate
+	 * @param b the second coordinate
+	 * @param c the third coordinate
+	 * @return the calculated angle
+	 */
 	public double findAngle(Coordinate a,Coordinate b, Coordinate c) {
 	    double AB = Math.sqrt(Math.pow(b.x-a.x,2)+ Math.pow(b.y-a.y,2));    
 	    double BC = Math.sqrt(Math.pow(b.x-c.x,2)+ Math.pow(b.y-c.y,2)); 

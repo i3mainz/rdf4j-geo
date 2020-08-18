@@ -6,6 +6,9 @@ import org.locationtech.jts.geom.Coordinate;
 import org.locationtech.jts.geom.Geometry;
 import org.locationtech.jts.geom.Polygon;
 
+/**
+ * Checks if the polygon represents an equilateral triangle.
+ */
 public class IsEquilateralTriangle extends GeometricBinaryAttributeFunction {
 
 	@Override

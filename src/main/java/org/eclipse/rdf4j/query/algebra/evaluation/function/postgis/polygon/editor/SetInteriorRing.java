@@ -10,6 +10,9 @@ import org.locationtech.jts.geom.GeometryFactory;
 import org.locationtech.jts.geom.LinearRing;
 import org.locationtech.jts.geom.Polygon;
 
+/**
+ * Sets an interior ring replacing an already existing interior ring of a polygon.
+ */
 public class SetInteriorRing extends GeometricModifierGeometryIntegerFunction {
 
 	@Override

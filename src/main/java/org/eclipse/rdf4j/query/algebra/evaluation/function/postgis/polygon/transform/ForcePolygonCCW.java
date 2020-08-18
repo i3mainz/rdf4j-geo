@@ -10,7 +10,6 @@ import org.locationtech.jts.geom.Geometry;
 import org.locationtech.jts.geom.Polygon;
 /**
  * Orients all exterior rings counter-clockwise and all interior rings clockwise. 
- *
  */
 public class ForcePolygonCCW extends GeometricUnaryFunction {
 	
