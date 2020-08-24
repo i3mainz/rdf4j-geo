@@ -1,7 +1,7 @@
 var a05729 =
 [
-    [ "testIsAcuteFalse", "a05729.html#a5b3dbe6f41b97c30eaff61a7c0c6f344", null ],
-    [ "testIsAcuteTrue", "a05729.html#aea45a7ea1a6bbd2c8bf3bfa751ec4e1f", null ],
-    [ "isocelesTriangle", "a05729.html#aa04dfbec745e2622b9f7646f8572e501", null ],
-    [ "notIsocelesTriangle", "a05729.html#a055d99fb63bcee37763ffcf4da9e0521", null ]
+    [ "testLineStringIsNotRing", "a05729.html#a321e37eed11ab4c4fb34459ff2f0c8a4", null ],
+    [ "testLineStringIsRing", "a05729.html#af99150f0a2baa803f3a32475e363a546", null ],
+    [ "isNotRing", "a05729.html#aab14cab4c38dbe8dacf3fc3b49a4e99d", null ],
+    [ "isRing", "a05729.html#ada60d12c21aae01823c842a1347435af", null ]
 ];

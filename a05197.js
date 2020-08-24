@@ -1,5 +1,8 @@
 var a05197 =
 [
-    [ "testIsMeasuredFalse", "a05197.html#a0d34749daed816e995d607f25393f8bd", null ],
-    [ "testIsMeasuredTrue", "a05197.html#a94b07ea8a866ff9332c709b77d204342", null ]
+    [ "LengthSubstring", "a05197.html#a8375df00135da48182ecb97996cfebf1", null ],
+    [ "computeSubstring", "a05197.html#ad8eec22df403077b17b2ac90b0c95230", null ],
+    [ "getSubstring", "a05197.html#a0899c2e48f2616119c3f0e3e297549e6", null ],
+    [ "getSubstring", "a05197.html#a7aa54bd5af7e7f3fd33047db15540bc4", null ],
+    [ "line", "a05197.html#a53e992765125efc5fc595f0d38e947ea", null ]
 ];

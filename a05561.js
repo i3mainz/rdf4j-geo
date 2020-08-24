@@ -1,6 +1,10 @@
 var a05561 =
 [
-    [ "testPrecisionReducer", "a05561.html#a486d6504bb92a61902ac29e25b3d31a8", null ],
-    [ "resultGeom", "a05561.html#a3eff685a59eb24ce11d6dbd456fae0c2", null ],
-    [ "testGeom", "a05561.html#a03a5f5da0ccbeed8c1678d4317cf2672", null ]
+    [ "testOrderingEquals1", "a05561.html#a35b0ff8ac582857f1742c06e5db14fb2", null ],
+    [ "testOrderingEquals2", "a05561.html#a258a7b3f7cf473377b4aaed9d19641c4", null ],
+    [ "testOrderingEquals3", "a05561.html#a47191a77968729eba6c2f943834b3992", null ],
+    [ "lineStringMedium", "a05561.html#a30a33894af6c6537b098f763a39d6054", null ],
+    [ "lineStringMedium2", "a05561.html#a6f7bc783bc9c02130f1251353e8efd7d", null ],
+    [ "lineStringSmall", "a05561.html#a12c9d589491219bf61791e12113fae06", null ],
+    [ "lineStringSmallReverse", "a05561.html#a2dd626abfe2d2e9dc2b4d1bc7f9dc810", null ]
 ];

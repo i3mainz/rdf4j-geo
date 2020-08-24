@@ -1,9 +1,5 @@
 var a05825 =
 [
-    [ "testAdd", "a05825.html#afd0ee1fd8a383350e390e5b63a8a1cda", null ],
-    [ "combinedRasterLiteral", "a05825.html#a6efe8702be34a67e2bcbba55588c5b5f", null ],
-    [ "covJSONString1", "a05825.html#a993e2f127f3ec8f256e9799d77507223", null ],
-    [ "rasterBand", "a05825.html#a44dd712968b2420bbfbf9ae21d476b87", null ],
-    [ "rasterLiteral1", "a05825.html#a77798f856500689412dea069531a7606", null ],
-    [ "wkbString1", "a05825.html#ac94c157f6beb145deb3abfe76cbf5de2", null ]
+    [ "testZ", "a05825.html#ac463fcc72b3892f24bbd0dc3b8902044", null ],
+    [ "testPoint", "a05825.html#af26f700ee129f846cac58735f6dcc380", null ]
 ];

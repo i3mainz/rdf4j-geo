@@ -1,7 +1,7 @@
 var a05421 =
 [
-    [ "testFurthestCoordinate", "a05421.html#a5bf1108229fcb950f9fe74e48a8aee7c", null ],
-    [ "result", "a05421.html#aab356d6554a7301750f11ec7a85ac47d", null ],
-    [ "testGeom", "a05421.html#a03a5f5da0ccbeed8c1678d4317cf2672", null ],
-    [ "testGeom2", "a05421.html#a6b4be369c8f60e973cd5126e69cd33a4", null ]
+    [ "testRemovePoint", "a05421.html#a5e9b64ff404fa9347af445dc61f510b7", null ],
+    [ "testRemovePointZ", "a05421.html#ab04b102dbd8ad6ffb069a768eaf23da4", null ],
+    [ "lineString", "a05421.html#a76e109dc83d6f4d16fcd2fa3e73054f6", null ],
+    [ "lineStringZ", "a05421.html#a6ea074c47e6616507d2fe90dc549765a", null ]
 ];

@@ -1,5 +1,5 @@
 var a05333 =
 [
-    [ "testAsGeoJSON", "a05333.html#a6aee2cc3188bbf40fb4d946ed66e57c2", null ],
-    [ "testGeometry", "a05333.html#abc3f514f005cba49e406658e2d3086eb", null ]
+    [ "testLineString", "a05333.html#a0444ce8df222ae81e1a33426a32d8d7a", null ],
+    [ "testGeom", "a05333.html#a03a5f5da0ccbeed8c1678d4317cf2672", null ]
 ];

@@ -1,6 +1,5 @@
 var a05449 =
 [
-    [ "testMaxDistance", "a05449.html#acd5d6c70876299a0278552ba577a7efc", null ],
-    [ "testGeom", "a05449.html#a03a5f5da0ccbeed8c1678d4317cf2672", null ],
-    [ "testGeom2", "a05449.html#a6b4be369c8f60e973cd5126e69cd33a4", null ]
+    [ "testAsGeoURI", "a05449.html#aae403d68ccc2ecfb409ca338b5ba0101", null ],
+    [ "testGeometry", "a05449.html#abc3f514f005cba49e406658e2d3086eb", null ]
 ];

@@ -1,7 +1,6 @@
 var a05645 =
 [
-    [ "testAngle", "a05645.html#a0cf5bb8fb4d0971e797f7a4e75601b26", null ],
-    [ "testPoint1", "a05645.html#ab20d196cb6e34afc2e9cff8074e43bfd", null ],
-    [ "testPoint2", "a05645.html#aa0c0c6f5dda7a397fc50f4c22a2b180f", null ],
-    [ "testPoint3", "a05645.html#a125d390ce5ab22a84d197ed08e237740", null ]
+    [ "testDensify", "a05645.html#a94a17603d200a0a1f4817b4687ee592d", null ],
+    [ "densified", "a05645.html#a2286b0f7822c7fda647fa426d8177283", null ],
+    [ "isocelesTriangle", "a05645.html#aa04dfbec745e2622b9f7646f8572e501", null ]
 ];

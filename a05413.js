@@ -1,7 +1,9 @@
 var a05413 =
 [
-    [ "testEqual", "a05413.html#a2a99a285d6ad7938bb12707abf0b2dd2", null ],
-    [ "testNotEqual", "a05413.html#a9195b3462bb379b0139e99b85954d5e4", null ],
-    [ "testGeom", "a05413.html#a03a5f5da0ccbeed8c1678d4317cf2672", null ],
-    [ "testGeom2", "a05413.html#a6b4be369c8f60e973cd5126e69cd33a4", null ]
+    [ "testEnsureClosed", "a05413.html#ace1b0f448a93ab083e49e59b851b8094", null ],
+    [ "testEnsureClosed2", "a05413.html#a7a93140658cbcf5aea17d9f930cd5144", null ],
+    [ "closed", "a05413.html#ad8efa97b8aa775164dc4836b505fc315", null ],
+    [ "duplicateRings", "a05413.html#a92f3ef00fc079a76b7f943d9ed6cec77", null ],
+    [ "nonClosed", "a05413.html#aff993a2133bc6c6afe1012e13b5c028d", null ],
+    [ "ring", "a05413.html#a3e4a839eee2eb5791f90656e82eec721", null ]
 ];

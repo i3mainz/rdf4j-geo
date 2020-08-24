@@ -1,8 +1,13 @@
 var a05101 =
 [
-    [ "DimensionalComparator", "a05101.html#a5bd255213663b3596e2de221144f1ab1", null ],
-    [ "DimensionalComparator", "a05101.html#aa12c933fd5275be6824111b1f2c92cd6", null ],
-    [ "compare", "a05101.html#a55bbcaf3b85142c9878f7b8ac44290fb", null ],
-    [ "compare", "a05101.html#a22ae744431802300f10565640dec04c5", null ],
-    [ "dimensionsToTest", "a05101.html#a6bb6df1c2db1f7b9fe46d4be2d0083af", null ]
+    [ "Encoder", "a05101.html#ae9b4d30bd3ef8dcabd2c471b856cc56f", null ],
+    [ "encode", "a05101.html#a0e57882e67b7da0cfbd8dd524d1a08aa", null ],
+    [ "seperator", "a05101.html#a39600d33dd97208ba398ac5c4340fa77", null ],
+    [ "startRing", "a05101.html#ab6635935e270ce5b32d1efd4b377c983", null ],
+    [ "write", "a05101.html#a738ab332235183cb8c6acda151d9801c", null ],
+    [ "write", "a05101.html#a67c54f108cb20c5a0f698e20a287724d", null ],
+    [ "writeArg", "a05101.html#a66b62fe86f9a7aa5e1fb78d2282adf66", null ],
+    [ "lastLat", "a05101.html#a9cb6715e048613ba1adc6d02662c58bb", null ],
+    [ "lastLng", "a05101.html#a6071d28e26a7046598083d44edae7168", null ],
+    [ "writer", "a05101.html#ab56a5d0c4efb5c0d2c4f33d5dad8c917", null ]
 ];

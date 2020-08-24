@@ -1,6 +1,5 @@
 var a05389 =
 [
-    [ "testClosestPoint", "a05389.html#af30fa8d36bc2cb8bd652397169d9708d", null ],
-    [ "testLineString", "a05389.html#a33797029fadbcba01b4a4fafec88cf41", null ],
-    [ "testPoint", "a05389.html#af26f700ee129f846cac58735f6dcc380", null ]
+    [ "testPerimeter", "a05389.html#ab5f32e4b3cc7543d929e0660b76d1973", null ],
+    [ "testPolygon", "a05389.html#a1e3187cbc25299380589200c398b3ffd", null ]
 ];

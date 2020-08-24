@@ -1,13 +1,11 @@
 var a04965 =
 [
-    [ "createGeometry", "a04965.html#aa9b8459efc091f657b74ed0e5a245375", null ],
-    [ "createGeometry", "a04965.html#a9e565b4d0520b1fc30ab5fe2118abb5f", null ],
-    [ "createGeometryCollection", "a04965.html#a3475604f80ee636cca3d07baa336def7", null ],
-    [ "createGeometryCollection", "a04965.html#a7530a3b20b256d3096c63b5556adba6c", null ],
-    [ "toGeometry", "a04965.html#a6682d61dc04a15f1d55ed938e4ed5e7e", null ],
-    [ "toGeometry", "a04965.html#a7633468ef73e66833ef49d6d357d965f", null ],
-    [ "toGeometry", "a04965.html#a70d2c83f032867b59a3af555f1ff6d98", null ],
-    [ "toGeometry", "a04965.html#ad1731b05de5c7e8bae69ff8eb74036f2", null ],
-    [ "toGeometry", "a04965.html#ad7e9fd4bfe07509ba9bbd5a1e09c8a71", null ],
-    [ "transform", "a04965.html#adb6db926db08da5c0c4a8ad8cfb1ff2d", null ]
+    [ "decodePolyline", "a04965.html#afdf77a0767731ca8ed4f32b202562e6c", null ],
+    [ "encode", "a04965.html#a876025a55fcd314232a8273361dcc990", null ],
+    [ "encodePolyline", "a04965.html#aaa65610c4aa6918ed9f9e78ba2d8d9a9", null ],
+    [ "read", "a04965.html#a793358fbd6ef538a24eabab1bd50ef01", null ],
+    [ "toString", "a04965.html#ad146fa8579a5f8a876c4688cc5a68520", null ],
+    [ "unparse", "a04965.html#ae918a517e1ebcc44beeee2c55008d248", null ],
+    [ "INSTANCE", "a04965.html#a3be1b7911f02ee6aa966eb957e250fb7", null ],
+    [ "URI", "a04965.html#addbf30e6c0ad68fa34277d59a2c6eb5e", null ]
 ];

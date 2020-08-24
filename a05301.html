@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>rdf4j-postgis: Member List</title>
+<title>rdf4j-postgis: IsMeasuredTest Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -56,26 +56,71 @@ $(function() {
   </div>
 </div>
 <script type="text/javascript">
-$(document).ready(function(){initNavTree('a05304.html','');});
+$(document).ready(function(){initNavTree('a05301.html','');});
 </script>
 <div id="doc-content">
 <div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="a05298.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">MinimumBoundingCircleCenterTest Member List</div>  </div>
+<div class="title">IsMeasuredTest Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:a0d34749daed816e995d607f25393f8bd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05301.html#a0d34749daed816e995d607f25393f8bd">testIsMeasuredFalse</a> ()</td></tr>
+<tr class="separator:a0d34749daed816e995d607f25393f8bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a94b07ea8a866ff9332c709b77d204342"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05301.html#a94b07ea8a866ff9332c709b77d204342">testIsMeasuredTrue</a> ()</td></tr>
+<tr class="separator:a94b07ea8a866ff9332c709b77d204342"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a0d34749daed816e995d607f25393f8bd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0d34749daed816e995d607f25393f8bd">&#9670;&nbsp;</a></span>testIsMeasuredFalse()</h2>
 
-<p>This is the complete list of members for <a class="el" href="a05304.html">MinimumBoundingCircleCenterTest</a>, including all inherited members.</p>
-<table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="a05304.html#aab356d6554a7301750f11ec7a85ac47d">result</a></td><td class="entry"><a class="el" href="a05304.html">MinimumBoundingCircleCenterTest</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
-  <tr><td class="entry"><a class="el" href="a05304.html#ae83e48bad70898d10790438246feadad">testMinimumBoundingCircle</a>()</td><td class="entry"><a class="el" href="a05304.html">MinimumBoundingCircleCenterTest</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="a05304.html#a1e3187cbc25299380589200c398b3ffd">testPolygon</a></td><td class="entry"><a class="el" href="a05304.html">MinimumBoundingCircleCenterTest</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
-</table></div><!-- contents -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void testIsMeasuredFalse </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="a03089.html#a43b4c73244bc6722ce551c1033cf1115">GeometricBinaryAttributeFunction.evaluate()</a>, and <a class="el" href="a05041.html#ae02c2e86ac0dea8538c7b43e9e82421a">WKTDatatype.LiteralIRI</a>.</p>
+<div class="fragment"><div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;                                          {</div><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;                IsMeasured instance=<span class="keyword">new</span> IsMeasured();</div><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;                ValueFactory valfac=SimpleValueFactory.getInstance();</div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;                Value geo=valfac.createLiteral(<span class="stringliteral">&quot;&lt;http://www.opengis.net/def/crs/EPSG/0/27700&gt; MULTIPOINT (10 40, 40 30, 20 20, 30 10)&quot;</span>, WKTDatatype.LiteralIRI);</div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;                Value result=instance.evaluate(valfac, geo);</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;                Value expResult=valfac.createLiteral(<span class="keyword">false</span>);</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;                assertEquals(expResult, result);</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;        }</div></div><!-- fragment -->
+</div>
+</div>
+<a id="a94b07ea8a866ff9332c709b77d204342"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a94b07ea8a866ff9332c709b77d204342">&#9670;&nbsp;</a></span>testIsMeasuredTrue()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void testIsMeasuredTrue </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="a03089.html#a43b4c73244bc6722ce551c1033cf1115">GeometricBinaryAttributeFunction.evaluate()</a>, and <a class="el" href="a05041.html#ae02c2e86ac0dea8538c7b43e9e82421a">WKTDatatype.LiteralIRI</a>.</p>
+<div class="fragment"><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;                                         {</div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;                IsMeasured instance=<span class="keyword">new</span> IsMeasured();</div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;                ValueFactory valfac=SimpleValueFactory.getInstance();</div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;                Value geo=valfac.createLiteral(<span class="stringliteral">&quot;&lt;http://www.opengis.net/def/crs/EPSG/0/27700&gt; MULTIPOINT M (10 40 1, 40 30 2, 20 20 3, 30 10 4)&quot;</span>, WKTDatatype.LiteralIRI);</div><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;                Value result=instance.evaluate(valfac, geo);</div><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;                Value expResult=valfac.createLiteral(<span class="keyword">true</span>);</div><div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;                assertEquals(expResult, result);</div><div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;        }       </div></div><!-- fragment -->
+</div>
+</div>
+</div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.13-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
+    <li class="navelem"><a class="el" href="a02580.html">org</a></li><li class="navelem"><a class="el" href="a02581.html">eclipse</a></li><li class="navelem"><a class="el" href="a02582.html">rdf4j</a></li><li class="navelem"><a class="el" href="a02663.html">testsuites</a></li><li class="navelem"><a class="el" href="a02664.html">postgis</a></li><li class="navelem"><a class="el" href="a02667.html">geometry</a></li><li class="navelem"><a class="el" href="a02666.html">attribute</a></li><li class="navelem"><a class="el" href="a05301.html">IsMeasuredTest</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>

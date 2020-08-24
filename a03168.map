@@ -1,2 +1,5 @@
-<map id="GeometricRelationDoubleDoubleFunction" name="GeometricRelationDoubleDoubleFunction">
+<map id="GeometricRelationDoubleBinaryFunction" name="GeometricRelationDoubleBinaryFunction">
+<area shape="rect" id="node3" href="$a03397.html" title="FullyWithinDistance" alt="" coords="5,169,144,196"/>
+<area shape="rect" id="node4" href="$a03401.html" title="FullyWithinDistance3D" alt="" coords="169,169,325,196"/>
+<area shape="rect" id="node5" href="$a03465.html" title="WithinDistance3D" alt="" coords="349,169,477,196"/>
 </map>

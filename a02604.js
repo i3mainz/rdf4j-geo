@@ -1,9 +1,10 @@
 var a02604 =
 [
-    [ "AddMeasure", "a03718.html", "a03718" ],
-    [ "AddPoint", "a03722.html", "a03722" ],
-    [ "RemovePoint", "a03726.html", "a03726" ],
-    [ "SetEndPoint", "a03730.html", "a03730" ],
-    [ "SetPoint", "a03734.html", "a03734" ],
-    [ "SetStartPoint", "a03738.html", "a03738" ]
+    [ "EndPoint", "a03669.html", "a03669" ],
+    [ "HasSelfIntersections", "a03673.html", "a03673" ],
+    [ "LineInterpolatePoint", "a03677.html", "a03677" ],
+    [ "LineLength3D", "a03681.html", "a03681" ],
+    [ "LineSelfIntersectionPoint", "a03685.html", "a03685" ],
+    [ "SelfIntersections", "a03689.html", "a03689" ],
+    [ "StartPoint", "a03693.html", "a03693" ]
 ];

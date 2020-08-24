@@ -1,7 +1,7 @@
 var a05773 =
 [
-    [ "testSetRing", "a05773.html#ad03fb669accdb6228a8cd3c914d39cf4", null ],
-    [ "duplicateRings", "a05773.html#a92f3ef00fc079a76b7f943d9ed6cec77", null ],
-    [ "nonduplicateRings", "a05773.html#a675a0b1b194538fc07fa716705f883a5", null ],
-    [ "ring", "a05773.html#a3e4a839eee2eb5791f90656e82eec721", null ]
+    [ "testAzimuth1", "a05773.html#afb57967d41a75bfa55c7f1443b245d14", null ],
+    [ "testAzimuth2", "a05773.html#a5d42e5f7045b0a306fc1d39539491851", null ],
+    [ "testPoint1", "a05773.html#ab20d196cb6e34afc2e9cff8074e43bfd", null ],
+    [ "testPoint2", "a05773.html#aa0c0c6f5dda7a397fc50f4c22a2b180f", null ]
 ];

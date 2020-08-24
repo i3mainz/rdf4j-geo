@@ -1,5 +1,6 @@
 var a05337 =
 [
-    [ "testAsGeoURI", "a05337.html#aae403d68ccc2ecfb409ca338b5ba0101", null ],
-    [ "testGeometry", "a05337.html#abc3f514f005cba49e406658e2d3086eb", null ]
+    [ "testMinimumBoundingCircle", "a05337.html#ae83e48bad70898d10790438246feadad", null ],
+    [ "result", "a05337.html#aab356d6554a7301750f11ec7a85ac47d", null ],
+    [ "testPolygon", "a05337.html#a1e3187cbc25299380589200c398b3ffd", null ]
 ];

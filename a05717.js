@@ -1,6 +1,6 @@
 var a05717 =
 [
-    [ "testCircumcentre1", "a05717.html#af8da9616fd1ee304df92759a8b87da02", null ],
-    [ "isocelesTriangle", "a05717.html#aa04dfbec745e2622b9f7646f8572e501", null ],
-    [ "notIsocelesTriangle", "a05717.html#a055d99fb63bcee37763ffcf4da9e0521", null ]
+    [ "testTransScale", "a05717.html#a8169037c504558c555e457db95ca9864", null ],
+    [ "res", "a05717.html#ab8deaae2f0a5506ff9fd02ff15e921cc", null ],
+    [ "testLineString", "a05717.html#a33797029fadbcba01b4a4fafec88cf41", null ]
 ];

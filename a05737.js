@@ -1,7 +1,9 @@
 var a05737 =
 [
-    [ "testIsConvexFalse", "a05737.html#a84d7af36a321a8f38760993ee03431f1", null ],
-    [ "testIsConvexTrue", "a05737.html#a72b02d577b66678dc78571b6ca1901cc", null ],
-    [ "isocelesTriangle", "a05737.html#aa04dfbec745e2622b9f7646f8572e501", null ],
-    [ "notIsocelesTriangle", "a05737.html#a055d99fb63bcee37763ffcf4da9e0521", null ]
+    [ "testNoSelfIntersections", "a05737.html#a08dd11e1d44a910007de229eada7aa6d", null ],
+    [ "testSelfIntersections", "a05737.html#a3d2c64bb3b45c45751b144babb6906da", null ],
+    [ "intersectResult", "a05737.html#ab431ece386e282254dd754494c7f6cd0", null ],
+    [ "intersectResult2", "a05737.html#a94c72a35c99c7c55f05a1f50c20f6cfd", null ],
+    [ "testGeom", "a05737.html#a03a5f5da0ccbeed8c1678d4317cf2672", null ],
+    [ "testGeom2", "a05737.html#a6b4be369c8f60e973cd5126e69cd33a4", null ]
 ];

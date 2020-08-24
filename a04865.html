@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>rdf4j-postgis: Member List</title>
+<title>rdf4j-postgis: Log10 Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -56,25 +56,99 @@ $(function() {
   </div>
 </div>
 <script type="text/javascript">
-$(document).ready(function(){initNavTree('a04868.html','');});
+$(document).ready(function(){initNavTree('a04865.html','');});
 </script>
 <div id="doc-content">
 <div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="a04862.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">ToDegrees Member List</div>  </div>
+<div class="title">Log10 Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+<div class="dynheader">
+Inheritance diagram for Log10:</div>
+<div class="dyncontent">
+<div class="center"><img src="a04864.png" border="0" usemap="#Log10_inherit__map" alt="Inheritance graph"/></div>
+<map name="Log10_inherit__map" id="Log10_inherit__map">
+</map>
+<center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
+<div class="dynheader">
+Collaboration diagram for Log10:</div>
+<div class="dyncontent">
+<div class="center"><img src="a04863.png" border="0" usemap="#Log10_coll__map" alt="Collaboration graph"/></div>
+<map name="Log10_coll__map" id="Log10_coll__map">
+</map>
+<center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:ad9fb16b36dd4ccc533d4f05ff94646e3"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a04865.html#ad9fb16b36dd4ccc533d4f05ff94646e3">getURI</a> ()</td></tr>
+<tr class="separator:ad9fb16b36dd4ccc533d4f05ff94646e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a43b4c73244bc6722ce551c1033cf1115"><td class="memItemLeft" align="right" valign="top">Value&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a04865.html#a43b4c73244bc6722ce551c1033cf1115">evaluate</a> (ValueFactory valueFactory, Value... args)  throws ValueExprEvaluationException </td></tr>
+<tr class="separator:a43b4c73244bc6722ce551c1033cf1115"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a43b4c73244bc6722ce551c1033cf1115"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a43b4c73244bc6722ce551c1033cf1115">&#9670;&nbsp;</a></span>evaluate()</h2>
 
-<p>This is the complete list of members for <a class="el" href="a04868.html">ToDegrees</a>, including all inherited members.</p>
-<table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="a04868.html#a43b4c73244bc6722ce551c1033cf1115">evaluate</a>(ValueFactory valueFactory, Value... args)</td><td class="entry"><a class="el" href="a04868.html">ToDegrees</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="a04868.html#ad9fb16b36dd4ccc533d4f05ff94646e3">getURI</a>()</td><td class="entry"><a class="el" href="a04868.html">ToDegrees</a></td><td class="entry"></td></tr>
-</table></div><!-- contents -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Value evaluate </td>
+          <td>(</td>
+          <td class="paramtype">ValueFactory&#160;</td>
+          <td class="paramname"><em>valueFactory</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Value...&#160;</td>
+          <td class="paramname"><em>args</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> throws ValueExprEvaluationException</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="a04865.html#ad9fb16b36dd4ccc533d4f05ff94646e3">Log10.getURI()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;                                                                                                            {</div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;                <span class="keywordflow">if</span> (args.length != 1) {</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;                        <span class="keywordflow">throw</span> <span class="keyword">new</span> ValueExprEvaluationException(<a class="code" href="a04865.html#ad9fb16b36dd4ccc533d4f05ff94646e3">getURI</a>() + <span class="stringliteral">&quot; requires exactly 1 arguments, got &quot;</span> + args.length);</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;                }                       </div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;                Double value=Double.valueOf(args[0].stringValue());</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;                <span class="keywordflow">return</span> valueFactory.createLiteral(Math.log10(value));</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;        }</div><div class="ttc" id="a04865_html_ad9fb16b36dd4ccc533d4f05ff94646e3"><div class="ttname"><a href="a04865.html#ad9fb16b36dd4ccc533d4f05ff94646e3">org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.functions.math.Log10.getURI</a></div><div class="ttdeci">String getURI()</div><div class="ttdef"><b>Definition:</b> util/functions/math/Log10.java:12</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="ad9fb16b36dd4ccc533d4f05ff94646e3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad9fb16b36dd4ccc533d4f05ff94646e3">&#9670;&nbsp;</a></span>getURI()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">String getURI </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="a02729.html#a89828e1ea09d1ba7459d8de41d22f8ab">POSTGIS.Log10</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="a04865.html#a43b4c73244bc6722ce551c1033cf1115">Log10.evaluate()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;                               {</div><div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;                <span class="comment">// TODO Auto-generated method stub</span></div><div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;                <span class="keywordflow">return</span> POSTGIS.Log10.stringValue();</div><div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;        }</div></div><!-- fragment -->
+</div>
+</div>
+</div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.13-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
+    <li class="navelem"><a class="el" href="a02580.html">org</a></li><li class="navelem"><a class="el" href="a02581.html">eclipse</a></li><li class="navelem"><a class="el" href="a02582.html">rdf4j</a></li><li class="navelem"><a class="el" href="a02585.html">query</a></li><li class="navelem"><a class="el" href="a02586.html">algebra</a></li><li class="navelem"><a class="el" href="a02587.html">evaluation</a></li><li class="navelem"><a class="el" href="a02588.html">function</a></li><li class="navelem"><a class="el" href="a02589.html">postgis</a></li><li class="navelem"><a class="el" href="a02639.html">util</a></li><li class="navelem"><a class="el" href="a02640.html">functions</a></li><li class="navelem"><a class="el" href="a02638.html">math</a></li><li class="navelem"><a class="el" href="a04865.html">Log10</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>

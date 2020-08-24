@@ -1,17 +1,11 @@
 var a02599 =
 [
-    [ "EPSGToSRID", "a03466.html", "a03466" ],
-    [ "EPSGToWKT", "a03470.html", "a03470" ],
-    [ "GeomCRSToWKT", "a03474.html", "a03474" ],
-    [ "SridGetAxis1Name", "a03478.html", "a03478" ],
-    [ "SridGetAxis1Orientation", "a03482.html", "a03482" ],
-    [ "SridGetAxis2Name", "a03486.html", "a03486" ],
-    [ "SridGetAxis2Orientation", "a03490.html", "a03490" ],
-    [ "SridGetDatum", "a03494.html", "a03494" ],
-    [ "SridHasFlippedAxis", "a03498.html", "a03498" ],
-    [ "SridIsGeographic", "a03502.html", "a03502" ],
-    [ "SridIsProjected", "a03506.html", "a03506" ],
-    [ "SridIsVertical", "a03510.html", "a03510" ],
-    [ "SRIDToEPSG", "a03514.html", "a03514" ],
-    [ "SRIDToWKT", "a03518.html", "a03518" ]
+    [ "AddGeometry", "a03233.html", "a03233" ],
+    [ "AddZ", "a03237.html", "a03237" ],
+    [ "EnsureClosed", "a03241.html", "a03241" ],
+    [ "EnsureClosedRings", "a03245.html", "a03245" ],
+    [ "RemoveGeometry", "a03249.html", "a03249" ],
+    [ "RemoveRepeatedPoints", "a03253.html", "a03253" ],
+    [ "SetGeometry", "a03257.html", "a03257" ],
+    [ "SetSRID", "a03261.html", "a03261" ]
 ];

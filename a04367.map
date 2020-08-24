@@ -1,4 +1,3 @@
-<map id="RasterAttributeBooleanIntFunction" name="RasterAttributeBooleanIntFunction">
-<area shape="rect" id="node3" href="$a04176.html" title="BandIsNoData" alt="" coords="5,169,113,196"/>
-<area shape="rect" id="node4" href="$a04196.html" title="HasNoBand" alt="" coords="138,169,231,196"/>
+<map id="Width" name="Width">
+<area shape="rect" id="node2" href="$a04409.html" title="RasterAttributeFunction" alt="" coords="5,80,165,107"/>
 </map>

@@ -1,9 +1,5 @@
 var a05613 =
 [
-    [ "testNoSelfIntersections", "a05613.html#a08dd11e1d44a910007de229eada7aa6d", null ],
-    [ "testSelfIntersections", "a05613.html#a3d2c64bb3b45c45751b144babb6906da", null ],
-    [ "intersectResult", "a05613.html#ab431ece386e282254dd754494c7f6cd0", null ],
-    [ "intersectResult2", "a05613.html#a94c72a35c99c7c55f05a1f50c20f6cfd", null ],
-    [ "testGeom", "a05613.html#a03a5f5da0ccbeed8c1678d4317cf2672", null ],
-    [ "testGeom2", "a05613.html#a6b4be369c8f60e973cd5126e69cd33a4", null ]
+    [ "testSridHasFlippedAxis", "a05613.html#a94f12f6d4a3fe8f25be5144338eb0198", null ],
+    [ "testPoint", "a05613.html#af26f700ee129f846cac58735f6dcc380", null ]
 ];

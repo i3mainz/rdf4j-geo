@@ -1,8 +1,8 @@
 var a02617 =
 [
-    [ "ForcePolygonCCW", "a04074.html", "a04074" ],
-    [ "ForcePolygonCW", "a04078.html", "a04078" ],
-    [ "LinesFromRings", "a04082.html", "a04082" ],
-    [ "ReverseRing", "a04086.html", "a04086" ],
-    [ "RingsCutAtNodes", "a04090.html", "a04090" ]
+    [ "attribute", "a02616.html", "a02616" ],
+    [ "constructor", "a02618.html", "a02618" ],
+    [ "editor", "a02619.html", "a02619" ],
+    [ "transform", "a02620.html", "a02620" ],
+    [ "InteriorRingN", "a04073.html", "a04073" ]
 ];

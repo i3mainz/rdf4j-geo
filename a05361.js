@@ -1,5 +1,5 @@
 var a05361 =
 [
-    [ "testAsSVG", "a05361.html#a7051938045f1413d97e8c5925b1c7677", null ],
-    [ "testGeometry", "a05361.html#abc3f514f005cba49e406658e2d3086eb", null ]
+    [ "testMinimumDiameter", "a05361.html#a73584ebc5e2d20692de63f5ae4f13387", null ],
+    [ "testPolygon", "a05361.html#a1e3187cbc25299380589200c398b3ffd", null ]
 ];

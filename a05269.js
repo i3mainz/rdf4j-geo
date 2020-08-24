@@ -1,5 +1,5 @@
 var a05269 =
 [
-    [ "testNumDistinctPoints", "a05269.html#aac9f79f9e21b36c6addad28b9e81bec6", null ],
-    [ "testGeom", "a05269.html#a03a5f5da0ccbeed8c1678d4317cf2672", null ]
+    [ "testCompactnessRatio", "a05269.html#a59967568bbd6211556c900a674e7d734", null ],
+    [ "testGeometry", "a05269.html#abc3f514f005cba49e406658e2d3086eb", null ]
 ];

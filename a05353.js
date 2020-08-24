@@ -1,5 +1,5 @@
 var a05353 =
 [
-    [ "testAsOSMLink", "a05353.html#a31833fe8b6139bfbdcd328ee943729e2", null ],
-    [ "testGeometry", "a05353.html#abc3f514f005cba49e406658e2d3086eb", null ]
+    [ "testMinimumClearance", "a05353.html#a66deeca736cad11f886ba1567bcb6fe1", null ],
+    [ "testPolygon", "a05353.html#a1e3187cbc25299380589200c398b3ffd", null ]
 ];

@@ -1,13 +1,17 @@
 var a05121 =
 [
-    [ "LocatePoint", "a05121.html#a0db8c96a170aff314d55b51d1090d8c7", null ],
-    [ "compute", "a05121.html#a4f513b82951056a3f579d95f215e9307", null ],
-    [ "getIndex", "a05121.html#a59d053c950ff1e9f8a004d493f34e754", null ],
-    [ "getPoint", "a05121.html#add97f503ca58503d04ac9150e6c8ef7f", null ],
-    [ "pointAlongLine", "a05121.html#aefeee61acc0d87ebcacf610af684935e", null ],
-    [ "pointAlongSegment", "a05121.html#a8138e49067c6447449ff0a8ce19bfed4", null ],
-    [ "pointAlongSegment", "a05121.html#a4b414ab63960ecfa283932288f9977f7", null ],
-    [ "pointAlongSegmentByFraction", "a05121.html#a9ecfa15254cc343c6166b5e9b3f05c03", null ],
-    [ "index", "a05121.html#a750b5d744c39a06bfb13e6eb010e35d0", null ],
-    [ "pt", "a05121.html#aae9b62bb90c0c25de44c11a2abc79afa", null ]
+    [ "SampleDimensionType", "a05121.html#ac4656188dc6dc6d0e4ef66fc034f007a", null ],
+    [ "family", "a05121.html#aeaaf4d39c7b3cf733d53fd480402fa4a", null ],
+    [ "REAL_32BITS", "a05121.html#a4661791c7fdef1dd6b7c378997ab136b", null ],
+    [ "REAL_64BITS", "a05121.html#acf48844a1576a02e799a3d928eee8692", null ],
+    [ "SIGNED_16BITS", "a05121.html#a212388497db9120bc7f72dd21cb42155", null ],
+    [ "SIGNED_32BITS", "a05121.html#ac8f0730059b0c8995cd92b44e7f497bd", null ],
+    [ "SIGNED_8BITS", "a05121.html#a8325ed259325342303705b314d8862a7", null ],
+    [ "UNSIGNED_16BITS", "a05121.html#a0f26f59268649ca0a5ed3cef8d270f16", null ],
+    [ "UNSIGNED_1BIT", "a05121.html#ab05c9236ffa258b1889bcdb7af336eaf", null ],
+    [ "UNSIGNED_2BITS", "a05121.html#a21e1d1ca3035d887200d51acf209dd9a", null ],
+    [ "UNSIGNED_32BITS", "a05121.html#a8c90457fceea81d745b1863f8df3c7e8", null ],
+    [ "UNSIGNED_4BITS", "a05121.html#ae2428a486b2345e3c8dd77be7422ba05", null ],
+    [ "UNSIGNED_8BITS", "a05121.html#ad125fdd898ef56e093ed2c7f246f9179", null ],
+    [ "VALUES", "a05121.html#ae6664f693fbc6259d4f449ce5e918c87", null ]
 ];

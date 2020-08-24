@@ -1,7 +1,10 @@
 var a02642 =
 [
-    [ "CoverageJSONReader", "a05050.html", "a05050" ],
-    [ "CoverageJsonWriter", "a05054.html", "a05054" ],
-    [ "VectorTileDecoder", "a05058.html", "a05058" ],
-    [ "VectorTileEncoder", "a05074.html", "a05074" ]
+    [ "CovJSONDatatype", "a04925.html", "a04925" ],
+    [ "GeoTIFFDatatype", "a04929.html", "a04929" ],
+    [ "GMLCOVDatatype", "a04933.html", "a04933" ],
+    [ "HexWKBRastDatatype", "a04937.html", "a04937" ],
+    [ "NetCDFDatatype", "a04941.html", "a04941" ],
+    [ "RasterLiteral", "a04945.html", "a04945" ],
+    [ "WKBRastDatatype", "a04949.html", "a04949" ]
 ];

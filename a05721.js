@@ -1,7 +1,9 @@
 var a05721 =
 [
-    [ "testHasConnectedInteriorFalse", "a05721.html#a725a2cc1c4ba4909307c9a2fa07558d8", null ],
-    [ "testHasConnectedInteriorTrue", "a05721.html#a95e618db9d2053f26b5194e3bec0d2a0", null ],
-    [ "duplicateRings", "a05721.html#a92f3ef00fc079a76b7f943d9ed6cec77", null ],
-    [ "nonduplicateRings", "a05721.html#a675a0b1b194538fc07fa716705f883a5", null ]
+    [ "testLineString2D", "a05721.html#a100e1041d9eed0108cb20adfb3ccb714", null ],
+    [ "testLineString3D", "a05721.html#aed8078596e87405b402dec09f15eb681", null ],
+    [ "testPoint", "a05721.html#a67242842aad66b0a00820a5d4d7ea731", null ],
+    [ "LineString2D", "a05721.html#a4a6127d0b7f1eecce2d32442325f7735", null ],
+    [ "LineString3D", "a05721.html#a7f1b41b47d9de827d79c109c50a189f5", null ],
+    [ "point", "a05721.html#a081811ff1c2bedd0a20703599f90114f", null ]
 ];

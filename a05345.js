@@ -1,5 +1,5 @@
 var a05345 =
 [
-    [ "testAsEncodedPolyline", "a05345.html#a77e364f1e18fbe312ed563af435ddc8f", null ],
-    [ "testGeometry", "a05345.html#abc3f514f005cba49e406658e2d3086eb", null ]
+    [ "testMinimumBoundingRadius", "a05345.html#a5667209a5677a7711029bc6a83d59d32", null ],
+    [ "testPolygon", "a05345.html#a1e3187cbc25299380589200c398b3ffd", null ]
 ];

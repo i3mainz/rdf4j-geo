@@ -1,8 +1,7 @@
 var a05913 =
 [
-    [ "testRasterToWorldCoordY", "a05913.html#a24ce6ed3c7eedd4a897b2c7e85151c25", null ],
-    [ "covJSONString1", "a05913.html#a993e2f127f3ec8f256e9799d77507223", null ],
-    [ "rasterBand", "a05913.html#a44dd712968b2420bbfbf9ae21d476b87", null ],
-    [ "rasterLiteral1", "a05913.html#a77798f856500689412dea069531a7606", null ],
-    [ "wkbString1", "a05913.html#ac94c157f6beb145deb3abfe76cbf5de2", null ]
+    [ "testAddRing", "a05913.html#abfc2c7e942ef652635d2256ba4e1fa47", null ],
+    [ "duplicateRings", "a05913.html#a92f3ef00fc079a76b7f943d9ed6cec77", null ],
+    [ "nonduplicateRings", "a05913.html#a675a0b1b194538fc07fa716705f883a5", null ],
+    [ "ring", "a05913.html#a3e4a839eee2eb5791f90656e82eec721", null ]
 ];

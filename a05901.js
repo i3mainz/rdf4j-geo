@@ -1,9 +1,5 @@
 var a05901 =
 [
-    [ "testNumYTiles", "a05901.html#a3d907c47d14c75d2d528f33c3a6c662e", null ],
-    [ "cov", "a05901.html#ae46fa35c884a8b26e022dedba4ba1350", null ],
-    [ "covJSONString1", "a05901.html#a993e2f127f3ec8f256e9799d77507223", null ],
-    [ "rasterBand", "a05901.html#a44dd712968b2420bbfbf9ae21d476b87", null ],
-    [ "rasterLiteral1", "a05901.html#a77798f856500689412dea069531a7606", null ],
-    [ "wkbString1", "a05901.html#ac94c157f6beb145deb3abfe76cbf5de2", null ]
+    [ "testNRings", "a05901.html#a232253c11ffc2c2e17e969ee3180b704", null ],
+    [ "testPolygon", "a05901.html#a1e3187cbc25299380589200c398b3ffd", null ]
 ];

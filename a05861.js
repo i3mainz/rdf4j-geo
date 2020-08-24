@@ -1,9 +1,7 @@
 var a05861 =
 [
-    [ "testXor", "a05861.html#a11b935be18716d35402a7fec0817a727", null ],
-    [ "combinedRasterLiteral", "a05861.html#a6efe8702be34a67e2bcbba55588c5b5f", null ],
-    [ "covJSONString1", "a05861.html#a993e2f127f3ec8f256e9799d77507223", null ],
-    [ "rasterBand", "a05861.html#a44dd712968b2420bbfbf9ae21d476b87", null ],
-    [ "rasterLiteral1", "a05861.html#a77798f856500689412dea069531a7606", null ],
-    [ "wkbString1", "a05861.html#ac94c157f6beb145deb3abfe76cbf5de2", null ]
+    [ "testIsAcuteFalse", "a05861.html#a5b3dbe6f41b97c30eaff61a7c0c6f344", null ],
+    [ "testIsAcuteTrue", "a05861.html#aea45a7ea1a6bbd2c8bf3bfa751ec4e1f", null ],
+    [ "isocelesTriangle", "a05861.html#aa04dfbec745e2622b9f7646f8572e501", null ],
+    [ "notIsocelesTriangle", "a05861.html#a055d99fb63bcee37763ffcf4da9e0521", null ]
 ];

@@ -1,2 +1,11 @@
-<map id="GeometricModifierDoubleDoubleDoubleFunction" name="GeometricModifierDoubleDoubleDoubleFunction">
+<map id="GeometricIntegerAttributeFunction" name="GeometricIntegerAttributeFunction">
+<area shape="rect" id="node3" href="$a03053.html" title="Returns the minimum of dimensions of the given geometry. " alt="" coords="397,5,460,32"/>
+<area shape="rect" id="node4" href="$a03057.html" title="Returns the number of distinct geometries included in this geometry. " alt="" coords="347,56,510,83"/>
+<area shape="rect" id="node5" href="$a03061.html" title="Returns the number of distinct points of the given geometry. " alt="" coords="363,107,495,133"/>
+<area shape="rect" id="node6" href="$a03065.html" title="Returns the number of geometries included in this geometry. " alt="" coords="370,157,487,184"/>
+<area shape="rect" id="node7" href="$a03069.html" title="NumPatches" alt="" coords="379,208,478,235"/>
+<area shape="rect" id="node8" href="$a03073.html" title="Returns the number of points of the given geometry. " alt="" coords="385,259,472,285"/>
+<area shape="rect" id="node9" href="$a04033.html" title="Returns the number of distinct interior rings. " alt="" coords="344,309,513,336"/>
+<area shape="rect" id="node10" href="$a04037.html" title="Returns the number of interior rings of a polygon. " alt="" coords="367,360,491,387"/>
+<area shape="rect" id="node11" href="$a04041.html" title="Returns the orientation of the coordinates of a polygon. " alt="" coords="386,411,471,437"/>
 </map>

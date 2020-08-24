@@ -1,13 +1,8 @@
 var a05017 =
 [
-    [ "Encoder", "a05017.html#ae9b4d30bd3ef8dcabd2c471b856cc56f", null ],
-    [ "encode", "a05017.html#a0e57882e67b7da0cfbd8dd524d1a08aa", null ],
-    [ "seperator", "a05017.html#a39600d33dd97208ba398ac5c4340fa77", null ],
-    [ "startRing", "a05017.html#ab6635935e270ce5b32d1efd4b377c983", null ],
-    [ "write", "a05017.html#a738ab332235183cb8c6acda151d9801c", null ],
-    [ "write", "a05017.html#a67c54f108cb20c5a0f698e20a287724d", null ],
-    [ "writeArg", "a05017.html#a66b62fe86f9a7aa5e1fb78d2282adf66", null ],
-    [ "lastLat", "a05017.html#a9cb6715e048613ba1adc6d02662c58bb", null ],
-    [ "lastLng", "a05017.html#a6071d28e26a7046598083d44edae7168", null ],
-    [ "writer", "a05017.html#ab56a5d0c4efb5c0d2c4f33d5dad8c917", null ]
+    [ "read", "a05017.html#a0a51e7a558c31dd59e2fb31c2b6b9a6d", null ],
+    [ "unparse", "a05017.html#a8f23415f60c2281824a1ca004a2fce9b", null ],
+    [ "INSTANCE", "a05017.html#afb4dc47464d22ed20de4b4318bcf68ca", null ],
+    [ "LiteralIRI", "a05017.html#ae02c2e86ac0dea8538c7b43e9e82421a", null ],
+    [ "URI", "a05017.html#addbf30e6c0ad68fa34277d59a2c6eb5e", null ]
 ];

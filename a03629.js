@@ -1,6 +1,6 @@
 var a03629 =
 [
-    [ "construct", "a03629.html#aed4306d2bdbe40c21c01706f365e83cd", null ],
     [ "evaluate", "a03629.html#a43b4c73244bc6722ce551c1033cf1115", null ],
-    [ "getURI", "a03629.html#ad9fb16b36dd4ccc533d4f05ff94646e3", null ]
+    [ "getURI", "a03629.html#ad9fb16b36dd4ccc533d4f05ff94646e3", null ],
+    [ "relation", "a03629.html#aa3e7287780092a319d5d0cf6afe76d13", null ]
 ];

@@ -1,9 +1,27 @@
 var a05129 =
 [
-    [ "testBBOXBelow", "a05129.html#a594cd72ca71bae81e2fc3388cd6a1acf", null ],
-    [ "testBBOXBelow1", "a05129.html#a93106ea7627b07fa96ea139a729727c1", null ],
-    [ "testGeom1", "a05129.html#aa4a3b1a7e778ece72382f6600fa96b47", null ],
-    [ "testGeom2", "a05129.html#a6b4be369c8f60e973cd5126e69cd33a4", null ],
-    [ "testGeom3", "a05129.html#a800b6bb875a8ff4404ea787c3df125a5", null ],
-    [ "testGeom4", "a05129.html#a4c55e7efe430d6d220fb05524c4bb940", null ]
+    [ "WKBRasterConstants", "a05129.html#afd5753ad6a607f70e04431c9d92e01e2", null ],
+    [ "getDataBufferType", "a05129.html#ac52192545c0460512a05f796c5c49cfa", null ],
+    [ "getDimensionType", "a05129.html#a98281e43765f09e5590f0606e2d68eb1", null ],
+    [ "getNbBytePerPixel", "a05129.html#a90175c7e374ef5fa97cdeeb1b5a34b2d", null ],
+    [ "getPixelType", "a05129.html#a5e85252e761739965ad43a3f553a80cc", null ],
+    [ "getPixelType", "a05129.html#a0cdacc5ebe7f3d956f9199c25a1d56b0", null ],
+    [ "BANDTYPE_FLAG_HASNODATA", "a05129.html#a2324f6647c1940700254eb720d6ba8e8", null ],
+    [ "BANDTYPE_FLAG_ISNODATA", "a05129.html#aef7fd5e115192a2ec56af1abfa80f424", null ],
+    [ "BANDTYPE_FLAG_OFFDB", "a05129.html#a3b9dbcdbb7097fd3d67db74e5892fd78", null ],
+    [ "BANDTYPE_FLAG_RESERVED3", "a05129.html#a60328b84a61d35824b92336a8a9c2905", null ],
+    [ "BANDTYPE_FLAGS_MASK", "a05129.html#ae372c1456067dc0a5ee6e599a44d1f93", null ],
+    [ "BANDTYPE_PIXTYPE_MASK", "a05129.html#a4d2aacba81f65a665011dbf308875cd3", null ],
+    [ "PT_16BSI", "a05129.html#a00e8e1ec48639556764834911af9149e", null ],
+    [ "PT_16BUI", "a05129.html#abfea3c08329883c92be56c91587e95d8", null ],
+    [ "PT_1BB", "a05129.html#a4823fe179fa356ff0f8b4fb2ad0b69a2", null ],
+    [ "PT_2BUI", "a05129.html#a41fa02aa3367a9f74bcb10f02367dc87", null ],
+    [ "PT_32BF", "a05129.html#ae54a997b0ccb99c852c9a551e579397a", null ],
+    [ "PT_32BSI", "a05129.html#a8996d55e240c396e25bf79c4f6e6a53a", null ],
+    [ "PT_32BUI", "a05129.html#a4162cb8e923e14e115041d7136600b9d", null ],
+    [ "PT_4BUI", "a05129.html#aaafdd84919a14f91ed00ffa1673c2799", null ],
+    [ "PT_64BF", "a05129.html#a741fc140710e0d41a67cf850a864fee0", null ],
+    [ "PT_8BSI", "a05129.html#aed64329657f9c4e9e72730753cbd761b", null ],
+    [ "PT_8BUI", "a05129.html#ac51a9f88963687758a4d0c39e34f5f31", null ],
+    [ "PT_END", "a05129.html#aaeba1f38f11d641375f931be735f6837", null ]
 ];

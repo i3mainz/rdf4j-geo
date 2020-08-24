@@ -1,5 +1,5 @@
 var a05365 =
 [
-    [ "testAsTextRaw", "a05365.html#abe6b8113553114d4969c61497fcbd472", null ],
-    [ "testGeometry", "a05365.html#abc3f514f005cba49e406658e2d3086eb", null ]
+    [ "testMinimumRectangle", "a05365.html#a113f2072fe3a9c6603a02548b81f6545", null ],
+    [ "testPolygon", "a05365.html#a1e3187cbc25299380589200c398b3ffd", null ]
 ];

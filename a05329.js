@@ -1,5 +1,5 @@
 var a05329 =
 [
-    [ "testAsGARS", "a05329.html#a80929de20ed59fa635418039d48a9ef7", null ],
-    [ "testPoint", "a05329.html#af26f700ee129f846cac58735f6dcc380", null ]
+    [ "testIsValidFalse", "a05329.html#abe8c10068a1ed9f8a4fea754990b0a48", null ],
+    [ "testIsValidTrue", "a05329.html#a9556e5304e9a52193523b36c47bcd844", null ]
 ];

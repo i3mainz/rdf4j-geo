@@ -1,5 +1,5 @@
 var a05349 =
 [
-    [ "testAsLatLonText", "a05349.html#a294440bf0a1785c6cea76200ebf53818", null ],
-    [ "testGeometry", "a05349.html#abc3f514f005cba49e406658e2d3086eb", null ]
+    [ "testMinimumClearanceLine", "a05349.html#a61877f78d0d415e1cd48f477474017e6", null ],
+    [ "testPolygon", "a05349.html#a1e3187cbc25299380589200c398b3ffd", null ]
 ];

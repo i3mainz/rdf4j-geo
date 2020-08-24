@@ -1,5 +1,5 @@
 var a05757 =
 [
-    [ "testNRings", "a05757.html#a232253c11ffc2c2e17e969ee3180b704", null ],
-    [ "testPolygon", "a05757.html#a1e3187cbc25299380589200c398b3ffd", null ]
+    [ "testAsEncodedPolyline", "a05757.html#a77e364f1e18fbe312ed563af435ddc8f", null ],
+    [ "testGeometry", "a05757.html#abc3f514f005cba49e406658e2d3086eb", null ]
 ];

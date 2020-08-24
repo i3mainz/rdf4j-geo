@@ -1,5 +1,6 @@
 var a05357 =
 [
-    [ "testAsPolyShape", "a05357.html#aa4ec805ffcfb140ead8292a441244775", null ],
-    [ "testGeometry", "a05357.html#abc3f514f005cba49e406658e2d3086eb", null ]
+    [ "testMinimumDiameterLine", "a05357.html#ac6734228b3f88748ca1545e62811f616", null ],
+    [ "result", "a05357.html#aab356d6554a7301750f11ec7a85ac47d", null ],
+    [ "testPolygon", "a05357.html#a1e3187cbc25299380589200c398b3ffd", null ]
 ];

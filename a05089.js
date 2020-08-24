@@ -1,11 +1,10 @@
 var a05089 =
 [
-    [ "calculate", "a05089.html#a1b9dd1e59eac3a2a15cb68c19e994fe4", null ],
-    [ "checkCoordinate", "a05089.html#a0a01f90a7fe27e3b66f1c87f019e91bc", null ],
-    [ "finalize", "a05089.html#a7626720b9bf807253dd702a0214dc9f0", null ],
-    [ "writeExtendedPrecision", "a05089.html#a320ccd90ec0ef71a4353104b7fe98a1c", null ],
-    [ "writePoint", "a05089.html#adedb1cd853d00648be239477f7fe4e2a", null ],
-    [ "writePointArray", "a05089.html#afeed21e7153170021427b1e7001d952b", null ],
-    [ "precision", "a05089.html#aa95455ed52a8459fad69509a4a0411b5", null ],
-    [ "precisionMultiplier", "a05089.html#a9aa85be4ec02c28a05cb552845fe08eb", null ]
+    [ "XReader", "a05093.html", "a05093" ],
+    [ "getFormatName", "a05089.html#aecf7db5b6782ec66f95d40c786a4d223", null ],
+    [ "read", "a05089.html#a74ddfb2345fac670df368a87d8ef120e", null ],
+    [ "read", "a05089.html#abb0d91da5ace7eba640f9bfa11b48dbf", null ],
+    [ "readIfSupported", "a05089.html#abc9814e865cf8cb200e35ffe5d4b748f", null ],
+    [ "readPolygon", "a05089.html#a3c0fa677a36d744060c714da150b798c", null ],
+    [ "shpFactory", "a05089.html#a05afdb0d887f04c5eac83dd8132c87b6", null ]
 ];

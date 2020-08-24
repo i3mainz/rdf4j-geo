@@ -1,5 +1,7 @@
 var a05633 =
 [
-    [ "testAsEncodedPolyline", "a05633.html#a77e364f1e18fbe312ed563af435ddc8f", null ],
-    [ "testGeometry", "a05633.html#abc3f514f005cba49e406658e2d3086eb", null ]
+    [ "testSRIDToWKT", "a05633.html#a8c6fef7babecb35acd09d8764ddcb858", null ],
+    [ "epsg", "a05633.html#ae984b1b4178b56b80cdb7a80eac64541", null ],
+    [ "epsg4326wkt", "a05633.html#ab74c72298a14045de8026d4c37013974", null ],
+    [ "srid", "a05633.html#a5ffebf384504d11b17aa9c75f4b92024", null ]
 ];

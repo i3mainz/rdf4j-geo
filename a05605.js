@@ -1,7 +1,5 @@
 var a05605 =
 [
-    [ "testLineStringIsNotRing", "a05605.html#a321e37eed11ab4c4fb34459ff2f0c8a4", null ],
-    [ "testLineStringIsRing", "a05605.html#af99150f0a2baa803f3a32475e363a546", null ],
-    [ "isNotRing", "a05605.html#aab14cab4c38dbe8dacf3fc3b49a4e99d", null ],
-    [ "isRing", "a05605.html#ada60d12c21aae01823c842a1347435af", null ]
+    [ "testSridAxis2Orientation", "a05605.html#a4cce208d444c0a86d19f93731ff4a6b3", null ],
+    [ "testPoint", "a05605.html#af26f700ee129f846cac58735f6dcc380", null ]
 ];

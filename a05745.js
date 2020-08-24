@@ -1,7 +1,8 @@
 var a05745 =
 [
-    [ "testIsPolygonCCWFalse", "a05745.html#a68f9159867e6465340465684732c1eb6", null ],
-    [ "testIsPolygonCCWTrue", "a05745.html#a1f97fe37dded953f0f1c89d25f651edc", null ],
-    [ "testPolygon", "a05745.html#a1e3187cbc25299380589200c398b3ffd", null ],
-    [ "testPolygon2", "a05745.html#a882729aec95621b4ad261714738ae3fd", null ]
+    [ "testMakeLine1", "a05745.html#ae1794702b16fed527256a87c40858865", null ],
+    [ "testLine", "a05745.html#a297965df8c894198eea7203fde37542b", null ],
+    [ "testPoint1", "a05745.html#ab20d196cb6e34afc2e9cff8074e43bfd", null ],
+    [ "testPoint2", "a05745.html#aa0c0c6f5dda7a397fc50f4c22a2b180f", null ],
+    [ "testPointM", "a05745.html#a53dc8585c2a440c472be9609c86b0601", null ]
 ];

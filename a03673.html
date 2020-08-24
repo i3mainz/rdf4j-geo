@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>rdf4j-postgis: Member List</title>
+<title>rdf4j-postgis: HasSelfIntersections Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -56,26 +56,129 @@ $(function() {
   </div>
 </div>
 <script type="text/javascript">
-$(document).ready(function(){initNavTree('a03676.html','');});
+$(document).ready(function(){initNavTree('a03673.html','');});
 </script>
 <div id="doc-content">
 <div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="a03670.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">LineFromWKB Member List</div>  </div>
+<div class="title">HasSelfIntersections Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+<div class="dynheader">
+Inheritance diagram for HasSelfIntersections:</div>
+<div class="dyncontent">
+<div class="center"><img src="a03672.png" border="0" usemap="#HasSelfIntersections_inherit__map" alt="Inheritance graph"/></div>
+<map name="HasSelfIntersections_inherit__map" id="HasSelfIntersections_inherit__map">
+<area shape="rect" id="node2" href="a03089.html" title="GeometricBinaryAttribute\lFunction" alt="" coords="5,80,173,121"/>
+</map>
+<center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
+<div class="dynheader">
+Collaboration diagram for HasSelfIntersections:</div>
+<div class="dyncontent">
+<div class="center"><img src="a03671.png" border="0" usemap="#HasSelfIntersections_coll__map" alt="Collaboration graph"/></div>
+<map name="HasSelfIntersections_coll__map" id="HasSelfIntersections_coll__map">
+<area shape="rect" id="node2" href="a03089.html" title="GeometricBinaryAttribute\lFunction" alt="" coords="5,80,173,121"/>
+</map>
+<center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:ad9fb16b36dd4ccc533d4f05ff94646e3"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a03673.html#ad9fb16b36dd4ccc533d4f05ff94646e3">getURI</a> ()</td></tr>
+<tr class="separator:ad9fb16b36dd4ccc533d4f05ff94646e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acffd07bcd4424073cb2871460076578a"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a03673.html#acffd07bcd4424073cb2871460076578a">attribute</a> (Geometry geom)</td></tr>
+<tr class="separator:acffd07bcd4424073cb2871460076578a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a43b4c73244bc6722ce551c1033cf1115"><td class="memItemLeft" align="right" valign="top">Value&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a03089.html#a43b4c73244bc6722ce551c1033cf1115">evaluate</a> (ValueFactory valueFactory, Value... args)  throws ValueExprEvaluationException </td></tr>
+<tr class="separator:a43b4c73244bc6722ce551c1033cf1115"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="acffd07bcd4424073cb2871460076578a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acffd07bcd4424073cb2871460076578a">&#9670;&nbsp;</a></span>attribute()</h2>
 
-<p>This is the complete list of members for <a class="el" href="a03676.html">LineFromWKB</a>, including all inherited members.</p>
-<table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="a03676.html#aed4306d2bdbe40c21c01706f365e83cd">construct</a>(String input)</td><td class="entry"><a class="el" href="a03676.html">LineFromWKB</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="a03080.html#a43b4c73244bc6722ce551c1033cf1115">evaluate</a>(ValueFactory valueFactory, Value... args)</td><td class="entry"><a class="el" href="a03080.html">GeometricConstructor</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="a03676.html#ad9fb16b36dd4ccc533d4f05ff94646e3">getURI</a>()</td><td class="entry"><a class="el" href="a03676.html">LineFromWKB</a></td><td class="entry"></td></tr>
-</table></div><!-- contents -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean attribute </td>
+          <td>(</td>
+          <td class="paramtype">Geometry&#160;</td>
+          <td class="paramname"><em>geom</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;                                                {</div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;        Set&lt;Coordinate&gt; coords=<span class="keyword">new</span> HashSet&lt;Coordinate&gt;();</div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;        List&lt;Coordinate&gt; results=<span class="keyword">new</span> LinkedList&lt;Coordinate&gt;();</div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;        <span class="keywordflow">for</span>(Coordinate coord:geom.getCoordinates()) {</div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;                <span class="keywordflow">if</span>(coords.contains(coord)) {</div><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;                        results.add(coord);</div><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;                }</div><div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;                coords.add(coord);</div><div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;        }</div><div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;        <span class="keywordflow">if</span>(results.isEmpty()) {</div><div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;                <span class="keywordflow">return</span> <span class="keyword">false</span>;</div><div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;        }</div><div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div><div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;        }</div></div><!-- fragment -->
+</div>
+</div>
+<a id="a43b4c73244bc6722ce551c1033cf1115"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a43b4c73244bc6722ce551c1033cf1115">&#9670;&nbsp;</a></span>evaluate()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Value evaluate </td>
+          <td>(</td>
+          <td class="paramtype">ValueFactory&#160;</td>
+          <td class="paramname"><em>valueFactory</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Value...&#160;</td>
+          <td class="paramname"><em>args</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> throws ValueExprEvaluationException</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="a03089.html#acdd4815d6c10d509e8fa15627feb0d27">GeometricBinaryAttributeFunction.attribute()</a>, and <a class="el" href="a04917.html#a8796f5aec1965b6c4e88b2ba7c1d2e53">LiteralRegistry.getLiteral()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="a05289.html#ab8f9e80081b7ac2106ef406ffbb215e2">IsCollectionTest.testGeometryCollectionIsCollection()</a>, <a class="el" href="a05853.html#a725a2cc1c4ba4909307c9a2fa07558d8">HasConnectedInteriorTest.testHasConnectedInteriorFalse()</a>, <a class="el" href="a05853.html#a95e618db9d2053f26b5194e3bec0d2a0">HasConnectedInteriorTest.testHasConnectedInteriorTrue()</a>, <a class="el" href="a05857.html#a3957683118b9d5473c635a38d7e6c6e8">HasDuplicateRingsTest.testHasDuplicateRingsFalse()</a>, <a class="el" href="a05857.html#a3779f6b4849bf60c716f7dff71089a2a">HasDuplicateRingsTest.testHasDuplicateRingsTrue()</a>, <a class="el" href="a05277.html#a9d25864362180719a756bf187c003b28">HasHorizontalCRSTest.testHasHorizontalCRSFalse()</a>, <a class="el" href="a05277.html#a9f2bde364661ddf6af32fec9ad9085b1">HasHorizontalCRSTest.testHasHorizontalCRSTrue()</a>, <a class="el" href="a05281.html#ac91c06c07e42b36c2957d3b47609ea12">HasRepeatedPointsTest.testHasRepeatedPoints()</a>, <a class="el" href="a05281.html#a573715384a3d69a8e8c4722bc82c5e5e">HasRepeatedPointsTest.testHasRepeatedPoints2()</a>, <a class="el" href="a05725.html#a4a909b32ed78a5e48e6acd2cdd04519b">HasSelfIntersectionsTest.testHasSelfIntersectionsFalse()</a>, <a class="el" href="a05725.html#ae67f84fa98ae098d78896e2c9885a5ca">HasSelfIntersectionsTest.testHasSelfIntersectionsTrue()</a>, <a class="el" href="a05285.html#ab78a03db57d15bcac7ef5487e5bee11e">Is3DTest.testIs3DFalse()</a>, <a class="el" href="a05861.html#a5b3dbe6f41b97c30eaff61a7c0c6f344">IsAcuteTest.testIsAcuteFalse()</a>, <a class="el" href="a05861.html#aea45a7ea1a6bbd2c8bf3bfa751ec4e1f">IsAcuteTest.testIsAcuteTrue()</a>, <a class="el" href="a05869.html#a84d7af36a321a8f38760993ee03431f1">IsConvexTest.testIsConvexFalse()</a>, <a class="el" href="a05869.html#a72b02d577b66678dc78571b6ca1901cc">IsConvexTest.testIsConvexTrue()</a>, <a class="el" href="a05293.html#ad6c1db43fc5b06667b4d7679c36196bf">IsEmptyTest.testIsEmptyFalse()</a>, <a class="el" href="a05293.html#acf5aa6d804534044ced38ebbf685b780">IsEmptyTest.testIsEmptyTrue()</a>, <a class="el" href="a05873.html#a571ad95224e990b47f1f7e3f98589811">IsEquilateralTriangleTest.testIsEquilateralTriangleFalse()</a>, <a class="el" href="a05873.html#a88faba98866013b2fa45b645b61965bf">IsEquilateralTriangleTest.testIsEquilateralTriangleTrue()</a>, <a class="el" href="a05877.html#aa81dce05daae6f34aac43c24bd033ef0">IsIsocelesTriangleTest.testIsIsocelesTriangleFalse()</a>, <a class="el" href="a05877.html#aae4d62f37acbace0beb2e9dbba631072">IsIsocelesTriangleTest.testIsIsocelesTriangleTrue()</a>, <a class="el" href="a05301.html#a0d34749daed816e995d607f25393f8bd">IsMeasuredTest.testIsMeasuredFalse()</a>, <a class="el" href="a05301.html#a94b07ea8a866ff9332c709b77d204342">IsMeasuredTest.testIsMeasuredTrue()</a>, <a class="el" href="a05305.html#af36f9410a0c4d62c262b4398b5723223">IsNodingValidTest.testIsNodingValuedTrue()</a>, <a class="el" href="a05309.html#a0e75cb938cfe0c5f0e6555d748eccf2d">IsPlanarTest.testIsPlanarTrue()</a>, <a class="el" href="a05881.html#a68f9159867e6465340465684732c1eb6">IsPolygonCCWTest.testIsPolygonCCWFalse()</a>, <a class="el" href="a05881.html#a1f97fe37dded953f0f1c89d25f651edc">IsPolygonCCWTest.testIsPolygonCCWTrue()</a>, <a class="el" href="a05885.html#a017c3fe070c2ab2e34a67d428cec06d3">IsPolygonCWTest.testIsPolygonCWFalse()</a>, <a class="el" href="a05885.html#a65124e83aa8d64983e3fc4a131479949">IsPolygonCWTest.testIsPolygonCWTrue()</a>, <a class="el" href="a05313.html#a5f21b4a097f15af24dcc034f575e4e4a">IsRectangleTest.testIsRectangleFalse()</a>, <a class="el" href="a05313.html#acebf1f487a11cc34db915552f23c6383">IsRectangleTest.testIsRectangleTrue()</a>, <a class="el" href="a05889.html#a014f8772916bad586cbe991926c56e4b">IsRightTriangleTest.testIsRightTriangleFalse()</a>, <a class="el" href="a05889.html#a7a35cee3266bee7a434b79dd69e81373">IsRightTriangleTest.testIsRightTriangleTrue()</a>, <a class="el" href="a05321.html#a0e3a5c39c0d37b52035d9e40cf70b7ef">IsSolidTest.testIsSolidFalse()</a>, <a class="el" href="a05325.html#a173bda31cdc35a0e147f2c50957b2e27">IsSquareTest.testIsSquareFalse()</a>, <a class="el" href="a05325.html#af9173bfcbf2fff582439949957ccc709">IsSquareTest.testIsSquareTrue()</a>, <a class="el" href="a05893.html#a9a683ec2f8cc07231bddc07213698183">IsTriangleTest.testIsTriangleFalse()</a>, <a class="el" href="a05893.html#a6a1ccdd76246a421ef6ae80bc7c4e87c">IsTriangleTest.testIsTriangleTrue()</a>, <a class="el" href="a05329.html#abe8c10068a1ed9f8a4fea754990b0a48">IsValidTest.testIsValidFalse()</a>, <a class="el" href="a05329.html#a9556e5304e9a52193523b36c47bcd844">IsValidTest.testIsValidTrue()</a>, <a class="el" href="a05865.html#a535dfcf17dd3d286958ec2268d19deb5">IsClosedTest.testLineStringClosed()</a>, <a class="el" href="a05289.html#a513937962f26a1affcc4d0c369733a79">IsCollectionTest.testLineStringIsCollection()</a>, <a class="el" href="a05729.html#a321e37eed11ab4c4fb34459ff2f0c8a4">IsRingTest.testLineStringIsNotRing()</a>, <a class="el" href="a05729.html#af99150f0a2baa803f3a32475e363a546">IsRingTest.testLineStringIsRing()</a>, <a class="el" href="a05865.html#a73d74b41617d10452367388732cfdc67">IsClosedTest.testLineStringNotClosed()</a>, <a class="el" href="a05289.html#af185514d9e978598dc7aa4ba06572494">IsCollectionTest.testMultiLineStringIsCollection()</a>, <a class="el" href="a05865.html#a46c6b5fafb3fb83ca34bed8a76614a05">IsClosedTest.testMultiLineStringNotClosed()</a>, <a class="el" href="a05865.html#a3ccb0f6a8770f2a4ac3d61a34e17308e">IsClosedTest.testmultiPointClosed()</a>, <a class="el" href="a05289.html#abe0dc5056717b405438313e86f9017f2">IsCollectionTest.testMultiPointIsCollection()</a>, <a class="el" href="a05289.html#a3cb8a0ddd3838eedbcbb6c1651e3a9c0">IsCollectionTest.testMultiPolygonIsCollection()</a>, <a class="el" href="a05865.html#a833c7f3f2807c95b41de4f5c776b7eb0">IsClosedTest.testpointClosed()</a>, <a class="el" href="a05289.html#ae050c74afe9d24c25aa8cfddca93609d">IsCollectionTest.testPointIsCollection()</a>, <a class="el" href="a05289.html#aa73539bce49dc7ae2102874315d15e51">IsCollectionTest.testPolygonIsCollection()</a>, <a class="el" href="a05613.html#a94f12f6d4a3fe8f25be5144338eb0198">SridHasFlippedAxisTest.testSridHasFlippedAxis()</a>, <a class="el" href="a05617.html#abd1395d0581a64740ed1bae57b2882b3">SridIsGeographicTest.testSridIsGeographicFalse()</a>, <a class="el" href="a05617.html#a09f0ac6b4b2a063a3d1df32d600b9b11">SridIsGeographicTest.testSridIsGeographicTrue()</a>, <a class="el" href="a05621.html#a79fa3e75c2d90e917a8ece94f56a16ba">SridIsProjectedTest.testSridIsProjectedTrue()</a>, and <a class="el" href="a05625.html#a0b5d17dad676c3ce02f884832b907843">SridIsVerticalTest.testSridIsVerticalTrue()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;                                                                                                            {</div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;                <span class="keywordflow">if</span> (args.length != 1) {</div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;                        <span class="keywordflow">throw</span> <span class="keyword">new</span> ValueExprEvaluationException(getURI() + <span class="stringliteral">&quot; requires exactly 1 arguments, got &quot;</span> + args.length);</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;                }</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;                </div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;                LiteralType l=LiteralRegistry.getLiteral(((Literal)args[0]).getDatatype().toString());</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;                System.out.println(l);</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;                <span class="keywordflow">if</span>(l instanceof VectorLiteral) {</div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;                        Geometry geom=((VectorLiteral)l).read(args[0].stringValue());</div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;                        <span class="keywordtype">boolean</span> result = <a class="code" href="a03089.html#acdd4815d6c10d509e8fa15627feb0d27">attribute</a>(geom);</div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;                        <span class="keywordflow">return</span> valueFactory.createLiteral(result);</div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;                }</div><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;                <span class="keywordflow">throw</span> <span class="keyword">new</span> ValueExprEvaluationException(<span class="stringliteral">&quot;Argument given is not a geometry literal&quot;</span>);</div><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;</div><div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;        }</div><div class="ttc" id="a03089_html_acdd4815d6c10d509e8fa15627feb0d27"><div class="ttname"><a href="a03089.html#acdd4815d6c10d509e8fa15627feb0d27">org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.geometry.base.GeometricBinaryAttributeFunction.attribute</a></div><div class="ttdeci">abstract boolean attribute(Geometry geom)</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="ad9fb16b36dd4ccc533d4f05ff94646e3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad9fb16b36dd4ccc533d4f05ff94646e3">&#9670;&nbsp;</a></span>getURI()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">String getURI </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="a02729.html#a9d7a156d9e21da8f2d257f291af9e67c">POSTGIS.ST_hasSelfIntersections</a>.</p>
+<div class="fragment"><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;                               {</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;                <span class="keywordflow">return</span> POSTGIS.ST_hasSelfIntersections.stringValue();</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;        }</div></div><!-- fragment -->
+</div>
+</div>
+</div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.13-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
+    <li class="navelem"><a class="el" href="a02580.html">org</a></li><li class="navelem"><a class="el" href="a02581.html">eclipse</a></li><li class="navelem"><a class="el" href="a02582.html">rdf4j</a></li><li class="navelem"><a class="el" href="a02585.html">query</a></li><li class="navelem"><a class="el" href="a02586.html">algebra</a></li><li class="navelem"><a class="el" href="a02587.html">evaluation</a></li><li class="navelem"><a class="el" href="a02588.html">function</a></li><li class="navelem"><a class="el" href="a02589.html">postgis</a></li><li class="navelem"><a class="el" href="a02605.html">linestring</a></li><li class="navelem"><a class="el" href="a02604.html">attribute</a></li><li class="navelem"><a class="el" href="a03673.html">HasSelfIntersections</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>

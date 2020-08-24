@@ -1,6 +1,5 @@
 var a05385 =
 [
-    [ "testCentroidDistance", "a05385.html#a312e87d7afb4dd085ada4f2f2c8d288f", null ],
-    [ "isocelesTriangle", "a05385.html#aa04dfbec745e2622b9f7646f8572e501", null ],
-    [ "notIsocelesTriangle", "a05385.html#a055d99fb63bcee37763ffcf4da9e0521", null ]
+    [ "testNumPoints", "a05385.html#ab30b87a5d89bd6e36dae388ce20e61a7", null ],
+    [ "testGeom", "a05385.html#a03a5f5da0ccbeed8c1678d4317cf2672", null ]
 ];

@@ -1,6 +1,8 @@
 var a05501 =
 [
-    [ "testSridIsGeographicFalse", "a05501.html#abd1395d0581a64740ed1bae57b2882b3", null ],
-    [ "testSridIsGeographicTrue", "a05501.html#a09f0ac6b4b2a063a3d1df32d600b9b11", null ],
-    [ "testPoint", "a05501.html#af26f700ee129f846cac58735f6dcc380", null ]
+    [ "testDistanceSphere", "a05501.html#a00f0d8d505e98b0a2030febc43784429", null ],
+    [ "testDistanceSphere2", "a05501.html#a4e55a7f6b607feb274072e2449231447", null ],
+    [ "result", "a05501.html#aab356d6554a7301750f11ec7a85ac47d", null ],
+    [ "testGeom", "a05501.html#a03a5f5da0ccbeed8c1678d4317cf2672", null ],
+    [ "testGeom2", "a05501.html#a6b4be369c8f60e973cd5126e69cd33a4", null ]
 ];

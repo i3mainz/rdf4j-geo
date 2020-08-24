@@ -1,6 +1,6 @@
 var a05685 =
 [
-    [ "testPointInsideCircleFalse", "a05685.html#a9a4ba902062dec5571daf7e79671a55b", null ],
-    [ "testPoitnInsideCircleTrue", "a05685.html#a69c706f18cbb51436922e86f97221780", null ],
-    [ "testPoint", "a05685.html#af26f700ee129f846cac58735f6dcc380", null ]
+    [ "testPrecisionReducer", "a05685.html#a486d6504bb92a61902ac29e25b3d31a8", null ],
+    [ "resultGeom", "a05685.html#a3eff685a59eb24ce11d6dbd456fae0c2", null ],
+    [ "testGeom", "a05685.html#a03a5f5da0ccbeed8c1678d4317cf2672", null ]
 ];

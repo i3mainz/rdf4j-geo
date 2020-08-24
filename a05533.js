@@ -1,5 +1,8 @@
 var a05533 =
 [
-    [ "testForce2D", "a05533.html#ac1b65b91741abc3458f3a8303d7c0388", null ],
-    [ "testPolygon", "a05533.html#a1e3187cbc25299380589200c398b3ffd", null ]
+    [ "testHausdorffDistance", "a05533.html#a865da90312a6602e13430f1b3218608b", null ],
+    [ "testGeom1", "a05533.html#aa4a3b1a7e778ece72382f6600fa96b47", null ],
+    [ "testGeom2", "a05533.html#a6b4be369c8f60e973cd5126e69cd33a4", null ],
+    [ "testGeom3", "a05533.html#a800b6bb875a8ff4404ea787c3df125a5", null ],
+    [ "testGeom4", "a05533.html#a4c55e7efe430d6d220fb05524c4bb940", null ]
 ];

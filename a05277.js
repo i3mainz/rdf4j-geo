@@ -1,5 +1,7 @@
 var a05277 =
 [
-    [ "testNumPoints", "a05277.html#ab30b87a5d89bd6e36dae388ce20e61a7", null ],
-    [ "testGeom", "a05277.html#a03a5f5da0ccbeed8c1678d4317cf2672", null ]
+    [ "testHasHorizontalCRSFalse", "a05277.html#a9d25864362180719a756bf187c003b28", null ],
+    [ "testHasHorizontalCRSTrue", "a05277.html#a9f2bde364661ddf6af32fec9ad9085b1", null ],
+    [ "testGeometry", "a05277.html#abc3f514f005cba49e406658e2d3086eb", null ],
+    [ "testGeometry2", "a05277.html#af1173652e671b8f9051f8630b98c73fb", null ]
 ];

@@ -1,5 +1,5 @@
 var a05325 =
 [
-    [ "testAsBinary", "a05325.html#ac230b10882e3be05bacc871fce2fc609", null ],
-    [ "testGeometry", "a05325.html#abc3f514f005cba49e406658e2d3086eb", null ]
+    [ "testIsSquareFalse", "a05325.html#a173bda31cdc35a0e147f2c50957b2e27", null ],
+    [ "testIsSquareTrue", "a05325.html#af9173bfcbf2fff582439949957ccc709", null ]
 ];

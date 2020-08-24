@@ -1,10 +1,12 @@
 var a02713 =
 [
-    [ "MinY", "a02713.html#a62c25b2f0babdfb69b8cfc85a20fdff2", null ],
-    [ "MinY", "a02713.html#a11415c60c910e3d618d3e28b1141563f", null ],
-    [ "clone", "a02713.html#a406ca179976851ce21491d2ec95bfa29", null ],
-    [ "equals", "a02713.html#a8e18a3a952a9e38a9a4191004a30c938", null ],
-    [ "hashCode", "a02713.html#a077e18fe97323c7194e2665ffc766399", null ],
-    [ "visit", "a02713.html#ace7c41d3761122fda287033559696cdd", null ],
-    [ "serialVersionUID", "a02713.html#a3238d314ecdee14d2966760945d00c3b", null ]
+    [ "getCenterCoords", "a02713.html#a0b94a3cba36588b3af66d9c1e0c7730d", null ],
+    [ "getCenterCoordsArray", "a02713.html#a64034156cc179512544e7fccb53347c0", null ],
+    [ "getCenterJSONCoords", "a02713.html#a5cbc30114e4451fa59b413f0e804fa5c", null ],
+    [ "getCenterKMLCoords", "a02713.html#ad2c549fae82697c8f9af929dc6ead13d", null ],
+    [ "getCornerCoordsArray", "a02713.html#a3f13e52b306db2b7f1b08e32c7b210bb", null ],
+    [ "getCornerJSONCoords", "a02713.html#aeffb4ecc5c8b24103f2b4d6f00f19a2e", null ],
+    [ "getKMLLine", "a02713.html#ae1a814fa4b99e9828246b27473fd6876", null ],
+    [ "getKMLPoint", "a02713.html#a8dd725437f92ab0936d3e4179f3ce37e", null ],
+    [ "getKMLPolygon", "a02713.html#a30387f81231caaf6fccceacdeea65949", null ]
 ];

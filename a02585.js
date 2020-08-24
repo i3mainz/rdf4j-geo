@@ -1,4 +1,4 @@
 var a02585 =
 [
-    [ "postgis", "a02586.html", "a02586" ]
+    [ "algebra", "a02586.html", "a02586" ]
 ];

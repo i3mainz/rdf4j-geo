@@ -1,5 +1,5 @@
 var a02646 =
 [
-    [ "LEDataInputStream", "a05138.html", "a05138" ],
-    [ "LEDataOutputStream", "a05142.html", "a05142" ]
+    [ "wkb", "a02648.html", "a02648" ],
+    [ "SampleDimensionType", "a05121.html", "a05121" ]
 ];

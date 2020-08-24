@@ -1,6 +1,5 @@
 var a05461 =
 [
-    [ "testRelate", "a05461.html#a8592662d9e01b3d8f2f9a86b6bb48372", null ],
-    [ "isocelesTriangle", "a05461.html#aa04dfbec745e2622b9f7646f8572e501", null ],
-    [ "notIsocelesTriangle", "a05461.html#a055d99fb63bcee37763ffcf4da9e0521", null ]
+    [ "testAsOSMLink", "a05461.html#a31833fe8b6139bfbdcd328ee943729e2", null ],
+    [ "testGeometry", "a05461.html#abc3f514f005cba49e406658e2d3086eb", null ]
 ];

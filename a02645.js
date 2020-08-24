@@ -1,7 +1,7 @@
 var a02645 =
 [
-    [ "WKBRasterBand", "a05122.html", "a05122" ],
-    [ "WKBRasterConstants", "a05126.html", "a05126" ],
-    [ "WKBRasterReader", "a05130.html", "a05130" ],
-    [ "WKBRasterWriter", "a05134.html", "a05134" ]
+    [ "CoverageJSONReader", "a05053.html", "a05053" ],
+    [ "CoverageJsonWriter", "a05057.html", "a05057" ],
+    [ "VectorTileDecoder", "a05061.html", "a05061" ],
+    [ "VectorTileEncoder", "a05077.html", "a05077" ]
 ];

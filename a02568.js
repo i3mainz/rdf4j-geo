@@ -1,4 +1,5 @@
 var a02568 =
 [
-    [ "semgis", "a02569.html", "a02569" ]
+    [ "ExampleWebService", "a02705.html", "a02705" ],
+    [ "TripleStoreConnection", "a02709.html", "a02709" ]
 ];

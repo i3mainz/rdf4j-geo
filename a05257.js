@@ -1,5 +1,6 @@
 var a05257 =
 [
-    [ "testMinimumRectangle", "a05257.html#a113f2072fe3a9c6603a02548b81f6545", null ],
+    [ "testBoundingDiagonal", "a05257.html#a5905b320ef165de047ef4ff2e9167268", null ],
+    [ "result", "a05257.html#aab356d6554a7301750f11ec7a85ac47d", null ],
     [ "testPolygon", "a05257.html#a1e3187cbc25299380589200c398b3ffd", null ]
 ];

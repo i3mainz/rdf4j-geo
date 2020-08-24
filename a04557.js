@@ -1,5 +1,10 @@
 var a04557 =
 [
     [ "evaluate", "a04557.html#a43b4c73244bc6722ce551c1033cf1115", null ],
-    [ "modify", "a04557.html#a62d9dff21197f40773d6cdac354e7943", null ]
+    [ "getLiteral", "a04557.html#ad5ea121d0231b4b209324202427665f0", null ],
+    [ "getURI", "a04557.html#ad9fb16b36dd4ccc533d4f05ff94646e3", null ],
+    [ "relation", "a04557.html#a29c1c362020607ca85be14d727d456c4", null ],
+    [ "vectorOrRaster", "a04557.html#ad5afdfd817cdf11ee0e48c7f56c5514c", null ],
+    [ "rasterLiteralURIs", "a04557.html#ac7dbee8298c097c6bd08da6002fd6ecb", null ],
+    [ "vectorLiteralURIs", "a04557.html#a6e7c25bfd07628e3e74ea4e1ddfcae70", null ]
 ];

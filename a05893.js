@@ -1,8 +1,7 @@
 var a05893 =
 [
-    [ "testNumBands", "a05893.html#acbd68d09b85f29cb457f75f009ff1366", null ],
-    [ "covJSONString1", "a05893.html#a993e2f127f3ec8f256e9799d77507223", null ],
-    [ "rasterBand", "a05893.html#a44dd712968b2420bbfbf9ae21d476b87", null ],
-    [ "rasterLiteral1", "a05893.html#a77798f856500689412dea069531a7606", null ],
-    [ "wkbString1", "a05893.html#ac94c157f6beb145deb3abfe76cbf5de2", null ]
+    [ "testIsTriangleFalse", "a05893.html#a9a683ec2f8cc07231bddc07213698183", null ],
+    [ "testIsTriangleTrue", "a05893.html#a6a1ccdd76246a421ef6ae80bc7c4e87c", null ],
+    [ "testPolygon", "a05893.html#a1e3187cbc25299380589200c398b3ffd", null ],
+    [ "testPolygon2", "a05893.html#a882729aec95621b4ad261714738ae3fd", null ]
 ];

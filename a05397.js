@@ -1,8 +1,5 @@
 var a05397 =
 [
-    [ "testDistance", "a05397.html#a046a87b712c4f6ddedaf1e78a64c5524", null ],
-    [ "testDistance2", "a05397.html#ae04fbd8c837f2115939842c0268c2a85", null ],
-    [ "result", "a05397.html#aab356d6554a7301750f11ec7a85ac47d", null ],
-    [ "testGeom", "a05397.html#a03a5f5da0ccbeed8c1678d4317cf2672", null ],
-    [ "testGeom2", "a05397.html#a6b4be369c8f60e973cd5126e69cd33a4", null ]
+    [ "testGeomFromText", "a05397.html#a2678d2fcc796b673cc52b0e000a954b0", null ],
+    [ "geoJsonTestGeom", "a05397.html#a117e8ff340791b5aa0658f5840b5dcf4", null ]
 ];
