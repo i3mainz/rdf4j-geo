@@ -21,7 +21,7 @@ public class RingsCutAtNodes extends GeometricUnaryFunction {
 
 	@Override
 	protected Geometry operation(Geometry geom) {
-		if(geom instanceof Polygon) {
+		/*if(geom instanceof Polygon) {
 			Polygon poly=(Polygon) geom;
 			List<LinearRing> rings=new LinkedList<LinearRing>();
 			for(int i=0;i<poly.getNumInteriorRing();i++) {
@@ -33,7 +33,7 @@ public class RingsCutAtNodes extends GeometricUnaryFunction {
 			}
 			GeometryFactory fac=new GeometryFactory();
 			return fac.createPolygon((LinearRing)poly.getExteriorRing(), rings.toArray(new LinearRing[0]));
-		}
+		}*/
 		return null;
 	}
 	

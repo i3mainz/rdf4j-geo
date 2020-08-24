@@ -35,7 +35,7 @@ public class BBOXOverlapsLeftTest {
 	public void testBBOXLeftOfFalse() {
 		BBOXOverlapsLeft instance=new BBOXOverlapsLeft();
 		ValueFactory valfac=SimpleValueFactory.getInstance();
-		Value geo=valfac.createLiteral(testGeom1, WKTDatatype.LiteralIRI);
+		Value geo=valfac.createLiteral(testGeom2, WKTDatatype.LiteralIRI);
 		Value geo2=valfac.createLiteral(testGeom3, WKTDatatype.LiteralIRI);
 		Value result=instance.evaluate(valfac, geo,geo2);
 		Value expResult=valfac.createLiteral(false);

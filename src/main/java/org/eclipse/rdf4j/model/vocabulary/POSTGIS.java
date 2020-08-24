@@ -554,6 +554,8 @@ public class POSTGIS {
 		public static final IRI USYardToMeter =factory.createIRI(NAMESPACE, "USYardToMeter");
 		public static final IRI USInchToMeter =factory.createIRI(NAMESPACE, "USInchToMeter");
 		public static final IRI EPSGToSRID =factory.createIRI(NAMESPACE, "EPSGToSRID");
+		public static final IRI EPSGToWKT =factory.createIRI(NAMESPACE, "EPSGToWKT");
+		public static final IRI GeomCRSToWKT =factory.createIRI(NAMESPACE, "GeomCRSToWKT");
 		public static final IRI SRIDGetAxis1Name =factory.createIRI(NAMESPACE, "SRID_GetAxis1Name");
 		public static final IRI SRIDGetAxis2Name =factory.createIRI(NAMESPACE, "SRID_GetAxis2Name");
 		public static final IRI SRIDGetAxis1Orientation =factory.createIRI(NAMESPACE, "SRID_GetAxis1Orientation");

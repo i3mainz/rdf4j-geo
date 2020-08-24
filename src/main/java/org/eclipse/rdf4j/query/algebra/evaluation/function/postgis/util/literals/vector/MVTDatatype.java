@@ -8,10 +8,10 @@ import java.util.TreeMap;
 
 import org.apache.solr.common.util.Base64;
 import org.eclipse.rdf4j.model.vocabulary.POSTGIS;
-import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.parsers.VectorTileDecoder;
+/*import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.parsers.VectorTileDecoder;
 import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.parsers.VectorTileDecoder.Feature;
 import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.parsers.VectorTileDecoder.FeatureIterable;
-import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.parsers.VectorTileEncoder;
+import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.parsers.VectorTileEncoder;*/
 import org.locationtech.jts.geom.Geometry;
 import org.locationtech.jts.geom.GeometryCollection;
 import org.locationtech.jts.geom.GeometryFactory;
@@ -41,7 +41,7 @@ public class MVTDatatype extends VectorLiteral {
      * <br> Notice that the Spatial Reference System
      * "urn:ogc:def:crs:OGC::CRS84" is predefined in the returned GML literal.
      */
-    @Override
+   /* @Override
     public String unparse(Geometry geometry) {
     	VectorTileEncoder encoder = new VectorTileEncoder();
     	encoder.addFeature("mvt", new TreeMap<>(), geometry);
@@ -76,11 +76,23 @@ public class MVTDatatype extends VectorLiteral {
 			e.printStackTrace();
 		}
 		return null;
-    }
+    }*/
 
     @Override
     public String toString() {
-        return "KMLDatatype{" + URI + '}';
+        return "MVTDatatype{" + URI + '}';
     }
+
+	@Override
+	public String unparse(Geometry geom) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Geometry read(String literalValue) {
+		// TODO Auto-generated method stub
+		return null;
+	}
 
 }

@@ -5,6 +5,8 @@ import java.util.List;
 
 import org.eclipse.rdf4j.model.vocabulary.POSTGIS;
 import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.geometry.base.GeometricModifierDoubleFunction;
+import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.geometry.base.GeometricModifierIntegerFunction;
+import org.locationtech.jts.geom.Coordinate;
 import org.locationtech.jts.geom.Geometry;
 import org.locationtech.jts.geom.GeometryFactory;
 import org.locationtech.jts.geom.LinearRing;
@@ -13,7 +15,7 @@ import org.locationtech.jts.geom.Polygon;
 /**
  * Reverses the coordinates of a given ring of a polygon.
  */
-public class ReverseRing extends GeometricModifierDoubleFunction {
+public class ReverseRing extends GeometricModifierIntegerFunction {
 
 	@Override
 	public String getURI() {
@@ -21,7 +23,7 @@ public class ReverseRing extends GeometricModifierDoubleFunction {
 	}
 
 	@Override
-	protected Geometry relation(Geometry geom, Double value) {
+	protected Geometry relation(Geometry geom, Integer value) {
 		if(geom instanceof Polygon) {
 			Polygon poly=(Polygon) geom;
 			if(value<0 || value>poly.getNumInteriorRing()) {
@@ -30,7 +32,12 @@ public class ReverseRing extends GeometricModifierDoubleFunction {
 			List<LinearRing> rings=new LinkedList<LinearRing>();
 			for(int i=0;i<poly.getNumInteriorRing();i++) {
 				if(i==value) {
-					rings.add((LinearRing) poly.getInteriorRingN(i).reverse());
+					List<Coordinate> newring=new LinkedList<Coordinate>();
+					for(int j=poly.getInteriorRingN(i).getCoordinates().length-1;j>=0;j--) {
+						newring.add(poly.getInteriorRingN(i).getCoordinateN(j));
+					}
+					GeometryFactory fac=new GeometryFactory();
+					rings.add(fac.createLinearRing(newring.toArray(new Coordinate[0])));
 				}else {
 					rings.add((LinearRing)poly.getInteriorRingN(i));
 				}

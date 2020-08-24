@@ -8,6 +8,7 @@ import org.eclipse.rdf4j.query.algebra.evaluation.function.Function;
 import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.LiteralRegistry;
 import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.literals.LiteralType;
 import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.literals.vector.VectorLiteral;
+import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.literals.vector.WKTDatatype;
 import org.locationtech.jts.geom.Geometry;
 
 public abstract class GeometricConstructor implements Function {
@@ -17,10 +18,9 @@ public abstract class GeometricConstructor implements Function {
 		if (args.length != 1) {
 			throw new ValueExprEvaluationException(getURI() + " requires exactly 1 arguments, got " + args.length);
 		}
-		LiteralType l=LiteralRegistry.getLiteral(((Literal)args[0]).getDatatype().toString());
 		String geomString = args[0].stringValue();
 		Geometry result = construct(geomString);
-		return valueFactory.createLiteral(((VectorLiteral) l).unparse(result),((Literal)args[0]).getDatatype());
+		return valueFactory.createLiteral(WKTDatatype.INSTANCE.unparse(result), WKTDatatype.LiteralIRI);
 	}
 	
 	public abstract Geometry construct(String input);

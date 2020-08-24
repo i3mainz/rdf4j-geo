@@ -30,6 +30,6 @@ public class LongestLine extends GeometricRelationModifierFunction {
 				}
 			}
 		}
-		return LiteralUtils.createGeometry(new Coordinate[] {maxCoord1,maxCoord2},"LINESTRING", geom1.getSRID());
+		return LiteralUtils.createGeometry(new Coordinate[] {maxCoord1,maxCoord2},"LineString", geom1.getSRID());
 	}
 }

@@ -154,6 +154,9 @@ public class LiteralUtils {
 		public static Geometry transform(Geometry sourcegeom,Geometry targetgeom) {
 		
 			CoordinateReferenceSystem source;
+			if(sourcegeom.getSRID()==targetgeom.getSRID()) {
+				return sourcegeom;
+			}
 				try {
 					source = CRS.forCode("EPSG:"+sourcegeom.getSRID());
 					CoordinateReferenceSystem target = CRS.forCode("EPSG:"+targetgeom.getSRID());                   // WGS 84 / World Mercator

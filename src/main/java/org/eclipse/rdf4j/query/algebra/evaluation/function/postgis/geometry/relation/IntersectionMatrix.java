@@ -13,7 +13,6 @@ public class IntersectionMatrix extends GeometricRelationStringFunction {
 	}
 
 	
-	IntersectionMatrix matrix=new IntersectionMatrix();
 	@Override
 	protected String relation(Geometry geom, Geometry geom2) {
 		RelateOp relop=new RelateOp(geom, geom2);
