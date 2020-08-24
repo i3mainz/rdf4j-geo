@@ -526,6 +526,7 @@ public class POSTGIS {
 		public static final IRI MillimeterToMeter =factory.createIRI(NAMESPACE, "MillimeterToMeter");
 		public static final IRI KilometerToMeter =factory.createIRI(NAMESPACE, "KilometerToMeter");
 		public static final IRI DecimeterToMeter =factory.createIRI(NAMESPACE, "DecimeterToMeter");
+		public static final IRI GeomCRSToWKT =factory.createIRI(NAMESPACE, "GeomCRSToWKT");
 		public static final IRI MeterToCentimeter=factory.createIRI(NAMESPACE, "MeterToCentimeter");
 		public static final IRI MeterToKilometer=factory.createIRI(NAMESPACE, "MeterToKilometer");
 		public static final IRI MeterToDecimeter=factory.createIRI(NAMESPACE, "MeterToDecimeter");
@@ -554,6 +555,8 @@ public class POSTGIS {
 		public static final IRI USYardToMeter =factory.createIRI(NAMESPACE, "USYardToMeter");
 		public static final IRI USInchToMeter =factory.createIRI(NAMESPACE, "USInchToMeter");
 		public static final IRI EPSGToSRID =factory.createIRI(NAMESPACE, "EPSGToSRID");
+		public static final IRI EPSGToWKT =factory.createIRI(NAMESPACE, "EPSGToWKT");
+		public static final IRI SRIDDomainOfValidity =factory.createIRI(NAMESPACE, "SRID_DomainOfValidity");
 		public static final IRI SRIDGetAxis1Name =factory.createIRI(NAMESPACE, "SRID_GetAxis1Name");
 		public static final IRI SRIDGetAxis2Name =factory.createIRI(NAMESPACE, "SRID_GetAxis2Name");
 		public static final IRI SRIDGetAxis1Orientation =factory.createIRI(NAMESPACE, "SRID_GetAxis1Orientation");
@@ -565,6 +568,7 @@ public class POSTGIS {
 		public static final IRI SRIDIsProjected =factory.createIRI(NAMESPACE, "SRID_IsProjected");
 		public static final IRI SRIDIsVertical =factory.createIRI(NAMESPACE, "SRID_IsVertical");
 		public static final IRI SRIDToEPSG =factory.createIRI(NAMESPACE, "SRIDToEPSG");
+		public static final IRI SRIDToWKT =factory.createIRI(NAMESPACE, "SRIDToWKT");
 		
         public static final String WKB = "WKB";
         public static final String GeoJSON = "GeoJSON";
@@ -599,6 +603,9 @@ public class POSTGIS {
 		public static final IRI ST_ToDegrees=factory.createIRI(NAMESPACE, "ST_ToDegrees");
 	
 		public static final IRI ST_ToRadians=factory.createIRI(NAMESPACE, "ST_ToRadians");
+
+
+
 
 
 

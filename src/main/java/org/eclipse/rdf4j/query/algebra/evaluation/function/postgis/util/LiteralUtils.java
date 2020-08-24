@@ -152,7 +152,7 @@ public class LiteralUtils {
 		}
 		
 		public static Geometry transform(Geometry sourcegeom,Geometry targetgeom) {
-		
+			if(sourcegeom.getSRID()!=targetgeom.getSRID()) {
 			CoordinateReferenceSystem source;
 				try {
 					source = CRS.forCode("EPSG:"+sourcegeom.getSRID());
@@ -174,8 +174,12 @@ public class LiteralUtils {
 				} catch (FactoryException | MismatchedDimensionException | TransformException e) {
 					// TODO Auto-generated catch block
 					e.printStackTrace();
+					return null;
 				}
-				return null;
+			}else {
+				return sourcegeom;
+			}
+				
 				
 		}
 }

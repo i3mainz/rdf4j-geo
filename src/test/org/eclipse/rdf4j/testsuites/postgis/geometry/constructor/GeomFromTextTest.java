@@ -13,10 +13,10 @@ import org.locationtech.jts.io.ParseException;
 
 public class GeomFromTextTest {
 
-	public static final String geoJsonTestGeom="POINT (-48.23456,20.12345)";
+	public static final String geoJsonTestGeom="POINT (-48.23456 20.12345)";
 	
 	@Test
-	public void testGeomFromGeoJSON() throws ParseException {
+	public void testGeomFromText() throws ParseException {
         GeomFromText instance=new GeomFromText();
         ValueFactory valfac=SimpleValueFactory.getInstance();
 		Value geo=valfac.createLiteral(geoJsonTestGeom, WKTDatatype.LiteralIRI);

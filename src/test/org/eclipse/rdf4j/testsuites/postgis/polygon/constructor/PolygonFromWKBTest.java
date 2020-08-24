@@ -5,13 +5,9 @@ import static org.junit.Assert.assertEquals;
 import java.util.LinkedList;
 import java.util.List;
 
-import org.apache.jena.sparql.expr.NodeValue;
+import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.polygon.constructor.PolygonFromWKB;
 import org.junit.jupiter.api.Test;
 import org.locationtech.jts.geom.Coordinate;
-
-import de.hsmainz.cs.semgis.arqextension.polygon.constructor.PolygonFromWKB;
-import io.github.galbiston.geosparql_jena.implementation.GeometryWrapperFactory;
-import io.github.galbiston.geosparql_jena.implementation.datatype.WKTDatatype;
 
 public class PolygonFromWKBTest {
 
