@@ -11,7 +11,7 @@ import org.junit.jupiter.api.Test;
 
 public class Force4DTest {
 
-	public static final String testLineString="LINESTRING Z ((0 0 1,0 5 2,5 0 3,0 0 4))";
+	public static final String testLineString="LINESTRING Z (0 0 1,0 5 2,5 0 3,0 0 4)";
 	
 	@Test
 	public void testForce4D() {
@@ -19,7 +19,7 @@ public class Force4DTest {
 		ValueFactory valfac=SimpleValueFactory.getInstance();
 		Value geo=valfac.createLiteral(testLineString, WKTDatatype.LiteralIRI);
 		Value result=instance.evaluate(valfac, geo);
-		Value expResult=valfac.createLiteral("LINESTRING ZM ((0 0 0 1,0 5 0 2,5 0 0 0,0 0 0 0))");
+		Value expResult=valfac.createLiteral("LINESTRING ZM (0 0 0 1,0 5 0 2,5 0 0 0,0 0 0 0)");
 		assertEquals(expResult, result);
 	}
 	

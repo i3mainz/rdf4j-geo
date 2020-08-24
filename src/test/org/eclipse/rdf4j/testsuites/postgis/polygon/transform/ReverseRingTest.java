@@ -12,7 +12,7 @@ import org.junit.jupiter.api.Test;
 
 public class ReverseRingTest {
 
-	public static final String duplicateRings="POLYGON((8 2, 11 13, 2 6, 8 2),(8 2, 2 6, 11 13, 8 2))";
+	public static final String duplicateRings="POLYGON ((8 2, 11 13, 2 6, 8 2),(8 2, 2 6, 11 13, 8 2))";
 	
 	public static final String nonduplicateRings="POLYGON ((8 2, 11 13, 2 6, 8 2),(8 2, 11 13, 2 6, 8 2))";
 	
@@ -21,7 +21,7 @@ public class ReverseRingTest {
 		ReverseRing instance=new ReverseRing();
 		ValueFactory valfac=SimpleValueFactory.getInstance();
 		Value geo=valfac.createLiteral(duplicateRings, WKTDatatype.LiteralIRI);
-		Value result=instance.evaluate(valfac, geo);
+		Value result=instance.evaluate(valfac, geo,valfac.createLiteral(1));
 		Value expResult=valfac.createLiteral(nonduplicateRings, WKTDatatype.LiteralIRI);
 		assertEquals(expResult, result);
 	}

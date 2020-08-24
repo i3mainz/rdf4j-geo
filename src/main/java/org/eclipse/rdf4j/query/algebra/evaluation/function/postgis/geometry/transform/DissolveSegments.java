@@ -9,6 +9,7 @@ import org.locationtech.jts.geom.Coordinate;
 import org.locationtech.jts.geom.Geometry;
 import org.locationtech.jts.geom.GeometryFactory;
 import org.locationtech.jts.geom.Point;
+import org.locationtech.jts.geomgraph.GeometryGraph;
 
 public class DissolveSegments extends GeometricUnaryFunction {
 
@@ -21,10 +22,13 @@ public class DissolveSegments extends GeometricUnaryFunction {
 	protected Geometry operation(Geometry geom) {
 		GeometryFactory fac=new GeometryFactory();
         List<Point> res=new LinkedList<Point>();
+        GeometryGraph graph= new GeometryGraph(0,geom);
+        //graph.
         /*for(Coordinate coord:geom.getGeome) {
         	res.add(fac.createPoint(coord));
         }*/
-        return fac.createMultiPoint(geom.getCoordinates());
+        //return fac.createMultiPoint(geom.getCoordinates());
+        return null;
 	}
 
 }

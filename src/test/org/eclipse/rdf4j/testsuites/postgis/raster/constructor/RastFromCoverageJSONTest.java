@@ -14,7 +14,7 @@ import org.junit.jupiter.api.Test;
 public class RastFromCoverageJSONTest extends SampleRasters {
 	
 	@Test
-	public void testTileHeight() {
+	public void testRastFromCoverageJSON() {
 		ValueFactory valfac=SimpleValueFactory.getInstance();
         Value cov1 = valfac.createLiteral(wkbString1);
         RastFromCoverageJSON instance=new RastFromCoverageJSON();

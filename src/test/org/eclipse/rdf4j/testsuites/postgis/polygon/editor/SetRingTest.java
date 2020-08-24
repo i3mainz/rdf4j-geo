@@ -14,7 +14,7 @@ public class SetRingTest {
 
 	public static final String duplicateRings="POLYGON((8 2, 11 13, 2 6, 8 2), (8 2, 11 13, 2 6, 8 2))";
 	
-	public static final String nonduplicateRings="POLYGON((8 2, 11 13, 2 6, 8 2))";
+	public static final String nonduplicateRings="POLYGON ((8 2, 11 13, 2 6, 8 2), (8 2, 11 13, 2 7, 8 2))";
 	
 	public static final String ring="LINEARRING (8 2, 11 13, 2 7, 8 2)";
 	
@@ -25,7 +25,7 @@ public class SetRingTest {
 		Value geo=valfac.createLiteral(duplicateRings, WKTDatatype.LiteralIRI);
 		Value ringg=valfac.createLiteral(ring, WKTDatatype.LiteralIRI);
 		Value index=valfac.createLiteral(0);
-		Value result=instance.evaluate(valfac, geo,index,ringg);
+		Value result=instance.evaluate(valfac, geo,ringg,index);
 		Value expResult=valfac.createLiteral(nonduplicateRings, WKTDatatype.LiteralIRI);
 		assertEquals(expResult, result);
 	}

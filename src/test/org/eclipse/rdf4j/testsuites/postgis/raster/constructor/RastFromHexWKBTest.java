@@ -13,7 +13,7 @@ import org.junit.jupiter.api.Test;
 public class RastFromHexWKBTest extends SampleRasters {
 	
 	@Test
-	public void testTileHeight() {
+	public void testRastFromHexWKB() {
 		ValueFactory valfac=SimpleValueFactory.getInstance();
         Value cov1 = valfac.createLiteral(wkbString1);
         org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.raster.constructor.RastFromHexWKB instance=new org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.raster.constructor.RastFromHexWKB();

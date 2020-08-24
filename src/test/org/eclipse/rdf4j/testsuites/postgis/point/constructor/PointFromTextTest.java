@@ -15,9 +15,9 @@ public class PointFromTextTest {
 	public void testPointFromText() {
 		PointFromText is3d=new PointFromText();
 		ValueFactory valfac=SimpleValueFactory.getInstance();
-		Value geo=valfac.createLiteral("POINT (0 0, 1 1)");
+		Value geo=valfac.createLiteral("POINT (0 0)");
 		Value result=is3d.evaluate(valfac, geo);
-		Value expResult=valfac.createLiteral("POINT (0 0, 1 1)",WKTDatatype.LiteralIRI);
+		Value expResult=valfac.createLiteral("POINT (0 0)",WKTDatatype.LiteralIRI);
 	    assertEquals(expResult, result);
 	}
 	

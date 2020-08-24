@@ -86,6 +86,7 @@ import org.eclipse.rdf4j.query.algebra.Union;
 import org.eclipse.rdf4j.query.algebra.ValueConstant;
 import org.eclipse.rdf4j.query.algebra.Var;
 import org.eclipse.rdf4j.query.algebra.ZeroLengthPath;
+import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.aggregate.AggCentroid;
 import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.aggregate.AvgX;
 import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.aggregate.AvgY;
 import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.aggregate.AvgZ;
@@ -281,4 +282,6 @@ public interface QueryModelVisitor<X extends Exception> {
 	public void meet(ZeroLengthPath node) throws X;
 
 	public void meetOther(QueryModelNode node) throws X;
+
+	public void meet(AggCentroid aggCentroid);
 }

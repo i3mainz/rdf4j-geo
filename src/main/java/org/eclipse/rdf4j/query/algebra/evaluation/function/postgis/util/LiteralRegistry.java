@@ -22,7 +22,7 @@ import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.literals
 import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.literals.vector.PolyshapeDatatype;
 import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.literals.vector.SVGDatatype;
 import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.literals.vector.TWKBDatatype;
-import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.literals.vector.TopoJSONDatatype;
+import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.literals.topo.TopoJSONDatatype;
 import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.literals.vector.WKBDatatype;
 import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.literals.vector.WKTDatatype;
 
@@ -40,11 +40,12 @@ public class LiteralRegistry {
 		literals.put(WKTDatatype.URI, WKTDatatype.INSTANCE);
 		literals.put(GeoJSONDatatype.URI, GeoJSONDatatype.INSTANCE);
 		literals.put(GeoURIDatatype.URI, GeoURIDatatype.INSTANCE);
+		literals.put(HexWKBRastDatatype.URI, HexWKBRastDatatype.INSTANCE);
 		literals.put(GPXDatatype.URI, GPXDatatype.INSTANCE);
 		literals.put(HexWKBDatatype.URI, HexWKBDatatype.INSTANCE);
 		literals.put(SVGDatatype.URI, SVGDatatype.INSTANCE);
 		literals.put(GeobufDatatype.URI, GeobufDatatype.INSTANCE);
-		literals.put(TopoJSONDatatype.URI, TopoJSONDatatype.INSTANCE);
+		//literals.put(TopoJSONDatatype.URI, TopoJSONDatatype.INSTANCE);
 		literals.put(PolyshapeDatatype.URI, PolyshapeDatatype.INSTANCE);
 		literals.put(DXFDatatype.URI, DXFDatatype.INSTANCE);
 		literals.put(EncodedPolylineDatatype.URI, EncodedPolylineDatatype.INSTANCE);
@@ -53,11 +54,13 @@ public class LiteralRegistry {
 		literals.put(GMLCOVDatatype.URI, GMLCOVDatatype.INSTANCE);
 		literals.put(CovJSONDatatype.URI, CovJSONDatatype.INSTANCE);
 		literals.put(NetCDFDatatype.URI, NetCDFDatatype.INSTANCE);
-		literals.put(HexWKBRastDatatype.URI, HexWKBRastDatatype.INSTANCE);
+
 	}
 	
 	
 	public static LiteralType getLiteral(String uri) {
+		System.out.println(uri);
+		System.out.println(literals);
 		if(literals.containsKey(uri)) {
 			return literals.get(uri);
 		}

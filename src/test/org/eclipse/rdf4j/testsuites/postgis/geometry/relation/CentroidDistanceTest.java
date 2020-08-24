@@ -21,6 +21,17 @@ public static final String isocelesTriangle="POLYGON((8 2, 11 13, 2 6, 8 2))";
 		ValueFactory valfac=SimpleValueFactory.getInstance();
 		Value geo=valfac.createLiteral(isocelesTriangle, WKTDatatype.LiteralIRI);
 		Value geo2=valfac.createLiteral(notIsocelesTriangle, WKTDatatype.LiteralIRI);
+		Value result=valfac.createLiteral(5.);
+		Value expResult=instance.evaluate(valfac, geo,geo2);
+		assertEquals(expResult, result);
+	}
+	
+	@Test
+	public void testCentroidDistance2() {
+		CentroidDistance instance=new CentroidDistance();
+		ValueFactory valfac=SimpleValueFactory.getInstance();
+		Value geo=valfac.createLiteral(isocelesTriangle, WKTDatatype.LiteralIRI);
+		Value geo2=valfac.createLiteral(isocelesTriangle, WKTDatatype.LiteralIRI);
 		Value result=valfac.createLiteral(0.);
 		Value expResult=instance.evaluate(valfac, geo,geo2);
 		assertEquals(expResult, result);

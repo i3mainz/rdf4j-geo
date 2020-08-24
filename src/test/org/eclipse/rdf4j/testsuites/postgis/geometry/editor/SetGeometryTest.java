@@ -11,9 +11,9 @@ import org.junit.jupiter.api.Test;
 
 public class SetGeometryTest {
 
-	public static final String lineString="GEOMETRYCOLLECTION(LINESTRING(0 0 1, 1 1 1, 1 2 3),POINT(1 2 3))";
+	public static final String lineString="GEOMETRYCOLLECTION (LINESTRING (0 0 1, 1 1 1, 1 2 3),POINT (1 2 3))";
 	
-	public static final String point="POINT(1 2 3)";
+	public static final String point="POINT (1 2 3)";
 	
 	@Test
 	public void testSetGeometry() {

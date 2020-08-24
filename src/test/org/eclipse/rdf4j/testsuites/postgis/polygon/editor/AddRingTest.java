@@ -12,7 +12,7 @@ import org.junit.jupiter.api.Test;
 
 public class AddRingTest {
 
-	public static final String duplicateRings="POLYGON((8 2, 11 13, 2 6, 8 2), (8 2, 11 13, 2 6, 8 2))";
+	public static final String duplicateRings="POLYGON ((8 2, 11 13, 2 6, 8 2), (8 2, 11 13, 2 6, 8 2))";
 	
 	public static final String nonduplicateRings="POLYGON ((8 2, 11 13, 2 6, 8 2))";
 	
@@ -23,7 +23,8 @@ public class AddRingTest {
 		AddInteriorRing instance=new AddInteriorRing();
 		ValueFactory valfac=SimpleValueFactory.getInstance();
 		Value geo=valfac.createLiteral(nonduplicateRings, WKTDatatype.LiteralIRI);
-		Value result=instance.evaluate(valfac, geo,geo);
+		Value georing=valfac.createLiteral(ring, WKTDatatype.LiteralIRI);
+		Value result=instance.evaluate(valfac, geo,georing);
 		Value expResult=valfac.createLiteral(duplicateRings, WKTDatatype.LiteralIRI);
 		assertEquals(expResult, result);
 	}

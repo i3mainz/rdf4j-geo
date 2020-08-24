@@ -21,7 +21,7 @@ public class SetPointTest {
 		ValueFactory valfac=SimpleValueFactory.getInstance();
 		Value geo=valfac.createLiteral(LineString2D, WKTDatatype.LiteralIRI);
 		Value geo2=valfac.createLiteral(point, WKTDatatype.LiteralIRI);
-		Value result=instance.evaluate(valfac, geo,geo2,valfac.createLiteral(0.));
+		Value result=instance.evaluate(valfac, geo,geo2,valfac.createLiteral(0));
 		Value expResult=valfac.createLiteral("LINESTRING (1 1, 0 2)", WKTDatatype.LiteralIRI);
 		assertEquals(expResult, result);
 	}

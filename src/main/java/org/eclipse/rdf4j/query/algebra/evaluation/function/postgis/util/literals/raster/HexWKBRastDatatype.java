@@ -8,6 +8,7 @@ import org.eclipse.rdf4j.model.impl.SimpleValueFactory;
 import org.eclipse.rdf4j.model.vocabulary.POSTGIS;
 import org.geotoolkit.coverage.wkb.WKBRasterReader;
 import org.geotoolkit.coverage.wkb.WKBRasterWriter;
+import org.geotoolkit.factory.Factories;
 import org.locationtech.jts.io.WKBReader;
 import org.locationtech.jts.io.WKBWriter;
 import org.opengis.util.FactoryException;
@@ -24,16 +25,16 @@ public class HexWKBRastDatatype extends RasterLiteral {
 	@Override
 	public GridCoverage read(String geometryLiteral) {
 		WKBRasterReader reader2=new WKBRasterReader();
-		try {
+		/*try {
 			GridCoverage coverage;
 			System.out.println("Read it: "+geometryLiteral);
-			coverage = reader2.readCoverage(WKBReader.hexToBytes(geometryLiteral), null);
+			coverage = reader2.readCoverage(WKBReader.hexToBytes(geometryLiteral),Factories.getCRSAuthorityFactory("EPSG"));
 			System.out.println("Read wan le: "+coverage);
 			return coverage;
 		} catch (IOException | FactoryException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
-		}
+		}*/
 		return null;
 
 	}
