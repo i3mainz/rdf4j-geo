@@ -5,13 +5,9 @@ import static org.junit.Assert.assertEquals;
 import java.util.LinkedList;
 import java.util.List;
 
-import org.apache.jena.sparql.expr.NodeValue;
+import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.polygon.constructor.PolygonFromWKB;
 import org.junit.jupiter.api.Test;
 import org.locationtech.jts.geom.Coordinate;
-
-import de.hsmainz.cs.semgis.arqextension.polygon.constructor.PolygonFromWKB;
-import io.github.galbiston.geosparql_jena.implementation.GeometryWrapperFactory;
-import io.github.galbiston.geosparql_jena.implementation.datatype.WKTDatatype;
 
 public class PolygonFromWKBTest {
 
@@ -26,8 +22,6 @@ public static final String testPolygon="POLYGON((-71.1776585052917 42.3902909739
         coords.add(new Coordinate(-71.1776063012595, 42.3903825660754));
         coords.add(new Coordinate(-71.1775826583081, 42.3903033653531));
         coords.add(new Coordinate(-71.1776585052917, 42.3902909739571));
-        NodeValue expResult = GeometryWrapperFactory.createPolygon(coords, WKTDatatype.URI).asNodeValue();
-        NodeValue result = instance.exec(NodeValue.makeString(testPolygon));
         assertEquals(expResult, result);
 	}
 	
