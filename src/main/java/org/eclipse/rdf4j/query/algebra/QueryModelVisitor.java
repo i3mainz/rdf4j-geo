@@ -290,4 +290,6 @@ public interface QueryModelVisitor<X extends Exception> {
 	public void meet(ZeroLengthPath node) throws X;
 
 	public void meetOther(QueryModelNode node) throws X;
+
+	public void meet(AggCentroid aggCentroid);
 }

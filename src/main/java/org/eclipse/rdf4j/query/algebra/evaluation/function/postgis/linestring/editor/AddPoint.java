@@ -1,6 +1,7 @@
 package org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.linestring.editor;
 
 import java.util.Arrays;
+import java.util.LinkedList;
 import java.util.List;
 
 import org.eclipse.rdf4j.model.vocabulary.POSTGIS;
@@ -25,7 +26,11 @@ public class AddPoint extends GeometricModifierFunction {
 	protected Geometry relation(Geometry geom1, Geometry geom2) {
 		Coordinate[] coords=geom1.getCoordinates();
         Point point = ((Point) geom2);
-        List<Coordinate> newcoords=Arrays.asList(coords);
+        List<Coordinate> newcoords=new LinkedList<Coordinate>();
+        for(int i=0;i<coords.length;i++) {
+        	newcoords.add(coords[i]);
+        }
+        System.out.println(newcoords);
         newcoords.add(point.getCoordinate());
         return LiteralUtils.createGeometry(newcoords, geom1.getGeometryType(), geom1.getSRID());
     }

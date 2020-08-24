@@ -11,9 +11,20 @@ import org.junit.jupiter.api.Test;
 
 public class AddPointTest {
 	
-	public static final String lineString="LINESTRING(0 0 1, 1 1 1)";
+	public static final String lineString="LINESTRING (0 0 1, 1 1 1)";
 	
-	public static final String point="POINT(1 2 3)";
+	public static final String point="POINT (1 2 3)";
+	
+	@Test
+	public void testAddPointZ() {
+		AddPoint instance=new AddPoint();
+		ValueFactory valfac=SimpleValueFactory.getInstance();
+		Value geo=valfac.createLiteral(lineString, WKTDatatype.LiteralIRI);
+		Value geo2=valfac.createLiteral(point, WKTDatatype.LiteralIRI);
+		Value result=instance.evaluate(valfac, geo,geo2);
+		Value expResult=valfac.createLiteral("LINESTRING (0 0 1, 1 1 1, 1 2 3)", WKTDatatype.LiteralIRI);
+		assertEquals(expResult, result);
+	}
 	
 	@Test
 	public void testAddPoint() {
@@ -22,7 +33,7 @@ public class AddPointTest {
 		Value geo=valfac.createLiteral(lineString, WKTDatatype.LiteralIRI);
 		Value geo2=valfac.createLiteral(point, WKTDatatype.LiteralIRI);
 		Value result=instance.evaluate(valfac, geo,geo2);
-		Value expResult=valfac.createLiteral("LINESTRING(0 0 1, 1 1 1, 1 2 3)", WKTDatatype.LiteralIRI);
+		Value expResult=valfac.createLiteral("LINESTRING (0 0, 1 1, 1 2)", WKTDatatype.LiteralIRI);
 		assertEquals(expResult, result);
 	}
 }

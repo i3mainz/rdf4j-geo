@@ -9,6 +9,7 @@ import org.locationtech.jts.geom.LineString;
 
 public class BezierSmoothing extends GeometricModifierDoubleFunction{
 
+
 	@Override
 	public String getURI() {
 		return POSTGIS.ST_BEZIERSMOOTHING.stringValue();
@@ -20,6 +21,6 @@ public class BezierSmoothing extends GeometricModifierDoubleFunction{
 		return smoother.smooth(((LineString)geom.getXYGeometry()), alpha);
 
 	}
-	
+
 
 }

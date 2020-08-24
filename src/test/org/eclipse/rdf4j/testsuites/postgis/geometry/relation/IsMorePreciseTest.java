@@ -33,7 +33,7 @@ public class IsMorePreciseTest {
 		Value geo=valfac.createLiteral(testGeom, WKTDatatype.LiteralIRI);
 		Value geo2=valfac.createLiteral(testGeom2, WKTDatatype.LiteralIRI);
 		Value result=instance.evaluate(valfac, geo,geo2);
-		Value expResult=valfac.createLiteral(1);
+		Value expResult=valfac.createLiteral(0.0);
 		assertEquals(expResult, result);
 	}
 	
@@ -44,7 +44,7 @@ public class IsMorePreciseTest {
 		Value geo=valfac.createLiteral(testGeom, WKTDatatype.LiteralIRI);
 		Value geo2=valfac.createLiteral(testGeom, WKTDatatype.LiteralIRI);
 		Value result=instance.evaluate(valfac, geo,geo2);
-		Value expResult=valfac.createLiteral(0);
+		Value expResult=valfac.createLiteral(0.0);
 		assertEquals(expResult, result);
 	}
 	

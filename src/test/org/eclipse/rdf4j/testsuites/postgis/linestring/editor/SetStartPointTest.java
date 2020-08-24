@@ -16,7 +16,7 @@ public static final String LineString2D="LINESTRING(0 1, 0 2)";
 	public static final String point="POINT(1 1)";
 	
 	@Test
-	public void testLineString2D() {
+	public void testSetStartPoint() {
 		SetStartPoint instance=new SetStartPoint();
 		ValueFactory valfac=SimpleValueFactory.getInstance();
 		Value geo=valfac.createLiteral(LineString2D, WKTDatatype.LiteralIRI);

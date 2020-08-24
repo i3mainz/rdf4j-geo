@@ -18,7 +18,7 @@ public class ShortestLine3DTest {
 	public static final String result="LINESTRING(77.29 29.07, 10 10)";
 	
 	@Test
-	public void testShortestLine() {
+	public void testShortestLine3D() {
 		ShortestLine3D instance=new ShortestLine3D();
 		ValueFactory valfac=SimpleValueFactory.getInstance();
 		Value geo=valfac.createLiteral(testGeom, WKTDatatype.LiteralIRI);

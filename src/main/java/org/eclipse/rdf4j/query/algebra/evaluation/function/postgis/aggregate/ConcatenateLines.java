@@ -16,7 +16,7 @@ public class ConcatenateLines extends AbstractAggregateOperator {
 
 	@Override
 	public <X extends Exception> void visit(QueryModelVisitor<X> visitor) throws X {
-		visitor.meet(this);
+		//visitor.meet(this);
 	}
 
 	@Override

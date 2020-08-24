@@ -6,6 +6,7 @@ import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.geometry.base
 import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.geometry.base.GeometricModifierFunction;
 import org.locationtech.jts.geom.Geometry;
 import org.locationtech.jts.geom.util.AffineTransformation;
+import org.opengis.feature.Feature;
 
 import gov.noaa.ncdc.geotools.VectorToRaster;
 
@@ -16,24 +17,11 @@ public class ToRaster extends GeometricExportToRasterFunction {
 		return POSTGIS.st_toRaster.stringValue();
 	}
 
-	@Override
-	protected Geometry relation(Geometry geom, String attributeName) {
-	        if(geom2.getGeometryType().equalsIgnoreCase("LineString") || geom2.getGeometryType().equalsIgnoreCase("Point")) {
-	        	AffineTransformation trans = new AffineTransformation();
-	        	if(geom2.getGeometryType().equalsIgnoreCase("Point")) {
-	        		trans.setToReflection(geom2.getCoordinates()[0].x, geom2.getCoordinates()[0].y);		        		
-	        	}else {
-	        		trans.setToReflection(geom2.getCoordinates()[0].x, geom2.getCoordinates()[0].y, geom2.getCoordinates()[geom2.getCoordinates().length-1].x, geom2.getCoordinates()[geom2.getCoordinates().length-1].y);	
-	        	}
-	        	return trans.transform(geom);
-	        }
-	        return null;
-	}
 
 	@Override
 	public GridCoverage operation(Geometry geom) {
 		VectorToRaster vectorast=new VectorToRaster();
-		vectorast.
+		//vectorast.addFeature(new Feature(geom));
 		// TODO Auto-generated method stub
 		return null;
 	}

@@ -17,7 +17,7 @@ public class GeomFromWKBTest {
 public static final String geoJsonTestGeom="\\001\\002\\000\\000\\000\\002\\000\\000\\000\\037\\205\\353Q\\270~\\\\\\300\\323Mb\\020X\\231C@\\020X9\\264\\310~\\\\\\300)\\\\\\217\\302\\365\\230C@";
 	
 	@Test
-	public void testGeomFromGeoJSON() throws ParseException {		
+	public void testGeomFromWKB() throws ParseException {		
         GeomFromWKB instance=new GeomFromWKB();
 		ValueFactory valfac=SimpleValueFactory.getInstance();
 		Value geo=valfac.createLiteral(geoJsonTestGeom, WKBDatatype.LiteralIRI);

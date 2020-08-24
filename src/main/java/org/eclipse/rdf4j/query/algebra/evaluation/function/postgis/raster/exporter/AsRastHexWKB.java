@@ -5,7 +5,7 @@ import org.eclipse.rdf4j.model.vocabulary.POSTGIS;
 import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.raster.base.RasterStringExportFunction;
 import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.literals.raster.HexWKBRastDatatype;
 
-public class AsHexWKB extends RasterStringExportFunction {
+public class AsRastHexWKB extends RasterStringExportFunction {
 
 	@Override
 	public String getURI() {

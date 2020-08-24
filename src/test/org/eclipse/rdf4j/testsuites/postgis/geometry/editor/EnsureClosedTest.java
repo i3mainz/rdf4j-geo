@@ -16,7 +16,7 @@ public class EnsureClosedTest {
 	
 	public static final String nonClosed="LINESTRING(8 2, 11 13, 2 6)";
 	
-	public static final String closed="LINESTRING(8 2, 11 13, 2 6, 8 2)";
+	public static final String closed="LINESTRING (8 2, 11 13, 2 6, 8 2)";
 	
 	public static final String ring="LINEARRING (8 2, 11 13, 2 6, 8 2)";
 	
@@ -25,7 +25,7 @@ public class EnsureClosedTest {
         EnsureClosed instance=new EnsureClosed();
 		ValueFactory valfac=SimpleValueFactory.getInstance();
 		Value geo=valfac.createLiteral(nonClosed, WKTDatatype.LiteralIRI);
-		Value result=instance.evaluate(valfac, geo);
+		Value result=instance.evaluate(valfac, geo,valfac.createLiteral(0.));
 		Value expResult=valfac.createLiteral(closed, WKTDatatype.LiteralIRI);
 		assertEquals(expResult, result);
 	}
@@ -35,7 +35,7 @@ public class EnsureClosedTest {
         EnsureClosed instance=new EnsureClosed();
 		ValueFactory valfac=SimpleValueFactory.getInstance();
 		Value geo=valfac.createLiteral(closed, WKTDatatype.LiteralIRI);
-		Value result=instance.evaluate(valfac, geo);
+		Value result=instance.evaluate(valfac, geo,valfac.createLiteral(0.));
 		Value expResult=valfac.createLiteral(closed, WKTDatatype.LiteralIRI);
 		assertEquals(expResult, result);
 	}

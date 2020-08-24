@@ -19,6 +19,7 @@ public class SetPoint extends GeometricDoubleModifierIntegerFunction {
 	protected Geometry relation(Geometry geom1, Geometry geom2,Integer zerobasedposition) {
         if (geom2 instanceof Point) {
             Coordinate[] coords=geom1.getCoordinates();
+            System.out.println(coords);
             Coordinate[] newcoords=coords;
             newcoords[zerobasedposition.intValue()]=geom2.getCoordinate();
             return LiteralUtils.createGeometry(newcoords, geom1.getGeometryType(), geom1.getSRID());

@@ -7,6 +7,10 @@ import org.locationtech.jts.geom.LineString;
 
 import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.geometry.base.GeometricStringExportFunction;
 
+/**
+ * Encodes a LineString as into the Polyline String dataformat.
+ *
+ */
 public class AsEncodedPolyline extends GeometricStringExportFunction {
 
 	@Override

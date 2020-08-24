@@ -16,7 +16,7 @@ public class SetEndPointTest {
 	public static final String point="POINT(1 1)";
 	
 	@Test
-	public void testLineString2D() {
+	public void testSetEndPoint() {
 		SetEndPoint instance=new SetEndPoint();
 		ValueFactory valfac=SimpleValueFactory.getInstance();
 		Value geo=valfac.createLiteral(LineString2D, WKTDatatype.LiteralIRI);

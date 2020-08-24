@@ -19,7 +19,7 @@ public abstract class GeometricDoubleModifierIntegerFunction implements Function
 				throw new ValueExprEvaluationException(getURI() + " requires exactly 3 arguments, got " + args.length);
 			}		
 			
-			Integer value=Integer.valueOf(args[1].stringValue());
+			Integer value=Integer.valueOf(args[2].stringValue());
 			LiteralType l=LiteralRegistry.getLiteral(((Literal)args[0]).getDatatype().toString());
 			LiteralType l2=LiteralRegistry.getLiteral(((Literal)args[1]).getDatatype().toString());
 			if(l instanceof VectorLiteral && l2 instanceof VectorLiteral) {

@@ -13,7 +13,7 @@ import org.junit.jupiter.api.Test;
 public class AsGeoTIFFTest extends SampleRasters {
 	
 	@Test
-	public void testAsRastWKB() {
+	public void testAsGeoTIFF() {
 		ValueFactory valfac=SimpleValueFactory.getInstance();
         Value cov1 = valfac.createLiteral(rasterLiteral1, CovJSONDatatype.LiteralIRI);
         AsGeoTIFF instance=new AsGeoTIFF();

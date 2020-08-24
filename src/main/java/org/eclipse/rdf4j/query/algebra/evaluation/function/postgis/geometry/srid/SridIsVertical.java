@@ -15,11 +15,13 @@ public class SridIsVertical extends GeometricBinaryAttributeFunction {
 
 	@Override
 	public boolean attribute(Geometry geom) {
-		try {
-			return CRS.getVerticalCRS(CRS.forCode("EPSG:"+geom.getSRID()))!=null;
+		return false;
+		/*try {
+			return CRS.getVerticalCRS(CRS.decode("EPSG:"+geom.getSRID()))!=null;
+>>>>>>> 237275ccb45fa5d7012a3c2bceba8868ccdcceeb
 		} catch (FactoryException e) {
 			return false;
-		} 
+		}*/ 
 	}
 
 }

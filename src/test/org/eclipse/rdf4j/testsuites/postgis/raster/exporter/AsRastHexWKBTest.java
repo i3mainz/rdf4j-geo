@@ -13,7 +13,7 @@ import org.junit.jupiter.api.Test;
 public class AsRastHexWKBTest extends SampleRasters {
 	
 	@Test
-	public void testAsRastWKB() {
+	public void testAsRastHexWKB() {
 		ValueFactory valfac=SimpleValueFactory.getInstance();
         Value cov1 = valfac.createLiteral(rasterLiteral1, CovJSONDatatype.LiteralIRI);
         AsRastHexWKB instance=new AsRastHexWKB();

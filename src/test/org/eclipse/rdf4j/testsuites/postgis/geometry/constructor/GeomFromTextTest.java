@@ -19,7 +19,7 @@ public class GeomFromTextTest {
 	public void testGeomFromText() throws ParseException {
         GeomFromText instance=new GeomFromText();
         ValueFactory valfac=SimpleValueFactory.getInstance();
-		Value geo=valfac.createLiteral(geoJsonTestGeom, WKTDatatype.LiteralIRI);
+		Value geo=valfac.createLiteral(geoJsonTestGeom);
 		Value result=instance.evaluate(valfac,geo);
 		Value expResult=valfac.createLiteral(geoJsonTestGeom, WKTDatatype.LiteralIRI);
 		assertEquals(expResult, result);

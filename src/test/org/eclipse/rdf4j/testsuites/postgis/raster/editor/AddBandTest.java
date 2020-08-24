@@ -8,7 +8,7 @@ import org.junit.jupiter.api.Test;
 public class AddBandTest extends SampleRasters {
 	
 	@Test
-	public void testTileHeight() {
+	public void testAddBand() {
 		NodeValue covLiteral = NodeValue.makeNode(rasterLiteral1, CovJSONDatatype.INSTANCE);
 		NodeValue rasterBand = NodeValue.makeNode(rasterBand, WKTDatatype.INSTANCE);
         AddBand instance=new AddBand();
