@@ -42,14 +42,14 @@ var hierarchy =
     [ "ChainToMeterTest", "a06196.html", null ],
     [ "CircularityTest", "a05852.html", null ],
     [ "CircumcentreTest", "a05856.html", null ],
-    [ "Cloneable", "a07844.html", [
+    [ "Cloneable", "a07828.html", [
       [ "Coordinate", "a05188.html", null ]
     ] ],
     [ "ClosestPointTest", "a05504.html", null ],
     [ "CollectionExtractTest", "a05644.html", null ],
     [ "CollectionHomogenizeTest", "a05648.html", null ],
     [ "CompactnessRatioTest", "a05276.html", null ],
-    [ "Comparable", "a07840.html", [
+    [ "Comparable", "a07824.html", [
       [ "Coordinate", "a05188.html", null ]
     ] ],
     [ "ConvexHull", "a02764.html", null ],
@@ -127,7 +127,7 @@ var hierarchy =
     [ "IsSquareTest", "a05332.html", null ],
     [ "IsTriangleTest", "a05900.html", null ],
     [ "IsValidTest", "a05336.html", null ],
-    [ "Iterable", "a07848.html", [
+    [ "Iterable", "a07832.html", [
       [ "VectorTileDecoder.FeatureIterable", "a05072.html", null ]
     ] ],
     [ "KilometerToMeterTest", "a06216.html", null ],
@@ -413,7 +413,7 @@ var hierarchy =
     [ "DefaultHandler2", null, [
       [ "GPXHandler", "a04916.html", null ]
     ] ],
-    [ "Exception", "a07748.html", [
+    [ "Exception", "a07732.html", [
       [ "VectorToRaster.FeatureRasterizerException", "a02728.html", null ]
     ] ],
     [ "FilterOutputStream", null, [

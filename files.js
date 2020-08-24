@@ -1,18 +1,18 @@
 var files =
 [
-    [ "math/Abs.java", "a07849.html", [
+    [ "math/Abs.java", "a07833.html", [
       [ "Abs", "a03796.html", "a03796" ]
     ] ],
-    [ "raster/algebra/Abs.java", "a07852.html", [
+    [ "raster/algebra/Abs.java", "a07836.html", [
       [ "Abs", "a04104.html", "a04104" ]
     ] ],
-    [ "util/functions/math/Abs.java", "a07855.html", [
+    [ "util/functions/math/Abs.java", "a07839.html", [
       [ "Abs", "a04832.html", "a04832" ]
     ] ],
-    [ "math/ACos.java", "a07858.html", [
+    [ "math/ACos.java", "a07842.html", [
       [ "ACos", "a03800.html", "a03800" ]
     ] ],
-    [ "util/functions/math/ACos.java", "a07861.html", [
+    [ "util/functions/math/ACos.java", "a07845.html", [
       [ "ACos", "a04836.html", "a04836" ]
     ] ],
     [ "Add.java", "a01031.html", [
@@ -165,10 +165,10 @@ var files =
     [ "AsHexWKBTest.java", "a01922.html", [
       [ "AsHexWKBTest", "a05460.html", "a05460" ]
     ] ],
-    [ "math/ASin.java", "a07864.html", [
+    [ "math/ASin.java", "a07848.html", [
       [ "ASin", "a03804.html", "a03804" ]
     ] ],
-    [ "util/functions/math/ASin.java", "a07867.html", [
+    [ "util/functions/math/ASin.java", "a07851.html", [
       [ "ASin", "a04840.html", "a04840" ]
     ] ],
     [ "AsKML.java", "a00443.html", [
@@ -249,10 +249,10 @@ var files =
     [ "AsX3D.java", "a00473.html", [
       [ "AsX3D", "a03344.html", "a03344" ]
     ] ],
-    [ "math/ATan.java", "a07870.html", [
+    [ "math/ATan.java", "a07854.html", [
       [ "ATan", "a03808.html", "a03808" ]
     ] ],
-    [ "util/functions/math/ATan.java", "a07873.html", [
+    [ "util/functions/math/ATan.java", "a07857.html", [
       [ "ATan", "a04844.html", "a04844" ]
     ] ],
     [ "AvgX.java", "a00023.html", [
@@ -387,10 +387,10 @@ var files =
     [ "Box2DFromGeoHash.java", "a00065.html", [
       [ "Box2DFromGeoHash", "a02796.html", null ]
     ] ],
-    [ "math/Ceil.java", "a07876.html", [
+    [ "math/Ceil.java", "a07860.html", [
       [ "Ceil", "a03812.html", "a03812" ]
     ] ],
-    [ "util/functions/math/Ceil.java", "a07879.html", [
+    [ "util/functions/math/Ceil.java", "a07863.html", [
       [ "Ceil", "a04848.html", "a04848" ]
     ] ],
     [ "CentimeterToMeter.java", "a01472.html", [
@@ -471,10 +471,10 @@ var files =
     [ "ContainsProperly.java", "a01370.html", [
       [ "ContainsProperly", "a04568.html", "a04568" ]
     ] ],
-    [ "aggregate/ConvexHull.java", "a07882.html", [
+    [ "aggregate/ConvexHull.java", "a07866.html", [
       [ "ConvexHull", "a02764.html", null ]
     ] ],
-    [ "geometry/attribute/ConvexHull.java", "a07885.html", [
+    [ "geometry/attribute/ConvexHull.java", "a07869.html", [
       [ "ConvexHull", "a02904.html", "a02904" ]
     ] ],
     [ "Coordinate.java", "a01724.html", [
@@ -484,16 +484,16 @@ var files =
     [ "CoordinateT.java", "a01727.html", [
       [ "CoordinateT", "a05196.html", null ]
     ] ],
-    [ "math/CosH.java", "a07888.html", [
+    [ "math/CosH.java", "a07872.html", [
       [ "CosH", "a03816.html", "a03816" ]
     ] ],
-    [ "util/functions/math/CosH.java", "a07891.html", [
+    [ "util/functions/math/CosH.java", "a07875.html", [
       [ "CosH", "a04852.html", "a04852" ]
     ] ],
-    [ "math/Cosine.java", "a07894.html", [
+    [ "math/Cosine.java", "a07878.html", [
       [ "Cosine", "a03820.html", "a03820" ]
     ] ],
-    [ "util/functions/math/Cosine.java", "a07897.html", [
+    [ "util/functions/math/Cosine.java", "a07881.html", [
       [ "Cosine", "a04856.html", "a04856" ]
     ] ],
     [ "CoverageJSONReader.java", "a01664.html", [
@@ -526,7 +526,7 @@ var files =
     [ "DelaunayTriangles.java", "a00389.html", [
       [ "DelaunayTriangles", "a03232.html", "a03232" ]
     ] ],
-    [ "transform/DelaunayTriangles.java", "a07900.html", [
+    [ "transform/DelaunayTriangles.java", "a07884.html", [
       [ "DelaunayTriangles", "a03536.html", "a03536" ]
     ] ],
     [ "Densify.java", "a00617.html", [
@@ -652,13 +652,13 @@ var files =
     [ "ExampleWebService.java", "a00002.html", [
       [ "ExampleWebService", "a02708.html", "a02708" ]
     ] ],
-    [ "math/Exp.java", "a07903.html", [
+    [ "math/Exp.java", "a07887.html", [
       [ "Exp", "a03824.html", "a03824" ]
     ] ],
-    [ "raster/algebra/Exp.java", "a07906.html", [
+    [ "raster/algebra/Exp.java", "a07890.html", [
       [ "Exp", "a04132.html", "a04132" ]
     ] ],
-    [ "util/functions/math/Exp.java", "a07909.html", [
+    [ "util/functions/math/Exp.java", "a07893.html", [
       [ "Exp", "a04860.html", "a04860" ]
     ] ],
     [ "Expand.java", "a00068.html", [
@@ -682,10 +682,10 @@ var files =
     [ "FlipCoordinatesTest.java", "a02069.html", [
       [ "FlipCoordinatesTest", "a05656.html", "a05656" ]
     ] ],
-    [ "math/Floor.java", "a07912.html", [
+    [ "math/Floor.java", "a07896.html", [
       [ "Floor", "a03828.html", "a03828" ]
     ] ],
-    [ "util/functions/math/Floor.java", "a07915.html", [
+    [ "util/functions/math/Floor.java", "a07899.html", [
       [ "Floor", "a04864.html", "a04864" ]
     ] ],
     [ "FootToMeter.java", "a01484.html", [
@@ -1001,7 +1001,7 @@ var files =
     [ "InchToMeterTest.java", "a02483.html", [
       [ "InchToMeterTest", "a06212.html", "a06212" ]
     ] ],
-    [ "attribute/InteriorRingN.java", "a07918.html", [
+    [ "attribute/InteriorRingN.java", "a07902.html", [
       [ "InteriorRingN", "a04004.html", "a04004" ]
     ] ],
     [ "InteriorRingN.java", "a00959.html", [
@@ -1064,10 +1064,10 @@ var files =
     [ "IsEmpty.java", "a00179.html", [
       [ "IsEmpty", "a02952.html", "a02952" ]
     ] ],
-    [ "geometry/attribute/IsEmptyTest.java", "a07921.html", [
+    [ "geometry/attribute/IsEmptyTest.java", "a07905.html", [
       [ "IsEmptyTest", "a05300.html", "a05300" ]
     ] ],
-    [ "raster/attribute/IsEmptyTest.java", "a07924.html", [
+    [ "raster/attribute/IsEmptyTest.java", "a07908.html", [
       [ "IsEmptyTest", "a06036.html", "a06036" ]
     ] ],
     [ "IsEquilateralTriangle.java", "a00965.html", [
@@ -1238,10 +1238,10 @@ var files =
     [ "LengthTest.java", "a01832.html", [
       [ "LengthTest", "a05340.html", "a05340" ]
     ] ],
-    [ "eclipse/rdf4j/query/algebra/evaluation/function/postgis/linestring/LengthToPoint.java", "a07927.html", [
+    [ "eclipse/rdf4j/query/algebra/evaluation/function/postgis/linestring/LengthToPoint.java", "a07911.html", [
       [ "LengthToPoint", "a03752.html", "a03752" ]
     ] ],
-    [ "locationtech/jump/algorithm/LengthToPoint.java", "a07930.html", [
+    [ "locationtech/jump/algorithm/LengthToPoint.java", "a07914.html", [
       [ "LengthToPoint", "a05208.html", "a05208" ]
     ] ],
     [ "LineCrossingDirection.java", "a00779.html", [
@@ -1259,7 +1259,7 @@ var files =
     [ "LineFromWKB.java", "a00743.html", [
       [ "LineFromWKB", "a03712.html", "a03712" ]
     ] ],
-    [ "attribute/LineInterpolatePoint.java", "a07933.html", [
+    [ "attribute/LineInterpolatePoint.java", "a07917.html", [
       [ "LineInterpolatePoint", "a03680.html", "a03680" ]
     ] ],
     [ "LineInterpolatePoint.java", "a00719.html", [
@@ -1310,19 +1310,19 @@ var files =
     [ "LocatePoint.java", "a01736.html", [
       [ "LocatePoint", "a05212.html", "a05212" ]
     ] ],
-    [ "math/Log.java", "a07936.html", [
+    [ "math/Log.java", "a07920.html", [
       [ "Log", "a03832.html", "a03832" ]
     ] ],
-    [ "raster/algebra/Log.java", "a07939.html", [
+    [ "raster/algebra/Log.java", "a07923.html", [
       [ "Log", "a04148.html", "a04148" ]
     ] ],
-    [ "util/functions/math/Log.java", "a07942.html", [
+    [ "util/functions/math/Log.java", "a07926.html", [
       [ "Log", "a04868.html", "a04868" ]
     ] ],
-    [ "math/Log10.java", "a07945.html", [
+    [ "math/Log10.java", "a07929.html", [
       [ "Log10", "a03836.html", "a03836" ]
     ] ],
-    [ "util/functions/math/Log10.java", "a07948.html", [
+    [ "util/functions/math/Log10.java", "a07932.html", [
       [ "Log10", "a04872.html", "a04872" ]
     ] ],
     [ "LogTest.java", "a02312.html", [
@@ -1679,10 +1679,10 @@ var files =
     [ "NodeTest.java", "a02090.html", [
       [ "NodeTest", "a05684.html", "a05684" ]
     ] ],
-    [ "relation/Normalize.java", "a07951.html", [
+    [ "relation/Normalize.java", "a07935.html", [
       [ "Normalize", "a03444.html", "a03444" ]
     ] ],
-    [ "transform/Normalize.java", "a07954.html", [
+    [ "transform/Normalize.java", "a07938.html", [
       [ "Normalize", "a03596.html", "a03596" ]
     ] ],
     [ "Not.java", "a01082.html", [
@@ -1790,10 +1790,10 @@ var files =
     [ "PerimeterTest.java", "a01874.html", [
       [ "PerimeterTest", "a05396.html", "a05396" ]
     ] ],
-    [ "math/PI.java", "a07957.html", [
+    [ "math/PI.java", "a07941.html", [
       [ "PI", "a03840.html", "a03840" ]
     ] ],
-    [ "util/functions/math/PI.java", "a07960.html", [
+    [ "util/functions/math/PI.java", "a07944.html", [
       [ "PI", "a04876.html", "a04876" ]
     ] ],
     [ "PixelAsPoint.java", "a01166.html", [
@@ -1873,10 +1873,10 @@ var files =
     [ "POSTGIS.java", "a00017.html", [
       [ "POSTGIS", "a02732.html", "a02732" ]
     ] ],
-    [ "math/Pow.java", "a07963.html", [
+    [ "math/Pow.java", "a07947.html", [
       [ "Pow", "a03844.html", "a03844" ]
     ] ],
-    [ "util/functions/math/Pow.java", "a07966.html", [
+    [ "util/functions/math/Pow.java", "a07950.html", [
       [ "Pow", "a04880.html", "a04880" ]
     ] ],
     [ "PrecisionReducer.java", "a00665.html", [
@@ -2212,10 +2212,10 @@ var files =
     [ "ShortestLineTest.java", "a02015.html", [
       [ "ShortestLineTest", "a05584.html", "a05584" ]
     ] ],
-    [ "math/Sign.java", "a07969.html", [
+    [ "math/Sign.java", "a07953.html", [
       [ "Sign", "a03848.html", "a03848" ]
     ] ],
-    [ "util/functions/math/Sign.java", "a07972.html", [
+    [ "util/functions/math/Sign.java", "a07956.html", [
       [ "Sign", "a04884.html", "a04884" ]
     ] ],
     [ "Simplify.java", "a00683.html", [
@@ -2236,16 +2236,16 @@ var files =
     [ "SimplifyVWTest.java", "a02114.html", [
       [ "SimplifyVWTest", "a05716.html", "a05716" ]
     ] ],
-    [ "math/Sine.java", "a07975.html", [
+    [ "math/Sine.java", "a07959.html", [
       [ "Sine", "a03852.html", "a03852" ]
     ] ],
-    [ "util/functions/math/Sine.java", "a07978.html", [
+    [ "util/functions/math/Sine.java", "a07962.html", [
       [ "Sine", "a04888.html", "a04888" ]
     ] ],
-    [ "math/SinH.java", "a07981.html", [
+    [ "math/SinH.java", "a07965.html", [
       [ "SinH", "a03856.html", "a03856" ]
     ] ],
-    [ "util/functions/math/SinH.java", "a07984.html", [
+    [ "util/functions/math/SinH.java", "a07968.html", [
       [ "SinH", "a04892.html", "a04892" ]
     ] ],
     [ "SkewX.java", "a01193.html", [
@@ -2263,10 +2263,10 @@ var files =
     [ "Snap.java", "a00692.html", [
       [ "Snap", "a03644.html", "a03644" ]
     ] ],
-    [ "math/Sqrt.java", "a07987.html", [
+    [ "math/Sqrt.java", "a07971.html", [
       [ "Sqrt", "a03860.html", "a03860" ]
     ] ],
-    [ "util/functions/math/Sqrt.java", "a07990.html", [
+    [ "util/functions/math/Sqrt.java", "a07974.html", [
       [ "Sqrt", "a04896.html", "a04896" ]
     ] ],
     [ "SridGetAxis1Name.java", "a00578.html", [
@@ -2368,16 +2368,16 @@ var files =
     [ "SwapOrdinatesTest.java", "a02117.html", [
       [ "SwapOrdinatesTest", "a05720.html", "a05720" ]
     ] ],
-    [ "math/Tangent.java", "a07993.html", [
+    [ "math/Tangent.java", "a07977.html", [
       [ "Tangent", "a03864.html", "a03864" ]
     ] ],
-    [ "util/functions/math/Tangent.java", "a07996.html", [
+    [ "util/functions/math/Tangent.java", "a07980.html", [
       [ "Tangent", "a04900.html", "a04900" ]
     ] ],
-    [ "math/TanH.java", "a07999.html", [
+    [ "math/TanH.java", "a07983.html", [
       [ "TanH", "a03868.html", "a03868" ]
     ] ],
-    [ "util/functions/math/TanH.java", "a08002.html", [
+    [ "util/functions/math/TanH.java", "a07986.html", [
       [ "TanH", "a04904.html", "a04904" ]
     ] ],
     [ "TileGridXOffset.java", "a01199.html", [
@@ -2404,10 +2404,10 @@ var files =
     [ "TileWidthTest.java", "a02405.html", [
       [ "TileWidthTest", "a06108.html", "a06108" ]
     ] ],
-    [ "math/ToDegrees.java", "a08005.html", [
+    [ "math/ToDegrees.java", "a07989.html", [
       [ "ToDegrees", "a03872.html", "a03872" ]
     ] ],
-    [ "util/functions/math/ToDegrees.java", "a08008.html", [
+    [ "util/functions/math/ToDegrees.java", "a07992.html", [
       [ "ToDegrees", "a04908.html", "a04908" ]
     ] ],
     [ "ToDegreesTest.java", "a02153.html", [
@@ -2446,10 +2446,10 @@ var files =
     [ "TopologyStringExportFunction.java", "a01439.html", [
       [ "TopologyStringExportFunction", "a04660.html", "a04660" ]
     ] ],
-    [ "math/ToRadians.java", "a08011.html", [
+    [ "math/ToRadians.java", "a07995.html", [
       [ "ToRadians", "a03876.html", "a03876" ]
     ] ],
-    [ "util/functions/math/ToRadians.java", "a08014.html", [
+    [ "util/functions/math/ToRadians.java", "a07998.html", [
       [ "ToRadians", "a04912.html", "a04912" ]
     ] ],
     [ "ToRadiansTest.java", "a02156.html", [
@@ -2461,10 +2461,10 @@ var files =
     [ "Touches.java", "a01406.html", [
       [ "Touches", "a04616.html", "a04616" ]
     ] ],
-    [ "geometry/transform/Transform.java", "a08017.html", [
+    [ "geometry/transform/Transform.java", "a08001.html", [
       [ "Transform", "a03656.html", "a03656" ]
     ] ],
-    [ "raster/transform/Transform.java", "a08020.html", [
+    [ "raster/transform/Transform.java", "a08004.html", [
       [ "Transform", "a04640.html", null ]
     ] ],
     [ "Translate.java", "a00704.html", [
