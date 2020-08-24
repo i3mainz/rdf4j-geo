@@ -1,18 +1,18 @@
 var a02683 =
 [
-    [ "CircularityTest", "a05845.html", "a05845" ],
-    [ "CircumcentreTest", "a05849.html", "a05849" ],
-    [ "HasConnectedInteriorTest", "a05853.html", "a05853" ],
-    [ "HasDuplicateRingsTest", "a05857.html", "a05857" ],
-    [ "IsAcuteTest", "a05861.html", "a05861" ],
-    [ "IsClosedTest", "a05865.html", "a05865" ],
-    [ "IsConvexTest", "a05869.html", "a05869" ],
-    [ "IsEquilateralTriangleTest", "a05873.html", "a05873" ],
-    [ "IsIsocelesTriangleTest", "a05877.html", "a05877" ],
-    [ "IsPolygonCCWTest", "a05881.html", "a05881" ],
-    [ "IsPolygonCWTest", "a05885.html", "a05885" ],
-    [ "IsRightTriangleTest", "a05889.html", "a05889" ],
-    [ "IsTriangleTest", "a05893.html", "a05893" ],
-    [ "NRingsTest", "a05897.html", "a05897" ],
-    [ "NumDistinctInteriorRingsTest", "a05901.html", "a05901" ]
+    [ "AngleTest", "a05776.html", "a05776" ],
+    [ "AzimuthTest", "a05780.html", "a05780" ],
+    [ "MaxMTest", "a05784.html", "a05784" ],
+    [ "MaxXTest", "a05788.html", "a05788" ],
+    [ "MaxYTest", "a05792.html", "a05792" ],
+    [ "MaxZTest", "a05796.html", "a05796" ],
+    [ "MinMTest", "a05800.html", "a05800" ],
+    [ "MinXTest", "a05804.html", "a05804" ],
+    [ "MinYTest", "a05808.html", "a05808" ],
+    [ "MinZTest", "a05812.html", "a05812" ],
+    [ "MTest", "a05816.html", "a05816" ],
+    [ "PointInsideCircleTest", "a05820.html", "a05820" ],
+    [ "XTest", "a05824.html", "a05824" ],
+    [ "YTest", "a05828.html", "a05828" ],
+    [ "ZTest", "a05832.html", "a05832" ]
 ];

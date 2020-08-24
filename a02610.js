@@ -1,9 +1,9 @@
 var a02610 =
 [
-    [ "LineMerge", "a03765.html", "a03765" ],
-    [ "LinesCutAtNodes", "a03769.html", "a03769" ],
-    [ "OffsetCurve", "a03773.html", "a03773" ],
-    [ "Segmentize", "a03777.html", "a03777" ],
-    [ "SharedPaths", "a03781.html", "a03781" ],
-    [ "SubdivideLines", "a03785.html", "a03785" ]
+    [ "AddMeasure", "a03724.html", "a03724" ],
+    [ "AddPoint", "a03728.html", "a03728" ],
+    [ "RemovePoint", "a03732.html", "a03732" ],
+    [ "SetEndPoint", "a03736.html", "a03736" ],
+    [ "SetPoint", "a03740.html", "a03740" ],
+    [ "SetStartPoint", "a03744.html", "a03744" ]
 ];

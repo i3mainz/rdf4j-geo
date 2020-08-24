@@ -1,9 +1,8 @@
 var a05204 =
 [
-    [ "testBBOXLeftOf", "a05204.html#acc092dffcd1d5d422d27501b6b691ef0", null ],
-    [ "testBBOXLeftOf1", "a05204.html#a635c2e49e869cfa91cf3defbcde7f5ad", null ],
-    [ "testGeom1", "a05204.html#aa4a3b1a7e778ece72382f6600fa96b47", null ],
-    [ "testGeom2", "a05204.html#a6b4be369c8f60e973cd5126e69cd33a4", null ],
-    [ "testGeom3", "a05204.html#a800b6bb875a8ff4404ea787c3df125a5", null ],
-    [ "testGeom4", "a05204.html#a4c55e7efe430d6d220fb05524c4bb940", null ]
+    [ "LengthSubstring", "a05204.html#a8375df00135da48182ecb97996cfebf1", null ],
+    [ "computeSubstring", "a05204.html#ad8eec22df403077b17b2ac90b0c95230", null ],
+    [ "getSubstring", "a05204.html#a0899c2e48f2616119c3f0e3e297549e6", null ],
+    [ "getSubstring", "a05204.html#a7aa54bd5af7e7f3fd33047db15540bc4", null ],
+    [ "line", "a05204.html#a53e992765125efc5fc595f0d38e947ea", null ]
 ];

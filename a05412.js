@@ -1,5 +1,6 @@
 var a05412 =
 [
-    [ "testAsGeoURI", "a05412.html#aae403d68ccc2ecfb409ca338b5ba0101", null ],
-    [ "testGeometry", "a05412.html#abc3f514f005cba49e406658e2d3086eb", null ]
+    [ "testAddGeometry", "a05412.html#a4ebf1443292e242753148cb8748d9169", null ],
+    [ "lineString", "a05412.html#a76e109dc83d6f4d16fcd2fa3e73054f6", null ],
+    [ "point", "a05412.html#a081811ff1c2bedd0a20703599f90114f", null ]
 ];

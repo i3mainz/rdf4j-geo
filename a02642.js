@@ -1,10 +1,15 @@
 var a02642 =
 [
-    [ "CovJSONDatatype", "a04925.html", "a04925" ],
-    [ "GeoTIFFDatatype", "a04929.html", "a04929" ],
-    [ "GMLCOVDatatype", "a04933.html", "a04933" ],
-    [ "HexWKBRastDatatype", "a04937.html", "a04937" ],
-    [ "NetCDFDatatype", "a04941.html", "a04941" ],
-    [ "RasterLiteral", "a04945.html", "a04945" ],
-    [ "WKBRastDatatype", "a04949.html", "a04949" ]
+    [ "functions", "a02643.html", "a02643" ],
+    [ "literals", "a02644.html", "a02644" ],
+    [ "parsers", "a02648.html", "a02648" ],
+    [ "GPXHandler", "a04916.html", "a04916" ],
+    [ "JtsPolyshapeWriter", "a04920.html", "a04920" ],
+    [ "LiteralRegistry", "a04924.html", "a04924" ],
+    [ "LiteralUtils", "a05056.html", "a05056" ],
+    [ "PolyshapeReader", "a05096.html", "a05096" ],
+    [ "PolyshapeWriter", "a05104.html", "a05104" ],
+    [ "RasterVectorRelationBinaryFunction", "a05112.html", "a05112" ],
+    [ "RasterVectorRelationFunction", "a05116.html", "a05116" ],
+    [ "RasterVectorRelationIntBinaryFunction", "a05120.html", "a05120" ]
 ];

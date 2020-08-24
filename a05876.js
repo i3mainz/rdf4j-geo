@@ -1,6 +1,7 @@
 var a05876 =
 [
-    [ "testForcePolygonCCW", "a05876.html#aabb33f7582f68ceca6d6f943ee181450", null ],
-    [ "testPolygon", "a05876.html#a1e3187cbc25299380589200c398b3ffd", null ],
-    [ "testPolygon2", "a05876.html#a882729aec95621b4ad261714738ae3fd", null ]
+    [ "testIsConvexFalse", "a05876.html#a84d7af36a321a8f38760993ee03431f1", null ],
+    [ "testIsConvexTrue", "a05876.html#a72b02d577b66678dc78571b6ca1901cc", null ],
+    [ "isocelesTriangle", "a05876.html#aa04dfbec745e2622b9f7646f8572e501", null ],
+    [ "notIsocelesTriangle", "a05876.html#a055d99fb63bcee37763ffcf4da9e0521", null ]
 ];

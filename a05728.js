@@ -1,7 +1,9 @@
 var a05728 =
 [
-    [ "testAzimuth1", "a05728.html#afb57967d41a75bfa55c7f1443b245d14", null ],
-    [ "testAzimuth2", "a05728.html#a5d42e5f7045b0a306fc1d39539491851", null ],
-    [ "testPoint1", "a05728.html#ab20d196cb6e34afc2e9cff8074e43bfd", null ],
-    [ "testPoint2", "a05728.html#aa0c0c6f5dda7a397fc50f4c22a2b180f", null ]
+    [ "testLineString2D", "a05728.html#a100e1041d9eed0108cb20adfb3ccb714", null ],
+    [ "testLineString3D", "a05728.html#aed8078596e87405b402dec09f15eb681", null ],
+    [ "testPoint", "a05728.html#a67242842aad66b0a00820a5d4d7ea731", null ],
+    [ "LineString2D", "a05728.html#a4a6127d0b7f1eecce2d32442325f7735", null ],
+    [ "LineString3D", "a05728.html#a7f1b41b47d9de827d79c109c50a189f5", null ],
+    [ "point", "a05728.html#a081811ff1c2bedd0a20703599f90114f", null ]
 ];

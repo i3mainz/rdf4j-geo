@@ -1,2 +1,8 @@
-<map id="RasterModifierIntIntFunction" name="RasterModifierIntIntFunction">
+<map id="RasterModifierFunction" name="RasterModifierFunction">
+<area shape="rect" id="node3" href="$a04512.html" title="AddBand" alt="" coords="5,155,80,181"/>
+<area shape="rect" id="node4" href="$a04524.html" title="SetRotation" alt="" coords="104,155,195,181"/>
+<area shape="rect" id="node5" href="$a04528.html" title="SetScale" alt="" coords="219,155,293,181"/>
+<area shape="rect" id="node6" href="$a04532.html" title="SetSkew" alt="" coords="317,155,392,181"/>
+<area shape="rect" id="node7" href="$a04536.html" title="SetUpperLeft" alt="" coords="416,155,515,181"/>
+<area shape="rect" id="node8" href="$a04624.html" title="Resample" alt="" coords="539,155,621,181"/>
 </map>

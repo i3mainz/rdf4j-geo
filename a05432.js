@@ -1,5 +1,6 @@
 var a05432 =
 [
-    [ "testAsPolyShape", "a05432.html#aa4ec805ffcfb140ead8292a441244775", null ],
-    [ "testGeometry", "a05432.html#abc3f514f005cba49e406658e2d3086eb", null ]
+    [ "testSetGeometry", "a05432.html#af89f48a1a50817a7d76674ee1fc57cce", null ],
+    [ "lineString", "a05432.html#a76e109dc83d6f4d16fcd2fa3e73054f6", null ],
+    [ "point", "a05432.html#a081811ff1c2bedd0a20703599f90114f", null ]
 ];

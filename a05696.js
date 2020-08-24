@@ -1,11 +1,6 @@
 var a05696 =
 [
-    [ "testCircularString", "a05696.html#ab117b00757c51734ab1129a2d595a5cb", null ],
-    [ "testLineString2D", "a05696.html#a100e1041d9eed0108cb20adfb3ccb714", null ],
-    [ "testLineString3D", "a05696.html#aed8078596e87405b402dec09f15eb681", null ],
-    [ "testPoint", "a05696.html#a67242842aad66b0a00820a5d4d7ea731", null ],
-    [ "CircularString", "a05696.html#a36d54187644365aa1e8e8eded3076e3f", null ],
-    [ "LineString2D", "a05696.html#a4a6127d0b7f1eecce2d32442325f7735", null ],
-    [ "LineString3D", "a05696.html#a7f1b41b47d9de827d79c109c50a189f5", null ],
-    [ "point", "a05696.html#a081811ff1c2bedd0a20703599f90114f", null ]
+    [ "testRemoveRepeatedPoints", "a05696.html#a473d131a5f96a89f9502570a50d06e65", null ],
+    [ "testGeometry", "a05696.html#abc3f514f005cba49e406658e2d3086eb", null ],
+    [ "testGeometry2", "a05696.html#af1173652e671b8f9051f8630b98c73fb", null ]
 ];

@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>rdf4j-postgis: Coordinate.DimensionalComparator Class Reference</title>
+<title>rdf4j-postgis: LEDataOutputStream Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -62,65 +62,123 @@ $(document).ready(function(){initNavTree('a05152.html','');});
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="a05149.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">Coordinate.DimensionalComparator Class Reference</div>  </div>
+<div class="title">LEDataOutputStream Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>Compares two <a class="el" href="a05148.html">Coordinate</a>s, allowing for either a 2-dimensional or 3-dimensional comparison, and handling NaN values correctly.  
+<p>Little endian Data output stream.  
  <a href="a05152.html#details">More...</a></p>
 <div class="dynheader">
-Inheritance diagram for Coordinate.DimensionalComparator:</div>
+Inheritance diagram for LEDataOutputStream:</div>
 <div class="dyncontent">
-<div class="center"><img src="a05151.png" border="0" usemap="#Coordinate_8DimensionalComparator_inherit__map" alt="Inheritance graph"/></div>
-<map name="Coordinate_8DimensionalComparator_inherit__map" id="Coordinate_8DimensionalComparator_inherit__map">
+<div class="center"><img src="a05151.png" border="0" usemap="#LEDataOutputStream_inherit__map" alt="Inheritance graph"/></div>
+<map name="LEDataOutputStream_inherit__map" id="LEDataOutputStream_inherit__map">
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <div class="dynheader">
-Collaboration diagram for Coordinate.DimensionalComparator:</div>
+Collaboration diagram for LEDataOutputStream:</div>
 <div class="dyncontent">
-<div class="center"><img src="a05150.png" border="0" usemap="#Coordinate_8DimensionalComparator_coll__map" alt="Collaboration graph"/></div>
-<map name="Coordinate_8DimensionalComparator_coll__map" id="Coordinate_8DimensionalComparator_coll__map">
+<div class="center"><img src="a05150.png" border="0" usemap="#LEDataOutputStream_coll__map" alt="Collaboration graph"/></div>
+<map name="LEDataOutputStream_coll__map" id="LEDataOutputStream_coll__map">
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a5bd255213663b3596e2de221144f1ab1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05152.html#a5bd255213663b3596e2de221144f1ab1">DimensionalComparator</a> ()</td></tr>
-<tr class="memdesc:a5bd255213663b3596e2de221144f1ab1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a comparator for 2 dimensional coordinates.  <a href="#a5bd255213663b3596e2de221144f1ab1">More...</a><br /></td></tr>
-<tr class="separator:a5bd255213663b3596e2de221144f1ab1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa12c933fd5275be6824111b1f2c92cd6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05152.html#aa12c933fd5275be6824111b1f2c92cd6">DimensionalComparator</a> (int <a class="el" href="a05152.html#a6bb6df1c2db1f7b9fe46d4be2d0083af">dimensionsToTest</a>)</td></tr>
-<tr class="memdesc:aa12c933fd5275be6824111b1f2c92cd6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a comparator for 2 or 3 dimensional coordinates, depending on the value provided.  <a href="#aa12c933fd5275be6824111b1f2c92cd6">More...</a><br /></td></tr>
-<tr class="separator:aa12c933fd5275be6824111b1f2c92cd6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a22ae744431802300f10565640dec04c5"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05152.html#a22ae744431802300f10565640dec04c5">compare</a> (<a class="el" href="a05148.html">Coordinate</a> c1, <a class="el" href="a05148.html">Coordinate</a> c2)</td></tr>
-<tr class="memdesc:a22ae744431802300f10565640dec04c5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compares two <a class="el" href="a05148.html">Coordinate</a>s along to the number of dimensions specified.  <a href="#a22ae744431802300f10565640dec04c5">More...</a><br /></td></tr>
-<tr class="separator:a22ae744431802300f10565640dec04c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
-Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a55bbcaf3b85142c9878f7b8ac44290fb"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05152.html#a55bbcaf3b85142c9878f7b8ac44290fb">compare</a> (double a, double b)</td></tr>
-<tr class="memdesc:a55bbcaf3b85142c9878f7b8ac44290fb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compare two <code>double</code>s, allowing for NaN values.  <a href="#a55bbcaf3b85142c9878f7b8ac44290fb">More...</a><br /></td></tr>
-<tr class="separator:a55bbcaf3b85142c9878f7b8ac44290fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a08e5e85cf21039633a426452c6b944ee"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05152.html#a08e5e85cf21039633a426452c6b944ee">LEDataOutputStream</a> (OutputStream out)</td></tr>
+<tr class="separator:a08e5e85cf21039633a426452c6b944ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad8a2786c4ee713c917b468c59ec610df"><td class="memItemLeft" align="right" valign="top">long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05152.html#ad8a2786c4ee713c917b468c59ec610df">getPosition</a> ()</td></tr>
+<tr class="memdesc:ad8a2786c4ee713c917b468c59ec610df"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get current stream position from the first written byte.  <a href="#ad8a2786c4ee713c917b468c59ec610df">More...</a><br /></td></tr>
+<tr class="separator:ad8a2786c4ee713c917b468c59ec610df"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a85df3c4fd2fb205ca532d8861d28cc27"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05152.html#a85df3c4fd2fb205ca532d8861d28cc27">write</a> (int b)  throws IOException </td></tr>
+<tr class="separator:a85df3c4fd2fb205ca532d8861d28cc27"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a61f17b65f2ac2fb7f0a119cd2c6451f2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05152.html#a61f17b65f2ac2fb7f0a119cd2c6451f2">write</a> (byte[] data, int offset, int length)  throws IOException </td></tr>
+<tr class="separator:a61f17b65f2ac2fb7f0a119cd2c6451f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af15b120ff09c3716841515f75d241e66"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05152.html#af15b120ff09c3716841515f75d241e66">writeBoolean</a> (boolean b)  throws IOException </td></tr>
+<tr class="separator:af15b120ff09c3716841515f75d241e66"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a42b0850b32344f39d708666514fdfddd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05152.html#a42b0850b32344f39d708666514fdfddd">writeByte</a> (int b)  throws IOException </td></tr>
+<tr class="separator:a42b0850b32344f39d708666514fdfddd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4318f5da1fdb856ff726801097cdb429"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05152.html#a4318f5da1fdb856ff726801097cdb429">writeShort</a> (int s)  throws IOException </td></tr>
+<tr class="separator:a4318f5da1fdb856ff726801097cdb429"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac0e3fe2ab1ba3bb9fc12e4eb24be1a82"><td class="memItemLeft" align="right" valign="top">final void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05152.html#ac0e3fe2ab1ba3bb9fc12e4eb24be1a82">writeShorts</a> (short[] values)  throws IOException </td></tr>
+<tr class="memdesc:ac0e3fe2ab1ba3bb9fc12e4eb24be1a82"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write multiple values in one call.  <a href="#ac0e3fe2ab1ba3bb9fc12e4eb24be1a82">More...</a><br /></td></tr>
+<tr class="separator:ac0e3fe2ab1ba3bb9fc12e4eb24be1a82"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae923194a84fea5c316c69a9a71e1b09d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05152.html#ae923194a84fea5c316c69a9a71e1b09d">writeUnsignedShort</a> (int s)  throws IOException </td></tr>
+<tr class="separator:ae923194a84fea5c316c69a9a71e1b09d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9c9793caecddc216cb3d39ff222e86c2"><td class="memItemLeft" align="right" valign="top">final void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05152.html#a9c9793caecddc216cb3d39ff222e86c2">writeUnsignedShorts</a> (int[] values)  throws IOException </td></tr>
+<tr class="memdesc:a9c9793caecddc216cb3d39ff222e86c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write multiple values in one call.  <a href="#a9c9793caecddc216cb3d39ff222e86c2">More...</a><br /></td></tr>
+<tr class="separator:a9c9793caecddc216cb3d39ff222e86c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1ad0223a70a62e0b2cb46259e5ba550d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05152.html#a1ad0223a70a62e0b2cb46259e5ba550d">writeChar</a> (int c)  throws IOException </td></tr>
+<tr class="separator:a1ad0223a70a62e0b2cb46259e5ba550d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:accc32fabddebac9fa7ea07fe07fe219e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05152.html#accc32fabddebac9fa7ea07fe07fe219e">writeInt</a> (int i)  throws IOException </td></tr>
+<tr class="separator:accc32fabddebac9fa7ea07fe07fe219e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6f28d1bfd9781e586c236eaf6e225fcd"><td class="memItemLeft" align="right" valign="top">final void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05152.html#a6f28d1bfd9781e586c236eaf6e225fcd">writeInts</a> (int[] values)  throws IOException </td></tr>
+<tr class="memdesc:a6f28d1bfd9781e586c236eaf6e225fcd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write multiple values in one call.  <a href="#a6f28d1bfd9781e586c236eaf6e225fcd">More...</a><br /></td></tr>
+<tr class="separator:a6f28d1bfd9781e586c236eaf6e225fcd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2e87852cae58170b9cd59e1fbe1e625d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05152.html#a2e87852cae58170b9cd59e1fbe1e625d">writeLong</a> (long l)  throws IOException </td></tr>
+<tr class="separator:a2e87852cae58170b9cd59e1fbe1e625d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afd6593b15c3366b5d2c7978e6647ab4c"><td class="memItemLeft" align="right" valign="top">final void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05152.html#afd6593b15c3366b5d2c7978e6647ab4c">writeLongs</a> (long[] values)  throws IOException </td></tr>
+<tr class="memdesc:afd6593b15c3366b5d2c7978e6647ab4c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write multiple values in one call.  <a href="#afd6593b15c3366b5d2c7978e6647ab4c">More...</a><br /></td></tr>
+<tr class="separator:afd6593b15c3366b5d2c7978e6647ab4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4b08552792e2a9e330675b76cd4c9170"><td class="memItemLeft" align="right" valign="top">final void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05152.html#a4b08552792e2a9e330675b76cd4c9170">writeFloat</a> (float f)  throws IOException </td></tr>
+<tr class="separator:a4b08552792e2a9e330675b76cd4c9170"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ade431b8bb2a31304bfd780314827055f"><td class="memItemLeft" align="right" valign="top">final void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05152.html#ade431b8bb2a31304bfd780314827055f">writeFloats</a> (float[] values)  throws IOException </td></tr>
+<tr class="memdesc:ade431b8bb2a31304bfd780314827055f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write multiple values in one call.  <a href="#ade431b8bb2a31304bfd780314827055f">More...</a><br /></td></tr>
+<tr class="separator:ade431b8bb2a31304bfd780314827055f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9a1b19adf99483ab5421f5abd9be1ee0"><td class="memItemLeft" align="right" valign="top">final void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05152.html#a9a1b19adf99483ab5421f5abd9be1ee0">writeDouble</a> (double d)  throws IOException </td></tr>
+<tr class="separator:a9a1b19adf99483ab5421f5abd9be1ee0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a719c7e6e9f7c2ba46f78b335603c6b13"><td class="memItemLeft" align="right" valign="top">final void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05152.html#a719c7e6e9f7c2ba46f78b335603c6b13">writeDoubles</a> (double[] values)  throws IOException </td></tr>
+<tr class="memdesc:a719c7e6e9f7c2ba46f78b335603c6b13"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write multiple values in one call.  <a href="#a719c7e6e9f7c2ba46f78b335603c6b13">More...</a><br /></td></tr>
+<tr class="separator:a719c7e6e9f7c2ba46f78b335603c6b13"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3e567d4365e19b559e3aaeea0a09de3a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05152.html#a3e567d4365e19b559e3aaeea0a09de3a">writeBytes</a> (String s)  throws IOException </td></tr>
+<tr class="separator:a3e567d4365e19b559e3aaeea0a09de3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9e35e2da722a437646d8396e7e32ce48"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05152.html#a9e35e2da722a437646d8396e7e32ce48">writeChars</a> (String s)  throws IOException </td></tr>
+<tr class="separator:a9e35e2da722a437646d8396e7e32ce48"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af884010e15f7514f7e08d9618c4c692c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05152.html#af884010e15f7514f7e08d9618c4c692c">writeUTF</a> (String s)  throws IOException </td></tr>
+<tr class="separator:af884010e15f7514f7e08d9618c4c692c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad0e5489e60cebc32e12d78fe6abb2092"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05152.html#ad0e5489e60cebc32e12d78fe6abb2092">realign</a> (int padding)  throws IOException</td></tr>
+<tr class="memdesc:ad0e5489e60cebc32e12d78fe6abb2092"><td class="mdescLeft">&#160;</td><td class="mdescRight">Align byte stream to a padding value, 0 bytes will be added until padding value is reached.  <a href="#ad0e5489e60cebc32e12d78fe6abb2092">More...</a><br /></td></tr>
+<tr class="separator:ad0e5489e60cebc32e12d78fe6abb2092"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:a6bb6df1c2db1f7b9fe46d4be2d0083af"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05152.html#a6bb6df1c2db1f7b9fe46d4be2d0083af">dimensionsToTest</a> = 2</td></tr>
-<tr class="separator:a6bb6df1c2db1f7b9fe46d4be2d0083af"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac037f68bf86d3712a034faa2d3ac428a"><td class="memItemLeft" align="right" valign="top">long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05152.html#ac037f68bf86d3712a034faa2d3ac428a">position</a> = 0</td></tr>
+<tr class="separator:ac037f68bf86d3712a034faa2d3ac428a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Compares two <a class="el" href="a05148.html">Coordinate</a>s, allowing for either a 2-dimensional or 3-dimensional comparison, and handling NaN values correctly. </p>
+<div class="textblock"><p>Little endian Data output stream. </p>
+<dl class="section author"><dt>Author</dt><dd>Johann Sorel (Geomatys) </dd></dl>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a5bd255213663b3596e2de221144f1ab1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5bd255213663b3596e2de221144f1ab1">&#9670;&nbsp;</a></span>DimensionalComparator() <span class="overload">[1/2]</span></h2>
+<a id="a08e5e85cf21039633a426452c6b944ee"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a08e5e85cf21039633a426452c6b944ee">&#9670;&nbsp;</a></span>LEDataOutputStream()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="a05152.html">DimensionalComparator</a> </td>
+          <td class="memname"><a class="el" href="a05152.html">LEDataOutputStream</a> </td>
+          <td>(</td>
+          <td class="paramtype">OutputStream&#160;</td>
+          <td class="paramname"><em>out</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;                                                {</div><div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;        super(out);</div><div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    }</div></div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="ad8a2786c4ee713c917b468c59ec610df"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad8a2786c4ee713c917b468c59ec610df">&#9670;&nbsp;</a></span>getPosition()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">long getPosition </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -128,134 +186,567 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Creates a comparator for 2 dimensional coordinates. </p>
-<div class="fragment"><div class="line"><a name="l00509"></a><span class="lineno">  509</span>&#160;    {</div><div class="line"><a name="l00510"></a><span class="lineno">  510</span>&#160;      <span class="keyword">this</span>(2);</div><div class="line"><a name="l00511"></a><span class="lineno">  511</span>&#160;    }</div></div><!-- fragment -->
+<p>Get current stream position from the first written byte. </p>
+<dl class="section return"><dt>Returns</dt><dd>stream position </dd></dl>
+
+<p class="reference">References <a class="el" href="a05152.html#ac037f68bf86d3712a034faa2d3ac428a">LEDataOutputStream.position</a>.</p>
+<div class="fragment"><div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;                              {</div><div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="a05152.html#ac037f68bf86d3712a034faa2d3ac428a">position</a>;</div><div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    }</div><div class="ttc" id="a05152_html_ac037f68bf86d3712a034faa2d3ac428a"><div class="ttname"><a href="a05152.html#ac037f68bf86d3712a034faa2d3ac428a">org.geotoolkit.io.LEDataOutputStream.position</a></div><div class="ttdeci">long position</div><div class="ttdef"><b>Definition:</b> LEDataOutputStream.java:31</div></div>
+</div><!-- fragment -->
 </div>
 </div>
-<a id="aa12c933fd5275be6824111b1f2c92cd6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa12c933fd5275be6824111b1f2c92cd6">&#9670;&nbsp;</a></span>DimensionalComparator() <span class="overload">[2/2]</span></h2>
+<a id="ad0e5489e60cebc32e12d78fe6abb2092"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad0e5489e60cebc32e12d78fe6abb2092">&#9670;&nbsp;</a></span>realign()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="a05152.html">DimensionalComparator</a> </td>
+          <td class="memname">void realign </td>
           <td>(</td>
           <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>dimensionsToTest</em></td><td>)</td>
-          <td></td>
+          <td class="paramname"><em>padding</em></td><td>)</td>
+          <td> throws IOException</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Creates a comparator for 2 or 3 dimensional coordinates, depending on the value provided. </p>
+<p>Align byte stream to a padding value, 0 bytes will be added until padding value is reached. </p>
+<p>Padding values are usually very small, 2, 4 or 8 bytes to ensure primitive types such as Short, Integer, Float are aligned in memory.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">dimensionsToTest</td><td>the number of dimensions to test </td></tr>
+    <tr><td class="paramname">padding</td><td>value to realign. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">IOException</td><td></td></tr>
   </table>
   </dd>
 </dl>
 
-<p class="reference">References <a class="el" href="a05152.html#a6bb6df1c2db1f7b9fe46d4be2d0083af">Coordinate.DimensionalComparator.dimensionsToTest</a>.</p>
-<div class="fragment"><div class="line"><a name="l00520"></a><span class="lineno">  520</span>&#160;    {</div><div class="line"><a name="l00521"></a><span class="lineno">  521</span>&#160;      <span class="keywordflow">if</span> (<a class="code" href="a05152.html#a6bb6df1c2db1f7b9fe46d4be2d0083af">dimensionsToTest</a> != 2 &amp;&amp; <a class="code" href="a05152.html#a6bb6df1c2db1f7b9fe46d4be2d0083af">dimensionsToTest</a> != 3)</div><div class="line"><a name="l00522"></a><span class="lineno">  522</span>&#160;        <span class="keywordflow">throw</span> <span class="keyword">new</span> IllegalArgumentException(<span class="stringliteral">&quot;only 2 or 3 dimensions may be specified&quot;</span>);</div><div class="line"><a name="l00523"></a><span class="lineno">  523</span>&#160;      this.<a class="code" href="a05152.html#a6bb6df1c2db1f7b9fe46d4be2d0083af">dimensionsToTest</a> = <a class="code" href="a05152.html#a6bb6df1c2db1f7b9fe46d4be2d0083af">dimensionsToTest</a>;</div><div class="line"><a name="l00524"></a><span class="lineno">  524</span>&#160;    }</div><div class="ttc" id="a05152_html_a6bb6df1c2db1f7b9fe46d4be2d0083af"><div class="ttname"><a href="a05152.html#a6bb6df1c2db1f7b9fe46d4be2d0083af">org.locationtech.jts.geom.Coordinate.DimensionalComparator.dimensionsToTest</a></div><div class="ttdeci">int dimensionsToTest</div><div class="ttdef"><b>Definition:</b> Coordinate.java:503</div></div>
+<p class="reference">References <a class="el" href="a05152.html#a85df3c4fd2fb205ca532d8861d28cc27">LEDataOutputStream.write()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00222"></a><span class="lineno">  222</span>&#160;                                                       {</div><div class="line"><a name="l00223"></a><span class="lineno">  223</span>&#160;        <span class="keywordflow">while</span> ((<a class="code" href="a05152.html#ac037f68bf86d3712a034faa2d3ac428a">position</a>%padding) != 0) {</div><div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160;            <a class="code" href="a05152.html#a85df3c4fd2fb205ca532d8861d28cc27">write</a>(0);</div><div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;        }</div><div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;    }</div><div class="ttc" id="a05152_html_a85df3c4fd2fb205ca532d8861d28cc27"><div class="ttname"><a href="a05152.html#a85df3c4fd2fb205ca532d8861d28cc27">org.geotoolkit.io.LEDataOutputStream.write</a></div><div class="ttdeci">void write(int b)</div><div class="ttdef"><b>Definition:</b> LEDataOutputStream.java:46</div></div>
+<div class="ttc" id="a05152_html_ac037f68bf86d3712a034faa2d3ac428a"><div class="ttname"><a href="a05152.html#ac037f68bf86d3712a034faa2d3ac428a">org.geotoolkit.io.LEDataOutputStream.position</a></div><div class="ttdeci">long position</div><div class="ttdef"><b>Definition:</b> LEDataOutputStream.java:31</div></div>
 </div><!-- fragment -->
 </div>
 </div>
-<h2 class="groupheader">Member Function Documentation</h2>
-<a id="a55bbcaf3b85142c9878f7b8ac44290fb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a55bbcaf3b85142c9878f7b8ac44290fb">&#9670;&nbsp;</a></span>compare() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static int compare </td>
-          <td>(</td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>a</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>b</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Compare two <code>double</code>s, allowing for NaN values. </p>
-<p>NaN is treated as being less than any valid number.</p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">a</td><td>a <code>double</code> </td></tr>
-    <tr><td class="paramname">b</td><td>a <code>double</code> </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>-1, 0, or 1 depending on whether a is less than, equal to or greater than b </dd></dl>
-
-<p class="reference">Referenced by <a class="el" href="a05152.html#a22ae744431802300f10565640dec04c5">Coordinate.DimensionalComparator.compare()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00490"></a><span class="lineno">  490</span>&#160;    {</div><div class="line"><a name="l00491"></a><span class="lineno">  491</span>&#160;      <span class="keywordflow">if</span> (a &lt; b) <span class="keywordflow">return</span> -1;</div><div class="line"><a name="l00492"></a><span class="lineno">  492</span>&#160;      <span class="keywordflow">if</span> (a &gt; b) <span class="keywordflow">return</span> 1;</div><div class="line"><a name="l00493"></a><span class="lineno">  493</span>&#160;</div><div class="line"><a name="l00494"></a><span class="lineno">  494</span>&#160;      <span class="keywordflow">if</span> (Double.isNaN(a)) {</div><div class="line"><a name="l00495"></a><span class="lineno">  495</span>&#160;        <span class="keywordflow">if</span> (Double.isNaN(b)) <span class="keywordflow">return</span> 0;</div><div class="line"><a name="l00496"></a><span class="lineno">  496</span>&#160;        <span class="keywordflow">return</span> -1;</div><div class="line"><a name="l00497"></a><span class="lineno">  497</span>&#160;      }</div><div class="line"><a name="l00498"></a><span class="lineno">  498</span>&#160;</div><div class="line"><a name="l00499"></a><span class="lineno">  499</span>&#160;      <span class="keywordflow">if</span> (Double.isNaN(b)) <span class="keywordflow">return</span> 1;</div><div class="line"><a name="l00500"></a><span class="lineno">  500</span>&#160;      <span class="keywordflow">return</span> 0;</div><div class="line"><a name="l00501"></a><span class="lineno">  501</span>&#160;    }</div></div><!-- fragment -->
-</div>
-</div>
-<a id="a22ae744431802300f10565640dec04c5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a22ae744431802300f10565640dec04c5">&#9670;&nbsp;</a></span>compare() <span class="overload">[2/2]</span></h2>
+<a id="a85df3c4fd2fb205ca532d8861d28cc27"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a85df3c4fd2fb205ca532d8861d28cc27">&#9670;&nbsp;</a></span>write() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int compare </td>
+          <td class="memname">void write </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="a05148.html">Coordinate</a>&#160;</td>
-          <td class="paramname"><em>c1</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="a05148.html">Coordinate</a>&#160;</td>
-          <td class="paramname"><em>c2</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>b</em></td><td>)</td>
+          <td> throws IOException</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Compares two <a class="el" href="a05148.html">Coordinate</a>s along to the number of dimensions specified. </p>
+<p class="reference">Referenced by <a class="el" href="a05152.html#ad0e5489e60cebc32e12d78fe6abb2092">LEDataOutputStream.realign()</a>, and <a class="el" href="a05152.html#af15b120ff09c3716841515f75d241e66">LEDataOutputStream.writeBoolean()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;                                                {</div><div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;        out.write(b);</div><div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;        <a class="code" href="a05152.html#ac037f68bf86d3712a034faa2d3ac428a">position</a>++;</div><div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    }</div><div class="ttc" id="a05152_html_ac037f68bf86d3712a034faa2d3ac428a"><div class="ttname"><a href="a05152.html#ac037f68bf86d3712a034faa2d3ac428a">org.geotoolkit.io.LEDataOutputStream.position</a></div><div class="ttdeci">long position</div><div class="ttdef"><b>Definition:</b> LEDataOutputStream.java:31</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a61f17b65f2ac2fb7f0a119cd2c6451f2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a61f17b65f2ac2fb7f0a119cd2c6451f2">&#9670;&nbsp;</a></span>write() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void write </td>
+          <td>(</td>
+          <td class="paramtype">byte []&#160;</td>
+          <td class="paramname"><em>data</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>offset</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>length</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> throws IOException</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;                                                                              {</div><div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;        out.write(data, offset, length);</div><div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;        <a class="code" href="a05152.html#ac037f68bf86d3712a034faa2d3ac428a">position</a>+=length;</div><div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    }</div><div class="ttc" id="a05152_html_ac037f68bf86d3712a034faa2d3ac428a"><div class="ttname"><a href="a05152.html#ac037f68bf86d3712a034faa2d3ac428a">org.geotoolkit.io.LEDataOutputStream.position</a></div><div class="ttdeci">long position</div><div class="ttdef"><b>Definition:</b> LEDataOutputStream.java:31</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="af15b120ff09c3716841515f75d241e66"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af15b120ff09c3716841515f75d241e66">&#9670;&nbsp;</a></span>writeBoolean()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void writeBoolean </td>
+          <td>(</td>
+          <td class="paramtype">boolean&#160;</td>
+          <td class="paramname"><em>b</em></td><td>)</td>
+          <td> throws IOException</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="a05152.html#a85df3c4fd2fb205ca532d8861d28cc27">LEDataOutputStream.write()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;                                                           {</div><div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;        this.<a class="code" href="a05152.html#a85df3c4fd2fb205ca532d8861d28cc27">write</a>( b ? 1 : 0 );</div><div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    }</div><div class="ttc" id="a05152_html_a85df3c4fd2fb205ca532d8861d28cc27"><div class="ttname"><a href="a05152.html#a85df3c4fd2fb205ca532d8861d28cc27">org.geotoolkit.io.LEDataOutputStream.write</a></div><div class="ttdeci">void write(int b)</div><div class="ttdef"><b>Definition:</b> LEDataOutputStream.java:46</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a42b0850b32344f39d708666514fdfddd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a42b0850b32344f39d708666514fdfddd">&#9670;&nbsp;</a></span>writeByte()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void writeByte </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>b</em></td><td>)</td>
+          <td> throws IOException</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;                                                    {</div><div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;        out.write(b);</div><div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;        <a class="code" href="a05152.html#ac037f68bf86d3712a034faa2d3ac428a">position</a>++;</div><div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;    }</div><div class="ttc" id="a05152_html_ac037f68bf86d3712a034faa2d3ac428a"><div class="ttname"><a href="a05152.html#ac037f68bf86d3712a034faa2d3ac428a">org.geotoolkit.io.LEDataOutputStream.position</a></div><div class="ttdeci">long position</div><div class="ttdef"><b>Definition:</b> LEDataOutputStream.java:31</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a3e567d4365e19b559e3aaeea0a09de3a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3e567d4365e19b559e3aaeea0a09de3a">&#9670;&nbsp;</a></span>writeBytes()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void writeBytes </td>
+          <td>(</td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>s</em></td><td>)</td>
+          <td> throws IOException</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;                                                        {</div><div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;        <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i=0,n=s.length(); i&lt;n; i++) {</div><div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;            out.write((byte) s.charAt(i));</div><div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;        }</div><div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;        <a class="code" href="a05152.html#ac037f68bf86d3712a034faa2d3ac428a">position</a>+=s.length();</div><div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;    }</div><div class="ttc" id="a05152_html_ac037f68bf86d3712a034faa2d3ac428a"><div class="ttname"><a href="a05152.html#ac037f68bf86d3712a034faa2d3ac428a">org.geotoolkit.io.LEDataOutputStream.position</a></div><div class="ttdeci">long position</div><div class="ttdef"><b>Definition:</b> LEDataOutputStream.java:31</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a1ad0223a70a62e0b2cb46259e5ba550d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1ad0223a70a62e0b2cb46259e5ba550d">&#9670;&nbsp;</a></span>writeChar()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void writeChar </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>c</em></td><td>)</td>
+          <td> throws IOException</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;                                                    {</div><div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;        out.write((c      ) &amp; 0xFF);</div><div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;        out.write((c &gt;&gt;&gt; 8) &amp; 0xFF);</div><div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;        <a class="code" href="a05152.html#ac037f68bf86d3712a034faa2d3ac428a">position</a>+=2;</div><div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;    }</div><div class="ttc" id="a05152_html_ac037f68bf86d3712a034faa2d3ac428a"><div class="ttname"><a href="a05152.html#ac037f68bf86d3712a034faa2d3ac428a">org.geotoolkit.io.LEDataOutputStream.position</a></div><div class="ttdeci">long position</div><div class="ttdef"><b>Definition:</b> LEDataOutputStream.java:31</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a9e35e2da722a437646d8396e7e32ce48"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9e35e2da722a437646d8396e7e32ce48">&#9670;&nbsp;</a></span>writeChars()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void writeChars </td>
+          <td>(</td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>s</em></td><td>)</td>
+          <td> throws IOException</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;                                                        {</div><div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;        <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i=0,n=s.length(); i&lt;n; i++) {</div><div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;            <span class="keyword">final</span> <span class="keywordtype">char</span> c = s.charAt(i);</div><div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;            out.write((c      ) &amp; 0xFF);</div><div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;            out.write((c &gt;&gt;&gt; 8) &amp; 0xFF);</div><div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;        }</div><div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;        <a class="code" href="a05152.html#ac037f68bf86d3712a034faa2d3ac428a">position</a>+=s.length()*2;</div><div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;    }</div><div class="ttc" id="a05152_html_ac037f68bf86d3712a034faa2d3ac428a"><div class="ttname"><a href="a05152.html#ac037f68bf86d3712a034faa2d3ac428a">org.geotoolkit.io.LEDataOutputStream.position</a></div><div class="ttdeci">long position</div><div class="ttdef"><b>Definition:</b> LEDataOutputStream.java:31</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a9a1b19adf99483ab5421f5abd9be1ee0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9a1b19adf99483ab5421f5abd9be1ee0">&#9670;&nbsp;</a></span>writeDouble()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">final void writeDouble </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>d</em></td><td>)</td>
+          <td> throws IOException</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="a05152.html#a2e87852cae58170b9cd59e1fbe1e625d">LEDataOutputStream.writeLong()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="a05152.html#a719c7e6e9f7c2ba46f78b335603c6b13">LEDataOutputStream.writeDoubles()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;                                                               {</div><div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;        this.<a class="code" href="a05152.html#a2e87852cae58170b9cd59e1fbe1e625d">writeLong</a>(Double.doubleToLongBits(d));</div><div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;    }</div><div class="ttc" id="a05152_html_a2e87852cae58170b9cd59e1fbe1e625d"><div class="ttname"><a href="a05152.html#a2e87852cae58170b9cd59e1fbe1e625d">org.geotoolkit.io.LEDataOutputStream.writeLong</a></div><div class="ttdeci">void writeLong(long l)</div><div class="ttdef"><b>Definition:</b> LEDataOutputStream.java:132</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a719c7e6e9f7c2ba46f78b335603c6b13"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a719c7e6e9f7c2ba46f78b335603c6b13">&#9670;&nbsp;</a></span>writeDoubles()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">final void writeDoubles </td>
+          <td>(</td>
+          <td class="paramtype">double []&#160;</td>
+          <td class="paramname"><em>values</em></td><td>)</td>
+          <td> throws IOException</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Write multiple values in one call. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">o1</td><td>a <a class="el" href="a05148.html">Coordinate</a> </td></tr>
-    <tr><td class="paramname">o2</td><td>a {link <a class="el" href="a05148.html" title="A lightweight class used to store coordinates on the 2-dimensional Cartesian plane. ">Coordinate</a>} </td></tr>
+    <tr><td class="paramname">values</td><td>values to write </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>-1, 0, or 1 depending on whether o1 is less than, equal to, or greater than 02 </dd></dl>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">IOException</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
 
-<p class="reference">References <a class="el" href="a05152.html#a55bbcaf3b85142c9878f7b8ac44290fb">Coordinate.DimensionalComparator.compare()</a>, <a class="el" href="a05148.html#a12408ea71b830bfdbd24101b0b6ca49a">Coordinate.getZ()</a>, <a class="el" href="a05148.html#af88b946fb90d5f08b5fb740c70e98c10">Coordinate.x</a>, and <a class="el" href="a05148.html#ab927965981178aa1fba979a37168db2a">Coordinate.y</a>.</p>
-<div class="fragment"><div class="line"><a name="l00537"></a><span class="lineno">  537</span>&#160;    {</div><div class="line"><a name="l00538"></a><span class="lineno">  538</span>&#160;      <span class="keywordtype">int</span> compX = <a class="code" href="a05152.html#a55bbcaf3b85142c9878f7b8ac44290fb">compare</a>(c1.x, c2.x);</div><div class="line"><a name="l00539"></a><span class="lineno">  539</span>&#160;      <span class="keywordflow">if</span> (compX != 0) <span class="keywordflow">return</span> compX;</div><div class="line"><a name="l00540"></a><span class="lineno">  540</span>&#160;</div><div class="line"><a name="l00541"></a><span class="lineno">  541</span>&#160;      <span class="keywordtype">int</span> compY = <a class="code" href="a05152.html#a55bbcaf3b85142c9878f7b8ac44290fb">compare</a>(c1.y, c2.y);</div><div class="line"><a name="l00542"></a><span class="lineno">  542</span>&#160;      <span class="keywordflow">if</span> (compY != 0) <span class="keywordflow">return</span> compY;</div><div class="line"><a name="l00543"></a><span class="lineno">  543</span>&#160;</div><div class="line"><a name="l00544"></a><span class="lineno">  544</span>&#160;      <span class="keywordflow">if</span> (<a class="code" href="a05152.html#a6bb6df1c2db1f7b9fe46d4be2d0083af">dimensionsToTest</a> &lt;= 2) <span class="keywordflow">return</span> 0;</div><div class="line"><a name="l00545"></a><span class="lineno">  545</span>&#160;</div><div class="line"><a name="l00546"></a><span class="lineno">  546</span>&#160;      <span class="keywordtype">int</span> compZ = <a class="code" href="a05152.html#a55bbcaf3b85142c9878f7b8ac44290fb">compare</a>(c1.getZ(), c2.getZ());</div><div class="line"><a name="l00547"></a><span class="lineno">  547</span>&#160;      <span class="keywordflow">return</span> compZ;</div><div class="line"><a name="l00548"></a><span class="lineno">  548</span>&#160;    }</div><div class="ttc" id="a05152_html_a55bbcaf3b85142c9878f7b8ac44290fb"><div class="ttname"><a href="a05152.html#a55bbcaf3b85142c9878f7b8ac44290fb">org.locationtech.jts.geom.Coordinate.DimensionalComparator.compare</a></div><div class="ttdeci">static int compare(double a, double b)</div><div class="ttdoc">Compare two doubles, allowing for NaN values. </div><div class="ttdef"><b>Definition:</b> Coordinate.java:489</div></div>
-<div class="ttc" id="a05152_html_a6bb6df1c2db1f7b9fe46d4be2d0083af"><div class="ttname"><a href="a05152.html#a6bb6df1c2db1f7b9fe46d4be2d0083af">org.locationtech.jts.geom.Coordinate.DimensionalComparator.dimensionsToTest</a></div><div class="ttdeci">int dimensionsToTest</div><div class="ttdef"><b>Definition:</b> Coordinate.java:503</div></div>
+<p class="reference">References <a class="el" href="a05152.html#a9a1b19adf99483ab5421f5abd9be1ee0">LEDataOutputStream.writeDouble()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;                                                                       {</div><div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;        <span class="keywordflow">for</span> (<span class="keywordtype">double</span> value : values) {</div><div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;            <a class="code" href="a05152.html#a9a1b19adf99483ab5421f5abd9be1ee0">writeDouble</a>(value);</div><div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;        }</div><div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;    }</div><div class="ttc" id="a05152_html_a9a1b19adf99483ab5421f5abd9be1ee0"><div class="ttname"><a href="a05152.html#a9a1b19adf99483ab5421f5abd9be1ee0">org.geotoolkit.io.LEDataOutputStream.writeDouble</a></div><div class="ttdeci">final void writeDouble(double d)</div><div class="ttdef"><b>Definition:</b> LEDataOutputStream.java:174</div></div>
 </div><!-- fragment -->
+</div>
+</div>
+<a id="a4b08552792e2a9e330675b76cd4c9170"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4b08552792e2a9e330675b76cd4c9170">&#9670;&nbsp;</a></span>writeFloat()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">final void writeFloat </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>f</em></td><td>)</td>
+          <td> throws IOException</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="a05152.html#accc32fabddebac9fa7ea07fe07fe219e">LEDataOutputStream.writeInt()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="a05152.html#ade431b8bb2a31304bfd780314827055f">LEDataOutputStream.writeFloats()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;                                                             {</div><div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;        this.<a class="code" href="a05152.html#accc32fabddebac9fa7ea07fe07fe219e">writeInt</a>(Float.floatToIntBits(f));</div><div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;    }</div><div class="ttc" id="a05152_html_accc32fabddebac9fa7ea07fe07fe219e"><div class="ttname"><a href="a05152.html#accc32fabddebac9fa7ea07fe07fe219e">org.geotoolkit.io.LEDataOutputStream.writeInt</a></div><div class="ttdeci">void writeInt(int i)</div><div class="ttdef"><b>Definition:</b> LEDataOutputStream.java:111</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="ade431b8bb2a31304bfd780314827055f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ade431b8bb2a31304bfd780314827055f">&#9670;&nbsp;</a></span>writeFloats()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">final void writeFloats </td>
+          <td>(</td>
+          <td class="paramtype">float []&#160;</td>
+          <td class="paramname"><em>values</em></td><td>)</td>
+          <td> throws IOException</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Write multiple values in one call. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">values</td><td>values to write </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">IOException</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="reference">References <a class="el" href="a05152.html#a4b08552792e2a9e330675b76cd4c9170">LEDataOutputStream.writeFloat()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;                                                                     {</div><div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;        <span class="keywordflow">for</span> (<span class="keywordtype">float</span> value : values) {</div><div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;            <a class="code" href="a05152.html#a4b08552792e2a9e330675b76cd4c9170">writeFloat</a>(value);</div><div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;        }</div><div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;    }</div><div class="ttc" id="a05152_html_a4b08552792e2a9e330675b76cd4c9170"><div class="ttname"><a href="a05152.html#a4b08552792e2a9e330675b76cd4c9170">org.geotoolkit.io.LEDataOutputStream.writeFloat</a></div><div class="ttdeci">final void writeFloat(float f)</div><div class="ttdef"><b>Definition:</b> LEDataOutputStream.java:157</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="accc32fabddebac9fa7ea07fe07fe219e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#accc32fabddebac9fa7ea07fe07fe219e">&#9670;&nbsp;</a></span>writeInt()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void writeInt </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>i</em></td><td>)</td>
+          <td> throws IOException</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="a05152.html#a4b08552792e2a9e330675b76cd4c9170">LEDataOutputStream.writeFloat()</a>, and <a class="el" href="a05152.html#a6f28d1bfd9781e586c236eaf6e225fcd">LEDataOutputStream.writeInts()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;                                                   {</div><div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;        out.write((i       ) &amp; 0xFF);</div><div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;        out.write((i &gt;&gt;&gt;  8) &amp; 0xFF);</div><div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;        out.write((i &gt;&gt;&gt; 16) &amp; 0xFF);</div><div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;        out.write((i &gt;&gt;&gt; 24) &amp; 0xFF);</div><div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;        <a class="code" href="a05152.html#ac037f68bf86d3712a034faa2d3ac428a">position</a>+=4;</div><div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;    }</div><div class="ttc" id="a05152_html_ac037f68bf86d3712a034faa2d3ac428a"><div class="ttname"><a href="a05152.html#ac037f68bf86d3712a034faa2d3ac428a">org.geotoolkit.io.LEDataOutputStream.position</a></div><div class="ttdeci">long position</div><div class="ttdef"><b>Definition:</b> LEDataOutputStream.java:31</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a6f28d1bfd9781e586c236eaf6e225fcd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6f28d1bfd9781e586c236eaf6e225fcd">&#9670;&nbsp;</a></span>writeInts()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">final void writeInts </td>
+          <td>(</td>
+          <td class="paramtype">int []&#160;</td>
+          <td class="paramname"><em>values</em></td><td>)</td>
+          <td> throws IOException</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Write multiple values in one call. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">values</td><td>values to write </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">IOException</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="reference">References <a class="el" href="a05152.html#accc32fabddebac9fa7ea07fe07fe219e">LEDataOutputStream.writeInt()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;                                                                 {</div><div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;        <span class="keywordflow">for</span> (<span class="keywordtype">int</span> value : values) {</div><div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;            <a class="code" href="a05152.html#accc32fabddebac9fa7ea07fe07fe219e">writeInt</a>(value);</div><div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;        }</div><div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;    }</div><div class="ttc" id="a05152_html_accc32fabddebac9fa7ea07fe07fe219e"><div class="ttname"><a href="a05152.html#accc32fabddebac9fa7ea07fe07fe219e">org.geotoolkit.io.LEDataOutputStream.writeInt</a></div><div class="ttdeci">void writeInt(int i)</div><div class="ttdef"><b>Definition:</b> LEDataOutputStream.java:111</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a2e87852cae58170b9cd59e1fbe1e625d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2e87852cae58170b9cd59e1fbe1e625d">&#9670;&nbsp;</a></span>writeLong()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void writeLong </td>
+          <td>(</td>
+          <td class="paramtype">long&#160;</td>
+          <td class="paramname"><em>l</em></td><td>)</td>
+          <td> throws IOException</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="a05152.html#a9a1b19adf99483ab5421f5abd9be1ee0">LEDataOutputStream.writeDouble()</a>, and <a class="el" href="a05152.html#afd6593b15c3366b5d2c7978e6647ab4c">LEDataOutputStream.writeLongs()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;                                                     {</div><div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;        out.write((<span class="keywordtype">int</span>) (l       ) &amp; 0xFF);</div><div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;        out.write((<span class="keywordtype">int</span>) (l &gt;&gt;&gt; 8 ) &amp; 0xFF);</div><div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;        out.write((<span class="keywordtype">int</span>) (l &gt;&gt;&gt; 16) &amp; 0xFF);</div><div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;        out.write((<span class="keywordtype">int</span>) (l &gt;&gt;&gt; 24) &amp; 0xFF);</div><div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;        out.write((<span class="keywordtype">int</span>) (l &gt;&gt;&gt; 32) &amp; 0xFF);</div><div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;        out.write((<span class="keywordtype">int</span>) (l &gt;&gt;&gt; 40) &amp; 0xFF);</div><div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;        out.write((<span class="keywordtype">int</span>) (l &gt;&gt;&gt; 48) &amp; 0xFF);</div><div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;        out.write((<span class="keywordtype">int</span>) (l &gt;&gt;&gt; 56) &amp; 0xFF);</div><div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;        <a class="code" href="a05152.html#ac037f68bf86d3712a034faa2d3ac428a">position</a>+=8;</div><div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;    }</div><div class="ttc" id="a05152_html_ac037f68bf86d3712a034faa2d3ac428a"><div class="ttname"><a href="a05152.html#ac037f68bf86d3712a034faa2d3ac428a">org.geotoolkit.io.LEDataOutputStream.position</a></div><div class="ttdeci">long position</div><div class="ttdef"><b>Definition:</b> LEDataOutputStream.java:31</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="afd6593b15c3366b5d2c7978e6647ab4c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afd6593b15c3366b5d2c7978e6647ab4c">&#9670;&nbsp;</a></span>writeLongs()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">final void writeLongs </td>
+          <td>(</td>
+          <td class="paramtype">long []&#160;</td>
+          <td class="paramname"><em>values</em></td><td>)</td>
+          <td> throws IOException</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Write multiple values in one call. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">values</td><td>values to write </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">IOException</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="reference">References <a class="el" href="a05152.html#a2e87852cae58170b9cd59e1fbe1e625d">LEDataOutputStream.writeLong()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;                                                                   {</div><div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;        <span class="keywordflow">for</span> (<span class="keywordtype">long</span> value : values) {</div><div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;            <a class="code" href="a05152.html#a2e87852cae58170b9cd59e1fbe1e625d">writeLong</a>(value);</div><div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;        }</div><div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;    }</div><div class="ttc" id="a05152_html_a2e87852cae58170b9cd59e1fbe1e625d"><div class="ttname"><a href="a05152.html#a2e87852cae58170b9cd59e1fbe1e625d">org.geotoolkit.io.LEDataOutputStream.writeLong</a></div><div class="ttdeci">void writeLong(long l)</div><div class="ttdef"><b>Definition:</b> LEDataOutputStream.java:132</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a4318f5da1fdb856ff726801097cdb429"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4318f5da1fdb856ff726801097cdb429">&#9670;&nbsp;</a></span>writeShort()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void writeShort </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>s</em></td><td>)</td>
+          <td> throws IOException</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="a05152.html#ac0e3fe2ab1ba3bb9fc12e4eb24be1a82">LEDataOutputStream.writeShorts()</a>, and <a class="el" href="a05152.html#ae923194a84fea5c316c69a9a71e1b09d">LEDataOutputStream.writeUnsignedShort()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;                                                     {</div><div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;        out.write((s      ) &amp; 0xFF);</div><div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;        out.write((s &gt;&gt;&gt; 8) &amp; 0xFF);</div><div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;        <a class="code" href="a05152.html#ac037f68bf86d3712a034faa2d3ac428a">position</a>+=2;</div><div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;    }</div><div class="ttc" id="a05152_html_ac037f68bf86d3712a034faa2d3ac428a"><div class="ttname"><a href="a05152.html#ac037f68bf86d3712a034faa2d3ac428a">org.geotoolkit.io.LEDataOutputStream.position</a></div><div class="ttdeci">long position</div><div class="ttdef"><b>Definition:</b> LEDataOutputStream.java:31</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="ac0e3fe2ab1ba3bb9fc12e4eb24be1a82"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac0e3fe2ab1ba3bb9fc12e4eb24be1a82">&#9670;&nbsp;</a></span>writeShorts()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">final void writeShorts </td>
+          <td>(</td>
+          <td class="paramtype">short []&#160;</td>
+          <td class="paramname"><em>values</em></td><td>)</td>
+          <td> throws IOException</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Write multiple values in one call. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">values</td><td>values to write </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">IOException</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="reference">References <a class="el" href="a05152.html#a4318f5da1fdb856ff726801097cdb429">LEDataOutputStream.writeShort()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;                                                                     {</div><div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;        <span class="keywordflow">for</span> (<span class="keywordtype">short</span> value : values) {</div><div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;            <a class="code" href="a05152.html#a4318f5da1fdb856ff726801097cdb429">writeShort</a>(value);</div><div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;        }</div><div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;    }</div><div class="ttc" id="a05152_html_a4318f5da1fdb856ff726801097cdb429"><div class="ttname"><a href="a05152.html#a4318f5da1fdb856ff726801097cdb429">org.geotoolkit.io.LEDataOutputStream.writeShort</a></div><div class="ttdeci">void writeShort(int s)</div><div class="ttdef"><b>Definition:</b> LEDataOutputStream.java:69</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="ae923194a84fea5c316c69a9a71e1b09d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae923194a84fea5c316c69a9a71e1b09d">&#9670;&nbsp;</a></span>writeUnsignedShort()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void writeUnsignedShort </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>s</em></td><td>)</td>
+          <td> throws IOException</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="a05152.html#a4318f5da1fdb856ff726801097cdb429">LEDataOutputStream.writeShort()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="a05152.html#a9c9793caecddc216cb3d39ff222e86c2">LEDataOutputStream.writeUnsignedShorts()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;                                                             {</div><div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;        <a class="code" href="a05152.html#a4318f5da1fdb856ff726801097cdb429">writeShort</a>(s);</div><div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;    }</div><div class="ttc" id="a05152_html_a4318f5da1fdb856ff726801097cdb429"><div class="ttname"><a href="a05152.html#a4318f5da1fdb856ff726801097cdb429">org.geotoolkit.io.LEDataOutputStream.writeShort</a></div><div class="ttdeci">void writeShort(int s)</div><div class="ttdef"><b>Definition:</b> LEDataOutputStream.java:69</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a9c9793caecddc216cb3d39ff222e86c2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9c9793caecddc216cb3d39ff222e86c2">&#9670;&nbsp;</a></span>writeUnsignedShorts()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">final void writeUnsignedShorts </td>
+          <td>(</td>
+          <td class="paramtype">int []&#160;</td>
+          <td class="paramname"><em>values</em></td><td>)</td>
+          <td> throws IOException</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Write multiple values in one call. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">values</td><td>values to write </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">IOException</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="reference">References <a class="el" href="a05152.html#ae923194a84fea5c316c69a9a71e1b09d">LEDataOutputStream.writeUnsignedShort()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;                                                                           {</div><div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;        <span class="keywordflow">for</span> (<span class="keywordtype">int</span> value : values) {</div><div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;            <a class="code" href="a05152.html#ae923194a84fea5c316c69a9a71e1b09d">writeUnsignedShort</a>(value);</div><div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;        }</div><div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;    }</div><div class="ttc" id="a05152_html_ae923194a84fea5c316c69a9a71e1b09d"><div class="ttname"><a href="a05152.html#ae923194a84fea5c316c69a9a71e1b09d">org.geotoolkit.io.LEDataOutputStream.writeUnsignedShort</a></div><div class="ttdeci">void writeUnsignedShort(int s)</div><div class="ttdef"><b>Definition:</b> LEDataOutputStream.java:87</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="af884010e15f7514f7e08d9618c4c692c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af884010e15f7514f7e08d9618c4c692c">&#9670;&nbsp;</a></span>writeUTF()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void writeUTF </td>
+          <td>(</td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>s</em></td><td>)</td>
+          <td> throws IOException</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;                                                      {</div><div class="line"><a name="l00210"></a><span class="lineno">  210</span>&#160;        <span class="keywordflow">throw</span> <span class="keyword">new</span> IOException(<span class="stringliteral">&quot;Not supported&quot;</span>);</div><div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;    }</div></div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="a6bb6df1c2db1f7b9fe46d4be2d0083af"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6bb6df1c2db1f7b9fe46d4be2d0083af">&#9670;&nbsp;</a></span>dimensionsToTest</h2>
+<a id="ac037f68bf86d3712a034faa2d3ac428a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac037f68bf86d3712a034faa2d3ac428a">&#9670;&nbsp;</a></span>position</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -264,7 +755,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">int dimensionsToTest = 2</td>
+          <td class="memname">long position = 0</td>
         </tr>
       </table>
   </td>
@@ -274,7 +765,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="a05152.html#aa12c933fd5275be6824111b1f2c92cd6">Coordinate.DimensionalComparator.DimensionalComparator()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="a05152.html#ad8a2786c4ee713c917b468c59ec610df">LEDataOutputStream.getPosition()</a>.</p>
 
 </div>
 </div>
@@ -284,7 +775,7 @@ Private Attributes</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="a02559.html">org</a></li><li class="navelem"><a class="el" href="a02630.html">locationtech</a></li><li class="navelem"><a class="el" href="a02635.html">jts</a></li><li class="navelem"><a class="el" href="a02634.html">geom</a></li><li class="navelem"><a class="el" href="a05148.html">Coordinate</a></li><li class="navelem"><a class="el" href="a05152.html">DimensionalComparator</a></li>
+    <li class="navelem"><a class="el" href="a02583.html">org</a></li><li class="navelem"><a class="el" href="a02650.html">geotoolkit</a></li><li class="navelem"><a class="el" href="a02652.html">io</a></li><li class="navelem"><a class="el" href="a05152.html">LEDataOutputStream</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>

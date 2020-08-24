@@ -1,9 +1,10 @@
 var a02712 =
 [
-    [ "AggCentroid", "a02712.html#a50accbcfba1cb62fd2c3c6945ad73523", null ],
-    [ "AggCentroid", "a02712.html#aa380b240515b7ef61a0a6ecbe81070af", null ],
-    [ "clone", "a02712.html#a4021a724a19ab359f4b16f3fcea1666b", null ],
-    [ "equals", "a02712.html#a8e18a3a952a9e38a9a4191004a30c938", null ],
-    [ "hashCode", "a02712.html#a077e18fe97323c7194e2665ffc766399", null ],
-    [ "visit", "a02712.html#ace7c41d3761122fda287033559696cdd", null ]
+    [ "TripleStoreConnection", "a02712.html#a99975d732097fdfe4f47d2964403e230", null ],
+    [ "executeQuery", "a02712.html#afc28007d407dd38599a43837f62668c1", null ],
+    [ "main", "a02712.html#a8b260eecbaabcef8473fd87ada040682", null ],
+    [ "INSTANCE", "a02712.html#a6f5f1a252f13ef259f6f4fa12b72f2a4", null ],
+    [ "modelmap", "a02712.html#a3c4a20fbf4fb24d73799bdd30661d7b0", null ],
+    [ "prefixCollection", "a02712.html#ab228ed3bdfee44797a6b31717ec5022a", null ],
+    [ "repo", "a02712.html#aa988c42c1c1c9f1d313c217ec0b5e2e0", null ]
 ];

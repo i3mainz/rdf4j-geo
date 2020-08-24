@@ -1,7 +1,8 @@
 var a06008 =
 [
     [ "getInstance", "a06008.html#af8afdd14b38b523d100805364a48ed63", null ],
-    [ "testRasterToWorldCoordX", "a06008.html#a618380de95de6b7c7abfbc480a671c17", null ],
+    [ "testSubtract", "a06008.html#a6765d065ca3c27a56dc817aef23a2e41", null ],
+    [ "combinedRasterLiteral", "a06008.html#a6efe8702be34a67e2bcbba55588c5b5f", null ],
     [ "covJSONString1", "a06008.html#a993e2f127f3ec8f256e9799d77507223", null ],
     [ "hexwkbString1", "a06008.html#a55fb5b5d665417265da09403128e396e", null ],
     [ "minwkbString", "a06008.html#aa5e2b5a6005895fc20b9f35523569430", null ],

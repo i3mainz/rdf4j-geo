@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>rdf4j-postgis: LongestLine Class Reference</title>
+<title>rdf4j-postgis: FullyWithinDistance3D Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -63,25 +63,26 @@ $(document).ready(function(){initNavTree('a03404.html','');});
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
 <a href="a03401.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">LongestLine Class Reference</div>  </div>
+<div class="title">FullyWithinDistance3D Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 <div class="dynheader">
-Inheritance diagram for LongestLine:</div>
+Inheritance diagram for FullyWithinDistance3D:</div>
 <div class="dyncontent">
-<div class="center"><img src="a03403.png" border="0" usemap="#LongestLine_inherit__map" alt="Inheritance graph"/></div>
-<map name="LongestLine_inherit__map" id="LongestLine_inherit__map">
-<area shape="rect" id="node2" href="a03168.html" title="GeometricRelationModifier\lFunction" alt="" coords="5,80,181,121"/>
+<div class="center"><img src="a03403.png" border="0" usemap="#FullyWithinDistance3D_inherit__map" alt="Inheritance graph"/></div>
+<map name="FullyWithinDistance3D_inherit__map" id="FullyWithinDistance3D_inherit__map">
+<area shape="rect" id="node2" href="a03172.html" title="GeometricRelationDoubleBinary\lFunction" alt="" coords="5,80,213,121"/>
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <div class="dynheader">
-Collaboration diagram for LongestLine:</div>
+Collaboration diagram for FullyWithinDistance3D:</div>
 <div class="dyncontent">
-<div class="center"><img src="a03402.png" border="0" usemap="#LongestLine_coll__map" alt="Collaboration graph"/></div>
-<map name="LongestLine_coll__map" id="LongestLine_coll__map">
-<area shape="rect" id="node2" href="a03168.html" title="GeometricRelationModifier\lFunction" alt="" coords="5,80,181,121"/>
+<div class="center"><img src="a03402.png" border="0" usemap="#FullyWithinDistance3D_coll__map" alt="Collaboration graph"/></div>
+<map name="FullyWithinDistance3D_coll__map" id="FullyWithinDistance3D_coll__map">
+<area shape="rect" id="node2" href="a03172.html" title="GeometricRelationDoubleBinary\lFunction" alt="" coords="5,80,213,121"/>
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -89,13 +90,18 @@ Collaboration diagram for LongestLine:</div>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:ad9fb16b36dd4ccc533d4f05ff94646e3"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a03404.html#ad9fb16b36dd4ccc533d4f05ff94646e3">getURI</a> ()</td></tr>
 <tr class="separator:ad9fb16b36dd4ccc533d4f05ff94646e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a43b4c73244bc6722ce551c1033cf1115"><td class="memItemLeft" align="right" valign="top">Value&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a03168.html#a43b4c73244bc6722ce551c1033cf1115">evaluate</a> (ValueFactory valueFactory, Value... args)  throws ValueExprEvaluationException </td></tr>
+<tr class="memitem:a43b4c73244bc6722ce551c1033cf1115"><td class="memItemLeft" align="right" valign="top">Value&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a03172.html#a43b4c73244bc6722ce551c1033cf1115">evaluate</a> (ValueFactory valueFactory, Value... args)  throws ValueExprEvaluationException </td></tr>
 <tr class="separator:a43b4c73244bc6722ce551c1033cf1115"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
-<tr class="memitem:acab2780c6f38801af055870edab66b9b"><td class="memItemLeft" align="right" valign="top">Geometry&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a03404.html#acab2780c6f38801af055870edab66b9b">relation</a> (Geometry geom1, Geometry geom2)</td></tr>
-<tr class="separator:acab2780c6f38801af055870edab66b9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3e407c16e996b9e44960d88e3a0292d6"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a03404.html#a3e407c16e996b9e44960d88e3a0292d6">relation</a> (Geometry g1, Geometry g2, Double distance)</td></tr>
+<tr class="separator:a3e407c16e996b9e44960d88e3a0292d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:a73d87f0fe9970e69748c9e4f157d7ba6"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a03404.html#a73d87f0fe9970e69748c9e4f157d7ba6">getMaxDistance3D</a> (Geometry geom1, Geometry geom2)</td></tr>
+<tr class="separator:a73d87f0fe9970e69748c9e4f157d7ba6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
 <a id="a43b4c73244bc6722ce551c1033cf1115"></a>
@@ -132,34 +138,15 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="a04884.html#a8796f5aec1965b6c4e88b2ba7c1d2e53">LiteralRegistry.getLiteral()</a>, <a class="el" href="a03168.html#ad8955ef0238bd58223785eb653c90a5c">GeometricRelationModifierFunction.relation()</a>, and <a class="el" href="a05016.html#adb6db926db08da5c0c4a8ad8cfb1ff2d">LiteralUtils.transform()</a>.</p>
+<p class="reference">References <a class="el" href="a04924.html#a8796f5aec1965b6c4e88b2ba7c1d2e53">LiteralRegistry.getLiteral()</a>, <a class="el" href="a03172.html#ab455a41dbd82435a53ebe7d7239853d2">GeometricRelationDoubleBinaryFunction.relation()</a>, and <a class="el" href="a05056.html#adb6db926db08da5c0c4a8ad8cfb1ff2d">LiteralUtils.transform()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="a05516.html#a67123b25e212bf04a36a62bbd917df3d">LongestLineTest.testLongestLine()</a>, <a class="el" href="a05540.html#afa1a1d15c5b993ecdc02ab403652c157">ShortestLine3DTest.testShortestLine()</a>, and <a class="el" href="a05544.html#afa1a1d15c5b993ecdc02ab403652c157">ShortestLineTest.testShortestLine()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;                                                                                                            {</div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;                <span class="keywordflow">if</span> (args.length != 2) {</div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;                        <span class="keywordflow">throw</span> <span class="keyword">new</span> ValueExprEvaluationException(getURI() + <span class="stringliteral">&quot; requires exactly 2 arguments, got &quot;</span> + args.length);</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;                }</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;                LiteralType l=LiteralRegistry.getLiteral(((Literal)args[0]).getDatatype().toString());</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;                LiteralType l2=LiteralRegistry.getLiteral(((Literal)args[1]).getDatatype().toString());</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;                <span class="keywordflow">if</span>(l instanceof VectorLiteral) {</div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;                        Geometry geom=((VectorLiteral)l).read(args[0].stringValue());</div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;                        Geometry geom2=((VectorLiteral)l2).read(args[1].stringValue());</div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;                        Geometry transformed=LiteralUtils.transform(geom2, geom);</div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;                        Geometry result = <a class="code" href="a03168.html#ad8955ef0238bd58223785eb653c90a5c">relation</a>(geom,transformed);</div><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;                        <span class="keywordflow">return</span> valueFactory.createLiteral(((VectorLiteral) l).unparse(result),((Literal)args[0]).getDatatype());</div><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;                }</div><div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;                <span class="keywordflow">throw</span> <span class="keyword">new</span> ValueExprEvaluationException(<span class="stringliteral">&quot;Arguments given are not geometry literals&quot;</span>);</div><div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;        }</div><div class="ttc" id="a03168_html_ad8955ef0238bd58223785eb653c90a5c"><div class="ttname"><a href="a03168.html#ad8955ef0238bd58223785eb653c90a5c">org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.geometry.base.GeometricRelationModifierFunction.relation</a></div><div class="ttdeci">abstract Geometry relation(Geometry g1, Geometry g2)</div></div>
+<p class="reference">Referenced by <a class="el" href="a05532.html#ae3a3dc920c5179e22a01c5c5682989bd">FullyWithinDistanceTest.testFullyWithinDistanceFalse()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;                                                                                                                    {</div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;                        <span class="keywordflow">if</span> (args.length != 3) {</div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;                                <span class="keywordflow">throw</span> <span class="keyword">new</span> ValueExprEvaluationException(getURI() + <span class="stringliteral">&quot; requires exactly 3 arguments, got &quot;</span> + args.length);</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;                        }</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;                        LiteralType l=LiteralRegistry.getLiteral(((Literal)args[0]).getDatatype().toString());</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;                        LiteralType l2=LiteralRegistry.getLiteral(((Literal)args[1]).getDatatype().toString());</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;                        Double value=Double.valueOf(args[2].stringValue());</div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;                        <span class="keywordflow">if</span>(l instanceof VectorLiteral &amp;&amp; l2 instanceof VectorLiteral) {</div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;                                Geometry geom=((VectorLiteral)l).read(args[0].stringValue());</div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;                                Geometry geom2=((VectorLiteral)l2).read(args[1].stringValue());</div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;                                Geometry transformed=LiteralUtils.transform(geom2, geom);</div><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;                                <span class="keywordtype">boolean</span> result = <a class="code" href="a03172.html#ab455a41dbd82435a53ebe7d7239853d2">relation</a>(geom,transformed,value);</div><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;                                <span class="keywordflow">return</span> valueFactory.createLiteral(result);</div><div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;                        }</div><div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;                        <span class="keywordflow">throw</span> <span class="keyword">new</span> ValueExprEvaluationException(<span class="stringliteral">&quot;Arguments given are not a geometry literal&quot;</span>);</div><div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;</div><div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;                }</div><div class="ttc" id="a03172_html_ab455a41dbd82435a53ebe7d7239853d2"><div class="ttname"><a href="a03172.html#ab455a41dbd82435a53ebe7d7239853d2">org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.geometry.base.GeometricRelationDoubleBinaryFunction.relation</a></div><div class="ttdeci">abstract boolean relation(Geometry g1, Geometry g2, Double value)</div></div>
 </div><!-- fragment -->
 </div>
 </div>
-<a id="ad9fb16b36dd4ccc533d4f05ff94646e3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad9fb16b36dd4ccc533d4f05ff94646e3">&#9670;&nbsp;</a></span>getURI()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">String getURI </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="reference">References <a class="el" href="a02708.html#a0f973d465712952945ba659a43e1bfff">POSTGIS.st_longestLine</a>.</p>
-<div class="fragment"><div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;                               {</div><div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;                <span class="keywordflow">return</span> POSTGIS.st_longestLine.stringValue();</div><div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;        }</div></div><!-- fragment -->
-</div>
-</div>
-<a id="acab2780c6f38801af055870edab66b9b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acab2780c6f38801af055870edab66b9b">&#9670;&nbsp;</a></span>relation()</h2>
+<a id="a73d87f0fe9970e69748c9e4f157d7ba6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a73d87f0fe9970e69748c9e4f157d7ba6">&#9670;&nbsp;</a></span>getMaxDistance3D()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -168,7 +155,7 @@ Protected Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">Geometry relation </td>
+          <td class="memname">double getMaxDistance3D </td>
           <td>(</td>
           <td class="paramtype">Geometry&#160;</td>
           <td class="paramname"><em>geom1</em>, </td>
@@ -187,13 +174,77 @@ Protected Member Functions</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="a03404.html#a3e407c16e996b9e44960d88e3a0292d6">FullyWithinDistance3D.relation()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;                                                                       {</div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;                Double maxDistance=0.;</div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;        GeometryFactory fac=<span class="keyword">new</span> GeometryFactory();</div><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;                        <span class="keywordflow">for</span>(Coordinate coord:geom1.getCoordinates()) {</div><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;                                <span class="keywordflow">for</span>(Coordinate coord2:geom2.getCoordinates()) {</div><div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;                                        Double curdistance=Distance3DOp.distance(fac.createPoint(coord), fac.createPoint(coord2));</div><div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;                                        <span class="keywordflow">if</span>(curdistance&gt;maxDistance) {</div><div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;                                                maxDistance=curdistance;</div><div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;                                        }</div><div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;                                }</div><div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;                        }</div><div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;                        <span class="keywordflow">return</span> maxDistance;</div><div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;        }</div></div><!-- fragment -->
+</div>
+</div>
+<a id="ad9fb16b36dd4ccc533d4f05ff94646e3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad9fb16b36dd4ccc533d4f05ff94646e3">&#9670;&nbsp;</a></span>getURI()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">String getURI </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="a02732.html#aba709cbc72a3e4eea59dbe302e637361">POSTGIS.st_fullyWithinDistance3D</a>.</p>
+<div class="fragment"><div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;                               {</div><div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;                <span class="keywordflow">return</span> POSTGIS.st_fullyWithinDistance3D.stringValue();</div><div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;        }</div></div><!-- fragment -->
+</div>
+</div>
+<a id="a3e407c16e996b9e44960d88e3a0292d6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3e407c16e996b9e44960d88e3a0292d6">&#9670;&nbsp;</a></span>relation()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean relation </td>
+          <td>(</td>
+          <td class="paramtype">Geometry&#160;</td>
+          <td class="paramname"><em>g1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Geometry&#160;</td>
+          <td class="paramname"><em>g2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Double&#160;</td>
+          <td class="paramname"><em>distance</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
 <span class="mlabels"><span class="mlabel">protected</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="a05016.html#aa9b8459efc091f657b74ed0e5a245375">LiteralUtils.createGeometry()</a>, and <a class="el" href="a05148.html#a15037c4d5389e3f03ce05dfce3649d67">Coordinate.distance()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;                                                                    {</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;                Double maxDistance=0.;</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;        Coordinate maxCoord1=null;</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;        Coordinate maxCoord2=null;</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;                <span class="keywordflow">for</span>(Coordinate coord:geom1.getCoordinates()) {</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;                        <span class="keywordflow">for</span>(Coordinate coord2:geom2.getCoordinates()) {</div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;                                Double curdistance=coord.distance(coord2);</div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;                                <span class="keywordflow">if</span>(curdistance&gt;maxDistance) {</div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;                                        maxDistance=curdistance;</div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;                                        maxCoord1=coord;</div><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;                                        maxCoord2=coord2;</div><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;                                }</div><div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;                        }</div><div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;                }</div><div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;                <span class="keywordflow">return</span> LiteralUtils.createGeometry(<span class="keyword">new</span> Coordinate[] {maxCoord1,maxCoord2},<span class="stringliteral">&quot;LINESTRING&quot;</span>, geom1.getSRID());</div><div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;        }</div></div><!-- fragment -->
+<p class="reference">References <a class="el" href="a03404.html#a73d87f0fe9970e69748c9e4f157d7ba6">FullyWithinDistance3D.getMaxDistance3D()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;                                                                              {</div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;        <span class="keywordtype">double</span> maxdistance3d=<a class="code" href="a03404.html#a73d87f0fe9970e69748c9e4f157d7ba6">getMaxDistance3D</a>(g1,g2);</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;        <span class="keywordflow">if</span>(maxdistance3d&lt;=distance) {</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;                <span class="keywordflow">return</span> <span class="keyword">true</span>;</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;        }</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">false</span>;   </div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;        }</div><div class="ttc" id="a03404_html_a73d87f0fe9970e69748c9e4f157d7ba6"><div class="ttname"><a href="a03404.html#a73d87f0fe9970e69748c9e4f157d7ba6">org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.geometry.relation.FullyWithinDistance3D.getMaxDistance3D</a></div><div class="ttdeci">double getMaxDistance3D(Geometry geom1, Geometry geom2)</div><div class="ttdef"><b>Definition:</b> FullyWithinDistance3D.java:26</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 </div><!-- contents -->
@@ -202,7 +253,7 @@ Protected Member Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="a02559.html">org</a></li><li class="navelem"><a class="el" href="a02560.html">eclipse</a></li><li class="navelem"><a class="el" href="a02561.html">rdf4j</a></li><li class="navelem"><a class="el" href="a02564.html">query</a></li><li class="navelem"><a class="el" href="a02565.html">algebra</a></li><li class="navelem"><a class="el" href="a02566.html">evaluation</a></li><li class="navelem"><a class="el" href="a02567.html">function</a></li><li class="navelem"><a class="el" href="a02568.html">postgis</a></li><li class="navelem"><a class="el" href="a02575.html">geometry</a></li><li class="navelem"><a class="el" href="a02580.html">relation</a></li><li class="navelem"><a class="el" href="a03404.html">LongestLine</a></li>
+    <li class="navelem"><a class="el" href="a02583.html">org</a></li><li class="navelem"><a class="el" href="a02584.html">eclipse</a></li><li class="navelem"><a class="el" href="a02585.html">rdf4j</a></li><li class="navelem"><a class="el" href="a02588.html">query</a></li><li class="navelem"><a class="el" href="a02589.html">algebra</a></li><li class="navelem"><a class="el" href="a02590.html">evaluation</a></li><li class="navelem"><a class="el" href="a02591.html">function</a></li><li class="navelem"><a class="el" href="a02592.html">postgis</a></li><li class="navelem"><a class="el" href="a02599.html">geometry</a></li><li class="navelem"><a class="el" href="a02604.html">relation</a></li><li class="navelem"><a class="el" href="a03404.html">FullyWithinDistance3D</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>

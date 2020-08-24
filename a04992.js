@@ -1,8 +1,8 @@
 var a04992 =
 [
-    [ "WKBTextSRS", "a04992.html#a12d2a5c4b7a29eae5d108bccb1e55b11", null ],
-    [ "getSrsURI", "a04992.html#a7d7dded4f73b0a90d90f68ccc5f16bc3", null ],
-    [ "getWkbText", "a04992.html#a4a2ce7a2dcd4fa0818378fb8b97931fb", null ],
-    [ "srsURI", "a04992.html#aaa7845d06052bead86bb2de40935e4d9", null ],
-    [ "wkbText", "a04992.html#a7b6ce5371e4ad222f4b09eaadfdcae09", null ]
+    [ "read", "a04992.html#a793358fbd6ef538a24eabab1bd50ef01", null ],
+    [ "unparse", "a04992.html#a8f23415f60c2281824a1ca004a2fce9b", null ],
+    [ "INSTANCE", "a04992.html#abb1c918d1d03fd82f29d5b0753090371", null ],
+    [ "LiteralIRI", "a04992.html#ae02c2e86ac0dea8538c7b43e9e82421a", null ],
+    [ "URI", "a04992.html#addbf30e6c0ad68fa34277d59a2c6eb5e", null ]
 ];

@@ -1,6 +1,5 @@
 var a05464 =
 [
-    [ "testClosestPoint", "a05464.html#af30fa8d36bc2cb8bd652397169d9708d", null ],
-    [ "testLineString", "a05464.html#a33797029fadbcba01b4a4fafec88cf41", null ],
-    [ "testPoint", "a05464.html#af26f700ee129f846cac58735f6dcc380", null ]
+    [ "testAsLatLonText", "a05464.html#a294440bf0a1785c6cea76200ebf53818", null ],
+    [ "testGeometry", "a05464.html#abc3f514f005cba49e406658e2d3086eb", null ]
 ];

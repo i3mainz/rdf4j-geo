@@ -1,11 +1,17 @@
 var a05128 =
 [
-    [ "ExtendedPrecisionReader", "a05128.html#a82112ea6921f2d28f7663dfa20ae32c6", null ],
-    [ "readPoint", "a05128.html#a04d3647950410c96c47734decf0e12b5", null ],
-    [ "readPointArray", "a05128.html#a1bbf2e471d2964af19292437ad42729b", null ],
-    [ "hasM", "a05128.html#a1eccf09f4c826ba480ec832ac4ce7718", null ],
-    [ "hasZ", "a05128.html#ab356995ed7cff0226d75484d03a994f2", null ],
-    [ "mPrecisionMultiplier", "a05128.html#a4ea667f57906c038bb9717bc848df77a", null ],
-    [ "precisionMultiplier", "a05128.html#a9aa85be4ec02c28a05cb552845fe08eb", null ],
-    [ "zPrecisionMultiplier", "a05128.html#abb32d6067d519044d8c44d52ab2cdd44", null ]
+    [ "SampleDimensionType", "a05128.html#ac4656188dc6dc6d0e4ef66fc034f007a", null ],
+    [ "family", "a05128.html#aeaaf4d39c7b3cf733d53fd480402fa4a", null ],
+    [ "REAL_32BITS", "a05128.html#a4661791c7fdef1dd6b7c378997ab136b", null ],
+    [ "REAL_64BITS", "a05128.html#acf48844a1576a02e799a3d928eee8692", null ],
+    [ "SIGNED_16BITS", "a05128.html#a212388497db9120bc7f72dd21cb42155", null ],
+    [ "SIGNED_32BITS", "a05128.html#ac8f0730059b0c8995cd92b44e7f497bd", null ],
+    [ "SIGNED_8BITS", "a05128.html#a8325ed259325342303705b314d8862a7", null ],
+    [ "UNSIGNED_16BITS", "a05128.html#a0f26f59268649ca0a5ed3cef8d270f16", null ],
+    [ "UNSIGNED_1BIT", "a05128.html#ab05c9236ffa258b1889bcdb7af336eaf", null ],
+    [ "UNSIGNED_2BITS", "a05128.html#a21e1d1ca3035d887200d51acf209dd9a", null ],
+    [ "UNSIGNED_32BITS", "a05128.html#a8c90457fceea81d745b1863f8df3c7e8", null ],
+    [ "UNSIGNED_4BITS", "a05128.html#ae2428a486b2345e3c8dd77be7422ba05", null ],
+    [ "UNSIGNED_8BITS", "a05128.html#ad125fdd898ef56e093ed2c7f246f9179", null ],
+    [ "VALUES", "a05128.html#ae6664f693fbc6259d4f449ce5e918c87", null ]
 ];

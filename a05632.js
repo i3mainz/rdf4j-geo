@@ -1,6 +1,5 @@
 var a05632 =
 [
-    [ "testNode", "a05632.html#afddc561f05c41e1e550b54ca967bd2e9", null ],
-    [ "result", "a05632.html#aab356d6554a7301750f11ec7a85ac47d", null ],
-    [ "testGeom", "a05632.html#a03a5f5da0ccbeed8c1678d4317cf2672", null ]
+    [ "testSridIsVerticalTrue", "a05632.html#a0b5d17dad676c3ce02f884832b907843", null ],
+    [ "testPoint", "a05632.html#af26f700ee129f846cac58735f6dcc380", null ]
 ];

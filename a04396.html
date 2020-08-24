@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>rdf4j-postgis: RasterAttributeIntIntIntStringFunction Class Reference</title>
+<title>rdf4j-postgis: RasterAlgebraFunction Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -64,22 +64,35 @@ $(document).ready(function(){initNavTree('a04396.html','');});
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="a04393.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">RasterAttributeIntIntIntStringFunction Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
+<div class="title">RasterAlgebraFunction Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
 </div><!--header-->
 <div class="contents">
 <div class="dynheader">
-Inheritance diagram for RasterAttributeIntIntIntStringFunction:</div>
+Inheritance diagram for RasterAlgebraFunction:</div>
 <div class="dyncontent">
-<div class="center"><img src="a04395.png" border="0" usemap="#RasterAttributeIntIntIntStringFunction_inherit__map" alt="Inheritance graph"/></div>
-<map name="RasterAttributeIntIntIntStringFunction_inherit__map" id="RasterAttributeIntIntIntStringFunction_inherit__map">
-<area shape="rect" id="node3" href="a04332.html" title="Value" alt="" coords="55,169,110,196"/>
+<div class="center"><img src="a04395.png" border="0" usemap="#RasterAlgebraFunction_inherit__map" alt="Inheritance graph"/></div>
+<map name="RasterAlgebraFunction_inherit__map" id="RasterAlgebraFunction_inherit__map">
+<area shape="rect" id="node3" href="a04104.html" title="Abs" alt="" coords="5,155,51,181"/>
+<area shape="rect" id="node4" href="a04108.html" title="Add" alt="" coords="75,155,120,181"/>
+<area shape="rect" id="node5" href="a04116.html" title="And" alt="" coords="144,155,189,181"/>
+<area shape="rect" id="node6" href="a04124.html" title="Div" alt="" coords="213,155,256,181"/>
+<area shape="rect" id="node7" href="a04136.html" title="IDCT" alt="" coords="281,155,335,181"/>
+<area shape="rect" id="node8" href="a04140.html" title="IDFT" alt="" coords="359,155,411,181"/>
+<area shape="rect" id="node9" href="a04148.html" title="Log" alt="" coords="436,155,479,181"/>
+<area shape="rect" id="node10" href="a04152.html" title="Max" alt="" coords="503,155,550,181"/>
+<area shape="rect" id="node11" href="a04160.html" title="Mean" alt="" coords="574,155,629,181"/>
+<area shape="rect" id="node12" href="a04168.html" title="Min" alt="" coords="653,155,696,181"/>
+<area shape="rect" id="node13" href="a04176.html" title="Mult" alt="" coords="721,155,767,181"/>
+<area shape="rect" id="node14" href="a04188.html" title="Or" alt="" coords="791,155,830,181"/>
+<area shape="rect" id="node15" href="a04196.html" title="Subtract" alt="" coords="854,155,925,181"/>
+<area shape="rect" id="node16" href="a04204.html" title="Xor" alt="" coords="949,155,992,181"/>
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <div class="dynheader">
-Collaboration diagram for RasterAttributeIntIntIntStringFunction:</div>
+Collaboration diagram for RasterAlgebraFunction:</div>
 <div class="dyncontent">
-<div class="center"><img src="a04394.png" border="0" usemap="#RasterAttributeIntIntIntStringFunction_coll__map" alt="Collaboration graph"/></div>
-<map name="RasterAttributeIntIntIntStringFunction_coll__map" id="RasterAttributeIntIntIntStringFunction_coll__map">
+<div class="center"><img src="a04394.png" border="0" usemap="#RasterAlgebraFunction_coll__map" alt="Collaboration graph"/></div>
+<map name="RasterAlgebraFunction_coll__map" id="RasterAlgebraFunction_coll__map">
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -87,66 +100,10 @@ Collaboration diagram for RasterAttributeIntIntIntStringFunction:</div>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a43b4c73244bc6722ce551c1033cf1115"><td class="memItemLeft" align="right" valign="top">Value&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a04396.html#a43b4c73244bc6722ce551c1033cf1115">evaluate</a> (ValueFactory valueFactory, Value... args)  throws ValueExprEvaluationException </td></tr>
 <tr class="separator:a43b4c73244bc6722ce551c1033cf1115"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9d87c813553a7ca458e984392f51d3e8"><td class="memItemLeft" align="right" valign="top">abstract Double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a04396.html#a9d87c813553a7ca458e984392f51d3e8">attribute</a> (GridCoverage geom, Integer noband, Integer x, Integer y, Boolean excludenodata)</td></tr>
-<tr class="separator:a9d87c813553a7ca458e984392f51d3e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5b24a1b53fa41584bf65e96f8565f04a"><td class="memItemLeft" align="right" valign="top">abstract GridCoverage&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a04396.html#a5b24a1b53fa41584bf65e96f8565f04a">modify</a> (GridCoverage coverage, Integer bd1, GridCoverage coverage2, Integer bd2)</td></tr>
+<tr class="separator:a5b24a1b53fa41584bf65e96f8565f04a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a9d87c813553a7ca458e984392f51d3e8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9d87c813553a7ca458e984392f51d3e8">&#9670;&nbsp;</a></span>attribute()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">abstract Double attribute </td>
-          <td>(</td>
-          <td class="paramtype">GridCoverage&#160;</td>
-          <td class="paramname"><em>geom</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">Integer&#160;</td>
-          <td class="paramname"><em>noband</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">Integer&#160;</td>
-          <td class="paramname"><em>x</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">Integer&#160;</td>
-          <td class="paramname"><em>y</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">Boolean&#160;</td>
-          <td class="paramname"><em>excludenodata</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">abstract</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="a04396.html#a43b4c73244bc6722ce551c1033cf1115">RasterAttributeIntIntIntStringFunction.evaluate()</a>.</p>
-
-</div>
-</div>
 <a id="a43b4c73244bc6722ce551c1033cf1115"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a43b4c73244bc6722ce551c1033cf1115">&#9670;&nbsp;</a></span>evaluate()</h2>
 
@@ -173,11 +130,61 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="a04396.html#a9d87c813553a7ca458e984392f51d3e8">RasterAttributeIntIntIntStringFunction.attribute()</a>, and <a class="el" href="a04884.html#a8796f5aec1965b6c4e88b2ba7c1d2e53">LiteralRegistry.getLiteral()</a>.</p>
+<p class="reference">References <a class="el" href="a04924.html#a8796f5aec1965b6c4e88b2ba7c1d2e53">LiteralRegistry.getLiteral()</a>, and <a class="el" href="a04396.html#a5b24a1b53fa41584bf65e96f8565f04a">RasterAlgebraFunction.modify()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="a06072.html#a1e853e99473b2f68ad8e75f8f41715cd">ValueTest.testRasterValue()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;                                                                                                            {</div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;                <span class="keywordflow">if</span> (args.length != 3) {</div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;                        <span class="keywordflow">throw</span> <span class="keyword">new</span> ValueExprEvaluationException(getURI() + <span class="stringliteral">&quot; requires exactly 4 arguments, got &quot;</span> + args.length);</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;                }</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;                LiteralType l=LiteralRegistry.getLiteral(((Literal)args[0]).getDatatype().toString());</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;                <span class="keywordflow">if</span>(l instanceof RasterLiteral) {</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;                        GridCoverage geom=((RasterLiteral)l).read(args[0].stringValue());</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;                        Integer noband = Integer.valueOf(args[1].stringValue());</div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;                        Integer x = Integer.valueOf(args[2].stringValue());</div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;                        Integer y = Integer.valueOf(args[2].stringValue());</div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;                        Boolean excludenodata = Boolean.valueOf(args[3].stringValue());</div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;                        Double result = <a class="code" href="a04396.html#a9d87c813553a7ca458e984392f51d3e8">attribute</a>(geom,noband,x,y,excludenodata);</div><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;                        <span class="keywordflow">return</span> valueFactory.createLiteral(result);</div><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;                }</div><div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;                <span class="keywordflow">return</span> null;</div><div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;        }</div><div class="ttc" id="a04396_html_a9d87c813553a7ca458e984392f51d3e8"><div class="ttname"><a href="a04396.html#a9d87c813553a7ca458e984392f51d3e8">org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.raster.base.RasterAttributeIntIntIntStringFunction.attribute</a></div><div class="ttdeci">abstract Double attribute(GridCoverage geom, Integer noband, Integer x, Integer y, Boolean excludenodata)</div></div>
+<p class="reference">Referenced by <a class="el" href="a05980.html#afd0ee1fd8a383350e390e5b63a8a1cda">LogTest.testAdd()</a>, <a class="el" href="a05948.html#afd0ee1fd8a383350e390e5b63a8a1cda">AddTest.testAdd()</a>, <a class="el" href="a05956.html#ad8956827844f69009bc4c23a46ed322a">AndTest.testAnd()</a>, <a class="el" href="a05964.html#af62cdb248f1e7f2bb0372adcf20e8557">DivTest.testDiv()</a>, <a class="el" href="a05988.html#ab45f511a7f2f9c82a5f7d24e30e1cad0">MultTest.testMult()</a>, <a class="el" href="a06000.html#a3b09f558520898efdfaef60d84c52d8d">OrTest.testOr()</a>, <a class="el" href="a06008.html#a6765d065ca3c27a56dc817aef23a2e41">SubtractTest.testSubtract()</a>, and <a class="el" href="a06016.html#a11b935be18716d35402a7fec0817a727">XorTest.testXor()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;                                                                                                            {</div><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;                <span class="keywordflow">if</span> (args.length != 4) {</div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;                        <span class="keywordflow">throw</span> <span class="keyword">new</span> ValueExprEvaluationException(getURI() + <span class="stringliteral">&quot; requires exactly 4 arguments, got &quot;</span> + args.length);</div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;                }</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;                LiteralType l=LiteralRegistry.getLiteral(((Literal)args[0]).getDatatype().toString());</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;                LiteralType l2=LiteralRegistry.getLiteral(((Literal)args[2]).getDatatype().toString());</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;                <span class="keywordflow">if</span>(l instanceof RasterLiteral &amp;&amp; l2 instanceof RasterLiteral) {</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;                        GridCoverage geom=((RasterLiteral)l).read(args[0].stringValue());</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;                        Integer bd1=Integer.valueOf(args[1].stringValue());</div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;                        GridCoverage geom2=((RasterLiteral)l).read(args[2].stringValue());</div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;                        Integer bd2=Integer.valueOf(args[3].stringValue());</div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;                        GridCoverage result = <a class="code" href="a04396.html#a5b24a1b53fa41584bf65e96f8565f04a">modify</a>(geom,bd1,geom2,bd2);</div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;                        <span class="keywordflow">return</span> valueFactory.createLiteral(((RasterLiteral) l).unparse(result),((Literal)args[0]).getDatatype());</div><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;                }</div><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;                <span class="keywordflow">return</span> null;</div><div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;        }</div><div class="ttc" id="a04396_html_a5b24a1b53fa41584bf65e96f8565f04a"><div class="ttname"><a href="a04396.html#a5b24a1b53fa41584bf65e96f8565f04a">org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.raster.base.RasterAlgebraFunction.modify</a></div><div class="ttdeci">abstract GridCoverage modify(GridCoverage coverage, Integer bd1, GridCoverage coverage2, Integer bd2)</div></div>
 </div><!-- fragment -->
+</div>
+</div>
+<a id="a5b24a1b53fa41584bf65e96f8565f04a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5b24a1b53fa41584bf65e96f8565f04a">&#9670;&nbsp;</a></span>modify()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">abstract GridCoverage modify </td>
+          <td>(</td>
+          <td class="paramtype">GridCoverage&#160;</td>
+          <td class="paramname"><em>coverage</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Integer&#160;</td>
+          <td class="paramname"><em>bd1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">GridCoverage&#160;</td>
+          <td class="paramname"><em>coverage2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Integer&#160;</td>
+          <td class="paramname"><em>bd2</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">abstract</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="a04396.html#a43b4c73244bc6722ce551c1033cf1115">RasterAlgebraFunction.evaluate()</a>.</p>
+
 </div>
 </div>
 </div><!-- contents -->
@@ -186,7 +193,7 @@ Public Member Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="a02559.html">org</a></li><li class="navelem"><a class="el" href="a02560.html">eclipse</a></li><li class="navelem"><a class="el" href="a02561.html">rdf4j</a></li><li class="navelem"><a class="el" href="a02564.html">query</a></li><li class="navelem"><a class="el" href="a02565.html">algebra</a></li><li class="navelem"><a class="el" href="a02566.html">evaluation</a></li><li class="navelem"><a class="el" href="a02567.html">function</a></li><li class="navelem"><a class="el" href="a02568.html">postgis</a></li><li class="navelem"><a class="el" href="a02601.html">raster</a></li><li class="navelem"><a class="el" href="a02603.html">base</a></li><li class="navelem"><a class="el" href="a04396.html">RasterAttributeIntIntIntStringFunction</a></li>
+    <li class="navelem"><a class="el" href="a02583.html">org</a></li><li class="navelem"><a class="el" href="a02584.html">eclipse</a></li><li class="navelem"><a class="el" href="a02585.html">rdf4j</a></li><li class="navelem"><a class="el" href="a02588.html">query</a></li><li class="navelem"><a class="el" href="a02589.html">algebra</a></li><li class="navelem"><a class="el" href="a02590.html">evaluation</a></li><li class="navelem"><a class="el" href="a02591.html">function</a></li><li class="navelem"><a class="el" href="a02592.html">postgis</a></li><li class="navelem"><a class="el" href="a02625.html">raster</a></li><li class="navelem"><a class="el" href="a02627.html">base</a></li><li class="navelem"><a class="el" href="a04396.html">RasterAlgebraFunction</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>

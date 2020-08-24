@@ -1,16 +1,13 @@
 var a05144 =
 [
-    [ "calculate", "a05144.html#a1b9dd1e59eac3a2a15cb68c19e994fe4", null ],
-    [ "checkCoordinate", "a05144.html#a0a01f90a7fe27e3b66f1c87f019e91bc", null ],
-    [ "finalize", "a05144.html#a7626720b9bf807253dd702a0214dc9f0", null ],
-    [ "writeExtendedPrecision", "a05144.html#a320ccd90ec0ef71a4353104b7fe98a1c", null ],
-    [ "writePoint", "a05144.html#adedb1cd853d00648be239477f7fe4e2a", null ],
-    [ "writePointArray", "a05144.html#afeed21e7153170021427b1e7001d952b", null ],
-    [ "hasM", "a05144.html#a1eccf09f4c826ba480ec832ac4ce7718", null ],
-    [ "hasZ", "a05144.html#ab356995ed7cff0226d75484d03a994f2", null ],
-    [ "mPrecision", "a05144.html#a1b92282fc8148f040078b9bb37b30b15", null ],
-    [ "mPrecisionMultiplier", "a05144.html#a4ea667f57906c038bb9717bc848df77a", null ],
-    [ "precisionMultiplier", "a05144.html#a9aa85be4ec02c28a05cb552845fe08eb", null ],
-    [ "zPrecision", "a05144.html#abdd886294f53edb9018d91b1e049bef8", null ],
-    [ "zPrecisionMultiplier", "a05144.html#abb32d6067d519044d8c44d52ab2cdd44", null ]
+    [ "WKBRasterWriter", "a05144.html#ac554c69222b99b75f6e7bd0902a05cf8", null ],
+    [ "reset", "a05144.html#ad20897c5c8bd47f5d4005989bead0e55", null ],
+    [ "write", "a05144.html#a856e54e4f4722fb982aefe4b71c702db", null ],
+    [ "write", "a05144.html#a548c80a7e87fc26b84de1c8be26797df", null ],
+    [ "write", "a05144.html#a85eee5803cdc8926b61a167fa833c808", null ],
+    [ "write", "a05144.html#aa81b0fae18d5e64b155d0ea2afba77c1", null ],
+    [ "write", "a05144.html#a4ed3a6a532fffee3bc00f6a284480f32", null ],
+    [ "write", "a05144.html#a0acd711eb42afa0b71f0034a6a240311", null ],
+    [ "write", "a05144.html#a177a60820d9f841633957dbe681f46c8", null ],
+    [ "write", "a05144.html#a4d44c575b7d26f24882ee78b390f7ee4", null ]
 ];

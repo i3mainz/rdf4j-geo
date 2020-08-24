@@ -1,7 +1,6 @@
 var a05624 =
 [
-    [ "testForceCollection", "a05624.html#a80928c2dac15d3b159f8708462c2141e", null ],
-    [ "testForceCollectionZ", "a05624.html#a7fb6c41061d547328e4d4147ed19f55f", null ],
-    [ "testGeom", "a05624.html#a03a5f5da0ccbeed8c1678d4317cf2672", null ],
-    [ "testGeomZ", "a05624.html#a5e443ef12c7db96a5d27a951f9db5a08", null ]
+    [ "testSridIsGeographicFalse", "a05624.html#abd1395d0581a64740ed1bae57b2882b3", null ],
+    [ "testSridIsGeographicTrue", "a05624.html#a09f0ac6b4b2a063a3d1df32d600b9b11", null ],
+    [ "testPoint", "a05624.html#af26f700ee129f846cac58735f6dcc380", null ]
 ];

@@ -1,8 +1,7 @@
 var a05500 =
 [
-    [ "testHausdorffDistance", "a05500.html#a865da90312a6602e13430f1b3218608b", null ],
-    [ "testGeom1", "a05500.html#aa4a3b1a7e778ece72382f6600fa96b47", null ],
-    [ "testGeom2", "a05500.html#a6b4be369c8f60e973cd5126e69cd33a4", null ],
-    [ "testGeom3", "a05500.html#a800b6bb875a8ff4404ea787c3df125a5", null ],
-    [ "testGeom4", "a05500.html#a4c55e7efe430d6d220fb05524c4bb940", null ]
+    [ "testCentroidDistance", "a05500.html#a312e87d7afb4dd085ada4f2f2c8d288f", null ],
+    [ "testCentroidDistance2", "a05500.html#a5eab32bf961a899b72bea71a38ff3c3c", null ],
+    [ "isocelesTriangle", "a05500.html#aa04dfbec745e2622b9f7646f8572e501", null ],
+    [ "notIsocelesTriangle", "a05500.html#a055d99fb63bcee37763ffcf4da9e0521", null ]
 ];

@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>rdf4j-postgis: TWKBReader.ByteBufferInputStream Class Reference</title>
+<title>rdf4j-postgis: RasterVectorRelationIntBinaryFunction Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -62,144 +62,84 @@ $(document).ready(function(){initNavTree('a05120.html','');});
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pri-attribs">Private Attributes</a> &#124;
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
+<a href="#pub-static-attribs">Static Public Attributes</a> &#124;
 <a href="a05117.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">TWKBReader.ByteBufferInputStream Class Reference</div>  </div>
+<div class="title">RasterVectorRelationIntBinaryFunction Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
 </div><!--header-->
 <div class="contents">
 <div class="dynheader">
-Inheritance diagram for TWKBReader.ByteBufferInputStream:</div>
+Inheritance diagram for RasterVectorRelationIntBinaryFunction:</div>
 <div class="dyncontent">
-<div class="center"><img src="a05119.png" border="0" usemap="#TWKBReader_8ByteBufferInputStream_inherit__map" alt="Inheritance graph"/></div>
-<map name="TWKBReader_8ByteBufferInputStream_inherit__map" id="TWKBReader_8ByteBufferInputStream_inherit__map">
+<div class="center"><img src="a05119.png" border="0" usemap="#RasterVectorRelationIntBinaryFunction_inherit__map" alt="Inheritance graph"/></div>
+<map name="RasterVectorRelationIntBinaryFunction_inherit__map" id="RasterVectorRelationIntBinaryFunction_inherit__map">
+<area shape="rect" id="node3" href="a04580.html" title="DFullyWithin" alt="" coords="5,169,103,196"/>
+<area shape="rect" id="node4" href="a04588.html" title="DWithin" alt="" coords="127,169,197,196"/>
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <div class="dynheader">
-Collaboration diagram for TWKBReader.ByteBufferInputStream:</div>
+Collaboration diagram for RasterVectorRelationIntBinaryFunction:</div>
 <div class="dyncontent">
-<div class="center"><img src="a05118.png" border="0" usemap="#TWKBReader_8ByteBufferInputStream_coll__map" alt="Collaboration graph"/></div>
-<map name="TWKBReader_8ByteBufferInputStream_coll__map" id="TWKBReader_8ByteBufferInputStream_coll__map">
+<div class="center"><img src="a05118.png" border="0" usemap="#RasterVectorRelationIntBinaryFunction_coll__map" alt="Collaboration graph"/></div>
+<map name="RasterVectorRelationIntBinaryFunction_coll__map" id="RasterVectorRelationIntBinaryFunction_coll__map">
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a45e3ebcf56fe2e78f77d9ddda8485fa0"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05120.html#a45e3ebcf56fe2e78f77d9ddda8485fa0">ByteBufferInputStream</a> (final ByteBuffer <a class="el" href="a05120.html#acb7716c09c3c94749ca0b1613ecfae6a">byteBuffer</a>)</td></tr>
-<tr class="separator:a45e3ebcf56fe2e78f77d9ddda8485fa0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaab5dab5b969a87f538242e524431637"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05120.html#aaab5dab5b969a87f538242e524431637">read</a> ()  throws IOException </td></tr>
-<tr class="separator:aaab5dab5b969a87f538242e524431637"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a248e13ef5029818776308e269fa7900e"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05120.html#a248e13ef5029818776308e269fa7900e">read</a> (final byte[] bytes, final int offset, final int length)  throws IOException </td></tr>
-<tr class="separator:a248e13ef5029818776308e269fa7900e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4549a76725f2e4c013e4d57018366109"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05120.html#a4549a76725f2e4c013e4d57018366109">available</a> ()  throws IOException </td></tr>
-<tr class="separator:a4549a76725f2e4c013e4d57018366109"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a43b4c73244bc6722ce551c1033cf1115"><td class="memItemLeft" align="right" valign="top">Value&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05120.html#a43b4c73244bc6722ce551c1033cf1115">evaluate</a> (ValueFactory valueFactory, Value... args)  throws ValueExprEvaluationException </td></tr>
+<tr class="separator:a43b4c73244bc6722ce551c1033cf1115"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1c73bf75db5306313ea4b0b4c2830d51"><td class="memItemLeft" align="right" valign="top">abstract Boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05120.html#a1c73bf75db5306313ea4b0b4c2830d51">relation</a> (Value v1, Value v2, Integer parameter)</td></tr>
+<tr class="separator:a1c73bf75db5306313ea4b0b4c2830d51"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
-Private Attributes</h2></td></tr>
-<tr class="memitem:acb7716c09c3c94749ca0b1613ecfae6a"><td class="memItemLeft" align="right" valign="top">final ByteBuffer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05120.html#acb7716c09c3c94749ca0b1613ecfae6a">byteBuffer</a></td></tr>
-<tr class="separator:acb7716c09c3c94749ca0b1613ecfae6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:ad5afdfd817cdf11ee0e48c7f56c5514c"><td class="memItemLeft" align="right" valign="top">static Boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05120.html#ad5afdfd817cdf11ee0e48c7f56c5514c">vectorOrRaster</a> (Literal lit)</td></tr>
+<tr class="separator:ad5afdfd817cdf11ee0e48c7f56c5514c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad5ea121d0231b4b209324202427665f0"><td class="memItemLeft" align="right" valign="top">static Literal&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05120.html#ad5ea121d0231b4b209324202427665f0">getLiteral</a> (Function func, Value v)  throws ValueExprEvaluationException </td></tr>
+<tr class="separator:ad5ea121d0231b4b209324202427665f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
+Static Public Attributes</h2></td></tr>
+<tr class="memitem:ac7dbee8298c097c6bd08da6002fd6ecb"><td class="memItemLeft" align="right" valign="top">static Set&lt; String &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05120.html#ac7dbee8298c097c6bd08da6002fd6ecb">rasterLiteralURIs</a> =new TreeSet&lt;String&gt;()</td></tr>
+<tr class="separator:ac7dbee8298c097c6bd08da6002fd6ecb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6e7c25bfd07628e3e74ea4e1ddfcae70"><td class="memItemLeft" align="right" valign="top">static Set&lt; String &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05120.html#a6e7c25bfd07628e3e74ea4e1ddfcae70">vectorLiteralURIs</a> =new TreeSet&lt;String&gt;()</td></tr>
+<tr class="separator:a6e7c25bfd07628e3e74ea4e1ddfcae70"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a45e3ebcf56fe2e78f77d9ddda8485fa0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a45e3ebcf56fe2e78f77d9ddda8485fa0">&#9670;&nbsp;</a></span>ByteBufferInputStream()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="a05120.html">ByteBufferInputStream</a> </td>
-          <td>(</td>
-          <td class="paramtype">final ByteBuffer&#160;</td>
-          <td class="paramname"><em>byteBuffer</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="reference">References <a class="el" href="a05120.html#acb7716c09c3c94749ca0b1613ecfae6a">TWKBReader.ByteBufferInputStream.byteBuffer</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="a05116.html#a4dc57ab77430b9455e05befca4bab869">TWKBReader.read()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;                                                             {</div><div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;     this.<a class="code" href="a05120.html#acb7716c09c3c94749ca0b1613ecfae6a">byteBuffer</a> = <a class="code" href="a05120.html#acb7716c09c3c94749ca0b1613ecfae6a">byteBuffer</a>;</div><div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;   }</div><div class="ttc" id="a05120_html_acb7716c09c3c94749ca0b1613ecfae6a"><div class="ttname"><a href="a05120.html#acb7716c09c3c94749ca0b1613ecfae6a">org.locationtech.geowave.core.geotime.util.TWKBReader.ByteBufferInputStream.byteBuffer</a></div><div class="ttdeci">final ByteBuffer byteBuffer</div><div class="ttdef"><b>Definition:</b> TWKBReader.java:34</div></div>
-</div><!-- fragment -->
-</div>
-</div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a4549a76725f2e4c013e4d57018366109"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4549a76725f2e4c013e4d57018366109">&#9670;&nbsp;</a></span>available()</h2>
+<a id="a43b4c73244bc6722ce551c1033cf1115"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a43b4c73244bc6722ce551c1033cf1115">&#9670;&nbsp;</a></span>evaluate()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int available </td>
+          <td class="memname">Value evaluate </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> throws IOException</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;                                             {</div><div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;     <span class="keywordflow">return</span> <a class="code" href="a05120.html#acb7716c09c3c94749ca0b1613ecfae6a">byteBuffer</a>.remaining();</div><div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;   }</div><div class="ttc" id="a05120_html_acb7716c09c3c94749ca0b1613ecfae6a"><div class="ttname"><a href="a05120.html#acb7716c09c3c94749ca0b1613ecfae6a">org.locationtech.geowave.core.geotime.util.TWKBReader.ByteBufferInputStream.byteBuffer</a></div><div class="ttdeci">final ByteBuffer byteBuffer</div><div class="ttdef"><b>Definition:</b> TWKBReader.java:34</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="aaab5dab5b969a87f538242e524431637"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aaab5dab5b969a87f538242e524431637">&#9670;&nbsp;</a></span>read() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">int read </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> throws IOException</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="a05116.html#a4dc57ab77430b9455e05befca4bab869">TWKBReader.read()</a>, and <a class="el" href="a05116.html#ab4d4478c3bf2e64323326c692fc8423c">TWKBReader.readGeometryCollection()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;                                        {</div><div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;     <span class="keywordflow">if</span> (!<a class="code" href="a05120.html#acb7716c09c3c94749ca0b1613ecfae6a">byteBuffer</a>.hasRemaining()) {</div><div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;       <span class="keywordflow">return</span> -1;</div><div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;     }</div><div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;     <span class="keywordflow">return</span> <a class="code" href="a05120.html#acb7716c09c3c94749ca0b1613ecfae6a">byteBuffer</a>.get() &amp; 0xFF;</div><div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;   }</div><div class="ttc" id="a05120_html_acb7716c09c3c94749ca0b1613ecfae6a"><div class="ttname"><a href="a05120.html#acb7716c09c3c94749ca0b1613ecfae6a">org.locationtech.geowave.core.geotime.util.TWKBReader.ByteBufferInputStream.byteBuffer</a></div><div class="ttdeci">final ByteBuffer byteBuffer</div><div class="ttdef"><b>Definition:</b> TWKBReader.java:34</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a248e13ef5029818776308e269fa7900e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a248e13ef5029818776308e269fa7900e">&#9670;&nbsp;</a></span>read() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">int read </td>
-          <td>(</td>
-          <td class="paramtype">final byte []&#160;</td>
-          <td class="paramname"><em>bytes</em>, </td>
+          <td class="paramtype">ValueFactory&#160;</td>
+          <td class="paramname"><em>valueFactory</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">final int&#160;</td>
-          <td class="paramname"><em>offset</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">final int&#160;</td>
-          <td class="paramname"><em>length</em>&#160;</td>
+          <td class="paramtype">Value...&#160;</td>
+          <td class="paramname"><em>args</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td> throws IOException</td>
+          <td></td><td> throws ValueExprEvaluationException</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;                                                                                              {</div><div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;     <span class="keywordflow">if</span> (length == 0) {</div><div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;       <span class="keywordflow">return</span> 0;</div><div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;     }</div><div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;     <span class="keyword">final</span> <span class="keywordtype">int</span> count = Math.min(<a class="code" href="a05120.html#acb7716c09c3c94749ca0b1613ecfae6a">byteBuffer</a>.remaining(), length);</div><div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;     <span class="keywordflow">if</span> (count == 0) {</div><div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;       <span class="keywordflow">return</span> -1;</div><div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;     }</div><div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;     <a class="code" href="a05120.html#acb7716c09c3c94749ca0b1613ecfae6a">byteBuffer</a>.get(bytes, offset, count);</div><div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;     <span class="keywordflow">return</span> count;</div><div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;   }</div><div class="ttc" id="a05120_html_acb7716c09c3c94749ca0b1613ecfae6a"><div class="ttname"><a href="a05120.html#acb7716c09c3c94749ca0b1613ecfae6a">org.locationtech.geowave.core.geotime.util.TWKBReader.ByteBufferInputStream.byteBuffer</a></div><div class="ttdeci">final ByteBuffer byteBuffer</div><div class="ttdef"><b>Definition:</b> TWKBReader.java:34</div></div>
-</div><!-- fragment -->
+
+<p class="reference">References <a class="el" href="a05120.html#a1c73bf75db5306313ea4b0b4c2830d51">RasterVectorRelationIntBinaryFunction.relation()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;                                                                                                            {</div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;                <span class="comment">// TODO Auto-generated method stub</span></div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;                <span class="keywordflow">return</span> null;</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;        }</div></div><!-- fragment -->
 </div>
 </div>
-<h2 class="groupheader">Member Data Documentation</h2>
-<a id="acb7716c09c3c94749ca0b1613ecfae6a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acb7716c09c3c94749ca0b1613ecfae6a">&#9670;&nbsp;</a></span>byteBuffer</h2>
+<a id="ad5ea121d0231b4b209324202427665f0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad5ea121d0231b4b209324202427665f0">&#9670;&nbsp;</a></span>getLiteral()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -208,17 +148,150 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">final ByteBuffer byteBuffer</td>
+          <td class="memname">static Literal getLiteral </td>
+          <td>(</td>
+          <td class="paramtype">Function&#160;</td>
+          <td class="paramname"><em>func</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Value&#160;</td>
+          <td class="paramname"><em>v</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> throws ValueExprEvaluationException</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="a05120.html#a45e3ebcf56fe2e78f77d9ddda8485fa0">TWKBReader.ByteBufferInputStream.ByteBufferInputStream()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="a04580.html#afc903896114f7537804d614c5d2cb701">DFullyWithin.relation()</a>, and <a class="el" href="a04588.html#afc903896114f7537804d614c5d2cb701">DWithin.relation()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;                                                                                                     {</div><div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;                <span class="keywordflow">if</span> (!(v instanceof Literal)) {</div><div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;                        <span class="keywordflow">throw</span> <span class="keyword">new</span> ValueExprEvaluationException(<span class="stringliteral">&quot;Invalid argument for &quot;</span> + func.getURI() + <span class="stringliteral">&quot;: &quot;</span> + v);</div><div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;                }</div><div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;                Literal lit = (Literal) v;</div><div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;                <span class="keywordflow">return</span> lit;</div><div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;        }</div></div><!-- fragment -->
+</div>
+</div>
+<a id="a1c73bf75db5306313ea4b0b4c2830d51"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1c73bf75db5306313ea4b0b4c2830d51">&#9670;&nbsp;</a></span>relation()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">abstract Boolean relation </td>
+          <td>(</td>
+          <td class="paramtype">Value&#160;</td>
+          <td class="paramname"><em>v1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Value&#160;</td>
+          <td class="paramname"><em>v2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Integer&#160;</td>
+          <td class="paramname"><em>parameter</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">abstract</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="a05120.html#a43b4c73244bc6722ce551c1033cf1115">RasterVectorRelationIntBinaryFunction.evaluate()</a>.</p>
+
+</div>
+</div>
+<a id="ad5afdfd817cdf11ee0e48c7f56c5514c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad5afdfd817cdf11ee0e48c7f56c5514c">&#9670;&nbsp;</a></span>vectorOrRaster()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static Boolean vectorOrRaster </td>
+          <td>(</td>
+          <td class="paramtype">Literal&#160;</td>
+          <td class="paramname"><em>lit</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="a04924.html#aca2348a6b1d6796d1e7034d4029e3817">LiteralRegistry.literals</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="a04580.html#afc903896114f7537804d614c5d2cb701">DFullyWithin.relation()</a>, and <a class="el" href="a04588.html#afc903896114f7537804d614c5d2cb701">DWithin.relation()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;                                                          {</div><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;                <span class="keywordflow">if</span>(LiteralRegistry.literals.containsKey(lit.getDatatype().toString())) {</div><div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;                        LiteralType lite=LiteralRegistry.literals.get(lit.getDatatype().toString());</div><div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;                        <span class="keywordflow">if</span>(lite instanceof VectorLiteral) {</div><div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;                                <span class="keywordflow">return</span> <span class="keyword">true</span>;</div><div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;                        }<span class="keywordflow">else</span> <span class="keywordflow">if</span>(lite instanceof RasterLiteral) {</div><div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;                                <span class="keywordflow">return</span> <span class="keyword">false</span>;</div><div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;                        }</div><div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;                }</div><div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;                <span class="keywordflow">return</span> null;</div><div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;        }</div></div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="ac7dbee8298c097c6bd08da6002fd6ecb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac7dbee8298c097c6bd08da6002fd6ecb">&#9670;&nbsp;</a></span>rasterLiteralURIs</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Set&lt;String&gt; rasterLiteralURIs =new TreeSet&lt;String&gt;()</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6e7c25bfd07628e3e74ea4e1ddfcae70"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6e7c25bfd07628e3e74ea4e1ddfcae70">&#9670;&nbsp;</a></span>vectorLiteralURIs</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Set&lt;String&gt; vectorLiteralURIs =new TreeSet&lt;String&gt;()</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -228,7 +301,7 @@ Private Attributes</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="a02559.html">org</a></li><li class="navelem"><a class="el" href="a02630.html">locationtech</a></li><li class="navelem"><a class="el" href="a02631.html">geowave</a></li><li class="navelem"><a class="el" href="a02632.html">core</a></li><li class="navelem"><a class="el" href="a02633.html">geotime</a></li><li class="navelem"><a class="el" href="a02629.html">util</a></li><li class="navelem"><a class="el" href="a05116.html">TWKBReader</a></li><li class="navelem"><a class="el" href="a05120.html">ByteBufferInputStream</a></li>
+    <li class="navelem"><a class="el" href="a02583.html">org</a></li><li class="navelem"><a class="el" href="a02584.html">eclipse</a></li><li class="navelem"><a class="el" href="a02585.html">rdf4j</a></li><li class="navelem"><a class="el" href="a02588.html">query</a></li><li class="navelem"><a class="el" href="a02589.html">algebra</a></li><li class="navelem"><a class="el" href="a02590.html">evaluation</a></li><li class="navelem"><a class="el" href="a02591.html">function</a></li><li class="navelem"><a class="el" href="a02592.html">postgis</a></li><li class="navelem"><a class="el" href="a02642.html">util</a></li><li class="navelem"><a class="el" href="a05120.html">RasterVectorRelationIntBinaryFunction</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>

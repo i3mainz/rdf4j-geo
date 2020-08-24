@@ -1,6 +1,7 @@
 var a05536 =
 [
-    [ "testRelate", "a05536.html#a8592662d9e01b3d8f2f9a86b6bb48372", null ],
-    [ "isocelesTriangle", "a05536.html#aa04dfbec745e2622b9f7646f8572e501", null ],
-    [ "notIsocelesTriangle", "a05536.html#a055d99fb63bcee37763ffcf4da9e0521", null ]
+    [ "testFurthestCoordinate", "a05536.html#a5bf1108229fcb950f9fe74e48a8aee7c", null ],
+    [ "result", "a05536.html#aab356d6554a7301750f11ec7a85ac47d", null ],
+    [ "testGeom", "a05536.html#a03a5f5da0ccbeed8c1678d4317cf2672", null ],
+    [ "testGeom2", "a05536.html#a6b4be369c8f60e973cd5126e69cd33a4", null ]
 ];

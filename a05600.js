@@ -1,6 +1,5 @@
 var a05600 =
 [
-    [ "testDensify", "a05600.html#a94a17603d200a0a1f4817b4687ee592d", null ],
-    [ "densified", "a05600.html#a2286b0f7822c7fda647fa426d8177283", null ],
-    [ "isocelesTriangle", "a05600.html#aa04dfbec745e2622b9f7646f8572e501", null ]
+    [ "testSridGetAxis1Name", "a05600.html#a15a1a9864e65a0020c26d406fd64b26a", null ],
+    [ "testPoint", "a05600.html#af26f700ee129f846cac58735f6dcc380", null ]
 ];

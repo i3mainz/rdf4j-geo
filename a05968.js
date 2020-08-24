@@ -1,7 +1,8 @@
 var a05968 =
 [
     [ "getInstance", "a05968.html#af8afdd14b38b523d100805364a48ed63", null ],
-    [ "testBand", "a05968.html#a2faee802b1b317c6ab8aef2ea846e168", null ],
+    [ "testEqual", "a05968.html#a2a99a285d6ad7938bb12707abf0b2dd2", null ],
+    [ "combinedRasterLiteral", "a05968.html#a6efe8702be34a67e2bcbba55588c5b5f", null ],
     [ "covJSONString1", "a05968.html#a993e2f127f3ec8f256e9799d77507223", null ],
     [ "hexwkbString1", "a05968.html#a55fb5b5d665417265da09403128e396e", null ],
     [ "minwkbString", "a05968.html#aa5e2b5a6005895fc20b9f35523569430", null ],

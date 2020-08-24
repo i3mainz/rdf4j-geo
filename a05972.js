@@ -1,8 +1,8 @@
 var a05972 =
 [
     [ "getInstance", "a05972.html#af8afdd14b38b523d100805364a48ed63", null ],
-    [ "testHasNoBandFalse", "a05972.html#aebe8ed03f160d5beda7d0cd9dbef82e1", null ],
-    [ "testHasNoBandTrue", "a05972.html#aedaa7e2bf39196ba3985d3209ab30b65", null ],
+    [ "testExp", "a05972.html#a903454c88a0d80bfdb55c6cd9679d9cc", null ],
+    [ "combinedRasterLiteral", "a05972.html#a6efe8702be34a67e2bcbba55588c5b5f", null ],
     [ "covJSONString1", "a05972.html#a993e2f127f3ec8f256e9799d77507223", null ],
     [ "hexwkbString1", "a05972.html#a55fb5b5d665417265da09403128e396e", null ],
     [ "minwkbString", "a05972.html#aa5e2b5a6005895fc20b9f35523569430", null ],

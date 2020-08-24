@@ -1,7 +1,8 @@
 var a05540 =
 [
-    [ "testShortestLine", "a05540.html#afa1a1d15c5b993ecdc02ab403652c157", null ],
-    [ "result", "a05540.html#aab356d6554a7301750f11ec7a85ac47d", null ],
-    [ "testGeom", "a05540.html#a03a5f5da0ccbeed8c1678d4317cf2672", null ],
-    [ "testGeom2", "a05540.html#a6b4be369c8f60e973cd5126e69cd33a4", null ]
+    [ "testHausdorffDistance", "a05540.html#a865da90312a6602e13430f1b3218608b", null ],
+    [ "testGeom1", "a05540.html#aa4a3b1a7e778ece72382f6600fa96b47", null ],
+    [ "testGeom2", "a05540.html#a6b4be369c8f60e973cd5126e69cd33a4", null ],
+    [ "testGeom3", "a05540.html#a800b6bb875a8ff4404ea787c3df125a5", null ],
+    [ "testGeom4", "a05540.html#a4c55e7efe430d6d220fb05524c4bb940", null ]
 ];

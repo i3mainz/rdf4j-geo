@@ -1,6 +1,6 @@
 var a05652 =
 [
-    [ "testShiftLongitude", "a05652.html#a706f714749526b3516c84d5741993811", null ],
-    [ "result", "a05652.html#aab356d6554a7301750f11ec7a85ac47d", null ],
-    [ "testPolygon", "a05652.html#a1e3187cbc25299380589200c398b3ffd", null ]
+    [ "testDensify", "a05652.html#a94a17603d200a0a1f4817b4687ee592d", null ],
+    [ "densified", "a05652.html#a2286b0f7822c7fda647fa426d8177283", null ],
+    [ "isocelesTriangle", "a05652.html#aa04dfbec745e2622b9f7646f8572e501", null ]
 ];

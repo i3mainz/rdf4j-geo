@@ -1,14 +1,10 @@
 var a05040 =
 [
-    [ "Feature", "a05040.html#a25b3a15065bb9a73fee34b7379efbc3d", null ],
-    [ "getAttributes", "a05040.html#a53df620362bb32e76ab5ba5eafd8d7f8", null ],
-    [ "getExtent", "a05040.html#a60bfe2643b9af68293e713563b2792aa", null ],
-    [ "getGeometry", "a05040.html#ac87f55eacfa366a66a2ee6ff6c2ab40b", null ],
-    [ "getId", "a05040.html#ac7a54ea5a10c5c4683f16e3f83f77104", null ],
-    [ "getLayerName", "a05040.html#abd0c38e946022b804d4941aba21e6fe1", null ],
-    [ "attributes", "a05040.html#aae9ec0aefa9ddf1a254dcbc8921f46b6", null ],
-    [ "extent", "a05040.html#a6156e4ea9ca15fc926007ca518111147", null ],
-    [ "geometry", "a05040.html#ab673ef7c52790753f9f4280de525611c", null ],
-    [ "id", "a05040.html#a98e184e3edd9278aa1590f8a1c9515d7", null ],
-    [ "layerName", "a05040.html#a46934b2a2a8bed19bd956bc3d16b9aa1", null ]
+    [ "WKBTextSRS", "a05044.html", "a05044" ],
+    [ "read", "a05040.html#a793358fbd6ef538a24eabab1bd50ef01", null ],
+    [ "toString", "a05040.html#ad146fa8579a5f8a876c4688cc5a68520", null ],
+    [ "unparse", "a05040.html#ae918a517e1ebcc44beeee2c55008d248", null ],
+    [ "INSTANCE", "a05040.html#aaa7aacfed1dc452cff60a903d92cabb2", null ],
+    [ "LiteralIRI", "a05040.html#ae02c2e86ac0dea8538c7b43e9e82421a", null ],
+    [ "URI", "a05040.html#addbf30e6c0ad68fa34277d59a2c6eb5e", null ]
 ];

@@ -1,7 +1,7 @@
 var a05216 =
 [
-    [ "testBBOXRightOf", "a05216.html#a1d3293620606e59a1f913178b94ea7fd", null ],
-    [ "testBBOXRightOf1", "a05216.html#ae27abe3e3daa14fdd8094ad71b5cb2cc", null ],
+    [ "testBBOXAbove", "a05216.html#a0e5151be9c17b1a363f0e9587a76dad8", null ],
+    [ "testBBOXAbove1", "a05216.html#afef7a8dc9560d094946b475413049d29", null ],
     [ "testGeom1", "a05216.html#aa4a3b1a7e778ece72382f6600fa96b47", null ],
     [ "testGeom2", "a05216.html#a6b4be369c8f60e973cd5126e69cd33a4", null ],
     [ "testGeom3", "a05216.html#a800b6bb875a8ff4404ea787c3df125a5", null ],

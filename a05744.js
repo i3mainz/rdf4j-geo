@@ -1,5 +1,9 @@
 var a05744 =
 [
-    [ "testZMax", "a05744.html#aa30e80ee55397130f30395f3c09b1e39", null ],
-    [ "testPoint", "a05744.html#af26f700ee129f846cac58735f6dcc380", null ]
+    [ "testNoSelfIntersections", "a05744.html#a08dd11e1d44a910007de229eada7aa6d", null ],
+    [ "testSelfIntersections", "a05744.html#a3d2c64bb3b45c45751b144babb6906da", null ],
+    [ "intersectResult", "a05744.html#ab431ece386e282254dd754494c7f6cd0", null ],
+    [ "intersectResult2", "a05744.html#a94c72a35c99c7c55f05a1f50c20f6cfd", null ],
+    [ "testGeom", "a05744.html#a03a5f5da0ccbeed8c1678d4317cf2672", null ],
+    [ "testGeom2", "a05744.html#a6b4be369c8f60e973cd5126e69cd33a4", null ]
 ];

@@ -1,6 +1,6 @@
 var a05704 =
 [
-    [ "testLineString2D", "a05704.html#a100e1041d9eed0108cb20adfb3ccb714", null ],
-    [ "LineString2D", "a05704.html#a4a6127d0b7f1eecce2d32442325f7735", null ],
-    [ "point", "a05704.html#a081811ff1c2bedd0a20703599f90114f", null ]
+    [ "testShiftLongitude", "a05704.html#a706f714749526b3516c84d5741993811", null ],
+    [ "result", "a05704.html#aab356d6554a7301750f11ec7a85ac47d", null ],
+    [ "testPolygon", "a05704.html#a1e3187cbc25299380589200c398b3ffd", null ]
 ];

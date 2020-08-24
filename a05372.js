@@ -1,6 +1,5 @@
 var a05372 =
 [
-    [ "testAddGeometry", "a05372.html#a4ebf1443292e242753148cb8748d9169", null ],
-    [ "lineString", "a05372.html#a76e109dc83d6f4d16fcd2fa3e73054f6", null ],
-    [ "point", "a05372.html#a081811ff1c2bedd0a20703599f90114f", null ]
+    [ "testMinimumRectangle", "a05372.html#a113f2072fe3a9c6603a02548b81f6545", null ],
+    [ "testPolygon", "a05372.html#a1e3187cbc25299380589200c398b3ffd", null ]
 ];

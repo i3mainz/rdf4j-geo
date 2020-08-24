@@ -1,11 +1,11 @@
 var a05168 =
 [
-    [ "LengthToPoint", "a05168.html#a240c29c1439f065c4a8ba368d3939d77", null ],
-    [ "computeLength", "a05168.html#a38bb2c05753ecb2766c7165fe435b8f4", null ],
-    [ "getLength", "a05168.html#ad38c5c76d09d90c6f92e043aca622ee9", null ],
-    [ "length", "a05168.html#a6a53c15d31eb67b1bbbccd1a406d1996", null ],
-    [ "lengthAlongSegment", "a05168.html#a111d4c1b1f75a9ce7d3d064d3d1eb2e5", null ],
-    [ "updateLength", "a05168.html#a9d5b2181752a05941b27adcec1703c38", null ],
-    [ "locationLength", "a05168.html#ace4b03aa8fde8dc676bc91c1e7cf3b77", null ],
-    [ "minDistanceToPoint", "a05168.html#a8c1ee7f7f7146ea833c6b544dcc60243", null ]
+    [ "ExtendedPrecisionReader", "a05168.html#a82112ea6921f2d28f7663dfa20ae32c6", null ],
+    [ "readPoint", "a05168.html#a04d3647950410c96c47734decf0e12b5", null ],
+    [ "readPointArray", "a05168.html#a1bbf2e471d2964af19292437ad42729b", null ],
+    [ "hasM", "a05168.html#a1eccf09f4c826ba480ec832ac4ce7718", null ],
+    [ "hasZ", "a05168.html#ab356995ed7cff0226d75484d03a994f2", null ],
+    [ "mPrecisionMultiplier", "a05168.html#a4ea667f57906c038bb9717bc848df77a", null ],
+    [ "precisionMultiplier", "a05168.html#a9aa85be4ec02c28a05cb552845fe08eb", null ],
+    [ "zPrecisionMultiplier", "a05168.html#abb32d6067d519044d8c44d52ab2cdd44", null ]
 ];

@@ -1,8 +1,5 @@
 var a05700 =
 [
-    [ "testMakeLine1", "a05700.html#ae1794702b16fed527256a87c40858865", null ],
-    [ "testLine", "a05700.html#a297965df8c894198eea7203fde37542b", null ],
-    [ "testPoint1", "a05700.html#ab20d196cb6e34afc2e9cff8074e43bfd", null ],
-    [ "testPoint2", "a05700.html#aa0c0c6f5dda7a397fc50f4c22a2b180f", null ],
-    [ "testPointM", "a05700.html#a53dc8585c2a440c472be9609c86b0601", null ]
+    [ "testReverse", "a05700.html#ac38f1a963c4494ff939bad764b01b127", null ],
+    [ "testLineString", "a05700.html#a33797029fadbcba01b4a4fafec88cf41", null ]
 ];

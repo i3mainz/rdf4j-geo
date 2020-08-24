@@ -1,17 +1,10 @@
 var a05088 =
 [
-    [ "SampleDimensionType", "a05088.html#ac4656188dc6dc6d0e4ef66fc034f007a", null ],
-    [ "family", "a05088.html#aeaaf4d39c7b3cf733d53fd480402fa4a", null ],
-    [ "REAL_32BITS", "a05088.html#a4661791c7fdef1dd6b7c378997ab136b", null ],
-    [ "REAL_64BITS", "a05088.html#acf48844a1576a02e799a3d928eee8692", null ],
-    [ "SIGNED_16BITS", "a05088.html#a212388497db9120bc7f72dd21cb42155", null ],
-    [ "SIGNED_32BITS", "a05088.html#ac8f0730059b0c8995cd92b44e7f497bd", null ],
-    [ "SIGNED_8BITS", "a05088.html#a8325ed259325342303705b314d8862a7", null ],
-    [ "UNSIGNED_16BITS", "a05088.html#a0f26f59268649ca0a5ed3cef8d270f16", null ],
-    [ "UNSIGNED_1BIT", "a05088.html#ab05c9236ffa258b1889bcdb7af336eaf", null ],
-    [ "UNSIGNED_2BITS", "a05088.html#a21e1d1ca3035d887200d51acf209dd9a", null ],
-    [ "UNSIGNED_32BITS", "a05088.html#a8c90457fceea81d745b1863f8df3c7e8", null ],
-    [ "UNSIGNED_4BITS", "a05088.html#ae2428a486b2345e3c8dd77be7422ba05", null ],
-    [ "UNSIGNED_8BITS", "a05088.html#ad125fdd898ef56e093ed2c7f246f9179", null ],
-    [ "VALUES", "a05088.html#ae6664f693fbc6259d4f449ce5e918c87", null ]
+    [ "key", "a05088.html#a807f334d405d92bd2f38c380d4b9ed9a", null ],
+    [ "keys", "a05088.html#a5b7e54bc6f4d8855104d09ef3adb2606", null ],
+    [ "value", "a05088.html#a3220129efaffe512a5dded79b4e142ac", null ],
+    [ "values", "a05088.html#a297c543701acc405ac68122b9642cb28", null ],
+    [ "features", "a05088.html#a2b66f5f4579c910c9f7b7ccc043c3037", null ],
+    [ "keys", "a05088.html#a885c190e82027881ec3ed1533283c966", null ],
+    [ "values", "a05088.html#a8159c164675963389d4522cae972207b", null ]
 ];

@@ -1,6 +1,8 @@
 var a05052 =
 [
-    [ "geometry", "a05052.html#a6d74c3aac1525133bde98589527d1591", null ],
-    [ "id", "a05052.html#a7350fbd6ad10618f3b750b1f99ca5c3c", null ],
-    [ "tags", "a05052.html#a07f0767bc5cf0b77ab9cb1aa260765d5", null ]
+    [ "WKBTextSRS", "a05052.html#a12d2a5c4b7a29eae5d108bccb1e55b11", null ],
+    [ "getSrsURI", "a05052.html#a7d7dded4f73b0a90d90f68ccc5f16bc3", null ],
+    [ "getWkbText", "a05052.html#a4a2ce7a2dcd4fa0818378fb8b97931fb", null ],
+    [ "srsURI", "a05052.html#aaa7845d06052bead86bb2de40935e4d9", null ],
+    [ "wkbText", "a05052.html#a7b6ce5371e4ad222f4b09eaadfdcae09", null ]
 ];

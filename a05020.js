@@ -1,6 +1,9 @@
 var a05020 =
 [
-    [ "covJSONStringToCoverage", "a05020.html#ae6decb7a4836a29eec58527d271446a5", null ],
-    [ "covJSONToCoverage", "a05020.html#a6173d2d815625f94083125827c923521", null ],
-    [ "main", "a05020.html#a8b260eecbaabcef8473fd87ada040682", null ]
+    [ "read", "a05020.html#a793358fbd6ef538a24eabab1bd50ef01", null ],
+    [ "unparse", "a05020.html#ae918a517e1ebcc44beeee2c55008d248", null ],
+    [ "INSTANCE", "a05020.html#a37c7ccb039944a2be5bb9e33d190e504", null ],
+    [ "reader", "a05020.html#aa1b091a220c464a72ed08bd283083286", null ],
+    [ "URI", "a05020.html#addbf30e6c0ad68fa34277d59a2c6eb5e", null ],
+    [ "writer", "a05020.html#ae01fec3f5b78891669c5ad222eef8ca7", null ]
 ];

@@ -1,6 +1,6 @@
 var a05532 =
 [
-    [ "testRelateMatchFalse", "a05532.html#a16bf67312d8af3e076076fd8097969c5", null ],
-    [ "testRelateMatchTrue", "a05532.html#a47e32d919c84c1edd508a45d6c670e90", null ],
-    [ "notIsocelesTriangle", "a05532.html#a055d99fb63bcee37763ffcf4da9e0521", null ]
+    [ "testFullyWithinDistanceFalse", "a05532.html#ae3a3dc920c5179e22a01c5c5682989bd", null ],
+    [ "testGeom", "a05532.html#a03a5f5da0ccbeed8c1678d4317cf2672", null ],
+    [ "testGeom2", "a05532.html#a6b4be369c8f60e973cd5126e69cd33a4", null ]
 ];

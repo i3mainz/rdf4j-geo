@@ -1,8 +1,10 @@
 var a02629 =
 [
-    [ "Resample", "a04617.html", "a04617" ],
-    [ "Rescale", "a04621.html", "a04621" ],
-    [ "Resize", "a04625.html", null ],
-    [ "Reskew", "a04629.html", null ],
-    [ "Transform", "a04633.html", null ]
+    [ "AddBand", "a04512.html", "a04512" ],
+    [ "SetBandNoDataValue", "a04516.html", "a04516" ],
+    [ "SetGeoReference", "a04520.html", null ],
+    [ "SetRotation", "a04524.html", "a04524" ],
+    [ "SetScale", "a04528.html", "a04528" ],
+    [ "SetSkew", "a04532.html", "a04532" ],
+    [ "SetUpperLeft", "a04536.html", "a04536" ]
 ];

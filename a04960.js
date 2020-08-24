@@ -1,10 +1,9 @@
 var a04960 =
 [
-    [ "read", "a04960.html#a793358fbd6ef538a24eabab1bd50ef01", null ],
-    [ "unparse", "a04960.html#a8f23415f60c2281824a1ca004a2fce9b", null ],
-    [ "INSTANCE", "a04960.html#adbea894b7f5a12d5d110c7b4f9ae435e", null ],
-    [ "out", "a04960.html#ab64766cccc4f8fdf5c87b8bcc9493c4a", null ],
-    [ "out2", "a04960.html#a48b1d378681cc025612af2d5d3f4e749", null ],
-    [ "out3", "a04960.html#aaa6d0ac1bcefab2bfcec1f103c1aec4d", null ],
+    [ "read", "a04960.html#a8c18fe591d282696a39a8b3d522bc499", null ],
+    [ "toString", "a04960.html#ad146fa8579a5f8a876c4688cc5a68520", null ],
+    [ "unparse", "a04960.html#a3f8b22cffa4a049b993a6fd1d9f44ad5", null ],
+    [ "INSTANCE", "a04960.html#af65faaf63a905c915d906e2058488627", null ],
+    [ "LiteralIRI", "a04960.html#ae02c2e86ac0dea8538c7b43e9e82421a", null ],
     [ "URI", "a04960.html#addbf30e6c0ad68fa34277d59a2c6eb5e", null ]
 ];

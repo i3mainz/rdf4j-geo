@@ -1,7 +1,5 @@
 var a05812 =
 [
-    [ "testHasDuplicateRingsFalse", "a05812.html#a3957683118b9d5473c635a38d7e6c6e8", null ],
-    [ "testHasDuplicateRingsTrue", "a05812.html#a3779f6b4849bf60c716f7dff71089a2a", null ],
-    [ "duplicateRings", "a05812.html#a92f3ef00fc079a76b7f943d9ed6cec77", null ],
-    [ "nonduplicateRings", "a05812.html#a675a0b1b194538fc07fa716705f883a5", null ]
+    [ "testZMin", "a05812.html#a4611a55cc1ca54817f58770fda369856", null ],
+    [ "testPoint", "a05812.html#af26f700ee129f846cac58735f6dcc380", null ]
 ];

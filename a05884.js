@@ -1,6 +1,7 @@
 var a05884 =
 [
-    [ "testReverseRing", "a05884.html#a341309060348e532f6606d50945a52bd", null ],
-    [ "duplicateRings", "a05884.html#a92f3ef00fc079a76b7f943d9ed6cec77", null ],
-    [ "nonduplicateRings", "a05884.html#a675a0b1b194538fc07fa716705f883a5", null ]
+    [ "testIsIsocelesTriangleFalse", "a05884.html#aa81dce05daae6f34aac43c24bd033ef0", null ],
+    [ "testIsIsocelesTriangleTrue", "a05884.html#aae4d62f37acbace0beb2e9dbba631072", null ],
+    [ "isocelesTriangle", "a05884.html#aa04dfbec745e2622b9f7646f8572e501", null ],
+    [ "notIsocelesTriangle", "a05884.html#a055d99fb63bcee37763ffcf4da9e0521", null ]
 ];

@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>rdf4j-postgis: AsGeoJSONTest Class Reference</title>
+<title>rdf4j-postgis: GeomFromWKBTest Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -65,51 +65,51 @@ $(document).ready(function(){initNavTree('a05408.html','');});
 <a href="#pub-static-attribs">Static Public Attributes</a> &#124;
 <a href="a05405.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">AsGeoJSONTest Class Reference</div>  </div>
+<div class="title">GeomFromWKBTest Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 <div class="dynheader">
-Collaboration diagram for AsGeoJSONTest:</div>
+Collaboration diagram for GeomFromWKBTest:</div>
 <div class="dyncontent">
-<div class="center"><img src="a05406.png" border="0" usemap="#AsGeoJSONTest_coll__map" alt="Collaboration graph"/></div>
-<map name="AsGeoJSONTest_coll__map" id="AsGeoJSONTest_coll__map">
+<div class="center"><img src="a05406.png" border="0" usemap="#GeomFromWKBTest_coll__map" alt="Collaboration graph"/></div>
+<map name="GeomFromWKBTest_coll__map" id="GeomFromWKBTest_coll__map">
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a6aee2cc3188bbf40fb4d946ed66e57c2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05408.html#a6aee2cc3188bbf40fb4d946ed66e57c2">testAsGeoJSON</a> ()</td></tr>
-<tr class="separator:a6aee2cc3188bbf40fb4d946ed66e57c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acc0d76b6d1ae096d932e1752a6bc8479"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05408.html#acc0d76b6d1ae096d932e1752a6bc8479">testGeomFromWKB</a> ()  throws ParseException </td></tr>
+<tr class="separator:acc0d76b6d1ae096d932e1752a6bc8479"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
-<tr class="memitem:abc3f514f005cba49e406658e2d3086eb"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05408.html#abc3f514f005cba49e406658e2d3086eb">testGeometry</a> =&quot;LINESTRING(1 2 3, 4 5 6)&quot;</td></tr>
-<tr class="separator:abc3f514f005cba49e406658e2d3086eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a117e8ff340791b5aa0658f5840b5dcf4"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05408.html#a117e8ff340791b5aa0658f5840b5dcf4">geoJsonTestGeom</a> =&quot;\\001\\002\\000\\000\\000\\002\\000\\000\\000\\037\\205\\353Q\\270~\\\\\\300\\323Mb\\020X\\231C@\\020X9\\264\\310~\\\\\\300)\\\\\\217\\302\\365\\230C@&quot;</td></tr>
+<tr class="separator:a117e8ff340791b5aa0658f5840b5dcf4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a6aee2cc3188bbf40fb4d946ed66e57c2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6aee2cc3188bbf40fb4d946ed66e57c2">&#9670;&nbsp;</a></span>testAsGeoJSON()</h2>
+<a id="acc0d76b6d1ae096d932e1752a6bc8479"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acc0d76b6d1ae096d932e1752a6bc8479">&#9670;&nbsp;</a></span>testGeomFromWKB()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void testAsGeoJSON </td>
+          <td class="memname">void testGeomFromWKB </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td></td>
+          <td> throws ParseException</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="a03176.html#a43b4c73244bc6722ce551c1033cf1115">GeometricStringExportFunction.evaluate()</a>, and <a class="el" href="a05008.html#ae02c2e86ac0dea8538c7b43e9e82421a">WKTDatatype.LiteralIRI</a>.</p>
-<div class="fragment"><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;                                    {</div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;                AsGeoJSON instance=<span class="keyword">new</span> AsGeoJSON();</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;                ValueFactory valfac=SimpleValueFactory.getInstance();</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;                Value geo=valfac.createLiteral(<a class="code" href="a05408.html#abc3f514f005cba49e406658e2d3086eb">testGeometry</a>, WKTDatatype.LiteralIRI);</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;                Value result=instance.evaluate(valfac, geo);</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;                Value expResult=valfac.createLiteral(<span class="stringliteral">&quot;{\&quot;type\&quot;:\&quot;LineString\&quot;,\&quot;coordinates\&quot;:[[1.0,2.0,3.0],[4.0,5.0,6.0]]}&quot;</span>);</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;            assertEquals(expResult, result);</div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;        }</div><div class="ttc" id="a05408_html_abc3f514f005cba49e406658e2d3086eb"><div class="ttname"><a href="a05408.html#abc3f514f005cba49e406658e2d3086eb">org.eclipse.rdf4j.testsuites.postgis.geometry.exporter.AsGeoJSONTest.testGeometry</a></div><div class="ttdeci">static final String testGeometry</div><div class="ttdef"><b>Definition:</b> AsGeoJSONTest.java:15</div></div>
+<p class="reference">References <a class="el" href="a03104.html#a43b4c73244bc6722ce551c1033cf1115">GeometricConstructor.evaluate()</a>, <a class="el" href="a05048.html#ae02c2e86ac0dea8538c7b43e9e82421a">WKTDatatype.LiteralIRI</a>, and <a class="el" href="a05040.html#ae02c2e86ac0dea8538c7b43e9e82421a">WKBDatatype.LiteralIRI</a>.</p>
+<div class="fragment"><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;                                                            {           </div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;        GeomFromWKB instance=<span class="keyword">new</span> GeomFromWKB();</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;                ValueFactory valfac=SimpleValueFactory.getInstance();</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;                Value geo=valfac.createLiteral(<a class="code" href="a05408.html#a117e8ff340791b5aa0658f5840b5dcf4">geoJsonTestGeom</a>, WKBDatatype.LiteralIRI);</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;                Value result=instance.evaluate(valfac,geo);</div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;                Value expResult=valfac.createLiteral(<span class="stringliteral">&quot;POINT (-48.23456 20.12345)&quot;</span>, WKTDatatype.LiteralIRI);</div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;                assertEquals(expResult, result);</div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;        }</div><div class="ttc" id="a05408_html_a117e8ff340791b5aa0658f5840b5dcf4"><div class="ttname"><a href="a05408.html#a117e8ff340791b5aa0658f5840b5dcf4">org.eclipse.rdf4j.testsuites.postgis.geometry.constructor.GeomFromWKBTest.geoJsonTestGeom</a></div><div class="ttdeci">static final String geoJsonTestGeom</div><div class="ttdef"><b>Definition:</b> GeomFromWKBTest.java:17</div></div>
 </div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="abc3f514f005cba49e406658e2d3086eb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abc3f514f005cba49e406658e2d3086eb">&#9670;&nbsp;</a></span>testGeometry</h2>
+<a id="a117e8ff340791b5aa0658f5840b5dcf4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a117e8ff340791b5aa0658f5840b5dcf4">&#9670;&nbsp;</a></span>geoJsonTestGeom</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -118,7 +118,7 @@ Static Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">final String testGeometry =&quot;LINESTRING(1 2 3, 4 5 6)&quot;</td>
+          <td class="memname">final String geoJsonTestGeom =&quot;\\001\\002\\000\\000\\000\\002\\000\\000\\000\\037\\205\\353Q\\270~\\\\\\300\\323Mb\\020X\\231C@\\020X9\\264\\310~\\\\\\300)\\\\\\217\\302\\365\\230C@&quot;</td>
         </tr>
       </table>
   </td>
@@ -136,7 +136,7 @@ Static Public Attributes</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="a02559.html">org</a></li><li class="navelem"><a class="el" href="a02560.html">eclipse</a></li><li class="navelem"><a class="el" href="a02561.html">rdf4j</a></li><li class="navelem"><a class="el" href="a02642.html">testsuites</a></li><li class="navelem"><a class="el" href="a02643.html">postgis</a></li><li class="navelem"><a class="el" href="a02646.html">geometry</a></li><li class="navelem"><a class="el" href="a02649.html">exporter</a></li><li class="navelem"><a class="el" href="a05408.html">AsGeoJSONTest</a></li>
+    <li class="navelem"><a class="el" href="a02583.html">org</a></li><li class="navelem"><a class="el" href="a02584.html">eclipse</a></li><li class="navelem"><a class="el" href="a02585.html">rdf4j</a></li><li class="navelem"><a class="el" href="a02666.html">testsuites</a></li><li class="navelem"><a class="el" href="a02667.html">postgis</a></li><li class="navelem"><a class="el" href="a02670.html">geometry</a></li><li class="navelem"><a class="el" href="a02671.html">constructor</a></li><li class="navelem"><a class="el" href="a05408.html">GeomFromWKBTest</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>

@@ -1,5 +1,5 @@
 var a05404 =
 [
-    [ "testAsGARS", "a05404.html#a80929de20ed59fa635418039d48a9ef7", null ],
-    [ "testPoint", "a05404.html#af26f700ee129f846cac58735f6dcc380", null ]
+    [ "testGeomFromText", "a05404.html#a2678d2fcc796b673cc52b0e000a954b0", null ],
+    [ "geoJsonTestGeom", "a05404.html#a117e8ff340791b5aa0658f5840b5dcf4", null ]
 ];

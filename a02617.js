@@ -1,8 +1,9 @@
 var a02617 =
 [
-    [ "attribute", "a02616.html", "a02616" ],
-    [ "constructor", "a02618.html", "a02618" ],
-    [ "editor", "a02619.html", "a02619" ],
-    [ "transform", "a02620.html", "a02620" ],
-    [ "InteriorRingN", "a04073.html", "a04073" ]
+    [ "GeneratePoints", "a03948.html", "a03948" ],
+    [ "MakePoint", "a03952.html", "a03952" ],
+    [ "MPointFromText", "a03956.html", "a03956" ],
+    [ "PointFromGeoHash", "a03960.html", "a03960" ],
+    [ "PointFromText", "a03964.html", "a03964" ],
+    [ "PointFromWKB", "a03968.html", "a03968" ]
 ];

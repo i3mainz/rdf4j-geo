@@ -1,6 +1,5 @@
 var a05456 =
 [
-    [ "testAreaSimilarity", "a05456.html#a6be5d939e472b1ba6360e0aed0003e21", null ],
-    [ "isocelesTriangle", "a05456.html#aa04dfbec745e2622b9f7646f8572e501", null ],
-    [ "notIsocelesTriangle", "a05456.html#a055d99fb63bcee37763ffcf4da9e0521", null ]
+    [ "testAsGeoURI", "a05456.html#aae403d68ccc2ecfb409ca338b5ba0101", null ],
+    [ "testGeometry", "a05456.html#abc3f514f005cba49e406658e2d3086eb", null ]
 ];

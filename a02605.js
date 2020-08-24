@@ -1,12 +1,17 @@
 var a02605 =
 [
-    [ "attribute", "a02604.html", "a02604" ],
-    [ "constructor", "a02606.html", "a02606" ],
-    [ "editor", "a02607.html", "a02607" ],
-    [ "exporter", "a02608.html", "a02608" ],
-    [ "relation", "a02609.html", "a02609" ],
-    [ "transform", "a02610.html", "a02610" ],
-    [ "LengthToPoint", "a03749.html", "a03749" ],
-    [ "LineInterpolatePoint", "a03753.html", "a03753" ],
-    [ "Linesubstring", "a03757.html", null ]
+    [ "EPSGToSRID", "a03472.html", "a03472" ],
+    [ "EPSGToWKT", "a03476.html", "a03476" ],
+    [ "GeomCRSToWKT", "a03480.html", "a03480" ],
+    [ "SridGetAxis1Name", "a03484.html", "a03484" ],
+    [ "SridGetAxis1Orientation", "a03488.html", "a03488" ],
+    [ "SridGetAxis2Name", "a03492.html", "a03492" ],
+    [ "SridGetAxis2Orientation", "a03496.html", "a03496" ],
+    [ "SridGetDatum", "a03500.html", "a03500" ],
+    [ "SridHasFlippedAxis", "a03504.html", "a03504" ],
+    [ "SridIsGeographic", "a03508.html", "a03508" ],
+    [ "SridIsProjected", "a03512.html", "a03512" ],
+    [ "SridIsVertical", "a03516.html", "a03516" ],
+    [ "SRIDToEPSG", "a03520.html", "a03520" ],
+    [ "SRIDToWKT", "a03524.html", "a03524" ]
 ];

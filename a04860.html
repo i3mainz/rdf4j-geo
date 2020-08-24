@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>rdf4j-postgis: Tangent Class Reference</title>
+<title>rdf4j-postgis: Exp Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -64,21 +64,21 @@ $(document).ready(function(){initNavTree('a04860.html','');});
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="a04857.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">Tangent Class Reference</div>  </div>
+<div class="title">Exp Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 <div class="dynheader">
-Inheritance diagram for Tangent:</div>
+Inheritance diagram for Exp:</div>
 <div class="dyncontent">
-<div class="center"><img src="a04859.png" border="0" usemap="#Tangent_inherit__map" alt="Inheritance graph"/></div>
-<map name="Tangent_inherit__map" id="Tangent_inherit__map">
+<div class="center"><img src="a04859.png" border="0" usemap="#Exp_inherit__map" alt="Inheritance graph"/></div>
+<map name="Exp_inherit__map" id="Exp_inherit__map">
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <div class="dynheader">
-Collaboration diagram for Tangent:</div>
+Collaboration diagram for Exp:</div>
 <div class="dyncontent">
-<div class="center"><img src="a04858.png" border="0" usemap="#Tangent_coll__map" alt="Collaboration graph"/></div>
-<map name="Tangent_coll__map" id="Tangent_coll__map">
+<div class="center"><img src="a04858.png" border="0" usemap="#Exp_coll__map" alt="Collaboration graph"/></div>
+<map name="Exp_coll__map" id="Exp_coll__map">
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -116,8 +116,8 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="a04860.html#ad9fb16b36dd4ccc533d4f05ff94646e3">Tangent.getURI()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;                                                                                                            {</div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;                <span class="keywordflow">if</span> (args.length != 1) {</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;                        <span class="keywordflow">throw</span> <span class="keyword">new</span> ValueExprEvaluationException(<a class="code" href="a04860.html#ad9fb16b36dd4ccc533d4f05ff94646e3">getURI</a>() + <span class="stringliteral">&quot; requires exactly 1 arguments, got &quot;</span> + args.length);</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;                }                       </div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;                Double value=Double.valueOf(args[0].stringValue());</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;                <span class="keywordflow">return</span> valueFactory.createLiteral(Math.tan(value));</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;        }</div><div class="ttc" id="a04860_html_ad9fb16b36dd4ccc533d4f05ff94646e3"><div class="ttname"><a href="a04860.html#ad9fb16b36dd4ccc533d4f05ff94646e3">org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.functions.math.Tangent.getURI</a></div><div class="ttdeci">String getURI()</div><div class="ttdef"><b>Definition:</b> util/functions/math/Tangent.java:12</div></div>
+<p class="reference">References <a class="el" href="a04860.html#ad9fb16b36dd4ccc533d4f05ff94646e3">Exp.getURI()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;                                                                                                            {</div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;                <span class="keywordflow">if</span> (args.length != 1) {</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;                        <span class="keywordflow">throw</span> <span class="keyword">new</span> ValueExprEvaluationException(<a class="code" href="a04860.html#ad9fb16b36dd4ccc533d4f05ff94646e3">getURI</a>() + <span class="stringliteral">&quot; requires exactly 1 arguments, got &quot;</span> + args.length);</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;                }                       </div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;                Double value=Double.valueOf(args[0].stringValue());</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;                <span class="keywordflow">return</span> valueFactory.createLiteral(Math.exp(value));</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;        }</div><div class="ttc" id="a04860_html_ad9fb16b36dd4ccc533d4f05ff94646e3"><div class="ttname"><a href="a04860.html#ad9fb16b36dd4ccc533d4f05ff94646e3">org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.functions.math.Exp.getURI</a></div><div class="ttdeci">String getURI()</div><div class="ttdef"><b>Definition:</b> util/functions/math/Exp.java:12</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -136,10 +136,10 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="a02708.html#a8641519981b960ee007ab374fb0d48bf">POSTGIS.Tan</a>.</p>
+<p class="reference">References <a class="el" href="a02732.html#a27dcd393935dede51f0ccf98a12894fc">POSTGIS.Exp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="a04860.html#a43b4c73244bc6722ce551c1033cf1115">Tangent.evaluate()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;                               {</div><div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;                <span class="comment">// TODO Auto-generated method stub</span></div><div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;                <span class="keywordflow">return</span> POSTGIS.Tan.stringValue();</div><div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;        }</div></div><!-- fragment -->
+<p class="reference">Referenced by <a class="el" href="a04860.html#a43b4c73244bc6722ce551c1033cf1115">Exp.evaluate()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;                               {</div><div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;                <span class="comment">// TODO Auto-generated method stub</span></div><div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;                <span class="keywordflow">return</span> POSTGIS.Exp.stringValue();</div><div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;        }</div></div><!-- fragment -->
 </div>
 </div>
 </div><!-- contents -->
@@ -148,7 +148,7 @@ Public Member Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="a02559.html">org</a></li><li class="navelem"><a class="el" href="a02560.html">eclipse</a></li><li class="navelem"><a class="el" href="a02561.html">rdf4j</a></li><li class="navelem"><a class="el" href="a02564.html">query</a></li><li class="navelem"><a class="el" href="a02565.html">algebra</a></li><li class="navelem"><a class="el" href="a02566.html">evaluation</a></li><li class="navelem"><a class="el" href="a02567.html">function</a></li><li class="navelem"><a class="el" href="a02568.html">postgis</a></li><li class="navelem"><a class="el" href="a02618.html">util</a></li><li class="navelem"><a class="el" href="a02619.html">functions</a></li><li class="navelem"><a class="el" href="a02617.html">math</a></li><li class="navelem"><a class="el" href="a04860.html">Tangent</a></li>
+    <li class="navelem"><a class="el" href="a02583.html">org</a></li><li class="navelem"><a class="el" href="a02584.html">eclipse</a></li><li class="navelem"><a class="el" href="a02585.html">rdf4j</a></li><li class="navelem"><a class="el" href="a02588.html">query</a></li><li class="navelem"><a class="el" href="a02589.html">algebra</a></li><li class="navelem"><a class="el" href="a02590.html">evaluation</a></li><li class="navelem"><a class="el" href="a02591.html">function</a></li><li class="navelem"><a class="el" href="a02592.html">postgis</a></li><li class="navelem"><a class="el" href="a02642.html">util</a></li><li class="navelem"><a class="el" href="a02643.html">functions</a></li><li class="navelem"><a class="el" href="a02641.html">math</a></li><li class="navelem"><a class="el" href="a04860.html">Exp</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>

@@ -1,9 +1,7 @@
 var a05380 =
 [
-    [ "testEnsureClosed", "a05380.html#ace1b0f448a93ab083e49e59b851b8094", null ],
-    [ "testEnsureClosed2", "a05380.html#a7a93140658cbcf5aea17d9f930cd5144", null ],
-    [ "closed", "a05380.html#ad8efa97b8aa775164dc4836b505fc315", null ],
-    [ "duplicateRings", "a05380.html#a92f3ef00fc079a76b7f943d9ed6cec77", null ],
-    [ "nonClosed", "a05380.html#aff993a2133bc6c6afe1012e13b5c028d", null ],
-    [ "ring", "a05380.html#a3e4a839eee2eb5791f90656e82eec721", null ]
+    [ "testNumDistinctGeometries", "a05380.html#a4c2be1b9a8d6a00b4330789b2fb25b6d", null ],
+    [ "testNumDistinctGeometriesCollection", "a05380.html#ad95b2c5cc3431fd3f26670a7f769eec7", null ],
+    [ "testGeom", "a05380.html#a03a5f5da0ccbeed8c1678d4317cf2672", null ],
+    [ "testGeom2", "a05380.html#a6b4be369c8f60e973cd5126e69cd33a4", null ]
 ];

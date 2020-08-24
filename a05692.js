@@ -1,9 +1,6 @@
 var a05692 =
 [
-    [ "testNoSelfIntersections", "a05692.html#a08dd11e1d44a910007de229eada7aa6d", null ],
-    [ "testSelfIntersections", "a05692.html#a3d2c64bb3b45c45751b144babb6906da", null ],
-    [ "intersectResult", "a05692.html#ab431ece386e282254dd754494c7f6cd0", null ],
-    [ "intersectResult2", "a05692.html#a94c72a35c99c7c55f05a1f50c20f6cfd", null ],
-    [ "testGeom", "a05692.html#a03a5f5da0ccbeed8c1678d4317cf2672", null ],
-    [ "testGeom2", "a05692.html#a6b4be369c8f60e973cd5126e69cd33a4", null ]
+    [ "testPrecisionReducer", "a05692.html#a486d6504bb92a61902ac29e25b3d31a8", null ],
+    [ "resultGeom", "a05692.html#a3eff685a59eb24ce11d6dbd456fae0c2", null ],
+    [ "testGeom", "a05692.html#a03a5f5da0ccbeed8c1678d4317cf2672", null ]
 ];

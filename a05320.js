@@ -1,5 +1,5 @@
 var a05320 =
 [
-    [ "testMinimumClearance", "a05320.html#a66deeca736cad11f886ba1567bcb6fe1", null ],
-    [ "testPolygon", "a05320.html#a1e3187cbc25299380589200c398b3ffd", null ]
+    [ "testIsRectangleFalse", "a05320.html#a5f21b4a097f15af24dcc034f575e4e4a", null ],
+    [ "testIsRectangleTrue", "a05320.html#acebf1f487a11cc34db915552f23c6383", null ]
 ];

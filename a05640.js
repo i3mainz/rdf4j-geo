@@ -1,6 +1,7 @@
 var a05640 =
 [
-    [ "testPrecisionReducer", "a05640.html#a486d6504bb92a61902ac29e25b3d31a8", null ],
-    [ "resultGeom", "a05640.html#a3eff685a59eb24ce11d6dbd456fae0c2", null ],
-    [ "testGeom", "a05640.html#a03a5f5da0ccbeed8c1678d4317cf2672", null ]
+    [ "testSRIDToWKT", "a05640.html#a8c6fef7babecb35acd09d8764ddcb858", null ],
+    [ "epsg", "a05640.html#ae984b1b4178b56b80cdb7a80eac64541", null ],
+    [ "epsg4326wkt", "a05640.html#ab74c72298a14045de8026d4c37013974", null ],
+    [ "srid", "a05640.html#a5ffebf384504d11b17aa9c75f4b92024", null ]
 ];

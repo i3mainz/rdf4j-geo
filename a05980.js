@@ -1,8 +1,8 @@
 var a05980 =
 [
     [ "getInstance", "a05980.html#af8afdd14b38b523d100805364a48ed63", null ],
-    [ "testRasterIsEmptyFalse", "a05980.html#a84a92eab09d27516cd5aaed0af6eb63d", null ],
-    [ "testRasterIsEmptyTrue", "a05980.html#a7aef574b4a0dde52f4c89e915399a8d0", null ],
+    [ "testAdd", "a05980.html#afd0ee1fd8a383350e390e5b63a8a1cda", null ],
+    [ "combinedRasterLiteral", "a05980.html#a6efe8702be34a67e2bcbba55588c5b5f", null ],
     [ "covJSONString1", "a05980.html#a993e2f127f3ec8f256e9799d77507223", null ],
     [ "hexwkbString1", "a05980.html#a55fb5b5d665417265da09403128e396e", null ],
     [ "minwkbString", "a05980.html#aa5e2b5a6005895fc20b9f35523569430", null ],

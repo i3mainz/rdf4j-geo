@@ -1,5 +1,5 @@
 var a05408 =
 [
-    [ "testAsGeoJSON", "a05408.html#a6aee2cc3188bbf40fb4d946ed66e57c2", null ],
-    [ "testGeometry", "a05408.html#abc3f514f005cba49e406658e2d3086eb", null ]
+    [ "testGeomFromWKB", "a05408.html#acc0d76b6d1ae096d932e1752a6bc8479", null ],
+    [ "geoJsonTestGeom", "a05408.html#a117e8ff340791b5aa0658f5840b5dcf4", null ]
 ];

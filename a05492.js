@@ -1,6 +1,5 @@
 var a05492 =
 [
-    [ "testFullyWithinDistanceFalse", "a05492.html#ae3a3dc920c5179e22a01c5c5682989bd", null ],
-    [ "testGeom", "a05492.html#a03a5f5da0ccbeed8c1678d4317cf2672", null ],
-    [ "testGeom2", "a05492.html#a6b4be369c8f60e973cd5126e69cd33a4", null ]
+    [ "testAsTWKB", "a05492.html#a651953dc3a68b5b3795c7e668472170e", null ],
+    [ "testGeometry", "a05492.html#abc3f514f005cba49e406658e2d3086eb", null ]
 ];

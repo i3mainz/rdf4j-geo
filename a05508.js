@@ -1,9 +1,7 @@
 var a05508 =
 [
-    [ "testIntersectionPercentage", "a05508.html#a49e1dab16866e800563f476db34781d5", null ],
-    [ "testIntersectionPercentage2", "a05508.html#a90a7db3783150309d73dc80df07f4b85", null ],
-    [ "isocelesTriangle", "a05508.html#aa04dfbec745e2622b9f7646f8572e501", null ],
-    [ "notIsocelesTriangle", "a05508.html#a055d99fb63bcee37763ffcf4da9e0521", null ],
+    [ "testDistanceSphere", "a05508.html#a00f0d8d505e98b0a2030febc43784429", null ],
+    [ "testDistanceSphere2", "a05508.html#a4e55a7f6b607feb274072e2449231447", null ],
     [ "result", "a05508.html#aab356d6554a7301750f11ec7a85ac47d", null ],
     [ "testGeom", "a05508.html#a03a5f5da0ccbeed8c1678d4317cf2672", null ],
     [ "testGeom2", "a05508.html#a6b4be369c8f60e973cd5126e69cd33a4", null ]

@@ -1,5 +1,5 @@
 var a02636 =
 [
-    [ "Topo_Polygonize", "a04689.html", null ],
-    [ "Topo_Snap", "a04693.html", null ]
+    [ "CreateTopology", "a04664.html", null ],
+    [ "TopologyFromTopoJSON", "a04668.html", null ]
 ];

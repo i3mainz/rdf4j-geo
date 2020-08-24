@@ -1,5 +1,6 @@
 var a05564 =
 [
-    [ "testSridAxis2Orientation", "a05564.html#a4cce208d444c0a86d19f93731ff4a6b3", null ],
-    [ "testPoint", "a05564.html#af26f700ee129f846cac58735f6dcc380", null ]
+    [ "testMaxDistance", "a05564.html#acd5d6c70876299a0278552ba577a7efc", null ],
+    [ "testGeom", "a05564.html#a03a5f5da0ccbeed8c1678d4317cf2672", null ],
+    [ "testGeom2", "a05564.html#a6b4be369c8f60e973cd5126e69cd33a4", null ]
 ];

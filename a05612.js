@@ -1,7 +1,5 @@
 var a05612 =
 [
-    [ "testForce3DM", "a05612.html#a809df5824b4a08713e4ce726cb369a8d", null ],
-    [ "testForce3DM2", "a05612.html#a1efd448688434012347e3bc8972acb49", null ],
-    [ "testPolygon", "a05612.html#a1e3187cbc25299380589200c398b3ffd", null ],
-    [ "testPolygon2", "a05612.html#a882729aec95621b4ad261714738ae3fd", null ]
+    [ "testSridAxis2Orientation", "a05612.html#a4cce208d444c0a86d19f93731ff4a6b3", null ],
+    [ "testPoint", "a05612.html#af26f700ee129f846cac58735f6dcc380", null ]
 ];

@@ -1,5 +1,7 @@
 var a05860 =
 [
-    [ "testLineFromText", "a05860.html#ab595a17ecc4ca9c8bef45188c8afb6c3", null ],
-    [ "testPolygon", "a05860.html#a1e3187cbc25299380589200c398b3ffd", null ]
+    [ "testHasConnectedInteriorFalse", "a05860.html#a725a2cc1c4ba4909307c9a2fa07558d8", null ],
+    [ "testHasConnectedInteriorTrue", "a05860.html#a95e618db9d2053f26b5194e3bec0d2a0", null ],
+    [ "duplicateRings", "a05860.html#a92f3ef00fc079a76b7f943d9ed6cec77", null ],
+    [ "nonduplicateRings", "a05860.html#a675a0b1b194538fc07fa716705f883a5", null ]
 ];

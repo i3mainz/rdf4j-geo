@@ -1,14 +1,19 @@
 var a05100 =
 [
-    [ "WKBRasterReader", "a05100.html#ae793783ce299284ee201fd7c8313c1d6", null ],
-    [ "createGrayScaleColorModel", "a05100.html#afcfcdba92bf5faa9dfc8a1c7a652c7a9", null ],
-    [ "getGridToCRS", "a05100.html#aef748f2853b5fa1a44ed7c589b2bb197", null ],
-    [ "getSRID", "a05100.html#ade744464aeafe5c61497905c4bac4d95", null ],
-    [ "read", "a05100.html#a14456bc52e7f626048f58646a17a9039", null ],
-    [ "read", "a05100.html#ab8d0b6608f158d1234999e80670eba0e", null ],
-    [ "readCoverage", "a05100.html#aa9fe8abf761e9a17b671b3f8ca04ef37", null ],
-    [ "readCoverage", "a05100.html#a167d89e301db4c86565d6cbf8998b5fa", null ],
-    [ "reset", "a05100.html#ad20897c5c8bd47f5d4005989bead0e55", null ],
-    [ "gridToCRS", "a05100.html#a7074295224e2ade372af7fc4571cdc28", null ],
-    [ "srid", "a05100.html#a7e5be5f62324d24835447fc98661e30b", null ]
+    [ "XReader", "a05100.html#a66638412c8e597e7679a49b30d8cc503", null ],
+    [ "isData", "a05100.html#a73f9d3967881e9a41ee9637a1088c45b", null ],
+    [ "isDone", "a05100.html#a552bb801349e980b00cb44160babffeb", null ],
+    [ "isEvent", "a05100.html#ab8a53acb267876925142198a7680c0a7", null ],
+    [ "peek", "a05100.html#a9040fa1d479d71edf3a826f4691c35c4", null ],
+    [ "readDouble", "a05100.html#a840ea5c01770156bd51bdb9f65f44e30", null ],
+    [ "readInt", "a05100.html#ac4dc9964d286ddbbd2a108991190d39d", null ],
+    [ "readKey", "a05100.html#ad63c13e3dc040d1b9a35249edd1839c5", null ],
+    [ "readLat", "a05100.html#ad1c83e20d9757f70ff67315e5af2d823", null ],
+    [ "readLng", "a05100.html#aa705a4be038559a46acb9e3c30eda301", null ],
+    [ "readPoints", "a05100.html#a78f5424018ac75827d519ba60304bbfa", null ],
+    [ "head", "a05100.html#a20358970b1abaf992eb85e071e454653", null ],
+    [ "input", "a05100.html#ac50945c3e4c56b7167ff5ab33c478e42", null ],
+    [ "lat", "a05100.html#ad0c6d3a40d6093204d169a1928ec7fa5", null ],
+    [ "lng", "a05100.html#a8a9f3916588598fe817306c2b2ce3b3c", null ],
+    [ "shpFactory", "a05100.html#a05afdb0d887f04c5eac83dd8132c87b6", null ]
 ];

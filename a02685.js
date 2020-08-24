@@ -1,5 +1,7 @@
 var a02685 =
 [
-    [ "PolygonFromTextTest", "a05905.html", "a05905" ],
-    [ "PolygonFromWKBTest", "a05909.html", "a05909" ]
+    [ "GeneratePointsTest", "a05836.html", "a05836" ],
+    [ "MakePointTest", "a05840.html", "a05840" ],
+    [ "PointFromTextTest", "a05844.html", "a05844" ],
+    [ "PointFromWKBTest", "a05848.html", null ]
 ];

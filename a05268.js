@@ -1,5 +1,5 @@
 var a05268 =
 [
-    [ "testIsMeasuredFalse", "a05268.html#a0d34749daed816e995d607f25393f8bd", null ],
-    [ "testIsMeasuredTrue", "a05268.html#a94b07ea8a866ff9332c709b77d204342", null ]
+    [ "testBoundingDiagonal", "a05268.html#a5905b320ef165de047ef4ff2e9167268", null ],
+    [ "testPolygon", "a05268.html#a1e3187cbc25299380589200c398b3ffd", null ]
 ];

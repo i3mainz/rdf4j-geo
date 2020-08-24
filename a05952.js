@@ -1,7 +1,7 @@
 var a05952 =
 [
     [ "getInstance", "a05952.html#af8afdd14b38b523d100805364a48ed63", null ],
-    [ "testSubtract", "a05952.html#a6765d065ca3c27a56dc817aef23a2e41", null ],
+    [ "testAndConst", "a05952.html#af66c1ec568a462c9337cd8fb4b541993", null ],
     [ "combinedRasterLiteral", "a05952.html#a6efe8702be34a67e2bcbba55588c5b5f", null ],
     [ "covJSONString1", "a05952.html#a993e2f127f3ec8f256e9799d77507223", null ],
     [ "hexwkbString1", "a05952.html#a55fb5b5d665417265da09403128e396e", null ],

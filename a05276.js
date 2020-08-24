@@ -1,4 +1,5 @@
 var a05276 =
 [
-    [ "testIsPlanarTrue", "a05276.html#a0e75cb938cfe0c5f0e6555d748eccf2d", null ]
+    [ "testCompactnessRatio", "a05276.html#a59967568bbd6211556c900a674e7d734", null ],
+    [ "testGeometry", "a05276.html#abc3f514f005cba49e406658e2d3086eb", null ]
 ];

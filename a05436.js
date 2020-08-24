@@ -1,5 +1,6 @@
 var a05436 =
 [
-    [ "testAsSVG", "a05436.html#a7051938045f1413d97e8c5925b1c7677", null ],
-    [ "testGeometry", "a05436.html#abc3f514f005cba49e406658e2d3086eb", null ]
+    [ "testSetPoint", "a05436.html#a52b4ba451c7a5d90f46ae63b5ac3919b", null ],
+    [ "LineString2D", "a05436.html#a4a6127d0b7f1eecce2d32442325f7735", null ],
+    [ "point", "a05436.html#a081811ff1c2bedd0a20703599f90114f", null ]
 ];

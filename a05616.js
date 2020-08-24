@@ -1,5 +1,5 @@
 var a05616 =
 [
-    [ "testForce3D", "a05616.html#a029b956696a32125657d2d2027b78866", null ],
-    [ "testPolygon", "a05616.html#a1e3187cbc25299380589200c398b3ffd", null ]
+    [ "testSridGetDatum", "a05616.html#a9d3a137e39e84c0018de3b734b787554", null ],
+    [ "testPoint", "a05616.html#af26f700ee129f846cac58735f6dcc380", null ]
 ];

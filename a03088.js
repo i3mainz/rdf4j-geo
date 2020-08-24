@@ -1,5 +1,6 @@
 var a03088 =
 [
-    [ "attribute", "a03088.html#a97042de62a179d892a7b8c3b8959e587", null ],
-    [ "evaluate", "a03088.html#a43b4c73244bc6722ce551c1033cf1115", null ]
+    [ "evaluate", "a03088.html#a43b4c73244bc6722ce551c1033cf1115", null ],
+    [ "getURI", "a03088.html#ad9fb16b36dd4ccc533d4f05ff94646e3", null ],
+    [ "relation", "a03088.html#a2ee54060e066d6c240bd4231000b749a", null ]
 ];

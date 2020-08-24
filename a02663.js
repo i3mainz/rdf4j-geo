@@ -1,4 +1,6 @@
 var a02663 =
 [
-    [ "postgis", "a02664.html", "a02664" ]
+    [ "LengthSubstring", "a05204.html", "a05204" ],
+    [ "LengthToPoint", "a05208.html", "a05208" ],
+    [ "LocatePoint", "a05212.html", "a05212" ]
 ];

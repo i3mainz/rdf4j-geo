@@ -1,4 +1,5 @@
 var a05792 =
 [
-    [ "testPointFromText", "a05792.html#a34b8808318d84beec7ded7da39c5ef6e", null ]
+    [ "testYMax", "a05792.html#a98991d9326941ea2d984df31280c0db4", null ],
+    [ "testPoint", "a05792.html#af26f700ee129f846cac58735f6dcc380", null ]
 ];

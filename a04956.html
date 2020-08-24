@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>rdf4j-postgis: GMLDatatype Class Reference</title>
+<title>rdf4j-postgis: WKBRastDatatype Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -65,59 +65,55 @@ $(document).ready(function(){initNavTree('a04956.html','');});
 <a href="#pub-static-attribs">Static Public Attributes</a> &#124;
 <a href="a04953.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">GMLDatatype Class Reference</div>  </div>
+<div class="title">WKBRastDatatype Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 <div class="dynheader">
-Inheritance diagram for GMLDatatype:</div>
+Inheritance diagram for WKBRastDatatype:</div>
 <div class="dyncontent">
-<div class="center"><img src="a04955.png" border="0" usemap="#GMLDatatype_inherit__map" alt="Inheritance graph"/></div>
-<map name="GMLDatatype_inherit__map" id="GMLDatatype_inherit__map">
-<area shape="rect" id="node2" href="a04996.html" title="VectorLiteral" alt="" coords="9,80,104,107"/>
-<area shape="rect" id="node3" href="a04888.html" title="LiteralType" alt="" coords="13,5,100,32"/>
+<div class="center"><img src="a04955.png" border="0" usemap="#WKBRastDatatype_inherit__map" alt="Inheritance graph"/></div>
+<map name="WKBRastDatatype_inherit__map" id="WKBRastDatatype_inherit__map">
+<area shape="rect" id="node2" href="a04952.html" title="RasterLiteral" alt="" coords="25,80,121,107"/>
+<area shape="rect" id="node3" href="a04928.html" title="LiteralType" alt="" coords="29,5,116,32"/>
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <div class="dynheader">
-Collaboration diagram for GMLDatatype:</div>
+Collaboration diagram for WKBRastDatatype:</div>
 <div class="dyncontent">
-<div class="center"><img src="a04954.png" border="0" usemap="#GMLDatatype_coll__map" alt="Collaboration graph"/></div>
-<map name="GMLDatatype_coll__map" id="GMLDatatype_coll__map">
-<area shape="rect" id="node2" href="a04996.html" title="VectorLiteral" alt="" coords="5,81,100,108"/>
-<area shape="rect" id="node3" href="a04888.html" title="LiteralType" alt="" coords="9,5,96,32"/>
+<div class="center"><img src="a04954.png" border="0" usemap="#WKBRastDatatype_coll__map" alt="Collaboration graph"/></div>
+<map name="WKBRastDatatype_coll__map" id="WKBRastDatatype_coll__map">
+<area shape="rect" id="node2" href="a04952.html" title="RasterLiteral" alt="" coords="5,81,101,108"/>
+<area shape="rect" id="node3" href="a04928.html" title="LiteralType" alt="" coords="10,5,97,32"/>
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ae918a517e1ebcc44beeee2c55008d248"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a04956.html#ae918a517e1ebcc44beeee2c55008d248">unparse</a> (Geometry geometry)</td></tr>
-<tr class="memdesc:ae918a517e1ebcc44beeee2c55008d248"><td class="mdescLeft">&#160;</td><td class="mdescRight">This method Un-parses the JTS Geometry to the GML literal.  <a href="#ae918a517e1ebcc44beeee2c55008d248">More...</a><br /></td></tr>
-<tr class="separator:ae918a517e1ebcc44beeee2c55008d248"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a793358fbd6ef538a24eabab1bd50ef01"><td class="memItemLeft" align="right" valign="top">Geometry&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a04956.html#a793358fbd6ef538a24eabab1bd50ef01">read</a> (String geometryLiteral)</td></tr>
-<tr class="separator:a793358fbd6ef538a24eabab1bd50ef01"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1cc8c62f94cc0157db4958fbe1f87310"><td class="memItemLeft" align="right" valign="top">GridCoverage&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a04956.html#a1cc8c62f94cc0157db4958fbe1f87310">read</a> (String geometryLiteral)</td></tr>
+<tr class="separator:a1cc8c62f94cc0157db4958fbe1f87310"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad146fa8579a5f8a876c4688cc5a68520"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a04956.html#ad146fa8579a5f8a876c4688cc5a68520">toString</a> ()</td></tr>
 <tr class="separator:ad146fa8579a5f8a876c4688cc5a68520"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a657560fc17175e794fe55d3b23643891"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a04956.html#a657560fc17175e794fe55d3b23643891">unparse</a> (GridCoverage geom)</td></tr>
+<tr class="separator:a657560fc17175e794fe55d3b23643891"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
-<tr class="memitem:addbf30e6c0ad68fa34277d59a2c6eb5e"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a04956.html#addbf30e6c0ad68fa34277d59a2c6eb5e">URI</a> = <a class="el" href="a02708.html#a8942e21cdbc6ec312fb94c2afda12cf2">POSTGIS.GML</a></td></tr>
-<tr class="memdesc:addbf30e6c0ad68fa34277d59a2c6eb5e"><td class="mdescLeft">&#160;</td><td class="mdescRight">The default GML type URI.  <a href="#addbf30e6c0ad68fa34277d59a2c6eb5e">More...</a><br /></td></tr>
+<tr class="memitem:addbf30e6c0ad68fa34277d59a2c6eb5e"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a04956.html#addbf30e6c0ad68fa34277d59a2c6eb5e">URI</a> = <a class="el" href="a02732.html#ad263658bd03fbb2214983c7860869a23">POSTGIS.NAMESPACE</a>+<a class="el" href="a02732.html#ada687fb4f7f9ed8755f715a82fee86ee">POSTGIS.WKBRaster</a></td></tr>
 <tr class="separator:addbf30e6c0ad68fa34277d59a2c6eb5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aab439b968aa0ee24a175359d1988b2b6"><td class="memItemLeft" align="right" valign="top">static final <a class="el" href="a04956.html">GMLDatatype</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a04956.html#aab439b968aa0ee24a175359d1988b2b6">INSTANCE</a> = new <a class="el" href="a04956.html">GMLDatatype</a>()</td></tr>
-<tr class="memdesc:aab439b968aa0ee24a175359d1988b2b6"><td class="mdescLeft">&#160;</td><td class="mdescRight">A static instance of <a class="el" href="a04956.html">GMLDatatype</a>.  <a href="#aab439b968aa0ee24a175359d1988b2b6">More...</a><br /></td></tr>
-<tr class="separator:aab439b968aa0ee24a175359d1988b2b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4004eddf665806565627555bc6dc83ab"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a04956.html#a4004eddf665806565627555bc6dc83ab">GML_PREFIX</a> = &quot;gml&quot;</td></tr>
-<tr class="memdesc:a4004eddf665806565627555bc6dc83ab"><td class="mdescLeft">&#160;</td><td class="mdescRight">XML element tag "gml" is defined for the convenience of GML generation.  <a href="#a4004eddf665806565627555bc6dc83ab">More...</a><br /></td></tr>
-<tr class="separator:a4004eddf665806565627555bc6dc83ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:addd0055cdf714aacd2c5ed456be62913"><td class="memItemLeft" align="right" valign="top">static final <a class="el" href="a04956.html">WKBRastDatatype</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a04956.html#addd0055cdf714aacd2c5ed456be62913">INSTANCE</a> = new <a class="el" href="a04956.html">WKBRastDatatype</a>()</td></tr>
+<tr class="separator:addd0055cdf714aacd2c5ed456be62913"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae02c2e86ac0dea8538c7b43e9e82421a"><td class="memItemLeft" align="right" valign="top">static final IRI&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a04956.html#ae02c2e86ac0dea8538c7b43e9e82421a">LiteralIRI</a> =SimpleValueFactory.getInstance().createIRI(<a class="el" href="a02732.html#ad263658bd03fbb2214983c7860869a23">POSTGIS.NAMESPACE</a>+<a class="el" href="a02732.html#ada687fb4f7f9ed8755f715a82fee86ee">POSTGIS.WKBRaster</a>)</td></tr>
+<tr class="separator:ae02c2e86ac0dea8538c7b43e9e82421a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a793358fbd6ef538a24eabab1bd50ef01"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a793358fbd6ef538a24eabab1bd50ef01">&#9670;&nbsp;</a></span>read()</h2>
+<a id="a1cc8c62f94cc0157db4958fbe1f87310"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1cc8c62f94cc0157db4958fbe1f87310">&#9670;&nbsp;</a></span>read()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">Geometry read </td>
+          <td class="memname">GridCoverage read </td>
           <td>(</td>
           <td class="paramtype">String&#160;</td>
           <td class="paramname"><em>geometryLiteral</em></td><td>)</td>
@@ -125,8 +121,11 @@ Static Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;                                                 {</div><div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;        StringReader reader=<span class="keyword">new</span> StringReader(geometryLiteral);</div><div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;        GMLReader <a class="code" href="a04956.html#a793358fbd6ef538a24eabab1bd50ef01">read</a>=<span class="keyword">new</span> GMLReader();</div><div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;        Geometry geom;</div><div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;                <span class="keywordflow">try</span> {</div><div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;                        geom = read.read(reader, <span class="keyword">new</span> GeometryFactory());</div><div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;                        <span class="keywordflow">return</span> geom;</div><div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;                } <span class="keywordflow">catch</span> (SAXException | IOException | ParserConfigurationException e) {</div><div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;                        <span class="comment">// TODO Auto-generated catch block</span></div><div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;                        e.printStackTrace();</div><div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;                }</div><div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;        <span class="keywordflow">return</span> null;</div><div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;    }</div><div class="ttc" id="a04956_html_a793358fbd6ef538a24eabab1bd50ef01"><div class="ttname"><a href="a04956.html#a793358fbd6ef538a24eabab1bd50ef01">org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.literals.vector.GMLDatatype.read</a></div><div class="ttdeci">Geometry read(String geometryLiteral)</div><div class="ttdef"><b>Definition:</b> GMLDatatype.java:81</div></div>
-</div><!-- fragment -->
+
+<p class="reference">References <a class="el" href="a05140.html#aa9fe8abf761e9a17b671b3f8ca04ef37">WKBRasterReader.readCoverage()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="a04508.html#a39cd9b39bec9109d5b5b1c1e0aaeed10">RastFromWKB.construct()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;                                                         {</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;                WKBRasterReader reader2=<span class="keyword">new</span> WKBRasterReader();</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;                GridCoverage coverage;</div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;                <span class="keywordflow">try</span> {</div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;                        coverage = reader2.readCoverage(geometryLiteral.getBytes(), null);</div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;                        <span class="keywordflow">return</span> coverage;</div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;                } <span class="keywordflow">catch</span> (IOException | FactoryException e) {</div><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;                        <span class="comment">// TODO Auto-generated catch block</span></div><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;                        e.printStackTrace();</div><div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;                        <span class="keywordflow">return</span> null;</div><div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;                }</div><div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;</div><div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;        }</div></div><!-- fragment -->
 </div>
 </div>
 <a id="ad146fa8579a5f8a876c4688cc5a68520"></a>
@@ -143,12 +142,12 @@ Static Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;                             {</div><div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;        <span class="keywordflow">return</span> <span class="stringliteral">&quot;GMLDatatype{&quot;</span> + <a class="code" href="a04956.html#addbf30e6c0ad68fa34277d59a2c6eb5e">URI</a> + <span class="charliteral">&#39;}&#39;</span>;</div><div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;    }</div><div class="ttc" id="a04956_html_addbf30e6c0ad68fa34277d59a2c6eb5e"><div class="ttname"><a href="a04956.html#addbf30e6c0ad68fa34277d59a2c6eb5e">org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.literals.vector.GMLDatatype.URI</a></div><div class="ttdeci">static final String URI</div><div class="ttdoc">The default GML type URI. </div><div class="ttdef"><b>Definition:</b> GMLDatatype.java:45</div></div>
+<div class="fragment"><div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;                             {</div><div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;        <span class="keywordflow">return</span> <span class="stringliteral">&quot;WKBRasterDatatype{&quot;</span> + <a class="code" href="a04956.html#addbf30e6c0ad68fa34277d59a2c6eb5e">URI</a> + <span class="charliteral">&#39;}&#39;</span>;</div><div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    }</div><div class="ttc" id="a04956_html_addbf30e6c0ad68fa34277d59a2c6eb5e"><div class="ttname"><a href="a04956.html#addbf30e6c0ad68fa34277d59a2c6eb5e">org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.literals.raster.WKBRastDatatype.URI</a></div><div class="ttdeci">static final String URI</div><div class="ttdef"><b>Definition:</b> WKBRastDatatype.java:15</div></div>
 </div><!-- fragment -->
 </div>
 </div>
-<a id="ae918a517e1ebcc44beeee2c55008d248"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae918a517e1ebcc44beeee2c55008d248">&#9670;&nbsp;</a></span>unparse()</h2>
+<a id="a657560fc17175e794fe55d3b23643891"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a657560fc17175e794fe55d3b23643891">&#9670;&nbsp;</a></span>unparse()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -156,28 +155,22 @@ Static Public Attributes</h2></td></tr>
         <tr>
           <td class="memname">String unparse </td>
           <td>(</td>
-          <td class="paramtype">Geometry&#160;</td>
-          <td class="paramname"><em>geometry</em></td><td>)</td>
+          <td class="paramtype">GridCoverage&#160;</td>
+          <td class="paramname"><em>geom</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>This method Un-parses the JTS Geometry to the GML literal. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">geometry</td><td>- the JTS Geometry to be un-parsed </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>GML - the returned GML Literal. <br />
- Notice that the Spatial Reference System "urn:ogc:def:crs:OGC::CRS84" is predefined in the returned GML literal. </dd></dl>
-<div class="fragment"><div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;                                             {</div><div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;         GMLWriter gmlw=<span class="keyword">new</span> GMLWriter();</div><div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;         StringWriter writer=<span class="keyword">new</span> StringWriter();</div><div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;         <span class="keywordflow">try</span> {</div><div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;                        gmlw.write(geometry, writer);</div><div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;                 <span class="keywordflow">return</span> writer.toString();</div><div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;                } <span class="keywordflow">catch</span> (IOException e) {</div><div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;                        <span class="comment">// TODO Auto-generated catch block</span></div><div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;                        e.printStackTrace();</div><div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;                        <span class="keywordflow">return</span> null;</div><div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;                }</div><div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;</div><div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;    }</div></div><!-- fragment -->
+<p class="reference">References <a class="el" href="a05144.html#a856e54e4f4722fb982aefe4b71c702db">WKBRasterWriter.write()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="a04560.html#a2bfa3f6fe437856574c81aa21f7f173e">AsRastWKB.operation()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;                                                 {</div><div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;        WKBRasterWriter writer=<span class="keyword">new</span> WKBRasterWriter();</div><div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;                String rasterWKB;</div><div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;                <span class="keywordflow">try</span> {</div><div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;                        rasterWKB = writer.write(geom).toString();</div><div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;                        <span class="keywordflow">return</span> rasterWKB.toString();</div><div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;                } <span class="keywordflow">catch</span> (IOException | FactoryException e) {</div><div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;                        <span class="keywordflow">throw</span> <span class="keyword">new</span> AssertionError(e.getMessage());</div><div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;                }</div><div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;        }</div></div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="a4004eddf665806565627555bc6dc83ab"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4004eddf665806565627555bc6dc83ab">&#9670;&nbsp;</a></span>GML_PREFIX</h2>
+<a id="addd0055cdf714aacd2c5ed456be62913"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#addd0055cdf714aacd2c5ed456be62913">&#9670;&nbsp;</a></span>INSTANCE</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -186,7 +179,7 @@ Static Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">final String GML_PREFIX = &quot;gml&quot;</td>
+          <td class="memname">final <a class="el" href="a04956.html">WKBRastDatatype</a> INSTANCE = new <a class="el" href="a04956.html">WKBRastDatatype</a>()</td>
         </tr>
       </table>
   </td>
@@ -196,12 +189,12 @@ Static Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>XML element tag "gml" is defined for the convenience of GML generation. </p>
+<p class="reference">Referenced by <a class="el" href="a04508.html#a39cd9b39bec9109d5b5b1c1e0aaeed10">RastFromWKB.construct()</a>, <a class="el" href="a04924.html#ab2c1f34f60c2740f703068f27871a32b">LiteralRegistry.LiteralRegistry()</a>, and <a class="el" href="a04560.html#a2bfa3f6fe437856574c81aa21f7f173e">AsRastWKB.operation()</a>.</p>
 
 </div>
 </div>
-<a id="aab439b968aa0ee24a175359d1988b2b6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aab439b968aa0ee24a175359d1988b2b6">&#9670;&nbsp;</a></span>INSTANCE</h2>
+<a id="ae02c2e86ac0dea8538c7b43e9e82421a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae02c2e86ac0dea8538c7b43e9e82421a">&#9670;&nbsp;</a></span>LiteralIRI</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -210,7 +203,7 @@ Static Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">final <a class="el" href="a04956.html">GMLDatatype</a> INSTANCE = new <a class="el" href="a04956.html">GMLDatatype</a>()</td>
+          <td class="memname">final IRI LiteralIRI =SimpleValueFactory.getInstance().createIRI(<a class="el" href="a02732.html#ad263658bd03fbb2214983c7860869a23">POSTGIS.NAMESPACE</a>+<a class="el" href="a02732.html#ada687fb4f7f9ed8755f715a82fee86ee">POSTGIS.WKBRaster</a>)</td>
         </tr>
       </table>
   </td>
@@ -220,9 +213,7 @@ Static Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>A static instance of <a class="el" href="a04956.html">GMLDatatype</a>. </p>
-
-<p class="reference">Referenced by <a class="el" href="a04884.html#ab2c1f34f60c2740f703068f27871a32b">LiteralRegistry.LiteralRegistry()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="a06036.html#a7aef574b4a0dde52f4c89e915399a8d0">IsEmptyTest.testRasterIsEmptyTrue()</a>.</p>
 
 </div>
 </div>
@@ -236,7 +227,7 @@ Static Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">final String URI = <a class="el" href="a02708.html#a8942e21cdbc6ec312fb94c2afda12cf2">POSTGIS.GML</a></td>
+          <td class="memname">final String URI = <a class="el" href="a02732.html#ad263658bd03fbb2214983c7860869a23">POSTGIS.NAMESPACE</a>+<a class="el" href="a02732.html#ada687fb4f7f9ed8755f715a82fee86ee">POSTGIS.WKBRaster</a></td>
         </tr>
       </table>
   </td>
@@ -246,9 +237,7 @@ Static Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>The default GML type URI. </p>
-
-<p class="reference">Referenced by <a class="el" href="a04884.html#ab2c1f34f60c2740f703068f27871a32b">LiteralRegistry.LiteralRegistry()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="a04924.html#ab2c1f34f60c2740f703068f27871a32b">LiteralRegistry.LiteralRegistry()</a>.</p>
 
 </div>
 </div>
@@ -258,7 +247,7 @@ Static Public Attributes</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="a02559.html">org</a></li><li class="navelem"><a class="el" href="a02560.html">eclipse</a></li><li class="navelem"><a class="el" href="a02561.html">rdf4j</a></li><li class="navelem"><a class="el" href="a02564.html">query</a></li><li class="navelem"><a class="el" href="a02565.html">algebra</a></li><li class="navelem"><a class="el" href="a02566.html">evaluation</a></li><li class="navelem"><a class="el" href="a02567.html">function</a></li><li class="navelem"><a class="el" href="a02568.html">postgis</a></li><li class="navelem"><a class="el" href="a02618.html">util</a></li><li class="navelem"><a class="el" href="a02620.html">literals</a></li><li class="navelem"><a class="el" href="a02623.html">vector</a></li><li class="navelem"><a class="el" href="a04956.html">GMLDatatype</a></li>
+    <li class="navelem"><a class="el" href="a02583.html">org</a></li><li class="navelem"><a class="el" href="a02584.html">eclipse</a></li><li class="navelem"><a class="el" href="a02585.html">rdf4j</a></li><li class="navelem"><a class="el" href="a02588.html">query</a></li><li class="navelem"><a class="el" href="a02589.html">algebra</a></li><li class="navelem"><a class="el" href="a02590.html">evaluation</a></li><li class="navelem"><a class="el" href="a02591.html">function</a></li><li class="navelem"><a class="el" href="a02592.html">postgis</a></li><li class="navelem"><a class="el" href="a02642.html">util</a></li><li class="navelem"><a class="el" href="a02644.html">literals</a></li><li class="navelem"><a class="el" href="a02645.html">raster</a></li><li class="navelem"><a class="el" href="a04956.html">WKBRastDatatype</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>

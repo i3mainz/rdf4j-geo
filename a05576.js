@@ -1,6 +1,6 @@
 var a05576 =
 [
-    [ "testSridIsGeographicFalse", "a05576.html#abd1395d0581a64740ed1bae57b2882b3", null ],
-    [ "testSridIsGeographicTrue", "a05576.html#a09f0ac6b4b2a063a3d1df32d600b9b11", null ],
-    [ "testPoint", "a05576.html#af26f700ee129f846cac58735f6dcc380", null ]
+    [ "testRelate", "a05576.html#a8592662d9e01b3d8f2f9a86b6bb48372", null ],
+    [ "isocelesTriangle", "a05576.html#aa04dfbec745e2622b9f7646f8572e501", null ],
+    [ "notIsocelesTriangle", "a05576.html#a055d99fb63bcee37763ffcf4da9e0521", null ]
 ];

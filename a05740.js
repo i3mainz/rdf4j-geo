@@ -1,5 +1,7 @@
 var a05740 =
 [
-    [ "testYMax", "a05740.html#a98991d9326941ea2d984df31280c0db4", null ],
-    [ "testPoint", "a05740.html#af26f700ee129f846cac58735f6dcc380", null ]
+    [ "testLineString", "a05740.html#a0444ce8df222ae81e1a33426a32d8d7a", null ],
+    [ "circularLineString", "a05740.html#aee32055959200ebcac903d7824ea55d3", null ],
+    [ "lineString", "a05740.html#a76e109dc83d6f4d16fcd2fa3e73054f6", null ],
+    [ "lineString3D", "a05740.html#a44ce866b8b8e60a4c3e77653b907706d", null ]
 ];

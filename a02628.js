@@ -1,18 +1,11 @@
 var a02628 =
 [
-    [ "Contains", "a04557.html", "a04557" ],
-    [ "ContainsProperly", "a04561.html", "a04561" ],
-    [ "CoveredBy", "a04565.html", "a04565" ],
-    [ "Crosses", "a04569.html", "a04569" ],
-    [ "DFullyWithin", "a04573.html", "a04573" ],
-    [ "Disjoint", "a04577.html", "a04577" ],
-    [ "DWithin", "a04581.html", "a04581" ],
-    [ "Equals", "a04585.html", "a04585" ],
-    [ "Intersection", "a04589.html", "a04589" ],
-    [ "Intersects", "a04593.html", "a04593" ],
-    [ "Overlaps", "a04597.html", "a04597" ],
-    [ "PixelEquals", "a04601.html", null ],
-    [ "SameAlignment", "a04605.html", "a04605" ],
-    [ "Touches", "a04609.html", "a04609" ],
-    [ "Within", "a04613.html", "a04613" ]
+    [ "AsGeometry", "a04480.html", "a04480" ],
+    [ "AsRaster", "a04484.html", "a04484" ],
+    [ "MakeEmptyRaster", "a04488.html", "a04488" ],
+    [ "RastFromCoverageJSON", "a04492.html", "a04492" ],
+    [ "RastFromGMLCOV", "a04496.html", "a04496" ],
+    [ "RastFromHexWKB", "a04500.html", "a04500" ],
+    [ "RastFromNetCDF", "a04504.html", "a04504" ],
+    [ "RastFromWKB", "a04508.html", "a04508" ]
 ];

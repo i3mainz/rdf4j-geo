@@ -1,5 +1,5 @@
 var a05444 =
 [
-    [ "testAsTextRound", "a05444.html#a48e3642d229bd7292cf49871d69ed015", null ],
-    [ "testGeometry", "a05444.html#abc3f514f005cba49e406658e2d3086eb", null ]
+    [ "testAsGARS", "a05444.html#a80929de20ed59fa635418039d48a9ef7", null ],
+    [ "testPoint", "a05444.html#af26f700ee129f846cac58735f6dcc380", null ]
 ];

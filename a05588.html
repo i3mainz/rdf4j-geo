@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>rdf4j-postgis: SRIDToEPSGTest Class Reference</title>
+<title>rdf4j-postgis: EPSGToSRIDTest Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -65,14 +65,14 @@ $(document).ready(function(){initNavTree('a05588.html','');});
 <a href="#pac-attribs">Package Attributes</a> &#124;
 <a href="a05585.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">SRIDToEPSGTest Class Reference</div>  </div>
+<div class="title">EPSGToSRIDTest Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 <div class="dynheader">
-Collaboration diagram for SRIDToEPSGTest:</div>
+Collaboration diagram for EPSGToSRIDTest:</div>
 <div class="dyncontent">
-<div class="center"><img src="a05586.png" border="0" usemap="#SRIDToEPSGTest_coll__map" alt="Collaboration graph"/></div>
-<map name="SRIDToEPSGTest_coll__map" id="SRIDToEPSGTest_coll__map">
+<div class="center"><img src="a05586.png" border="0" usemap="#EPSGToSRIDTest_coll__map" alt="Collaboration graph"/></div>
+<map name="EPSGToSRIDTest_coll__map" id="EPSGToSRIDTest_coll__map">
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -104,9 +104,9 @@ Package Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="a03488.html#a43b4c73244bc6722ce551c1033cf1115">SRIDToEPSG.evaluate()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;                                     {</div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;                SRIDToEPSG is3d=<span class="keyword">new</span> SRIDToEPSG();</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;                ValueFactory valfac=SimpleValueFactory.getInstance();</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;                Value geo=valfac.createLiteral(<a class="code" href="a05588.html#a5ffebf384504d11b17aa9c75f4b92024">srid</a>);</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;                Value result=is3d.evaluate(valfac, geo);</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;                Value expResult=valfac.createLiteral(<a class="code" href="a05588.html#ae984b1b4178b56b80cdb7a80eac64541">epsg</a>);</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;            assertEquals(expResult, result);</div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;        }</div><div class="ttc" id="a05588_html_a5ffebf384504d11b17aa9c75f4b92024"><div class="ttname"><a href="a05588.html#a5ffebf384504d11b17aa9c75f4b92024">org.eclipse.rdf4j.testsuites.postgis.geometry.srid.SRIDToEPSGTest.srid</a></div><div class="ttdeci">Integer srid</div><div class="ttdef"><b>Definition:</b> SRIDToEPSGTest.java:15</div></div>
-<div class="ttc" id="a05588_html_ae984b1b4178b56b80cdb7a80eac64541"><div class="ttname"><a href="a05588.html#ae984b1b4178b56b80cdb7a80eac64541">org.eclipse.rdf4j.testsuites.postgis.geometry.srid.SRIDToEPSGTest.epsg</a></div><div class="ttdeci">String epsg</div><div class="ttdef"><b>Definition:</b> SRIDToEPSGTest.java:13</div></div>
+<p class="reference">References <a class="el" href="a03472.html#a43b4c73244bc6722ce551c1033cf1115">EPSGToSRID.evaluate()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;                                     {</div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;                EPSGToSRID is3d=<span class="keyword">new</span> EPSGToSRID();</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;                ValueFactory valfac=SimpleValueFactory.getInstance();</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;                Value geo=valfac.createLiteral(<a class="code" href="a05588.html#ae984b1b4178b56b80cdb7a80eac64541">epsg</a>);</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;                Value result=is3d.evaluate(valfac, geo);</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;                Value expResult=valfac.createLiteral(<a class="code" href="a05588.html#a5ffebf384504d11b17aa9c75f4b92024">srid</a>);</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;            assertEquals(expResult, result);</div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;        }</div><div class="ttc" id="a05588_html_a5ffebf384504d11b17aa9c75f4b92024"><div class="ttname"><a href="a05588.html#a5ffebf384504d11b17aa9c75f4b92024">org.eclipse.rdf4j.testsuites.postgis.geometry.srid.EPSGToSRIDTest.srid</a></div><div class="ttdeci">Integer srid</div><div class="ttdef"><b>Definition:</b> EPSGToSRIDTest.java:15</div></div>
+<div class="ttc" id="a05588_html_ae984b1b4178b56b80cdb7a80eac64541"><div class="ttname"><a href="a05588.html#ae984b1b4178b56b80cdb7a80eac64541">org.eclipse.rdf4j.testsuites.postgis.geometry.srid.EPSGToSRIDTest.epsg</a></div><div class="ttdeci">String epsg</div><div class="ttdef"><b>Definition:</b> EPSGToSRIDTest.java:13</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -161,7 +161,7 @@ Package Attributes</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="a02559.html">org</a></li><li class="navelem"><a class="el" href="a02560.html">eclipse</a></li><li class="navelem"><a class="el" href="a02561.html">rdf4j</a></li><li class="navelem"><a class="el" href="a02642.html">testsuites</a></li><li class="navelem"><a class="el" href="a02643.html">postgis</a></li><li class="navelem"><a class="el" href="a02646.html">geometry</a></li><li class="navelem"><a class="el" href="a02651.html">srid</a></li><li class="navelem"><a class="el" href="a05588.html">SRIDToEPSGTest</a></li>
+    <li class="navelem"><a class="el" href="a02583.html">org</a></li><li class="navelem"><a class="el" href="a02584.html">eclipse</a></li><li class="navelem"><a class="el" href="a02585.html">rdf4j</a></li><li class="navelem"><a class="el" href="a02666.html">testsuites</a></li><li class="navelem"><a class="el" href="a02667.html">postgis</a></li><li class="navelem"><a class="el" href="a02670.html">geometry</a></li><li class="navelem"><a class="el" href="a02675.html">srid</a></li><li class="navelem"><a class="el" href="a05588.html">EPSGToSRIDTest</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>

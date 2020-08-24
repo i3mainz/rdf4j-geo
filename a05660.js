@@ -1,5 +1,5 @@
 var a05660 =
 [
-    [ "testSimplify", "a05660.html#aa558cd336665fb035373b5b11e212cb9", null ],
-    [ "testGeom", "a05660.html#a03a5f5da0ccbeed8c1678d4317cf2672", null ]
+    [ "testForce2D", "a05660.html#ac1b65b91741abc3458f3a8303d7c0388", null ],
+    [ "testPolygon", "a05660.html#a1e3187cbc25299380589200c398b3ffd", null ]
 ];

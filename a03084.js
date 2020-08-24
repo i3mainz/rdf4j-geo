@@ -1,5 +1,6 @@
 var a03084 =
 [
-    [ "construct", "a03084.html#a11ee106d4dd8fab68e09ac3f1a21353b", null ],
-    [ "evaluate", "a03084.html#a43b4c73244bc6722ce551c1033cf1115", null ]
+    [ "attribute", "a03084.html#a96c8c336ce0b2174abd59cfbcdb28860", null ],
+    [ "evaluate", "a03084.html#a43b4c73244bc6722ce551c1033cf1115", null ],
+    [ "getURI", "a03084.html#ad9fb16b36dd4ccc533d4f05ff94646e3", null ]
 ];

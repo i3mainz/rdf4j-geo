@@ -1,2 +1,35 @@
-<map id="GeometricBinaryCRSAttributeFunction" name="GeometricBinaryCRSAttributeFunction">
+<map id="GeometricBinaryAttributeFunction" name="GeometricBinaryAttributeFunction">
+<area shape="rect" id="node3" href="$a02928.html" title="HasHorizontalCRS" alt="" coords="349,5,483,32"/>
+<area shape="rect" id="node4" href="$a02932.html" title="Returns true if the geometry has repeated points. " alt="" coords="347,56,485,83"/>
+<area shape="rect" id="node5" href="$a02936.html" title="Returns true if the given geometry is a 3D geometry, false otherwise. " alt="" coords="391,107,441,133"/>
+<area shape="rect" id="node6" href="$a02940.html" title="Returns true if the given geometry is closed, false otherwise. " alt="" coords="379,157,453,184"/>
+<area shape="rect" id="node7" href="$a02944.html" title="Returns true if the given geometry is an instance of GeometryCollection, CompoundCurve or a MULTI typ..." alt="" coords="371,208,461,235"/>
+<area shape="rect" id="node8" href="$a02948.html" title="Returns true if the given geometry is convex. " alt="" coords="377,259,455,285"/>
+<area shape="rect" id="node9" href="$a02952.html" title="Returns true if the given geometry empty. " alt="" coords="381,309,451,336"/>
+<area shape="rect" id="node10" href="$a02960.html" title="Returns true if the given geometry is measured, i.e. " alt="" coords="371,360,461,387"/>
+<area shape="rect" id="node11" href="$a02964.html" title="Returns true if the given geometries&#39; noding is valid. " alt="" coords="365,411,467,437"/>
+<area shape="rect" id="node12" href="$a02968.html" title="IsPlanar" alt="" coords="381,461,451,488"/>
+<area shape="rect" id="node13" href="$a02972.html" title="Returns true if the given geometry is a rectangle. " alt="" coords="370,512,462,539"/>
+<area shape="rect" id="node14" href="$a02976.html" title="IsRing" alt="" coords="386,563,446,589"/>
+<area shape="rect" id="node15" href="$a02980.html" title="IsSimple" alt="" coords="379,613,453,640"/>
+<area shape="rect" id="node16" href="$a02984.html" title="Returns true if the given geometry is solid. " alt="" coords="385,664,447,691"/>
+<area shape="rect" id="node17" href="$a02988.html" title="Checks if the given geometry is a square. " alt="" coords="379,715,453,741"/>
+<area shape="rect" id="node18" href="$a02992.html" title="Returns true if the given geometry is valid. " alt="" coords="385,765,447,792"/>
+<area shape="rect" id="node19" href="$a03004.html" title="Checks if the a given trajectory is valid. " alt="" coords="356,816,476,843"/>
+<area shape="rect" id="node20" href="$a03504.html" title="SridHasFlippedAxis" alt="" coords="347,867,485,893"/>
+<area shape="rect" id="node21" href="$a03508.html" title="SridIsGeographic" alt="" coords="355,917,477,944"/>
+<area shape="rect" id="node22" href="$a03512.html" title="SridIsProjected" alt="" coords="361,968,471,995"/>
+<area shape="rect" id="node23" href="$a03516.html" title="SridIsVertical" alt="" coords="366,1019,466,1045"/>
+<area shape="rect" id="node24" href="$a03676.html" title="HasSelfIntersections" alt="" coords="344,1069,488,1096"/>
+<area shape="rect" id="node25" href="$a03992.html" title="Checks if the interior rings of a polygon are connected. " alt="" coords="341,1120,491,1147"/>
+<area shape="rect" id="node26" href="$a03996.html" title="Checks a polygon for duplicate interior rings. " alt="" coords="349,1171,483,1197"/>
+<area shape="rect" id="node27" href="$a04000.html" title="Checks a polygon for nested rings. " alt="" coords="355,1221,477,1248"/>
+<area shape="rect" id="node28" href="$a04008.html" title="Checks if a given polygon is acute. " alt="" coords="383,1272,449,1299"/>
+<area shape="rect" id="node29" href="$a04012.html" title="Checks if the polygon represents an equilateral triangle. " alt="" coords="346,1323,486,1349"/>
+<area shape="rect" id="node30" href="$a04016.html" title="Checks if the polygon represents an isoceles triangle. " alt="" coords="352,1373,480,1400"/>
+<area shape="rect" id="node31" href="$a04020.html" title="IsLocationOnEdge" alt="" coords="351,1424,481,1451"/>
+<area shape="rect" id="node32" href="$a04024.html" title="Checks if the polygons coordinates&#39; orientations are defined counter&#45;clockwise. " alt="" coords="359,1475,473,1501"/>
+<area shape="rect" id="node33" href="$a04028.html" title="Returns true if all exterior rings are oriented clockwise and all interior rings are oriented clockwi..." alt="" coords="365,1525,467,1552"/>
+<area shape="rect" id="node34" href="$a04032.html" title="Checks if the given polygon is a right triangle. " alt="" coords="361,1576,471,1603"/>
+<area shape="rect" id="node35" href="$a04036.html" title="Checks if a given polygon represents a triangle. " alt="" coords="377,1627,455,1653"/>
 </map>

@@ -1,7 +1,5 @@
 var a05628 =
 [
-    [ "testMulti2D", "a05628.html#a132a5ee02a51082794ac01f2787422c1", null ],
-    [ "testMulti3D", "a05628.html#afee46817e97b41a801cd7a7acf30e801", null ],
-    [ "testGeometry", "a05628.html#abc3f514f005cba49e406658e2d3086eb", null ],
-    [ "testGeometryZ", "a05628.html#a7a113ffd7d8ff98f71b4361ffff21edc", null ]
+    [ "testSridIsProjectedTrue", "a05628.html#a79fa3e75c2d90e917a8ece94f56a16ba", null ],
+    [ "testPoint", "a05628.html#af26f700ee129f846cac58735f6dcc380", null ]
 ];

@@ -1,5 +1,7 @@
 var a05852 =
 [
-    [ "testNRings", "a05852.html#a232253c11ffc2c2e17e969ee3180b704", null ],
-    [ "testPolygon", "a05852.html#a1e3187cbc25299380589200c398b3ffd", null ]
+    [ "testIsScaleneTriangleFalse", "a05852.html#ac6f7d4cf9bd1990319a4e7a5bb51d4b1", null ],
+    [ "testIsScaleneTriangleTrue", "a05852.html#a86b14a35c3e202b5a14bdaea4c16a441", null ],
+    [ "isocelesTriangle", "a05852.html#aa04dfbec745e2622b9f7646f8572e501", null ],
+    [ "notIsocelesTriangle", "a05852.html#a055d99fb63bcee37763ffcf4da9e0521", null ]
 ];

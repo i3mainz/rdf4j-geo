@@ -1,7 +1,7 @@
 var a05960 =
 [
     [ "getInstance", "a05960.html#af8afdd14b38b523d100805364a48ed63", null ],
-    [ "testXor", "a05960.html#a11b935be18716d35402a7fec0817a727", null ],
+    [ "testDivConst", "a05960.html#a41679bcbed1ec2aa7d574727940c0407", null ],
     [ "combinedRasterLiteral", "a05960.html#a6efe8702be34a67e2bcbba55588c5b5f", null ],
     [ "covJSONString1", "a05960.html#a993e2f127f3ec8f256e9799d77507223", null ],
     [ "hexwkbString1", "a05960.html#a55fb5b5d665417265da09403128e396e", null ],

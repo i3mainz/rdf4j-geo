@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>rdf4j-postgis: PolygonFromWKBTest Class Reference</title>
+<title>rdf4j-postgis: HasConnectedInteriorTest Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -65,36 +65,40 @@ $(document).ready(function(){initNavTree('a05860.html','');});
 <a href="#pub-static-attribs">Static Public Attributes</a> &#124;
 <a href="a05857.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">PolygonFromWKBTest Class Reference</div>  </div>
+<div class="title">HasConnectedInteriorTest Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 <div class="dynheader">
-Collaboration diagram for PolygonFromWKBTest:</div>
+Collaboration diagram for HasConnectedInteriorTest:</div>
 <div class="dyncontent">
-<div class="center"><img src="a05858.png" border="0" usemap="#PolygonFromWKBTest_coll__map" alt="Collaboration graph"/></div>
-<map name="PolygonFromWKBTest_coll__map" id="PolygonFromWKBTest_coll__map">
+<div class="center"><img src="a05858.png" border="0" usemap="#HasConnectedInteriorTest_coll__map" alt="Collaboration graph"/></div>
+<map name="HasConnectedInteriorTest_coll__map" id="HasConnectedInteriorTest_coll__map">
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ab595a17ecc4ca9c8bef45188c8afb6c3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05860.html#ab595a17ecc4ca9c8bef45188c8afb6c3">testLineFromText</a> ()</td></tr>
-<tr class="separator:ab595a17ecc4ca9c8bef45188c8afb6c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a95e618db9d2053f26b5194e3bec0d2a0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05860.html#a95e618db9d2053f26b5194e3bec0d2a0">testHasConnectedInteriorTrue</a> ()</td></tr>
+<tr class="separator:a95e618db9d2053f26b5194e3bec0d2a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a725a2cc1c4ba4909307c9a2fa07558d8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05860.html#a725a2cc1c4ba4909307c9a2fa07558d8">testHasConnectedInteriorFalse</a> ()</td></tr>
+<tr class="separator:a725a2cc1c4ba4909307c9a2fa07558d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
-<tr class="memitem:a1e3187cbc25299380589200c398b3ffd"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05860.html#a1e3187cbc25299380589200c398b3ffd">testPolygon</a> =&quot;POLYGON((-71.1776585052917 42.3902909739571,-71.1776820268866 42.3903701743239,-71.1776063012595 42.3903825660754,-71.1775826583081 42.3903033653531,-71.1776585052917 42.3902909739571))&quot;</td></tr>
-<tr class="separator:a1e3187cbc25299380589200c398b3ffd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a92f3ef00fc079a76b7f943d9ed6cec77"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05860.html#a92f3ef00fc079a76b7f943d9ed6cec77">duplicateRings</a> =&quot;POLYGON((8 2, 11 13, 2 6, 8 2),(8 2, 11 13, 2 6, 8 2))&quot;</td></tr>
+<tr class="separator:a92f3ef00fc079a76b7f943d9ed6cec77"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a675a0b1b194538fc07fa716705f883a5"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05860.html#a675a0b1b194538fc07fa716705f883a5">nonduplicateRings</a> =&quot;POLYGON((1 2, 3 4, 5 6, 1 2))&quot;</td></tr>
+<tr class="separator:a675a0b1b194538fc07fa716705f883a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="ab595a17ecc4ca9c8bef45188c8afb6c3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab595a17ecc4ca9c8bef45188c8afb6c3">&#9670;&nbsp;</a></span>testLineFromText()</h2>
+<a id="a725a2cc1c4ba4909307c9a2fa07558d8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a725a2cc1c4ba4909307c9a2fa07558d8">&#9670;&nbsp;</a></span>testHasConnectedInteriorFalse()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void testLineFromText </td>
+          <td class="memname">void testHasConnectedInteriorFalse </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -102,14 +106,34 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="a05008.html#addbf30e6c0ad68fa34277d59a2c6eb5e">WKTDatatype.URI</a>.</p>
-<div class="fragment"><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;                                       {</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;        PolygonFromWKB instance=<span class="keyword">new</span> PolygonFromWKB();</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;        List&lt;Coordinate&gt; coords=<span class="keyword">new</span> LinkedList&lt;Coordinate&gt;();</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;        coords.add(<span class="keyword">new</span> Coordinate(-71.1776585052917, 42.3902909739571));</div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;        coords.add(<span class="keyword">new</span> Coordinate(-71.1776820268866, 42.3903701743239));</div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;        coords.add(<span class="keyword">new</span> Coordinate(-71.1776063012595, 42.3903825660754));</div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;        coords.add(<span class="keyword">new</span> Coordinate(-71.1775826583081, 42.3903033653531));</div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;        coords.add(<span class="keyword">new</span> Coordinate(-71.1776585052917, 42.3902909739571));</div><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;        NodeValue expResult = GeometryWrapperFactory.createPolygon(coords, WKTDatatype.URI).asNodeValue();</div><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;        NodeValue result = instance.exec(NodeValue.makeString(<a class="code" href="a05860.html#a1e3187cbc25299380589200c398b3ffd">testPolygon</a>));</div><div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;        assertEquals(expResult, result);</div><div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;        }</div><div class="ttc" id="a05860_html_a1e3187cbc25299380589200c398b3ffd"><div class="ttname"><a href="a05860.html#a1e3187cbc25299380589200c398b3ffd">org.eclipse.rdf4j.testsuites.postgis.polygon.constructor.PolygonFromWKBTest.testPolygon</a></div><div class="ttdeci">static final String testPolygon</div><div class="ttdef"><b>Definition:</b> PolygonFromWKBTest.java:18</div></div>
+<p class="reference">References <a class="el" href="a03092.html#a43b4c73244bc6722ce551c1033cf1115">GeometricBinaryAttributeFunction.evaluate()</a>, and <a class="el" href="a05048.html#ae02c2e86ac0dea8538c7b43e9e82421a">WKTDatatype.LiteralIRI</a>.</p>
+<div class="fragment"><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;                                                    {</div><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;                HasConnectedInterior instance=<span class="keyword">new</span> HasConnectedInterior();</div><div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;                ValueFactory valfac=SimpleValueFactory.getInstance();</div><div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;                Value geo=valfac.createLiteral(<a class="code" href="a05860.html#a675a0b1b194538fc07fa716705f883a5">nonduplicateRings</a>, WKTDatatype.LiteralIRI);</div><div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;                Value result=instance.evaluate(valfac, geo);</div><div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;                Value expResult=valfac.createLiteral(<span class="keyword">false</span>);</div><div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;                assertEquals(expResult, result);</div><div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;        }</div><div class="ttc" id="a05860_html_a675a0b1b194538fc07fa716705f883a5"><div class="ttname"><a href="a05860.html#a675a0b1b194538fc07fa716705f883a5">org.eclipse.rdf4j.testsuites.postgis.polygon.attribute.HasConnectedInteriorTest.nonduplicateRings</a></div><div class="ttdeci">static final String nonduplicateRings</div><div class="ttdef"><b>Definition:</b> HasConnectedInteriorTest.java:16</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a95e618db9d2053f26b5194e3bec0d2a0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a95e618db9d2053f26b5194e3bec0d2a0">&#9670;&nbsp;</a></span>testHasConnectedInteriorTrue()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void testHasConnectedInteriorTrue </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="a03092.html#a43b4c73244bc6722ce551c1033cf1115">GeometricBinaryAttributeFunction.evaluate()</a>, and <a class="el" href="a05048.html#ae02c2e86ac0dea8538c7b43e9e82421a">WKTDatatype.LiteralIRI</a>.</p>
+<div class="fragment"><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;                                                   {</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;                HasConnectedInterior instance=<span class="keyword">new</span> HasConnectedInterior();</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;                ValueFactory valfac=SimpleValueFactory.getInstance();</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;                Value geo=valfac.createLiteral(<a class="code" href="a05860.html#a92f3ef00fc079a76b7f943d9ed6cec77">duplicateRings</a>, WKTDatatype.LiteralIRI);</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;                Value result=instance.evaluate(valfac, geo);</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;                Value expResult=valfac.createLiteral(<span class="keyword">true</span>);</div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;                assertEquals(expResult, result);</div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;        }</div><div class="ttc" id="a05860_html_a92f3ef00fc079a76b7f943d9ed6cec77"><div class="ttname"><a href="a05860.html#a92f3ef00fc079a76b7f943d9ed6cec77">org.eclipse.rdf4j.testsuites.postgis.polygon.attribute.HasConnectedInteriorTest.duplicateRings</a></div><div class="ttdeci">static final String duplicateRings</div><div class="ttdef"><b>Definition:</b> HasConnectedInteriorTest.java:14</div></div>
 </div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="a1e3187cbc25299380589200c398b3ffd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1e3187cbc25299380589200c398b3ffd">&#9670;&nbsp;</a></span>testPolygon</h2>
+<a id="a92f3ef00fc079a76b7f943d9ed6cec77"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a92f3ef00fc079a76b7f943d9ed6cec77">&#9670;&nbsp;</a></span>duplicateRings</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -118,7 +142,29 @@ Static Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">final String testPolygon =&quot;POLYGON((-71.1776585052917 42.3902909739571,-71.1776820268866 42.3903701743239,-71.1776063012595 42.3903825660754,-71.1775826583081 42.3903033653531,-71.1776585052917 42.3902909739571))&quot;</td>
+          <td class="memname">final String duplicateRings =&quot;POLYGON((8 2, 11 13, 2 6, 8 2),(8 2, 11 13, 2 6, 8 2))&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a675a0b1b194538fc07fa716705f883a5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a675a0b1b194538fc07fa716705f883a5">&#9670;&nbsp;</a></span>nonduplicateRings</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final String nonduplicateRings =&quot;POLYGON((1 2, 3 4, 5 6, 1 2))&quot;</td>
         </tr>
       </table>
   </td>
@@ -136,7 +182,7 @@ Static Public Attributes</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="a02559.html">org</a></li><li class="navelem"><a class="el" href="a02560.html">eclipse</a></li><li class="navelem"><a class="el" href="a02561.html">rdf4j</a></li><li class="navelem"><a class="el" href="a02642.html">testsuites</a></li><li class="navelem"><a class="el" href="a02643.html">postgis</a></li><li class="navelem"><a class="el" href="a02663.html">polygon</a></li><li class="navelem"><a class="el" href="a02664.html">constructor</a></li><li class="navelem"><a class="el" href="a05860.html">PolygonFromWKBTest</a></li>
+    <li class="navelem"><a class="el" href="a02583.html">org</a></li><li class="navelem"><a class="el" href="a02584.html">eclipse</a></li><li class="navelem"><a class="el" href="a02585.html">rdf4j</a></li><li class="navelem"><a class="el" href="a02666.html">testsuites</a></li><li class="navelem"><a class="el" href="a02667.html">postgis</a></li><li class="navelem"><a class="el" href="a02687.html">polygon</a></li><li class="navelem"><a class="el" href="a02686.html">attribute</a></li><li class="navelem"><a class="el" href="a05860.html">HasConnectedInteriorTest</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
