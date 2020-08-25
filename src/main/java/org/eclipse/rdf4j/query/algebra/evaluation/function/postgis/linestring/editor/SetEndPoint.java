@@ -21,8 +21,7 @@ public class SetEndPoint extends GeometricModifierFunction {
 
 	@Override
 	protected Geometry relation(Geometry geom1, Geometry geom2) {
-		Geometry transformed=LiteralUtils.transform(geom2, geom1);
-        if (geom1 instanceof LineString && transformed instanceof Point) {
+        if (geom2 instanceof Point) {
             Coordinate[] coords=geom1.getCoordinates();
             Coordinate[] newcoords=coords;
             newcoords[newcoords.length-1]=geom2.getCoordinate();

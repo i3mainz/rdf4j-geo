@@ -13,8 +13,10 @@ public class PointInsideCircleTest {
 
 	public static final String testPoint="POINT (1 2)";
 	
+	public static final String testPoint2="POINT (500 500)";
+	
 	@Test
-	public void testPoitnInsideCircleTrue() {
+	public void testPointInsideCircleTrue() {
 		PointInsideCircle instance=new PointInsideCircle();
 		ValueFactory valfac=SimpleValueFactory.getInstance();
 		Value geo=valfac.createLiteral(testPoint, WKTDatatype.LiteralIRI);
@@ -27,9 +29,9 @@ public class PointInsideCircleTest {
 	public void testPointInsideCircleFalse() {
 		PointInsideCircle instance=new PointInsideCircle();
 		ValueFactory valfac=SimpleValueFactory.getInstance();
-		Value geo=valfac.createLiteral(testPoint, WKTDatatype.LiteralIRI);
+		Value geo=valfac.createLiteral(testPoint2, WKTDatatype.LiteralIRI);
 		Value result=instance.evaluate(valfac, geo,valfac.createLiteral(100.0),valfac.createLiteral(100.0),valfac.createLiteral(2.0));
-		Value expResult=valfac.createLiteral(true);
+		Value expResult=valfac.createLiteral(false);
 		assertEquals(expResult, result);
 	}
 	

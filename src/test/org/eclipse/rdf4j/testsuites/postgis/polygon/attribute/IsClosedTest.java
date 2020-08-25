@@ -20,7 +20,7 @@ public static final String notClosed="LINESTRING(0 0, 1 1)";
 	
 	public static final String pointClosed="POINT(0 0)";
 	
-	public static final String multiPointClosed="MULTIPOINT((0 0), (1 1))";
+	public static final String multiPointClosed="MULTIPOINT((0 0), (1 1), (0 0))";
 	
 	
 	@Test
@@ -59,7 +59,7 @@ public static final String notClosed="LINESTRING(0 0, 1 1)";
 		ValueFactory valfac=SimpleValueFactory.getInstance();
 		Value geo=valfac.createLiteral(pointClosed, WKTDatatype.LiteralIRI);
 		Value result=instance.evaluate(valfac, geo);
-		Value expResult=valfac.createLiteral(true);
+		Value expResult=valfac.createLiteral(false);
 		assertEquals(expResult, result);
 	}	
 

@@ -22,7 +22,18 @@ public class SetGeometryTest {
 		Value geo=valfac.createLiteral(lineString, WKTDatatype.LiteralIRI);
 		Value geo2=valfac.createLiteral(point, WKTDatatype.LiteralIRI);
 		Value result=instance.evaluate(valfac,geo,geo2,valfac.createLiteral(0));
-		Value expResult=valfac.createLiteral("GEOMETRYCOLLECTION(POINT(1 2 3),POINT(1 2 3))", WKTDatatype.LiteralIRI);
+		Value expResult=valfac.createLiteral("GEOMETRYCOLLECTION (POINT (1 2), POINT (1 2))", WKTDatatype.LiteralIRI);
+		assertEquals(expResult, result);
+	}
+
+	@Test
+	public void testSetGeometryZ() {
+		SetGeometry instance=new SetGeometry();
+		ValueFactory valfac=SimpleValueFactory.getInstance();
+		Value geo=valfac.createLiteral(lineString, WKTDatatype.LiteralIRI);
+		Value geo2=valfac.createLiteral(point, WKTDatatype.LiteralIRI);
+		Value result=instance.evaluate(valfac,geo,geo2,valfac.createLiteral(0));
+		Value expResult=valfac.createLiteral("GEOMETRYCOLLECTION ( POINT (1 2 3), POINT (1 2 3))", WKTDatatype.LiteralIRI);
 		assertEquals(expResult, result);
 	}
 	
