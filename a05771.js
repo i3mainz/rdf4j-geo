@@ -1,7 +1,7 @@
 var a05771 =
 [
-    [ "testHasDuplicateRingsFalse", "a05771.html#a3957683118b9d5473c635a38d7e6c6e8", null ],
-    [ "testHasDuplicateRingsTrue", "a05771.html#a3779f6b4849bf60c716f7dff71089a2a", null ],
-    [ "duplicateRings", "a05771.html#a92f3ef00fc079a76b7f943d9ed6cec77", null ],
-    [ "nonduplicateRings", "a05771.html#a675a0b1b194538fc07fa716705f883a5", null ]
+    [ "testLineStringIsNotRing", "a05771.html#a321e37eed11ab4c4fb34459ff2f0c8a4", null ],
+    [ "testLineStringIsRing", "a05771.html#af99150f0a2baa803f3a32475e363a546", null ],
+    [ "isNotRing", "a05771.html#aab14cab4c38dbe8dacf3fc3b49a4e99d", null ],
+    [ "isRing", "a05771.html#ada60d12c21aae01823c842a1347435af", null ]
 ];

@@ -1,6 +1,8 @@
 var a05263 =
 [
-    [ "testMinimumBoundingCircle", "a05263.html#ae83e48bad70898d10790438246feadad", null ],
-    [ "result", "a05263.html#aab356d6554a7301750f11ec7a85ac47d", null ],
-    [ "testPolygon", "a05263.html#a1e3187cbc25299380589200c398b3ffd", null ]
+    [ "testBBOXDistance", "a05263.html#a92dec506ee3b1258b55159ac890afd0a", null ],
+    [ "testGeom1", "a05263.html#aa4a3b1a7e778ece72382f6600fa96b47", null ],
+    [ "testGeom2", "a05263.html#a6b4be369c8f60e973cd5126e69cd33a4", null ],
+    [ "testGeom3", "a05263.html#a800b6bb875a8ff4404ea787c3df125a5", null ],
+    [ "testGeom4", "a05263.html#a4c55e7efe430d6d220fb05524c4bb940", null ]
 ];

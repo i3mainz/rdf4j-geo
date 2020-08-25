@@ -1,10 +1,9 @@
 var a02735 =
 [
-    [ "MaxZ", "a02735.html#a0d3192176fda74e2093112df6d35e221", null ],
-    [ "MaxZ", "a02735.html#a4d82bee2a5681def38144a758bd73b10", null ],
-    [ "clone", "a02735.html#adb38b640a79b45eb42fb409664a924fe", null ],
-    [ "equals", "a02735.html#a8e18a3a952a9e38a9a4191004a30c938", null ],
-    [ "hashCode", "a02735.html#a077e18fe97323c7194e2665ffc766399", null ],
-    [ "visit", "a02735.html#ace7c41d3761122fda287033559696cdd", null ],
-    [ "serialVersionUID", "a02735.html#a3238d314ecdee14d2966760945d00c3b", null ]
+    [ "getGARS", "a02735.html#ad32b2611bcfa60ea86cc4e6c3e17a7f9", null ],
+    [ "getGARS", "a02735.html#aab0ce72463899f6ec6442a3d84a3505e", null ],
+    [ "getKeyPad", "a02735.html#af7bff98d14ce187151a4a42f2f2dd8bf", null ],
+    [ "getLatitudeBand", "a02735.html#ad4746c530ec18633752a358cb6be1fca", null ],
+    [ "getLongitudeBand", "a02735.html#aed1e474b826a038d1709638ca60ed398", null ],
+    [ "getQudarant", "a02735.html#a71d9179536894e21c4fa1049adf3d105", null ]
 ];

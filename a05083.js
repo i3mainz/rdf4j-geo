@@ -1,13 +1,10 @@
 var a05083 =
 [
-    [ "WKBRasterWriter", "a05083.html#ac554c69222b99b75f6e7bd0902a05cf8", null ],
-    [ "reset", "a05083.html#ad20897c5c8bd47f5d4005989bead0e55", null ],
-    [ "write", "a05083.html#a856e54e4f4722fb982aefe4b71c702db", null ],
-    [ "write", "a05083.html#a548c80a7e87fc26b84de1c8be26797df", null ],
-    [ "write", "a05083.html#a85eee5803cdc8926b61a167fa833c808", null ],
-    [ "write", "a05083.html#aa81b0fae18d5e64b155d0ea2afba77c1", null ],
-    [ "write", "a05083.html#a4ed3a6a532fffee3bc00f6a284480f32", null ],
-    [ "write", "a05083.html#a0acd711eb42afa0b71f0034a6a240311", null ],
-    [ "write", "a05083.html#a177a60820d9f841633957dbe681f46c8", null ],
-    [ "write", "a05083.html#a4d44c575b7d26f24882ee78b390f7ee4", null ]
+    [ "WKBTextSRS", "a05087.html", "a05087" ],
+    [ "read", "a05083.html#a793358fbd6ef538a24eabab1bd50ef01", null ],
+    [ "toString", "a05083.html#ad146fa8579a5f8a876c4688cc5a68520", null ],
+    [ "unparse", "a05083.html#ae918a517e1ebcc44beeee2c55008d248", null ],
+    [ "INSTANCE", "a05083.html#a3e60086252e5262f1238a2d9cbd491d9", null ],
+    [ "LiteralIRI", "a05083.html#ae02c2e86ac0dea8538c7b43e9e82421a", null ],
+    [ "URI", "a05083.html#addbf30e6c0ad68fa34277d59a2c6eb5e", null ]
 ];

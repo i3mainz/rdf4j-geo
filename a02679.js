@@ -1,4 +1,4 @@
 var a02679 =
 [
-    [ "MakeLineTest", "a05752.html", "a05752" ]
+    [ "algorithm", "a02678.html", "a02678" ]
 ];

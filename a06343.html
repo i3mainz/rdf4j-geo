@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>rdf4j-postgis: MinimumDiameterLineTest Class Reference</title>
+<title>rdf4j-postgis: USMileToMeterTest Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -62,41 +62,26 @@ $(document).ready(function(){initNavTree('a06343.html','');});
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pub-static-attribs">Static Public Attributes</a> &#124;
 <a href="a06340.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">MinimumDiameterLineTest Class Reference</div>  </div>
+<div class="title">USMileToMeterTest Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="dynheader">
-Collaboration diagram for MinimumDiameterLineTest:</div>
-<div class="dyncontent">
-<div class="center"><img src="a06341.png" border="0" usemap="#MinimumDiameterLineTest_coll__map" alt="Collaboration graph"/></div>
-<map name="MinimumDiameterLineTest_coll__map" id="MinimumDiameterLineTest_coll__map">
-</map>
-<center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ac6734228b3f88748ca1545e62811f616"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a06343.html#ac6734228b3f88748ca1545e62811f616">testMinimumDiameterLine</a> ()</td></tr>
-<tr class="separator:ac6734228b3f88748ca1545e62811f616"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
-Static Public Attributes</h2></td></tr>
-<tr class="memitem:a1e3187cbc25299380589200c398b3ffd"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a06343.html#a1e3187cbc25299380589200c398b3ffd">testPolygon</a> =&quot;POLYGON ((0 0, 1 0, 1 1, 0.5 3.2e-4, 0 0))&quot;</td></tr>
-<tr class="separator:a1e3187cbc25299380589200c398b3ffd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aab356d6554a7301750f11ec7a85ac47d"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a06343.html#aab356d6554a7301750f11ec7a85ac47d">result</a> =&quot;LINESTRING ((0.5 0.5, 1 0))&quot;</td></tr>
-<tr class="separator:aab356d6554a7301750f11ec7a85ac47d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1c47545f8d6faf61e26aba5d2fb5594a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a06343.html#a1c47545f8d6faf61e26aba5d2fb5594a">testUSMileToMeter</a> ()</td></tr>
+<tr class="separator:a1c47545f8d6faf61e26aba5d2fb5594a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="ac6734228b3f88748ca1545e62811f616"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac6734228b3f88748ca1545e62811f616">&#9670;&nbsp;</a></span>testMinimumDiameterLine()</h2>
+<a id="a1c47545f8d6faf61e26aba5d2fb5594a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1c47545f8d6faf61e26aba5d2fb5594a">&#9670;&nbsp;</a></span>testUSMileToMeter()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void testMinimumDiameterLine </td>
+          <td class="memname">void testUSMileToMeter </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -104,55 +89,8 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="a03195.html#a43b4c73244bc6722ce551c1033cf1115">GeometricUnaryFunction.evaluate()</a>, and <a class="el" href="a05019.html#ae02c2e86ac0dea8538c7b43e9e82421a">WKTDatatype.LiteralIRI</a>.</p>
-<div class="fragment"><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;                                              {</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;                MinimumBoundingCircleCenter instance=<span class="keyword">new</span> MinimumBoundingCircleCenter();</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;                ValueFactory valfac=SimpleValueFactory.getInstance();</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;                Value geo=valfac.createLiteral(<a class="code" href="a06343.html#a1e3187cbc25299380589200c398b3ffd">testPolygon</a>, WKTDatatype.LiteralIRI);</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;                Value resultt=instance.evaluate(valfac,geo);</div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;                Value expResult=valfac.createLiteral(<a class="code" href="a06343.html#aab356d6554a7301750f11ec7a85ac47d">result</a>, WKTDatatype.LiteralIRI);</div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;                assertEquals(expResult, resultt);</div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;        }</div><div class="ttc" id="a06343_html_a1e3187cbc25299380589200c398b3ffd"><div class="ttname"><a href="a06343.html#a1e3187cbc25299380589200c398b3ffd">org.eclipse.rdf4j.testsuites.postgis.geometry.attribute.MinimumDiameterLineTest.testPolygon</a></div><div class="ttdeci">static final String testPolygon</div><div class="ttdef"><b>Definition:</b> org/eclipse/rdf4j/testsuites/postgis/geometry/attribute/MinimumDiameterLineTest.java:15</div></div>
-<div class="ttc" id="a06343_html_aab356d6554a7301750f11ec7a85ac47d"><div class="ttname"><a href="a06343.html#aab356d6554a7301750f11ec7a85ac47d">org.eclipse.rdf4j.testsuites.postgis.geometry.attribute.MinimumDiameterLineTest.result</a></div><div class="ttdeci">static final String result</div><div class="ttdef"><b>Definition:</b> org/eclipse/rdf4j/testsuites/postgis/geometry/attribute/MinimumDiameterLineTest.java:17</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<h2 class="groupheader">Member Data Documentation</h2>
-<a id="aab356d6554a7301750f11ec7a85ac47d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aab356d6554a7301750f11ec7a85ac47d">&#9670;&nbsp;</a></span>result</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">final String result =&quot;LINESTRING ((0.5 0.5, 1 0))&quot;</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a1e3187cbc25299380589200c398b3ffd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1e3187cbc25299380589200c398b3ffd">&#9670;&nbsp;</a></span>testPolygon</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">final String testPolygon =&quot;POLYGON ((0 0, 1 0, 1 1, 0.5 3.2e-4, 0 0))&quot;</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
+<p class="reference">References <a class="el" href="a04855.html#a43b4c73244bc6722ce551c1033cf1115">USMileToMeter.evaluate()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;                                        {</div><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;                ValueFactory valfac=SimpleValueFactory.getInstance();</div><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;        Value unitamount = valfac.createLiteral(1.);</div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;        USMileToMeter instance=<span class="keyword">new</span> USMileToMeter();</div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;        Value expResult = valfac.createLiteral(1609.3473468862912);</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;        Value result= instance.evaluate(valfac,unitamount);</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;        System.out.println(result);</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;        assertEquals(expResult, result);</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;        }</div></div><!-- fragment -->
 </div>
 </div>
 </div><!-- contents -->
@@ -161,7 +99,7 @@ Static Public Attributes</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="a02538.html">org</a></li><li class="navelem"><a class="el" href="a02539.html">eclipse</a></li><li class="navelem"><a class="el" href="a02540.html">rdf4j</a></li><li class="navelem"><a class="el" href="a02653.html">testsuites</a></li><li class="navelem"><a class="el" href="a02654.html">postgis</a></li><li class="navelem"><a class="el" href="a02657.html">geometry</a></li><li class="navelem"><a class="el" href="a02656.html">attribute</a></li><li class="navelem"><a class="el" href="a06343.html">MinimumDiameterLineTest</a></li>
+    <li class="navelem"><a class="el" href="a02598.html">org</a></li><li class="navelem"><a class="el" href="a02599.html">eclipse</a></li><li class="navelem"><a class="el" href="a02600.html">rdf4j</a></li><li class="navelem"><a class="el" href="a02681.html">testsuites</a></li><li class="navelem"><a class="el" href="a02682.html">postgis</a></li><li class="navelem"><a class="el" href="a02713.html">unit</a></li><li class="navelem"><a class="el" href="a06343.html">USMileToMeterTest</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>

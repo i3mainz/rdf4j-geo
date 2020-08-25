@@ -1,9 +1,9 @@
 var a02610 =
 [
-    [ "AddMeasure", "a03724.html", "a03724" ],
-    [ "AddPoint", "a03728.html", "a03728" ],
-    [ "RemovePoint", "a03732.html", "a03732" ],
-    [ "SetEndPoint", "a03736.html", "a03736" ],
-    [ "SetPoint", "a03740.html", "a03740" ],
-    [ "SetStartPoint", "a03744.html", "a03744" ]
+    [ "Box2DFromGeoHash", "a02811.html", null ],
+    [ "Expand", "a02815.html", "a02815" ],
+    [ "MakeBox2D", "a02819.html", "a02819" ],
+    [ "MakeBox3D", "a02823.html", "a02823" ],
+    [ "MakeEnvelope", "a02827.html", "a02827" ],
+    [ "OctagonalEnvelope", "a02831.html", "a02831" ]
 ];

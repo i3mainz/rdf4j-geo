@@ -1,7 +1,8 @@
 var a05999 =
 [
     [ "getInstance", "a05999.html#af8afdd14b38b523d100805364a48ed63", null ],
-    [ "testTileHeight", "a05999.html#a9d781bf26af7708485de4c5a108a5b5e", null ],
+    [ "testDiv", "a05999.html#af62cdb248f1e7f2bb0372adcf20e8557", null ],
+    [ "combinedRasterLiteral", "a05999.html#a6efe8702be34a67e2bcbba55588c5b5f", null ],
     [ "covJSONString1", "a05999.html#a993e2f127f3ec8f256e9799d77507223", null ],
     [ "hexwkbString1", "a05999.html#a55fb5b5d665417265da09403128e396e", null ],
     [ "minwkbString", "a05999.html#aa5e2b5a6005895fc20b9f35523569430", null ],

@@ -1,5 +1,5 @@
 var a05303 =
 [
-    [ "testNumDistinctPoints", "a05303.html#aac9f79f9e21b36c6addad28b9e81bec6", null ],
-    [ "testGeom", "a05303.html#a03a5f5da0ccbeed8c1678d4317cf2672", null ]
+    [ "testBoundingDiagonal", "a05303.html#a5905b320ef165de047ef4ff2e9167268", null ],
+    [ "testPolygon", "a05303.html#a1e3187cbc25299380589200c398b3ffd", null ]
 ];

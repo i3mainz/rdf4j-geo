@@ -1,7 +1,10 @@
 var a02644 =
 [
-    [ "raster", "a02645.html", "a02645" ],
-    [ "topo", "a02646.html", "a02646" ],
-    [ "vector", "a02647.html", "a02647" ],
-    [ "LiteralType", "a04928.html", null ]
+    [ "AddBand", "a04547.html", "a04547" ],
+    [ "SetBandNoDataValue", "a04551.html", "a04551" ],
+    [ "SetGeoReference", "a04555.html", null ],
+    [ "SetRotation", "a04559.html", "a04559" ],
+    [ "SetScale", "a04563.html", "a04563" ],
+    [ "SetSkew", "a04567.html", "a04567" ],
+    [ "SetUpperLeft", "a04571.html", "a04571" ]
 ];

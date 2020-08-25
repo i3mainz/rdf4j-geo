@@ -1,8 +1,6 @@
 var a05659 =
 [
-    [ "testMakeLine1", "a05659.html#ae1794702b16fed527256a87c40858865", null ],
-    [ "testLine", "a05659.html#a297965df8c894198eea7203fde37542b", null ],
-    [ "testPoint1", "a05659.html#ab20d196cb6e34afc2e9cff8074e43bfd", null ],
-    [ "testPoint2", "a05659.html#aa0c0c6f5dda7a397fc50f4c22a2b180f", null ],
-    [ "testPointM", "a05659.html#a53dc8585c2a440c472be9609c86b0601", null ]
+    [ "testSridIsGeographicFalse", "a05659.html#abd1395d0581a64740ed1bae57b2882b3", null ],
+    [ "testSridIsGeographicTrue", "a05659.html#a09f0ac6b4b2a063a3d1df32d600b9b11", null ],
+    [ "testPoint", "a05659.html#af26f700ee129f846cac58735f6dcc380", null ]
 ];

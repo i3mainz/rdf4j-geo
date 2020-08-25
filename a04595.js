@@ -1,5 +1,6 @@
 var a04595 =
 [
     [ "evaluate", "a04595.html#a43b4c73244bc6722ce551c1033cf1115", null ],
-    [ "modify", "a04595.html#aeb4eb647a66bca78d39f5ebeb99e3b4d", null ]
+    [ "getURI", "a04595.html#ad9fb16b36dd4ccc533d4f05ff94646e3", null ],
+    [ "operation", "a04595.html#a2bfa3f6fe437856574c81aa21f7f173e", null ]
 ];

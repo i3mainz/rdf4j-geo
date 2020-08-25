@@ -1,10 +1,22 @@
 var a02706 =
 [
-    [ "TripleStoreConnection", "a02706.html#a99975d732097fdfe4f47d2964403e230", null ],
-    [ "executeQuery", "a02706.html#afc28007d407dd38599a43837f62668c1", null ],
-    [ "main", "a02706.html#a8b260eecbaabcef8473fd87ada040682", null ],
-    [ "INSTANCE", "a02706.html#a6f5f1a252f13ef259f6f4fa12b72f2a4", null ],
-    [ "modelmap", "a02706.html#a3c4a20fbf4fb24d73799bdd30661d7b0", null ],
-    [ "prefixCollection", "a02706.html#ab228ed3bdfee44797a6b31717ec5022a", null ],
-    [ "repo", "a02706.html#aa988c42c1c1c9f1d313c217ec0b5e2e0", null ]
+    [ "AddConstTest", "a05979.html", "a05979" ],
+    [ "AddTest", "a05983.html", "a05983" ],
+    [ "AndConstTest", "a05987.html", "a05987" ],
+    [ "AndTest", "a05991.html", "a05991" ],
+    [ "DivConstTest", "a05995.html", "a05995" ],
+    [ "DivTest", "a05999.html", "a05999" ],
+    [ "EqualTest", "a06003.html", "a06003" ],
+    [ "ExpTest", "a06007.html", "a06007" ],
+    [ "InvertTest", "a06011.html", "a06011" ],
+    [ "LogTest", "a06015.html", "a06015" ],
+    [ "MultConstTest", "a06019.html", "a06019" ],
+    [ "MultTest", "a06023.html", "a06023" ],
+    [ "NotTest", "a06027.html", "a06027" ],
+    [ "OrConstTest", "a06031.html", "a06031" ],
+    [ "OrTest", "a06035.html", "a06035" ],
+    [ "SubtractConstTest", "a06039.html", "a06039" ],
+    [ "SubtractTest", "a06043.html", "a06043" ],
+    [ "XorConstTest", "a06047.html", "a06047" ],
+    [ "XorTest", "a06051.html", "a06051" ]
 ];

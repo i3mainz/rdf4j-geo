@@ -1,9 +1,11 @@
 var a02617 =
 [
-    [ "GeneratePoints", "a03948.html", "a03948" ],
-    [ "MakePoint", "a03952.html", "a03952" ],
-    [ "MPointFromText", "a03956.html", "a03956" ],
-    [ "PointFromGeoHash", "a03960.html", "a03960" ],
-    [ "PointFromText", "a03964.html", "a03964" ],
-    [ "PointFromWKB", "a03968.html", "a03968" ]
+    [ "AddGeometry", "a03251.html", "a03251" ],
+    [ "AddZ", "a03255.html", "a03255" ],
+    [ "EnsureClosed", "a03259.html", "a03259" ],
+    [ "EnsureClosedRings", "a03263.html", "a03263" ],
+    [ "RemoveGeometry", "a03267.html", "a03267" ],
+    [ "RemoveRepeatedPoints", "a03271.html", "a03271" ],
+    [ "SetGeometry", "a03275.html", "a03275" ],
+    [ "SetSRID", "a03279.html", "a03279" ]
 ];

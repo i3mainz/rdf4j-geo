@@ -1,7 +1,5 @@
 var a05307 =
 [
-    [ "testNumGeometries", "a05307.html#a66251605d7d3ce37996ccd2d7fa613fd", null ],
-    [ "testNumGeometriesCollection", "a05307.html#a2ad2fa8733f1826ddd7c66355901ff7d", null ],
-    [ "testGeom", "a05307.html#a03a5f5da0ccbeed8c1678d4317cf2672", null ],
-    [ "testGeom2", "a05307.html#a6b4be369c8f60e973cd5126e69cd33a4", null ]
+    [ "testCentroid", "a05307.html#a4d1dfbf2fba1b5c88a704bccbcb65cb9", null ],
+    [ "testGeometry", "a05307.html#abc3f514f005cba49e406658e2d3086eb", null ]
 ];

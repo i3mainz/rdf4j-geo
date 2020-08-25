@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>rdf4j-postgis: CentroidTest Class Reference</title>
+<title>rdf4j-postgis: Member List</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -56,87 +56,29 @@ $(function() {
   </div>
 </div>
 <script type="text/javascript">
-$(document).ready(function(){initNavTree('a05272.html','');});
+$(document).ready(function(){initNavTree('a05275.html','');});
 </script>
 <div id="doc-content">
 <div class="header">
-  <div class="summary">
-<a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pub-static-attribs">Static Public Attributes</a> &#124;
-<a href="a05269.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">CentroidTest Class Reference</div>  </div>
+<div class="title">BBOXIsContainedByTest Member List</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="dynheader">
-Collaboration diagram for CentroidTest:</div>
-<div class="dyncontent">
-<div class="center"><img src="a05270.png" border="0" usemap="#CentroidTest_coll__map" alt="Collaboration graph"/></div>
-<map name="CentroidTest_coll__map" id="CentroidTest_coll__map">
-</map>
-<center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
-<table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
-Public Member Functions</h2></td></tr>
-<tr class="memitem:a4d1dfbf2fba1b5c88a704bccbcb65cb9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05272.html#a4d1dfbf2fba1b5c88a704bccbcb65cb9">testCentroid</a> ()</td></tr>
-<tr class="separator:a4d1dfbf2fba1b5c88a704bccbcb65cb9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
-Static Public Attributes</h2></td></tr>
-<tr class="memitem:abc3f514f005cba49e406658e2d3086eb"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05272.html#abc3f514f005cba49e406658e2d3086eb">testGeometry</a> =&quot;MULTIPOINT (( -1 0), (-1 2), (-1 3), (-1 4), (-1 7), (0 1), (0 3), (1 1), (2 0), (6 0), (7 8), (9 8), (10 6))&quot;</td></tr>
-<tr class="separator:abc3f514f005cba49e406658e2d3086eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table>
-<h2 class="groupheader">Member Function Documentation</h2>
-<a id="a4d1dfbf2fba1b5c88a704bccbcb65cb9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4d1dfbf2fba1b5c88a704bccbcb65cb9">&#9670;&nbsp;</a></span>testCentroid()</h2>
 
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void testCentroid </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="reference">References <a class="el" href="a03208.html#a43b4c73244bc6722ce551c1033cf1115">GeometricUnaryFunction.evaluate()</a>, and <a class="el" href="a05048.html#ae02c2e86ac0dea8538c7b43e9e82421a">WKTDatatype.LiteralIRI</a>.</p>
-<div class="fragment"><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;                                   {</div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;        Centroid instance=<span class="keyword">new</span> Centroid();</div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;                ValueFactory valfac=SimpleValueFactory.getInstance();</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;                Value geo=valfac.createLiteral(<a class="code" href="a05272.html#abc3f514f005cba49e406658e2d3086eb">testGeometry</a>, WKTDatatype.LiteralIRI);</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;                Value result=instance.evaluate(valfac, geo);</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;                Value expResult=valfac.createLiteral(<span class="stringliteral">&quot;POINT (2.30769230769231 3.30769230769231)&quot;</span>, WKTDatatype.LiteralIRI);</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;                assertEquals(expResult, result);</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;        }</div><div class="ttc" id="a05272_html_abc3f514f005cba49e406658e2d3086eb"><div class="ttname"><a href="a05272.html#abc3f514f005cba49e406658e2d3086eb">org.eclipse.rdf4j.testsuites.postgis.geometry.attribute.CentroidTest.testGeometry</a></div><div class="ttdeci">static final String testGeometry</div><div class="ttdef"><b>Definition:</b> CentroidTest.java:14</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<h2 class="groupheader">Member Data Documentation</h2>
-<a id="abc3f514f005cba49e406658e2d3086eb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abc3f514f005cba49e406658e2d3086eb">&#9670;&nbsp;</a></span>testGeometry</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">final String testGeometry =&quot;MULTIPOINT (( -1 0), (-1 2), (-1 3), (-1 4), (-1 7), (0 1), (0 3), (1 1), (2 0), (6 0), (7 8), (9 8), (10 6))&quot;</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-</div><!-- contents -->
+<p>This is the complete list of members for <a class="el" href="a05275.html">BBOXIsContainedByTest</a>, including all inherited members.</p>
+<table class="directory">
+  <tr class="even"><td class="entry"><a class="el" href="a05275.html#a4faa99f827f3e15f179704bfe38d73c9">testBBOXIsContainedByFalse</a>()</td><td class="entry"><a class="el" href="a05275.html">BBOXIsContainedByTest</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="a05275.html#a064a60b41689445f77952f6ee979fcf8">testBBOXIsContainedByTrue</a>()</td><td class="entry"><a class="el" href="a05275.html">BBOXIsContainedByTest</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="a05275.html#aa4a3b1a7e778ece72382f6600fa96b47">testGeom1</a></td><td class="entry"><a class="el" href="a05275.html">BBOXIsContainedByTest</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
+  <tr><td class="entry"><a class="el" href="a05275.html#a6b4be369c8f60e973cd5126e69cd33a4">testGeom2</a></td><td class="entry"><a class="el" href="a05275.html">BBOXIsContainedByTest</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="a05275.html#a800b6bb875a8ff4404ea787c3df125a5">testGeom3</a></td><td class="entry"><a class="el" href="a05275.html">BBOXIsContainedByTest</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
+  <tr><td class="entry"><a class="el" href="a05275.html#a4c55e7efe430d6d220fb05524c4bb940">testGeom4</a></td><td class="entry"><a class="el" href="a05275.html">BBOXIsContainedByTest</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
+</table></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.13-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="a02583.html">org</a></li><li class="navelem"><a class="el" href="a02584.html">eclipse</a></li><li class="navelem"><a class="el" href="a02585.html">rdf4j</a></li><li class="navelem"><a class="el" href="a02666.html">testsuites</a></li><li class="navelem"><a class="el" href="a02667.html">postgis</a></li><li class="navelem"><a class="el" href="a02670.html">geometry</a></li><li class="navelem"><a class="el" href="a02669.html">attribute</a></li><li class="navelem"><a class="el" href="a05272.html">CentroidTest</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>

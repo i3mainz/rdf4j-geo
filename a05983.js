@@ -1,7 +1,8 @@
 var a05983 =
 [
     [ "getInstance", "a05983.html#af8afdd14b38b523d100805364a48ed63", null ],
-    [ "testMinTileX", "a05983.html#a387b58e0580f047a27f53413d536186d", null ],
+    [ "testAdd", "a05983.html#afd0ee1fd8a383350e390e5b63a8a1cda", null ],
+    [ "combinedRasterLiteral", "a05983.html#a6efe8702be34a67e2bcbba55588c5b5f", null ],
     [ "covJSONString1", "a05983.html#a993e2f127f3ec8f256e9799d77507223", null ],
     [ "hexwkbString1", "a05983.html#a55fb5b5d665417265da09403128e396e", null ],
     [ "minwkbString", "a05983.html#aa5e2b5a6005895fc20b9f35523569430", null ],

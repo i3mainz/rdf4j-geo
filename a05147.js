@@ -1,11 +1,9 @@
 var a05147 =
 [
-    [ "LengthToPoint", "a05147.html#a240c29c1439f065c4a8ba368d3939d77", null ],
-    [ "computeLength", "a05147.html#a38bb2c05753ecb2766c7165fe435b8f4", null ],
-    [ "getLength", "a05147.html#ad38c5c76d09d90c6f92e043aca622ee9", null ],
-    [ "length", "a05147.html#a6a53c15d31eb67b1bbbccd1a406d1996", null ],
-    [ "lengthAlongSegment", "a05147.html#a111d4c1b1f75a9ce7d3d064d3d1eb2e5", null ],
-    [ "updateLength", "a05147.html#a9d5b2181752a05941b27adcec1703c38", null ],
-    [ "locationLength", "a05147.html#ace4b03aa8fde8dc676bc91c1e7cf3b77", null ],
-    [ "minDistanceToPoint", "a05147.html#a8c1ee7f7f7146ea833c6b544dcc60243", null ]
+    [ "evaluate", "a05147.html#a43b4c73244bc6722ce551c1033cf1115", null ],
+    [ "getLiteral", "a05147.html#ad5ea121d0231b4b209324202427665f0", null ],
+    [ "relation", "a05147.html#a71f3435eece62d00511b7d8ff45a1144", null ],
+    [ "vectorOrRaster", "a05147.html#ad5afdfd817cdf11ee0e48c7f56c5514c", null ],
+    [ "rasterLiteralURIs", "a05147.html#ac7dbee8298c097c6bd08da6002fd6ecb", null ],
+    [ "vectorLiteralURIs", "a05147.html#a6e7c25bfd07628e3e74ea4e1ddfcae70", null ]
 ];

@@ -1,6 +1,5 @@
 var a05835 =
 [
-    [ "testReverseRing", "a05835.html#a341309060348e532f6606d50945a52bd", null ],
-    [ "duplicateRings", "a05835.html#a92f3ef00fc079a76b7f943d9ed6cec77", null ],
-    [ "nonduplicateRings", "a05835.html#a675a0b1b194538fc07fa716705f883a5", null ]
+    [ "testMMin", "a05835.html#a11f2bb6837c81b000eee4c62ba8ce7f0", null ],
+    [ "testPoint", "a05835.html#af26f700ee129f846cac58735f6dcc380", null ]
 ];

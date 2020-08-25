@@ -1,8 +1,7 @@
 var a05463 =
 [
-    [ "testIntersectionMatrix", "a05463.html#a8537ca55b85b9d59789190d637670f0b", null ],
-    [ "testGeom", "a05463.html#a03a5f5da0ccbeed8c1678d4317cf2672", null ],
-    [ "testGeom2", "a05463.html#a6b4be369c8f60e973cd5126e69cd33a4", null ],
-    [ "testGeom3", "a05463.html#a800b6bb875a8ff4404ea787c3df125a5", null ],
-    [ "testGeom4", "a05463.html#a4c55e7efe430d6d220fb05524c4bb940", null ]
+    [ "testRemovePoint", "a05463.html#a5e9b64ff404fa9347af445dc61f510b7", null ],
+    [ "testRemovePointZ", "a05463.html#ab04b102dbd8ad6ffb069a768eaf23da4", null ],
+    [ "lineString", "a05463.html#a76e109dc83d6f4d16fcd2fa3e73054f6", null ],
+    [ "lineStringZ", "a05463.html#a6ea074c47e6616507d2fe90dc549765a", null ]
 ];

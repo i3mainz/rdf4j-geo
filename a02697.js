@@ -1,5 +1,5 @@
 var a02697 =
 [
-    [ "RescaleTest", "a06184.html", "a06184" ],
-    [ "ResizeTest", "a06188.html", "a06188" ]
+    [ "ToDegreesTest", "a05803.html", "a05803" ],
+    [ "ToRadiansTest", "a05807.html", "a05807" ]
 ];

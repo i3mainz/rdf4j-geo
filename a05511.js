@@ -1,5 +1,5 @@
 var a05511 =
 [
-    [ "testSridGetAxis1Name", "a05511.html#a15a1a9864e65a0020c26d406fd64b26a", null ],
-    [ "testPoint", "a05511.html#af26f700ee129f846cac58735f6dcc380", null ]
+    [ "testAsSVG", "a05511.html#a7051938045f1413d97e8c5925b1c7677", null ],
+    [ "testGeometry", "a05511.html#abc3f514f005cba49e406658e2d3086eb", null ]
 ];

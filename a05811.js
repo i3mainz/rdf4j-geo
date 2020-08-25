@@ -1,5 +1,7 @@
 var a05811 =
 [
-    [ "testLineFromText", "a05811.html#ab595a17ecc4ca9c8bef45188c8afb6c3", null ],
-    [ "testPolygon", "a05811.html#a1e3187cbc25299380589200c398b3ffd", null ]
+    [ "testAngle", "a05811.html#a0cf5bb8fb4d0971e797f7a4e75601b26", null ],
+    [ "testPoint1", "a05811.html#ab20d196cb6e34afc2e9cff8074e43bfd", null ],
+    [ "testPoint2", "a05811.html#aa0c0c6f5dda7a397fc50f4c22a2b180f", null ],
+    [ "testPoint3", "a05811.html#a125d390ce5ab22a84d197ed08e237740", null ]
 ];

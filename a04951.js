@@ -1,9 +1,8 @@
 var a04951 =
 [
-    [ "read", "a04951.html#a793358fbd6ef538a24eabab1bd50ef01", null ],
-    [ "toString", "a04951.html#ad146fa8579a5f8a876c4688cc5a68520", null ],
-    [ "unparse", "a04951.html#ae918a517e1ebcc44beeee2c55008d248", null ],
-    [ "INSTANCE", "a04951.html#aa9592f3e3d3c425b71232c98120959c7", null ],
-    [ "KML_PREFIX", "a04951.html#ad23c5afe46f654a7d409a229f54a9b2f", null ],
-    [ "URI", "a04951.html#addbf30e6c0ad68fa34277d59a2c6eb5e", null ]
+    [ "endElement", "a04951.html#a10611466eae545076e06b863ab61bddc", null ],
+    [ "startElement", "a04951.html#a498ebb87fe1777ffb95b7425e8d91fc5", null ],
+    [ "coordinates", "a04951.html#abb24f058bb4de414d0a011098ce417d9", null ],
+    [ "currentIndex", "a04951.html#a1a96241ab9720c944927883db3f7c073", null ],
+    [ "insegment", "a04951.html#a806e19cbf1d5bbafe0133b9f2fd64cdd", null ]
 ];

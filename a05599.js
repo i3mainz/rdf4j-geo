@@ -1,6 +1,6 @@
 var a05599 =
 [
-    [ "testPrecisionReducer", "a05599.html#a486d6504bb92a61902ac29e25b3d31a8", null ],
-    [ "resultGeom", "a05599.html#a3eff685a59eb24ce11d6dbd456fae0c2", null ],
-    [ "testGeom", "a05599.html#a03a5f5da0ccbeed8c1678d4317cf2672", null ]
+    [ "testMaxDistance", "a05599.html#acd5d6c70876299a0278552ba577a7efc", null ],
+    [ "testGeom", "a05599.html#a03a5f5da0ccbeed8c1678d4317cf2672", null ],
+    [ "testGeom2", "a05599.html#a6b4be369c8f60e973cd5126e69cd33a4", null ]
 ];

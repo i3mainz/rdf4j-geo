@@ -1,9 +1,5 @@
 var a05339 =
 [
-    [ "testEnsureClosed", "a05339.html#ace1b0f448a93ab083e49e59b851b8094", null ],
-    [ "testEnsureClosed2", "a05339.html#a7a93140658cbcf5aea17d9f930cd5144", null ],
-    [ "closed", "a05339.html#ad8efa97b8aa775164dc4836b505fc315", null ],
-    [ "duplicateRings", "a05339.html#a92f3ef00fc079a76b7f943d9ed6cec77", null ],
-    [ "nonClosed", "a05339.html#aff993a2133bc6c6afe1012e13b5c028d", null ],
-    [ "ring", "a05339.html#a3e4a839eee2eb5791f90656e82eec721", null ]
+    [ "testIsInCRSAreaOfValidityFalse", "a05339.html#ab086dd0d0debad3790e452ffa6c1fa28", null ],
+    [ "testIsInCRSAreaOfValidityTrue", "a05339.html#afff3ea2274b06643aaa5806616e7ca8e", null ]
 ];

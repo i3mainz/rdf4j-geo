@@ -1,5 +1,6 @@
 var a05607 =
 [
-    [ "testReverse", "a05607.html#ac38f1a963c4494ff939bad764b01b127", null ],
-    [ "testLineString", "a05607.html#a33797029fadbcba01b4a4fafec88cf41", null ]
+    [ "testRelateMatchFalse", "a05607.html#a16bf67312d8af3e076076fd8097969c5", null ],
+    [ "testRelateMatchTrue", "a05607.html#a47e32d919c84c1edd508a45d6c670e90", null ],
+    [ "notIsocelesTriangle", "a05607.html#a055d99fb63bcee37763ffcf4da9e0521", null ]
 ];

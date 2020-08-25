@@ -1,8 +1,10 @@
 var a05131 =
 [
-    [ "DimensionalComparator", "a05131.html#a5bd255213663b3596e2de221144f1ab1", null ],
-    [ "DimensionalComparator", "a05131.html#aa12c933fd5275be6824111b1f2c92cd6", null ],
-    [ "compare", "a05131.html#a55bbcaf3b85142c9878f7b8ac44290fb", null ],
-    [ "compare", "a05131.html#a22ae744431802300f10565640dec04c5", null ],
-    [ "dimensionsToTest", "a05131.html#a6bb6df1c2db1f7b9fe46d4be2d0083af", null ]
+    [ "XReader", "a05135.html", "a05135" ],
+    [ "getFormatName", "a05131.html#aecf7db5b6782ec66f95d40c786a4d223", null ],
+    [ "read", "a05131.html#a74ddfb2345fac670df368a87d8ef120e", null ],
+    [ "read", "a05131.html#abb0d91da5ace7eba640f9bfa11b48dbf", null ],
+    [ "readIfSupported", "a05131.html#abc9814e865cf8cb200e35ffe5d4b748f", null ],
+    [ "readPolygon", "a05131.html#a3c0fa677a36d744060c714da150b798c", null ],
+    [ "shpFactory", "a05131.html#a05afdb0d887f04c5eac83dd8132c87b6", null ]
 ];

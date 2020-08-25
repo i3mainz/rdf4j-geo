@@ -1,6 +1,5 @@
 var a05831 =
 [
-    [ "testForcePolygonCW", "a05831.html#a4a3251cf639eba4c1f3f2c4467d6434a", null ],
-    [ "testPolygon", "a05831.html#a1e3187cbc25299380589200c398b3ffd", null ],
-    [ "testPolygon2", "a05831.html#a882729aec95621b4ad261714738ae3fd", null ]
+    [ "testZMax", "a05831.html#aa30e80ee55397130f30395f3c09b1e39", null ],
+    [ "testPoint", "a05831.html#af26f700ee129f846cac58735f6dcc380", null ]
 ];

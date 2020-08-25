@@ -1,5 +1,9 @@
 var a05279 =
 [
-    [ "testMinimumClearance", "a05279.html#a66deeca736cad11f886ba1567bcb6fe1", null ],
-    [ "testPolygon", "a05279.html#a1e3187cbc25299380589200c398b3ffd", null ]
+    [ "testBBOXLeftOf", "a05279.html#acc092dffcd1d5d422d27501b6b691ef0", null ],
+    [ "testBBOXLeftOf1", "a05279.html#a635c2e49e869cfa91cf3defbcde7f5ad", null ],
+    [ "testGeom1", "a05279.html#aa4a3b1a7e778ece72382f6600fa96b47", null ],
+    [ "testGeom2", "a05279.html#a6b4be369c8f60e973cd5126e69cd33a4", null ],
+    [ "testGeom3", "a05279.html#a800b6bb875a8ff4404ea787c3df125a5", null ],
+    [ "testGeom4", "a05279.html#a4c55e7efe430d6d220fb05524c4bb940", null ]
 ];

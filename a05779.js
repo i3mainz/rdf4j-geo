@@ -1,13 +1,9 @@
 var a05779 =
 [
-    [ "testLineStringClosed", "a05779.html#a535dfcf17dd3d286958ec2268d19deb5", null ],
-    [ "testLineStringNotClosed", "a05779.html#a73d74b41617d10452367388732cfdc67", null ],
-    [ "testMultiLineStringNotClosed", "a05779.html#a46c6b5fafb3fb83ca34bed8a76614a05", null ],
-    [ "testmultiPointClosed", "a05779.html#a3ccb0f6a8770f2a4ac3d61a34e17308e", null ],
-    [ "testpointClosed", "a05779.html#a833c7f3f2807c95b41de4f5c776b7eb0", null ],
-    [ "isClosed", "a05779.html#aa2ad69c5f695d96a905f506a71add16b", null ],
-    [ "mlNotClosed", "a05779.html#a242ef725cd7557d7506a6ce031490589", null ],
-    [ "multiPointClosed", "a05779.html#adedf3c8d7ecaed5e18a95666953e4ee1", null ],
-    [ "notClosed", "a05779.html#a58f683ae8ef47f96f761ee1991abce39", null ],
-    [ "pointClosed", "a05779.html#a7e8d2ba866b9459d265f1c933aaff499", null ]
+    [ "testNoSelfIntersections", "a05779.html#a08dd11e1d44a910007de229eada7aa6d", null ],
+    [ "testSelfIntersections", "a05779.html#a3d2c64bb3b45c45751b144babb6906da", null ],
+    [ "intersectResult", "a05779.html#ab431ece386e282254dd754494c7f6cd0", null ],
+    [ "intersectResult2", "a05779.html#a94c72a35c99c7c55f05a1f50c20f6cfd", null ],
+    [ "testGeom", "a05779.html#a03a5f5da0ccbeed8c1678d4317cf2672", null ],
+    [ "testGeom2", "a05779.html#a6b4be369c8f60e973cd5126e69cd33a4", null ]
 ];

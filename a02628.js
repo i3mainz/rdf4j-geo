@@ -1,11 +1,11 @@
 var a02628 =
 [
-    [ "AsGeometry", "a04480.html", "a04480" ],
-    [ "AsRaster", "a04484.html", "a04484" ],
-    [ "MakeEmptyRaster", "a04488.html", "a04488" ],
-    [ "RastFromCoverageJSON", "a04492.html", "a04492" ],
-    [ "RastFromGMLCOV", "a04496.html", "a04496" ],
-    [ "RastFromHexWKB", "a04500.html", "a04500" ],
-    [ "RastFromNetCDF", "a04504.html", "a04504" ],
-    [ "RastFromWKB", "a04508.html", "a04508" ]
+    [ "BezierSmoothing", "a03795.html", "a03795" ],
+    [ "Dissolve", "a03799.html", "a03799" ],
+    [ "LineMerge", "a03803.html", "a03803" ],
+    [ "LinesCutAtNodes", "a03807.html", "a03807" ],
+    [ "OffsetCurve", "a03811.html", "a03811" ],
+    [ "Segmentize", "a03815.html", "a03815" ],
+    [ "SharedPaths", "a03819.html", "a03819" ],
+    [ "SubdivideLines", "a03823.html", "a03823" ]
 ];

@@ -1,9 +1,9 @@
 var a05155 =
 [
-    [ "testBBOXAbove", "a05155.html#a0e5151be9c17b1a363f0e9587a76dad8", null ],
-    [ "testBBOXAbove1", "a05155.html#afef7a8dc9560d094946b475413049d29", null ],
-    [ "testGeom1", "a05155.html#aa4a3b1a7e778ece72382f6600fa96b47", null ],
-    [ "testGeom2", "a05155.html#a6b4be369c8f60e973cd5126e69cd33a4", null ],
-    [ "testGeom3", "a05155.html#a800b6bb875a8ff4404ea787c3df125a5", null ],
-    [ "testGeom4", "a05155.html#a4c55e7efe430d6d220fb05524c4bb940", null ]
+    [ "evaluate", "a05155.html#a43b4c73244bc6722ce551c1033cf1115", null ],
+    [ "getLiteral", "a05155.html#ad5ea121d0231b4b209324202427665f0", null ],
+    [ "relation", "a05155.html#a1c73bf75db5306313ea4b0b4c2830d51", null ],
+    [ "vectorOrRaster", "a05155.html#ad5afdfd817cdf11ee0e48c7f56c5514c", null ],
+    [ "rasterLiteralURIs", "a05155.html#ac7dbee8298c097c6bd08da6002fd6ecb", null ],
+    [ "vectorLiteralURIs", "a05155.html#a6e7c25bfd07628e3e74ea4e1ddfcae70", null ]
 ];

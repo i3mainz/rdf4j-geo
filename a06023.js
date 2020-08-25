@@ -1,7 +1,8 @@
 var a06023 =
 [
     [ "getInstance", "a06023.html#af8afdd14b38b523d100805364a48ed63", null ],
-    [ "testRasterValue", "a06023.html#a1e853e99473b2f68ad8e75f8f41715cd", null ],
+    [ "testMult", "a06023.html#ab45f511a7f2f9c82a5f7d24e30e1cad0", null ],
+    [ "combinedRasterLiteral", "a06023.html#a6efe8702be34a67e2bcbba55588c5b5f", null ],
     [ "covJSONString1", "a06023.html#a993e2f127f3ec8f256e9799d77507223", null ],
     [ "hexwkbString1", "a06023.html#a55fb5b5d665417265da09403128e396e", null ],
     [ "minwkbString", "a06023.html#aa5e2b5a6005895fc20b9f35523569430", null ],

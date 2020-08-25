@@ -1,7 +1,8 @@
 var a06063 =
 [
     [ "getInstance", "a06063.html#af8afdd14b38b523d100805364a48ed63", null ],
-    [ "testAsCoverageJSON", "a06063.html#a99cbe22c14a0664995f6267fad391287", null ],
+    [ "testHasNoBandFalse", "a06063.html#aebe8ed03f160d5beda7d0cd9dbef82e1", null ],
+    [ "testHasNoBandTrue", "a06063.html#aedaa7e2bf39196ba3985d3209ab30b65", null ],
     [ "covJSONString1", "a06063.html#a993e2f127f3ec8f256e9799d77507223", null ],
     [ "hexwkbString1", "a06063.html#a55fb5b5d665417265da09403128e396e", null ],
     [ "minwkbString", "a06063.html#aa5e2b5a6005895fc20b9f35523569430", null ],

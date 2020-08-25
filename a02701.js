@@ -1,10 +1,18 @@
 var a02701 =
 [
-    [ "MaxY", "a02701.html#a1c6d34345a793350a9be211bf5e4c17a", null ],
-    [ "MaxY", "a02701.html#af3596a7e3ee90355aa1ffed928ef960c", null ],
-    [ "clone", "a02701.html#a49bf4efa9d10429d6f2fda3b4361ec1c", null ],
-    [ "equals", "a02701.html#a8e18a3a952a9e38a9a4191004a30c938", null ],
-    [ "hashCode", "a02701.html#a077e18fe97323c7194e2665ffc766399", null ],
-    [ "visit", "a02701.html#ace7c41d3761122fda287033559696cdd", null ],
-    [ "serialVersionUID", "a02701.html#a3238d314ecdee14d2966760945d00c3b", null ]
+    [ "CircularityTest", "a05887.html", "a05887" ],
+    [ "CircumcentreTest", "a05891.html", "a05891" ],
+    [ "HasConnectedInteriorTest", "a05895.html", "a05895" ],
+    [ "HasDuplicateRingsTest", "a05899.html", "a05899" ],
+    [ "IsAcuteTest", "a05903.html", "a05903" ],
+    [ "IsClosedTest", "a05907.html", "a05907" ],
+    [ "IsConvexTest", "a05911.html", "a05911" ],
+    [ "IsEquilateralTriangleTest", "a05915.html", "a05915" ],
+    [ "IsIsocelesTriangleTest", "a05919.html", "a05919" ],
+    [ "IsPolygonCCWTest", "a05923.html", "a05923" ],
+    [ "IsPolygonCWTest", "a05927.html", "a05927" ],
+    [ "IsRightTriangleTest", "a05931.html", "a05931" ],
+    [ "IsTriangleTest", "a05935.html", "a05935" ],
+    [ "NRingsTest", "a05939.html", "a05939" ],
+    [ "NumDistinctInteriorRingsTest", "a05943.html", "a05943" ]
 ];

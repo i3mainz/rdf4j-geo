@@ -1,5 +1,5 @@
 var a05527 =
 [
-    [ "testSridGetDatum", "a05527.html#a9d3a137e39e84c0018de3b734b787554", null ],
-    [ "testPoint", "a05527.html#af26f700ee129f846cac58735f6dcc380", null ]
+    [ "testAsTWKB", "a05527.html#a651953dc3a68b5b3795c7e668472170e", null ],
+    [ "testGeometry", "a05527.html#abc3f514f005cba49e406658e2d3086eb", null ]
 ];

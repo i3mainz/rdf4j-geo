@@ -1,5 +1,7 @@
 var a05323 =
 [
-    [ "testGeomFromGeoJSON", "a05323.html#a64b3f7b5bcdec5b93820a9958c0622a3", null ],
-    [ "geoJsonTestGeom", "a05323.html#a117e8ff340791b5aa0658f5840b5dcf4", null ]
+    [ "testHasRepeatedPoints", "a05323.html#ac91c06c07e42b36c2957d3b47609ea12", null ],
+    [ "testHasRepeatedPoints2", "a05323.html#a573715384a3d69a8e8c4722bc82c5e5e", null ],
+    [ "testGeometry", "a05323.html#abc3f514f005cba49e406658e2d3086eb", null ],
+    [ "testGeometry2", "a05323.html#af1173652e671b8f9051f8630b98c73fb", null ]
 ];

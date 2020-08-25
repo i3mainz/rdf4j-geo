@@ -1,5 +1,7 @@
 var a05199 =
 [
-    [ "testLineString", "a05199.html#a0444ce8df222ae81e1a33426a32d8d7a", null ],
-    [ "testGeom", "a05199.html#a03a5f5da0ccbeed8c1678d4317cf2672", null ]
+    [ "PrecisionReader", "a05199.html#af4edc5e5b8d78201415bc23188bf2978", null ],
+    [ "readPoint", "a05199.html#a04d3647950410c96c47734decf0e12b5", null ],
+    [ "readPointArray", "a05199.html#a1bbf2e471d2964af19292437ad42729b", null ],
+    [ "precisionMultiplier", "a05199.html#a9aa85be4ec02c28a05cb552845fe08eb", null ]
 ];

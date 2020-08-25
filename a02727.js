@@ -1,10 +1,10 @@
 var a02727 =
 [
-    [ "MaxX", "a02727.html#aec1113c98298aeab85c7c4df89a91268", null ],
-    [ "MaxX", "a02727.html#ad49b0d2b5b23376871919c73e4fca6f2", null ],
-    [ "clone", "a02727.html#a4e31d589779d23cc6611db4c1a9a7d2f", null ],
-    [ "equals", "a02727.html#a8e18a3a952a9e38a9a4191004a30c938", null ],
-    [ "hashCode", "a02727.html#a077e18fe97323c7194e2665ffc766399", null ],
-    [ "visit", "a02727.html#ace7c41d3761122fda287033559696cdd", null ],
-    [ "serialVersionUID", "a02727.html#a3238d314ecdee14d2966760945d00c3b", null ]
+    [ "TripleStoreConnection", "a02727.html#a99975d732097fdfe4f47d2964403e230", null ],
+    [ "executeQuery", "a02727.html#afc28007d407dd38599a43837f62668c1", null ],
+    [ "main", "a02727.html#a8b260eecbaabcef8473fd87ada040682", null ],
+    [ "INSTANCE", "a02727.html#a6f5f1a252f13ef259f6f4fa12b72f2a4", null ],
+    [ "modelmap", "a02727.html#a3c4a20fbf4fb24d73799bdd30661d7b0", null ],
+    [ "prefixCollection", "a02727.html#ab228ed3bdfee44797a6b31717ec5022a", null ],
+    [ "repo", "a02727.html#aa988c42c1c1c9f1d313c217ec0b5e2e0", null ]
 ];

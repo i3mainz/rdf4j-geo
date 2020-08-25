@@ -1,6 +1,5 @@
 var a05335 =
 [
-    [ "testAddPoint", "a05335.html#a788e3676eaba471d99d698f53d72615c", null ],
-    [ "lineString", "a05335.html#a76e109dc83d6f4d16fcd2fa3e73054f6", null ],
-    [ "point", "a05335.html#a081811ff1c2bedd0a20703599f90114f", null ]
+    [ "testIsEmptyFalse", "a05335.html#ad6c1db43fc5b06667b4d7679c36196bf", null ],
+    [ "testIsEmptyTrue", "a05335.html#acf5aa6d804534044ced38ebbf685b780", null ]
 ];

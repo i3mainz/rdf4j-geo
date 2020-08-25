@@ -1,7 +1,8 @@
 var a05979 =
 [
     [ "getInstance", "a05979.html#af8afdd14b38b523d100805364a48ed63", null ],
-    [ "testShearY", "a05979.html#abca91a64d5fcdd7c258f6b93a5bcba72", null ],
+    [ "testAddConst", "a05979.html#aaf2b23089f5910c3ca27b72e91b89603", null ],
+    [ "combinedRasterLiteral", "a05979.html#a6efe8702be34a67e2bcbba55588c5b5f", null ],
     [ "covJSONString1", "a05979.html#a993e2f127f3ec8f256e9799d77507223", null ],
     [ "hexwkbString1", "a05979.html#a55fb5b5d665417265da09403128e396e", null ],
     [ "minwkbString", "a05979.html#aa5e2b5a6005895fc20b9f35523569430", null ],

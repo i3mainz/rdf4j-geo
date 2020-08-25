@@ -1,6 +1,10 @@
 var a02787 =
 [
-    [ "evaluate", "a02787.html#a43b4c73244bc6722ce551c1033cf1115", null ],
-    [ "getURI", "a02787.html#ad9fb16b36dd4ccc533d4f05ff94646e3", null ],
-    [ "relation", "a02787.html#a178a74444401dbfb26219cc36c58919e", null ]
+    [ "MaxX", "a02787.html#aec1113c98298aeab85c7c4df89a91268", null ],
+    [ "MaxX", "a02787.html#ad49b0d2b5b23376871919c73e4fca6f2", null ],
+    [ "clone", "a02787.html#a4e31d589779d23cc6611db4c1a9a7d2f", null ],
+    [ "equals", "a02787.html#a8e18a3a952a9e38a9a4191004a30c938", null ],
+    [ "hashCode", "a02787.html#a077e18fe97323c7194e2665ffc766399", null ],
+    [ "visit", "a02787.html#ace7c41d3761122fda287033559696cdd", null ],
+    [ "serialVersionUID", "a02787.html#a3238d314ecdee14d2966760945d00c3b", null ]
 ];

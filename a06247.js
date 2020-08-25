@@ -1,5 +1,4 @@
 var a06247 =
 [
-    [ "testBoundingDiagonal", "a06247.html#a5905b320ef165de047ef4ff2e9167268", null ],
-    [ "testPolygon", "a06247.html#a1e3187cbc25299380589200c398b3ffd", null ]
+    [ "testInchToMeter", "a06247.html#aa39e0f1772babf964a3c40c5d6596fbe", null ]
 ];

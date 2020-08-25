@@ -1,5 +1,5 @@
 var a05367 =
 [
-    [ "testAsGeoJSON", "a05367.html#a6aee2cc3188bbf40fb4d946ed66e57c2", null ],
-    [ "testGeometry", "a05367.html#abc3f514f005cba49e406658e2d3086eb", null ]
+    [ "testIsSquareFalse", "a05367.html#a173bda31cdc35a0e147f2c50957b2e27", null ],
+    [ "testIsSquareTrue", "a05367.html#af9173bfcbf2fff582439949957ccc709", null ]
 ];

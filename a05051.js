@@ -1,9 +1,9 @@
 var a05051 =
 [
-    [ "evaluate", "a05051.html#a43b4c73244bc6722ce551c1033cf1115", null ],
-    [ "getLiteral", "a05051.html#ad5ea121d0231b4b209324202427665f0", null ],
-    [ "relation", "a05051.html#a71f3435eece62d00511b7d8ff45a1144", null ],
-    [ "vectorOrRaster", "a05051.html#ad5afdfd817cdf11ee0e48c7f56c5514c", null ],
-    [ "rasterLiteralURIs", "a05051.html#ac7dbee8298c097c6bd08da6002fd6ecb", null ],
-    [ "vectorLiteralURIs", "a05051.html#a6e7c25bfd07628e3e74ea4e1ddfcae70", null ]
+    [ "read", "a05051.html#a0a51e7a558c31dd59e2fb31c2b6b9a6d", null ],
+    [ "toString", "a05051.html#ad146fa8579a5f8a876c4688cc5a68520", null ],
+    [ "unparse", "a05051.html#a8f23415f60c2281824a1ca004a2fce9b", null ],
+    [ "INSTANCE", "a05051.html#a2ef763e8a7d3b73f7a4eb1c3cb0f681b", null ],
+    [ "KML_PREFIX", "a05051.html#ad23c5afe46f654a7d409a229f54a9b2f", null ],
+    [ "URI", "a05051.html#addbf30e6c0ad68fa34277d59a2c6eb5e", null ]
 ];

@@ -1,13 +1,9 @@
 var a05047 =
 [
-    [ "Encoder", "a05047.html#ae9b4d30bd3ef8dcabd2c471b856cc56f", null ],
-    [ "encode", "a05047.html#a0e57882e67b7da0cfbd8dd524d1a08aa", null ],
-    [ "seperator", "a05047.html#a39600d33dd97208ba398ac5c4340fa77", null ],
-    [ "startRing", "a05047.html#ab6635935e270ce5b32d1efd4b377c983", null ],
-    [ "write", "a05047.html#a738ab332235183cb8c6acda151d9801c", null ],
-    [ "write", "a05047.html#a67c54f108cb20c5a0f698e20a287724d", null ],
-    [ "writeArg", "a05047.html#a66b62fe86f9a7aa5e1fb78d2282adf66", null ],
-    [ "lastLat", "a05047.html#a9cb6715e048613ba1adc6d02662c58bb", null ],
-    [ "lastLng", "a05047.html#a6071d28e26a7046598083d44edae7168", null ],
-    [ "writer", "a05047.html#ab56a5d0c4efb5c0d2c4f33d5dad8c917", null ]
+    [ "read", "a05047.html#a793358fbd6ef538a24eabab1bd50ef01", null ],
+    [ "toString", "a05047.html#ad146fa8579a5f8a876c4688cc5a68520", null ],
+    [ "unparse", "a05047.html#ae918a517e1ebcc44beeee2c55008d248", null ],
+    [ "INSTANCE", "a05047.html#aa9592f3e3d3c425b71232c98120959c7", null ],
+    [ "KML_PREFIX", "a05047.html#ad23c5afe46f654a7d409a229f54a9b2f", null ],
+    [ "URI", "a05047.html#addbf30e6c0ad68fa34277d59a2c6eb5e", null ]
 ];

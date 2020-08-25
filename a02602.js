@@ -1,11 +1,18 @@
 var a02602 =
 [
-    [ "AddGeometry", "a03236.html", "a03236" ],
-    [ "AddZ", "a03240.html", "a03240" ],
-    [ "EnsureClosed", "a03244.html", "a03244" ],
-    [ "EnsureClosedRings", "a03248.html", "a03248" ],
-    [ "RemoveGeometry", "a03252.html", "a03252" ],
-    [ "RemoveRepeatedPoints", "a03256.html", "a03256" ],
-    [ "SetGeometry", "a03260.html", "a03260" ],
-    [ "SetSRID", "a03264.html", "a03264" ]
+    [ "collection", "a02609.html", "a02609" ],
+    [ "AggCentroid", "a02751.html", "a02751" ],
+    [ "AvgX", "a02755.html", "a02755" ],
+    [ "AvgY", "a02759.html", "a02759" ],
+    [ "AvgZ", "a02763.html", "a02763" ],
+    [ "BoundingBox", "a02767.html", "a02767" ],
+    [ "ConcatenateLines", "a02775.html", "a02775" ],
+    [ "ConvexHull", "a02779.html", null ],
+    [ "GeomUnion", "a02783.html", "a02783" ],
+    [ "MaxX", "a02787.html", "a02787" ],
+    [ "MaxY", "a02791.html", "a02791" ],
+    [ "MaxZ", "a02795.html", "a02795" ],
+    [ "MinX", "a02799.html", "a02799" ],
+    [ "MinY", "a02803.html", "a02803" ],
+    [ "MinZ", "a02807.html", "a02807" ]
 ];

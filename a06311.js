@@ -1,5 +1,4 @@
 var a06311 =
 [
-    [ "testIsSquareFalse", "a06311.html#a173bda31cdc35a0e147f2c50957b2e27", null ],
-    [ "testIsSquareTrue", "a06311.html#af9173bfcbf2fff582439949957ccc709", null ]
+    [ "testMeterToUSMile", "a06311.html#aef3720c4971ab8e16a05c458d8959d05", null ]
 ];

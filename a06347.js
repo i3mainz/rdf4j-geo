@@ -1,5 +1,4 @@
 var a06347 =
 [
-    [ "testMinimumDiameter", "a06347.html#a73584ebc5e2d20692de63f5ae4f13387", null ],
-    [ "testPolygon", "a06347.html#a1e3187cbc25299380589200c398b3ffd", null ]
+    [ "testUSYardToMeter", "a06347.html#a10f5134cb63efc8398d5875bab8801b4", null ]
 ];

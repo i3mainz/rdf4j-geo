@@ -1,7 +1,6 @@
 var a05595 =
 [
-    [ "testPoints", "a05595.html#a0c4e639ac6891f00e71463cfe4504aec", null ],
-    [ "testPoints3D", "a05595.html#a757f54bd6bd9ad86ecd364c346e80d73", null ],
-    [ "testGeometry", "a05595.html#abc3f514f005cba49e406658e2d3086eb", null ],
-    [ "testGeometryZ", "a05595.html#a7a113ffd7d8ff98f71b4361ffff21edc", null ]
+    [ "testMaxDistance", "a05595.html#acd5d6c70876299a0278552ba577a7efc", null ],
+    [ "testGeom", "a05595.html#a03a5f5da0ccbeed8c1678d4317cf2672", null ],
+    [ "testGeom2", "a05595.html#a6b4be369c8f60e973cd5126e69cd33a4", null ]
 ];

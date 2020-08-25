@@ -1,7 +1,7 @@
 var a05775 =
 [
-    [ "testIsAcuteFalse", "a05775.html#a5b3dbe6f41b97c30eaff61a7c0c6f344", null ],
-    [ "testIsAcuteTrue", "a05775.html#aea45a7ea1a6bbd2c8bf3bfa751ec4e1f", null ],
-    [ "isocelesTriangle", "a05775.html#aa04dfbec745e2622b9f7646f8572e501", null ],
-    [ "notIsocelesTriangle", "a05775.html#a055d99fb63bcee37763ffcf4da9e0521", null ]
+    [ "testLineString", "a05775.html#a0444ce8df222ae81e1a33426a32d8d7a", null ],
+    [ "circularLineString", "a05775.html#aee32055959200ebcac903d7824ea55d3", null ],
+    [ "lineString", "a05775.html#a76e109dc83d6f4d16fcd2fa3e73054f6", null ],
+    [ "lineString3D", "a05775.html#a44ce866b8b8e60a4c3e77653b907706d", null ]
 ];

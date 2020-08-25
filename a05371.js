@@ -1,5 +1,5 @@
 var a05371 =
 [
-    [ "testAsGeoURI", "a05371.html#aae403d68ccc2ecfb409ca338b5ba0101", null ],
-    [ "testGeometry", "a05371.html#abc3f514f005cba49e406658e2d3086eb", null ]
+    [ "testIsValidFalse", "a05371.html#abe8c10068a1ed9f8a4fea754990b0a48", null ],
+    [ "testIsValidTrue", "a05371.html#a9556e5304e9a52193523b36c47bcd844", null ]
 ];

@@ -1,10 +1,5 @@
 var a05439 =
 [
-    [ "testEqualSRS", "a05439.html#a65423949d44f9275c8e65852f1d2c21f", null ],
-    [ "testNoSRS", "a05439.html#a9512f8c6cc810712e75379a2ac3af62a", null ],
-    [ "testNotEqualSRS", "a05439.html#a53e030c2e7a0f1d14425a168c2add23b", null ],
-    [ "testGeom", "a05439.html#a03a5f5da0ccbeed8c1678d4317cf2672", null ],
-    [ "testGeom2", "a05439.html#a6b4be369c8f60e973cd5126e69cd33a4", null ],
-    [ "testGeom3", "a05439.html#a800b6bb875a8ff4404ea787c3df125a5", null ],
-    [ "testGeom4", "a05439.html#a4c55e7efe430d6d220fb05524c4bb940", null ]
+    [ "testGeomFromText", "a05439.html#a2678d2fcc796b673cc52b0e000a954b0", null ],
+    [ "geoJsonTestGeom", "a05439.html#a117e8ff340791b5aa0658f5840b5dcf4", null ]
 ];

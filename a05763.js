@@ -1,6 +1,9 @@
 var a05763 =
 [
-    [ "testCircumcentre1", "a05763.html#af8da9616fd1ee304df92759a8b87da02", null ],
-    [ "isocelesTriangle", "a05763.html#aa04dfbec745e2622b9f7646f8572e501", null ],
-    [ "notIsocelesTriangle", "a05763.html#a055d99fb63bcee37763ffcf4da9e0521", null ]
+    [ "testLineString2D", "a05763.html#a100e1041d9eed0108cb20adfb3ccb714", null ],
+    [ "testLineString3D", "a05763.html#aed8078596e87405b402dec09f15eb681", null ],
+    [ "testPoint", "a05763.html#a67242842aad66b0a00820a5d4d7ea731", null ],
+    [ "LineString2D", "a05763.html#a4a6127d0b7f1eecce2d32442325f7735", null ],
+    [ "LineString3D", "a05763.html#a7f1b41b47d9de827d79c109c50a189f5", null ],
+    [ "point", "a05763.html#a081811ff1c2bedd0a20703599f90114f", null ]
 ];

@@ -1,5 +1,5 @@
 var a02699 =
 [
-    [ "SampleGeometries", "a06320.html", null ],
-    [ "SampleRasters", "a06324.html", "a06324" ]
+    [ "attribute", "a02698.html", "a02698" ],
+    [ "constructor", "a02700.html", "a02700" ]
 ];

@@ -1,5 +1,4 @@
 var a06299 =
 [
-    [ "testIsRectangleFalse", "a06299.html#a5f21b4a097f15af24dcc034f575e4e4a", null ],
-    [ "testIsRectangleTrue", "a06299.html#acebf1f487a11cc34db915552f23c6383", null ]
+    [ "testMeterToNauticalMile", "a06299.html#a2a59e495832cfa2954bfde4c736c1b21", null ]
 ];

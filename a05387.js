@@ -1,5 +1,5 @@
 var a05387 =
 [
-    [ "testAsOSMLink", "a05387.html#a31833fe8b6139bfbdcd328ee943729e2", null ],
-    [ "testGeometry", "a05387.html#abc3f514f005cba49e406658e2d3086eb", null ]
+    [ "testMinimumBoundingRadius", "a05387.html#a5667209a5677a7711029bc6a83d59d32", null ],
+    [ "testPolygon", "a05387.html#a1e3187cbc25299380589200c398b3ffd", null ]
 ];

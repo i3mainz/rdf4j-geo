@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>rdf4j-postgis: IsSquareTest Class Reference</title>
+<title>rdf4j-postgis: MeterToUSMileTest Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -64,26 +64,24 @@ $(document).ready(function(){initNavTree('a06311.html','');});
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="a06308.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">IsSquareTest Class Reference</div>  </div>
+<div class="title">MeterToUSMileTest Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a173bda31cdc35a0e147f2c50957b2e27"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a06311.html#a173bda31cdc35a0e147f2c50957b2e27">testIsSquareFalse</a> ()</td></tr>
-<tr class="separator:a173bda31cdc35a0e147f2c50957b2e27"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af9173bfcbf2fff582439949957ccc709"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a06311.html#af9173bfcbf2fff582439949957ccc709">testIsSquareTrue</a> ()</td></tr>
-<tr class="separator:af9173bfcbf2fff582439949957ccc709"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aef3720c4971ab8e16a05c458d8959d05"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a06311.html#aef3720c4971ab8e16a05c458d8959d05">testMeterToUSMile</a> ()</td></tr>
+<tr class="separator:aef3720c4971ab8e16a05c458d8959d05"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a173bda31cdc35a0e147f2c50957b2e27"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a173bda31cdc35a0e147f2c50957b2e27">&#9670;&nbsp;</a></span>testIsSquareFalse()</h2>
+<a id="aef3720c4971ab8e16a05c458d8959d05"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aef3720c4971ab8e16a05c458d8959d05">&#9670;&nbsp;</a></span>testMeterToUSMile()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void testIsSquareFalse </td>
+          <td class="memname">void testMeterToUSMile </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -91,27 +89,8 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="a03079.html#a43b4c73244bc6722ce551c1033cf1115">GeometricBinaryAttributeFunction.evaluate()</a>, and <a class="el" href="a05019.html#ae02c2e86ac0dea8538c7b43e9e82421a">WKTDatatype.LiteralIRI</a>.</p>
-<div class="fragment"><div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;                                        {</div><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;                IsSquare is3d=<span class="keyword">new</span> IsSquare();</div><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;                ValueFactory valfac=SimpleValueFactory.getInstance();</div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;                Value geo=valfac.createLiteral(<span class="stringliteral">&quot;&lt;http://www.opengis.net/def/crs/EPSG/0/27700&gt; MULTIPOINT (10 40, 40 30, 20 20, 30 10)&quot;</span>, WKTDatatype.LiteralIRI);</div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;                Value result=is3d.evaluate(valfac, geo);</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;                Value expResult=valfac.createLiteral(<span class="keyword">false</span>);</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;            assertEquals(expResult, result);</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;        }</div></div><!-- fragment -->
-</div>
-</div>
-<a id="af9173bfcbf2fff582439949957ccc709"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af9173bfcbf2fff582439949957ccc709">&#9670;&nbsp;</a></span>testIsSquareTrue()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void testIsSquareTrue </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="reference">References <a class="el" href="a03079.html#a43b4c73244bc6722ce551c1033cf1115">GeometricBinaryAttributeFunction.evaluate()</a>, and <a class="el" href="a05019.html#ae02c2e86ac0dea8538c7b43e9e82421a">WKTDatatype.LiteralIRI</a>.</p>
-<div class="fragment"><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;                                       {</div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;                IsSquare is3d=<span class="keyword">new</span> IsSquare();</div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;                ValueFactory valfac=SimpleValueFactory.getInstance();</div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;                Value geo=valfac.createLiteral(<span class="stringliteral">&quot;&lt;http://www.opengis.net/def/crs/EPSG/0/27700&gt; POLYGON ((0 0, 1 0, 1 1, 0 1, 0 0))&quot;</span>, WKTDatatype.LiteralIRI);</div><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;                Value result=is3d.evaluate(valfac, geo);</div><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;                Value expResult=valfac.createLiteral(<span class="keyword">true</span>);</div><div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;            assertEquals(expResult, result);</div><div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;        }</div></div><!-- fragment -->
+<p class="reference">References <a class="el" href="a04823.html#a43b4c73244bc6722ce551c1033cf1115">MeterToUSMile.evaluate()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;                                        {</div><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;                ValueFactory valfac=SimpleValueFactory.getInstance();</div><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;        Value unitamount = valfac.createLiteral(1);</div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;        MeterToUSMile instance=<span class="keyword">new</span> MeterToUSMile();</div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;        Value expResult = valfac.createLiteral(6.213699E-4);</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;        Value result= instance.evaluate(valfac,unitamount);</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;        System.out.println(result);</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;        assertEquals(expResult, result);</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;        }</div></div><!-- fragment -->
 </div>
 </div>
 </div><!-- contents -->
@@ -120,7 +99,7 @@ Public Member Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="a02538.html">org</a></li><li class="navelem"><a class="el" href="a02539.html">eclipse</a></li><li class="navelem"><a class="el" href="a02540.html">rdf4j</a></li><li class="navelem"><a class="el" href="a02653.html">testsuites</a></li><li class="navelem"><a class="el" href="a02654.html">postgis</a></li><li class="navelem"><a class="el" href="a02657.html">geometry</a></li><li class="navelem"><a class="el" href="a02656.html">attribute</a></li><li class="navelem"><a class="el" href="a06311.html">IsSquareTest</a></li>
+    <li class="navelem"><a class="el" href="a02598.html">org</a></li><li class="navelem"><a class="el" href="a02599.html">eclipse</a></li><li class="navelem"><a class="el" href="a02600.html">rdf4j</a></li><li class="navelem"><a class="el" href="a02681.html">testsuites</a></li><li class="navelem"><a class="el" href="a02682.html">postgis</a></li><li class="navelem"><a class="el" href="a02713.html">unit</a></li><li class="navelem"><a class="el" href="a06311.html">MeterToUSMileTest</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>

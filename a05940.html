@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>rdf4j-postgis: ReverseRingTest Class Reference</title>
+<title>rdf4j-postgis: Member List</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -56,112 +56,25 @@ $(function() {
   </div>
 </div>
 <script type="text/javascript">
-$(document).ready(function(){initNavTree('a05940.html','');});
+$(document).ready(function(){initNavTree('a05943.html','');});
 </script>
 <div id="doc-content">
 <div class="header">
-  <div class="summary">
-<a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pub-static-attribs">Static Public Attributes</a> &#124;
-<a href="a05937.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">ReverseRingTest Class Reference</div>  </div>
+<div class="title">NumDistinctInteriorRingsTest Member List</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="dynheader">
-Collaboration diagram for ReverseRingTest:</div>
-<div class="dyncontent">
-<div class="center"><img src="a05938.png" border="0" usemap="#ReverseRingTest_coll__map" alt="Collaboration graph"/></div>
-<map name="ReverseRingTest_coll__map" id="ReverseRingTest_coll__map">
-</map>
-<center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
-<table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
-Public Member Functions</h2></td></tr>
-<tr class="memitem:a341309060348e532f6606d50945a52bd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05940.html#a341309060348e532f6606d50945a52bd">testReverseRing</a> ()</td></tr>
-<tr class="separator:a341309060348e532f6606d50945a52bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
-Static Public Attributes</h2></td></tr>
-<tr class="memitem:a92f3ef00fc079a76b7f943d9ed6cec77"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05940.html#a92f3ef00fc079a76b7f943d9ed6cec77">duplicateRings</a> =&quot;POLYGON ((8 2, 11 13, 2 6, 8 2),(8 2, 2 6, 11 13, 8 2))&quot;</td></tr>
-<tr class="separator:a92f3ef00fc079a76b7f943d9ed6cec77"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a675a0b1b194538fc07fa716705f883a5"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05940.html#a675a0b1b194538fc07fa716705f883a5">nonduplicateRings</a> =&quot;POLYGON ((8 2, 11 13, 2 6, 8 2),(8 2, 11 13, 2 6, 8 2))&quot;</td></tr>
-<tr class="separator:a675a0b1b194538fc07fa716705f883a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table>
-<h2 class="groupheader">Member Function Documentation</h2>
-<a id="a341309060348e532f6606d50945a52bd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a341309060348e532f6606d50945a52bd">&#9670;&nbsp;</a></span>testReverseRing()</h2>
 
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void testReverseRing </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="reference">References <a class="el" href="a03156.html#a43b4c73244bc6722ce551c1033cf1115">GeometricModifierIntegerFunction.evaluate()</a>, and <a class="el" href="a05048.html#ae02c2e86ac0dea8538c7b43e9e82421a">WKTDatatype.LiteralIRI</a>.</p>
-<div class="fragment"><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;                                      {</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;                ReverseRing instance=<span class="keyword">new</span> ReverseRing();</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;                ValueFactory valfac=SimpleValueFactory.getInstance();</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;                Value geo=valfac.createLiteral(<a class="code" href="a05940.html#a92f3ef00fc079a76b7f943d9ed6cec77">duplicateRings</a>, WKTDatatype.LiteralIRI);</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;                Value result=instance.evaluate(valfac, geo,valfac.createLiteral(1));</div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;                Value expResult=valfac.createLiteral(<a class="code" href="a05940.html#a675a0b1b194538fc07fa716705f883a5">nonduplicateRings</a>, WKTDatatype.LiteralIRI);</div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;                assertEquals(expResult, result);</div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;        }</div><div class="ttc" id="a05940_html_a92f3ef00fc079a76b7f943d9ed6cec77"><div class="ttname"><a href="a05940.html#a92f3ef00fc079a76b7f943d9ed6cec77">org.eclipse.rdf4j.testsuites.postgis.polygon.transform.ReverseRingTest.duplicateRings</a></div><div class="ttdeci">static final String duplicateRings</div><div class="ttdef"><b>Definition:</b> ReverseRingTest.java:15</div></div>
-<div class="ttc" id="a05940_html_a675a0b1b194538fc07fa716705f883a5"><div class="ttname"><a href="a05940.html#a675a0b1b194538fc07fa716705f883a5">org.eclipse.rdf4j.testsuites.postgis.polygon.transform.ReverseRingTest.nonduplicateRings</a></div><div class="ttdeci">static final String nonduplicateRings</div><div class="ttdef"><b>Definition:</b> ReverseRingTest.java:17</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<h2 class="groupheader">Member Data Documentation</h2>
-<a id="a92f3ef00fc079a76b7f943d9ed6cec77"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a92f3ef00fc079a76b7f943d9ed6cec77">&#9670;&nbsp;</a></span>duplicateRings</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">final String duplicateRings =&quot;POLYGON ((8 2, 11 13, 2 6, 8 2),(8 2, 2 6, 11 13, 8 2))&quot;</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a675a0b1b194538fc07fa716705f883a5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a675a0b1b194538fc07fa716705f883a5">&#9670;&nbsp;</a></span>nonduplicateRings</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">final String nonduplicateRings =&quot;POLYGON ((8 2, 11 13, 2 6, 8 2),(8 2, 11 13, 2 6, 8 2))&quot;</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-</div><!-- contents -->
+<p>This is the complete list of members for <a class="el" href="a05943.html">NumDistinctInteriorRingsTest</a>, including all inherited members.</p>
+<table class="directory">
+  <tr class="even"><td class="entry"><a class="el" href="a05943.html#a232253c11ffc2c2e17e969ee3180b704">testNRings</a>()</td><td class="entry"><a class="el" href="a05943.html">NumDistinctInteriorRingsTest</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="a05943.html#a1e3187cbc25299380589200c398b3ffd">testPolygon</a></td><td class="entry"><a class="el" href="a05943.html">NumDistinctInteriorRingsTest</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
+</table></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.13-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="a02583.html">org</a></li><li class="navelem"><a class="el" href="a02584.html">eclipse</a></li><li class="navelem"><a class="el" href="a02585.html">rdf4j</a></li><li class="navelem"><a class="el" href="a02666.html">testsuites</a></li><li class="navelem"><a class="el" href="a02667.html">postgis</a></li><li class="navelem"><a class="el" href="a02687.html">polygon</a></li><li class="navelem"><a class="el" href="a02690.html">transform</a></li><li class="navelem"><a class="el" href="a05940.html">ReverseRingTest</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>

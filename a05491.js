@@ -1,6 +1,5 @@
 var a05491 =
 [
-    [ "testRelateMatchFalse", "a05491.html#a16bf67312d8af3e076076fd8097969c5", null ],
-    [ "testRelateMatchTrue", "a05491.html#a47e32d919c84c1edd508a45d6c670e90", null ],
-    [ "notIsocelesTriangle", "a05491.html#a055d99fb63bcee37763ffcf4da9e0521", null ]
+    [ "testAsGeoURI", "a05491.html#aae403d68ccc2ecfb409ca338b5ba0101", null ],
+    [ "testGeometry", "a05491.html#abc3f514f005cba49e406658e2d3086eb", null ]
 ];

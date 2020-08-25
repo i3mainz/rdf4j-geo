@@ -1,7 +1,8 @@
 var a06007 =
 [
     [ "getInstance", "a06007.html#af8afdd14b38b523d100805364a48ed63", null ],
-    [ "testTranslateX", "a06007.html#a7ed9468eeac5809ba50817e668153d42", null ],
+    [ "testExp", "a06007.html#a903454c88a0d80bfdb55c6cd9679d9cc", null ],
+    [ "combinedRasterLiteral", "a06007.html#a6efe8702be34a67e2bcbba55588c5b5f", null ],
     [ "covJSONString1", "a06007.html#a993e2f127f3ec8f256e9799d77507223", null ],
     [ "hexwkbString1", "a06007.html#a55fb5b5d665417265da09403128e396e", null ],
     [ "minwkbString", "a06007.html#aa5e2b5a6005895fc20b9f35523569430", null ],

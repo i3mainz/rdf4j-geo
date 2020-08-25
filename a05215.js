@@ -1,10 +1,11 @@
 var a05215 =
 [
-    [ "testGeometryCollectionIsCollection", "a05215.html#ab8f9e80081b7ac2106ef406ffbb215e2", null ],
-    [ "testLineStringIsCollection", "a05215.html#a513937962f26a1affcc4d0c369733a79", null ],
-    [ "testMultiLineStringIsCollection", "a05215.html#af185514d9e978598dc7aa4ba06572494", null ],
-    [ "testMultiPointIsCollection", "a05215.html#abe0dc5056717b405438313e86f9017f2", null ],
-    [ "testMultiPolygonIsCollection", "a05215.html#a3cb8a0ddd3838eedbcbb6c1651e3a9c0", null ],
-    [ "testPointIsCollection", "a05215.html#ae050c74afe9d24c25aa8cfddca93609d", null ],
-    [ "testPolygonIsCollection", "a05215.html#aa73539bce49dc7ae2102874315d15e51", null ]
+    [ "calculate", "a05215.html#a1b9dd1e59eac3a2a15cb68c19e994fe4", null ],
+    [ "checkCoordinate", "a05215.html#a0a01f90a7fe27e3b66f1c87f019e91bc", null ],
+    [ "finalize", "a05215.html#a7626720b9bf807253dd702a0214dc9f0", null ],
+    [ "writeExtendedPrecision", "a05215.html#a320ccd90ec0ef71a4353104b7fe98a1c", null ],
+    [ "writePoint", "a05215.html#adedb1cd853d00648be239477f7fe4e2a", null ],
+    [ "writePointArray", "a05215.html#afeed21e7153170021427b1e7001d952b", null ],
+    [ "precision", "a05215.html#aa95455ed52a8459fad69509a4a0411b5", null ],
+    [ "precisionMultiplier", "a05215.html#a9aa85be4ec02c28a05cb552845fe08eb", null ]
 ];

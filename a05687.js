@@ -1,7 +1,6 @@
 var a05687 =
 [
-    [ "testAzimuth1", "a05687.html#afb57967d41a75bfa55c7f1443b245d14", null ],
-    [ "testAzimuth2", "a05687.html#a5d42e5f7045b0a306fc1d39539491851", null ],
-    [ "testPoint1", "a05687.html#ab20d196cb6e34afc2e9cff8074e43bfd", null ],
-    [ "testPoint2", "a05687.html#aa0c0c6f5dda7a397fc50f4c22a2b180f", null ]
+    [ "testDensify", "a05687.html#a94a17603d200a0a1f4817b4687ee592d", null ],
+    [ "densified", "a05687.html#a2286b0f7822c7fda647fa426d8177283", null ],
+    [ "isocelesTriangle", "a05687.html#aa04dfbec745e2622b9f7646f8572e501", null ]
 ];

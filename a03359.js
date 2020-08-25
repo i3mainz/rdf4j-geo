@@ -1,7 +1,8 @@
 var a03359 =
 [
     [ "evaluate", "a03359.html#a43b4c73244bc6722ce551c1033cf1115", null ],
-    [ "getMaxDistance3D", "a03359.html#a73d87f0fe9970e69748c9e4f157d7ba6", null ],
     [ "getURI", "a03359.html#ad9fb16b36dd4ccc533d4f05ff94646e3", null ],
-    [ "relation", "a03359.html#a3e407c16e996b9e44960d88e3a0292d6", null ]
+    [ "operation", "a03359.html#a4ab2ac9320ef97ac30e17776a179ac49", null ],
+    [ "footer", "a03359.html#ae2cf110c268b6495afa9b7d5977a61dd", null ],
+    [ "header", "a03359.html#ab0ec96c07fa61607300be12482e94511", null ]
 ];

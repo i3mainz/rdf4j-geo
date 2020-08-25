@@ -1,9 +1,7 @@
 var a04959 =
 [
-    [ "read", "a04959.html#a793358fbd6ef538a24eabab1bd50ef01", null ],
-    [ "unparse", "a04959.html#ae918a517e1ebcc44beeee2c55008d248", null ],
-    [ "INSTANCE", "a04959.html#a37c7ccb039944a2be5bb9e33d190e504", null ],
-    [ "reader", "a04959.html#aa1b091a220c464a72ed08bd283083286", null ],
-    [ "URI", "a04959.html#addbf30e6c0ad68fa34277d59a2c6eb5e", null ],
-    [ "writer", "a04959.html#ae01fec3f5b78891669c5ad222eef8ca7", null ]
+    [ "LiteralRegistry", "a04959.html#ab2c1f34f60c2740f703068f27871a32b", null ],
+    [ "getLiteral", "a04959.html#a8796f5aec1965b6c4e88b2ba7c1d2e53", null ],
+    [ "INSTANCE", "a04959.html#a750fe4eab7f7958aa7a5642659669c0e", null ],
+    [ "literals", "a04959.html#aca2348a6b1d6796d1e7034d4029e3817", null ]
 ];

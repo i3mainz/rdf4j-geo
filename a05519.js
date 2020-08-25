@@ -1,5 +1,5 @@
 var a05519 =
 [
-    [ "testSridGetAxis2Name", "a05519.html#aa23d52a72eb64b4bee30038ab09e5e21", null ],
-    [ "testPoint", "a05519.html#af26f700ee129f846cac58735f6dcc380", null ]
+    [ "testAsTextRound", "a05519.html#a48e3642d229bd7292cf49871d69ed015", null ],
+    [ "testGeometry", "a05519.html#abc3f514f005cba49e406658e2d3086eb", null ]
 ];

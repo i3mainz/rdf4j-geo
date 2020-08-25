@@ -1,5 +1,5 @@
 var a05403 =
 [
-    [ "testAsTextRound", "a05403.html#a48e3642d229bd7292cf49871d69ed015", null ],
-    [ "testGeometry", "a05403.html#abc3f514f005cba49e406658e2d3086eb", null ]
+    [ "testMinimumDiameter", "a05403.html#a73584ebc5e2d20692de63f5ae4f13387", null ],
+    [ "testPolygon", "a05403.html#a1e3187cbc25299380589200c398b3ffd", null ]
 ];

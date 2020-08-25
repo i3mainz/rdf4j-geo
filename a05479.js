@@ -1,6 +1,5 @@
 var a05479 =
 [
-    [ "testMaxDistance", "a05479.html#acd5d6c70876299a0278552ba577a7efc", null ],
-    [ "testGeom", "a05479.html#a03a5f5da0ccbeed8c1678d4317cf2672", null ],
-    [ "testGeom2", "a05479.html#a6b4be369c8f60e973cd5126e69cd33a4", null ]
+    [ "testAsGARS", "a05479.html#a80929de20ed59fa635418039d48a9ef7", null ],
+    [ "testPoint", "a05479.html#af26f700ee129f846cac58735f6dcc380", null ]
 ];

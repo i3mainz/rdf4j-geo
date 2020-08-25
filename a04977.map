@@ -1,4 +1,4 @@
-<map id="GeoJSONLDDatatype" name="GeoJSONLDDatatype">
-<area shape="rect" id="node2" href="$a05026.html" title="VectorLiteral" alt="" coords="34,80,129,107"/>
-<area shape="rect" id="node3" href="$a04918.html" title="LiteralType" alt="" coords="38,5,125,32"/>
+<map id="HexWKBRastDatatype" name="HexWKBRastDatatype">
+<area shape="rect" id="node2" href="$a04987.html" title="RasterLiteral" alt="" coords="5,81,101,108"/>
+<area shape="rect" id="node3" href="$a04963.html" title="LiteralType" alt="" coords="10,5,97,32"/>
 </map>

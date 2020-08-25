@@ -1,16 +1,10 @@
 var a05123 =
 [
-    [ "calculate", "a05123.html#a1b9dd1e59eac3a2a15cb68c19e994fe4", null ],
-    [ "checkCoordinate", "a05123.html#a0a01f90a7fe27e3b66f1c87f019e91bc", null ],
-    [ "finalize", "a05123.html#a7626720b9bf807253dd702a0214dc9f0", null ],
-    [ "writeExtendedPrecision", "a05123.html#a320ccd90ec0ef71a4353104b7fe98a1c", null ],
-    [ "writePoint", "a05123.html#adedb1cd853d00648be239477f7fe4e2a", null ],
-    [ "writePointArray", "a05123.html#afeed21e7153170021427b1e7001d952b", null ],
-    [ "hasM", "a05123.html#a1eccf09f4c826ba480ec832ac4ce7718", null ],
-    [ "hasZ", "a05123.html#ab356995ed7cff0226d75484d03a994f2", null ],
-    [ "mPrecision", "a05123.html#a1b92282fc8148f040078b9bb37b30b15", null ],
-    [ "mPrecisionMultiplier", "a05123.html#a4ea667f57906c038bb9717bc848df77a", null ],
-    [ "precisionMultiplier", "a05123.html#a9aa85be4ec02c28a05cb552845fe08eb", null ],
-    [ "zPrecision", "a05123.html#abdd886294f53edb9018d91b1e049bef8", null ],
-    [ "zPrecisionMultiplier", "a05123.html#abb32d6067d519044d8c44d52ab2cdd44", null ]
+    [ "key", "a05123.html#a807f334d405d92bd2f38c380d4b9ed9a", null ],
+    [ "keys", "a05123.html#a5b7e54bc6f4d8855104d09ef3adb2606", null ],
+    [ "value", "a05123.html#a3220129efaffe512a5dded79b4e142ac", null ],
+    [ "values", "a05123.html#a297c543701acc405ac68122b9642cb28", null ],
+    [ "features", "a05123.html#a2b66f5f4579c910c9f7b7ccc043c3037", null ],
+    [ "keys", "a05123.html#a885c190e82027881ec3ed1533283c966", null ],
+    [ "values", "a05123.html#a8159c164675963389d4522cae972207b", null ]
 ];

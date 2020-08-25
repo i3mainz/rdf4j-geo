@@ -1,4 +1,5 @@
 var a05743 =
 [
-    [ "testGeneratePoints", "a05743.html#a63588109fc080478770a7d3cc31b245d", null ]
+    [ "testSimplifyVW", "a05743.html#a4b0417b619689d07743ff9d72212c847", null ],
+    [ "testGeom", "a05743.html#a03a5f5da0ccbeed8c1678d4317cf2672", null ]
 ];

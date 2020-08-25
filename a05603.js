@@ -1,6 +1,10 @@
 var a05603 =
 [
-    [ "testRemoveRepeatedPoints", "a05603.html#a473d131a5f96a89f9502570a50d06e65", null ],
-    [ "testGeometry", "a05603.html#abc3f514f005cba49e406658e2d3086eb", null ],
-    [ "testGeometry2", "a05603.html#af1173652e671b8f9051f8630b98c73fb", null ]
+    [ "testOrderingEquals1", "a05603.html#a35b0ff8ac582857f1742c06e5db14fb2", null ],
+    [ "testOrderingEquals2", "a05603.html#a258a7b3f7cf473377b4aaed9d19641c4", null ],
+    [ "testOrderingEquals3", "a05603.html#a47191a77968729eba6c2f943834b3992", null ],
+    [ "lineStringMedium", "a05603.html#a30a33894af6c6537b098f763a39d6054", null ],
+    [ "lineStringMedium2", "a05603.html#a6f7bc783bc9c02130f1251353e8efd7d", null ],
+    [ "lineStringSmall", "a05603.html#a12c9d589491219bf61791e12113fae06", null ],
+    [ "lineStringSmallReverse", "a05603.html#a2dd626abfe2d2e9dc2b4d1bc7f9dc810", null ]
 ];

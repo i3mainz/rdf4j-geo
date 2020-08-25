@@ -1,5 +1,6 @@
 var a03087 =
 [
-    [ "attribute", "a03087.html#abfb62b5b74d4e031a07adb717a6ccfc6", null ],
-    [ "evaluate", "a03087.html#a43b4c73244bc6722ce551c1033cf1115", null ]
+    [ "attribute", "a03087.html#a041666085738cb4cd7649f68428f9553", null ],
+    [ "evaluate", "a03087.html#a43b4c73244bc6722ce551c1033cf1115", null ],
+    [ "getURI", "a03087.html#ad9fb16b36dd4ccc533d4f05ff94646e3", null ]
 ];
