@@ -12,7 +12,7 @@ import org.junit.jupiter.api.Test;
 
 public class ClosestPointTest {
 
-	public static final String testPoint="POINT(100 100)";
+	public static final String testPoint="POINT (100 100)";
 	
 	public static final String testLineString="LINESTRING (20 80, 98 190, 110 180, 50 75 )";
 	
@@ -22,8 +22,8 @@ public class ClosestPointTest {
 		ValueFactory valfac=SimpleValueFactory.getInstance();
 		Value geo=valfac.createLiteral(testPoint, WKTDatatype.LiteralIRI);
 		Value geo2=valfac.createLiteral(testLineString, WKTDatatype.LiteralIRI);
-		Value result=valfac.createLiteral(42.2736890060937);
-		Value expResult=instance.evaluate(valfac, geo,geo2);
+		Value expResult=valfac.createLiteral(testPoint, WKTDatatype.LiteralIRI);
+		Value result=instance.evaluate(valfac, geo,geo2);
 		assertEquals(expResult, result);
 	}
 	
