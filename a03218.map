@@ -1,3 +1,6 @@
-<map id="GeometricStringExportIntegerFunction" name="GeometricStringExportIntegerFunction">
-<area shape="rect" id="node3" href="$a03351.html" title="Returns a WKT representation of a given geometry with a given precision. " alt="" coords="51,169,154,196"/>
+<map id="GeometricRelationModifierFunction" name="GeometricRelationModifierFunction">
+<area shape="rect" id="node3" href="$a03455.html" title="LongestLine" alt="" coords="5,169,97,196"/>
+<area shape="rect" id="node4" href="$a03491.html" title="ShortestLine" alt="" coords="121,169,216,196"/>
+<area shape="rect" id="node5" href="$a03495.html" title="ShortestLine3D" alt="" coords="241,169,353,196"/>
+<area shape="rect" id="node6" href="$a03831.html" title="Calculates shared paths of two geometries. " alt="" coords="377,169,475,196"/>
 </map>

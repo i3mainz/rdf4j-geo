@@ -1,7 +1,6 @@
 var a05627 =
 [
-    [ "testEPSGToWKT", "a05627.html#a99eeea80e12b47408368dc7163511b31", null ],
-    [ "epsg", "a05627.html#ae984b1b4178b56b80cdb7a80eac64541", null ],
-    [ "epsg4326wkt", "a05627.html#ab74c72298a14045de8026d4c37013974", null ],
-    [ "srid", "a05627.html#a5ffebf384504d11b17aa9c75f4b92024", null ]
+    [ "testRelateMatchFalse", "a05627.html#a16bf67312d8af3e076076fd8097969c5", null ],
+    [ "testRelateMatchTrue", "a05627.html#a47e32d919c84c1edd508a45d6c670e90", null ],
+    [ "notIsocelesTriangle", "a05627.html#a055d99fb63bcee37763ffcf4da9e0521", null ]
 ];

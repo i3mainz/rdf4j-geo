@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>rdf4j-postgis: AsNetCDF Class Reference</title>
+<title>rdf4j-postgis: SetSkew Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -64,23 +64,23 @@ $(document).ready(function(){initNavTree('a04587.html','');});
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="a04584.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">AsNetCDF Class Reference</div>  </div>
+<div class="title">SetSkew Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 <div class="dynheader">
-Inheritance diagram for AsNetCDF:</div>
+Inheritance diagram for SetSkew:</div>
 <div class="dyncontent">
-<div class="center"><img src="a04586.png" border="0" usemap="#AsNetCDF_inherit__map" alt="Inheritance graph"/></div>
-<map name="AsNetCDF_inherit__map" id="AsNetCDF_inherit__map">
-<area shape="rect" id="node2" href="a04507.html" title="RasterStringExportFunction" alt="" coords="5,80,188,107"/>
+<div class="center"><img src="a04586.png" border="0" usemap="#SetSkew_inherit__map" alt="Inheritance graph"/></div>
+<map name="SetSkew_inherit__map" id="SetSkew_inherit__map">
+<area shape="rect" id="node2" href="a04511.html" title="RasterModifierFunction" alt="" coords="5,80,163,107"/>
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <div class="dynheader">
-Collaboration diagram for AsNetCDF:</div>
+Collaboration diagram for SetSkew:</div>
 <div class="dyncontent">
-<div class="center"><img src="a04585.png" border="0" usemap="#AsNetCDF_coll__map" alt="Collaboration graph"/></div>
-<map name="AsNetCDF_coll__map" id="AsNetCDF_coll__map">
-<area shape="rect" id="node2" href="a04507.html" title="RasterStringExportFunction" alt="" coords="5,80,188,107"/>
+<div class="center"><img src="a04585.png" border="0" usemap="#SetSkew_coll__map" alt="Collaboration graph"/></div>
+<map name="SetSkew_coll__map" id="SetSkew_coll__map">
+<area shape="rect" id="node2" href="a04511.html" title="RasterModifierFunction" alt="" coords="5,80,163,107"/>
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -88,9 +88,9 @@ Collaboration diagram for AsNetCDF:</div>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:ad9fb16b36dd4ccc533d4f05ff94646e3"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a04587.html#ad9fb16b36dd4ccc533d4f05ff94646e3">getURI</a> ()</td></tr>
 <tr class="separator:ad9fb16b36dd4ccc533d4f05ff94646e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2bfa3f6fe437856574c81aa21f7f173e"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a04587.html#a2bfa3f6fe437856574c81aa21f7f173e">operation</a> (GridCoverage raster)</td></tr>
-<tr class="separator:a2bfa3f6fe437856574c81aa21f7f173e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a43b4c73244bc6722ce551c1033cf1115"><td class="memItemLeft" align="right" valign="top">Value&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a04507.html#a43b4c73244bc6722ce551c1033cf1115">evaluate</a> (ValueFactory valueFactory, Value... args)  throws ValueExprEvaluationException </td></tr>
+<tr class="memitem:ad64785babec303f6b92a0e3c9dfd428e"><td class="memItemLeft" align="right" valign="top">GridCoverage&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a04587.html#ad64785babec303f6b92a0e3c9dfd428e">modify</a> (GridCoverage coverage)</td></tr>
+<tr class="separator:ad64785babec303f6b92a0e3c9dfd428e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a43b4c73244bc6722ce551c1033cf1115"><td class="memItemLeft" align="right" valign="top">Value&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a04511.html#a43b4c73244bc6722ce551c1033cf1115">evaluate</a> (ValueFactory valueFactory, Value... args)  throws ValueExprEvaluationException </td></tr>
 <tr class="separator:a43b4c73244bc6722ce551c1033cf1115"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -128,10 +128,9 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="a04507.html#aff77eb261f1dcb19c9273dd8b9662dad">RasterStringExportFunction.operation()</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="a06203.html#a99cbe22c14a0664995f6267fad391287">AsCoverageJSONTest.testAsCoverageJSON()</a>, <a class="el" href="a06207.html#a84eec701b3b7cae5e136b893fedba70c">AsGeoTIFFTest.testAsGeoTIFF()</a>, <a class="el" href="a06211.html#a0b80e3903a61071bdb126a92f3c4bd98">AsRastHexWKBTest.testAsRastHexWKB()</a>, and <a class="el" href="a06215.html#ac4241dd33011b06ba737eee0b71cd494">AsRastWKBTest.testAsRastWKB()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;                                                                                                            {</div><div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;                <span class="comment">// TODO Auto-generated method stub</span></div><div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;                <span class="keywordflow">return</span> null;</div><div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;        }</div></div><!-- fragment -->
+<p class="reference">References <a class="el" href="a04979.html#a8796f5aec1965b6c4e88b2ba7c1d2e53">LiteralRegistry.getLiteral()</a>, and <a class="el" href="a04511.html#af68b3f6766ab4b0a9f08240e5056f7ff">RasterModifierFunction.modify()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;                                                                                                            {</div><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;                <span class="keywordflow">if</span> (args.length != 1) {</div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;                        <span class="keywordflow">throw</span> <span class="keyword">new</span> ValueExprEvaluationException(getURI() + <span class="stringliteral">&quot; requires exactly 1 arguments, got &quot;</span> + args.length);</div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;                }</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;                LiteralType l=LiteralRegistry.getLiteral(((Literal)args[0]).getDatatype().toString());</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;                <span class="keywordflow">if</span>(l instanceof RasterLiteral) {</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;                        GridCoverage geom=((RasterLiteral)l).read(args[0].stringValue());</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;                        GridCoverage result = <a class="code" href="a04511.html#af68b3f6766ab4b0a9f08240e5056f7ff">modify</a>(geom);</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;                        <span class="keywordflow">return</span> valueFactory.createLiteral(((RasterLiteral) l).unparse(result),((Literal)args[0]).getDatatype());</div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;                }</div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;                <span class="keywordflow">return</span> null;</div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;        }</div><div class="ttc" id="a04511_html_af68b3f6766ab4b0a9f08240e5056f7ff"><div class="ttname"><a href="a04511.html#af68b3f6766ab4b0a9f08240e5056f7ff">org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.raster.base.RasterModifierFunction.modify</a></div><div class="ttdeci">abstract GridCoverage modify(GridCoverage coverage)</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="ad9fb16b36dd4ccc533d4f05ff94646e3"></a>
@@ -149,28 +148,26 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="a02747.html#a4ef03d3503f3aed87a73b89c8c6e4c2f">POSTGIS.ST_ASNETCDF</a>.</p>
-<div class="fragment"><div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;                               {</div><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;                <span class="keywordflow">return</span> POSTGIS.ST_ASNETCDF.stringValue();</div><div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;        }</div></div><!-- fragment -->
+<p class="reference">References <a class="el" href="a02759.html#a43ec6cc8a682ea5516dfd67a753d6f88">POSTGIS.st_setSkew</a>.</p>
+<div class="fragment"><div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;                               {</div><div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;                <span class="keywordflow">return</span> POSTGIS.st_setSkew.stringValue();</div><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;        }</div></div><!-- fragment -->
 </div>
 </div>
-<a id="a2bfa3f6fe437856574c81aa21f7f173e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2bfa3f6fe437856574c81aa21f7f173e">&#9670;&nbsp;</a></span>operation()</h2>
+<a id="ad64785babec303f6b92a0e3c9dfd428e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad64785babec303f6b92a0e3c9dfd428e">&#9670;&nbsp;</a></span>modify()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">String operation </td>
+          <td class="memname">GridCoverage modify </td>
           <td>(</td>
           <td class="paramtype">GridCoverage&#160;</td>
-          <td class="paramname"><em>raster</em></td><td>)</td>
+          <td class="paramname"><em>coverage</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p class="reference">References <a class="el" href="a04983.html#aa67fd58121397b354e07fbf09cb4c945">NetCDFDatatype.INSTANCE</a>, and <a class="el" href="a04975.html#a657560fc17175e794fe55d3b23643891">GMLCOVDatatype.unparse()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;                                                     {</div><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;                <span class="keywordflow">return</span> NetCDFDatatype.INSTANCE.unparse(raster);</div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;        }</div></div><!-- fragment -->
+<div class="fragment"><div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;                                                          {</div><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;                <span class="comment">// TODO Auto-generated method stub</span></div><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;                <span class="keywordflow">return</span> null;</div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;        }</div></div><!-- fragment -->
 </div>
 </div>
 </div><!-- contents -->
@@ -179,7 +176,7 @@ Public Member Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="a02598.html">org</a></li><li class="navelem"><a class="el" href="a02599.html">eclipse</a></li><li class="navelem"><a class="el" href="a02600.html">rdf4j</a></li><li class="navelem"><a class="el" href="a02603.html">query</a></li><li class="navelem"><a class="el" href="a02604.html">algebra</a></li><li class="navelem"><a class="el" href="a02605.html">evaluation</a></li><li class="navelem"><a class="el" href="a02606.html">function</a></li><li class="navelem"><a class="el" href="a02607.html">postgis</a></li><li class="navelem"><a class="el" href="a02640.html">raster</a></li><li class="navelem"><a class="el" href="a02645.html">exporter</a></li><li class="navelem"><a class="el" href="a04587.html">AsNetCDF</a></li>
+    <li class="navelem"><a class="el" href="a02610.html">org</a></li><li class="navelem"><a class="el" href="a02611.html">eclipse</a></li><li class="navelem"><a class="el" href="a02612.html">rdf4j</a></li><li class="navelem"><a class="el" href="a02615.html">query</a></li><li class="navelem"><a class="el" href="a02616.html">algebra</a></li><li class="navelem"><a class="el" href="a02617.html">evaluation</a></li><li class="navelem"><a class="el" href="a02618.html">function</a></li><li class="navelem"><a class="el" href="a02619.html">postgis</a></li><li class="navelem"><a class="el" href="a02652.html">raster</a></li><li class="navelem"><a class="el" href="a02656.html">editor</a></li><li class="navelem"><a class="el" href="a04587.html">SetSkew</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>

@@ -1,4 +1,4 @@
 var a06331 =
 [
-    [ "testNauticalMileToMeter", "a06331.html#a027e740e4683a9d01f9fb13a2755bd98", null ]
+    [ "testInchToUSFoot", "a06331.html#a1236a7bf3431fb304cb1cd44c9ae6aa7", null ]
 ];

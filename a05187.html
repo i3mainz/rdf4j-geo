@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>rdf4j-postgis: LEDataOutputStream Class Reference</title>
+<title>rdf4j-postgis: WKBRasterBand Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -65,120 +65,106 @@ $(document).ready(function(){initNavTree('a05187.html','');});
 <a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="a05184.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">LEDataOutputStream Class Reference</div>  </div>
+<div class="title">WKBRasterBand Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>Little endian Data output stream.  
+<p>WKB Raster band, used in postGIS 2 but can be used elsewhere.  
  <a href="a05187.html#details">More...</a></p>
 <div class="dynheader">
-Inheritance diagram for LEDataOutputStream:</div>
+Collaboration diagram for WKBRasterBand:</div>
 <div class="dyncontent">
-<div class="center"><img src="a05186.png" border="0" usemap="#LEDataOutputStream_inherit__map" alt="Inheritance graph"/></div>
-<map name="LEDataOutputStream_inherit__map" id="LEDataOutputStream_inherit__map">
-</map>
-<center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
-<div class="dynheader">
-Collaboration diagram for LEDataOutputStream:</div>
-<div class="dyncontent">
-<div class="center"><img src="a05185.png" border="0" usemap="#LEDataOutputStream_coll__map" alt="Collaboration graph"/></div>
-<map name="LEDataOutputStream_coll__map" id="LEDataOutputStream_coll__map">
+<div class="center"><img src="a05185.png" border="0" usemap="#WKBRasterBand_coll__map" alt="Collaboration graph"/></div>
+<map name="WKBRasterBand_coll__map" id="WKBRasterBand_coll__map">
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a08e5e85cf21039633a426452c6b944ee"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05187.html#a08e5e85cf21039633a426452c6b944ee">LEDataOutputStream</a> (OutputStream out)</td></tr>
-<tr class="separator:a08e5e85cf21039633a426452c6b944ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad8a2786c4ee713c917b468c59ec610df"><td class="memItemLeft" align="right" valign="top">long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05187.html#ad8a2786c4ee713c917b468c59ec610df">getPosition</a> ()</td></tr>
-<tr class="memdesc:ad8a2786c4ee713c917b468c59ec610df"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get current stream position from the first written byte.  <a href="#ad8a2786c4ee713c917b468c59ec610df">More...</a><br /></td></tr>
-<tr class="separator:ad8a2786c4ee713c917b468c59ec610df"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a85df3c4fd2fb205ca532d8861d28cc27"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05187.html#a85df3c4fd2fb205ca532d8861d28cc27">write</a> (int b)  throws IOException </td></tr>
-<tr class="separator:a85df3c4fd2fb205ca532d8861d28cc27"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a61f17b65f2ac2fb7f0a119cd2c6451f2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05187.html#a61f17b65f2ac2fb7f0a119cd2c6451f2">write</a> (byte[] data, int offset, int length)  throws IOException </td></tr>
-<tr class="separator:a61f17b65f2ac2fb7f0a119cd2c6451f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af15b120ff09c3716841515f75d241e66"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05187.html#af15b120ff09c3716841515f75d241e66">writeBoolean</a> (boolean b)  throws IOException </td></tr>
-<tr class="separator:af15b120ff09c3716841515f75d241e66"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a42b0850b32344f39d708666514fdfddd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05187.html#a42b0850b32344f39d708666514fdfddd">writeByte</a> (int b)  throws IOException </td></tr>
-<tr class="separator:a42b0850b32344f39d708666514fdfddd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4318f5da1fdb856ff726801097cdb429"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05187.html#a4318f5da1fdb856ff726801097cdb429">writeShort</a> (int s)  throws IOException </td></tr>
-<tr class="separator:a4318f5da1fdb856ff726801097cdb429"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac0e3fe2ab1ba3bb9fc12e4eb24be1a82"><td class="memItemLeft" align="right" valign="top">final void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05187.html#ac0e3fe2ab1ba3bb9fc12e4eb24be1a82">writeShorts</a> (short[] values)  throws IOException </td></tr>
-<tr class="memdesc:ac0e3fe2ab1ba3bb9fc12e4eb24be1a82"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write multiple values in one call.  <a href="#ac0e3fe2ab1ba3bb9fc12e4eb24be1a82">More...</a><br /></td></tr>
-<tr class="separator:ac0e3fe2ab1ba3bb9fc12e4eb24be1a82"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae923194a84fea5c316c69a9a71e1b09d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05187.html#ae923194a84fea5c316c69a9a71e1b09d">writeUnsignedShort</a> (int s)  throws IOException </td></tr>
-<tr class="separator:ae923194a84fea5c316c69a9a71e1b09d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9c9793caecddc216cb3d39ff222e86c2"><td class="memItemLeft" align="right" valign="top">final void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05187.html#a9c9793caecddc216cb3d39ff222e86c2">writeUnsignedShorts</a> (int[] values)  throws IOException </td></tr>
-<tr class="memdesc:a9c9793caecddc216cb3d39ff222e86c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write multiple values in one call.  <a href="#a9c9793caecddc216cb3d39ff222e86c2">More...</a><br /></td></tr>
-<tr class="separator:a9c9793caecddc216cb3d39ff222e86c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1ad0223a70a62e0b2cb46259e5ba550d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05187.html#a1ad0223a70a62e0b2cb46259e5ba550d">writeChar</a> (int c)  throws IOException </td></tr>
-<tr class="separator:a1ad0223a70a62e0b2cb46259e5ba550d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:accc32fabddebac9fa7ea07fe07fe219e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05187.html#accc32fabddebac9fa7ea07fe07fe219e">writeInt</a> (int i)  throws IOException </td></tr>
-<tr class="separator:accc32fabddebac9fa7ea07fe07fe219e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6f28d1bfd9781e586c236eaf6e225fcd"><td class="memItemLeft" align="right" valign="top">final void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05187.html#a6f28d1bfd9781e586c236eaf6e225fcd">writeInts</a> (int[] values)  throws IOException </td></tr>
-<tr class="memdesc:a6f28d1bfd9781e586c236eaf6e225fcd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write multiple values in one call.  <a href="#a6f28d1bfd9781e586c236eaf6e225fcd">More...</a><br /></td></tr>
-<tr class="separator:a6f28d1bfd9781e586c236eaf6e225fcd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2e87852cae58170b9cd59e1fbe1e625d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05187.html#a2e87852cae58170b9cd59e1fbe1e625d">writeLong</a> (long l)  throws IOException </td></tr>
-<tr class="separator:a2e87852cae58170b9cd59e1fbe1e625d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afd6593b15c3366b5d2c7978e6647ab4c"><td class="memItemLeft" align="right" valign="top">final void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05187.html#afd6593b15c3366b5d2c7978e6647ab4c">writeLongs</a> (long[] values)  throws IOException </td></tr>
-<tr class="memdesc:afd6593b15c3366b5d2c7978e6647ab4c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write multiple values in one call.  <a href="#afd6593b15c3366b5d2c7978e6647ab4c">More...</a><br /></td></tr>
-<tr class="separator:afd6593b15c3366b5d2c7978e6647ab4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4b08552792e2a9e330675b76cd4c9170"><td class="memItemLeft" align="right" valign="top">final void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05187.html#a4b08552792e2a9e330675b76cd4c9170">writeFloat</a> (float f)  throws IOException </td></tr>
-<tr class="separator:a4b08552792e2a9e330675b76cd4c9170"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ade431b8bb2a31304bfd780314827055f"><td class="memItemLeft" align="right" valign="top">final void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05187.html#ade431b8bb2a31304bfd780314827055f">writeFloats</a> (float[] values)  throws IOException </td></tr>
-<tr class="memdesc:ade431b8bb2a31304bfd780314827055f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write multiple values in one call.  <a href="#ade431b8bb2a31304bfd780314827055f">More...</a><br /></td></tr>
-<tr class="separator:ade431b8bb2a31304bfd780314827055f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9a1b19adf99483ab5421f5abd9be1ee0"><td class="memItemLeft" align="right" valign="top">final void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05187.html#a9a1b19adf99483ab5421f5abd9be1ee0">writeDouble</a> (double d)  throws IOException </td></tr>
-<tr class="separator:a9a1b19adf99483ab5421f5abd9be1ee0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a719c7e6e9f7c2ba46f78b335603c6b13"><td class="memItemLeft" align="right" valign="top">final void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05187.html#a719c7e6e9f7c2ba46f78b335603c6b13">writeDoubles</a> (double[] values)  throws IOException </td></tr>
-<tr class="memdesc:a719c7e6e9f7c2ba46f78b335603c6b13"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write multiple values in one call.  <a href="#a719c7e6e9f7c2ba46f78b335603c6b13">More...</a><br /></td></tr>
-<tr class="separator:a719c7e6e9f7c2ba46f78b335603c6b13"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3e567d4365e19b559e3aaeea0a09de3a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05187.html#a3e567d4365e19b559e3aaeea0a09de3a">writeBytes</a> (String s)  throws IOException </td></tr>
-<tr class="separator:a3e567d4365e19b559e3aaeea0a09de3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9e35e2da722a437646d8396e7e32ce48"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05187.html#a9e35e2da722a437646d8396e7e32ce48">writeChars</a> (String s)  throws IOException </td></tr>
-<tr class="separator:a9e35e2da722a437646d8396e7e32ce48"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af884010e15f7514f7e08d9618c4c692c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05187.html#af884010e15f7514f7e08d9618c4c692c">writeUTF</a> (String s)  throws IOException </td></tr>
-<tr class="separator:af884010e15f7514f7e08d9618c4c692c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad0e5489e60cebc32e12d78fe6abb2092"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05187.html#ad0e5489e60cebc32e12d78fe6abb2092">realign</a> (int padding)  throws IOException</td></tr>
-<tr class="memdesc:ad0e5489e60cebc32e12d78fe6abb2092"><td class="mdescLeft">&#160;</td><td class="mdescRight">Align byte stream to a padding value, 0 bytes will be added until padding value is reached.  <a href="#ad0e5489e60cebc32e12d78fe6abb2092">More...</a><br /></td></tr>
-<tr class="separator:ad0e5489e60cebc32e12d78fe6abb2092"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa0fc39d1a879dc607c9f88bd3716db59"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05187.html#aa0fc39d1a879dc607c9f88bd3716db59">WKBRasterBand</a> ()</td></tr>
+<tr class="separator:aa0fc39d1a879dc607c9f88bd3716db59"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af8b0f2c180767e8c45454f9fc32c4c33"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05187.html#af8b0f2c180767e8c45454f9fc32c4c33">getPixelType</a> ()</td></tr>
+<tr class="separator:af8b0f2c180767e8c45454f9fc32c4c33"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acd960d5d383cebd90a6950cc3485e5cf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05187.html#acd960d5d383cebd90a6950cc3485e5cf">setPixelType</a> (int <a class="el" href="a05187.html#a4e2f9f3a9b83efe057721114b2df358d">pixelType</a>)</td></tr>
+<tr class="separator:acd960d5d383cebd90a6950cc3485e5cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5ac9288bc257ae1a5927f4650e3e0569"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05187.html#a5ac9288bc257ae1a5927f4650e3e0569">isOffDatabase</a> ()</td></tr>
+<tr class="separator:a5ac9288bc257ae1a5927f4650e3e0569"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3a1a0ede44ab707bf7f993e30edf5416"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05187.html#a3a1a0ede44ab707bf7f993e30edf5416">setOffDatabase</a> (boolean <a class="el" href="a05187.html#abab1b0ce402dc73a9a38512b99e8535c">offdatabase</a>)</td></tr>
+<tr class="separator:a3a1a0ede44ab707bf7f993e30edf5416"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a59b07334b5b27aa35273e867db9a14be"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05187.html#a59b07334b5b27aa35273e867db9a14be">hasNodata</a> ()</td></tr>
+<tr class="separator:a59b07334b5b27aa35273e867db9a14be"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3a6841dab2f0d8b3bcbaeae79142d018"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05187.html#a3a6841dab2f0d8b3bcbaeae79142d018">setHasNodata</a> (boolean <a class="el" href="a05187.html#a1b7caf1ea0815208732ffcf9b13ca5c1">hasnodata</a>)</td></tr>
+<tr class="separator:a3a6841dab2f0d8b3bcbaeae79142d018"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac881be86656bc749a968da33b9142387"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05187.html#ac881be86656bc749a968da33b9142387">isNodata</a> ()</td></tr>
+<tr class="separator:ac881be86656bc749a968da33b9142387"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a749a1b6621df866dcea4cf13fbef6a1e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05187.html#a749a1b6621df866dcea4cf13fbef6a1e">setIsNodata</a> (boolean <a class="el" href="a05187.html#ade56ca840f6a02c4eee5c294e2aefcbb">isnodata</a>)</td></tr>
+<tr class="separator:a749a1b6621df866dcea4cf13fbef6a1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a73b81d94dd082a568921f05e49f659bb"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05187.html#a73b81d94dd082a568921f05e49f659bb">getReserved</a> ()</td></tr>
+<tr class="separator:a73b81d94dd082a568921f05e49f659bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae9116612a946cfb3e07fd00a084c0d14"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05187.html#ae9116612a946cfb3e07fd00a084c0d14">setReserved</a> (boolean <a class="el" href="a05187.html#ac36b31435a7c57c948402e8480a8d26a">reserved</a>)</td></tr>
+<tr class="separator:ae9116612a946cfb3e07fd00a084c0d14"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ada30aaa70b3f117c1c60b0c07256d5d8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05187.html#ada30aaa70b3f117c1c60b0c07256d5d8">setNoDataValue</a> (Number <a class="el" href="a05187.html#a908705d9e3c37b19ec18801f97a42356">noDataValue</a>)</td></tr>
+<tr class="separator:ada30aaa70b3f117c1c60b0c07256d5d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1b31f8052e645e14f736ba2065c748e6"><td class="memItemLeft" align="right" valign="top">Number&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05187.html#a1b31f8052e645e14f736ba2065c748e6">getNoDataValue</a> ()</td></tr>
+<tr class="separator:a1b31f8052e645e14f736ba2065c748e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a115e94e22c6cf71f065ecaece46eef5f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05187.html#a115e94e22c6cf71f065ecaece46eef5f">setDatas</a> (byte[] <a class="el" href="a05187.html#ae724ef9eb8254caf9ece3ecd4708582c">datas</a>)</td></tr>
+<tr class="separator:a115e94e22c6cf71f065ecaece46eef5f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9739b3f0eaf0030ab832faa9de7c1721"><td class="memItemLeft" align="right" valign="top">byte []&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05187.html#a9739b3f0eaf0030ab832faa9de7c1721">getDatas</a> ()</td></tr>
+<tr class="separator:a9739b3f0eaf0030ab832faa9de7c1721"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a99bd442ec14b48f79ef0d5e6d5241a30"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05187.html#a99bd442ec14b48f79ef0d5e6d5241a30">getNbBytePerPixel</a> ()</td></tr>
+<tr class="separator:a99bd442ec14b48f79ef0d5e6d5241a30"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa89021ea15a3c77e31d1721de9c6c867"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05187.html#aa89021ea15a3c77e31d1721de9c6c867">getDataBufferType</a> ()</td></tr>
+<tr class="separator:aa89021ea15a3c77e31d1721de9c6c867"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad146fa8579a5f8a876c4688cc5a68520"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05187.html#ad146fa8579a5f8a876c4688cc5a68520">toString</a> ()</td></tr>
+<tr class="separator:ad146fa8579a5f8a876c4688cc5a68520"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:ac037f68bf86d3712a034faa2d3ac428a"><td class="memItemLeft" align="right" valign="top">long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05187.html#ac037f68bf86d3712a034faa2d3ac428a">position</a> = 0</td></tr>
-<tr class="separator:ac037f68bf86d3712a034faa2d3ac428a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4e2f9f3a9b83efe057721114b2df358d"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05187.html#a4e2f9f3a9b83efe057721114b2df358d">pixelType</a></td></tr>
+<tr class="separator:a4e2f9f3a9b83efe057721114b2df358d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abab1b0ce402dc73a9a38512b99e8535c"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05187.html#abab1b0ce402dc73a9a38512b99e8535c">offdatabase</a></td></tr>
+<tr class="separator:abab1b0ce402dc73a9a38512b99e8535c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1b7caf1ea0815208732ffcf9b13ca5c1"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05187.html#a1b7caf1ea0815208732ffcf9b13ca5c1">hasnodata</a></td></tr>
+<tr class="separator:a1b7caf1ea0815208732ffcf9b13ca5c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ade56ca840f6a02c4eee5c294e2aefcbb"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05187.html#ade56ca840f6a02c4eee5c294e2aefcbb">isnodata</a></td></tr>
+<tr class="separator:ade56ca840f6a02c4eee5c294e2aefcbb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac36b31435a7c57c948402e8480a8d26a"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05187.html#ac36b31435a7c57c948402e8480a8d26a">reserved</a></td></tr>
+<tr class="separator:ac36b31435a7c57c948402e8480a8d26a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a908705d9e3c37b19ec18801f97a42356"><td class="memItemLeft" align="right" valign="top">Number&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05187.html#a908705d9e3c37b19ec18801f97a42356">noDataValue</a></td></tr>
+<tr class="separator:a908705d9e3c37b19ec18801f97a42356"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae724ef9eb8254caf9ece3ecd4708582c"><td class="memItemLeft" align="right" valign="top">byte []&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05187.html#ae724ef9eb8254caf9ece3ecd4708582c">datas</a></td></tr>
+<tr class="separator:ae724ef9eb8254caf9ece3ecd4708582c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Little endian Data output stream. </p>
+<div class="textblock"><p>WKB Raster band, used in postGIS 2 but can be used elsewhere. </p>
 <dl class="section author"><dt>Author</dt><dd>Johann Sorel (Geomatys) </dd></dl>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a08e5e85cf21039633a426452c6b944ee"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a08e5e85cf21039633a426452c6b944ee">&#9670;&nbsp;</a></span>LEDataOutputStream()</h2>
+<a id="aa0fc39d1a879dc607c9f88bd3716db59"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa0fc39d1a879dc607c9f88bd3716db59">&#9670;&nbsp;</a></span>WKBRasterBand()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="a05187.html">LEDataOutputStream</a> </td>
+          <td class="memname"><a class="el" href="a05187.html">WKBRasterBand</a> </td>
           <td>(</td>
-          <td class="paramtype">OutputStream&#160;</td>
-          <td class="paramname"><em>out</em></td><td>)</td>
+          <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;                                                {</div><div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;        super(out);</div><div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    }</div></div><!-- fragment -->
+<div class="fragment"><div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;                           {</div><div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    }</div></div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="ad8a2786c4ee713c917b468c59ec610df"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad8a2786c4ee713c917b468c59ec610df">&#9670;&nbsp;</a></span>getPosition()</h2>
+<a id="aa89021ea15a3c77e31d1721de9c6c867"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa89021ea15a3c77e31d1721de9c6c867">&#9670;&nbsp;</a></span>getDataBufferType()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">long getPosition </td>
+          <td class="memname">int getDataBufferType </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -186,567 +172,368 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Get current stream position from the first written byte. </p>
-<dl class="section return"><dt>Returns</dt><dd>stream position </dd></dl>
+<p class="reference">References <a class="el" href="a05191.html#ac52192545c0460512a05f796c5c49cfa">WKBRasterConstants.getDataBufferType()</a>.</p>
 
-<p class="reference">References <a class="el" href="a05187.html#ac037f68bf86d3712a034faa2d3ac428a">LEDataOutputStream.position</a>.</p>
-<div class="fragment"><div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;                              {</div><div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="a05187.html#ac037f68bf86d3712a034faa2d3ac428a">position</a>;</div><div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    }</div><div class="ttc" id="a05187_html_ac037f68bf86d3712a034faa2d3ac428a"><div class="ttname"><a href="a05187.html#ac037f68bf86d3712a034faa2d3ac428a">org.geotoolkit.io.LEDataOutputStream.position</a></div><div class="ttdeci">long position</div><div class="ttdef"><b>Definition:</b> LEDataOutputStream.java:31</div></div>
+<p class="reference">Referenced by <a class="el" href="a05195.html#ab8d0b6608f158d1234999e80670eba0e">WKBRasterReader.read()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;                                  {</div><div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;        <span class="keywordflow">return</span> WKBRasterConstants.getDataBufferType(<a class="code" href="a05187.html#a4e2f9f3a9b83efe057721114b2df358d">pixelType</a>);</div><div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;    }</div><div class="ttc" id="a05187_html_a4e2f9f3a9b83efe057721114b2df358d"><div class="ttname"><a href="a05187.html#a4e2f9f3a9b83efe057721114b2df358d">org.geotoolkit.coverage.wkb.WKBRasterBand.pixelType</a></div><div class="ttdeci">int pixelType</div><div class="ttdef"><b>Definition:</b> WKBRasterBand.java:26</div></div>
 </div><!-- fragment -->
 </div>
 </div>
-<a id="ad0e5489e60cebc32e12d78fe6abb2092"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad0e5489e60cebc32e12d78fe6abb2092">&#9670;&nbsp;</a></span>realign()</h2>
+<a id="a9739b3f0eaf0030ab832faa9de7c1721"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9739b3f0eaf0030ab832faa9de7c1721">&#9670;&nbsp;</a></span>getDatas()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void realign </td>
+          <td class="memname">byte [] getDatas </td>
           <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>padding</em></td><td>)</td>
-          <td> throws IOException</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Align byte stream to a padding value, 0 bytes will be added until padding value is reached. </p>
-<p>Padding values are usually very small, 2, 4 or 8 bytes to ensure primitive types such as Short, Integer, Float are aligned in memory.</p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">padding</td><td>value to realign. </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="exception"><dt>Exceptions</dt><dd>
-  <table class="exception">
-    <tr><td class="paramname">IOException</td><td></td></tr>
-  </table>
-  </dd>
-</dl>
+<p class="reference">References <a class="el" href="a05187.html#ae724ef9eb8254caf9ece3ecd4708582c">WKBRasterBand.datas</a>.</p>
 
-<p class="reference">References <a class="el" href="a05187.html#a85df3c4fd2fb205ca532d8861d28cc27">LEDataOutputStream.write()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00222"></a><span class="lineno">  222</span>&#160;                                                       {</div><div class="line"><a name="l00223"></a><span class="lineno">  223</span>&#160;        <span class="keywordflow">while</span> ((<a class="code" href="a05187.html#ac037f68bf86d3712a034faa2d3ac428a">position</a>%padding) != 0) {</div><div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160;            <a class="code" href="a05187.html#a85df3c4fd2fb205ca532d8861d28cc27">write</a>(0);</div><div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;        }</div><div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;    }</div><div class="ttc" id="a05187_html_ac037f68bf86d3712a034faa2d3ac428a"><div class="ttname"><a href="a05187.html#ac037f68bf86d3712a034faa2d3ac428a">org.geotoolkit.io.LEDataOutputStream.position</a></div><div class="ttdeci">long position</div><div class="ttdef"><b>Definition:</b> LEDataOutputStream.java:31</div></div>
-<div class="ttc" id="a05187_html_a85df3c4fd2fb205ca532d8861d28cc27"><div class="ttname"><a href="a05187.html#a85df3c4fd2fb205ca532d8861d28cc27">org.geotoolkit.io.LEDataOutputStream.write</a></div><div class="ttdeci">void write(int b)</div><div class="ttdef"><b>Definition:</b> LEDataOutputStream.java:46</div></div>
+<p class="reference">Referenced by <a class="el" href="a05195.html#ab8d0b6608f158d1234999e80670eba0e">WKBRasterReader.read()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;                             {</div><div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="a05187.html#ae724ef9eb8254caf9ece3ecd4708582c">datas</a>;</div><div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;    }</div><div class="ttc" id="a05187_html_ae724ef9eb8254caf9ece3ecd4708582c"><div class="ttname"><a href="a05187.html#ae724ef9eb8254caf9ece3ecd4708582c">org.geotoolkit.coverage.wkb.WKBRasterBand.datas</a></div><div class="ttdeci">byte [] datas</div><div class="ttdef"><b>Definition:</b> WKBRasterBand.java:32</div></div>
 </div><!-- fragment -->
 </div>
 </div>
-<a id="a85df3c4fd2fb205ca532d8861d28cc27"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a85df3c4fd2fb205ca532d8861d28cc27">&#9670;&nbsp;</a></span>write() <span class="overload">[1/2]</span></h2>
+<a id="a99bd442ec14b48f79ef0d5e6d5241a30"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a99bd442ec14b48f79ef0d5e6d5241a30">&#9670;&nbsp;</a></span>getNbBytePerPixel()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void write </td>
+          <td class="memname">int getNbBytePerPixel </td>
           <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>b</em></td><td>)</td>
-          <td> throws IOException</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="a05187.html#ad0e5489e60cebc32e12d78fe6abb2092">LEDataOutputStream.realign()</a>, and <a class="el" href="a05187.html#af15b120ff09c3716841515f75d241e66">LEDataOutputStream.writeBoolean()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;                                                {</div><div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;        out.write(b);</div><div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;        <a class="code" href="a05187.html#ac037f68bf86d3712a034faa2d3ac428a">position</a>++;</div><div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    }</div><div class="ttc" id="a05187_html_ac037f68bf86d3712a034faa2d3ac428a"><div class="ttname"><a href="a05187.html#ac037f68bf86d3712a034faa2d3ac428a">org.geotoolkit.io.LEDataOutputStream.position</a></div><div class="ttdeci">long position</div><div class="ttdef"><b>Definition:</b> LEDataOutputStream.java:31</div></div>
+<p class="reference">References <a class="el" href="a05191.html#a90175c7e374ef5fa97cdeeb1b5a34b2d">WKBRasterConstants.getNbBytePerPixel()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="a05195.html#ab8d0b6608f158d1234999e80670eba0e">WKBRasterReader.read()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;                                   {</div><div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;        <span class="keywordflow">return</span> WKBRasterConstants.getNbBytePerPixel(<a class="code" href="a05187.html#a4e2f9f3a9b83efe057721114b2df358d">pixelType</a>);</div><div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;    }</div><div class="ttc" id="a05187_html_a4e2f9f3a9b83efe057721114b2df358d"><div class="ttname"><a href="a05187.html#a4e2f9f3a9b83efe057721114b2df358d">org.geotoolkit.coverage.wkb.WKBRasterBand.pixelType</a></div><div class="ttdeci">int pixelType</div><div class="ttdef"><b>Definition:</b> WKBRasterBand.java:26</div></div>
 </div><!-- fragment -->
 </div>
 </div>
-<a id="a61f17b65f2ac2fb7f0a119cd2c6451f2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a61f17b65f2ac2fb7f0a119cd2c6451f2">&#9670;&nbsp;</a></span>write() <span class="overload">[2/2]</span></h2>
+<a id="a1b31f8052e645e14f736ba2065c748e6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1b31f8052e645e14f736ba2065c748e6">&#9670;&nbsp;</a></span>getNoDataValue()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void write </td>
+          <td class="memname">Number getNoDataValue </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="a05187.html#a908705d9e3c37b19ec18801f97a42356">WKBRasterBand.noDataValue</a>.</p>
+<div class="fragment"><div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;                                   {</div><div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="a05187.html#a908705d9e3c37b19ec18801f97a42356">noDataValue</a>;</div><div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;    }</div><div class="ttc" id="a05187_html_a908705d9e3c37b19ec18801f97a42356"><div class="ttname"><a href="a05187.html#a908705d9e3c37b19ec18801f97a42356">org.geotoolkit.coverage.wkb.WKBRasterBand.noDataValue</a></div><div class="ttdeci">Number noDataValue</div><div class="ttdef"><b>Definition:</b> WKBRasterBand.java:31</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="af8b0f2c180767e8c45454f9fc32c4c33"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af8b0f2c180767e8c45454f9fc32c4c33">&#9670;&nbsp;</a></span>getPixelType()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int getPixelType </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="a05187.html#a4e2f9f3a9b83efe057721114b2df358d">WKBRasterBand.pixelType</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="a05195.html#ab8d0b6608f158d1234999e80670eba0e">WKBRasterReader.read()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;                              {</div><div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="a05187.html#a4e2f9f3a9b83efe057721114b2df358d">pixelType</a>;</div><div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    }</div><div class="ttc" id="a05187_html_a4e2f9f3a9b83efe057721114b2df358d"><div class="ttname"><a href="a05187.html#a4e2f9f3a9b83efe057721114b2df358d">org.geotoolkit.coverage.wkb.WKBRasterBand.pixelType</a></div><div class="ttdeci">int pixelType</div><div class="ttdef"><b>Definition:</b> WKBRasterBand.java:26</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a73b81d94dd082a568921f05e49f659bb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a73b81d94dd082a568921f05e49f659bb">&#9670;&nbsp;</a></span>getReserved()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean getReserved </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="a05187.html#ac36b31435a7c57c948402e8480a8d26a">WKBRasterBand.reserved</a>.</p>
+<div class="fragment"><div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;                                 {</div><div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="a05187.html#ac36b31435a7c57c948402e8480a8d26a">reserved</a>;</div><div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;    }</div><div class="ttc" id="a05187_html_ac36b31435a7c57c948402e8480a8d26a"><div class="ttname"><a href="a05187.html#ac36b31435a7c57c948402e8480a8d26a">org.geotoolkit.coverage.wkb.WKBRasterBand.reserved</a></div><div class="ttdeci">boolean reserved</div><div class="ttdef"><b>Definition:</b> WKBRasterBand.java:30</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a59b07334b5b27aa35273e867db9a14be"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a59b07334b5b27aa35273e867db9a14be">&#9670;&nbsp;</a></span>hasNodata()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean hasNodata </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="a05187.html#a1b7caf1ea0815208732ffcf9b13ca5c1">WKBRasterBand.hasnodata</a>.</p>
+<div class="fragment"><div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;                               {</div><div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="a05187.html#a1b7caf1ea0815208732ffcf9b13ca5c1">hasnodata</a>;</div><div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    }</div><div class="ttc" id="a05187_html_a1b7caf1ea0815208732ffcf9b13ca5c1"><div class="ttname"><a href="a05187.html#a1b7caf1ea0815208732ffcf9b13ca5c1">org.geotoolkit.coverage.wkb.WKBRasterBand.hasnodata</a></div><div class="ttdeci">boolean hasnodata</div><div class="ttdef"><b>Definition:</b> WKBRasterBand.java:28</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="ac881be86656bc749a968da33b9142387"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac881be86656bc749a968da33b9142387">&#9670;&nbsp;</a></span>isNodata()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean isNodata </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="a05187.html#ade56ca840f6a02c4eee5c294e2aefcbb">WKBRasterBand.isnodata</a>.</p>
+<div class="fragment"><div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;                              {</div><div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="a05187.html#ade56ca840f6a02c4eee5c294e2aefcbb">isnodata</a>;</div><div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    }</div><div class="ttc" id="a05187_html_ade56ca840f6a02c4eee5c294e2aefcbb"><div class="ttname"><a href="a05187.html#ade56ca840f6a02c4eee5c294e2aefcbb">org.geotoolkit.coverage.wkb.WKBRasterBand.isnodata</a></div><div class="ttdeci">boolean isnodata</div><div class="ttdef"><b>Definition:</b> WKBRasterBand.java:29</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a5ac9288bc257ae1a5927f4650e3e0569"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5ac9288bc257ae1a5927f4650e3e0569">&#9670;&nbsp;</a></span>isOffDatabase()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean isOffDatabase </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="a05187.html#abab1b0ce402dc73a9a38512b99e8535c">WKBRasterBand.offdatabase</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="a05195.html#ab8d0b6608f158d1234999e80670eba0e">WKBRasterReader.read()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;                                   {</div><div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="a05187.html#abab1b0ce402dc73a9a38512b99e8535c">offdatabase</a>;</div><div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    }</div><div class="ttc" id="a05187_html_abab1b0ce402dc73a9a38512b99e8535c"><div class="ttname"><a href="a05187.html#abab1b0ce402dc73a9a38512b99e8535c">org.geotoolkit.coverage.wkb.WKBRasterBand.offdatabase</a></div><div class="ttdeci">boolean offdatabase</div><div class="ttdef"><b>Definition:</b> WKBRasterBand.java:27</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a115e94e22c6cf71f065ecaece46eef5f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a115e94e22c6cf71f065ecaece46eef5f">&#9670;&nbsp;</a></span>setDatas()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void setDatas </td>
           <td>(</td>
           <td class="paramtype">byte []&#160;</td>
-          <td class="paramname"><em>data</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
+          <td class="paramname"><em>datas</em></td><td>)</td>
           <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>offset</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>length</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td> throws IOException</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;                                                                              {</div><div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;        out.write(data, offset, length);</div><div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;        <a class="code" href="a05187.html#ac037f68bf86d3712a034faa2d3ac428a">position</a>+=length;</div><div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    }</div><div class="ttc" id="a05187_html_ac037f68bf86d3712a034faa2d3ac428a"><div class="ttname"><a href="a05187.html#ac037f68bf86d3712a034faa2d3ac428a">org.geotoolkit.io.LEDataOutputStream.position</a></div><div class="ttdeci">long position</div><div class="ttdef"><b>Definition:</b> LEDataOutputStream.java:31</div></div>
+
+<p class="reference">References <a class="el" href="a05187.html#ae724ef9eb8254caf9ece3ecd4708582c">WKBRasterBand.datas</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="a05195.html#ab8d0b6608f158d1234999e80670eba0e">WKBRasterReader.read()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;                                       {</div><div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;        this.<a class="code" href="a05187.html#ae724ef9eb8254caf9ece3ecd4708582c">datas</a> = <a class="code" href="a05187.html#ae724ef9eb8254caf9ece3ecd4708582c">datas</a>;</div><div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;    }</div><div class="ttc" id="a05187_html_ae724ef9eb8254caf9ece3ecd4708582c"><div class="ttname"><a href="a05187.html#ae724ef9eb8254caf9ece3ecd4708582c">org.geotoolkit.coverage.wkb.WKBRasterBand.datas</a></div><div class="ttdeci">byte [] datas</div><div class="ttdef"><b>Definition:</b> WKBRasterBand.java:32</div></div>
 </div><!-- fragment -->
 </div>
 </div>
-<a id="af15b120ff09c3716841515f75d241e66"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af15b120ff09c3716841515f75d241e66">&#9670;&nbsp;</a></span>writeBoolean()</h2>
+<a id="a3a6841dab2f0d8b3bcbaeae79142d018"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3a6841dab2f0d8b3bcbaeae79142d018">&#9670;&nbsp;</a></span>setHasNodata()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void writeBoolean </td>
+          <td class="memname">void setHasNodata </td>
           <td>(</td>
           <td class="paramtype">boolean&#160;</td>
-          <td class="paramname"><em>b</em></td><td>)</td>
-          <td> throws IOException</td>
+          <td class="paramname"><em>hasnodata</em></td><td>)</td>
+          <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="a05187.html#a85df3c4fd2fb205ca532d8861d28cc27">LEDataOutputStream.write()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;                                                           {</div><div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;        this.<a class="code" href="a05187.html#a85df3c4fd2fb205ca532d8861d28cc27">write</a>( b ? 1 : 0 );</div><div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    }</div><div class="ttc" id="a05187_html_a85df3c4fd2fb205ca532d8861d28cc27"><div class="ttname"><a href="a05187.html#a85df3c4fd2fb205ca532d8861d28cc27">org.geotoolkit.io.LEDataOutputStream.write</a></div><div class="ttdeci">void write(int b)</div><div class="ttdef"><b>Definition:</b> LEDataOutputStream.java:46</div></div>
+<p class="reference">References <a class="el" href="a05187.html#a1b7caf1ea0815208732ffcf9b13ca5c1">WKBRasterBand.hasnodata</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="a05195.html#ab8d0b6608f158d1234999e80670eba0e">WKBRasterReader.read()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;                                                {</div><div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;        this.<a class="code" href="a05187.html#a1b7caf1ea0815208732ffcf9b13ca5c1">hasnodata</a> = <a class="code" href="a05187.html#a1b7caf1ea0815208732ffcf9b13ca5c1">hasnodata</a>;</div><div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    }</div><div class="ttc" id="a05187_html_a1b7caf1ea0815208732ffcf9b13ca5c1"><div class="ttname"><a href="a05187.html#a1b7caf1ea0815208732ffcf9b13ca5c1">org.geotoolkit.coverage.wkb.WKBRasterBand.hasnodata</a></div><div class="ttdeci">boolean hasnodata</div><div class="ttdef"><b>Definition:</b> WKBRasterBand.java:28</div></div>
 </div><!-- fragment -->
 </div>
 </div>
-<a id="a42b0850b32344f39d708666514fdfddd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a42b0850b32344f39d708666514fdfddd">&#9670;&nbsp;</a></span>writeByte()</h2>
+<a id="a749a1b6621df866dcea4cf13fbef6a1e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a749a1b6621df866dcea4cf13fbef6a1e">&#9670;&nbsp;</a></span>setIsNodata()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void writeByte </td>
+          <td class="memname">void setIsNodata </td>
+          <td>(</td>
+          <td class="paramtype">boolean&#160;</td>
+          <td class="paramname"><em>isnodata</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="a05187.html#ade56ca840f6a02c4eee5c294e2aefcbb">WKBRasterBand.isnodata</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="a05195.html#ab8d0b6608f158d1234999e80670eba0e">WKBRasterReader.read()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;                                              {</div><div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;        this.<a class="code" href="a05187.html#ade56ca840f6a02c4eee5c294e2aefcbb">isnodata</a> = <a class="code" href="a05187.html#ade56ca840f6a02c4eee5c294e2aefcbb">isnodata</a>;</div><div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;    }</div><div class="ttc" id="a05187_html_ade56ca840f6a02c4eee5c294e2aefcbb"><div class="ttname"><a href="a05187.html#ade56ca840f6a02c4eee5c294e2aefcbb">org.geotoolkit.coverage.wkb.WKBRasterBand.isnodata</a></div><div class="ttdeci">boolean isnodata</div><div class="ttdef"><b>Definition:</b> WKBRasterBand.java:29</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="ada30aaa70b3f117c1c60b0c07256d5d8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ada30aaa70b3f117c1c60b0c07256d5d8">&#9670;&nbsp;</a></span>setNoDataValue()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void setNoDataValue </td>
+          <td>(</td>
+          <td class="paramtype">Number&#160;</td>
+          <td class="paramname"><em>noDataValue</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="a05187.html#a908705d9e3c37b19ec18801f97a42356">WKBRasterBand.noDataValue</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="a05195.html#ab8d0b6608f158d1234999e80670eba0e">WKBRasterReader.read()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;                                                   {</div><div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;        this.<a class="code" href="a05187.html#a908705d9e3c37b19ec18801f97a42356">noDataValue</a> = <a class="code" href="a05187.html#a908705d9e3c37b19ec18801f97a42356">noDataValue</a>;</div><div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;    }</div><div class="ttc" id="a05187_html_a908705d9e3c37b19ec18801f97a42356"><div class="ttname"><a href="a05187.html#a908705d9e3c37b19ec18801f97a42356">org.geotoolkit.coverage.wkb.WKBRasterBand.noDataValue</a></div><div class="ttdeci">Number noDataValue</div><div class="ttdef"><b>Definition:</b> WKBRasterBand.java:31</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a3a1a0ede44ab707bf7f993e30edf5416"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3a1a0ede44ab707bf7f993e30edf5416">&#9670;&nbsp;</a></span>setOffDatabase()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void setOffDatabase </td>
+          <td>(</td>
+          <td class="paramtype">boolean&#160;</td>
+          <td class="paramname"><em>offdatabase</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="a05187.html#abab1b0ce402dc73a9a38512b99e8535c">WKBRasterBand.offdatabase</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="a05195.html#ab8d0b6608f158d1234999e80670eba0e">WKBRasterReader.read()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;                                                    {</div><div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;        this.<a class="code" href="a05187.html#abab1b0ce402dc73a9a38512b99e8535c">offdatabase</a> = <a class="code" href="a05187.html#abab1b0ce402dc73a9a38512b99e8535c">offdatabase</a>;</div><div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    }</div><div class="ttc" id="a05187_html_abab1b0ce402dc73a9a38512b99e8535c"><div class="ttname"><a href="a05187.html#abab1b0ce402dc73a9a38512b99e8535c">org.geotoolkit.coverage.wkb.WKBRasterBand.offdatabase</a></div><div class="ttdeci">boolean offdatabase</div><div class="ttdef"><b>Definition:</b> WKBRasterBand.java:27</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="acd960d5d383cebd90a6950cc3485e5cf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acd960d5d383cebd90a6950cc3485e5cf">&#9670;&nbsp;</a></span>setPixelType()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void setPixelType </td>
           <td>(</td>
           <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>b</em></td><td>)</td>
-          <td> throws IOException</td>
+          <td class="paramname"><em>pixelType</em></td><td>)</td>
+          <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;                                                    {</div><div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;        out.write(b);</div><div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;        <a class="code" href="a05187.html#ac037f68bf86d3712a034faa2d3ac428a">position</a>++;</div><div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;    }</div><div class="ttc" id="a05187_html_ac037f68bf86d3712a034faa2d3ac428a"><div class="ttname"><a href="a05187.html#ac037f68bf86d3712a034faa2d3ac428a">org.geotoolkit.io.LEDataOutputStream.position</a></div><div class="ttdeci">long position</div><div class="ttdef"><b>Definition:</b> LEDataOutputStream.java:31</div></div>
+
+<p class="reference">References <a class="el" href="a05187.html#a4e2f9f3a9b83efe057721114b2df358d">WKBRasterBand.pixelType</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="a05195.html#ab8d0b6608f158d1234999e80670eba0e">WKBRasterReader.read()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;                                            {</div><div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;        this.<a class="code" href="a05187.html#a4e2f9f3a9b83efe057721114b2df358d">pixelType</a> = <a class="code" href="a05187.html#a4e2f9f3a9b83efe057721114b2df358d">pixelType</a>;</div><div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    }</div><div class="ttc" id="a05187_html_a4e2f9f3a9b83efe057721114b2df358d"><div class="ttname"><a href="a05187.html#a4e2f9f3a9b83efe057721114b2df358d">org.geotoolkit.coverage.wkb.WKBRasterBand.pixelType</a></div><div class="ttdeci">int pixelType</div><div class="ttdef"><b>Definition:</b> WKBRasterBand.java:26</div></div>
 </div><!-- fragment -->
 </div>
 </div>
-<a id="a3e567d4365e19b559e3aaeea0a09de3a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3e567d4365e19b559e3aaeea0a09de3a">&#9670;&nbsp;</a></span>writeBytes()</h2>
+<a id="ae9116612a946cfb3e07fd00a084c0d14"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae9116612a946cfb3e07fd00a084c0d14">&#9670;&nbsp;</a></span>setReserved()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void writeBytes </td>
+          <td class="memname">void setReserved </td>
           <td>(</td>
-          <td class="paramtype">String&#160;</td>
-          <td class="paramname"><em>s</em></td><td>)</td>
-          <td> throws IOException</td>
+          <td class="paramtype">boolean&#160;</td>
+          <td class="paramname"><em>reserved</em></td><td>)</td>
+          <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;                                                        {</div><div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;        <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i=0,n=s.length(); i&lt;n; i++) {</div><div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;            out.write((byte) s.charAt(i));</div><div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;        }</div><div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;        <a class="code" href="a05187.html#ac037f68bf86d3712a034faa2d3ac428a">position</a>+=s.length();</div><div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;    }</div><div class="ttc" id="a05187_html_ac037f68bf86d3712a034faa2d3ac428a"><div class="ttname"><a href="a05187.html#ac037f68bf86d3712a034faa2d3ac428a">org.geotoolkit.io.LEDataOutputStream.position</a></div><div class="ttdeci">long position</div><div class="ttdef"><b>Definition:</b> LEDataOutputStream.java:31</div></div>
+
+<p class="reference">References <a class="el" href="a05187.html#ac36b31435a7c57c948402e8480a8d26a">WKBRasterBand.reserved</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="a05195.html#ab8d0b6608f158d1234999e80670eba0e">WKBRasterReader.read()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;                                              {</div><div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;        this.<a class="code" href="a05187.html#ac36b31435a7c57c948402e8480a8d26a">reserved</a> = <a class="code" href="a05187.html#ac36b31435a7c57c948402e8480a8d26a">reserved</a>;</div><div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;    }</div><div class="ttc" id="a05187_html_ac36b31435a7c57c948402e8480a8d26a"><div class="ttname"><a href="a05187.html#ac36b31435a7c57c948402e8480a8d26a">org.geotoolkit.coverage.wkb.WKBRasterBand.reserved</a></div><div class="ttdeci">boolean reserved</div><div class="ttdef"><b>Definition:</b> WKBRasterBand.java:30</div></div>
 </div><!-- fragment -->
 </div>
 </div>
-<a id="a1ad0223a70a62e0b2cb46259e5ba550d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1ad0223a70a62e0b2cb46259e5ba550d">&#9670;&nbsp;</a></span>writeChar()</h2>
+<a id="ad146fa8579a5f8a876c4688cc5a68520"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad146fa8579a5f8a876c4688cc5a68520">&#9670;&nbsp;</a></span>toString()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void writeChar </td>
+          <td class="memname">String toString </td>
           <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>c</em></td><td>)</td>
-          <td> throws IOException</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;                                                    {</div><div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;        out.write((c      ) &amp; 0xFF);</div><div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;        out.write((c &gt;&gt;&gt; 8) &amp; 0xFF);</div><div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;        <a class="code" href="a05187.html#ac037f68bf86d3712a034faa2d3ac428a">position</a>+=2;</div><div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;    }</div><div class="ttc" id="a05187_html_ac037f68bf86d3712a034faa2d3ac428a"><div class="ttname"><a href="a05187.html#ac037f68bf86d3712a034faa2d3ac428a">org.geotoolkit.io.LEDataOutputStream.position</a></div><div class="ttdeci">long position</div><div class="ttdef"><b>Definition:</b> LEDataOutputStream.java:31</div></div>
+<div class="fragment"><div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;                             {</div><div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;        <span class="keyword">final</span> StringBuilder sb = <span class="keyword">new</span> StringBuilder(<span class="stringliteral">&quot;WKB Raster Band :&quot;</span>);</div><div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;        sb.append(<span class="stringliteral">&quot;\n- pixel type : &quot;</span>).append(<a class="code" href="a05187.html#a4e2f9f3a9b83efe057721114b2df358d">pixelType</a>);</div><div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;        sb.append(<span class="stringliteral">&quot;\n- offdatabase : &quot;</span>).append(<a class="code" href="a05187.html#abab1b0ce402dc73a9a38512b99e8535c">offdatabase</a>);</div><div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;        sb.append(<span class="stringliteral">&quot;\n- hasnodata : &quot;</span>).append(<a class="code" href="a05187.html#a1b7caf1ea0815208732ffcf9b13ca5c1">hasnodata</a>);</div><div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;        sb.append(<span class="stringliteral">&quot;\n- is no data : &quot;</span>).append(<a class="code" href="a05187.html#ade56ca840f6a02c4eee5c294e2aefcbb">isnodata</a>);</div><div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;        sb.append(<span class="stringliteral">&quot;\n- reserved : &quot;</span>).append(<a class="code" href="a05187.html#ac36b31435a7c57c948402e8480a8d26a">reserved</a>);</div><div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;        sb.append(<span class="stringliteral">&quot;\n- no data value : &quot;</span>).append(<a class="code" href="a05187.html#a908705d9e3c37b19ec18801f97a42356">noDataValue</a>);</div><div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;        <span class="keywordflow">return</span> sb.toString();</div><div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;    }</div><div class="ttc" id="a05187_html_a4e2f9f3a9b83efe057721114b2df358d"><div class="ttname"><a href="a05187.html#a4e2f9f3a9b83efe057721114b2df358d">org.geotoolkit.coverage.wkb.WKBRasterBand.pixelType</a></div><div class="ttdeci">int pixelType</div><div class="ttdef"><b>Definition:</b> WKBRasterBand.java:26</div></div>
+<div class="ttc" id="a05187_html_ac36b31435a7c57c948402e8480a8d26a"><div class="ttname"><a href="a05187.html#ac36b31435a7c57c948402e8480a8d26a">org.geotoolkit.coverage.wkb.WKBRasterBand.reserved</a></div><div class="ttdeci">boolean reserved</div><div class="ttdef"><b>Definition:</b> WKBRasterBand.java:30</div></div>
+<div class="ttc" id="a05187_html_a908705d9e3c37b19ec18801f97a42356"><div class="ttname"><a href="a05187.html#a908705d9e3c37b19ec18801f97a42356">org.geotoolkit.coverage.wkb.WKBRasterBand.noDataValue</a></div><div class="ttdeci">Number noDataValue</div><div class="ttdef"><b>Definition:</b> WKBRasterBand.java:31</div></div>
+<div class="ttc" id="a05187_html_a1b7caf1ea0815208732ffcf9b13ca5c1"><div class="ttname"><a href="a05187.html#a1b7caf1ea0815208732ffcf9b13ca5c1">org.geotoolkit.coverage.wkb.WKBRasterBand.hasnodata</a></div><div class="ttdeci">boolean hasnodata</div><div class="ttdef"><b>Definition:</b> WKBRasterBand.java:28</div></div>
+<div class="ttc" id="a05187_html_ade56ca840f6a02c4eee5c294e2aefcbb"><div class="ttname"><a href="a05187.html#ade56ca840f6a02c4eee5c294e2aefcbb">org.geotoolkit.coverage.wkb.WKBRasterBand.isnodata</a></div><div class="ttdeci">boolean isnodata</div><div class="ttdef"><b>Definition:</b> WKBRasterBand.java:29</div></div>
+<div class="ttc" id="a05187_html_abab1b0ce402dc73a9a38512b99e8535c"><div class="ttname"><a href="a05187.html#abab1b0ce402dc73a9a38512b99e8535c">org.geotoolkit.coverage.wkb.WKBRasterBand.offdatabase</a></div><div class="ttdeci">boolean offdatabase</div><div class="ttdef"><b>Definition:</b> WKBRasterBand.java:27</div></div>
 </div><!-- fragment -->
-</div>
-</div>
-<a id="a9e35e2da722a437646d8396e7e32ce48"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9e35e2da722a437646d8396e7e32ce48">&#9670;&nbsp;</a></span>writeChars()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void writeChars </td>
-          <td>(</td>
-          <td class="paramtype">String&#160;</td>
-          <td class="paramname"><em>s</em></td><td>)</td>
-          <td> throws IOException</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;                                                        {</div><div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;        <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i=0,n=s.length(); i&lt;n; i++) {</div><div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;            <span class="keyword">final</span> <span class="keywordtype">char</span> c = s.charAt(i);</div><div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;            out.write((c      ) &amp; 0xFF);</div><div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;            out.write((c &gt;&gt;&gt; 8) &amp; 0xFF);</div><div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;        }</div><div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;        <a class="code" href="a05187.html#ac037f68bf86d3712a034faa2d3ac428a">position</a>+=s.length()*2;</div><div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;    }</div><div class="ttc" id="a05187_html_ac037f68bf86d3712a034faa2d3ac428a"><div class="ttname"><a href="a05187.html#ac037f68bf86d3712a034faa2d3ac428a">org.geotoolkit.io.LEDataOutputStream.position</a></div><div class="ttdeci">long position</div><div class="ttdef"><b>Definition:</b> LEDataOutputStream.java:31</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a9a1b19adf99483ab5421f5abd9be1ee0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9a1b19adf99483ab5421f5abd9be1ee0">&#9670;&nbsp;</a></span>writeDouble()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">final void writeDouble </td>
-          <td>(</td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>d</em></td><td>)</td>
-          <td> throws IOException</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="reference">References <a class="el" href="a05187.html#a2e87852cae58170b9cd59e1fbe1e625d">LEDataOutputStream.writeLong()</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="a05187.html#a719c7e6e9f7c2ba46f78b335603c6b13">LEDataOutputStream.writeDoubles()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;                                                               {</div><div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;        this.<a class="code" href="a05187.html#a2e87852cae58170b9cd59e1fbe1e625d">writeLong</a>(Double.doubleToLongBits(d));</div><div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;    }</div><div class="ttc" id="a05187_html_a2e87852cae58170b9cd59e1fbe1e625d"><div class="ttname"><a href="a05187.html#a2e87852cae58170b9cd59e1fbe1e625d">org.geotoolkit.io.LEDataOutputStream.writeLong</a></div><div class="ttdeci">void writeLong(long l)</div><div class="ttdef"><b>Definition:</b> LEDataOutputStream.java:132</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a719c7e6e9f7c2ba46f78b335603c6b13"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a719c7e6e9f7c2ba46f78b335603c6b13">&#9670;&nbsp;</a></span>writeDoubles()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">final void writeDoubles </td>
-          <td>(</td>
-          <td class="paramtype">double []&#160;</td>
-          <td class="paramname"><em>values</em></td><td>)</td>
-          <td> throws IOException</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Write multiple values in one call. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">values</td><td>values to write </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="exception"><dt>Exceptions</dt><dd>
-  <table class="exception">
-    <tr><td class="paramname">IOException</td><td></td></tr>
-  </table>
-  </dd>
-</dl>
-
-<p class="reference">References <a class="el" href="a05187.html#a9a1b19adf99483ab5421f5abd9be1ee0">LEDataOutputStream.writeDouble()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;                                                                       {</div><div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;        <span class="keywordflow">for</span> (<span class="keywordtype">double</span> value : values) {</div><div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;            <a class="code" href="a05187.html#a9a1b19adf99483ab5421f5abd9be1ee0">writeDouble</a>(value);</div><div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;        }</div><div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;    }</div><div class="ttc" id="a05187_html_a9a1b19adf99483ab5421f5abd9be1ee0"><div class="ttname"><a href="a05187.html#a9a1b19adf99483ab5421f5abd9be1ee0">org.geotoolkit.io.LEDataOutputStream.writeDouble</a></div><div class="ttdeci">final void writeDouble(double d)</div><div class="ttdef"><b>Definition:</b> LEDataOutputStream.java:174</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a4b08552792e2a9e330675b76cd4c9170"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4b08552792e2a9e330675b76cd4c9170">&#9670;&nbsp;</a></span>writeFloat()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">final void writeFloat </td>
-          <td>(</td>
-          <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>f</em></td><td>)</td>
-          <td> throws IOException</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="reference">References <a class="el" href="a05187.html#accc32fabddebac9fa7ea07fe07fe219e">LEDataOutputStream.writeInt()</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="a05187.html#ade431b8bb2a31304bfd780314827055f">LEDataOutputStream.writeFloats()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;                                                             {</div><div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;        this.<a class="code" href="a05187.html#accc32fabddebac9fa7ea07fe07fe219e">writeInt</a>(Float.floatToIntBits(f));</div><div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;    }</div><div class="ttc" id="a05187_html_accc32fabddebac9fa7ea07fe07fe219e"><div class="ttname"><a href="a05187.html#accc32fabddebac9fa7ea07fe07fe219e">org.geotoolkit.io.LEDataOutputStream.writeInt</a></div><div class="ttdeci">void writeInt(int i)</div><div class="ttdef"><b>Definition:</b> LEDataOutputStream.java:111</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="ade431b8bb2a31304bfd780314827055f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ade431b8bb2a31304bfd780314827055f">&#9670;&nbsp;</a></span>writeFloats()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">final void writeFloats </td>
-          <td>(</td>
-          <td class="paramtype">float []&#160;</td>
-          <td class="paramname"><em>values</em></td><td>)</td>
-          <td> throws IOException</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Write multiple values in one call. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">values</td><td>values to write </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="exception"><dt>Exceptions</dt><dd>
-  <table class="exception">
-    <tr><td class="paramname">IOException</td><td></td></tr>
-  </table>
-  </dd>
-</dl>
-
-<p class="reference">References <a class="el" href="a05187.html#a4b08552792e2a9e330675b76cd4c9170">LEDataOutputStream.writeFloat()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;                                                                     {</div><div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;        <span class="keywordflow">for</span> (<span class="keywordtype">float</span> value : values) {</div><div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;            <a class="code" href="a05187.html#a4b08552792e2a9e330675b76cd4c9170">writeFloat</a>(value);</div><div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;        }</div><div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;    }</div><div class="ttc" id="a05187_html_a4b08552792e2a9e330675b76cd4c9170"><div class="ttname"><a href="a05187.html#a4b08552792e2a9e330675b76cd4c9170">org.geotoolkit.io.LEDataOutputStream.writeFloat</a></div><div class="ttdeci">final void writeFloat(float f)</div><div class="ttdef"><b>Definition:</b> LEDataOutputStream.java:157</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="accc32fabddebac9fa7ea07fe07fe219e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#accc32fabddebac9fa7ea07fe07fe219e">&#9670;&nbsp;</a></span>writeInt()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void writeInt </td>
-          <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>i</em></td><td>)</td>
-          <td> throws IOException</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="a05187.html#a4b08552792e2a9e330675b76cd4c9170">LEDataOutputStream.writeFloat()</a>, and <a class="el" href="a05187.html#a6f28d1bfd9781e586c236eaf6e225fcd">LEDataOutputStream.writeInts()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;                                                   {</div><div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;        out.write((i       ) &amp; 0xFF);</div><div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;        out.write((i &gt;&gt;&gt;  8) &amp; 0xFF);</div><div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;        out.write((i &gt;&gt;&gt; 16) &amp; 0xFF);</div><div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;        out.write((i &gt;&gt;&gt; 24) &amp; 0xFF);</div><div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;        <a class="code" href="a05187.html#ac037f68bf86d3712a034faa2d3ac428a">position</a>+=4;</div><div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;    }</div><div class="ttc" id="a05187_html_ac037f68bf86d3712a034faa2d3ac428a"><div class="ttname"><a href="a05187.html#ac037f68bf86d3712a034faa2d3ac428a">org.geotoolkit.io.LEDataOutputStream.position</a></div><div class="ttdeci">long position</div><div class="ttdef"><b>Definition:</b> LEDataOutputStream.java:31</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a6f28d1bfd9781e586c236eaf6e225fcd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6f28d1bfd9781e586c236eaf6e225fcd">&#9670;&nbsp;</a></span>writeInts()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">final void writeInts </td>
-          <td>(</td>
-          <td class="paramtype">int []&#160;</td>
-          <td class="paramname"><em>values</em></td><td>)</td>
-          <td> throws IOException</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Write multiple values in one call. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">values</td><td>values to write </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="exception"><dt>Exceptions</dt><dd>
-  <table class="exception">
-    <tr><td class="paramname">IOException</td><td></td></tr>
-  </table>
-  </dd>
-</dl>
-
-<p class="reference">References <a class="el" href="a05187.html#accc32fabddebac9fa7ea07fe07fe219e">LEDataOutputStream.writeInt()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;                                                                 {</div><div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;        <span class="keywordflow">for</span> (<span class="keywordtype">int</span> value : values) {</div><div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;            <a class="code" href="a05187.html#accc32fabddebac9fa7ea07fe07fe219e">writeInt</a>(value);</div><div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;        }</div><div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;    }</div><div class="ttc" id="a05187_html_accc32fabddebac9fa7ea07fe07fe219e"><div class="ttname"><a href="a05187.html#accc32fabddebac9fa7ea07fe07fe219e">org.geotoolkit.io.LEDataOutputStream.writeInt</a></div><div class="ttdeci">void writeInt(int i)</div><div class="ttdef"><b>Definition:</b> LEDataOutputStream.java:111</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a2e87852cae58170b9cd59e1fbe1e625d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2e87852cae58170b9cd59e1fbe1e625d">&#9670;&nbsp;</a></span>writeLong()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void writeLong </td>
-          <td>(</td>
-          <td class="paramtype">long&#160;</td>
-          <td class="paramname"><em>l</em></td><td>)</td>
-          <td> throws IOException</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="a05187.html#a9a1b19adf99483ab5421f5abd9be1ee0">LEDataOutputStream.writeDouble()</a>, and <a class="el" href="a05187.html#afd6593b15c3366b5d2c7978e6647ab4c">LEDataOutputStream.writeLongs()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;                                                     {</div><div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;        out.write((<span class="keywordtype">int</span>) (l       ) &amp; 0xFF);</div><div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;        out.write((<span class="keywordtype">int</span>) (l &gt;&gt;&gt; 8 ) &amp; 0xFF);</div><div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;        out.write((<span class="keywordtype">int</span>) (l &gt;&gt;&gt; 16) &amp; 0xFF);</div><div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;        out.write((<span class="keywordtype">int</span>) (l &gt;&gt;&gt; 24) &amp; 0xFF);</div><div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;        out.write((<span class="keywordtype">int</span>) (l &gt;&gt;&gt; 32) &amp; 0xFF);</div><div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;        out.write((<span class="keywordtype">int</span>) (l &gt;&gt;&gt; 40) &amp; 0xFF);</div><div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;        out.write((<span class="keywordtype">int</span>) (l &gt;&gt;&gt; 48) &amp; 0xFF);</div><div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;        out.write((<span class="keywordtype">int</span>) (l &gt;&gt;&gt; 56) &amp; 0xFF);</div><div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;        <a class="code" href="a05187.html#ac037f68bf86d3712a034faa2d3ac428a">position</a>+=8;</div><div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;    }</div><div class="ttc" id="a05187_html_ac037f68bf86d3712a034faa2d3ac428a"><div class="ttname"><a href="a05187.html#ac037f68bf86d3712a034faa2d3ac428a">org.geotoolkit.io.LEDataOutputStream.position</a></div><div class="ttdeci">long position</div><div class="ttdef"><b>Definition:</b> LEDataOutputStream.java:31</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="afd6593b15c3366b5d2c7978e6647ab4c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afd6593b15c3366b5d2c7978e6647ab4c">&#9670;&nbsp;</a></span>writeLongs()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">final void writeLongs </td>
-          <td>(</td>
-          <td class="paramtype">long []&#160;</td>
-          <td class="paramname"><em>values</em></td><td>)</td>
-          <td> throws IOException</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Write multiple values in one call. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">values</td><td>values to write </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="exception"><dt>Exceptions</dt><dd>
-  <table class="exception">
-    <tr><td class="paramname">IOException</td><td></td></tr>
-  </table>
-  </dd>
-</dl>
-
-<p class="reference">References <a class="el" href="a05187.html#a2e87852cae58170b9cd59e1fbe1e625d">LEDataOutputStream.writeLong()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;                                                                   {</div><div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;        <span class="keywordflow">for</span> (<span class="keywordtype">long</span> value : values) {</div><div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;            <a class="code" href="a05187.html#a2e87852cae58170b9cd59e1fbe1e625d">writeLong</a>(value);</div><div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;        }</div><div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;    }</div><div class="ttc" id="a05187_html_a2e87852cae58170b9cd59e1fbe1e625d"><div class="ttname"><a href="a05187.html#a2e87852cae58170b9cd59e1fbe1e625d">org.geotoolkit.io.LEDataOutputStream.writeLong</a></div><div class="ttdeci">void writeLong(long l)</div><div class="ttdef"><b>Definition:</b> LEDataOutputStream.java:132</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a4318f5da1fdb856ff726801097cdb429"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4318f5da1fdb856ff726801097cdb429">&#9670;&nbsp;</a></span>writeShort()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void writeShort </td>
-          <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>s</em></td><td>)</td>
-          <td> throws IOException</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="a05187.html#ac0e3fe2ab1ba3bb9fc12e4eb24be1a82">LEDataOutputStream.writeShorts()</a>, and <a class="el" href="a05187.html#ae923194a84fea5c316c69a9a71e1b09d">LEDataOutputStream.writeUnsignedShort()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;                                                     {</div><div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;        out.write((s      ) &amp; 0xFF);</div><div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;        out.write((s &gt;&gt;&gt; 8) &amp; 0xFF);</div><div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;        <a class="code" href="a05187.html#ac037f68bf86d3712a034faa2d3ac428a">position</a>+=2;</div><div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;    }</div><div class="ttc" id="a05187_html_ac037f68bf86d3712a034faa2d3ac428a"><div class="ttname"><a href="a05187.html#ac037f68bf86d3712a034faa2d3ac428a">org.geotoolkit.io.LEDataOutputStream.position</a></div><div class="ttdeci">long position</div><div class="ttdef"><b>Definition:</b> LEDataOutputStream.java:31</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="ac0e3fe2ab1ba3bb9fc12e4eb24be1a82"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac0e3fe2ab1ba3bb9fc12e4eb24be1a82">&#9670;&nbsp;</a></span>writeShorts()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">final void writeShorts </td>
-          <td>(</td>
-          <td class="paramtype">short []&#160;</td>
-          <td class="paramname"><em>values</em></td><td>)</td>
-          <td> throws IOException</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Write multiple values in one call. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">values</td><td>values to write </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="exception"><dt>Exceptions</dt><dd>
-  <table class="exception">
-    <tr><td class="paramname">IOException</td><td></td></tr>
-  </table>
-  </dd>
-</dl>
-
-<p class="reference">References <a class="el" href="a05187.html#a4318f5da1fdb856ff726801097cdb429">LEDataOutputStream.writeShort()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;                                                                     {</div><div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;        <span class="keywordflow">for</span> (<span class="keywordtype">short</span> value : values) {</div><div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;            <a class="code" href="a05187.html#a4318f5da1fdb856ff726801097cdb429">writeShort</a>(value);</div><div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;        }</div><div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;    }</div><div class="ttc" id="a05187_html_a4318f5da1fdb856ff726801097cdb429"><div class="ttname"><a href="a05187.html#a4318f5da1fdb856ff726801097cdb429">org.geotoolkit.io.LEDataOutputStream.writeShort</a></div><div class="ttdeci">void writeShort(int s)</div><div class="ttdef"><b>Definition:</b> LEDataOutputStream.java:69</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="ae923194a84fea5c316c69a9a71e1b09d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae923194a84fea5c316c69a9a71e1b09d">&#9670;&nbsp;</a></span>writeUnsignedShort()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void writeUnsignedShort </td>
-          <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>s</em></td><td>)</td>
-          <td> throws IOException</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="reference">References <a class="el" href="a05187.html#a4318f5da1fdb856ff726801097cdb429">LEDataOutputStream.writeShort()</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="a05187.html#a9c9793caecddc216cb3d39ff222e86c2">LEDataOutputStream.writeUnsignedShorts()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;                                                             {</div><div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;        <a class="code" href="a05187.html#a4318f5da1fdb856ff726801097cdb429">writeShort</a>(s);</div><div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;    }</div><div class="ttc" id="a05187_html_a4318f5da1fdb856ff726801097cdb429"><div class="ttname"><a href="a05187.html#a4318f5da1fdb856ff726801097cdb429">org.geotoolkit.io.LEDataOutputStream.writeShort</a></div><div class="ttdeci">void writeShort(int s)</div><div class="ttdef"><b>Definition:</b> LEDataOutputStream.java:69</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a9c9793caecddc216cb3d39ff222e86c2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9c9793caecddc216cb3d39ff222e86c2">&#9670;&nbsp;</a></span>writeUnsignedShorts()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">final void writeUnsignedShorts </td>
-          <td>(</td>
-          <td class="paramtype">int []&#160;</td>
-          <td class="paramname"><em>values</em></td><td>)</td>
-          <td> throws IOException</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Write multiple values in one call. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">values</td><td>values to write </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="exception"><dt>Exceptions</dt><dd>
-  <table class="exception">
-    <tr><td class="paramname">IOException</td><td></td></tr>
-  </table>
-  </dd>
-</dl>
-
-<p class="reference">References <a class="el" href="a05187.html#ae923194a84fea5c316c69a9a71e1b09d">LEDataOutputStream.writeUnsignedShort()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;                                                                           {</div><div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;        <span class="keywordflow">for</span> (<span class="keywordtype">int</span> value : values) {</div><div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;            <a class="code" href="a05187.html#ae923194a84fea5c316c69a9a71e1b09d">writeUnsignedShort</a>(value);</div><div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;        }</div><div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;    }</div><div class="ttc" id="a05187_html_ae923194a84fea5c316c69a9a71e1b09d"><div class="ttname"><a href="a05187.html#ae923194a84fea5c316c69a9a71e1b09d">org.geotoolkit.io.LEDataOutputStream.writeUnsignedShort</a></div><div class="ttdeci">void writeUnsignedShort(int s)</div><div class="ttdef"><b>Definition:</b> LEDataOutputStream.java:87</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="af884010e15f7514f7e08d9618c4c692c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af884010e15f7514f7e08d9618c4c692c">&#9670;&nbsp;</a></span>writeUTF()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void writeUTF </td>
-          <td>(</td>
-          <td class="paramtype">String&#160;</td>
-          <td class="paramname"><em>s</em></td><td>)</td>
-          <td> throws IOException</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;                                                      {</div><div class="line"><a name="l00210"></a><span class="lineno">  210</span>&#160;        <span class="keywordflow">throw</span> <span class="keyword">new</span> IOException(<span class="stringliteral">&quot;Not supported&quot;</span>);</div><div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;    }</div></div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="ac037f68bf86d3712a034faa2d3ac428a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac037f68bf86d3712a034faa2d3ac428a">&#9670;&nbsp;</a></span>position</h2>
+<a id="ae724ef9eb8254caf9ece3ecd4708582c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae724ef9eb8254caf9ece3ecd4708582c">&#9670;&nbsp;</a></span>datas</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -755,7 +542,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">long position = 0</td>
+          <td class="memname">byte [] datas</td>
         </tr>
       </table>
   </td>
@@ -765,7 +552,151 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="a05187.html#ad8a2786c4ee713c917b468c59ec610df">LEDataOutputStream.getPosition()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="a05187.html#a9739b3f0eaf0030ab832faa9de7c1721">WKBRasterBand.getDatas()</a>, and <a class="el" href="a05187.html#a115e94e22c6cf71f065ecaece46eef5f">WKBRasterBand.setDatas()</a>.</p>
+
+</div>
+</div>
+<a id="a1b7caf1ea0815208732ffcf9b13ca5c1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1b7caf1ea0815208732ffcf9b13ca5c1">&#9670;&nbsp;</a></span>hasnodata</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean hasnodata</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="a05187.html#a59b07334b5b27aa35273e867db9a14be">WKBRasterBand.hasNodata()</a>, and <a class="el" href="a05187.html#a3a6841dab2f0d8b3bcbaeae79142d018">WKBRasterBand.setHasNodata()</a>.</p>
+
+</div>
+</div>
+<a id="ade56ca840f6a02c4eee5c294e2aefcbb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ade56ca840f6a02c4eee5c294e2aefcbb">&#9670;&nbsp;</a></span>isnodata</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean isnodata</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="a05187.html#ac881be86656bc749a968da33b9142387">WKBRasterBand.isNodata()</a>, and <a class="el" href="a05187.html#a749a1b6621df866dcea4cf13fbef6a1e">WKBRasterBand.setIsNodata()</a>.</p>
+
+</div>
+</div>
+<a id="a908705d9e3c37b19ec18801f97a42356"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a908705d9e3c37b19ec18801f97a42356">&#9670;&nbsp;</a></span>noDataValue</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Number noDataValue</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="a05187.html#a1b31f8052e645e14f736ba2065c748e6">WKBRasterBand.getNoDataValue()</a>, and <a class="el" href="a05187.html#ada30aaa70b3f117c1c60b0c07256d5d8">WKBRasterBand.setNoDataValue()</a>.</p>
+
+</div>
+</div>
+<a id="abab1b0ce402dc73a9a38512b99e8535c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abab1b0ce402dc73a9a38512b99e8535c">&#9670;&nbsp;</a></span>offdatabase</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean offdatabase</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="a05187.html#a5ac9288bc257ae1a5927f4650e3e0569">WKBRasterBand.isOffDatabase()</a>, and <a class="el" href="a05187.html#a3a1a0ede44ab707bf7f993e30edf5416">WKBRasterBand.setOffDatabase()</a>.</p>
+
+</div>
+</div>
+<a id="a4e2f9f3a9b83efe057721114b2df358d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4e2f9f3a9b83efe057721114b2df358d">&#9670;&nbsp;</a></span>pixelType</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int pixelType</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="a05187.html#af8b0f2c180767e8c45454f9fc32c4c33">WKBRasterBand.getPixelType()</a>, and <a class="el" href="a05187.html#acd960d5d383cebd90a6950cc3485e5cf">WKBRasterBand.setPixelType()</a>.</p>
+
+</div>
+</div>
+<a id="ac36b31435a7c57c948402e8480a8d26a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac36b31435a7c57c948402e8480a8d26a">&#9670;&nbsp;</a></span>reserved</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean reserved</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="a05187.html#a73b81d94dd082a568921f05e49f659bb">WKBRasterBand.getReserved()</a>, and <a class="el" href="a05187.html#ae9116612a946cfb3e07fd00a084c0d14">WKBRasterBand.setReserved()</a>.</p>
 
 </div>
 </div>
@@ -775,7 +706,7 @@ Private Attributes</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="a02598.html">org</a></li><li class="navelem"><a class="el" href="a02665.html">geotoolkit</a></li><li class="navelem"><a class="el" href="a02667.html">io</a></li><li class="navelem"><a class="el" href="a05187.html">LEDataOutputStream</a></li>
+    <li class="navelem"><a class="el" href="a02610.html">org</a></li><li class="navelem"><a class="el" href="a02677.html">geotoolkit</a></li><li class="navelem"><a class="el" href="a02676.html">coverage</a></li><li class="navelem"><a class="el" href="a02678.html">wkb</a></li><li class="navelem"><a class="el" href="a05187.html">WKBRasterBand</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>

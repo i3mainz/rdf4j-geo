@@ -1,7 +1,7 @@
 var a06107 =
 [
     [ "getInstance", "a06107.html#af8afdd14b38b523d100805364a48ed63", null ],
-    [ "testMinScaleX", "a06107.html#aee1e07c53503a3adc527bf03d2b1382e", null ],
+    [ "testMinTileY", "a06107.html#af08fbb0122dba67031d875a70cba9d7b", null ],
     [ "covJSONString1", "a06107.html#a993e2f127f3ec8f256e9799d77507223", null ],
     [ "hexwkbString1", "a06107.html#a55fb5b5d665417265da09403128e396e", null ],
     [ "minwkbString", "a06107.html#aa5e2b5a6005895fc20b9f35523569430", null ],

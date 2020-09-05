@@ -1,6 +1,9 @@
 var a02637 =
 [
-    [ "AddInteriorRing", "a04103.html", "a04103" ],
-    [ "RemoveInteriorRing", "a04107.html", "a04107" ],
-    [ "SetInteriorRing", "a04111.html", "a04111" ]
+    [ "AddMeasure", "a03763.html", "a03763" ],
+    [ "AddPoint", "a03767.html", "a03767" ],
+    [ "RemovePoint", "a03771.html", "a03771" ],
+    [ "SetEndPoint", "a03775.html", "a03775" ],
+    [ "SetPoint", "a03779.html", "a03779" ],
+    [ "SetStartPoint", "a03783.html", "a03783" ]
 ];

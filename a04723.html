@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>rdf4j-postgis: Topo_AddPoint Class Reference</title>
+<title>rdf4j-postgis: TopologyFromTopoJSON Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -60,133 +60,17 @@ $(document).ready(function(){initNavTree('a04723.html','');});
 </script>
 <div id="doc-content">
 <div class="header">
-  <div class="summary">
-<a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="a04720.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">Topo_AddPoint Class Reference</div>  </div>
+<div class="title">TopologyFromTopoJSON Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="dynheader">
-Inheritance diagram for Topo_AddPoint:</div>
-<div class="dyncontent">
-<div class="center"><img src="a04722.png" border="0" usemap="#Topo__AddPoint_inherit__map" alt="Inheritance graph"/></div>
-<map name="Topo__AddPoint_inherit__map" id="Topo__AddPoint_inherit__map">
-<area shape="rect" id="node2" href="a04691.html" title="TopologyModificationGeometry\lFunction" alt="" coords="5,80,208,121"/>
-</map>
-<center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
-<div class="dynheader">
-Collaboration diagram for Topo_AddPoint:</div>
-<div class="dyncontent">
-<div class="center"><img src="a04721.png" border="0" usemap="#Topo__AddPoint_coll__map" alt="Collaboration graph"/></div>
-<map name="Topo__AddPoint_coll__map" id="Topo__AddPoint_coll__map">
-<area shape="rect" id="node2" href="a04691.html" title="TopologyModificationGeometry\lFunction" alt="" coords="5,80,208,121"/>
-</map>
-<center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
-<table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
-Public Member Functions</h2></td></tr>
-<tr class="memitem:ad9fb16b36dd4ccc533d4f05ff94646e3"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a04723.html#ad9fb16b36dd4ccc533d4f05ff94646e3">getURI</a> ()</td></tr>
-<tr class="separator:ad9fb16b36dd4ccc533d4f05ff94646e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac2f0864f977930b6ae1a83dfd3e4b7ae"><td class="memItemLeft" align="right" valign="top">Topology&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a04723.html#ac2f0864f977930b6ae1a83dfd3e4b7ae">modify</a> (Topology topo, Geometry geometry)</td></tr>
-<tr class="separator:ac2f0864f977930b6ae1a83dfd3e4b7ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a43b4c73244bc6722ce551c1033cf1115"><td class="memItemLeft" align="right" valign="top">Value&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a04691.html#a43b4c73244bc6722ce551c1033cf1115">evaluate</a> (ValueFactory valueFactory, Value... args)  throws ValueExprEvaluationException </td></tr>
-<tr class="separator:a43b4c73244bc6722ce551c1033cf1115"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table>
-<h2 class="groupheader">Member Function Documentation</h2>
-<a id="a43b4c73244bc6722ce551c1033cf1115"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a43b4c73244bc6722ce551c1033cf1115">&#9670;&nbsp;</a></span>evaluate()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">Value evaluate </td>
-          <td>(</td>
-          <td class="paramtype">ValueFactory&#160;</td>
-          <td class="paramname"><em>valueFactory</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">Value...&#160;</td>
-          <td class="paramname"><em>args</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td> throws ValueExprEvaluationException</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inherited</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="reference">References <a class="el" href="a04959.html#a8796f5aec1965b6c4e88b2ba7c1d2e53">LiteralRegistry.getLiteral()</a>, and <a class="el" href="a04691.html#aeb4eb647a66bca78d39f5ebeb99e3b4d">TopologyModificationGeometryFunction.modify()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;                                                                                                            {</div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;                <span class="keywordflow">if</span> (args.length != 2) {</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;                        <span class="keywordflow">throw</span> <span class="keyword">new</span> ValueExprEvaluationException(getURI() + <span class="stringliteral">&quot; requires exactly 1 arguments, got &quot;</span> + args.length);</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;                }</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;                LiteralType l=LiteralRegistry.getLiteral(((Literal)args[0]).getDatatype().toString());</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;                LiteralType l2=LiteralRegistry.getLiteral(((Literal)args[1]).getDatatype().toString());</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;                <span class="keywordflow">if</span>(l instanceof TopologyLiteral &amp;&amp; l2 instanceof VectorLiteral) {</div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;                        Topology topo=((TopologyLiteral)l).read(args[0].stringValue());</div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;                        Geometry geom=((VectorLiteral)l).read(args[0].stringValue());</div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;                        Topology result = <a class="code" href="a04691.html#aeb4eb647a66bca78d39f5ebeb99e3b4d">modify</a>(topo,geom);</div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;                        <span class="keywordflow">return</span> valueFactory.createLiteral(((TopologyLiteral) l).unparse(result),((Literal)args[0]).getDatatype());</div><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;                }</div><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;                <span class="keywordflow">return</span> null;</div><div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;        }</div><div class="ttc" id="a04691_html_aeb4eb647a66bca78d39f5ebeb99e3b4d"><div class="ttname"><a href="a04691.html#aeb4eb647a66bca78d39f5ebeb99e3b4d">org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.topo.base.TopologyModificationGeometryFunction.modify</a></div><div class="ttdeci">abstract Topology modify(Topology topo, Geometry geometry)</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="ad9fb16b36dd4ccc533d4f05ff94646e3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad9fb16b36dd4ccc533d4f05ff94646e3">&#9670;&nbsp;</a></span>getURI()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">String getURI </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="reference">References <a class="el" href="a02747.html#a43895a3572678d06f6370de095606b49">POSTGIS.ST_Topo_AddPoint</a>.</p>
-<div class="fragment"><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;                               {</div><div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;                <span class="keywordflow">return</span> POSTGIS.ST_Topo_AddPoint.stringValue();</div><div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;        }</div></div><!-- fragment -->
-</div>
-</div>
-<a id="ac2f0864f977930b6ae1a83dfd3e4b7ae"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac2f0864f977930b6ae1a83dfd3e4b7ae">&#9670;&nbsp;</a></span>modify()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">Topology modify </td>
-          <td>(</td>
-          <td class="paramtype">Topology&#160;</td>
-          <td class="paramname"><em>topo</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">Geometry&#160;</td>
-          <td class="paramname"><em>geometry</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;                                                                 {</div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;                TopoObject topoobj=<span class="keyword">new</span> TopoObject();</div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;                <span class="comment">/*Geometry[] geoms=topoobj.</span></div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="comment">                topoobj.setGeometries(geometries);</span></div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="comment">                for(TopoObject topobj:topo.getObjects().values()) {</span></div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="comment">                        if(topobj.getType().equals(geometry.getGeometryType())) {</span></div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="comment">                                topobj.</span></div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="comment">                        }</span></div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="comment">                }</span></div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="comment">                topo.getObjects().*/</span></div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;                <span class="comment">// TODO Auto-generated method stub</span></div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;                <span class="keywordflow">return</span> null;</div><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;        }</div></div><!-- fragment -->
-</div>
-</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.13-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="a02598.html">org</a></li><li class="navelem"><a class="el" href="a02599.html">eclipse</a></li><li class="navelem"><a class="el" href="a02600.html">rdf4j</a></li><li class="navelem"><a class="el" href="a02603.html">query</a></li><li class="navelem"><a class="el" href="a02604.html">algebra</a></li><li class="navelem"><a class="el" href="a02605.html">evaluation</a></li><li class="navelem"><a class="el" href="a02606.html">function</a></li><li class="navelem"><a class="el" href="a02607.html">postgis</a></li><li class="navelem"><a class="el" href="a02649.html">topo</a></li><li class="navelem"><a class="el" href="a02652.html">editor</a></li><li class="navelem"><a class="el" href="a04723.html">Topo_AddPoint</a></li>
+    <li class="navelem"><a class="el" href="a02610.html">org</a></li><li class="navelem"><a class="el" href="a02611.html">eclipse</a></li><li class="navelem"><a class="el" href="a02612.html">rdf4j</a></li><li class="navelem"><a class="el" href="a02615.html">query</a></li><li class="navelem"><a class="el" href="a02616.html">algebra</a></li><li class="navelem"><a class="el" href="a02617.html">evaluation</a></li><li class="navelem"><a class="el" href="a02618.html">function</a></li><li class="navelem"><a class="el" href="a02619.html">postgis</a></li><li class="navelem"><a class="el" href="a02661.html">topo</a></li><li class="navelem"><a class="el" href="a02663.html">constructor</a></li><li class="navelem"><a class="el" href="a04723.html">TopologyFromTopoJSON</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>

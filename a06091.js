@@ -1,8 +1,8 @@
 var a06091 =
 [
     [ "getInstance", "a06091.html#af8afdd14b38b523d100805364a48ed63", null ],
-    [ "testNumYTiles", "a06091.html#a3d907c47d14c75d2d528f33c3a6c662e", null ],
-    [ "cov", "a06091.html#ae46fa35c884a8b26e022dedba4ba1350", null ],
+    [ "testHasNoBandFalse", "a06091.html#aebe8ed03f160d5beda7d0cd9dbef82e1", null ],
+    [ "testHasNoBandTrue", "a06091.html#aedaa7e2bf39196ba3985d3209ab30b65", null ],
     [ "covJSONString1", "a06091.html#a993e2f127f3ec8f256e9799d77507223", null ],
     [ "hexwkbString1", "a06091.html#a55fb5b5d665417265da09403128e396e", null ],
     [ "minwkbString", "a06091.html#aa5e2b5a6005895fc20b9f35523569430", null ],

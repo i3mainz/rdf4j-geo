@@ -1,7 +1,6 @@
 var a05775 =
 [
-    [ "testLineString", "a05775.html#a0444ce8df222ae81e1a33426a32d8d7a", null ],
-    [ "circularLineString", "a05775.html#aee32055959200ebcac903d7824ea55d3", null ],
-    [ "lineString", "a05775.html#a76e109dc83d6f4d16fcd2fa3e73054f6", null ],
-    [ "lineString3D", "a05775.html#a44ce866b8b8e60a4c3e77653b907706d", null ]
+    [ "testSwapOrdinates", "a05775.html#afb4577949dbe6ea13a5d8c00afd1c339", null ],
+    [ "res", "a05775.html#ab8deaae2f0a5506ff9fd02ff15e921cc", null ],
+    [ "testPolygon", "a05775.html#a1e3187cbc25299380589200c398b3ffd", null ]
 ];

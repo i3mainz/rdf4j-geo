@@ -1,8 +1,8 @@
 var a04971 =
 [
-    [ "read", "a04971.html#a1cc8c62f94cc0157db4958fbe1f87310", null ],
-    [ "unparse", "a04971.html#a657560fc17175e794fe55d3b23643891", null ],
-    [ "INSTANCE", "a04971.html#aecdfcd6a73eb74b717778e66dcd51854", null ],
-    [ "LiteralIRI", "a04971.html#ae02c2e86ac0dea8538c7b43e9e82421a", null ],
-    [ "URI", "a04971.html#addbf30e6c0ad68fa34277d59a2c6eb5e", null ]
+    [ "endElement", "a04971.html#a10611466eae545076e06b863ab61bddc", null ],
+    [ "startElement", "a04971.html#a498ebb87fe1777ffb95b7425e8d91fc5", null ],
+    [ "coordinates", "a04971.html#abb24f058bb4de414d0a011098ce417d9", null ],
+    [ "currentIndex", "a04971.html#a1a96241ab9720c944927883db3f7c073", null ],
+    [ "insegment", "a04971.html#a806e19cbf1d5bbafe0133b9f2fd64cdd", null ]
 ];

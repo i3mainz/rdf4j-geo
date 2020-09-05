@@ -1,5 +1,5 @@
 var a05439 =
 [
-    [ "testGeomFromText", "a05439.html#a2678d2fcc796b673cc52b0e000a954b0", null ],
-    [ "geoJsonTestGeom", "a05439.html#a117e8ff340791b5aa0658f5840b5dcf4", null ]
+    [ "testNumDistinctPoints", "a05439.html#aac9f79f9e21b36c6addad28b9e81bec6", null ],
+    [ "testGeom", "a05439.html#a03a5f5da0ccbeed8c1678d4317cf2672", null ]
 ];

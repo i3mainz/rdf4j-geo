@@ -1,10 +1,9 @@
 var a02644 =
 [
-    [ "AddBand", "a04547.html", "a04547" ],
-    [ "SetBandNoDataValue", "a04551.html", "a04551" ],
-    [ "SetGeoReference", "a04555.html", null ],
-    [ "SetRotation", "a04559.html", "a04559" ],
-    [ "SetScale", "a04563.html", "a04563" ],
-    [ "SetSkew", "a04567.html", "a04567" ],
-    [ "SetUpperLeft", "a04571.html", "a04571" ]
+    [ "GeneratePoints", "a03991.html", "a03991" ],
+    [ "MakePoint", "a03995.html", "a03995" ],
+    [ "MPointFromText", "a03999.html", "a03999" ],
+    [ "PointFromGeoHash", "a04003.html", "a04003" ],
+    [ "PointFromText", "a04007.html", "a04007" ],
+    [ "PointFromWKB", "a04011.html", "a04011" ]
 ];

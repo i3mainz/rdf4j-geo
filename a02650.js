@@ -1,7 +1,8 @@
 var a02650 =
 [
-    [ "TopologyExportFunction", "a04683.html", "a04683" ],
-    [ "TopologyModificationFunction", "a04687.html", "a04687" ],
-    [ "TopologyModificationGeometryFunction", "a04691.html", "a04691" ],
-    [ "TopologyStringExportFunction", "a04695.html", "a04695" ]
+    [ "ForcePolygonCCW", "a04139.html", "a04139" ],
+    [ "ForcePolygonCW", "a04143.html", "a04143" ],
+    [ "LinesFromRings", "a04147.html", "a04147" ],
+    [ "ReverseRing", "a04151.html", "a04151" ],
+    [ "RingsCutAtNodes", "a04155.html", "a04155" ]
 ];

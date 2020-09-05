@@ -1,9 +1,10 @@
 var a02634 =
 [
-    [ "attribute", "a02635.html", "a02635" ],
-    [ "constructor", "a02636.html", "a02636" ],
-    [ "editor", "a02637.html", "a02637" ],
-    [ "transform", "a02638.html", "a02638" ],
-    [ "ApproximateMedialAxis", "a04007.html", "a04007" ],
-    [ "InteriorRingN", "a04115.html", "a04115" ]
+    [ "EndPoint", "a03711.html", "a03711" ],
+    [ "HasSelfIntersections", "a03715.html", "a03715" ],
+    [ "LineInterpolatePoint", "a03719.html", "a03719" ],
+    [ "LineLength3D", "a03723.html", "a03723" ],
+    [ "LineSelfIntersectionPoint", "a03727.html", "a03727" ],
+    [ "SelfIntersections", "a03731.html", "a03731" ],
+    [ "StartPoint", "a03735.html", "a03735" ]
 ];

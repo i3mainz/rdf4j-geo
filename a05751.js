@@ -1,5 +1,6 @@
 var a05751 =
 [
-    [ "testSimplifyVW", "a05751.html#a4b0417b619689d07743ff9d72212c847", null ],
-    [ "testGeom", "a05751.html#a03a5f5da0ccbeed8c1678d4317cf2672", null ]
+    [ "testRemoveRepeatedPoints", "a05751.html#a473d131a5f96a89f9502570a50d06e65", null ],
+    [ "testGeometry", "a05751.html#abc3f514f005cba49e406658e2d3086eb", null ],
+    [ "testGeometry2", "a05751.html#af1173652e671b8f9051f8630b98c73fb", null ]
 ];

@@ -1,5 +1,7 @@
 var a05639 =
 [
-    [ "testSridAxis1Orientation", "a05639.html#ae0ff51be0fe1734cba043c3509606d4d", null ],
-    [ "testPoint", "a05639.html#af26f700ee129f846cac58735f6dcc380", null ]
+    [ "testShortestLine", "a05639.html#afa1a1d15c5b993ecdc02ab403652c157", null ],
+    [ "result", "a05639.html#aab356d6554a7301750f11ec7a85ac47d", null ],
+    [ "testGeom", "a05639.html#a03a5f5da0ccbeed8c1678d4317cf2672", null ],
+    [ "testGeom2", "a05639.html#a6b4be369c8f60e973cd5126e69cd33a4", null ]
 ];

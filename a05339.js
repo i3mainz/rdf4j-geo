@@ -1,5 +1,7 @@
 var a05339 =
 [
-    [ "testIsInCRSAreaOfValidityFalse", "a05339.html#ab086dd0d0debad3790e452ffa6c1fa28", null ],
-    [ "testIsInCRSAreaOfValidityTrue", "a05339.html#afff3ea2274b06643aaa5806616e7ca8e", null ]
+    [ "testHasHorizontalCRSFalse", "a05339.html#a9d25864362180719a756bf187c003b28", null ],
+    [ "testHasHorizontalCRSTrue", "a05339.html#a9f2bde364661ddf6af32fec9ad9085b1", null ],
+    [ "testGeometry", "a05339.html#abc3f514f005cba49e406658e2d3086eb", null ],
+    [ "testGeometry2", "a05339.html#af1173652e671b8f9051f8630b98c73fb", null ]
 ];

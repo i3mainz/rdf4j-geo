@@ -1,6 +1,5 @@
 var a05671 =
 [
-    [ "testEPSGToSRID", "a05671.html#a058152e783dcc1694eb060f5099630b1", null ],
-    [ "epsg", "a05671.html#ae984b1b4178b56b80cdb7a80eac64541", null ],
-    [ "srid", "a05671.html#a5ffebf384504d11b17aa9c75f4b92024", null ]
+    [ "testSridGetDatum", "a05671.html#a9d3a137e39e84c0018de3b734b787554", null ],
+    [ "testPoint", "a05671.html#af26f700ee129f846cac58735f6dcc380", null ]
 ];

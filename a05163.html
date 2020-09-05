@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>rdf4j-postgis: SampleDimensionType Class Reference</title>
+<title>rdf4j-postgis: PolyshapeWriter.Encoder Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -62,94 +62,81 @@ $(document).ready(function(){initNavTree('a05163.html','');});
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pub-static-attribs">Static Public Attributes</a> &#124;
+<a href="#pac-attribs">Package Attributes</a> &#124;
 <a href="#pri-methods">Private Member Functions</a> &#124;
-<a href="#pri-static-attribs">Static Private Attributes</a> &#124;
 <a href="a05160.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">SampleDimensionType Class Reference</div>  </div>
+<div class="title">PolyshapeWriter.Encoder Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>Specifies the various dimension types for coverage values.  
+<p>Encodes a sequence of LatLngs into an encoded path string.  
  <a href="a05163.html#details">More...</a></p>
 <div class="dynheader">
-Inheritance diagram for SampleDimensionType:</div>
+Collaboration diagram for PolyshapeWriter.Encoder:</div>
 <div class="dyncontent">
-<div class="center"><img src="a05162.png" border="0" usemap="#SampleDimensionType_inherit__map" alt="Inheritance graph"/></div>
-<map name="SampleDimensionType_inherit__map" id="SampleDimensionType_inherit__map">
-</map>
-<center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
-<div class="dynheader">
-Collaboration diagram for SampleDimensionType:</div>
-<div class="dyncontent">
-<div class="center"><img src="a05161.png" border="0" usemap="#SampleDimensionType_coll__map" alt="Collaboration graph"/></div>
-<map name="SampleDimensionType_coll__map" id="SampleDimensionType_coll__map">
+<div class="center"><img src="a05161.png" border="0" usemap="#PolyshapeWriter_8Encoder_coll__map" alt="Collaboration graph"/></div>
+<map name="PolyshapeWriter_8Encoder_coll__map" id="PolyshapeWriter_8Encoder_coll__map">
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:aeaaf4d39c7b3cf733d53fd480402fa4a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="a05163.html">SampleDimensionType</a> []&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05163.html#aeaaf4d39c7b3cf733d53fd480402fa4a">family</a> ()</td></tr>
-<tr class="memdesc:aeaaf4d39c7b3cf733d53fd480402fa4a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the list of codes of the same kind than this code list element.  <a href="#aeaaf4d39c7b3cf733d53fd480402fa4a">More...</a><br /></td></tr>
-<tr class="separator:aeaaf4d39c7b3cf733d53fd480402fa4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae9b4d30bd3ef8dcabd2c471b856cc56f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05163.html#ae9b4d30bd3ef8dcabd2c471b856cc56f">Encoder</a> (Writer <a class="el" href="a05163.html#ab56a5d0c4efb5c0d2c4f33d5dad8c917">writer</a>)</td></tr>
+<tr class="separator:ae9b4d30bd3ef8dcabd2c471b856cc56f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a39600d33dd97208ba398ac5c4340fa77"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05163.html#a39600d33dd97208ba398ac5c4340fa77">seperator</a> ()  throws IOException </td></tr>
+<tr class="separator:a39600d33dd97208ba398ac5c4340fa77"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab6635935e270ce5b32d1efd4b377c983"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05163.html#ab6635935e270ce5b32d1efd4b377c983">startRing</a> ()  throws IOException </td></tr>
+<tr class="separator:ab6635935e270ce5b32d1efd4b377c983"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a738ab332235183cb8c6acda151d9801c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05163.html#a738ab332235183cb8c6acda151d9801c">write</a> (char event)  throws IOException </td></tr>
+<tr class="separator:a738ab332235183cb8c6acda151d9801c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a66b62fe86f9a7aa5e1fb78d2282adf66"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05163.html#a66b62fe86f9a7aa5e1fb78d2282adf66">writeArg</a> (double value)  throws IOException </td></tr>
+<tr class="separator:a66b62fe86f9a7aa5e1fb78d2282adf66"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a67c54f108cb20c5a0f698e20a287724d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05163.html#a67c54f108cb20c5a0f698e20a287724d">write</a> (double latitude, double longitude)  throws IOException </td></tr>
+<tr class="separator:a67c54f108cb20c5a0f698e20a287724d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
-Static Public Attributes</h2></td></tr>
-<tr class="memitem:ab05c9236ffa258b1889bcdb7af336eaf"><td class="memItemLeft" align="right" valign="top">static final <a class="el" href="a05163.html">SampleDimensionType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05163.html#ab05c9236ffa258b1889bcdb7af336eaf">UNSIGNED_1BIT</a> = new <a class="el" href="a05163.html">SampleDimensionType</a>(&quot;UNSIGNED_1BIT&quot;)</td></tr>
-<tr class="memdesc:ab05c9236ffa258b1889bcdb7af336eaf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Unsigned 1 bit integers.  <a href="#ab05c9236ffa258b1889bcdb7af336eaf">More...</a><br /></td></tr>
-<tr class="separator:ab05c9236ffa258b1889bcdb7af336eaf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a21e1d1ca3035d887200d51acf209dd9a"><td class="memItemLeft" align="right" valign="top">static final <a class="el" href="a05163.html">SampleDimensionType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05163.html#a21e1d1ca3035d887200d51acf209dd9a">UNSIGNED_2BITS</a> = new <a class="el" href="a05163.html">SampleDimensionType</a>(&quot;UNSIGNED_2BITS&quot;)</td></tr>
-<tr class="memdesc:a21e1d1ca3035d887200d51acf209dd9a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Unsigned 2 bits integers.  <a href="#a21e1d1ca3035d887200d51acf209dd9a">More...</a><br /></td></tr>
-<tr class="separator:a21e1d1ca3035d887200d51acf209dd9a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae2428a486b2345e3c8dd77be7422ba05"><td class="memItemLeft" align="right" valign="top">static final <a class="el" href="a05163.html">SampleDimensionType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05163.html#ae2428a486b2345e3c8dd77be7422ba05">UNSIGNED_4BITS</a> = new <a class="el" href="a05163.html">SampleDimensionType</a>(&quot;UNSIGNED_4BITS&quot;)</td></tr>
-<tr class="memdesc:ae2428a486b2345e3c8dd77be7422ba05"><td class="mdescLeft">&#160;</td><td class="mdescRight">Unsigned 4 bits integers.  <a href="#ae2428a486b2345e3c8dd77be7422ba05">More...</a><br /></td></tr>
-<tr class="separator:ae2428a486b2345e3c8dd77be7422ba05"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad125fdd898ef56e093ed2c7f246f9179"><td class="memItemLeft" align="right" valign="top">static final <a class="el" href="a05163.html">SampleDimensionType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05163.html#ad125fdd898ef56e093ed2c7f246f9179">UNSIGNED_8BITS</a> = new <a class="el" href="a05163.html">SampleDimensionType</a>(&quot;UNSIGNED_8BITS&quot;)</td></tr>
-<tr class="memdesc:ad125fdd898ef56e093ed2c7f246f9179"><td class="mdescLeft">&#160;</td><td class="mdescRight">Unsigned 8 bits integers.  <a href="#ad125fdd898ef56e093ed2c7f246f9179">More...</a><br /></td></tr>
-<tr class="separator:ad125fdd898ef56e093ed2c7f246f9179"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8325ed259325342303705b314d8862a7"><td class="memItemLeft" align="right" valign="top">static final <a class="el" href="a05163.html">SampleDimensionType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05163.html#a8325ed259325342303705b314d8862a7">SIGNED_8BITS</a> = new <a class="el" href="a05163.html">SampleDimensionType</a>(&quot;SIGNED_8BITS&quot;)</td></tr>
-<tr class="memdesc:a8325ed259325342303705b314d8862a7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Signed 8 bits integers.  <a href="#a8325ed259325342303705b314d8862a7">More...</a><br /></td></tr>
-<tr class="separator:a8325ed259325342303705b314d8862a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0f26f59268649ca0a5ed3cef8d270f16"><td class="memItemLeft" align="right" valign="top">static final <a class="el" href="a05163.html">SampleDimensionType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05163.html#a0f26f59268649ca0a5ed3cef8d270f16">UNSIGNED_16BITS</a> = new <a class="el" href="a05163.html">SampleDimensionType</a>(&quot;UNSIGNED_16BITS&quot;)</td></tr>
-<tr class="memdesc:a0f26f59268649ca0a5ed3cef8d270f16"><td class="mdescLeft">&#160;</td><td class="mdescRight">Unsigned 16 bits integers.  <a href="#a0f26f59268649ca0a5ed3cef8d270f16">More...</a><br /></td></tr>
-<tr class="separator:a0f26f59268649ca0a5ed3cef8d270f16"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a212388497db9120bc7f72dd21cb42155"><td class="memItemLeft" align="right" valign="top">static final <a class="el" href="a05163.html">SampleDimensionType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05163.html#a212388497db9120bc7f72dd21cb42155">SIGNED_16BITS</a> = new <a class="el" href="a05163.html">SampleDimensionType</a>(&quot;SIGNED_16BITS&quot;)</td></tr>
-<tr class="memdesc:a212388497db9120bc7f72dd21cb42155"><td class="mdescLeft">&#160;</td><td class="mdescRight">Signed 16 bits integers.  <a href="#a212388497db9120bc7f72dd21cb42155">More...</a><br /></td></tr>
-<tr class="separator:a212388497db9120bc7f72dd21cb42155"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8c90457fceea81d745b1863f8df3c7e8"><td class="memItemLeft" align="right" valign="top">static final <a class="el" href="a05163.html">SampleDimensionType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05163.html#a8c90457fceea81d745b1863f8df3c7e8">UNSIGNED_32BITS</a> = new <a class="el" href="a05163.html">SampleDimensionType</a>(&quot;UNSIGNED_32BITS&quot;)</td></tr>
-<tr class="memdesc:a8c90457fceea81d745b1863f8df3c7e8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Unsigned 32 bits integers.  <a href="#a8c90457fceea81d745b1863f8df3c7e8">More...</a><br /></td></tr>
-<tr class="separator:a8c90457fceea81d745b1863f8df3c7e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac8f0730059b0c8995cd92b44e7f497bd"><td class="memItemLeft" align="right" valign="top">static final <a class="el" href="a05163.html">SampleDimensionType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05163.html#ac8f0730059b0c8995cd92b44e7f497bd">SIGNED_32BITS</a> = new <a class="el" href="a05163.html">SampleDimensionType</a>(&quot;SIGNED_32BITS&quot;)</td></tr>
-<tr class="memdesc:ac8f0730059b0c8995cd92b44e7f497bd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Signed 32 bits integers.  <a href="#ac8f0730059b0c8995cd92b44e7f497bd">More...</a><br /></td></tr>
-<tr class="separator:ac8f0730059b0c8995cd92b44e7f497bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4661791c7fdef1dd6b7c378997ab136b"><td class="memItemLeft" align="right" valign="top">static final <a class="el" href="a05163.html">SampleDimensionType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05163.html#a4661791c7fdef1dd6b7c378997ab136b">REAL_32BITS</a> = new <a class="el" href="a05163.html">SampleDimensionType</a>(&quot;REAL_32BITS&quot;)</td></tr>
-<tr class="memdesc:a4661791c7fdef1dd6b7c378997ab136b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Simple precision floating point numbers.  <a href="#a4661791c7fdef1dd6b7c378997ab136b">More...</a><br /></td></tr>
-<tr class="separator:a4661791c7fdef1dd6b7c378997ab136b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acf48844a1576a02e799a3d928eee8692"><td class="memItemLeft" align="right" valign="top">static final <a class="el" href="a05163.html">SampleDimensionType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05163.html#acf48844a1576a02e799a3d928eee8692">REAL_64BITS</a> = new <a class="el" href="a05163.html">SampleDimensionType</a>(&quot;REAL_64BITS&quot;)</td></tr>
-<tr class="memdesc:acf48844a1576a02e799a3d928eee8692"><td class="mdescLeft">&#160;</td><td class="mdescRight">Double precision floating point numbers.  <a href="#acf48844a1576a02e799a3d928eee8692">More...</a><br /></td></tr>
-<tr class="separator:acf48844a1576a02e799a3d928eee8692"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pac-attribs"></a>
+Package Attributes</h2></td></tr>
+<tr class="memitem:a9cb6715e048613ba1adc6d02662c58bb"><td class="memItemLeft" align="right" valign="top">long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05163.html#a9cb6715e048613ba1adc6d02662c58bb">lastLat</a> = 0</td></tr>
+<tr class="separator:a9cb6715e048613ba1adc6d02662c58bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6071d28e26a7046598083d44edae7168"><td class="memItemLeft" align="right" valign="top">long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05163.html#a6071d28e26a7046598083d44edae7168">lastLng</a> = 0</td></tr>
+<tr class="separator:a6071d28e26a7046598083d44edae7168"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab56a5d0c4efb5c0d2c4f33d5dad8c917"><td class="memItemLeft" align="right" valign="top">final Writer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05163.html#ab56a5d0c4efb5c0d2c4f33d5dad8c917">writer</a></td></tr>
+<tr class="separator:ab56a5d0c4efb5c0d2c4f33d5dad8c917"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
-<tr class="memitem:ac4656188dc6dc6d0e4ef66fc034f007a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05163.html#ac4656188dc6dc6d0e4ef66fc034f007a">SampleDimensionType</a> (final String name)</td></tr>
-<tr class="memdesc:ac4656188dc6dc6d0e4ef66fc034f007a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs an element of the given name.  <a href="#ac4656188dc6dc6d0e4ef66fc034f007a">More...</a><br /></td></tr>
-<tr class="separator:ac4656188dc6dc6d0e4ef66fc034f007a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-static-attribs"></a>
-Static Private Attributes</h2></td></tr>
-<tr class="memitem:ae6664f693fbc6259d4f449ce5e918c87"><td class="memItemLeft" align="right" valign="top">static final List&lt; <a class="el" href="a05163.html">SampleDimensionType</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05163.html#ae6664f693fbc6259d4f449ce5e918c87">VALUES</a> = new ArrayList&lt;<a class="el" href="a05163.html">SampleDimensionType</a>&gt;(11)</td></tr>
-<tr class="memdesc:ae6664f693fbc6259d4f449ce5e918c87"><td class="mdescLeft">&#160;</td><td class="mdescRight">List of all enumerations of this type.  <a href="#ae6664f693fbc6259d4f449ce5e918c87">More...</a><br /></td></tr>
-<tr class="separator:ae6664f693fbc6259d4f449ce5e918c87"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0e57882e67b7da0cfbd8dd524d1a08aa"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05163.html#a0e57882e67b7da0cfbd8dd524d1a08aa">encode</a> (long v)  throws IOException </td></tr>
+<tr class="separator:a0e57882e67b7da0cfbd8dd524d1a08aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Specifies the various dimension types for coverage values. </p>
-<p>For grid coverages, these correspond to band types.</p>
-<dl class="deprecated"><dt><b><a class="el" href="a02585.html#_deprecated000001">Deprecated:</a></b></dt><dd>This is a legacy type from OGC <a href="http://www.opengis.org/docs/01-004.pdf">Grid Coverages Implementation specification 1.0</a>.</dd></dl>
-<dl class="section author"><dt>Author</dt><dd>Martin Desruisseaux (IRD) </dd></dl>
+<div class="textblock"><p>Encodes a sequence of LatLngs into an encoded path string. </p>
+<p>from Apache 2.0 licensed: <a href="https://github.com/googlemaps/android-maps-utils/blob/master/library/src/com/google/maps/android/PolyUtil.java">https://github.com/googlemaps/android-maps-utils/blob/master/library/src/com/google/maps/android/PolyUtil.java</a> </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="ac4656188dc6dc6d0e4ef66fc034f007a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac4656188dc6dc6d0e4ef66fc034f007a">&#9670;&nbsp;</a></span>SampleDimensionType()</h2>
+<a id="ae9b4d30bd3ef8dcabd2c471b856cc56f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae9b4d30bd3ef8dcabd2c471b856cc56f">&#9670;&nbsp;</a></span>Encoder()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="a05163.html">Encoder</a> </td>
+          <td>(</td>
+          <td class="paramtype">Writer&#160;</td>
+          <td class="paramname"><em>writer</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="a05163.html#ab56a5d0c4efb5c0d2c4f33d5dad8c917">PolyshapeWriter.Encoder.writer</a>.</p>
+<div class="fragment"><div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;                                  {</div><div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;      this.<a class="code" href="a05163.html#ab56a5d0c4efb5c0d2c4f33d5dad8c917">writer</a> = <a class="code" href="a05163.html#ab56a5d0c4efb5c0d2c4f33d5dad8c917">writer</a>;</div><div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;    }</div><div class="ttc" id="a05163_html_ab56a5d0c4efb5c0d2c4f33d5dad8c917"><div class="ttname"><a href="a05163.html#ab56a5d0c4efb5c0d2c4f33d5dad8c917">org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.PolyshapeWriter.Encoder.writer</a></div><div class="ttdeci">final Writer writer</div><div class="ttdef"><b>Definition:</b> PolyshapeWriter.java:163</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a0e57882e67b7da0cfbd8dd524d1a08aa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0e57882e67b7da0cfbd8dd524d1a08aa">&#9670;&nbsp;</a></span>encode()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -158,11 +145,11 @@ Static Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="a05163.html">SampleDimensionType</a> </td>
+          <td class="memname">void encode </td>
           <td>(</td>
-          <td class="paramtype">final String&#160;</td>
-          <td class="paramname"><em>name</em></td><td>)</td>
-          <td></td>
+          <td class="paramtype">long&#160;</td>
+          <td class="paramname"><em>v</em></td><td>)</td>
+          <td> throws IOException</td>
         </tr>
       </table>
   </td>
@@ -172,47 +159,134 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Constructs an element of the given name. </p>
-<p>The new element is automatically added to the list returned by <a class="el" href="">values()</a>.</p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">name</td><td>the name of the new element. </td></tr>
-  </table>
-  </dd>
-</dl>
-<div class="fragment"><div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;                                                   {</div><div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;        super(name, <a class="code" href="a05163.html#ae6664f693fbc6259d4f449ce5e918c87">VALUES</a>);</div><div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;    }</div><div class="ttc" id="a05163_html_ae6664f693fbc6259d4f449ce5e918c87"><div class="ttname"><a href="a05163.html#ae6664f693fbc6259d4f449ce5e918c87">org.geotoolkit.coverage.SampleDimensionType.VALUES</a></div><div class="ttdeci">static final List&lt; SampleDimensionType &gt; VALUES</div><div class="ttdoc">List of all enumerations of this type. </div><div class="ttdef"><b>Definition:</b> SampleDimensionType.java:28</div></div>
+<p class="reference">Referenced by <a class="el" href="a05163.html#a67c54f108cb20c5a0f698e20a287724d">PolyshapeWriter.Encoder.write()</a>, and <a class="el" href="a05163.html#a66b62fe86f9a7aa5e1fb78d2282adf66">PolyshapeWriter.Encoder.writeArg()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;                                                   {</div><div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;      v = v &lt; 0 ? ~(v &lt;&lt; 1) : v &lt;&lt; 1;</div><div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160;      <span class="keywordflow">while</span> (v &gt;= 0x20) {</div><div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160;        <a class="code" href="a05163.html#ab56a5d0c4efb5c0d2c4f33d5dad8c917">writer</a>.write(Character.toChars((<span class="keywordtype">int</span>) ((0x20 | (v &amp; 0x1f)) + 63)));</div><div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;        v &gt;&gt;= 5;</div><div class="line"><a name="l00210"></a><span class="lineno">  210</span>&#160;      }</div><div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;      <a class="code" href="a05163.html#ab56a5d0c4efb5c0d2c4f33d5dad8c917">writer</a>.write(Character.toChars((<span class="keywordtype">int</span>) (v + 63)));</div><div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160;    }</div><div class="ttc" id="a05163_html_ab56a5d0c4efb5c0d2c4f33d5dad8c917"><div class="ttname"><a href="a05163.html#ab56a5d0c4efb5c0d2c4f33d5dad8c917">org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.PolyshapeWriter.Encoder.writer</a></div><div class="ttdeci">final Writer writer</div><div class="ttdef"><b>Definition:</b> PolyshapeWriter.java:163</div></div>
 </div><!-- fragment -->
 </div>
 </div>
-<h2 class="groupheader">Member Function Documentation</h2>
-<a id="aeaaf4d39c7b3cf733d53fd480402fa4a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aeaaf4d39c7b3cf733d53fd480402fa4a">&#9670;&nbsp;</a></span>family()</h2>
+<a id="a39600d33dd97208ba398ac5c4340fa77"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a39600d33dd97208ba398ac5c4340fa77">&#9670;&nbsp;</a></span>seperator()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="a05163.html">SampleDimensionType</a> [] family </td>
+          <td class="memname">void seperator </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
+          <td> throws IOException</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;                                               {</div><div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;      <a class="code" href="a05163.html#ab56a5d0c4efb5c0d2c4f33d5dad8c917">writer</a>.write(<a class="code" href="a05159.html#af7f80b3413766edf45bd57102852c8a6">KEY_SEPERATOR</a>);</div><div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;      <a class="code" href="a05163.html#a9cb6715e048613ba1adc6d02662c58bb">lastLat</a> = <a class="code" href="a05163.html#a6071d28e26a7046598083d44edae7168">lastLng</a> = 0;</div><div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;    }</div><div class="ttc" id="a05163_html_a6071d28e26a7046598083d44edae7168"><div class="ttname"><a href="a05163.html#a6071d28e26a7046598083d44edae7168">org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.PolyshapeWriter.Encoder.lastLng</a></div><div class="ttdeci">long lastLng</div><div class="ttdef"><b>Definition:</b> PolyshapeWriter.java:161</div></div>
+<div class="ttc" id="a05159_html_af7f80b3413766edf45bd57102852c8a6"><div class="ttname"><a href="a05159.html#af7f80b3413766edf45bd57102852c8a6">org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.PolyshapeWriter.KEY_SEPERATOR</a></div><div class="ttdeci">static final char KEY_SEPERATOR</div><div class="ttdef"><b>Definition:</b> PolyshapeWriter.java:150</div></div>
+<div class="ttc" id="a05163_html_a9cb6715e048613ba1adc6d02662c58bb"><div class="ttname"><a href="a05163.html#a9cb6715e048613ba1adc6d02662c58bb">org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.PolyshapeWriter.Encoder.lastLat</a></div><div class="ttdeci">long lastLat</div><div class="ttdef"><b>Definition:</b> PolyshapeWriter.java:160</div></div>
+<div class="ttc" id="a05163_html_ab56a5d0c4efb5c0d2c4f33d5dad8c917"><div class="ttname"><a href="a05163.html#ab56a5d0c4efb5c0d2c4f33d5dad8c917">org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.PolyshapeWriter.Encoder.writer</a></div><div class="ttdeci">final Writer writer</div><div class="ttdef"><b>Definition:</b> PolyshapeWriter.java:163</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="ab6635935e270ce5b32d1efd4b377c983"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab6635935e270ce5b32d1efd4b377c983">&#9670;&nbsp;</a></span>startRing()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void startRing </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> throws IOException</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;                                               {</div><div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;      <a class="code" href="a05163.html#ab56a5d0c4efb5c0d2c4f33d5dad8c917">writer</a>.write(<a class="code" href="a05159.html#aabe19399bfb7ad538e29aa8e7da1b661">KEY_ARG_START</a>);</div><div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;      <a class="code" href="a05163.html#a9cb6715e048613ba1adc6d02662c58bb">lastLat</a> = <a class="code" href="a05163.html#a6071d28e26a7046598083d44edae7168">lastLng</a> = 0;</div><div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;    }</div><div class="ttc" id="a05163_html_a6071d28e26a7046598083d44edae7168"><div class="ttname"><a href="a05163.html#a6071d28e26a7046598083d44edae7168">org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.PolyshapeWriter.Encoder.lastLng</a></div><div class="ttdeci">long lastLng</div><div class="ttdef"><b>Definition:</b> PolyshapeWriter.java:161</div></div>
+<div class="ttc" id="a05159_html_aabe19399bfb7ad538e29aa8e7da1b661"><div class="ttname"><a href="a05159.html#aabe19399bfb7ad538e29aa8e7da1b661">org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.PolyshapeWriter.KEY_ARG_START</a></div><div class="ttdeci">static final char KEY_ARG_START</div><div class="ttdef"><b>Definition:</b> PolyshapeWriter.java:148</div></div>
+<div class="ttc" id="a05163_html_a9cb6715e048613ba1adc6d02662c58bb"><div class="ttname"><a href="a05163.html#a9cb6715e048613ba1adc6d02662c58bb">org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.PolyshapeWriter.Encoder.lastLat</a></div><div class="ttdeci">long lastLat</div><div class="ttdef"><b>Definition:</b> PolyshapeWriter.java:160</div></div>
+<div class="ttc" id="a05163_html_ab56a5d0c4efb5c0d2c4f33d5dad8c917"><div class="ttname"><a href="a05163.html#ab56a5d0c4efb5c0d2c4f33d5dad8c917">org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.PolyshapeWriter.Encoder.writer</a></div><div class="ttdeci">final Writer writer</div><div class="ttdef"><b>Definition:</b> PolyshapeWriter.java:163</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a738ab332235183cb8c6acda151d9801c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a738ab332235183cb8c6acda151d9801c">&#9670;&nbsp;</a></span>write() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void write </td>
+          <td>(</td>
+          <td class="paramtype">char&#160;</td>
+          <td class="paramname"><em>event</em></td><td>)</td>
+          <td> throws IOException</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;                                                     {</div><div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;      <a class="code" href="a05163.html#ab56a5d0c4efb5c0d2c4f33d5dad8c917">writer</a>.write(event);</div><div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;      <a class="code" href="a05163.html#a9cb6715e048613ba1adc6d02662c58bb">lastLat</a> = <a class="code" href="a05163.html#a6071d28e26a7046598083d44edae7168">lastLng</a> = 0;</div><div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;    }</div><div class="ttc" id="a05163_html_a6071d28e26a7046598083d44edae7168"><div class="ttname"><a href="a05163.html#a6071d28e26a7046598083d44edae7168">org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.PolyshapeWriter.Encoder.lastLng</a></div><div class="ttdeci">long lastLng</div><div class="ttdef"><b>Definition:</b> PolyshapeWriter.java:161</div></div>
+<div class="ttc" id="a05163_html_a9cb6715e048613ba1adc6d02662c58bb"><div class="ttname"><a href="a05163.html#a9cb6715e048613ba1adc6d02662c58bb">org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.PolyshapeWriter.Encoder.lastLat</a></div><div class="ttdeci">long lastLat</div><div class="ttdef"><b>Definition:</b> PolyshapeWriter.java:160</div></div>
+<div class="ttc" id="a05163_html_ab56a5d0c4efb5c0d2c4f33d5dad8c917"><div class="ttname"><a href="a05163.html#ab56a5d0c4efb5c0d2c4f33d5dad8c917">org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.PolyshapeWriter.Encoder.writer</a></div><div class="ttdeci">final Writer writer</div><div class="ttdef"><b>Definition:</b> PolyshapeWriter.java:163</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a67c54f108cb20c5a0f698e20a287724d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a67c54f108cb20c5a0f698e20a287724d">&#9670;&nbsp;</a></span>write() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void write </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>latitude</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>longitude</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> throws IOException</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Returns the list of codes of the same kind than this code list element. </p>
-<p>Invoking this method is equivalent to invoking <a class="el" href="">values()</a>, except that this method can be invoked on an instance of the parent</p><div class="fragment"><div class="line">CodeList </div></div><!-- fragment --><p> class.</p>
-<dl class="section return"><dt>Returns</dt><dd>all code  #values() values} for this code list. </dd></dl>
+<p class="reference">References <a class="el" href="a05163.html#a0e57882e67b7da0cfbd8dd524d1a08aa">PolyshapeWriter.Encoder.encode()</a>, <a class="el" href="a05163.html#a9cb6715e048613ba1adc6d02662c58bb">PolyshapeWriter.Encoder.lastLat</a>, and <a class="el" href="a05163.html#a6071d28e26a7046598083d44edae7168">PolyshapeWriter.Encoder.lastLng</a>.</p>
+<div class="fragment"><div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;                                                                            {</div><div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;</div><div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;      <span class="keywordtype">long</span> lat = Math.round(latitude * 1e5);</div><div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;      <span class="keywordtype">long</span> lng = Math.round(longitude * 1e5);</div><div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;</div><div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;      <span class="keywordtype">long</span> dLat = lat - <a class="code" href="a05163.html#a9cb6715e048613ba1adc6d02662c58bb">lastLat</a>;</div><div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;      <span class="keywordtype">long</span> dLng = lng - <a class="code" href="a05163.html#a6071d28e26a7046598083d44edae7168">lastLng</a>;</div><div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;</div><div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;      <a class="code" href="a05163.html#a0e57882e67b7da0cfbd8dd524d1a08aa">encode</a>(dLat);</div><div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;      <a class="code" href="a05163.html#a0e57882e67b7da0cfbd8dd524d1a08aa">encode</a>(dLng);</div><div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;</div><div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;      lastLat = lat;</div><div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;      lastLng = lng;</div><div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;    }</div><div class="ttc" id="a05163_html_a6071d28e26a7046598083d44edae7168"><div class="ttname"><a href="a05163.html#a6071d28e26a7046598083d44edae7168">org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.PolyshapeWriter.Encoder.lastLng</a></div><div class="ttdeci">long lastLng</div><div class="ttdef"><b>Definition:</b> PolyshapeWriter.java:161</div></div>
+<div class="ttc" id="a05163_html_a0e57882e67b7da0cfbd8dd524d1a08aa"><div class="ttname"><a href="a05163.html#a0e57882e67b7da0cfbd8dd524d1a08aa">org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.PolyshapeWriter.Encoder.encode</a></div><div class="ttdeci">void encode(long v)</div><div class="ttdef"><b>Definition:</b> PolyshapeWriter.java:205</div></div>
+<div class="ttc" id="a05163_html_a9cb6715e048613ba1adc6d02662c58bb"><div class="ttname"><a href="a05163.html#a9cb6715e048613ba1adc6d02662c58bb">org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.PolyshapeWriter.Encoder.lastLat</a></div><div class="ttdeci">long lastLat</div><div class="ttdef"><b>Definition:</b> PolyshapeWriter.java:160</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a66b62fe86f9a7aa5e1fb78d2282adf66"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a66b62fe86f9a7aa5e1fb78d2282adf66">&#9670;&nbsp;</a></span>writeArg()</h2>
 
-<p class="reference">References <a class="el" href="a05163.html#ae6664f693fbc6259d4f449ce5e918c87">SampleDimensionType.VALUES</a>.</p>
-<div class="fragment"><div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;                                          {</div><div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;        <span class="keyword">synchronized</span> (<a class="code" href="a05163.html#ae6664f693fbc6259d4f449ce5e918c87">VALUES</a>) {</div><div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;            <span class="keywordflow">return</span> <a class="code" href="a05163.html#ae6664f693fbc6259d4f449ce5e918c87">VALUES</a>.toArray(<span class="keyword">new</span> <a class="code" href="a05163.html#ac4656188dc6dc6d0e4ef66fc034f007a">SampleDimensionType</a>[<a class="code" href="a05163.html#ae6664f693fbc6259d4f449ce5e918c87">VALUES</a>.size()]);</div><div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;        }</div><div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;    }</div><div class="ttc" id="a05163_html_ae6664f693fbc6259d4f449ce5e918c87"><div class="ttname"><a href="a05163.html#ae6664f693fbc6259d4f449ce5e918c87">org.geotoolkit.coverage.SampleDimensionType.VALUES</a></div><div class="ttdeci">static final List&lt; SampleDimensionType &gt; VALUES</div><div class="ttdoc">List of all enumerations of this type. </div><div class="ttdef"><b>Definition:</b> SampleDimensionType.java:28</div></div>
-<div class="ttc" id="a05163_html_ac4656188dc6dc6d0e4ef66fc034f007a"><div class="ttname"><a href="a05163.html#ac4656188dc6dc6d0e4ef66fc034f007a">org.geotoolkit.coverage.SampleDimensionType.SampleDimensionType</a></div><div class="ttdeci">SampleDimensionType(final String name)</div><div class="ttdoc">Constructs an element of the given name. </div><div class="ttdef"><b>Definition:</b> SampleDimensionType.java:124</div></div>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void writeArg </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>value</em></td><td>)</td>
+          <td> throws IOException</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="a05163.html#a0e57882e67b7da0cfbd8dd524d1a08aa">PolyshapeWriter.Encoder.encode()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;                                                          {</div><div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;      <a class="code" href="a05163.html#ab56a5d0c4efb5c0d2c4f33d5dad8c917">writer</a>.write(<a class="code" href="a05159.html#aabe19399bfb7ad538e29aa8e7da1b661">KEY_ARG_START</a>);</div><div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;      <a class="code" href="a05163.html#a0e57882e67b7da0cfbd8dd524d1a08aa">encode</a>(Math.round(value * 1e5));</div><div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;      <a class="code" href="a05163.html#ab56a5d0c4efb5c0d2c4f33d5dad8c917">writer</a>.write(<a class="code" href="a05159.html#a1c49a78fa17940a2ff4d36acab548b83">KEY_ARG_END</a>);</div><div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;    }</div><div class="ttc" id="a05159_html_a1c49a78fa17940a2ff4d36acab548b83"><div class="ttname"><a href="a05159.html#a1c49a78fa17940a2ff4d36acab548b83">org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.PolyshapeWriter.KEY_ARG_END</a></div><div class="ttdeci">static final char KEY_ARG_END</div><div class="ttdef"><b>Definition:</b> PolyshapeWriter.java:149</div></div>
+<div class="ttc" id="a05159_html_aabe19399bfb7ad538e29aa8e7da1b661"><div class="ttname"><a href="a05159.html#aabe19399bfb7ad538e29aa8e7da1b661">org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.PolyshapeWriter.KEY_ARG_START</a></div><div class="ttdeci">static final char KEY_ARG_START</div><div class="ttdef"><b>Definition:</b> PolyshapeWriter.java:148</div></div>
+<div class="ttc" id="a05163_html_a0e57882e67b7da0cfbd8dd524d1a08aa"><div class="ttname"><a href="a05163.html#a0e57882e67b7da0cfbd8dd524d1a08aa">org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.PolyshapeWriter.Encoder.encode</a></div><div class="ttdeci">void encode(long v)</div><div class="ttdef"><b>Definition:</b> PolyshapeWriter.java:205</div></div>
+<div class="ttc" id="a05163_html_ab56a5d0c4efb5c0d2c4f33d5dad8c917"><div class="ttname"><a href="a05163.html#ab56a5d0c4efb5c0d2c4f33d5dad8c917">org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.PolyshapeWriter.Encoder.writer</a></div><div class="ttdeci">final Writer writer</div><div class="ttdef"><b>Definition:</b> PolyshapeWriter.java:163</div></div>
 </div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="a4661791c7fdef1dd6b7c378997ab136b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4661791c7fdef1dd6b7c378997ab136b">&#9670;&nbsp;</a></span>REAL_32BITS</h2>
+<a id="a9cb6715e048613ba1adc6d02662c58bb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9cb6715e048613ba1adc6d02662c58bb">&#9670;&nbsp;</a></span>lastLat</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -221,27 +295,22 @@ Static Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">final <a class="el" href="a05163.html">SampleDimensionType</a> REAL_32BITS = new <a class="el" href="a05163.html">SampleDimensionType</a>(&quot;REAL_32BITS&quot;)</td>
+          <td class="memname">long lastLat = 0</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>Simple precision floating point numbers. </p>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="a05163.html#acf48844a1576a02e799a3d928eee8692" title="Double precision floating point numbers. ">REAL_64BITS</a> </dd>
-<dd>
-DataBuffer::TYPE_FLOAT </dd></dl>
-
-<p class="reference">Referenced by <a class="el" href="a05171.html#a98281e43765f09e5590f0606e2d68eb1">WKBRasterConstants.getDimensionType()</a>, and <a class="el" href="a05171.html#a0cdacc5ebe7f3d956f9199c25a1d56b0">WKBRasterConstants.getPixelType()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="a05163.html#a67c54f108cb20c5a0f698e20a287724d">PolyshapeWriter.Encoder.write()</a>.</p>
 
 </div>
 </div>
-<a id="acf48844a1576a02e799a3d928eee8692"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acf48844a1576a02e799a3d928eee8692">&#9670;&nbsp;</a></span>REAL_64BITS</h2>
+<a id="a6071d28e26a7046598083d44edae7168"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6071d28e26a7046598083d44edae7168">&#9670;&nbsp;</a></span>lastLng</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -250,27 +319,22 @@ DataBuffer::TYPE_FLOAT </dd></dl>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">final <a class="el" href="a05163.html">SampleDimensionType</a> REAL_64BITS = new <a class="el" href="a05163.html">SampleDimensionType</a>(&quot;REAL_64BITS&quot;)</td>
+          <td class="memname">long lastLng = 0</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>Double precision floating point numbers. </p>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="a05163.html#a4661791c7fdef1dd6b7c378997ab136b" title="Simple precision floating point numbers. ">REAL_32BITS</a> </dd>
-<dd>
-DataBuffer::TYPE_DOUBLE </dd></dl>
-
-<p class="reference">Referenced by <a class="el" href="a05171.html#a98281e43765f09e5590f0606e2d68eb1">WKBRasterConstants.getDimensionType()</a>, and <a class="el" href="a05171.html#a0cdacc5ebe7f3d956f9199c25a1d56b0">WKBRasterConstants.getPixelType()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="a05163.html#a67c54f108cb20c5a0f698e20a287724d">PolyshapeWriter.Encoder.write()</a>.</p>
 
 </div>
 </div>
-<a id="a212388497db9120bc7f72dd21cb42155"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a212388497db9120bc7f72dd21cb42155">&#9670;&nbsp;</a></span>SIGNED_16BITS</h2>
+<a id="ab56a5d0c4efb5c0d2c4f33d5dad8c917"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab56a5d0c4efb5c0d2c4f33d5dad8c917">&#9670;&nbsp;</a></span>writer</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -279,268 +343,17 @@ DataBuffer::TYPE_DOUBLE </dd></dl>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">final <a class="el" href="a05163.html">SampleDimensionType</a> SIGNED_16BITS = new <a class="el" href="a05163.html">SampleDimensionType</a>(&quot;SIGNED_16BITS&quot;)</td>
+          <td class="memname">final Writer writer</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>Signed 16 bits integers. </p>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="a05163.html#a0f26f59268649ca0a5ed3cef8d270f16" title="Unsigned 16 bits integers. ">UNSIGNED_16BITS</a> </dd>
-<dd>
-DataBuffer::TYPE_SHORT </dd></dl>
-
-<p class="reference">Referenced by <a class="el" href="a05171.html#a98281e43765f09e5590f0606e2d68eb1">WKBRasterConstants.getDimensionType()</a>, and <a class="el" href="a05171.html#a0cdacc5ebe7f3d956f9199c25a1d56b0">WKBRasterConstants.getPixelType()</a>.</p>
-
-</div>
-</div>
-<a id="ac8f0730059b0c8995cd92b44e7f497bd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac8f0730059b0c8995cd92b44e7f497bd">&#9670;&nbsp;</a></span>SIGNED_32BITS</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">final <a class="el" href="a05163.html">SampleDimensionType</a> SIGNED_32BITS = new <a class="el" href="a05163.html">SampleDimensionType</a>(&quot;SIGNED_32BITS&quot;)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Signed 32 bits integers. </p>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="a05163.html#a8c90457fceea81d745b1863f8df3c7e8" title="Unsigned 32 bits integers. ">UNSIGNED_32BITS</a> </dd>
-<dd>
-DataBuffer::TYPE_INT </dd></dl>
-
-<p class="reference">Referenced by <a class="el" href="a05171.html#a98281e43765f09e5590f0606e2d68eb1">WKBRasterConstants.getDimensionType()</a>, and <a class="el" href="a05171.html#a0cdacc5ebe7f3d956f9199c25a1d56b0">WKBRasterConstants.getPixelType()</a>.</p>
-
-</div>
-</div>
-<a id="a8325ed259325342303705b314d8862a7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8325ed259325342303705b314d8862a7">&#9670;&nbsp;</a></span>SIGNED_8BITS</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">final <a class="el" href="a05163.html">SampleDimensionType</a> SIGNED_8BITS = new <a class="el" href="a05163.html">SampleDimensionType</a>(&quot;SIGNED_8BITS&quot;)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Signed 8 bits integers. </p>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="a05163.html#ad125fdd898ef56e093ed2c7f246f9179" title="Unsigned 8 bits integers. ">UNSIGNED_8BITS</a> </dd></dl>
-
-<p class="reference">Referenced by <a class="el" href="a05171.html#a98281e43765f09e5590f0606e2d68eb1">WKBRasterConstants.getDimensionType()</a>, and <a class="el" href="a05171.html#a0cdacc5ebe7f3d956f9199c25a1d56b0">WKBRasterConstants.getPixelType()</a>.</p>
-
-</div>
-</div>
-<a id="a0f26f59268649ca0a5ed3cef8d270f16"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0f26f59268649ca0a5ed3cef8d270f16">&#9670;&nbsp;</a></span>UNSIGNED_16BITS</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">final <a class="el" href="a05163.html">SampleDimensionType</a> UNSIGNED_16BITS = new <a class="el" href="a05163.html">SampleDimensionType</a>(&quot;UNSIGNED_16BITS&quot;)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Unsigned 16 bits integers. </p>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="a05163.html#a212388497db9120bc7f72dd21cb42155" title="Signed 16 bits integers. ">SIGNED_16BITS</a> </dd>
-<dd>
-DataBuffer::TYPE_USHORT </dd></dl>
-
-<p class="reference">Referenced by <a class="el" href="a05171.html#a98281e43765f09e5590f0606e2d68eb1">WKBRasterConstants.getDimensionType()</a>, and <a class="el" href="a05171.html#a0cdacc5ebe7f3d956f9199c25a1d56b0">WKBRasterConstants.getPixelType()</a>.</p>
-
-</div>
-</div>
-<a id="ab05c9236ffa258b1889bcdb7af336eaf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab05c9236ffa258b1889bcdb7af336eaf">&#9670;&nbsp;</a></span>UNSIGNED_1BIT</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">final <a class="el" href="a05163.html">SampleDimensionType</a> UNSIGNED_1BIT = new <a class="el" href="a05163.html">SampleDimensionType</a>(&quot;UNSIGNED_1BIT&quot;)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Unsigned 1 bit integers. </p>
-
-<p class="reference">Referenced by <a class="el" href="a05171.html#a98281e43765f09e5590f0606e2d68eb1">WKBRasterConstants.getDimensionType()</a>, and <a class="el" href="a05171.html#a0cdacc5ebe7f3d956f9199c25a1d56b0">WKBRasterConstants.getPixelType()</a>.</p>
-
-</div>
-</div>
-<a id="a21e1d1ca3035d887200d51acf209dd9a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a21e1d1ca3035d887200d51acf209dd9a">&#9670;&nbsp;</a></span>UNSIGNED_2BITS</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">final <a class="el" href="a05163.html">SampleDimensionType</a> UNSIGNED_2BITS = new <a class="el" href="a05163.html">SampleDimensionType</a>(&quot;UNSIGNED_2BITS&quot;)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Unsigned 2 bits integers. </p>
-
-<p class="reference">Referenced by <a class="el" href="a05171.html#a98281e43765f09e5590f0606e2d68eb1">WKBRasterConstants.getDimensionType()</a>, and <a class="el" href="a05171.html#a0cdacc5ebe7f3d956f9199c25a1d56b0">WKBRasterConstants.getPixelType()</a>.</p>
-
-</div>
-</div>
-<a id="a8c90457fceea81d745b1863f8df3c7e8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8c90457fceea81d745b1863f8df3c7e8">&#9670;&nbsp;</a></span>UNSIGNED_32BITS</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">final <a class="el" href="a05163.html">SampleDimensionType</a> UNSIGNED_32BITS = new <a class="el" href="a05163.html">SampleDimensionType</a>(&quot;UNSIGNED_32BITS&quot;)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Unsigned 32 bits integers. </p>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="a05163.html#ac8f0730059b0c8995cd92b44e7f497bd" title="Signed 32 bits integers. ">SIGNED_32BITS</a> </dd></dl>
-
-<p class="reference">Referenced by <a class="el" href="a05171.html#a98281e43765f09e5590f0606e2d68eb1">WKBRasterConstants.getDimensionType()</a>, and <a class="el" href="a05171.html#a0cdacc5ebe7f3d956f9199c25a1d56b0">WKBRasterConstants.getPixelType()</a>.</p>
-
-</div>
-</div>
-<a id="ae2428a486b2345e3c8dd77be7422ba05"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae2428a486b2345e3c8dd77be7422ba05">&#9670;&nbsp;</a></span>UNSIGNED_4BITS</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">final <a class="el" href="a05163.html">SampleDimensionType</a> UNSIGNED_4BITS = new <a class="el" href="a05163.html">SampleDimensionType</a>(&quot;UNSIGNED_4BITS&quot;)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Unsigned 4 bits integers. </p>
-
-<p class="reference">Referenced by <a class="el" href="a05171.html#a98281e43765f09e5590f0606e2d68eb1">WKBRasterConstants.getDimensionType()</a>, and <a class="el" href="a05171.html#a0cdacc5ebe7f3d956f9199c25a1d56b0">WKBRasterConstants.getPixelType()</a>.</p>
-
-</div>
-</div>
-<a id="ad125fdd898ef56e093ed2c7f246f9179"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad125fdd898ef56e093ed2c7f246f9179">&#9670;&nbsp;</a></span>UNSIGNED_8BITS</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">final <a class="el" href="a05163.html">SampleDimensionType</a> UNSIGNED_8BITS = new <a class="el" href="a05163.html">SampleDimensionType</a>(&quot;UNSIGNED_8BITS&quot;)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Unsigned 8 bits integers. </p>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="a05163.html#a8325ed259325342303705b314d8862a7" title="Signed 8 bits integers. ">SIGNED_8BITS</a> </dd>
-<dd>
-DataBuffer::TYPE_BYTE </dd></dl>
-
-<p class="reference">Referenced by <a class="el" href="a05171.html#a98281e43765f09e5590f0606e2d68eb1">WKBRasterConstants.getDimensionType()</a>, and <a class="el" href="a05171.html#a0cdacc5ebe7f3d956f9199c25a1d56b0">WKBRasterConstants.getPixelType()</a>.</p>
-
-</div>
-</div>
-<a id="ae6664f693fbc6259d4f449ce5e918c87"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae6664f693fbc6259d4f449ce5e918c87">&#9670;&nbsp;</a></span>VALUES</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">final List&lt;<a class="el" href="a05163.html">SampleDimensionType</a>&gt; VALUES = new ArrayList&lt;<a class="el" href="a05163.html">SampleDimensionType</a>&gt;(11)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>List of all enumerations of this type. </p>
-<p>Must be declared before any enum declaration. </p>
-
-<p class="reference">Referenced by <a class="el" href="a05163.html#aeaaf4d39c7b3cf733d53fd480402fa4a">SampleDimensionType.family()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="a05163.html#ae9b4d30bd3ef8dcabd2c471b856cc56f">PolyshapeWriter.Encoder.Encoder()</a>.</p>
 
 </div>
 </div>
@@ -550,7 +363,7 @@ DataBuffer::TYPE_BYTE </dd></dl>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="a02598.html">org</a></li><li class="navelem"><a class="el" href="a02665.html">geotoolkit</a></li><li class="navelem"><a class="el" href="a02664.html">coverage</a></li><li class="navelem"><a class="el" href="a05163.html">SampleDimensionType</a></li>
+    <li class="navelem"><a class="el" href="a02610.html">org</a></li><li class="navelem"><a class="el" href="a02611.html">eclipse</a></li><li class="navelem"><a class="el" href="a02612.html">rdf4j</a></li><li class="navelem"><a class="el" href="a02615.html">query</a></li><li class="navelem"><a class="el" href="a02616.html">algebra</a></li><li class="navelem"><a class="el" href="a02617.html">evaluation</a></li><li class="navelem"><a class="el" href="a02618.html">function</a></li><li class="navelem"><a class="el" href="a02619.html">postgis</a></li><li class="navelem"><a class="el" href="a02669.html">util</a></li><li class="navelem"><a class="el" href="a05159.html">PolyshapeWriter</a></li><li class="navelem"><a class="el" href="a05163.html">Encoder</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>

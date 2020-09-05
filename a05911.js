@@ -1,7 +1,6 @@
 var a05911 =
 [
-    [ "testIsConvexFalse", "a05911.html#a84d7af36a321a8f38760993ee03431f1", null ],
-    [ "testIsConvexTrue", "a05911.html#a72b02d577b66678dc78571b6ca1901cc", null ],
+    [ "testCircumcentre1", "a05911.html#af8da9616fd1ee304df92759a8b87da02", null ],
     [ "isocelesTriangle", "a05911.html#aa04dfbec745e2622b9f7646f8572e501", null ],
     [ "notIsocelesTriangle", "a05911.html#a055d99fb63bcee37763ffcf4da9e0521", null ]
 ];

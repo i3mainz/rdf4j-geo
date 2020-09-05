@@ -1,7 +1,8 @@
 var a05563 =
 [
-    [ "testEqual", "a05563.html#a2a99a285d6ad7938bb12707abf0b2dd2", null ],
-    [ "testNotEqual", "a05563.html#a9195b3462bb379b0139e99b85954d5e4", null ],
+    [ "testDistanceSphere", "a05563.html#a00f0d8d505e98b0a2030febc43784429", null ],
+    [ "testDistanceSphere2", "a05563.html#a4e55a7f6b607feb274072e2449231447", null ],
+    [ "result", "a05563.html#aab356d6554a7301750f11ec7a85ac47d", null ],
     [ "testGeom", "a05563.html#a03a5f5da0ccbeed8c1678d4317cf2672", null ],
     [ "testGeom2", "a05563.html#a6b4be369c8f60e973cd5126e69cd33a4", null ]
 ];

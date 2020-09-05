@@ -1,17 +1,13 @@
 var a05163 =
 [
-    [ "SampleDimensionType", "a05163.html#ac4656188dc6dc6d0e4ef66fc034f007a", null ],
-    [ "family", "a05163.html#aeaaf4d39c7b3cf733d53fd480402fa4a", null ],
-    [ "REAL_32BITS", "a05163.html#a4661791c7fdef1dd6b7c378997ab136b", null ],
-    [ "REAL_64BITS", "a05163.html#acf48844a1576a02e799a3d928eee8692", null ],
-    [ "SIGNED_16BITS", "a05163.html#a212388497db9120bc7f72dd21cb42155", null ],
-    [ "SIGNED_32BITS", "a05163.html#ac8f0730059b0c8995cd92b44e7f497bd", null ],
-    [ "SIGNED_8BITS", "a05163.html#a8325ed259325342303705b314d8862a7", null ],
-    [ "UNSIGNED_16BITS", "a05163.html#a0f26f59268649ca0a5ed3cef8d270f16", null ],
-    [ "UNSIGNED_1BIT", "a05163.html#ab05c9236ffa258b1889bcdb7af336eaf", null ],
-    [ "UNSIGNED_2BITS", "a05163.html#a21e1d1ca3035d887200d51acf209dd9a", null ],
-    [ "UNSIGNED_32BITS", "a05163.html#a8c90457fceea81d745b1863f8df3c7e8", null ],
-    [ "UNSIGNED_4BITS", "a05163.html#ae2428a486b2345e3c8dd77be7422ba05", null ],
-    [ "UNSIGNED_8BITS", "a05163.html#ad125fdd898ef56e093ed2c7f246f9179", null ],
-    [ "VALUES", "a05163.html#ae6664f693fbc6259d4f449ce5e918c87", null ]
+    [ "Encoder", "a05163.html#ae9b4d30bd3ef8dcabd2c471b856cc56f", null ],
+    [ "encode", "a05163.html#a0e57882e67b7da0cfbd8dd524d1a08aa", null ],
+    [ "seperator", "a05163.html#a39600d33dd97208ba398ac5c4340fa77", null ],
+    [ "startRing", "a05163.html#ab6635935e270ce5b32d1efd4b377c983", null ],
+    [ "write", "a05163.html#a738ab332235183cb8c6acda151d9801c", null ],
+    [ "write", "a05163.html#a67c54f108cb20c5a0f698e20a287724d", null ],
+    [ "writeArg", "a05163.html#a66b62fe86f9a7aa5e1fb78d2282adf66", null ],
+    [ "lastLat", "a05163.html#a9cb6715e048613ba1adc6d02662c58bb", null ],
+    [ "lastLng", "a05163.html#a6071d28e26a7046598083d44edae7168", null ],
+    [ "writer", "a05163.html#ab56a5d0c4efb5c0d2c4f33d5dad8c917", null ]
 ];

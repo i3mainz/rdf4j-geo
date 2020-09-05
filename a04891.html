@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>rdf4j-postgis: Cosine Class Reference</title>
+<title>rdf4j-postgis: ACos Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -64,21 +64,21 @@ $(document).ready(function(){initNavTree('a04891.html','');});
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="a04888.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">Cosine Class Reference</div>  </div>
+<div class="title">ACos Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 <div class="dynheader">
-Inheritance diagram for Cosine:</div>
+Inheritance diagram for ACos:</div>
 <div class="dyncontent">
-<div class="center"><img src="a04890.png" border="0" usemap="#Cosine_inherit__map" alt="Inheritance graph"/></div>
-<map name="Cosine_inherit__map" id="Cosine_inherit__map">
+<div class="center"><img src="a04890.png" border="0" usemap="#ACos_inherit__map" alt="Inheritance graph"/></div>
+<map name="ACos_inherit__map" id="ACos_inherit__map">
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <div class="dynheader">
-Collaboration diagram for Cosine:</div>
+Collaboration diagram for ACos:</div>
 <div class="dyncontent">
-<div class="center"><img src="a04889.png" border="0" usemap="#Cosine_coll__map" alt="Collaboration graph"/></div>
-<map name="Cosine_coll__map" id="Cosine_coll__map">
+<div class="center"><img src="a04889.png" border="0" usemap="#ACos_coll__map" alt="Collaboration graph"/></div>
+<map name="ACos_coll__map" id="ACos_coll__map">
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -116,8 +116,8 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="a04891.html#ad9fb16b36dd4ccc533d4f05ff94646e3">Cosine.getURI()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;                                                                                                            {</div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;                <span class="keywordflow">if</span> (args.length != 1) {</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;                        <span class="keywordflow">throw</span> <span class="keyword">new</span> ValueExprEvaluationException(<a class="code" href="a04891.html#ad9fb16b36dd4ccc533d4f05ff94646e3">getURI</a>() + <span class="stringliteral">&quot; requires exactly 1 arguments, got &quot;</span> + args.length);</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;                }                       </div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;                Double value=Double.valueOf(args[0].stringValue());</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;                <span class="keywordflow">return</span> valueFactory.createLiteral(Math.cos(value));</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;        }</div><div class="ttc" id="a04891_html_ad9fb16b36dd4ccc533d4f05ff94646e3"><div class="ttname"><a href="a04891.html#ad9fb16b36dd4ccc533d4f05ff94646e3">org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.functions.math.Cosine.getURI</a></div><div class="ttdeci">String getURI()</div><div class="ttdef"><b>Definition:</b> util/functions/math/Cosine.java:12</div></div>
+<p class="reference">References <a class="el" href="a04891.html#ad9fb16b36dd4ccc533d4f05ff94646e3">ACos.getURI()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;                                                                                                            {</div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;                <span class="keywordflow">if</span> (args.length != 1) {</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;                        <span class="keywordflow">throw</span> <span class="keyword">new</span> ValueExprEvaluationException(<a class="code" href="a04891.html#ad9fb16b36dd4ccc533d4f05ff94646e3">getURI</a>() + <span class="stringliteral">&quot; requires exactly 1 arguments, got &quot;</span> + args.length);</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;                }                       </div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;                Double value=Double.valueOf(args[0].stringValue());</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;                <span class="keywordflow">return</span> valueFactory.createLiteral(Math.acos(value));</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;        }</div><div class="ttc" id="a04891_html_ad9fb16b36dd4ccc533d4f05ff94646e3"><div class="ttname"><a href="a04891.html#ad9fb16b36dd4ccc533d4f05ff94646e3">org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.functions.math.ACos.getURI</a></div><div class="ttdeci">String getURI()</div><div class="ttdef"><b>Definition:</b> util/functions/math/ACos.java:12</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -136,10 +136,10 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="a02747.html#a51b0221427d63bc9940934f635ee7731">POSTGIS.Cos</a>.</p>
+<p class="reference">References <a class="el" href="a02759.html#aed0411d6d9dec97f604dd40f40de9d98">POSTGIS.ACos</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="a04891.html#a43b4c73244bc6722ce551c1033cf1115">Cosine.evaluate()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;                               {</div><div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;                <span class="comment">// TODO Auto-generated method stub</span></div><div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;                <span class="keywordflow">return</span> POSTGIS.Cos.stringValue();</div><div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;        }</div></div><!-- fragment -->
+<p class="reference">Referenced by <a class="el" href="a04891.html#a43b4c73244bc6722ce551c1033cf1115">ACos.evaluate()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;                               {</div><div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;                <span class="comment">// TODO Auto-generated method stub</span></div><div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;                <span class="keywordflow">return</span> POSTGIS.ACos.stringValue();</div><div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;        }</div></div><!-- fragment -->
 </div>
 </div>
 </div><!-- contents -->
@@ -148,7 +148,7 @@ Public Member Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="a02598.html">org</a></li><li class="navelem"><a class="el" href="a02599.html">eclipse</a></li><li class="navelem"><a class="el" href="a02600.html">rdf4j</a></li><li class="navelem"><a class="el" href="a02603.html">query</a></li><li class="navelem"><a class="el" href="a02604.html">algebra</a></li><li class="navelem"><a class="el" href="a02605.html">evaluation</a></li><li class="navelem"><a class="el" href="a02606.html">function</a></li><li class="navelem"><a class="el" href="a02607.html">postgis</a></li><li class="navelem"><a class="el" href="a02657.html">util</a></li><li class="navelem"><a class="el" href="a02658.html">functions</a></li><li class="navelem"><a class="el" href="a02656.html">math</a></li><li class="navelem"><a class="el" href="a04891.html">Cosine</a></li>
+    <li class="navelem"><a class="el" href="a02610.html">org</a></li><li class="navelem"><a class="el" href="a02611.html">eclipse</a></li><li class="navelem"><a class="el" href="a02612.html">rdf4j</a></li><li class="navelem"><a class="el" href="a02615.html">query</a></li><li class="navelem"><a class="el" href="a02616.html">algebra</a></li><li class="navelem"><a class="el" href="a02617.html">evaluation</a></li><li class="navelem"><a class="el" href="a02618.html">function</a></li><li class="navelem"><a class="el" href="a02619.html">postgis</a></li><li class="navelem"><a class="el" href="a02669.html">util</a></li><li class="navelem"><a class="el" href="a02670.html">functions</a></li><li class="navelem"><a class="el" href="a02668.html">math</a></li><li class="navelem"><a class="el" href="a04891.html">ACos</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>

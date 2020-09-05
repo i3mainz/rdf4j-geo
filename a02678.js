@@ -1,6 +1,7 @@
 var a02678 =
 [
-    [ "LengthSubstring", "a05239.html", "a05239" ],
-    [ "LengthToPoint", "a05243.html", "a05243" ],
-    [ "LocatePoint", "a05247.html", "a05247" ]
+    [ "WKBRasterBand", "a05187.html", "a05187" ],
+    [ "WKBRasterConstants", "a05191.html", "a05191" ],
+    [ "WKBRasterReader", "a05195.html", "a05195" ],
+    [ "WKBRasterWriter", "a05199.html", "a05199" ]
 ];

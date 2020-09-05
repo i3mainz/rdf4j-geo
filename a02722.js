@@ -1,4 +1,5 @@
 var a02722 =
 [
-    [ "FeatureRasterizerException", "a02722.html#ab471c3e3e86c898f11da2053b014dd60", null ]
+    [ "AddBandTest", "a06223.html", "a06223" ],
+    [ "RemoveBandTest", "a06227.html", null ]
 ];

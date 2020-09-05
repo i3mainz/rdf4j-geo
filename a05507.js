@@ -1,5 +1,5 @@
 var a05507 =
 [
-    [ "testAsPolyShape", "a05507.html#aa4ec805ffcfb140ead8292a441244775", null ],
+    [ "testAsGeoRSS", "a05507.html#a6073cb056ce359b4e50c980456a17e1e", null ],
     [ "testGeometry", "a05507.html#abc3f514f005cba49e406658e2d3086eb", null ]
 ];

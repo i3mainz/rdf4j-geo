@@ -1,7 +1,5 @@
 var a05463 =
 [
-    [ "testRemovePoint", "a05463.html#a5e9b64ff404fa9347af445dc61f510b7", null ],
-    [ "testRemovePointZ", "a05463.html#ab04b102dbd8ad6ffb069a768eaf23da4", null ],
-    [ "lineString", "a05463.html#a76e109dc83d6f4d16fcd2fa3e73054f6", null ],
-    [ "lineStringZ", "a05463.html#a6ea074c47e6616507d2fe90dc549765a", null ]
+    [ "testGeomFromWKB", "a05463.html#acc0d76b6d1ae096d932e1752a6bc8479", null ],
+    [ "geoJsonTestGeom", "a05463.html#a117e8ff340791b5aa0658f5840b5dcf4", null ]
 ];

@@ -1,7 +1,7 @@
 var a05279 =
 [
-    [ "testBBOXLeftOf", "a05279.html#acc092dffcd1d5d422d27501b6b691ef0", null ],
-    [ "testBBOXLeftOf1", "a05279.html#a635c2e49e869cfa91cf3defbcde7f5ad", null ],
+    [ "testBBOXContainsFalse", "a05279.html#acdd5bf40ab928cffac073b2a29a4d8bd", null ],
+    [ "testBBOXContainsTrue", "a05279.html#ad768af1415f572372ce470613e313973", null ],
     [ "testGeom1", "a05279.html#aa4a3b1a7e778ece72382f6600fa96b47", null ],
     [ "testGeom2", "a05279.html#a6b4be369c8f60e973cd5126e69cd33a4", null ],
     [ "testGeom3", "a05279.html#a800b6bb875a8ff4404ea787c3df125a5", null ],

@@ -1,7 +1,7 @@
 var a06043 =
 [
     [ "getInstance", "a06043.html#af8afdd14b38b523d100805364a48ed63", null ],
-    [ "testSubtract", "a06043.html#a6765d065ca3c27a56dc817aef23a2e41", null ],
+    [ "testAdd", "a06043.html#afd0ee1fd8a383350e390e5b63a8a1cda", null ],
     [ "combinedRasterLiteral", "a06043.html#a6efe8702be34a67e2bcbba55588c5b5f", null ],
     [ "covJSONString1", "a06043.html#a993e2f127f3ec8f256e9799d77507223", null ],
     [ "hexwkbString1", "a06043.html#a55fb5b5d665417265da09403128e396e", null ],

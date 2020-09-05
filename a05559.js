@@ -1,8 +1,6 @@
 var a05559 =
 [
-    [ "testEqualTopoFalse", "a05559.html#a8274875a2d4c85b886223bd494666e36", null ],
-    [ "testEqualTopoTrue", "a05559.html#a523cb10739809e6f16d7ba6f26d34cde", null ],
-    [ "result", "a05559.html#aab356d6554a7301750f11ec7a85ac47d", null ],
-    [ "testGeom", "a05559.html#a03a5f5da0ccbeed8c1678d4317cf2672", null ],
-    [ "testGeom2", "a05559.html#a6b4be369c8f60e973cd5126e69cd33a4", null ]
+    [ "testClosestPoint", "a05559.html#af30fa8d36bc2cb8bd652397169d9708d", null ],
+    [ "testLineString", "a05559.html#a33797029fadbcba01b4a4fafec88cf41", null ],
+    [ "testPoint", "a05559.html#af26f700ee129f846cac58735f6dcc380", null ]
 ];

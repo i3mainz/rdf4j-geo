@@ -1,15 +1,15 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node2" href="$a02751.html" title="AggCentroid" alt="" coords="249,5,344,32"/>
-<area shape="rect" id="node3" href="$a02755.html" title="Aggregate function to find the average x coordinate of a set of geometries. " alt="" coords="269,56,324,83"/>
-<area shape="rect" id="node4" href="$a02759.html" title="Aggregate function to find the average y coordinate of a set of geometries. " alt="" coords="269,107,324,133"/>
-<area shape="rect" id="node5" href="$a02763.html" title="Aggregate function to find the average z coordinate of a set of geometries. " alt="" coords="270,157,323,184"/>
-<area shape="rect" id="node6" href="$a02767.html" title="Aggregate function to calculate a boundingbox of a set of geometries. " alt="" coords="247,208,346,235"/>
-<area shape="rect" id="node7" href="$a02775.html" title="ConcatenateLines" alt="" coords="233,259,360,285"/>
-<area shape="rect" id="node8" href="$a02783.html" title="GeomUnion" alt="" coords="251,309,342,336"/>
-<area shape="rect" id="node9" href="$a02787.html" title="Aggregate function to find the maximum x coordinate of a set of geometries. " alt="" coords="269,360,325,387"/>
-<area shape="rect" id="node10" href="$a02791.html" title="Aggregate function to find the maximum y coordinate of a set of geometries. " alt="" coords="269,411,325,437"/>
-<area shape="rect" id="node11" href="$a02795.html" title="Aggregate function to find the maximum z coordinate of a set of geometries. " alt="" coords="269,461,324,488"/>
-<area shape="rect" id="node12" href="$a02799.html" title="Aggregate function to find the minimum x coordinate of a set of geometries. " alt="" coords="271,512,323,539"/>
-<area shape="rect" id="node13" href="$a02803.html" title="Aggregate function to find the minimum y coordinate of a set of geometries. " alt="" coords="271,563,323,589"/>
-<area shape="rect" id="node14" href="$a02807.html" title="Aggregate function to find the minimum z coordinate of a set of geometries. " alt="" coords="271,613,322,640"/>
+<area shape="rect" id="node2" href="$a02763.html" title="AggCentroid" alt="" coords="249,5,344,32"/>
+<area shape="rect" id="node3" href="$a02767.html" title="Aggregate function to find the average x coordinate of a set of geometries. " alt="" coords="269,56,324,83"/>
+<area shape="rect" id="node4" href="$a02771.html" title="Aggregate function to find the average y coordinate of a set of geometries. " alt="" coords="269,107,324,133"/>
+<area shape="rect" id="node5" href="$a02775.html" title="Aggregate function to find the average z coordinate of a set of geometries. " alt="" coords="270,157,323,184"/>
+<area shape="rect" id="node6" href="$a02779.html" title="Aggregate function to calculate a boundingbox of a set of geometries. " alt="" coords="247,208,346,235"/>
+<area shape="rect" id="node7" href="$a02787.html" title="ConcatenateLines" alt="" coords="233,259,360,285"/>
+<area shape="rect" id="node8" href="$a02795.html" title="GeomUnion" alt="" coords="251,309,342,336"/>
+<area shape="rect" id="node9" href="$a02799.html" title="Aggregate function to find the maximum x coordinate of a set of geometries. " alt="" coords="269,360,325,387"/>
+<area shape="rect" id="node10" href="$a02803.html" title="Aggregate function to find the maximum y coordinate of a set of geometries. " alt="" coords="269,411,325,437"/>
+<area shape="rect" id="node11" href="$a02807.html" title="Aggregate function to find the maximum z coordinate of a set of geometries. " alt="" coords="269,461,324,488"/>
+<area shape="rect" id="node12" href="$a02811.html" title="Aggregate function to find the minimum x coordinate of a set of geometries. " alt="" coords="271,512,323,539"/>
+<area shape="rect" id="node13" href="$a02815.html" title="Aggregate function to find the minimum y coordinate of a set of geometries. " alt="" coords="271,563,323,589"/>
+<area shape="rect" id="node14" href="$a02819.html" title="Aggregate function to find the minimum z coordinate of a set of geometries. " alt="" coords="271,613,322,640"/>
 </map>

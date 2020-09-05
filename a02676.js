@@ -1,4 +1,5 @@
 var a02676 =
 [
-    [ "util", "a02677.html", "a02677" ]
+    [ "wkb", "a02678.html", "a02678" ],
+    [ "SampleDimensionType", "a05183.html", "a05183" ]
 ];

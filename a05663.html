@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>rdf4j-postgis: SridIsProjectedTest Class Reference</title>
+<title>rdf4j-postgis: SridGetAxis2NameTest Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -65,21 +65,21 @@ $(document).ready(function(){initNavTree('a05663.html','');});
 <a href="#pub-static-attribs">Static Public Attributes</a> &#124;
 <a href="a05660.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">SridIsProjectedTest Class Reference</div>  </div>
+<div class="title">SridGetAxis2NameTest Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 <div class="dynheader">
-Collaboration diagram for SridIsProjectedTest:</div>
+Collaboration diagram for SridGetAxis2NameTest:</div>
 <div class="dyncontent">
-<div class="center"><img src="a05661.png" border="0" usemap="#SridIsProjectedTest_coll__map" alt="Collaboration graph"/></div>
-<map name="SridIsProjectedTest_coll__map" id="SridIsProjectedTest_coll__map">
+<div class="center"><img src="a05661.png" border="0" usemap="#SridGetAxis2NameTest_coll__map" alt="Collaboration graph"/></div>
+<map name="SridGetAxis2NameTest_coll__map" id="SridGetAxis2NameTest_coll__map">
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a79fa3e75c2d90e917a8ece94f56a16ba"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05663.html#a79fa3e75c2d90e917a8ece94f56a16ba">testSridIsProjectedTrue</a> ()</td></tr>
-<tr class="separator:a79fa3e75c2d90e917a8ece94f56a16ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa23d52a72eb64b4bee30038ab09e5e21"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05663.html#aa23d52a72eb64b4bee30038ab09e5e21">testSridGetAxis2Name</a> ()</td></tr>
+<tr class="separator:aa23d52a72eb64b4bee30038ab09e5e21"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
@@ -87,14 +87,14 @@ Static Public Attributes</h2></td></tr>
 <tr class="separator:af26f700ee129f846cac58735f6dcc380"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a79fa3e75c2d90e917a8ece94f56a16ba"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a79fa3e75c2d90e917a8ece94f56a16ba">&#9670;&nbsp;</a></span>testSridIsProjectedTrue()</h2>
+<a id="aa23d52a72eb64b4bee30038ab09e5e21"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa23d52a72eb64b4bee30038ab09e5e21">&#9670;&nbsp;</a></span>testSridGetAxis2Name()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void testSridIsProjectedTrue </td>
+          <td class="memname">void testSridGetAxis2Name </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -102,8 +102,8 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="a03107.html#a43b4c73244bc6722ce551c1033cf1115">GeometricBinaryAttributeFunction.evaluate()</a>, and <a class="el" href="a05083.html#ae02c2e86ac0dea8538c7b43e9e82421a">WKTDatatype.LiteralIRI</a>.</p>
-<div class="fragment"><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;                                              {</div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;                SridIsProjected is3d=<span class="keyword">new</span> SridIsProjected();</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;                ValueFactory valfac=SimpleValueFactory.getInstance();</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;                Value geo=valfac.createLiteral(<a class="code" href="a05663.html#af26f700ee129f846cac58735f6dcc380">testPoint</a>,WKTDatatype.LiteralIRI);</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;                Value result=is3d.evaluate(valfac, geo);</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;                Value expResult=valfac.createLiteral(<span class="keyword">true</span>);</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;            assertEquals(expResult, result);</div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;        }</div><div class="ttc" id="a05663_html_af26f700ee129f846cac58735f6dcc380"><div class="ttname"><a href="a05663.html#af26f700ee129f846cac58735f6dcc380">org.eclipse.rdf4j.testsuites.postgis.geometry.srid.SridIsProjectedTest.testPoint</a></div><div class="ttdeci">static final String testPoint</div><div class="ttdef"><b>Definition:</b> SridIsProjectedTest.java:15</div></div>
+<p class="reference">References <a class="el" href="a03227.html#a43b4c73244bc6722ce551c1033cf1115">GeometricStringExportFunction.evaluate()</a>, and <a class="el" href="a05103.html#ae02c2e86ac0dea8538c7b43e9e82421a">WKTDatatype.LiteralIRI</a>.</p>
+<div class="fragment"><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;                                           {</div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;                SridGetAxis2Name is3d=<span class="keyword">new</span> SridGetAxis2Name();</div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;                ValueFactory valfac=SimpleValueFactory.getInstance();</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;                Value geo=valfac.createLiteral(<a class="code" href="a05663.html#af26f700ee129f846cac58735f6dcc380">testPoint</a>,WKTDatatype.LiteralIRI);</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;                Value result=is3d.evaluate(valfac, geo);</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;                Value expResult=valfac.createLiteral(<span class="stringliteral">&quot;X&quot;</span>);</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;            assertEquals(expResult, result);</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;        }</div><div class="ttc" id="a05663_html_af26f700ee129f846cac58735f6dcc380"><div class="ttname"><a href="a05663.html#af26f700ee129f846cac58735f6dcc380">org.eclipse.rdf4j.testsuites.postgis.geometry.srid.SridGetAxis2NameTest.testPoint</a></div><div class="ttdeci">static final String testPoint</div><div class="ttdef"><b>Definition:</b> SridGetAxis2NameTest.java:14</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -136,7 +136,7 @@ Static Public Attributes</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="a02598.html">org</a></li><li class="navelem"><a class="el" href="a02599.html">eclipse</a></li><li class="navelem"><a class="el" href="a02600.html">rdf4j</a></li><li class="navelem"><a class="el" href="a02681.html">testsuites</a></li><li class="navelem"><a class="el" href="a02682.html">postgis</a></li><li class="navelem"><a class="el" href="a02685.html">geometry</a></li><li class="navelem"><a class="el" href="a02690.html">srid</a></li><li class="navelem"><a class="el" href="a05663.html">SridIsProjectedTest</a></li>
+    <li class="navelem"><a class="el" href="a02610.html">org</a></li><li class="navelem"><a class="el" href="a02611.html">eclipse</a></li><li class="navelem"><a class="el" href="a02612.html">rdf4j</a></li><li class="navelem"><a class="el" href="a02693.html">testsuites</a></li><li class="navelem"><a class="el" href="a02694.html">postgis</a></li><li class="navelem"><a class="el" href="a02697.html">geometry</a></li><li class="navelem"><a class="el" href="a02702.html">srid</a></li><li class="navelem"><a class="el" href="a05663.html">SridGetAxis2NameTest</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>

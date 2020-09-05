@@ -1,7 +1,7 @@
 var a06011 =
 [
     [ "getInstance", "a06011.html#af8afdd14b38b523d100805364a48ed63", null ],
-    [ "testInvert", "a06011.html#a3875377b79892135ac775effda227d4c", null ],
+    [ "testAdd", "a06011.html#afd0ee1fd8a383350e390e5b63a8a1cda", null ],
     [ "combinedRasterLiteral", "a06011.html#a6efe8702be34a67e2bcbba55588c5b5f", null ],
     [ "covJSONString1", "a06011.html#a993e2f127f3ec8f256e9799d77507223", null ],
     [ "hexwkbString1", "a06011.html#a55fb5b5d665417265da09403128e396e", null ],

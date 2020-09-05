@@ -1,7 +1,7 @@
 var a05955 =
 [
-    [ "testAddRing", "a05955.html#abfc2c7e942ef652635d2256ba4e1fa47", null ],
-    [ "duplicateRings", "a05955.html#a92f3ef00fc079a76b7f943d9ed6cec77", null ],
-    [ "nonduplicateRings", "a05955.html#a675a0b1b194538fc07fa716705f883a5", null ],
-    [ "ring", "a05955.html#a3e4a839eee2eb5791f90656e82eec721", null ]
+    [ "testIsPolygonCWFalse", "a05955.html#a017c3fe070c2ab2e34a67d428cec06d3", null ],
+    [ "testIsPolygonCWTrue", "a05955.html#a65124e83aa8d64983e3fc4a131479949", null ],
+    [ "testPolygon", "a05955.html#a1e3187cbc25299380589200c398b3ffd", null ],
+    [ "testPolygon2", "a05955.html#a882729aec95621b4ad261714738ae3fd", null ]
 ];

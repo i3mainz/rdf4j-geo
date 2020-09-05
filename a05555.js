@@ -1,10 +1,7 @@
 var a05555 =
 [
-    [ "testEqualSRS", "a05555.html#a65423949d44f9275c8e65852f1d2c21f", null ],
-    [ "testNoSRS", "a05555.html#a9512f8c6cc810712e75379a2ac3af62a", null ],
-    [ "testNotEqualSRS", "a05555.html#a53e030c2e7a0f1d14425a168c2add23b", null ],
-    [ "testGeom", "a05555.html#a03a5f5da0ccbeed8c1678d4317cf2672", null ],
-    [ "testGeom2", "a05555.html#a6b4be369c8f60e973cd5126e69cd33a4", null ],
-    [ "testGeom3", "a05555.html#a800b6bb875a8ff4404ea787c3df125a5", null ],
-    [ "testGeom4", "a05555.html#a4c55e7efe430d6d220fb05524c4bb940", null ]
+    [ "testCentroidDistance", "a05555.html#a312e87d7afb4dd085ada4f2f2c8d288f", null ],
+    [ "testCentroidDistance2", "a05555.html#a5eab32bf961a899b72bea71a38ff3c3c", null ],
+    [ "isocelesTriangle", "a05555.html#aa04dfbec745e2622b9f7646f8572e501", null ],
+    [ "notIsocelesTriangle", "a05555.html#a055d99fb63bcee37763ffcf4da9e0521", null ]
 ];

@@ -1,7 +1,5 @@
 var a05447 =
 [
-    [ "testAddGeometry", "a05447.html#a4ebf1443292e242753148cb8748d9169", null ],
-    [ "testAddGeometryZ", "a05447.html#a7405251c9ffbd82086e9e63d9ced3c82", null ],
-    [ "lineString", "a05447.html#a76e109dc83d6f4d16fcd2fa3e73054f6", null ],
-    [ "point", "a05447.html#a081811ff1c2bedd0a20703599f90114f", null ]
+    [ "testNumPoints", "a05447.html#ab30b87a5d89bd6e36dae388ce20e61a7", null ],
+    [ "testGeom", "a05447.html#a03a5f5da0ccbeed8c1678d4317cf2672", null ]
 ];

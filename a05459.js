@@ -1,9 +1,5 @@
 var a05459 =
 [
-    [ "testRemoveGeometry1", "a05459.html#a910e74995416610c31bdfb5ab3260d76", null ],
-    [ "testRemoveGeometry1Z", "a05459.html#a60a65740b83f0a07de47b82baf1ff4e1", null ],
-    [ "testRemoveGeometry2", "a05459.html#affbdb9b48b9af6eedbf8d011f683a631", null ],
-    [ "testRemoveGeometry2Z", "a05459.html#af5c1b4eec2210853d1e7f1c6d6f2a02c", null ],
-    [ "lineString", "a05459.html#a76e109dc83d6f4d16fcd2fa3e73054f6", null ],
-    [ "point", "a05459.html#a081811ff1c2bedd0a20703599f90114f", null ]
+    [ "testGeomFromText", "a05459.html#a2678d2fcc796b673cc52b0e000a954b0", null ],
+    [ "geoJsonTestGeom", "a05459.html#a117e8ff340791b5aa0658f5840b5dcf4", null ]
 ];

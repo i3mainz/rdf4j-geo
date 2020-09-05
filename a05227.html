@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>rdf4j-postgis: Coordinate.DimensionalComparator Class Reference</title>
+<title>rdf4j-postgis: TWKBUtils Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -61,109 +61,60 @@ $(document).ready(function(){initNavTree('a05227.html','');});
 <div id="doc-content">
 <div class="header">
   <div class="summary">
-<a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
-<a href="#pri-attribs">Private Attributes</a> &#124;
+<a href="#pub-static-attribs">Static Public Attributes</a> &#124;
 <a href="a05224.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">Coordinate.DimensionalComparator Class Reference</div>  </div>
+<div class="title">TWKBUtils Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-
-<p>Compares two <a class="el" href="a05223.html">Coordinate</a>s, allowing for either a 2-dimensional or 3-dimensional comparison, and handling NaN values correctly.  
- <a href="a05227.html#details">More...</a></p>
 <div class="dynheader">
-Inheritance diagram for Coordinate.DimensionalComparator:</div>
+Collaboration diagram for TWKBUtils:</div>
 <div class="dyncontent">
-<div class="center"><img src="a05226.png" border="0" usemap="#Coordinate_8DimensionalComparator_inherit__map" alt="Inheritance graph"/></div>
-<map name="Coordinate_8DimensionalComparator_inherit__map" id="Coordinate_8DimensionalComparator_inherit__map">
-</map>
-<center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
-<div class="dynheader">
-Collaboration diagram for Coordinate.DimensionalComparator:</div>
-<div class="dyncontent">
-<div class="center"><img src="a05225.png" border="0" usemap="#Coordinate_8DimensionalComparator_coll__map" alt="Collaboration graph"/></div>
-<map name="Coordinate_8DimensionalComparator_coll__map" id="Coordinate_8DimensionalComparator_coll__map">
+<div class="center"><img src="a05225.png" border="0" usemap="#TWKBUtils_coll__map" alt="Collaboration graph"/></div>
+<map name="TWKBUtils_coll__map" id="TWKBUtils_coll__map">
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
-Public Member Functions</h2></td></tr>
-<tr class="memitem:a5bd255213663b3596e2de221144f1ab1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05227.html#a5bd255213663b3596e2de221144f1ab1">DimensionalComparator</a> ()</td></tr>
-<tr class="memdesc:a5bd255213663b3596e2de221144f1ab1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a comparator for 2 dimensional coordinates.  <a href="#a5bd255213663b3596e2de221144f1ab1">More...</a><br /></td></tr>
-<tr class="separator:a5bd255213663b3596e2de221144f1ab1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa12c933fd5275be6824111b1f2c92cd6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05227.html#aa12c933fd5275be6824111b1f2c92cd6">DimensionalComparator</a> (int <a class="el" href="a05227.html#a6bb6df1c2db1f7b9fe46d4be2d0083af">dimensionsToTest</a>)</td></tr>
-<tr class="memdesc:aa12c933fd5275be6824111b1f2c92cd6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a comparator for 2 or 3 dimensional coordinates, depending on the value provided.  <a href="#aa12c933fd5275be6824111b1f2c92cd6">More...</a><br /></td></tr>
-<tr class="separator:aa12c933fd5275be6824111b1f2c92cd6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a22ae744431802300f10565640dec04c5"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05227.html#a22ae744431802300f10565640dec04c5">compare</a> (<a class="el" href="a05223.html">Coordinate</a> c1, <a class="el" href="a05223.html">Coordinate</a> c2)</td></tr>
-<tr class="memdesc:a22ae744431802300f10565640dec04c5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compares two <a class="el" href="a05223.html">Coordinate</a>s along to the number of dimensions specified.  <a href="#a22ae744431802300f10565640dec04c5">More...</a><br /></td></tr>
-<tr class="separator:a22ae744431802300f10565640dec04c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a55bbcaf3b85142c9878f7b8ac44290fb"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05227.html#a55bbcaf3b85142c9878f7b8ac44290fb">compare</a> (double a, double b)</td></tr>
-<tr class="memdesc:a55bbcaf3b85142c9878f7b8ac44290fb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compare two <code>double</code>s, allowing for NaN values.  <a href="#a55bbcaf3b85142c9878f7b8ac44290fb">More...</a><br /></td></tr>
-<tr class="separator:a55bbcaf3b85142c9878f7b8ac44290fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac56ffa9468f6d51a81dfc6a16c7553e7"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05227.html#ac56ffa9468f6d51a81dfc6a16c7553e7">zigZagEncode</a> (final int value)</td></tr>
+<tr class="separator:ac56ffa9468f6d51a81dfc6a16c7553e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a39d960ba7b421538218960be0b75dbdb"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05227.html#a39d960ba7b421538218960be0b75dbdb">zigZagDecode</a> (final int value)</td></tr>
+<tr class="separator:a39d960ba7b421538218960be0b75dbdb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
-Private Attributes</h2></td></tr>
-<tr class="memitem:a6bb6df1c2db1f7b9fe46d4be2d0083af"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05227.html#a6bb6df1c2db1f7b9fe46d4be2d0083af">dimensionsToTest</a> = 2</td></tr>
-<tr class="separator:a6bb6df1c2db1f7b9fe46d4be2d0083af"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
+Static Public Attributes</h2></td></tr>
+<tr class="memitem:a92e0b11f85494a2b6953846ee6b4f88d"><td class="memItemLeft" align="right" valign="top">static final byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05227.html#a92e0b11f85494a2b6953846ee6b4f88d">POINT_TYPE</a> = 1</td></tr>
+<tr class="separator:a92e0b11f85494a2b6953846ee6b4f88d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae612cee125e86b43a8a0895733e73471"><td class="memItemLeft" align="right" valign="top">static final byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05227.html#ae612cee125e86b43a8a0895733e73471">LINESTRING_TYPE</a> = 2</td></tr>
+<tr class="separator:ae612cee125e86b43a8a0895733e73471"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4e033b07cdccae3d93c0fe865a9bc513"><td class="memItemLeft" align="right" valign="top">static final byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05227.html#a4e033b07cdccae3d93c0fe865a9bc513">POLYGON_TYPE</a> = 3</td></tr>
+<tr class="separator:a4e033b07cdccae3d93c0fe865a9bc513"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab21548c889cf575c0452ce54b0bb1564"><td class="memItemLeft" align="right" valign="top">static final byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05227.html#ab21548c889cf575c0452ce54b0bb1564">MULTIPOINT_TYPE</a> = 4</td></tr>
+<tr class="separator:ab21548c889cf575c0452ce54b0bb1564"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abc6a100cfe59d0f10d5ff0b83dd28e40"><td class="memItemLeft" align="right" valign="top">static final byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05227.html#abc6a100cfe59d0f10d5ff0b83dd28e40">MULTILINESTRING_TYPE</a> = 5</td></tr>
+<tr class="separator:abc6a100cfe59d0f10d5ff0b83dd28e40"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af8a8622de581648619916bb8eb6cea2d"><td class="memItemLeft" align="right" valign="top">static final byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05227.html#af8a8622de581648619916bb8eb6cea2d">MULTIPOLYGON_TYPE</a> = 6</td></tr>
+<tr class="separator:af8a8622de581648619916bb8eb6cea2d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad69af768670b09117152621e9765d4ca"><td class="memItemLeft" align="right" valign="top">static final byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05227.html#ad69af768670b09117152621e9765d4ca">GEOMETRYCOLLECTION_TYPE</a> = 7</td></tr>
+<tr class="separator:ad69af768670b09117152621e9765d4ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0a64265ce21562ec2811dd05db08a9dd"><td class="memItemLeft" align="right" valign="top">static final byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05227.html#a0a64265ce21562ec2811dd05db08a9dd">EXTENDED_DIMENSIONS</a> = 1 &lt;&lt; 3</td></tr>
+<tr class="separator:a0a64265ce21562ec2811dd05db08a9dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acfd4b309722d80cbae834f273b479450"><td class="memItemLeft" align="right" valign="top">static final byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05227.html#acfd4b309722d80cbae834f273b479450">EMPTY_GEOMETRY</a> = 1 &lt;&lt; 4</td></tr>
+<tr class="separator:acfd4b309722d80cbae834f273b479450"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2dd11c22d698708a6e11580242c97e89"><td class="memItemLeft" align="right" valign="top">static final byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05227.html#a2dd11c22d698708a6e11580242c97e89">MAX_COORD_PRECISION</a> = 7</td></tr>
+<tr class="separator:a2dd11c22d698708a6e11580242c97e89"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5bee20a7d59eea71b635f7f136c48e91"><td class="memItemLeft" align="right" valign="top">static final byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05227.html#a5bee20a7d59eea71b635f7f136c48e91">MIN_COORD_PRECISION</a> = -8</td></tr>
+<tr class="separator:a5bee20a7d59eea71b635f7f136c48e91"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5b750380e571ae88f99a796f9d54e49f"><td class="memItemLeft" align="right" valign="top">static final byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05227.html#a5b750380e571ae88f99a796f9d54e49f">MAX_EXTENDED_PRECISION</a> = 3</td></tr>
+<tr class="separator:a5b750380e571ae88f99a796f9d54e49f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad70b66875f973adc5547402ec3ab512d"><td class="memItemLeft" align="right" valign="top">static final byte&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05227.html#ad70b66875f973adc5547402ec3ab512d">MIN_EXTENDED_PRECISION</a> = -4</td></tr>
+<tr class="separator:ad70b66875f973adc5547402ec3ab512d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Compares two <a class="el" href="a05223.html">Coordinate</a>s, allowing for either a 2-dimensional or 3-dimensional comparison, and handling NaN values correctly. </p>
-</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a5bd255213663b3596e2de221144f1ab1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5bd255213663b3596e2de221144f1ab1">&#9670;&nbsp;</a></span>DimensionalComparator() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="a05227.html">DimensionalComparator</a> </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Creates a comparator for 2 dimensional coordinates. </p>
-<div class="fragment"><div class="line"><a name="l00509"></a><span class="lineno">  509</span>&#160;    {</div><div class="line"><a name="l00510"></a><span class="lineno">  510</span>&#160;      <span class="keyword">this</span>(2);</div><div class="line"><a name="l00511"></a><span class="lineno">  511</span>&#160;    }</div></div><!-- fragment -->
-</div>
-</div>
-<a id="aa12c933fd5275be6824111b1f2c92cd6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa12c933fd5275be6824111b1f2c92cd6">&#9670;&nbsp;</a></span>DimensionalComparator() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="a05227.html">DimensionalComparator</a> </td>
-          <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>dimensionsToTest</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Creates a comparator for 2 or 3 dimensional coordinates, depending on the value provided. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">dimensionsToTest</td><td>the number of dimensions to test </td></tr>
-  </table>
-  </dd>
-</dl>
-
-<p class="reference">References <a class="el" href="a05227.html#a6bb6df1c2db1f7b9fe46d4be2d0083af">Coordinate.DimensionalComparator.dimensionsToTest</a>.</p>
-<div class="fragment"><div class="line"><a name="l00520"></a><span class="lineno">  520</span>&#160;    {</div><div class="line"><a name="l00521"></a><span class="lineno">  521</span>&#160;      <span class="keywordflow">if</span> (<a class="code" href="a05227.html#a6bb6df1c2db1f7b9fe46d4be2d0083af">dimensionsToTest</a> != 2 &amp;&amp; <a class="code" href="a05227.html#a6bb6df1c2db1f7b9fe46d4be2d0083af">dimensionsToTest</a> != 3)</div><div class="line"><a name="l00522"></a><span class="lineno">  522</span>&#160;        <span class="keywordflow">throw</span> <span class="keyword">new</span> IllegalArgumentException(<span class="stringliteral">&quot;only 2 or 3 dimensions may be specified&quot;</span>);</div><div class="line"><a name="l00523"></a><span class="lineno">  523</span>&#160;      this.<a class="code" href="a05227.html#a6bb6df1c2db1f7b9fe46d4be2d0083af">dimensionsToTest</a> = <a class="code" href="a05227.html#a6bb6df1c2db1f7b9fe46d4be2d0083af">dimensionsToTest</a>;</div><div class="line"><a name="l00524"></a><span class="lineno">  524</span>&#160;    }</div><div class="ttc" id="a05227_html_a6bb6df1c2db1f7b9fe46d4be2d0083af"><div class="ttname"><a href="a05227.html#a6bb6df1c2db1f7b9fe46d4be2d0083af">org.locationtech.jts.geom.Coordinate.DimensionalComparator.dimensionsToTest</a></div><div class="ttdeci">int dimensionsToTest</div><div class="ttdef"><b>Definition:</b> Coordinate.java:503</div></div>
-</div><!-- fragment -->
-</div>
-</div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a55bbcaf3b85142c9878f7b8ac44290fb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a55bbcaf3b85142c9878f7b8ac44290fb">&#9670;&nbsp;</a></span>compare() <span class="overload">[1/2]</span></h2>
+<a id="a39d960ba7b421538218960be0b75dbdb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a39d960ba7b421538218960be0b75dbdb">&#9670;&nbsp;</a></span>zigZagDecode()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -172,21 +123,11 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static int compare </td>
+          <td class="memname">static int zigZagDecode </td>
           <td>(</td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>a</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
+          <td class="paramtype">final int&#160;</td>
+          <td class="paramname"><em>value</em></td><td>)</td>
           <td></td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>b</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
         </tr>
       </table>
   </td>
@@ -196,66 +137,12 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Compare two <code>double</code>s, allowing for NaN values. </p>
-<p>NaN is treated as being less than any valid number.</p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">a</td><td>a <code>double</code> </td></tr>
-    <tr><td class="paramname">b</td><td>a <code>double</code> </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>-1, 0, or 1 depending on whether a is less than, equal to or greater than b </dd></dl>
-
-<p class="reference">Referenced by <a class="el" href="a05227.html#a22ae744431802300f10565640dec04c5">Coordinate.DimensionalComparator.compare()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00490"></a><span class="lineno">  490</span>&#160;    {</div><div class="line"><a name="l00491"></a><span class="lineno">  491</span>&#160;      <span class="keywordflow">if</span> (a &lt; b) <span class="keywordflow">return</span> -1;</div><div class="line"><a name="l00492"></a><span class="lineno">  492</span>&#160;      <span class="keywordflow">if</span> (a &gt; b) <span class="keywordflow">return</span> 1;</div><div class="line"><a name="l00493"></a><span class="lineno">  493</span>&#160;</div><div class="line"><a name="l00494"></a><span class="lineno">  494</span>&#160;      <span class="keywordflow">if</span> (Double.isNaN(a)) {</div><div class="line"><a name="l00495"></a><span class="lineno">  495</span>&#160;        <span class="keywordflow">if</span> (Double.isNaN(b)) <span class="keywordflow">return</span> 0;</div><div class="line"><a name="l00496"></a><span class="lineno">  496</span>&#160;        <span class="keywordflow">return</span> -1;</div><div class="line"><a name="l00497"></a><span class="lineno">  497</span>&#160;      }</div><div class="line"><a name="l00498"></a><span class="lineno">  498</span>&#160;</div><div class="line"><a name="l00499"></a><span class="lineno">  499</span>&#160;      <span class="keywordflow">if</span> (Double.isNaN(b)) <span class="keywordflow">return</span> 1;</div><div class="line"><a name="l00500"></a><span class="lineno">  500</span>&#160;      <span class="keywordflow">return</span> 0;</div><div class="line"><a name="l00501"></a><span class="lineno">  501</span>&#160;    }</div></div><!-- fragment -->
+<p class="reference">Referenced by <a class="el" href="a05223.html#a82112ea6921f2d28f7663dfa20ae32c6">TWKBReader.ExtendedPrecisionReader.ExtendedPrecisionReader()</a>, and <a class="el" href="a05211.html#a9652885c7bbb8ceaa0fd9449fe537fba">TWKBReader.read()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;                                                  {</div><div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    <span class="keyword">final</span> <span class="keywordtype">int</span> temp = (((value &lt;&lt; 31) &gt;&gt; 31) ^ value) &gt;&gt; 1;</div><div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    <span class="keywordflow">return</span> temp ^ (value &amp; (1 &lt;&lt; 31));</div><div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;  }</div></div><!-- fragment -->
 </div>
 </div>
-<a id="a22ae744431802300f10565640dec04c5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a22ae744431802300f10565640dec04c5">&#9670;&nbsp;</a></span>compare() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">int compare </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="a05223.html">Coordinate</a>&#160;</td>
-          <td class="paramname"><em>c1</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="a05223.html">Coordinate</a>&#160;</td>
-          <td class="paramname"><em>c2</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Compares two <a class="el" href="a05223.html">Coordinate</a>s along to the number of dimensions specified. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">o1</td><td>a <a class="el" href="a05223.html">Coordinate</a> </td></tr>
-    <tr><td class="paramname">o2</td><td>a {link <a class="el" href="a05223.html" title="A lightweight class used to store coordinates on the 2-dimensional Cartesian plane. ">Coordinate</a>} </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>-1, 0, or 1 depending on whether o1 is less than, equal to, or greater than 02 </dd></dl>
-
-<p class="reference">References <a class="el" href="a05227.html#a55bbcaf3b85142c9878f7b8ac44290fb">Coordinate.DimensionalComparator.compare()</a>, <a class="el" href="a05223.html#a12408ea71b830bfdbd24101b0b6ca49a">Coordinate.getZ()</a>, <a class="el" href="a05223.html#af88b946fb90d5f08b5fb740c70e98c10">Coordinate.x</a>, and <a class="el" href="a05223.html#ab927965981178aa1fba979a37168db2a">Coordinate.y</a>.</p>
-<div class="fragment"><div class="line"><a name="l00537"></a><span class="lineno">  537</span>&#160;    {</div><div class="line"><a name="l00538"></a><span class="lineno">  538</span>&#160;      <span class="keywordtype">int</span> compX = <a class="code" href="a05227.html#a55bbcaf3b85142c9878f7b8ac44290fb">compare</a>(c1.x, c2.x);</div><div class="line"><a name="l00539"></a><span class="lineno">  539</span>&#160;      <span class="keywordflow">if</span> (compX != 0) <span class="keywordflow">return</span> compX;</div><div class="line"><a name="l00540"></a><span class="lineno">  540</span>&#160;</div><div class="line"><a name="l00541"></a><span class="lineno">  541</span>&#160;      <span class="keywordtype">int</span> compY = <a class="code" href="a05227.html#a55bbcaf3b85142c9878f7b8ac44290fb">compare</a>(c1.y, c2.y);</div><div class="line"><a name="l00542"></a><span class="lineno">  542</span>&#160;      <span class="keywordflow">if</span> (compY != 0) <span class="keywordflow">return</span> compY;</div><div class="line"><a name="l00543"></a><span class="lineno">  543</span>&#160;</div><div class="line"><a name="l00544"></a><span class="lineno">  544</span>&#160;      <span class="keywordflow">if</span> (<a class="code" href="a05227.html#a6bb6df1c2db1f7b9fe46d4be2d0083af">dimensionsToTest</a> &lt;= 2) <span class="keywordflow">return</span> 0;</div><div class="line"><a name="l00545"></a><span class="lineno">  545</span>&#160;</div><div class="line"><a name="l00546"></a><span class="lineno">  546</span>&#160;      <span class="keywordtype">int</span> compZ = <a class="code" href="a05227.html#a55bbcaf3b85142c9878f7b8ac44290fb">compare</a>(c1.getZ(), c2.getZ());</div><div class="line"><a name="l00547"></a><span class="lineno">  547</span>&#160;      <span class="keywordflow">return</span> compZ;</div><div class="line"><a name="l00548"></a><span class="lineno">  548</span>&#160;    }</div><div class="ttc" id="a05227_html_a6bb6df1c2db1f7b9fe46d4be2d0083af"><div class="ttname"><a href="a05227.html#a6bb6df1c2db1f7b9fe46d4be2d0083af">org.locationtech.jts.geom.Coordinate.DimensionalComparator.dimensionsToTest</a></div><div class="ttdeci">int dimensionsToTest</div><div class="ttdef"><b>Definition:</b> Coordinate.java:503</div></div>
-<div class="ttc" id="a05227_html_a55bbcaf3b85142c9878f7b8ac44290fb"><div class="ttname"><a href="a05227.html#a55bbcaf3b85142c9878f7b8ac44290fb">org.locationtech.jts.geom.Coordinate.DimensionalComparator.compare</a></div><div class="ttdeci">static int compare(double a, double b)</div><div class="ttdoc">Compare two doubles, allowing for NaN values. </div><div class="ttdef"><b>Definition:</b> Coordinate.java:489</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<h2 class="groupheader">Member Data Documentation</h2>
-<a id="a6bb6df1c2db1f7b9fe46d4be2d0083af"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6bb6df1c2db1f7b9fe46d4be2d0083af">&#9670;&nbsp;</a></span>dimensionsToTest</h2>
+<a id="ac56ffa9468f6d51a81dfc6a16c7553e7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac56ffa9468f6d51a81dfc6a16c7553e7">&#9670;&nbsp;</a></span>zigZagEncode()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -264,17 +151,330 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">int dimensionsToTest = 2</td>
+          <td class="memname">static int zigZagEncode </td>
+          <td>(</td>
+          <td class="paramtype">final int&#160;</td>
+          <td class="paramname"><em>value</em></td><td>)</td>
+          <td></td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="a05227.html#aa12c933fd5275be6824111b1f2c92cd6">Coordinate.DimensionalComparator.DimensionalComparator()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="a05231.html#a2513e591488b85a0a4ffae1f192e48d1">TWKBWriter.getTypeAndPrecisionByte()</a>, and <a class="el" href="a05239.html#a320ccd90ec0ef71a4353104b7fe98a1c">TWKBWriter.ExtendedPrecisionWriter.writeExtendedPrecision()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;                                                  {</div><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    <span class="keywordflow">return</span> (value &lt;&lt; 1) ^ (value &gt;&gt; 31);</div><div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;  }</div></div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="acfd4b309722d80cbae834f273b479450"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acfd4b309722d80cbae834f273b479450">&#9670;&nbsp;</a></span>EMPTY_GEOMETRY</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final byte EMPTY_GEOMETRY = 1 &lt;&lt; 4</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="a05211.html#ab4d4478c3bf2e64323326c692fc8423c">TWKBReader.readGeometryCollection()</a>, <a class="el" href="a05211.html#acede6c0ca02364e8d3082860dbc85756">TWKBReader.readLineString()</a>, <a class="el" href="a05211.html#a2eb2c0cc11788b2a6b4076b1cbc33d4d">TWKBReader.readMultiLineString()</a>, <a class="el" href="a05211.html#a2839b0647e24edb08f4d36933d5085d0">TWKBReader.readMultiPoint()</a>, <a class="el" href="a05211.html#a9cc7f376f2d046a015b6d579aa02880f">TWKBReader.readMultiPolygon()</a>, <a class="el" href="a05211.html#a5f412336d0409a4764a3f8c7f32d762d">TWKBReader.readPoint()</a>, <a class="el" href="a05211.html#aaf811e3872d22365c43a9226c5ba9a5e">TWKBReader.readPolygon()</a>, and <a class="el" href="a05231.html#a1ad170fc53b3438a213305dcf054c951">TWKBWriter.write()</a>.</p>
+
+</div>
+</div>
+<a id="a0a64265ce21562ec2811dd05db08a9dd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0a64265ce21562ec2811dd05db08a9dd">&#9670;&nbsp;</a></span>EXTENDED_DIMENSIONS</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final byte EXTENDED_DIMENSIONS = 1 &lt;&lt; 3</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="a05211.html#a9652885c7bbb8ceaa0fd9449fe537fba">TWKBReader.read()</a>, and <a class="el" href="a05231.html#a1ad170fc53b3438a213305dcf054c951">TWKBWriter.write()</a>.</p>
+
+</div>
+</div>
+<a id="ad69af768670b09117152621e9765d4ca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad69af768670b09117152621e9765d4ca">&#9670;&nbsp;</a></span>GEOMETRYCOLLECTION_TYPE</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final byte GEOMETRYCOLLECTION_TYPE = 7</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="a05231.html#af6ac6c1ca84de00107ff33acf010fb56">TWKBWriter.getType()</a>, <a class="el" href="a05211.html#a9652885c7bbb8ceaa0fd9449fe537fba">TWKBReader.read()</a>, and <a class="el" href="a05231.html#a1ad170fc53b3438a213305dcf054c951">TWKBWriter.write()</a>.</p>
+
+</div>
+</div>
+<a id="ae612cee125e86b43a8a0895733e73471"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae612cee125e86b43a8a0895733e73471">&#9670;&nbsp;</a></span>LINESTRING_TYPE</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final byte LINESTRING_TYPE = 2</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="a05231.html#af6ac6c1ca84de00107ff33acf010fb56">TWKBWriter.getType()</a>, <a class="el" href="a05211.html#a9652885c7bbb8ceaa0fd9449fe537fba">TWKBReader.read()</a>, and <a class="el" href="a05231.html#a1ad170fc53b3438a213305dcf054c951">TWKBWriter.write()</a>.</p>
+
+</div>
+</div>
+<a id="a2dd11c22d698708a6e11580242c97e89"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2dd11c22d698708a6e11580242c97e89">&#9670;&nbsp;</a></span>MAX_COORD_PRECISION</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final byte MAX_COORD_PRECISION = 7</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="a05231.html#a2990399609cc699aee5a40156feee03e">TWKBWriter.TWKBWriter()</a>.</p>
+
+</div>
+</div>
+<a id="a5b750380e571ae88f99a796f9d54e49f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5b750380e571ae88f99a796f9d54e49f">&#9670;&nbsp;</a></span>MAX_EXTENDED_PRECISION</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final byte MAX_EXTENDED_PRECISION = 3</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="a05239.html#a7626720b9bf807253dd702a0214dc9f0">TWKBWriter.ExtendedPrecisionWriter.finalize()</a>.</p>
+
+</div>
+</div>
+<a id="a5bee20a7d59eea71b635f7f136c48e91"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5bee20a7d59eea71b635f7f136c48e91">&#9670;&nbsp;</a></span>MIN_COORD_PRECISION</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final byte MIN_COORD_PRECISION = -8</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad70b66875f973adc5547402ec3ab512d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad70b66875f973adc5547402ec3ab512d">&#9670;&nbsp;</a></span>MIN_EXTENDED_PRECISION</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final byte MIN_EXTENDED_PRECISION = -4</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="abc6a100cfe59d0f10d5ff0b83dd28e40"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abc6a100cfe59d0f10d5ff0b83dd28e40">&#9670;&nbsp;</a></span>MULTILINESTRING_TYPE</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final byte MULTILINESTRING_TYPE = 5</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="a05231.html#af6ac6c1ca84de00107ff33acf010fb56">TWKBWriter.getType()</a>, <a class="el" href="a05211.html#a9652885c7bbb8ceaa0fd9449fe537fba">TWKBReader.read()</a>, and <a class="el" href="a05231.html#a1ad170fc53b3438a213305dcf054c951">TWKBWriter.write()</a>.</p>
+
+</div>
+</div>
+<a id="ab21548c889cf575c0452ce54b0bb1564"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab21548c889cf575c0452ce54b0bb1564">&#9670;&nbsp;</a></span>MULTIPOINT_TYPE</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final byte MULTIPOINT_TYPE = 4</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="a05231.html#af6ac6c1ca84de00107ff33acf010fb56">TWKBWriter.getType()</a>, <a class="el" href="a05211.html#a9652885c7bbb8ceaa0fd9449fe537fba">TWKBReader.read()</a>, and <a class="el" href="a05231.html#a1ad170fc53b3438a213305dcf054c951">TWKBWriter.write()</a>.</p>
+
+</div>
+</div>
+<a id="af8a8622de581648619916bb8eb6cea2d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af8a8622de581648619916bb8eb6cea2d">&#9670;&nbsp;</a></span>MULTIPOLYGON_TYPE</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final byte MULTIPOLYGON_TYPE = 6</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="a05231.html#af6ac6c1ca84de00107ff33acf010fb56">TWKBWriter.getType()</a>, <a class="el" href="a05211.html#a9652885c7bbb8ceaa0fd9449fe537fba">TWKBReader.read()</a>, and <a class="el" href="a05231.html#a1ad170fc53b3438a213305dcf054c951">TWKBWriter.write()</a>.</p>
+
+</div>
+</div>
+<a id="a92e0b11f85494a2b6953846ee6b4f88d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a92e0b11f85494a2b6953846ee6b4f88d">&#9670;&nbsp;</a></span>POINT_TYPE</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final byte POINT_TYPE = 1</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="a05231.html#af6ac6c1ca84de00107ff33acf010fb56">TWKBWriter.getType()</a>, <a class="el" href="a05211.html#a9652885c7bbb8ceaa0fd9449fe537fba">TWKBReader.read()</a>, and <a class="el" href="a05231.html#a1ad170fc53b3438a213305dcf054c951">TWKBWriter.write()</a>.</p>
+
+</div>
+</div>
+<a id="a4e033b07cdccae3d93c0fe865a9bc513"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4e033b07cdccae3d93c0fe865a9bc513">&#9670;&nbsp;</a></span>POLYGON_TYPE</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final byte POLYGON_TYPE = 3</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="a05231.html#af6ac6c1ca84de00107ff33acf010fb56">TWKBWriter.getType()</a>, <a class="el" href="a05211.html#a9652885c7bbb8ceaa0fd9449fe537fba">TWKBReader.read()</a>, and <a class="el" href="a05231.html#a1ad170fc53b3438a213305dcf054c951">TWKBWriter.write()</a>.</p>
 
 </div>
 </div>
@@ -284,7 +484,7 @@ Private Attributes</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="a02598.html">org</a></li><li class="navelem"><a class="el" href="a02669.html">locationtech</a></li><li class="navelem"><a class="el" href="a02674.html">jts</a></li><li class="navelem"><a class="el" href="a02673.html">geom</a></li><li class="navelem"><a class="el" href="a05223.html">Coordinate</a></li><li class="navelem"><a class="el" href="a05227.html">DimensionalComparator</a></li>
+    <li class="navelem"><a class="el" href="a02610.html">org</a></li><li class="navelem"><a class="el" href="a02681.html">locationtech</a></li><li class="navelem"><a class="el" href="a02682.html">geowave</a></li><li class="navelem"><a class="el" href="a02683.html">core</a></li><li class="navelem"><a class="el" href="a02684.html">geotime</a></li><li class="navelem"><a class="el" href="a02680.html">util</a></li><li class="navelem"><a class="el" href="a05227.html">TWKBUtils</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>

@@ -1,5 +1,6 @@
 var a05643 =
 [
-    [ "testSridGetAxis2Name", "a05643.html#aa23d52a72eb64b4bee30038ab09e5e21", null ],
-    [ "testPoint", "a05643.html#af26f700ee129f846cac58735f6dcc380", null ]
+    [ "testEPSGToSRID", "a05643.html#a058152e783dcc1694eb060f5099630b1", null ],
+    [ "epsg", "a05643.html#ae984b1b4178b56b80cdb7a80eac64541", null ],
+    [ "srid", "a05643.html#a5ffebf384504d11b17aa9c75f4b92024", null ]
 ];

@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>rdf4j-postgis: LocatePoint Class Reference</title>
+<title>rdf4j-postgis: Coordinate.DimensionalComparator Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -63,103 +63,107 @@ $(document).ready(function(){initNavTree('a05247.html','');});
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
-<a href="#pri-methods">Private Member Functions</a> &#124;
 <a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="a05244.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">LocatePoint Class Reference</div>  </div>
+<div class="title">Coordinate.DimensionalComparator Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>Provides various ways of computing the actual value of a point a given length along a line.  
+<p>Compares two <a class="el" href="a05243.html">Coordinate</a>s, allowing for either a 2-dimensional or 3-dimensional comparison, and handling NaN values correctly.  
  <a href="a05247.html#details">More...</a></p>
 <div class="dynheader">
-Collaboration diagram for LocatePoint:</div>
+Inheritance diagram for Coordinate.DimensionalComparator:</div>
 <div class="dyncontent">
-<div class="center"><img src="a05245.png" border="0" usemap="#LocatePoint_coll__map" alt="Collaboration graph"/></div>
-<map name="LocatePoint_coll__map" id="LocatePoint_coll__map">
-<area shape="rect" id="node2" href="a05223.html" title="A lightweight class used to store coordinates on the 2&#45;dimensional Cartesian plane. " alt="" coords="348,216,433,243"/>
-<area shape="rect" id="node3" href="a07867.html" title="Comparable\&lt; Coordinate \&gt;" alt="" coords="5,5,184,32"/>
-<area shape="rect" id="node4" href="a07871.html" title="Cloneable" alt="" coords="55,56,135,83"/>
+<div class="center"><img src="a05246.png" border="0" usemap="#Coordinate_8DimensionalComparator_inherit__map" alt="Inheritance graph"/></div>
+<map name="Coordinate_8DimensionalComparator_inherit__map" id="Coordinate_8DimensionalComparator_inherit__map">
+</map>
+<center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
+<div class="dynheader">
+Collaboration diagram for Coordinate.DimensionalComparator:</div>
+<div class="dyncontent">
+<div class="center"><img src="a05245.png" border="0" usemap="#Coordinate_8DimensionalComparator_coll__map" alt="Collaboration graph"/></div>
+<map name="Coordinate_8DimensionalComparator_coll__map" id="Coordinate_8DimensionalComparator_coll__map">
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a0db8c96a170aff314d55b51d1090d8c7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05247.html#a0db8c96a170aff314d55b51d1090d8c7">LocatePoint</a> (LineString line, double length)</td></tr>
-<tr class="separator:a0db8c96a170aff314d55b51d1090d8c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:add97f503ca58503d04ac9150e6c8ef7f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="a05223.html">Coordinate</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05247.html#add97f503ca58503d04ac9150e6c8ef7f">getPoint</a> ()</td></tr>
-<tr class="separator:add97f503ca58503d04ac9150e6c8ef7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a59d053c950ff1e9f8a004d493f34e754"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05247.html#a59d053c950ff1e9f8a004d493f34e754">getIndex</a> ()</td></tr>
-<tr class="memdesc:a59d053c950ff1e9f8a004d493f34e754"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the index of the segment containing the computed point.  <a href="#a59d053c950ff1e9f8a004d493f34e754">More...</a><br /></td></tr>
-<tr class="separator:a59d053c950ff1e9f8a004d493f34e754"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5bd255213663b3596e2de221144f1ab1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05247.html#a5bd255213663b3596e2de221144f1ab1">DimensionalComparator</a> ()</td></tr>
+<tr class="memdesc:a5bd255213663b3596e2de221144f1ab1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a comparator for 2 dimensional coordinates.  <a href="#a5bd255213663b3596e2de221144f1ab1">More...</a><br /></td></tr>
+<tr class="separator:a5bd255213663b3596e2de221144f1ab1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa12c933fd5275be6824111b1f2c92cd6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05247.html#aa12c933fd5275be6824111b1f2c92cd6">DimensionalComparator</a> (int <a class="el" href="a05247.html#a6bb6df1c2db1f7b9fe46d4be2d0083af">dimensionsToTest</a>)</td></tr>
+<tr class="memdesc:aa12c933fd5275be6824111b1f2c92cd6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a comparator for 2 or 3 dimensional coordinates, depending on the value provided.  <a href="#aa12c933fd5275be6824111b1f2c92cd6">More...</a><br /></td></tr>
+<tr class="separator:aa12c933fd5275be6824111b1f2c92cd6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a22ae744431802300f10565640dec04c5"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05247.html#a22ae744431802300f10565640dec04c5">compare</a> (<a class="el" href="a05243.html">Coordinate</a> c1, <a class="el" href="a05243.html">Coordinate</a> c2)</td></tr>
+<tr class="memdesc:a22ae744431802300f10565640dec04c5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compares two <a class="el" href="a05243.html">Coordinate</a>s along to the number of dimensions specified.  <a href="#a22ae744431802300f10565640dec04c5">More...</a><br /></td></tr>
+<tr class="separator:a22ae744431802300f10565640dec04c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a8138e49067c6447449ff0a8ce19bfed4"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="a05223.html">Coordinate</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05247.html#a8138e49067c6447449ff0a8ce19bfed4">pointAlongSegment</a> (LineSegment seg, double length)</td></tr>
-<tr class="memdesc:a8138e49067c6447449ff0a8ce19bfed4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the location of a point a given length along a <a class="el" href="">LineSegment</a>.  <a href="#a8138e49067c6447449ff0a8ce19bfed4">More...</a><br /></td></tr>
-<tr class="separator:a8138e49067c6447449ff0a8ce19bfed4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4b414ab63960ecfa283932288f9977f7"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="a05223.html">Coordinate</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05247.html#a4b414ab63960ecfa283932288f9977f7">pointAlongSegment</a> (<a class="el" href="a05223.html">Coordinate</a> p0, <a class="el" href="a05223.html">Coordinate</a> p1, double length)</td></tr>
-<tr class="memdesc:a4b414ab63960ecfa283932288f9977f7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the location of a point a given length along a line segment.  <a href="#a4b414ab63960ecfa283932288f9977f7">More...</a><br /></td></tr>
-<tr class="separator:a4b414ab63960ecfa283932288f9977f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9ecfa15254cc343c6166b5e9b3f05c03"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="a05223.html">Coordinate</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05247.html#a9ecfa15254cc343c6166b5e9b3f05c03">pointAlongSegmentByFraction</a> (<a class="el" href="a05223.html">Coordinate</a> p0, <a class="el" href="a05223.html">Coordinate</a> p1, double frac)</td></tr>
-<tr class="memdesc:a9ecfa15254cc343c6166b5e9b3f05c03"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the location of a point a given fraction along a line segment.  <a href="#a9ecfa15254cc343c6166b5e9b3f05c03">More...</a><br /></td></tr>
-<tr class="separator:a9ecfa15254cc343c6166b5e9b3f05c03"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aefeee61acc0d87ebcacf610af684935e"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="a05223.html">Coordinate</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05247.html#aefeee61acc0d87ebcacf610af684935e">pointAlongLine</a> (LineString line, double length)</td></tr>
-<tr class="memdesc:aefeee61acc0d87ebcacf610af684935e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the <a class="el" href="">Coordinate</a> of the point a given length along a <a class="el" href="">LineString</a>.  <a href="#aefeee61acc0d87ebcacf610af684935e">More...</a><br /></td></tr>
-<tr class="separator:aefeee61acc0d87ebcacf610af684935e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
-Private Member Functions</h2></td></tr>
-<tr class="memitem:a4f513b82951056a3f579d95f215e9307"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05247.html#a4f513b82951056a3f579d95f215e9307">compute</a> (LineString line, double length)</td></tr>
-<tr class="separator:a4f513b82951056a3f579d95f215e9307"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a55bbcaf3b85142c9878f7b8ac44290fb"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05247.html#a55bbcaf3b85142c9878f7b8ac44290fb">compare</a> (double a, double b)</td></tr>
+<tr class="memdesc:a55bbcaf3b85142c9878f7b8ac44290fb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compare two <code>double</code>s, allowing for NaN values.  <a href="#a55bbcaf3b85142c9878f7b8ac44290fb">More...</a><br /></td></tr>
+<tr class="separator:a55bbcaf3b85142c9878f7b8ac44290fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:aae9b62bb90c0c25de44c11a2abc79afa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="a05223.html">Coordinate</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05247.html#aae9b62bb90c0c25de44c11a2abc79afa">pt</a></td></tr>
-<tr class="separator:aae9b62bb90c0c25de44c11a2abc79afa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a750b5d744c39a06bfb13e6eb010e35d0"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05247.html#a750b5d744c39a06bfb13e6eb010e35d0">index</a></td></tr>
-<tr class="separator:a750b5d744c39a06bfb13e6eb010e35d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6bb6df1c2db1f7b9fe46d4be2d0083af"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05247.html#a6bb6df1c2db1f7b9fe46d4be2d0083af">dimensionsToTest</a> = 2</td></tr>
+<tr class="separator:a6bb6df1c2db1f7b9fe46d4be2d0083af"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Provides various ways of computing the actual value of a point a given length along a line. </p>
+<div class="textblock"><p>Compares two <a class="el" href="a05243.html">Coordinate</a>s, allowing for either a 2-dimensional or 3-dimensional comparison, and handling NaN values correctly. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a0db8c96a170aff314d55b51d1090d8c7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0db8c96a170aff314d55b51d1090d8c7">&#9670;&nbsp;</a></span>LocatePoint()</h2>
+<a id="a5bd255213663b3596e2de221144f1ab1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5bd255213663b3596e2de221144f1ab1">&#9670;&nbsp;</a></span>DimensionalComparator() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="a05247.html">LocatePoint</a> </td>
+          <td class="memname"><a class="el" href="a05247.html">DimensionalComparator</a> </td>
           <td>(</td>
-          <td class="paramtype">LineString&#160;</td>
-          <td class="paramname"><em>line</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
+          <td class="paramname"></td><td>)</td>
           <td></td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>length</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="a05247.html#a4f513b82951056a3f579d95f215e9307">LocatePoint.compute()</a>.</p>
+<p>Creates a comparator for 2 dimensional coordinates. </p>
+<div class="fragment"><div class="line"><a name="l00509"></a><span class="lineno">  509</span>&#160;    {</div><div class="line"><a name="l00510"></a><span class="lineno">  510</span>&#160;      <span class="keyword">this</span>(2);</div><div class="line"><a name="l00511"></a><span class="lineno">  511</span>&#160;    }</div></div><!-- fragment -->
+</div>
+</div>
+<a id="aa12c933fd5275be6824111b1f2c92cd6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa12c933fd5275be6824111b1f2c92cd6">&#9670;&nbsp;</a></span>DimensionalComparator() <span class="overload">[2/2]</span></h2>
 
-<p class="reference">Referenced by <a class="el" href="a05247.html#aefeee61acc0d87ebcacf610af684935e">LocatePoint.pointAlongLine()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;  {</div><div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;    <a class="code" href="a05247.html#a4f513b82951056a3f579d95f215e9307">compute</a>(line, length);</div><div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;  }</div><div class="ttc" id="a05247_html_a4f513b82951056a3f579d95f215e9307"><div class="ttname"><a href="a05247.html#a4f513b82951056a3f579d95f215e9307">org.locationtech.jump.algorithm.LocatePoint.compute</a></div><div class="ttdeci">void compute(LineString line, double length)</div><div class="ttdef"><b>Definition:</b> LocatePoint.java:100</div></div>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="a05247.html">DimensionalComparator</a> </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>dimensionsToTest</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Creates a comparator for 2 or 3 dimensional coordinates, depending on the value provided. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">dimensionsToTest</td><td>the number of dimensions to test </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="reference">References <a class="el" href="a05247.html#a6bb6df1c2db1f7b9fe46d4be2d0083af">Coordinate.DimensionalComparator.dimensionsToTest</a>.</p>
+<div class="fragment"><div class="line"><a name="l00520"></a><span class="lineno">  520</span>&#160;    {</div><div class="line"><a name="l00521"></a><span class="lineno">  521</span>&#160;      <span class="keywordflow">if</span> (<a class="code" href="a05247.html#a6bb6df1c2db1f7b9fe46d4be2d0083af">dimensionsToTest</a> != 2 &amp;&amp; <a class="code" href="a05247.html#a6bb6df1c2db1f7b9fe46d4be2d0083af">dimensionsToTest</a> != 3)</div><div class="line"><a name="l00522"></a><span class="lineno">  522</span>&#160;        <span class="keywordflow">throw</span> <span class="keyword">new</span> IllegalArgumentException(<span class="stringliteral">&quot;only 2 or 3 dimensions may be specified&quot;</span>);</div><div class="line"><a name="l00523"></a><span class="lineno">  523</span>&#160;      this.<a class="code" href="a05247.html#a6bb6df1c2db1f7b9fe46d4be2d0083af">dimensionsToTest</a> = <a class="code" href="a05247.html#a6bb6df1c2db1f7b9fe46d4be2d0083af">dimensionsToTest</a>;</div><div class="line"><a name="l00524"></a><span class="lineno">  524</span>&#160;    }</div><div class="ttc" id="a05247_html_a6bb6df1c2db1f7b9fe46d4be2d0083af"><div class="ttname"><a href="a05247.html#a6bb6df1c2db1f7b9fe46d4be2d0083af">org.locationtech.jts.geom.Coordinate.DimensionalComparator.dimensionsToTest</a></div><div class="ttdeci">int dimensionsToTest</div><div class="ttdef"><b>Definition:</b> Coordinate.java:503</div></div>
 </div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a4f513b82951056a3f579d95f215e9307"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4f513b82951056a3f579d95f215e9307">&#9670;&nbsp;</a></span>compute()</h2>
+<a id="a55bbcaf3b85142c9878f7b8ac44290fb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a55bbcaf3b85142c9878f7b8ac44290fb">&#9670;&nbsp;</a></span>compare() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -168,103 +172,16 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void compute </td>
+          <td class="memname">static int compare </td>
           <td>(</td>
-          <td class="paramtype">LineString&#160;</td>
-          <td class="paramname"><em>line</em>, </td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>a</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>length</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="reference">References <a class="el" href="a05223.html#a15037c4d5389e3f03ce05dfce3649d67">Coordinate.distance()</a>, and <a class="el" href="a05247.html#a8138e49067c6447449ff0a8ce19bfed4">LocatePoint.pointAlongSegment()</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="a05247.html#a0db8c96a170aff314d55b51d1090d8c7">LocatePoint.LocatePoint()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;  {</div><div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;    <span class="comment">// &lt;TODO&gt; handle negative distances (measure from opposite end of line)</span></div><div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;    <span class="keywordtype">double</span> totalLength = 0.0;</div><div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;    Coordinate[] coord = line.getCoordinates();</div><div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; coord.length - 1; i++) {</div><div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;      Coordinate p0 = coord[i];</div><div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;      Coordinate p1 = coord[i+1];</div><div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;      <span class="keywordtype">double</span> segLen = p1.distance(p0);</div><div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;      <span class="keywordflow">if</span> (totalLength + segLen &gt; length) {</div><div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;        <a class="code" href="a05247.html#aae9b62bb90c0c25de44c11a2abc79afa">pt</a> = <a class="code" href="a05247.html#a8138e49067c6447449ff0a8ce19bfed4">pointAlongSegment</a>(p0, p1, length - totalLength);</div><div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;        <a class="code" href="a05247.html#a750b5d744c39a06bfb13e6eb010e35d0">index</a> = i;</div><div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;        <span class="keywordflow">return</span>;</div><div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;      }</div><div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;      totalLength += segLen;</div><div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;    }</div><div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;    <span class="comment">// distance is greater than line length</span></div><div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;    <a class="code" href="a05247.html#aae9b62bb90c0c25de44c11a2abc79afa">pt</a> = <span class="keyword">new</span> Coordinate(coord[coord.length - 1]);</div><div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;    <a class="code" href="a05247.html#a750b5d744c39a06bfb13e6eb010e35d0">index</a> = coord.length;</div><div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;  }</div><div class="ttc" id="a05247_html_aae9b62bb90c0c25de44c11a2abc79afa"><div class="ttname"><a href="a05247.html#aae9b62bb90c0c25de44c11a2abc79afa">org.locationtech.jump.algorithm.LocatePoint.pt</a></div><div class="ttdeci">Coordinate pt</div><div class="ttdef"><b>Definition:</b> LocatePoint.java:92</div></div>
-<div class="ttc" id="a05247_html_a750b5d744c39a06bfb13e6eb010e35d0"><div class="ttname"><a href="a05247.html#a750b5d744c39a06bfb13e6eb010e35d0">org.locationtech.jump.algorithm.LocatePoint.index</a></div><div class="ttdeci">int index</div><div class="ttdef"><b>Definition:</b> LocatePoint.java:93</div></div>
-<div class="ttc" id="a05247_html_a8138e49067c6447449ff0a8ce19bfed4"><div class="ttname"><a href="a05247.html#a8138e49067c6447449ff0a8ce19bfed4">org.locationtech.jump.algorithm.LocatePoint.pointAlongSegment</a></div><div class="ttdeci">static Coordinate pointAlongSegment(LineSegment seg, double length)</div><div class="ttdoc">Computes the location of a point a given length along a LineSegment. </div><div class="ttdef"><b>Definition:</b> LocatePoint.java:29</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a59d053c950ff1e9f8a004d493f34e754"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a59d053c950ff1e9f8a004d493f34e754">&#9670;&nbsp;</a></span>getIndex()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">int getIndex </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Returns the index of the segment containing the computed point. </p>
-
-<p class="reference">References <a class="el" href="a05247.html#a750b5d744c39a06bfb13e6eb010e35d0">LocatePoint.index</a>.</p>
-<div class="fragment"><div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;{    <span class="keywordflow">return</span> <a class="code" href="a05247.html#a750b5d744c39a06bfb13e6eb010e35d0">index</a>;  }</div><div class="ttc" id="a05247_html_a750b5d744c39a06bfb13e6eb010e35d0"><div class="ttname"><a href="a05247.html#a750b5d744c39a06bfb13e6eb010e35d0">org.locationtech.jump.algorithm.LocatePoint.index</a></div><div class="ttdeci">int index</div><div class="ttdef"><b>Definition:</b> LocatePoint.java:93</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="add97f503ca58503d04ac9150e6c8ef7f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#add97f503ca58503d04ac9150e6c8ef7f">&#9670;&nbsp;</a></span>getPoint()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="a05223.html">Coordinate</a> getPoint </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="reference">References <a class="el" href="a05247.html#aae9b62bb90c0c25de44c11a2abc79afa">LocatePoint.pt</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="a05247.html#aefeee61acc0d87ebcacf610af684935e">LocatePoint.pointAlongLine()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;{    <span class="keywordflow">return</span> <a class="code" href="a05247.html#aae9b62bb90c0c25de44c11a2abc79afa">pt</a>;  }</div><div class="ttc" id="a05247_html_aae9b62bb90c0c25de44c11a2abc79afa"><div class="ttname"><a href="a05247.html#aae9b62bb90c0c25de44c11a2abc79afa">org.locationtech.jump.algorithm.LocatePoint.pt</a></div><div class="ttdeci">Coordinate pt</div><div class="ttdef"><b>Definition:</b> LocatePoint.java:92</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="aefeee61acc0d87ebcacf610af684935e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aefeee61acc0d87ebcacf610af684935e">&#9670;&nbsp;</a></span>pointAlongLine()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static <a class="el" href="a05223.html">Coordinate</a> pointAlongLine </td>
-          <td>(</td>
-          <td class="paramtype">LineString&#160;</td>
-          <td class="paramname"><em>line</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>length</em>&#160;</td>
+          <td class="paramname"><em>b</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -279,186 +196,66 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Computes the <a class="el" href="">Coordinate</a> of the point a given length along a <a class="el" href="">LineString</a>. </p>
+<p>Compare two <code>double</code>s, allowing for NaN values. </p>
+<p>NaN is treated as being less than any valid number.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">line</td><td></td></tr>
-    <tr><td class="paramname">length</td><td></td></tr>
+    <tr><td class="paramname">a</td><td>a <code>double</code> </td></tr>
+    <tr><td class="paramname">b</td><td>a <code>double</code> </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>the <a class="el" href="">Coordinate</a> of the desired point </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>-1, 0, or 1 depending on whether a is less than, equal to or greater than b </dd></dl>
 
-<p class="reference">References <a class="el" href="a05247.html#add97f503ca58503d04ac9150e6c8ef7f">LocatePoint.getPoint()</a>, and <a class="el" href="a05247.html#a0db8c96a170aff314d55b51d1090d8c7">LocatePoint.LocatePoint()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;  {</div><div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;    <a class="code" href="a05247.html#a0db8c96a170aff314d55b51d1090d8c7">LocatePoint</a> loc = <span class="keyword">new</span> <a class="code" href="a05247.html#a0db8c96a170aff314d55b51d1090d8c7">LocatePoint</a>(line, length);</div><div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;    <span class="keywordflow">return</span> loc.getPoint();</div><div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;  }</div><div class="ttc" id="a05247_html_a0db8c96a170aff314d55b51d1090d8c7"><div class="ttname"><a href="a05247.html#a0db8c96a170aff314d55b51d1090d8c7">org.locationtech.jump.algorithm.LocatePoint.LocatePoint</a></div><div class="ttdeci">LocatePoint(LineString line, double length)</div><div class="ttdef"><b>Definition:</b> LocatePoint.java:95</div></div>
+<p class="reference">Referenced by <a class="el" href="a05247.html#a22ae744431802300f10565640dec04c5">Coordinate.DimensionalComparator.compare()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00490"></a><span class="lineno">  490</span>&#160;    {</div><div class="line"><a name="l00491"></a><span class="lineno">  491</span>&#160;      <span class="keywordflow">if</span> (a &lt; b) <span class="keywordflow">return</span> -1;</div><div class="line"><a name="l00492"></a><span class="lineno">  492</span>&#160;      <span class="keywordflow">if</span> (a &gt; b) <span class="keywordflow">return</span> 1;</div><div class="line"><a name="l00493"></a><span class="lineno">  493</span>&#160;</div><div class="line"><a name="l00494"></a><span class="lineno">  494</span>&#160;      <span class="keywordflow">if</span> (Double.isNaN(a)) {</div><div class="line"><a name="l00495"></a><span class="lineno">  495</span>&#160;        <span class="keywordflow">if</span> (Double.isNaN(b)) <span class="keywordflow">return</span> 0;</div><div class="line"><a name="l00496"></a><span class="lineno">  496</span>&#160;        <span class="keywordflow">return</span> -1;</div><div class="line"><a name="l00497"></a><span class="lineno">  497</span>&#160;      }</div><div class="line"><a name="l00498"></a><span class="lineno">  498</span>&#160;</div><div class="line"><a name="l00499"></a><span class="lineno">  499</span>&#160;      <span class="keywordflow">if</span> (Double.isNaN(b)) <span class="keywordflow">return</span> 1;</div><div class="line"><a name="l00500"></a><span class="lineno">  500</span>&#160;      <span class="keywordflow">return</span> 0;</div><div class="line"><a name="l00501"></a><span class="lineno">  501</span>&#160;    }</div></div><!-- fragment -->
+</div>
+</div>
+<a id="a22ae744431802300f10565640dec04c5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a22ae744431802300f10565640dec04c5">&#9670;&nbsp;</a></span>compare() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int compare </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="a05243.html">Coordinate</a>&#160;</td>
+          <td class="paramname"><em>c1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="a05243.html">Coordinate</a>&#160;</td>
+          <td class="paramname"><em>c2</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Compares two <a class="el" href="a05243.html">Coordinate</a>s along to the number of dimensions specified. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">o1</td><td>a <a class="el" href="a05243.html">Coordinate</a> </td></tr>
+    <tr><td class="paramname">o2</td><td>a {link <a class="el" href="a05243.html" title="A lightweight class used to store coordinates on the 2-dimensional Cartesian plane. ">Coordinate</a>} </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>-1, 0, or 1 depending on whether o1 is less than, equal to, or greater than 02 </dd></dl>
+
+<p class="reference">References <a class="el" href="a05247.html#a55bbcaf3b85142c9878f7b8ac44290fb">Coordinate.DimensionalComparator.compare()</a>, <a class="el" href="a05243.html#a12408ea71b830bfdbd24101b0b6ca49a">Coordinate.getZ()</a>, <a class="el" href="a05243.html#af88b946fb90d5f08b5fb740c70e98c10">Coordinate.x</a>, and <a class="el" href="a05243.html#ab927965981178aa1fba979a37168db2a">Coordinate.y</a>.</p>
+<div class="fragment"><div class="line"><a name="l00537"></a><span class="lineno">  537</span>&#160;    {</div><div class="line"><a name="l00538"></a><span class="lineno">  538</span>&#160;      <span class="keywordtype">int</span> compX = <a class="code" href="a05247.html#a55bbcaf3b85142c9878f7b8ac44290fb">compare</a>(c1.x, c2.x);</div><div class="line"><a name="l00539"></a><span class="lineno">  539</span>&#160;      <span class="keywordflow">if</span> (compX != 0) <span class="keywordflow">return</span> compX;</div><div class="line"><a name="l00540"></a><span class="lineno">  540</span>&#160;</div><div class="line"><a name="l00541"></a><span class="lineno">  541</span>&#160;      <span class="keywordtype">int</span> compY = <a class="code" href="a05247.html#a55bbcaf3b85142c9878f7b8ac44290fb">compare</a>(c1.y, c2.y);</div><div class="line"><a name="l00542"></a><span class="lineno">  542</span>&#160;      <span class="keywordflow">if</span> (compY != 0) <span class="keywordflow">return</span> compY;</div><div class="line"><a name="l00543"></a><span class="lineno">  543</span>&#160;</div><div class="line"><a name="l00544"></a><span class="lineno">  544</span>&#160;      <span class="keywordflow">if</span> (<a class="code" href="a05247.html#a6bb6df1c2db1f7b9fe46d4be2d0083af">dimensionsToTest</a> &lt;= 2) <span class="keywordflow">return</span> 0;</div><div class="line"><a name="l00545"></a><span class="lineno">  545</span>&#160;</div><div class="line"><a name="l00546"></a><span class="lineno">  546</span>&#160;      <span class="keywordtype">int</span> compZ = <a class="code" href="a05247.html#a55bbcaf3b85142c9878f7b8ac44290fb">compare</a>(c1.getZ(), c2.getZ());</div><div class="line"><a name="l00547"></a><span class="lineno">  547</span>&#160;      <span class="keywordflow">return</span> compZ;</div><div class="line"><a name="l00548"></a><span class="lineno">  548</span>&#160;    }</div><div class="ttc" id="a05247_html_a6bb6df1c2db1f7b9fe46d4be2d0083af"><div class="ttname"><a href="a05247.html#a6bb6df1c2db1f7b9fe46d4be2d0083af">org.locationtech.jts.geom.Coordinate.DimensionalComparator.dimensionsToTest</a></div><div class="ttdeci">int dimensionsToTest</div><div class="ttdef"><b>Definition:</b> Coordinate.java:503</div></div>
+<div class="ttc" id="a05247_html_a55bbcaf3b85142c9878f7b8ac44290fb"><div class="ttname"><a href="a05247.html#a55bbcaf3b85142c9878f7b8ac44290fb">org.locationtech.jts.geom.Coordinate.DimensionalComparator.compare</a></div><div class="ttdeci">static int compare(double a, double b)</div><div class="ttdoc">Compare two doubles, allowing for NaN values. </div><div class="ttdef"><b>Definition:</b> Coordinate.java:489</div></div>
 </div><!-- fragment -->
-</div>
-</div>
-<a id="a8138e49067c6447449ff0a8ce19bfed4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8138e49067c6447449ff0a8ce19bfed4">&#9670;&nbsp;</a></span>pointAlongSegment() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static <a class="el" href="a05223.html">Coordinate</a> pointAlongSegment </td>
-          <td>(</td>
-          <td class="paramtype">LineSegment&#160;</td>
-          <td class="paramname"><em>seg</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>length</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Computes the location of a point a given length along a <a class="el" href="">LineSegment</a>. </p>
-<p>If the length exceeds the length of the line segment the last point of the segment is returned. If the length is negative the first point of the segment is returned.</p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">seg</td><td>the line segment </td></tr>
-    <tr><td class="paramname">length</td><td>the length to the desired point </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>the <a class="el" href="">Coordinate</a> of the desired point </dd></dl>
-
-<p class="reference">Referenced by <a class="el" href="a05247.html#a4f513b82951056a3f579d95f215e9307">LocatePoint.compute()</a>, and <a class="el" href="a05239.html#ad8eec22df403077b17b2ac90b0c95230">LengthSubstring.computeSubstring()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;  {</div><div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="a05247.html#a8138e49067c6447449ff0a8ce19bfed4">pointAlongSegment</a>(seg.p0, seg.p1, length);</div><div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;  }</div><div class="ttc" id="a05247_html_a8138e49067c6447449ff0a8ce19bfed4"><div class="ttname"><a href="a05247.html#a8138e49067c6447449ff0a8ce19bfed4">org.locationtech.jump.algorithm.LocatePoint.pointAlongSegment</a></div><div class="ttdeci">static Coordinate pointAlongSegment(LineSegment seg, double length)</div><div class="ttdoc">Computes the location of a point a given length along a LineSegment. </div><div class="ttdef"><b>Definition:</b> LocatePoint.java:29</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a4b414ab63960ecfa283932288f9977f7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4b414ab63960ecfa283932288f9977f7">&#9670;&nbsp;</a></span>pointAlongSegment() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static <a class="el" href="a05223.html">Coordinate</a> pointAlongSegment </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="a05223.html">Coordinate</a>&#160;</td>
-          <td class="paramname"><em>p0</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="a05223.html">Coordinate</a>&#160;</td>
-          <td class="paramname"><em>p1</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>length</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Computes the location of a point a given length along a line segment. </p>
-<p>If the length exceeds the length of the line segment the last point of the segment is returned. If the length is negative the first point of the segment is returned.</p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">p0</td><td>the first point of the line segment </td></tr>
-    <tr><td class="paramname">p1</td><td>the last point of the line segment </td></tr>
-    <tr><td class="paramname">length</td><td>the length to the desired point </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>the <a class="el" href="">Coordinate</a> of the desired point </dd></dl>
-
-<p class="reference">References <a class="el" href="a05223.html#a15037c4d5389e3f03ce05dfce3649d67">Coordinate.distance()</a>, <a class="el" href="a05223.html#af88b946fb90d5f08b5fb740c70e98c10">Coordinate.x</a>, and <a class="el" href="a05223.html#ab927965981178aa1fba979a37168db2a">Coordinate.y</a>.</p>
-<div class="fragment"><div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;  {</div><div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    <span class="keywordtype">double</span> segLen = p1.distance(p0);</div><div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    <span class="keywordtype">double</span> frac = length / segLen;</div><div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    <span class="keywordflow">if</span> (frac &lt;= 0.0) <span class="keywordflow">return</span> p0;</div><div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    <span class="keywordflow">if</span> (frac &gt;= 1.0) <span class="keywordflow">return</span> p1;</div><div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;</div><div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    <span class="keywordtype">double</span> x = (p1.x - p0.x) * frac + p0.x;</div><div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    <span class="keywordtype">double</span> y = (p1.y - p0.y) * frac + p0.y;</div><div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">new</span> Coordinate(x, y);</div><div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;  }</div></div><!-- fragment -->
-</div>
-</div>
-<a id="a9ecfa15254cc343c6166b5e9b3f05c03"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9ecfa15254cc343c6166b5e9b3f05c03">&#9670;&nbsp;</a></span>pointAlongSegmentByFraction()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static <a class="el" href="a05223.html">Coordinate</a> pointAlongSegmentByFraction </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="a05223.html">Coordinate</a>&#160;</td>
-          <td class="paramname"><em>p0</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="a05223.html">Coordinate</a>&#160;</td>
-          <td class="paramname"><em>p1</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>frac</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Computes the location of a point a given fraction along a line segment. </p>
-<p>If the fraction exceeds 1 the last point of the segment is returned. If the fraction is negative the first point of the segment is returned.</p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">p0</td><td>the first point of the line segment </td></tr>
-    <tr><td class="paramname">p1</td><td>the last point of the line segment </td></tr>
-    <tr><td class="paramname">frac</td><td>the fraction of the segment to the desired point </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>the <a class="el" href="">Coordinate</a> of the desired point </dd></dl>
-
-<p class="reference">References <a class="el" href="a05223.html#af88b946fb90d5f08b5fb740c70e98c10">Coordinate.x</a>, and <a class="el" href="a05223.html#ab927965981178aa1fba979a37168db2a">Coordinate.y</a>.</p>
-<div class="fragment"><div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;  {</div><div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;    <span class="keywordflow">if</span> (frac &lt;= 0.0) <span class="keywordflow">return</span> p0;</div><div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;    <span class="keywordflow">if</span> (frac &gt;= 1.0) <span class="keywordflow">return</span> p1;</div><div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;</div><div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;    <span class="keywordtype">double</span> x = (p1.x - p0.x) * frac + p0.x;</div><div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;    <span class="keywordtype">double</span> y = (p1.y - p0.y) * frac + p0.y;</div><div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">new</span> Coordinate(x, y);</div><div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;  }</div></div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="a750b5d744c39a06bfb13e6eb010e35d0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a750b5d744c39a06bfb13e6eb010e35d0">&#9670;&nbsp;</a></span>index</h2>
+<a id="a6bb6df1c2db1f7b9fe46d4be2d0083af"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6bb6df1c2db1f7b9fe46d4be2d0083af">&#9670;&nbsp;</a></span>dimensionsToTest</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -467,7 +264,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">int index</td>
+          <td class="memname">int dimensionsToTest = 2</td>
         </tr>
       </table>
   </td>
@@ -477,31 +274,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="a05247.html#a59d053c950ff1e9f8a004d493f34e754">LocatePoint.getIndex()</a>.</p>
-
-</div>
-</div>
-<a id="aae9b62bb90c0c25de44c11a2abc79afa"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aae9b62bb90c0c25de44c11a2abc79afa">&#9670;&nbsp;</a></span>pt</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="a05223.html">Coordinate</a> pt</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="a05247.html#add97f503ca58503d04ac9150e6c8ef7f">LocatePoint.getPoint()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="a05247.html#aa12c933fd5275be6824111b1f2c92cd6">Coordinate.DimensionalComparator.DimensionalComparator()</a>.</p>
 
 </div>
 </div>
@@ -511,7 +284,7 @@ Private Attributes</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="a02598.html">org</a></li><li class="navelem"><a class="el" href="a02669.html">locationtech</a></li><li class="navelem"><a class="el" href="a02679.html">jump</a></li><li class="navelem"><a class="el" href="a02678.html">algorithm</a></li><li class="navelem"><a class="el" href="a05247.html">LocatePoint</a></li>
+    <li class="navelem"><a class="el" href="a02610.html">org</a></li><li class="navelem"><a class="el" href="a02681.html">locationtech</a></li><li class="navelem"><a class="el" href="a02686.html">jts</a></li><li class="navelem"><a class="el" href="a02685.html">geom</a></li><li class="navelem"><a class="el" href="a05243.html">Coordinate</a></li><li class="navelem"><a class="el" href="a05247.html">DimensionalComparator</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>

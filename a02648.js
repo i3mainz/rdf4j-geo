@@ -1,4 +1,7 @@
 var a02648 =
 [
-    [ "TopologyExportFunction", "a04679.html", "a04679" ]
+    [ "MakePolygon", "a04107.html", "a04107" ],
+    [ "Polygon", "a04111.html", "a04111" ],
+    [ "PolygonFromText", "a04115.html", "a04115" ],
+    [ "PolygonFromWKB", "a04119.html", "a04119" ]
 ];

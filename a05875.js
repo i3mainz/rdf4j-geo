@@ -1,7 +1,7 @@
 var a05875 =
 [
-    [ "testMakePoint1", "a05875.html#a2f24e9ad47589d2191a0512d20a8a9ba", null ],
-    [ "testMakePointXYZ", "a05875.html#a3ba406df071dd5b2e9404776e414c4cd", null ],
-    [ "testPoint1", "a05875.html#ab20d196cb6e34afc2e9cff8074e43bfd", null ],
-    [ "testPointM", "a05875.html#a53dc8585c2a440c472be9609c86b0601", null ]
+    [ "testPointInsideCircleFalse", "a05875.html#a9a4ba902062dec5571daf7e79671a55b", null ],
+    [ "testPointInsideCircleTrue", "a05875.html#a495d2b5bf07a342dff32174b8586a518", null ],
+    [ "testPoint", "a05875.html#af26f700ee129f846cac58735f6dcc380", null ],
+    [ "testPoint2", "a05875.html#aa0c0c6f5dda7a397fc50f4c22a2b180f", null ]
 ];

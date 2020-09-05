@@ -1,7 +1,7 @@
 var a06151 =
 [
     [ "getInstance", "a06151.html#af8afdd14b38b523d100805364a48ed63", null ],
-    [ "testTranslateY", "a06151.html#a1649a87f733d46d723eacc30260682b6", null ],
+    [ "testMinTileX", "a06151.html#a387b58e0580f047a27f53413d536186d", null ],
     [ "covJSONString1", "a06151.html#a993e2f127f3ec8f256e9799d77507223", null ],
     [ "hexwkbString1", "a06151.html#a55fb5b5d665417265da09403128e396e", null ],
     [ "minwkbString", "a06151.html#aa5e2b5a6005895fc20b9f35523569430", null ],

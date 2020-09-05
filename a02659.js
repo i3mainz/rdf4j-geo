@@ -1,7 +1,8 @@
 var a02659 =
 [
-    [ "raster", "a02660.html", "a02660" ],
-    [ "topo", "a02661.html", "a02661" ],
-    [ "vector", "a02662.html", "a02662" ],
-    [ "LiteralType", "a04963.html", null ]
+    [ "Resample", "a04679.html", "a04679" ],
+    [ "Rescale", "a04683.html", "a04683" ],
+    [ "Resize", "a04687.html", null ],
+    [ "Reskew", "a04691.html", null ],
+    [ "Transform", "a04695.html", null ]
 ];

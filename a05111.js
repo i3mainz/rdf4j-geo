@@ -1,21 +1,13 @@
 var a05111 =
 [
-    [ "FeatureIterator", "a05111.html#a08854cdae8bd2e2223a9dd3fe6b071d7", null ],
-    [ "findNext", "a05111.html#a5b6607ffdded724cbb0e530103233093", null ],
-    [ "hasNext", "a05111.html#a58d1cc3d61071d927bf040bf0b035a22", null ],
-    [ "next", "a05111.html#ac27bd9fe293f952329e4f669922ea750", null ],
-    [ "parseFeature", "a05111.html#a5941b8943263ee9d9dbdd95dad8cab0a", null ],
-    [ "parseLayer", "a05111.html#aeb42734704906e8bdf1d674e62ea6b75", null ],
-    [ "remove", "a05111.html#a1fcb45e5d2428352eb36b487d1d4eea3", null ],
-    [ "autoScale", "a05111.html#a790b272bcf5713954b8582330074dfc8", null ],
-    [ "extent", "a05111.html#a08332e7941e91537fabb5c811306cbec", null ],
-    [ "featureIterator", "a05111.html#aaf3dc1e5338be9388f48f131fb3979e3", null ],
-    [ "filter", "a05111.html#a372cbadc592907caa755cab7031ff81a", null ],
-    [ "gf", "a05111.html#a584fada8e317e904ad3d8e8a20325f6f", null ],
-    [ "keys", "a05111.html#a3fd6cdc21222ea54397c9295148851dc", null ],
-    [ "layerIterator", "a05111.html#a12880f8b6f7ae10bdb4c097863e194e7", null ],
-    [ "layerName", "a05111.html#a19bfb03269d4716683c25852c9aa505a", null ],
-    [ "next", "a05111.html#a6583d8f4e5b9bafd677867c095e2a43a", null ],
-    [ "scale", "a05111.html#a80d402d10e8341004c0caf10133b80ab", null ],
-    [ "values", "a05111.html#a166d04e984f645452caf73d70c5fb011", null ]
+    [ "createGeometry", "a05111.html#aa9b8459efc091f657b74ed0e5a245375", null ],
+    [ "createGeometry", "a05111.html#a9e565b4d0520b1fc30ab5fe2118abb5f", null ],
+    [ "createGeometryCollection", "a05111.html#a3475604f80ee636cca3d07baa336def7", null ],
+    [ "createGeometryCollection", "a05111.html#a7530a3b20b256d3096c63b5556adba6c", null ],
+    [ "toGeometry", "a05111.html#a6682d61dc04a15f1d55ed938e4ed5e7e", null ],
+    [ "toGeometry", "a05111.html#a7633468ef73e66833ef49d6d357d965f", null ],
+    [ "toGeometry", "a05111.html#a70d2c83f032867b59a3af555f1ff6d98", null ],
+    [ "toGeometry", "a05111.html#ad1731b05de5c7e8bae69ff8eb74036f2", null ],
+    [ "toGeometry", "a05111.html#ad7e9fd4bfe07509ba9bbd5a1e09c8a71", null ],
+    [ "transform", "a05111.html#adb6db926db08da5c0c4a8ad8cfb1ff2d", null ]
 ];

@@ -1,5 +1,5 @@
 var a05867 =
 [
-    [ "testZ", "a05867.html#ac463fcc72b3892f24bbd0dc3b8902044", null ],
+    [ "testZMin", "a05867.html#a4611a55cc1ca54817f58770fda369856", null ],
     [ "testPoint", "a05867.html#af26f700ee129f846cac58735f6dcc380", null ]
 ];

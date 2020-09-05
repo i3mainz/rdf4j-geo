@@ -1,5 +1,5 @@
 var a05511 =
 [
-    [ "testAsSVG", "a05511.html#a7051938045f1413d97e8c5925b1c7677", null ],
+    [ "testAsGeoURI", "a05511.html#aae403d68ccc2ecfb409ca338b5ba0101", null ],
     [ "testGeometry", "a05511.html#abc3f514f005cba49e406658e2d3086eb", null ]
 ];

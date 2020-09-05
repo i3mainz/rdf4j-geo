@@ -1,5 +1,5 @@
 var a05391 =
 [
-    [ "testMinimumClearanceLine", "a05391.html#a61877f78d0d415e1cd48f477474017e6", null ],
-    [ "testPolygon", "a05391.html#a1e3187cbc25299380589200c398b3ffd", null ]
+    [ "testIsValidFalse", "a05391.html#abe8c10068a1ed9f8a4fea754990b0a48", null ],
+    [ "testIsValidTrue", "a05391.html#a9556e5304e9a52193523b36c47bcd844", null ]
 ];

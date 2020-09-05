@@ -1,5 +1,4 @@
 var a05371 =
 [
-    [ "testIsValidFalse", "a05371.html#abe8c10068a1ed9f8a4fea754990b0a48", null ],
-    [ "testIsValidTrue", "a05371.html#a9556e5304e9a52193523b36c47bcd844", null ]
+    [ "testIsPlanarTrue", "a05371.html#a0e75cb938cfe0c5f0e6555d748eccf2d", null ]
 ];

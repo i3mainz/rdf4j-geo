@@ -1,8 +1,7 @@
 var a05551 =
 [
-    [ "testEqualNormFalse", "a05551.html#a1928f13a833e5a2e8b142a5937d86c8b", null ],
-    [ "testEqualNormTrue", "a05551.html#ab11a3d6b71627dd555022e7a29ada7be", null ],
-    [ "result", "a05551.html#aab356d6554a7301750f11ec7a85ac47d", null ],
-    [ "testGeom", "a05551.html#a03a5f5da0ccbeed8c1678d4317cf2672", null ],
-    [ "testGeom2", "a05551.html#a6b4be369c8f60e973cd5126e69cd33a4", null ]
+    [ "testAreaSimilarity", "a05551.html#a6be5d939e472b1ba6360e0aed0003e21", null ],
+    [ "testAreaSimilarity2", "a05551.html#aa1a9b1a972267092713ec9d0b0a2c2b4", null ],
+    [ "isocelesTriangle", "a05551.html#aa04dfbec745e2622b9f7646f8572e501", null ],
+    [ "notIsocelesTriangle", "a05551.html#a055d99fb63bcee37763ffcf4da9e0521", null ]
 ];

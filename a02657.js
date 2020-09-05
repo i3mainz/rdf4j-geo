@@ -1,15 +1,9 @@
 var a02657 =
 [
-    [ "functions", "a02658.html", "a02658" ],
-    [ "literals", "a02659.html", "a02659" ],
-    [ "parsers", "a02663.html", "a02663" ],
-    [ "GPXHandler", "a04951.html", "a04951" ],
-    [ "JtsPolyshapeWriter", "a04955.html", "a04955" ],
-    [ "LiteralRegistry", "a04959.html", "a04959" ],
-    [ "LiteralUtils", "a05091.html", "a05091" ],
-    [ "PolyshapeReader", "a05131.html", "a05131" ],
-    [ "PolyshapeWriter", "a05139.html", "a05139" ],
-    [ "RasterVectorRelationBinaryFunction", "a05147.html", "a05147" ],
-    [ "RasterVectorRelationFunction", "a05151.html", "a05151" ],
-    [ "RasterVectorRelationIntBinaryFunction", "a05155.html", "a05155" ]
+    [ "AsCoverageJSON", "a04595.html", "a04595" ],
+    [ "AsGeoTIFF", "a04599.html", "a04599" ],
+    [ "AsGMLCOV", "a04603.html", "a04603" ],
+    [ "AsNetCDF", "a04607.html", "a04607" ],
+    [ "AsRastHexWKB", "a04611.html", "a04611" ],
+    [ "AsRastWKB", "a04615.html", "a04615" ]
 ];

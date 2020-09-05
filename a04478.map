@@ -1,3 +1,4 @@
-<map id="RasterGeometryConversionFunction" name="RasterGeometryConversionFunction">
-<area shape="rect" id="node3" href="$a04515.html" title="AsGeometry" alt="" coords="50,169,145,196"/>
+<map id="RasterAttributeIntIntFunction" name="RasterAttributeIntIntFunction">
+<area shape="rect" id="node3" href="$a04267.html" title="Band" alt="" coords="17,155,69,181"/>
+<area shape="rect" id="node4" href="$a04287.html" title="BandNoDataValue" alt="" coords="94,155,225,181"/>
 </map>

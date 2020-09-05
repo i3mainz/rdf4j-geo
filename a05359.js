@@ -1,5 +1,5 @@
 var a05359 =
 [
-    [ "testAsBinary", "a05359.html#ac230b10882e3be05bacc871fce2fc609", null ],
-    [ "testGeometry", "a05359.html#abc3f514f005cba49e406658e2d3086eb", null ]
+    [ "testIsInCRSAreaOfValidityFalse", "a05359.html#ab086dd0d0debad3790e452ffa6c1fa28", null ],
+    [ "testIsInCRSAreaOfValidityTrue", "a05359.html#afff3ea2274b06643aaa5806616e7ca8e", null ]
 ];

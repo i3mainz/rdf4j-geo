@@ -1,6 +1,5 @@
 var a05975 =
 [
-    [ "testReverseRing", "a05975.html#a341309060348e532f6606d50945a52bd", null ],
-    [ "duplicateRings", "a05975.html#a92f3ef00fc079a76b7f943d9ed6cec77", null ],
-    [ "nonduplicateRings", "a05975.html#a675a0b1b194538fc07fa716705f883a5", null ]
+    [ "testPolygonFromText", "a05975.html#ab92731bfcc813cfd3d1741c6033a79cb", null ],
+    [ "testPolygon", "a05975.html#a1e3187cbc25299380589200c398b3ffd", null ]
 ];

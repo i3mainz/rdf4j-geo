@@ -1,8 +1,7 @@
 var a05787 =
 [
-    [ "testMakeLine1", "a05787.html#ae1794702b16fed527256a87c40858865", null ],
-    [ "testLine", "a05787.html#a297965df8c894198eea7203fde37542b", null ],
-    [ "testPoint1", "a05787.html#ab20d196cb6e34afc2e9cff8074e43bfd", null ],
-    [ "testPoint2", "a05787.html#aa0c0c6f5dda7a397fc50f4c22a2b180f", null ],
-    [ "testPointM", "a05787.html#a53dc8585c2a440c472be9609c86b0601", null ]
+    [ "testHasSelfIntersectionsFalse", "a05787.html#a4a909b32ed78a5e48e6acd2cdd04519b", null ],
+    [ "testHasSelfIntersectionsTrue", "a05787.html#ae67f84fa98ae098d78896e2c9885a5ca", null ],
+    [ "testGeom", "a05787.html#a03a5f5da0ccbeed8c1678d4317cf2672", null ],
+    [ "testGeom2", "a05787.html#a6b4be369c8f60e973cd5126e69cd33a4", null ]
 ];

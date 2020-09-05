@@ -1,5 +1,9 @@
 var a05799 =
 [
-    [ "testAsEncodedPolyline", "a05799.html#a77e364f1e18fbe312ed563af435ddc8f", null ],
-    [ "testGeometry", "a05799.html#abc3f514f005cba49e406658e2d3086eb", null ]
+    [ "testNoSelfIntersections", "a05799.html#a08dd11e1d44a910007de229eada7aa6d", null ],
+    [ "testSelfIntersections", "a05799.html#a3d2c64bb3b45c45751b144babb6906da", null ],
+    [ "intersectResult", "a05799.html#ab431ece386e282254dd754494c7f6cd0", null ],
+    [ "intersectResult2", "a05799.html#a94c72a35c99c7c55f05a1f50c20f6cfd", null ],
+    [ "testGeom", "a05799.html#a03a5f5da0ccbeed8c1678d4317cf2672", null ],
+    [ "testGeom2", "a05799.html#a6b4be369c8f60e973cd5126e69cd33a4", null ]
 ];

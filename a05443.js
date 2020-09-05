@@ -1,5 +1,7 @@
 var a05443 =
 [
-    [ "testGeomFromWKB", "a05443.html#acc0d76b6d1ae096d932e1752a6bc8479", null ],
-    [ "geoJsonTestGeom", "a05443.html#a117e8ff340791b5aa0658f5840b5dcf4", null ]
+    [ "testNumGeometries", "a05443.html#a66251605d7d3ce37996ccd2d7fa613fd", null ],
+    [ "testNumGeometriesCollection", "a05443.html#a2ad2fa8733f1826ddd7c66355901ff7d", null ],
+    [ "testGeom", "a05443.html#a03a5f5da0ccbeed8c1678d4317cf2672", null ],
+    [ "testGeom2", "a05443.html#a6b4be369c8f60e973cd5126e69cd33a4", null ]
 ];

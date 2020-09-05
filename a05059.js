@@ -1,8 +1,10 @@
 var a05059 =
 [
-    [ "read", "a05059.html#a0a51e7a558c31dd59e2fb31c2b6b9a6d", null ],
-    [ "unparse", "a05059.html#a8f23415f60c2281824a1ca004a2fce9b", null ],
-    [ "INSTANCE", "a05059.html#afb4dc47464d22ed20de4b4318bcf68ca", null ],
+    [ "HexWKBTextSRS", "a05063.html", "a05063" ],
+    [ "read", "a05059.html#a793358fbd6ef538a24eabab1bd50ef01", null ],
+    [ "toString", "a05059.html#ad146fa8579a5f8a876c4688cc5a68520", null ],
+    [ "unparse", "a05059.html#ae918a517e1ebcc44beeee2c55008d248", null ],
+    [ "INSTANCE", "a05059.html#a4a988464fb6e9d1f079471133e067d54", null ],
     [ "LiteralIRI", "a05059.html#ae02c2e86ac0dea8538c7b43e9e82421a", null ],
     [ "URI", "a05059.html#addbf30e6c0ad68fa34277d59a2c6eb5e", null ]
 ];

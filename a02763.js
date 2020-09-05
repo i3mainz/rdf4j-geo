@@ -1,10 +1,9 @@
 var a02763 =
 [
-    [ "AvgZ", "a02763.html#a0eb320f661f43101548b8c283ce76f3a", null ],
-    [ "AvgZ", "a02763.html#a10bbd4f0a26f89e07253086f2fc62c54", null ],
-    [ "clone", "a02763.html#a1a657324ea68911af08c52bc4a452138", null ],
+    [ "AggCentroid", "a02763.html#a50accbcfba1cb62fd2c3c6945ad73523", null ],
+    [ "AggCentroid", "a02763.html#aa380b240515b7ef61a0a6ecbe81070af", null ],
+    [ "clone", "a02763.html#a4021a724a19ab359f4b16f3fcea1666b", null ],
     [ "equals", "a02763.html#a8e18a3a952a9e38a9a4191004a30c938", null ],
     [ "hashCode", "a02763.html#a077e18fe97323c7194e2665ffc766399", null ],
-    [ "visit", "a02763.html#ace7c41d3761122fda287033559696cdd", null ],
-    [ "serialVersionUID", "a02763.html#a3238d314ecdee14d2966760945d00c3b", null ]
+    [ "visit", "a02763.html#ace7c41d3761122fda287033559696cdd", null ]
 ];

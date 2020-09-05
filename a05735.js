@@ -1,5 +1,7 @@
 var a05735 =
 [
-    [ "testReverse", "a05735.html#ac38f1a963c4494ff939bad764b01b127", null ],
-    [ "testLineString", "a05735.html#a33797029fadbcba01b4a4fafec88cf41", null ]
+    [ "testMulti2D", "a05735.html#a132a5ee02a51082794ac01f2787422c1", null ],
+    [ "testMulti3D", "a05735.html#afee46817e97b41a801cd7a7acf30e801", null ],
+    [ "testGeometry", "a05735.html#abc3f514f005cba49e406658e2d3086eb", null ],
+    [ "testGeometryZ", "a05735.html#a7a113ffd7d8ff98f71b4361ffff21edc", null ]
 ];

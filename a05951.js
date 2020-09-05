@@ -1,5 +1,7 @@
 var a05951 =
 [
-    [ "testLineFromText", "a05951.html#ab595a17ecc4ca9c8bef45188c8afb6c3", null ],
-    [ "testPolygon", "a05951.html#a1e3187cbc25299380589200c398b3ffd", null ]
+    [ "testIsPolygonCCWFalse", "a05951.html#a68f9159867e6465340465684732c1eb6", null ],
+    [ "testIsPolygonCCWTrue", "a05951.html#a1f97fe37dded953f0f1c89d25f651edc", null ],
+    [ "testPolygon", "a05951.html#a1e3187cbc25299380589200c398b3ffd", null ],
+    [ "testPolygon2", "a05951.html#a882729aec95621b4ad261714738ae3fd", null ]
 ];

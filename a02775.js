@@ -1,9 +1,10 @@
 var a02775 =
 [
-    [ "ConcatenateLines", "a02775.html#a1b2e5c911ff4119a29f2d63996752a52", null ],
-    [ "ConcatenateLines", "a02775.html#a440dbd8fb21ba76ca7f1e6bcd294be18", null ],
-    [ "clone", "a02775.html#a5559dec2de139a139572b84b9d71d79d", null ],
+    [ "AvgZ", "a02775.html#a0eb320f661f43101548b8c283ce76f3a", null ],
+    [ "AvgZ", "a02775.html#a10bbd4f0a26f89e07253086f2fc62c54", null ],
+    [ "clone", "a02775.html#a1a657324ea68911af08c52bc4a452138", null ],
     [ "equals", "a02775.html#a8e18a3a952a9e38a9a4191004a30c938", null ],
     [ "hashCode", "a02775.html#a077e18fe97323c7194e2665ffc766399", null ],
-    [ "visit", "a02775.html#ace7c41d3761122fda287033559696cdd", null ]
+    [ "visit", "a02775.html#ace7c41d3761122fda287033559696cdd", null ],
+    [ "serialVersionUID", "a02775.html#a3238d314ecdee14d2966760945d00c3b", null ]
 ];

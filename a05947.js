@@ -1,5 +1,7 @@
 var a05947 =
 [
-    [ "testPolygonFromText", "a05947.html#ab92731bfcc813cfd3d1741c6033a79cb", null ],
-    [ "testPolygon", "a05947.html#a1e3187cbc25299380589200c398b3ffd", null ]
+    [ "testIsObliqueTriangleFalse", "a05947.html#ac80a489d515561b4fa72bf9548671fec", null ],
+    [ "testIsObliqueTriangleTrue", "a05947.html#a5dab292e852630a1fa1b2124f19480e5", null ],
+    [ "isocelesTriangle", "a05947.html#aa04dfbec745e2622b9f7646f8572e501", null ],
+    [ "notIsocelesTriangle", "a05947.html#a055d99fb63bcee37763ffcf4da9e0521", null ]
 ];

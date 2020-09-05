@@ -1,22 +1,12 @@
-<map id="GeometricRelationBinaryFunction" name="GeometricRelationBinaryFunction">
-<area shape="rect" id="node3" href="$a02835.html" title="Returns true if the bounding box of geometry 1 is above the boundingbox of geometry 2..." alt="" coords="417,5,513,32"/>
-<area shape="rect" id="node4" href="$a02839.html" title="Returns true if the bounding box of geometry 1 is below the boundingbox of geometry 2..." alt="" coords="417,56,512,83"/>
-<area shape="rect" id="node5" href="$a02843.html" title="Returns true if the bounding box of geometry 1 contains the boundingbox of geometry 2..." alt="" coords="409,107,520,133"/>
-<area shape="rect" id="node6" href="$a02851.html" title="Returns true if the boundingbox of the first geometry equals the boundingbox of the second geometry..." alt="" coords="415,157,514,184"/>
-<area shape="rect" id="node7" href="$a02855.html" title="BBOXFPIntersects" alt="" coords="397,208,532,235"/>
-<area shape="rect" id="node8" href="$a02859.html" title="BBOXIntersects" alt="" coords="406,259,523,285"/>
-<area shape="rect" id="node9" href="$a02863.html" title="BBOXIsContainedBy" alt="" coords="392,309,537,336"/>
-<area shape="rect" id="node10" href="$a02867.html" title="BBOXLeftOf" alt="" coords="417,360,512,387"/>
-<area shape="rect" id="node11" href="$a02871.html" title="BBOXOverlapsAbove" alt="" coords="391,411,539,437"/>
-<area shape="rect" id="node12" href="$a02875.html" title="BBOXOverlapsBelow" alt="" coords="391,461,538,488"/>
-<area shape="rect" id="node13" href="$a02879.html" title="BBOXOverlapsLeft" alt="" coords="398,512,531,539"/>
-<area shape="rect" id="node14" href="$a02883.html" title="BBOXOverlapsRight" alt="" coords="393,563,536,589"/>
-<area shape="rect" id="node15" href="$a02887.html" title="BBOXRightOf" alt="" coords="413,613,517,640"/>
-<area shape="rect" id="node16" href="$a03399.html" title="EqualsNorm" alt="" coords="417,664,512,691"/>
-<area shape="rect" id="node17" href="$a03403.html" title="Returns true if the two given geometries have the same geocoordinate system. " alt="" coords="423,715,506,741"/>
-<area shape="rect" id="node18" href="$a03407.html" title="Returns true if two geometries are topologically equal. " alt="" coords="419,765,510,792"/>
-<area shape="rect" id="node19" href="$a03411.html" title="EqualType" alt="" coords="423,816,507,843"/>
-<area shape="rect" id="node20" href="$a03467.html" title="OrderingEquals" alt="" coords="409,867,520,893"/>
-<area shape="rect" id="node21" href="$a03915.html" title="Checks if a given point is included in a given ring. " alt="" coords="414,917,515,944"/>
-<area shape="rect" id="node22" href="$a03919.html" title="Returns true if a given point is found on a given LineString. " alt="" coords="413,968,517,995"/>
+<map id="GeometricModifierIntegerFunction" name="GeometricModifierIntegerFunction">
+<area shape="rect" id="node3" href="$a02947.html" title="Returns the nth geometry of a given geometry collection. " alt="" coords="366,5,455,32"/>
+<area shape="rect" id="node4" href="$a03115.html" title="Returns the nth point of the given geometry if it exists. " alt="" coords="379,56,442,83"/>
+<area shape="rect" id="node5" href="$a03291.html" title="SetSRID" alt="" coords="373,107,448,133"/>
+<area shape="rect" id="node6" href="$a03563.html" title="CollectionExtract" alt="" coords="349,157,472,184"/>
+<area shape="rect" id="node7" href="$a03643.html" title="Reduces the precision of a given geometry by a given factor. " alt="" coords="348,208,473,235"/>
+<area shape="rect" id="node8" href="$a03771.html" title="Removes a point at a given index position from the given geometry. " alt="" coords="360,259,461,285"/>
+<area shape="rect" id="node9" href="$a03991.html" title="Generates a given number of points in a convex hull of a geometry. " alt="" coords="355,309,467,336"/>
+<area shape="rect" id="node10" href="$a04051.html" title="Returns the nth interior ring of a polygon. " alt="" coords="361,360,460,387"/>
+<area shape="rect" id="node11" href="$a04127.html" title="Removes an interior ring from a given polygon. " alt="" coords="341,411,480,437"/>
+<area shape="rect" id="node12" href="$a04151.html" title="Reverses the coordinates of a given ring of a polygon. " alt="" coords="361,461,460,488"/>
 </map>

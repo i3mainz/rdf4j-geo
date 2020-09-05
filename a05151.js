@@ -1,9 +1,10 @@
 var a05151 =
 [
-    [ "evaluate", "a05151.html#a43b4c73244bc6722ce551c1033cf1115", null ],
-    [ "getLiteral", "a05151.html#ad5ea121d0231b4b209324202427665f0", null ],
-    [ "relation", "a05151.html#ab887cebaf1a6c595cd2fd74de03002d2", null ],
-    [ "vectorOrRaster", "a05151.html#ad5afdfd817cdf11ee0e48c7f56c5514c", null ],
-    [ "rasterLiteralURIs", "a05151.html#ac7dbee8298c097c6bd08da6002fd6ecb", null ],
-    [ "vectorLiteralURIs", "a05151.html#a6e7c25bfd07628e3e74ea4e1ddfcae70", null ]
+    [ "XReader", "a05155.html", "a05155" ],
+    [ "getFormatName", "a05151.html#aecf7db5b6782ec66f95d40c786a4d223", null ],
+    [ "read", "a05151.html#a74ddfb2345fac670df368a87d8ef120e", null ],
+    [ "read", "a05151.html#abb0d91da5ace7eba640f9bfa11b48dbf", null ],
+    [ "readIfSupported", "a05151.html#abc9814e865cf8cb200e35ffe5d4b748f", null ],
+    [ "readPolygon", "a05151.html#a3c0fa677a36d744060c714da150b798c", null ],
+    [ "shpFactory", "a05151.html#a05afdb0d887f04c5eac83dd8132c87b6", null ]
 ];

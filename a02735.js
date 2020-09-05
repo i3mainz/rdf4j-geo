@@ -1,9 +1,6 @@
 var a02735 =
 [
-    [ "getGARS", "a02735.html#ad32b2611bcfa60ea86cc4e6c3e17a7f9", null ],
-    [ "getGARS", "a02735.html#aab0ce72463899f6ec6442a3d84a3505e", null ],
-    [ "getKeyPad", "a02735.html#af7bff98d14ce187151a4a42f2f2dd8bf", null ],
-    [ "getLatitudeBand", "a02735.html#ad4746c530ec18633752a358cb6be1fca", null ],
-    [ "getLongitudeBand", "a02735.html#aed1e474b826a038d1709638ca60ed398", null ],
-    [ "getQudarant", "a02735.html#a71d9179536894e21c4fa1049adf3d105", null ]
+    [ "helloWorld", "a02735.html#ae310b4f88f65f8db789e31b8773c8965", null ],
+    [ "main", "a02735.html#a8b260eecbaabcef8473fd87ada040682", null ],
+    [ "queryService", "a02735.html#aa6e8851926af0396f20c9226f358174d", null ]
 ];

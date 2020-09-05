@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>rdf4j-postgis: GeometryTypeTest Class Reference</title>
+<title>rdf4j-postgis: AreaTest Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -65,36 +65,36 @@ $(document).ready(function(){initNavTree('a05315.html','');});
 <a href="#pub-static-attribs">Static Public Attributes</a> &#124;
 <a href="a05312.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">GeometryTypeTest Class Reference</div>  </div>
+<div class="title">AreaTest Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 <div class="dynheader">
-Collaboration diagram for GeometryTypeTest:</div>
+Collaboration diagram for AreaTest:</div>
 <div class="dyncontent">
-<div class="center"><img src="a05313.png" border="0" usemap="#GeometryTypeTest_coll__map" alt="Collaboration graph"/></div>
-<map name="GeometryTypeTest_coll__map" id="GeometryTypeTest_coll__map">
+<div class="center"><img src="a05313.png" border="0" usemap="#AreaTest_coll__map" alt="Collaboration graph"/></div>
+<map name="AreaTest_coll__map" id="AreaTest_coll__map">
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a0444ce8df222ae81e1a33426a32d8d7a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05315.html#a0444ce8df222ae81e1a33426a32d8d7a">testLineString</a> ()</td></tr>
-<tr class="separator:a0444ce8df222ae81e1a33426a32d8d7a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0a36ddf1f9fc8aaeec6833dc8816cd41"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05315.html#a0a36ddf1f9fc8aaeec6833dc8816cd41">testArea</a> ()</td></tr>
+<tr class="separator:a0a36ddf1f9fc8aaeec6833dc8816cd41"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
-<tr class="memitem:a03a5f5da0ccbeed8c1678d4317cf2672"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05315.html#a03a5f5da0ccbeed8c1678d4317cf2672">testGeom</a> =&quot;LINESTRING(743238 2967416,743238 2967450,743265 2967450, 743265.625 2967416,743238 2967416)&quot;</td></tr>
-<tr class="separator:a03a5f5da0ccbeed8c1678d4317cf2672"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1e3187cbc25299380589200c398b3ffd"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05315.html#a1e3187cbc25299380589200c398b3ffd">testPolygon</a> =&quot;POLYGON((743238 2967416,743238 2967450,743265 2967450,743265.625 2967416,743238 2967416))&quot;</td></tr>
+<tr class="separator:a1e3187cbc25299380589200c398b3ffd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a0444ce8df222ae81e1a33426a32d8d7a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0444ce8df222ae81e1a33426a32d8d7a">&#9670;&nbsp;</a></span>testLineString()</h2>
+<a id="a0a36ddf1f9fc8aaeec6833dc8816cd41"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0a36ddf1f9fc8aaeec6833dc8816cd41">&#9670;&nbsp;</a></span>testArea()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void testLineString </td>
+          <td class="memname">void testArea </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -102,14 +102,14 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="a03215.html#a43b4c73244bc6722ce551c1033cf1115">GeometricStringExportFunction.evaluate()</a>, and <a class="el" href="a05083.html#ae02c2e86ac0dea8538c7b43e9e82421a">WKTDatatype.LiteralIRI</a>.</p>
-<div class="fragment"><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;                                     {</div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;                GeometryType instance=<span class="keyword">new</span> GeometryType();</div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;                ValueFactory valfac=SimpleValueFactory.getInstance();</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;                Value geo=valfac.createLiteral(<a class="code" href="a05315.html#a03a5f5da0ccbeed8c1678d4317cf2672">testGeom</a>, WKTDatatype.LiteralIRI);</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;                Value result=instance.evaluate(valfac, geo);</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;                Value expResult=valfac.createLiteral(<span class="stringliteral">&quot;LineString&quot;</span>);</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;                assertEquals(expResult, result);</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;        }</div><div class="ttc" id="a05315_html_a03a5f5da0ccbeed8c1678d4317cf2672"><div class="ttname"><a href="a05315.html#a03a5f5da0ccbeed8c1678d4317cf2672">org.eclipse.rdf4j.testsuites.postgis.geometry.attribute.GeometryTypeTest.testGeom</a></div><div class="ttdeci">static final String testGeom</div><div class="ttdef"><b>Definition:</b> GeometryTypeTest.java:14</div></div>
+<p class="reference">References <a class="el" href="a03139.html#a43b4c73244bc6722ce551c1033cf1115">GeometricDoubleAttributeFunction.evaluate()</a>, and <a class="el" href="a05103.html#ae02c2e86ac0dea8538c7b43e9e82421a">WKTDatatype.LiteralIRI</a>.</p>
+<div class="fragment"><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;                               {</div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;        Area instance=<span class="keyword">new</span> Area();</div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;                ValueFactory valfac=SimpleValueFactory.getInstance();</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;                Value geo=valfac.createLiteral(<a class="code" href="a05315.html#a1e3187cbc25299380589200c398b3ffd">testPolygon</a>, WKTDatatype.LiteralIRI);</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;                Value result=instance.evaluate(valfac, geo);</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;                Value expResult=valfac.createLiteral(928.625);</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;            assertEquals(expResult, result);</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;        }</div><div class="ttc" id="a05315_html_a1e3187cbc25299380589200c398b3ffd"><div class="ttname"><a href="a05315.html#a1e3187cbc25299380589200c398b3ffd">org.eclipse.rdf4j.testsuites.postgis.geometry.attribute.AreaTest.testPolygon</a></div><div class="ttdeci">static final String testPolygon</div><div class="ttdef"><b>Definition:</b> AreaTest.java:14</div></div>
 </div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="a03a5f5da0ccbeed8c1678d4317cf2672"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a03a5f5da0ccbeed8c1678d4317cf2672">&#9670;&nbsp;</a></span>testGeom</h2>
+<a id="a1e3187cbc25299380589200c398b3ffd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1e3187cbc25299380589200c398b3ffd">&#9670;&nbsp;</a></span>testPolygon</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -118,7 +118,7 @@ Static Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">final String testGeom =&quot;LINESTRING(743238 2967416,743238 2967450,743265 2967450, 743265.625 2967416,743238 2967416)&quot;</td>
+          <td class="memname">final String testPolygon =&quot;POLYGON((743238 2967416,743238 2967450,743265 2967450,743265.625 2967416,743238 2967416))&quot;</td>
         </tr>
       </table>
   </td>
@@ -136,7 +136,7 @@ Static Public Attributes</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="a02598.html">org</a></li><li class="navelem"><a class="el" href="a02599.html">eclipse</a></li><li class="navelem"><a class="el" href="a02600.html">rdf4j</a></li><li class="navelem"><a class="el" href="a02681.html">testsuites</a></li><li class="navelem"><a class="el" href="a02682.html">postgis</a></li><li class="navelem"><a class="el" href="a02685.html">geometry</a></li><li class="navelem"><a class="el" href="a02684.html">attribute</a></li><li class="navelem"><a class="el" href="a05315.html">GeometryTypeTest</a></li>
+    <li class="navelem"><a class="el" href="a02610.html">org</a></li><li class="navelem"><a class="el" href="a02611.html">eclipse</a></li><li class="navelem"><a class="el" href="a02612.html">rdf4j</a></li><li class="navelem"><a class="el" href="a02693.html">testsuites</a></li><li class="navelem"><a class="el" href="a02694.html">postgis</a></li><li class="navelem"><a class="el" href="a02697.html">geometry</a></li><li class="navelem"><a class="el" href="a02696.html">attribute</a></li><li class="navelem"><a class="el" href="a05315.html">AreaTest</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>

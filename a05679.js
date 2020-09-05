@@ -1,6 +1,6 @@
 var a05679 =
 [
-    [ "testCollectionExtract", "a05679.html#ad65aa26b3876b84d26c4b988083bd940", null ],
-    [ "res", "a05679.html#ab8deaae2f0a5506ff9fd02ff15e921cc", null ],
-    [ "testGeometry", "a05679.html#abc3f514f005cba49e406658e2d3086eb", null ]
+    [ "testSridIsGeographicFalse", "a05679.html#abd1395d0581a64740ed1bae57b2882b3", null ],
+    [ "testSridIsGeographicTrue", "a05679.html#a09f0ac6b4b2a063a3d1df32d600b9b11", null ],
+    [ "testPoint", "a05679.html#af26f700ee129f846cac58735f6dcc380", null ]
 ];

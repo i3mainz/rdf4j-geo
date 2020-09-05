@@ -1,9 +1,8 @@
 var a05003 =
 [
-    [ "read", "a05003.html#a793358fbd6ef538a24eabab1bd50ef01", null ],
-    [ "readDXFLiteral", "a05003.html#aaed3b78f0a76b78caea160038eaf7fdb", null ],
-    [ "toString", "a05003.html#ad146fa8579a5f8a876c4688cc5a68520", null ],
-    [ "unparse", "a05003.html#ae918a517e1ebcc44beeee2c55008d248", null ],
-    [ "INSTANCE", "a05003.html#ad9664f278eff85c98017f28ccc848700", null ],
+    [ "read", "a05003.html#afd26f2137814b79e69d9f4cd66074c30", null ],
+    [ "unparse", "a05003.html#a657560fc17175e794fe55d3b23643891", null ],
+    [ "INSTANCE", "a05003.html#aa67fd58121397b354e07fbf09cb4c945", null ],
+    [ "LiteralIRI", "a05003.html#ae02c2e86ac0dea8538c7b43e9e82421a", null ],
     [ "URI", "a05003.html#addbf30e6c0ad68fa34277d59a2c6eb5e", null ]
 ];

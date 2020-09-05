@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>rdf4j-postgis: LengthSubstring Class Reference</title>
+<title>rdf4j-postgis: TWKBWriter.ExtendedPrecisionWriter Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -62,86 +62,107 @@ $(document).ready(function(){initNavTree('a05239.html','');});
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
-<a href="#pri-methods">Private Member Functions</a> &#124;
+<a href="#pro-methods">Protected Member Functions</a> &#124;
+<a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="a05236.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">LengthSubstring Class Reference</div>  </div>
+<div class="title">TWKBWriter.ExtendedPrecisionWriter Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-
-<p>Computes a substring of a <a class="el" href="">LineString</a> between given distances along the line.  
- <a href="a05239.html#details">More...</a></p>
 <div class="dynheader">
-Collaboration diagram for LengthSubstring:</div>
+Inheritance diagram for TWKBWriter.ExtendedPrecisionWriter:</div>
 <div class="dyncontent">
-<div class="center"><img src="a05237.png" border="0" usemap="#LengthSubstring_coll__map" alt="Collaboration graph"/></div>
-<map name="LengthSubstring_coll__map" id="LengthSubstring_coll__map">
+<div class="center"><img src="a05238.png" border="0" usemap="#TWKBWriter_8ExtendedPrecisionWriter_inherit__map" alt="Inheritance graph"/></div>
+<map name="TWKBWriter_8ExtendedPrecisionWriter_inherit__map" id="TWKBWriter_8ExtendedPrecisionWriter_inherit__map">
+<area shape="rect" id="node2" href="a05235.html" title="TWKBWriter.PrecisionWriter" alt="" coords="15,5,205,32"/>
+</map>
+<center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
+<div class="dynheader">
+Collaboration diagram for TWKBWriter.ExtendedPrecisionWriter:</div>
+<div class="dyncontent">
+<div class="center"><img src="a05237.png" border="0" usemap="#TWKBWriter_8ExtendedPrecisionWriter_coll__map" alt="Collaboration graph"/></div>
+<map name="TWKBWriter_8ExtendedPrecisionWriter_coll__map" id="TWKBWriter_8ExtendedPrecisionWriter_coll__map">
+<area shape="rect" id="node2" href="a05235.html" title="TWKBWriter.PrecisionWriter" alt="" coords="142,96,332,123"/>
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a8375df00135da48182ecb97996cfebf1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05239.html#a8375df00135da48182ecb97996cfebf1">LengthSubstring</a> (LineString <a class="el" href="a05239.html#a53e992765125efc5fc595f0d38e947ea">line</a>)</td></tr>
-<tr class="separator:a8375df00135da48182ecb97996cfebf1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7aa54bd5af7e7f3fd33047db15540bc4"><td class="memItemLeft" align="right" valign="top">LineString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05239.html#a7aa54bd5af7e7f3fd33047db15540bc4">getSubstring</a> (double startDistance, double endDistance)</td></tr>
-<tr class="separator:a7aa54bd5af7e7f3fd33047db15540bc4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1b9dd1e59eac3a2a15cb68c19e994fe4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="a05235.html">PrecisionWriter</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05239.html#a1b9dd1e59eac3a2a15cb68c19e994fe4">calculate</a> (final <a class="el" href="a05243.html">Coordinate</a>[] coordinates, final int <a class="el" href="a05231.html#a3790bdd1fc8284d93d59193536955934">maxPrecision</a>)</td></tr>
+<tr class="separator:a1b9dd1e59eac3a2a15cb68c19e994fe4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a320ccd90ec0ef71a4353104b7fe98a1c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05239.html#a320ccd90ec0ef71a4353104b7fe98a1c">writeExtendedPrecision</a> (final DataOutput output)  throws IOException </td></tr>
+<tr class="separator:a320ccd90ec0ef71a4353104b7fe98a1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adedb1cd853d00648be239477f7fe4e2a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05239.html#adedb1cd853d00648be239477f7fe4e2a">writePoint</a> (final <a class="el" href="a05243.html">Coordinate</a> coordinate, final DataOutput output)  throws IOException </td></tr>
+<tr class="separator:adedb1cd853d00648be239477f7fe4e2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afeed21e7153170021427b1e7001d952b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05239.html#afeed21e7153170021427b1e7001d952b">writePointArray</a> (final <a class="el" href="a05243.html">Coordinate</a>[] coordinates, final DataOutput output)  throws IOException </td></tr>
+<tr class="separator:afeed21e7153170021427b1e7001d952b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
-Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a0899c2e48f2616119c3f0e3e297549e6"><td class="memItemLeft" align="right" valign="top">static LineString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05239.html#a0899c2e48f2616119c3f0e3e297549e6">getSubstring</a> (LineString <a class="el" href="a05239.html#a53e992765125efc5fc595f0d38e947ea">line</a>, double startLength, double endLength)</td></tr>
-<tr class="separator:a0899c2e48f2616119c3f0e3e297549e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
+Protected Member Functions</h2></td></tr>
+<tr class="memitem:a0a01f90a7fe27e3b66f1c87f019e91bc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05239.html#a0a01f90a7fe27e3b66f1c87f019e91bc">checkCoordinate</a> (final <a class="el" href="a05243.html">Coordinate</a> c)</td></tr>
+<tr class="separator:a0a01f90a7fe27e3b66f1c87f019e91bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7626720b9bf807253dd702a0214dc9f0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05239.html#a7626720b9bf807253dd702a0214dc9f0">finalize</a> (final int <a class="el" href="a05231.html#a3790bdd1fc8284d93d59193536955934">maxPrecision</a>)</td></tr>
+<tr class="separator:a7626720b9bf807253dd702a0214dc9f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
-Private Member Functions</h2></td></tr>
-<tr class="memitem:ad8eec22df403077b17b2ac90b0c95230"><td class="memItemLeft" align="right" valign="top">LineString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05239.html#ad8eec22df403077b17b2ac90b0c95230">computeSubstring</a> (double startDistance, double endDistance)</td></tr>
-<tr class="memdesc:ad8eec22df403077b17b2ac90b0c95230"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assumes input is strictly valid (e.g.  <a href="#ad8eec22df403077b17b2ac90b0c95230">More...</a><br /></td></tr>
-<tr class="separator:ad8eec22df403077b17b2ac90b0c95230"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
+Protected Attributes</h2></td></tr>
+<tr class="memitem:a9aa85be4ec02c28a05cb552845fe08eb"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05235.html#a9aa85be4ec02c28a05cb552845fe08eb">precisionMultiplier</a> = 0</td></tr>
+<tr class="separator:a9aa85be4ec02c28a05cb552845fe08eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:a53e992765125efc5fc595f0d38e947ea"><td class="memItemLeft" align="right" valign="top">LineString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05239.html#a53e992765125efc5fc595f0d38e947ea">line</a></td></tr>
-<tr class="separator:a53e992765125efc5fc595f0d38e947ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab356995ed7cff0226d75484d03a994f2"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05239.html#ab356995ed7cff0226d75484d03a994f2">hasZ</a> = false</td></tr>
+<tr class="separator:ab356995ed7cff0226d75484d03a994f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abdd886294f53edb9018d91b1e049bef8"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05239.html#abdd886294f53edb9018d91b1e049bef8">zPrecision</a> = <a class="el" href="a05227.html#ad70b66875f973adc5547402ec3ab512d">TWKBUtils.MIN_EXTENDED_PRECISION</a></td></tr>
+<tr class="separator:abdd886294f53edb9018d91b1e049bef8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abb32d6067d519044d8c44d52ab2cdd44"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05239.html#abb32d6067d519044d8c44d52ab2cdd44">zPrecisionMultiplier</a> = 0</td></tr>
+<tr class="separator:abb32d6067d519044d8c44d52ab2cdd44"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1eccf09f4c826ba480ec832ac4ce7718"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05239.html#a1eccf09f4c826ba480ec832ac4ce7718">hasM</a> = false</td></tr>
+<tr class="separator:a1eccf09f4c826ba480ec832ac4ce7718"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1b92282fc8148f040078b9bb37b30b15"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05239.html#a1b92282fc8148f040078b9bb37b30b15">mPrecision</a> = <a class="el" href="a05227.html#ad70b66875f973adc5547402ec3ab512d">TWKBUtils.MIN_EXTENDED_PRECISION</a></td></tr>
+<tr class="separator:a1b92282fc8148f040078b9bb37b30b15"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4ea667f57906c038bb9717bc848df77a"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05239.html#a4ea667f57906c038bb9717bc848df77a">mPrecisionMultiplier</a> = 0</td></tr>
+<tr class="separator:a4ea667f57906c038bb9717bc848df77a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Computes a substring of a <a class="el" href="">LineString</a> between given distances along the line. </p>
-<ul>
-<li>
-The distances are clipped to the actual line length </li>
-<li>
-If the start distance is equal to the end distance, a zero-length line with two identical points is returned </li>
-<li>
-FUTURE: If the start distance is greater than the end distance, an inverted section of the line is returned </li>
-</ul>
-<p>FUTURE: should handle startLength &gt; endLength, and flip the returned linestring. Also should handle negative lengths (they are measured from end of line backwards). </p>
-</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a8375df00135da48182ecb97996cfebf1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8375df00135da48182ecb97996cfebf1">&#9670;&nbsp;</a></span>LengthSubstring()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="a05239.html">LengthSubstring</a> </td>
-          <td>(</td>
-          <td class="paramtype">LineString&#160;</td>
-          <td class="paramname"><em>line</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="reference">References <a class="el" href="a05239.html#a53e992765125efc5fc595f0d38e947ea">LengthSubstring.line</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="a05239.html#a0899c2e48f2616119c3f0e3e297549e6">LengthSubstring.getSubstring()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;                                          {</div><div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    this.<a class="code" href="a05239.html#a53e992765125efc5fc595f0d38e947ea">line</a> = <a class="code" href="a05239.html#a53e992765125efc5fc595f0d38e947ea">line</a>;</div><div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;  }</div><div class="ttc" id="a05239_html_a53e992765125efc5fc595f0d38e947ea"><div class="ttname"><a href="a05239.html#a53e992765125efc5fc595f0d38e947ea">org.locationtech.jump.algorithm.LengthSubstring.line</a></div><div class="ttdeci">LineString line</div><div class="ttdef"><b>Definition:</b> LengthSubstring.java:35</div></div>
-</div><!-- fragment -->
-</div>
-</div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="ad8eec22df403077b17b2ac90b0c95230"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad8eec22df403077b17b2ac90b0c95230">&#9670;&nbsp;</a></span>computeSubstring()</h2>
+<a id="a1b9dd1e59eac3a2a15cb68c19e994fe4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1b9dd1e59eac3a2a15cb68c19e994fe4">&#9670;&nbsp;</a></span>calculate()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="a05235.html">PrecisionWriter</a> calculate </td>
+          <td>(</td>
+          <td class="paramtype">final <a class="el" href="a05243.html">Coordinate</a> []&#160;</td>
+          <td class="paramname"><em>coordinates</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">final int&#160;</td>
+          <td class="paramname"><em>maxPrecision</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="a05235.html#a1b9dd1e59eac3a2a15cb68c19e994fe4">TWKBWriter.PrecisionWriter.calculate()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="a05231.html#a1ad170fc53b3438a213305dcf054c951">TWKBWriter.write()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;                                                                                             {</div><div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;      <a class="code" href="a05239.html#ab356995ed7cff0226d75484d03a994f2">hasZ</a> = !Double.isNaN(coordinates[0].getZ());</div><div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;      <a class="code" href="a05239.html#a1eccf09f4c826ba480ec832ac4ce7718">hasM</a> = !Double.isNaN(coordinates[0].getM());</div><div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;      super.calculate(coordinates, <a class="code" href="a05231.html#a3790bdd1fc8284d93d59193536955934">maxPrecision</a>);</div><div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160;      <span class="keywordflow">return</span> <span class="keyword">this</span>;</div><div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160;    }</div><div class="ttc" id="a05239_html_a1eccf09f4c826ba480ec832ac4ce7718"><div class="ttname"><a href="a05239.html#a1eccf09f4c826ba480ec832ac4ce7718">org.locationtech.geowave.core.geotime.util.TWKBWriter.ExtendedPrecisionWriter.hasM</a></div><div class="ttdeci">boolean hasM</div><div class="ttdef"><b>Definition:</b> TWKBWriter.java:245</div></div>
+<div class="ttc" id="a05231_html_a3790bdd1fc8284d93d59193536955934"><div class="ttname"><a href="a05231.html#a3790bdd1fc8284d93d59193536955934">org.locationtech.geowave.core.geotime.util.TWKBWriter.maxPrecision</a></div><div class="ttdeci">final int maxPrecision</div><div class="ttdef"><b>Definition:</b> TWKBWriter.java:28</div></div>
+<div class="ttc" id="a05239_html_ab356995ed7cff0226d75484d03a994f2"><div class="ttname"><a href="a05239.html#ab356995ed7cff0226d75484d03a994f2">org.locationtech.geowave.core.geotime.util.TWKBWriter.ExtendedPrecisionWriter.hasZ</a></div><div class="ttdeci">boolean hasZ</div><div class="ttdef"><b>Definition:</b> TWKBWriter.java:242</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a0a01f90a7fe27e3b66f1c87f019e91bc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0a01f90a7fe27e3b66f1c87f019e91bc">&#9670;&nbsp;</a></span>checkCoordinate()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -150,51 +171,30 @@ FUTURE: If the start distance is greater than the end distance, an inverted sect
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">LineString computeSubstring </td>
+          <td class="memname">void checkCoordinate </td>
           <td>(</td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>startDistance</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
+          <td class="paramtype">final <a class="el" href="a05243.html">Coordinate</a>&#160;</td>
+          <td class="paramname"><em>c</em></td><td>)</td>
           <td></td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>endDistance</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>Assumes input is strictly valid (e.g. </p>
-<p>startDist &lt; endDistance)</p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">startDistance</td><td></td></tr>
-    <tr><td class="paramname">endDistance</td><td></td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd></dd></dl>
-<p>Ensure there is enough coordinates to build a valid line. Make a 2-point line with duplicate coordinates, if necessary There will always be at least one coordinate in the coordList.</p>
-
-<p class="reference">References <a class="el" href="a05247.html#a8138e49067c6447449ff0a8ce19bfed4">LocatePoint.pointAlongSegment()</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="a05239.html#a7aa54bd5af7e7f3fd33047db15540bc4">LengthSubstring.getSubstring()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;  {</div><div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;    Coordinate[] coordinates = <a class="code" href="a05239.html#a53e992765125efc5fc595f0d38e947ea">line</a>.getCoordinates();</div><div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;    CoordinateList newCoordinates = <span class="keyword">new</span> CoordinateList();</div><div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;    <span class="keywordtype">double</span> segmentStartDistance = 0.0;</div><div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;    <span class="keywordtype">double</span> segmentEndDistance = 0.0;</div><div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;    <span class="keywordtype">boolean</span> started = <span class="keyword">false</span>;</div><div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;    <span class="keywordtype">int</span> i = 0;</div><div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;    LineSegment segment = <span class="keyword">new</span> LineSegment();</div><div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;    <span class="keywordflow">while</span> (i &lt; coordinates.length - 1 &amp;&amp; endDistance &gt; segmentEndDistance) {</div><div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;      segment.p0 = coordinates[i];</div><div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;      segment.p1 = coordinates[i + 1];</div><div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;      i++;</div><div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;      segmentStartDistance = segmentEndDistance;</div><div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;      segmentEndDistance = segmentStartDistance + segment.getLength();</div><div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;</div><div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;      <span class="keywordflow">if</span> (startDistance &gt; segmentEndDistance)</div><div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;        <span class="keywordflow">continue</span>;</div><div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;      <span class="keywordflow">if</span> (startDistance &gt;= segmentStartDistance</div><div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;          &amp;&amp; startDistance &lt; segmentEndDistance) {</div><div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;        newCoordinates.add(LocatePoint.pointAlongSegment(segment.p0, segment.p1,</div><div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;            startDistance - segmentStartDistance), <span class="keyword">false</span>);</div><div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;      }</div><div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;      <span class="comment">/*</span></div><div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;<span class="comment">      if (startDistance &gt;= segmentStartDistance</span></div><div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;<span class="comment">          &amp;&amp; startDistance == segmentEndDistance) {</span></div><div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;<span class="comment">        newCoordinates.add(new Coordinate(segment.p1), false);</span></div><div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;<span class="comment">      }</span></div><div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;<span class="comment">      */</span></div><div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;      <span class="keywordflow">if</span> (endDistance &gt;= segmentEndDistance) {</div><div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;        newCoordinates.add(<span class="keyword">new</span> Coordinate(segment.p1), <span class="keyword">false</span>);</div><div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;      }</div><div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;      <span class="keywordflow">if</span> (endDistance &gt;= segmentStartDistance</div><div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;          &amp;&amp; endDistance &lt; segmentEndDistance) {</div><div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;        newCoordinates.add(LocatePoint.pointAlongSegment(segment.p0, segment.p1,</div><div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;            endDistance - segmentStartDistance), <span class="keyword">false</span>);</div><div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;      }</div><div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;    }</div><div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;    Coordinate[] newCoordinateArray = newCoordinates.toCoordinateArray();</div><div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;    <span class="keywordflow">if</span> (newCoordinateArray.length &lt;= 1) {</div><div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;      newCoordinateArray = <span class="keyword">new</span> Coordinate[] { newCoordinateArray[0], newCoordinateArray[0]};</div><div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;    }</div><div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="a05239.html#a53e992765125efc5fc595f0d38e947ea">line</a>.getFactory().createLineString(newCoordinateArray);</div><div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;  }</div><div class="ttc" id="a05239_html_a53e992765125efc5fc595f0d38e947ea"><div class="ttname"><a href="a05239.html#a53e992765125efc5fc595f0d38e947ea">org.locationtech.jump.algorithm.LengthSubstring.line</a></div><div class="ttdeci">LineString line</div><div class="ttdef"><b>Definition:</b> LengthSubstring.java:35</div></div>
+<p class="reference">References <a class="el" href="a05243.html#ab5e9bd8f66fd5c9a95233c34eaaff188">Coordinate.getM()</a>, and <a class="el" href="a05243.html#a12408ea71b830bfdbd24101b0b6ca49a">Coordinate.getZ()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00258"></a><span class="lineno">  258</span>&#160;                                                       {</div><div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160;      super.checkCoordinate(c);</div><div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160;      <span class="keywordflow">if</span> (<a class="code" href="a05239.html#ab356995ed7cff0226d75484d03a994f2">hasZ</a>) {</div><div class="line"><a name="l00261"></a><span class="lineno">  261</span>&#160;        <span class="keyword">final</span> BigDecimal zCoord = <span class="keyword">new</span> BigDecimal(Double.toString(c.getZ())).stripTrailingZeros();</div><div class="line"><a name="l00262"></a><span class="lineno">  262</span>&#160;        <a class="code" href="a05239.html#abdd886294f53edb9018d91b1e049bef8">zPrecision</a> = Math.max(zCoord.scale(), <a class="code" href="a05239.html#abdd886294f53edb9018d91b1e049bef8">zPrecision</a>);</div><div class="line"><a name="l00263"></a><span class="lineno">  263</span>&#160;      }</div><div class="line"><a name="l00264"></a><span class="lineno">  264</span>&#160;      <span class="keywordflow">if</span> (<a class="code" href="a05239.html#a1eccf09f4c826ba480ec832ac4ce7718">hasM</a>) {</div><div class="line"><a name="l00265"></a><span class="lineno">  265</span>&#160;        <span class="keyword">final</span> BigDecimal mCoord = <span class="keyword">new</span> BigDecimal(Double.toString(c.getM())).stripTrailingZeros();</div><div class="line"><a name="l00266"></a><span class="lineno">  266</span>&#160;        <a class="code" href="a05239.html#a1b92282fc8148f040078b9bb37b30b15">mPrecision</a> = Math.max(mCoord.scale(), <a class="code" href="a05239.html#a1b92282fc8148f040078b9bb37b30b15">mPrecision</a>);</div><div class="line"><a name="l00267"></a><span class="lineno">  267</span>&#160;      }</div><div class="line"><a name="l00268"></a><span class="lineno">  268</span>&#160;    }</div><div class="ttc" id="a05239_html_a1eccf09f4c826ba480ec832ac4ce7718"><div class="ttname"><a href="a05239.html#a1eccf09f4c826ba480ec832ac4ce7718">org.locationtech.geowave.core.geotime.util.TWKBWriter.ExtendedPrecisionWriter.hasM</a></div><div class="ttdeci">boolean hasM</div><div class="ttdef"><b>Definition:</b> TWKBWriter.java:245</div></div>
+<div class="ttc" id="a05239_html_abdd886294f53edb9018d91b1e049bef8"><div class="ttname"><a href="a05239.html#abdd886294f53edb9018d91b1e049bef8">org.locationtech.geowave.core.geotime.util.TWKBWriter.ExtendedPrecisionWriter.zPrecision</a></div><div class="ttdeci">int zPrecision</div><div class="ttdef"><b>Definition:</b> TWKBWriter.java:243</div></div>
+<div class="ttc" id="a05239_html_a1b92282fc8148f040078b9bb37b30b15"><div class="ttname"><a href="a05239.html#a1b92282fc8148f040078b9bb37b30b15">org.locationtech.geowave.core.geotime.util.TWKBWriter.ExtendedPrecisionWriter.mPrecision</a></div><div class="ttdeci">int mPrecision</div><div class="ttdef"><b>Definition:</b> TWKBWriter.java:246</div></div>
+<div class="ttc" id="a05239_html_ab356995ed7cff0226d75484d03a994f2"><div class="ttname"><a href="a05239.html#ab356995ed7cff0226d75484d03a994f2">org.locationtech.geowave.core.geotime.util.TWKBWriter.ExtendedPrecisionWriter.hasZ</a></div><div class="ttdeci">boolean hasZ</div><div class="ttdef"><b>Definition:</b> TWKBWriter.java:242</div></div>
 </div><!-- fragment -->
 </div>
 </div>
-<a id="a0899c2e48f2616119c3f0e3e297549e6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0899c2e48f2616119c3f0e3e297549e6">&#9670;&nbsp;</a></span>getSubstring() <span class="overload">[1/2]</span></h2>
+<a id="a7626720b9bf807253dd702a0214dc9f0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7626720b9bf807253dd702a0214dc9f0">&#9670;&nbsp;</a></span>finalize()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -203,79 +203,125 @@ FUTURE: If the start distance is greater than the end distance, an inverted sect
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static LineString getSubstring </td>
+          <td class="memname">void finalize </td>
           <td>(</td>
-          <td class="paramtype">LineString&#160;</td>
-          <td class="paramname"><em>line</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
+          <td class="paramtype">final int&#160;</td>
+          <td class="paramname"><em>maxPrecision</em></td><td>)</td>
           <td></td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>startLength</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>endLength</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="a05239.html#a0899c2e48f2616119c3f0e3e297549e6">LengthSubstring.getSubstring()</a>, and <a class="el" href="a05239.html#a8375df00135da48182ecb97996cfebf1">LengthSubstring.LengthSubstring()</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="a05239.html#a0899c2e48f2616119c3f0e3e297549e6">LengthSubstring.getSubstring()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;                                                          {</div><div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    <a class="code" href="a05239.html#a8375df00135da48182ecb97996cfebf1">LengthSubstring</a> ls = <span class="keyword">new</span> <a class="code" href="a05239.html#a8375df00135da48182ecb97996cfebf1">LengthSubstring</a>(<a class="code" href="a05239.html#a53e992765125efc5fc595f0d38e947ea">line</a>);</div><div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    <span class="keywordflow">return</span> ls.getSubstring(startLength, endLength);</div><div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;  }</div><div class="ttc" id="a05239_html_a53e992765125efc5fc595f0d38e947ea"><div class="ttname"><a href="a05239.html#a53e992765125efc5fc595f0d38e947ea">org.locationtech.jump.algorithm.LengthSubstring.line</a></div><div class="ttdeci">LineString line</div><div class="ttdef"><b>Definition:</b> LengthSubstring.java:35</div></div>
-<div class="ttc" id="a05239_html_a8375df00135da48182ecb97996cfebf1"><div class="ttname"><a href="a05239.html#a8375df00135da48182ecb97996cfebf1">org.locationtech.jump.algorithm.LengthSubstring.LengthSubstring</a></div><div class="ttdeci">LengthSubstring(LineString line)</div><div class="ttdef"><b>Definition:</b> LengthSubstring.java:37</div></div>
+<p class="reference">References <a class="el" href="a05227.html#a5b750380e571ae88f99a796f9d54e49f">TWKBUtils.MAX_EXTENDED_PRECISION</a>.</p>
+<div class="fragment"><div class="line"><a name="l00271"></a><span class="lineno">  271</span>&#160;                                                    {</div><div class="line"><a name="l00272"></a><span class="lineno">  272</span>&#160;      super.finalize(<a class="code" href="a05231.html#a3790bdd1fc8284d93d59193536955934">maxPrecision</a>);</div><div class="line"><a name="l00273"></a><span class="lineno">  273</span>&#160;      <span class="keywordflow">if</span> (<a class="code" href="a05239.html#ab356995ed7cff0226d75484d03a994f2">hasZ</a>) {</div><div class="line"><a name="l00274"></a><span class="lineno">  274</span>&#160;        <a class="code" href="a05239.html#abdd886294f53edb9018d91b1e049bef8">zPrecision</a> = Math.min(TWKBUtils.MAX_EXTENDED_PRECISION, <a class="code" href="a05239.html#abdd886294f53edb9018d91b1e049bef8">zPrecision</a>);</div><div class="line"><a name="l00275"></a><span class="lineno">  275</span>&#160;        <a class="code" href="a05239.html#abb32d6067d519044d8c44d52ab2cdd44">zPrecisionMultiplier</a> = Math.pow(10, <a class="code" href="a05239.html#abdd886294f53edb9018d91b1e049bef8">zPrecision</a>);</div><div class="line"><a name="l00276"></a><span class="lineno">  276</span>&#160;      }</div><div class="line"><a name="l00277"></a><span class="lineno">  277</span>&#160;      <span class="keywordflow">if</span> (<a class="code" href="a05239.html#a1eccf09f4c826ba480ec832ac4ce7718">hasM</a>) {</div><div class="line"><a name="l00278"></a><span class="lineno">  278</span>&#160;        <a class="code" href="a05239.html#a1b92282fc8148f040078b9bb37b30b15">mPrecision</a> = Math.min(TWKBUtils.MAX_EXTENDED_PRECISION, <a class="code" href="a05239.html#a1b92282fc8148f040078b9bb37b30b15">mPrecision</a>);</div><div class="line"><a name="l00279"></a><span class="lineno">  279</span>&#160;        <a class="code" href="a05239.html#a4ea667f57906c038bb9717bc848df77a">mPrecisionMultiplier</a> = Math.pow(10, <a class="code" href="a05239.html#a1b92282fc8148f040078b9bb37b30b15">mPrecision</a>);</div><div class="line"><a name="l00280"></a><span class="lineno">  280</span>&#160;      }</div><div class="line"><a name="l00281"></a><span class="lineno">  281</span>&#160;    }</div><div class="ttc" id="a05239_html_a1eccf09f4c826ba480ec832ac4ce7718"><div class="ttname"><a href="a05239.html#a1eccf09f4c826ba480ec832ac4ce7718">org.locationtech.geowave.core.geotime.util.TWKBWriter.ExtendedPrecisionWriter.hasM</a></div><div class="ttdeci">boolean hasM</div><div class="ttdef"><b>Definition:</b> TWKBWriter.java:245</div></div>
+<div class="ttc" id="a05231_html_a3790bdd1fc8284d93d59193536955934"><div class="ttname"><a href="a05231.html#a3790bdd1fc8284d93d59193536955934">org.locationtech.geowave.core.geotime.util.TWKBWriter.maxPrecision</a></div><div class="ttdeci">final int maxPrecision</div><div class="ttdef"><b>Definition:</b> TWKBWriter.java:28</div></div>
+<div class="ttc" id="a05239_html_abb32d6067d519044d8c44d52ab2cdd44"><div class="ttname"><a href="a05239.html#abb32d6067d519044d8c44d52ab2cdd44">org.locationtech.geowave.core.geotime.util.TWKBWriter.ExtendedPrecisionWriter.zPrecisionMultiplier</a></div><div class="ttdeci">double zPrecisionMultiplier</div><div class="ttdef"><b>Definition:</b> TWKBWriter.java:244</div></div>
+<div class="ttc" id="a05239_html_a4ea667f57906c038bb9717bc848df77a"><div class="ttname"><a href="a05239.html#a4ea667f57906c038bb9717bc848df77a">org.locationtech.geowave.core.geotime.util.TWKBWriter.ExtendedPrecisionWriter.mPrecisionMultiplier</a></div><div class="ttdeci">double mPrecisionMultiplier</div><div class="ttdef"><b>Definition:</b> TWKBWriter.java:247</div></div>
+<div class="ttc" id="a05239_html_abdd886294f53edb9018d91b1e049bef8"><div class="ttname"><a href="a05239.html#abdd886294f53edb9018d91b1e049bef8">org.locationtech.geowave.core.geotime.util.TWKBWriter.ExtendedPrecisionWriter.zPrecision</a></div><div class="ttdeci">int zPrecision</div><div class="ttdef"><b>Definition:</b> TWKBWriter.java:243</div></div>
+<div class="ttc" id="a05239_html_a1b92282fc8148f040078b9bb37b30b15"><div class="ttname"><a href="a05239.html#a1b92282fc8148f040078b9bb37b30b15">org.locationtech.geowave.core.geotime.util.TWKBWriter.ExtendedPrecisionWriter.mPrecision</a></div><div class="ttdeci">int mPrecision</div><div class="ttdef"><b>Definition:</b> TWKBWriter.java:246</div></div>
+<div class="ttc" id="a05239_html_ab356995ed7cff0226d75484d03a994f2"><div class="ttname"><a href="a05239.html#ab356995ed7cff0226d75484d03a994f2">org.locationtech.geowave.core.geotime.util.TWKBWriter.ExtendedPrecisionWriter.hasZ</a></div><div class="ttdeci">boolean hasZ</div><div class="ttdef"><b>Definition:</b> TWKBWriter.java:242</div></div>
 </div><!-- fragment -->
 </div>
 </div>
-<a id="a7aa54bd5af7e7f3fd33047db15540bc4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7aa54bd5af7e7f3fd33047db15540bc4">&#9670;&nbsp;</a></span>getSubstring() <span class="overload">[2/2]</span></h2>
+<a id="a320ccd90ec0ef71a4353104b7fe98a1c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a320ccd90ec0ef71a4353104b7fe98a1c">&#9670;&nbsp;</a></span>writeExtendedPrecision()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">LineString getSubstring </td>
+          <td class="memname">void writeExtendedPrecision </td>
           <td>(</td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>startDistance</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>endDistance</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
+          <td class="paramtype">final DataOutput&#160;</td>
+          <td class="paramname"><em>output</em></td><td>)</td>
+          <td> throws IOException</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="a05239.html#ad8eec22df403077b17b2ac90b0c95230">LengthSubstring.computeSubstring()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;  {</div><div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    <span class="comment">// future: if start &gt; end, flip values and return an inverted line</span></div><div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    Assert.isTrue(startDistance &lt;= endDistance, <span class="stringliteral">&quot;inverted distances not currently supported&quot;</span>);</div><div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;</div><div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    Coordinate[] coordinates = <a class="code" href="a05239.html#a53e992765125efc5fc595f0d38e947ea">line</a>.getCoordinates();</div><div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    <span class="comment">// check for a zero-length segment and handle appropriately</span></div><div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    <span class="keywordflow">if</span> (endDistance &lt;= 0.0) {</div><div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;      <span class="keywordflow">return</span> <a class="code" href="a05239.html#a53e992765125efc5fc595f0d38e947ea">line</a>.getFactory().createLineString(</div><div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;          <span class="keyword">new</span> Coordinate[] { coordinates[0], coordinates[0]});</div><div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    }</div><div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    <span class="keywordflow">if</span> (startDistance &gt;= <a class="code" href="a05239.html#a53e992765125efc5fc595f0d38e947ea">line</a>.getLength()) { <span class="keywordflow">return</span> <a class="code" href="a05239.html#a53e992765125efc5fc595f0d38e947ea">line</a>.getFactory()</div><div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;                       .createLineString(</div><div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;                       <span class="keyword">new</span> Coordinate[] { coordinates[coordinates.length - 1],</div><div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    coordinates[coordinates.length - 1]}); }</div><div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    <span class="keywordflow">if</span> (startDistance &lt; 0.0) {</div><div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;      startDistance = 0.0;</div><div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    }</div><div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="a05239.html#ad8eec22df403077b17b2ac90b0c95230">computeSubstring</a>(startDistance, endDistance);</div><div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;  }</div><div class="ttc" id="a05239_html_ad8eec22df403077b17b2ac90b0c95230"><div class="ttname"><a href="a05239.html#ad8eec22df403077b17b2ac90b0c95230">org.locationtech.jump.algorithm.LengthSubstring.computeSubstring</a></div><div class="ttdeci">LineString computeSubstring(double startDistance, double endDistance)</div><div class="ttdoc">Assumes input is strictly valid (e.g. </div><div class="ttdef"><b>Definition:</b> LengthSubstring.java:69</div></div>
-<div class="ttc" id="a05239_html_a53e992765125efc5fc595f0d38e947ea"><div class="ttname"><a href="a05239.html#a53e992765125efc5fc595f0d38e947ea">org.locationtech.jump.algorithm.LengthSubstring.line</a></div><div class="ttdeci">LineString line</div><div class="ttdef"><b>Definition:</b> LengthSubstring.java:35</div></div>
+<p class="reference">References <a class="el" href="a05227.html#ac56ffa9468f6d51a81dfc6a16c7553e7">TWKBUtils.zigZagEncode()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00284"></a><span class="lineno">  284</span>&#160;                                                                                   {</div><div class="line"><a name="l00285"></a><span class="lineno">  285</span>&#160;      byte extendedDimensions = 0;</div><div class="line"><a name="l00286"></a><span class="lineno">  286</span>&#160;      <span class="keywordflow">if</span> (<a class="code" href="a05239.html#ab356995ed7cff0226d75484d03a994f2">hasZ</a>) {</div><div class="line"><a name="l00287"></a><span class="lineno">  287</span>&#160;        extendedDimensions |= 0x1;</div><div class="line"><a name="l00288"></a><span class="lineno">  288</span>&#160;        extendedDimensions |= TWKBUtils.zigZagEncode(<a class="code" href="a05239.html#abdd886294f53edb9018d91b1e049bef8">zPrecision</a>) &lt;&lt; 2;</div><div class="line"><a name="l00289"></a><span class="lineno">  289</span>&#160;      }</div><div class="line"><a name="l00290"></a><span class="lineno">  290</span>&#160;      <span class="keywordflow">if</span> (<a class="code" href="a05239.html#a1eccf09f4c826ba480ec832ac4ce7718">hasM</a>) {</div><div class="line"><a name="l00291"></a><span class="lineno">  291</span>&#160;        extendedDimensions |= 0x2;</div><div class="line"><a name="l00292"></a><span class="lineno">  292</span>&#160;        extendedDimensions |= TWKBUtils.zigZagEncode(<a class="code" href="a05239.html#a1b92282fc8148f040078b9bb37b30b15">mPrecision</a>) &lt;&lt; 5;</div><div class="line"><a name="l00293"></a><span class="lineno">  293</span>&#160;      }</div><div class="line"><a name="l00294"></a><span class="lineno">  294</span>&#160;      output.writeByte(extendedDimensions);</div><div class="line"><a name="l00295"></a><span class="lineno">  295</span>&#160;    }</div><div class="ttc" id="a05239_html_a1eccf09f4c826ba480ec832ac4ce7718"><div class="ttname"><a href="a05239.html#a1eccf09f4c826ba480ec832ac4ce7718">org.locationtech.geowave.core.geotime.util.TWKBWriter.ExtendedPrecisionWriter.hasM</a></div><div class="ttdeci">boolean hasM</div><div class="ttdef"><b>Definition:</b> TWKBWriter.java:245</div></div>
+<div class="ttc" id="a05239_html_abdd886294f53edb9018d91b1e049bef8"><div class="ttname"><a href="a05239.html#abdd886294f53edb9018d91b1e049bef8">org.locationtech.geowave.core.geotime.util.TWKBWriter.ExtendedPrecisionWriter.zPrecision</a></div><div class="ttdeci">int zPrecision</div><div class="ttdef"><b>Definition:</b> TWKBWriter.java:243</div></div>
+<div class="ttc" id="a05239_html_a1b92282fc8148f040078b9bb37b30b15"><div class="ttname"><a href="a05239.html#a1b92282fc8148f040078b9bb37b30b15">org.locationtech.geowave.core.geotime.util.TWKBWriter.ExtendedPrecisionWriter.mPrecision</a></div><div class="ttdeci">int mPrecision</div><div class="ttdef"><b>Definition:</b> TWKBWriter.java:246</div></div>
+<div class="ttc" id="a05239_html_ab356995ed7cff0226d75484d03a994f2"><div class="ttname"><a href="a05239.html#ab356995ed7cff0226d75484d03a994f2">org.locationtech.geowave.core.geotime.util.TWKBWriter.ExtendedPrecisionWriter.hasZ</a></div><div class="ttdeci">boolean hasZ</div><div class="ttdef"><b>Definition:</b> TWKBWriter.java:242</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="adedb1cd853d00648be239477f7fe4e2a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adedb1cd853d00648be239477f7fe4e2a">&#9670;&nbsp;</a></span>writePoint()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void writePoint </td>
+          <td>(</td>
+          <td class="paramtype">final <a class="el" href="a05243.html">Coordinate</a>&#160;</td>
+          <td class="paramname"><em>coordinate</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">final DataOutput&#160;</td>
+          <td class="paramname"><em>output</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> throws IOException</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00299"></a><span class="lineno">  299</span>&#160;                           {</div><div class="line"><a name="l00300"></a><span class="lineno">  300</span>&#160;      super.writePoint(coordinate, output);</div><div class="line"><a name="l00301"></a><span class="lineno">  301</span>&#160;      <span class="keywordflow">if</span> (<a class="code" href="a05239.html#ab356995ed7cff0226d75484d03a994f2">hasZ</a>) {</div><div class="line"><a name="l00302"></a><span class="lineno">  302</span>&#160;        Varint.writeSignedVarLong(Math.round(coordinate.getZ() * <a class="code" href="a05239.html#abb32d6067d519044d8c44d52ab2cdd44">zPrecisionMultiplier</a>), output);</div><div class="line"><a name="l00303"></a><span class="lineno">  303</span>&#160;      }</div><div class="line"><a name="l00304"></a><span class="lineno">  304</span>&#160;      <span class="keywordflow">if</span> (<a class="code" href="a05239.html#a1eccf09f4c826ba480ec832ac4ce7718">hasM</a>) {</div><div class="line"><a name="l00305"></a><span class="lineno">  305</span>&#160;        Varint.writeSignedVarLong(Math.round(coordinate.getM() * <a class="code" href="a05239.html#a4ea667f57906c038bb9717bc848df77a">mPrecisionMultiplier</a>), output);</div><div class="line"><a name="l00306"></a><span class="lineno">  306</span>&#160;      }</div><div class="line"><a name="l00307"></a><span class="lineno">  307</span>&#160;    }</div><div class="ttc" id="a05239_html_a1eccf09f4c826ba480ec832ac4ce7718"><div class="ttname"><a href="a05239.html#a1eccf09f4c826ba480ec832ac4ce7718">org.locationtech.geowave.core.geotime.util.TWKBWriter.ExtendedPrecisionWriter.hasM</a></div><div class="ttdeci">boolean hasM</div><div class="ttdef"><b>Definition:</b> TWKBWriter.java:245</div></div>
+<div class="ttc" id="a05239_html_abb32d6067d519044d8c44d52ab2cdd44"><div class="ttname"><a href="a05239.html#abb32d6067d519044d8c44d52ab2cdd44">org.locationtech.geowave.core.geotime.util.TWKBWriter.ExtendedPrecisionWriter.zPrecisionMultiplier</a></div><div class="ttdeci">double zPrecisionMultiplier</div><div class="ttdef"><b>Definition:</b> TWKBWriter.java:244</div></div>
+<div class="ttc" id="a05239_html_a4ea667f57906c038bb9717bc848df77a"><div class="ttname"><a href="a05239.html#a4ea667f57906c038bb9717bc848df77a">org.locationtech.geowave.core.geotime.util.TWKBWriter.ExtendedPrecisionWriter.mPrecisionMultiplier</a></div><div class="ttdeci">double mPrecisionMultiplier</div><div class="ttdef"><b>Definition:</b> TWKBWriter.java:247</div></div>
+<div class="ttc" id="a05239_html_ab356995ed7cff0226d75484d03a994f2"><div class="ttname"><a href="a05239.html#ab356995ed7cff0226d75484d03a994f2">org.locationtech.geowave.core.geotime.util.TWKBWriter.ExtendedPrecisionWriter.hasZ</a></div><div class="ttdeci">boolean hasZ</div><div class="ttdef"><b>Definition:</b> TWKBWriter.java:242</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="afeed21e7153170021427b1e7001d952b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afeed21e7153170021427b1e7001d952b">&#9670;&nbsp;</a></span>writePointArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void writePointArray </td>
+          <td>(</td>
+          <td class="paramtype">final <a class="el" href="a05243.html">Coordinate</a> []&#160;</td>
+          <td class="paramname"><em>coordinates</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">final DataOutput&#160;</td>
+          <td class="paramname"><em>output</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> throws IOException</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="a05235.html#a9aa85be4ec02c28a05cb552845fe08eb">TWKBWriter.PrecisionWriter.precisionMultiplier</a>.</p>
+<div class="fragment"><div class="line"><a name="l00311"></a><span class="lineno">  311</span>&#160;                           {</div><div class="line"><a name="l00312"></a><span class="lineno">  312</span>&#160;      <span class="keywordtype">long</span> lastX = 0;</div><div class="line"><a name="l00313"></a><span class="lineno">  313</span>&#160;      <span class="keywordtype">long</span> lastY = 0;</div><div class="line"><a name="l00314"></a><span class="lineno">  314</span>&#160;      <span class="keywordtype">long</span> lastZ = 0;</div><div class="line"><a name="l00315"></a><span class="lineno">  315</span>&#160;      <span class="keywordtype">long</span> lastM = 0;</div><div class="line"><a name="l00316"></a><span class="lineno">  316</span>&#160;      Varint.writeUnsignedVarInt(coordinates.length, output);</div><div class="line"><a name="l00317"></a><span class="lineno">  317</span>&#160;      <span class="keywordflow">for</span> (<span class="keyword">final</span> Coordinate c : coordinates) {</div><div class="line"><a name="l00318"></a><span class="lineno">  318</span>&#160;        <span class="keyword">final</span> <span class="keywordtype">long</span> x = Math.round(c.getX() * <a class="code" href="a05235.html#a9aa85be4ec02c28a05cb552845fe08eb">precisionMultiplier</a>);</div><div class="line"><a name="l00319"></a><span class="lineno">  319</span>&#160;        <span class="keyword">final</span> <span class="keywordtype">long</span> y = Math.round(c.getY() * <a class="code" href="a05235.html#a9aa85be4ec02c28a05cb552845fe08eb">precisionMultiplier</a>);</div><div class="line"><a name="l00320"></a><span class="lineno">  320</span>&#160;        Varint.writeSignedVarLong(x - lastX, output);</div><div class="line"><a name="l00321"></a><span class="lineno">  321</span>&#160;        Varint.writeSignedVarLong(y - lastY, output);</div><div class="line"><a name="l00322"></a><span class="lineno">  322</span>&#160;        lastX = x;</div><div class="line"><a name="l00323"></a><span class="lineno">  323</span>&#160;        lastY = y;</div><div class="line"><a name="l00324"></a><span class="lineno">  324</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="a05239.html#ab356995ed7cff0226d75484d03a994f2">hasZ</a>) {</div><div class="line"><a name="l00325"></a><span class="lineno">  325</span>&#160;          <span class="keyword">final</span> <span class="keywordtype">long</span> z = Math.round(c.getZ() * <a class="code" href="a05239.html#abb32d6067d519044d8c44d52ab2cdd44">zPrecisionMultiplier</a>);</div><div class="line"><a name="l00326"></a><span class="lineno">  326</span>&#160;          Varint.writeSignedVarLong(z - lastZ, output);</div><div class="line"><a name="l00327"></a><span class="lineno">  327</span>&#160;          lastZ = z;</div><div class="line"><a name="l00328"></a><span class="lineno">  328</span>&#160;        }</div><div class="line"><a name="l00329"></a><span class="lineno">  329</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="a05239.html#a1eccf09f4c826ba480ec832ac4ce7718">hasM</a>) {</div><div class="line"><a name="l00330"></a><span class="lineno">  330</span>&#160;          <span class="keyword">final</span> <span class="keywordtype">long</span> m = Math.round(c.getZ() * <a class="code" href="a05239.html#a4ea667f57906c038bb9717bc848df77a">mPrecisionMultiplier</a>);</div><div class="line"><a name="l00331"></a><span class="lineno">  331</span>&#160;          Varint.writeSignedVarLong(m - lastM, output);</div><div class="line"><a name="l00332"></a><span class="lineno">  332</span>&#160;          lastM = m;</div><div class="line"><a name="l00333"></a><span class="lineno">  333</span>&#160;        }</div><div class="line"><a name="l00334"></a><span class="lineno">  334</span>&#160;      }</div><div class="line"><a name="l00335"></a><span class="lineno">  335</span>&#160;    }</div><div class="ttc" id="a05239_html_a1eccf09f4c826ba480ec832ac4ce7718"><div class="ttname"><a href="a05239.html#a1eccf09f4c826ba480ec832ac4ce7718">org.locationtech.geowave.core.geotime.util.TWKBWriter.ExtendedPrecisionWriter.hasM</a></div><div class="ttdeci">boolean hasM</div><div class="ttdef"><b>Definition:</b> TWKBWriter.java:245</div></div>
+<div class="ttc" id="a05239_html_abb32d6067d519044d8c44d52ab2cdd44"><div class="ttname"><a href="a05239.html#abb32d6067d519044d8c44d52ab2cdd44">org.locationtech.geowave.core.geotime.util.TWKBWriter.ExtendedPrecisionWriter.zPrecisionMultiplier</a></div><div class="ttdeci">double zPrecisionMultiplier</div><div class="ttdef"><b>Definition:</b> TWKBWriter.java:244</div></div>
+<div class="ttc" id="a05235_html_a9aa85be4ec02c28a05cb552845fe08eb"><div class="ttname"><a href="a05235.html#a9aa85be4ec02c28a05cb552845fe08eb">org.locationtech.geowave.core.geotime.util.TWKBWriter.PrecisionWriter.precisionMultiplier</a></div><div class="ttdeci">double precisionMultiplier</div><div class="ttdef"><b>Definition:</b> TWKBWriter.java:193</div></div>
+<div class="ttc" id="a05239_html_a4ea667f57906c038bb9717bc848df77a"><div class="ttname"><a href="a05239.html#a4ea667f57906c038bb9717bc848df77a">org.locationtech.geowave.core.geotime.util.TWKBWriter.ExtendedPrecisionWriter.mPrecisionMultiplier</a></div><div class="ttdeci">double mPrecisionMultiplier</div><div class="ttdef"><b>Definition:</b> TWKBWriter.java:247</div></div>
+<div class="ttc" id="a05239_html_ab356995ed7cff0226d75484d03a994f2"><div class="ttname"><a href="a05239.html#ab356995ed7cff0226d75484d03a994f2">org.locationtech.geowave.core.geotime.util.TWKBWriter.ExtendedPrecisionWriter.hasZ</a></div><div class="ttdeci">boolean hasZ</div><div class="ttdef"><b>Definition:</b> TWKBWriter.java:242</div></div>
 </div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="a53e992765125efc5fc595f0d38e947ea"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a53e992765125efc5fc595f0d38e947ea">&#9670;&nbsp;</a></span>line</h2>
+<a id="a1eccf09f4c826ba480ec832ac4ce7718"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1eccf09f4c826ba480ec832ac4ce7718">&#9670;&nbsp;</a></span>hasM</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -284,7 +330,7 @@ FUTURE: If the start distance is greater than the end distance, an inverted sect
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">LineString line</td>
+          <td class="memname">boolean hasM = false</td>
         </tr>
       </table>
   </td>
@@ -294,7 +340,139 @@ FUTURE: If the start distance is greater than the end distance, an inverted sect
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="a05239.html#a8375df00135da48182ecb97996cfebf1">LengthSubstring.LengthSubstring()</a>.</p>
+</div>
+</div>
+<a id="ab356995ed7cff0226d75484d03a994f2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab356995ed7cff0226d75484d03a994f2">&#9670;&nbsp;</a></span>hasZ</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean hasZ = false</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1b92282fc8148f040078b9bb37b30b15"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1b92282fc8148f040078b9bb37b30b15">&#9670;&nbsp;</a></span>mPrecision</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int mPrecision = <a class="el" href="a05227.html#ad70b66875f973adc5547402ec3ab512d">TWKBUtils.MIN_EXTENDED_PRECISION</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4ea667f57906c038bb9717bc848df77a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4ea667f57906c038bb9717bc848df77a">&#9670;&nbsp;</a></span>mPrecisionMultiplier</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double mPrecisionMultiplier = 0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9aa85be4ec02c28a05cb552845fe08eb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9aa85be4ec02c28a05cb552845fe08eb">&#9670;&nbsp;</a></span>precisionMultiplier</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double precisionMultiplier = 0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="a05235.html#adedb1cd853d00648be239477f7fe4e2a">TWKBWriter.PrecisionWriter.writePoint()</a>, <a class="el" href="a05235.html#afeed21e7153170021427b1e7001d952b">TWKBWriter.PrecisionWriter.writePointArray()</a>, and <a class="el" href="a05239.html#afeed21e7153170021427b1e7001d952b">TWKBWriter.ExtendedPrecisionWriter.writePointArray()</a>.</p>
+
+</div>
+</div>
+<a id="abdd886294f53edb9018d91b1e049bef8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abdd886294f53edb9018d91b1e049bef8">&#9670;&nbsp;</a></span>zPrecision</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int zPrecision = <a class="el" href="a05227.html#ad70b66875f973adc5547402ec3ab512d">TWKBUtils.MIN_EXTENDED_PRECISION</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="abb32d6067d519044d8c44d52ab2cdd44"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abb32d6067d519044d8c44d52ab2cdd44">&#9670;&nbsp;</a></span>zPrecisionMultiplier</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double zPrecisionMultiplier = 0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -304,7 +482,7 @@ FUTURE: If the start distance is greater than the end distance, an inverted sect
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="a02598.html">org</a></li><li class="navelem"><a class="el" href="a02669.html">locationtech</a></li><li class="navelem"><a class="el" href="a02679.html">jump</a></li><li class="navelem"><a class="el" href="a02678.html">algorithm</a></li><li class="navelem"><a class="el" href="a05239.html">LengthSubstring</a></li>
+    <li class="navelem"><a class="el" href="a02610.html">org</a></li><li class="navelem"><a class="el" href="a02681.html">locationtech</a></li><li class="navelem"><a class="el" href="a02682.html">geowave</a></li><li class="navelem"><a class="el" href="a02683.html">core</a></li><li class="navelem"><a class="el" href="a02684.html">geotime</a></li><li class="navelem"><a class="el" href="a02680.html">util</a></li><li class="navelem"><a class="el" href="a05231.html">TWKBWriter</a></li><li class="navelem"><a class="el" href="a05239.html">ExtendedPrecisionWriter</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>

@@ -1,5 +1,7 @@
 var a05343 =
 [
-    [ "testIsMeasuredFalse", "a05343.html#a0d34749daed816e995d607f25393f8bd", null ],
-    [ "testIsMeasuredTrue", "a05343.html#a94b07ea8a866ff9332c709b77d204342", null ]
+    [ "testHasRepeatedPoints", "a05343.html#ac91c06c07e42b36c2957d3b47609ea12", null ],
+    [ "testHasRepeatedPoints2", "a05343.html#a573715384a3d69a8e8c4722bc82c5e5e", null ],
+    [ "testGeometry", "a05343.html#abc3f514f005cba49e406658e2d3086eb", null ],
+    [ "testGeometry2", "a05343.html#af1173652e671b8f9051f8630b98c73fb", null ]
 ];

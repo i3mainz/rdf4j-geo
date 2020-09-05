@@ -1,4 +1,4 @@
-<map id="GeoHashDatatype" name="GeoHashDatatype">
-<area shape="rect" id="node2" href="$a05071.html" title="VectorLiteral" alt="" coords="23,80,118,107"/>
-<area shape="rect" id="node3" href="$a04963.html" title="LiteralType" alt="" coords="27,5,114,32"/>
+<map id="TopoJSONDatatype" name="TopoJSONDatatype">
+<area shape="rect" id="node2" href="$a05019.html" title="TopologyLiteral" alt="" coords="20,80,131,107"/>
+<area shape="rect" id="node3" href="$a04983.html" title="LiteralType" alt="" coords="32,5,119,32"/>
 </map>

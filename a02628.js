@@ -1,11 +1,8 @@
 var a02628 =
 [
-    [ "BezierSmoothing", "a03795.html", "a03795" ],
-    [ "Dissolve", "a03799.html", "a03799" ],
-    [ "LineMerge", "a03803.html", "a03803" ],
-    [ "LinesCutAtNodes", "a03807.html", "a03807" ],
-    [ "OffsetCurve", "a03811.html", "a03811" ],
-    [ "Segmentize", "a03815.html", "a03815" ],
-    [ "SharedPaths", "a03819.html", "a03819" ],
-    [ "SubdivideLines", "a03823.html", "a03823" ]
+    [ "GeomCollFromText", "a03239.html", "a03239" ],
+    [ "GeomFromGeoHash", "a03243.html", "a03243" ],
+    [ "GeomFromGeoJSON", "a03247.html", "a03247" ],
+    [ "GeomFromText", "a03251.html", "a03251" ],
+    [ "GeomFromWKB", "a03255.html", "a03255" ]
 ];

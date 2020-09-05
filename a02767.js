@@ -1,8 +1,8 @@
 var a02767 =
 [
-    [ "BoundingBox", "a02767.html#a3c620de9265c34f40a1906d0f92c77a3", null ],
-    [ "BoundingBox", "a02767.html#af0725a1816cbe85fd20e2c627b9ff923", null ],
-    [ "clone", "a02767.html#a627080b0fe2a414508b5faba13108498", null ],
+    [ "AvgX", "a02767.html#a10b6c03397249a72335dba37c2081ca7", null ],
+    [ "AvgX", "a02767.html#a5016fc52295739edbf1f03e77724e3ea", null ],
+    [ "clone", "a02767.html#a352eb057d6e77fa0352c87042b505a17", null ],
     [ "equals", "a02767.html#a8e18a3a952a9e38a9a4191004a30c938", null ],
     [ "hashCode", "a02767.html#a077e18fe97323c7194e2665ffc766399", null ],
     [ "visit", "a02767.html#ace7c41d3761122fda287033559696cdd", null ],

@@ -1,8 +1,11 @@
 var a05263 =
 [
-    [ "testBBOXDistance", "a05263.html#a92dec506ee3b1258b55159ac890afd0a", null ],
-    [ "testGeom1", "a05263.html#aa4a3b1a7e778ece72382f6600fa96b47", null ],
-    [ "testGeom2", "a05263.html#a6b4be369c8f60e973cd5126e69cd33a4", null ],
-    [ "testGeom3", "a05263.html#a800b6bb875a8ff4404ea787c3df125a5", null ],
-    [ "testGeom4", "a05263.html#a4c55e7efe430d6d220fb05524c4bb940", null ]
+    [ "LengthToPoint", "a05263.html#a240c29c1439f065c4a8ba368d3939d77", null ],
+    [ "computeLength", "a05263.html#a38bb2c05753ecb2766c7165fe435b8f4", null ],
+    [ "getLength", "a05263.html#ad38c5c76d09d90c6f92e043aca622ee9", null ],
+    [ "length", "a05263.html#a6a53c15d31eb67b1bbbccd1a406d1996", null ],
+    [ "lengthAlongSegment", "a05263.html#a111d4c1b1f75a9ce7d3d064d3d1eb2e5", null ],
+    [ "updateLength", "a05263.html#a9d5b2181752a05941b27adcec1703c38", null ],
+    [ "locationLength", "a05263.html#ace4b03aa8fde8dc676bc91c1e7cf3b77", null ],
+    [ "minDistanceToPoint", "a05263.html#a8c1ee7f7f7146ea833c6b544dcc60243", null ]
 ];

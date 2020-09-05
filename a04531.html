@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>rdf4j-postgis: RastFromGMLCOV Class Reference</title>
+<title>rdf4j-postgis: RasterToVectorExportFunction Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -64,64 +64,37 @@ $(document).ready(function(){initNavTree('a04531.html','');});
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="a04528.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">RastFromGMLCOV Class Reference</div>  </div>
+<div class="title">RasterToVectorExportFunction Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
 </div><!--header-->
 <div class="contents">
 <div class="dynheader">
-Inheritance diagram for RastFromGMLCOV:</div>
+Inheritance diagram for RasterToVectorExportFunction:</div>
 <div class="dyncontent">
-<div class="center"><img src="a04530.png" border="0" usemap="#RastFromGMLCOV_inherit__map" alt="Inheritance graph"/></div>
-<map name="RastFromGMLCOV_inherit__map" id="RastFromGMLCOV_inherit__map">
-<area shape="rect" id="node2" href="a04475.html" title="RasterConstructorFunction" alt="" coords="5,80,184,107"/>
+<div class="center"><img src="a04530.png" border="0" usemap="#RasterToVectorExportFunction_inherit__map" alt="Inheritance graph"/></div>
+<map name="RasterToVectorExportFunction_inherit__map" id="RasterToVectorExportFunction_inherit__map">
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <div class="dynheader">
-Collaboration diagram for RastFromGMLCOV:</div>
+Collaboration diagram for RasterToVectorExportFunction:</div>
 <div class="dyncontent">
-<div class="center"><img src="a04529.png" border="0" usemap="#RastFromGMLCOV_coll__map" alt="Collaboration graph"/></div>
-<map name="RastFromGMLCOV_coll__map" id="RastFromGMLCOV_coll__map">
-<area shape="rect" id="node2" href="a04475.html" title="RasterConstructorFunction" alt="" coords="5,80,184,107"/>
+<div class="center"><img src="a04529.png" border="0" usemap="#RasterToVectorExportFunction_coll__map" alt="Collaboration graph"/></div>
+<map name="RasterToVectorExportFunction_coll__map" id="RasterToVectorExportFunction_coll__map">
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ad9fb16b36dd4ccc533d4f05ff94646e3"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a04531.html#ad9fb16b36dd4ccc533d4f05ff94646e3">getURI</a> ()</td></tr>
-<tr class="separator:ad9fb16b36dd4ccc533d4f05ff94646e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a39cd9b39bec9109d5b5b1c1e0aaeed10"><td class="memItemLeft" align="right" valign="top">GridCoverage&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a04531.html#a39cd9b39bec9109d5b5b1c1e0aaeed10">construct</a> (String input)</td></tr>
-<tr class="separator:a39cd9b39bec9109d5b5b1c1e0aaeed10"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a43b4c73244bc6722ce551c1033cf1115"><td class="memItemLeft" align="right" valign="top">Value&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a04475.html#a43b4c73244bc6722ce551c1033cf1115">evaluate</a> (ValueFactory valueFactory, Value... args)  throws ValueExprEvaluationException </td></tr>
+<tr class="memitem:a43b4c73244bc6722ce551c1033cf1115"><td class="memItemLeft" align="right" valign="top">Value&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a04531.html#a43b4c73244bc6722ce551c1033cf1115">evaluate</a> (ValueFactory valueFactory, Value... args)  throws ValueExprEvaluationException </td></tr>
 <tr class="separator:a43b4c73244bc6722ce551c1033cf1115"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a581a37364459697191bf995d7de945ac"><td class="memItemLeft" align="right" valign="top">abstract Geometry&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a04531.html#a581a37364459697191bf995d7de945ac">modify</a> (GridCoverage coverage)</td></tr>
+<tr class="separator:a581a37364459697191bf995d7de945ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a39cd9b39bec9109d5b5b1c1e0aaeed10"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a39cd9b39bec9109d5b5b1c1e0aaeed10">&#9670;&nbsp;</a></span>construct()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">GridCoverage construct </td>
-          <td>(</td>
-          <td class="paramtype">String&#160;</td>
-          <td class="paramname"><em>input</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="reference">References <a class="el" href="a04975.html#aa67fd58121397b354e07fbf09cb4c945">GMLCOVDatatype.INSTANCE</a>, and <a class="el" href="a04975.html#a1cc8c62f94cc0157db4958fbe1f87310">GMLCOVDatatype.read()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;                                                    {</div><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;                <span class="keywordflow">return</span> GMLCOVDatatype.INSTANCE.read(input);</div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;        }</div></div><!-- fragment -->
-</div>
-</div>
 <a id="a43b4c73244bc6722ce551c1033cf1115"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a43b4c73244bc6722ce551c1033cf1115">&#9670;&nbsp;</a></span>evaluate()</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">Value evaluate </td>
@@ -141,37 +114,39 @@ Public Member Functions</h2></td></tr>
           <td></td><td> throws ValueExprEvaluationException</td>
         </tr>
       </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="a04979.html#a8796f5aec1965b6c4e88b2ba7c1d2e53">LiteralRegistry.getLiteral()</a>, and <a class="el" href="a04531.html#a581a37364459697191bf995d7de945ac">RasterToVectorExportFunction.modify()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;                                                                                                            {</div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;                <span class="keywordflow">if</span> (args.length != 3) {</div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;                        <span class="keywordflow">throw</span> <span class="keyword">new</span> ValueExprEvaluationException(getURI() + <span class="stringliteral">&quot; requires exactly 1 arguments, got &quot;</span> + args.length);</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;                }</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;                LiteralType l=LiteralRegistry.getLiteral(((Literal)args[0]).getDatatype().toString());</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;                <span class="keywordflow">if</span>(l instanceof RasterLiteral) {</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;                        GridCoverage geom=((RasterLiteral)l).read(args[0].stringValue());</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;                        Integer longitude = Integer.valueOf(args[1].stringValue());</div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;                        Integer latitude = Integer.valueOf(args[2].stringValue());</div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;                        Geometry result = <a class="code" href="a04531.html#a581a37364459697191bf995d7de945ac">modify</a>(geom);</div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;                        <span class="keywordflow">return</span> valueFactory.createLiteral(((RasterLiteral) l).unparse(result),((Literal)args[0]).getDatatype());</div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;                }</div><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;                <span class="keywordflow">return</span> null;</div><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;        }</div><div class="ttc" id="a04531_html_a581a37364459697191bf995d7de945ac"><div class="ttname"><a href="a04531.html#a581a37364459697191bf995d7de945ac">org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.raster.base.RasterToVectorExportFunction.modify</a></div><div class="ttdeci">abstract Geometry modify(GridCoverage coverage)</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a581a37364459697191bf995d7de945ac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a581a37364459697191bf995d7de945ac">&#9670;&nbsp;</a></span>modify()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">abstract Geometry modify </td>
+          <td>(</td>
+          <td class="paramtype">GridCoverage&#160;</td>
+          <td class="paramname"><em>coverage</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inherited</span></span>  </td>
+<span class="mlabels"><span class="mlabel">abstract</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="a04475.html#a6a4e19e9d734d04f2f387cf595af5602">RasterConstructorFunction.construct()</a>, and <a class="el" href="a04959.html#a8796f5aec1965b6c4e88b2ba7c1d2e53">LiteralRegistry.getLiteral()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="a04531.html#a43b4c73244bc6722ce551c1033cf1115">RasterToVectorExportFunction.evaluate()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="a06183.html#ac738cacd768ef53a80bf1ce5fdd19619">RastFromCoverageJSONTest.testRastFromCoverageJSON()</a>, <a class="el" href="a06187.html#adc2713177ac1dca95220a394247c6ebe">RastFromHexWKBTest.testRastFromHexWKB()</a>, and <a class="el" href="a06191.html#a17af431f5e6ed63c10451b3a17ecd0bf">RastFromWKBTest.testRastFromWKB()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;                                                                                                            {</div><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;                <span class="keywordflow">if</span> (args.length != 1) {</div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;                        <span class="keywordflow">throw</span> <span class="keyword">new</span> ValueExprEvaluationException(getURI() + <span class="stringliteral">&quot; requires exactly 1 arguments, got &quot;</span> + args.length);</div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;                }</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;                LiteralType l=LiteralRegistry.getLiteral(((Literal)args[0]).getDatatype().toString());</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;                String geomString = args[0].stringValue();</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;                GridCoverage result = <a class="code" href="a04475.html#a6a4e19e9d734d04f2f387cf595af5602">construct</a>(geomString);</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;                <span class="keywordflow">return</span> valueFactory.createLiteral(((RasterLiteral) l).unparse(result),((Literal)args[0]).getDatatype());</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;        }</div><div class="ttc" id="a04475_html_a6a4e19e9d734d04f2f387cf595af5602"><div class="ttname"><a href="a04475.html#a6a4e19e9d734d04f2f387cf595af5602">org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.raster.base.RasterConstructorFunction.construct</a></div><div class="ttdeci">abstract GridCoverage construct(String input)</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="ad9fb16b36dd4ccc533d4f05ff94646e3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad9fb16b36dd4ccc533d4f05ff94646e3">&#9670;&nbsp;</a></span>getURI()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">String getURI </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="reference">References <a class="el" href="a02747.html#aacc282e37df360592b86081e62e21660">POSTGIS.st_rastFromGMLCOV</a>.</p>
-<div class="fragment"><div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;                               {</div><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;                <span class="keywordflow">return</span> POSTGIS.st_rastFromGMLCOV.stringValue();</div><div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;        }</div></div><!-- fragment -->
 </div>
 </div>
 </div><!-- contents -->
@@ -180,7 +155,7 @@ Public Member Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="a02598.html">org</a></li><li class="navelem"><a class="el" href="a02599.html">eclipse</a></li><li class="navelem"><a class="el" href="a02600.html">rdf4j</a></li><li class="navelem"><a class="el" href="a02603.html">query</a></li><li class="navelem"><a class="el" href="a02604.html">algebra</a></li><li class="navelem"><a class="el" href="a02605.html">evaluation</a></li><li class="navelem"><a class="el" href="a02606.html">function</a></li><li class="navelem"><a class="el" href="a02607.html">postgis</a></li><li class="navelem"><a class="el" href="a02640.html">raster</a></li><li class="navelem"><a class="el" href="a02643.html">constructor</a></li><li class="navelem"><a class="el" href="a04531.html">RastFromGMLCOV</a></li>
+    <li class="navelem"><a class="el" href="a02610.html">org</a></li><li class="navelem"><a class="el" href="a02611.html">eclipse</a></li><li class="navelem"><a class="el" href="a02612.html">rdf4j</a></li><li class="navelem"><a class="el" href="a02615.html">query</a></li><li class="navelem"><a class="el" href="a02616.html">algebra</a></li><li class="navelem"><a class="el" href="a02617.html">evaluation</a></li><li class="navelem"><a class="el" href="a02618.html">function</a></li><li class="navelem"><a class="el" href="a02619.html">postgis</a></li><li class="navelem"><a class="el" href="a02652.html">raster</a></li><li class="navelem"><a class="el" href="a02654.html">base</a></li><li class="navelem"><a class="el" href="a04531.html">RasterToVectorExportFunction</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>

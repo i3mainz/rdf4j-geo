@@ -1,8 +1,8 @@
 var a05043 =
 [
-    [ "HexWKBTextSRS", "a05043.html#a9551cc49d0697080a64a79a497cf35e9", null ],
-    [ "getSrsURI", "a05043.html#a7d7dded4f73b0a90d90f68ccc5f16bc3", null ],
-    [ "getWkbText", "a05043.html#a4a2ce7a2dcd4fa0818378fb8b97931fb", null ],
-    [ "srsURI", "a05043.html#aaa7845d06052bead86bb2de40935e4d9", null ],
-    [ "wkbText", "a05043.html#a7b6ce5371e4ad222f4b09eaadfdcae09", null ]
+    [ "read", "a05043.html#a793358fbd6ef538a24eabab1bd50ef01", null ],
+    [ "toString", "a05043.html#ad146fa8579a5f8a876c4688cc5a68520", null ],
+    [ "unparse", "a05043.html#ae918a517e1ebcc44beeee2c55008d248", null ],
+    [ "INSTANCE", "a05043.html#a20401ef897882cf3828de8fdad63c99d", null ],
+    [ "URI", "a05043.html#addbf30e6c0ad68fa34277d59a2c6eb5e", null ]
 ];

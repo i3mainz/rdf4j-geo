@@ -1,3 +1,5 @@
-<map id="RasterModifierDoubleDoubleFunction" name="RasterModifierDoubleDoubleFunction">
-<area shape="rect" id="node3" href="$a04663.html" title="Rescale" alt="" coords="65,169,135,196"/>
+<map id="RasterAttributeIntIntIntBooleanFunction" name="RasterAttributeIntIntIntBooleanFunction">
+<area shape="rect" id="node3" href="$a04307.html" title="IsOpaquePixel" alt="" coords="5,169,112,196"/>
+<area shape="rect" id="node4" href="$a04319.html" title="IsTransparentPixel" alt="" coords="136,169,267,196"/>
+<area shape="rect" id="node5" href="$a04355.html" title="PixelHeight" alt="" coords="291,169,381,196"/>
 </map>

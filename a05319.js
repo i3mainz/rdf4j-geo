@@ -1,7 +1,6 @@
 var a05319 =
 [
-    [ "testHasHorizontalCRSFalse", "a05319.html#a9d25864362180719a756bf187c003b28", null ],
-    [ "testHasHorizontalCRSTrue", "a05319.html#a9f2bde364661ddf6af32fec9ad9085b1", null ],
-    [ "testGeometry", "a05319.html#abc3f514f005cba49e406658e2d3086eb", null ],
-    [ "testGeometry2", "a05319.html#af1173652e671b8f9051f8630b98c73fb", null ]
+    [ "testBoundingDiagonal", "a05319.html#a5905b320ef165de047ef4ff2e9167268", null ],
+    [ "result", "a05319.html#aab356d6554a7301750f11ec7a85ac47d", null ],
+    [ "testPolygon", "a05319.html#a1e3187cbc25299380589200c398b3ffd", null ]
 ];
