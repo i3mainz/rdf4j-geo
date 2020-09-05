@@ -12,6 +12,9 @@ import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.literals
 import org.junit.Test;
 import org.locationtech.jts.geom.Geometry;
 
+/**
+ * Tests the GeneratePoints implementation.
+ */
 public class GeneratePointsTest {
 
 	@Test

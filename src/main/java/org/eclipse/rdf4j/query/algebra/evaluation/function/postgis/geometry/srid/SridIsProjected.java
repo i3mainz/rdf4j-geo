@@ -18,6 +18,7 @@ public class SridIsProjected extends GeometricBinaryAttributeFunction {
 		return false;
 		/*try {
 			return CRS.getProjectedCRS(CRS.forCode("EPSG:"+geom.getSRID()).)!=null;
+>>>>>>> 237275ccb45fa5d7012a3c2bceba8868ccdcceeb
 		} catch (FactoryException e) {
 			return false;
 		} */

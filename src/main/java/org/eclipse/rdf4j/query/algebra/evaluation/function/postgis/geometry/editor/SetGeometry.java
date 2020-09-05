@@ -22,6 +22,8 @@ public class SetGeometry extends GeometricModifierGeometryIntegerFunction {
 		for(int i=0;i<g1.getNumGeometries();i++) {
 			if(value==i) {
 				geometries.add(geom2);
+			}else {
+				geometries.add(g1.getGeometryN(i));
 			}
 		}
 		return fac.createGeometryCollection(geometries.toArray(new Geometry[0]));

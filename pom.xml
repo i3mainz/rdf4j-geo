@@ -74,7 +74,7 @@
 		  <!-- <sis.version>2.0-M0070</sis.version>-->
 		  <sis.version>1.0</sis.version>
 		  <geoapi.version>4.0-M05</geoapi.version>
-		  <jena.version>3.10.0</jena.version>
+		  <jena.version>3.12.0</jena.version>
 		  <maven.compiler.source>1.8</maven.compiler.source>
    		  <maven.compiler.target>1.8</maven.compiler.target>
 	</properties>
@@ -109,6 +109,12 @@
     <artifactId>edal-coveragejson</artifactId>
     <version>1.4.1</version>
 </dependency>-->
+<dependency>
+    <groupId>org.apache.sis.non-free</groupId>
+    <artifactId>sis-embedded-data</artifactId>
+    <version>1.0</version>
+    <scope>runtime</scope>
+  </dependency>
 <!-- https://mvnrepository.com/artifact/org.eclipse.rdf4j/rdf4j-queryalgebra-model -->
 <dependency>
     <groupId>org.eclipse.rdf4j</groupId>
@@ -155,13 +161,13 @@
         <dependency>
             <groupId>org.apache.sis.storage</groupId>
             <artifactId>sis-netcdf</artifactId>
-            <version>${sis.version}</version>
+            <version>1.0</version>
         </dependency>
 
         <dependency>
             <groupId>org.apache.sis.storage</groupId>
             <artifactId>sis-geotiff</artifactId>
-            <version>${sis.version}</version>
+            <version>1.0</version>
         </dependency>
         <dependency>
             <groupId>org.apache.sis.core</groupId>
@@ -189,6 +195,7 @@
             <artifactId>sis-cql</artifactId>
             <version>${sis.version}</version>
         </dependency>-->
+
 
         <dependency>
             <groupId>org.apache.sis.core</groupId>
@@ -226,7 +233,9 @@
     <version>1.0-SNAPSHOT</version>
         </dependency>-->
 <!-- https://mvnrepository.com/artifact/org.apache.derby/derby -->
-<!-- <dependency>
+<!--
+<dependency>
+>>>>>>> 6c156fad681bbb4d4dda20e0870a3281a94bffdf
     <groupId>org.apache.sis.non-free</groupId>
     <artifactId>sis-epsg</artifactId>
     <version>0.7</version>

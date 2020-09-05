@@ -10,6 +10,7 @@ import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.literals
 import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.literals.raster.HexWKBRastDatatype;
 import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.literals.raster.NetCDFDatatype;
 import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.literals.raster.WKBRastDatatype;
+import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.literals.topo.TopoJSONDatatype;
 import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.literals.vector.DXFDatatype;
 import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.literals.vector.EncodedPolylineDatatype;
 import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.literals.vector.GMLDatatype;
@@ -22,7 +23,6 @@ import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.literals
 import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.literals.vector.PolyshapeDatatype;
 import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.literals.vector.SVGDatatype;
 import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.literals.vector.TWKBDatatype;
-import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.literals.topo.TopoJSONDatatype;
 import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.literals.vector.WKBDatatype;
 import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.literals.vector.WKTDatatype;
 

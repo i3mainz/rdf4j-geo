@@ -91,6 +91,8 @@ import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.aggregate.Avg
 import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.aggregate.AvgY;
 import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.aggregate.AvgZ;
 import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.aggregate.BoundingBox;
+import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.aggregate.ConcatenateLines;
+import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.aggregate.GeomUnion;
 import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.aggregate.MaxX;
 import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.aggregate.MaxY;
 import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.aggregate.MaxZ;
@@ -108,6 +110,8 @@ public interface QueryModelVisitor<X extends Exception> {
 	public void meet(QueryRoot node) throws X;
 
 	public void meet(Add add) throws X;
+	
+	public void meet(AggCentroid agg) throws X;
 
 	public void meet(And node) throws X;
 
@@ -139,6 +143,8 @@ public interface QueryModelVisitor<X extends Exception> {
 
 	public void meet(CompareAny node) throws X;
 
+	public void meet(ConcatenateLines node) throws X;
+	
 	public void meet(DescribeOperator node) throws X;
 
 	public void meet(Copy copy) throws X;
@@ -167,6 +173,8 @@ public interface QueryModelVisitor<X extends Exception> {
 
 	public void meet(FunctionCall node) throws X;
 
+	public void meet(GeomUnion node) throws X;
+	
 	public void meet(Group node) throws X;
 
 	public void meet(GroupConcat node) throws X;
