@@ -1,19 +1,13 @@
 var a05166 =
 [
-    [ "ExtendedPrecisionWriter", "a05174.html", "a05174" ],
-    [ "PrecisionWriter", "a05170.html", "a05170" ],
-    [ "TWKBWriter", "a05166.html#a2990399609cc699aee5a40156feee03e", null ],
-    [ "TWKBWriter", "a05166.html#abf98331626990ede53fbe5a1827b91b9", null ],
-    [ "getType", "a05166.html#af6ac6c1ca84de00107ff33acf010fb56", null ],
-    [ "getTypeAndPrecisionByte", "a05166.html#a2513e591488b85a0a4ffae1f192e48d1", null ],
-    [ "write", "a05166.html#a226242e33fa2ddb80db6f65fea7e88d5", null ],
-    [ "write", "a05166.html#a1ad170fc53b3438a213305dcf054c951", null ],
-    [ "writeGeometryCollection", "a05166.html#a4c1cd6a57426c5886efe0e46fb781c8a", null ],
-    [ "writeLineString", "a05166.html#a9e135bc7dac9b9305e7183a27ab0e55d", null ],
-    [ "writeMultiLineString", "a05166.html#a409eb1e30fb4f2a447147b6644ed96df", null ],
-    [ "writeMultiPoint", "a05166.html#ae1a496e7018e949f3af9aa1ec261a4a3", null ],
-    [ "writeMultiPolygon", "a05166.html#af88d38f76bbfee7f7c150d79b818e156", null ],
-    [ "writePoint", "a05166.html#a1d857a7f3e74e21f8fb4eb93e713ac0e", null ],
-    [ "writePolygon", "a05166.html#a97d9c7da786fbc6decfc325d9b2058fe", null ],
-    [ "maxPrecision", "a05166.html#a3790bdd1fc8284d93d59193536955934", null ]
+    [ "Encoder", "a05166.html#ae9b4d30bd3ef8dcabd2c471b856cc56f", null ],
+    [ "encode", "a05166.html#a0e57882e67b7da0cfbd8dd524d1a08aa", null ],
+    [ "seperator", "a05166.html#a39600d33dd97208ba398ac5c4340fa77", null ],
+    [ "startRing", "a05166.html#ab6635935e270ce5b32d1efd4b377c983", null ],
+    [ "write", "a05166.html#a738ab332235183cb8c6acda151d9801c", null ],
+    [ "write", "a05166.html#a67c54f108cb20c5a0f698e20a287724d", null ],
+    [ "writeArg", "a05166.html#a66b62fe86f9a7aa5e1fb78d2282adf66", null ],
+    [ "lastLat", "a05166.html#a9cb6715e048613ba1adc6d02662c58bb", null ],
+    [ "lastLng", "a05166.html#a6071d28e26a7046598083d44edae7168", null ],
+    [ "writer", "a05166.html#ab56a5d0c4efb5c0d2c4f33d5dad8c917", null ]
 ];

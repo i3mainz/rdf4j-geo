@@ -1,26 +1,6 @@
 var a02701 =
 [
-    [ "AreaSimilarityTest", "a05551.html", "a05551" ],
-    [ "CentroidDistanceTest", "a05555.html", "a05555" ],
-    [ "ClosestPointTest", "a05559.html", "a05559" ],
-    [ "DistanceSphereTest", "a05563.html", "a05563" ],
-    [ "DistanceTest", "a05567.html", "a05567" ],
-    [ "EqualNormTest", "a05571.html", "a05571" ],
-    [ "EqualSRSTest", "a05575.html", "a05575" ],
-    [ "EqualTopoTest", "a05579.html", "a05579" ],
-    [ "EqualTypeTest", "a05583.html", "a05583" ],
-    [ "FullyWithinDistanceTest", "a05587.html", "a05587" ],
-    [ "FurthestCoordinateTest", "a05591.html", "a05591" ],
-    [ "HausdorffDistanceTest", "a05595.html", "a05595" ],
-    [ "IntersectionMatrixTest", "a05599.html", "a05599" ],
-    [ "IntersectionPercentageTest", "a05603.html", "a05603" ],
-    [ "IsMorePreciseTest", "a05607.html", "a05607" ],
-    [ "LongestLineTest", "a05611.html", "a05611" ],
-    [ "MaxDistance3DTest", "a05615.html", "a05615" ],
-    [ "MaxDistanceTest", "a05619.html", "a05619" ],
-    [ "OrderingEqualsTest", "a05623.html", "a05623" ],
-    [ "RelateMatchTest", "a05627.html", "a05627" ],
-    [ "RelateTest", "a05631.html", "a05631" ],
-    [ "ShortestLine3DTest", "a05635.html", "a05635" ],
-    [ "ShortestLineTest", "a05639.html", "a05639" ]
+    [ "GeomFromGeoJSONTest", "a05458.html", "a05458" ],
+    [ "GeomFromTextTest", "a05462.html", "a05462" ],
+    [ "GeomFromWKBTest", "a05466.html", "a05466" ]
 ];

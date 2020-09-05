@@ -1,7 +1,5 @@
 var a05670 =
 [
-    [ "testMulti2D", "a05670.html#a132a5ee02a51082794ac01f2787422c1", null ],
-    [ "testMulti3D", "a05670.html#afee46817e97b41a801cd7a7acf30e801", null ],
-    [ "testGeometry", "a05670.html#abc3f514f005cba49e406658e2d3086eb", null ],
-    [ "testGeometryZ", "a05670.html#a7a113ffd7d8ff98f71b4361ffff21edc", null ]
+    [ "testSridGetAxis2Name", "a05670.html#aa23d52a72eb64b4bee30038ab09e5e21", null ],
+    [ "testPoint", "a05670.html#af26f700ee129f846cac58735f6dcc380", null ]
 ];

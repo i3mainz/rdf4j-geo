@@ -1,5 +1,5 @@
 var a05442 =
 [
-    [ "testAsGeoURI", "a05442.html#aae403d68ccc2ecfb409ca338b5ba0101", null ],
-    [ "testGeometry", "a05442.html#abc3f514f005cba49e406658e2d3086eb", null ]
+    [ "testNumDistinctPoints", "a05442.html#aac9f79f9e21b36c6addad28b9e81bec6", null ],
+    [ "testGeom", "a05442.html#a03a5f5da0ccbeed8c1678d4317cf2672", null ]
 ];

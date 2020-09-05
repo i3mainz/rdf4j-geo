@@ -1,6 +1,7 @@
 var a05614 =
 [
-    [ "testSridIsGeographicFalse", "a05614.html#abd1395d0581a64740ed1bae57b2882b3", null ],
-    [ "testSridIsGeographicTrue", "a05614.html#a09f0ac6b4b2a063a3d1df32d600b9b11", null ],
-    [ "testPoint", "a05614.html#af26f700ee129f846cac58735f6dcc380", null ]
+    [ "testLongestLine", "a05614.html#a67123b25e212bf04a36a62bbd917df3d", null ],
+    [ "result", "a05614.html#aab356d6554a7301750f11ec7a85ac47d", null ],
+    [ "testGeom", "a05614.html#a03a5f5da0ccbeed8c1678d4317cf2672", null ],
+    [ "testGeom2", "a05614.html#a6b4be369c8f60e973cd5126e69cd33a4", null ]
 ];

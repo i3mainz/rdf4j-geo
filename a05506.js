@@ -1,8 +1,5 @@
 var a05506 =
 [
-    [ "testEqualNormFalse", "a05506.html#a1928f13a833e5a2e8b142a5937d86c8b", null ],
-    [ "testEqualNormTrue", "a05506.html#ab11a3d6b71627dd555022e7a29ada7be", null ],
-    [ "result", "a05506.html#aab356d6554a7301750f11ec7a85ac47d", null ],
-    [ "testGeom", "a05506.html#a03a5f5da0ccbeed8c1678d4317cf2672", null ],
-    [ "testGeom2", "a05506.html#a6b4be369c8f60e973cd5126e69cd33a4", null ]
+    [ "testAsGeoJSON", "a05506.html#a6aee2cc3188bbf40fb4d946ed66e57c2", null ],
+    [ "testGeometry", "a05506.html#abc3f514f005cba49e406658e2d3086eb", null ]
 ];

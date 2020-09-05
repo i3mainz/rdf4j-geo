@@ -1,5 +1,5 @@
 var a05454 =
 [
-    [ "testAsLatLonText", "a05454.html#a294440bf0a1785c6cea76200ebf53818", null ],
-    [ "testGeometry", "a05454.html#abc3f514f005cba49e406658e2d3086eb", null ]
+    [ "testPerimeter", "a05454.html#ab5f32e4b3cc7543d929e0660b76d1973", null ],
+    [ "testPolygon", "a05454.html#a1e3187cbc25299380589200c398b3ffd", null ]
 ];

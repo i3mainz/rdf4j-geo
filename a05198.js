@@ -1,11 +1,14 @@
 var a05198 =
 [
-    [ "LengthToPoint", "a05198.html#a240c29c1439f065c4a8ba368d3939d77", null ],
-    [ "computeLength", "a05198.html#a38bb2c05753ecb2766c7165fe435b8f4", null ],
-    [ "getLength", "a05198.html#ad38c5c76d09d90c6f92e043aca622ee9", null ],
-    [ "length", "a05198.html#a6a53c15d31eb67b1bbbccd1a406d1996", null ],
-    [ "lengthAlongSegment", "a05198.html#a111d4c1b1f75a9ce7d3d064d3d1eb2e5", null ],
-    [ "updateLength", "a05198.html#a9d5b2181752a05941b27adcec1703c38", null ],
-    [ "locationLength", "a05198.html#ace4b03aa8fde8dc676bc91c1e7cf3b77", null ],
-    [ "minDistanceToPoint", "a05198.html#a8c1ee7f7f7146ea833c6b544dcc60243", null ]
+    [ "WKBRasterReader", "a05198.html#ae793783ce299284ee201fd7c8313c1d6", null ],
+    [ "createGrayScaleColorModel", "a05198.html#afcfcdba92bf5faa9dfc8a1c7a652c7a9", null ],
+    [ "getGridToCRS", "a05198.html#aef748f2853b5fa1a44ed7c589b2bb197", null ],
+    [ "getSRID", "a05198.html#ade744464aeafe5c61497905c4bac4d95", null ],
+    [ "read", "a05198.html#a14456bc52e7f626048f58646a17a9039", null ],
+    [ "read", "a05198.html#ab8d0b6608f158d1234999e80670eba0e", null ],
+    [ "readCoverage", "a05198.html#aa9fe8abf761e9a17b671b3f8ca04ef37", null ],
+    [ "readCoverage", "a05198.html#a167d89e301db4c86565d6cbf8998b5fa", null ],
+    [ "reset", "a05198.html#ad20897c5c8bd47f5d4005989bead0e55", null ],
+    [ "gridToCRS", "a05198.html#a7074295224e2ade372af7fc4571cdc28", null ],
+    [ "srid", "a05198.html#a7e5be5f62324d24835447fc98661e30b", null ]
 ];

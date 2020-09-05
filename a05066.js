@@ -1,21 +1,8 @@
 var a05066 =
 [
-    [ "FeatureIterator", "a05066.html#a08854cdae8bd2e2223a9dd3fe6b071d7", null ],
-    [ "findNext", "a05066.html#a5b6607ffdded724cbb0e530103233093", null ],
-    [ "hasNext", "a05066.html#a58d1cc3d61071d927bf040bf0b035a22", null ],
-    [ "next", "a05066.html#ac27bd9fe293f952329e4f669922ea750", null ],
-    [ "parseFeature", "a05066.html#a5941b8943263ee9d9dbdd95dad8cab0a", null ],
-    [ "parseLayer", "a05066.html#aeb42734704906e8bdf1d674e62ea6b75", null ],
-    [ "remove", "a05066.html#a1fcb45e5d2428352eb36b487d1d4eea3", null ],
-    [ "autoScale", "a05066.html#a790b272bcf5713954b8582330074dfc8", null ],
-    [ "extent", "a05066.html#a08332e7941e91537fabb5c811306cbec", null ],
-    [ "featureIterator", "a05066.html#aaf3dc1e5338be9388f48f131fb3979e3", null ],
-    [ "filter", "a05066.html#a372cbadc592907caa755cab7031ff81a", null ],
-    [ "gf", "a05066.html#a584fada8e317e904ad3d8e8a20325f6f", null ],
-    [ "keys", "a05066.html#a3fd6cdc21222ea54397c9295148851dc", null ],
-    [ "layerIterator", "a05066.html#a12880f8b6f7ae10bdb4c097863e194e7", null ],
-    [ "layerName", "a05066.html#a19bfb03269d4716683c25852c9aa505a", null ],
-    [ "next", "a05066.html#a6583d8f4e5b9bafd677867c095e2a43a", null ],
-    [ "scale", "a05066.html#a80d402d10e8341004c0caf10133b80ab", null ],
-    [ "values", "a05066.html#a166d04e984f645452caf73d70c5fb011", null ]
+    [ "HexWKBTextSRS", "a05066.html#a9551cc49d0697080a64a79a497cf35e9", null ],
+    [ "getSrsURI", "a05066.html#a7d7dded4f73b0a90d90f68ccc5f16bc3", null ],
+    [ "getWkbText", "a05066.html#a4a2ce7a2dcd4fa0818378fb8b97931fb", null ],
+    [ "srsURI", "a05066.html#aaa7845d06052bead86bb2de40935e4d9", null ],
+    [ "wkbText", "a05066.html#a7b6ce5371e4ad222f4b09eaadfdcae09", null ]
 ];

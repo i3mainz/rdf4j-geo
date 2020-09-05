@@ -1,7 +1,7 @@
 var a06134 =
 [
     [ "getInstance", "a06134.html#af8afdd14b38b523d100805364a48ed63", null ],
-    [ "testTileHeight", "a06134.html#a9d781bf26af7708485de4c5a108a5b5e", null ],
+    [ "testRasterToWorldCoordX", "a06134.html#a618380de95de6b7c7abfbc480a671c17", null ],
     [ "covJSONString1", "a06134.html#a993e2f127f3ec8f256e9799d77507223", null ],
     [ "hexwkbString1", "a06134.html#a55fb5b5d665417265da09403128e396e", null ],
     [ "minwkbString", "a06134.html#aa5e2b5a6005895fc20b9f35523569430", null ],

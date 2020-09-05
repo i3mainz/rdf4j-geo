@@ -1,6 +1,10 @@
 var a05354 =
 [
-    [ "testMinimumDiameterLine", "a05354.html#ac6734228b3f88748ca1545e62811f616", null ],
-    [ "result", "a05354.html#aab356d6554a7301750f11ec7a85ac47d", null ],
-    [ "testPolygon", "a05354.html#a1e3187cbc25299380589200c398b3ffd", null ]
+    [ "testGeometryCollectionIsCollection", "a05354.html#ab8f9e80081b7ac2106ef406ffbb215e2", null ],
+    [ "testLineStringIsCollection", "a05354.html#a513937962f26a1affcc4d0c369733a79", null ],
+    [ "testMultiLineStringIsCollection", "a05354.html#af185514d9e978598dc7aa4ba06572494", null ],
+    [ "testMultiPointIsCollection", "a05354.html#abe0dc5056717b405438313e86f9017f2", null ],
+    [ "testMultiPolygonIsCollection", "a05354.html#a3cb8a0ddd3838eedbcbb6c1651e3a9c0", null ],
+    [ "testPointIsCollection", "a05354.html#ae050c74afe9d24c25aa8cfddca93609d", null ],
+    [ "testPolygonIsCollection", "a05354.html#aa73539bce49dc7ae2102874315d15e51", null ]
 ];

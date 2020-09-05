@@ -1,7 +1,7 @@
 var NAVTREE =
 [
   [ "rdf4j-postgis", "index.html", [
-    [ "Deprecated List", "a02597.html", null ],
+    [ "Deprecated List", "a02600.html", null ],
     [ "Packages", null, [
       [ "Packages", "namespaces.html", "namespaces" ]
     ] ],
@@ -27,29 +27,29 @@ var NAVTREEINDEX =
 "a00761.html",
 "a01577.html",
 "a02330.html",
-"a02678.html",
-"a02759.html#a1d6ec282e6226c603cfc981891ccf893",
-"a02759.html#a81986810d8aded97cdca5cf053fb0827",
-"a02759.html#af9c166d12c383cb0e2ffd43e366d2f3d",
-"a02947.html#ad9fb16b36dd4ccc533d4f05ff94646e3",
-"a03223.html#a0b458080a4675316384bff3541b3dfb8",
-"a03467.html#ad9fb16b36dd4ccc533d4f05ff94646e3",
-"a03727.html",
-"a03995.html",
-"a04239.html#ad9fb16b36dd4ccc533d4f05ff94646e3",
-"a04507.html#a449945a96ec9853857955227baa39bcd",
-"a04743.html#ac2f0864f977930b6ae1a83dfd3e4b7ae",
-"a05023.html#ad146fa8579a5f8a876c4688cc5a68520",
-"a05147.html#a6d74c3aac1525133bde98589527d1591",
-"a05199.html#a85eee5803cdc8926b61a167fa833c808",
-"a05255.html#afd3944d392561b0e38be335d91697415",
-"a05479.html",
-"a05707.html#a2286b0f7822c7fda647fa426d8177283",
-"a05947.html#aa04dfbec745e2622b9f7646f8572e501",
-"a06051.html#ab45f511a7f2f9c82a5f7d24e30e1cad0",
-"a06115.html#af8afdd14b38b523d100805364a48ed63",
-"a06183.html#a7454f587563532e0dbe47b119ade3dc4",
-"a06255.html#ad881d0b4c30327357ebf8cc8dabec013"
+"a02680.html",
+"a02762.html#a1caac2b0cb232d8b960636432edb261c",
+"a02762.html#a80ff4bd3fac2cd1b06596900384acc88",
+"a02762.html#af778a8f5d0e142d95fed03b293333d9c",
+"a02950.html",
+"a03222.html#a43b4c73244bc6722ce551c1033cf1115",
+"a03470.html",
+"a03726.html#abe1f067229849f6e8f5bd4339dbd5d87",
+"a03994.html#a43b4c73244bc6722ce551c1033cf1115",
+"a04238.html#afe1f2720d7744750e9f6e944360d13d3",
+"a04506.html#a43b4c73244bc6722ce551c1033cf1115",
+"a04742.html",
+"a05026.html",
+"a05146.html#a885c190e82027881ec3ed1533283c966",
+"a05202.html#a4ed3a6a532fffee3bc00f6a284480f32",
+"a05258.html#ae40c7dda6ace9cdc87de73307a44aa41",
+"a05478.html#ace1b0f448a93ab083e49e59b851b8094",
+"a05702.html#ae984b1b4178b56b80cdb7a80eac64541",
+"a05946.html#aae4d62f37acbace0beb2e9dbba631072",
+"a06058.html#a44dd712968b2420bbfbf9ae21d476b87",
+"a06122.html#a44dd712968b2420bbfbf9ae21d476b87",
+"a06186.html#acf429c99afb7dcd123827400ad89a122",
+"a06258.html#a7454f587563532e0dbe47b119ade3dc4"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

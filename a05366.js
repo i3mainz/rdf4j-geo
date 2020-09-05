@@ -1,9 +1,5 @@
 var a05366 =
 [
-    [ "test2DGeom", "a05366.html#a326426f92a343411bc6035a5e9a4192f", null ],
-    [ "test3DGeom", "a05366.html#aa6b2641c27685af72bd5946823648455", null ],
-    [ "testMGeom", "a05366.html#a17b047bacf8d47cfe9eb1b95260abd70", null ],
-    [ "geom2D", "a05366.html#a717e94cd8879a90c3d3fce5d3ae64eb6", null ],
-    [ "geom3D", "a05366.html#a972164b62d3d78e8fb03a17b761742a2", null ],
-    [ "geomM", "a05366.html#aa8cacb7883ca9f8160920fa287158fef", null ]
+    [ "testIsMeasuredFalse", "a05366.html#a0d34749daed816e995d607f25393f8bd", null ],
+    [ "testIsMeasuredTrue", "a05366.html#a94b07ea8a866ff9332c709b77d204342", null ]
 ];

@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>rdf4j-postgis: PolyshapeWriter Class Reference</title>
+<title>rdf4j-postgis: Member List</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -56,405 +56,36 @@ $(function() {
   </div>
 </div>
 <script type="text/javascript">
-$(document).ready(function(){initNavTree('a05159.html','');});
+$(document).ready(function(){initNavTree('a05162.html','');});
 </script>
 <div id="doc-content">
 <div class="header">
-  <div class="summary">
-<a href="#nested-classes">Classes</a> &#124;
-<a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pub-static-attribs">Static Public Attributes</a> &#124;
-<a href="a05156.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">PolyshapeWriter Class Reference</div>  </div>
+<div class="title">PolyshapeWriter Member List</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>Wrap the 'Encoded Polyline Algorithm Format' defined in: <a href="https://developers.google.com/maps/documentation/utilities/polylinealgorithm">Google Maps API</a> with flags to encode various Shapes: Point, Line, Polygon, etc.  
- <a href="a05159.html#details">More...</a></p>
-<div class="dynheader">
-Inheritance diagram for PolyshapeWriter:</div>
-<div class="dyncontent">
-<div class="center"><img src="a05158.png" border="0" usemap="#PolyshapeWriter_inherit__map" alt="Inheritance graph"/></div>
-<map name="PolyshapeWriter_inherit__map" id="PolyshapeWriter_inherit__map">
-<area shape="rect" id="node2" href="a04975.html" title="JtsPolyshapeWriter" alt="" coords="5,80,141,107"/>
-</map>
-<center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
-<div class="dynheader">
-Collaboration diagram for PolyshapeWriter:</div>
-<div class="dyncontent">
-<div class="center"><img src="a05157.png" border="0" usemap="#PolyshapeWriter_coll__map" alt="Collaboration graph"/></div>
-<map name="PolyshapeWriter_coll__map" id="PolyshapeWriter_coll__map">
-</map>
-<center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
-<table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
-Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05163.html">Encoder</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Encodes a sequence of LatLngs into an encoded path string.  <a href="a05163.html#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
-Public Member Functions</h2></td></tr>
-<tr class="memitem:aecf7db5b6782ec66f95d40c786a4d223"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05159.html#aecf7db5b6782ec66f95d40c786a4d223">getFormatName</a> ()</td></tr>
-<tr class="separator:aecf7db5b6782ec66f95d40c786a4d223"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa960f2057742a7bdaa5ee30ca6290d1a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05159.html#aa960f2057742a7bdaa5ee30ca6290d1a">write</a> (Writer output, Geometry shape)  throws IOException </td></tr>
-<tr class="separator:aa960f2057742a7bdaa5ee30ca6290d1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a738b8792597a07a0ebaf1048adab4b3f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05159.html#a738b8792597a07a0ebaf1048adab4b3f">write</a> (<a class="el" href="a05163.html">Encoder</a> enc, Geometry shape)  throws IOException </td></tr>
-<tr class="separator:a738b8792597a07a0ebaf1048adab4b3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7e2d51f85f9fd98fdfcb46223e1d6d3d"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05159.html#a7e2d51f85f9fd98fdfcb46223e1d6d3d">toString</a> (Geometry shape)</td></tr>
-<tr class="separator:a7e2d51f85f9fd98fdfcb46223e1d6d3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
-Static Public Attributes</h2></td></tr>
-<tr class="memitem:a5f790dd3fd65f7e2dad995f35c443fd0"><td class="memItemLeft" align="right" valign="top">static final char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05159.html#a5f790dd3fd65f7e2dad995f35c443fd0">KEY_POINT</a> = '0'</td></tr>
-<tr class="separator:a5f790dd3fd65f7e2dad995f35c443fd0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa798ffd2450a7d3035a5d81356f2517b"><td class="memItemLeft" align="right" valign="top">static final char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05159.html#aa798ffd2450a7d3035a5d81356f2517b">KEY_LINE</a> = '1'</td></tr>
-<tr class="separator:aa798ffd2450a7d3035a5d81356f2517b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a30d3807814d5bed37f8a82640e0f6c45"><td class="memItemLeft" align="right" valign="top">static final char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05159.html#a30d3807814d5bed37f8a82640e0f6c45">KEY_POLYGON</a> = '2'</td></tr>
-<tr class="separator:a30d3807814d5bed37f8a82640e0f6c45"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad1b12b6fcf2169a9880a25d1fe02f5f8"><td class="memItemLeft" align="right" valign="top">static final char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05159.html#ad1b12b6fcf2169a9880a25d1fe02f5f8">KEY_MULTIPOINT</a> = '3'</td></tr>
-<tr class="separator:ad1b12b6fcf2169a9880a25d1fe02f5f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad31626e894c93fbb3923faf7449216f6"><td class="memItemLeft" align="right" valign="top">static final char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05159.html#ad31626e894c93fbb3923faf7449216f6">KEY_CIRCLE</a> = '4'</td></tr>
-<tr class="separator:ad31626e894c93fbb3923faf7449216f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0e077064c8204574d2e3b78e331c6af2"><td class="memItemLeft" align="right" valign="top">static final char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05159.html#a0e077064c8204574d2e3b78e331c6af2">KEY_BOX</a> = '5'</td></tr>
-<tr class="separator:a0e077064c8204574d2e3b78e331c6af2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aabe19399bfb7ad538e29aa8e7da1b661"><td class="memItemLeft" align="right" valign="top">static final char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05159.html#aabe19399bfb7ad538e29aa8e7da1b661">KEY_ARG_START</a> = '('</td></tr>
-<tr class="separator:aabe19399bfb7ad538e29aa8e7da1b661"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1c49a78fa17940a2ff4d36acab548b83"><td class="memItemLeft" align="right" valign="top">static final char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05159.html#a1c49a78fa17940a2ff4d36acab548b83">KEY_ARG_END</a> = ')'</td></tr>
-<tr class="separator:a1c49a78fa17940a2ff4d36acab548b83"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af7f80b3413766edf45bd57102852c8a6"><td class="memItemLeft" align="right" valign="top">static final char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05159.html#af7f80b3413766edf45bd57102852c8a6">KEY_SEPERATOR</a> = ' '</td></tr>
-<tr class="separator:af7f80b3413766edf45bd57102852c8a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table>
-<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Wrap the 'Encoded Polyline Algorithm Format' defined in: <a href="https://developers.google.com/maps/documentation/utilities/polylinealgorithm">Google Maps API</a> with flags to encode various Shapes: Point, Line, Polygon, etc. </p>
-<p>For more details, see <a href="https://github.com/locationtech/spatial4j/blob/master/FORMATS.md#polyshape">FORMATS.md</a></p>
-<p>This format works well for geographic shapes (-180...+180 / -90...+90), but is not appropriate for other coordinate systems</p>
-<dl class="section see"><dt>See also</dt><dd><a href="https://developers.google.com/maps/documentation/utilities/polylinealgorithm">Google Maps API</a> </dd>
-<dd>
-<a class="el" href="a05151.html">PolyshapeReader</a> </dd></dl>
-</div><h2 class="groupheader">Member Function Documentation</h2>
-<a id="aecf7db5b6782ec66f95d40c786a4d223"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aecf7db5b6782ec66f95d40c786a4d223">&#9670;&nbsp;</a></span>getFormatName()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">String getFormatName </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;                                {</div><div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    <span class="keywordflow">return</span> <span class="stringliteral">&quot;PolyShape&quot;</span>;</div><div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;  }</div></div><!-- fragment -->
-</div>
-</div>
-<a id="a7e2d51f85f9fd98fdfcb46223e1d6d3d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7e2d51f85f9fd98fdfcb46223e1d6d3d">&#9670;&nbsp;</a></span>toString()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">String toString </td>
-          <td>(</td>
-          <td class="paramtype">Geometry&#160;</td>
-          <td class="paramname"><em>shape</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="reference">References <a class="el" href="a05159.html#aa960f2057742a7bdaa5ee30ca6290d1a">PolyshapeWriter.write()</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="a05075.html#ae918a517e1ebcc44beeee2c55008d248">PolyshapeDatatype.unparse()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;                                         {</div><div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;    <span class="keywordflow">try</span> {</div><div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;      StringWriter buffer = <span class="keyword">new</span> StringWriter();</div><div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;      <a class="code" href="a05159.html#aa960f2057742a7bdaa5ee30ca6290d1a">write</a>(buffer, shape);</div><div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;      <span class="keywordflow">return</span> buffer.toString();</div><div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;    } <span class="keywordflow">catch</span> (IOException ex) {</div><div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;      <span class="keywordflow">throw</span> <span class="keyword">new</span> RuntimeException(ex);</div><div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;    }</div><div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;  }</div><div class="ttc" id="a05159_html_aa960f2057742a7bdaa5ee30ca6290d1a"><div class="ttname"><a href="a05159.html#aa960f2057742a7bdaa5ee30ca6290d1a">org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.PolyshapeWriter.write</a></div><div class="ttdeci">void write(Writer output, Geometry shape)</div><div class="ttdef"><b>Definition:</b> PolyshapeWriter.java:56</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="aa960f2057742a7bdaa5ee30ca6290d1a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa960f2057742a7bdaa5ee30ca6290d1a">&#9670;&nbsp;</a></span>write() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void write </td>
-          <td>(</td>
-          <td class="paramtype">Writer&#160;</td>
-          <td class="paramname"><em>output</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">Geometry&#160;</td>
-          <td class="paramname"><em>shape</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td> throws IOException</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="a05159.html#a7e2d51f85f9fd98fdfcb46223e1d6d3d">PolyshapeWriter.toString()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;                                                                      {</div><div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    <span class="keywordflow">if</span> (shape == null) {</div><div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;      <span class="keywordflow">throw</span> <span class="keyword">new</span> NullPointerException(<span class="stringliteral">&quot;Shape can not be null&quot;</span>);</div><div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    }</div><div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    <a class="code" href="a05159.html#aa960f2057742a7bdaa5ee30ca6290d1a">write</a>(<span class="keyword">new</span> Encoder(output), shape);</div><div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;  }</div><div class="ttc" id="a05159_html_aa960f2057742a7bdaa5ee30ca6290d1a"><div class="ttname"><a href="a05159.html#aa960f2057742a7bdaa5ee30ca6290d1a">org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.PolyshapeWriter.write</a></div><div class="ttdeci">void write(Writer output, Geometry shape)</div><div class="ttdef"><b>Definition:</b> PolyshapeWriter.java:56</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a738b8792597a07a0ebaf1048adab4b3f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a738b8792597a07a0ebaf1048adab4b3f">&#9670;&nbsp;</a></span>write() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void write </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="a05163.html">Encoder</a>&#160;</td>
-          <td class="paramname"><em>enc</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">Geometry&#160;</td>
-          <td class="paramname"><em>shape</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td> throws IOException</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;                                                                    {</div><div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;    <span class="comment">/*if (shape instanceof Point) {</span></div><div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;<span class="comment">      Point v = (Point) shape;</span></div><div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;<span class="comment">      enc.write(KEY_POINT);</span></div><div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;<span class="comment">      enc.write(v.getX(), v.getY());</span></div><div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;<span class="comment">      return;</span></div><div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;<span class="comment">    }</span></div><div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;<span class="comment">    if (shape instanceof Rectangle2D) {</span></div><div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;<span class="comment">      Rectangle v = (Rectangle) shape;</span></div><div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;<span class="comment">      enc.write(KEY_BOX);</span></div><div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;<span class="comment">      enc.write(v.getMinX(), v.getMinY());</span></div><div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;<span class="comment">      enc.write(v.getMaxX(), v.getMaxY());</span></div><div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;<span class="comment">      return;</span></div><div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;<span class="comment">    }</span></div><div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;<span class="comment">    if (shape instanceof BufferedLine) {</span></div><div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;<span class="comment">      BufferedLine v = (BufferedLine) shape;</span></div><div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;<span class="comment">      enc.write(KEY_LINE);</span></div><div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;<span class="comment">      if(v.getBuf()&gt;0) {</span></div><div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;<span class="comment">        enc.writeArg(v.getBuf());</span></div><div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;<span class="comment">      }</span></div><div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;<span class="comment">      enc.write(v.getA().getX(), v.getA().getY());</span></div><div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;<span class="comment">      enc.write(v.getB().getX(), v.getB().getY());</span></div><div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;<span class="comment">      return;</span></div><div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;<span class="comment">    }</span></div><div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;<span class="comment">    if (shape instanceof LineString) {</span></div><div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;<span class="comment">      LineString v = (LineString) shape;</span></div><div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;<span class="comment">      enc.write(KEY_LINE);</span></div><div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;<span class="comment">      if(v.getBuf()&gt;0) {</span></div><div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;<span class="comment">        enc.writeArg(v.getBuf());</span></div><div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;<span class="comment">      }</span></div><div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;<span class="comment">      LineString last = null;</span></div><div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;<span class="comment">      Iterator&lt;LineString&gt; iter = v.getSegments().iterator();</span></div><div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;<span class="comment">      while (iter.hasNext()) {</span></div><div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;<span class="comment">        LineString seg = iter.next();</span></div><div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;<span class="comment">        enc.write(seg.getA().getX(), seg.getA().getY());</span></div><div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;<span class="comment">        last = seg;</span></div><div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;<span class="comment">      }</span></div><div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;<span class="comment">      if (last != null) {</span></div><div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;<span class="comment">        enc.write(last.getB().getX(), last.getB().getY());</span></div><div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;<span class="comment">      }</span></div><div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;<span class="comment">      return;</span></div><div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;<span class="comment">    }</span></div><div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;<span class="comment">    if (shape instanceof Circle) {</span></div><div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;<span class="comment">      // See: https://github.com/geojson/geojson-spec/wiki/Proposal---Circles-and-Ellipses-Geoms</span></div><div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;<span class="comment">      Circle v = (Circle) shape;</span></div><div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;<span class="comment">      Point center = GeometryFactory. createPointFromInternalCoord(v.getCenter().getCoordinate(), new GeometryFactory());</span></div><div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;<span class="comment">      double radius = v.getRadius();</span></div><div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;<span class="comment">      enc.write(KEY_CIRCLE);</span></div><div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;<span class="comment">      enc.writeArg(radius);</span></div><div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;<span class="comment">      enc.write(center.getX(), center.getY());</span></div><div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;<span class="comment">      return;</span></div><div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;<span class="comment">    }</span></div><div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;<span class="comment">    if (shape instanceof GeometryCollection) {</span></div><div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;<span class="comment">      GeometryCollection v = (GeometryCollection) shape;</span></div><div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;<span class="comment">      </span></div><div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;<span class="comment">      //Iterator&lt;Geometry&gt; iter = v.geomeiterator();</span></div><div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;<span class="comment">      for(int i=0;i&lt;v.getLength();i++) {</span></div><div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;<span class="comment">        write(enc, v.getGeometryN(i));</span></div><div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;<span class="comment">        if(i&lt;v.getLength()) {</span></div><div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;<span class="comment">          enc.seperator();</span></div><div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;<span class="comment">        }</span></div><div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;<span class="comment">      }</span></div><div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;<span class="comment">      return;</span></div><div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;<span class="comment">    }*/</span></div><div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;    <span class="keywordflow">return</span>;</div><div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;    </div><div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;  }</div></div><!-- fragment -->
-</div>
-</div>
-<h2 class="groupheader">Member Data Documentation</h2>
-<a id="a1c49a78fa17940a2ff4d36acab548b83"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1c49a78fa17940a2ff4d36acab548b83">&#9670;&nbsp;</a></span>KEY_ARG_END</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">final char KEY_ARG_END = ')'</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="a05151.html#abb0d91da5ace7eba640f9bfa11b48dbf">PolyshapeReader.read()</a>.</p>
-
-</div>
-</div>
-<a id="aabe19399bfb7ad538e29aa8e7da1b661"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aabe19399bfb7ad538e29aa8e7da1b661">&#9670;&nbsp;</a></span>KEY_ARG_START</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">final char KEY_ARG_START = '('</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="a05151.html#abb0d91da5ace7eba640f9bfa11b48dbf">PolyshapeReader.read()</a>.</p>
-
-</div>
-</div>
-<a id="a0e077064c8204574d2e3b78e331c6af2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0e077064c8204574d2e3b78e331c6af2">&#9670;&nbsp;</a></span>KEY_BOX</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">final char KEY_BOX = '5'</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ad31626e894c93fbb3923faf7449216f6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad31626e894c93fbb3923faf7449216f6">&#9670;&nbsp;</a></span>KEY_CIRCLE</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">final char KEY_CIRCLE = '4'</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="a05151.html#abb0d91da5ace7eba640f9bfa11b48dbf">PolyshapeReader.read()</a>.</p>
-
-</div>
-</div>
-<a id="aa798ffd2450a7d3035a5d81356f2517b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa798ffd2450a7d3035a5d81356f2517b">&#9670;&nbsp;</a></span>KEY_LINE</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">final char KEY_LINE = '1'</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="a05151.html#abb0d91da5ace7eba640f9bfa11b48dbf">PolyshapeReader.read()</a>, and <a class="el" href="a04975.html#a34ae06947d578f9b513e33bc6e7b46fd">JtsPolyshapeWriter.write()</a>.</p>
-
-</div>
-</div>
-<a id="ad1b12b6fcf2169a9880a25d1fe02f5f8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad1b12b6fcf2169a9880a25d1fe02f5f8">&#9670;&nbsp;</a></span>KEY_MULTIPOINT</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">final char KEY_MULTIPOINT = '3'</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="a05151.html#abb0d91da5ace7eba640f9bfa11b48dbf">PolyshapeReader.read()</a>, and <a class="el" href="a04975.html#a34ae06947d578f9b513e33bc6e7b46fd">JtsPolyshapeWriter.write()</a>.</p>
-
-</div>
-</div>
-<a id="a5f790dd3fd65f7e2dad995f35c443fd0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5f790dd3fd65f7e2dad995f35c443fd0">&#9670;&nbsp;</a></span>KEY_POINT</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">final char KEY_POINT = '0'</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="a05151.html#abb0d91da5ace7eba640f9bfa11b48dbf">PolyshapeReader.read()</a>, and <a class="el" href="a04975.html#a34ae06947d578f9b513e33bc6e7b46fd">JtsPolyshapeWriter.write()</a>.</p>
-
-</div>
-</div>
-<a id="a30d3807814d5bed37f8a82640e0f6c45"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a30d3807814d5bed37f8a82640e0f6c45">&#9670;&nbsp;</a></span>KEY_POLYGON</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">final char KEY_POLYGON = '2'</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="a05151.html#abb0d91da5ace7eba640f9bfa11b48dbf">PolyshapeReader.read()</a>, and <a class="el" href="a04975.html#ae75c73ef5b2ae9d093d20db2fca9e878">JtsPolyshapeWriter.write()</a>.</p>
-
-</div>
-</div>
-<a id="af7f80b3413766edf45bd57102852c8a6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af7f80b3413766edf45bd57102852c8a6">&#9670;&nbsp;</a></span>KEY_SEPERATOR</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">final char KEY_SEPERATOR = ' '</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="a05151.html#abb0d91da5ace7eba640f9bfa11b48dbf">PolyshapeReader.read()</a>.</p>
-
-</div>
-</div>
-</div><!-- contents -->
+<p>This is the complete list of members for <a class="el" href="a05162.html">PolyshapeWriter</a>, including all inherited members.</p>
+<table class="directory">
+  <tr class="even"><td class="entry"><a class="el" href="a05162.html#aecf7db5b6782ec66f95d40c786a4d223">getFormatName</a>()</td><td class="entry"><a class="el" href="a05162.html">PolyshapeWriter</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="a05162.html#a1c49a78fa17940a2ff4d36acab548b83">KEY_ARG_END</a></td><td class="entry"><a class="el" href="a05162.html">PolyshapeWriter</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="a05162.html#aabe19399bfb7ad538e29aa8e7da1b661">KEY_ARG_START</a></td><td class="entry"><a class="el" href="a05162.html">PolyshapeWriter</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
+  <tr><td class="entry"><a class="el" href="a05162.html#a0e077064c8204574d2e3b78e331c6af2">KEY_BOX</a></td><td class="entry"><a class="el" href="a05162.html">PolyshapeWriter</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="a05162.html#ad31626e894c93fbb3923faf7449216f6">KEY_CIRCLE</a></td><td class="entry"><a class="el" href="a05162.html">PolyshapeWriter</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
+  <tr><td class="entry"><a class="el" href="a05162.html#aa798ffd2450a7d3035a5d81356f2517b">KEY_LINE</a></td><td class="entry"><a class="el" href="a05162.html">PolyshapeWriter</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="a05162.html#ad1b12b6fcf2169a9880a25d1fe02f5f8">KEY_MULTIPOINT</a></td><td class="entry"><a class="el" href="a05162.html">PolyshapeWriter</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
+  <tr><td class="entry"><a class="el" href="a05162.html#a5f790dd3fd65f7e2dad995f35c443fd0">KEY_POINT</a></td><td class="entry"><a class="el" href="a05162.html">PolyshapeWriter</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="a05162.html#a30d3807814d5bed37f8a82640e0f6c45">KEY_POLYGON</a></td><td class="entry"><a class="el" href="a05162.html">PolyshapeWriter</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
+  <tr><td class="entry"><a class="el" href="a05162.html#af7f80b3413766edf45bd57102852c8a6">KEY_SEPERATOR</a></td><td class="entry"><a class="el" href="a05162.html">PolyshapeWriter</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="a05162.html#a7e2d51f85f9fd98fdfcb46223e1d6d3d">toString</a>(Geometry shape)</td><td class="entry"><a class="el" href="a05162.html">PolyshapeWriter</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="a05162.html#aa960f2057742a7bdaa5ee30ca6290d1a">write</a>(Writer output, Geometry shape)</td><td class="entry"><a class="el" href="a05162.html">PolyshapeWriter</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="a05162.html#a738b8792597a07a0ebaf1048adab4b3f">write</a>(Encoder enc, Geometry shape)</td><td class="entry"><a class="el" href="a05162.html">PolyshapeWriter</a></td><td class="entry"></td></tr>
+</table></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.13-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="a02610.html">org</a></li><li class="navelem"><a class="el" href="a02611.html">eclipse</a></li><li class="navelem"><a class="el" href="a02612.html">rdf4j</a></li><li class="navelem"><a class="el" href="a02615.html">query</a></li><li class="navelem"><a class="el" href="a02616.html">algebra</a></li><li class="navelem"><a class="el" href="a02617.html">evaluation</a></li><li class="navelem"><a class="el" href="a02618.html">function</a></li><li class="navelem"><a class="el" href="a02619.html">postgis</a></li><li class="navelem"><a class="el" href="a02669.html">util</a></li><li class="navelem"><a class="el" href="a05159.html">PolyshapeWriter</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>

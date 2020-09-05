@@ -1,5 +1,5 @@
 var a05430 =
 [
-    [ "testAsBinary", "a05430.html#ac230b10882e3be05bacc871fce2fc609", null ],
-    [ "testGeometry", "a05430.html#abc3f514f005cba49e406658e2d3086eb", null ]
+    [ "testMinimumRectangle", "a05430.html#a113f2072fe3a9c6603a02548b81f6545", null ],
+    [ "testPolygon", "a05430.html#a1e3187cbc25299380589200c398b3ffd", null ]
 ];

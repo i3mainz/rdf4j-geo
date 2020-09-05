@@ -1,7 +1,5 @@
 var a05666 =
 [
-    [ "testForceCollection", "a05666.html#a80928c2dac15d3b159f8708462c2141e", null ],
-    [ "testForceCollectionZ", "a05666.html#a7fb6c41061d547328e4d4147ed19f55f", null ],
-    [ "testGeom", "a05666.html#a03a5f5da0ccbeed8c1678d4317cf2672", null ],
-    [ "testGeomZ", "a05666.html#a5e443ef12c7db96a5d27a951f9db5a08", null ]
+    [ "testSridAxis1Orientation", "a05666.html#ae0ff51be0fe1734cba043c3509606d4d", null ],
+    [ "testPoint", "a05666.html#af26f700ee129f846cac58735f6dcc380", null ]
 ];

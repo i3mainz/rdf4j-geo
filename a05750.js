@@ -1,6 +1,7 @@
 var a05750 =
 [
-    [ "testLineString2D", "a05750.html#a100e1041d9eed0108cb20adfb3ccb714", null ],
-    [ "LineString2D", "a05750.html#a4a6127d0b7f1eecce2d32442325f7735", null ],
-    [ "point", "a05750.html#a081811ff1c2bedd0a20703599f90114f", null ]
+    [ "testPoints", "a05750.html#a0c4e639ac6891f00e71463cfe4504aec", null ],
+    [ "testPoints3D", "a05750.html#a757f54bd6bd9ad86ecd364c346e80d73", null ],
+    [ "testGeometry", "a05750.html#abc3f514f005cba49e406658e2d3086eb", null ],
+    [ "testGeometryZ", "a05750.html#a7a113ffd7d8ff98f71b4361ffff21edc", null ]
 ];

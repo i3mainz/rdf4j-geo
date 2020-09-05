@@ -1,5 +1,6 @@
 var a05638 =
 [
-    [ "testCollectionHomogenize", "a05638.html#a0a22ab00e85a35d2da22ba287cd37a3f", null ],
-    [ "testGeometry", "a05638.html#abc3f514f005cba49e406658e2d3086eb", null ]
+    [ "testRelate", "a05638.html#a8592662d9e01b3d8f2f9a86b6bb48372", null ],
+    [ "isocelesTriangle", "a05638.html#aa04dfbec745e2622b9f7646f8572e501", null ],
+    [ "notIsocelesTriangle", "a05638.html#a055d99fb63bcee37763ffcf4da9e0521", null ]
 ];

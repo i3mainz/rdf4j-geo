@@ -1,2 +1,7 @@
-<map id="VectorTileEncoder.Layer" name="VectorTileEncoder.Layer">
+<map id="PolyshapeDatatype" name="PolyshapeDatatype">
+<area shape="rect" id="node2" href="$a05094.html" title="VectorLiteral" alt="" coords="5,301,100,328"/>
+<area shape="rect" id="node3" href="$a04986.html" title="LiteralType" alt="" coords="9,212,96,239"/>
+<area shape="rect" id="node4" href="$a05154.html" title="PolyshapeReader" alt="" coords="125,301,250,328"/>
+<area shape="rect" id="node7" href="$a04978.html" title="JtsPolyshapeWriter" alt="" coords="354,301,490,328"/>
+<area shape="rect" id="node8" href="$a05162.html" title="Wrap the &#39;Encoded Polyline Algorithm Format&#39; defined in: Google Maps API with flags to encode various..." alt="" coords="363,212,481,239"/>
 </map>

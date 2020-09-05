@@ -1,6 +1,6 @@
 var a05634 =
 [
-    [ "testCollectionExtract", "a05634.html#ad65aa26b3876b84d26c4b988083bd940", null ],
-    [ "res", "a05634.html#ab8deaae2f0a5506ff9fd02ff15e921cc", null ],
-    [ "testGeometry", "a05634.html#abc3f514f005cba49e406658e2d3086eb", null ]
+    [ "testRelateMatchFalse", "a05634.html#a16bf67312d8af3e076076fd8097969c5", null ],
+    [ "testRelateMatchTrue", "a05634.html#a47e32d919c84c1edd508a45d6c670e90", null ],
+    [ "notIsocelesTriangle", "a05634.html#a055d99fb63bcee37763ffcf4da9e0521", null ]
 ];

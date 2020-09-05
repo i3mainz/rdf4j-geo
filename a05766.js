@@ -1,7 +1,6 @@
 var a05766 =
 [
-    [ "testAngle", "a05766.html#a0cf5bb8fb4d0971e797f7a4e75601b26", null ],
-    [ "testPoint1", "a05766.html#ab20d196cb6e34afc2e9cff8074e43bfd", null ],
-    [ "testPoint2", "a05766.html#aa0c0c6f5dda7a397fc50f4c22a2b180f", null ],
-    [ "testPoint3", "a05766.html#a125d390ce5ab22a84d197ed08e237740", null ]
+    [ "testShiftLongitude", "a05766.html#a706f714749526b3516c84d5741993811", null ],
+    [ "result", "a05766.html#aab356d6554a7301750f11ec7a85ac47d", null ],
+    [ "testPolygon", "a05766.html#a1e3187cbc25299380589200c398b3ffd", null ]
 ];

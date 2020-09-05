@@ -1,6 +1,6 @@
 var a05686 =
 [
-    [ "testRemoveRepeatedPoints", "a05686.html#a473d131a5f96a89f9502570a50d06e65", null ],
-    [ "testGeometry", "a05686.html#abc3f514f005cba49e406658e2d3086eb", null ],
-    [ "testGeometry2", "a05686.html#af1173652e671b8f9051f8630b98c73fb", null ]
+    [ "testSridIsGeographicFalse", "a05686.html#abd1395d0581a64740ed1bae57b2882b3", null ],
+    [ "testSridIsGeographicTrue", "a05686.html#a09f0ac6b4b2a063a3d1df32d600b9b11", null ],
+    [ "testPoint", "a05686.html#af26f700ee129f846cac58735f6dcc380", null ]
 ];

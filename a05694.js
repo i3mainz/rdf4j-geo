@@ -1,6 +1,5 @@
 var a05694 =
 [
-    [ "testShiftLongitude", "a05694.html#a706f714749526b3516c84d5741993811", null ],
-    [ "result", "a05694.html#aab356d6554a7301750f11ec7a85ac47d", null ],
-    [ "testPolygon", "a05694.html#a1e3187cbc25299380589200c398b3ffd", null ]
+    [ "testSridIsVerticalTrue", "a05694.html#a0b5d17dad676c3ce02f884832b907843", null ],
+    [ "testPoint", "a05694.html#af26f700ee129f846cac58735f6dcc380", null ]
 ];

@@ -1,9 +1,25 @@
 var a02657 =
 [
-    [ "AsCoverageJSON", "a04595.html", "a04595" ],
-    [ "AsGeoTIFF", "a04599.html", "a04599" ],
-    [ "AsGMLCOV", "a04603.html", "a04603" ],
-    [ "AsNetCDF", "a04607.html", "a04607" ],
-    [ "AsRastHexWKB", "a04611.html", "a04611" ],
-    [ "AsRastWKB", "a04615.html", "a04615" ]
+    [ "RasterAlgebraConstFunction", "a04450.html", "a04450" ],
+    [ "RasterAlgebraFunction", "a04454.html", "a04454" ],
+    [ "RasterAlgebraUnaryFunction", "a04458.html", "a04458" ],
+    [ "RasterAttributeBinaryFunction", "a04462.html", "a04462" ],
+    [ "RasterAttributeBooleanIntFunction", "a04466.html", "a04466" ],
+    [ "RasterAttributeDoubleIntFunction", "a04470.html", "a04470" ],
+    [ "RasterAttributeFunction", "a04474.html", "a04474" ],
+    [ "RasterAttributeIntIntDoubleFunction", "a04478.html", "a04478" ],
+    [ "RasterAttributeIntIntFunction", "a04482.html", "a04482" ],
+    [ "RasterAttributeIntIntGeomFunction", "a04486.html", "a04486" ],
+    [ "RasterAttributeIntIntIntBooleanFunction", "a04490.html", "a04490" ],
+    [ "RasterAttributeIntIntIntStringFunction", "a04494.html", "a04494" ],
+    [ "RasterConstructorFunction", "a04498.html", "a04498" ],
+    [ "RasterGeometryConversionFunction", "a04502.html", "a04502" ],
+    [ "RasterModifierBoolDoubleFunction", "a04506.html", "a04506" ],
+    [ "RasterModifierDoubleDoubleFunction", "a04510.html", "a04510" ],
+    [ "RasterModifierFunction", "a04514.html", "a04514" ],
+    [ "RasterModifierGeometryFunction", "a04518.html", "a04518" ],
+    [ "RasterModifierIntIntFunction", "a04522.html", "a04522" ],
+    [ "RasterRelationBooleanFunction", "a04526.html", "a04526" ],
+    [ "RasterStringExportFunction", "a04530.html", "a04530" ],
+    [ "RasterToVectorExportFunction", "a04534.html", "a04534" ]
 ];

@@ -1,4 +1,5 @@
 var a05826 =
 [
-    [ "testGeneratePoints", "a05826.html#a63588109fc080478770a7d3cc31b245d", null ]
+    [ "testAsEncodedPolyline", "a05826.html#a77e364f1e18fbe312ed563af435ddc8f", null ],
+    [ "testGeometry", "a05826.html#abc3f514f005cba49e406658e2d3086eb", null ]
 ];

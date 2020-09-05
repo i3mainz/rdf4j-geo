@@ -1,5 +1,5 @@
 var a05690 =
 [
-    [ "testReverse", "a05690.html#ac38f1a963c4494ff939bad764b01b127", null ],
-    [ "testLineString", "a05690.html#a33797029fadbcba01b4a4fafec88cf41", null ]
+    [ "testSridIsProjectedTrue", "a05690.html#a79fa3e75c2d90e917a8ece94f56a16ba", null ],
+    [ "testPoint", "a05690.html#af26f700ee129f846cac58735f6dcc380", null ]
 ];

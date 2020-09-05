@@ -1,6 +1,5 @@
 var a05426 =
 [
-    [ "testSetPoint", "a05426.html#a52b4ba451c7a5d90f46ae63b5ac3919b", null ],
-    [ "LineString2D", "a05426.html#a4a6127d0b7f1eecce2d32442325f7735", null ],
-    [ "point", "a05426.html#a081811ff1c2bedd0a20703599f90114f", null ]
+    [ "testMinimumDiameter", "a05426.html#a73584ebc5e2d20692de63f5ae4f13387", null ],
+    [ "testPolygon", "a05426.html#a1e3187cbc25299380589200c398b3ffd", null ]
 ];

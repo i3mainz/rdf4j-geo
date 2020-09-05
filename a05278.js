@@ -1,7 +1,9 @@
 var a05278 =
 [
-    [ "testHasRepeatedPoints", "a05278.html#ac91c06c07e42b36c2957d3b47609ea12", null ],
-    [ "testHasRepeatedPoints2", "a05278.html#a573715384a3d69a8e8c4722bc82c5e5e", null ],
-    [ "testGeometry", "a05278.html#abc3f514f005cba49e406658e2d3086eb", null ],
-    [ "testGeometry2", "a05278.html#af1173652e671b8f9051f8630b98c73fb", null ]
+    [ "testBBOXBelow", "a05278.html#a594cd72ca71bae81e2fc3388cd6a1acf", null ],
+    [ "testBBOXBelow1", "a05278.html#a93106ea7627b07fa96ea139a729727c1", null ],
+    [ "testGeom1", "a05278.html#aa4a3b1a7e778ece72382f6600fa96b47", null ],
+    [ "testGeom2", "a05278.html#a6b4be369c8f60e973cd5126e69cd33a4", null ],
+    [ "testGeom3", "a05278.html#a800b6bb875a8ff4404ea787c3df125a5", null ],
+    [ "testGeom4", "a05278.html#a4c55e7efe430d6d220fb05524c4bb940", null ]
 ];

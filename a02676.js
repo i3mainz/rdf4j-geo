@@ -1,5 +1,5 @@
 var a02676 =
 [
-    [ "wkb", "a02678.html", "a02678" ],
-    [ "SampleDimensionType", "a05183.html", "a05183" ]
+    [ "TopoJSONDatatype", "a05018.html", "a05018" ],
+    [ "TopologyLiteral", "a05022.html", "a05022" ]
 ];

@@ -1,7 +1,8 @@
 var a06062 =
 [
     [ "getInstance", "a06062.html#af8afdd14b38b523d100805364a48ed63", null ],
-    [ "testMinScaleY", "a06062.html#aeb96648745a2079835811cbf217dca56", null ],
+    [ "testNot", "a06062.html#a03f9a4dbae1bd075ea798b12122e40cf", null ],
+    [ "combinedRasterLiteral", "a06062.html#a6efe8702be34a67e2bcbba55588c5b5f", null ],
     [ "covJSONString1", "a06062.html#a993e2f127f3ec8f256e9799d77507223", null ],
     [ "hexwkbString1", "a06062.html#a55fb5b5d665417265da09403128e396e", null ],
     [ "minwkbString", "a06062.html#aa5e2b5a6005895fc20b9f35523569430", null ],

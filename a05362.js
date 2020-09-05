@@ -1,5 +1,5 @@
 var a05362 =
 [
-    [ "testMinimumRectangle", "a05362.html#a113f2072fe3a9c6603a02548b81f6545", null ],
-    [ "testPolygon", "a05362.html#a1e3187cbc25299380589200c398b3ffd", null ]
+    [ "testIsInCRSAreaOfValidityFalse", "a05362.html#ab086dd0d0debad3790e452ffa6c1fa28", null ],
+    [ "testIsInCRSAreaOfValidityTrue", "a05362.html#afff3ea2274b06643aaa5806616e7ca8e", null ]
 ];

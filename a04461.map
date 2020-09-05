@@ -1,2 +1,6 @@
-<map id="RasterAttributeBooleanIntFunction" name="RasterAttributeBooleanIntFunction">
+<map id="RasterAttributeBinaryFunction" name="RasterAttributeBinaryFunction">
+<area shape="rect" id="node3" href="$a04302.html" title="IsGrayscale" alt="" coords="5,155,97,181"/>
+<area shape="rect" id="node4" href="$a04306.html" title="IsIndexed" alt="" coords="121,155,200,181"/>
+<area shape="rect" id="node5" href="$a04314.html" title="IsTiled" alt="" coords="225,155,286,181"/>
+<area shape="rect" id="node6" href="$a04318.html" title="IsTranslucent" alt="" coords="310,155,411,181"/>
 </map>

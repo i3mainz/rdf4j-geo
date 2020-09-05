@@ -1,5 +1,7 @@
 var a05838 =
 [
-    [ "testNRings", "a05838.html#a232253c11ffc2c2e17e969ee3180b704", null ],
-    [ "testPolygon", "a05838.html#a1e3187cbc25299380589200c398b3ffd", null ]
+    [ "testAngle", "a05838.html#a0cf5bb8fb4d0971e797f7a4e75601b26", null ],
+    [ "testPoint1", "a05838.html#ab20d196cb6e34afc2e9cff8074e43bfd", null ],
+    [ "testPoint2", "a05838.html#aa0c0c6f5dda7a397fc50f4c22a2b180f", null ],
+    [ "testPoint3", "a05838.html#a125d390ce5ab22a84d197ed08e237740", null ]
 ];

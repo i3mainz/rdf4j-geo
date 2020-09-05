@@ -1,5 +1,9 @@
 var a05790 =
 [
-    [ "testMMin", "a05790.html#a11f2bb6837c81b000eee4c62ba8ce7f0", null ],
-    [ "testPoint", "a05790.html#af26f700ee129f846cac58735f6dcc380", null ]
+    [ "testLineString2D", "a05790.html#a100e1041d9eed0108cb20adfb3ccb714", null ],
+    [ "testLineString3D", "a05790.html#aed8078596e87405b402dec09f15eb681", null ],
+    [ "testPoint", "a05790.html#a67242842aad66b0a00820a5d4d7ea731", null ],
+    [ "LineString2D", "a05790.html#a4a6127d0b7f1eecce2d32442325f7735", null ],
+    [ "LineString3D", "a05790.html#a7f1b41b47d9de827d79c109c50a189f5", null ],
+    [ "point", "a05790.html#a081811ff1c2bedd0a20703599f90114f", null ]
 ];

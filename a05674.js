@@ -1,6 +1,5 @@
 var a05674 =
 [
-    [ "testNode", "a05674.html#afddc561f05c41e1e550b54ca967bd2e9", null ],
-    [ "result", "a05674.html#aab356d6554a7301750f11ec7a85ac47d", null ],
-    [ "testGeom", "a05674.html#a03a5f5da0ccbeed8c1678d4317cf2672", null ]
+    [ "testSridAxis2Orientation", "a05674.html#a4cce208d444c0a86d19f93731ff4a6b3", null ],
+    [ "testPoint", "a05674.html#af26f700ee129f846cac58735f6dcc380", null ]
 ];

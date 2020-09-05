@@ -1,5 +1,5 @@
 var a05466 =
 [
-    [ "testAsSVG", "a05466.html#a7051938045f1413d97e8c5925b1c7677", null ],
-    [ "testGeometry", "a05466.html#abc3f514f005cba49e406658e2d3086eb", null ]
+    [ "testGeomFromWKB", "a05466.html#acc0d76b6d1ae096d932e1752a6bc8479", null ],
+    [ "geoJsonTestGeom", "a05466.html#a117e8ff340791b5aa0658f5840b5dcf4", null ]
 ];

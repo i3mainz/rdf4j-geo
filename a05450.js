@@ -1,5 +1,5 @@
 var a05450 =
 [
-    [ "testAsEncodedPolyline", "a05450.html#a77e364f1e18fbe312ed563af435ddc8f", null ],
-    [ "testGeometry", "a05450.html#abc3f514f005cba49e406658e2d3086eb", null ]
+    [ "testNumPoints", "a05450.html#ab30b87a5d89bd6e36dae388ce20e61a7", null ],
+    [ "testGeom", "a05450.html#a03a5f5da0ccbeed8c1678d4317cf2672", null ]
 ];

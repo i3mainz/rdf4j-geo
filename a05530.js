@@ -1,8 +1,5 @@
 var a05530 =
 [
-    [ "testHausdorffDistance", "a05530.html#a865da90312a6602e13430f1b3218608b", null ],
-    [ "testGeom1", "a05530.html#aa4a3b1a7e778ece72382f6600fa96b47", null ],
-    [ "testGeom2", "a05530.html#a6b4be369c8f60e973cd5126e69cd33a4", null ],
-    [ "testGeom3", "a05530.html#a800b6bb875a8ff4404ea787c3df125a5", null ],
-    [ "testGeom4", "a05530.html#a4c55e7efe430d6d220fb05524c4bb940", null ]
+    [ "testAsPolyShape", "a05530.html#aa4ec805ffcfb140ead8292a441244775", null ],
+    [ "testGeometry", "a05530.html#abc3f514f005cba49e406658e2d3086eb", null ]
 ];

@@ -1,14 +1,10 @@
 var a05058 =
 [
-    [ "Feature", "a05070.html", "a05070" ],
-    [ "FeatureIterable", "a05062.html", "a05062" ],
-    [ "FeatureIterator", "a05066.html", "a05066" ],
-    [ "decode", "a05058.html#aeac0ef15a5dbde26de719ed120f0bae6", null ],
-    [ "decode", "a05058.html#a1c0d64906a835d2288ee30feb7545848", null ],
-    [ "decode", "a05058.html#ac99b1183cf25fdfe9867cb6cc430b532", null ],
-    [ "decode", "a05058.html#aa482114a9e8ad29862090e575092e402", null ],
-    [ "isAutoScale", "a05058.html#a0e526e00d1b2957904d449bc7777d825", null ],
-    [ "setAutoScale", "a05058.html#a8401969dcac5a6db6e988640169b38b4", null ],
-    [ "zigZagDecode", "a05058.html#ae93433e3dbddfef46bfcfad99ea0c45b", null ],
-    [ "autoScale", "a05058.html#a790b272bcf5713954b8582330074dfc8", null ]
+    [ "read", "a05058.html#a793358fbd6ef538a24eabab1bd50ef01", null ],
+    [ "unparse", "a05058.html#a8f23415f60c2281824a1ca004a2fce9b", null ],
+    [ "INSTANCE", "a05058.html#adbea894b7f5a12d5d110c7b4f9ae435e", null ],
+    [ "out", "a05058.html#ab64766cccc4f8fdf5c87b8bcc9493c4a", null ],
+    [ "out2", "a05058.html#a48b1d378681cc025612af2d5d3f4e749", null ],
+    [ "out3", "a05058.html#aaa6d0ac1bcefab2bfcec1f103c1aec4d", null ],
+    [ "URI", "a05058.html#addbf30e6c0ad68fa34277d59a2c6eb5e", null ]
 ];

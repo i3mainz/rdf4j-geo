@@ -1,5 +1,7 @@
 var a05902 =
 [
-    [ "testLineFromText", "a05902.html#ab595a17ecc4ca9c8bef45188c8afb6c3", null ],
-    [ "testPolygon", "a05902.html#a1e3187cbc25299380589200c398b3ffd", null ]
+    [ "testMakePoint1", "a05902.html#a2f24e9ad47589d2191a0512d20a8a9ba", null ],
+    [ "testMakePointXYZ", "a05902.html#a3ba406df071dd5b2e9404776e414c4cd", null ],
+    [ "testPoint1", "a05902.html#ab20d196cb6e34afc2e9cff8074e43bfd", null ],
+    [ "testPointM", "a05902.html#a53dc8585c2a440c472be9609c86b0601", null ]
 ];

@@ -1,5 +1,3 @@
-<map id="RasterAttributeIntIntIntBooleanFunction" name="RasterAttributeIntIntIntBooleanFunction">
-<area shape="rect" id="node3" href="$a04245.html" title="IsOpaquePixel" alt="" coords="5,169,112,196"/>
-<area shape="rect" id="node4" href="$a04257.html" title="IsTransparentPixel" alt="" coords="136,169,267,196"/>
-<area shape="rect" id="node5" href="$a04293.html" title="PixelHeight" alt="" coords="291,169,381,196"/>
+<map id="UpperLeftY" name="UpperLeftY">
+<area shape="rect" id="node2" href="$a04474.html" title="RasterAttributeFunction" alt="" coords="5,80,165,107"/>
 </map>

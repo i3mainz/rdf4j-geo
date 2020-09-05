@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>rdf4j-postgis: Member List</title>
+<title>rdf4j-postgis: RasterVectorRelationIntBinaryFunction Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -56,65 +56,252 @@ $(function() {
   </div>
 </div>
 <script type="text/javascript">
-$(document).ready(function(){initNavTree('a05181.html','');});
+$(document).ready(function(){initNavTree('a05178.html','');});
 </script>
 <div id="doc-content">
 <div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
+<a href="#pub-static-attribs">Static Public Attributes</a> &#124;
+<a href="a05175.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">Coordinate Member List</div>  </div>
+<div class="title">RasterVectorRelationIntBinaryFunction Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
 </div><!--header-->
 <div class="contents">
+<div class="dynheader">
+Inheritance diagram for RasterVectorRelationIntBinaryFunction:</div>
+<div class="dyncontent">
+<div class="center"><img src="a05177.png" border="0" usemap="#RasterVectorRelationIntBinaryFunction_inherit__map" alt="Inheritance graph"/></div>
+<map name="RasterVectorRelationIntBinaryFunction_inherit__map" id="RasterVectorRelationIntBinaryFunction_inherit__map">
+<area shape="rect" id="node3" href="a04638.html" title="DFullyWithin" alt="" coords="5,169,103,196"/>
+<area shape="rect" id="node4" href="a04646.html" title="DWithin" alt="" coords="127,169,197,196"/>
+</map>
+<center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
+<div class="dynheader">
+Collaboration diagram for RasterVectorRelationIntBinaryFunction:</div>
+<div class="dyncontent">
+<div class="center"><img src="a05176.png" border="0" usemap="#RasterVectorRelationIntBinaryFunction_coll__map" alt="Collaboration graph"/></div>
+<map name="RasterVectorRelationIntBinaryFunction_coll__map" id="RasterVectorRelationIntBinaryFunction_coll__map">
+</map>
+<center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:a43b4c73244bc6722ce551c1033cf1115"><td class="memItemLeft" align="right" valign="top">Value&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05178.html#a43b4c73244bc6722ce551c1033cf1115">evaluate</a> (ValueFactory valueFactory, Value... args)  throws ValueExprEvaluationException </td></tr>
+<tr class="separator:a43b4c73244bc6722ce551c1033cf1115"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1c73bf75db5306313ea4b0b4c2830d51"><td class="memItemLeft" align="right" valign="top">abstract Boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05178.html#a1c73bf75db5306313ea4b0b4c2830d51">relation</a> (Value v1, Value v2, Integer parameter)</td></tr>
+<tr class="separator:a1c73bf75db5306313ea4b0b4c2830d51"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:ad5afdfd817cdf11ee0e48c7f56c5514c"><td class="memItemLeft" align="right" valign="top">static Boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05178.html#ad5afdfd817cdf11ee0e48c7f56c5514c">vectorOrRaster</a> (Literal lit)</td></tr>
+<tr class="separator:ad5afdfd817cdf11ee0e48c7f56c5514c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad5ea121d0231b4b209324202427665f0"><td class="memItemLeft" align="right" valign="top">static Literal&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05178.html#ad5ea121d0231b4b209324202427665f0">getLiteral</a> (Function func, Value v)  throws ValueExprEvaluationException </td></tr>
+<tr class="separator:ad5ea121d0231b4b209324202427665f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
+Static Public Attributes</h2></td></tr>
+<tr class="memitem:ac7dbee8298c097c6bd08da6002fd6ecb"><td class="memItemLeft" align="right" valign="top">static Set&lt; String &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05178.html#ac7dbee8298c097c6bd08da6002fd6ecb">rasterLiteralURIs</a> =new TreeSet&lt;String&gt;()</td></tr>
+<tr class="separator:ac7dbee8298c097c6bd08da6002fd6ecb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6e7c25bfd07628e3e74ea4e1ddfcae70"><td class="memItemLeft" align="right" valign="top">static Set&lt; String &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05178.html#a6e7c25bfd07628e3e74ea4e1ddfcae70">vectorLiteralURIs</a> =new TreeSet&lt;String&gt;()</td></tr>
+<tr class="separator:a6e7c25bfd07628e3e74ea4e1ddfcae70"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a43b4c73244bc6722ce551c1033cf1115"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a43b4c73244bc6722ce551c1033cf1115">&#9670;&nbsp;</a></span>evaluate()</h2>
 
-<p>This is the complete list of members for <a class="el" href="a05181.html">Coordinate</a>, including all inherited members.</p>
-<table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="a05181.html#a19eec2727094a0c06db572ee13d2d276">clone</a>()</td><td class="entry"><a class="el" href="a05181.html">Coordinate</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="a05181.html#a8c3005f6e1c8a8be476acc78d3c56946">compareTo</a>(Coordinate o)</td><td class="entry"><a class="el" href="a05181.html">Coordinate</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="a05181.html#abea2a7271b55e349cfab230b57564ad3">Coordinate</a>(double x, double y, double z)</td><td class="entry"><a class="el" href="a05181.html">Coordinate</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="a05181.html#a7f3bcd1fb611a4bbdcfbbb51cb6a1dcb">Coordinate</a>()</td><td class="entry"><a class="el" href="a05181.html">Coordinate</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="a05181.html#a8f5f4ab5ff0765db3c275cf7d3ad07ae">Coordinate</a>(Coordinate c)</td><td class="entry"><a class="el" href="a05181.html">Coordinate</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="a05181.html#aecbefba2d3f44069d693cd4d8d2fca69">Coordinate</a>(double x, double y)</td><td class="entry"><a class="el" href="a05181.html">Coordinate</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="a05181.html#a559f8da5e151e6c035f01ecbcc89e0c4">copy</a>()</td><td class="entry"><a class="el" href="a05181.html">Coordinate</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="a05181.html#a15037c4d5389e3f03ce05dfce3649d67">distance</a>(Coordinate c)</td><td class="entry"><a class="el" href="a05181.html">Coordinate</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="a05181.html#a04a33b144035064a645b339c1470fe7b">distance3D</a>(Coordinate c)</td><td class="entry"><a class="el" href="a05181.html">Coordinate</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="a05181.html#ae23afba123fd4cb09ac579804561cc0c">equalInZ</a>(Coordinate c, double tolerance)</td><td class="entry"><a class="el" href="a05181.html">Coordinate</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="a05181.html#a8e18a3a952a9e38a9a4191004a30c938">equals</a>(Object other)</td><td class="entry"><a class="el" href="a05181.html">Coordinate</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="a05181.html#a20464b0591b87813a6eb0990211d2fd3">equals2D</a>(Coordinate other)</td><td class="entry"><a class="el" href="a05181.html">Coordinate</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="a05181.html#af7148717cb24ff311427f52fa958447f">equals2D</a>(Coordinate c, double tolerance)</td><td class="entry"><a class="el" href="a05181.html">Coordinate</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="a05181.html#a99652b31dbce7b4faf5e1f27d9491531">equals3D</a>(Coordinate other)</td><td class="entry"><a class="el" href="a05181.html">Coordinate</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="a05181.html#ab5e9bd8f66fd5c9a95233c34eaaff188">getM</a>()</td><td class="entry"><a class="el" href="a05181.html">Coordinate</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="a05181.html#a2ab82f2571e2e6a090047eb933d0085d">getOrdinate</a>(int ordinateIndex)</td><td class="entry"><a class="el" href="a05181.html">Coordinate</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="a05181.html#a15156d5981d6c14c72793c9c989d01fc">getT</a>()</td><td class="entry"><a class="el" href="a05181.html">Coordinate</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="a05181.html#a2b69e4312b7814c6efce42f851893409">getX</a>()</td><td class="entry"><a class="el" href="a05181.html">Coordinate</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="a05181.html#a15f19cf52955c8c3406831b288681358">getY</a>()</td><td class="entry"><a class="el" href="a05181.html">Coordinate</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="a05181.html#a12408ea71b830bfdbd24101b0b6ca49a">getZ</a>()</td><td class="entry"><a class="el" href="a05181.html">Coordinate</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="a05181.html#a077e18fe97323c7194e2665ffc766399">hashCode</a>()</td><td class="entry"><a class="el" href="a05181.html">Coordinate</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="a05181.html#aef7103cd857929d35ff527dfdfb7f65d">hashCode</a>(double x)</td><td class="entry"><a class="el" href="a05181.html">Coordinate</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="a05181.html#a11c2b85dcdb063187cf1bbec2f59e3af">M</a></td><td class="entry"><a class="el" href="a05181.html">Coordinate</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
-  <tr><td class="entry"><a class="el" href="a05181.html#a9c20f07d618add157a82e9bd12e368db">NULL_ORDINATE</a></td><td class="entry"><a class="el" href="a05181.html">Coordinate</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="a05181.html#a3238d314ecdee14d2966760945d00c3b">serialVersionUID</a></td><td class="entry"><a class="el" href="a05181.html">Coordinate</a></td><td class="entry"><span class="mlabel">private</span><span class="mlabel">static</span></td></tr>
-  <tr><td class="entry"><a class="el" href="a05181.html#a92923034b12284cd8053727c76801e33">setCoordinate</a>(Coordinate other)</td><td class="entry"><a class="el" href="a05181.html">Coordinate</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="a05181.html#a33cfa0f81b0d7d203294ab2f55f6d019">setM</a>(double m)</td><td class="entry"><a class="el" href="a05181.html">Coordinate</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="a05181.html#afa050200dbf471eb2cf44248e881bf7f">setOrdinate</a>(int ordinateIndex, double value)</td><td class="entry"><a class="el" href="a05181.html">Coordinate</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="a05181.html#a11cc5584c5ea6e85376be42f622684d2">setT</a>(Date t)</td><td class="entry"><a class="el" href="a05181.html">Coordinate</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="a05181.html#a05e070931454375c52c665b6896eb28b">setT</a>(Long t)</td><td class="entry"><a class="el" href="a05181.html">Coordinate</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="a05181.html#a9c18fcc579333bf9653d13ad2b372e39">setX</a>(double x)</td><td class="entry"><a class="el" href="a05181.html">Coordinate</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="a05181.html#a7d57e2a5c35d27feb58fd498a3cf82b9">setY</a>(double y)</td><td class="entry"><a class="el" href="a05181.html">Coordinate</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="a05181.html#a4e6bea7e742d99e9fdd7d08206cfbba0">setZ</a>(double z)</td><td class="entry"><a class="el" href="a05181.html">Coordinate</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="a05181.html#a93d78c356dc9429a174a02ad1e9c84d0">t</a></td><td class="entry"><a class="el" href="a05181.html">Coordinate</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="a05181.html#abd4f0ec6d86601338815a3767ac48284">T</a></td><td class="entry"><a class="el" href="a05181.html">Coordinate</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
-  <tr><td class="entry"><a class="el" href="a05181.html#ad146fa8579a5f8a876c4688cc5a68520">toString</a>()</td><td class="entry"><a class="el" href="a05181.html">Coordinate</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="a05181.html#abd8768a71b34b5263928791945a5243c">X</a></td><td class="entry"><a class="el" href="a05181.html">Coordinate</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
-  <tr><td class="entry"><a class="el" href="a05181.html#af88b946fb90d5f08b5fb740c70e98c10">x</a></td><td class="entry"><a class="el" href="a05181.html">Coordinate</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="a05181.html#ab927965981178aa1fba979a37168db2a">y</a></td><td class="entry"><a class="el" href="a05181.html">Coordinate</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="a05181.html#ace06360ff2c3c13ec2e78041ecdd99a2">Y</a></td><td class="entry"><a class="el" href="a05181.html">Coordinate</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="a05181.html#addd1f9f2318ffd961faf04f8b77e71a6">Z</a></td><td class="entry"><a class="el" href="a05181.html">Coordinate</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
-  <tr><td class="entry"><a class="el" href="a05181.html#ab3e6ed577a7c669c19de1f9c1b46c872">z</a></td><td class="entry"><a class="el" href="a05181.html">Coordinate</a></td><td class="entry"></td></tr>
-</table></div><!-- contents -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Value evaluate </td>
+          <td>(</td>
+          <td class="paramtype">ValueFactory&#160;</td>
+          <td class="paramname"><em>valueFactory</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Value...&#160;</td>
+          <td class="paramname"><em>args</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> throws ValueExprEvaluationException</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="a05178.html#a1c73bf75db5306313ea4b0b4c2830d51">RasterVectorRelationIntBinaryFunction.relation()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;                                                                                                            {</div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;                <span class="comment">// TODO Auto-generated method stub</span></div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;                <span class="keywordflow">return</span> null;</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;        }</div></div><!-- fragment -->
+</div>
+</div>
+<a id="ad5ea121d0231b4b209324202427665f0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad5ea121d0231b4b209324202427665f0">&#9670;&nbsp;</a></span>getLiteral()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static Literal getLiteral </td>
+          <td>(</td>
+          <td class="paramtype">Function&#160;</td>
+          <td class="paramname"><em>func</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Value&#160;</td>
+          <td class="paramname"><em>v</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> throws ValueExprEvaluationException</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="a04638.html#afc903896114f7537804d614c5d2cb701">DFullyWithin.relation()</a>, and <a class="el" href="a04646.html#afc903896114f7537804d614c5d2cb701">DWithin.relation()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;                                                                                                     {</div><div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;                <span class="keywordflow">if</span> (!(v instanceof Literal)) {</div><div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;                        <span class="keywordflow">throw</span> <span class="keyword">new</span> ValueExprEvaluationException(<span class="stringliteral">&quot;Invalid argument for &quot;</span> + func.getURI() + <span class="stringliteral">&quot;: &quot;</span> + v);</div><div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;                }</div><div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;                Literal lit = (Literal) v;</div><div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;                <span class="keywordflow">return</span> lit;</div><div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;        }</div></div><!-- fragment -->
+</div>
+</div>
+<a id="a1c73bf75db5306313ea4b0b4c2830d51"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1c73bf75db5306313ea4b0b4c2830d51">&#9670;&nbsp;</a></span>relation()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">abstract Boolean relation </td>
+          <td>(</td>
+          <td class="paramtype">Value&#160;</td>
+          <td class="paramname"><em>v1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Value&#160;</td>
+          <td class="paramname"><em>v2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Integer&#160;</td>
+          <td class="paramname"><em>parameter</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">abstract</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="a05178.html#a43b4c73244bc6722ce551c1033cf1115">RasterVectorRelationIntBinaryFunction.evaluate()</a>.</p>
+
+</div>
+</div>
+<a id="ad5afdfd817cdf11ee0e48c7f56c5514c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad5afdfd817cdf11ee0e48c7f56c5514c">&#9670;&nbsp;</a></span>vectorOrRaster()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static Boolean vectorOrRaster </td>
+          <td>(</td>
+          <td class="paramtype">Literal&#160;</td>
+          <td class="paramname"><em>lit</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="a04982.html#aca2348a6b1d6796d1e7034d4029e3817">LiteralRegistry.literals</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="a04638.html#afc903896114f7537804d614c5d2cb701">DFullyWithin.relation()</a>, and <a class="el" href="a04646.html#afc903896114f7537804d614c5d2cb701">DWithin.relation()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;                                                          {</div><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;                <span class="keywordflow">if</span>(LiteralRegistry.literals.containsKey(lit.getDatatype().toString())) {</div><div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;                        LiteralType lite=LiteralRegistry.literals.get(lit.getDatatype().toString());</div><div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;                        <span class="keywordflow">if</span>(lite instanceof VectorLiteral) {</div><div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;                                <span class="keywordflow">return</span> <span class="keyword">true</span>;</div><div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;                        }<span class="keywordflow">else</span> <span class="keywordflow">if</span>(lite instanceof RasterLiteral) {</div><div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;                                <span class="keywordflow">return</span> <span class="keyword">false</span>;</div><div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;                        }</div><div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;                }</div><div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;                <span class="keywordflow">return</span> null;</div><div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;        }</div></div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="ac7dbee8298c097c6bd08da6002fd6ecb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac7dbee8298c097c6bd08da6002fd6ecb">&#9670;&nbsp;</a></span>rasterLiteralURIs</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Set&lt;String&gt; rasterLiteralURIs =new TreeSet&lt;String&gt;()</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6e7c25bfd07628e3e74ea4e1ddfcae70"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6e7c25bfd07628e3e74ea4e1ddfcae70">&#9670;&nbsp;</a></span>vectorLiteralURIs</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Set&lt;String&gt; vectorLiteralURIs =new TreeSet&lt;String&gt;()</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+</div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.13-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
+    <li class="navelem"><a class="el" href="a02613.html">org</a></li><li class="navelem"><a class="el" href="a02614.html">eclipse</a></li><li class="navelem"><a class="el" href="a02615.html">rdf4j</a></li><li class="navelem"><a class="el" href="a02618.html">query</a></li><li class="navelem"><a class="el" href="a02619.html">algebra</a></li><li class="navelem"><a class="el" href="a02620.html">evaluation</a></li><li class="navelem"><a class="el" href="a02621.html">function</a></li><li class="navelem"><a class="el" href="a02622.html">postgis</a></li><li class="navelem"><a class="el" href="a02672.html">util</a></li><li class="navelem"><a class="el" href="a05178.html">RasterVectorRelationIntBinaryFunction</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>

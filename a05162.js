@@ -1,18 +1,17 @@
 var a05162 =
 [
-    [ "zigZagDecode", "a05162.html#a39d960ba7b421538218960be0b75dbdb", null ],
-    [ "zigZagEncode", "a05162.html#ac56ffa9468f6d51a81dfc6a16c7553e7", null ],
-    [ "EMPTY_GEOMETRY", "a05162.html#acfd4b309722d80cbae834f273b479450", null ],
-    [ "EXTENDED_DIMENSIONS", "a05162.html#a0a64265ce21562ec2811dd05db08a9dd", null ],
-    [ "GEOMETRYCOLLECTION_TYPE", "a05162.html#ad69af768670b09117152621e9765d4ca", null ],
-    [ "LINESTRING_TYPE", "a05162.html#ae612cee125e86b43a8a0895733e73471", null ],
-    [ "MAX_COORD_PRECISION", "a05162.html#a2dd11c22d698708a6e11580242c97e89", null ],
-    [ "MAX_EXTENDED_PRECISION", "a05162.html#a5b750380e571ae88f99a796f9d54e49f", null ],
-    [ "MIN_COORD_PRECISION", "a05162.html#a5bee20a7d59eea71b635f7f136c48e91", null ],
-    [ "MIN_EXTENDED_PRECISION", "a05162.html#ad70b66875f973adc5547402ec3ab512d", null ],
-    [ "MULTILINESTRING_TYPE", "a05162.html#abc6a100cfe59d0f10d5ff0b83dd28e40", null ],
-    [ "MULTIPOINT_TYPE", "a05162.html#ab21548c889cf575c0452ce54b0bb1564", null ],
-    [ "MULTIPOLYGON_TYPE", "a05162.html#af8a8622de581648619916bb8eb6cea2d", null ],
-    [ "POINT_TYPE", "a05162.html#a92e0b11f85494a2b6953846ee6b4f88d", null ],
-    [ "POLYGON_TYPE", "a05162.html#a4e033b07cdccae3d93c0fe865a9bc513", null ]
+    [ "Encoder", "a05166.html", "a05166" ],
+    [ "getFormatName", "a05162.html#aecf7db5b6782ec66f95d40c786a4d223", null ],
+    [ "toString", "a05162.html#a7e2d51f85f9fd98fdfcb46223e1d6d3d", null ],
+    [ "write", "a05162.html#aa960f2057742a7bdaa5ee30ca6290d1a", null ],
+    [ "write", "a05162.html#a738b8792597a07a0ebaf1048adab4b3f", null ],
+    [ "KEY_ARG_END", "a05162.html#a1c49a78fa17940a2ff4d36acab548b83", null ],
+    [ "KEY_ARG_START", "a05162.html#aabe19399bfb7ad538e29aa8e7da1b661", null ],
+    [ "KEY_BOX", "a05162.html#a0e077064c8204574d2e3b78e331c6af2", null ],
+    [ "KEY_CIRCLE", "a05162.html#ad31626e894c93fbb3923faf7449216f6", null ],
+    [ "KEY_LINE", "a05162.html#aa798ffd2450a7d3035a5d81356f2517b", null ],
+    [ "KEY_MULTIPOINT", "a05162.html#ad1b12b6fcf2169a9880a25d1fe02f5f8", null ],
+    [ "KEY_POINT", "a05162.html#a5f790dd3fd65f7e2dad995f35c443fd0", null ],
+    [ "KEY_POLYGON", "a05162.html#a30d3807814d5bed37f8a82640e0f6c45", null ],
+    [ "KEY_SEPERATOR", "a05162.html#af7f80b3413766edf45bd57102852c8a6", null ]
 ];

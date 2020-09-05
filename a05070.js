@@ -1,14 +1,9 @@
 var a05070 =
 [
-    [ "Feature", "a05070.html#a25b3a15065bb9a73fee34b7379efbc3d", null ],
-    [ "getAttributes", "a05070.html#a53df620362bb32e76ab5ba5eafd8d7f8", null ],
-    [ "getExtent", "a05070.html#a60bfe2643b9af68293e713563b2792aa", null ],
-    [ "getGeometry", "a05070.html#ac87f55eacfa366a66a2ee6ff6c2ab40b", null ],
-    [ "getId", "a05070.html#ac7a54ea5a10c5c4683f16e3f83f77104", null ],
-    [ "getLayerName", "a05070.html#abd0c38e946022b804d4941aba21e6fe1", null ],
-    [ "attributes", "a05070.html#aae9ec0aefa9ddf1a254dcbc8921f46b6", null ],
-    [ "extent", "a05070.html#a6156e4ea9ca15fc926007ca518111147", null ],
-    [ "geometry", "a05070.html#ab673ef7c52790753f9f4280de525611c", null ],
-    [ "id", "a05070.html#a98e184e3edd9278aa1590f8a1c9515d7", null ],
-    [ "layerName", "a05070.html#a46934b2a2a8bed19bd956bc3d16b9aa1", null ]
+    [ "read", "a05070.html#a793358fbd6ef538a24eabab1bd50ef01", null ],
+    [ "toString", "a05070.html#ad146fa8579a5f8a876c4688cc5a68520", null ],
+    [ "unparse", "a05070.html#ae918a517e1ebcc44beeee2c55008d248", null ],
+    [ "INSTANCE", "a05070.html#aa9592f3e3d3c425b71232c98120959c7", null ],
+    [ "KML_PREFIX", "a05070.html#ad23c5afe46f654a7d409a229f54a9b2f", null ],
+    [ "URI", "a05070.html#addbf30e6c0ad68fa34277d59a2c6eb5e", null ]
 ];

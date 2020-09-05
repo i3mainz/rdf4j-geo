@@ -1,5 +1,5 @@
 var a05778 =
 [
-    [ "testXMax", "a05778.html#af45d6c06ced12c7882c5eab73bcc9ec8", null ],
-    [ "testPoint", "a05778.html#af26f700ee129f846cac58735f6dcc380", null ]
+    [ "testSimplifyVW", "a05778.html#a4b0417b619689d07743ff9d72212c847", null ],
+    [ "testGeom", "a05778.html#a03a5f5da0ccbeed8c1678d4317cf2672", null ]
 ];

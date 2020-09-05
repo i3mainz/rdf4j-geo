@@ -1,6 +1,6 @@
 var a05626 =
 [
-    [ "testEPSGToSRID", "a05626.html#a058152e783dcc1694eb060f5099630b1", null ],
-    [ "epsg", "a05626.html#ae984b1b4178b56b80cdb7a80eac64541", null ],
-    [ "srid", "a05626.html#a5ffebf384504d11b17aa9c75f4b92024", null ]
+    [ "testMaxDistance", "a05626.html#acd5d6c70876299a0278552ba577a7efc", null ],
+    [ "testGeom", "a05626.html#a03a5f5da0ccbeed8c1678d4317cf2672", null ],
+    [ "testGeom2", "a05626.html#a6b4be369c8f60e973cd5126e69cd33a4", null ]
 ];

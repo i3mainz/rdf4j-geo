@@ -1,4 +1,4 @@
-<map id="DXFDatatype" name="DXFDatatype">
-<area shape="rect" id="node2" href="$a05091.html" title="VectorLiteral" alt="" coords="5,81,100,108"/>
-<area shape="rect" id="node3" href="$a04983.html" title="LiteralType" alt="" coords="9,5,96,32"/>
+<map id="TopologyLiteral" name="TopologyLiteral">
+<area shape="rect" id="node3" href="$a05018.html" title="WKTDatatype class allows the URI &quot;geo:wktLiteral&quot; to be used as a datatype and it will parse that dat..." alt="" coords="5,155,145,181"/>
+<area shape="rect" id="node2" href="$a04986.html" title="LiteralType" alt="" coords="32,5,119,32"/>
 </map>

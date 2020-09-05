@@ -1,9 +1,11 @@
 var a05226 =
 [
-    [ "testBBOXIntersectsFalse", "a05226.html#aaa8cea420874d841f268b11df7527bf6", null ],
-    [ "testBBOXIntersectsTrue", "a05226.html#a459ad32373854b732ca67ab7578b6567", null ],
-    [ "testGeom1", "a05226.html#aa4a3b1a7e778ece72382f6600fa96b47", null ],
-    [ "testGeom2", "a05226.html#a6b4be369c8f60e973cd5126e69cd33a4", null ],
-    [ "testGeom3", "a05226.html#a800b6bb875a8ff4404ea787c3df125a5", null ],
-    [ "testGeom4", "a05226.html#a4c55e7efe430d6d220fb05524c4bb940", null ]
+    [ "ExtendedPrecisionReader", "a05226.html#a82112ea6921f2d28f7663dfa20ae32c6", null ],
+    [ "readPoint", "a05226.html#a04d3647950410c96c47734decf0e12b5", null ],
+    [ "readPointArray", "a05226.html#a1bbf2e471d2964af19292437ad42729b", null ],
+    [ "hasM", "a05226.html#a1eccf09f4c826ba480ec832ac4ce7718", null ],
+    [ "hasZ", "a05226.html#ab356995ed7cff0226d75484d03a994f2", null ],
+    [ "mPrecisionMultiplier", "a05226.html#a4ea667f57906c038bb9717bc848df77a", null ],
+    [ "precisionMultiplier", "a05226.html#a9aa85be4ec02c28a05cb552845fe08eb", null ],
+    [ "zPrecisionMultiplier", "a05226.html#abb32d6067d519044d8c44d52ab2cdd44", null ]
 ];

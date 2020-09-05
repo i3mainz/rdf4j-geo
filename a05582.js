@@ -1,7 +1,8 @@
 var a05582 =
 [
-    [ "testEPSGToWKT", "a05582.html#a99eeea80e12b47408368dc7163511b31", null ],
-    [ "epsg", "a05582.html#ae984b1b4178b56b80cdb7a80eac64541", null ],
-    [ "epsg4326wkt", "a05582.html#ab74c72298a14045de8026d4c37013974", null ],
-    [ "srid", "a05582.html#a5ffebf384504d11b17aa9c75f4b92024", null ]
+    [ "testEqualTopoFalse", "a05582.html#a8274875a2d4c85b886223bd494666e36", null ],
+    [ "testEqualTopoTrue", "a05582.html#a523cb10739809e6f16d7ba6f26d34cde", null ],
+    [ "result", "a05582.html#aab356d6554a7301750f11ec7a85ac47d", null ],
+    [ "testGeom", "a05582.html#a03a5f5da0ccbeed8c1678d4317cf2672", null ],
+    [ "testGeom2", "a05582.html#a6b4be369c8f60e973cd5126e69cd33a4", null ]
 ];

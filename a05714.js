@@ -1,6 +1,6 @@
 var a05714 =
 [
-    [ "testTransScale", "a05714.html#a8169037c504558c555e457db95ca9864", null ],
-    [ "res", "a05714.html#ab8deaae2f0a5506ff9fd02ff15e921cc", null ],
-    [ "testLineString", "a05714.html#a33797029fadbcba01b4a4fafec88cf41", null ]
+    [ "testDensify", "a05714.html#a94a17603d200a0a1f4817b4687ee592d", null ],
+    [ "densified", "a05714.html#a2286b0f7822c7fda647fa426d8177283", null ],
+    [ "isocelesTriangle", "a05714.html#aa04dfbec745e2622b9f7646f8572e501", null ]
 ];

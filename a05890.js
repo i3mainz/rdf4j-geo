@@ -1,7 +1,5 @@
 var a05890 =
 [
-    [ "testIsTriangleFalse", "a05890.html#a9a683ec2f8cc07231bddc07213698183", null ],
-    [ "testIsTriangleTrue", "a05890.html#a6a1ccdd76246a421ef6ae80bc7c4e87c", null ],
-    [ "testPolygon", "a05890.html#a1e3187cbc25299380589200c398b3ffd", null ],
-    [ "testPolygon2", "a05890.html#a882729aec95621b4ad261714738ae3fd", null ]
+    [ "testY", "a05890.html#aa09d6b9dc5ef19f88e38f2d543d9715f", null ],
+    [ "testPoint", "a05890.html#af26f700ee129f846cac58735f6dcc380", null ]
 ];

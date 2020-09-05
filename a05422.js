@@ -1,6 +1,6 @@
 var a05422 =
 [
-    [ "testSetGeometry", "a05422.html#af89f48a1a50817a7d76674ee1fc57cce", null ],
-    [ "lineString", "a05422.html#a76e109dc83d6f4d16fcd2fa3e73054f6", null ],
-    [ "point", "a05422.html#a081811ff1c2bedd0a20703599f90114f", null ]
+    [ "testMinimumDiameterLine", "a05422.html#ac6734228b3f88748ca1545e62811f616", null ],
+    [ "result", "a05422.html#aab356d6554a7301750f11ec7a85ac47d", null ],
+    [ "testPolygon", "a05422.html#a1e3187cbc25299380589200c398b3ffd", null ]
 ];

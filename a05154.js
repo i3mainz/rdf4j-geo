@@ -1,7 +1,10 @@
 var a05154 =
 [
-    [ "PrecisionReader", "a05154.html#af4edc5e5b8d78201415bc23188bf2978", null ],
-    [ "readPoint", "a05154.html#a04d3647950410c96c47734decf0e12b5", null ],
-    [ "readPointArray", "a05154.html#a1bbf2e471d2964af19292437ad42729b", null ],
-    [ "precisionMultiplier", "a05154.html#a9aa85be4ec02c28a05cb552845fe08eb", null ]
+    [ "XReader", "a05158.html", "a05158" ],
+    [ "getFormatName", "a05154.html#aecf7db5b6782ec66f95d40c786a4d223", null ],
+    [ "read", "a05154.html#a74ddfb2345fac670df368a87d8ef120e", null ],
+    [ "read", "a05154.html#abb0d91da5ace7eba640f9bfa11b48dbf", null ],
+    [ "readIfSupported", "a05154.html#abc9814e865cf8cb200e35ffe5d4b748f", null ],
+    [ "readPolygon", "a05154.html#a3c0fa677a36d744060c714da150b798c", null ],
+    [ "shpFactory", "a05154.html#a05afdb0d887f04c5eac83dd8132c87b6", null ]
 ];

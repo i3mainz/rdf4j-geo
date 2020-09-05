@@ -1,4 +1,5 @@
 var a05762 =
 [
-    [ "testDegreesToRadians", "a05762.html#a0222931f0ccdd18b3d8019eddcae0f03", null ]
+    [ "testReverse", "a05762.html#ac38f1a963c4494ff939bad764b01b127", null ],
+    [ "testLineString", "a05762.html#a33797029fadbcba01b4a4fafec88cf41", null ]
 ];

@@ -1,10 +1,9 @@
 var a02766 =
 [
-    [ "MaxX", "a02766.html#aec1113c98298aeab85c7c4df89a91268", null ],
-    [ "MaxX", "a02766.html#ad49b0d2b5b23376871919c73e4fca6f2", null ],
-    [ "clone", "a02766.html#a4e31d589779d23cc6611db4c1a9a7d2f", null ],
+    [ "AggCentroid", "a02766.html#a50accbcfba1cb62fd2c3c6945ad73523", null ],
+    [ "AggCentroid", "a02766.html#aa380b240515b7ef61a0a6ecbe81070af", null ],
+    [ "clone", "a02766.html#a4021a724a19ab359f4b16f3fcea1666b", null ],
     [ "equals", "a02766.html#a8e18a3a952a9e38a9a4191004a30c938", null ],
     [ "hashCode", "a02766.html#a077e18fe97323c7194e2665ffc766399", null ],
-    [ "visit", "a02766.html#ace7c41d3761122fda287033559696cdd", null ],
-    [ "serialVersionUID", "a02766.html#a3238d314ecdee14d2966760945d00c3b", null ]
+    [ "visit", "a02766.html#ace7c41d3761122fda287033559696cdd", null ]
 ];

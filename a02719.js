@@ -1,9 +1,6 @@
 var a02719 =
 [
-    [ "algebra", "a02718.html", "a02718" ],
-    [ "attribute", "a02720.html", "a02720" ],
-    [ "constructor", "a02721.html", "a02721" ],
-    [ "editor", "a02722.html", "a02722" ],
-    [ "exporter", "a02723.html", "a02723" ],
-    [ "transform", "a02724.html", "a02724" ]
+    [ "AddRingTest", "a05990.html", "a05990" ],
+    [ "RemoveRingTest", "a05994.html", "a05994" ],
+    [ "SetRingTest", "a05998.html", "a05998" ]
 ];

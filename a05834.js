@@ -1,4 +1,4 @@
 var a05834 =
 [
-    [ "testPointFromText", "a05834.html#a34b8808318d84beec7ded7da39c5ef6e", null ]
+    [ "testDegreesToRadians", "a05834.html#a0222931f0ccdd18b3d8019eddcae0f03", null ]
 ];

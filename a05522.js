@@ -1,6 +1,5 @@
 var a05522 =
 [
-    [ "testFullyWithinDistanceFalse", "a05522.html#ae3a3dc920c5179e22a01c5c5682989bd", null ],
-    [ "testGeom", "a05522.html#a03a5f5da0ccbeed8c1678d4317cf2672", null ],
-    [ "testGeom2", "a05522.html#a6b4be369c8f60e973cd5126e69cd33a4", null ]
+    [ "testAsLatLonText", "a05522.html#a294440bf0a1785c6cea76200ebf53818", null ],
+    [ "testGeometry", "a05522.html#abc3f514f005cba49e406658e2d3086eb", null ]
 ];

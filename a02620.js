@@ -1,4 +1,4 @@
 var a02620 =
 [
-    [ "CollectionAttributeFunction", "a02783.html", "a02783" ]
+    [ "function", "a02621.html", "a02621" ]
 ];
