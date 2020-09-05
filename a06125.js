@@ -1,7 +1,7 @@
 var a06125 =
 [
     [ "getInstance", "a06125.html#af8afdd14b38b523d100805364a48ed63", null ],
-    [ "testRasterWidth", "a06125.html#a3aa04fe9c7acaf5cbe3a2a3e080112c7", null ],
+    [ "testNumBands", "a06125.html#acbd68d09b85f29cb457f75f009ff1366", null ],
     [ "covJSONString1", "a06125.html#a993e2f127f3ec8f256e9799d77507223", null ],
     [ "hexwkbString1", "a06125.html#a55fb5b5d665417265da09403128e396e", null ],
     [ "minwkbString", "a06125.html#aa5e2b5a6005895fc20b9f35523569430", null ],

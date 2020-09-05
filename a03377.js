@@ -2,5 +2,7 @@ var a03377 =
 [
     [ "evaluate", "a03377.html#a43b4c73244bc6722ce551c1033cf1115", null ],
     [ "getURI", "a03377.html#ad9fb16b36dd4ccc533d4f05ff94646e3", null ],
-    [ "relation", "a03377.html#a339b2d837b1a730f6ef9fcba8cc977c9", null ]
+    [ "operation", "a03377.html#a4ab2ac9320ef97ac30e17776a179ac49", null ],
+    [ "footer", "a03377.html#ae2cf110c268b6495afa9b7d5977a61dd", null ],
+    [ "header", "a03377.html#ab0ec96c07fa61607300be12482e94511", null ]
 ];

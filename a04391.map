@@ -1,9 +1,3 @@
-<map id="RasterAlgebraConstFunction" name="RasterAlgebraConstFunction">
-<area shape="rect" id="node3" href="$a04112.html" title="AddConst" alt="" coords="5,155,85,181"/>
-<area shape="rect" id="node4" href="$a04120.html" title="AndConst" alt="" coords="109,155,189,181"/>
-<area shape="rect" id="node5" href="$a04128.html" title="DivConst" alt="" coords="213,155,291,181"/>
-<area shape="rect" id="node6" href="$a04180.html" title="MultConst" alt="" coords="315,155,397,181"/>
-<area shape="rect" id="node7" href="$a04192.html" title="OrConst" alt="" coords="422,155,493,181"/>
-<area shape="rect" id="node8" href="$a04200.html" title="SubtractConst" alt="" coords="517,155,624,181"/>
-<area shape="rect" id="node9" href="$a04208.html" title="XorConst" alt="" coords="648,155,725,181"/>
+<map id="SkewX" name="SkewX">
+<area shape="rect" id="node2" href="$a04477.html" title="RasterAttributeFunction" alt="" coords="5,80,165,107"/>
 </map>

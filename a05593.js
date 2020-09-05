@@ -1,5 +1,7 @@
 var a05593 =
 [
-    [ "testSridGetAxis1Name", "a05593.html#a15a1a9864e65a0020c26d406fd64b26a", null ],
-    [ "testPoint", "a05593.html#af26f700ee129f846cac58735f6dcc380", null ]
+    [ "testEqual", "a05593.html#a2a99a285d6ad7938bb12707abf0b2dd2", null ],
+    [ "testNotEqual", "a05593.html#a9195b3462bb379b0139e99b85954d5e4", null ],
+    [ "testGeom", "a05593.html#a03a5f5da0ccbeed8c1678d4317cf2672", null ],
+    [ "testGeom2", "a05593.html#a6b4be369c8f60e973cd5126e69cd33a4", null ]
 ];

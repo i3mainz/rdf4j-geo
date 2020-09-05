@@ -1,10 +1,10 @@
 var a02745 =
 [
-    [ "AvgZ", "a02745.html#a0eb320f661f43101548b8c283ce76f3a", null ],
-    [ "AvgZ", "a02745.html#a10bbd4f0a26f89e07253086f2fc62c54", null ],
-    [ "clone", "a02745.html#a1a657324ea68911af08c52bc4a452138", null ],
-    [ "equals", "a02745.html#a8e18a3a952a9e38a9a4191004a30c938", null ],
-    [ "hashCode", "a02745.html#a077e18fe97323c7194e2665ffc766399", null ],
-    [ "visit", "a02745.html#ace7c41d3761122fda287033559696cdd", null ],
-    [ "serialVersionUID", "a02745.html#a3238d314ecdee14d2966760945d00c3b", null ]
+    [ "TripleStoreConnection", "a02745.html#a99975d732097fdfe4f47d2964403e230", null ],
+    [ "executeQuery", "a02745.html#afc28007d407dd38599a43837f62668c1", null ],
+    [ "main", "a02745.html#a8b260eecbaabcef8473fd87ada040682", null ],
+    [ "INSTANCE", "a02745.html#a6f5f1a252f13ef259f6f4fa12b72f2a4", null ],
+    [ "modelmap", "a02745.html#a3c4a20fbf4fb24d73799bdd30661d7b0", null ],
+    [ "prefixCollection", "a02745.html#ab228ed3bdfee44797a6b31717ec5022a", null ],
+    [ "repo", "a02745.html#aa988c42c1c1c9f1d313c217ec0b5e2e0", null ]
 ];

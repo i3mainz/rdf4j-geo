@@ -1,10 +1,10 @@
 var a05089 =
 [
-    [ "XReader", "a05093.html", "a05093" ],
-    [ "getFormatName", "a05089.html#aecf7db5b6782ec66f95d40c786a4d223", null ],
-    [ "read", "a05089.html#a74ddfb2345fac670df368a87d8ef120e", null ],
-    [ "read", "a05089.html#abb0d91da5ace7eba640f9bfa11b48dbf", null ],
-    [ "readIfSupported", "a05089.html#abc9814e865cf8cb200e35ffe5d4b748f", null ],
-    [ "readPolygon", "a05089.html#a3c0fa677a36d744060c714da150b798c", null ],
-    [ "shpFactory", "a05089.html#a05afdb0d887f04c5eac83dd8132c87b6", null ]
+    [ "WKBTextSRS", "a05093.html", "a05093" ],
+    [ "read", "a05089.html#a793358fbd6ef538a24eabab1bd50ef01", null ],
+    [ "toString", "a05089.html#ad146fa8579a5f8a876c4688cc5a68520", null ],
+    [ "unparse", "a05089.html#ae918a517e1ebcc44beeee2c55008d248", null ],
+    [ "INSTANCE", "a05089.html#aaf0aa1b548ee31ba74a438a2c1164ed2", null ],
+    [ "LiteralIRI", "a05089.html#ae02c2e86ac0dea8538c7b43e9e82421a", null ],
+    [ "URI", "a05089.html#addbf30e6c0ad68fa34277d59a2c6eb5e", null ]
 ];

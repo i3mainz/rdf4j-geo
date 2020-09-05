@@ -1,7 +1,6 @@
 var a05773 =
 [
-    [ "testAzimuth1", "a05773.html#afb57967d41a75bfa55c7f1443b245d14", null ],
-    [ "testAzimuth2", "a05773.html#a5d42e5f7045b0a306fc1d39539491851", null ],
-    [ "testPoint1", "a05773.html#ab20d196cb6e34afc2e9cff8074e43bfd", null ],
-    [ "testPoint2", "a05773.html#aa0c0c6f5dda7a397fc50f4c22a2b180f", null ]
+    [ "testShiftLongitude", "a05773.html#a706f714749526b3516c84d5741993811", null ],
+    [ "result", "a05773.html#aab356d6554a7301750f11ec7a85ac47d", null ],
+    [ "testPolygon", "a05773.html#a1e3187cbc25299380589200c398b3ffd", null ]
 ];

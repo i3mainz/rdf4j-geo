@@ -1,5 +1,6 @@
 var a05693 =
 [
-    [ "testReverse", "a05693.html#ac38f1a963c4494ff939bad764b01b127", null ],
-    [ "testLineString", "a05693.html#a33797029fadbcba01b4a4fafec88cf41", null ]
+    [ "testSridIsGeographicFalse", "a05693.html#abd1395d0581a64740ed1bae57b2882b3", null ],
+    [ "testSridIsGeographicTrue", "a05693.html#a09f0ac6b4b2a063a3d1df32d600b9b11", null ],
+    [ "testPoint", "a05693.html#af26f700ee129f846cac58735f6dcc380", null ]
 ];

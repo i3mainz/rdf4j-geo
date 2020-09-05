@@ -1,8 +1,8 @@
 var a02773 =
 [
-    [ "MaxY", "a02773.html#a1c6d34345a793350a9be211bf5e4c17a", null ],
-    [ "MaxY", "a02773.html#af3596a7e3ee90355aa1ffed928ef960c", null ],
-    [ "clone", "a02773.html#a49bf4efa9d10429d6f2fda3b4361ec1c", null ],
+    [ "AvgX", "a02773.html#a10b6c03397249a72335dba37c2081ca7", null ],
+    [ "AvgX", "a02773.html#a5016fc52295739edbf1f03e77724e3ea", null ],
+    [ "clone", "a02773.html#a352eb057d6e77fa0352c87042b505a17", null ],
     [ "equals", "a02773.html#a8e18a3a952a9e38a9a4191004a30c938", null ],
     [ "hashCode", "a02773.html#a077e18fe97323c7194e2665ffc766399", null ],
     [ "visit", "a02773.html#ace7c41d3761122fda287033559696cdd", null ],

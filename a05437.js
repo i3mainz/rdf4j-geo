@@ -1,5 +1,5 @@
 var a05437 =
 [
-    [ "testAsGARS", "a05437.html#a80929de20ed59fa635418039d48a9ef7", null ],
-    [ "testPoint", "a05437.html#af26f700ee129f846cac58735f6dcc380", null ]
+    [ "testMinimumRectangle", "a05437.html#a113f2072fe3a9c6603a02548b81f6545", null ],
+    [ "testPolygon", "a05437.html#a1e3187cbc25299380589200c398b3ffd", null ]
 ];

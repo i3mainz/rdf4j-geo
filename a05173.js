@@ -1,11 +1,9 @@
 var a05173 =
 [
-    [ "calculate", "a05173.html#a1b9dd1e59eac3a2a15cb68c19e994fe4", null ],
-    [ "checkCoordinate", "a05173.html#a0a01f90a7fe27e3b66f1c87f019e91bc", null ],
-    [ "finalize", "a05173.html#a7626720b9bf807253dd702a0214dc9f0", null ],
-    [ "writeExtendedPrecision", "a05173.html#a320ccd90ec0ef71a4353104b7fe98a1c", null ],
-    [ "writePoint", "a05173.html#adedb1cd853d00648be239477f7fe4e2a", null ],
-    [ "writePointArray", "a05173.html#afeed21e7153170021427b1e7001d952b", null ],
-    [ "precision", "a05173.html#aa95455ed52a8459fad69509a4a0411b5", null ],
-    [ "precisionMultiplier", "a05173.html#a9aa85be4ec02c28a05cb552845fe08eb", null ]
+    [ "evaluate", "a05173.html#a43b4c73244bc6722ce551c1033cf1115", null ],
+    [ "getLiteral", "a05173.html#ad5ea121d0231b4b209324202427665f0", null ],
+    [ "relation", "a05173.html#a71f3435eece62d00511b7d8ff45a1144", null ],
+    [ "vectorOrRaster", "a05173.html#ad5afdfd817cdf11ee0e48c7f56c5514c", null ],
+    [ "rasterLiteralURIs", "a05173.html#ac7dbee8298c097c6bd08da6002fd6ecb", null ],
+    [ "vectorLiteralURIs", "a05173.html#a6e7c25bfd07628e3e74ea4e1ddfcae70", null ]
 ];

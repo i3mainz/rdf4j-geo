@@ -1,6 +1,7 @@
 var a05497 =
 [
-    [ "testClosestPoint", "a05497.html#af30fa8d36bc2cb8bd652397169d9708d", null ],
-    [ "testLineString", "a05497.html#a33797029fadbcba01b4a4fafec88cf41", null ],
-    [ "testPoint", "a05497.html#af26f700ee129f846cac58735f6dcc380", null ]
+    [ "testSetGeometry", "a05497.html#af89f48a1a50817a7d76674ee1fc57cce", null ],
+    [ "testSetGeometryZ", "a05497.html#a8f1816df5ce072c061c988f6c11ea333", null ],
+    [ "lineString", "a05497.html#a76e109dc83d6f4d16fcd2fa3e73054f6", null ],
+    [ "point", "a05497.html#a081811ff1c2bedd0a20703599f90114f", null ]
 ];

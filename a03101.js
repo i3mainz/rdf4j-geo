@@ -1,5 +1,6 @@
 var a03101 =
 [
-    [ "construct", "a03101.html#a6b6fd7e67c7e4fd6be1da3b1076a61de", null ],
-    [ "evaluate", "a03101.html#a43b4c73244bc6722ce551c1033cf1115", null ]
+    [ "attribute", "a03101.html#a041666085738cb4cd7649f68428f9553", null ],
+    [ "evaluate", "a03101.html#a43b4c73244bc6722ce551c1033cf1115", null ],
+    [ "getURI", "a03101.html#ad9fb16b36dd4ccc533d4f05ff94646e3", null ]
 ];

@@ -1,11 +1,13 @@
 var a02632 =
 [
-    [ "AddGeometry", "a03266.html", "a03266" ],
-    [ "AddZ", "a03270.html", "a03270" ],
-    [ "EnsureClosed", "a03274.html", "a03274" ],
-    [ "EnsureClosedRings", "a03278.html", "a03278" ],
-    [ "RemoveGeometry", "a03282.html", "a03282" ],
-    [ "RemoveRepeatedPoints", "a03286.html", "a03286" ],
-    [ "SetGeometry", "a03290.html", "a03290" ],
-    [ "SetSRID", "a03294.html", "a03294" ]
+    [ "attribute", "a02631.html", "a02631" ],
+    [ "base", "a02633.html", "a02633" ],
+    [ "constructor", "a02634.html", "a02634" ],
+    [ "editor", "a02635.html", "a02635" ],
+    [ "exporter", "a02636.html", "a02636" ],
+    [ "relation", "a02637.html", "a02637" ],
+    [ "srid", "a02638.html", "a02638" ],
+    [ "transform", "a02639.html", "a02639" ],
+    [ "DelaunayTriangles", "a03265.html", "a03265" ],
+    [ "PointOnSurface", "a03381.html", "a03381" ]
 ];

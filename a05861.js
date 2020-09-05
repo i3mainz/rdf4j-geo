@@ -1,7 +1,5 @@
 var a05861 =
 [
-    [ "testIsAcuteFalse", "a05861.html#a5b3dbe6f41b97c30eaff61a7c0c6f344", null ],
-    [ "testIsAcuteTrue", "a05861.html#aea45a7ea1a6bbd2c8bf3bfa751ec4e1f", null ],
-    [ "isocelesTriangle", "a05861.html#aa04dfbec745e2622b9f7646f8572e501", null ],
-    [ "notIsocelesTriangle", "a05861.html#a055d99fb63bcee37763ffcf4da9e0521", null ]
+    [ "testYMax", "a05861.html#a98991d9326941ea2d984df31280c0db4", null ],
+    [ "testPoint", "a05861.html#af26f700ee129f846cac58735f6dcc380", null ]
 ];

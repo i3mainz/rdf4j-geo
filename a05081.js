@@ -1,10 +1,9 @@
 var a05081 =
 [
-    [ "key", "a05081.html#a807f334d405d92bd2f38c380d4b9ed9a", null ],
-    [ "keys", "a05081.html#a5b7e54bc6f4d8855104d09ef3adb2606", null ],
-    [ "value", "a05081.html#a3220129efaffe512a5dded79b4e142ac", null ],
-    [ "values", "a05081.html#a297c543701acc405ac68122b9642cb28", null ],
-    [ "features", "a05081.html#a2b66f5f4579c910c9f7b7ccc043c3037", null ],
-    [ "keys", "a05081.html#a885c190e82027881ec3ed1533283c966", null ],
-    [ "values", "a05081.html#a8159c164675963389d4522cae972207b", null ]
+    [ "read", "a05081.html#a793358fbd6ef538a24eabab1bd50ef01", null ],
+    [ "unparse", "a05081.html#ae918a517e1ebcc44beeee2c55008d248", null ],
+    [ "INSTANCE", "a05081.html#a37c7ccb039944a2be5bb9e33d190e504", null ],
+    [ "reader", "a05081.html#aa1b091a220c464a72ed08bd283083286", null ],
+    [ "URI", "a05081.html#addbf30e6c0ad68fa34277d59a2c6eb5e", null ],
+    [ "writer", "a05081.html#ae01fec3f5b78891669c5ad222eef8ca7", null ]
 ];

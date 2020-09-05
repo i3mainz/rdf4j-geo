@@ -1,5 +1,4 @@
 var a05377 =
 [
-    [ "testNumDistinctPoints", "a05377.html#aac9f79f9e21b36c6addad28b9e81bec6", null ],
-    [ "testGeom", "a05377.html#a03a5f5da0ccbeed8c1678d4317cf2672", null ]
+    [ "testIsNodingValuedTrue", "a05377.html#af36f9410a0c4d62c262b4398b5723223", null ]
 ];

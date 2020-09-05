@@ -1,5 +1,7 @@
 var a05349 =
 [
-    [ "testMinimumClearanceLine", "a05349.html#a61877f78d0d415e1cd48f477474017e6", null ],
-    [ "testPolygon", "a05349.html#a1e3187cbc25299380589200c398b3ffd", null ]
+    [ "testHasHorizontalCRSFalse", "a05349.html#a9d25864362180719a756bf187c003b28", null ],
+    [ "testHasHorizontalCRSTrue", "a05349.html#a9f2bde364661ddf6af32fec9ad9085b1", null ],
+    [ "testGeometry", "a05349.html#abc3f514f005cba49e406658e2d3086eb", null ],
+    [ "testGeometry2", "a05349.html#af1173652e671b8f9051f8630b98c73fb", null ]
 ];

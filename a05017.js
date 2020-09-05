@@ -1,8 +1,9 @@
 var a05017 =
 [
-    [ "read", "a05017.html#a0a51e7a558c31dd59e2fb31c2b6b9a6d", null ],
-    [ "unparse", "a05017.html#a8f23415f60c2281824a1ca004a2fce9b", null ],
-    [ "INSTANCE", "a05017.html#afb4dc47464d22ed20de4b4318bcf68ca", null ],
+    [ "read", "a05017.html#a1cc8c62f94cc0157db4958fbe1f87310", null ],
+    [ "toString", "a05017.html#ad146fa8579a5f8a876c4688cc5a68520", null ],
+    [ "unparse", "a05017.html#a657560fc17175e794fe55d3b23643891", null ],
+    [ "INSTANCE", "a05017.html#addd0055cdf714aacd2c5ed456be62913", null ],
     [ "LiteralIRI", "a05017.html#ae02c2e86ac0dea8538c7b43e9e82421a", null ],
     [ "URI", "a05017.html#addbf30e6c0ad68fa34277d59a2c6eb5e", null ]
 ];

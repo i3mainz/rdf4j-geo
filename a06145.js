@@ -1,7 +1,7 @@
 var a06145 =
 [
     [ "getInstance", "a06145.html#af8afdd14b38b523d100805364a48ed63", null ],
-    [ "testRastFromHexWKB", "a06145.html#adc2713177ac1dca95220a394247c6ebe", null ],
+    [ "testRasterToWorldCoordY", "a06145.html#a24ce6ed3c7eedd4a897b2c7e85151c25", null ],
     [ "covJSONString1", "a06145.html#a993e2f127f3ec8f256e9799d77507223", null ],
     [ "hexwkbString1", "a06145.html#a55fb5b5d665417265da09403128e396e", null ],
     [ "minwkbString", "a06145.html#aa5e2b5a6005895fc20b9f35523569430", null ],

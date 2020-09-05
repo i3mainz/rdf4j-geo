@@ -1,6 +1,6 @@
 var a05713 =
 [
-    [ "testSwapOrdinates", "a05713.html#afb4577949dbe6ea13a5d8c00afd1c339", null ],
+    [ "testCollectionExtract", "a05713.html#ad65aa26b3876b84d26c4b988083bd940", null ],
     [ "res", "a05713.html#ab8deaae2f0a5506ff9fd02ff15e921cc", null ],
-    [ "testPolygon", "a05713.html#a1e3187cbc25299380589200c398b3ffd", null ]
+    [ "testGeometry", "a05713.html#abc3f514f005cba49e406658e2d3086eb", null ]
 ];

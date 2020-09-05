@@ -1,7 +1,9 @@
 var a05489 =
 [
-    [ "testAreaSimilarity", "a05489.html#a6be5d939e472b1ba6360e0aed0003e21", null ],
-    [ "testAreaSimilarity2", "a05489.html#aa1a9b1a972267092713ec9d0b0a2c2b4", null ],
-    [ "isocelesTriangle", "a05489.html#aa04dfbec745e2622b9f7646f8572e501", null ],
-    [ "notIsocelesTriangle", "a05489.html#a055d99fb63bcee37763ffcf4da9e0521", null ]
+    [ "testRemoveGeometry1", "a05489.html#a910e74995416610c31bdfb5ab3260d76", null ],
+    [ "testRemoveGeometry1Z", "a05489.html#a60a65740b83f0a07de47b82baf1ff4e1", null ],
+    [ "testRemoveGeometry2", "a05489.html#affbdb9b48b9af6eedbf8d011f683a631", null ],
+    [ "testRemoveGeometry2Z", "a05489.html#af5c1b4eec2210853d1e7f1c6d6f2a02c", null ],
+    [ "lineString", "a05489.html#a76e109dc83d6f4d16fcd2fa3e73054f6", null ],
+    [ "point", "a05489.html#a081811ff1c2bedd0a20703599f90114f", null ]
 ];

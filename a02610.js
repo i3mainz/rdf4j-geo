@@ -1,4 +1,5 @@
 var a02610 =
 [
-    [ "ncdc", "a02611.html", "a02611" ]
+    [ "GARStoLL", "a02749.html", "a02749" ],
+    [ "LLtoGARS", "a02753.html", "a02753" ]
 ];

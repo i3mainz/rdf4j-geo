@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>rdf4j-postgis: Member List</title>
+<title>rdf4j-postgis: GeneratePointsTest Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -56,25 +56,55 @@ $(function() {
   </div>
 </div>
 <script type="text/javascript">
-$(document).ready(function(){initNavTree('a05908.html','');});
+$(document).ready(function(){initNavTree('a05905.html','');});
 </script>
 <div id="doc-content">
 <div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="a05902.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">NumDistinctInteriorRingsTest Member List</div>  </div>
+<div class="title">GeneratePointsTest Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>This is the complete list of members for <a class="el" href="a05908.html">NumDistinctInteriorRingsTest</a>, including all inherited members.</p>
-<table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="a05908.html#a232253c11ffc2c2e17e969ee3180b704">testNRings</a>()</td><td class="entry"><a class="el" href="a05908.html">NumDistinctInteriorRingsTest</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="a05908.html#a1e3187cbc25299380589200c398b3ffd">testPolygon</a></td><td class="entry"><a class="el" href="a05908.html">NumDistinctInteriorRingsTest</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
-</table></div><!-- contents -->
+<p>Tests the GeneratePoints implementation.  
+ <a href="a05905.html#details">More...</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:a63588109fc080478770a7d3cc31b245d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05905.html#a63588109fc080478770a7d3cc31b245d">testGeneratePoints</a> ()</td></tr>
+<tr class="separator:a63588109fc080478770a7d3cc31b245d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Tests the GeneratePoints implementation. </p>
+</div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="a63588109fc080478770a7d3cc31b245d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a63588109fc080478770a7d3cc31b245d">&#9670;&nbsp;</a></span>testGeneratePoints()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void testGeneratePoints </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="a03189.html#a43b4c73244bc6722ce551c1033cf1115">GeometricModifierIntegerFunction.evaluate()</a>, <a class="el" href="a05109.html#a3e60086252e5262f1238a2d9cbd491d9">WKTDatatype.INSTANCE</a>, <a class="el" href="a05109.html#ae02c2e86ac0dea8538c7b43e9e82421a">WKTDatatype.LiteralIRI</a>, and <a class="el" href="a05109.html#a793358fbd6ef538a24eabab1bd50ef01">WKTDatatype.read()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;                                         {</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;                GeneratePoints is3d=<span class="keyword">new</span> GeneratePoints();</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;                ValueFactory valfac=SimpleValueFactory.getInstance();</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;                Value geo=valfac.createLiteral(<span class="stringliteral">&quot;LINESTRING (10 40, 40 30, 20 20, 30 10)&quot;</span>, WKTDatatype.LiteralIRI);</div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;                Value result=is3d.evaluate(valfac, geo,valfac.createLiteral(2));</div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;                Value expResult=valfac.createLiteral(<span class="stringliteral">&quot;POINT (0 0)&quot;</span>,WKTDatatype.LiteralIRI);</div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;                System.out.println(result.toString());</div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;                System.out.println(expResult.toString());</div><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;                Geometry expGeom=WKTDatatype.INSTANCE.read(expResult.toString());</div><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;                Geometry resultGeom=WKTDatatype.INSTANCE.read(result.toString());</div><div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;                System.out.println(resultGeom);</div><div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;                System.out.println(expGeom);            </div><div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;                System.out.println(Arrays.toString(resultGeom.getCoordinates()));</div><div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;                System.out.println(Arrays.toString(expGeom.getCoordinates()));</div><div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;            assertEquals(expGeom.getCoordinates().length, resultGeom.getCoordinates().length);</div><div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;        }</div></div><!-- fragment -->
+</div>
+</div>
+</div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.13-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
+    <li class="navelem"><a class="el" href="a02616.html">org</a></li><li class="navelem"><a class="el" href="a02617.html">eclipse</a></li><li class="navelem"><a class="el" href="a02618.html">rdf4j</a></li><li class="navelem"><a class="el" href="a02699.html">testsuites</a></li><li class="navelem"><a class="el" href="a02700.html">postgis</a></li><li class="navelem"><a class="el" href="a02717.html">point</a></li><li class="navelem"><a class="el" href="a02718.html">constructor</a></li><li class="navelem"><a class="el" href="a05905.html">GeneratePointsTest</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>

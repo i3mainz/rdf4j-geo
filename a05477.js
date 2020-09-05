@@ -1,5 +1,7 @@
 var a05477 =
 [
-    [ "testAsTextRound", "a05477.html#a48e3642d229bd7292cf49871d69ed015", null ],
-    [ "testGeometry", "a05477.html#abc3f514f005cba49e406658e2d3086eb", null ]
+    [ "testAddGeometry", "a05477.html#a4ebf1443292e242753148cb8748d9169", null ],
+    [ "testAddGeometryZ", "a05477.html#a7405251c9ffbd82086e9e63d9ced3c82", null ],
+    [ "lineString", "a05477.html#a76e109dc83d6f4d16fcd2fa3e73054f6", null ],
+    [ "point", "a05477.html#a081811ff1c2bedd0a20703599f90114f", null ]
 ];

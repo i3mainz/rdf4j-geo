@@ -1,13 +1,5 @@
 var a05865 =
 [
-    [ "testLineStringClosed", "a05865.html#a535dfcf17dd3d286958ec2268d19deb5", null ],
-    [ "testLineStringNotClosed", "a05865.html#a73d74b41617d10452367388732cfdc67", null ],
-    [ "testMultiLineStringNotClosed", "a05865.html#a46c6b5fafb3fb83ca34bed8a76614a05", null ],
-    [ "testmultiPointClosed", "a05865.html#a3ccb0f6a8770f2a4ac3d61a34e17308e", null ],
-    [ "testpointClosed", "a05865.html#a833c7f3f2807c95b41de4f5c776b7eb0", null ],
-    [ "isClosed", "a05865.html#aa2ad69c5f695d96a905f506a71add16b", null ],
-    [ "mlNotClosed", "a05865.html#a242ef725cd7557d7506a6ce031490589", null ],
-    [ "multiPointClosed", "a05865.html#adedf3c8d7ecaed5e18a95666953e4ee1", null ],
-    [ "notClosed", "a05865.html#a58f683ae8ef47f96f761ee1991abce39", null ],
-    [ "pointClosed", "a05865.html#a7e8d2ba866b9459d265f1c933aaff499", null ]
+    [ "testZMax", "a05865.html#aa30e80ee55397130f30395f3c09b1e39", null ],
+    [ "testPoint", "a05865.html#af26f700ee129f846cac58735f6dcc380", null ]
 ];

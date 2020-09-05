@@ -1,5 +1,6 @@
 var a05325 =
 [
-    [ "testIsSquareFalse", "a05325.html#a173bda31cdc35a0e147f2c50957b2e27", null ],
-    [ "testIsSquareTrue", "a05325.html#af9173bfcbf2fff582439949957ccc709", null ]
+    [ "testBoundingDiagonal", "a05325.html#a5905b320ef165de047ef4ff2e9167268", null ],
+    [ "result", "a05325.html#aab356d6554a7301750f11ec7a85ac47d", null ],
+    [ "testPolygon", "a05325.html#a1e3187cbc25299380589200c398b3ffd", null ]
 ];

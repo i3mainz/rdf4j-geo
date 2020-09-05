@@ -2,5 +2,5 @@ var a02953 =
 [
     [ "evaluate", "a02953.html#a43b4c73244bc6722ce551c1033cf1115", null ],
     [ "getURI", "a02953.html#ad9fb16b36dd4ccc533d4f05ff94646e3", null ],
-    [ "operation", "a02953.html#a1d0cc0e09afb7f59bb4bbe0cd8f4352f", null ]
+    [ "relation", "a02953.html#a2ee54060e066d6c240bd4231000b749a", null ]
 ];

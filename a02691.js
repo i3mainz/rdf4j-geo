@@ -1,4 +1,5 @@
 var a02691 =
 [
-    [ "util", "a02692.html", "a02692" ]
+    [ "Coordinate", "a05249.html", "a05249" ],
+    [ "CoordinateT", "a05257.html", null ]
 ];

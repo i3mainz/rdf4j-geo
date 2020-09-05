@@ -1,7 +1,3 @@
-<map id="RasterConstructorFunction" name="RasterConstructorFunction">
-<area shape="rect" id="node3" href="$a04492.html" title="RastFromCoverageJSON" alt="" coords="5,155,177,181"/>
-<area shape="rect" id="node4" href="$a04496.html" title="RastFromGMLCOV" alt="" coords="201,155,339,181"/>
-<area shape="rect" id="node5" href="$a04500.html" title="RastFromHexWKB" alt="" coords="363,155,497,181"/>
-<area shape="rect" id="node6" href="$a04504.html" title="RastFromNetCDF" alt="" coords="521,155,651,181"/>
-<area shape="rect" id="node7" href="$a04508.html" title="RastFromWKB" alt="" coords="675,155,785,181"/>
+<map id="WorldToRasterCoord" name="WorldToRasterCoord">
+<area shape="rect" id="node2" href="$a04489.html" title="RasterAttributeIntIntGeom\lFunction" alt="" coords="5,80,180,121"/>
 </map>

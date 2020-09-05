@@ -1,7 +1,5 @@
 var a05549 =
 [
-    [ "testLongestLine", "a05549.html#a67123b25e212bf04a36a62bbd917df3d", null ],
-    [ "result", "a05549.html#aab356d6554a7301750f11ec7a85ac47d", null ],
-    [ "testGeom", "a05549.html#a03a5f5da0ccbeed8c1678d4317cf2672", null ],
-    [ "testGeom2", "a05549.html#a6b4be369c8f60e973cd5126e69cd33a4", null ]
+    [ "testAsTextRound", "a05549.html#a48e3642d229bd7292cf49871d69ed015", null ],
+    [ "testGeometry", "a05549.html#abc3f514f005cba49e406658e2d3086eb", null ]
 ];

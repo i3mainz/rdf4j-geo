@@ -1,5 +1,5 @@
 var a05385 =
 [
-    [ "testNumPoints", "a05385.html#ab30b87a5d89bd6e36dae388ce20e61a7", null ],
-    [ "testGeom", "a05385.html#a03a5f5da0ccbeed8c1678d4317cf2672", null ]
+    [ "testIsRectangleFalse", "a05385.html#a5f21b4a097f15af24dcc034f575e4e4a", null ],
+    [ "testIsRectangleTrue", "a05385.html#acebf1f487a11cc34db915552f23c6383", null ]
 ];

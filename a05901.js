@@ -1,5 +1,5 @@
 var a05901 =
 [
-    [ "testNRings", "a05901.html#a232253c11ffc2c2e17e969ee3180b704", null ],
-    [ "testPolygon", "a05901.html#a1e3187cbc25299380589200c398b3ffd", null ]
+    [ "testZ", "a05901.html#ac463fcc72b3892f24bbd0dc3b8902044", null ],
+    [ "testPoint", "a05901.html#af26f700ee129f846cac58735f6dcc380", null ]
 ];

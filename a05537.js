@@ -1,8 +1,5 @@
 var a05537 =
 [
-    [ "testIntersectionMatrix", "a05537.html#a8537ca55b85b9d59789190d637670f0b", null ],
-    [ "testGeom", "a05537.html#a03a5f5da0ccbeed8c1678d4317cf2672", null ],
-    [ "testGeom2", "a05537.html#a6b4be369c8f60e973cd5126e69cd33a4", null ],
-    [ "testGeom3", "a05537.html#a800b6bb875a8ff4404ea787c3df125a5", null ],
-    [ "testGeom4", "a05537.html#a4c55e7efe430d6d220fb05524c4bb940", null ]
+    [ "testAsPolyShape", "a05537.html#aa4ec805ffcfb140ead8292a441244775", null ],
+    [ "testGeometry", "a05537.html#abc3f514f005cba49e406658e2d3086eb", null ]
 ];

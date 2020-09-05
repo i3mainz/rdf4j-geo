@@ -1,14 +1,10 @@
 var a05133 =
 [
-    [ "WKBRasterReader", "a05133.html#ae793783ce299284ee201fd7c8313c1d6", null ],
-    [ "createGrayScaleColorModel", "a05133.html#afcfcdba92bf5faa9dfc8a1c7a652c7a9", null ],
-    [ "getGridToCRS", "a05133.html#aef748f2853b5fa1a44ed7c589b2bb197", null ],
-    [ "getSRID", "a05133.html#ade744464aeafe5c61497905c4bac4d95", null ],
-    [ "read", "a05133.html#a14456bc52e7f626048f58646a17a9039", null ],
-    [ "read", "a05133.html#ab8d0b6608f158d1234999e80670eba0e", null ],
-    [ "readCoverage", "a05133.html#aa9fe8abf761e9a17b671b3f8ca04ef37", null ],
-    [ "readCoverage", "a05133.html#a167d89e301db4c86565d6cbf8998b5fa", null ],
-    [ "reset", "a05133.html#ad20897c5c8bd47f5d4005989bead0e55", null ],
-    [ "gridToCRS", "a05133.html#a7074295224e2ade372af7fc4571cdc28", null ],
-    [ "srid", "a05133.html#a7e5be5f62324d24835447fc98661e30b", null ]
+    [ "FeatureIterable", "a05133.html#a0aef380d3850d9aef520a366f68969e1", null ],
+    [ "asList", "a05133.html#abde7b9af6c5ae1a6a1662e734b00f377", null ],
+    [ "getLayerNames", "a05133.html#a5996dbdd0c9cc359e6a365affcf90fca", null ],
+    [ "iterator", "a05133.html#a3cd747c42f7ff4b3c10fc491c0770c34", null ],
+    [ "autoScale", "a05133.html#a790b272bcf5713954b8582330074dfc8", null ],
+    [ "filter", "a05133.html#a372cbadc592907caa755cab7031ff81a", null ],
+    [ "tile", "a05133.html#a65b030830248e3f718b7a12708274fb5", null ]
 ];

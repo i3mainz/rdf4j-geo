@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>rdf4j-postgis: WKTDatatype.WKBTextSRS Class Reference</title>
+<title>rdf4j-postgis: Member List</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -56,162 +56,28 @@ $(function() {
   </div>
 </div>
 <script type="text/javascript">
-$(document).ready(function(){initNavTree('a05110.html','');});
+$(document).ready(function(){initNavTree('a05113.html','');});
 </script>
 <div id="doc-content">
 <div class="header">
-  <div class="summary">
-<a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pri-attribs">Private Attributes</a> &#124;
-<a href="a05107.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">WKTDatatype.WKBTextSRS Class Reference</div>  </div>
+<div class="title">WKTDatatype.WKBTextSRS Member List</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="dynheader">
-Collaboration diagram for WKTDatatype.WKBTextSRS:</div>
-<div class="dyncontent">
-<div class="center"><img src="a05108.png" border="0" usemap="#WKTDatatype_8WKBTextSRS_coll__map" alt="Collaboration graph"/></div>
-<map name="WKTDatatype_8WKBTextSRS_coll__map" id="WKTDatatype_8WKBTextSRS_coll__map">
-</map>
-<center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
-<table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
-Public Member Functions</h2></td></tr>
-<tr class="memitem:a12d2a5c4b7a29eae5d108bccb1e55b11"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05110.html#a12d2a5c4b7a29eae5d108bccb1e55b11">WKBTextSRS</a> (String wkbLiteral)</td></tr>
-<tr class="separator:a12d2a5c4b7a29eae5d108bccb1e55b11"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4a2ce7a2dcd4fa0818378fb8b97931fb"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05110.html#a4a2ce7a2dcd4fa0818378fb8b97931fb">getWkbText</a> ()</td></tr>
-<tr class="separator:a4a2ce7a2dcd4fa0818378fb8b97931fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7d7dded4f73b0a90d90f68ccc5f16bc3"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05110.html#a7d7dded4f73b0a90d90f68ccc5f16bc3">getSrsURI</a> ()</td></tr>
-<tr class="separator:a7d7dded4f73b0a90d90f68ccc5f16bc3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
-Private Attributes</h2></td></tr>
-<tr class="memitem:a7b6ce5371e4ad222f4b09eaadfdcae09"><td class="memItemLeft" align="right" valign="top">final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05110.html#a7b6ce5371e4ad222f4b09eaadfdcae09">wkbText</a></td></tr>
-<tr class="separator:a7b6ce5371e4ad222f4b09eaadfdcae09"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaa7845d06052bead86bb2de40935e4d9"><td class="memItemLeft" align="right" valign="top">final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05110.html#aaa7845d06052bead86bb2de40935e4d9">srsURI</a></td></tr>
-<tr class="separator:aaa7845d06052bead86bb2de40935e4d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a12d2a5c4b7a29eae5d108bccb1e55b11"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a12d2a5c4b7a29eae5d108bccb1e55b11">&#9670;&nbsp;</a></span>WKBTextSRS()</h2>
 
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="a05110.html">WKBTextSRS</a> </td>
-          <td>(</td>
-          <td class="paramtype">String&#160;</td>
-          <td class="paramname"><em>wkbLiteral</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;                                             {</div><div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;            <span class="keywordtype">int</span> startSRS = wkbLiteral.indexOf(<span class="stringliteral">&quot;&lt;&quot;</span>);</div><div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;            <span class="keywordtype">int</span> endSRS = wkbLiteral.indexOf(<span class="stringliteral">&quot;&gt;&quot;</span>);</div><div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;</div><div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;            <span class="comment">//Check that both chevrons are located and extract SRS_URI name, otherwise default.</span></div><div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;            <span class="keywordflow">if</span> (startSRS != -1 &amp;&amp; endSRS != -1) {</div><div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;                <a class="code" href="a05110.html#aaa7845d06052bead86bb2de40935e4d9">srsURI</a> = wkbLiteral.substring(startSRS + 1, endSRS);</div><div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;                <a class="code" href="a05110.html#a7b6ce5371e4ad222f4b09eaadfdcae09">wkbText</a> = wkbLiteral.substring(endSRS + 1);</div><div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;</div><div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;            } <span class="keywordflow">else</span> {</div><div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;                <a class="code" href="a05110.html#aaa7845d06052bead86bb2de40935e4d9">srsURI</a> = <span class="stringliteral">&quot;&quot;</span>;<span class="comment">//SRS_URI.DEFAULT_WKT_CRS84;</span></div><div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;                <a class="code" href="a05110.html#a7b6ce5371e4ad222f4b09eaadfdcae09">wkbText</a> = wkbLiteral;</div><div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;            }</div><div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;        }</div><div class="ttc" id="a05110_html_a7b6ce5371e4ad222f4b09eaadfdcae09"><div class="ttname"><a href="a05110.html#a7b6ce5371e4ad222f4b09eaadfdcae09">org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.literals.vector.WKTDatatype.WKBTextSRS.wkbText</a></div><div class="ttdeci">final String wkbText</div><div class="ttdef"><b>Definition:</b> WKTDatatype.java:62</div></div>
-<div class="ttc" id="a05110_html_aaa7845d06052bead86bb2de40935e4d9"><div class="ttname"><a href="a05110.html#aaa7845d06052bead86bb2de40935e4d9">org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.literals.vector.WKTDatatype.WKBTextSRS.srsURI</a></div><div class="ttdeci">final String srsURI</div><div class="ttdef"><b>Definition:</b> WKTDatatype.java:63</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<h2 class="groupheader">Member Function Documentation</h2>
-<a id="a7d7dded4f73b0a90d90f68ccc5f16bc3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7d7dded4f73b0a90d90f68ccc5f16bc3">&#9670;&nbsp;</a></span>getSrsURI()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">String getSrsURI </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="reference">References <a class="el" href="a05110.html#aaa7845d06052bead86bb2de40935e4d9">WKTDatatype.WKBTextSRS.srsURI</a>.</p>
-<div class="fragment"><div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;                                  {</div><div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;            <span class="keywordflow">return</span> <a class="code" href="a05110.html#aaa7845d06052bead86bb2de40935e4d9">srsURI</a>;</div><div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;        }</div><div class="ttc" id="a05110_html_aaa7845d06052bead86bb2de40935e4d9"><div class="ttname"><a href="a05110.html#aaa7845d06052bead86bb2de40935e4d9">org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.literals.vector.WKTDatatype.WKBTextSRS.srsURI</a></div><div class="ttdeci">final String srsURI</div><div class="ttdef"><b>Definition:</b> WKTDatatype.java:63</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a4a2ce7a2dcd4fa0818378fb8b97931fb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4a2ce7a2dcd4fa0818378fb8b97931fb">&#9670;&nbsp;</a></span>getWkbText()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">String getWkbText </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="reference">References <a class="el" href="a05110.html#a7b6ce5371e4ad222f4b09eaadfdcae09">WKTDatatype.WKBTextSRS.wkbText</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="a05106.html#a793358fbd6ef538a24eabab1bd50ef01">WKTDatatype.read()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;                                   {</div><div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;            <span class="keywordflow">return</span> <a class="code" href="a05110.html#a7b6ce5371e4ad222f4b09eaadfdcae09">wkbText</a>;</div><div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;        }</div><div class="ttc" id="a05110_html_a7b6ce5371e4ad222f4b09eaadfdcae09"><div class="ttname"><a href="a05110.html#a7b6ce5371e4ad222f4b09eaadfdcae09">org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.literals.vector.WKTDatatype.WKBTextSRS.wkbText</a></div><div class="ttdeci">final String wkbText</div><div class="ttdef"><b>Definition:</b> WKTDatatype.java:62</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<h2 class="groupheader">Member Data Documentation</h2>
-<a id="aaa7845d06052bead86bb2de40935e4d9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aaa7845d06052bead86bb2de40935e4d9">&#9670;&nbsp;</a></span>srsURI</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">final String srsURI</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="a05110.html#a7d7dded4f73b0a90d90f68ccc5f16bc3">WKTDatatype.WKBTextSRS.getSrsURI()</a>.</p>
-
-</div>
-</div>
-<a id="a7b6ce5371e4ad222f4b09eaadfdcae09"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7b6ce5371e4ad222f4b09eaadfdcae09">&#9670;&nbsp;</a></span>wkbText</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">final String wkbText</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="a05110.html#a4a2ce7a2dcd4fa0818378fb8b97931fb">WKTDatatype.WKBTextSRS.getWkbText()</a>.</p>
-
-</div>
-</div>
-</div><!-- contents -->
+<p>This is the complete list of members for <a class="el" href="a05113.html">WKTDatatype.WKBTextSRS</a>, including all inherited members.</p>
+<table class="directory">
+  <tr class="even"><td class="entry"><a class="el" href="a05113.html#a7d7dded4f73b0a90d90f68ccc5f16bc3">getSrsURI</a>()</td><td class="entry"><a class="el" href="a05113.html">WKTDatatype.WKBTextSRS</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="a05113.html#a4a2ce7a2dcd4fa0818378fb8b97931fb">getWkbText</a>()</td><td class="entry"><a class="el" href="a05113.html">WKTDatatype.WKBTextSRS</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="a05113.html#aaa7845d06052bead86bb2de40935e4d9">srsURI</a></td><td class="entry"><a class="el" href="a05113.html">WKTDatatype.WKBTextSRS</a></td><td class="entry"><span class="mlabel">private</span></td></tr>
+  <tr><td class="entry"><a class="el" href="a05113.html#a7b6ce5371e4ad222f4b09eaadfdcae09">wkbText</a></td><td class="entry"><a class="el" href="a05113.html">WKTDatatype.WKBTextSRS</a></td><td class="entry"><span class="mlabel">private</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="a05113.html#a12d2a5c4b7a29eae5d108bccb1e55b11">WKBTextSRS</a>(String wkbLiteral)</td><td class="entry"><a class="el" href="a05113.html">WKTDatatype.WKBTextSRS</a></td><td class="entry"></td></tr>
+</table></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.13-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="a02613.html">org</a></li><li class="navelem"><a class="el" href="a02614.html">eclipse</a></li><li class="navelem"><a class="el" href="a02615.html">rdf4j</a></li><li class="navelem"><a class="el" href="a02618.html">query</a></li><li class="navelem"><a class="el" href="a02619.html">algebra</a></li><li class="navelem"><a class="el" href="a02620.html">evaluation</a></li><li class="navelem"><a class="el" href="a02621.html">function</a></li><li class="navelem"><a class="el" href="a02622.html">postgis</a></li><li class="navelem"><a class="el" href="a02672.html">util</a></li><li class="navelem"><a class="el" href="a02674.html">literals</a></li><li class="navelem"><a class="el" href="a02677.html">vector</a></li><li class="navelem"><a class="el" href="a05106.html">WKTDatatype</a></li><li class="navelem"><a class="el" href="a05110.html">WKBTextSRS</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>

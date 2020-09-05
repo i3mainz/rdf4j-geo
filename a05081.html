@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>rdf4j-postgis: Member List</title>
+<title>rdf4j-postgis: PolyshapeDatatype Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -56,53 +56,224 @@ $(function() {
   </div>
 </div>
 <script type="text/javascript">
-$(document).ready(function(){initNavTree('a05084.html','');});
+$(document).ready(function(){initNavTree('a05081.html','');});
 </script>
 <div id="doc-content">
 <div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-attribs">Static Public Attributes</a> &#124;
+<a href="#pri-static-attribs">Static Private Attributes</a> &#124;
+<a href="a05078.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">VectorTileEncoder Member List</div>  </div>
+<div class="title">PolyshapeDatatype Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+<div class="dynheader">
+Inheritance diagram for PolyshapeDatatype:</div>
+<div class="dyncontent">
+<div class="center"><img src="a05080.png" border="0" usemap="#PolyshapeDatatype_inherit__map" alt="Inheritance graph"/></div>
+<map name="PolyshapeDatatype_inherit__map" id="PolyshapeDatatype_inherit__map">
+<area shape="rect" id="node2" href="a05097.html" title="VectorLiteral" alt="" coords="26,80,121,107"/>
+<area shape="rect" id="node3" href="a04989.html" title="LiteralType" alt="" coords="30,5,117,32"/>
+</map>
+<center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
+<div class="dynheader">
+Collaboration diagram for PolyshapeDatatype:</div>
+<div class="dyncontent">
+<div class="center"><img src="a05079.png" border="0" usemap="#PolyshapeDatatype_coll__map" alt="Collaboration graph"/></div>
+<map name="PolyshapeDatatype_coll__map" id="PolyshapeDatatype_coll__map">
+<area shape="rect" id="node2" href="a05097.html" title="VectorLiteral" alt="" coords="5,301,100,328"/>
+<area shape="rect" id="node3" href="a04989.html" title="LiteralType" alt="" coords="9,212,96,239"/>
+<area shape="rect" id="node4" href="a05157.html" title="PolyshapeReader" alt="" coords="125,301,250,328"/>
+<area shape="rect" id="node7" href="a04981.html" title="JtsPolyshapeWriter" alt="" coords="354,301,490,328"/>
+<area shape="rect" id="node8" href="a05165.html" title="Wrap the &#39;Encoded Polyline Algorithm Format&#39; defined in: Google Maps API with flags to encode various..." alt="" coords="363,212,481,239"/>
+</map>
+<center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:ae918a517e1ebcc44beeee2c55008d248"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05081.html#ae918a517e1ebcc44beeee2c55008d248">unparse</a> (Geometry geometry)</td></tr>
+<tr class="memdesc:ae918a517e1ebcc44beeee2c55008d248"><td class="mdescLeft">&#160;</td><td class="mdescRight">This method Un-parses the JTS Geometry to the WKT literal.  <a href="#ae918a517e1ebcc44beeee2c55008d248">More...</a><br /></td></tr>
+<tr class="separator:ae918a517e1ebcc44beeee2c55008d248"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a793358fbd6ef538a24eabab1bd50ef01"><td class="memItemLeft" align="right" valign="top">Geometry&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05081.html#a793358fbd6ef538a24eabab1bd50ef01">read</a> (String geometryLiteral)</td></tr>
+<tr class="separator:a793358fbd6ef538a24eabab1bd50ef01"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
+Static Public Attributes</h2></td></tr>
+<tr class="memitem:addbf30e6c0ad68fa34277d59a2c6eb5e"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05081.html#addbf30e6c0ad68fa34277d59a2c6eb5e">URI</a> = <a class="el" href="a02765.html#a3118ee58f09ba53f976a585c4c3c001b">POSTGIS.Polyshape</a></td></tr>
+<tr class="memdesc:addbf30e6c0ad68fa34277d59a2c6eb5e"><td class="mdescLeft">&#160;</td><td class="mdescRight">The default WKT type URI.  <a href="#addbf30e6c0ad68fa34277d59a2c6eb5e">More...</a><br /></td></tr>
+<tr class="separator:addbf30e6c0ad68fa34277d59a2c6eb5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a37c7ccb039944a2be5bb9e33d190e504"><td class="memItemLeft" align="right" valign="top">static final <a class="el" href="a05081.html">PolyshapeDatatype</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05081.html#a37c7ccb039944a2be5bb9e33d190e504">INSTANCE</a> = new <a class="el" href="a05081.html">PolyshapeDatatype</a>()</td></tr>
+<tr class="memdesc:a37c7ccb039944a2be5bb9e33d190e504"><td class="mdescLeft">&#160;</td><td class="mdescRight">A static instance of <a class="el" href="a05109.html">WKTDatatype</a>.  <a href="#a37c7ccb039944a2be5bb9e33d190e504">More...</a><br /></td></tr>
+<tr class="separator:a37c7ccb039944a2be5bb9e33d190e504"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-static-attribs"></a>
+Static Private Attributes</h2></td></tr>
+<tr class="memitem:aa1b091a220c464a72ed08bd283083286"><td class="memItemLeft" align="right" valign="top">static final <a class="el" href="a05157.html">PolyshapeReader</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05081.html#aa1b091a220c464a72ed08bd283083286">reader</a> =new <a class="el" href="a05157.html">PolyshapeReader</a>()</td></tr>
+<tr class="separator:aa1b091a220c464a72ed08bd283083286"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae01fec3f5b78891669c5ad222eef8ca7"><td class="memItemLeft" align="right" valign="top">static final <a class="el" href="a04981.html">JtsPolyshapeWriter</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05081.html#ae01fec3f5b78891669c5ad222eef8ca7">writer</a> =new <a class="el" href="a04981.html">JtsPolyshapeWriter</a>()</td></tr>
+<tr class="separator:ae01fec3f5b78891669c5ad222eef8ca7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a793358fbd6ef538a24eabab1bd50ef01"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a793358fbd6ef538a24eabab1bd50ef01">&#9670;&nbsp;</a></span>read()</h2>
 
-<p>This is the complete list of members for <a class="el" href="a05084.html">VectorTileEncoder</a>, including all inherited members.</p>
-<table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="a05084.html#ae746f0d530da3673d0ecd420484ae60c">addFeature</a>(String layerName, Map&lt; String, ?&gt; attributes, Geometry geometry)</td><td class="entry"><a class="el" href="a05084.html">VectorTileEncoder</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="a05084.html#a2afe6a9071cc7d0e53c80fa46df18b61">addFeature</a>(String layerName, Map&lt; String, ?&gt; attributes, Geometry geometry, long id)</td><td class="entry"><a class="el" href="a05084.html">VectorTileEncoder</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="a05084.html#a4fca3b92acf7d6b65165575a46b6f40c">autoincrement</a></td><td class="entry"><a class="el" href="a05084.html">VectorTileEncoder</a></td><td class="entry"><span class="mlabel">private</span></td></tr>
-  <tr><td class="entry"><a class="el" href="a05084.html#a71c6a6d579e5725eac2cfe6ee6c9f031">autoincrementIds</a></td><td class="entry"><a class="el" href="a05084.html">VectorTileEncoder</a></td><td class="entry"><span class="mlabel">private</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="a05084.html#a0d2071354864eea97c7aefbc7f3d2a5c">autoScale</a></td><td class="entry"><a class="el" href="a05084.html">VectorTileEncoder</a></td><td class="entry"><span class="mlabel">private</span></td></tr>
-  <tr><td class="entry"><a class="el" href="a05084.html#a238fdb21a4261a0a87b5eabfafce414d">clipCovers</a>(Geometry geom)</td><td class="entry"><a class="el" href="a05084.html">VectorTileEncoder</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="a05084.html#a11a086a1486cd3fe6eefad6bec4c48a6">clipGeometry</a></td><td class="entry"><a class="el" href="a05084.html">VectorTileEncoder</a></td><td class="entry"><span class="mlabel">private</span></td></tr>
-  <tr><td class="entry"><a class="el" href="a05084.html#a472631d5396a7a9bb4e767a195df28d2">clipGeometry</a>(Geometry geometry)</td><td class="entry"><a class="el" href="a05084.html">VectorTileEncoder</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="a05084.html#a4721ad9ffd3b71c83dbd0908f5a3ad31">commandAndLength</a>(int command, int repeat)</td><td class="entry"><a class="el" href="a05084.html">VectorTileEncoder</a></td><td class="entry"><span class="mlabel">package</span><span class="mlabel">static</span></td></tr>
-  <tr><td class="entry"><a class="el" href="a05084.html#a8d03e469a8388947a2eb2658c933fc4c">commands</a>(Geometry geometry)</td><td class="entry"><a class="el" href="a05084.html">VectorTileEncoder</a></td><td class="entry"><span class="mlabel">package</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="a05084.html#a609a36dc9d80dad25dff50842ab6648b">commands</a>(MultiLineString mls)</td><td class="entry"><a class="el" href="a05084.html">VectorTileEncoder</a></td><td class="entry"><span class="mlabel">package</span></td></tr>
-  <tr><td class="entry"><a class="el" href="a05084.html#a3130e3caabb2961fb886ac9756313c3d">commands</a>(MultiPolygon mp)</td><td class="entry"><a class="el" href="a05084.html">VectorTileEncoder</a></td><td class="entry"><span class="mlabel">package</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="a05084.html#ae07815429fd6e209e9330fc56fc434c5">commands</a>(Polygon polygon)</td><td class="entry"><a class="el" href="a05084.html">VectorTileEncoder</a></td><td class="entry"><span class="mlabel">package</span></td></tr>
-  <tr><td class="entry"><a class="el" href="a05084.html#ab6fa489aaca232801a274ecaae41afb5">commands</a>(Coordinate[] cs, boolean closePathAtEnd)</td><td class="entry"><a class="el" href="a05084.html">VectorTileEncoder</a></td><td class="entry"><span class="mlabel">package</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="a05084.html#a03e45867801ab80f36bb0670fdabba04">commands</a>(Coordinate[] cs, boolean closePathAtEnd, boolean multiPoint)</td><td class="entry"><a class="el" href="a05084.html">VectorTileEncoder</a></td><td class="entry"><span class="mlabel">package</span></td></tr>
-  <tr><td class="entry"><a class="el" href="a05084.html#a54caaecad39ad5bf55f357dde42d9e03">createTileEnvelope</a>(int buffer, int size)</td><td class="entry"><a class="el" href="a05084.html">VectorTileEncoder</a></td><td class="entry"><span class="mlabel">private</span><span class="mlabel">static</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="a05084.html#ab467bae7ee09e6679725a5a385be624b">encode</a>()</td><td class="entry"><a class="el" href="a05084.html">VectorTileEncoder</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="a05084.html#a6156e4ea9ca15fc926007ca518111147">extent</a></td><td class="entry"><a class="el" href="a05084.html">VectorTileEncoder</a></td><td class="entry"><span class="mlabel">private</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="a05084.html#ae88dca2e5e3c5e871013b79575ee4bb5">layers</a></td><td class="entry"><a class="el" href="a05084.html">VectorTileEncoder</a></td><td class="entry"><span class="mlabel">private</span></td></tr>
-  <tr><td class="entry"><a class="el" href="a05084.html#a5673340666e260f4fa2a46ae19a662a1">shouldClosePath</a>(Geometry geometry)</td><td class="entry"><a class="el" href="a05084.html">VectorTileEncoder</a></td><td class="entry"><span class="mlabel">package</span><span class="mlabel">static</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="a05084.html#a94dd1626c23c7ad8ee43c4fa762d5954">simplificationDistanceTolerance</a></td><td class="entry"><a class="el" href="a05084.html">VectorTileEncoder</a></td><td class="entry"><span class="mlabel">private</span></td></tr>
-  <tr><td class="entry"><a class="el" href="a05084.html#a0897d6363c27cf553ee978eacaca4dad">toGeomType</a>(Geometry geometry)</td><td class="entry"><a class="el" href="a05084.html">VectorTileEncoder</a></td><td class="entry"><span class="mlabel">package</span><span class="mlabel">static</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="a05084.html#ab65f6e10c646b4db158a5c42d39fe141">VectorTileEncoder</a>()</td><td class="entry"><a class="el" href="a05084.html">VectorTileEncoder</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="a05084.html#a6899f21a676eda188153448587027273">VectorTileEncoder</a>(int extent)</td><td class="entry"><a class="el" href="a05084.html">VectorTileEncoder</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="a05084.html#a9c4c4a8c16cc3cb87db23b3002952288">VectorTileEncoder</a>(int extent, int clipBuffer, boolean autoScale)</td><td class="entry"><a class="el" href="a05084.html">VectorTileEncoder</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="a05084.html#a46ffbd751e81c8a09f9813029c5436ba">VectorTileEncoder</a>(int extent, int clipBuffer, boolean autoScale, boolean autoincrementIds)</td><td class="entry"><a class="el" href="a05084.html">VectorTileEncoder</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="a05084.html#a755ece0c745563d98c1ca5715b7d5b98">VectorTileEncoder</a>(int extent, int clipBuffer, boolean autoScale, boolean autoincrementIds, double simplificationDistanceTolerance)</td><td class="entry"><a class="el" href="a05084.html">VectorTileEncoder</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="a05084.html#a6150e0515f7202e2fb518f7206ed97dc">x</a></td><td class="entry"><a class="el" href="a05084.html">VectorTileEncoder</a></td><td class="entry"><span class="mlabel">private</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="a05084.html#a0a2f84ed7838f07779ae24c5a9086d33">y</a></td><td class="entry"><a class="el" href="a05084.html">VectorTileEncoder</a></td><td class="entry"><span class="mlabel">private</span></td></tr>
-  <tr><td class="entry"><a class="el" href="a05084.html#a4a332bf4dd7bd04e5f8e0f52d89ab043">zigZagEncode</a>(int n)</td><td class="entry"><a class="el" href="a05084.html">VectorTileEncoder</a></td><td class="entry"><span class="mlabel">package</span><span class="mlabel">static</span></td></tr>
-</table></div><!-- contents -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Geometry read </td>
+          <td>(</td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>geometryLiteral</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="a05157.html#a74ddfb2345fac670df368a87d8ef120e">PolyshapeReader.read()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;                                                 {</div><div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;        <span class="keywordflow">try</span> {</div><div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;                        <span class="keywordflow">return</span> <a class="code" href="a05081.html#aa1b091a220c464a72ed08bd283083286">reader</a>.<a class="code" href="a05157.html#a74ddfb2345fac670df368a87d8ef120e">read</a>(geometryLiteral);</div><div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;                } <span class="keywordflow">catch</span> (IOException | ParseException e) {</div><div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;                        <span class="keywordflow">throw</span> <span class="keyword">new</span> RuntimeException(e.getMessage());</div><div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;                }</div><div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    }</div><div class="ttc" id="a05157_html_a74ddfb2345fac670df368a87d8ef120e"><div class="ttname"><a href="a05157.html#a74ddfb2345fac670df368a87d8ef120e">org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.PolyshapeReader.read</a></div><div class="ttdeci">Geometry read(Object value)</div><div class="ttdef"><b>Definition:</b> PolyshapeReader.java:50</div></div>
+<div class="ttc" id="a05081_html_aa1b091a220c464a72ed08bd283083286"><div class="ttname"><a href="a05081.html#aa1b091a220c464a72ed08bd283083286">org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.literals.vector.PolyshapeDatatype.reader</a></div><div class="ttdeci">static final PolyshapeReader reader</div><div class="ttdef"><b>Definition:</b> PolyshapeDatatype.java:23</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="ae918a517e1ebcc44beeee2c55008d248"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae918a517e1ebcc44beeee2c55008d248">&#9670;&nbsp;</a></span>unparse()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">String unparse </td>
+          <td>(</td>
+          <td class="paramtype">Geometry&#160;</td>
+          <td class="paramname"><em>geometry</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>This method Un-parses the JTS Geometry to the WKT literal. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">geometry</td><td>- the JTS Geometry to be un-parsed </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>WKT - the returned WKT Literal. <br />
+ Notice that the Spatial Reference System is not specified in returned WKT literal. </dd></dl>
+
+<p class="reference">References <a class="el" href="a05165.html#a7e2d51f85f9fd98fdfcb46223e1d6d3d">PolyshapeWriter.toString()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;                                             {</div><div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;            <span class="keywordflow">return</span> <a class="code" href="a05081.html#ae01fec3f5b78891669c5ad222eef8ca7">writer</a>.<a class="code" href="a05165.html#a7e2d51f85f9fd98fdfcb46223e1d6d3d">toString</a>(geometry);                   </div><div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    }</div><div class="ttc" id="a05165_html_a7e2d51f85f9fd98fdfcb46223e1d6d3d"><div class="ttname"><a href="a05165.html#a7e2d51f85f9fd98fdfcb46223e1d6d3d">org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.PolyshapeWriter.toString</a></div><div class="ttdeci">String toString(Geometry shape)</div><div class="ttdef"><b>Definition:</b> PolyshapeWriter.java:131</div></div>
+<div class="ttc" id="a05081_html_ae01fec3f5b78891669c5ad222eef8ca7"><div class="ttname"><a href="a05081.html#ae01fec3f5b78891669c5ad222eef8ca7">org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.literals.vector.PolyshapeDatatype.writer</a></div><div class="ttdeci">static final JtsPolyshapeWriter writer</div><div class="ttdef"><b>Definition:</b> PolyshapeDatatype.java:25</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a37c7ccb039944a2be5bb9e33d190e504"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a37c7ccb039944a2be5bb9e33d190e504">&#9670;&nbsp;</a></span>INSTANCE</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final <a class="el" href="a05081.html">PolyshapeDatatype</a> INSTANCE = new <a class="el" href="a05081.html">PolyshapeDatatype</a>()</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>A static instance of <a class="el" href="a05109.html">WKTDatatype</a>. </p>
+
+<p class="reference">Referenced by <a class="el" href="a04985.html#ab2c1f34f60c2740f703068f27871a32b">LiteralRegistry.LiteralRegistry()</a>.</p>
+
+</div>
+</div>
+<a id="aa1b091a220c464a72ed08bd283083286"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa1b091a220c464a72ed08bd283083286">&#9670;&nbsp;</a></span>reader</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final <a class="el" href="a05157.html">PolyshapeReader</a> reader =new <a class="el" href="a05157.html">PolyshapeReader</a>()</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="addbf30e6c0ad68fa34277d59a2c6eb5e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#addbf30e6c0ad68fa34277d59a2c6eb5e">&#9670;&nbsp;</a></span>URI</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final String URI = <a class="el" href="a02765.html#a3118ee58f09ba53f976a585c4c3c001b">POSTGIS.Polyshape</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The default WKT type URI. </p>
+
+<p class="reference">Referenced by <a class="el" href="a04985.html#ab2c1f34f60c2740f703068f27871a32b">LiteralRegistry.LiteralRegistry()</a>.</p>
+
+</div>
+</div>
+<a id="ae01fec3f5b78891669c5ad222eef8ca7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae01fec3f5b78891669c5ad222eef8ca7">&#9670;&nbsp;</a></span>writer</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final <a class="el" href="a04981.html">JtsPolyshapeWriter</a> writer =new <a class="el" href="a04981.html">JtsPolyshapeWriter</a>()</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+</div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.13-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
+    <li class="navelem"><a class="el" href="a02616.html">org</a></li><li class="navelem"><a class="el" href="a02617.html">eclipse</a></li><li class="navelem"><a class="el" href="a02618.html">rdf4j</a></li><li class="navelem"><a class="el" href="a02621.html">query</a></li><li class="navelem"><a class="el" href="a02622.html">algebra</a></li><li class="navelem"><a class="el" href="a02623.html">evaluation</a></li><li class="navelem"><a class="el" href="a02624.html">function</a></li><li class="navelem"><a class="el" href="a02625.html">postgis</a></li><li class="navelem"><a class="el" href="a02675.html">util</a></li><li class="navelem"><a class="el" href="a02677.html">literals</a></li><li class="navelem"><a class="el" href="a02680.html">vector</a></li><li class="navelem"><a class="el" href="a05081.html">PolyshapeDatatype</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>

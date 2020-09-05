@@ -1,7 +1,5 @@
 var a05853 =
 [
-    [ "testHasConnectedInteriorFalse", "a05853.html#a725a2cc1c4ba4909307c9a2fa07558d8", null ],
-    [ "testHasConnectedInteriorTrue", "a05853.html#a95e618db9d2053f26b5194e3bec0d2a0", null ],
-    [ "duplicateRings", "a05853.html#a92f3ef00fc079a76b7f943d9ed6cec77", null ],
-    [ "nonduplicateRings", "a05853.html#a675a0b1b194538fc07fa716705f883a5", null ]
+    [ "testMMax", "a05853.html#afdcd3120493a23d4869c03134d63f41e", null ],
+    [ "testPoint", "a05853.html#af26f700ee129f846cac58735f6dcc380", null ]
 ];

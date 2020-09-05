@@ -1,10 +1,9 @@
 var a05041 =
 [
-    [ "WKBTextSRS", "a05045.html", "a05045" ],
     [ "read", "a05041.html#a793358fbd6ef538a24eabab1bd50ef01", null ],
     [ "toString", "a05041.html#ad146fa8579a5f8a876c4688cc5a68520", null ],
-    [ "unparse", "a05041.html#ae918a517e1ebcc44beeee2c55008d248", null ],
-    [ "INSTANCE", "a05041.html#a3e60086252e5262f1238a2d9cbd491d9", null ],
+    [ "unparse", "a05041.html#a0a4bb18c23ecbd30d2c25b47ad6582ed", null ],
+    [ "INSTANCE", "a05041.html#a078d138fc52e2240bb98b269d4bf6b64", null ],
     [ "LiteralIRI", "a05041.html#ae02c2e86ac0dea8538c7b43e9e82421a", null ],
     [ "URI", "a05041.html#addbf30e6c0ad68fa34277d59a2c6eb5e", null ]
 ];

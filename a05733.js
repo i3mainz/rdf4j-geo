@@ -1,7 +1,7 @@
 var a05733 =
 [
-    [ "testLineString", "a05733.html#a0444ce8df222ae81e1a33426a32d8d7a", null ],
-    [ "circularLineString", "a05733.html#aee32055959200ebcac903d7824ea55d3", null ],
-    [ "lineString", "a05733.html#a76e109dc83d6f4d16fcd2fa3e73054f6", null ],
-    [ "lineString3D", "a05733.html#a44ce866b8b8e60a4c3e77653b907706d", null ]
+    [ "testForce3DM", "a05733.html#a809df5824b4a08713e4ce726cb369a8d", null ],
+    [ "testForce3DM2", "a05733.html#a1efd448688434012347e3bc8972acb49", null ],
+    [ "testPolygon", "a05733.html#a1e3187cbc25299380589200c398b3ffd", null ],
+    [ "testPolygon2", "a05733.html#a882729aec95621b4ad261714738ae3fd", null ]
 ];

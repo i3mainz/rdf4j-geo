@@ -1,8 +1,6 @@
 var a05501 =
 [
-    [ "testDistanceSphere", "a05501.html#a00f0d8d505e98b0a2030febc43784429", null ],
-    [ "testDistanceSphere2", "a05501.html#a4e55a7f6b607feb274072e2449231447", null ],
-    [ "result", "a05501.html#aab356d6554a7301750f11ec7a85ac47d", null ],
-    [ "testGeom", "a05501.html#a03a5f5da0ccbeed8c1678d4317cf2672", null ],
-    [ "testGeom2", "a05501.html#a6b4be369c8f60e973cd5126e69cd33a4", null ]
+    [ "testSetPoint", "a05501.html#a52b4ba451c7a5d90f46ae63b5ac3919b", null ],
+    [ "LineString2D", "a05501.html#a4a6127d0b7f1eecce2d32442325f7735", null ],
+    [ "point", "a05501.html#a081811ff1c2bedd0a20703599f90114f", null ]
 ];

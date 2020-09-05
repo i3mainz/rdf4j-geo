@@ -1,8 +1,8 @@
 var a02785 =
 [
-    [ "MinY", "a02785.html#a62c25b2f0babdfb69b8cfc85a20fdff2", null ],
-    [ "MinY", "a02785.html#a11415c60c910e3d618d3e28b1141563f", null ],
-    [ "clone", "a02785.html#a406ca179976851ce21491d2ec95bfa29", null ],
+    [ "BoundingBox", "a02785.html#a3c620de9265c34f40a1906d0f92c77a3", null ],
+    [ "BoundingBox", "a02785.html#af0725a1816cbe85fd20e2c627b9ff923", null ],
+    [ "clone", "a02785.html#a627080b0fe2a414508b5faba13108498", null ],
     [ "equals", "a02785.html#a8e18a3a952a9e38a9a4191004a30c938", null ],
     [ "hashCode", "a02785.html#a077e18fe97323c7194e2665ffc766399", null ],
     [ "visit", "a02785.html#ace7c41d3761122fda287033559696cdd", null ],

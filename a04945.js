@@ -1,5 +1,5 @@
 var a04945 =
 [
-    [ "read", "a04945.html#a66803126972376969eaa30e5f6b23296", null ],
-    [ "unparse", "a04945.html#aec5340a30306ecc92c5369e267708f73", null ]
+    [ "evaluate", "a04945.html#a43b4c73244bc6722ce551c1033cf1115", null ],
+    [ "getURI", "a04945.html#ad9fb16b36dd4ccc533d4f05ff94646e3", null ]
 ];

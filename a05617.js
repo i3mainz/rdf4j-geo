@@ -1,6 +1,8 @@
 var a05617 =
 [
-    [ "testSridIsGeographicFalse", "a05617.html#abd1395d0581a64740ed1bae57b2882b3", null ],
-    [ "testSridIsGeographicTrue", "a05617.html#a09f0ac6b4b2a063a3d1df32d600b9b11", null ],
-    [ "testPoint", "a05617.html#af26f700ee129f846cac58735f6dcc380", null ]
+    [ "testIsMorePreciseEqual", "a05617.html#af73484f4bc31d84668467514e4c723ab", null ],
+    [ "testIsMorePreciseFirst", "a05617.html#a0472b697feac19fb09cd117d6d4048f2", null ],
+    [ "testIsMorePreciseSecond", "a05617.html#a019fb2f806ef7386d3a5b6411e62ac44", null ],
+    [ "testGeom", "a05617.html#a03a5f5da0ccbeed8c1678d4317cf2672", null ],
+    [ "testGeom2", "a05617.html#a6b4be369c8f60e973cd5126e69cd33a4", null ]
 ];

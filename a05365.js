@@ -1,5 +1,5 @@
 var a05365 =
 [
-    [ "testMinimumRectangle", "a05365.html#a113f2072fe3a9c6603a02548b81f6545", null ],
-    [ "testPolygon", "a05365.html#a1e3187cbc25299380589200c398b3ffd", null ]
+    [ "testIsEmptyFalse", "a05365.html#ad6c1db43fc5b06667b4d7679c36196bf", null ],
+    [ "testIsEmptyTrue", "a05365.html#acf5aa6d804534044ced38ebbf685b780", null ]
 ];

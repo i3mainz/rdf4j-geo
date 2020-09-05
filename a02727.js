@@ -1,5 +1,6 @@
 var a02727 =
 [
-    [ "RescaleTest", "a06254.html", "a06254" ],
-    [ "ResizeTest", "a06258.html", "a06258" ]
+    [ "RastFromCoverageJSONTest", "a06225.html", "a06225" ],
+    [ "RastFromHexWKBTest", "a06229.html", "a06229" ],
+    [ "RastFromWKBTest", "a06233.html", "a06233" ]
 ];

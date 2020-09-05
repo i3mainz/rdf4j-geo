@@ -1,7 +1,7 @@
 var a05481 =
 [
-    [ "testAsText", "a05481.html#a2bc485e1c6e58872aaf6237c16706862", null ],
-    [ "testAsTextZ", "a05481.html#acb072617d87d75036d226b17ec239fad", null ],
-    [ "testGeometry", "a05481.html#abc3f514f005cba49e406658e2d3086eb", null ],
-    [ "testGeometryZ", "a05481.html#a7a113ffd7d8ff98f71b4361ffff21edc", null ]
+    [ "testAddPoint", "a05481.html#a788e3676eaba471d99d698f53d72615c", null ],
+    [ "testAddPointZ", "a05481.html#a688c7bc82b618e3499b6c2e5deee5b37", null ],
+    [ "lineString", "a05481.html#a76e109dc83d6f4d16fcd2fa3e73054f6", null ],
+    [ "point", "a05481.html#a081811ff1c2bedd0a20703599f90114f", null ]
 ];

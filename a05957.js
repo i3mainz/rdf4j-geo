@@ -1,18 +1,7 @@
 var a05957 =
 [
-    [ "getInstance", "a05957.html#af8afdd14b38b523d100805364a48ed63", null ],
-    [ "testDiv", "a05957.html#af62cdb248f1e7f2bb0372adcf20e8557", null ],
-    [ "combinedRasterLiteral", "a05957.html#a6efe8702be34a67e2bcbba55588c5b5f", null ],
-    [ "covJSONString1", "a05957.html#a993e2f127f3ec8f256e9799d77507223", null ],
-    [ "hexwkbString1", "a05957.html#a55fb5b5d665417265da09403128e396e", null ],
-    [ "minwkbString", "a05957.html#aa5e2b5a6005895fc20b9f35523569430", null ],
-    [ "rasterBand", "a05957.html#a44dd712968b2420bbfbf9ae21d476b87", null ],
-    [ "rasterLiteral1", "a05957.html#a77798f856500689412dea069531a7606", null ],
-    [ "rasters", "a05957.html#a2493164c78f27fd06d49475e13906abb", null ],
-    [ "rasterWKB", "a05957.html#a0b58b160a0781303df2d16a468325f8b", null ],
-    [ "wkbString1", "a05957.html#ab31191239807c546a14951cbe0abf83f", null ],
-    [ "wkbString2", "a05957.html#acf429c99afb7dcd123827400ad89a122", null ],
-    [ "wkbString3", "a05957.html#a37e98c0ad3c8af4b9f6eaf8c0a8f557c", null ],
-    [ "wkbString4", "a05957.html#a7454f587563532e0dbe47b119ade3dc4", null ],
-    [ "wkbString5", "a05957.html#a9286e7be98b5e28acfb98dc23ca8cf49", null ]
+    [ "testIsObliqueTriangleFalse", "a05957.html#ac80a489d515561b4fa72bf9548671fec", null ],
+    [ "testIsObliqueTriangleTrue", "a05957.html#a5dab292e852630a1fa1b2124f19480e5", null ],
+    [ "isocelesTriangle", "a05957.html#aa04dfbec745e2622b9f7646f8572e501", null ],
+    [ "notIsocelesTriangle", "a05957.html#a055d99fb63bcee37763ffcf4da9e0521", null ]
 ];

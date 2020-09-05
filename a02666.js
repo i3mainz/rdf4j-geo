@@ -1,5 +1,4 @@
 var a02666 =
 [
-    [ "CreateTopology", "a04722.html", null ],
-    [ "TopologyFromTopoJSON", "a04726.html", null ]
+    [ "TopologyExportFunction", "a04705.html", "a04705" ]
 ];

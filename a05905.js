@@ -1,5 +1,4 @@
 var a05905 =
 [
-    [ "testPolygonFromText", "a05905.html#ab92731bfcc813cfd3d1741c6033a79cb", null ],
-    [ "testPolygon", "a05905.html#a1e3187cbc25299380589200c398b3ffd", null ]
+    [ "testGeneratePoints", "a05905.html#a63588109fc080478770a7d3cc31b245d", null ]
 ];

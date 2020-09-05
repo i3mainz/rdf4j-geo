@@ -1,7 +1,10 @@
 var a05585 =
 [
-    [ "testEPSGToWKT", "a05585.html#a99eeea80e12b47408368dc7163511b31", null ],
-    [ "epsg", "a05585.html#ae984b1b4178b56b80cdb7a80eac64541", null ],
-    [ "epsg4326wkt", "a05585.html#ab74c72298a14045de8026d4c37013974", null ],
-    [ "srid", "a05585.html#a5ffebf384504d11b17aa9c75f4b92024", null ]
+    [ "testEqualSRS", "a05585.html#a65423949d44f9275c8e65852f1d2c21f", null ],
+    [ "testNoSRS", "a05585.html#a9512f8c6cc810712e75379a2ac3af62a", null ],
+    [ "testNotEqualSRS", "a05585.html#a53e030c2e7a0f1d14425a168c2add23b", null ],
+    [ "testGeom", "a05585.html#a03a5f5da0ccbeed8c1678d4317cf2672", null ],
+    [ "testGeom2", "a05585.html#a6b4be369c8f60e973cd5126e69cd33a4", null ],
+    [ "testGeom3", "a05585.html#a800b6bb875a8ff4404ea787c3df125a5", null ],
+    [ "testGeom4", "a05585.html#a4c55e7efe430d6d220fb05524c4bb940", null ]
 ];

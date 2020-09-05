@@ -1,5 +1,6 @@
 var a05705 =
 [
-    [ "testSimplify", "a05705.html#aa558cd336665fb035373b5b11e212cb9", null ],
-    [ "testGeom", "a05705.html#a03a5f5da0ccbeed8c1678d4317cf2672", null ]
+    [ "testEPSGToSRID", "a05705.html#a058152e783dcc1694eb060f5099630b1", null ],
+    [ "epsg", "a05705.html#ae984b1b4178b56b80cdb7a80eac64541", null ],
+    [ "srid", "a05705.html#a5ffebf384504d11b17aa9c75f4b92024", null ]
 ];

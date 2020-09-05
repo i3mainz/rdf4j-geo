@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>rdf4j-postgis: Member List</title>
+<title>rdf4j-postgis: GeomFromGeoJSONTest Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -56,25 +56,87 @@ $(function() {
   </div>
 </div>
 <script type="text/javascript">
-$(document).ready(function(){initNavTree('a05468.html','');});
+$(document).ready(function(){initNavTree('a05465.html','');});
 </script>
 <div id="doc-content">
 <div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-attribs">Static Public Attributes</a> &#124;
+<a href="a05462.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">AsOSMLinkTest Member List</div>  </div>
+<div class="title">GeomFromGeoJSONTest Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+<div class="dynheader">
+Collaboration diagram for GeomFromGeoJSONTest:</div>
+<div class="dyncontent">
+<div class="center"><img src="a05463.png" border="0" usemap="#GeomFromGeoJSONTest_coll__map" alt="Collaboration graph"/></div>
+<map name="GeomFromGeoJSONTest_coll__map" id="GeomFromGeoJSONTest_coll__map">
+</map>
+<center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:a64b3f7b5bcdec5b93820a9958c0622a3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05465.html#a64b3f7b5bcdec5b93820a9958c0622a3">testGeomFromGeoJSON</a> ()  throws ParseException </td></tr>
+<tr class="separator:a64b3f7b5bcdec5b93820a9958c0622a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
+Static Public Attributes</h2></td></tr>
+<tr class="memitem:a117e8ff340791b5aa0658f5840b5dcf4"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05465.html#a117e8ff340791b5aa0658f5840b5dcf4">geoJsonTestGeom</a> =&quot;{\&quot;type\&quot;:\&quot;Point\&quot;,\&quot;coordinates\&quot;:[-48.23456,20.12345]}&quot;</td></tr>
+<tr class="separator:a117e8ff340791b5aa0658f5840b5dcf4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a64b3f7b5bcdec5b93820a9958c0622a3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a64b3f7b5bcdec5b93820a9958c0622a3">&#9670;&nbsp;</a></span>testGeomFromGeoJSON()</h2>
 
-<p>This is the complete list of members for <a class="el" href="a05468.html">AsOSMLinkTest</a>, including all inherited members.</p>
-<table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="a05468.html#a31833fe8b6139bfbdcd328ee943729e2">testAsOSMLink</a>()</td><td class="entry"><a class="el" href="a05468.html">AsOSMLinkTest</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="a05468.html#abc3f514f005cba49e406658e2d3086eb">testGeometry</a></td><td class="entry"><a class="el" href="a05468.html">AsOSMLinkTest</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
-</table></div><!-- contents -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void testGeomFromGeoJSON </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> throws ParseException</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="a03137.html#a43b4c73244bc6722ce551c1033cf1115">GeometricConstructor.evaluate()</a>, <a class="el" href="a05109.html#ae02c2e86ac0dea8538c7b43e9e82421a">WKTDatatype.LiteralIRI</a>, and <a class="el" href="a05045.html#ae02c2e86ac0dea8538c7b43e9e82421a">GeoJSONDatatype.LiteralIRI</a>.</p>
+<div class="fragment"><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;                                                                {</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;                GeomFromGeoJSON instance=<span class="keyword">new</span> GeomFromGeoJSON();</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;                ValueFactory valfac=SimpleValueFactory.getInstance();</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;                Value geo=valfac.createLiteral(<a class="code" href="a05465.html#a117e8ff340791b5aa0658f5840b5dcf4">geoJsonTestGeom</a>, GeoJSONDatatype.LiteralIRI);</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;                Value result=instance.evaluate(valfac,geo);</div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;                Value expResult=valfac.createLiteral(<span class="stringliteral">&quot;POINT (-48.23456 20.12345)&quot;</span>, WKTDatatype.LiteralIRI);</div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;                assertEquals(expResult, result);</div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;        }</div><div class="ttc" id="a05465_html_a117e8ff340791b5aa0658f5840b5dcf4"><div class="ttname"><a href="a05465.html#a117e8ff340791b5aa0658f5840b5dcf4">org.eclipse.rdf4j.testsuites.postgis.geometry.constructor.GeomFromGeoJSONTest.geoJsonTestGeom</a></div><div class="ttdeci">static final String geoJsonTestGeom</div><div class="ttdef"><b>Definition:</b> GeomFromGeoJSONTest.java:17</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a117e8ff340791b5aa0658f5840b5dcf4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a117e8ff340791b5aa0658f5840b5dcf4">&#9670;&nbsp;</a></span>geoJsonTestGeom</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final String geoJsonTestGeom =&quot;{\&quot;type\&quot;:\&quot;Point\&quot;,\&quot;coordinates\&quot;:[-48.23456,20.12345]}&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+</div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.13-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
+    <li class="navelem"><a class="el" href="a02616.html">org</a></li><li class="navelem"><a class="el" href="a02617.html">eclipse</a></li><li class="navelem"><a class="el" href="a02618.html">rdf4j</a></li><li class="navelem"><a class="el" href="a02699.html">testsuites</a></li><li class="navelem"><a class="el" href="a02700.html">postgis</a></li><li class="navelem"><a class="el" href="a02703.html">geometry</a></li><li class="navelem"><a class="el" href="a02704.html">constructor</a></li><li class="navelem"><a class="el" href="a05465.html">GeomFromGeoJSONTest</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>

@@ -1,11 +1,19 @@
 var a05161 =
 [
-    [ "ExtendedPrecisionReader", "a05161.html#a82112ea6921f2d28f7663dfa20ae32c6", null ],
-    [ "readPoint", "a05161.html#a04d3647950410c96c47734decf0e12b5", null ],
-    [ "readPointArray", "a05161.html#a1bbf2e471d2964af19292437ad42729b", null ],
-    [ "hasM", "a05161.html#a1eccf09f4c826ba480ec832ac4ce7718", null ],
-    [ "hasZ", "a05161.html#ab356995ed7cff0226d75484d03a994f2", null ],
-    [ "mPrecisionMultiplier", "a05161.html#a4ea667f57906c038bb9717bc848df77a", null ],
-    [ "precisionMultiplier", "a05161.html#a9aa85be4ec02c28a05cb552845fe08eb", null ],
-    [ "zPrecisionMultiplier", "a05161.html#abb32d6067d519044d8c44d52ab2cdd44", null ]
+    [ "XReader", "a05161.html#a66638412c8e597e7679a49b30d8cc503", null ],
+    [ "isData", "a05161.html#a73f9d3967881e9a41ee9637a1088c45b", null ],
+    [ "isDone", "a05161.html#a552bb801349e980b00cb44160babffeb", null ],
+    [ "isEvent", "a05161.html#ab8a53acb267876925142198a7680c0a7", null ],
+    [ "peek", "a05161.html#a9040fa1d479d71edf3a826f4691c35c4", null ],
+    [ "readDouble", "a05161.html#a840ea5c01770156bd51bdb9f65f44e30", null ],
+    [ "readInt", "a05161.html#ac4dc9964d286ddbbd2a108991190d39d", null ],
+    [ "readKey", "a05161.html#ad63c13e3dc040d1b9a35249edd1839c5", null ],
+    [ "readLat", "a05161.html#ad1c83e20d9757f70ff67315e5af2d823", null ],
+    [ "readLng", "a05161.html#aa705a4be038559a46acb9e3c30eda301", null ],
+    [ "readPoints", "a05161.html#a78f5424018ac75827d519ba60304bbfa", null ],
+    [ "head", "a05161.html#a20358970b1abaf992eb85e071e454653", null ],
+    [ "input", "a05161.html#ac50945c3e4c56b7167ff5ab33c478e42", null ],
+    [ "lat", "a05161.html#ad0c6d3a40d6093204d169a1928ec7fa5", null ],
+    [ "lng", "a05161.html#a8a9f3916588598fe817306c2b2ce3b3c", null ],
+    [ "shpFactory", "a05161.html#a05afdb0d887f04c5eac83dd8132c87b6", null ]
 ];

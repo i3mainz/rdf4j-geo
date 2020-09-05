@@ -1,9 +1,11 @@
 var a05241 =
 [
-    [ "testBBOXLeftOfFalse", "a05241.html#ad8452bac5fb7d65a31413318229e0eeb", null ],
-    [ "testBBOXLeftOfTrue", "a05241.html#a91d3692da3353932d8aebd7a73621805", null ],
-    [ "testGeom1", "a05241.html#aa4a3b1a7e778ece72382f6600fa96b47", null ],
-    [ "testGeom2", "a05241.html#a6b4be369c8f60e973cd5126e69cd33a4", null ],
-    [ "testGeom3", "a05241.html#a800b6bb875a8ff4404ea787c3df125a5", null ],
-    [ "testGeom4", "a05241.html#a4c55e7efe430d6d220fb05524c4bb940", null ]
+    [ "calculate", "a05241.html#a1b9dd1e59eac3a2a15cb68c19e994fe4", null ],
+    [ "checkCoordinate", "a05241.html#a0a01f90a7fe27e3b66f1c87f019e91bc", null ],
+    [ "finalize", "a05241.html#a7626720b9bf807253dd702a0214dc9f0", null ],
+    [ "writeExtendedPrecision", "a05241.html#a320ccd90ec0ef71a4353104b7fe98a1c", null ],
+    [ "writePoint", "a05241.html#adedb1cd853d00648be239477f7fe4e2a", null ],
+    [ "writePointArray", "a05241.html#afeed21e7153170021427b1e7001d952b", null ],
+    [ "precision", "a05241.html#aa95455ed52a8459fad69509a4a0411b5", null ],
+    [ "precisionMultiplier", "a05241.html#a9aa85be4ec02c28a05cb552845fe08eb", null ]
 ];

@@ -1,5 +1,8 @@
 var a05609 =
 [
-    [ "testSridGetDatum", "a05609.html#a9d3a137e39e84c0018de3b734b787554", null ],
-    [ "testPoint", "a05609.html#af26f700ee129f846cac58735f6dcc380", null ]
+    [ "testIntersectionMatrix", "a05609.html#a8537ca55b85b9d59789190d637670f0b", null ],
+    [ "testGeom", "a05609.html#a03a5f5da0ccbeed8c1678d4317cf2672", null ],
+    [ "testGeom2", "a05609.html#a6b4be369c8f60e973cd5126e69cd33a4", null ],
+    [ "testGeom3", "a05609.html#a800b6bb875a8ff4404ea787c3df125a5", null ],
+    [ "testGeom4", "a05609.html#a4c55e7efe430d6d220fb05524c4bb940", null ]
 ];
