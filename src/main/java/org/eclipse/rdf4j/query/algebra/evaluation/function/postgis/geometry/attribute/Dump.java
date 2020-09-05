@@ -20,9 +20,8 @@ public class Dump extends GeometricStringExportFunction {
 	public String operation(org.locationtech.jts.geom.Geometry geom) {
 	     List<String> results = new ArrayList<>(geom.getNumGeometries());
 	     for (int i = 0; i < geom.getNumGeometries(); i++) {
-
 	         Geometry res = geom.getGeometryN(i);
-	         String resString = geom.toText();
+	         String resString = res.toText();
 	         results.add(resString);
 	     }
 	     return String.join(" ", results);
