@@ -206,6 +206,8 @@ public class POSTGIS {
         public static final IRI st_isMeasured=factory.createIRI(NAMESPACE, "ST_IsMeasured");
         public static final IRI st_isMorePrecise=factory.createIRI(NAMESPACE, "ST_IsMorePrecise");
         public static final IRI st_isNodingValid=factory.createIRI(NAMESPACE, "ST_IsNodingValid");
+		public static final IRI st_isObtuse=factory.createIRI(NAMESPACE, "ST_IsObtuse");
+		public static final IRI st_isOblique=factory.createIRI(NAMESPACE, "ST_IsOblique");
 		public static final IRI st_isOpaquePixel=factory.createIRI(NAMESPACE, "ST_IsOpaquePixel");
 		public static final IRI st_isPlanar = factory.createIRI(NAMESPACE, "ST_IsPlanar");
         public static final IRI st_isPointOnLine=factory.createIRI(NAMESPACE, "ST_IsPointOnLine");
@@ -603,6 +605,7 @@ public class POSTGIS {
 		public static final IRI ST_ToDegrees=factory.createIRI(NAMESPACE, "ST_ToDegrees");
 	
 		public static final IRI ST_ToRadians=factory.createIRI(NAMESPACE, "ST_ToRadians");
+
 
 
 

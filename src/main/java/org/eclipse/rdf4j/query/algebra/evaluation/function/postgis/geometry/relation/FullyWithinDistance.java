@@ -16,6 +16,7 @@ public class FullyWithinDistance extends GeometricRelationDoubleBinaryFunction {
 	@Override
 	protected boolean relation(Geometry g1, Geometry g2, Double distance) {
 		double maxdistance=getMaxDistance(g1,g2);
+		System.out.println(distance+" - "+maxdistance);
 		if(distance<=maxdistance) {
 			return true;
 		}

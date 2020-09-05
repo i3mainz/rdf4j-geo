@@ -23,9 +23,9 @@ public class ManhattanDistance extends GeometricRelationDoubleFunction {
 			coord1=geom1.getCentroid().getCoordinate();
 		}
 		if(geom2 instanceof Point) {
-			coord1=((Point)geom2).getCoordinate();
+			coord2=((Point)geom2).getCoordinate();
 		}else {
-			coord1=geom2.getCentroid().getCoordinate();
+			coord2=geom2.getCentroid().getCoordinate();
 		}		
 	    return Math.abs(coord1.x - coord2.x) + Math.abs(coord1.y - coord2.y);       
 	}
