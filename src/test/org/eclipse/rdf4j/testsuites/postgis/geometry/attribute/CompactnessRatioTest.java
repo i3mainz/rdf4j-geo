@@ -13,14 +13,26 @@ import org.locationtech.jts.io.ParseException;
 public class CompactnessRatioTest {
 
 	public static final String testGeometry="POINT(0 0)";
+
+	public static final String testPolygon="POLYGON((0 0 2,0 5 2,5 0 2,0 0 2))";
 	
 	@Test
-	public void testCompactnessRatio() throws ParseException {
+	public void testCompactnessRatioNaN() throws ParseException {
 		CompactnessRatio instance=new CompactnessRatio();
 		ValueFactory valfac=SimpleValueFactory.getInstance();
 		Value geo=valfac.createLiteral(testGeometry, WKTDatatype.LiteralIRI);
 		Value result=instance.evaluate(valfac, geo);
-		Value expResult=valfac.createLiteral(0);
+		Value expResult=valfac.createLiteral(Double.NaN);
+		assertEquals(expResult, result);
+	}
+
+	@Test
+	public void testCompactnessRatio() throws ParseException {
+		CompactnessRatio instance=new CompactnessRatio();
+		ValueFactory valfac=SimpleValueFactory.getInstance();
+		Value geo=valfac.createLiteral(testPolygon, WKTDatatype.LiteralIRI);
+		Value result=instance.evaluate(valfac, geo);
+		Value expResult=valfac.createLiteral(0.7341744237254845);
 		assertEquals(expResult, result);
 	}
 	
