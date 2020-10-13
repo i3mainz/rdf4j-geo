@@ -13,8 +13,6 @@ RUN curl -sS -o /tmp/rdf4j.zip -L http://download.eclipse.org/rdf4j/eclipse-rdf4
 
 RUN mv /opt/eclipse-rdf4j-${RDF4J_VERSION}/war/*.war /usr/local/tomcat/webapps
 
-RUN unzip /usr/local/tomcat/webapps/rdf4j-server.war
-
 RUN echo "CATALINA_OPTS=\"\$CATALINA_OPTS \$JVM_PARAMS -Dorg.eclipse.rdf4j.appdata.basedir=\$RDF4J_DATA\"" >> /usr/local/tomcat/bin/setenv.sh
 
 VOLUME ${RDF4J_DATA}
@@ -41,5 +39,7 @@ ARG SERVICEJSON=""
 RUN rm -rf /usr/local/tomcat/webapps/ROOT/
 
 COPY target/*.jar /opt/eclipse-rdf4j-${RDF4J_VERSION}/lib/
+
+RUN unzip /usr/local/tomcat/webapps/rdf4j-server.war
 
 COPY target/*.jar /usr/local/tomcat/webapps/rdf4j-server/WEB-INF/lib/
