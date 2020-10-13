@@ -68,6 +68,7 @@
         </plugins>
     </build>
  <properties>
+    <maven.test.skip>true</maven.test.skip>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<geotools.version>15.1</geotools.version>
 		  <geotk.version>4.0.4</geotk.version>
