@@ -1,8 +1,5 @@
 var a02685 =
 [
-    [ "GeomCollFromText", "a03296.html", "a03296" ],
-    [ "GeomFromGeoHash", "a03300.html", "a03300" ],
-    [ "GeomFromGeoJSON", "a03304.html", "a03304" ],
-    [ "GeomFromText", "a03308.html", "a03308" ],
-    [ "GeomFromWKB", "a03312.html", "a03312" ]
+    [ "ToDegreesTest", "a05682.html", "a05682" ],
+    [ "ToRadiansTest", "a05686.html", "a05686" ]
 ];

@@ -1,4 +1,4 @@
 var a02666 =
 [
-    [ "POSTGIS", "a02816.html", "a02816" ]
+    [ "raster", "a02667.html", "a02667" ]
 ];

@@ -1,4 +1,4 @@
 var a02664 =
 [
-    [ "ncdc", "a02665.html", "a02665" ]
+    [ "algorithm", "a02663.html", "a02663" ]
 ];

@@ -1,14 +1,16 @@
 var a02676 =
 [
-    [ "aggregate", "a02671.html", "a02671" ],
-    [ "envelope", "a02680.html", "a02680" ],
-    [ "geometry", "a02683.html", "a02683" ],
-    [ "linestring", "a02692.html", "a02692" ],
-    [ "math", "a02698.html", "a02698" ],
-    [ "point", "a02700.html", "a02700" ],
-    [ "polygon", "a02703.html", "a02703" ],
-    [ "raster", "a02709.html", "a02709" ],
-    [ "topo", "a02718.html", "a02718" ],
-    [ "unit", "a02724.html", "a02724" ],
-    [ "util", "a02726.html", "a02726" ]
+    [ "AsBinaryTest", "a05358.html", "a05358" ],
+    [ "AsGARSTest", "a05362.html", "a05362" ],
+    [ "AsGeoJSONTest", "a05366.html", "a05366" ],
+    [ "AsGeoRSSTest", "a05370.html", "a05370" ],
+    [ "AsGeoURITest", "a05374.html", "a05374" ],
+    [ "AsLatLonTextTest", "a05378.html", "a05378" ],
+    [ "AsOSMLinkTest", "a05382.html", "a05382" ],
+    [ "AsPolyshapeTest", "a05386.html", "a05386" ],
+    [ "AsSVGTest", "a05390.html", "a05390" ],
+    [ "AsTextRawTest", "a05394.html", "a05394" ],
+    [ "AsTextRoundTest", "a05398.html", "a05398" ],
+    [ "AsTextTest", "a05402.html", "a05402" ],
+    [ "AsTWKBTest", "a05406.html", "a05406" ]
 ];

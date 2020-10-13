@@ -1,4 +1,5 @@
 var a02658 =
 [
-    [ "semgis", "a02659.html", "a02659" ]
+    [ "Coordinate", "a05098.html", "a05098" ],
+    [ "CoordinateT", "a05106.html", null ]
 ];

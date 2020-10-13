@@ -1,0 +1,8 @@
+<map id="RasterModifierFunction" name="RasterModifierFunction">
+<area shape="rect" id="node3" href="$a04530.html" title="AddBand" alt="" coords="5,155,80,181"/>
+<area shape="rect" id="node4" href="$a04542.html" title="SetRotation" alt="" coords="104,155,195,181"/>
+<area shape="rect" id="node5" href="$a04546.html" title="SetScale" alt="" coords="219,155,293,181"/>
+<area shape="rect" id="node6" href="$a04550.html" title="SetSkew" alt="" coords="317,155,392,181"/>
+<area shape="rect" id="node7" href="$a04554.html" title="SetUpperLeft" alt="" coords="416,155,515,181"/>
+<area shape="rect" id="node8" href="$a04646.html" title="Flip" alt="" coords="539,155,581,181"/>
+</map>

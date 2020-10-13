@@ -1,10 +1,10 @@
 var a02714 =
 [
-    [ "AsCoverageJSON", "a04672.html", "a04672" ],
-    [ "AsGeoTIFF", "a04676.html", "a04676" ],
-    [ "AsGMLCOV", "a04680.html", "a04680" ],
-    [ "AsNetCDF", "a04684.html", "a04684" ],
-    [ "AsPolygon", "a04688.html", null ],
-    [ "AsRastHexWKB", "a04692.html", "a04692" ],
-    [ "AsRastWKB", "a04696.html", "a04696" ]
+    [ "TripleStoreConnection", "a02714.html#a99975d732097fdfe4f47d2964403e230", null ],
+    [ "executeQuery", "a02714.html#afc28007d407dd38599a43837f62668c1", null ],
+    [ "main", "a02714.html#a8b260eecbaabcef8473fd87ada040682", null ],
+    [ "INSTANCE", "a02714.html#a6f5f1a252f13ef259f6f4fa12b72f2a4", null ],
+    [ "modelmap", "a02714.html#a3c4a20fbf4fb24d73799bdd30661d7b0", null ],
+    [ "prefixCollection", "a02714.html#ab228ed3bdfee44797a6b31717ec5022a", null ],
+    [ "repo", "a02714.html#aa988c42c1c1c9f1d313c217ec0b5e2e0", null ]
 ];

@@ -1,9 +1,22 @@
 var a02694 =
 [
-    [ "AddMeasure", "a03824.html", "a03824" ],
-    [ "AddPoint", "a03828.html", "a03828" ],
-    [ "RemovePoint", "a03832.html", "a03832" ],
-    [ "SetEndPoint", "a03836.html", "a03836" ],
-    [ "SetPoint", "a03840.html", "a03840" ],
-    [ "SetStartPoint", "a03844.html", "a03844" ]
+    [ "AddConstTest", "a05858.html", "a05858" ],
+    [ "AddTest", "a05862.html", "a05862" ],
+    [ "AndConstTest", "a05866.html", "a05866" ],
+    [ "AndTest", "a05870.html", "a05870" ],
+    [ "DivConstTest", "a05874.html", "a05874" ],
+    [ "DivTest", "a05878.html", "a05878" ],
+    [ "EqualTest", "a05882.html", "a05882" ],
+    [ "ExpTest", "a05886.html", "a05886" ],
+    [ "InvertTest", "a05890.html", "a05890" ],
+    [ "LogTest", "a05894.html", "a05894" ],
+    [ "MultConstTest", "a05898.html", "a05898" ],
+    [ "MultTest", "a05902.html", "a05902" ],
+    [ "NotTest", "a05906.html", "a05906" ],
+    [ "OrConstTest", "a05910.html", "a05910" ],
+    [ "OrTest", "a05914.html", "a05914" ],
+    [ "SubtractConstTest", "a05918.html", "a05918" ],
+    [ "SubtractTest", "a05922.html", "a05922" ],
+    [ "XorConstTest", "a05926.html", "a05926" ],
+    [ "XorTest", "a05930.html", "a05930" ]
 ];

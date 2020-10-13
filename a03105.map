@@ -1,0 +1,26 @@
+<map id="GeometricDoubleAttributeFunction" name="GeometricDoubleAttributeFunction">
+<area shape="rect" id="node3" href="$a02870.html" title="Calculates the area of the given geometry. " alt="" coords="406,5,455,32"/>
+<area shape="rect" id="node4" href="$a02874.html" title="Area3D" alt="" coords="397,56,464,83"/>
+<area shape="rect" id="node5" href="$a02890.html" title="CompactnessRatio" alt="" coords="363,107,498,133"/>
+<area shape="rect" id="node6" href="$a03002.html" title="Calculates the length of the geometry . " alt="" coords="400,157,461,184"/>
+<area shape="rect" id="node7" href="$a03006.html" title="Calculates the length of a 3D geometry. " alt="" coords="391,208,470,235"/>
+<area shape="rect" id="node8" href="$a03026.html" title="Returns the mininum bounding radius of the minimum bounding circle surrounding the geometry..." alt="" coords="345,259,516,285"/>
+<area shape="rect" id="node9" href="$a03030.html" title="Returns the minimum clearance of this geometry. " alt="" coords="363,309,498,336"/>
+<area shape="rect" id="node10" href="$a03038.html" title="Returns the minimum diameter of the given geometry. " alt="" coords="367,360,495,387"/>
+<area shape="rect" id="node11" href="$a03074.html" title="Returns the perimeter of the given geometry. " alt="" coords="391,411,470,437"/>
+<area shape="rect" id="node12" href="$a03078.html" title="Perimeter3D" alt="" coords="383,461,478,488"/>
+<area shape="rect" id="node13" href="$a03682.html" title="LineLength3D" alt="" coords="379,512,482,539"/>
+<area shape="rect" id="node14" href="$a03890.html" title="Returns the m coordinate of the given point geometry or the m coordinate of the centroid if the geome..." alt="" coords="411,563,450,589"/>
+<area shape="rect" id="node15" href="$a03894.html" title="Returns maximum m coordinate of the given geometry. " alt="" coords="401,613,460,640"/>
+<area shape="rect" id="node16" href="$a03898.html" title="Returns minimum m coordinate of the given geometry. " alt="" coords="403,664,458,691"/>
+<area shape="rect" id="node17" href="$a03906.html" title="Returns the x coordinate of the given point geometry or the x coordinate of the centroid if the geome..." alt="" coords="411,715,450,741"/>
+<area shape="rect" id="node18" href="$a03910.html" title="Returns maximum x coordinate of the given geometry. " alt="" coords="403,765,459,792"/>
+<area shape="rect" id="node19" href="$a03914.html" title="Returns minimum x coordinate of the given geometry. " alt="" coords="405,816,457,843"/>
+<area shape="rect" id="node20" href="$a03918.html" title="Returns the y coordinate of the given point geometry or the y coordinate of the centroid if the geome..." alt="" coords="411,867,450,893"/>
+<area shape="rect" id="node21" href="$a03922.html" title="Returns maximum y coordinate of the given geometry. " alt="" coords="403,917,459,944"/>
+<area shape="rect" id="node22" href="$a03926.html" title="Returns minimum y coordinate of the given geometry. " alt="" coords="405,968,457,995"/>
+<area shape="rect" id="node23" href="$a03930.html" title="Returns the z coordinate of the given point geometry or the z coordinate of the centroid if the geome..." alt="" coords="411,1019,450,1045"/>
+<area shape="rect" id="node24" href="$a03934.html" title="Returns maximum z coordinate of the given geometry. " alt="" coords="403,1069,458,1096"/>
+<area shape="rect" id="node25" href="$a03942.html" title="Returns minimum z coordinate of the given geometry. " alt="" coords="405,1120,456,1147"/>
+<area shape="rect" id="node26" href="$a03978.html" title="Calculates a circularity score for a given polygon. " alt="" coords="390,1171,471,1197"/>
+</map>

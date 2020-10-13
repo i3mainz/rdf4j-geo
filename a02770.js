@@ -1,20 +1,10 @@
 var a02770 =
 [
-    [ "CircularityTest", "a06048.html", "a06048" ],
-    [ "CircumcentreTest", "a06052.html", "a06052" ],
-    [ "HasConnectedInteriorTest", "a06056.html", "a06056" ],
-    [ "HasDuplicateRingsTest", "a06060.html", "a06060" ],
-    [ "IsAcuteTest", "a06064.html", "a06064" ],
-    [ "IsClosedTest", "a06068.html", "a06068" ],
-    [ "IsConvexTest", "a06072.html", "a06072" ],
-    [ "IsEquilateralTriangleTest", "a06076.html", "a06076" ],
-    [ "IsIsocelesTriangleTest", "a06080.html", "a06080" ],
-    [ "IsObliqueTriangleTest", "a06084.html", "a06084" ],
-    [ "IsObtuseTriangleTest", "a06088.html", "a06088" ],
-    [ "IsPolygonCCWTest", "a06092.html", "a06092" ],
-    [ "IsPolygonCWTest", "a06096.html", "a06096" ],
-    [ "IsRightTriangleTest", "a06100.html", "a06100" ],
-    [ "IsTriangleTest", "a06104.html", "a06104" ],
-    [ "NRingsTest", "a06108.html", "a06108" ],
-    [ "NumDistinctInteriorRingsTest", "a06112.html", "a06112" ]
+    [ "MaxY", "a02770.html#a1c6d34345a793350a9be211bf5e4c17a", null ],
+    [ "MaxY", "a02770.html#af3596a7e3ee90355aa1ffed928ef960c", null ],
+    [ "clone", "a02770.html#a49bf4efa9d10429d6f2fda3b4361ec1c", null ],
+    [ "equals", "a02770.html#a8e18a3a952a9e38a9a4191004a30c938", null ],
+    [ "hashCode", "a02770.html#a077e18fe97323c7194e2665ffc766399", null ],
+    [ "visit", "a02770.html#ace7c41d3761122fda287033559696cdd", null ],
+    [ "serialVersionUID", "a02770.html#a3238d314ecdee14d2966760945d00c3b", null ]
 ];
