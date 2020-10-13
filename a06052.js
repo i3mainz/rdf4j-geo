@@ -1,5 +1,6 @@
 var a06052 =
 [
-    [ "testZ", "a06052.html#ac463fcc72b3892f24bbd0dc3b8902044", null ],
-    [ "testPoint", "a06052.html#af26f700ee129f846cac58735f6dcc380", null ]
+    [ "testCircumcentre1", "a06052.html#af8da9616fd1ee304df92759a8b87da02", null ],
+    [ "isocelesTriangle", "a06052.html#aa04dfbec745e2622b9f7646f8572e501", null ],
+    [ "notIsocelesTriangle", "a06052.html#a055d99fb63bcee37763ffcf4da9e0521", null ]
 ];

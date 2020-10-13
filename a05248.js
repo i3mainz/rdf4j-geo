@@ -1,7 +1,14 @@
 var a05248 =
 [
-    [ "Domain", "a05248.html#a16dde71d12e65f5eb3212ad9d217b9ec", null ],
-    [ "axes", "a05248.html#a3e2948cbfb2ebb576837bf965928ca19", null ],
-    [ "domainType", "a05248.html#a0ad70834039cac2147877a6cb16e0428", null ],
-    [ "refSystemConnections", "a05248.html#a3de6140bf3261c64eff359e9014e92cd", null ]
+    [ "Feature", "a05260.html", "a05260" ],
+    [ "FeatureIterable", "a05252.html", "a05252" ],
+    [ "FeatureIterator", "a05256.html", "a05256" ],
+    [ "decode", "a05248.html#aeac0ef15a5dbde26de719ed120f0bae6", null ],
+    [ "decode", "a05248.html#a1c0d64906a835d2288ee30feb7545848", null ],
+    [ "decode", "a05248.html#ac99b1183cf25fdfe9867cb6cc430b532", null ],
+    [ "decode", "a05248.html#aa482114a9e8ad29862090e575092e402", null ],
+    [ "isAutoScale", "a05248.html#a0e526e00d1b2957904d449bc7777d825", null ],
+    [ "setAutoScale", "a05248.html#a8401969dcac5a6db6e988640169b38b4", null ],
+    [ "zigZagDecode", "a05248.html#ae93433e3dbddfef46bfcfad99ea0c45b", null ],
+    [ "autoScale", "a05248.html#a790b272bcf5713954b8582330074dfc8", null ]
 ];

@@ -1,7 +1,7 @@
 var a06084 =
 [
-    [ "testHasDuplicateRingsFalse", "a06084.html#a3957683118b9d5473c635a38d7e6c6e8", null ],
-    [ "testHasDuplicateRingsTrue", "a06084.html#a3779f6b4849bf60c716f7dff71089a2a", null ],
-    [ "duplicateRings", "a06084.html#a92f3ef00fc079a76b7f943d9ed6cec77", null ],
-    [ "nonduplicateRings", "a06084.html#a675a0b1b194538fc07fa716705f883a5", null ]
+    [ "testIsObliqueTriangleFalse", "a06084.html#ac80a489d515561b4fa72bf9548671fec", null ],
+    [ "testIsObliqueTriangleTrue", "a06084.html#a5dab292e852630a1fa1b2124f19480e5", null ],
+    [ "isocelesTriangle", "a06084.html#aa04dfbec745e2622b9f7646f8572e501", null ],
+    [ "notIsocelesTriangle", "a06084.html#a055d99fb63bcee37763ffcf4da9e0521", null ]
 ];

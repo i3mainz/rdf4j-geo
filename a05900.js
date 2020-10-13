@@ -1,7 +1,6 @@
 var a05900 =
 [
-    [ "testMulti2D", "a05900.html#a132a5ee02a51082794ac01f2787422c1", null ],
-    [ "testMulti3D", "a05900.html#afee46817e97b41a801cd7a7acf30e801", null ],
-    [ "testGeometry", "a05900.html#abc3f514f005cba49e406658e2d3086eb", null ],
-    [ "testGeometryZ", "a05900.html#a7a113ffd7d8ff98f71b4361ffff21edc", null ]
+    [ "testShiftLongitude", "a05900.html#a706f714749526b3516c84d5741993811", null ],
+    [ "result", "a05900.html#aab356d6554a7301750f11ec7a85ac47d", null ],
+    [ "testPolygon", "a05900.html#a1e3187cbc25299380589200c398b3ffd", null ]
 ];

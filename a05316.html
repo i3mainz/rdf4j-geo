@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>rdf4j-postgis: RasterIterator Class Reference</title>
+<title>rdf4j-postgis: SampleDimensionType Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -62,541 +62,157 @@ $(document).ready(function(){initNavTree('a05316.html','');});
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pub-static-attribs">Static Public Attributes</a> &#124;
-<a href="#pro-methods">Protected Member Functions</a> &#124;
-<a href="#pro-attribs">Protected Attributes</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
+<a href="#pri-static-attribs">Static Private Attributes</a> &#124;
 <a href="a05313.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">RasterIterator Class Reference</div>  </div>
+<div class="title">SampleDimensionType Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>Specifies the various dimension types for coverage values.  
+ <a href="a05316.html#details">More...</a></p>
 <div class="dynheader">
-Inheritance diagram for RasterIterator:</div>
+Inheritance diagram for SampleDimensionType:</div>
 <div class="dyncontent">
-<div class="center"><img src="a05315.png" border="0" usemap="#RasterIterator_inherit__map" alt="Inheritance graph"/></div>
-<map name="RasterIterator_inherit__map" id="RasterIterator_inherit__map">
-<area shape="rect" id="node2" href="a05320.html" title="RasterUtils" alt="" coords="13,5,101,32"/>
+<div class="center"><img src="a05315.png" border="0" usemap="#SampleDimensionType_inherit__map" alt="Inheritance graph"/></div>
+<map name="SampleDimensionType_inherit__map" id="SampleDimensionType_inherit__map">
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <div class="dynheader">
-Collaboration diagram for RasterIterator:</div>
+Collaboration diagram for SampleDimensionType:</div>
 <div class="dyncontent">
-<div class="center"><img src="a05314.png" border="0" usemap="#RasterIterator_coll__map" alt="Collaboration graph"/></div>
-<map name="RasterIterator_coll__map" id="RasterIterator_coll__map">
-<area shape="rect" id="node2" href="a05320.html" title="RasterUtils" alt="" coords="494,227,582,253"/>
+<div class="center"><img src="a05314.png" border="0" usemap="#SampleDimensionType_coll__map" alt="Collaboration graph"/></div>
+<map name="SampleDimensionType_coll__map" id="SampleDimensionType_coll__map">
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a526abc81f3a9bf276577adb9b9ee9192"><td class="memItemLeft" align="right" valign="top">GridCoverage&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05316.html#a526abc81f3a9bf276577adb9b9ee9192">execute</a> (GridCoverage inputGc)</td></tr>
-<tr class="separator:a526abc81f3a9bf276577adb9b9ee9192"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
-Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a4f05157a54b0178426185bf2ce8b73c3"><td class="memItemLeft" align="right" valign="top">static GridCoverage&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05320.html#a4f05157a54b0178426185bf2ce8b73c3">createGridCoverage</a> (CharSequence name, PlanarImage tiledImage)</td></tr>
-<tr class="separator:a4f05157a54b0178426185bf2ce8b73c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a44e7cb246ae7baf173830aa0c5321aab"><td class="memItemLeft" align="right" valign="top">static double [][]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05320.html#a44e7cb246ae7baf173830aa0c5321aab">getSubMatrix</a> (GridCoordinates pos, int width, int height, double zFactor)</td></tr>
-<tr class="separator:a44e7cb246ae7baf173830aa0c5321aab"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0f4230170759e31e15e5569c580ab98e"><td class="memItemLeft" align="right" valign="top">static double [][]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05320.html#a0f4230170759e31e15e5569c580ab98e">getSubMatrix</a> (GridCoordinates pos, int width, int height)</td></tr>
-<tr class="separator:a0f4230170759e31e15e5569c580ab98e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a864005f8ef404784b699d9d9ebce687c"><td class="memItemLeft" align="right" valign="top">static boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05320.html#a864005f8ef404784b699d9d9ebce687c">compareDouble</a> (double a, double b)</td></tr>
-<tr class="separator:a864005f8ef404784b699d9d9ebce687c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6db76ce8a4258f2d726c9490f72b098b"><td class="memItemLeft" align="right" valign="top">static boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05320.html#a6db76ce8a4258f2d726c9490f72b098b">compareDouble</a> (double a, double b, double rTol)</td></tr>
-<tr class="separator:a6db76ce8a4258f2d726c9490f72b098b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1b3c85ba833df417ff82fe70ff356416"><td class="memItemLeft" align="right" valign="top">static boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05320.html#a1b3c85ba833df417ff82fe70ff356416">compareFloat</a> (float a, float b, float rTol)</td></tr>
-<tr class="separator:a1b3c85ba833df417ff82fe70ff356416"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a740711e7fbdebf3570ec12d15b3260c3"><td class="memItemLeft" align="right" valign="top">static boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05320.html#a740711e7fbdebf3570ec12d15b3260c3">compareFloat</a> (float a, float b)</td></tr>
-<tr class="separator:a740711e7fbdebf3570ec12d15b3260c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeaaf4d39c7b3cf733d53fd480402fa4a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="a05316.html">SampleDimensionType</a> []&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05316.html#aeaaf4d39c7b3cf733d53fd480402fa4a">family</a> ()</td></tr>
+<tr class="memdesc:aeaaf4d39c7b3cf733d53fd480402fa4a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the list of codes of the same kind than this code list element.  <a href="#aeaaf4d39c7b3cf733d53fd480402fa4a">More...</a><br /></td></tr>
+<tr class="separator:aeaaf4d39c7b3cf733d53fd480402fa4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
-<tr class="memitem:ac6d5378ce1565feceb437902e6b1a936"><td class="memItemLeft" align="right" valign="top">static final double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05320.html#ac6d5378ce1565feceb437902e6b1a936">DOUBLE_COMPARE_TOLERANCE</a> = 0.00000001d</td></tr>
-<tr class="memdesc:ac6d5378ce1565feceb437902e6b1a936"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default tolerance for double comparisons: 1.0e-8 = 0.00000001.  <a href="#ac6d5378ce1565feceb437902e6b1a936">More...</a><br /></td></tr>
-<tr class="separator:ac6d5378ce1565feceb437902e6b1a936"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a72cdc44392cccb2a1c10d39a0ed76996"><td class="memItemLeft" align="right" valign="top">static final float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05320.html#a72cdc44392cccb2a1c10d39a0ed76996">FLOAT_COMPARE_TOLERANCE</a> = 0.0001f</td></tr>
-<tr class="memdesc:a72cdc44392cccb2a1c10d39a0ed76996"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default tolerance for float comparisons: 1.0e-4 = 0.0001.  <a href="#a72cdc44392cccb2a1c10d39a0ed76996">More...</a><br /></td></tr>
-<tr class="separator:a72cdc44392cccb2a1c10d39a0ed76996"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab05c9236ffa258b1889bcdb7af336eaf"><td class="memItemLeft" align="right" valign="top">static final <a class="el" href="a05316.html">SampleDimensionType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05316.html#ab05c9236ffa258b1889bcdb7af336eaf">UNSIGNED_1BIT</a> = new <a class="el" href="a05316.html">SampleDimensionType</a>(&quot;UNSIGNED_1BIT&quot;)</td></tr>
+<tr class="memdesc:ab05c9236ffa258b1889bcdb7af336eaf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Unsigned 1 bit integers.  <a href="#ab05c9236ffa258b1889bcdb7af336eaf">More...</a><br /></td></tr>
+<tr class="separator:ab05c9236ffa258b1889bcdb7af336eaf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a21e1d1ca3035d887200d51acf209dd9a"><td class="memItemLeft" align="right" valign="top">static final <a class="el" href="a05316.html">SampleDimensionType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05316.html#a21e1d1ca3035d887200d51acf209dd9a">UNSIGNED_2BITS</a> = new <a class="el" href="a05316.html">SampleDimensionType</a>(&quot;UNSIGNED_2BITS&quot;)</td></tr>
+<tr class="memdesc:a21e1d1ca3035d887200d51acf209dd9a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Unsigned 2 bits integers.  <a href="#a21e1d1ca3035d887200d51acf209dd9a">More...</a><br /></td></tr>
+<tr class="separator:a21e1d1ca3035d887200d51acf209dd9a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae2428a486b2345e3c8dd77be7422ba05"><td class="memItemLeft" align="right" valign="top">static final <a class="el" href="a05316.html">SampleDimensionType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05316.html#ae2428a486b2345e3c8dd77be7422ba05">UNSIGNED_4BITS</a> = new <a class="el" href="a05316.html">SampleDimensionType</a>(&quot;UNSIGNED_4BITS&quot;)</td></tr>
+<tr class="memdesc:ae2428a486b2345e3c8dd77be7422ba05"><td class="mdescLeft">&#160;</td><td class="mdescRight">Unsigned 4 bits integers.  <a href="#ae2428a486b2345e3c8dd77be7422ba05">More...</a><br /></td></tr>
+<tr class="separator:ae2428a486b2345e3c8dd77be7422ba05"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad125fdd898ef56e093ed2c7f246f9179"><td class="memItemLeft" align="right" valign="top">static final <a class="el" href="a05316.html">SampleDimensionType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05316.html#ad125fdd898ef56e093ed2c7f246f9179">UNSIGNED_8BITS</a> = new <a class="el" href="a05316.html">SampleDimensionType</a>(&quot;UNSIGNED_8BITS&quot;)</td></tr>
+<tr class="memdesc:ad125fdd898ef56e093ed2c7f246f9179"><td class="mdescLeft">&#160;</td><td class="mdescRight">Unsigned 8 bits integers.  <a href="#ad125fdd898ef56e093ed2c7f246f9179">More...</a><br /></td></tr>
+<tr class="separator:ad125fdd898ef56e093ed2c7f246f9179"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8325ed259325342303705b314d8862a7"><td class="memItemLeft" align="right" valign="top">static final <a class="el" href="a05316.html">SampleDimensionType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05316.html#a8325ed259325342303705b314d8862a7">SIGNED_8BITS</a> = new <a class="el" href="a05316.html">SampleDimensionType</a>(&quot;SIGNED_8BITS&quot;)</td></tr>
+<tr class="memdesc:a8325ed259325342303705b314d8862a7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Signed 8 bits integers.  <a href="#a8325ed259325342303705b314d8862a7">More...</a><br /></td></tr>
+<tr class="separator:a8325ed259325342303705b314d8862a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0f26f59268649ca0a5ed3cef8d270f16"><td class="memItemLeft" align="right" valign="top">static final <a class="el" href="a05316.html">SampleDimensionType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05316.html#a0f26f59268649ca0a5ed3cef8d270f16">UNSIGNED_16BITS</a> = new <a class="el" href="a05316.html">SampleDimensionType</a>(&quot;UNSIGNED_16BITS&quot;)</td></tr>
+<tr class="memdesc:a0f26f59268649ca0a5ed3cef8d270f16"><td class="mdescLeft">&#160;</td><td class="mdescRight">Unsigned 16 bits integers.  <a href="#a0f26f59268649ca0a5ed3cef8d270f16">More...</a><br /></td></tr>
+<tr class="separator:a0f26f59268649ca0a5ed3cef8d270f16"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a212388497db9120bc7f72dd21cb42155"><td class="memItemLeft" align="right" valign="top">static final <a class="el" href="a05316.html">SampleDimensionType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05316.html#a212388497db9120bc7f72dd21cb42155">SIGNED_16BITS</a> = new <a class="el" href="a05316.html">SampleDimensionType</a>(&quot;SIGNED_16BITS&quot;)</td></tr>
+<tr class="memdesc:a212388497db9120bc7f72dd21cb42155"><td class="mdescLeft">&#160;</td><td class="mdescRight">Signed 16 bits integers.  <a href="#a212388497db9120bc7f72dd21cb42155">More...</a><br /></td></tr>
+<tr class="separator:a212388497db9120bc7f72dd21cb42155"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8c90457fceea81d745b1863f8df3c7e8"><td class="memItemLeft" align="right" valign="top">static final <a class="el" href="a05316.html">SampleDimensionType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05316.html#a8c90457fceea81d745b1863f8df3c7e8">UNSIGNED_32BITS</a> = new <a class="el" href="a05316.html">SampleDimensionType</a>(&quot;UNSIGNED_32BITS&quot;)</td></tr>
+<tr class="memdesc:a8c90457fceea81d745b1863f8df3c7e8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Unsigned 32 bits integers.  <a href="#a8c90457fceea81d745b1863f8df3c7e8">More...</a><br /></td></tr>
+<tr class="separator:a8c90457fceea81d745b1863f8df3c7e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac8f0730059b0c8995cd92b44e7f497bd"><td class="memItemLeft" align="right" valign="top">static final <a class="el" href="a05316.html">SampleDimensionType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05316.html#ac8f0730059b0c8995cd92b44e7f497bd">SIGNED_32BITS</a> = new <a class="el" href="a05316.html">SampleDimensionType</a>(&quot;SIGNED_32BITS&quot;)</td></tr>
+<tr class="memdesc:ac8f0730059b0c8995cd92b44e7f497bd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Signed 32 bits integers.  <a href="#ac8f0730059b0c8995cd92b44e7f497bd">More...</a><br /></td></tr>
+<tr class="separator:ac8f0730059b0c8995cd92b44e7f497bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4661791c7fdef1dd6b7c378997ab136b"><td class="memItemLeft" align="right" valign="top">static final <a class="el" href="a05316.html">SampleDimensionType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05316.html#a4661791c7fdef1dd6b7c378997ab136b">REAL_32BITS</a> = new <a class="el" href="a05316.html">SampleDimensionType</a>(&quot;REAL_32BITS&quot;)</td></tr>
+<tr class="memdesc:a4661791c7fdef1dd6b7c378997ab136b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Simple precision floating point numbers.  <a href="#a4661791c7fdef1dd6b7c378997ab136b">More...</a><br /></td></tr>
+<tr class="separator:a4661791c7fdef1dd6b7c378997ab136b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acf48844a1576a02e799a3d928eee8692"><td class="memItemLeft" align="right" valign="top">static final <a class="el" href="a05316.html">SampleDimensionType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05316.html#acf48844a1576a02e799a3d928eee8692">REAL_64BITS</a> = new <a class="el" href="a05316.html">SampleDimensionType</a>(&quot;REAL_64BITS&quot;)</td></tr>
+<tr class="memdesc:acf48844a1576a02e799a3d928eee8692"><td class="mdescLeft">&#160;</td><td class="mdescRight">Double precision floating point numbers.  <a href="#acf48844a1576a02e799a3d928eee8692">More...</a><br /></td></tr>
+<tr class="separator:acf48844a1576a02e799a3d928eee8692"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
-Protected Member Functions</h2></td></tr>
-<tr class="memitem:aab0010803c99632538c8dc3b737c5ba6"><td class="memItemLeft" align="right" valign="top">GridCoverage&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05320.html#aab0010803c99632538c8dc3b737c5ba6">createGridCoverage</a> (CharSequence name, RenderedImage <a class="el" href="a05320.html#af80fda90f1ef42bed2c95c37b9b7ad36">image</a>, SampleDimension[] bands, double noDataValue, double minValue, double maxValue, Envelope extent)</td></tr>
-<tr class="separator:aab0010803c99632538c8dc3b737c5ba6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaf3b781f5bfe5f51267966bd43e422c3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05320.html#aaf3b781f5bfe5f51267966bd43e422c3">initSurface</a> (GridCoverage gc)</td></tr>
-<tr class="separator:aaf3b781f5bfe5f51267966bd43e422c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:ac4656188dc6dc6d0e4ef66fc034f007a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05316.html#ac4656188dc6dc6d0e4ef66fc034f007a">SampleDimensionType</a> (final String name)</td></tr>
+<tr class="memdesc:ac4656188dc6dc6d0e4ef66fc034f007a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs an element of the given name.  <a href="#ac4656188dc6dc6d0e4ef66fc034f007a">More...</a><br /></td></tr>
+<tr class="separator:ac4656188dc6dc6d0e4ef66fc034f007a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
-Protected Attributes</h2></td></tr>
-<tr class="memitem:a874e59977c453aeaea025f2b4c3a5a92"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05320.html#a874e59977c453aeaea025f2b4c3a5a92">srcNoData</a> = -Float.MAX_VALUE</td></tr>
-<tr class="separator:a874e59977c453aeaea025f2b4c3a5a92"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5a268cd5d527a74b947b5585bb470558"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05320.html#a5a268cd5d527a74b947b5585bb470558">CellSizeX</a> =30.</td></tr>
-<tr class="separator:a5a268cd5d527a74b947b5585bb470558"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9641e50dd63d883753be5c33aef718ee"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05320.html#a9641e50dd63d883753be5c33aef718ee">CellSizeY</a> =30.</td></tr>
-<tr class="separator:a9641e50dd63d883753be5c33aef718ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a78713ac63ea405b8a01db1555048e775"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05320.html#a78713ac63ea405b8a01db1555048e775">_8DX</a> = <a class="el" href="a05320.html#a5a268cd5d527a74b947b5585bb470558">CellSizeX</a> * 8</td></tr>
-<tr class="separator:a78713ac63ea405b8a01db1555048e775"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae368590f4384526a96ad9d5005780ce3"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05320.html#ae368590f4384526a96ad9d5005780ce3">_8DY</a> = <a class="el" href="a05320.html#a9641e50dd63d883753be5c33aef718ee">CellSizeY</a> * 8</td></tr>
-<tr class="separator:ae368590f4384526a96ad9d5005780ce3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af80fda90f1ef42bed2c95c37b9b7ad36"><td class="memItemLeft" align="right" valign="top">PlanarImage&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05320.html#af80fda90f1ef42bed2c95c37b9b7ad36">image</a></td></tr>
-<tr class="separator:af80fda90f1ef42bed2c95c37b9b7ad36"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a93061441dffe3f57f30a5e42f37da1bd"><td class="memItemLeft" align="right" valign="top">java.awt.Rectangle&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05320.html#a93061441dffe3f57f30a5e42f37da1bd">bounds</a></td></tr>
-<tr class="separator:a93061441dffe3f57f30a5e42f37da1bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae69ee17625ec51afd4437e6c12f720ed"><td class="memItemLeft" align="right" valign="top">Envelope&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05320.html#ae69ee17625ec51afd4437e6c12f720ed">Extent</a> = null</td></tr>
-<tr class="separator:ae69ee17625ec51afd4437e6c12f720ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a51ea1a10adff11576d14ff075d6d4552"><td class="memItemLeft" align="right" valign="top">RasterPixelType&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05320.html#a51ea1a10adff11576d14ff075d6d4552">PixelType</a> = RasterPixelType.INTEGER</td></tr>
-<tr class="separator:a51ea1a10adff11576d14ff075d6d4552"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a333a7172753ad52b2212cf6321965185"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05320.html#a333a7172753ad52b2212cf6321965185">NoData</a> = Float.MIN_VALUE</td></tr>
-<tr class="separator:a333a7172753ad52b2212cf6321965185"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a59c703eeb12850919824f1cf3a2064a8"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05320.html#a59c703eeb12850919824f1cf3a2064a8">MinValue</a> = Double.MAX_VALUE</td></tr>
-<tr class="separator:a59c703eeb12850919824f1cf3a2064a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa28e51e4a01ac8d216db75873271634b"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05320.html#aa28e51e4a01ac8d216db75873271634b">MaxValue</a> = Double.MIN_VALUE</td></tr>
-<tr class="separator:aa28e51e4a01ac8d216db75873271634b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-static-attribs"></a>
+Static Private Attributes</h2></td></tr>
+<tr class="memitem:ae6664f693fbc6259d4f449ce5e918c87"><td class="memItemLeft" align="right" valign="top">static final List&lt; <a class="el" href="a05316.html">SampleDimensionType</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05316.html#ae6664f693fbc6259d4f449ce5e918c87">VALUES</a> = new ArrayList&lt;<a class="el" href="a05316.html">SampleDimensionType</a>&gt;(11)</td></tr>
+<tr class="memdesc:ae6664f693fbc6259d4f449ce5e918c87"><td class="mdescLeft">&#160;</td><td class="mdescRight">List of all enumerations of this type.  <a href="#ae6664f693fbc6259d4f449ce5e918c87">More...</a><br /></td></tr>
+<tr class="separator:ae6664f693fbc6259d4f449ce5e918c87"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Specifies the various dimension types for coverage values. </p>
+<p>For grid coverages, these correspond to band types.</p>
+<dl class="deprecated"><dt><b><a class="el" href="a02654.html#_deprecated000001">Deprecated:</a></b></dt><dd>This is a legacy type from OGC <a href="http://www.opengis.org/docs/01-004.pdf">Grid Coverages Implementation specification 1.0</a>.</dd></dl>
+<dl class="section author"><dt>Author</dt><dd>Martin Desruisseaux (IRD) </dd></dl>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="ac4656188dc6dc6d0e4ef66fc034f007a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac4656188dc6dc6d0e4ef66fc034f007a">&#9670;&nbsp;</a></span>SampleDimensionType()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="a05316.html">SampleDimensionType</a> </td>
+          <td>(</td>
+          <td class="paramtype">final String&#160;</td>
+          <td class="paramname"><em>name</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Constructs an element of the given name. </p>
+<p>The new element is automatically added to the list returned by <a class="el" href="">values()</a>.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">name</td><td>the name of the new element. </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="fragment"><div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;                                                   {</div><div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;        super(name, <a class="code" href="a05316.html#ae6664f693fbc6259d4f449ce5e918c87">VALUES</a>);</div><div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;    }</div><div class="ttc" id="a05316_html_ae6664f693fbc6259d4f449ce5e918c87"><div class="ttname"><a href="a05316.html#ae6664f693fbc6259d4f449ce5e918c87">org.geotoolkit.coverage.SampleDimensionType.VALUES</a></div><div class="ttdeci">static final List&lt; SampleDimensionType &gt; VALUES</div><div class="ttdoc">List of all enumerations of this type. </div><div class="ttdef"><b>Definition:</b> SampleDimensionType.java:28</div></div>
+</div><!-- fragment -->
+</div>
+</div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a864005f8ef404784b699d9d9ebce687c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a864005f8ef404784b699d9d9ebce687c">&#9670;&nbsp;</a></span>compareDouble() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static boolean compareDouble </td>
-          <td>(</td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>a</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>b</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">inherited</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="a05320.html#a44e7cb246ae7baf173830aa0c5321aab">RasterUtils.getSubMatrix()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;                                                                 {</div><div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;                <span class="keywordflow">return</span> <a class="code" href="a05320.html#a864005f8ef404784b699d9d9ebce687c">compareDouble</a>(a, b, <a class="code" href="a05320.html#ac6d5378ce1565feceb437902e6b1a936">DOUBLE_COMPARE_TOLERANCE</a>);</div><div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;            }</div><div class="ttc" id="a05320_html_a864005f8ef404784b699d9d9ebce687c"><div class="ttname"><a href="a05320.html#a864005f8ef404784b699d9d9ebce687c">org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.RasterUtils.compareDouble</a></div><div class="ttdeci">static boolean compareDouble(double a, double b)</div><div class="ttdef"><b>Definition:</b> RasterUtils.java:134</div></div>
-<div class="ttc" id="a05320_html_ac6d5378ce1565feceb437902e6b1a936"><div class="ttname"><a href="a05320.html#ac6d5378ce1565feceb437902e6b1a936">org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.RasterUtils.DOUBLE_COMPARE_TOLERANCE</a></div><div class="ttdeci">static final double DOUBLE_COMPARE_TOLERANCE</div><div class="ttdoc">Default tolerance for double comparisons: 1.0e-8 = 0.00000001. </div><div class="ttdef"><b>Definition:</b> RasterUtils.java:24</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a6db76ce8a4258f2d726c9490f72b098b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6db76ce8a4258f2d726c9490f72b098b">&#9670;&nbsp;</a></span>compareDouble() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static boolean compareDouble </td>
-          <td>(</td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>a</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>b</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>rTol</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">inherited</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;                                                                              {</div><div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;                <span class="keyword">final</span> <span class="keywordtype">double</span> aTol = 0.00000001;</div><div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;</div><div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;                <span class="keywordflow">if</span> (Math.abs(a - b) &lt; aTol + (rTol * Math.abs(b))) {</div><div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;                    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div><div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;                }</div><div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;</div><div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;                <span class="keywordflow">return</span> <span class="keyword">false</span>;</div><div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;            }</div></div><!-- fragment -->
-</div>
-</div>
-<a id="a1b3c85ba833df417ff82fe70ff356416"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1b3c85ba833df417ff82fe70ff356416">&#9670;&nbsp;</a></span>compareFloat() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static boolean compareFloat </td>
-          <td>(</td>
-          <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>a</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>b</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>rTol</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">inherited</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="a05320.html#a740711e7fbdebf3570ec12d15b3260c3">RasterUtils.compareFloat()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;                                                                             {</div><div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;                <span class="keyword">final</span> <span class="keywordtype">float</span> aTol = 0.0001f;</div><div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;</div><div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;                <span class="keywordflow">if</span> (Math.abs(a - b) &lt; aTol + (rTol * Math.abs(b))) {</div><div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;                    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div><div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;                }</div><div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;</div><div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;                <span class="keywordflow">return</span> <span class="keyword">false</span>;</div><div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;            }</div></div><!-- fragment -->
-</div>
-</div>
-<a id="a740711e7fbdebf3570ec12d15b3260c3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a740711e7fbdebf3570ec12d15b3260c3">&#9670;&nbsp;</a></span>compareFloat() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static boolean compareFloat </td>
-          <td>(</td>
-          <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>a</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>b</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">inherited</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="reference">References <a class="el" href="a05320.html#a1b3c85ba833df417ff82fe70ff356416">RasterUtils.compareFloat()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;                                                                 {</div><div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;                <span class="keywordflow">return</span> <a class="code" href="a05320.html#a1b3c85ba833df417ff82fe70ff356416">compareFloat</a>(a, b, <a class="code" href="a05320.html#a72cdc44392cccb2a1c10d39a0ed76996">FLOAT_COMPARE_TOLERANCE</a>);</div><div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;            }</div><div class="ttc" id="a05320_html_a1b3c85ba833df417ff82fe70ff356416"><div class="ttname"><a href="a05320.html#a1b3c85ba833df417ff82fe70ff356416">org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.RasterUtils.compareFloat</a></div><div class="ttdeci">static boolean compareFloat(float a, float b, float rTol)</div><div class="ttdef"><b>Definition:</b> RasterUtils.java:148</div></div>
-<div class="ttc" id="a05320_html_a72cdc44392cccb2a1c10d39a0ed76996"><div class="ttname"><a href="a05320.html#a72cdc44392cccb2a1c10d39a0ed76996">org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.RasterUtils.FLOAT_COMPARE_TOLERANCE</a></div><div class="ttdeci">static final float FLOAT_COMPARE_TOLERANCE</div><div class="ttdoc">Default tolerance for float comparisons: 1.0e-4 = 0.0001. </div><div class="ttdef"><b>Definition:</b> RasterUtils.java:27</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a4f05157a54b0178426185bf2ce8b73c3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4f05157a54b0178426185bf2ce8b73c3">&#9670;&nbsp;</a></span>createGridCoverage() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static GridCoverage createGridCoverage </td>
-          <td>(</td>
-          <td class="paramtype">CharSequence&#160;</td>
-          <td class="paramname"><em>name</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">PlanarImage&#160;</td>
-          <td class="paramname"><em>tiledImage</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">inherited</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="a05316.html#a526abc81f3a9bf276577adb9b9ee9192">RasterIterator.execute()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;                                                                                             {</div><div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="a05320.html#a4f05157a54b0178426185bf2ce8b73c3">createGridCoverage</a>(name, tiledImage, 1, <a class="code" href="a05320.html#a333a7172753ad52b2212cf6321965185">NoData</a>, <a class="code" href="a05320.html#a59c703eeb12850919824f1cf3a2064a8">MinValue</a>, <a class="code" href="a05320.html#aa28e51e4a01ac8d216db75873271634b">MaxValue</a>, <a class="code" href="a05320.html#ae69ee17625ec51afd4437e6c12f720ed">Extent</a>);</div><div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    }</div><div class="ttc" id="a05320_html_ae69ee17625ec51afd4437e6c12f720ed"><div class="ttname"><a href="a05320.html#ae69ee17625ec51afd4437e6c12f720ed">org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.RasterUtils.Extent</a></div><div class="ttdeci">Envelope Extent</div><div class="ttdef"><b>Definition:</b> RasterUtils.java:46</div></div>
-<div class="ttc" id="a05320_html_a59c703eeb12850919824f1cf3a2064a8"><div class="ttname"><a href="a05320.html#a59c703eeb12850919824f1cf3a2064a8">org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.RasterUtils.MinValue</a></div><div class="ttdeci">double MinValue</div><div class="ttdef"><b>Definition:</b> RasterUtils.java:52</div></div>
-<div class="ttc" id="a05320_html_a333a7172753ad52b2212cf6321965185"><div class="ttname"><a href="a05320.html#a333a7172753ad52b2212cf6321965185">org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.RasterUtils.NoData</a></div><div class="ttdeci">double NoData</div><div class="ttdef"><b>Definition:</b> RasterUtils.java:50</div></div>
-<div class="ttc" id="a05320_html_a4f05157a54b0178426185bf2ce8b73c3"><div class="ttname"><a href="a05320.html#a4f05157a54b0178426185bf2ce8b73c3">org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.RasterUtils.createGridCoverage</a></div><div class="ttdeci">static GridCoverage createGridCoverage(CharSequence name, PlanarImage tiledImage)</div><div class="ttdef"><b>Definition:</b> RasterUtils.java:57</div></div>
-<div class="ttc" id="a05320_html_aa28e51e4a01ac8d216db75873271634b"><div class="ttname"><a href="a05320.html#aa28e51e4a01ac8d216db75873271634b">org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.RasterUtils.MaxValue</a></div><div class="ttdeci">double MaxValue</div><div class="ttdef"><b>Definition:</b> RasterUtils.java:54</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="aab0010803c99632538c8dc3b737c5ba6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aab0010803c99632538c8dc3b737c5ba6">&#9670;&nbsp;</a></span>createGridCoverage() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">GridCoverage createGridCoverage </td>
-          <td>(</td>
-          <td class="paramtype">CharSequence&#160;</td>
-          <td class="paramname"><em>name</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">RenderedImage&#160;</td>
-          <td class="paramname"><em>image</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">SampleDimension []&#160;</td>
-          <td class="paramname"><em>bands</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>noDataValue</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>minValue</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>maxValue</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">Envelope&#160;</td>
-          <td class="paramname"><em>extent</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">inherited</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;                             {</div><div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;</div><div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="a05320.html#af80fda90f1ef42bed2c95c37b9b7ad36">image</a> == null || extent == null) {</div><div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;            <span class="keywordflow">throw</span> <span class="keyword">new</span> NullPointerException(<span class="stringliteral">&quot;WritableRaster is null!&quot;</span>);</div><div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;        }</div><div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;</div><div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;        <span class="keywordflow">if</span> (noDataValue == minValue) {</div><div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;            noDataValue = minValue - 1;</div><div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;        } <span class="keywordflow">else</span> <span class="keywordflow">if</span> (noDataValue == maxValue) {</div><div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;            noDataValue = maxValue + 1;</div><div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;        } <span class="keywordflow">else</span> <span class="keywordflow">if</span> (noDataValue &gt; minValue &amp;&amp; noDataValue &lt; maxValue) {</div><div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;            noDataValue = minValue - 1;</div><div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;        }</div><div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;</div><div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;        CharSequence noDataName = Vocabulary.formatInternational(VocabularyKeys.NODATA);</div><div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;</div><div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;        <span class="comment">// setting metadata</span></div><div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;        <span class="keyword">final</span> Map&lt;CharSequence, Double&gt; properties = <span class="keyword">new</span> HashMap&lt;CharSequence, Double&gt;();</div><div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;        properties.put(<span class="stringliteral">&quot;Maximum&quot;</span>, Double.valueOf(maxValue));</div><div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;        properties.put(<span class="stringliteral">&quot;Minimum&quot;</span>, Double.valueOf(minValue));</div><div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;        <span class="comment">// properties.put(&quot;Mean&quot;, 1.0);</span></div><div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;        <span class="comment">// properties.put(&quot;StdDev&quot;, 1.0);</span></div><div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;        properties.put(noDataName, Double.valueOf(noDataValue));</div><div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;        properties.put(<span class="stringliteral">&quot;GC_NODATA&quot;</span>, Double.valueOf(noDataValue));</div><div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;</div><div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;        GridCoverageFactory factory = CoverageFactoryFinder.getGridCoverageFactory(null);</div><div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;        <span class="keywordflow">return</span> factory.create(name, <a class="code" href="a05320.html#af80fda90f1ef42bed2c95c37b9b7ad36">image</a>, extent, bands, null, properties);</div><div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;    }</div><div class="ttc" id="a05320_html_af80fda90f1ef42bed2c95c37b9b7ad36"><div class="ttname"><a href="a05320.html#af80fda90f1ef42bed2c95c37b9b7ad36">org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.RasterUtils.image</a></div><div class="ttdeci">PlanarImage image</div><div class="ttdef"><b>Definition:</b> RasterUtils.java:38</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a526abc81f3a9bf276577adb9b9ee9192"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a526abc81f3a9bf276577adb9b9ee9192">&#9670;&nbsp;</a></span>execute()</h2>
+<a id="aeaaf4d39c7b3cf733d53fd480402fa4a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeaaf4d39c7b3cf733d53fd480402fa4a">&#9670;&nbsp;</a></span>family()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">GridCoverage execute </td>
+          <td class="memname"><a class="el" href="a05316.html">SampleDimensionType</a> [] family </td>
           <td>(</td>
-          <td class="paramtype">GridCoverage&#160;</td>
-          <td class="paramname"><em>inputGc</em></td><td>)</td>
+          <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="a05320.html#a93061441dffe3f57f30a5e42f37da1bd">RasterUtils.bounds</a>, <a class="el" href="a05320.html#a4f05157a54b0178426185bf2ce8b73c3">RasterUtils.createGridCoverage()</a>, and <a class="el" href="a05320.html#aaf3b781f5bfe5f51267966bd43e422c3">RasterUtils.initSurface()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;                                                              {         </div><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;                <a class="code" href="a05320.html#aaf3b781f5bfe5f51267966bd43e422c3">initSurface</a>(inputGc);</div><div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;</div><div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;                DiskMemImage outputImage = this.createDiskMemImage(inputGc, RasterPixelType.FLOAT);</div><div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;                WritableRectIter writer = RectIterFactory.createWritable(outputImage,</div><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;                        outputImage.getBounds());</div><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;</div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;                GridCoordinates pos = <span class="keyword">new</span> GridCoordinates();</div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;                <span class="keywordtype">int</span> y = <a class="code" href="a05320.html#a93061441dffe3f57f30a5e42f37da1bd">bounds</a>.y;</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;                writer.startLines();</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;                <span class="keywordflow">while</span> (!writer.finishedLines()) {</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;                    <span class="keywordtype">int</span> x = <a class="code" href="a05320.html#a93061441dffe3f57f30a5e42f37da1bd">bounds</a>.x;</div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;                    writer.startPixels();</div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;                    <span class="keywordflow">while</span> (!writer.finishedPixels()) {</div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;                        pos.setLocation(x, y);</div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;</div><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;                        visitTPI(writer, pos);</div><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;</div><div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;                        writer.nextPixel();</div><div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;                        x++;</div><div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;                    }</div><div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;</div><div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;                    writer.nextLine();</div><div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;                    y++;</div><div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;                }</div><div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;</div><div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;                <span class="keywordflow">return</span> <a class="code" href="a05320.html#a4f05157a54b0178426185bf2ce8b73c3">createGridCoverage</a>(<span class="stringliteral">&quot;TPI&quot;</span>, outputImage);</div><div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;            }</div><div class="ttc" id="a05320_html_a93061441dffe3f57f30a5e42f37da1bd"><div class="ttname"><a href="a05320.html#a93061441dffe3f57f30a5e42f37da1bd">org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.RasterUtils.bounds</a></div><div class="ttdeci">java.awt.Rectangle bounds</div><div class="ttdef"><b>Definition:</b> RasterUtils.java:40</div></div>
-<div class="ttc" id="a05320_html_aaf3b781f5bfe5f51267966bd43e422c3"><div class="ttname"><a href="a05320.html#aaf3b781f5bfe5f51267966bd43e422c3">org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.RasterUtils.initSurface</a></div><div class="ttdeci">void initSurface(GridCoverage gc)</div><div class="ttdef"><b>Definition:</b> RasterUtils.java:114</div></div>
-<div class="ttc" id="a05320_html_a4f05157a54b0178426185bf2ce8b73c3"><div class="ttname"><a href="a05320.html#a4f05157a54b0178426185bf2ce8b73c3">org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.RasterUtils.createGridCoverage</a></div><div class="ttdeci">static GridCoverage createGridCoverage(CharSequence name, PlanarImage tiledImage)</div><div class="ttdef"><b>Definition:</b> RasterUtils.java:57</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a44e7cb246ae7baf173830aa0c5321aab"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a44e7cb246ae7baf173830aa0c5321aab">&#9670;&nbsp;</a></span>getSubMatrix() <span class="overload">[1/2]</span></h2>
+<p>Returns the list of codes of the same kind than this code list element. </p>
+<p>Invoking this method is equivalent to invoking <a class="el" href="">values()</a>, except that this method can be invoked on an instance of the parent</p><div class="fragment"><div class="line">CodeList </div></div><!-- fragment --><p> class.</p>
+<dl class="section return"><dt>Returns</dt><dd>all code  #values() values} for this code list. </dd></dl>
 
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static double [][] getSubMatrix </td>
-          <td>(</td>
-          <td class="paramtype">GridCoordinates&#160;</td>
-          <td class="paramname"><em>pos</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>width</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>height</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>zFactor</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">inherited</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="reference">References <a class="el" href="a05320.html#a93061441dffe3f57f30a5e42f37da1bd">RasterUtils.bounds</a>, and <a class="el" href="a05320.html#a864005f8ef404784b699d9d9ebce687c">RasterUtils.compareDouble()</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="a05320.html#a0f4230170759e31e15e5569c580ab98e">RasterUtils.getSubMatrix()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;                                                                                                          {</div><div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;        <span class="keywordtype">int</span> posX = width / 2;</div><div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;        <span class="keywordtype">int</span> posY = height / 2;</div><div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;</div><div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;        <span class="comment">// upper-left corner</span></div><div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;        GridCoordinates ulPos = <span class="keyword">new</span> GridCoordinates(pos.x - posX, pos.y - posY);</div><div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;        Rectangle rect = <span class="keyword">new</span> Rectangle(ulPos.x, ulPos.y, width, height);</div><div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;</div><div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;        Raster subsetRs = <a class="code" href="a05320.html#af80fda90f1ef42bed2c95c37b9b7ad36">image</a>.getData(rect);</div><div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;</div><div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;        <span class="keywordtype">boolean</span> hasNAN = <span class="keyword">false</span>;</div><div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;        <span class="keywordtype">double</span>[][] mx = <span class="keyword">new</span> <span class="keywordtype">double</span>[width][height];</div><div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;        <span class="keywordflow">for</span> (<span class="keywordtype">int</span> dy = ulPos.y, row = 0; row &lt; height; dy++, row++) {</div><div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;            <span class="keywordflow">for</span> (<span class="keywordtype">int</span> dx = ulPos.x, col = 0; col &lt; width; dx++, col++) {</div><div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;                <span class="keywordflow">if</span> (dx &lt; <a class="code" href="a05320.html#a93061441dffe3f57f30a5e42f37da1bd">bounds</a>.x || dy &lt; bounds.y || dx &gt;= <a class="code" href="a05320.html#a054e332f5e7550eed6be976d79c4b452">maxCol</a> || dy &gt;= <a class="code" href="a05320.html#a309f4c3384b81702843b9437d4bda9c6">maxRow</a>) {</div><div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;                    mx[col][row] = Double.NaN;</div><div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;                    hasNAN = <span class="keyword">true</span>;</div><div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;                } <span class="keywordflow">else</span> {</div><div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;                    <span class="keywordtype">double</span> ret = subsetRs.getSampleDouble(dx, dy, 0);</div><div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;                    <span class="keywordflow">if</span> (RasterUtils.compareDouble(ret, <span class="keyword">this</span>.srcNoData)) {</div><div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;                        mx[col][row] = Double.NaN;</div><div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;                        hasNAN = <span class="keyword">true</span>;</div><div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;                    } <span class="keywordflow">else</span> {</div><div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;                        mx[col][row] = ret * zFactor;</div><div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;                    }</div><div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;                }</div><div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;            }</div><div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;        }</div><div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;</div><div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;        <span class="keywordflow">if</span> (Double.isNaN(mx[1][1])) {</div><div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;            <span class="keywordflow">return</span> mx;</div><div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;        }</div><div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;</div><div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;        <span class="comment">// http://help.arcgis.com/en/arcgisdesktop/10.0/help/index.html#/How_Slope_works/009z000000vz000000/</span></div><div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;        <span class="comment">// If any neighborhood cells are NoData, they are assigned the value of the center cell;</span></div><div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;        <span class="comment">// then the slope is computed.</span></div><div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;        <span class="keywordflow">if</span> (hasNAN) {</div><div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;            <span class="keywordflow">for</span> (<span class="keywordtype">int</span> drow = 0; drow &lt; height; drow++) {</div><div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;                <span class="keywordflow">for</span> (<span class="keywordtype">int</span> dcol = 0; dcol &lt; width; dcol++) {</div><div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;                    <span class="keywordflow">if</span> (Double.isNaN(mx[dcol][drow])) {</div><div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;                        mx[dcol][drow] = mx[1][1];</div><div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;                    }</div><div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;                }</div><div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;            }</div><div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;        }</div><div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;</div><div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;        <span class="keywordflow">return</span> mx;</div><div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;    }</div><div class="ttc" id="a05320_html_a93061441dffe3f57f30a5e42f37da1bd"><div class="ttname"><a href="a05320.html#a93061441dffe3f57f30a5e42f37da1bd">org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.RasterUtils.bounds</a></div><div class="ttdeci">java.awt.Rectangle bounds</div><div class="ttdef"><b>Definition:</b> RasterUtils.java:40</div></div>
-<div class="ttc" id="a05320_html_a309f4c3384b81702843b9437d4bda9c6"><div class="ttname"><a href="a05320.html#a309f4c3384b81702843b9437d4bda9c6">org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.RasterUtils.maxRow</a></div><div class="ttdeci">int maxRow</div><div class="ttdef"><b>Definition:</b> RasterUtils.java:44</div></div>
-<div class="ttc" id="a05320_html_a054e332f5e7550eed6be976d79c4b452"><div class="ttname"><a href="a05320.html#a054e332f5e7550eed6be976d79c4b452">org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.RasterUtils.maxCol</a></div><div class="ttdeci">int maxCol</div><div class="ttdef"><b>Definition:</b> RasterUtils.java:42</div></div>
-<div class="ttc" id="a05320_html_af80fda90f1ef42bed2c95c37b9b7ad36"><div class="ttname"><a href="a05320.html#af80fda90f1ef42bed2c95c37b9b7ad36">org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.RasterUtils.image</a></div><div class="ttdeci">PlanarImage image</div><div class="ttdef"><b>Definition:</b> RasterUtils.java:38</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a0f4230170759e31e15e5569c580ab98e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0f4230170759e31e15e5569c580ab98e">&#9670;&nbsp;</a></span>getSubMatrix() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static double [][] getSubMatrix </td>
-          <td>(</td>
-          <td class="paramtype">GridCoordinates&#160;</td>
-          <td class="paramname"><em>pos</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>width</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>height</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">inherited</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="reference">References <a class="el" href="a05320.html#a44e7cb246ae7baf173830aa0c5321aab">RasterUtils.getSubMatrix()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;                                                                                           {</div><div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;                <span class="keywordflow">return</span> <a class="code" href="a05320.html#a44e7cb246ae7baf173830aa0c5321aab">getSubMatrix</a>(pos, width, height, 1.0);</div><div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;            }</div><div class="ttc" id="a05320_html_a44e7cb246ae7baf173830aa0c5321aab"><div class="ttname"><a href="a05320.html#a44e7cb246ae7baf173830aa0c5321aab">org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.RasterUtils.getSubMatrix</a></div><div class="ttdeci">static double [][] getSubMatrix(GridCoordinates pos, int width, int height, double zFactor)</div><div class="ttdef"><b>Definition:</b> RasterUtils.java:61</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="aaf3b781f5bfe5f51267966bd43e422c3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aaf3b781f5bfe5f51267966bd43e422c3">&#9670;&nbsp;</a></span>initSurface()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void initSurface </td>
-          <td>(</td>
-          <td class="paramtype">GridCoverage&#160;</td>
-          <td class="paramname"><em>gc</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">inherited</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="reference">References <a class="el" href="a05320.html#a93061441dffe3f57f30a5e42f37da1bd">RasterUtils.bounds</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="a05316.html#a526abc81f3a9bf276577adb9b9ee9192">RasterIterator.execute()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;                                                     {</div><div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;                GridGeometry gridGeometry2D = gc.getGridGeometry();</div><div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;                AffineTransform gridToWorld = (AffineTransform) gridGeometry2D.getGridToCRS2D();</div><div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;</div><div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;                <a class="code" href="a05320.html#a5a268cd5d527a74b947b5585bb470558">CellSizeX</a> = Math.abs(gridToWorld.getScaleX());</div><div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;                <a class="code" href="a05320.html#a9641e50dd63d883753be5c33aef718ee">CellSizeY</a> = Math.abs(gridToWorld.getScaleY());</div><div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;</div><div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;                <a class="code" href="a05320.html#a874e59977c453aeaea025f2b4c3a5a92">srcNoData</a> = RasterHelper.getNoDataValue(gc);</div><div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;                <a class="code" href="a05320.html#a333a7172753ad52b2212cf6321965185">NoData</a> = -9999;</div><div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;</div><div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;                <a class="code" href="a05320.html#a78713ac63ea405b8a01db1555048e775">_8DX</a> = <a class="code" href="a05320.html#a5a268cd5d527a74b947b5585bb470558">CellSizeX</a> * 8;</div><div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;                <a class="code" href="a05320.html#ae368590f4384526a96ad9d5005780ce3">_8DY</a> = <a class="code" href="a05320.html#a9641e50dd63d883753be5c33aef718ee">CellSizeY</a> * 8;</div><div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;</div><div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;                <a class="code" href="a05320.html#af80fda90f1ef42bed2c95c37b9b7ad36">image</a> = (PlanarImage) gc.getRenderedImage();</div><div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;                <a class="code" href="a05320.html#a93061441dffe3f57f30a5e42f37da1bd">bounds</a> = <a class="code" href="a05320.html#af80fda90f1ef42bed2c95c37b9b7ad36">image</a>.getBounds();</div><div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;</div><div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;                <a class="code" href="a05320.html#a054e332f5e7550eed6be976d79c4b452">maxCol</a> = <a class="code" href="a05320.html#a93061441dffe3f57f30a5e42f37da1bd">bounds</a>.x + <a class="code" href="a05320.html#af80fda90f1ef42bed2c95c37b9b7ad36">image</a>.getWidth();</div><div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;                <a class="code" href="a05320.html#a309f4c3384b81702843b9437d4bda9c6">maxRow</a> = <a class="code" href="a05320.html#a93061441dffe3f57f30a5e42f37da1bd">bounds</a>.y + <a class="code" href="a05320.html#af80fda90f1ef42bed2c95c37b9b7ad36">image</a>.getHeight();</div><div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;            }</div><div class="ttc" id="a05320_html_a874e59977c453aeaea025f2b4c3a5a92"><div class="ttname"><a href="a05320.html#a874e59977c453aeaea025f2b4c3a5a92">org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.RasterUtils.srcNoData</a></div><div class="ttdeci">double srcNoData</div><div class="ttdef"><b>Definition:</b> RasterUtils.java:21</div></div>
-<div class="ttc" id="a05320_html_a93061441dffe3f57f30a5e42f37da1bd"><div class="ttname"><a href="a05320.html#a93061441dffe3f57f30a5e42f37da1bd">org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.RasterUtils.bounds</a></div><div class="ttdeci">java.awt.Rectangle bounds</div><div class="ttdef"><b>Definition:</b> RasterUtils.java:40</div></div>
-<div class="ttc" id="a05320_html_a78713ac63ea405b8a01db1555048e775"><div class="ttname"><a href="a05320.html#a78713ac63ea405b8a01db1555048e775">org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.RasterUtils._8DX</a></div><div class="ttdeci">double _8DX</div><div class="ttdef"><b>Definition:</b> RasterUtils.java:33</div></div>
-<div class="ttc" id="a05320_html_a9641e50dd63d883753be5c33aef718ee"><div class="ttname"><a href="a05320.html#a9641e50dd63d883753be5c33aef718ee">org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.RasterUtils.CellSizeY</a></div><div class="ttdeci">double CellSizeY</div><div class="ttdef"><b>Definition:</b> RasterUtils.java:31</div></div>
-<div class="ttc" id="a05320_html_ae368590f4384526a96ad9d5005780ce3"><div class="ttname"><a href="a05320.html#ae368590f4384526a96ad9d5005780ce3">org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.RasterUtils._8DY</a></div><div class="ttdeci">double _8DY</div><div class="ttdef"><b>Definition:</b> RasterUtils.java:35</div></div>
-<div class="ttc" id="a05320_html_a309f4c3384b81702843b9437d4bda9c6"><div class="ttname"><a href="a05320.html#a309f4c3384b81702843b9437d4bda9c6">org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.RasterUtils.maxRow</a></div><div class="ttdeci">int maxRow</div><div class="ttdef"><b>Definition:</b> RasterUtils.java:44</div></div>
-<div class="ttc" id="a05320_html_a054e332f5e7550eed6be976d79c4b452"><div class="ttname"><a href="a05320.html#a054e332f5e7550eed6be976d79c4b452">org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.RasterUtils.maxCol</a></div><div class="ttdeci">int maxCol</div><div class="ttdef"><b>Definition:</b> RasterUtils.java:42</div></div>
-<div class="ttc" id="a05320_html_a333a7172753ad52b2212cf6321965185"><div class="ttname"><a href="a05320.html#a333a7172753ad52b2212cf6321965185">org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.RasterUtils.NoData</a></div><div class="ttdeci">double NoData</div><div class="ttdef"><b>Definition:</b> RasterUtils.java:50</div></div>
-<div class="ttc" id="a05320_html_a5a268cd5d527a74b947b5585bb470558"><div class="ttname"><a href="a05320.html#a5a268cd5d527a74b947b5585bb470558">org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.RasterUtils.CellSizeX</a></div><div class="ttdeci">double CellSizeX</div><div class="ttdef"><b>Definition:</b> RasterUtils.java:29</div></div>
-<div class="ttc" id="a05320_html_af80fda90f1ef42bed2c95c37b9b7ad36"><div class="ttname"><a href="a05320.html#af80fda90f1ef42bed2c95c37b9b7ad36">org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.RasterUtils.image</a></div><div class="ttdeci">PlanarImage image</div><div class="ttdef"><b>Definition:</b> RasterUtils.java:38</div></div>
+<p class="reference">References <a class="el" href="a05316.html#ae6664f693fbc6259d4f449ce5e918c87">SampleDimensionType.VALUES</a>.</p>
+<div class="fragment"><div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;                                          {</div><div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;        <span class="keyword">synchronized</span> (<a class="code" href="a05316.html#ae6664f693fbc6259d4f449ce5e918c87">VALUES</a>) {</div><div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;            <span class="keywordflow">return</span> <a class="code" href="a05316.html#ae6664f693fbc6259d4f449ce5e918c87">VALUES</a>.toArray(<span class="keyword">new</span> <a class="code" href="a05316.html#ac4656188dc6dc6d0e4ef66fc034f007a">SampleDimensionType</a>[<a class="code" href="a05316.html#ae6664f693fbc6259d4f449ce5e918c87">VALUES</a>.size()]);</div><div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;        }</div><div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;    }</div><div class="ttc" id="a05316_html_ae6664f693fbc6259d4f449ce5e918c87"><div class="ttname"><a href="a05316.html#ae6664f693fbc6259d4f449ce5e918c87">org.geotoolkit.coverage.SampleDimensionType.VALUES</a></div><div class="ttdeci">static final List&lt; SampleDimensionType &gt; VALUES</div><div class="ttdoc">List of all enumerations of this type. </div><div class="ttdef"><b>Definition:</b> SampleDimensionType.java:28</div></div>
+<div class="ttc" id="a05316_html_ac4656188dc6dc6d0e4ef66fc034f007a"><div class="ttname"><a href="a05316.html#ac4656188dc6dc6d0e4ef66fc034f007a">org.geotoolkit.coverage.SampleDimensionType.SampleDimensionType</a></div><div class="ttdeci">SampleDimensionType(final String name)</div><div class="ttdoc">Constructs an element of the given name. </div><div class="ttdef"><b>Definition:</b> SampleDimensionType.java:124</div></div>
 </div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="a78713ac63ea405b8a01db1555048e775"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a78713ac63ea405b8a01db1555048e775">&#9670;&nbsp;</a></span>_8DX</h2>
+<a id="a4661791c7fdef1dd6b7c378997ab136b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4661791c7fdef1dd6b7c378997ab136b">&#9670;&nbsp;</a></span>REAL_32BITS</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -605,20 +221,27 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">double _8DX = <a class="el" href="a05320.html#a5a268cd5d527a74b947b5585bb470558">CellSizeX</a> * 8</td>
+          <td class="memname">final <a class="el" href="a05316.html">SampleDimensionType</a> REAL_32BITS = new <a class="el" href="a05316.html">SampleDimensionType</a>(&quot;REAL_32BITS&quot;)</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">inherited</span></span>  </td>
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
+<p>Simple precision floating point numbers. </p>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="a05316.html#acf48844a1576a02e799a3d928eee8692" title="Double precision floating point numbers. ">REAL_64BITS</a> </dd>
+<dd>
+DataBuffer::TYPE_FLOAT </dd></dl>
+
+<p class="reference">Referenced by <a class="el" href="a05324.html#a98281e43765f09e5590f0606e2d68eb1">WKBRasterConstants.getDimensionType()</a>, and <a class="el" href="a05324.html#a0cdacc5ebe7f3d956f9199c25a1d56b0">WKBRasterConstants.getPixelType()</a>.</p>
+
 </div>
 </div>
-<a id="ae368590f4384526a96ad9d5005780ce3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae368590f4384526a96ad9d5005780ce3">&#9670;&nbsp;</a></span>_8DY</h2>
+<a id="acf48844a1576a02e799a3d928eee8692"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acf48844a1576a02e799a3d928eee8692">&#9670;&nbsp;</a></span>REAL_64BITS</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -627,20 +250,27 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">double _8DY = <a class="el" href="a05320.html#a9641e50dd63d883753be5c33aef718ee">CellSizeY</a> * 8</td>
+          <td class="memname">final <a class="el" href="a05316.html">SampleDimensionType</a> REAL_64BITS = new <a class="el" href="a05316.html">SampleDimensionType</a>(&quot;REAL_64BITS&quot;)</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">inherited</span></span>  </td>
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
+<p>Double precision floating point numbers. </p>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="a05316.html#a4661791c7fdef1dd6b7c378997ab136b" title="Simple precision floating point numbers. ">REAL_32BITS</a> </dd>
+<dd>
+DataBuffer::TYPE_DOUBLE </dd></dl>
+
+<p class="reference">Referenced by <a class="el" href="a05324.html#a98281e43765f09e5590f0606e2d68eb1">WKBRasterConstants.getDimensionType()</a>, and <a class="el" href="a05324.html#a0cdacc5ebe7f3d956f9199c25a1d56b0">WKBRasterConstants.getPixelType()</a>.</p>
+
 </div>
 </div>
-<a id="a93061441dffe3f57f30a5e42f37da1bd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a93061441dffe3f57f30a5e42f37da1bd">&#9670;&nbsp;</a></span>bounds</h2>
+<a id="a212388497db9120bc7f72dd21cb42155"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a212388497db9120bc7f72dd21cb42155">&#9670;&nbsp;</a></span>SIGNED_16BITS</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -649,22 +279,27 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">java.awt.Rectangle bounds</td>
+          <td class="memname">final <a class="el" href="a05316.html">SampleDimensionType</a> SIGNED_16BITS = new <a class="el" href="a05316.html">SampleDimensionType</a>(&quot;SIGNED_16BITS&quot;)</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">inherited</span></span>  </td>
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="a05316.html#a526abc81f3a9bf276577adb9b9ee9192">RasterIterator.execute()</a>, <a class="el" href="a05320.html#a44e7cb246ae7baf173830aa0c5321aab">RasterUtils.getSubMatrix()</a>, and <a class="el" href="a05320.html#aaf3b781f5bfe5f51267966bd43e422c3">RasterUtils.initSurface()</a>.</p>
+<p>Signed 16 bits integers. </p>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="a05316.html#a0f26f59268649ca0a5ed3cef8d270f16" title="Unsigned 16 bits integers. ">UNSIGNED_16BITS</a> </dd>
+<dd>
+DataBuffer::TYPE_SHORT </dd></dl>
+
+<p class="reference">Referenced by <a class="el" href="a05324.html#a98281e43765f09e5590f0606e2d68eb1">WKBRasterConstants.getDimensionType()</a>, and <a class="el" href="a05324.html#a0cdacc5ebe7f3d956f9199c25a1d56b0">WKBRasterConstants.getPixelType()</a>.</p>
 
 </div>
 </div>
-<a id="a5a268cd5d527a74b947b5585bb470558"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5a268cd5d527a74b947b5585bb470558">&#9670;&nbsp;</a></span>CellSizeX</h2>
+<a id="ac8f0730059b0c8995cd92b44e7f497bd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac8f0730059b0c8995cd92b44e7f497bd">&#9670;&nbsp;</a></span>SIGNED_32BITS</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -673,20 +308,27 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">double CellSizeX =30.</td>
+          <td class="memname">final <a class="el" href="a05316.html">SampleDimensionType</a> SIGNED_32BITS = new <a class="el" href="a05316.html">SampleDimensionType</a>(&quot;SIGNED_32BITS&quot;)</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">inherited</span></span>  </td>
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
+<p>Signed 32 bits integers. </p>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="a05316.html#a8c90457fceea81d745b1863f8df3c7e8" title="Unsigned 32 bits integers. ">UNSIGNED_32BITS</a> </dd>
+<dd>
+DataBuffer::TYPE_INT </dd></dl>
+
+<p class="reference">Referenced by <a class="el" href="a05324.html#a98281e43765f09e5590f0606e2d68eb1">WKBRasterConstants.getDimensionType()</a>, and <a class="el" href="a05324.html#a0cdacc5ebe7f3d956f9199c25a1d56b0">WKBRasterConstants.getPixelType()</a>.</p>
+
 </div>
 </div>
-<a id="a9641e50dd63d883753be5c33aef718ee"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9641e50dd63d883753be5c33aef718ee">&#9670;&nbsp;</a></span>CellSizeY</h2>
+<a id="a8325ed259325342303705b314d8862a7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8325ed259325342303705b314d8862a7">&#9670;&nbsp;</a></span>SIGNED_8BITS</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -695,20 +337,25 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">double CellSizeY =30.</td>
+          <td class="memname">final <a class="el" href="a05316.html">SampleDimensionType</a> SIGNED_8BITS = new <a class="el" href="a05316.html">SampleDimensionType</a>(&quot;SIGNED_8BITS&quot;)</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">inherited</span></span>  </td>
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
+<p>Signed 8 bits integers. </p>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="a05316.html#ad125fdd898ef56e093ed2c7f246f9179" title="Unsigned 8 bits integers. ">UNSIGNED_8BITS</a> </dd></dl>
+
+<p class="reference">Referenced by <a class="el" href="a05324.html#a98281e43765f09e5590f0606e2d68eb1">WKBRasterConstants.getDimensionType()</a>, and <a class="el" href="a05324.html#a0cdacc5ebe7f3d956f9199c25a1d56b0">WKBRasterConstants.getPixelType()</a>.</p>
+
 </div>
 </div>
-<a id="ac6d5378ce1565feceb437902e6b1a936"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac6d5378ce1565feceb437902e6b1a936">&#9670;&nbsp;</a></span>DOUBLE_COMPARE_TOLERANCE</h2>
+<a id="a0f26f59268649ca0a5ed3cef8d270f16"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0f26f59268649ca0a5ed3cef8d270f16">&#9670;&nbsp;</a></span>UNSIGNED_16BITS</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -717,22 +364,27 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">final double DOUBLE_COMPARE_TOLERANCE = 0.00000001d</td>
+          <td class="memname">final <a class="el" href="a05316.html">SampleDimensionType</a> UNSIGNED_16BITS = new <a class="el" href="a05316.html">SampleDimensionType</a>(&quot;UNSIGNED_16BITS&quot;)</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">inherited</span></span>  </td>
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>Default tolerance for double comparisons: 1.0e-8 = 0.00000001. </p>
+<p>Unsigned 16 bits integers. </p>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="a05316.html#a212388497db9120bc7f72dd21cb42155" title="Signed 16 bits integers. ">SIGNED_16BITS</a> </dd>
+<dd>
+DataBuffer::TYPE_USHORT </dd></dl>
+
+<p class="reference">Referenced by <a class="el" href="a05324.html#a98281e43765f09e5590f0606e2d68eb1">WKBRasterConstants.getDimensionType()</a>, and <a class="el" href="a05324.html#a0cdacc5ebe7f3d956f9199c25a1d56b0">WKBRasterConstants.getPixelType()</a>.</p>
 
 </div>
 </div>
-<a id="ae69ee17625ec51afd4437e6c12f720ed"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae69ee17625ec51afd4437e6c12f720ed">&#9670;&nbsp;</a></span>Extent</h2>
+<a id="ab05c9236ffa258b1889bcdb7af336eaf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab05c9236ffa258b1889bcdb7af336eaf">&#9670;&nbsp;</a></span>UNSIGNED_1BIT</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -741,20 +393,24 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">Envelope Extent = null</td>
+          <td class="memname">final <a class="el" href="a05316.html">SampleDimensionType</a> UNSIGNED_1BIT = new <a class="el" href="a05316.html">SampleDimensionType</a>(&quot;UNSIGNED_1BIT&quot;)</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">inherited</span></span>  </td>
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
+<p>Unsigned 1 bit integers. </p>
+
+<p class="reference">Referenced by <a class="el" href="a05324.html#a98281e43765f09e5590f0606e2d68eb1">WKBRasterConstants.getDimensionType()</a>, and <a class="el" href="a05324.html#a0cdacc5ebe7f3d956f9199c25a1d56b0">WKBRasterConstants.getPixelType()</a>.</p>
+
 </div>
 </div>
-<a id="a72cdc44392cccb2a1c10d39a0ed76996"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a72cdc44392cccb2a1c10d39a0ed76996">&#9670;&nbsp;</a></span>FLOAT_COMPARE_TOLERANCE</h2>
+<a id="a21e1d1ca3035d887200d51acf209dd9a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a21e1d1ca3035d887200d51acf209dd9a">&#9670;&nbsp;</a></span>UNSIGNED_2BITS</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -763,22 +419,24 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">final float FLOAT_COMPARE_TOLERANCE = 0.0001f</td>
+          <td class="memname">final <a class="el" href="a05316.html">SampleDimensionType</a> UNSIGNED_2BITS = new <a class="el" href="a05316.html">SampleDimensionType</a>(&quot;UNSIGNED_2BITS&quot;)</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">inherited</span></span>  </td>
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>Default tolerance for float comparisons: 1.0e-4 = 0.0001. </p>
+<p>Unsigned 2 bits integers. </p>
+
+<p class="reference">Referenced by <a class="el" href="a05324.html#a98281e43765f09e5590f0606e2d68eb1">WKBRasterConstants.getDimensionType()</a>, and <a class="el" href="a05324.html#a0cdacc5ebe7f3d956f9199c25a1d56b0">WKBRasterConstants.getPixelType()</a>.</p>
 
 </div>
 </div>
-<a id="af80fda90f1ef42bed2c95c37b9b7ad36"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af80fda90f1ef42bed2c95c37b9b7ad36">&#9670;&nbsp;</a></span>image</h2>
+<a id="a8c90457fceea81d745b1863f8df3c7e8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8c90457fceea81d745b1863f8df3c7e8">&#9670;&nbsp;</a></span>UNSIGNED_32BITS</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -787,20 +445,25 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">PlanarImage image</td>
+          <td class="memname">final <a class="el" href="a05316.html">SampleDimensionType</a> UNSIGNED_32BITS = new <a class="el" href="a05316.html">SampleDimensionType</a>(&quot;UNSIGNED_32BITS&quot;)</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">inherited</span></span>  </td>
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
+<p>Unsigned 32 bits integers. </p>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="a05316.html#ac8f0730059b0c8995cd92b44e7f497bd" title="Signed 32 bits integers. ">SIGNED_32BITS</a> </dd></dl>
+
+<p class="reference">Referenced by <a class="el" href="a05324.html#a98281e43765f09e5590f0606e2d68eb1">WKBRasterConstants.getDimensionType()</a>, and <a class="el" href="a05324.html#a0cdacc5ebe7f3d956f9199c25a1d56b0">WKBRasterConstants.getPixelType()</a>.</p>
+
 </div>
 </div>
-<a id="aa28e51e4a01ac8d216db75873271634b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa28e51e4a01ac8d216db75873271634b">&#9670;&nbsp;</a></span>MaxValue</h2>
+<a id="ae2428a486b2345e3c8dd77be7422ba05"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae2428a486b2345e3c8dd77be7422ba05">&#9670;&nbsp;</a></span>UNSIGNED_4BITS</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -809,20 +472,24 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">double MaxValue = Double.MIN_VALUE</td>
+          <td class="memname">final <a class="el" href="a05316.html">SampleDimensionType</a> UNSIGNED_4BITS = new <a class="el" href="a05316.html">SampleDimensionType</a>(&quot;UNSIGNED_4BITS&quot;)</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">inherited</span></span>  </td>
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
+<p>Unsigned 4 bits integers. </p>
+
+<p class="reference">Referenced by <a class="el" href="a05324.html#a98281e43765f09e5590f0606e2d68eb1">WKBRasterConstants.getDimensionType()</a>, and <a class="el" href="a05324.html#a0cdacc5ebe7f3d956f9199c25a1d56b0">WKBRasterConstants.getPixelType()</a>.</p>
+
 </div>
 </div>
-<a id="a59c703eeb12850919824f1cf3a2064a8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a59c703eeb12850919824f1cf3a2064a8">&#9670;&nbsp;</a></span>MinValue</h2>
+<a id="ad125fdd898ef56e093ed2c7f246f9179"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad125fdd898ef56e093ed2c7f246f9179">&#9670;&nbsp;</a></span>UNSIGNED_8BITS</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -831,20 +498,27 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">double MinValue = Double.MAX_VALUE</td>
+          <td class="memname">final <a class="el" href="a05316.html">SampleDimensionType</a> UNSIGNED_8BITS = new <a class="el" href="a05316.html">SampleDimensionType</a>(&quot;UNSIGNED_8BITS&quot;)</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">inherited</span></span>  </td>
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
+<p>Unsigned 8 bits integers. </p>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="a05316.html#a8325ed259325342303705b314d8862a7" title="Signed 8 bits integers. ">SIGNED_8BITS</a> </dd>
+<dd>
+DataBuffer::TYPE_BYTE </dd></dl>
+
+<p class="reference">Referenced by <a class="el" href="a05324.html#a98281e43765f09e5590f0606e2d68eb1">WKBRasterConstants.getDimensionType()</a>, and <a class="el" href="a05324.html#a0cdacc5ebe7f3d956f9199c25a1d56b0">WKBRasterConstants.getPixelType()</a>.</p>
+
 </div>
 </div>
-<a id="a333a7172753ad52b2212cf6321965185"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a333a7172753ad52b2212cf6321965185">&#9670;&nbsp;</a></span>NoData</h2>
+<a id="ae6664f693fbc6259d4f449ce5e918c87"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae6664f693fbc6259d4f449ce5e918c87">&#9670;&nbsp;</a></span>VALUES</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -853,59 +527,20 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">double NoData = Float.MIN_VALUE</td>
+          <td class="memname">final List&lt;<a class="el" href="a05316.html">SampleDimensionType</a>&gt; VALUES = new ArrayList&lt;<a class="el" href="a05316.html">SampleDimensionType</a>&gt;(11)</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">inherited</span></span>  </td>
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-</div>
-</div>
-<a id="a51ea1a10adff11576d14ff075d6d4552"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a51ea1a10adff11576d14ff075d6d4552">&#9670;&nbsp;</a></span>PixelType</h2>
+<p>List of all enumerations of this type. </p>
+<p>Must be declared before any enum declaration. </p>
 
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">RasterPixelType PixelType = RasterPixelType.INTEGER</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">inherited</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a874e59977c453aeaea025f2b4c3a5a92"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a874e59977c453aeaea025f2b4c3a5a92">&#9670;&nbsp;</a></span>srcNoData</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">double srcNoData = -Float.MAX_VALUE</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">inherited</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
+<p class="reference">Referenced by <a class="el" href="a05316.html#aeaaf4d39c7b3cf733d53fd480402fa4a">SampleDimensionType.family()</a>.</p>
 
 </div>
 </div>
@@ -915,7 +550,7 @@ Protected Attributes</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="a02667.html">org</a></li><li class="navelem"><a class="el" href="a02668.html">eclipse</a></li><li class="navelem"><a class="el" href="a02669.html">rdf4j</a></li><li class="navelem"><a class="el" href="a02672.html">query</a></li><li class="navelem"><a class="el" href="a02673.html">algebra</a></li><li class="navelem"><a class="el" href="a02674.html">evaluation</a></li><li class="navelem"><a class="el" href="a02675.html">function</a></li><li class="navelem"><a class="el" href="a02676.html">postgis</a></li><li class="navelem"><a class="el" href="a02726.html">util</a></li><li class="navelem"><a class="el" href="a05316.html">RasterIterator</a></li>
+    <li class="navelem"><a class="el" href="a02667.html">org</a></li><li class="navelem"><a class="el" href="a02734.html">geotoolkit</a></li><li class="navelem"><a class="el" href="a02733.html">coverage</a></li><li class="navelem"><a class="el" href="a05316.html">SampleDimensionType</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>

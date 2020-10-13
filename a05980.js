@@ -1,6 +1,5 @@
 var a05980 =
 [
-    [ "testSetStartPoint", "a05980.html#ac3e198aee4c9abe9dfbad67f80bebf75", null ],
-    [ "LineString2D", "a05980.html#a4a6127d0b7f1eecce2d32442325f7735", null ],
-    [ "point", "a05980.html#a081811ff1c2bedd0a20703599f90114f", null ]
+    [ "testMMax", "a05980.html#afdcd3120493a23d4869c03134d63f41e", null ],
+    [ "testPoint", "a05980.html#af26f700ee129f846cac58735f6dcc380", null ]
 ];

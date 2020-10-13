@@ -1,5 +1,7 @@
 var a05688 =
 [
-    [ "testAsPolyShape", "a05688.html#aa4ec805ffcfb140ead8292a441244775", null ],
-    [ "testGeometry", "a05688.html#abc3f514f005cba49e406658e2d3086eb", null ]
+    [ "testAreaSimilarity", "a05688.html#a6be5d939e472b1ba6360e0aed0003e21", null ],
+    [ "testAreaSimilarity2", "a05688.html#aa1a9b1a972267092713ec9d0b0a2c2b4", null ],
+    [ "isocelesTriangle", "a05688.html#aa04dfbec745e2622b9f7646f8572e501", null ],
+    [ "notIsocelesTriangle", "a05688.html#a055d99fb63bcee37763ffcf4da9e0521", null ]
 ];

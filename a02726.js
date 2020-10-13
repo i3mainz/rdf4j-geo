@@ -7,11 +7,11 @@ var a02726 =
     [ "JtsPolyshapeWriter", "a05096.html", "a05096" ],
     [ "LiteralRegistry", "a05100.html", "a05100" ],
     [ "LiteralUtils", "a05232.html", "a05232" ],
-    [ "PolyshapeReader", "a05300.html", "a05300" ],
-    [ "PolyshapeWriter", "a05308.html", "a05308" ],
-    [ "RasterIterator", "a05316.html", "a05316" ],
-    [ "RasterUtils", "a05320.html", "a05320" ],
-    [ "RasterVectorRelationBinaryFunction", "a05324.html", "a05324" ],
-    [ "RasterVectorRelationFunction", "a05328.html", "a05328" ],
-    [ "RasterVectorRelationIntBinaryFunction", "a05332.html", "a05332" ]
+    [ "PolyshapeReader", "a05276.html", "a05276" ],
+    [ "PolyshapeWriter", "a05284.html", "a05284" ],
+    [ "RasterIterator", "a05292.html", "a05292" ],
+    [ "RasterUtils", "a05296.html", "a05296" ],
+    [ "RasterVectorRelationBinaryFunction", "a05300.html", "a05300" ],
+    [ "RasterVectorRelationFunction", "a05304.html", "a05304" ],
+    [ "RasterVectorRelationIntBinaryFunction", "a05308.html", "a05308" ]
 ];

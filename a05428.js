@@ -1,7 +1,7 @@
 var a05428 =
 [
-    [ "testBBOXAbove", "a05428.html#a0e5151be9c17b1a363f0e9587a76dad8", null ],
-    [ "testBBOXAbove1", "a05428.html#afef7a8dc9560d094946b475413049d29", null ],
+    [ "testBBOXIsContainedByFalse", "a05428.html#a4faa99f827f3e15f179704bfe38d73c9", null ],
+    [ "testBBOXIsContainedByTrue", "a05428.html#a064a60b41689445f77952f6ee979fcf8", null ],
     [ "testGeom1", "a05428.html#aa4a3b1a7e778ece72382f6600fa96b47", null ],
     [ "testGeom2", "a05428.html#a6b4be369c8f60e973cd5126e69cd33a4", null ],
     [ "testGeom3", "a05428.html#a800b6bb875a8ff4404ea787c3df125a5", null ],

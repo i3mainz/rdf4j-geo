@@ -1,7 +1,7 @@
 var a06096 =
 [
-    [ "testIsConvexFalse", "a06096.html#a84d7af36a321a8f38760993ee03431f1", null ],
-    [ "testIsConvexTrue", "a06096.html#a72b02d577b66678dc78571b6ca1901cc", null ],
-    [ "isocelesTriangle", "a06096.html#aa04dfbec745e2622b9f7646f8572e501", null ],
-    [ "notIsocelesTriangle", "a06096.html#a055d99fb63bcee37763ffcf4da9e0521", null ]
+    [ "testIsPolygonCWFalse", "a06096.html#a017c3fe070c2ab2e34a67d428cec06d3", null ],
+    [ "testIsPolygonCWTrue", "a06096.html#a65124e83aa8d64983e3fc4a131479949", null ],
+    [ "testPolygon", "a06096.html#a1e3187cbc25299380589200c398b3ffd", null ],
+    [ "testPolygon2", "a06096.html#a882729aec95621b4ad261714738ae3fd", null ]
 ];

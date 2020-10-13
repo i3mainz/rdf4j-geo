@@ -1,7 +1,7 @@
 var a06060 =
 [
-    [ "testMakePoint1", "a06060.html#a2f24e9ad47589d2191a0512d20a8a9ba", null ],
-    [ "testMakePointXYZ", "a06060.html#a3ba406df071dd5b2e9404776e414c4cd", null ],
-    [ "testPoint1", "a06060.html#ab20d196cb6e34afc2e9cff8074e43bfd", null ],
-    [ "testPointM", "a06060.html#a53dc8585c2a440c472be9609c86b0601", null ]
+    [ "testHasDuplicateRingsFalse", "a06060.html#a3957683118b9d5473c635a38d7e6c6e8", null ],
+    [ "testHasDuplicateRingsTrue", "a06060.html#a3779f6b4849bf60c716f7dff71089a2a", null ],
+    [ "duplicateRings", "a06060.html#a92f3ef00fc079a76b7f943d9ed6cec77", null ],
+    [ "nonduplicateRings", "a06060.html#a675a0b1b194538fc07fa716705f883a5", null ]
 ];

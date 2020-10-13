@@ -1,7 +1,7 @@
 var a05604 =
 [
-    [ "testNumGeometries", "a05604.html#a66251605d7d3ce37996ccd2d7fa613fd", null ],
-    [ "testNumGeometriesCollection", "a05604.html#a2ad2fa8733f1826ddd7c66355901ff7d", null ],
-    [ "testGeom", "a05604.html#a03a5f5da0ccbeed8c1678d4317cf2672", null ],
-    [ "testGeom2", "a05604.html#a6b4be369c8f60e973cd5126e69cd33a4", null ]
+    [ "testAddGeometry", "a05604.html#a4ebf1443292e242753148cb8748d9169", null ],
+    [ "testAddGeometryZ", "a05604.html#a7405251c9ffbd82086e9e63d9ced3c82", null ],
+    [ "lineString", "a05604.html#a76e109dc83d6f4d16fcd2fa3e73054f6", null ],
+    [ "point", "a05604.html#a081811ff1c2bedd0a20703599f90114f", null ]
 ];

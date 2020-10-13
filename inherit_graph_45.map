@@ -136,9 +136,9 @@
 <area shape="rect" id="node518" href="$a05080.html" title="TanH" alt="" coords="210,19675,265,19701"/>
 <area shape="rect" id="node519" href="$a05084.html" title="ToDegrees" alt="" coords="194,19725,281,19752"/>
 <area shape="rect" id="node520" href="$a05088.html" title="ToRadians" alt="" coords="195,19776,280,19803"/>
-<area shape="rect" id="node521" href="$a05324.html" title="RasterVectorRelationBinary\lFunction" alt="" coords="145,19827,329,19869"/>
-<area shape="rect" id="node532" href="$a05328.html" title="RasterVectorRelationFunction" alt="" coords="139,19961,336,19988"/>
-<area shape="rect" id="node534" href="$a05332.html" title="RasterVectorRelationIntBinary\lFunction" alt="" coords="138,20106,337,20147"/>
+<area shape="rect" id="node521" href="$a05300.html" title="RasterVectorRelationBinary\lFunction" alt="" coords="145,19827,329,19869"/>
+<area shape="rect" id="node532" href="$a05304.html" title="RasterVectorRelationFunction" alt="" coords="139,19961,336,19988"/>
+<area shape="rect" id="node534" href="$a05308.html" title="RasterVectorRelationIntBinary\lFunction" alt="" coords="138,20106,337,20147"/>
 <area shape="rect" id="node4" href="$a02992.html" title="Degenerate" alt="" coords="454,5,543,32"/>
 <area shape="rect" id="node5" href="$a03012.html" title="HasHorizontalCRS" alt="" coords="431,56,566,83"/>
 <area shape="rect" id="node6" href="$a03016.html" title="Returns true if the geometry has repeated points. " alt="" coords="429,107,568,133"/>

@@ -1,8 +1,7 @@
 var a06284 =
 [
     [ "getInstance", "a06284.html#af8afdd14b38b523d100805364a48ed63", null ],
-    [ "testNumYTiles", "a06284.html#a3d907c47d14c75d2d528f33c3a6c662e", null ],
-    [ "cov", "a06284.html#ae46fa35c884a8b26e022dedba4ba1350", null ],
+    [ "testShearX", "a06284.html#ae8186adb2589cb32e7783d339671181e", null ],
     [ "covJSONString1", "a06284.html#a993e2f127f3ec8f256e9799d77507223", null ],
     [ "hexwkbString1", "a06284.html#a55fb5b5d665417265da09403128e396e", null ],
     [ "minwkbString", "a06284.html#aa5e2b5a6005895fc20b9f35523569430", null ],

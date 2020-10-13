@@ -1,6 +1,7 @@
 var a06076 =
 [
-    [ "testCircumcentre1", "a06076.html#af8da9616fd1ee304df92759a8b87da02", null ],
-    [ "isocelesTriangle", "a06076.html#aa04dfbec745e2622b9f7646f8572e501", null ],
-    [ "notIsocelesTriangle", "a06076.html#a055d99fb63bcee37763ffcf4da9e0521", null ]
+    [ "testIsEquilateralTriangleFalse", "a06076.html#a571ad95224e990b47f1f7e3f98589811", null ],
+    [ "testIsEquilateralTriangleTrue", "a06076.html#a88faba98866013b2fa45b645b61965bf", null ],
+    [ "testPolygon", "a06076.html#a1e3187cbc25299380589200c398b3ffd", null ],
+    [ "testPolygon2", "a06076.html#a882729aec95621b4ad261714738ae3fd", null ]
 ];

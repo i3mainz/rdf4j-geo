@@ -1,5 +1,6 @@
 var a05556 =
 [
-    [ "testLineString", "a05556.html#a0444ce8df222ae81e1a33426a32d8d7a", null ],
-    [ "testGeom", "a05556.html#a03a5f5da0ccbeed8c1678d4317cf2672", null ]
+    [ "testMinimumDiameterLine", "a05556.html#ac6734228b3f88748ca1545e62811f616", null ],
+    [ "result", "a05556.html#aab356d6554a7301750f11ec7a85ac47d", null ],
+    [ "testPolygon", "a05556.html#a1e3187cbc25299380589200c398b3ffd", null ]
 ];

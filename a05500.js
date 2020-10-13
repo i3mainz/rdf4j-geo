@@ -1,7 +1,5 @@
 var a05500 =
 [
-    [ "testHasHorizontalCRSFalse", "a05500.html#a9d25864362180719a756bf187c003b28", null ],
-    [ "testHasHorizontalCRSTrue", "a05500.html#a9f2bde364661ddf6af32fec9ad9085b1", null ],
-    [ "testGeometry", "a05500.html#abc3f514f005cba49e406658e2d3086eb", null ],
-    [ "testGeometry2", "a05500.html#af1173652e671b8f9051f8630b98c73fb", null ]
+    [ "testIsMeasuredFalse", "a05500.html#a0d34749daed816e995d607f25393f8bd", null ],
+    [ "testIsMeasuredTrue", "a05500.html#a94b07ea8a866ff9332c709b77d204342", null ]
 ];

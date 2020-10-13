@@ -1,9 +1,8 @@
 var a05948 =
 [
-    [ "testLineString2D", "a05948.html#a100e1041d9eed0108cb20adfb3ccb714", null ],
-    [ "testLineString3D", "a05948.html#aed8078596e87405b402dec09f15eb681", null ],
-    [ "testPoint", "a05948.html#a67242842aad66b0a00820a5d4d7ea731", null ],
-    [ "LineString2D", "a05948.html#a4a6127d0b7f1eecce2d32442325f7735", null ],
-    [ "LineString3D", "a05948.html#a7f1b41b47d9de827d79c109c50a189f5", null ],
-    [ "point", "a05948.html#a081811ff1c2bedd0a20703599f90114f", null ]
+    [ "testMakeLine1", "a05948.html#ae1794702b16fed527256a87c40858865", null ],
+    [ "testLine", "a05948.html#a297965df8c894198eea7203fde37542b", null ],
+    [ "testPoint1", "a05948.html#ab20d196cb6e34afc2e9cff8074e43bfd", null ],
+    [ "testPoint2", "a05948.html#aa0c0c6f5dda7a397fc50f4c22a2b180f", null ],
+    [ "testPointM", "a05948.html#a53dc8585c2a440c472be9609c86b0601", null ]
 ];

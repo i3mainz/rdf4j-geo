@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>rdf4j-postgis: FurthestCoordinateTest Class Reference</title>
+<title>rdf4j-postgis: ManhattanDistanceTest Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -65,21 +65,21 @@ $(document).ready(function(){initNavTree('a05752.html','');});
 <a href="#pub-static-attribs">Static Public Attributes</a> &#124;
 <a href="a05749.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">FurthestCoordinateTest Class Reference</div>  </div>
+<div class="title">ManhattanDistanceTest Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 <div class="dynheader">
-Collaboration diagram for FurthestCoordinateTest:</div>
+Collaboration diagram for ManhattanDistanceTest:</div>
 <div class="dyncontent">
-<div class="center"><img src="a05750.png" border="0" usemap="#FurthestCoordinateTest_coll__map" alt="Collaboration graph"/></div>
-<map name="FurthestCoordinateTest_coll__map" id="FurthestCoordinateTest_coll__map">
+<div class="center"><img src="a05750.png" border="0" usemap="#ManhattanDistanceTest_coll__map" alt="Collaboration graph"/></div>
+<map name="ManhattanDistanceTest_coll__map" id="ManhattanDistanceTest_coll__map">
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a5bf1108229fcb950f9fe74e48a8aee7c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05752.html#a5bf1108229fcb950f9fe74e48a8aee7c">testFurthestCoordinate</a> ()</td></tr>
-<tr class="separator:a5bf1108229fcb950f9fe74e48a8aee7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af58d6f2adbd1227cf5286c38273b0db6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05752.html#af58d6f2adbd1227cf5286c38273b0db6">testManhattanDistance</a> ()</td></tr>
+<tr class="separator:af58d6f2adbd1227cf5286c38273b0db6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
@@ -87,18 +87,16 @@ Static Public Attributes</h2></td></tr>
 <tr class="separator:a03a5f5da0ccbeed8c1678d4317cf2672"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6b4be369c8f60e973cd5126e69cd33a4"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05752.html#a6b4be369c8f60e973cd5126e69cd33a4">testGeom2</a> =&quot;LINESTRING(5 5 ,10 10)&quot;</td></tr>
 <tr class="separator:a6b4be369c8f60e973cd5126e69cd33a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aab356d6554a7301750f11ec7a85ac47d"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05752.html#aab356d6554a7301750f11ec7a85ac47d">result</a> =&quot;POINT(5 5)&quot;</td></tr>
-<tr class="separator:aab356d6554a7301750f11ec7a85ac47d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a5bf1108229fcb950f9fe74e48a8aee7c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5bf1108229fcb950f9fe74e48a8aee7c">&#9670;&nbsp;</a></span>testFurthestCoordinate()</h2>
+<a id="af58d6f2adbd1227cf5286c38273b0db6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af58d6f2adbd1227cf5286c38273b0db6">&#9670;&nbsp;</a></span>testManhattanDistance()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void testFurthestCoordinate </td>
+          <td class="memname">void testManhattanDistance </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -106,36 +104,13 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="a03232.html#a43b4c73244bc6722ce551c1033cf1115">GeometricModifierFunction.evaluate()</a>, and <a class="el" href="a05224.html#ae02c2e86ac0dea8538c7b43e9e82421a">WKTDatatype.LiteralIRI</a>.</p>
-<div class="fragment"><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;                                             {</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;                FurthestCoordinate instance=<span class="keyword">new</span> FurthestCoordinate();</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;                ValueFactory valfac=SimpleValueFactory.getInstance();</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;                Value geo=valfac.createLiteral(<a class="code" href="a05752.html#a03a5f5da0ccbeed8c1678d4317cf2672">testGeom</a>, WKTDatatype.LiteralIRI);</div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;                Value geo2=valfac.createLiteral(<a class="code" href="a05752.html#a6b4be369c8f60e973cd5126e69cd33a4">testGeom2</a>, WKTDatatype.LiteralIRI);</div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;                Value resultt=instance.evaluate(valfac, geo,geo2);</div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;                Value expResult=valfac.createLiteral(<a class="code" href="a05752.html#aab356d6554a7301750f11ec7a85ac47d">result</a>, WKTDatatype.LiteralIRI);</div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;                assertEquals(expResult, resultt);</div><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;        }</div><div class="ttc" id="a05752_html_a6b4be369c8f60e973cd5126e69cd33a4"><div class="ttname"><a href="a05752.html#a6b4be369c8f60e973cd5126e69cd33a4">org.eclipse.rdf4j.testsuites.postgis.geometry.relation.FurthestCoordinateTest.testGeom2</a></div><div class="ttdeci">static final String testGeom2</div><div class="ttdef"><b>Definition:</b> FurthestCoordinateTest.java:16</div></div>
-<div class="ttc" id="a05752_html_aab356d6554a7301750f11ec7a85ac47d"><div class="ttname"><a href="a05752.html#aab356d6554a7301750f11ec7a85ac47d">org.eclipse.rdf4j.testsuites.postgis.geometry.relation.FurthestCoordinateTest.result</a></div><div class="ttdeci">static final String result</div><div class="ttdef"><b>Definition:</b> FurthestCoordinateTest.java:18</div></div>
-<div class="ttc" id="a05752_html_a03a5f5da0ccbeed8c1678d4317cf2672"><div class="ttname"><a href="a05752.html#a03a5f5da0ccbeed8c1678d4317cf2672">org.eclipse.rdf4j.testsuites.postgis.geometry.relation.FurthestCoordinateTest.testGeom</a></div><div class="ttdeci">static final String testGeom</div><div class="ttdef"><b>Definition:</b> FurthestCoordinateTest.java:14</div></div>
+<p class="reference">References <a class="el" href="a03264.html#a43b4c73244bc6722ce551c1033cf1115">GeometricRelationDoubleFunction.evaluate()</a>, and <a class="el" href="a05224.html#ae02c2e86ac0dea8538c7b43e9e82421a">WKTDatatype.LiteralIRI</a>.</p>
+<div class="fragment"><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;                                            {</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;                ManhattanDistance instance=<span class="keyword">new</span> ManhattanDistance();</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;                ValueFactory valfac=SimpleValueFactory.getInstance();</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;                Value geo=valfac.createLiteral(<a class="code" href="a05752.html#a03a5f5da0ccbeed8c1678d4317cf2672">testGeom</a>, WKTDatatype.LiteralIRI);</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;                Value geo2=valfac.createLiteral(<a class="code" href="a05752.html#a6b4be369c8f60e973cd5126e69cd33a4">testGeom2</a>, WKTDatatype.LiteralIRI);</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;                Value result=instance.evaluate(valfac, geo,geo2);</div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;                Value expResult=valfac.createLiteral(91.52850484217004);</div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;                assertEquals(expResult, result);</div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;        }</div><div class="ttc" id="a05752_html_a6b4be369c8f60e973cd5126e69cd33a4"><div class="ttname"><a href="a05752.html#a6b4be369c8f60e973cd5126e69cd33a4">org.eclipse.rdf4j.testsuites.postgis.geometry.relation.ManhattanDistanceTest.testGeom2</a></div><div class="ttdeci">static final String testGeom2</div><div class="ttdef"><b>Definition:</b> ManhattanDistanceTest.java:16</div></div>
+<div class="ttc" id="a05752_html_a03a5f5da0ccbeed8c1678d4317cf2672"><div class="ttname"><a href="a05752.html#a03a5f5da0ccbeed8c1678d4317cf2672">org.eclipse.rdf4j.testsuites.postgis.geometry.relation.ManhattanDistanceTest.testGeom</a></div><div class="ttdeci">static final String testGeom</div><div class="ttdef"><b>Definition:</b> ManhattanDistanceTest.java:14</div></div>
 </div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="aab356d6554a7301750f11ec7a85ac47d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aab356d6554a7301750f11ec7a85ac47d">&#9670;&nbsp;</a></span>result</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">final String result =&quot;POINT(5 5)&quot;</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="a03a5f5da0ccbeed8c1678d4317cf2672"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a03a5f5da0ccbeed8c1678d4317cf2672">&#9670;&nbsp;</a></span>testGeom</h2>
 
@@ -186,7 +161,7 @@ Static Public Attributes</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="a02667.html">org</a></li><li class="navelem"><a class="el" href="a02668.html">eclipse</a></li><li class="navelem"><a class="el" href="a02669.html">rdf4j</a></li><li class="navelem"><a class="el" href="a02750.html">testsuites</a></li><li class="navelem"><a class="el" href="a02751.html">postgis</a></li><li class="navelem"><a class="el" href="a02754.html">geometry</a></li><li class="navelem"><a class="el" href="a02758.html">relation</a></li><li class="navelem"><a class="el" href="a05752.html">FurthestCoordinateTest</a></li>
+    <li class="navelem"><a class="el" href="a02667.html">org</a></li><li class="navelem"><a class="el" href="a02668.html">eclipse</a></li><li class="navelem"><a class="el" href="a02669.html">rdf4j</a></li><li class="navelem"><a class="el" href="a02750.html">testsuites</a></li><li class="navelem"><a class="el" href="a02751.html">postgis</a></li><li class="navelem"><a class="el" href="a02754.html">geometry</a></li><li class="navelem"><a class="el" href="a02758.html">relation</a></li><li class="navelem"><a class="el" href="a05752.html">ManhattanDistanceTest</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>

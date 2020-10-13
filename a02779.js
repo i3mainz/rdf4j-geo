@@ -1,5 +1,5 @@
 var a02779 =
 [
-    [ "AddBandTest", "a06388.html", "a06388" ],
-    [ "RemoveBandTest", "a06392.html", null ]
+    [ "AddBandTest", "a06364.html", "a06364" ],
+    [ "RemoveBandTest", "a06368.html", null ]
 ];

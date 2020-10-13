@@ -1,5 +1,5 @@
 var a05660 =
 [
-    [ "testAsGARS", "a05660.html#a80929de20ed59fa635418039d48a9ef7", null ],
-    [ "testPoint", "a05660.html#af26f700ee129f846cac58735f6dcc380", null ]
+    [ "testAsOSMLink", "a05660.html#a31833fe8b6139bfbdcd328ee943729e2", null ],
+    [ "testGeometry", "a05660.html#abc3f514f005cba49e406658e2d3086eb", null ]
 ];

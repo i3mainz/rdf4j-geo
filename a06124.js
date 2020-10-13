@@ -1,7 +1,7 @@
 var a06124 =
 [
-    [ "testIsRightTriangleFalse", "a06124.html#a014f8772916bad586cbe991926c56e4b", null ],
-    [ "testIsRightTriangleTrue", "a06124.html#a7a35cee3266bee7a434b79dd69e81373", null ],
-    [ "testPolygon", "a06124.html#a1e3187cbc25299380589200c398b3ffd", null ],
-    [ "testPolygon2", "a06124.html#a882729aec95621b4ad261714738ae3fd", null ]
+    [ "testAddRing", "a06124.html#abfc2c7e942ef652635d2256ba4e1fa47", null ],
+    [ "duplicateRings", "a06124.html#a92f3ef00fc079a76b7f943d9ed6cec77", null ],
+    [ "nonduplicateRings", "a06124.html#a675a0b1b194538fc07fa716705f883a5", null ],
+    [ "ring", "a06124.html#a3e4a839eee2eb5791f90656e82eec721", null ]
 ];

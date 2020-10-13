@@ -1,4 +1,4 @@
 var a06504 =
 [
-    [ "testMeterToUSMile", "a06504.html#aef3720c4971ab8e16a05c458d8959d05", null ]
+    [ "testUSFootToMeter", "a06504.html#a4c647709c7ef0b214afaa33ac8efa5e2", null ]
 ];

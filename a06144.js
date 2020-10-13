@@ -1,5 +1,6 @@
 var a06144 =
 [
-    [ "testLineFromText", "a06144.html#ab595a17ecc4ca9c8bef45188c8afb6c3", null ],
-    [ "testPolygon", "a06144.html#a1e3187cbc25299380589200c398b3ffd", null ]
+    [ "testReverseRing", "a06144.html#a341309060348e532f6606d50945a52bd", null ],
+    [ "duplicateRings", "a06144.html#a92f3ef00fc079a76b7f943d9ed6cec77", null ],
+    [ "nonduplicateRings", "a06144.html#a675a0b1b194538fc07fa716705f883a5", null ]
 ];

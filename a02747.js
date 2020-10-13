@@ -1,6 +1,6 @@
 var a02747 =
 [
-    [ "LengthSubstring", "a05416.html", "a05416" ],
-    [ "LengthToPoint", "a05420.html", "a05420" ],
-    [ "LocatePoint", "a05424.html", "a05424" ]
+    [ "LengthSubstring", "a05392.html", "a05392" ],
+    [ "LengthToPoint", "a05396.html", "a05396" ],
+    [ "LocatePoint", "a05400.html", "a05400" ]
 ];

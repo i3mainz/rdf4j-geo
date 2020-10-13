@@ -1,4 +1,4 @@
 var a06472 =
 [
-    [ "testMeterToInch", "a06472.html#a4ce20907f82543f26a06e1719f2015c7", null ]
+    [ "testInchToUSFoot", "a06472.html#a1236a7bf3431fb304cb1cd44c9ae6aa7", null ]
 ];

@@ -1,4 +1,4 @@
 var a06500 =
 [
-    [ "testMeterToUSInch", "a06500.html#a458c56aa465af276525d1bb3c8d2f897", null ]
+    [ "testNauticalMileToMeter", "a06500.html#a027e740e4683a9d01f9fb13a2755bd98", null ]
 ];

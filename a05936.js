@@ -1,5 +1,7 @@
 var a05936 =
 [
-    [ "testSimplifyVW", "a05936.html#a4b0417b619689d07743ff9d72212c847", null ],
-    [ "testGeom", "a05936.html#a03a5f5da0ccbeed8c1678d4317cf2672", null ]
+    [ "testLineString", "a05936.html#a0444ce8df222ae81e1a33426a32d8d7a", null ],
+    [ "circularLineString", "a05936.html#aee32055959200ebcac903d7824ea55d3", null ],
+    [ "lineString", "a05936.html#a76e109dc83d6f4d16fcd2fa3e73054f6", null ],
+    [ "lineString3D", "a05936.html#a44ce866b8b8e60a4c3e77653b907706d", null ]
 ];

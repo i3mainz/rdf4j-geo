@@ -1,5 +1,5 @@
 var a05524 =
 [
-    [ "testIsMeasuredFalse", "a05524.html#a0d34749daed816e995d607f25393f8bd", null ],
-    [ "testIsMeasuredTrue", "a05524.html#a94b07ea8a866ff9332c709b77d204342", null ]
+    [ "testIsSquareFalse", "a05524.html#a173bda31cdc35a0e147f2c50957b2e27", null ],
+    [ "testIsSquareTrue", "a05524.html#af9173bfcbf2fff582439949957ccc709", null ]
 ];

@@ -1,4 +1,5 @@
 var a05532 =
 [
-    [ "testIsPlanarTrue", "a05532.html#a0e75cb938cfe0c5f0e6555d748eccf2d", null ]
+    [ "testLineString", "a05532.html#a0444ce8df222ae81e1a33426a32d8d7a", null ],
+    [ "testGeom", "a05532.html#a03a5f5da0ccbeed8c1678d4317cf2672", null ]
 ];

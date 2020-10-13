@@ -1,9 +1,14 @@
 var a05328 =
 [
-    [ "evaluate", "a05328.html#a43b4c73244bc6722ce551c1033cf1115", null ],
-    [ "getLiteral", "a05328.html#ad5ea121d0231b4b209324202427665f0", null ],
-    [ "relation", "a05328.html#ab887cebaf1a6c595cd2fd74de03002d2", null ],
-    [ "vectorOrRaster", "a05328.html#ad5afdfd817cdf11ee0e48c7f56c5514c", null ],
-    [ "rasterLiteralURIs", "a05328.html#ac7dbee8298c097c6bd08da6002fd6ecb", null ],
-    [ "vectorLiteralURIs", "a05328.html#a6e7c25bfd07628e3e74ea4e1ddfcae70", null ]
+    [ "WKBRasterReader", "a05328.html#ae793783ce299284ee201fd7c8313c1d6", null ],
+    [ "createGrayScaleColorModel", "a05328.html#afcfcdba92bf5faa9dfc8a1c7a652c7a9", null ],
+    [ "getGridToCRS", "a05328.html#aef748f2853b5fa1a44ed7c589b2bb197", null ],
+    [ "getSRID", "a05328.html#ade744464aeafe5c61497905c4bac4d95", null ],
+    [ "read", "a05328.html#a14456bc52e7f626048f58646a17a9039", null ],
+    [ "read", "a05328.html#ab8d0b6608f158d1234999e80670eba0e", null ],
+    [ "readCoverage", "a05328.html#aa9fe8abf761e9a17b671b3f8ca04ef37", null ],
+    [ "readCoverage", "a05328.html#a167d89e301db4c86565d6cbf8998b5fa", null ],
+    [ "reset", "a05328.html#ad20897c5c8bd47f5d4005989bead0e55", null ],
+    [ "gridToCRS", "a05328.html#a7074295224e2ade372af7fc4571cdc28", null ],
+    [ "srid", "a05328.html#a7e5be5f62324d24835447fc98661e30b", null ]
 ];

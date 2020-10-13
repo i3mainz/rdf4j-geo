@@ -1,5 +1,7 @@
 var a05480 =
 [
-    [ "testBoundingDiagonal", "a05480.html#a5905b320ef165de047ef4ff2e9167268", null ],
-    [ "testPolygon", "a05480.html#a1e3187cbc25299380589200c398b3ffd", null ]
+    [ "testHasRepeatedPoints", "a05480.html#ac91c06c07e42b36c2957d3b47609ea12", null ],
+    [ "testHasRepeatedPoints2", "a05480.html#a573715384a3d69a8e8c4722bc82c5e5e", null ],
+    [ "testGeometry", "a05480.html#abc3f514f005cba49e406658e2d3086eb", null ],
+    [ "testGeometry2", "a05480.html#af1173652e671b8f9051f8630b98c73fb", null ]
 ];

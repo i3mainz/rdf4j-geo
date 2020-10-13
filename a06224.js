@@ -1,8 +1,7 @@
 var a06224 =
 [
     [ "getInstance", "a06224.html#af8afdd14b38b523d100805364a48ed63", null ],
-    [ "testOrConst", "a06224.html#ae6db6c8caf6bb997edbc57d1266d159e", null ],
-    [ "combinedRasterLiteral", "a06224.html#a6efe8702be34a67e2bcbba55588c5b5f", null ],
+    [ "testBandNoDataValue", "a06224.html#aaaf20855ce31778cb59733863e26fe2f", null ],
     [ "covJSONString1", "a06224.html#a993e2f127f3ec8f256e9799d77507223", null ],
     [ "hexwkbString1", "a06224.html#a55fb5b5d665417265da09403128e396e", null ],
     [ "minwkbString", "a06224.html#aa5e2b5a6005895fc20b9f35523569430", null ],

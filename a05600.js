@@ -1,5 +1,5 @@
 var a05600 =
 [
-    [ "testNumDistinctPoints", "a05600.html#aac9f79f9e21b36c6addad28b9e81bec6", null ],
-    [ "testGeom", "a05600.html#a03a5f5da0ccbeed8c1678d4317cf2672", null ]
+    [ "testGeomFromWKB", "a05600.html#acc0d76b6d1ae096d932e1752a6bc8479", null ],
+    [ "geoJsonTestGeom", "a05600.html#a117e8ff340791b5aa0658f5840b5dcf4", null ]
 ];

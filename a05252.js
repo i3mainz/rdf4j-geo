@@ -1,7 +1,10 @@
 var a05252 =
 [
-    [ "Axis", "a05252.html#a54d0dabce67e7ff5e8fd274bb15422b7", null ],
-    [ "size", "a05252.html#af4b57d21919c42d55af03391f91a1c08", null ],
-    [ "coordinateIds", "a05252.html#a2c1e4544f358662c366a8437e679df65", null ],
-    [ "wrappedAxis", "a05252.html#ab6b7936efca40ffbc8687caabdff2bb5", null ]
+    [ "FeatureIterable", "a05252.html#a0aef380d3850d9aef520a366f68969e1", null ],
+    [ "asList", "a05252.html#abde7b9af6c5ae1a6a1662e734b00f377", null ],
+    [ "getLayerNames", "a05252.html#a5996dbdd0c9cc359e6a365affcf90fca", null ],
+    [ "iterator", "a05252.html#a3cd747c42f7ff4b3c10fc491c0770c34", null ],
+    [ "autoScale", "a05252.html#a790b272bcf5713954b8582330074dfc8", null ],
+    [ "filter", "a05252.html#a372cbadc592907caa755cab7031ff81a", null ],
+    [ "tile", "a05252.html#a65b030830248e3f718b7a12708274fb5", null ]
 ];

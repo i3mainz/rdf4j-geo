@@ -1,5 +1,5 @@
 var a02781 =
 [
-    [ "RescaleTest", "a06412.html", "a06412" ],
-    [ "ResizeTest", "a06416.html", "a06416" ]
+    [ "RescaleTest", "a06388.html", "a06388" ],
+    [ "ResizeTest", "a06392.html", "a06392" ]
 ];

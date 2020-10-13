@@ -1,16 +1,11 @@
 var a05396 =
 [
-    [ "calculate", "a05396.html#a1b9dd1e59eac3a2a15cb68c19e994fe4", null ],
-    [ "checkCoordinate", "a05396.html#a0a01f90a7fe27e3b66f1c87f019e91bc", null ],
-    [ "finalize", "a05396.html#a7626720b9bf807253dd702a0214dc9f0", null ],
-    [ "writeExtendedPrecision", "a05396.html#a320ccd90ec0ef71a4353104b7fe98a1c", null ],
-    [ "writePoint", "a05396.html#adedb1cd853d00648be239477f7fe4e2a", null ],
-    [ "writePointArray", "a05396.html#afeed21e7153170021427b1e7001d952b", null ],
-    [ "hasM", "a05396.html#a1eccf09f4c826ba480ec832ac4ce7718", null ],
-    [ "hasZ", "a05396.html#ab356995ed7cff0226d75484d03a994f2", null ],
-    [ "mPrecision", "a05396.html#a1b92282fc8148f040078b9bb37b30b15", null ],
-    [ "mPrecisionMultiplier", "a05396.html#a4ea667f57906c038bb9717bc848df77a", null ],
-    [ "precisionMultiplier", "a05396.html#a9aa85be4ec02c28a05cb552845fe08eb", null ],
-    [ "zPrecision", "a05396.html#abdd886294f53edb9018d91b1e049bef8", null ],
-    [ "zPrecisionMultiplier", "a05396.html#abb32d6067d519044d8c44d52ab2cdd44", null ]
+    [ "LengthToPoint", "a05396.html#a240c29c1439f065c4a8ba368d3939d77", null ],
+    [ "computeLength", "a05396.html#a38bb2c05753ecb2766c7165fe435b8f4", null ],
+    [ "getLength", "a05396.html#ad38c5c76d09d90c6f92e043aca622ee9", null ],
+    [ "length", "a05396.html#a6a53c15d31eb67b1bbbccd1a406d1996", null ],
+    [ "lengthAlongSegment", "a05396.html#a111d4c1b1f75a9ce7d3d064d3d1eb2e5", null ],
+    [ "updateLength", "a05396.html#a9d5b2181752a05941b27adcec1703c38", null ],
+    [ "locationLength", "a05396.html#ace4b03aa8fde8dc676bc91c1e7cf3b77", null ],
+    [ "minDistanceToPoint", "a05396.html#a8c1ee7f7f7146ea833c6b544dcc60243", null ]
 ];

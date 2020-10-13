@@ -1,5 +1,5 @@
 var a06004 =
 [
-    [ "testMMax", "a06004.html#afdcd3120493a23d4869c03134d63f41e", null ],
+    [ "testYMin", "a06004.html#ae9287504522420380f967a4bad0ce136", null ],
     [ "testPoint", "a06004.html#af26f700ee129f846cac58735f6dcc380", null ]
 ];

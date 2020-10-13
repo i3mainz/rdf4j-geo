@@ -1,7 +1,5 @@
 var a05896 =
 [
-    [ "testForceCollection", "a05896.html#a80928c2dac15d3b159f8708462c2141e", null ],
-    [ "testForceCollectionZ", "a05896.html#a7fb6c41061d547328e4d4147ed19f55f", null ],
-    [ "testGeom", "a05896.html#a03a5f5da0ccbeed8c1678d4317cf2672", null ],
-    [ "testGeomZ", "a05896.html#a5e443ef12c7db96a5d27a951f9db5a08", null ]
+    [ "testReverse", "a05896.html#ac38f1a963c4494ff939bad764b01b127", null ],
+    [ "testLineString", "a05896.html#a33797029fadbcba01b4a4fafec88cf41", null ]
 ];

@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>rdf4j-postgis: SridGetDatumTest Class Reference</title>
+<title>rdf4j-postgis: SRIDToWKTTest Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -62,39 +62,43 @@ $(document).ready(function(){initNavTree('a05836.html','');});
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pub-static-attribs">Static Public Attributes</a> &#124;
+<a href="#pac-attribs">Package Attributes</a> &#124;
 <a href="a05833.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">SridGetDatumTest Class Reference</div>  </div>
+<div class="title">SRIDToWKTTest Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 <div class="dynheader">
-Collaboration diagram for SridGetDatumTest:</div>
+Collaboration diagram for SRIDToWKTTest:</div>
 <div class="dyncontent">
-<div class="center"><img src="a05834.png" border="0" usemap="#SridGetDatumTest_coll__map" alt="Collaboration graph"/></div>
-<map name="SridGetDatumTest_coll__map" id="SridGetDatumTest_coll__map">
+<div class="center"><img src="a05834.png" border="0" usemap="#SRIDToWKTTest_coll__map" alt="Collaboration graph"/></div>
+<map name="SRIDToWKTTest_coll__map" id="SRIDToWKTTest_coll__map">
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a9d3a137e39e84c0018de3b734b787554"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05836.html#a9d3a137e39e84c0018de3b734b787554">testSridGetDatum</a> ()</td></tr>
-<tr class="separator:a9d3a137e39e84c0018de3b734b787554"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8c6fef7babecb35acd09d8764ddcb858"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05836.html#a8c6fef7babecb35acd09d8764ddcb858">testSRIDToWKT</a> ()</td></tr>
+<tr class="separator:a8c6fef7babecb35acd09d8764ddcb858"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
-Static Public Attributes</h2></td></tr>
-<tr class="memitem:af26f700ee129f846cac58735f6dcc380"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05836.html#af26f700ee129f846cac58735f6dcc380">testPoint</a> =&quot;&lt;http://www.opengis.net/def/crs/EPSG/0/4326&gt; POINT(1 2 3)&quot;</td></tr>
-<tr class="separator:af26f700ee129f846cac58735f6dcc380"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pac-attribs"></a>
+Package Attributes</h2></td></tr>
+<tr class="memitem:ae984b1b4178b56b80cdb7a80eac64541"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05836.html#ae984b1b4178b56b80cdb7a80eac64541">epsg</a> =&quot;EPSG:4326&quot;</td></tr>
+<tr class="separator:ae984b1b4178b56b80cdb7a80eac64541"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5ffebf384504d11b17aa9c75f4b92024"><td class="memItemLeft" align="right" valign="top">Integer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05836.html#a5ffebf384504d11b17aa9c75f4b92024">srid</a> =4326</td></tr>
+<tr class="separator:a5ffebf384504d11b17aa9c75f4b92024"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab74c72298a14045de8026d4c37013974"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05836.html#ab74c72298a14045de8026d4c37013974">epsg4326wkt</a> =&quot;GEODCRS[\&quot;WGS 84\&quot;,DATUM[\&quot;World Geodetic System 1984\&quot;,ELLIPSOID[\&quot;WGS 84\&quot;, 6378137.0, 298.257223563, LENGTHUNIT[\&quot;metre\&quot;, 1]]],PRIMEM[\&quot;Greenwich\&quot;, 0.0, ANGLEUNIT[\&quot;degree\&quot;, 0.017453292519943295]],CS[ellipsoidal, 2],AXIS[\&quot;Latitude (B)\&quot;, north, ORDER[1]],AXIS[\&quot;Longitude (L)\&quot;, east, ORDER[2]],ANGLEUNIT[\&quot;degree\&quot;, 0.017453292519943295],SCOPE[\&quot;Horizontal component of 3D system. Used by the GPS satellite navigation system and for NATO military geodetic surveying.\&quot;],AREA[\&quot;World.\&quot;],BBOX[-90.00, -180.00, 90.00, 180.00],ID[\&quot;EPSG\&quot;, 4326, \&quot;9.7\&quot;, URI[\&quot;urn:ogc:def:crs:EPSG:9.7:4326\&quot;]]]&quot;</td></tr>
+<tr class="separator:ab74c72298a14045de8026d4c37013974"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a9d3a137e39e84c0018de3b734b787554"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9d3a137e39e84c0018de3b734b787554">&#9670;&nbsp;</a></span>testSridGetDatum()</h2>
+<a id="a8c6fef7babecb35acd09d8764ddcb858"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8c6fef7babecb35acd09d8764ddcb858">&#9670;&nbsp;</a></span>testSRIDToWKT()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void testSridGetDatum </td>
+          <td class="memname">void testSRIDToWKT </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -102,14 +106,15 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="a03284.html#a43b4c73244bc6722ce551c1033cf1115">GeometricStringExportFunction.evaluate()</a>, and <a class="el" href="a05224.html#ae02c2e86ac0dea8538c7b43e9e82421a">WKTDatatype.LiteralIRI</a>.</p>
-<div class="fragment"><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;                                       {</div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;                SridGetDatum is3d=<span class="keyword">new</span> SridGetDatum();</div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;                ValueFactory valfac=SimpleValueFactory.getInstance();</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;                Value geo=valfac.createLiteral(<a class="code" href="a05836.html#af26f700ee129f846cac58735f6dcc380">testPoint</a>,WKTDatatype.LiteralIRI);</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;                Value result=is3d.evaluate(valfac, geo);</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;                Value expResult=valfac.createLiteral(<span class="stringliteral">&quot;X&quot;</span>);</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;            assertEquals(expResult, result);</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;        }</div><div class="ttc" id="a05836_html_af26f700ee129f846cac58735f6dcc380"><div class="ttname"><a href="a05836.html#af26f700ee129f846cac58735f6dcc380">org.eclipse.rdf4j.testsuites.postgis.geometry.srid.SridGetDatumTest.testPoint</a></div><div class="ttdeci">static final String testPoint</div><div class="ttdef"><b>Definition:</b> SridGetDatumTest.java:14</div></div>
+<p class="reference">References <a class="el" href="a03620.html#a43b4c73244bc6722ce551c1033cf1115">SRIDToWKT.evaluate()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;                                    {</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;                SRIDToWKT is3d=<span class="keyword">new</span> SRIDToWKT();</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;                ValueFactory valfac=SimpleValueFactory.getInstance();</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;                Value geo=valfac.createLiteral(<a class="code" href="a05836.html#a5ffebf384504d11b17aa9c75f4b92024">srid</a>);</div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;                Value result=is3d.evaluate(valfac, geo);</div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;                Value expResult=valfac.createLiteral(<a class="code" href="a05836.html#ab74c72298a14045de8026d4c37013974">epsg4326wkt</a>);</div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;            assertEquals(expResult, result);</div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;        }</div><div class="ttc" id="a05836_html_a5ffebf384504d11b17aa9c75f4b92024"><div class="ttname"><a href="a05836.html#a5ffebf384504d11b17aa9c75f4b92024">org.eclipse.rdf4j.testsuites.postgis.geometry.srid.SRIDToWKTTest.srid</a></div><div class="ttdeci">Integer srid</div><div class="ttdef"><b>Definition:</b> SRIDToWKTTest.java:16</div></div>
+<div class="ttc" id="a05836_html_ab74c72298a14045de8026d4c37013974"><div class="ttname"><a href="a05836.html#ab74c72298a14045de8026d4c37013974">org.eclipse.rdf4j.testsuites.postgis.geometry.srid.SRIDToWKTTest.epsg4326wkt</a></div><div class="ttdeci">String epsg4326wkt</div><div class="ttdef"><b>Definition:</b> SRIDToWKTTest.java:18</div></div>
 </div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="af26f700ee129f846cac58735f6dcc380"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af26f700ee129f846cac58735f6dcc380">&#9670;&nbsp;</a></span>testPoint</h2>
+<a id="ae984b1b4178b56b80cdb7a80eac64541"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae984b1b4178b56b80cdb7a80eac64541">&#9670;&nbsp;</a></span>epsg</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -118,12 +123,56 @@ Static Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">final String testPoint =&quot;&lt;http://www.opengis.net/def/crs/EPSG/0/4326&gt; POINT(1 2 3)&quot;</td>
+          <td class="memname">String epsg =&quot;EPSG:4326&quot;</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab74c72298a14045de8026d4c37013974"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab74c72298a14045de8026d4c37013974">&#9670;&nbsp;</a></span>epsg4326wkt</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">String epsg4326wkt =&quot;GEODCRS[\&quot;WGS 84\&quot;,DATUM[\&quot;World Geodetic System 1984\&quot;,ELLIPSOID[\&quot;WGS 84\&quot;, 6378137.0, 298.257223563, LENGTHUNIT[\&quot;metre\&quot;, 1]]],PRIMEM[\&quot;Greenwich\&quot;, 0.0, ANGLEUNIT[\&quot;degree\&quot;, 0.017453292519943295]],CS[ellipsoidal, 2],AXIS[\&quot;Latitude (B)\&quot;, north, ORDER[1]],AXIS[\&quot;Longitude (L)\&quot;, east, ORDER[2]],ANGLEUNIT[\&quot;degree\&quot;, 0.017453292519943295],SCOPE[\&quot;Horizontal component of 3D system. Used by the GPS satellite navigation system and for NATO military geodetic surveying.\&quot;],AREA[\&quot;World.\&quot;],BBOX[-90.00, -180.00, 90.00, 180.00],ID[\&quot;EPSG\&quot;, 4326, \&quot;9.7\&quot;, URI[\&quot;urn:ogc:def:crs:EPSG:9.7:4326\&quot;]]]&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5ffebf384504d11b17aa9c75f4b92024"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5ffebf384504d11b17aa9c75f4b92024">&#9670;&nbsp;</a></span>srid</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Integer srid =4326</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">package</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -136,7 +185,7 @@ Static Public Attributes</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="a02667.html">org</a></li><li class="navelem"><a class="el" href="a02668.html">eclipse</a></li><li class="navelem"><a class="el" href="a02669.html">rdf4j</a></li><li class="navelem"><a class="el" href="a02750.html">testsuites</a></li><li class="navelem"><a class="el" href="a02751.html">postgis</a></li><li class="navelem"><a class="el" href="a02754.html">geometry</a></li><li class="navelem"><a class="el" href="a02759.html">srid</a></li><li class="navelem"><a class="el" href="a05836.html">SridGetDatumTest</a></li>
+    <li class="navelem"><a class="el" href="a02667.html">org</a></li><li class="navelem"><a class="el" href="a02668.html">eclipse</a></li><li class="navelem"><a class="el" href="a02669.html">rdf4j</a></li><li class="navelem"><a class="el" href="a02750.html">testsuites</a></li><li class="navelem"><a class="el" href="a02751.html">postgis</a></li><li class="navelem"><a class="el" href="a02754.html">geometry</a></li><li class="navelem"><a class="el" href="a02759.html">srid</a></li><li class="navelem"><a class="el" href="a05836.html">SRIDToWKTTest</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>

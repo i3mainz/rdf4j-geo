@@ -1,7 +1,10 @@
 var a05712 =
 [
-    [ "testAreaSimilarity", "a05712.html#a6be5d939e472b1ba6360e0aed0003e21", null ],
-    [ "testAreaSimilarity2", "a05712.html#aa1a9b1a972267092713ec9d0b0a2c2b4", null ],
-    [ "isocelesTriangle", "a05712.html#aa04dfbec745e2622b9f7646f8572e501", null ],
-    [ "notIsocelesTriangle", "a05712.html#a055d99fb63bcee37763ffcf4da9e0521", null ]
+    [ "testEqualSRS", "a05712.html#a65423949d44f9275c8e65852f1d2c21f", null ],
+    [ "testNoSRS", "a05712.html#a9512f8c6cc810712e75379a2ac3af62a", null ],
+    [ "testNotEqualSRS", "a05712.html#a53e030c2e7a0f1d14425a168c2add23b", null ],
+    [ "testGeom", "a05712.html#a03a5f5da0ccbeed8c1678d4317cf2672", null ],
+    [ "testGeom2", "a05712.html#a6b4be369c8f60e973cd5126e69cd33a4", null ],
+    [ "testGeom3", "a05712.html#a800b6bb875a8ff4404ea787c3df125a5", null ],
+    [ "testGeom4", "a05712.html#a4c55e7efe430d6d220fb05524c4bb940", null ]
 ];

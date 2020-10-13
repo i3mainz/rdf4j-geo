@@ -1,11 +1,8 @@
 var a05380 =
 [
-    [ "ExtendedPrecisionReader", "a05380.html#a82112ea6921f2d28f7663dfa20ae32c6", null ],
-    [ "readPoint", "a05380.html#a04d3647950410c96c47734decf0e12b5", null ],
-    [ "readPointArray", "a05380.html#a1bbf2e471d2964af19292437ad42729b", null ],
-    [ "hasM", "a05380.html#a1eccf09f4c826ba480ec832ac4ce7718", null ],
-    [ "hasZ", "a05380.html#ab356995ed7cff0226d75484d03a994f2", null ],
-    [ "mPrecisionMultiplier", "a05380.html#a4ea667f57906c038bb9717bc848df77a", null ],
-    [ "precisionMultiplier", "a05380.html#a9aa85be4ec02c28a05cb552845fe08eb", null ],
-    [ "zPrecisionMultiplier", "a05380.html#abb32d6067d519044d8c44d52ab2cdd44", null ]
+    [ "DimensionalComparator", "a05380.html#a5bd255213663b3596e2de221144f1ab1", null ],
+    [ "DimensionalComparator", "a05380.html#aa12c933fd5275be6824111b1f2c92cd6", null ],
+    [ "compare", "a05380.html#a55bbcaf3b85142c9878f7b8ac44290fb", null ],
+    [ "compare", "a05380.html#a22ae744431802300f10565640dec04c5", null ],
+    [ "dimensionsToTest", "a05380.html#a6bb6df1c2db1f7b9fe46d4be2d0083af", null ]
 ];

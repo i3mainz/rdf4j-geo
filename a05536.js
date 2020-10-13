@@ -1,5 +1,6 @@
 var a05536 =
 [
-    [ "testIsRectangleFalse", "a05536.html#a5f21b4a097f15af24dcc034f575e4e4a", null ],
-    [ "testIsRectangleTrue", "a05536.html#acebf1f487a11cc34db915552f23c6383", null ]
+    [ "testMinimumBoundingCircle", "a05536.html#ae83e48bad70898d10790438246feadad", null ],
+    [ "result", "a05536.html#aab356d6554a7301750f11ec7a85ac47d", null ],
+    [ "testPolygon", "a05536.html#a1e3187cbc25299380589200c398b3ffd", null ]
 ];

@@ -1,14 +1,17 @@
 var a05284 =
 [
-    [ "Feature", "a05284.html#a25b3a15065bb9a73fee34b7379efbc3d", null ],
-    [ "getAttributes", "a05284.html#a53df620362bb32e76ab5ba5eafd8d7f8", null ],
-    [ "getExtent", "a05284.html#a60bfe2643b9af68293e713563b2792aa", null ],
-    [ "getGeometry", "a05284.html#ac87f55eacfa366a66a2ee6ff6c2ab40b", null ],
-    [ "getId", "a05284.html#ac7a54ea5a10c5c4683f16e3f83f77104", null ],
-    [ "getLayerName", "a05284.html#abd0c38e946022b804d4941aba21e6fe1", null ],
-    [ "attributes", "a05284.html#aae9ec0aefa9ddf1a254dcbc8921f46b6", null ],
-    [ "extent", "a05284.html#a6156e4ea9ca15fc926007ca518111147", null ],
-    [ "geometry", "a05284.html#ab673ef7c52790753f9f4280de525611c", null ],
-    [ "id", "a05284.html#a98e184e3edd9278aa1590f8a1c9515d7", null ],
-    [ "layerName", "a05284.html#a46934b2a2a8bed19bd956bc3d16b9aa1", null ]
+    [ "Encoder", "a05288.html", "a05288" ],
+    [ "getFormatName", "a05284.html#aecf7db5b6782ec66f95d40c786a4d223", null ],
+    [ "toString", "a05284.html#a7e2d51f85f9fd98fdfcb46223e1d6d3d", null ],
+    [ "write", "a05284.html#aa960f2057742a7bdaa5ee30ca6290d1a", null ],
+    [ "write", "a05284.html#a738b8792597a07a0ebaf1048adab4b3f", null ],
+    [ "KEY_ARG_END", "a05284.html#a1c49a78fa17940a2ff4d36acab548b83", null ],
+    [ "KEY_ARG_START", "a05284.html#aabe19399bfb7ad538e29aa8e7da1b661", null ],
+    [ "KEY_BOX", "a05284.html#a0e077064c8204574d2e3b78e331c6af2", null ],
+    [ "KEY_CIRCLE", "a05284.html#ad31626e894c93fbb3923faf7449216f6", null ],
+    [ "KEY_LINE", "a05284.html#aa798ffd2450a7d3035a5d81356f2517b", null ],
+    [ "KEY_MULTIPOINT", "a05284.html#ad1b12b6fcf2169a9880a25d1fe02f5f8", null ],
+    [ "KEY_POINT", "a05284.html#a5f790dd3fd65f7e2dad995f35c443fd0", null ],
+    [ "KEY_POLYGON", "a05284.html#a30d3807814d5bed37f8a82640e0f6c45", null ],
+    [ "KEY_SEPERATOR", "a05284.html#af7f80b3413766edf45bd57102852c8a6", null ]
 ];

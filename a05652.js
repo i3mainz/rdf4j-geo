@@ -1,6 +1,5 @@
 var a05652 =
 [
-    [ "testSetPoint", "a05652.html#a52b4ba451c7a5d90f46ae63b5ac3919b", null ],
-    [ "LineString2D", "a05652.html#a4a6127d0b7f1eecce2d32442325f7735", null ],
-    [ "point", "a05652.html#a081811ff1c2bedd0a20703599f90114f", null ]
+    [ "testAsEncodedPolyline", "a05652.html#a77e364f1e18fbe312ed563af435ddc8f", null ],
+    [ "testGeometry", "a05652.html#abc3f514f005cba49e406658e2d3086eb", null ]
 ];

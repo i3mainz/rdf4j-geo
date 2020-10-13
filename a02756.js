@@ -1,10 +1,10 @@
 var a02756 =
 [
-    [ "AddGeometryTest", "a05628.html", "a05628" ],
-    [ "AddPointTest", "a05632.html", "a05632" ],
-    [ "EnsureClosedTest", "a05636.html", "a05636" ],
-    [ "RemoveGeometryTest", "a05640.html", "a05640" ],
-    [ "RemovePointTest", "a05644.html", "a05644" ],
-    [ "SetGeometryTest", "a05648.html", "a05648" ],
-    [ "SetPointTest", "a05652.html", "a05652" ]
+    [ "AddGeometryTest", "a05604.html", "a05604" ],
+    [ "AddPointTest", "a05608.html", "a05608" ],
+    [ "EnsureClosedTest", "a05612.html", "a05612" ],
+    [ "RemoveGeometryTest", "a05616.html", "a05616" ],
+    [ "RemovePointTest", "a05620.html", "a05620" ],
+    [ "SetGeometryTest", "a05624.html", "a05624" ],
+    [ "SetPointTest", "a05628.html", "a05628" ]
 ];

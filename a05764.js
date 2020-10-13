@@ -1,10 +1,10 @@
 var a05764 =
 [
-    [ "testIntersectionPercentage", "a05764.html#a49e1dab16866e800563f476db34781d5", null ],
-    [ "testIntersectionPercentage2", "a05764.html#a90a7db3783150309d73dc80df07f4b85", null ],
-    [ "isocelesTriangle", "a05764.html#aa04dfbec745e2622b9f7646f8572e501", null ],
-    [ "notIsocelesTriangle", "a05764.html#a055d99fb63bcee37763ffcf4da9e0521", null ],
-    [ "result", "a05764.html#aab356d6554a7301750f11ec7a85ac47d", null ],
-    [ "testGeom", "a05764.html#a03a5f5da0ccbeed8c1678d4317cf2672", null ],
-    [ "testGeom2", "a05764.html#a6b4be369c8f60e973cd5126e69cd33a4", null ]
+    [ "testOrderingEquals1", "a05764.html#a35b0ff8ac582857f1742c06e5db14fb2", null ],
+    [ "testOrderingEquals2", "a05764.html#a258a7b3f7cf473377b4aaed9d19641c4", null ],
+    [ "testOrderingEquals3", "a05764.html#a47191a77968729eba6c2f943834b3992", null ],
+    [ "lineStringMedium", "a05764.html#a30a33894af6c6537b098f763a39d6054", null ],
+    [ "lineStringMedium2", "a05764.html#a6f7bc783bc9c02130f1251353e8efd7d", null ],
+    [ "lineStringSmall", "a05764.html#a12c9d589491219bf61791e12113fae06", null ],
+    [ "lineStringSmallReverse", "a05764.html#a2dd626abfe2d2e9dc2b4d1bc7f9dc810", null ]
 ];

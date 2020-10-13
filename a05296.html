@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>rdf4j-postgis: VectorTileEncoder.Feature Class Reference</title>
+<title>rdf4j-postgis: RasterUtils Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -61,32 +61,74 @@ $(document).ready(function(){initNavTree('a05296.html','');});
 <div id="doc-content">
 <div class="header">
   <div class="summary">
-<a href="#pac-attribs">Package Attributes</a> &#124;
+<a href="#pub-static-attribs">Static Public Attributes</a> &#124;
+<a href="#pro-attribs">Protected Attributes</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="a05293.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">VectorTileEncoder.Feature Class Reference</div>  </div>
+<div class="title">RasterUtils Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 <div class="dynheader">
-Collaboration diagram for VectorTileEncoder.Feature:</div>
+Inheritance diagram for RasterUtils:</div>
 <div class="dyncontent">
-<div class="center"><img src="a05294.png" border="0" usemap="#VectorTileEncoder_8Feature_coll__map" alt="Collaboration graph"/></div>
-<map name="VectorTileEncoder_8Feature_coll__map" id="VectorTileEncoder_8Feature_coll__map">
+<div class="center"><img src="a05295.png" border="0" usemap="#RasterUtils_inherit__map" alt="Inheritance graph"/></div>
+<map name="RasterUtils_inherit__map" id="RasterUtils_inherit__map">
+<area shape="rect" id="node2" href="a05292.html" title="RasterIterator" alt="" coords="5,80,108,107"/>
+</map>
+<center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
+<div class="dynheader">
+Collaboration diagram for RasterUtils:</div>
+<div class="dyncontent">
+<div class="center"><img src="a05294.png" border="0" usemap="#RasterUtils_coll__map" alt="Collaboration graph"/></div>
+<map name="RasterUtils_coll__map" id="RasterUtils_coll__map">
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pac-attribs"></a>
-Package Attributes</h2></td></tr>
-<tr class="memitem:a7350fbd6ad10618f3b750b1f99ca5c3c"><td class="memItemLeft" align="right" valign="top">long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05296.html#a7350fbd6ad10618f3b750b1f99ca5c3c">id</a></td></tr>
-<tr class="separator:a7350fbd6ad10618f3b750b1f99ca5c3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6d74c3aac1525133bde98589527d1591"><td class="memItemLeft" align="right" valign="top">Geometry&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05296.html#a6d74c3aac1525133bde98589527d1591">geometry</a></td></tr>
-<tr class="separator:a6d74c3aac1525133bde98589527d1591"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a07f0767bc5cf0b77ab9cb1aa260765d5"><td class="memItemLeft" align="right" valign="top">final List&lt; Integer &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05296.html#a07f0767bc5cf0b77ab9cb1aa260765d5">tags</a> = new ArrayList&lt;Integer&gt;()</td></tr>
-<tr class="separator:a07f0767bc5cf0b77ab9cb1aa260765d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
+Static Public Attributes</h2></td></tr>
+<tr class="memitem:ac6d5378ce1565feceb437902e6b1a936"><td class="memItemLeft" align="right" valign="top">static final double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05296.html#ac6d5378ce1565feceb437902e6b1a936">DOUBLE_COMPARE_TOLERANCE</a> = 0.00000001d</td></tr>
+<tr class="memdesc:ac6d5378ce1565feceb437902e6b1a936"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default tolerance for double comparisons: 1.0e-8 = 0.00000001.  <a href="#ac6d5378ce1565feceb437902e6b1a936">More...</a><br /></td></tr>
+<tr class="separator:ac6d5378ce1565feceb437902e6b1a936"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a72cdc44392cccb2a1c10d39a0ed76996"><td class="memItemLeft" align="right" valign="top">static final float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05296.html#a72cdc44392cccb2a1c10d39a0ed76996">FLOAT_COMPARE_TOLERANCE</a> = 0.0001f</td></tr>
+<tr class="memdesc:a72cdc44392cccb2a1c10d39a0ed76996"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default tolerance for float comparisons: 1.0e-4 = 0.0001.  <a href="#a72cdc44392cccb2a1c10d39a0ed76996">More...</a><br /></td></tr>
+<tr class="separator:a72cdc44392cccb2a1c10d39a0ed76996"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
+Protected Attributes</h2></td></tr>
+<tr class="memitem:a874e59977c453aeaea025f2b4c3a5a92"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05296.html#a874e59977c453aeaea025f2b4c3a5a92">srcNoData</a> = -Float.MAX_VALUE</td></tr>
+<tr class="separator:a874e59977c453aeaea025f2b4c3a5a92"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5a268cd5d527a74b947b5585bb470558"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05296.html#a5a268cd5d527a74b947b5585bb470558">CellSizeX</a> =30.</td></tr>
+<tr class="separator:a5a268cd5d527a74b947b5585bb470558"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9641e50dd63d883753be5c33aef718ee"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05296.html#a9641e50dd63d883753be5c33aef718ee">CellSizeY</a> =30.</td></tr>
+<tr class="separator:a9641e50dd63d883753be5c33aef718ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a78713ac63ea405b8a01db1555048e775"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05296.html#a78713ac63ea405b8a01db1555048e775">_8DX</a> = <a class="el" href="a05296.html#a5a268cd5d527a74b947b5585bb470558">CellSizeX</a> * 8</td></tr>
+<tr class="separator:a78713ac63ea405b8a01db1555048e775"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae368590f4384526a96ad9d5005780ce3"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05296.html#ae368590f4384526a96ad9d5005780ce3">_8DY</a> = <a class="el" href="a05296.html#a9641e50dd63d883753be5c33aef718ee">CellSizeY</a> * 8</td></tr>
+<tr class="separator:ae368590f4384526a96ad9d5005780ce3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af80fda90f1ef42bed2c95c37b9b7ad36"><td class="memItemLeft" align="right" valign="top">PlanarImage&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05296.html#af80fda90f1ef42bed2c95c37b9b7ad36">image</a></td></tr>
+<tr class="separator:af80fda90f1ef42bed2c95c37b9b7ad36"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a93061441dffe3f57f30a5e42f37da1bd"><td class="memItemLeft" align="right" valign="top">java.awt.Rectangle&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05296.html#a93061441dffe3f57f30a5e42f37da1bd">bounds</a></td></tr>
+<tr class="separator:a93061441dffe3f57f30a5e42f37da1bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae69ee17625ec51afd4437e6c12f720ed"><td class="memItemLeft" align="right" valign="top">Envelope&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05296.html#ae69ee17625ec51afd4437e6c12f720ed">Extent</a> = null</td></tr>
+<tr class="separator:ae69ee17625ec51afd4437e6c12f720ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a333a7172753ad52b2212cf6321965185"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05296.html#a333a7172753ad52b2212cf6321965185">NoData</a> = Float.MIN_VALUE</td></tr>
+<tr class="separator:a333a7172753ad52b2212cf6321965185"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a59c703eeb12850919824f1cf3a2064a8"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05296.html#a59c703eeb12850919824f1cf3a2064a8">MinValue</a> = Double.MAX_VALUE</td></tr>
+<tr class="separator:a59c703eeb12850919824f1cf3a2064a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa28e51e4a01ac8d216db75873271634b"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05296.html#aa28e51e4a01ac8d216db75873271634b">MaxValue</a> = Double.MIN_VALUE</td></tr>
+<tr class="separator:aa28e51e4a01ac8d216db75873271634b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:a054e332f5e7550eed6be976d79c4b452"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05296.html#a054e332f5e7550eed6be976d79c4b452">maxCol</a></td></tr>
+<tr class="separator:a054e332f5e7550eed6be976d79c4b452"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a309f4c3384b81702843b9437d4bda9c6"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05296.html#a309f4c3384b81702843b9437d4bda9c6">maxRow</a></td></tr>
+<tr class="separator:a309f4c3384b81702843b9437d4bda9c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="a6d74c3aac1525133bde98589527d1591"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6d74c3aac1525133bde98589527d1591">&#9670;&nbsp;</a></span>geometry</h2>
+<a id="a78713ac63ea405b8a01db1555048e775"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a78713ac63ea405b8a01db1555048e775">&#9670;&nbsp;</a></span>_8DX</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -95,22 +137,20 @@ Package Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">Geometry geometry</td>
+          <td class="memname">double _8DX = <a class="el" href="a05296.html#a5a268cd5d527a74b947b5585bb470558">CellSizeX</a> * 8</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="a05288.html#a2afe6a9071cc7d0e53c80fa46df18b61">VectorTileEncoder.addFeature()</a>, and <a class="el" href="a05288.html#ab467bae7ee09e6679725a5a385be624b">VectorTileEncoder.encode()</a>.</p>
-
 </div>
 </div>
-<a id="a7350fbd6ad10618f3b750b1f99ca5c3c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7350fbd6ad10618f3b750b1f99ca5c3c">&#9670;&nbsp;</a></span>id</h2>
+<a id="ae368590f4384526a96ad9d5005780ce3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae368590f4384526a96ad9d5005780ce3">&#9670;&nbsp;</a></span>_8DY</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -119,22 +159,20 @@ Package Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">long id</td>
+          <td class="memname">double _8DY = <a class="el" href="a05296.html#a9641e50dd63d883753be5c33aef718ee">CellSizeY</a> * 8</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="a05288.html#a2afe6a9071cc7d0e53c80fa46df18b61">VectorTileEncoder.addFeature()</a>, and <a class="el" href="a05288.html#ab467bae7ee09e6679725a5a385be624b">VectorTileEncoder.encode()</a>.</p>
-
 </div>
 </div>
-<a id="a07f0767bc5cf0b77ab9cb1aa260765d5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a07f0767bc5cf0b77ab9cb1aa260765d5">&#9670;&nbsp;</a></span>tags</h2>
+<a id="a93061441dffe3f57f30a5e42f37da1bd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a93061441dffe3f57f30a5e42f37da1bd">&#9670;&nbsp;</a></span>bounds</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -143,17 +181,283 @@ Package Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">final List&lt;Integer&gt; tags = new ArrayList&lt;Integer&gt;()</td>
+          <td class="memname">java.awt.Rectangle bounds</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">package</span></span>  </td>
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="a05288.html#a2afe6a9071cc7d0e53c80fa46df18b61">VectorTileEncoder.addFeature()</a>, and <a class="el" href="a05288.html#ab467bae7ee09e6679725a5a385be624b">VectorTileEncoder.encode()</a>.</p>
+</div>
+</div>
+<a id="a5a268cd5d527a74b947b5585bb470558"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5a268cd5d527a74b947b5585bb470558">&#9670;&nbsp;</a></span>CellSizeX</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double CellSizeX =30.</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9641e50dd63d883753be5c33aef718ee"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9641e50dd63d883753be5c33aef718ee">&#9670;&nbsp;</a></span>CellSizeY</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double CellSizeY =30.</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac6d5378ce1565feceb437902e6b1a936"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac6d5378ce1565feceb437902e6b1a936">&#9670;&nbsp;</a></span>DOUBLE_COMPARE_TOLERANCE</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final double DOUBLE_COMPARE_TOLERANCE = 0.00000001d</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Default tolerance for double comparisons: 1.0e-8 = 0.00000001. </p>
+
+</div>
+</div>
+<a id="ae69ee17625ec51afd4437e6c12f720ed"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae69ee17625ec51afd4437e6c12f720ed">&#9670;&nbsp;</a></span>Extent</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Envelope Extent = null</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a72cdc44392cccb2a1c10d39a0ed76996"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a72cdc44392cccb2a1c10d39a0ed76996">&#9670;&nbsp;</a></span>FLOAT_COMPARE_TOLERANCE</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final float FLOAT_COMPARE_TOLERANCE = 0.0001f</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Default tolerance for float comparisons: 1.0e-4 = 0.0001. </p>
+
+</div>
+</div>
+<a id="af80fda90f1ef42bed2c95c37b9b7ad36"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af80fda90f1ef42bed2c95c37b9b7ad36">&#9670;&nbsp;</a></span>image</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">PlanarImage image</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a054e332f5e7550eed6be976d79c4b452"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a054e332f5e7550eed6be976d79c4b452">&#9670;&nbsp;</a></span>maxCol</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int maxCol</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a309f4c3384b81702843b9437d4bda9c6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a309f4c3384b81702843b9437d4bda9c6">&#9670;&nbsp;</a></span>maxRow</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int maxRow</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa28e51e4a01ac8d216db75873271634b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa28e51e4a01ac8d216db75873271634b">&#9670;&nbsp;</a></span>MaxValue</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double MaxValue = Double.MIN_VALUE</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a59c703eeb12850919824f1cf3a2064a8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a59c703eeb12850919824f1cf3a2064a8">&#9670;&nbsp;</a></span>MinValue</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double MinValue = Double.MAX_VALUE</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a333a7172753ad52b2212cf6321965185"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a333a7172753ad52b2212cf6321965185">&#9670;&nbsp;</a></span>NoData</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double NoData = Float.MIN_VALUE</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a874e59977c453aeaea025f2b4c3a5a92"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a874e59977c453aeaea025f2b4c3a5a92">&#9670;&nbsp;</a></span>srcNoData</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double srcNoData = -Float.MAX_VALUE</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -163,7 +467,7 @@ Package Attributes</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="a02667.html">org</a></li><li class="navelem"><a class="el" href="a02668.html">eclipse</a></li><li class="navelem"><a class="el" href="a02669.html">rdf4j</a></li><li class="navelem"><a class="el" href="a02672.html">query</a></li><li class="navelem"><a class="el" href="a02673.html">algebra</a></li><li class="navelem"><a class="el" href="a02674.html">evaluation</a></li><li class="navelem"><a class="el" href="a02675.html">function</a></li><li class="navelem"><a class="el" href="a02676.html">postgis</a></li><li class="navelem"><a class="el" href="a02726.html">util</a></li><li class="navelem"><a class="el" href="a02732.html">parsers</a></li><li class="navelem"><a class="el" href="a05288.html">VectorTileEncoder</a></li><li class="navelem"><a class="el" href="a05296.html">Feature</a></li>
+    <li class="navelem"><a class="el" href="a02667.html">org</a></li><li class="navelem"><a class="el" href="a02668.html">eclipse</a></li><li class="navelem"><a class="el" href="a02669.html">rdf4j</a></li><li class="navelem"><a class="el" href="a02672.html">query</a></li><li class="navelem"><a class="el" href="a02673.html">algebra</a></li><li class="navelem"><a class="el" href="a02674.html">evaluation</a></li><li class="navelem"><a class="el" href="a02675.html">function</a></li><li class="navelem"><a class="el" href="a02676.html">postgis</a></li><li class="navelem"><a class="el" href="a02726.html">util</a></li><li class="navelem"><a class="el" href="a05296.html">RasterUtils</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>

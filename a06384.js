@@ -1,7 +1,7 @@
 var a06384 =
 [
     [ "getInstance", "a06384.html#af8afdd14b38b523d100805364a48ed63", null ],
-    [ "testRastFromWKB", "a06384.html#a17af431f5e6ed63c10451b3a17ecd0bf", null ],
+    [ "testAsRastWKB", "a06384.html#ac4241dd33011b06ba737eee0b71cd494", null ],
     [ "covJSONString1", "a06384.html#a993e2f127f3ec8f256e9799d77507223", null ],
     [ "hexwkbString1", "a06384.html#a55fb5b5d665417265da09403128e396e", null ],
     [ "minwkbString", "a06384.html#aa5e2b5a6005895fc20b9f35523569430", null ],

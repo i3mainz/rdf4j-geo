@@ -1,7 +1,7 @@
 var a06340 =
 [
     [ "getInstance", "a06340.html#af8afdd14b38b523d100805364a48ed63", null ],
-    [ "testTranslateX", "a06340.html#a7ed9468eeac5809ba50817e668153d42", null ],
+    [ "testWorldToRasterCoord", "a06340.html#a4c973c81ca801ba3f2f23b0712cb9f38", null ],
     [ "covJSONString1", "a06340.html#a993e2f127f3ec8f256e9799d77507223", null ],
     [ "hexwkbString1", "a06340.html#a55fb5b5d665417265da09403128e396e", null ],
     [ "minwkbString", "a06340.html#aa5e2b5a6005895fc20b9f35523569430", null ],

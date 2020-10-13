@@ -1,11 +1,8 @@
 var a05392 =
 [
-    [ "calculate", "a05392.html#a1b9dd1e59eac3a2a15cb68c19e994fe4", null ],
-    [ "checkCoordinate", "a05392.html#a0a01f90a7fe27e3b66f1c87f019e91bc", null ],
-    [ "finalize", "a05392.html#a7626720b9bf807253dd702a0214dc9f0", null ],
-    [ "writeExtendedPrecision", "a05392.html#a320ccd90ec0ef71a4353104b7fe98a1c", null ],
-    [ "writePoint", "a05392.html#adedb1cd853d00648be239477f7fe4e2a", null ],
-    [ "writePointArray", "a05392.html#afeed21e7153170021427b1e7001d952b", null ],
-    [ "precision", "a05392.html#aa95455ed52a8459fad69509a4a0411b5", null ],
-    [ "precisionMultiplier", "a05392.html#a9aa85be4ec02c28a05cb552845fe08eb", null ]
+    [ "LengthSubstring", "a05392.html#a8375df00135da48182ecb97996cfebf1", null ],
+    [ "computeSubstring", "a05392.html#ad8eec22df403077b17b2ac90b0c95230", null ],
+    [ "getSubstring", "a05392.html#a0899c2e48f2616119c3f0e3e297549e6", null ],
+    [ "getSubstring", "a05392.html#a7aa54bd5af7e7f3fd33047db15540bc4", null ],
+    [ "line", "a05392.html#a53e992765125efc5fc595f0d38e947ea", null ]
 ];

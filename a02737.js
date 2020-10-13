@@ -1,6 +1,6 @@
 var a02737 =
 [
-    [ "TWKBReader", "a05368.html", "a05368" ],
-    [ "TWKBUtils", "a05384.html", "a05384" ],
-    [ "TWKBWriter", "a05388.html", "a05388" ]
+    [ "TWKBReader", "a05344.html", "a05344" ],
+    [ "TWKBUtils", "a05360.html", "a05360" ],
+    [ "TWKBWriter", "a05364.html", "a05364" ]
 ];

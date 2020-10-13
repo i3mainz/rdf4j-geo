@@ -1,7 +1,7 @@
 var a06188 =
 [
     [ "getInstance", "a06188.html#af8afdd14b38b523d100805364a48ed63", null ],
-    [ "testDivConst", "a06188.html#a41679bcbed1ec2aa7d574727940c0407", null ],
+    [ "testMultConst", "a06188.html#a8f8167b46b16f4c01a693697e74b0192", null ],
     [ "combinedRasterLiteral", "a06188.html#a6efe8702be34a67e2bcbba55588c5b5f", null ],
     [ "covJSONString1", "a06188.html#a993e2f127f3ec8f256e9799d77507223", null ],
     [ "hexwkbString1", "a06188.html#a55fb5b5d665417265da09403128e396e", null ],

@@ -1,5 +1,5 @@
 var a02764 =
 [
-    [ "SetEndPointTest", "a05976.html", "a05976" ],
-    [ "SetStartPointTest", "a05980.html", "a05980" ]
+    [ "SetEndPointTest", "a05952.html", "a05952" ],
+    [ "SetStartPointTest", "a05956.html", "a05956" ]
 ];

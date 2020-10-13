@@ -1,18 +1,11 @@
 var a05368 =
 [
-    [ "ByteBufferInputStream", "a05372.html", "a05372" ],
-    [ "ExtendedPrecisionReader", "a05380.html", "a05380" ],
-    [ "PrecisionReader", "a05376.html", "a05376" ],
-    [ "TWKBReader", "a05368.html#a2d0cf62133f736a6dec7fbe015b659b3", null ],
-    [ "read", "a05368.html#a4dc57ab77430b9455e05befca4bab869", null ],
-    [ "read", "a05368.html#a9f8cf66c196738c08a011f5cf5360c62", null ],
-    [ "read", "a05368.html#a9652885c7bbb8ceaa0fd9449fe537fba", null ],
-    [ "readGeometryCollection", "a05368.html#ab4d4478c3bf2e64323326c692fc8423c", null ],
-    [ "readLineString", "a05368.html#acede6c0ca02364e8d3082860dbc85756", null ],
-    [ "readMultiLineString", "a05368.html#a2eb2c0cc11788b2a6b4076b1cbc33d4d", null ],
-    [ "readMultiPoint", "a05368.html#a2839b0647e24edb08f4d36933d5085d0", null ],
-    [ "readMultiPolygon", "a05368.html#a9cc7f376f2d046a015b6d579aa02880f", null ],
-    [ "readPoint", "a05368.html#a5f412336d0409a4764a3f8c7f32d762d", null ],
-    [ "readPolygon", "a05368.html#aaf811e3872d22365c43a9226c5ba9a5e", null ],
-    [ "fac", "a05368.html#af84c5a6556159f41065ba301d8ff9ddd", null ]
+    [ "calculate", "a05368.html#a1b9dd1e59eac3a2a15cb68c19e994fe4", null ],
+    [ "checkCoordinate", "a05368.html#a0a01f90a7fe27e3b66f1c87f019e91bc", null ],
+    [ "finalize", "a05368.html#a7626720b9bf807253dd702a0214dc9f0", null ],
+    [ "writeExtendedPrecision", "a05368.html#a320ccd90ec0ef71a4353104b7fe98a1c", null ],
+    [ "writePoint", "a05368.html#adedb1cd853d00648be239477f7fe4e2a", null ],
+    [ "writePointArray", "a05368.html#afeed21e7153170021427b1e7001d952b", null ],
+    [ "precision", "a05368.html#aa95455ed52a8459fad69509a4a0411b5", null ],
+    [ "precisionMultiplier", "a05368.html#a9aa85be4ec02c28a05cb552845fe08eb", null ]
 ];

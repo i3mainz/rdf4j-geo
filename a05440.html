@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>rdf4j-postgis: BBOXDistanceTest Class Reference</title>
+<title>rdf4j-postgis: BBOXOverlapsRightTest Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -65,42 +65,44 @@ $(document).ready(function(){initNavTree('a05440.html','');});
 <a href="#pub-static-attribs">Static Public Attributes</a> &#124;
 <a href="a05437.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">BBOXDistanceTest Class Reference</div>  </div>
+<div class="title">BBOXOverlapsRightTest Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 <div class="dynheader">
-Collaboration diagram for BBOXDistanceTest:</div>
+Collaboration diagram for BBOXOverlapsRightTest:</div>
 <div class="dyncontent">
-<div class="center"><img src="a05438.png" border="0" usemap="#BBOXDistanceTest_coll__map" alt="Collaboration graph"/></div>
-<map name="BBOXDistanceTest_coll__map" id="BBOXDistanceTest_coll__map">
+<div class="center"><img src="a05438.png" border="0" usemap="#BBOXOverlapsRightTest_coll__map" alt="Collaboration graph"/></div>
+<map name="BBOXOverlapsRightTest_coll__map" id="BBOXOverlapsRightTest_coll__map">
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a92dec506ee3b1258b55159ac890afd0a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05440.html#a92dec506ee3b1258b55159ac890afd0a">testBBOXDistance</a> ()</td></tr>
-<tr class="separator:a92dec506ee3b1258b55159ac890afd0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1d3293620606e59a1f913178b94ea7fd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05440.html#a1d3293620606e59a1f913178b94ea7fd">testBBOXRightOf</a> ()</td></tr>
+<tr class="separator:a1d3293620606e59a1f913178b94ea7fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae27abe3e3daa14fdd8094ad71b5cb2cc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05440.html#ae27abe3e3daa14fdd8094ad71b5cb2cc">testBBOXRightOf1</a> ()</td></tr>
+<tr class="separator:ae27abe3e3daa14fdd8094ad71b5cb2cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
-<tr class="memitem:aa4a3b1a7e778ece72382f6600fa96b47"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05440.html#aa4a3b1a7e778ece72382f6600fa96b47">testGeom1</a> =&quot;LINESTRING (1 4, 1 7)&quot;</td></tr>
+<tr class="memitem:aa4a3b1a7e778ece72382f6600fa96b47"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05440.html#aa4a3b1a7e778ece72382f6600fa96b47">testGeom1</a> =&quot;POLYGON ((0 0,2 3, 5 0, 0 0))&quot;</td></tr>
 <tr class="separator:aa4a3b1a7e778ece72382f6600fa96b47"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6b4be369c8f60e973cd5126e69cd33a4"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05440.html#a6b4be369c8f60e973cd5126e69cd33a4">testGeom2</a> =&quot;LINESTRING (0 0, 4 2)&quot;</td></tr>
+<tr class="memitem:a6b4be369c8f60e973cd5126e69cd33a4"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05440.html#a6b4be369c8f60e973cd5126e69cd33a4">testGeom2</a> =&quot;POLYGON ((2 1,2 3, 7 0, 2 1))&quot;</td></tr>
 <tr class="separator:a6b4be369c8f60e973cd5126e69cd33a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a800b6bb875a8ff4404ea787c3df125a5"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05440.html#a800b6bb875a8ff4404ea787c3df125a5">testGeom3</a> =&quot;LINESTRING (6 1, 6 5)&quot;</td></tr>
+<tr class="memitem:a800b6bb875a8ff4404ea787c3df125a5"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05440.html#a800b6bb875a8ff4404ea787c3df125a5">testGeom3</a> =&quot;POLYGON ((-2 1,2 3, 7 9, -2 1))&quot;</td></tr>
 <tr class="separator:a800b6bb875a8ff4404ea787c3df125a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4c55e7efe430d6d220fb05524c4bb940"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05440.html#a4c55e7efe430d6d220fb05524c4bb940">testGeom4</a> =&quot;LINESTRING (2 3, 5 6)&quot;</td></tr>
+<tr class="memitem:a4c55e7efe430d6d220fb05524c4bb940"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05440.html#a4c55e7efe430d6d220fb05524c4bb940">testGeom4</a> =&quot;LINESTRING (0 0, 4 3)&quot;</td></tr>
 <tr class="separator:a4c55e7efe430d6d220fb05524c4bb940"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a92dec506ee3b1258b55159ac890afd0a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a92dec506ee3b1258b55159ac890afd0a">&#9670;&nbsp;</a></span>testBBOXDistance()</h2>
+<a id="a1d3293620606e59a1f913178b94ea7fd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1d3293620606e59a1f913178b94ea7fd">&#9670;&nbsp;</a></span>testBBOXRightOf()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void testBBOXDistance </td>
+          <td class="memname">void testBBOXRightOf </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -108,9 +110,30 @@ Static Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="a03264.html#a43b4c73244bc6722ce551c1033cf1115">GeometricRelationDoubleFunction.evaluate()</a>, and <a class="el" href="a05224.html#ae02c2e86ac0dea8538c7b43e9e82421a">WKTDatatype.LiteralIRI</a>.</p>
-<div class="fragment"><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;                                       {</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;                BBOXDistance instance=<span class="keyword">new</span> BBOXDistance();</div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;                ValueFactory valfac=SimpleValueFactory.getInstance();</div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;                Value geo=valfac.createLiteral(<a class="code" href="a05440.html#aa4a3b1a7e778ece72382f6600fa96b47">testGeom1</a>, WKTDatatype.LiteralIRI);</div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;                Value geo2=valfac.createLiteral(<a class="code" href="a05440.html#a6b4be369c8f60e973cd5126e69cd33a4">testGeom2</a>, WKTDatatype.LiteralIRI);</div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;                Value result=instance.evaluate(valfac, geo,geo2);</div><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;                Value expResult=valfac.createLiteral(2);</div><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;                assertEquals(expResult, result);</div><div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;        }</div><div class="ttc" id="a05440_html_aa4a3b1a7e778ece72382f6600fa96b47"><div class="ttname"><a href="a05440.html#aa4a3b1a7e778ece72382f6600fa96b47">org.eclipse.rdf4j.testsuites.postgis.envelope.relation.BBOXDistanceTest.testGeom1</a></div><div class="ttdeci">static final String testGeom1</div><div class="ttdef"><b>Definition:</b> BBOXDistanceTest.java:14</div></div>
-<div class="ttc" id="a05440_html_a6b4be369c8f60e973cd5126e69cd33a4"><div class="ttname"><a href="a05440.html#a6b4be369c8f60e973cd5126e69cd33a4">org.eclipse.rdf4j.testsuites.postgis.envelope.relation.BBOXDistanceTest.testGeom2</a></div><div class="ttdeci">static final String testGeom2</div><div class="ttdef"><b>Definition:</b> BBOXDistanceTest.java:16</div></div>
+<p class="reference">References <a class="el" href="a03252.html#a43b4c73244bc6722ce551c1033cf1115">GeometricRelationBinaryFunction.evaluate()</a>, and <a class="el" href="a05224.html#ae02c2e86ac0dea8538c7b43e9e82421a">WKTDatatype.LiteralIRI</a>.</p>
+<div class="fragment"><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;                                      {</div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;                BBOXOverlapsRight instance=<span class="keyword">new</span> BBOXOverlapsRight();</div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;                ValueFactory valfac=SimpleValueFactory.getInstance();</div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;                Value geo=valfac.createLiteral(<a class="code" href="a05440.html#aa4a3b1a7e778ece72382f6600fa96b47">testGeom1</a>, WKTDatatype.LiteralIRI);</div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;                Value geo2=valfac.createLiteral(<a class="code" href="a05440.html#a6b4be369c8f60e973cd5126e69cd33a4">testGeom2</a>, WKTDatatype.LiteralIRI);</div><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;                Value result=instance.evaluate(valfac, geo,geo2);</div><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;                Value expResult=valfac.createLiteral(<span class="keyword">true</span>);</div><div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;                assertEquals(expResult, result);</div><div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;        }</div><div class="ttc" id="a05440_html_aa4a3b1a7e778ece72382f6600fa96b47"><div class="ttname"><a href="a05440.html#aa4a3b1a7e778ece72382f6600fa96b47">org.eclipse.rdf4j.testsuites.postgis.envelope.relation.BBOXOverlapsRightTest.testGeom1</a></div><div class="ttdeci">static final String testGeom1</div><div class="ttdef"><b>Definition:</b> BBOXOverlapsRightTest.java:14</div></div>
+<div class="ttc" id="a05440_html_a6b4be369c8f60e973cd5126e69cd33a4"><div class="ttname"><a href="a05440.html#a6b4be369c8f60e973cd5126e69cd33a4">org.eclipse.rdf4j.testsuites.postgis.envelope.relation.BBOXOverlapsRightTest.testGeom2</a></div><div class="ttdeci">static final String testGeom2</div><div class="ttdef"><b>Definition:</b> BBOXOverlapsRightTest.java:16</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="ae27abe3e3daa14fdd8094ad71b5cb2cc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae27abe3e3daa14fdd8094ad71b5cb2cc">&#9670;&nbsp;</a></span>testBBOXRightOf1()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void testBBOXRightOf1 </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="a03252.html#a43b4c73244bc6722ce551c1033cf1115">GeometricRelationBinaryFunction.evaluate()</a>, and <a class="el" href="a05224.html#ae02c2e86ac0dea8538c7b43e9e82421a">WKTDatatype.LiteralIRI</a>.</p>
+<div class="fragment"><div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;                                       {</div><div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;                BBOXOverlapsRight instance=<span class="keyword">new</span> BBOXOverlapsRight();</div><div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;                ValueFactory valfac=SimpleValueFactory.getInstance();</div><div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;                Value geo=valfac.createLiteral(<a class="code" href="a05440.html#aa4a3b1a7e778ece72382f6600fa96b47">testGeom1</a>, WKTDatatype.LiteralIRI);</div><div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;                Value geo2=valfac.createLiteral(<a class="code" href="a05440.html#a800b6bb875a8ff4404ea787c3df125a5">testGeom3</a>, WKTDatatype.LiteralIRI);</div><div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;                Value result=instance.evaluate(valfac, geo,geo2);</div><div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;                Value expResult=valfac.createLiteral(<span class="keyword">false</span>);</div><div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;                assertEquals(expResult, result);</div><div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;        }</div><div class="ttc" id="a05440_html_a800b6bb875a8ff4404ea787c3df125a5"><div class="ttname"><a href="a05440.html#a800b6bb875a8ff4404ea787c3df125a5">org.eclipse.rdf4j.testsuites.postgis.envelope.relation.BBOXOverlapsRightTest.testGeom3</a></div><div class="ttdeci">static final String testGeom3</div><div class="ttdef"><b>Definition:</b> BBOXOverlapsRightTest.java:18</div></div>
+<div class="ttc" id="a05440_html_aa4a3b1a7e778ece72382f6600fa96b47"><div class="ttname"><a href="a05440.html#aa4a3b1a7e778ece72382f6600fa96b47">org.eclipse.rdf4j.testsuites.postgis.envelope.relation.BBOXOverlapsRightTest.testGeom1</a></div><div class="ttdeci">static final String testGeom1</div><div class="ttdef"><b>Definition:</b> BBOXOverlapsRightTest.java:14</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -125,7 +148,7 @@ Static Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">final String testGeom1 =&quot;LINESTRING (1 4, 1 7)&quot;</td>
+          <td class="memname">final String testGeom1 =&quot;POLYGON ((0 0,2 3, 5 0, 0 0))&quot;</td>
         </tr>
       </table>
   </td>
@@ -147,7 +170,7 @@ Static Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">final String testGeom2 =&quot;LINESTRING (0 0, 4 2)&quot;</td>
+          <td class="memname">final String testGeom2 =&quot;POLYGON ((2 1,2 3, 7 0, 2 1))&quot;</td>
         </tr>
       </table>
   </td>
@@ -169,7 +192,7 @@ Static Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">final String testGeom3 =&quot;LINESTRING (6 1, 6 5)&quot;</td>
+          <td class="memname">final String testGeom3 =&quot;POLYGON ((-2 1,2 3, 7 9, -2 1))&quot;</td>
         </tr>
       </table>
   </td>
@@ -191,7 +214,7 @@ Static Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">final String testGeom4 =&quot;LINESTRING (2 3, 5 6)&quot;</td>
+          <td class="memname">final String testGeom4 =&quot;LINESTRING (0 0, 4 3)&quot;</td>
         </tr>
       </table>
   </td>
@@ -209,7 +232,7 @@ Static Public Attributes</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="a02667.html">org</a></li><li class="navelem"><a class="el" href="a02668.html">eclipse</a></li><li class="navelem"><a class="el" href="a02669.html">rdf4j</a></li><li class="navelem"><a class="el" href="a02750.html">testsuites</a></li><li class="navelem"><a class="el" href="a02751.html">postgis</a></li><li class="navelem"><a class="el" href="a02752.html">envelope</a></li><li class="navelem"><a class="el" href="a02749.html">relation</a></li><li class="navelem"><a class="el" href="a05440.html">BBOXDistanceTest</a></li>
+    <li class="navelem"><a class="el" href="a02667.html">org</a></li><li class="navelem"><a class="el" href="a02668.html">eclipse</a></li><li class="navelem"><a class="el" href="a02669.html">rdf4j</a></li><li class="navelem"><a class="el" href="a02750.html">testsuites</a></li><li class="navelem"><a class="el" href="a02751.html">postgis</a></li><li class="navelem"><a class="el" href="a02752.html">envelope</a></li><li class="navelem"><a class="el" href="a02749.html">relation</a></li><li class="navelem"><a class="el" href="a05440.html">BBOXOverlapsRightTest</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>

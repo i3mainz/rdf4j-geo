@@ -1,5 +1,5 @@
 var a05664 =
 [
-    [ "testAsGeoJSON", "a05664.html#a6aee2cc3188bbf40fb4d946ed66e57c2", null ],
+    [ "testAsPolyShape", "a05664.html#aa4ec805ffcfb140ead8292a441244775", null ],
     [ "testGeometry", "a05664.html#abc3f514f005cba49e406658e2d3086eb", null ]
 ];

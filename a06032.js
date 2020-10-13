@@ -1,5 +1,4 @@
 var a06032 =
 [
-    [ "testZMin", "a06032.html#a4611a55cc1ca54817f58770fda369856", null ],
-    [ "testPoint", "a06032.html#af26f700ee129f846cac58735f6dcc380", null ]
+    [ "testGeneratePoints", "a06032.html#a63588109fc080478770a7d3cc31b245d", null ]
 ];

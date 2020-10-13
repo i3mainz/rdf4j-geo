@@ -1,7 +1,7 @@
 var a06280 =
 [
     [ "getInstance", "a06280.html#af8afdd14b38b523d100805364a48ed63", null ],
-    [ "testNumXTiles", "a06280.html#af915208e49825525b90a73f24559da6b", null ],
+    [ "testMinScaleY", "a06280.html#aeb96648745a2079835811cbf217dca56", null ],
     [ "covJSONString1", "a06280.html#a993e2f127f3ec8f256e9799d77507223", null ],
     [ "hexwkbString1", "a06280.html#a55fb5b5d665417265da09403128e396e", null ],
     [ "minwkbString", "a06280.html#aa5e2b5a6005895fc20b9f35523569430", null ],

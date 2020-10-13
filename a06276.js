@@ -1,7 +1,7 @@
 var a06276 =
 [
     [ "getInstance", "a06276.html#af8afdd14b38b523d100805364a48ed63", null ],
-    [ "testNumBands", "a06276.html#acbd68d09b85f29cb457f75f009ff1366", null ],
+    [ "testMinScaleX", "a06276.html#aee1e07c53503a3adc527bf03d2b1382e", null ],
     [ "covJSONString1", "a06276.html#a993e2f127f3ec8f256e9799d77507223", null ],
     [ "hexwkbString1", "a06276.html#a55fb5b5d665417265da09403128e396e", null ],
     [ "minwkbString", "a06276.html#aa5e2b5a6005895fc20b9f35523569430", null ],

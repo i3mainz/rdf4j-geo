@@ -1,7 +1,10 @@
 var a05488 =
 [
-    [ "testCompactnessRatio", "a05488.html#a59967568bbd6211556c900a674e7d734", null ],
-    [ "testCompactnessRatioNaN", "a05488.html#ae3752d7c7c0d239b3de70afbc8ad4f0b", null ],
-    [ "testGeometry", "a05488.html#abc3f514f005cba49e406658e2d3086eb", null ],
-    [ "testPolygon", "a05488.html#a1e3187cbc25299380589200c398b3ffd", null ]
+    [ "testGeometryCollectionIsCollection", "a05488.html#ab8f9e80081b7ac2106ef406ffbb215e2", null ],
+    [ "testLineStringIsCollection", "a05488.html#a513937962f26a1affcc4d0c369733a79", null ],
+    [ "testMultiLineStringIsCollection", "a05488.html#af185514d9e978598dc7aa4ba06572494", null ],
+    [ "testMultiPointIsCollection", "a05488.html#abe0dc5056717b405438313e86f9017f2", null ],
+    [ "testMultiPolygonIsCollection", "a05488.html#a3cb8a0ddd3838eedbcbb6c1651e3a9c0", null ],
+    [ "testPointIsCollection", "a05488.html#ae050c74afe9d24c25aa8cfddca93609d", null ],
+    [ "testPolygonIsCollection", "a05488.html#aa73539bce49dc7ae2102874315d15e51", null ]
 ];

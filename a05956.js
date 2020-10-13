@@ -1,7 +1,6 @@
 var a05956 =
 [
-    [ "testLineStringIsNotRing", "a05956.html#a321e37eed11ab4c4fb34459ff2f0c8a4", null ],
-    [ "testLineStringIsRing", "a05956.html#af99150f0a2baa803f3a32475e363a546", null ],
-    [ "isNotRing", "a05956.html#aab14cab4c38dbe8dacf3fc3b49a4e99d", null ],
-    [ "isRing", "a05956.html#ada60d12c21aae01823c842a1347435af", null ]
+    [ "testSetStartPoint", "a05956.html#ac3e198aee4c9abe9dfbad67f80bebf75", null ],
+    [ "LineString2D", "a05956.html#a4a6127d0b7f1eecce2d32442325f7735", null ],
+    [ "point", "a05956.html#a081811ff1c2bedd0a20703599f90114f", null ]
 ];

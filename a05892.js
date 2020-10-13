@@ -1,5 +1,6 @@
 var a05892 =
 [
-    [ "testForce4D", "a05892.html#ad31ba6d34e7770eae5de0864a25b1766", null ],
-    [ "testLineString", "a05892.html#a33797029fadbcba01b4a4fafec88cf41", null ]
+    [ "testRemoveRepeatedPoints", "a05892.html#a473d131a5f96a89f9502570a50d06e65", null ],
+    [ "testGeometry", "a05892.html#abc3f514f005cba49e406658e2d3086eb", null ],
+    [ "testGeometry2", "a05892.html#af1173652e671b8f9051f8630b98c73fb", null ]
 ];
