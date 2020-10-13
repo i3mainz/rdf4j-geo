@@ -1,5 +1,5 @@
 var a05620 =
 [
-    [ "testSridHasFlippedAxis", "a05620.html#a94f12f6d4a3fe8f25be5144338eb0198", null ],
-    [ "testPoint", "a05620.html#af26f700ee129f846cac58735f6dcc380", null ]
+    [ "testGeomFromText", "a05620.html#a2678d2fcc796b673cc52b0e000a954b0", null ],
+    [ "geoJsonTestGeom", "a05620.html#a117e8ff340791b5aa0658f5840b5dcf4", null ]
 ];

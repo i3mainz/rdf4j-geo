@@ -1,6 +1,6 @@
 var a05560 =
 [
-    [ "testMaxDistance", "a05560.html#acd5d6c70876299a0278552ba577a7efc", null ],
-    [ "testGeom", "a05560.html#a03a5f5da0ccbeed8c1678d4317cf2672", null ],
-    [ "testGeom2", "a05560.html#a6b4be369c8f60e973cd5126e69cd33a4", null ]
+    [ "testMinimumBoundingCircle", "a05560.html#ae83e48bad70898d10790438246feadad", null ],
+    [ "result", "a05560.html#aab356d6554a7301750f11ec7a85ac47d", null ],
+    [ "testPolygon", "a05560.html#a1e3187cbc25299380589200c398b3ffd", null ]
 ];

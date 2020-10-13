@@ -1,8 +1,9 @@
 var a05160 =
 [
-    [ "ByteBufferInputStream", "a05160.html#a45e3ebcf56fe2e78f77d9ddda8485fa0", null ],
-    [ "available", "a05160.html#a4549a76725f2e4c013e4d57018366109", null ],
-    [ "read", "a05160.html#aaab5dab5b969a87f538242e524431637", null ],
-    [ "read", "a05160.html#a248e13ef5029818776308e269fa7900e", null ],
-    [ "byteBuffer", "a05160.html#acb7716c09c3c94749ca0b1613ecfae6a", null ]
+    [ "read", "a05160.html#a793358fbd6ef538a24eabab1bd50ef01", null ],
+    [ "toString", "a05160.html#ad146fa8579a5f8a876c4688cc5a68520", null ],
+    [ "unparse", "a05160.html#ae918a517e1ebcc44beeee2c55008d248", null ],
+    [ "INSTANCE", "a05160.html#ac55256a5d2432ae12b6846d3416c13e0", null ],
+    [ "LiteralIRI", "a05160.html#ae02c2e86ac0dea8538c7b43e9e82421a", null ],
+    [ "URI", "a05160.html#addbf30e6c0ad68fa34277d59a2c6eb5e", null ]
 ];

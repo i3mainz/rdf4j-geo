@@ -1,7 +1,26 @@
 var a02711 =
 [
-    [ "attribute", "a02710.html", "a02710" ],
-    [ "constructor", "a02712.html", "a02712" ],
-    [ "editor", "a02713.html", "a02713" ],
-    [ "exporter", "a02714.html", "a02714" ]
+    [ "RasterAlgebraConstFunction", "a04520.html", "a04520" ],
+    [ "RasterAlgebraFunction", "a04524.html", "a04524" ],
+    [ "RasterAlgebraUnaryFunction", "a04528.html", "a04528" ],
+    [ "RasterAttributeBinaryFunction", "a04532.html", "a04532" ],
+    [ "RasterAttributeBooleanIntFunction", "a04536.html", "a04536" ],
+    [ "RasterAttributeDoubleIntFunction", "a04540.html", "a04540" ],
+    [ "RasterAttributeFunction", "a04544.html", "a04544" ],
+    [ "RasterAttributeIntIntDoubleFunction", "a04548.html", "a04548" ],
+    [ "RasterAttributeIntIntFunction", "a04552.html", "a04552" ],
+    [ "RasterAttributeIntIntGeomFunction", "a04556.html", "a04556" ],
+    [ "RasterAttributeIntIntIntBooleanFunction", "a04560.html", "a04560" ],
+    [ "RasterAttributeIntIntIntIntFunction", "a04564.html", "a04564" ],
+    [ "RasterAttributeIntIntIntStringFunction", "a04568.html", "a04568" ],
+    [ "RasterConstructorFunction", "a04572.html", "a04572" ],
+    [ "RasterGeometryConversionFunction", "a04576.html", "a04576" ],
+    [ "RasterModifierBoolDoubleFunction", "a04580.html", "a04580" ],
+    [ "RasterModifierDoubleDoubleFunction", "a04584.html", "a04584" ],
+    [ "RasterModifierFunction", "a04588.html", "a04588" ],
+    [ "RasterModifierGeometryFunction", "a04592.html", "a04592" ],
+    [ "RasterModifierIntIntFunction", "a04596.html", "a04596" ],
+    [ "RasterRelationBooleanFunction", "a04600.html", "a04600" ],
+    [ "RasterStringExportFunction", "a04604.html", "a04604" ],
+    [ "RasterToVectorExportFunction", "a04608.html", "a04608" ]
 ];

@@ -1,9 +1,9 @@
 var a05120 =
 [
-    [ "evaluate", "a05120.html#a43b4c73244bc6722ce551c1033cf1115", null ],
-    [ "getLiteral", "a05120.html#ad5ea121d0231b4b209324202427665f0", null ],
-    [ "relation", "a05120.html#a1c73bf75db5306313ea4b0b4c2830d51", null ],
-    [ "vectorOrRaster", "a05120.html#ad5afdfd817cdf11ee0e48c7f56c5514c", null ],
-    [ "rasterLiteralURIs", "a05120.html#ac7dbee8298c097c6bd08da6002fd6ecb", null ],
-    [ "vectorLiteralURIs", "a05120.html#a6e7c25bfd07628e3e74ea4e1ddfcae70", null ]
+    [ "read", "a05120.html#a1cc8c62f94cc0157db4958fbe1f87310", null ],
+    [ "toString", "a05120.html#ad146fa8579a5f8a876c4688cc5a68520", null ],
+    [ "unparse", "a05120.html#a657560fc17175e794fe55d3b23643891", null ],
+    [ "INSTANCE", "a05120.html#ab03153d74b7a1bceae83aefb59024e56", null ],
+    [ "LiteralIRI", "a05120.html#ae02c2e86ac0dea8538c7b43e9e82421a", null ],
+    [ "URI", "a05120.html#addbf30e6c0ad68fa34277d59a2c6eb5e", null ]
 ];

@@ -1,11 +1,8 @@
 var a05208 =
 [
-    [ "LengthToPoint", "a05208.html#a240c29c1439f065c4a8ba368d3939d77", null ],
-    [ "computeLength", "a05208.html#a38bb2c05753ecb2766c7165fe435b8f4", null ],
-    [ "getLength", "a05208.html#ad38c5c76d09d90c6f92e043aca622ee9", null ],
-    [ "length", "a05208.html#a6a53c15d31eb67b1bbbccd1a406d1996", null ],
-    [ "lengthAlongSegment", "a05208.html#a111d4c1b1f75a9ce7d3d064d3d1eb2e5", null ],
-    [ "updateLength", "a05208.html#a9d5b2181752a05941b27adcec1703c38", null ],
-    [ "locationLength", "a05208.html#ace4b03aa8fde8dc676bc91c1e7cf3b77", null ],
-    [ "minDistanceToPoint", "a05208.html#a8c1ee7f7f7146ea833c6b544dcc60243", null ]
+    [ "WKBTextSRS", "a05208.html#a12d2a5c4b7a29eae5d108bccb1e55b11", null ],
+    [ "getSrsURI", "a05208.html#a7d7dded4f73b0a90d90f68ccc5f16bc3", null ],
+    [ "getWkbText", "a05208.html#a4a2ce7a2dcd4fa0818378fb8b97931fb", null ],
+    [ "srsURI", "a05208.html#aaa7845d06052bead86bb2de40935e4d9", null ],
+    [ "wkbText", "a05208.html#a7b6ce5371e4ad222f4b09eaadfdcae09", null ]
 ];

@@ -1,9 +1,13 @@
 var a05232 =
 [
-    [ "testBBOXEqualsFalse", "a05232.html#a65d4445f223ebf303b66d955c2e952a6", null ],
-    [ "testBBOXEqualsTrue", "a05232.html#ad1155a5de7fc0df0da73b9f0404c343e", null ],
-    [ "testGeom1", "a05232.html#aa4a3b1a7e778ece72382f6600fa96b47", null ],
-    [ "testGeom2", "a05232.html#a6b4be369c8f60e973cd5126e69cd33a4", null ],
-    [ "testGeom3", "a05232.html#a800b6bb875a8ff4404ea787c3df125a5", null ],
-    [ "testGeom4", "a05232.html#a4c55e7efe430d6d220fb05524c4bb940", null ]
+    [ "createGeometry", "a05232.html#aa9b8459efc091f657b74ed0e5a245375", null ],
+    [ "createGeometry", "a05232.html#a9e565b4d0520b1fc30ab5fe2118abb5f", null ],
+    [ "createGeometryCollection", "a05232.html#a3475604f80ee636cca3d07baa336def7", null ],
+    [ "createGeometryCollection", "a05232.html#a7530a3b20b256d3096c63b5556adba6c", null ],
+    [ "toGeometry", "a05232.html#a6682d61dc04a15f1d55ed938e4ed5e7e", null ],
+    [ "toGeometry", "a05232.html#a7633468ef73e66833ef49d6d357d965f", null ],
+    [ "toGeometry", "a05232.html#a70d2c83f032867b59a3af555f1ff6d98", null ],
+    [ "toGeometry", "a05232.html#ad1731b05de5c7e8bae69ff8eb74036f2", null ],
+    [ "toGeometry", "a05232.html#ad7e9fd4bfe07509ba9bbd5a1e09c8a71", null ],
+    [ "transform", "a05232.html#adb6db926db08da5c0c4a8ad8cfb1ff2d", null ]
 ];

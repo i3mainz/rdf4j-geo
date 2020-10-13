@@ -1,7 +1,7 @@
 var a05896 =
 [
-    [ "testIsRightTriangleFalse", "a05896.html#a014f8772916bad586cbe991926c56e4b", null ],
-    [ "testIsRightTriangleTrue", "a05896.html#a7a35cee3266bee7a434b79dd69e81373", null ],
-    [ "testPolygon", "a05896.html#a1e3187cbc25299380589200c398b3ffd", null ],
-    [ "testPolygon2", "a05896.html#a882729aec95621b4ad261714738ae3fd", null ]
+    [ "testForceCollection", "a05896.html#a80928c2dac15d3b159f8708462c2141e", null ],
+    [ "testForceCollectionZ", "a05896.html#a7fb6c41061d547328e4d4147ed19f55f", null ],
+    [ "testGeom", "a05896.html#a03a5f5da0ccbeed8c1678d4317cf2672", null ],
+    [ "testGeomZ", "a05896.html#a5e443ef12c7db96a5d27a951f9db5a08", null ]
 ];

@@ -1,7 +1,8 @@
 var a05416 =
 [
-    [ "testAddPoint", "a05416.html#a788e3676eaba471d99d698f53d72615c", null ],
-    [ "testAddPointZ", "a05416.html#a688c7bc82b618e3499b6c2e5deee5b37", null ],
-    [ "lineString", "a05416.html#a76e109dc83d6f4d16fcd2fa3e73054f6", null ],
-    [ "point", "a05416.html#a081811ff1c2bedd0a20703599f90114f", null ]
+    [ "LengthSubstring", "a05416.html#a8375df00135da48182ecb97996cfebf1", null ],
+    [ "computeSubstring", "a05416.html#ad8eec22df403077b17b2ac90b0c95230", null ],
+    [ "getSubstring", "a05416.html#a0899c2e48f2616119c3f0e3e297549e6", null ],
+    [ "getSubstring", "a05416.html#a7aa54bd5af7e7f3fd33047db15540bc4", null ],
+    [ "line", "a05416.html#a53e992765125efc5fc595f0d38e947ea", null ]
 ];

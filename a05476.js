@@ -1,5 +1,6 @@
 var a05476 =
 [
-    [ "testAsSVG", "a05476.html#a7051938045f1413d97e8c5925b1c7677", null ],
-    [ "testGeometry", "a05476.html#abc3f514f005cba49e406658e2d3086eb", null ]
+    [ "testBoundingDiagonal", "a05476.html#a5905b320ef165de047ef4ff2e9167268", null ],
+    [ "result", "a05476.html#aab356d6554a7301750f11ec7a85ac47d", null ],
+    [ "testPolygon", "a05476.html#a1e3187cbc25299380589200c398b3ffd", null ]
 ];

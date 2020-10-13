@@ -1,7 +1,7 @@
 var a05860 =
 [
-    [ "testHasConnectedInteriorFalse", "a05860.html#a725a2cc1c4ba4909307c9a2fa07558d8", null ],
-    [ "testHasConnectedInteriorTrue", "a05860.html#a95e618db9d2053f26b5194e3bec0d2a0", null ],
-    [ "duplicateRings", "a05860.html#a92f3ef00fc079a76b7f943d9ed6cec77", null ],
-    [ "nonduplicateRings", "a05860.html#a675a0b1b194538fc07fa716705f883a5", null ]
+    [ "testSRIDToWKT", "a05860.html#a8c6fef7babecb35acd09d8764ddcb858", null ],
+    [ "epsg", "a05860.html#ae984b1b4178b56b80cdb7a80eac64541", null ],
+    [ "epsg4326wkt", "a05860.html#ab74c72298a14045de8026d4c37013974", null ],
+    [ "srid", "a05860.html#a5ffebf384504d11b17aa9c75f4b92024", null ]
 ];

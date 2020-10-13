@@ -1,7 +1,11 @@
 var a05380 =
 [
-    [ "testNumDistinctGeometries", "a05380.html#a4c2be1b9a8d6a00b4330789b2fb25b6d", null ],
-    [ "testNumDistinctGeometriesCollection", "a05380.html#ad95b2c5cc3431fd3f26670a7f769eec7", null ],
-    [ "testGeom", "a05380.html#a03a5f5da0ccbeed8c1678d4317cf2672", null ],
-    [ "testGeom2", "a05380.html#a6b4be369c8f60e973cd5126e69cd33a4", null ]
+    [ "ExtendedPrecisionReader", "a05380.html#a82112ea6921f2d28f7663dfa20ae32c6", null ],
+    [ "readPoint", "a05380.html#a04d3647950410c96c47734decf0e12b5", null ],
+    [ "readPointArray", "a05380.html#a1bbf2e471d2964af19292437ad42729b", null ],
+    [ "hasM", "a05380.html#a1eccf09f4c826ba480ec832ac4ce7718", null ],
+    [ "hasZ", "a05380.html#ab356995ed7cff0226d75484d03a994f2", null ],
+    [ "mPrecisionMultiplier", "a05380.html#a4ea667f57906c038bb9717bc848df77a", null ],
+    [ "precisionMultiplier", "a05380.html#a9aa85be4ec02c28a05cb552845fe08eb", null ],
+    [ "zPrecisionMultiplier", "a05380.html#abb32d6067d519044d8c44d52ab2cdd44", null ]
 ];

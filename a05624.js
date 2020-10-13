@@ -1,6 +1,5 @@
 var a05624 =
 [
-    [ "testSridIsGeographicFalse", "a05624.html#abd1395d0581a64740ed1bae57b2882b3", null ],
-    [ "testSridIsGeographicTrue", "a05624.html#a09f0ac6b4b2a063a3d1df32d600b9b11", null ],
-    [ "testPoint", "a05624.html#af26f700ee129f846cac58735f6dcc380", null ]
+    [ "testGeomFromWKB", "a05624.html#acc0d76b6d1ae096d932e1752a6bc8479", null ],
+    [ "geoJsonTestGeom", "a05624.html#a117e8ff340791b5aa0658f5840b5dcf4", null ]
 ];

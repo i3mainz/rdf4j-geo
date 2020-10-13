@@ -1,7 +1,10 @@
 var a02729 =
 [
-    [ "AsCoverageJSONTest", "a06245.html", "a06245" ],
-    [ "AsGeoTIFFTest", "a06249.html", "a06249" ],
-    [ "AsRastHexWKBTest", "a06253.html", "a06253" ],
-    [ "AsRastWKBTest", "a06257.html", "a06257" ]
+    [ "CovJSONDatatype", "a05108.html", "a05108" ],
+    [ "GeoTIFFDatatype", "a05112.html", "a05112" ],
+    [ "GMLCOVDatatype", "a05116.html", "a05116" ],
+    [ "HexWKBRastDatatype", "a05120.html", "a05120" ],
+    [ "NetCDFDatatype", "a05124.html", "a05124" ],
+    [ "RasterLiteral", "a05128.html", "a05128" ],
+    [ "WKBRastDatatype", "a05132.html", "a05132" ]
 ];

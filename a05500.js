@@ -1,7 +1,7 @@
 var a05500 =
 [
-    [ "testCentroidDistance", "a05500.html#a312e87d7afb4dd085ada4f2f2c8d288f", null ],
-    [ "testCentroidDistance2", "a05500.html#a5eab32bf961a899b72bea71a38ff3c3c", null ],
-    [ "isocelesTriangle", "a05500.html#aa04dfbec745e2622b9f7646f8572e501", null ],
-    [ "notIsocelesTriangle", "a05500.html#a055d99fb63bcee37763ffcf4da9e0521", null ]
+    [ "testHasHorizontalCRSFalse", "a05500.html#a9d25864362180719a756bf187c003b28", null ],
+    [ "testHasHorizontalCRSTrue", "a05500.html#a9f2bde364661ddf6af32fec9ad9085b1", null ],
+    [ "testGeometry", "a05500.html#abc3f514f005cba49e406658e2d3086eb", null ],
+    [ "testGeometry2", "a05500.html#af1173652e671b8f9051f8630b98c73fb", null ]
 ];

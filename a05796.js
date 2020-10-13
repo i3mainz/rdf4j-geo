@@ -1,5 +1,6 @@
 var a05796 =
 [
-    [ "testZMax", "a05796.html#aa30e80ee55397130f30395f3c09b1e39", null ],
-    [ "testPoint", "a05796.html#af26f700ee129f846cac58735f6dcc380", null ]
+    [ "testRelate", "a05796.html#a8592662d9e01b3d8f2f9a86b6bb48372", null ],
+    [ "isocelesTriangle", "a05796.html#aa04dfbec745e2622b9f7646f8572e501", null ],
+    [ "notIsocelesTriangle", "a05796.html#a055d99fb63bcee37763ffcf4da9e0521", null ]
 ];

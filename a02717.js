@@ -1,5 +1,5 @@
 var a02717 =
 [
-    [ "attribute", "a02716.html", "a02716" ],
-    [ "constructor", "a02718.html", "a02718" ]
+    [ "GetEdgeByPoint", "a04816.html", "a04816" ],
+    [ "GetNodeByPoint", "a04820.html", "a04820" ]
 ];

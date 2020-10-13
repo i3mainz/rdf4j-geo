@@ -1,6 +1,4 @@
 var a05532 =
 [
-    [ "testFullyWithinDistanceFalse", "a05532.html#ae3a3dc920c5179e22a01c5c5682989bd", null ],
-    [ "testGeom", "a05532.html#a03a5f5da0ccbeed8c1678d4317cf2672", null ],
-    [ "testGeom2", "a05532.html#a6b4be369c8f60e973cd5126e69cd33a4", null ]
+    [ "testIsPlanarTrue", "a05532.html#a0e75cb938cfe0c5f0e6555d748eccf2d", null ]
 ];

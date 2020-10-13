@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>rdf4j-postgis: ToRaster Class Reference</title>
+<title>rdf4j-postgis: Member List</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -56,127 +56,26 @@ $(function() {
   </div>
 </div>
 <script type="text/javascript">
-$(document).ready(function(){initNavTree('a03697.html','');});
+$(document).ready(function(){initNavTree('a03700.html','');});
 </script>
 <div id="doc-content">
 <div class="header">
-  <div class="summary">
-<a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="a03694.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">ToRaster Class Reference</div>  </div>
+<div class="title">Polygonize Member List</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="dynheader">
-Inheritance diagram for ToRaster:</div>
-<div class="dyncontent">
-<div class="center"><img src="a03696.png" border="0" usemap="#ToRaster_inherit__map" alt="Inheritance graph"/></div>
-<map name="ToRaster_inherit__map" id="ToRaster_inherit__map">
-<area shape="rect" id="node2" href="a03161.html" title="GeometricExportToRasterFunction" alt="" coords="5,80,229,107"/>
-</map>
-<center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
-<div class="dynheader">
-Collaboration diagram for ToRaster:</div>
-<div class="dyncontent">
-<div class="center"><img src="a03695.png" border="0" usemap="#ToRaster_coll__map" alt="Collaboration graph"/></div>
-<map name="ToRaster_coll__map" id="ToRaster_coll__map">
-<area shape="rect" id="node2" href="a03161.html" title="GeometricExportToRasterFunction" alt="" coords="5,80,229,107"/>
-</map>
-<center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
-<table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
-Public Member Functions</h2></td></tr>
-<tr class="memitem:ad9fb16b36dd4ccc533d4f05ff94646e3"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a03697.html#ad9fb16b36dd4ccc533d4f05ff94646e3">getURI</a> ()</td></tr>
-<tr class="separator:ad9fb16b36dd4ccc533d4f05ff94646e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a458c9bfc73747762ede5f2bb0c8e998f"><td class="memItemLeft" align="right" valign="top">GridCoverage&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a03697.html#a458c9bfc73747762ede5f2bb0c8e998f">operation</a> (Geometry geom)</td></tr>
-<tr class="separator:a458c9bfc73747762ede5f2bb0c8e998f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a43b4c73244bc6722ce551c1033cf1115"><td class="memItemLeft" align="right" valign="top">Value&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a03161.html#a43b4c73244bc6722ce551c1033cf1115">evaluate</a> (ValueFactory valueFactory, Value... args)  throws ValueExprEvaluationException </td></tr>
-<tr class="separator:a43b4c73244bc6722ce551c1033cf1115"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table>
-<h2 class="groupheader">Member Function Documentation</h2>
-<a id="a43b4c73244bc6722ce551c1033cf1115"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a43b4c73244bc6722ce551c1033cf1115">&#9670;&nbsp;</a></span>evaluate()</h2>
 
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">Value evaluate </td>
-          <td>(</td>
-          <td class="paramtype">ValueFactory&#160;</td>
-          <td class="paramname"><em>valueFactory</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">Value...&#160;</td>
-          <td class="paramname"><em>args</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td> throws ValueExprEvaluationException</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inherited</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="reference">References <a class="el" href="a04985.html#a8796f5aec1965b6c4e88b2ba7c1d2e53">LiteralRegistry.getLiteral()</a>, and <a class="el" href="a03161.html#af0c66821425b510577d3efce10083320">GeometricExportToRasterFunction.operation()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;                                                                                                            {</div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;                <span class="keywordflow">if</span> (args.length != 1) {</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;                        <span class="keywordflow">throw</span> <span class="keyword">new</span> ValueExprEvaluationException(getURI() + <span class="stringliteral">&quot; requires exactly 1 arguments, got &quot;</span> + args.length);</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;                }</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;                LiteralType l=LiteralRegistry.getLiteral(((Literal)args[0]).getDatatype().toString());</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;                <span class="keywordflow">if</span>(l instanceof VectorLiteral) {</div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;                        Geometry geom=((VectorLiteral)l).read(args[0].stringValue());</div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;                        GridCoverage result = <a class="code" href="a03161.html#af0c66821425b510577d3efce10083320">operation</a>(geom);</div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;                        <span class="keywordflow">return</span> valueFactory.createLiteral(((RasterLiteral) l).unparse(result),((Literal)args[0]).getDatatype());</div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;                }</div><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;                <span class="keywordflow">throw</span> <span class="keyword">new</span> ValueExprEvaluationException(<span class="stringliteral">&quot;Argument given is not a geometry literal&quot;</span>);</div><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;                </div><div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;        }</div><div class="ttc" id="a03161_html_af0c66821425b510577d3efce10083320"><div class="ttname"><a href="a03161.html#af0c66821425b510577d3efce10083320">org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.geometry.base.GeometricExportToRasterFunction.operation</a></div><div class="ttdeci">abstract GridCoverage operation(Geometry geom)</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="ad9fb16b36dd4ccc533d4f05ff94646e3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad9fb16b36dd4ccc533d4f05ff94646e3">&#9670;&nbsp;</a></span>getURI()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">String getURI </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="reference">References <a class="el" href="a02765.html#a617358f2e6dedbf105e76646b4a9b17e">POSTGIS.st_toRaster</a>.</p>
-<div class="fragment"><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;                               {</div><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;                <span class="keywordflow">return</span> POSTGIS.st_toRaster.stringValue();</div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;        }</div></div><!-- fragment -->
-</div>
-</div>
-<a id="a458c9bfc73747762ede5f2bb0c8e998f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a458c9bfc73747762ede5f2bb0c8e998f">&#9670;&nbsp;</a></span>operation()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">GridCoverage operation </td>
-          <td>(</td>
-          <td class="paramtype">Geometry&#160;</td>
-          <td class="paramname"><em>geom</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;                                                     {</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;                VectorToRaster vectorast=<span class="keyword">new</span> VectorToRaster();</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;                <span class="comment">//vectorast.addFeature(new Feature(geom));</span></div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;                <span class="comment">// TODO Auto-generated method stub</span></div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;                <span class="keywordflow">return</span> null;</div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;        }</div></div><!-- fragment -->
-</div>
-</div>
-</div><!-- contents -->
+<p>This is the complete list of members for <a class="el" href="a03700.html">Polygonize</a>, including all inherited members.</p>
+<table class="directory">
+  <tr class="even"><td class="entry"><a class="el" href="a03292.html#a43b4c73244bc6722ce551c1033cf1115">evaluate</a>(ValueFactory valueFactory, Value... args)</td><td class="entry"><a class="el" href="a03292.html">GeometricUnaryFunction</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="a03700.html#ad9fb16b36dd4ccc533d4f05ff94646e3">getURI</a>()</td><td class="entry"><a class="el" href="a03700.html">Polygonize</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="a03700.html#a7719320b83dd8de753a7e13fc75c9c55">operation</a>(Geometry geom)</td><td class="entry"><a class="el" href="a03700.html">Polygonize</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+</table></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.13-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="a02616.html">org</a></li><li class="navelem"><a class="el" href="a02617.html">eclipse</a></li><li class="navelem"><a class="el" href="a02618.html">rdf4j</a></li><li class="navelem"><a class="el" href="a02621.html">query</a></li><li class="navelem"><a class="el" href="a02622.html">algebra</a></li><li class="navelem"><a class="el" href="a02623.html">evaluation</a></li><li class="navelem"><a class="el" href="a02624.html">function</a></li><li class="navelem"><a class="el" href="a02625.html">postgis</a></li><li class="navelem"><a class="el" href="a02632.html">geometry</a></li><li class="navelem"><a class="el" href="a02639.html">transform</a></li><li class="navelem"><a class="el" href="a03697.html">ToRaster</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>

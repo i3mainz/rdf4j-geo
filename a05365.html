@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>rdf4j-postgis: IsEmptyTest Class Reference</title>
+<title>rdf4j-postgis: Member List</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -56,71 +56,35 @@ $(function() {
   </div>
 </div>
 <script type="text/javascript">
-$(document).ready(function(){initNavTree('a05365.html','');});
+$(document).ready(function(){initNavTree('a05368.html','');});
 </script>
 <div id="doc-content">
 <div class="header">
-  <div class="summary">
-<a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="a05362.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">IsEmptyTest Class Reference</div>  </div>
+<div class="title">TWKBReader Member List</div>  </div>
 </div><!--header-->
 <div class="contents">
-<table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
-Public Member Functions</h2></td></tr>
-<tr class="memitem:ad6c1db43fc5b06667b4d7679c36196bf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05365.html#ad6c1db43fc5b06667b4d7679c36196bf">testIsEmptyFalse</a> ()</td></tr>
-<tr class="separator:ad6c1db43fc5b06667b4d7679c36196bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acf5aa6d804534044ced38ebbf685b780"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05365.html#acf5aa6d804534044ced38ebbf685b780">testIsEmptyTrue</a> ()</td></tr>
-<tr class="separator:acf5aa6d804534044ced38ebbf685b780"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table>
-<h2 class="groupheader">Member Function Documentation</h2>
-<a id="ad6c1db43fc5b06667b4d7679c36196bf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad6c1db43fc5b06667b4d7679c36196bf">&#9670;&nbsp;</a></span>testIsEmptyFalse()</h2>
 
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void testIsEmptyFalse </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="reference">References <a class="el" href="a03125.html#a43b4c73244bc6722ce551c1033cf1115">GeometricBinaryAttributeFunction.evaluate()</a>, and <a class="el" href="a05109.html#ae02c2e86ac0dea8538c7b43e9e82421a">WKTDatatype.LiteralIRI</a>.</p>
-<div class="fragment"><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;                               {</div><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;        IsEmpty is3d=<span class="keyword">new</span> IsEmpty();</div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;        ValueFactory valfac=SimpleValueFactory.getInstance();</div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;        Value geo=valfac.createLiteral(<span class="stringliteral">&quot;&lt;http://www.opengis.net/def/crs/EPSG/0/27700&gt; MULTIPOINT (10 40, 40 30, 20 20, 30 10)&quot;</span>, WKTDatatype.LiteralIRI);</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;        Value result=is3d.evaluate(valfac, geo);</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;        Value expResult=valfac.createLiteral(<span class="keyword">false</span>);</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    assertEquals(expResult, result);</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;}</div></div><!-- fragment -->
-</div>
-</div>
-<a id="acf5aa6d804534044ced38ebbf685b780"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acf5aa6d804534044ced38ebbf685b780">&#9670;&nbsp;</a></span>testIsEmptyTrue()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void testIsEmptyTrue </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="reference">References <a class="el" href="a03125.html#a43b4c73244bc6722ce551c1033cf1115">GeometricBinaryAttributeFunction.evaluate()</a>, and <a class="el" href="a05109.html#ae02c2e86ac0dea8538c7b43e9e82421a">WKTDatatype.LiteralIRI</a>.</p>
-<div class="fragment"><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;                              {</div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;        IsEmpty is3d=<span class="keyword">new</span> IsEmpty();</div><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;        ValueFactory valfac=SimpleValueFactory.getInstance();</div><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;        Value geo=valfac.createLiteral(<span class="stringliteral">&quot;MULTIPOINT EMPTY&quot;</span>, WKTDatatype.LiteralIRI);</div><div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;        Value result=is3d.evaluate(valfac, geo);</div><div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;        Value expResult=valfac.createLiteral(<span class="keyword">true</span>);</div><div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    assertEquals(expResult, result);</div><div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;}</div></div><!-- fragment -->
-</div>
-</div>
-</div><!-- contents -->
+<p>This is the complete list of members for <a class="el" href="a05368.html">TWKBReader</a>, including all inherited members.</p>
+<table class="directory">
+  <tr class="even"><td class="entry"><a class="el" href="a05368.html#af84c5a6556159f41065ba301d8ff9ddd">fac</a></td><td class="entry"><a class="el" href="a05368.html">TWKBReader</a></td><td class="entry"><span class="mlabel">private</span><span class="mlabel">static</span></td></tr>
+  <tr><td class="entry"><a class="el" href="a05368.html#a4dc57ab77430b9455e05befca4bab869">read</a>(final ByteBuffer bytes)</td><td class="entry"><a class="el" href="a05368.html">TWKBReader</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="a05368.html#a9f8cf66c196738c08a011f5cf5360c62">read</a>(final byte[] bytes)</td><td class="entry"><a class="el" href="a05368.html">TWKBReader</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="a05368.html#a9652885c7bbb8ceaa0fd9449fe537fba">read</a>(final DataInput input)</td><td class="entry"><a class="el" href="a05368.html">TWKBReader</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="a05368.html#ab4d4478c3bf2e64323326c692fc8423c">readGeometryCollection</a>(final DataInput input, final byte metadata)</td><td class="entry"><a class="el" href="a05368.html">TWKBReader</a></td><td class="entry"><span class="mlabel">private</span></td></tr>
+  <tr><td class="entry"><a class="el" href="a05368.html#acede6c0ca02364e8d3082860dbc85756">readLineString</a>(final PrecisionReader precision, final byte metadata, final DataInput input)</td><td class="entry"><a class="el" href="a05368.html">TWKBReader</a></td><td class="entry"><span class="mlabel">private</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="a05368.html#a2eb2c0cc11788b2a6b4076b1cbc33d4d">readMultiLineString</a>(final PrecisionReader precision, final byte metadata, final DataInput input)</td><td class="entry"><a class="el" href="a05368.html">TWKBReader</a></td><td class="entry"><span class="mlabel">private</span></td></tr>
+  <tr><td class="entry"><a class="el" href="a05368.html#a2839b0647e24edb08f4d36933d5085d0">readMultiPoint</a>(final PrecisionReader precision, final byte metadata, final DataInput input)</td><td class="entry"><a class="el" href="a05368.html">TWKBReader</a></td><td class="entry"><span class="mlabel">private</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="a05368.html#a9cc7f376f2d046a015b6d579aa02880f">readMultiPolygon</a>(final PrecisionReader precision, final byte metadata, final DataInput input)</td><td class="entry"><a class="el" href="a05368.html">TWKBReader</a></td><td class="entry"><span class="mlabel">private</span></td></tr>
+  <tr><td class="entry"><a class="el" href="a05368.html#a5f412336d0409a4764a3f8c7f32d762d">readPoint</a>(final PrecisionReader precision, final byte metadata, final DataInput input)</td><td class="entry"><a class="el" href="a05368.html">TWKBReader</a></td><td class="entry"><span class="mlabel">private</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="a05368.html#aaf811e3872d22365c43a9226c5ba9a5e">readPolygon</a>(final PrecisionReader precision, final byte metadata, final DataInput input)</td><td class="entry"><a class="el" href="a05368.html">TWKBReader</a></td><td class="entry"><span class="mlabel">private</span></td></tr>
+  <tr><td class="entry"><a class="el" href="a05368.html#a2d0cf62133f736a6dec7fbe015b659b3">TWKBReader</a>()</td><td class="entry"><a class="el" href="a05368.html">TWKBReader</a></td><td class="entry"></td></tr>
+</table></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.13-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="a02616.html">org</a></li><li class="navelem"><a class="el" href="a02617.html">eclipse</a></li><li class="navelem"><a class="el" href="a02618.html">rdf4j</a></li><li class="navelem"><a class="el" href="a02699.html">testsuites</a></li><li class="navelem"><a class="el" href="a02700.html">postgis</a></li><li class="navelem"><a class="el" href="a02703.html">geometry</a></li><li class="navelem"><a class="el" href="a02702.html">attribute</a></li><li class="navelem"><a class="el" href="a05365.html">IsEmptyTest</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>

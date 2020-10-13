@@ -1,6 +1,5 @@
 var a05064 =
 [
-    [ "CoverageJsonWriter", "a05064.html#a808b85bccc4d21848073a44984c752b7", null ],
-    [ "coverageToCovJSON", "a05064.html#a5f7211b80d30549d072ee3e90cc72ee0", null ],
-    [ "coverage", "a05064.html#a0db1f475b2dcaa5dfc0e64e99d84b135", null ]
+    [ "evaluate", "a05064.html#a43b4c73244bc6722ce551c1033cf1115", null ],
+    [ "getURI", "a05064.html#ad9fb16b36dd4ccc533d4f05ff94646e3", null ]
 ];

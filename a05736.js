@@ -1,7 +1,10 @@
 var a05736 =
 [
-    [ "testLineStringIsNotRing", "a05736.html#a321e37eed11ab4c4fb34459ff2f0c8a4", null ],
-    [ "testLineStringIsRing", "a05736.html#af99150f0a2baa803f3a32475e363a546", null ],
-    [ "isNotRing", "a05736.html#aab14cab4c38dbe8dacf3fc3b49a4e99d", null ],
-    [ "isRing", "a05736.html#ada60d12c21aae01823c842a1347435af", null ]
+    [ "testEqualSRS", "a05736.html#a65423949d44f9275c8e65852f1d2c21f", null ],
+    [ "testNoSRS", "a05736.html#a9512f8c6cc810712e75379a2ac3af62a", null ],
+    [ "testNotEqualSRS", "a05736.html#a53e030c2e7a0f1d14425a168c2add23b", null ],
+    [ "testGeom", "a05736.html#a03a5f5da0ccbeed8c1678d4317cf2672", null ],
+    [ "testGeom2", "a05736.html#a6b4be369c8f60e973cd5126e69cd33a4", null ],
+    [ "testGeom3", "a05736.html#a800b6bb875a8ff4404ea787c3df125a5", null ],
+    [ "testGeom4", "a05736.html#a4c55e7efe430d6d220fb05524c4bb940", null ]
 ];

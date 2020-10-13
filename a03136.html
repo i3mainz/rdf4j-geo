@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>rdf4j-postgis: Member List</title>
+<title>rdf4j-postgis: MinimumRectangle Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -56,25 +56,149 @@ $(function() {
   </div>
 </div>
 <script type="text/javascript">
-$(document).ready(function(){initNavTree('a03139.html','');});
+$(document).ready(function(){initNavTree('a03136.html','');});
 </script>
 <div id="doc-content">
 <div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pro-methods">Protected Member Functions</a> &#124;
+<a href="a03133.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">GeometricDoubleAttributeFunction Member List</div>  </div>
+<div class="title">MinimumRectangle Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>This is the complete list of members for <a class="el" href="a03139.html">GeometricDoubleAttributeFunction</a>, including all inherited members.</p>
-<table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="a03139.html#a97042de62a179d892a7b8c3b8959e587">attribute</a>(Geometry geom)</td><td class="entry"><a class="el" href="a03139.html">GeometricDoubleAttributeFunction</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="a03139.html#a43b4c73244bc6722ce551c1033cf1115">evaluate</a>(ValueFactory valueFactory, Value... args)</td><td class="entry"><a class="el" href="a03139.html">GeometricDoubleAttributeFunction</a></td><td class="entry"></td></tr>
-</table></div><!-- contents -->
+<p>Returns the minimum rectangle enclosing the given geometry.  
+ <a href="a03136.html#details">More...</a></p>
+<div class="dynheader">
+Inheritance diagram for MinimumRectangle:</div>
+<div class="dyncontent">
+<div class="center"><img src="a03135.png" border="0" usemap="#MinimumRectangle_inherit__map" alt="Inheritance graph"/></div>
+<map name="MinimumRectangle_inherit__map" id="MinimumRectangle_inherit__map">
+<area shape="rect" id="node2" href="a03292.html" title="GeometricUnaryFunction" alt="" coords="5,80,172,107"/>
+</map>
+<center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
+<div class="dynheader">
+Collaboration diagram for MinimumRectangle:</div>
+<div class="dyncontent">
+<div class="center"><img src="a03134.png" border="0" usemap="#MinimumRectangle_coll__map" alt="Collaboration graph"/></div>
+<map name="MinimumRectangle_coll__map" id="MinimumRectangle_coll__map">
+<area shape="rect" id="node2" href="a03292.html" title="GeometricUnaryFunction" alt="" coords="5,80,172,107"/>
+</map>
+<center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:ad9fb16b36dd4ccc533d4f05ff94646e3"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a03136.html#ad9fb16b36dd4ccc533d4f05ff94646e3">getURI</a> ()</td></tr>
+<tr class="separator:ad9fb16b36dd4ccc533d4f05ff94646e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a43b4c73244bc6722ce551c1033cf1115"><td class="memItemLeft" align="right" valign="top">Value&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a03292.html#a43b4c73244bc6722ce551c1033cf1115">evaluate</a> (ValueFactory valueFactory, Value... args)  throws ValueExprEvaluationException </td></tr>
+<tr class="separator:a43b4c73244bc6722ce551c1033cf1115"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
+Protected Member Functions</h2></td></tr>
+<tr class="memitem:a7719320b83dd8de753a7e13fc75c9c55"><td class="memItemLeft" align="right" valign="top">Geometry&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a03136.html#a7719320b83dd8de753a7e13fc75c9c55">operation</a> (Geometry geom)</td></tr>
+<tr class="separator:a7719320b83dd8de753a7e13fc75c9c55"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Returns the minimum rectangle enclosing the given geometry. </p>
+</div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="a43b4c73244bc6722ce551c1033cf1115"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a43b4c73244bc6722ce551c1033cf1115">&#9670;&nbsp;</a></span>evaluate()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Value evaluate </td>
+          <td>(</td>
+          <td class="paramtype">ValueFactory&#160;</td>
+          <td class="paramname"><em>valueFactory</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Value...&#160;</td>
+          <td class="paramname"><em>args</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> throws ValueExprEvaluationException</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="a05100.html#a8796f5aec1965b6c4e88b2ba7c1d2e53">LiteralRegistry.getLiteral()</a>, and <a class="el" href="a03292.html#a8a010bc7fa4e63d91e68aa8b20e83141">GeometricUnaryFunction.operation()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="a05480.html#a5905b320ef165de047ef4ff2e9167268">BoundingDiagonalTest.testBoundingDiagonal()</a>, <a class="el" href="a05476.html#a5905b320ef165de047ef4ff2e9167268">BoundaryTest.testBoundingDiagonal()</a>, <a class="el" href="a05484.html#a4d1dfbf2fba1b5c88a704bccbcb65cb9">CentroidTest.testCentroid()</a>, <a class="el" href="a05968.html#ab117b00757c51734ab1129a2d595a5cb">StartPointTest.testCircularString()</a>, <a class="el" href="a06076.html#af8da9616fd1ee304df92759a8b87da02">CircumcentreTest.testCircumcentre1()</a>, <a class="el" href="a05868.html#a0a22ab00e85a35d2da22ba287cd37a3f">CollectionHomogenizeTest.testCollectionHomogenize()</a>, <a class="el" href="a05876.html#ad1e5e682acb0c53bb386a80a7186ae38">FlipCoordinatesTest.testFlipCoordinates()</a>, <a class="el" href="a05880.html#ac1b65b91741abc3458f3a8303d7c0388">Force2DTest.testForce2D()</a>, <a class="el" href="a05888.html#a029b956696a32125657d2d2027b78866">Force3DTest.testForce3D()</a>, <a class="el" href="a05884.html#a809df5824b4a08713e4ce726cb369a8d">Force3DMTest.testForce3DM()</a>, <a class="el" href="a05884.html#a1efd448688434012347e3bc8972acb49">Force3DMTest.testForce3DM2()</a>, <a class="el" href="a05892.html#ad31ba6d34e7770eae5de0864a25b1766">Force4DTest.testForce4D()</a>, <a class="el" href="a05896.html#a80928c2dac15d3b159f8708462c2141e">ForceCollectionTest.testForceCollection()</a>, <a class="el" href="a05896.html#a7fb6c41061d547328e4d4147ed19f55f">ForceCollectionTest.testForceCollectionZ()</a>, <a class="el" href="a06160.html#aabb33f7582f68ceca6d6f943ee181450">ForcePolygonCCWTest.testForcePolygonCCW()</a>, <a class="el" href="a06164.html#a4a3251cf639eba4c1f3f2c4467d6434a">ForcePolygonCWTest.testForcePolygonCW()</a>, <a class="el" href="a05948.html#a100e1041d9eed0108cb20adfb3ccb714">EndPointTest.testLineString2D()</a>, <a class="el" href="a05968.html#a100e1041d9eed0108cb20adfb3ccb714">StartPointTest.testLineString2D()</a>, <a class="el" href="a05948.html#aed8078596e87405b402dec09f15eb681">EndPointTest.testLineString3D()</a>, <a class="el" href="a05968.html#aed8078596e87405b402dec09f15eb681">StartPointTest.testLineString3D()</a>, <a class="el" href="a05560.html#ae83e48bad70898d10790438246feadad">MinimumBoundingCircleCenterTest.testMinimumBoundingCircle()</a>, <a class="el" href="a05564.html#ae83e48bad70898d10790438246feadad">MinimumBoundingCircleTest.testMinimumBoundingCircle()</a>, <a class="el" href="a05572.html#a61877f78d0d415e1cd48f477474017e6">MinimumClearanceLineTest.testMinimumClearanceLine()</a>, <a class="el" href="a05580.html#ac6734228b3f88748ca1545e62811f616">MinimumDiameterLineTest.testMinimumDiameterLine()</a>, <a class="el" href="a05588.html#a113f2072fe3a9c6603a02548b81f6545">MinimumRectangleTest.testMinimumRectangle()</a>, <a class="el" href="a05900.html#a132a5ee02a51082794ac01f2787422c1">MultiTest.testMulti2D()</a>, <a class="el" href="a05900.html#afee46817e97b41a801cd7a7acf30e801">MultiTest.testMulti3D()</a>, <a class="el" href="a05964.html#a08dd11e1d44a910007de229eada7aa6d">SelfIntersectionsTest.testNoSelfIntersections()</a>, <a class="el" href="a05948.html#a67242842aad66b0a00820a5d4d7ea731">EndPointTest.testPoint()</a>, <a class="el" href="a05968.html#a67242842aad66b0a00820a5d4d7ea731">StartPointTest.testPoint()</a>, <a class="el" href="a05908.html#a0c4e639ac6891f00e71463cfe4504aec">PointsTest.testPoints()</a>, <a class="el" href="a05908.html#a757f54bd6bd9ad86ecd364c346e80d73">PointsTest.testPoints3D()</a>, <a class="el" href="a05920.html#ac38f1a963c4494ff939bad764b01b127">ReverseTest.testReverse()</a>, <a class="el" href="a05964.html#a3d2c64bb3b45c45751b144babb6906da">SelfIntersectionsTest.testSelfIntersections()</a>, <a class="el" href="a05924.html#a706f714749526b3516c84d5741993811">ShiftLongitudeTest.testShiftLongitude()</a>, <a class="el" href="a05928.html#a4b0417b619689d07743ff9d72212c847">SimplifyPreserveTopologyTest.testSimplifyVW()</a>, and <a class="el" href="a05944.html#a8169037c504558c555e457db95ca9864">TransScaleTest.testTransScale()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;                                                                                                            {</div><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;                <span class="keywordflow">if</span> (args.length != 1) {</div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;                        <span class="keywordflow">throw</span> <span class="keyword">new</span> ValueExprEvaluationException(getURI() + <span class="stringliteral">&quot; requires exactly 1 argument, got &quot;</span> + args.length);</div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;                }</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;                </div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;                LiteralType l=LiteralRegistry.getLiteral(((Literal)args[0]).getDatatype().toString());</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;                <span class="keywordflow">if</span>(l instanceof VectorLiteral) {</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;                        Geometry geom=((VectorLiteral)l).read(args[0].stringValue());</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;                        Geometry result = <a class="code" href="a03292.html#a8a010bc7fa4e63d91e68aa8b20e83141">operation</a>(geom);</div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;                        <span class="keywordflow">return</span> valueFactory.createLiteral(((VectorLiteral) l).unparse(result),((Literal)args[0]).getDatatype());</div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;                }</div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;                <span class="keywordflow">throw</span> <span class="keyword">new</span> ValueExprEvaluationException(<span class="stringliteral">&quot;Argument given is not a geometry literal&quot;</span>);</div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;        }</div><div class="ttc" id="a03292_html_a8a010bc7fa4e63d91e68aa8b20e83141"><div class="ttname"><a href="a03292.html#a8a010bc7fa4e63d91e68aa8b20e83141">org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.geometry.base.GeometricUnaryFunction.operation</a></div><div class="ttdeci">abstract Geometry operation(Geometry geom)</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="ad9fb16b36dd4ccc533d4f05ff94646e3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad9fb16b36dd4ccc533d4f05ff94646e3">&#9670;&nbsp;</a></span>getURI()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">String getURI </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="a02816.html#a348f34d710490134d059cc65e8dfc772">POSTGIS.st_minimumRectangle</a>.</p>
+<div class="fragment"><div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;                               {</div><div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;                <span class="keywordflow">return</span> POSTGIS.st_minimumRectangle.stringValue();</div><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;        }</div></div><!-- fragment -->
+</div>
+</div>
+<a id="a7719320b83dd8de753a7e13fc75c9c55"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7719320b83dd8de753a7e13fc75c9c55">&#9670;&nbsp;</a></span>operation()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Geometry operation </td>
+          <td>(</td>
+          <td class="paramtype">Geometry&#160;</td>
+          <td class="paramname"><em>geom</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;                                                    {</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;                <a class="code" href="a02667.html">org</a>.<a class="code" href="a02738.html">locationtech</a>.<a class="code" href="a02743.html">jts</a>.algorithm.MinimumDiameter mindiam=<span class="keyword">new</span> <a class="code" href="a02667.html">org</a>.<a class="code" href="a02738.html">locationtech</a>.<a class="code" href="a02743.html">jts</a>.algorithm.MinimumDiameter(geom);</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;        <span class="keywordflow">return</span> mindiam.getMinimumRectangle();</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;        }</div><div class="ttc" id="a02667_html"><div class="ttname"><a href="a02667.html">org</a></div></div>
+<div class="ttc" id="a02743_html"><div class="ttname"><a href="a02743.html">org.locationtech.jts</a></div></div>
+<div class="ttc" id="a02738_html"><div class="ttname"><a href="a02738.html">org.locationtech</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+</div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.13-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
+    <li class="navelem"><a class="el" href="a02667.html">org</a></li><li class="navelem"><a class="el" href="a02668.html">eclipse</a></li><li class="navelem"><a class="el" href="a02669.html">rdf4j</a></li><li class="navelem"><a class="el" href="a02672.html">query</a></li><li class="navelem"><a class="el" href="a02673.html">algebra</a></li><li class="navelem"><a class="el" href="a02674.html">evaluation</a></li><li class="navelem"><a class="el" href="a02675.html">function</a></li><li class="navelem"><a class="el" href="a02676.html">postgis</a></li><li class="navelem"><a class="el" href="a02683.html">geometry</a></li><li class="navelem"><a class="el" href="a02682.html">attribute</a></li><li class="navelem"><a class="el" href="a03136.html">MinimumRectangle</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>

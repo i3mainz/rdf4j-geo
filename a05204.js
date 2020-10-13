@@ -1,8 +1,10 @@
 var a05204 =
 [
-    [ "LengthSubstring", "a05204.html#a8375df00135da48182ecb97996cfebf1", null ],
-    [ "computeSubstring", "a05204.html#ad8eec22df403077b17b2ac90b0c95230", null ],
-    [ "getSubstring", "a05204.html#a0899c2e48f2616119c3f0e3e297549e6", null ],
-    [ "getSubstring", "a05204.html#a7aa54bd5af7e7f3fd33047db15540bc4", null ],
-    [ "line", "a05204.html#a53e992765125efc5fc595f0d38e947ea", null ]
+    [ "WKBTextSRS", "a05208.html", "a05208" ],
+    [ "read", "a05204.html#a793358fbd6ef538a24eabab1bd50ef01", null ],
+    [ "toString", "a05204.html#ad146fa8579a5f8a876c4688cc5a68520", null ],
+    [ "unparse", "a05204.html#ae918a517e1ebcc44beeee2c55008d248", null ],
+    [ "INSTANCE", "a05204.html#aaf0aa1b548ee31ba74a438a2c1164ed2", null ],
+    [ "LiteralIRI", "a05204.html#ae02c2e86ac0dea8538c7b43e9e82421a", null ],
+    [ "URI", "a05204.html#addbf30e6c0ad68fa34277d59a2c6eb5e", null ]
 ];

@@ -1,5 +1,5 @@
 var a05612 =
 [
-    [ "testSridAxis2Orientation", "a05612.html#a4cce208d444c0a86d19f93731ff4a6b3", null ],
-    [ "testPoint", "a05612.html#af26f700ee129f846cac58735f6dcc380", null ]
+    [ "testPerimeter", "a05612.html#ab5f32e4b3cc7543d929e0660b76d1973", null ],
+    [ "testPolygon", "a05612.html#a1e3187cbc25299380589200c398b3ffd", null ]
 ];

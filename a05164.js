@@ -1,7 +1,8 @@
 var a05164 =
 [
-    [ "PrecisionReader", "a05164.html#af4edc5e5b8d78201415bc23188bf2978", null ],
-    [ "readPoint", "a05164.html#a04d3647950410c96c47734decf0e12b5", null ],
-    [ "readPointArray", "a05164.html#a1bbf2e471d2964af19292437ad42729b", null ],
-    [ "precisionMultiplier", "a05164.html#a9aa85be4ec02c28a05cb552845fe08eb", null ]
+    [ "read", "a05164.html#a793358fbd6ef538a24eabab1bd50ef01", null ],
+    [ "toString", "a05164.html#ad146fa8579a5f8a876c4688cc5a68520", null ],
+    [ "unparse", "a05164.html#ae918a517e1ebcc44beeee2c55008d248", null ],
+    [ "INSTANCE", "a05164.html#a20401ef897882cf3828de8fdad63c99d", null ],
+    [ "URI", "a05164.html#addbf30e6c0ad68fa34277d59a2c6eb5e", null ]
 ];

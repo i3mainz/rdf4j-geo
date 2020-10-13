@@ -1,16 +1,8 @@
 var a05184 =
 [
-    [ "calculate", "a05184.html#a1b9dd1e59eac3a2a15cb68c19e994fe4", null ],
-    [ "checkCoordinate", "a05184.html#a0a01f90a7fe27e3b66f1c87f019e91bc", null ],
-    [ "finalize", "a05184.html#a7626720b9bf807253dd702a0214dc9f0", null ],
-    [ "writeExtendedPrecision", "a05184.html#a320ccd90ec0ef71a4353104b7fe98a1c", null ],
-    [ "writePoint", "a05184.html#adedb1cd853d00648be239477f7fe4e2a", null ],
-    [ "writePointArray", "a05184.html#afeed21e7153170021427b1e7001d952b", null ],
-    [ "hasM", "a05184.html#a1eccf09f4c826ba480ec832ac4ce7718", null ],
-    [ "hasZ", "a05184.html#ab356995ed7cff0226d75484d03a994f2", null ],
-    [ "mPrecision", "a05184.html#a1b92282fc8148f040078b9bb37b30b15", null ],
-    [ "mPrecisionMultiplier", "a05184.html#a4ea667f57906c038bb9717bc848df77a", null ],
-    [ "precisionMultiplier", "a05184.html#a9aa85be4ec02c28a05cb552845fe08eb", null ],
-    [ "zPrecision", "a05184.html#abdd886294f53edb9018d91b1e049bef8", null ],
-    [ "zPrecisionMultiplier", "a05184.html#abb32d6067d519044d8c44d52ab2cdd44", null ]
+    [ "HexWKBTextSRS", "a05184.html#a9551cc49d0697080a64a79a497cf35e9", null ],
+    [ "getSrsURI", "a05184.html#a7d7dded4f73b0a90d90f68ccc5f16bc3", null ],
+    [ "getWkbText", "a05184.html#a4a2ce7a2dcd4fa0818378fb8b97931fb", null ],
+    [ "srsURI", "a05184.html#aaa7845d06052bead86bb2de40935e4d9", null ],
+    [ "wkbText", "a05184.html#a7b6ce5371e4ad222f4b09eaadfdcae09", null ]
 ];

@@ -1,19 +1,7 @@
 var a05100 =
 [
-    [ "XReader", "a05100.html#a66638412c8e597e7679a49b30d8cc503", null ],
-    [ "isData", "a05100.html#a73f9d3967881e9a41ee9637a1088c45b", null ],
-    [ "isDone", "a05100.html#a552bb801349e980b00cb44160babffeb", null ],
-    [ "isEvent", "a05100.html#ab8a53acb267876925142198a7680c0a7", null ],
-    [ "peek", "a05100.html#a9040fa1d479d71edf3a826f4691c35c4", null ],
-    [ "readDouble", "a05100.html#a840ea5c01770156bd51bdb9f65f44e30", null ],
-    [ "readInt", "a05100.html#ac4dc9964d286ddbbd2a108991190d39d", null ],
-    [ "readKey", "a05100.html#ad63c13e3dc040d1b9a35249edd1839c5", null ],
-    [ "readLat", "a05100.html#ad1c83e20d9757f70ff67315e5af2d823", null ],
-    [ "readLng", "a05100.html#aa705a4be038559a46acb9e3c30eda301", null ],
-    [ "readPoints", "a05100.html#a78f5424018ac75827d519ba60304bbfa", null ],
-    [ "head", "a05100.html#a20358970b1abaf992eb85e071e454653", null ],
-    [ "input", "a05100.html#ac50945c3e4c56b7167ff5ab33c478e42", null ],
-    [ "lat", "a05100.html#ad0c6d3a40d6093204d169a1928ec7fa5", null ],
-    [ "lng", "a05100.html#a8a9f3916588598fe817306c2b2ce3b3c", null ],
-    [ "shpFactory", "a05100.html#a05afdb0d887f04c5eac83dd8132c87b6", null ]
+    [ "LiteralRegistry", "a05100.html#ab2c1f34f60c2740f703068f27871a32b", null ],
+    [ "getLiteral", "a05100.html#a8796f5aec1965b6c4e88b2ba7c1d2e53", null ],
+    [ "INSTANCE", "a05100.html#a750fe4eab7f7958aa7a5642659669c0e", null ],
+    [ "literals", "a05100.html#aca2348a6b1d6796d1e7034d4029e3817", null ]
 ];

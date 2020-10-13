@@ -1,9 +1,13 @@
 var a05424 =
 [
-    [ "testRemoveGeometry1", "a05424.html#a910e74995416610c31bdfb5ab3260d76", null ],
-    [ "testRemoveGeometry1Z", "a05424.html#a60a65740b83f0a07de47b82baf1ff4e1", null ],
-    [ "testRemoveGeometry2", "a05424.html#affbdb9b48b9af6eedbf8d011f683a631", null ],
-    [ "testRemoveGeometry2Z", "a05424.html#af5c1b4eec2210853d1e7f1c6d6f2a02c", null ],
-    [ "lineString", "a05424.html#a76e109dc83d6f4d16fcd2fa3e73054f6", null ],
-    [ "point", "a05424.html#a081811ff1c2bedd0a20703599f90114f", null ]
+    [ "LocatePoint", "a05424.html#a0db8c96a170aff314d55b51d1090d8c7", null ],
+    [ "compute", "a05424.html#a4f513b82951056a3f579d95f215e9307", null ],
+    [ "getIndex", "a05424.html#a59d053c950ff1e9f8a004d493f34e754", null ],
+    [ "getPoint", "a05424.html#add97f503ca58503d04ac9150e6c8ef7f", null ],
+    [ "pointAlongLine", "a05424.html#aefeee61acc0d87ebcacf610af684935e", null ],
+    [ "pointAlongSegment", "a05424.html#a8138e49067c6447449ff0a8ce19bfed4", null ],
+    [ "pointAlongSegment", "a05424.html#a4b414ab63960ecfa283932288f9977f7", null ],
+    [ "pointAlongSegmentByFraction", "a05424.html#a9ecfa15254cc343c6166b5e9b3f05c03", null ],
+    [ "index", "a05424.html#a750b5d744c39a06bfb13e6eb010e35d0", null ],
+    [ "pt", "a05424.html#aae9b62bb90c0c25de44c11a2abc79afa", null ]
 ];

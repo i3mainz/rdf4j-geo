@@ -1,7 +1,5 @@
 var a05852 =
 [
-    [ "testIsScaleneTriangleFalse", "a05852.html#ac6f7d4cf9bd1990319a4e7a5bb51d4b1", null ],
-    [ "testIsScaleneTriangleTrue", "a05852.html#a86b14a35c3e202b5a14bdaea4c16a441", null ],
-    [ "isocelesTriangle", "a05852.html#aa04dfbec745e2622b9f7646f8572e501", null ],
-    [ "notIsocelesTriangle", "a05852.html#a055d99fb63bcee37763ffcf4da9e0521", null ]
+    [ "testSridIsVerticalTrue", "a05852.html#a0b5d17dad676c3ce02f884832b907843", null ],
+    [ "testPoint", "a05852.html#af26f700ee129f846cac58735f6dcc380", null ]
 ];

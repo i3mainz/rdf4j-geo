@@ -1,18 +1,7 @@
 var a05960 =
 [
-    [ "getInstance", "a05960.html#af8afdd14b38b523d100805364a48ed63", null ],
-    [ "testDivConst", "a05960.html#a41679bcbed1ec2aa7d574727940c0407", null ],
-    [ "combinedRasterLiteral", "a05960.html#a6efe8702be34a67e2bcbba55588c5b5f", null ],
-    [ "covJSONString1", "a05960.html#a993e2f127f3ec8f256e9799d77507223", null ],
-    [ "hexwkbString1", "a05960.html#a55fb5b5d665417265da09403128e396e", null ],
-    [ "minwkbString", "a05960.html#aa5e2b5a6005895fc20b9f35523569430", null ],
-    [ "rasterBand", "a05960.html#a44dd712968b2420bbfbf9ae21d476b87", null ],
-    [ "rasterLiteral1", "a05960.html#a77798f856500689412dea069531a7606", null ],
-    [ "rasters", "a05960.html#a2493164c78f27fd06d49475e13906abb", null ],
-    [ "rasterWKB", "a05960.html#a0b58b160a0781303df2d16a468325f8b", null ],
-    [ "wkbString1", "a05960.html#ab31191239807c546a14951cbe0abf83f", null ],
-    [ "wkbString2", "a05960.html#acf429c99afb7dcd123827400ad89a122", null ],
-    [ "wkbString3", "a05960.html#a37e98c0ad3c8af4b9f6eaf8c0a8f557c", null ],
-    [ "wkbString4", "a05960.html#a7454f587563532e0dbe47b119ade3dc4", null ],
-    [ "wkbString5", "a05960.html#a9286e7be98b5e28acfb98dc23ca8cf49", null ]
+    [ "testLineString", "a05960.html#a0444ce8df222ae81e1a33426a32d8d7a", null ],
+    [ "circularLineString", "a05960.html#aee32055959200ebcac903d7824ea55d3", null ],
+    [ "lineString", "a05960.html#a76e109dc83d6f4d16fcd2fa3e73054f6", null ],
+    [ "lineString3D", "a05960.html#a44ce866b8b8e60a4c3e77653b907706d", null ]
 ];

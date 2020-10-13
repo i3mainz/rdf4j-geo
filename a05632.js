@@ -1,5 +1,7 @@
 var a05632 =
 [
-    [ "testSridIsVerticalTrue", "a05632.html#a0b5d17dad676c3ce02f884832b907843", null ],
-    [ "testPoint", "a05632.html#af26f700ee129f846cac58735f6dcc380", null ]
+    [ "testAddPoint", "a05632.html#a788e3676eaba471d99d698f53d72615c", null ],
+    [ "testAddPointZ", "a05632.html#a688c7bc82b618e3499b6c2e5deee5b37", null ],
+    [ "lineString", "a05632.html#a76e109dc83d6f4d16fcd2fa3e73054f6", null ],
+    [ "point", "a05632.html#a081811ff1c2bedd0a20703599f90114f", null ]
 ];

@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>rdf4j-postgis: Member List</title>
+<title>rdf4j-postgis: GeometricModifierDoubleFunction Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -56,25 +56,142 @@ $(function() {
   </div>
 </div>
 <script type="text/javascript">
-$(document).ready(function(){initNavTree('a03231.html','');});
+$(document).ready(function(){initNavTree('a03228.html','');});
 </script>
 <div id="doc-content">
 <div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pro-methods">Protected Member Functions</a> &#124;
+<a href="a03225.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">GeometricStringExportIntegerFunction Member List</div>  </div>
+<div class="title">GeometricModifierDoubleFunction Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
 </div><!--header-->
 <div class="contents">
+<div class="dynheader">
+Inheritance diagram for GeometricModifierDoubleFunction:</div>
+<div class="dyncontent">
+<div class="center"><img src="a03227.png" border="0" usemap="#GeometricModifierDoubleFunction_inherit__map" alt="Inheritance graph"/></div>
+<map name="GeometricModifierDoubleFunction_inherit__map" id="GeometricModifierDoubleFunction_inherit__map">
+<area shape="rect" id="node3" href="a02884.html" title="Expand" alt="" coords="441,5,507,32"/>
+<area shape="rect" id="node4" href="a03100.html" title="LocateAlong" alt="" coords="427,56,521,83"/>
+<area shape="rect" id="node5" href="a03324.html" title="AddZ" alt="" coords="447,107,501,133"/>
+<area shape="rect" id="node6" href="a03328.html" title="EnsureClosed" alt="" coords="422,157,526,184"/>
+<area shape="rect" id="node7" href="a03332.html" title="EnsureClosedRings" alt="" coords="405,208,543,235"/>
+<area shape="rect" id="node8" href="a03336.html" title="RemoveGeometry" alt="" coords="410,259,538,285"/>
+<area shape="rect" id="node9" href="a03340.html" title="RemoveRepeatedPoints" alt="" coords="392,309,556,336"/>
+<area shape="rect" id="node10" href="a03632.html" title="DelaunayTriangles" alt="" coords="409,360,539,387"/>
+<area shape="rect" id="node11" href="a03636.html" title="Densify" alt="" coords="441,411,507,437"/>
+<area shape="rect" id="node12" href="a03684.html" title="MultiplyZ" alt="" coords="437,461,511,488"/>
+<area shape="rect" id="node13" href="a03720.html" title="Rotate" alt="" coords="443,512,505,539"/>
+<area shape="rect" id="node14" href="a03732.html" title="Simplify" alt="" coords="439,563,509,589"/>
+<area shape="rect" id="node15" href="a03740.html" title="SimplifyVW" alt="" coords="429,613,519,640"/>
+<area shape="rect" id="node16" href="a03768.html" title="VoronoiPolygons" alt="" coords="414,664,534,691"/>
+<area shape="rect" id="node17" href="a03780.html" title="LineInterpolatePoint" alt="" coords="405,715,543,741"/>
+<area shape="rect" id="node18" href="a03824.html" title="Adds a measurement coordinate M which is extrapolated over the length of the given geometry..." alt="" coords="427,765,521,792"/>
+<area shape="rect" id="node19" href="a03868.html" title="BezierSmoothing" alt="" coords="413,816,535,843"/>
+<area shape="rect" id="node20" href="a03884.html" title="Calculates an offset curve from a given geometry and a given distance. " alt="" coords="427,867,521,893"/>
+<area shape="rect" id="node21" href="a03888.html" title="Segmentizes a LineString into segments given a segment length. " alt="" coords="429,917,519,944"/>
+<area shape="rect" id="node22" href="a03896.html" title="Subdivides lines of a given LineString. " alt="" coords="419,968,529,995"/>
+</map>
+<center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
+<div class="dynheader">
+Collaboration diagram for GeometricModifierDoubleFunction:</div>
+<div class="dyncontent">
+<div class="center"><img src="a03226.png" border="0" usemap="#GeometricModifierDoubleFunction_coll__map" alt="Collaboration graph"/></div>
+<map name="GeometricModifierDoubleFunction_coll__map" id="GeometricModifierDoubleFunction_coll__map">
+</map>
+<center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:a43b4c73244bc6722ce551c1033cf1115"><td class="memItemLeft" align="right" valign="top">Value&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a03228.html#a43b4c73244bc6722ce551c1033cf1115">evaluate</a> (ValueFactory valueFactory, Value... args)  throws ValueExprEvaluationException </td></tr>
+<tr class="separator:a43b4c73244bc6722ce551c1033cf1115"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
+Protected Member Functions</h2></td></tr>
+<tr class="memitem:a3e90404335d65a7dc26872963e46db87"><td class="memItemLeft" align="right" valign="top">abstract Geometry&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a03228.html#a3e90404335d65a7dc26872963e46db87">relation</a> (Geometry geom, Double value)</td></tr>
+<tr class="separator:a3e90404335d65a7dc26872963e46db87"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a43b4c73244bc6722ce551c1033cf1115"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a43b4c73244bc6722ce551c1033cf1115">&#9670;&nbsp;</a></span>evaluate()</h2>
 
-<p>This is the complete list of members for <a class="el" href="a03231.html">GeometricStringExportIntegerFunction</a>, including all inherited members.</p>
-<table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="a03231.html#a43b4c73244bc6722ce551c1033cf1115">evaluate</a>(ValueFactory valueFactory, Value... args)</td><td class="entry"><a class="el" href="a03231.html">GeometricStringExportIntegerFunction</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="a03231.html#ae525247735d89e3b0303eb7e362b3ada">operation</a>(Geometry geom, Integer value)</td><td class="entry"><a class="el" href="a03231.html">GeometricStringExportIntegerFunction</a></td><td class="entry"></td></tr>
-</table></div><!-- contents -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Value evaluate </td>
+          <td>(</td>
+          <td class="paramtype">ValueFactory&#160;</td>
+          <td class="paramname"><em>valueFactory</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Value...&#160;</td>
+          <td class="paramname"><em>args</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> throws ValueExprEvaluationException</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">References <a class="el" href="a05100.html#a8796f5aec1965b6c4e88b2ba7c1d2e53">LiteralRegistry.getLiteral()</a>, and <a class="el" href="a03228.html#a3e90404335d65a7dc26872963e46db87">GeometricModifierDoubleFunction.relation()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="a05872.html#a94a17603d200a0a1f4817b4687ee592d">DensifyTest.testDensify()</a>, <a class="el" href="a05636.html#ace1b0f448a93ab083e49e59b851b8094">EnsureClosedTest.testEnsureClosed()</a>, <a class="el" href="a05636.html#a7a93140658cbcf5aea17d9f930cd5144">EnsureClosedTest.testEnsureClosed2()</a>, <a class="el" href="a05640.html#a910e74995416610c31bdfb5ab3260d76">RemoveGeometryTest.testRemoveGeometry1()</a>, <a class="el" href="a05640.html#a60a65740b83f0a07de47b82baf1ff4e1">RemoveGeometryTest.testRemoveGeometry1Z()</a>, <a class="el" href="a05640.html#affbdb9b48b9af6eedbf8d011f683a631">RemoveGeometryTest.testRemoveGeometry2()</a>, <a class="el" href="a05640.html#af5c1b4eec2210853d1e7f1c6d6f2a02c">RemoveGeometryTest.testRemoveGeometry2Z()</a>, <a class="el" href="a05916.html#a473d131a5f96a89f9502570a50d06e65">RemoveRepeatedPointsTest.testRemoveRepeatedPoints()</a>, <a class="el" href="a05932.html#aa558cd336665fb035373b5b11e212cb9">SimplifyTest.testSimplify()</a>, and <a class="el" href="a05936.html#a4b0417b619689d07743ff9d72212c847">SimplifyVWTest.testSimplifyVW()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;                                                                                                            {</div><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;                <span class="keywordflow">if</span> (args.length != 2) {</div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;                        <span class="keywordflow">throw</span> <span class="keyword">new</span> ValueExprEvaluationException(getURI() + <span class="stringliteral">&quot; requires exactly 2 arguments, got &quot;</span> + args.length);</div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;                }</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;                LiteralType l=LiteralRegistry.getLiteral(((Literal)args[0]).getDatatype().toString());</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;                Double value=Double.valueOf(args[1].stringValue());</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;                <span class="keywordflow">if</span>(l instanceof VectorLiteral) {</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;                        Geometry geom=((VectorLiteral)l).read(args[0].stringValue());</div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;                        Geometry result = <a class="code" href="a03228.html#a3e90404335d65a7dc26872963e46db87">relation</a>(geom,value);</div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;                        <span class="keywordflow">return</span> valueFactory.createLiteral(((VectorLiteral) l).unparse(result),((Literal)args[0]).getDatatype());</div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;                }</div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;                <span class="keywordflow">throw</span> <span class="keyword">new</span> ValueExprEvaluationException(<span class="stringliteral">&quot;Argument given is not a geometry literal&quot;</span>);</div><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;        }</div><div class="ttc" id="a03228_html_a3e90404335d65a7dc26872963e46db87"><div class="ttname"><a href="a03228.html#a3e90404335d65a7dc26872963e46db87">org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.geometry.base.GeometricModifierDoubleFunction.relation</a></div><div class="ttdeci">abstract Geometry relation(Geometry geom, Double value)</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a3e90404335d65a7dc26872963e46db87"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3e90404335d65a7dc26872963e46db87">&#9670;&nbsp;</a></span>relation()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">abstract Geometry relation </td>
+          <td>(</td>
+          <td class="paramtype">Geometry&#160;</td>
+          <td class="paramname"><em>geom</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Double&#160;</td>
+          <td class="paramname"><em>value</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">abstract</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="a03228.html#a43b4c73244bc6722ce551c1033cf1115">GeometricModifierDoubleFunction.evaluate()</a>.</p>
+
+</div>
+</div>
+</div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.13-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
+    <li class="navelem"><a class="el" href="a02667.html">org</a></li><li class="navelem"><a class="el" href="a02668.html">eclipse</a></li><li class="navelem"><a class="el" href="a02669.html">rdf4j</a></li><li class="navelem"><a class="el" href="a02672.html">query</a></li><li class="navelem"><a class="el" href="a02673.html">algebra</a></li><li class="navelem"><a class="el" href="a02674.html">evaluation</a></li><li class="navelem"><a class="el" href="a02675.html">function</a></li><li class="navelem"><a class="el" href="a02676.html">postgis</a></li><li class="navelem"><a class="el" href="a02683.html">geometry</a></li><li class="navelem"><a class="el" href="a02684.html">base</a></li><li class="navelem"><a class="el" href="a03228.html">GeometricModifierDoubleFunction</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>

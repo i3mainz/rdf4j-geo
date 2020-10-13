@@ -1,4 +1,27 @@
 var a02758 =
 [
-    [ "FeatureRasterizerException", "a02758.html#ab471c3e3e86c898f11da2053b014dd60", null ]
+    [ "AreaSimilarityTest", "a05712.html", "a05712" ],
+    [ "CentroidDistanceTest", "a05716.html", "a05716" ],
+    [ "ClosestPointTest", "a05720.html", "a05720" ],
+    [ "DistanceSphereTest", "a05724.html", "a05724" ],
+    [ "DistanceTest", "a05728.html", "a05728" ],
+    [ "EqualNormTest", "a05732.html", "a05732" ],
+    [ "EqualSRSTest", "a05736.html", "a05736" ],
+    [ "EqualTopoTest", "a05740.html", "a05740" ],
+    [ "EqualTypeTest", "a05744.html", "a05744" ],
+    [ "FullyWithinDistanceTest", "a05748.html", "a05748" ],
+    [ "FurthestCoordinateTest", "a05752.html", "a05752" ],
+    [ "HausdorffDistanceTest", "a05756.html", "a05756" ],
+    [ "IntersectionMatrixTest", "a05760.html", "a05760" ],
+    [ "IntersectionPercentageTest", "a05764.html", "a05764" ],
+    [ "IsMorePreciseTest", "a05768.html", "a05768" ],
+    [ "LongestLineTest", "a05772.html", "a05772" ],
+    [ "ManhattanDistanceTest", "a05776.html", "a05776" ],
+    [ "MaxDistance3DTest", "a05780.html", "a05780" ],
+    [ "MaxDistanceTest", "a05784.html", "a05784" ],
+    [ "OrderingEqualsTest", "a05788.html", "a05788" ],
+    [ "RelateMatchTest", "a05792.html", "a05792" ],
+    [ "RelateTest", "a05796.html", "a05796" ],
+    [ "ShortestLine3DTest", "a05800.html", "a05800" ],
+    [ "ShortestLineTest", "a05804.html", "a05804" ]
 ];

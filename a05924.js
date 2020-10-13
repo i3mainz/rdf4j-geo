@@ -1,7 +1,6 @@
 var a05924 =
 [
-    [ "testRemoveRing", "a05924.html#ad886abc46152c92cd03887b3f71760c7", null ],
-    [ "duplicateRings", "a05924.html#a92f3ef00fc079a76b7f943d9ed6cec77", null ],
-    [ "nonduplicateRings", "a05924.html#a675a0b1b194538fc07fa716705f883a5", null ],
-    [ "ring", "a05924.html#a3e4a839eee2eb5791f90656e82eec721", null ]
+    [ "testShiftLongitude", "a05924.html#a706f714749526b3516c84d5741993811", null ],
+    [ "result", "a05924.html#aab356d6554a7301750f11ec7a85ac47d", null ],
+    [ "testPolygon", "a05924.html#a1e3187cbc25299380589200c398b3ffd", null ]
 ];

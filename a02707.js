@@ -1,27 +1,8 @@
 var a02707 =
 [
-    [ "AreaSimilarityTest", "a05561.html", "a05561" ],
-    [ "CentroidDistanceTest", "a05565.html", "a05565" ],
-    [ "ClosestPointTest", "a05569.html", "a05569" ],
-    [ "DistanceSphereTest", "a05573.html", "a05573" ],
-    [ "DistanceTest", "a05577.html", "a05577" ],
-    [ "EqualNormTest", "a05581.html", "a05581" ],
-    [ "EqualSRSTest", "a05585.html", "a05585" ],
-    [ "EqualTopoTest", "a05589.html", "a05589" ],
-    [ "EqualTypeTest", "a05593.html", "a05593" ],
-    [ "FullyWithinDistanceTest", "a05597.html", "a05597" ],
-    [ "FurthestCoordinateTest", "a05601.html", "a05601" ],
-    [ "HausdorffDistanceTest", "a05605.html", "a05605" ],
-    [ "IntersectionMatrixTest", "a05609.html", "a05609" ],
-    [ "IntersectionPercentageTest", "a05613.html", "a05613" ],
-    [ "IsMorePreciseTest", "a05617.html", "a05617" ],
-    [ "LongestLineTest", "a05621.html", "a05621" ],
-    [ "ManhattanDistanceTest", "a05625.html", "a05625" ],
-    [ "MaxDistance3DTest", "a05629.html", "a05629" ],
-    [ "MaxDistanceTest", "a05633.html", "a05633" ],
-    [ "OrderingEqualsTest", "a05637.html", "a05637" ],
-    [ "RelateMatchTest", "a05641.html", "a05641" ],
-    [ "RelateTest", "a05645.html", "a05645" ],
-    [ "ShortestLine3DTest", "a05649.html", "a05649" ],
-    [ "ShortestLineTest", "a05653.html", "a05653" ]
+    [ "ForcePolygonCCW", "a04204.html", "a04204" ],
+    [ "ForcePolygonCW", "a04208.html", "a04208" ],
+    [ "LinesFromRings", "a04212.html", "a04212" ],
+    [ "ReverseRing", "a04216.html", "a04216" ],
+    [ "RingsCutAtNodes", "a04220.html", "a04220" ]
 ];

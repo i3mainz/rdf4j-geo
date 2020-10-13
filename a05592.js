@@ -1,7 +1,9 @@
 var a05592 =
 [
-    [ "testEPSGToWKT", "a05592.html#a99eeea80e12b47408368dc7163511b31", null ],
-    [ "epsg", "a05592.html#ae984b1b4178b56b80cdb7a80eac64541", null ],
-    [ "epsg4326wkt", "a05592.html#ab74c72298a14045de8026d4c37013974", null ],
-    [ "srid", "a05592.html#a5ffebf384504d11b17aa9c75f4b92024", null ]
+    [ "test2DGeom", "a05592.html#a326426f92a343411bc6035a5e9a4192f", null ],
+    [ "test3DGeom", "a05592.html#aa6b2641c27685af72bd5946823648455", null ],
+    [ "testMGeom", "a05592.html#a17b047bacf8d47cfe9eb1b95260abd70", null ],
+    [ "geom2D", "a05592.html#a717e94cd8879a90c3d3fce5d3ae64eb6", null ],
+    [ "geom3D", "a05592.html#a972164b62d3d78e8fb03a17b761742a2", null ],
+    [ "geomM", "a05592.html#aa8cacb7883ca9f8160920fa287158fef", null ]
 ];

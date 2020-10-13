@@ -1,6 +1,9 @@
 var a05636 =
 [
-    [ "testEPSGToSRID", "a05636.html#a058152e783dcc1694eb060f5099630b1", null ],
-    [ "epsg", "a05636.html#ae984b1b4178b56b80cdb7a80eac64541", null ],
-    [ "srid", "a05636.html#a5ffebf384504d11b17aa9c75f4b92024", null ]
+    [ "testEnsureClosed", "a05636.html#ace1b0f448a93ab083e49e59b851b8094", null ],
+    [ "testEnsureClosed2", "a05636.html#a7a93140658cbcf5aea17d9f930cd5144", null ],
+    [ "closed", "a05636.html#ad8efa97b8aa775164dc4836b505fc315", null ],
+    [ "duplicateRings", "a05636.html#a92f3ef00fc079a76b7f943d9ed6cec77", null ],
+    [ "nonClosed", "a05636.html#aff993a2133bc6c6afe1012e13b5c028d", null ],
+    [ "ring", "a05636.html#a3e4a839eee2eb5791f90656e82eec721", null ]
 ];

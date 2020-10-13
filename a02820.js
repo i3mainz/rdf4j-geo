@@ -1,6 +1,9 @@
 var a02820 =
 [
-    [ "evaluate", "a02820.html#a43b4c73244bc6722ce551c1033cf1115", null ],
-    [ "getURI", "a02820.html#ad9fb16b36dd4ccc533d4f05ff94646e3", null ],
-    [ "relation", "a02820.html#a92cf9e3c55586df35a528a95c51b6882", null ]
+    [ "AggCentroid", "a02820.html#a50accbcfba1cb62fd2c3c6945ad73523", null ],
+    [ "AggCentroid", "a02820.html#aa380b240515b7ef61a0a6ecbe81070af", null ],
+    [ "clone", "a02820.html#a4021a724a19ab359f4b16f3fcea1666b", null ],
+    [ "equals", "a02820.html#a8e18a3a952a9e38a9a4191004a30c938", null ],
+    [ "hashCode", "a02820.html#a077e18fe97323c7194e2665ffc766399", null ],
+    [ "visit", "a02820.html#ace7c41d3761122fda287033559696cdd", null ]
 ];

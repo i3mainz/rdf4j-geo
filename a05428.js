@@ -1,7 +1,9 @@
 var a05428 =
 [
-    [ "testRemovePoint", "a05428.html#a5e9b64ff404fa9347af445dc61f510b7", null ],
-    [ "testRemovePointZ", "a05428.html#ab04b102dbd8ad6ffb069a768eaf23da4", null ],
-    [ "lineString", "a05428.html#a76e109dc83d6f4d16fcd2fa3e73054f6", null ],
-    [ "lineStringZ", "a05428.html#a6ea074c47e6616507d2fe90dc549765a", null ]
+    [ "testBBOXAbove", "a05428.html#a0e5151be9c17b1a363f0e9587a76dad8", null ],
+    [ "testBBOXAbove1", "a05428.html#afef7a8dc9560d094946b475413049d29", null ],
+    [ "testGeom1", "a05428.html#aa4a3b1a7e778ece72382f6600fa96b47", null ],
+    [ "testGeom2", "a05428.html#a6b4be369c8f60e973cd5126e69cd33a4", null ],
+    [ "testGeom3", "a05428.html#a800b6bb875a8ff4404ea787c3df125a5", null ],
+    [ "testGeom4", "a05428.html#a4c55e7efe430d6d220fb05524c4bb940", null ]
 ];

@@ -1,5 +1,5 @@
 var a02730 =
 [
-    [ "RescaleTest", "a06261.html", "a06261" ],
-    [ "ResizeTest", "a06265.html", "a06265" ]
+    [ "TopoJSONDatatype", "a05136.html", "a05136" ],
+    [ "TopologyLiteral", "a05140.html", "a05140" ]
 ];

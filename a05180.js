@@ -1,11 +1,10 @@
 var a05180 =
 [
-    [ "calculate", "a05180.html#a1b9dd1e59eac3a2a15cb68c19e994fe4", null ],
-    [ "checkCoordinate", "a05180.html#a0a01f90a7fe27e3b66f1c87f019e91bc", null ],
-    [ "finalize", "a05180.html#a7626720b9bf807253dd702a0214dc9f0", null ],
-    [ "writeExtendedPrecision", "a05180.html#a320ccd90ec0ef71a4353104b7fe98a1c", null ],
-    [ "writePoint", "a05180.html#adedb1cd853d00648be239477f7fe4e2a", null ],
-    [ "writePointArray", "a05180.html#afeed21e7153170021427b1e7001d952b", null ],
-    [ "precision", "a05180.html#aa95455ed52a8459fad69509a4a0411b5", null ],
-    [ "precisionMultiplier", "a05180.html#a9aa85be4ec02c28a05cb552845fe08eb", null ]
+    [ "HexWKBTextSRS", "a05184.html", "a05184" ],
+    [ "read", "a05180.html#a793358fbd6ef538a24eabab1bd50ef01", null ],
+    [ "toString", "a05180.html#ad146fa8579a5f8a876c4688cc5a68520", null ],
+    [ "unparse", "a05180.html#ae918a517e1ebcc44beeee2c55008d248", null ],
+    [ "INSTANCE", "a05180.html#a4a988464fb6e9d1f079471133e067d54", null ],
+    [ "LiteralIRI", "a05180.html#ae02c2e86ac0dea8538c7b43e9e82421a", null ],
+    [ "URI", "a05180.html#addbf30e6c0ad68fa34277d59a2c6eb5e", null ]
 ];

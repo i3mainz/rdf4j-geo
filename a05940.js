@@ -1,6 +1,6 @@
 var a05940 =
 [
-    [ "testReverseRing", "a05940.html#a341309060348e532f6606d50945a52bd", null ],
-    [ "duplicateRings", "a05940.html#a92f3ef00fc079a76b7f943d9ed6cec77", null ],
-    [ "nonduplicateRings", "a05940.html#a675a0b1b194538fc07fa716705f883a5", null ]
+    [ "testSwapOrdinates", "a05940.html#afb4577949dbe6ea13a5d8c00afd1c339", null ],
+    [ "res", "a05940.html#ab8deaae2f0a5506ff9fd02ff15e921cc", null ],
+    [ "testPolygon", "a05940.html#a1e3187cbc25299380589200c398b3ffd", null ]
 ];

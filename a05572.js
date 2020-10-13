@@ -1,6 +1,5 @@
 var a05572 =
 [
-    [ "testRelateMatchFalse", "a05572.html#a16bf67312d8af3e076076fd8097969c5", null ],
-    [ "testRelateMatchTrue", "a05572.html#a47e32d919c84c1edd508a45d6c670e90", null ],
-    [ "notIsocelesTriangle", "a05572.html#a055d99fb63bcee37763ffcf4da9e0521", null ]
+    [ "testMinimumClearanceLine", "a05572.html#a61877f78d0d415e1cd48f477474017e6", null ],
+    [ "testPolygon", "a05572.html#a1e3187cbc25299380589200c398b3ffd", null ]
 ];

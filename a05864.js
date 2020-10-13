@@ -1,7 +1,6 @@
 var a05864 =
 [
-    [ "testHasDuplicateRingsFalse", "a05864.html#a3957683118b9d5473c635a38d7e6c6e8", null ],
-    [ "testHasDuplicateRingsTrue", "a05864.html#a3779f6b4849bf60c716f7dff71089a2a", null ],
-    [ "duplicateRings", "a05864.html#a92f3ef00fc079a76b7f943d9ed6cec77", null ],
-    [ "nonduplicateRings", "a05864.html#a675a0b1b194538fc07fa716705f883a5", null ]
+    [ "testCollectionExtract", "a05864.html#ad65aa26b3876b84d26c4b988083bd940", null ],
+    [ "res", "a05864.html#ab8deaae2f0a5506ff9fd02ff15e921cc", null ],
+    [ "testGeometry", "a05864.html#abc3f514f005cba49e406658e2d3086eb", null ]
 ];

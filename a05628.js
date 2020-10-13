@@ -1,5 +1,7 @@
 var a05628 =
 [
-    [ "testSridIsProjectedTrue", "a05628.html#a79fa3e75c2d90e917a8ece94f56a16ba", null ],
-    [ "testPoint", "a05628.html#af26f700ee129f846cac58735f6dcc380", null ]
+    [ "testAddGeometry", "a05628.html#a4ebf1443292e242753148cb8748d9169", null ],
+    [ "testAddGeometryZ", "a05628.html#a7405251c9ffbd82086e9e63d9ced3c82", null ],
+    [ "lineString", "a05628.html#a76e109dc83d6f4d16fcd2fa3e73054f6", null ],
+    [ "point", "a05628.html#a081811ff1c2bedd0a20703599f90114f", null ]
 ];

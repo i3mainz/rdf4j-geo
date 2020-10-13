@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>rdf4j-postgis: GeometryTypeTest Class Reference</title>
+<title>rdf4j-postgis: Member List</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -56,87 +56,47 @@ $(function() {
   </div>
 </div>
 <script type="text/javascript">
-$(document).ready(function(){initNavTree('a05345.html','');});
+$(document).ready(function(){initNavTree('a05348.html','');});
 </script>
 <div id="doc-content">
 <div class="header">
-  <div class="summary">
-<a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pub-static-attribs">Static Public Attributes</a> &#124;
-<a href="a05342.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">GeometryTypeTest Class Reference</div>  </div>
+<div class="title">WKBRasterConstants Member List</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="dynheader">
-Collaboration diagram for GeometryTypeTest:</div>
-<div class="dyncontent">
-<div class="center"><img src="a05343.png" border="0" usemap="#GeometryTypeTest_coll__map" alt="Collaboration graph"/></div>
-<map name="GeometryTypeTest_coll__map" id="GeometryTypeTest_coll__map">
-</map>
-<center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
-<table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
-Public Member Functions</h2></td></tr>
-<tr class="memitem:a0444ce8df222ae81e1a33426a32d8d7a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05345.html#a0444ce8df222ae81e1a33426a32d8d7a">testLineString</a> ()</td></tr>
-<tr class="separator:a0444ce8df222ae81e1a33426a32d8d7a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
-Static Public Attributes</h2></td></tr>
-<tr class="memitem:a03a5f5da0ccbeed8c1678d4317cf2672"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05345.html#a03a5f5da0ccbeed8c1678d4317cf2672">testGeom</a> =&quot;LINESTRING(743238 2967416,743238 2967450,743265 2967450, 743265.625 2967416,743238 2967416)&quot;</td></tr>
-<tr class="separator:a03a5f5da0ccbeed8c1678d4317cf2672"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table>
-<h2 class="groupheader">Member Function Documentation</h2>
-<a id="a0444ce8df222ae81e1a33426a32d8d7a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0444ce8df222ae81e1a33426a32d8d7a">&#9670;&nbsp;</a></span>testLineString()</h2>
 
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void testLineString </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="reference">References <a class="el" href="a03233.html#a43b4c73244bc6722ce551c1033cf1115">GeometricStringExportFunction.evaluate()</a>, and <a class="el" href="a05109.html#ae02c2e86ac0dea8538c7b43e9e82421a">WKTDatatype.LiteralIRI</a>.</p>
-<div class="fragment"><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;                                     {</div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;                GeometryType instance=<span class="keyword">new</span> GeometryType();</div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;                ValueFactory valfac=SimpleValueFactory.getInstance();</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;                Value geo=valfac.createLiteral(<a class="code" href="a05345.html#a03a5f5da0ccbeed8c1678d4317cf2672">testGeom</a>, WKTDatatype.LiteralIRI);</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;                Value result=instance.evaluate(valfac, geo);</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;                Value expResult=valfac.createLiteral(<span class="stringliteral">&quot;LineString&quot;</span>);</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;                assertEquals(expResult, result);</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;        }</div><div class="ttc" id="a05345_html_a03a5f5da0ccbeed8c1678d4317cf2672"><div class="ttname"><a href="a05345.html#a03a5f5da0ccbeed8c1678d4317cf2672">org.eclipse.rdf4j.testsuites.postgis.geometry.attribute.GeometryTypeTest.testGeom</a></div><div class="ttdeci">static final String testGeom</div><div class="ttdef"><b>Definition:</b> GeometryTypeTest.java:14</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<h2 class="groupheader">Member Data Documentation</h2>
-<a id="a03a5f5da0ccbeed8c1678d4317cf2672"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a03a5f5da0ccbeed8c1678d4317cf2672">&#9670;&nbsp;</a></span>testGeom</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">final String testGeom =&quot;LINESTRING(743238 2967416,743238 2967450,743265 2967450, 743265.625 2967416,743238 2967416)&quot;</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-</div><!-- contents -->
+<p>This is the complete list of members for <a class="el" href="a05348.html">WKBRasterConstants</a>, including all inherited members.</p>
+<table class="directory">
+  <tr class="even"><td class="entry"><a class="el" href="a05348.html#a2324f6647c1940700254eb720d6ba8e8">BANDTYPE_FLAG_HASNODATA</a></td><td class="entry"><a class="el" href="a05348.html">WKBRasterConstants</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
+  <tr><td class="entry"><a class="el" href="a05348.html#aef7fd5e115192a2ec56af1abfa80f424">BANDTYPE_FLAG_ISNODATA</a></td><td class="entry"><a class="el" href="a05348.html">WKBRasterConstants</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="a05348.html#a3b9dbcdbb7097fd3d67db74e5892fd78">BANDTYPE_FLAG_OFFDB</a></td><td class="entry"><a class="el" href="a05348.html">WKBRasterConstants</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
+  <tr><td class="entry"><a class="el" href="a05348.html#a60328b84a61d35824b92336a8a9c2905">BANDTYPE_FLAG_RESERVED3</a></td><td class="entry"><a class="el" href="a05348.html">WKBRasterConstants</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="a05348.html#ae372c1456067dc0a5ee6e599a44d1f93">BANDTYPE_FLAGS_MASK</a></td><td class="entry"><a class="el" href="a05348.html">WKBRasterConstants</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
+  <tr><td class="entry"><a class="el" href="a05348.html#a4d2aacba81f65a665011dbf308875cd3">BANDTYPE_PIXTYPE_MASK</a></td><td class="entry"><a class="el" href="a05348.html">WKBRasterConstants</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="a05348.html#ac52192545c0460512a05f796c5c49cfa">getDataBufferType</a>(int pixelType)</td><td class="entry"><a class="el" href="a05348.html">WKBRasterConstants</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
+  <tr><td class="entry"><a class="el" href="a05348.html#a98281e43765f09e5590f0606e2d68eb1">getDimensionType</a>(int type)</td><td class="entry"><a class="el" href="a05348.html">WKBRasterConstants</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="a05348.html#a90175c7e374ef5fa97cdeeb1b5a34b2d">getNbBytePerPixel</a>(int pixelType)</td><td class="entry"><a class="el" href="a05348.html">WKBRasterConstants</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
+  <tr><td class="entry"><a class="el" href="a05348.html#a5e85252e761739965ad43a3f553a80cc">getPixelType</a>(int dataBufferType)</td><td class="entry"><a class="el" href="a05348.html">WKBRasterConstants</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="a05348.html#a0cdacc5ebe7f3d956f9199c25a1d56b0">getPixelType</a>(SampleDimensionType type)</td><td class="entry"><a class="el" href="a05348.html">WKBRasterConstants</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
+  <tr><td class="entry"><a class="el" href="a05348.html#a00e8e1ec48639556764834911af9149e">PT_16BSI</a></td><td class="entry"><a class="el" href="a05348.html">WKBRasterConstants</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="a05348.html#abfea3c08329883c92be56c91587e95d8">PT_16BUI</a></td><td class="entry"><a class="el" href="a05348.html">WKBRasterConstants</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
+  <tr><td class="entry"><a class="el" href="a05348.html#a4823fe179fa356ff0f8b4fb2ad0b69a2">PT_1BB</a></td><td class="entry"><a class="el" href="a05348.html">WKBRasterConstants</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="a05348.html#a41fa02aa3367a9f74bcb10f02367dc87">PT_2BUI</a></td><td class="entry"><a class="el" href="a05348.html">WKBRasterConstants</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
+  <tr><td class="entry"><a class="el" href="a05348.html#ae54a997b0ccb99c852c9a551e579397a">PT_32BF</a></td><td class="entry"><a class="el" href="a05348.html">WKBRasterConstants</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="a05348.html#a8996d55e240c396e25bf79c4f6e6a53a">PT_32BSI</a></td><td class="entry"><a class="el" href="a05348.html">WKBRasterConstants</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
+  <tr><td class="entry"><a class="el" href="a05348.html#a4162cb8e923e14e115041d7136600b9d">PT_32BUI</a></td><td class="entry"><a class="el" href="a05348.html">WKBRasterConstants</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="a05348.html#aaafdd84919a14f91ed00ffa1673c2799">PT_4BUI</a></td><td class="entry"><a class="el" href="a05348.html">WKBRasterConstants</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
+  <tr><td class="entry"><a class="el" href="a05348.html#a741fc140710e0d41a67cf850a864fee0">PT_64BF</a></td><td class="entry"><a class="el" href="a05348.html">WKBRasterConstants</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="a05348.html#aed64329657f9c4e9e72730753cbd761b">PT_8BSI</a></td><td class="entry"><a class="el" href="a05348.html">WKBRasterConstants</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
+  <tr><td class="entry"><a class="el" href="a05348.html#ac51a9f88963687758a4d0c39e34f5f31">PT_8BUI</a></td><td class="entry"><a class="el" href="a05348.html">WKBRasterConstants</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="a05348.html#aaeba1f38f11d641375f931be735f6837">PT_END</a></td><td class="entry"><a class="el" href="a05348.html">WKBRasterConstants</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
+  <tr><td class="entry"><a class="el" href="a05348.html#afd5753ad6a607f70e04431c9d92e01e2">WKBRasterConstants</a>()</td><td class="entry"><a class="el" href="a05348.html">WKBRasterConstants</a></td><td class="entry"><span class="mlabel">private</span></td></tr>
+</table></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.13-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="a02616.html">org</a></li><li class="navelem"><a class="el" href="a02617.html">eclipse</a></li><li class="navelem"><a class="el" href="a02618.html">rdf4j</a></li><li class="navelem"><a class="el" href="a02699.html">testsuites</a></li><li class="navelem"><a class="el" href="a02700.html">postgis</a></li><li class="navelem"><a class="el" href="a02703.html">geometry</a></li><li class="navelem"><a class="el" href="a02702.html">attribute</a></li><li class="navelem"><a class="el" href="a05345.html">GeometryTypeTest</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>

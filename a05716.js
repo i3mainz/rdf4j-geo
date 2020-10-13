@@ -1,5 +1,7 @@
 var a05716 =
 [
-    [ "testSimplifyVW", "a05716.html#a4b0417b619689d07743ff9d72212c847", null ],
-    [ "testGeom", "a05716.html#a03a5f5da0ccbeed8c1678d4317cf2672", null ]
+    [ "testCentroidDistance", "a05716.html#a312e87d7afb4dd085ada4f2f2c8d288f", null ],
+    [ "testCentroidDistance2", "a05716.html#a5eab32bf961a899b72bea71a38ff3c3c", null ],
+    [ "isocelesTriangle", "a05716.html#aa04dfbec745e2622b9f7646f8572e501", null ],
+    [ "notIsocelesTriangle", "a05716.html#a055d99fb63bcee37763ffcf4da9e0521", null ]
 ];

@@ -1,6 +1,5 @@
 var a05692 =
 [
-    [ "testPrecisionReducer", "a05692.html#a486d6504bb92a61902ac29e25b3d31a8", null ],
-    [ "resultGeom", "a05692.html#a3eff685a59eb24ce11d6dbd456fae0c2", null ],
-    [ "testGeom", "a05692.html#a03a5f5da0ccbeed8c1678d4317cf2672", null ]
+    [ "testAsSVG", "a05692.html#a7051938045f1413d97e8c5925b1c7677", null ],
+    [ "testGeometry", "a05692.html#abc3f514f005cba49e406658e2d3086eb", null ]
 ];

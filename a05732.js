@@ -1,7 +1,8 @@
 var a05732 =
 [
-    [ "testHasSelfIntersectionsFalse", "a05732.html#a4a909b32ed78a5e48e6acd2cdd04519b", null ],
-    [ "testHasSelfIntersectionsTrue", "a05732.html#ae67f84fa98ae098d78896e2c9885a5ca", null ],
+    [ "testEqualNormFalse", "a05732.html#a1928f13a833e5a2e8b142a5937d86c8b", null ],
+    [ "testEqualNormTrue", "a05732.html#ab11a3d6b71627dd555022e7a29ada7be", null ],
+    [ "result", "a05732.html#aab356d6554a7301750f11ec7a85ac47d", null ],
     [ "testGeom", "a05732.html#a03a5f5da0ccbeed8c1678d4317cf2672", null ],
     [ "testGeom2", "a05732.html#a6b4be369c8f60e973cd5126e69cd33a4", null ]
 ];

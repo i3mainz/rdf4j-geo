@@ -1,5 +1,8 @@
 var a02721 =
 [
-    [ "PolygonFromTextTest", "a05989.html", "a05989" ],
-    [ "PolygonFromWKBTest", "a05993.html", "a05993" ]
+    [ "AddIsoNode", "a04848.html", "a04848" ],
+    [ "MoveIsoNode", "a04852.html", null ],
+    [ "RemoveIsoNode", "a04856.html", null ],
+    [ "Topo_AddLineString", "a04860.html", null ],
+    [ "Topo_AddPoint", "a04864.html", "a04864" ]
 ];

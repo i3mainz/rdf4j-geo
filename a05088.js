@@ -1,10 +1,5 @@
 var a05088 =
 [
-    [ "key", "a05088.html#a807f334d405d92bd2f38c380d4b9ed9a", null ],
-    [ "keys", "a05088.html#a5b7e54bc6f4d8855104d09ef3adb2606", null ],
-    [ "value", "a05088.html#a3220129efaffe512a5dded79b4e142ac", null ],
-    [ "values", "a05088.html#a297c543701acc405ac68122b9642cb28", null ],
-    [ "features", "a05088.html#a2b66f5f4579c910c9f7b7ccc043c3037", null ],
-    [ "keys", "a05088.html#a885c190e82027881ec3ed1533283c966", null ],
-    [ "values", "a05088.html#a8159c164675963389d4522cae972207b", null ]
+    [ "evaluate", "a05088.html#a43b4c73244bc6722ce551c1033cf1115", null ],
+    [ "getURI", "a05088.html#ad9fb16b36dd4ccc533d4f05ff94646e3", null ]
 ];

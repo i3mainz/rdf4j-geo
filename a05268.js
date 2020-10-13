@@ -1,5 +1,5 @@
 var a05268 =
 [
-    [ "testBoundingDiagonal", "a05268.html#a5905b320ef165de047ef4ff2e9167268", null ],
-    [ "testPolygon", "a05268.html#a1e3187cbc25299380589200c398b3ffd", null ]
+    [ "Float", "a05268.html#a5ea9b4da06b29ad4a7631ca939caa5d4", null ],
+    [ "Integer", "a05268.html#a8f1c62844f94b49f32b108711766d36b", null ]
 ];

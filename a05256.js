@@ -1,9 +1,6 @@
 var a05256 =
 [
-    [ "testBBOXRightOf", "a05256.html#a1d3293620606e59a1f913178b94ea7fd", null ],
-    [ "testBBOXRightOf1", "a05256.html#ae27abe3e3daa14fdd8094ad71b5cb2cc", null ],
-    [ "testGeom1", "a05256.html#aa4a3b1a7e778ece72382f6600fa96b47", null ],
-    [ "testGeom2", "a05256.html#a6b4be369c8f60e973cd5126e69cd33a4", null ],
-    [ "testGeom3", "a05256.html#a800b6bb875a8ff4404ea787c3df125a5", null ],
-    [ "testGeom4", "a05256.html#a4c55e7efe430d6d220fb05524c4bb940", null ]
+    [ "TupleAxis", "a05256.html#a868d6353f6a609ddd2ec98c7990b94cd", null ],
+    [ "nestedAxes", "a05256.html#a2a407c57bf19d3232fc2fb2f1754bae2", null ],
+    [ "size", "a05256.html#a439227feff9d7f55384e8780cfc2eb82", null ]
 ];

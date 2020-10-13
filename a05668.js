@@ -1,5 +1,5 @@
 var a05668 =
 [
-    [ "testForce3D", "a05668.html#a029b956696a32125657d2d2027b78866", null ],
-    [ "testPolygon", "a05668.html#a1e3187cbc25299380589200c398b3ffd", null ]
+    [ "testAsGeoRSS", "a05668.html#a6073cb056ce359b4e50c980456a17e1e", null ],
+    [ "testGeometry", "a05668.html#abc3f514f005cba49e406658e2d3086eb", null ]
 ];

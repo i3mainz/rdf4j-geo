@@ -1,5 +1,5 @@
 var a05608 =
 [
-    [ "testSridGetAxis2Name", "a05608.html#aa23d52a72eb64b4bee30038ab09e5e21", null ],
-    [ "testPoint", "a05608.html#af26f700ee129f846cac58735f6dcc380", null ]
+    [ "testNumPoints", "a05608.html#ab30b87a5d89bd6e36dae388ce20e61a7", null ],
+    [ "testGeom", "a05608.html#a03a5f5da0ccbeed8c1678d4317cf2672", null ]
 ];

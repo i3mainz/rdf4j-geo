@@ -1,3 +1,6 @@
-<map id="MakeEmptyRaster" name="MakeEmptyRaster">
-<area shape="rect" id="node2" href="$a04477.html" title="RasterAttributeFunction" alt="" coords="5,80,165,107"/>
+<map id="RasterAttributeIntIntDoubleFunction" name="RasterAttributeIntIntDoubleFunction">
+<area shape="rect" id="node3" href="$a04436.html" title="RasterToWorldCoordX" alt="" coords="5,169,160,196"/>
+<area shape="rect" id="node4" href="$a04440.html" title="RasterToWorldCoordY" alt="" coords="184,169,339,196"/>
+<area shape="rect" id="node5" href="$a04512.html" title="WorldToRasterCoordX" alt="" coords="363,169,517,196"/>
+<area shape="rect" id="node6" href="$a04516.html" title="WorldToRasterCoordY" alt="" coords="541,169,696,196"/>
 </map>

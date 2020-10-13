@@ -1,8 +1,7 @@
 var a05596 =
 [
-    [ "testGeomCRSToWKT", "a05596.html#a2c470394b50cb82403dc328abdcacff7", null ],
-    [ "epsg", "a05596.html#ae984b1b4178b56b80cdb7a80eac64541", null ],
-    [ "epsg4326wkt", "a05596.html#ab74c72298a14045de8026d4c37013974", null ],
-    [ "srid", "a05596.html#a5ffebf384504d11b17aa9c75f4b92024", null ],
-    [ "testPoint", "a05596.html#af26f700ee129f846cac58735f6dcc380", null ]
+    [ "testNumDistinctGeometries", "a05596.html#a4c2be1b9a8d6a00b4330789b2fb25b6d", null ],
+    [ "testNumDistinctGeometriesCollection", "a05596.html#ad95b2c5cc3431fd3f26670a7f769eec7", null ],
+    [ "testGeom", "a05596.html#a03a5f5da0ccbeed8c1678d4317cf2672", null ],
+    [ "testGeom2", "a05596.html#a6b4be369c8f60e973cd5126e69cd33a4", null ]
 ];

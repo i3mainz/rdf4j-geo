@@ -1,5 +1,5 @@
 var a05480 =
 [
-    [ "testAsTextRaw", "a05480.html#abe6b8113553114d4969c61497fcbd472", null ],
-    [ "testGeometry", "a05480.html#abc3f514f005cba49e406658e2d3086eb", null ]
+    [ "testBoundingDiagonal", "a05480.html#a5905b320ef165de047ef4ff2e9167268", null ],
+    [ "testPolygon", "a05480.html#a1e3187cbc25299380589200c398b3ffd", null ]
 ];

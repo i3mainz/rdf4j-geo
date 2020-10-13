@@ -1,7 +1,14 @@
 var a05284 =
 [
-    [ "testHasHorizontalCRSFalse", "a05284.html#a9d25864362180719a756bf187c003b28", null ],
-    [ "testHasHorizontalCRSTrue", "a05284.html#a9f2bde364661ddf6af32fec9ad9085b1", null ],
-    [ "testGeometry", "a05284.html#abc3f514f005cba49e406658e2d3086eb", null ],
-    [ "testGeometry2", "a05284.html#af1173652e671b8f9051f8630b98c73fb", null ]
+    [ "Feature", "a05284.html#a25b3a15065bb9a73fee34b7379efbc3d", null ],
+    [ "getAttributes", "a05284.html#a53df620362bb32e76ab5ba5eafd8d7f8", null ],
+    [ "getExtent", "a05284.html#a60bfe2643b9af68293e713563b2792aa", null ],
+    [ "getGeometry", "a05284.html#ac87f55eacfa366a66a2ee6ff6c2ab40b", null ],
+    [ "getId", "a05284.html#ac7a54ea5a10c5c4683f16e3f83f77104", null ],
+    [ "getLayerName", "a05284.html#abd0c38e946022b804d4941aba21e6fe1", null ],
+    [ "attributes", "a05284.html#aae9ec0aefa9ddf1a254dcbc8921f46b6", null ],
+    [ "extent", "a05284.html#a6156e4ea9ca15fc926007ca518111147", null ],
+    [ "geometry", "a05284.html#ab673ef7c52790753f9f4280de525611c", null ],
+    [ "id", "a05284.html#a98e184e3edd9278aa1590f8a1c9515d7", null ],
+    [ "layerName", "a05284.html#a46934b2a2a8bed19bd956bc3d16b9aa1", null ]
 ];

@@ -1,7 +1,5 @@
 var a05868 =
 [
-    [ "testIsAcuteFalse", "a05868.html#a5b3dbe6f41b97c30eaff61a7c0c6f344", null ],
-    [ "testIsAcuteTrue", "a05868.html#aea45a7ea1a6bbd2c8bf3bfa751ec4e1f", null ],
-    [ "isocelesTriangle", "a05868.html#aa04dfbec745e2622b9f7646f8572e501", null ],
-    [ "notIsocelesTriangle", "a05868.html#a055d99fb63bcee37763ffcf4da9e0521", null ]
+    [ "testCollectionHomogenize", "a05868.html#a0a22ab00e85a35d2da22ba287cd37a3f", null ],
+    [ "testGeometry", "a05868.html#abc3f514f005cba49e406658e2d3086eb", null ]
 ];

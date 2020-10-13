@@ -1,4 +1,6 @@
 var a02755 =
 [
-    [ "FeatureRasterizerException", "a02755.html#ab471c3e3e86c898f11da2053b014dd60", null ]
+    [ "GeomFromGeoJSONTest", "a05616.html", "a05616" ],
+    [ "GeomFromTextTest", "a05620.html", "a05620" ],
+    [ "GeomFromWKBTest", "a05624.html", "a05624" ]
 ];

@@ -1,6 +1,5 @@
 var a05656 =
 [
-    [ "testFlipCoordinates", "a05656.html#ad1e5e682acb0c53bb386a80a7186ae38", null ],
-    [ "result", "a05656.html#aab356d6554a7301750f11ec7a85ac47d", null ],
-    [ "testPolygon", "a05656.html#a1e3187cbc25299380589200c398b3ffd", null ]
+    [ "testAsBinary", "a05656.html#ac230b10882e3be05bacc871fce2fc609", null ],
+    [ "testGeometry", "a05656.html#abc3f514f005cba49e406658e2d3086eb", null ]
 ];

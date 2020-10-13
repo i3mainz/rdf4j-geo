@@ -1,6 +1,25 @@
 var a02704 =
 [
-    [ "GeomFromGeoJSONTest", "a05465.html", "a05465" ],
-    [ "GeomFromTextTest", "a05469.html", "a05469" ],
-    [ "GeomFromWKBTest", "a05473.html", "a05473" ]
+    [ "Circularity", "a04084.html", "a04084" ],
+    [ "Circumcentre", "a04088.html", "a04088" ],
+    [ "DumpRings", "a04092.html", "a04092" ],
+    [ "ExteriorRing", "a04096.html", "a04096" ],
+    [ "HasConnectedInterior", "a04100.html", "a04100" ],
+    [ "HasDuplicateRings", "a04104.html", "a04104" ],
+    [ "HasNestedRings", "a04108.html", "a04108" ],
+    [ "InteriorRingN", "a04112.html", "a04112" ],
+    [ "IsAcute", "a04116.html", "a04116" ],
+    [ "IsEquilateralTriangle", "a04120.html", "a04120" ],
+    [ "IsIsocelesTriangle", "a04124.html", "a04124" ],
+    [ "IsLocationOnEdge", "a04128.html", "a04128" ],
+    [ "IsObliqueTriangle", "a04132.html", "a04132" ],
+    [ "IsObtuseTriangle", "a04136.html", "a04136" ],
+    [ "IsPolygonCCW", "a04140.html", "a04140" ],
+    [ "IsPolygonCW", "a04144.html", "a04144" ],
+    [ "IsRightTriangle", "a04148.html", "a04148" ],
+    [ "IsTriangle", "a04152.html", "a04152" ],
+    [ "NumDistinctInteriorRings", "a04156.html", "a04156" ],
+    [ "NumInteriorRings", "a04160.html", "a04160" ],
+    [ "Orientation", "a04164.html", "a04164" ],
+    [ "RayCrossings", "a04168.html", "a04168" ]
 ];

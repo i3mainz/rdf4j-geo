@@ -1,5 +1,5 @@
 var a05672 =
 [
-    [ "testForce4D", "a05672.html#ad31ba6d34e7770eae5de0864a25b1766", null ],
-    [ "testLineString", "a05672.html#a33797029fadbcba01b4a4fafec88cf41", null ]
+    [ "testAsGeoURI", "a05672.html#aae403d68ccc2ecfb409ca338b5ba0101", null ],
+    [ "testGeometry", "a05672.html#abc3f514f005cba49e406658e2d3086eb", null ]
 ];

@@ -1,6 +1,6 @@
 var a05720 =
 [
-    [ "testSwapOrdinates", "a05720.html#afb4577949dbe6ea13a5d8c00afd1c339", null ],
-    [ "res", "a05720.html#ab8deaae2f0a5506ff9fd02ff15e921cc", null ],
-    [ "testPolygon", "a05720.html#a1e3187cbc25299380589200c398b3ffd", null ]
+    [ "testClosestPoint", "a05720.html#af30fa8d36bc2cb8bd652397169d9708d", null ],
+    [ "testLineString", "a05720.html#a33797029fadbcba01b4a4fafec88cf41", null ],
+    [ "testPoint", "a05720.html#af26f700ee129f846cac58735f6dcc380", null ]
 ];

@@ -1,9 +1,7 @@
 var a02769 =
 [
-    [ "AggCentroid", "a02769.html#a50accbcfba1cb62fd2c3c6945ad73523", null ],
-    [ "AggCentroid", "a02769.html#aa380b240515b7ef61a0a6ecbe81070af", null ],
-    [ "clone", "a02769.html#a4021a724a19ab359f4b16f3fcea1666b", null ],
-    [ "equals", "a02769.html#a8e18a3a952a9e38a9a4191004a30c938", null ],
-    [ "hashCode", "a02769.html#a077e18fe97323c7194e2665ffc766399", null ],
-    [ "visit", "a02769.html#ace7c41d3761122fda287033559696cdd", null ]
+    [ "GeneratePointsTest", "a06056.html", "a06056" ],
+    [ "MakePointTest", "a06060.html", "a06060" ],
+    [ "PointFromTextTest", "a06064.html", "a06064" ],
+    [ "PointFromWKBTest", "a06068.html", null ]
 ];

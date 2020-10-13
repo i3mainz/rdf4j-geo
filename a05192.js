@@ -1,8 +1,9 @@
 var a05192 =
 [
-    [ "DimensionalComparator", "a05192.html#a5bd255213663b3596e2de221144f1ab1", null ],
-    [ "DimensionalComparator", "a05192.html#aa12c933fd5275be6824111b1f2c92cd6", null ],
-    [ "compare", "a05192.html#a55bbcaf3b85142c9878f7b8ac44290fb", null ],
-    [ "compare", "a05192.html#a22ae744431802300f10565640dec04c5", null ],
-    [ "dimensionsToTest", "a05192.html#a6bb6df1c2db1f7b9fe46d4be2d0083af", null ]
+    [ "read", "a05192.html#a0a51e7a558c31dd59e2fb31c2b6b9a6d", null ],
+    [ "toString", "a05192.html#ad146fa8579a5f8a876c4688cc5a68520", null ],
+    [ "unparse", "a05192.html#a8f23415f60c2281824a1ca004a2fce9b", null ],
+    [ "INSTANCE", "a05192.html#a2ef763e8a7d3b73f7a4eb1c3cb0f681b", null ],
+    [ "KML_PREFIX", "a05192.html#ad23c5afe46f654a7d409a229f54a9b2f", null ],
+    [ "URI", "a05192.html#addbf30e6c0ad68fa34277d59a2c6eb5e", null ]
 ];

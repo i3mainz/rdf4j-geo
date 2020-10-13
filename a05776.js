@@ -1,7 +1,6 @@
 var a05776 =
 [
-    [ "testAngle", "a05776.html#a0cf5bb8fb4d0971e797f7a4e75601b26", null ],
-    [ "testPoint1", "a05776.html#ab20d196cb6e34afc2e9cff8074e43bfd", null ],
-    [ "testPoint2", "a05776.html#aa0c0c6f5dda7a397fc50f4c22a2b180f", null ],
-    [ "testPoint3", "a05776.html#a125d390ce5ab22a84d197ed08e237740", null ]
+    [ "testManhattanDistance", "a05776.html#af58d6f2adbd1227cf5286c38273b0db6", null ],
+    [ "testGeom", "a05776.html#a03a5f5da0ccbeed8c1678d4317cf2672", null ],
+    [ "testGeom2", "a05776.html#a6b4be369c8f60e973cd5126e69cd33a4", null ]
 ];

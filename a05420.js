@@ -1,9 +1,11 @@
 var a05420 =
 [
-    [ "testEnsureClosed", "a05420.html#ace1b0f448a93ab083e49e59b851b8094", null ],
-    [ "testEnsureClosed2", "a05420.html#a7a93140658cbcf5aea17d9f930cd5144", null ],
-    [ "closed", "a05420.html#ad8efa97b8aa775164dc4836b505fc315", null ],
-    [ "duplicateRings", "a05420.html#a92f3ef00fc079a76b7f943d9ed6cec77", null ],
-    [ "nonClosed", "a05420.html#aff993a2133bc6c6afe1012e13b5c028d", null ],
-    [ "ring", "a05420.html#a3e4a839eee2eb5791f90656e82eec721", null ]
+    [ "LengthToPoint", "a05420.html#a240c29c1439f065c4a8ba368d3939d77", null ],
+    [ "computeLength", "a05420.html#a38bb2c05753ecb2766c7165fe435b8f4", null ],
+    [ "getLength", "a05420.html#ad38c5c76d09d90c6f92e043aca622ee9", null ],
+    [ "length", "a05420.html#a6a53c15d31eb67b1bbbccd1a406d1996", null ],
+    [ "lengthAlongSegment", "a05420.html#a111d4c1b1f75a9ce7d3d064d3d1eb2e5", null ],
+    [ "updateLength", "a05420.html#a9d5b2181752a05941b27adcec1703c38", null ],
+    [ "locationLength", "a05420.html#ace4b03aa8fde8dc676bc91c1e7cf3b77", null ],
+    [ "minDistanceToPoint", "a05420.html#a8c1ee7f7f7146ea833c6b544dcc60243", null ]
 ];

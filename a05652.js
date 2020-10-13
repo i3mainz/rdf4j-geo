@@ -1,6 +1,6 @@
 var a05652 =
 [
-    [ "testDensify", "a05652.html#a94a17603d200a0a1f4817b4687ee592d", null ],
-    [ "densified", "a05652.html#a2286b0f7822c7fda647fa426d8177283", null ],
-    [ "isocelesTriangle", "a05652.html#aa04dfbec745e2622b9f7646f8572e501", null ]
+    [ "testSetPoint", "a05652.html#a52b4ba451c7a5d90f46ae63b5ac3919b", null ],
+    [ "LineString2D", "a05652.html#a4a6127d0b7f1eecce2d32442325f7735", null ],
+    [ "point", "a05652.html#a081811ff1c2bedd0a20703599f90114f", null ]
 ];

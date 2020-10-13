@@ -1,3 +1,537 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$a05713.html" title="CollectionExtractTest" alt="" coords="5,5,153,32"/>
+<area shape="rect" id="node2" href="$a02840.html" title="CollectionAttributeFunction" alt="" coords="148,884,327,911"/>
+<area shape="rect" id="node3" href="$a03176.html" title="GeometricBinaryAttribute\lFunction" alt="" coords="153,935,321,977"/>
+<area shape="rect" id="node40" href="$a03180.html" title="GeometricBinaryCRSAttribute\lFunction" alt="" coords="139,2046,336,2087"/>
+<area shape="rect" id="node42" href="$a03184.html" title="GeometricBinaryFunction" alt="" coords="153,2336,322,2363"/>
+<area shape="rect" id="node43" href="$a03188.html" title="GeometricConstructor" alt="" coords="162,2387,313,2413"/>
+<area shape="rect" id="node63" href="$a03192.html" title="GeometricConstructorInteger" alt="" coords="142,3143,333,3169"/>
+<area shape="rect" id="node65" href="$a03196.html" title="GeometricDoubleAttribute\lFunction" alt="" coords="151,3494,323,3535"/>
+<area shape="rect" id="node90" href="$a03200.html" title="GeometricDoubleModifierInteger\lFunction" alt="" coords="133,4153,342,4194"/>
+<area shape="rect" id="node93" href="$a03204.html" title="GeometricDoubleThreeGeometry\lFunction" alt="" coords="131,4303,344,4345"/>
+<area shape="rect" id="node95" href="$a03208.html" title="GeometricEditFunction" alt="" coords="160,4456,315,4483"/>
+<area shape="rect" id="node96" href="$a03212.html" title="GeometricExportToRasterFunction" alt="" coords="125,4507,349,4533"/>
+<area shape="rect" id="node98" href="$a03216.html" title="GeometricIntegerAttribute\lFunction" alt="" coords="152,4558,323,4599"/>
+<area shape="rect" id="node108" href="$a03220.html" title="GeometricModifierDoubleDouble\lDoubleFunction" alt="" coords="132,4778,343,4819"/>
+<area shape="rect" id="node110" href="$a03224.html" title="GeometricModifierDoubleDouble\lFunction" alt="" coords="132,4862,343,4903"/>
+<area shape="rect" id="node113" href="$a03228.html" title="GeometricModifierDoubleFunction" alt="" coords="128,5452,347,5479"/>
+<area shape="rect" id="node135" href="$a03232.html" title="GeometricModifierFunction" alt="" coords="148,6313,327,6340"/>
+<area shape="rect" id="node149" href="$a03236.html" title="GeometricModifierGeometry\lIntegerFunction" alt="" coords="145,6711,330,6753"/>
+<area shape="rect" id="node153" href="$a03240.html" title="GeometricModifierInteger\lFunction" alt="" coords="153,7066,321,7107"/>
+<area shape="rect" id="node165" href="$a03244.html" title="GeometricModifierStringFunction" alt="" coords="131,7352,343,7379"/>
+<area shape="rect" id="node167" href="$a03248.html" title="GeometricRasterFunction" alt="" coords="152,7656,323,7683"/>
+<area shape="rect" id="node169" href="$a03252.html" title="GeometricRelationBinaryFunction" alt="" coords="129,7960,346,7987"/>
+<area shape="rect" id="node190" href="$a03256.html" title="GeometricRelationDoubleBinary\lFunction" alt="" coords="133,8527,341,8569"/>
+<area shape="rect" id="node194" href="$a03260.html" title="GeometricRelationDoubleDouble\lFunction" alt="" coords="131,8759,343,8801"/>
+<area shape="rect" id="node196" href="$a03264.html" title="GeometricRelationDoubleFunction" alt="" coords="127,8973,348,9000"/>
+<area shape="rect" id="node209" href="$a03268.html" title="GeometricRelationInteger\lBinaryFunction" alt="" coords="152,9298,323,9339"/>
+<area shape="rect" id="node210" href="$a03272.html" title="GeometricRelationInteger\lFunction" alt="" coords="152,9363,323,9405"/>
+<area shape="rect" id="node213" href="$a03276.html" title="GeometricRelationModifier\lFunction" alt="" coords="149,9473,325,9514"/>
+<area shape="rect" id="node218" href="$a03280.html" title="GeometricRelationStringFunction" alt="" coords="130,9632,345,9659"/>
+<area shape="rect" id="node221" href="$a03284.html" title="GeometricStringExportFunction" alt="" coords="135,10519,339,10545"/>
+<area shape="rect" id="node255" href="$a03288.html" title="GeometricStringExportInteger\lFunction" alt="" coords="140,12002,335,12043"/>
+<area shape="rect" id="node257" href="$a03292.html" title="GeometricUnaryFunction" alt="" coords="154,12697,321,12724"/>
+<area shape="rect" id="node309" href="$a03544.html" title="RelateMatch" alt="" coords="189,14040,285,14067"/>
+<area shape="rect" id="node310" href="$a03560.html" title="EPSGToSRID" alt="" coords="184,14091,291,14117"/>
+<area shape="rect" id="node311" href="$a03564.html" title="EPSGToWKT" alt="" coords="185,14141,289,14168"/>
+<area shape="rect" id="node312" href="$a03616.html" title="SRIDToEPSG" alt="" coords="184,14192,291,14219"/>
+<area shape="rect" id="node313" href="$a03620.html" title="SRIDToWKT" alt="" coords="187,14243,287,14269"/>
+<area shape="rect" id="node314" href="$a03900.html" title="Abs" alt="" coords="215,14293,260,14320"/>
+<area shape="rect" id="node315" href="$a03904.html" title="ACos" alt="" coords="210,14344,265,14371"/>
+<area shape="rect" id="node316" href="$a03908.html" title="ASin" alt="" coords="212,14395,263,14421"/>
+<area shape="rect" id="node317" href="$a03912.html" title="ATan" alt="" coords="211,14445,264,14472"/>
+<area shape="rect" id="node318" href="$a03916.html" title="Ceil" alt="" coords="215,14496,260,14523"/>
+<area shape="rect" id="node319" href="$a03920.html" title="CosH" alt="" coords="209,14547,265,14573"/>
+<area shape="rect" id="node320" href="$a03924.html" title="Cosine" alt="" coords="206,14597,269,14624"/>
+<area shape="rect" id="node321" href="$a03928.html" title="Exp" alt="" coords="215,14648,260,14675"/>
+<area shape="rect" id="node322" href="$a03932.html" title="Floor" alt="" coords="212,14699,263,14725"/>
+<area shape="rect" id="node323" href="$a03936.html" title="Log" alt="" coords="216,14749,259,14776"/>
+<area shape="rect" id="node324" href="$a03940.html" title="Log10" alt="" coords="209,14800,266,14827"/>
+<area shape="rect" id="node325" href="$a03944.html" title="PI" alt="" coords="218,14851,257,14877"/>
+<area shape="rect" id="node326" href="$a03948.html" title="Pow" alt="" coords="213,14901,261,14928"/>
+<area shape="rect" id="node327" href="$a03952.html" title="Sign" alt="" coords="213,14952,261,14979"/>
+<area shape="rect" id="node328" href="$a03956.html" title="Sine" alt="" coords="213,15003,261,15029"/>
+<area shape="rect" id="node329" href="$a03960.html" title="SinH" alt="" coords="212,15053,263,15080"/>
+<area shape="rect" id="node330" href="$a03964.html" title="Sqrt" alt="" coords="214,15104,261,15131"/>
+<area shape="rect" id="node331" href="$a03968.html" title="Tangent" alt="" coords="203,15155,272,15181"/>
+<area shape="rect" id="node332" href="$a03972.html" title="TanH" alt="" coords="210,15205,265,15232"/>
+<area shape="rect" id="node333" href="$a03976.html" title="ToDegrees" alt="" coords="194,15256,281,15283"/>
+<area shape="rect" id="node334" href="$a03980.html" title="ToRadians" alt="" coords="195,15307,280,15333"/>
+<area shape="rect" id="node335" href="$a04520.html" title="RasterAlgebraConstFunction" alt="" coords="142,15357,333,15384"/>
+<area shape="rect" id="node343" href="$a04524.html" title="RasterAlgebraFunction" alt="" coords="160,15408,315,15435"/>
+<area shape="rect" id="node358" href="$a04528.html" title="RasterAlgebraUnaryFunction" alt="" coords="142,15459,333,15485"/>
+<area shape="rect" id="node365" href="$a04532.html" title="RasterAttributeBinaryFunction" alt="" coords="139,15509,336,15536"/>
+<area shape="rect" id="node370" href="$a04536.html" title="RasterAttributeBooleanInt\lFunction" alt="" coords="151,15603,323,15645"/>
+<area shape="rect" id="node373" href="$a04540.html" title="RasterAttributeDoubleInt\lFunction" alt="" coords="154,15705,321,15746"/>
+<area shape="rect" id="node376" href="$a04544.html" title="RasterAttributeFunction" alt="" coords="157,15940,317,15967"/>
+<area shape="rect" id="node400" href="$a04548.html" title="RasterAttributeIntIntDouble\lFunction" alt="" coords="147,15991,328,16033"/>
+<area shape="rect" id="node405" href="$a04552.html" title="RasterAttributeIntIntFunction" alt="" coords="142,16057,333,16084"/>
+<area shape="rect" id="node408" href="$a04556.html" title="RasterAttributeIntIntGeom\lFunction" alt="" coords="150,16109,325,16150"/>
+<area shape="rect" id="node412" href="$a04560.html" title="RasterAttributeIntIntInt\lBooleanFunction" alt="" coords="160,16174,315,16215"/>
+<area shape="rect" id="node415" href="$a04564.html" title="RasterAttributeIntIntInt\lIntFunction" alt="" coords="160,16239,315,16281"/>
+<area shape="rect" id="node417" href="$a04568.html" title="RasterAttributeIntIntInt\lStringFunction" alt="" coords="160,16305,315,16346"/>
+<area shape="rect" id="node419" href="$a04572.html" title="RasterConstructorFunction" alt="" coords="148,16371,327,16397"/>
+<area shape="rect" id="node425" href="$a04576.html" title="RasterGeometryConversion\lFunction" alt="" coords="145,16422,329,16463"/>
+<area shape="rect" id="node427" href="$a04580.html" title="RasterModifierBoolDouble\lFunction" alt="" coords="150,16487,325,16529"/>
+<area shape="rect" id="node429" href="$a04584.html" title="RasterModifierDoubleDouble\lFunction" alt="" coords="143,16553,332,16594"/>
+<area shape="rect" id="node431" href="$a04588.html" title="RasterModifierFunction" alt="" coords="159,16619,316,16645"/>
+<area shape="rect" id="node443" href="$a04592.html" title="RasterModifierGeometryFunction" alt="" coords="130,16669,345,16696"/>
+<area shape="rect" id="node445" href="$a04596.html" title="RasterModifierIntIntFunction" alt="" coords="144,16720,331,16747"/>
+<area shape="rect" id="node448" href="$a04600.html" title="RasterRelationBooleanFunction" alt="" coords="134,16771,341,16797"/>
+<area shape="rect" id="node450" href="$a04604.html" title="RasterStringExportFunction" alt="" coords="146,16821,329,16848"/>
+<area shape="rect" id="node458" href="$a04608.html" title="RasterToVectorExportFunction" alt="" coords="136,16872,339,16899"/>
+<area shape="rect" id="node459" href="$a04824.html" title="TopologyExportFunction" alt="" coords="156,16923,319,16949"/>
+<area shape="rect" id="node462" href="$a04828.html" title="TopologyModificationFunction" alt="" coords="140,16973,335,17000"/>
+<area shape="rect" id="node464" href="$a04832.html" title="TopologyModificationGeometry\lFunction" alt="" coords="136,17025,339,17066"/>
+<area shape="rect" id="node466" href="$a04836.html" title="TopologyStringExportFunction" alt="" coords="139,17091,336,17117"/>
+<area shape="rect" id="node468" href="$a04880.html" title="CentimeterToMeter" alt="" coords="170,17141,305,17168"/>
+<area shape="rect" id="node469" href="$a04884.html" title="ChainToMeter" alt="" coords="185,17192,289,17219"/>
+<area shape="rect" id="node470" href="$a04888.html" title="DecimeterToMeter" alt="" coords="172,17243,303,17269"/>
+<area shape="rect" id="node471" href="$a04892.html" title="FathomToMeter" alt="" coords="180,17293,295,17320"/>
+<area shape="rect" id="node472" href="$a04896.html" title="FootToMeter" alt="" coords="189,17344,285,17371"/>
+<area shape="rect" id="node473" href="$a04900.html" title="InchToMeter" alt="" coords="190,17395,285,17421"/>
+<area shape="rect" id="node474" href="$a04904.html" title="KilometerToMeter" alt="" coords="175,17445,300,17472"/>
+<area shape="rect" id="node475" href="$a04908.html" title="LinkToMeter" alt="" coords="190,17496,285,17523"/>
+<area shape="rect" id="node476" href="$a04912.html" title="MeterToCentimeter" alt="" coords="170,17547,305,17573"/>
+<area shape="rect" id="node477" href="$a04916.html" title="MeterToChain" alt="" coords="185,17597,289,17624"/>
+<area shape="rect" id="node478" href="$a04920.html" title="MeterToDecimeter" alt="" coords="172,17648,303,17675"/>
+<area shape="rect" id="node479" href="$a04924.html" title="MeterToFathom" alt="" coords="180,17699,295,17725"/>
+<area shape="rect" id="node480" href="$a04928.html" title="MeterToFoot" alt="" coords="189,17749,285,17776"/>
+<area shape="rect" id="node481" href="$a04932.html" title="MeterToInch" alt="" coords="190,17800,285,17827"/>
+<area shape="rect" id="node482" href="$a04936.html" title="MeterToKilometer" alt="" coords="175,17851,300,17877"/>
+<area shape="rect" id="node483" href="$a04940.html" title="MeterToLink" alt="" coords="190,17901,285,17928"/>
+<area shape="rect" id="node484" href="$a04944.html" title="MeterToMile" alt="" coords="190,17952,285,17979"/>
+<area shape="rect" id="node485" href="$a04948.html" title="MeterToMillimeter" alt="" coords="174,18003,301,18029"/>
+<area shape="rect" id="node486" href="$a04952.html" title="MeterToNauticalMile" alt="" coords="166,18053,309,18080"/>
+<area shape="rect" id="node487" href="$a04956.html" title="MeterToUSFoot" alt="" coords="180,18104,295,18131"/>
+<area shape="rect" id="node488" href="$a04960.html" title="MeterToUSInch" alt="" coords="180,18155,295,18181"/>
+<area shape="rect" id="node489" href="$a04964.html" title="MeterToUSMile" alt="" coords="181,18205,294,18232"/>
+<area shape="rect" id="node490" href="$a04968.html" title="MeterToUSYard" alt="" coords="179,18256,295,18283"/>
+<area shape="rect" id="node491" href="$a04972.html" title="MeterToYard" alt="" coords="189,18307,286,18333"/>
+<area shape="rect" id="node492" href="$a04976.html" title="MileToMeter" alt="" coords="190,18357,285,18384"/>
+<area shape="rect" id="node493" href="$a04980.html" title="MillimeterToMeter" alt="" coords="174,18408,301,18435"/>
+<area shape="rect" id="node494" href="$a04984.html" title="NauticalMileToMeter" alt="" coords="166,18459,309,18485"/>
+<area shape="rect" id="node495" href="$a04988.html" title="USFootToMeter" alt="" coords="180,18509,295,18536"/>
+<area shape="rect" id="node496" href="$a04992.html" title="USInchToMeter" alt="" coords="180,18560,295,18587"/>
+<area shape="rect" id="node497" href="$a04996.html" title="USMileToMeter" alt="" coords="181,18611,294,18637"/>
+<area shape="rect" id="node498" href="$a05000.html" title="USYardToMeter" alt="" coords="179,18661,295,18688"/>
+<area shape="rect" id="node499" href="$a05004.html" title="YardToMeter" alt="" coords="189,18712,286,18739"/>
+<area shape="rect" id="node500" href="$a05008.html" title="Abs" alt="" coords="215,18763,260,18789"/>
+<area shape="rect" id="node501" href="$a05012.html" title="ACos" alt="" coords="210,18813,265,18840"/>
+<area shape="rect" id="node502" href="$a05016.html" title="ASin" alt="" coords="212,18864,263,18891"/>
+<area shape="rect" id="node503" href="$a05020.html" title="ATan" alt="" coords="211,18915,264,18941"/>
+<area shape="rect" id="node504" href="$a05024.html" title="Ceil" alt="" coords="215,18965,260,18992"/>
+<area shape="rect" id="node505" href="$a05028.html" title="CosH" alt="" coords="209,19016,265,19043"/>
+<area shape="rect" id="node506" href="$a05032.html" title="Cosine" alt="" coords="206,19067,269,19093"/>
+<area shape="rect" id="node507" href="$a05036.html" title="Exp" alt="" coords="215,19117,260,19144"/>
+<area shape="rect" id="node508" href="$a05040.html" title="Floor" alt="" coords="212,19168,263,19195"/>
+<area shape="rect" id="node509" href="$a05044.html" title="Log" alt="" coords="216,19219,259,19245"/>
+<area shape="rect" id="node510" href="$a05048.html" title="Log10" alt="" coords="209,19269,266,19296"/>
+<area shape="rect" id="node511" href="$a05052.html" title="PI" alt="" coords="218,19320,257,19347"/>
+<area shape="rect" id="node512" href="$a05056.html" title="Pow" alt="" coords="213,19371,261,19397"/>
+<area shape="rect" id="node513" href="$a05060.html" title="Sign" alt="" coords="213,19421,261,19448"/>
+<area shape="rect" id="node514" href="$a05064.html" title="Sine" alt="" coords="213,19472,261,19499"/>
+<area shape="rect" id="node515" href="$a05068.html" title="SinH" alt="" coords="212,19523,263,19549"/>
+<area shape="rect" id="node516" href="$a05072.html" title="Sqrt" alt="" coords="214,19573,261,19600"/>
+<area shape="rect" id="node517" href="$a05076.html" title="Tangent" alt="" coords="203,19624,272,19651"/>
+<area shape="rect" id="node518" href="$a05080.html" title="TanH" alt="" coords="210,19675,265,19701"/>
+<area shape="rect" id="node519" href="$a05084.html" title="ToDegrees" alt="" coords="194,19725,281,19752"/>
+<area shape="rect" id="node520" href="$a05088.html" title="ToRadians" alt="" coords="195,19776,280,19803"/>
+<area shape="rect" id="node521" href="$a05324.html" title="RasterVectorRelationBinary\lFunction" alt="" coords="145,19827,329,19869"/>
+<area shape="rect" id="node532" href="$a05328.html" title="RasterVectorRelationFunction" alt="" coords="139,19961,336,19988"/>
+<area shape="rect" id="node534" href="$a05332.html" title="RasterVectorRelationIntBinary\lFunction" alt="" coords="138,20106,337,20147"/>
+<area shape="rect" id="node4" href="$a02992.html" title="Degenerate" alt="" coords="454,5,543,32"/>
+<area shape="rect" id="node5" href="$a03012.html" title="HasHorizontalCRS" alt="" coords="431,56,566,83"/>
+<area shape="rect" id="node6" href="$a03016.html" title="Returns true if the geometry has repeated points. " alt="" coords="429,107,568,133"/>
+<area shape="rect" id="node7" href="$a03020.html" title="Returns true if the given geometry is a 3D geometry, false otherwise. " alt="" coords="473,157,524,184"/>
+<area shape="rect" id="node8" href="$a03024.html" title="Returns true if the given geometry is closed, false otherwise. " alt="" coords="461,208,536,235"/>
+<area shape="rect" id="node9" href="$a03028.html" title="Returns true if the given geometry is an instance of GeometryCollection, CompoundCurve or a MULTI typ..." alt="" coords="453,259,544,285"/>
+<area shape="rect" id="node10" href="$a03032.html" title="Returns true if the given geometry is convex. " alt="" coords="459,309,538,336"/>
+<area shape="rect" id="node11" href="$a03036.html" title="Returns true if the given geometry empty. " alt="" coords="463,360,534,387"/>
+<area shape="rect" id="node12" href="$a03044.html" title="Returns true if the given geometry is measured, i.e. " alt="" coords="453,411,544,437"/>
+<area shape="rect" id="node13" href="$a03048.html" title="Returns true if the given geometries&#39; noding is valid. " alt="" coords="447,461,550,488"/>
+<area shape="rect" id="node14" href="$a03052.html" title="IsPlanar" alt="" coords="463,512,534,539"/>
+<area shape="rect" id="node15" href="$a03056.html" title="Returns true if the given geometry is a rectangle. " alt="" coords="453,563,545,589"/>
+<area shape="rect" id="node16" href="$a03060.html" title="IsRing" alt="" coords="469,613,529,640"/>
+<area shape="rect" id="node17" href="$a03064.html" title="IsSimple" alt="" coords="462,664,535,691"/>
+<area shape="rect" id="node18" href="$a03068.html" title="Returns true if the given geometry is solid. " alt="" coords="467,715,530,741"/>
+<area shape="rect" id="node19" href="$a03072.html" title="Checks if the given geometry is a square. " alt="" coords="461,765,536,792"/>
+<area shape="rect" id="node20" href="$a03076.html" title="Returns true if the given geometry is valid. " alt="" coords="467,816,530,843"/>
+<area shape="rect" id="node21" href="$a03088.html" title="Checks if the a given trajectory is valid. " alt="" coords="439,867,559,893"/>
+<area shape="rect" id="node22" href="$a03600.html" title="SridHasFlippedAxis" alt="" coords="430,917,567,944"/>
+<area shape="rect" id="node23" href="$a03604.html" title="SridIsGeographic" alt="" coords="437,968,560,995"/>
+<area shape="rect" id="node24" href="$a03608.html" title="SridIsProjected" alt="" coords="443,1019,554,1045"/>
+<area shape="rect" id="node25" href="$a03612.html" title="SridIsVertical" alt="" coords="449,1069,549,1096"/>
+<area shape="rect" id="node26" href="$a03776.html" title="HasSelfIntersections" alt="" coords="427,1120,571,1147"/>
+<area shape="rect" id="node27" href="$a04100.html" title="Checks if the interior rings of a polygon are connected. " alt="" coords="424,1171,573,1197"/>
+<area shape="rect" id="node28" href="$a04104.html" title="Checks a polygon for duplicate interior rings. " alt="" coords="431,1221,566,1248"/>
+<area shape="rect" id="node29" href="$a04108.html" title="Checks a polygon for nested rings. " alt="" coords="437,1272,560,1299"/>
+<area shape="rect" id="node30" href="$a04116.html" title="Checks if a given polygon is acute. " alt="" coords="465,1323,532,1349"/>
+<area shape="rect" id="node31" href="$a04120.html" title="Checks if the polygon represents an equilateral triangle. " alt="" coords="429,1373,569,1400"/>
+<area shape="rect" id="node32" href="$a04124.html" title="Checks if the polygon represents an isoceles triangle. " alt="" coords="435,1424,563,1451"/>
+<area shape="rect" id="node33" href="$a04128.html" title="IsLocationOnEdge" alt="" coords="434,1475,563,1501"/>
+<area shape="rect" id="node34" href="$a04132.html" title="IsObliqueTriangle" alt="" coords="437,1525,560,1552"/>
+<area shape="rect" id="node35" href="$a04136.html" title="IsObtuseTriangle" alt="" coords="438,1576,559,1603"/>
+<area shape="rect" id="node36" href="$a04140.html" title="Checks if the polygons coordinates&#39; orientations are defined counter&#45;clockwise. " alt="" coords="442,1627,555,1653"/>
+<area shape="rect" id="node37" href="$a04144.html" title="Returns true if all exterior rings are oriented clockwise and all interior rings are oriented clockwi..." alt="" coords="447,1677,550,1704"/>
+<area shape="rect" id="node38" href="$a04148.html" title="Checks if the given polygon is a right triangle. " alt="" coords="443,1728,554,1755"/>
+<area shape="rect" id="node39" href="$a04152.html" title="Checks if a given polygon represents a triangle. " alt="" coords="459,1779,538,1805"/>
+<area shape="rect" id="node41" href="$a03040.html" title="IsInCRSAreaOfValidity" alt="" coords="420,1829,577,1856"/>
+<area shape="rect" id="node44" href="$a02896.html" title="MakeEnvelope" alt="" coords="445,1880,553,1907"/>
+<area shape="rect" id="node45" href="$a03296.html" title="Returns a geometry collection from a WKT String. " alt="" coords="431,1931,567,1957"/>
+<area shape="rect" id="node46" href="$a03300.html" title="Returns a geometry from a GeoHash String. " alt="" coords="427,1981,570,2008"/>
+<area shape="rect" id="node47" href="$a03304.html" title="Returns a geometry from a GeoJSON String. " alt="" coords="425,2032,572,2059"/>
+<area shape="rect" id="node48" href="$a03308.html" title="Returns a geometry from a WKT String. " alt="" coords="442,2083,555,2109"/>
+<area shape="rect" id="node49" href="$a03312.html" title="Returns a geometry from a WKB String. " alt="" coords="439,2133,558,2160"/>
+<area shape="rect" id="node50" href="$a03800.html" title="Creates a LineString from the encoded polyline format. " alt="" coords="412,2184,585,2211"/>
+<area shape="rect" id="node51" href="$a03808.html" title="Creates a LineString from a WKT String. " alt="" coords="447,2235,550,2261"/>
+<area shape="rect" id="node52" href="$a03812.html" title="Creates a LineString from a WKB String. " alt="" coords="445,2285,552,2312"/>
+<area shape="rect" id="node53" href="$a03816.html" title="Creates a LineString from a given geometry. " alt="" coords="459,2336,538,2363"/>
+<area shape="rect" id="node54" href="$a03820.html" title="Creates a MultiLineString from a given WKT String. " alt="" coords="442,2387,555,2413"/>
+<area shape="rect" id="node55" href="$a04056.html" title="MakePoint" alt="" coords="457,2437,541,2464"/>
+<area shape="rect" id="node56" href="$a04060.html" title="Creates a multipoint from a given WKT String. " alt="" coords="439,2488,558,2515"/>
+<area shape="rect" id="node57" href="$a04064.html" title="Creates a point from a GeoHash representation. " alt="" coords="430,2539,567,2565"/>
+<area shape="rect" id="node58" href="$a04068.html" title="Creates a point from a WKT string representation. " alt="" coords="445,2589,553,2616"/>
+<area shape="rect" id="node59" href="$a04072.html" title="Creates a point from a WKB string representation. " alt="" coords="442,2640,555,2667"/>
+<area shape="rect" id="node60" href="$a04172.html" title="MakePolygon" alt="" coords="448,2691,549,2717"/>
+<area shape="rect" id="node61" href="$a04180.html" title="Creates a polygon from a WKT String. " alt="" coords="436,2741,561,2768"/>
+<area shape="rect" id="node62" href="$a04184.html" title="Creates a polygon from a WKB String. " alt="" coords="433,2792,564,2819"/>
+<area shape="rect" id="node64" href="$a04176.html" title="Creates a Polygon from a LineString given as a WKT String. " alt="" coords="464,2843,533,2869"/>
+<area shape="rect" id="node66" href="$a02960.html" title="Calculates the area of the given geometry. " alt="" coords="474,2893,523,2920"/>
+<area shape="rect" id="node67" href="$a02964.html" title="Area3D" alt="" coords="465,2944,532,2971"/>
+<area shape="rect" id="node68" href="$a02980.html" title="CompactnessRatio" alt="" coords="431,2995,566,3021"/>
+<area shape="rect" id="node69" href="$a03092.html" title="Calculates the length of the geometry . " alt="" coords="468,3045,529,3072"/>
+<area shape="rect" id="node70" href="$a03096.html" title="Calculates the length of a 3D geometry. " alt="" coords="459,3096,538,3123"/>
+<area shape="rect" id="node71" href="$a03116.html" title="Returns the mininum bounding radius of the minimum bounding circle surrounding the geometry..." alt="" coords="413,3147,584,3173"/>
+<area shape="rect" id="node72" href="$a03120.html" title="Returns the minimum clearance of this geometry. " alt="" coords="431,3197,566,3224"/>
+<area shape="rect" id="node73" href="$a03128.html" title="Returns the minimum diameter of the given geometry. " alt="" coords="435,3248,563,3275"/>
+<area shape="rect" id="node74" href="$a03164.html" title="Returns the perimeter of the given geometry. " alt="" coords="459,3299,538,3325"/>
+<area shape="rect" id="node75" href="$a03168.html" title="Perimeter3D" alt="" coords="451,3349,546,3376"/>
+<area shape="rect" id="node76" href="$a03784.html" title="LineLength3D" alt="" coords="447,3400,550,3427"/>
+<area shape="rect" id="node77" href="$a03996.html" title="Returns the m coordinate of the given point geometry or the m coordinate of the centroid if the geome..." alt="" coords="479,3451,518,3477"/>
+<area shape="rect" id="node78" href="$a04000.html" title="Returns maximum m coordinate of the given geometry. " alt="" coords="469,3501,528,3528"/>
+<area shape="rect" id="node79" href="$a04004.html" title="Returns minimum m coordinate of the given geometry. " alt="" coords="471,3552,526,3579"/>
+<area shape="rect" id="node80" href="$a04012.html" title="Returns the x coordinate of the given point geometry or the x coordinate of the centroid if the geome..." alt="" coords="479,3603,518,3629"/>
+<area shape="rect" id="node81" href="$a04016.html" title="Returns maximum x coordinate of the given geometry. " alt="" coords="471,3653,527,3680"/>
+<area shape="rect" id="node82" href="$a04020.html" title="Returns minimum x coordinate of the given geometry. " alt="" coords="473,3704,525,3731"/>
+<area shape="rect" id="node83" href="$a04024.html" title="Returns the y coordinate of the given point geometry or the y coordinate of the centroid if the geome..." alt="" coords="479,3755,518,3781"/>
+<area shape="rect" id="node84" href="$a04028.html" title="Returns maximum y coordinate of the given geometry. " alt="" coords="471,3805,527,3832"/>
+<area shape="rect" id="node85" href="$a04032.html" title="Returns minimum y coordinate of the given geometry. " alt="" coords="473,3856,525,3883"/>
+<area shape="rect" id="node86" href="$a04036.html" title="Returns the z coordinate of the given point geometry or the z coordinate of the centroid if the geome..." alt="" coords="479,3907,518,3933"/>
+<area shape="rect" id="node87" href="$a04040.html" title="Returns maximum z coordinate of the given geometry. " alt="" coords="471,3957,526,3984"/>
+<area shape="rect" id="node88" href="$a04048.html" title="Returns minimum z coordinate of the given geometry. " alt="" coords="473,4008,524,4035"/>
+<area shape="rect" id="node89" href="$a04084.html" title="Calculates a circularity score for a given polygon. " alt="" coords="458,4059,539,4085"/>
+<area shape="rect" id="node91" href="$a03840.html" title="SetPoint" alt="" coords="463,4109,535,4136"/>
+<area shape="rect" id="node92" href="$a03852.html" title="Returns the point within the given geometry nearest to the given length. " alt="" coords="445,4160,552,4187"/>
+<area shape="rect" id="node94" href="$a03984.html" title="Calculates an angle between three given points. " alt="" coords="471,4211,526,4237"/>
+<area shape="rect" id="node97" href="$a03752.html" title="ToRaster" alt="" coords="461,4261,537,4288"/>
+<area shape="rect" id="node99" href="$a03140.html" title="Returns the minimum of dimensions of the given geometry. " alt="" coords="467,4312,530,4339"/>
+<area shape="rect" id="node100" href="$a03144.html" title="Returns the number of distinct geometries included in this geometry. " alt="" coords="417,4363,580,4389"/>
+<area shape="rect" id="node101" href="$a03148.html" title="Returns the number of distinct points of the given geometry. " alt="" coords="433,4413,565,4440"/>
+<area shape="rect" id="node102" href="$a03152.html" title="Returns the number of geometries included in this geometry. " alt="" coords="440,4464,557,4491"/>
+<area shape="rect" id="node103" href="$a03156.html" title="NumPatches" alt="" coords="449,4515,548,4541"/>
+<area shape="rect" id="node104" href="$a03160.html" title="Returns the number of points of the given geometry. " alt="" coords="455,4565,542,4592"/>
+<area shape="rect" id="node105" href="$a04156.html" title="Returns the number of distinct interior rings. " alt="" coords="414,4616,583,4643"/>
+<area shape="rect" id="node106" href="$a04160.html" title="Returns the number of interior rings of a polygon. " alt="" coords="437,4667,561,4693"/>
+<area shape="rect" id="node107" href="$a04164.html" title="Returns the orientation of the coordinates of a polygon. " alt="" coords="456,4717,541,4744"/>
+<area shape="rect" id="node109" href="$a04008.html" title="Returns true if a point is found within the bounds of a given circle defintion. " alt="" coords="438,4768,559,4795"/>
+<area shape="rect" id="node111" href="$a03104.html" title="LocateBetweenMeasures" alt="" coords="414,4819,583,4845"/>
+<area shape="rect" id="node112" href="$a04076.html" title="ShearTransformation" alt="" coords="427,4869,570,4896"/>
+<area shape="rect" id="node114" href="$a02884.html" title="Expand" alt="" coords="465,4920,532,4947"/>
+<area shape="rect" id="node115" href="$a03100.html" title="LocateAlong" alt="" coords="451,4971,546,4997"/>
+<area shape="rect" id="node116" href="$a03324.html" title="AddZ" alt="" coords="472,5021,525,5048"/>
+<area shape="rect" id="node117" href="$a03328.html" title="EnsureClosed" alt="" coords="447,5072,551,5099"/>
+<area shape="rect" id="node118" href="$a03332.html" title="EnsureClosedRings" alt="" coords="429,5123,568,5149"/>
+<area shape="rect" id="node119" href="$a03336.html" title="RemoveGeometry" alt="" coords="435,5173,563,5200"/>
+<area shape="rect" id="node120" href="$a03340.html" title="RemoveRepeatedPoints" alt="" coords="417,5224,581,5251"/>
+<area shape="rect" id="node121" href="$a03632.html" title="DelaunayTriangles" alt="" coords="433,5275,564,5301"/>
+<area shape="rect" id="node122" href="$a03636.html" title="Densify" alt="" coords="465,5325,532,5352"/>
+<area shape="rect" id="node123" href="$a03684.html" title="MultiplyZ" alt="" coords="461,5376,536,5403"/>
+<area shape="rect" id="node124" href="$a03720.html" title="Rotate" alt="" coords="468,5427,529,5453"/>
+<area shape="rect" id="node125" href="$a03732.html" title="Simplify" alt="" coords="464,5477,533,5504"/>
+<area shape="rect" id="node126" href="$a03740.html" title="SimplifyVW" alt="" coords="453,5528,544,5555"/>
+<area shape="rect" id="node127" href="$a03768.html" title="VoronoiPolygons" alt="" coords="439,5579,559,5605"/>
+<area shape="rect" id="node128" href="$a03780.html" title="LineInterpolatePoint" alt="" coords="430,5629,567,5656"/>
+<area shape="rect" id="node129" href="$a03824.html" title="Adds a measurement coordinate M which is extrapolated over the length of the given geometry..." alt="" coords="451,5680,546,5707"/>
+<area shape="rect" id="node130" href="$a03856.html" title="LineInterpolatePoint" alt="" coords="430,5731,567,5757"/>
+<area shape="rect" id="node131" href="$a03868.html" title="BezierSmoothing" alt="" coords="438,5781,559,5808"/>
+<area shape="rect" id="node132" href="$a03884.html" title="Calculates an offset curve from a given geometry and a given distance. " alt="" coords="452,5832,545,5859"/>
+<area shape="rect" id="node133" href="$a03888.html" title="Segmentizes a LineString into segments given a segment length. " alt="" coords="453,5883,544,5909"/>
+<area shape="rect" id="node134" href="$a03896.html" title="Subdivides lines of a given LineString. " alt="" coords="443,5933,554,5960"/>
+<area shape="rect" id="node136" href="$a02888.html" title="MakeBox2D" alt="" coords="451,5984,546,6011"/>
+<area shape="rect" id="node137" href="$a02892.html" title="MakeBox3D" alt="" coords="451,6035,546,6061"/>
+<area shape="rect" id="node138" href="$a03320.html" title="AddGeometry" alt="" coords="447,6085,550,6112"/>
+<area shape="rect" id="node139" href="$a03444.html" title="ClosestPoint" alt="" coords="450,6136,547,6163"/>
+<area shape="rect" id="node140" href="$a03448.html" title="ClosestPoint3D" alt="" coords="441,6187,556,6213"/>
+<area shape="rect" id="node141" href="$a03492.html" title="FurthestCoordinate" alt="" coords="432,6237,565,6264"/>
+<area shape="rect" id="node142" href="$a03688.html" title="Node" alt="" coords="472,6288,525,6315"/>
+<area shape="rect" id="node143" href="$a03708.html" title="Reflect" alt="" coords="467,6339,531,6365"/>
+<area shape="rect" id="node144" href="$a03828.html" title="Adds geometry two (a point geometry) to geometry one at the last position of the coordinate array..." alt="" coords="461,6389,536,6416"/>
+<area shape="rect" id="node145" href="$a03836.html" title="Sets the last point of the given geometry to the point given in the second parameter. " alt="" coords="451,6440,546,6467"/>
+<area shape="rect" id="node146" href="$a03844.html" title="Sets the first point of the given geometry to the point given in the second parameter. " alt="" coords="449,6491,549,6517"/>
+<area shape="rect" id="node147" href="$a03880.html" title="LinesCutAtNodes" alt="" coords="436,6541,561,6568"/>
+<area shape="rect" id="node148" href="$a04188.html" title="Adds an additional interior ring to a given polygon. " alt="" coords="443,6592,555,6619"/>
+<area shape="rect" id="node150" href="$a03344.html" title="SetGeometry" alt="" coords="449,6643,548,6669"/>
+<area shape="rect" id="node151" href="$a03744.html" title="Snap" alt="" coords="473,6693,525,6720"/>
+<area shape="rect" id="node152" href="$a04196.html" title="Sets an interior ring replacing an already existing interior ring of a polygon. " alt="" coords="444,6744,553,6771"/>
+<area shape="rect" id="node154" href="$a03004.html" title="Returns the nth geometry of a given geometry collection. " alt="" coords="454,6795,543,6821"/>
+<area shape="rect" id="node155" href="$a03172.html" title="Returns the nth point of the given geometry if it exists. " alt="" coords="467,6845,530,6872"/>
+<area shape="rect" id="node156" href="$a03348.html" title="SetSRID" alt="" coords="461,6896,536,6923"/>
+<area shape="rect" id="node157" href="$a03624.html" title="CollectionExtract" alt="" coords="437,6947,560,6973"/>
+<area shape="rect" id="node158" href="$a03704.html" title="Reduces the precision of a given geometry by a given factor. " alt="" coords="436,6997,561,7024"/>
+<area shape="rect" id="node159" href="$a03832.html" title="Removes a point at a given index position from the given geometry. " alt="" coords="448,7048,549,7075"/>
+<area shape="rect" id="node160" href="$a04052.html" title="Generates a given number of points in a convex hull of a geometry. " alt="" coords="443,7099,555,7125"/>
+<area shape="rect" id="node161" href="$a04112.html" title="Returns the nth interior ring of a polygon. " alt="" coords="449,7149,548,7176"/>
+<area shape="rect" id="node162" href="$a04192.html" title="Removes an interior ring from a given polygon. " alt="" coords="429,7200,568,7227"/>
+<area shape="rect" id="node163" href="$a04200.html" title="InteriorRingN" alt="" coords="449,7251,548,7277"/>
+<area shape="rect" id="node164" href="$a04216.html" title="Reverses the coordinates of a given ring of a polygon. " alt="" coords="449,7301,548,7328"/>
+<area shape="rect" id="node166" href="$a03748.html" title="SwapOrdinates" alt="" coords="443,7352,554,7379"/>
+<area shape="rect" id="node168" href="$a04616.html" title="AsRaster" alt="" coords="460,7403,537,7429"/>
+<area shape="rect" id="node170" href="$a02904.html" title="Returns true if the bounding box of geometry 1 is above the boundingbox of geometry 2..." alt="" coords="451,7453,547,7480"/>
+<area shape="rect" id="node171" href="$a02908.html" title="Returns true if the bounding box of geometry 1 is below the boundingbox of geometry 2..." alt="" coords="451,7504,546,7531"/>
+<area shape="rect" id="node172" href="$a02912.html" title="Returns true if the bounding box of geometry 1 contains the boundingbox of geometry 2..." alt="" coords="443,7555,554,7581"/>
+<area shape="rect" id="node173" href="$a02920.html" title="Returns true if the boundingbox of the first geometry equals the boundingbox of the second geometry..." alt="" coords="449,7605,548,7632"/>
+<area shape="rect" id="node174" href="$a02924.html" title="BBOXFPIntersects" alt="" coords="431,7656,566,7683"/>
+<area shape="rect" id="node175" href="$a02928.html" title="BBOXIntersects" alt="" coords="440,7707,557,7733"/>
+<area shape="rect" id="node176" href="$a02932.html" title="BBOXIsContainedBy" alt="" coords="426,7757,571,7784"/>
+<area shape="rect" id="node177" href="$a02936.html" title="BBOXLeftOf" alt="" coords="451,7808,546,7835"/>
+<area shape="rect" id="node178" href="$a02940.html" title="BBOXOverlapsAbove" alt="" coords="425,7859,573,7885"/>
+<area shape="rect" id="node179" href="$a02944.html" title="BBOXOverlapsBelow" alt="" coords="425,7909,572,7936"/>
+<area shape="rect" id="node180" href="$a02948.html" title="BBOXOverlapsLeft" alt="" coords="432,7960,565,7987"/>
+<area shape="rect" id="node181" href="$a02952.html" title="BBOXOverlapsRight" alt="" coords="427,8011,570,8037"/>
+<area shape="rect" id="node182" href="$a02956.html" title="BBOXRightOf" alt="" coords="447,8061,551,8088"/>
+<area shape="rect" id="node183" href="$a03468.html" title="EqualsNorm" alt="" coords="451,8112,546,8139"/>
+<area shape="rect" id="node184" href="$a03472.html" title="Returns true if the two given geometries have the same geocoordinate system. " alt="" coords="457,8163,540,8189"/>
+<area shape="rect" id="node185" href="$a03476.html" title="Returns true if two geometries are topologically equal. " alt="" coords="453,8213,544,8240"/>
+<area shape="rect" id="node186" href="$a03480.html" title="EqualType" alt="" coords="457,8264,541,8291"/>
+<area shape="rect" id="node187" href="$a03536.html" title="OrderingEquals" alt="" coords="443,8315,554,8341"/>
+<area shape="rect" id="node188" href="$a03988.html" title="Checks if a given point is included in a given ring. " alt="" coords="448,8365,549,8392"/>
+<area shape="rect" id="node189" href="$a03992.html" title="Returns true if a given point is found on a given LineString. " alt="" coords="447,8416,551,8443"/>
+<area shape="rect" id="node191" href="$a03484.html" title="FullyWithinDistance" alt="" coords="429,8467,568,8493"/>
+<area shape="rect" id="node192" href="$a03488.html" title="FullyWithinDistance3D" alt="" coords="421,8517,577,8544"/>
+<area shape="rect" id="node193" href="$a03556.html" title="WithinDistance3D" alt="" coords="435,8568,563,8595"/>
+<area shape="rect" id="node195" href="$a03528.html" title="MinkowskiDistance" alt="" coords="431,8619,567,8645"/>
+<area shape="rect" id="node197" href="$a02916.html" title="Returns the distance between the two bounding boxes of geometry 1 and geometry 2. ..." alt="" coords="443,8669,554,8696"/>
+<area shape="rect" id="node198" href="$a03436.html" title="AreaSimilarity" alt="" coords="447,8720,550,8747"/>
+<area shape="rect" id="node199" href="$a03440.html" title="Calculates the euclidean distance between the centroids of two given geometries. " alt="" coords="437,8771,560,8797"/>
+<area shape="rect" id="node200" href="$a03452.html" title="Difference3D" alt="" coords="449,8821,548,8848"/>
+<area shape="rect" id="node201" href="$a03456.html" title="Distance3D" alt="" coords="453,8872,544,8899"/>
+<area shape="rect" id="node202" href="$a03464.html" title="DistanceSphere" alt="" coords="441,8923,556,8949"/>
+<area shape="rect" id="node203" href="$a03496.html" title="HausdorffDistance" alt="" coords="433,8973,564,9000"/>
+<area shape="rect" id="node204" href="$a03504.html" title="IntersectionPercentage" alt="" coords="421,9024,577,9051"/>
+<area shape="rect" id="node205" href="$a03516.html" title="ManhattanDistance" alt="" coords="431,9075,566,9101"/>
+<area shape="rect" id="node206" href="$a03520.html" title="MaxDistance" alt="" coords="449,9125,548,9152"/>
+<area shape="rect" id="node207" href="$a03524.html" title="MaxDistance3D" alt="" coords="441,9176,557,9203"/>
+<area shape="rect" id="node208" href="$a04168.html" title="RayCrossings" alt="" coords="446,9227,551,9253"/>
+<area shape="rect" id="node211" href="$a03508.html" title="IsMorePrecise" alt="" coords="445,9277,552,9304"/>
+<area shape="rect" id="node212" href="$a03864.html" title="LineCrossingDirection" alt="" coords="423,9328,574,9355"/>
+<area shape="rect" id="node214" href="$a03512.html" title="LongestLine" alt="" coords="453,9379,545,9405"/>
+<area shape="rect" id="node215" href="$a03548.html" title="ShortestLine" alt="" coords="451,9429,546,9456"/>
+<area shape="rect" id="node216" href="$a03552.html" title="ShortestLine3D" alt="" coords="443,9480,555,9507"/>
+<area shape="rect" id="node217" href="$a03892.html" title="Calculates shared paths of two geometries. " alt="" coords="450,9531,547,9557"/>
+<area shape="rect" id="node219" href="$a03500.html" title="IntersectionMatrix" alt="" coords="435,9581,562,9608"/>
+<area shape="rect" id="node220" href="$a03540.html" title="Relate" alt="" coords="469,9632,529,9659"/>
+<area shape="rect" id="node222" href="$a02996.html" title="Dump" alt="" coords="470,9683,527,9709"/>
+<area shape="rect" id="node223" href="$a03008.html" title="Returns the type of the given geometry. " alt="" coords="445,9733,553,9760"/>
+<area shape="rect" id="node224" href="$a03080.html" title="Checks if the given geometry is valid and gives more details on a possible validation error..." alt="" coords="451,9784,547,9811"/>
+<area shape="rect" id="node225" href="$a03084.html" title="Checks if the given geometry is valid and gives a reason for the geometry not being valid..." alt="" coords="445,9835,552,9861"/>
+<area shape="rect" id="node226" href="$a03352.html" title="Returns a WKB representation of a given geometry. " alt="" coords="461,9885,536,9912"/>
+<area shape="rect" id="node227" href="$a03356.html" title="Returns a GARS representation of a given geometry. " alt="" coords="461,9936,537,9963"/>
+<area shape="rect" id="node228" href="$a03360.html" title="Returns a GeoBuf representation of a given geometry. " alt="" coords="459,9987,539,10013"/>
+<area shape="rect" id="node229" href="$a03364.html" title="Returns a GeoHash representation of the given geometry. " alt="" coords="452,10037,545,10064"/>
+<area shape="rect" id="node230" href="$a03368.html" title="Returns a GeoJSON representation of a given geometry. " alt="" coords="449,10088,548,10115"/>
+<area shape="rect" id="node231" href="$a03372.html" title="Returns a GeoRSS representation of a given geometry. " alt="" coords="453,10139,544,10165"/>
+<area shape="rect" id="node232" href="$a03376.html" title="Returns a GeoURI representation of a given geometry. " alt="" coords="455,10189,542,10216"/>
+<area shape="rect" id="node233" href="$a03380.html" title="Returns a GML representation of a given geometry. " alt="" coords="465,10240,532,10267"/>
+<area shape="rect" id="node234" href="$a03384.html" title="Returns a GPX representation of a given geometry. " alt="" coords="465,10291,532,10317"/>
+<area shape="rect" id="node235" href="$a03388.html" title="Returns a KML representation of a given geometry. " alt="" coords="466,10341,531,10368"/>
+<area shape="rect" id="node236" href="$a03392.html" title="Returns a Lat/Lon text representation of a given geometry. " alt="" coords="447,10392,550,10419"/>
+<area shape="rect" id="node237" href="$a03396.html" title="AsMVT" alt="" coords="465,10443,532,10469"/>
+<area shape="rect" id="node238" href="$a03400.html" title="Returns a OpenStreetMap link representation of a given geometry. " alt="" coords="453,10493,545,10520"/>
+<area shape="rect" id="node239" href="$a03404.html" title="AsPolyshape" alt="" coords="449,10544,548,10571"/>
+<area shape="rect" id="node240" href="$a03408.html" title="Returns a SVG representation of a given geometry. " alt="" coords="465,10595,532,10621"/>
+<area shape="rect" id="node241" href="$a03412.html" title="Returns a WKT representation of a given geometry. " alt="" coords="467,10645,531,10672"/>
+<area shape="rect" id="node242" href="$a03416.html" title="Returns a WKT representation of a given geometry with maximum precision. " alt="" coords="453,10696,544,10723"/>
+<area shape="rect" id="node243" href="$a03424.html" title="Returns a TinyWKB representation of a given geometry. " alt="" coords="460,10747,537,10773"/>
+<area shape="rect" id="node244" href="$a03428.html" title="Returns an X3D representation of a given geometry. " alt="" coords="467,10797,531,10824"/>
+<area shape="rect" id="node245" href="$a03568.html" title="GeomCRSToWKT" alt="" coords="433,10848,564,10875"/>
+<area shape="rect" id="node246" href="$a03576.html" title="SridGetAxis1Name" alt="" coords="431,10899,566,10925"/>
+<area shape="rect" id="node247" href="$a03580.html" title="SridGetAxis1Orientation" alt="" coords="417,10949,580,10976"/>
+<area shape="rect" id="node248" href="$a03584.html" title="SridGetAxis2Name" alt="" coords="431,11000,566,11027"/>
+<area shape="rect" id="node249" href="$a03588.html" title="SridGetAxis2Orientation" alt="" coords="417,11051,580,11077"/>
+<area shape="rect" id="node250" href="$a03592.html" title="SridGetDatum" alt="" coords="446,11101,551,11128"/>
+<area shape="rect" id="node251" href="$a03596.html" title="SridGetUnit" alt="" coords="453,11152,544,11179"/>
+<area shape="rect" id="node252" href="$a03848.html" title="Encodes a LineString as into the Polyline String dataformat. " alt="" coords="431,11203,566,11229"/>
+<area shape="rect" id="node253" href="$a04044.html" title="Zmflag" alt="" coords="467,11253,530,11280"/>
+<area shape="rect" id="node254" href="$a04092.html" title="Returns the rings of a polygon as a WKT String. " alt="" coords="453,11304,544,11331"/>
+<area shape="rect" id="node256" href="$a03420.html" title="Returns a WKT representation of a given geometry with a given precision. " alt="" coords="447,11355,550,11381"/>
+<area shape="rect" id="node258" href="$a02900.html" title="OctagonalEnvelope" alt="" coords="431,11405,566,11432"/>
+<area shape="rect" id="node259" href="$a02968.html" title="Boundary" alt="" coords="460,11456,537,11483"/>
+<area shape="rect" id="node260" href="$a02972.html" title="BoundingDiagonal" alt="" coords="435,11507,562,11533"/>
+<area shape="rect" id="node261" href="$a02976.html" title="Returns the centroid of the given geometry. " alt="" coords="463,11557,534,11584"/>
+<area shape="rect" id="node262" href="$a02984.html" title="ConcaveHull" alt="" coords="450,11608,547,11635"/>
+<area shape="rect" id="node263" href="$a02988.html" title="ConvexHull" alt="" coords="453,11659,544,11685"/>
+<area shape="rect" id="node264" href="$a03000.html" title="GeometricMedian" alt="" coords="437,11709,561,11736"/>
+<area shape="rect" id="node265" href="$a03108.html" title="Returns the minimum bounding circle around the given geometry. " alt="" coords="417,11760,580,11787"/>
+<area shape="rect" id="node266" href="$a03112.html" title="Returns the center point of the minimum bounding circle surrounding the geometry. ..." alt="" coords="397,11811,600,11837"/>
+<area shape="rect" id="node267" href="$a03124.html" title="Returns the minimum clearance line of this geometry. " alt="" coords="419,11861,578,11888"/>
+<area shape="rect" id="node268" href="$a03132.html" title="Returns the minimum diameter line of the given geometry. " alt="" coords="423,11912,575,11939"/>
+<area shape="rect" id="node269" href="$a03136.html" title="Returns the minimum rectangle enclosing the given geometry. " alt="" coords="431,11963,566,11989"/>
+<area shape="rect" id="node270" href="$a03316.html" title="DelaunayTriangles" alt="" coords="433,12013,564,12040"/>
+<area shape="rect" id="node271" href="$a03432.html" title="PointOnSurface" alt="" coords="441,12064,556,12091"/>
+<area shape="rect" id="node272" href="$a03532.html" title="Normalize" alt="" coords="458,12115,539,12141"/>
+<area shape="rect" id="node273" href="$a03628.html" title="CollectionHomogenize" alt="" coords="422,12165,575,12192"/>
+<area shape="rect" id="node274" href="$a03640.html" title="DissolvePoints" alt="" coords="443,12216,554,12243"/>
+<area shape="rect" id="node275" href="$a03644.html" title="DissolveSegments" alt="" coords="433,12267,565,12293"/>
+<area shape="rect" id="node276" href="$a03648.html" title="FlipCoordinates" alt="" coords="442,12317,555,12344"/>
+<area shape="rect" id="node277" href="$a03652.html" title="Transforms a geometry to its 2D representation. " alt="" coords="463,12368,535,12395"/>
+<area shape="rect" id="node278" href="$a03656.html" title="Transforms a geometry to a 3D representation. " alt="" coords="463,12419,535,12445"/>
+<area shape="rect" id="node279" href="$a03660.html" title="Transforms a geometry to a 3DM representation. " alt="" coords="457,12469,540,12496"/>
+<area shape="rect" id="node280" href="$a03664.html" title="Transforms a geometry to a 4D representation. " alt="" coords="463,12520,535,12547"/>
+<area shape="rect" id="node281" href="$a03668.html" title="Transforms a geometry to a geometry collection. " alt="" coords="442,12571,555,12597"/>
+<area shape="rect" id="node282" href="$a03672.html" title="MakeValid" alt="" coords="457,12621,540,12648"/>
+<area shape="rect" id="node283" href="$a03676.html" title="MakeValidDiscarded" alt="" coords="427,12672,570,12699"/>
+<area shape="rect" id="node284" href="$a03680.html" title="Multi" alt="" coords="473,12723,524,12749"/>
+<area shape="rect" id="node285" href="$a03692.html" title="Normalize" alt="" coords="458,12773,539,12800"/>
+<area shape="rect" id="node286" href="$a03696.html" title="Points" alt="" coords="469,12824,528,12851"/>
+<area shape="rect" id="node287" href="$a03700.html" title="Polygonize" alt="" coords="455,12875,542,12901"/>
+<area shape="rect" id="node288" href="$a03712.html" title="Reverse" alt="" coords="463,12925,534,12952"/>
+<area shape="rect" id="node289" href="$a03724.html" title="RotateX" alt="" coords="463,12976,534,13003"/>
+<area shape="rect" id="node290" href="$a03728.html" title="ShiftLongitude" alt="" coords="446,13027,551,13053"/>
+<area shape="rect" id="node291" href="$a03736.html" title="SimplifyPreserveTopology" alt="" coords="411,13077,586,13104"/>
+<area shape="rect" id="node292" href="$a03756.html" title="Transform" alt="" coords="458,13128,539,13155"/>
+<area shape="rect" id="node293" href="$a03760.html" title="Translate" alt="" coords="461,13179,537,13205"/>
+<area shape="rect" id="node294" href="$a03764.html" title="TransScale" alt="" coords="455,13229,543,13256"/>
+<area shape="rect" id="node295" href="$a03772.html" title="Returns the last point of the given geometry. " alt="" coords="461,13280,536,13307"/>
+<area shape="rect" id="node296" href="$a03788.html" title="LineSelfIntersectionPoint" alt="" coords="415,13331,582,13357"/>
+<area shape="rect" id="node297" href="$a03792.html" title="SelfIntersections" alt="" coords="439,13381,559,13408"/>
+<area shape="rect" id="node298" href="$a03796.html" title="Returns the first point of the given geometry. " alt="" coords="459,13432,539,13459"/>
+<area shape="rect" id="node299" href="$a03804.html" title="Creates a LineString from a given MultiPoint representation. " alt="" coords="431,13483,566,13509"/>
+<area shape="rect" id="node300" href="$a03872.html" title="Dissolve" alt="" coords="462,13533,535,13560"/>
+<area shape="rect" id="node301" href="$a03876.html" title="LineMerge" alt="" coords="457,13584,540,13611"/>
+<area shape="rect" id="node302" href="$a04080.html" title="ApproximateMedialAxis" alt="" coords="419,13635,578,13661"/>
+<area shape="rect" id="node303" href="$a04088.html" title="Calculates the circumcentre of a triangle. " alt="" coords="449,13685,549,13712"/>
+<area shape="rect" id="node304" href="$a04096.html" title="Returns the exterior ring of a polygon. " alt="" coords="451,13736,546,13763"/>
+<area shape="rect" id="node305" href="$a04204.html" title="Orients all exterior rings counter&#45;clockwise and all interior rings clockwise. " alt="" coords="431,13787,566,13813"/>
+<area shape="rect" id="node306" href="$a04208.html" title="Orients all exterior rings clockwise and all interior rings counter&#45;clockwise. " alt="" coords="436,13837,561,13864"/>
+<area shape="rect" id="node307" href="$a04212.html" title="Extracts LineStrings from rings of a polygon. " alt="" coords="440,13888,557,13915"/>
+<area shape="rect" id="node308" href="$a04220.html" title="RingsCutAtNodes" alt="" coords="435,13939,563,13965"/>
+<area shape="rect" id="node336" href="$a04232.html" title="AddConst" alt="" coords="459,13989,539,14016"/>
+<area shape="rect" id="node337" href="$a04240.html" title="AndConst" alt="" coords="459,14040,539,14067"/>
+<area shape="rect" id="node338" href="$a04248.html" title="DivConst" alt="" coords="460,14091,537,14117"/>
+<area shape="rect" id="node339" href="$a04300.html" title="MultConst" alt="" coords="457,14141,540,14168"/>
+<area shape="rect" id="node340" href="$a04312.html" title="OrConst" alt="" coords="463,14192,534,14219"/>
+<area shape="rect" id="node341" href="$a04320.html" title="SubtractConst" alt="" coords="445,14243,552,14269"/>
+<area shape="rect" id="node342" href="$a04328.html" title="XorConst" alt="" coords="460,14293,537,14320"/>
+<area shape="rect" id="node344" href="$a04224.html" title="Abs" alt="" coords="476,14344,521,14371"/>
+<area shape="rect" id="node345" href="$a04228.html" title="Add" alt="" coords="476,14395,521,14421"/>
+<area shape="rect" id="node346" href="$a04236.html" title="And" alt="" coords="476,14445,521,14472"/>
+<area shape="rect" id="node347" href="$a04244.html" title="Div" alt="" coords="477,14496,520,14523"/>
+<area shape="rect" id="node348" href="$a04256.html" title="IDCT" alt="" coords="471,14547,526,14573"/>
+<area shape="rect" id="node349" href="$a04260.html" title="IDFT" alt="" coords="473,14597,525,14624"/>
+<area shape="rect" id="node350" href="$a04268.html" title="Log" alt="" coords="477,14648,520,14675"/>
+<area shape="rect" id="node351" href="$a04272.html" title="Max" alt="" coords="475,14699,522,14725"/>
+<area shape="rect" id="node352" href="$a04280.html" title="Mean" alt="" coords="471,14749,526,14776"/>
+<area shape="rect" id="node353" href="$a04288.html" title="Min" alt="" coords="477,14800,520,14827"/>
+<area shape="rect" id="node354" href="$a04296.html" title="Mult" alt="" coords="475,14851,522,14877"/>
+<area shape="rect" id="node355" href="$a04308.html" title="Or" alt="" coords="479,14901,518,14928"/>
+<area shape="rect" id="node356" href="$a04316.html" title="Subtract" alt="" coords="463,14952,534,14979"/>
+<area shape="rect" id="node357" href="$a04324.html" title="Xor" alt="" coords="477,15003,520,15029"/>
+<area shape="rect" id="node359" href="$a04252.html" title="Exp" alt="" coords="476,15053,521,15080"/>
+<area shape="rect" id="node360" href="$a04264.html" title="Invert" alt="" coords="471,15104,526,15131"/>
+<area shape="rect" id="node361" href="$a04276.html" title="MaxFilter" alt="" coords="461,15155,537,15181"/>
+<area shape="rect" id="node362" href="$a04284.html" title="MedianFilter" alt="" coords="452,15205,545,15232"/>
+<area shape="rect" id="node363" href="$a04292.html" title="MinFilter" alt="" coords="463,15256,535,15283"/>
+<area shape="rect" id="node364" href="$a04304.html" title="Not" alt="" coords="477,15307,520,15333"/>
+<area shape="rect" id="node366" href="$a04368.html" title="IsGrayscale" alt="" coords="453,15357,545,15384"/>
+<area shape="rect" id="node367" href="$a04372.html" title="IsIndexed" alt="" coords="459,15408,538,15435"/>
+<area shape="rect" id="node368" href="$a04380.html" title="IsTiled" alt="" coords="468,15459,529,15485"/>
+<area shape="rect" id="node369" href="$a04384.html" title="IsTranslucent" alt="" coords="448,15509,549,15536"/>
+<area shape="rect" id="node371" href="$a04336.html" title="BandIsNoData" alt="" coords="445,15560,553,15587"/>
+<area shape="rect" id="node372" href="$a04356.html" title="HasNoBand" alt="" coords="452,15611,545,15637"/>
+<area shape="rect" id="node374" href="$a04340.html" title="BandMax" alt="" coords="460,15661,537,15688"/>
+<area shape="rect" id="node375" href="$a04348.html" title="BandMin" alt="" coords="462,15712,535,15739"/>
+<area shape="rect" id="node377" href="$a04360.html" title="Height" alt="" coords="469,15763,529,15789"/>
+<area shape="rect" id="node378" href="$a04392.html" title="MinTileX" alt="" coords="462,15813,535,15840"/>
+<area shape="rect" id="node379" href="$a04396.html" title="MinTileY" alt="" coords="462,15864,535,15891"/>
+<area shape="rect" id="node380" href="$a04408.html" title="NumBands" alt="" coords="455,15915,542,15941"/>
+<area shape="rect" id="node381" href="$a04412.html" title="NumDataElements" alt="" coords="432,15965,565,15992"/>
+<area shape="rect" id="node382" href="$a04416.html" title="NumXTiles" alt="" coords="455,16016,542,16043"/>
+<area shape="rect" id="node383" href="$a04420.html" title="NumYTiles" alt="" coords="455,16067,542,16093"/>
+<area shape="rect" id="node384" href="$a04444.html" title="ScaleX" alt="" coords="467,16117,531,16144"/>
+<area shape="rect" id="node385" href="$a04448.html" title="ScaleY" alt="" coords="467,16168,531,16195"/>
+<area shape="rect" id="node386" href="$a04452.html" title="ShearX" alt="" coords="466,16219,531,16245"/>
+<area shape="rect" id="node387" href="$a04456.html" title="ShearY" alt="" coords="466,16269,531,16296"/>
+<area shape="rect" id="node388" href="$a04460.html" title="SkewX" alt="" coords="467,16320,531,16347"/>
+<area shape="rect" id="node389" href="$a04464.html" title="SkewY" alt="" coords="467,16371,531,16397"/>
+<area shape="rect" id="node390" href="$a04468.html" title="TileGridXOffset" alt="" coords="443,16421,555,16448"/>
+<area shape="rect" id="node391" href="$a04472.html" title="TileGridYOffset" alt="" coords="443,16472,555,16499"/>
+<area shape="rect" id="node392" href="$a04476.html" title="TileHeight" alt="" coords="458,16523,539,16549"/>
+<area shape="rect" id="node393" href="$a04480.html" title="TileWidth" alt="" coords="460,16573,537,16600"/>
+<area shape="rect" id="node394" href="$a04484.html" title="TranslateX" alt="" coords="456,16624,541,16651"/>
+<area shape="rect" id="node395" href="$a04488.html" title="TranslateY" alt="" coords="456,16675,541,16701"/>
+<area shape="rect" id="node396" href="$a04492.html" title="UpperLeftX" alt="" coords="455,16725,543,16752"/>
+<area shape="rect" id="node397" href="$a04496.html" title="UpperLeftY" alt="" coords="455,16776,543,16803"/>
+<area shape="rect" id="node398" href="$a04504.html" title="Width" alt="" coords="471,16827,527,16853"/>
+<area shape="rect" id="node399" href="$a04620.html" title="MakeEmptyRaster" alt="" coords="433,16877,564,16904"/>
+<area shape="rect" id="node401" href="$a04436.html" title="RasterToWorldCoordX" alt="" coords="421,16928,576,16955"/>
+<area shape="rect" id="node402" href="$a04440.html" title="RasterToWorldCoordY" alt="" coords="421,16979,576,17005"/>
+<area shape="rect" id="node403" href="$a04512.html" title="WorldToRasterCoordX" alt="" coords="421,17029,576,17056"/>
+<area shape="rect" id="node404" href="$a04516.html" title="WorldToRasterCoordY" alt="" coords="421,17080,576,17107"/>
+<area shape="rect" id="node406" href="$a04332.html" title="Band" alt="" coords="473,17131,525,17157"/>
+<area shape="rect" id="node407" href="$a04352.html" title="BandNoDataValue" alt="" coords="433,17181,564,17208"/>
+<area shape="rect" id="node409" href="$a04424.html" title="PixelAsPoint" alt="" coords="450,17232,547,17259"/>
+<area shape="rect" id="node410" href="$a04432.html" title="RasterToWorldCoord" alt="" coords="426,17283,571,17309"/>
+<area shape="rect" id="node411" href="$a04508.html" title="WorldToRasterCoord" alt="" coords="426,17333,571,17360"/>
+<area shape="rect" id="node413" href="$a04376.html" title="IsOpaquePixel" alt="" coords="445,17384,552,17411"/>
+<area shape="rect" id="node414" href="$a04388.html" title="IsTransparentPixel" alt="" coords="433,17435,564,17461"/>
+<area shape="rect" id="node416" href="$a04428.html" title="PixelHeight" alt="" coords="454,17485,543,17512"/>
+<area shape="rect" id="node418" href="$a04500.html" title="Value" alt="" coords="471,17536,526,17563"/>
+<area shape="rect" id="node420" href="$a04624.html" title="RastFromCoverageJSON" alt="" coords="413,17587,585,17613"/>
+<area shape="rect" id="node421" href="$a04628.html" title="RastFromGMLCOV" alt="" coords="430,17637,567,17664"/>
+<area shape="rect" id="node422" href="$a04632.html" title="RastFromHexWKB" alt="" coords="431,17688,566,17715"/>
+<area shape="rect" id="node423" href="$a04636.html" title="RastFromNetCDF" alt="" coords="434,17739,563,17765"/>
+<area shape="rect" id="node424" href="$a04640.html" title="RastFromWKB" alt="" coords="443,17789,554,17816"/>
+<area shape="rect" id="node426" href="$a04612.html" title="AsGeometry" alt="" coords="451,17840,546,17867"/>
+<area shape="rect" id="node428" href="$a04780.html" title="Mirror" alt="" coords="471,17891,526,17917"/>
+<area shape="rect" id="node430" href="$a04792.html" title="Rescale" alt="" coords="463,17941,534,17968"/>
+<area shape="rect" id="node432" href="$a04644.html" title="AddBand" alt="" coords="461,17992,536,18019"/>
+<area shape="rect" id="node433" href="$a04656.html" title="SetRotation" alt="" coords="453,18043,544,18069"/>
+<area shape="rect" id="node434" href="$a04660.html" title="SetScale" alt="" coords="461,18093,536,18120"/>
+<area shape="rect" id="node435" href="$a04664.html" title="SetSkew" alt="" coords="461,18144,536,18171"/>
+<area shape="rect" id="node436" href="$a04668.html" title="SetUpperLeft" alt="" coords="449,18195,548,18221"/>
+<area shape="rect" id="node437" href="$a04760.html" title="Calculates the aspect of a GridCoverage. " alt="" coords="467,18245,530,18272"/>
+<area shape="rect" id="node438" href="$a04768.html" title="Curvature" alt="" coords="459,18296,538,18323"/>
+<area shape="rect" id="node439" href="$a04772.html" title="Flip" alt="" coords="477,18347,520,18373"/>
+<area shape="rect" id="node440" href="$a04776.html" title="Hillshade" alt="" coords="461,18397,537,18424"/>
+<area shape="rect" id="node441" href="$a04788.html" title="Resample" alt="" coords="458,18448,539,18475"/>
+<area shape="rect" id="node442" href="$a04808.html" title="Slope" alt="" coords="471,18499,526,18525"/>
+<area shape="rect" id="node444" href="$a04764.html" title="Crop" alt="" coords="473,18549,524,18576"/>
+<area shape="rect" id="node446" href="$a04648.html" title="SetBandNoDataValue" alt="" coords="423,18600,574,18627"/>
+<area shape="rect" id="node447" href="$a04804.html" title="Shift" alt="" coords="474,18651,523,18677"/>
+<area shape="rect" id="node449" href="$a04748.html" title="SameAlignment" alt="" coords="441,18701,556,18728"/>
+<area shape="rect" id="node451" href="$a04344.html" title="BandMetadata" alt="" coords="445,18752,552,18779"/>
+<area shape="rect" id="node452" href="$a04672.html" title="AsCoverageJSON" alt="" coords="433,18803,564,18829"/>
+<area shape="rect" id="node453" href="$a04676.html" title="AsGeoTIFF" alt="" coords="453,18853,544,18880"/>
+<area shape="rect" id="node454" href="$a04680.html" title="AsGMLCOV" alt="" coords="451,18904,546,18931"/>
+<area shape="rect" id="node455" href="$a04684.html" title="AsNetCDF" alt="" coords="455,18955,542,18981"/>
+<area shape="rect" id="node456" href="$a04692.html" title="AsRastHexWKB" alt="" coords="438,19005,559,19032"/>
+<area shape="rect" id="node457" href="$a04696.html" title="AsRastWKB" alt="" coords="450,19056,547,19083"/>
+<area shape="rect" id="node460" href="$a04816.html" title="GetEdgeByPoint" alt="" coords="439,19107,558,19133"/>
+<area shape="rect" id="node461" href="$a04820.html" title="GetNodeByPoint" alt="" coords="439,19157,559,19184"/>
+<area shape="rect" id="node463" href="$a04848.html" title="AddIsoNode" alt="" coords="451,19208,546,19235"/>
+<area shape="rect" id="node465" href="$a04864.html" title="Topo_AddPoint" alt="" coords="443,19259,554,19285"/>
+<area shape="rect" id="node467" href="$a04868.html" title="AsTopoJSON" alt="" coords="447,19309,550,19336"/>
+<area shape="rect" id="node522" href="$a04700.html" title="Contains" alt="" coords="461,19556,536,19583"/>
+<area shape="rect" id="node523" href="$a04704.html" title="ContainsProperly" alt="" coords="437,19607,560,19633"/>
+<area shape="rect" id="node524" href="$a04708.html" title="CoveredBy" alt="" coords="455,19657,542,19684"/>
+<area shape="rect" id="node525" href="$a04712.html" title="Crosses" alt="" coords="463,19708,534,19735"/>
+<area shape="rect" id="node526" href="$a04720.html" title="Disjoint" alt="" coords="465,19759,532,19785"/>
+<area shape="rect" id="node527" href="$a04728.html" title="Equals" alt="" coords="467,19809,530,19836"/>
+<area shape="rect" id="node528" href="$a04736.html" title="Intersects" alt="" coords="459,19860,539,19887"/>
+<area shape="rect" id="node529" href="$a04740.html" title="Overlaps" alt="" coords="461,19911,536,19937"/>
+<area shape="rect" id="node530" href="$a04752.html" title="Touches" alt="" coords="463,19961,535,19988"/>
+<area shape="rect" id="node531" href="$a04756.html" title="Within" alt="" coords="469,20012,528,20039"/>
+<area shape="rect" id="node533" href="$a04732.html" title="Intersection" alt="" coords="453,20063,544,20089"/>
+<area shape="rect" id="node535" href="$a04716.html" title="DFullyWithin" alt="" coords="450,20113,547,20140"/>
+<area shape="rect" id="node536" href="$a04724.html" title="DWithin" alt="" coords="464,20164,533,20191"/>
 </map>

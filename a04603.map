@@ -1,3 +1,9 @@
-<map id="AsGeoTIFF" name="AsGeoTIFF">
-<area shape="rect" id="node2" href="$a04533.html" title="RasterStringExportFunction" alt="" coords="5,80,188,107"/>
+<map id="RasterStringExportFunction" name="RasterStringExportFunction">
+<area shape="rect" id="node3" href="$a04344.html" title="BandMetadata" alt="" coords="5,155,112,181"/>
+<area shape="rect" id="node4" href="$a04672.html" title="AsCoverageJSON" alt="" coords="136,155,267,181"/>
+<area shape="rect" id="node5" href="$a04676.html" title="AsGeoTIFF" alt="" coords="291,155,381,181"/>
+<area shape="rect" id="node6" href="$a04680.html" title="AsGMLCOV" alt="" coords="406,155,501,181"/>
+<area shape="rect" id="node7" href="$a04684.html" title="AsNetCDF" alt="" coords="525,155,611,181"/>
+<area shape="rect" id="node8" href="$a04692.html" title="AsRastHexWKB" alt="" coords="635,155,757,181"/>
+<area shape="rect" id="node9" href="$a04696.html" title="AsRastWKB" alt="" coords="781,155,878,181"/>
 </map>

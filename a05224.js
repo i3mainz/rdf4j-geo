@@ -1,9 +1,10 @@
 var a05224 =
 [
-    [ "testBBOXContainsFalse", "a05224.html#acdd5bf40ab928cffac073b2a29a4d8bd", null ],
-    [ "testBBOXContainsTrue", "a05224.html#ad768af1415f572372ce470613e313973", null ],
-    [ "testGeom1", "a05224.html#aa4a3b1a7e778ece72382f6600fa96b47", null ],
-    [ "testGeom2", "a05224.html#a6b4be369c8f60e973cd5126e69cd33a4", null ],
-    [ "testGeom3", "a05224.html#a800b6bb875a8ff4404ea787c3df125a5", null ],
-    [ "testGeom4", "a05224.html#a4c55e7efe430d6d220fb05524c4bb940", null ]
+    [ "WKBTextSRS", "a05228.html", "a05228" ],
+    [ "read", "a05224.html#a793358fbd6ef538a24eabab1bd50ef01", null ],
+    [ "toString", "a05224.html#ad146fa8579a5f8a876c4688cc5a68520", null ],
+    [ "unparse", "a05224.html#ae918a517e1ebcc44beeee2c55008d248", null ],
+    [ "INSTANCE", "a05224.html#a3e60086252e5262f1238a2d9cbd491d9", null ],
+    [ "LiteralIRI", "a05224.html#ae02c2e86ac0dea8538c7b43e9e82421a", null ],
+    [ "URI", "a05224.html#addbf30e6c0ad68fa34277d59a2c6eb5e", null ]
 ];

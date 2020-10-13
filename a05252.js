@@ -1,9 +1,7 @@
 var a05252 =
 [
-    [ "testBBOXRightOf", "a05252.html#a1d3293620606e59a1f913178b94ea7fd", null ],
-    [ "testBBOXRightOf1", "a05252.html#ae27abe3e3daa14fdd8094ad71b5cb2cc", null ],
-    [ "testGeom1", "a05252.html#aa4a3b1a7e778ece72382f6600fa96b47", null ],
-    [ "testGeom2", "a05252.html#a6b4be369c8f60e973cd5126e69cd33a4", null ],
-    [ "testGeom3", "a05252.html#a800b6bb875a8ff4404ea787c3df125a5", null ],
-    [ "testGeom4", "a05252.html#a4c55e7efe430d6d220fb05524c4bb940", null ]
+    [ "Axis", "a05252.html#a54d0dabce67e7ff5e8fd274bb15422b7", null ],
+    [ "size", "a05252.html#af4b57d21919c42d55af03391f91a1c08", null ],
+    [ "coordinateIds", "a05252.html#a2c1e4544f358662c366a8437e679df65", null ],
+    [ "wrappedAxis", "a05252.html#ab6b7936efca40ffbc8687caabdff2bb5", null ]
 ];

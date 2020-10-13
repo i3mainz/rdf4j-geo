@@ -1,5 +1,6 @@
 var a04460 =
 [
+    [ "attribute", "a04460.html#ad2a7814203819a90b6156bb3d2a381e3", null ],
     [ "evaluate", "a04460.html#a43b4c73244bc6722ce551c1033cf1115", null ],
-    [ "modify", "a04460.html#aeeaa3f17c5b8c9f57795c4a39768a22b", null ]
+    [ "getURI", "a04460.html#ad9fb16b36dd4ccc533d4f05ff94646e3", null ]
 ];
