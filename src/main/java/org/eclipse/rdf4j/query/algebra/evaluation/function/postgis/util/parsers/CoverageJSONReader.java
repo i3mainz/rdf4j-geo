@@ -200,6 +200,9 @@ public class CoverageJSONReader {
 				    intrange[i] = values.optInt(i);
 				}
 				org.apache.sis.measure.NumberRange<?> range;
+				SampleDimension dimension;
+				dimension.
+				Category cat=new Catego
 				//NumberRange<Integer> range=new NumberRange<Integer>(null);
 				/*Category.
 				Category cat=new Category(key,range,null,null,null);
@@ -228,12 +231,16 @@ public class CoverageJSONReader {
 		for(String key:covjson.getJSONObject("parameters").keySet()) {
 			GenericName name=Names.createGenericName("http://www.semgis.de/geodata#", "#", new String[] {key});
 			if(categories.containsKey(key)) {
+				Category;
+				cat.
+				new SAmpleDim
 				dimensions.add(new SampleDimension(name, Integer.valueOf("0"), categories.get(key)));
 			}else {
 				dimensions.add(new SampleDimension(name, 0, new LinkedList<Category>()));
 			}
 		}
 		System.out.println(dimensions);
+		GridCoverageBuilder
 		/*
 		 * Create the grid coverage, gets its image and set values directly as short
 		 * integers.

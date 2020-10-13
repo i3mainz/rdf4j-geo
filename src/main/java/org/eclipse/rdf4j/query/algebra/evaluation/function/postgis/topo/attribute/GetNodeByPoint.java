@@ -2,10 +2,10 @@
 package org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.topo.attribute;
 
 import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.topo.base.TopologyExportFunction;
-import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.topo.transform.Topology;
 import org.locationtech.jts.geom.Geometry;
+import org.mibcxb.topojson.Topology;
 
-public class GetNodeByPoint TopologyExportFunction{
+public class GetNodeByPoint extends TopologyExportFunction{
 
 	@Override
 	public String getURI() {

@@ -31,6 +31,9 @@ public class CollectionExtract extends GeometricModifierIntegerFunction {
         			coords.add(coord2);
         		}
         	}
+        	if(coords.size()==1) {
+        		return fac.createPoint(coords.get(0));
+        	}
          	return fac.createMultiPointFromCoords(coords.toArray(new Coordinate[0]));
         case 2:
         	List<LineString> lines=new ArrayList<LineString>();

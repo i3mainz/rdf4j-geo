@@ -3,7 +3,7 @@ package org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.topo.exporte
 import org.eclipse.rdf4j.model.vocabulary.POSTGIS;
 import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.topo.base.TopologyStringExportFunction;
 import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.literals.topo.TopoJSONDatatype;
-import org.locationtech.jts.geom.Geometry;
+import org.mibcxb.topojson.Topology;
 
 public class AsTopoJSON extends TopologyStringExportFunction {
 
