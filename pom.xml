@@ -98,6 +98,11 @@
     <artifactId>geopackage</artifactId>
     <version>3.5.0</version>
 </dependency> 
+	<dependency>
+	    <groupId>com.github.ccancellieri</groupId>
+	    <artifactId>topojson</artifactId>
+	    <version>master-SNAPSHOT</version>
+	</dependency>
       <dependency>
     <groupId>org.wololo</groupId>
     <artifactId>jts2geojson</artifactId>
@@ -296,6 +301,10 @@
       <id>gitlab-maven</id>
       <url>https://gitlab.rlp.net/api/v4/projects/9173/packages/maven</url>
     </repository>
+		<repository>
+		    <id>jitpack.io</id>
+		    <url>https://jitpack.io</url>
+		</repository>
         <repository>
             <id>conveyal</id>
             <name>Conveyal</name>
