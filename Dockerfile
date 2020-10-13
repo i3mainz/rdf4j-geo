@@ -39,7 +39,3 @@ ARG SERVICEJSON=""
 RUN rm -rf /usr/local/tomcat/webapps/ROOT/
 
 COPY target/*.jar /opt/eclipse-rdf4j-${RDF4J_VERSION}/lib/
-
-RUN unzip /usr/local/tomcat/webapps/rdf4j-server.war
-
-COPY target/*.jar /usr/local/tomcat/webapps/rdf4j-server/WEB-INF/lib/
