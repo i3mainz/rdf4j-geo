@@ -14,7 +14,7 @@ import org.apache.sis.coverage.grid.GridCoverage;
 import org.apache.sis.coverage.grid.GridGeometry;
 import org.apache.sis.util.resources.Vocabulary;
 import org.locationtech.jts.geom.Envelope;
-import org.opengis.coverage.grid.GridCoordinates;
+//import org.opengis.coverage.grid.GridCoordinates;
 
 public class RasterUtils {
 	
@@ -45,7 +45,7 @@ public class RasterUtils {
     
     protected Envelope Extent = null;
 
-    protected RasterPixelType PixelType = RasterPixelType.INTEGER;
+    //protected RasterPixelType PixelType = RasterPixelType.INTEGER;
 
     protected double NoData = Float.MIN_VALUE;
 
@@ -53,7 +53,7 @@ public class RasterUtils {
 
     protected double MaxValue = Double.MIN_VALUE;
 
-	
+	/*
     public static GridCoverage createGridCoverage(CharSequence name, PlanarImage tiledImage) {
         return createGridCoverage(name, tiledImage, 1, NoData, MinValue, MaxValue, Extent);
     }
@@ -188,7 +188,7 @@ public class RasterUtils {
 
         GridCoverageFactory factory = CoverageFactoryFinder.getGridCoverageFactory(null);
         return factory.create(name, image, extent, bands, null, properties);
-    }
+    }*/
 
 	
 }

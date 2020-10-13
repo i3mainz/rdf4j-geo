@@ -10,6 +10,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
+/*
 import org.joda.time.Chronology;
 import org.joda.time.DateTime;
 import org.opengis.referencing.crs.CoordinateReferenceSystem;
@@ -42,7 +43,7 @@ import uk.ac.rdg.resc.edal.position.VerticalCrs;
 import uk.ac.rdg.resc.edal.position.VerticalPosition;
 import uk.ac.rdg.resc.edal.util.Array;
 import uk.ac.rdg.resc.edal.util.Array1D;
-
+*/
 /**
  * Wraps an EDAL Feature into a CoverageJSON compatible Coverage object.
  * 
@@ -50,7 +51,7 @@ import uk.ac.rdg.resc.edal.util.Array1D;
  *
  */
 public class CovJSONCoverage {
-	
+	/*
 	final DiscreteFeature<?,?> feature;
 	
 	Domain domain;
@@ -71,7 +72,7 @@ public class CovJSONCoverage {
 	static class Axis {
 		/**
 		 * Either ReferenceableAxis or TupleAxis.
-		 */
+		 
 		Object wrappedAxis;
 		
 		List<String> coordinateIds;
@@ -96,7 +97,7 @@ public class CovJSONCoverage {
 		/**
 		 * A list of ReferenceableAxis objects.
 		 * For example [t, x, y] which would be [TimeAxis, ReferenceableAxis, ReferenceableAxis].  
-		 */
+		 
 		List<ReferenceableAxis<?>> nestedAxes;
 		int size;
 		public TupleAxis(List<ReferenceableAxis<?>> nestedAxes, int size) {
@@ -348,5 +349,5 @@ public class CovJSONCoverage {
 		Map<String, Axis> axes = new HashMap<>();
 		axes.put(Keys.COMPOSITE, new Axis(tupleAxis, coordinateIds));
 		return axes;
-	}
+	}*/
 }

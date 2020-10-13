@@ -9,8 +9,8 @@ public class RasterIterator extends RasterUtils {
 
 
 	    public GridCoverage execute(GridCoverage inputGc) {	    	
-	        initSurface(inputGc);
-
+	        //initSurface(inputGc);
+/*
 	        DiskMemImage outputImage = this.createDiskMemImage(inputGc, RasterPixelType.FLOAT);
 	        WritableRectIter writer = RectIterFactory.createWritable(outputImage,
 	                outputImage.getBounds());
@@ -37,6 +37,7 @@ public class RasterIterator extends RasterUtils {
 	        }
 
 	        return createGridCoverage("TPI", outputImage);
-	    }
+	        
+	    */return null;}
 	
 }
