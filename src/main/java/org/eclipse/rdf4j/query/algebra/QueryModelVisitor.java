@@ -110,8 +110,6 @@ public interface QueryModelVisitor<X extends Exception> {
 	public void meet(QueryRoot node) throws X;
 
 	public void meet(Add add) throws X;
-	
-	public void meet(AggCentroid agg) throws X;
 
 	public void meet(And node) throws X;
 

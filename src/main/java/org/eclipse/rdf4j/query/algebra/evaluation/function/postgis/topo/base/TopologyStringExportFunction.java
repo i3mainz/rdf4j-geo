@@ -10,6 +10,7 @@ import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.literals
 import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.literals.topo.TopologyLiteral;
 import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.literals.vector.VectorLiteral;
 import org.locationtech.jts.geom.Geometry;
+import org.mibcxb.topojson.Topology;
 
 public abstract class TopologyStringExportFunction implements Function {
 

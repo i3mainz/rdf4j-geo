@@ -17,21 +17,21 @@ import org.apache.sis.coverage.grid.GridGeometry;
 import org.apache.sis.coverage.grid.ImageRenderer;
 import org.apache.sis.geometry.Envelope2D;
 import org.apache.sis.internal.coverage.BufferedGridCoverage;
-import org.apache.sis.internal.coverage.GridCoverage2D;
+//import org.apache.sis.internal.coverage.GridCoverage2D;
 import org.apache.sis.referencing.NamedIdentifier;
 import org.apache.sis.referencing.crs.DefaultTemporalCRS;
 import org.apache.sis.referencing.datum.DefaultTemporalDatum;
 import org.apache.sis.referencing.factory.GeodeticAuthorityFactory;
 import org.apache.sis.util.iso.Names;
-import org.geotoolkit.referencing.CRS;
-import org.geotoolkit.util.NumberRange;
+//import org.geotoolkit.referencing.CRS;
+//import org.geotoolkit.util.NumberRange;
 import org.json.JSONArray;
 import org.json.JSONObject;
 import org.opengis.metadata.spatial.DimensionNameType;
 import org.opengis.referencing.crs.CoordinateReferenceSystem;
 import org.opengis.referencing.datum.TemporalDatum;
 import org.opengis.referencing.operation.MathTransform;
-import org.opengis.temporal.TemporalReferenceSystem;
+//import org.opengis.temporal.TemporalReferenceSystem;
 import org.opengis.util.FactoryException;
 import org.opengis.util.GenericName;
 
@@ -200,6 +200,9 @@ public class CoverageJSONReader {
 				    intrange[i] = values.optInt(i);
 				}
 				org.apache.sis.measure.NumberRange<?> range;
+				SampleDimension dimension;
+				/*dimension.
+				Category cat=new Catego
 				//NumberRange<Integer> range=new NumberRange<Integer>(null);
 				/*Category.
 				Category cat=new Category(key,range,null,null,null);
@@ -234,6 +237,7 @@ public class CoverageJSONReader {
 			}
 		}
 		System.out.println(dimensions);
+		//GridCoverageBuilder.
 		/*
 		 * Create the grid coverage, gets its image and set values directly as short
 		 * integers.

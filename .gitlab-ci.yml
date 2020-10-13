@@ -16,6 +16,7 @@ variables:
 stages:
   - deploy
   - build
+  - release
   - test
 
 build:
@@ -27,6 +28,25 @@ build:
     when: on_success
     paths:
     - target/*.jar
+
+release-image:
+  image: docker:git
+  before_script:
+  - echo "$CI_REGISTRY_PASSWORD" | docker login -u "$CI_REGISTRY_USER" "$CI_REGISTRY" --password-stdin
+  services:
+  - docker:dind
+  stage: release
+  script:
+#    - docker pull $CONTAINER_TEST_IMAGE
+#    - docker tag $CONTAINER_TEST_IMAGE $CONTAINER_RELEASE_IMAGE
+#    - docker run --rm -v "$PWD":/app -w /app maven:3-jdk-8 mvn clean install
+    - docker build -t $CONTAINER_RELEASE_IMAGE .
+    - docker push $CONTAINER_RELEASE_IMAGE  
+#  tags:
+#    - docker
+  only:
+    - master
+
 
 pages:
   stage: deploy
