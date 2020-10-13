@@ -15,8 +15,6 @@ RUN mv /opt/eclipse-rdf4j-${RDF4J_VERSION}/war/*.war /usr/local/tomcat/webapps
 
 RUN unzip /usr/local/tomcat/webapps/rdf4j-server.war
 
-RUN unzip /usr/local/tomcat/webapps/rdf4j-workbench.war
-
 RUN echo "CATALINA_OPTS=\"\$CATALINA_OPTS \$JVM_PARAMS -Dorg.eclipse.rdf4j.appdata.basedir=\$RDF4J_DATA\"" >> /usr/local/tomcat/bin/setenv.sh
 
 VOLUME ${RDF4J_DATA}
