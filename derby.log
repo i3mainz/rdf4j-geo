@@ -1,0 +1,16 @@
+----------------------------------------------------------------
+Sun Sep 06 01:20:57 CEST 2020:
+Booting Derby (version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579)) instance a816c00e-0174-6092-a596-0000045f8368 
+on database directory classpath:SIS_DATA/Databases/SpatialMetadata in READ ONLY mode with class loader sun.misc.Launcher$AppClassLoader@22d8cfe0. 
+Loaded from file:/home/timo/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar.
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_201-b09
+user.dir=/home/timo/git/rdf4j-postgis
+os.name=Linux
+os.arch=amd64
+os.version=5.7.6-towo.1-siduction-amd64
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Sun Sep 06 01:20:57 CEST 2020:
+Shutting down instance a816c00e-0174-6092-a596-0000045f8368 on database directory classpath:SIS_DATA/Databases/SpatialMetadata with class loader sun.misc.Launcher$AppClassLoader@22d8cfe0 
