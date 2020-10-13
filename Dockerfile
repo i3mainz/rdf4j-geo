@@ -32,8 +32,7 @@ COPY owl/ /opt/
 RUN cat /tmp/importTTL.sh | /opt/eclipse-rdf4j-${RDF4J_VERSION}/bin/console.sh
 
 FROM builder AS production
-COPY --from=builder /root/.RDF4J/console/repositories/squirrels/* /opt/eclipse-rdf4j-${RDF4J_VERSION}/data/server/repositories/squirrels/
-COPY --from=builder /root/.RDF4J/console/repositories/ppp/* /opt/eclipse-rdf4j-${RDF4J_VERSION}/data/server/repositories/ppp/
+COPY --from=builder /root/.RDF4J/console/repositories/squirrels/* /opt/eclipse-rdf4j-${RDF4J_VERSION}/data/server/repositories/rsetools/
 
 ARG SERVICEJSON=""
 
