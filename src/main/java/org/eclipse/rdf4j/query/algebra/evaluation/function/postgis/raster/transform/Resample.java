@@ -7,7 +7,6 @@ import org.apache.sis.coverage.grid.GridCoverage;
 import org.apache.sis.coverage.grid.GridGeometry;
 import org.eclipse.rdf4j.model.vocabulary.POSTGIS;
 import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.raster.base.RasterModifierFunction;
-import org.opengis.coverage.grid.GridEnvelope;
 import org.opengis.metadata.spatial.Dimension;
 import org.opengis.referencing.crs.CoordinateReferenceSystem;
 

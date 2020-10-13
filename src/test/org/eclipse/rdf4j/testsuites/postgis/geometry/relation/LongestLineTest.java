@@ -22,7 +22,7 @@ public class LongestLineTest {
 	public void testLongestLine() {
 		LongestLine instance=new LongestLine();
 		ValueFactory valfac=SimpleValueFactory.getInstance();
-		Value geo=valfac.createLiteral(testGeom2, WKTDatatype.LiteralIRI);
+		Value geo=valfac.createLiteral(testGeom, WKTDatatype.LiteralIRI);
 		Value geo2=valfac.createLiteral(testGeom2, WKTDatatype.LiteralIRI);
 		Value resultt=instance.evaluate(valfac, geo,geo2);
 		Value expResult=valfac.createLiteral(result, WKTDatatype.LiteralIRI);

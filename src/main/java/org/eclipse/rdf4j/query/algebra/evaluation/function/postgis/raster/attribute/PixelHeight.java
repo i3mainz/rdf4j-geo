@@ -4,7 +4,7 @@ import org.apache.sis.coverage.grid.GridCoverage;
 import org.eclipse.rdf4j.model.vocabulary.POSTGIS;
 import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.raster.base.RasterAttributeIntIntIntBooleanFunction;
 
-public class PixelHeight extends RasterAttributeIntIntIntBooleanFunction {
+public class PixelHeight extends RasterAttributeIntIntIntIntFunction {
 
 	@Override
 	public String getURI() {

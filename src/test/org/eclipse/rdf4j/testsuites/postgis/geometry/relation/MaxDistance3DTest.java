@@ -16,7 +16,7 @@ public class MaxDistance3DTest {
 	public static final String testGeom2="LINESTRING(5 5 1 ,10 10 2)";
 	
 	@Test
-	public void testMaxDistance() {
+	public void testMaxDistance3D() {
 		MaxDistance3D instance=new MaxDistance3D();
 		ValueFactory valfac=SimpleValueFactory.getInstance();
 		Value geo=valfac.createLiteral(testGeom, WKTDatatype.LiteralIRI);
