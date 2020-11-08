@@ -15,10 +15,11 @@ public class IsTransparentPixel extends RasterAttributeIntIntIntBooleanFunction 
 	@Override
 	public Boolean attribute(GridCoverage coverage, Integer noband, Integer x, Integer y) {
 		int[] valuess=new int[coverage.getSampleDimensions().size()];
-		int pixel=coverage.render(null).getTile(x, y).getPixel(x, y, valuess)[noband];
-		if((pixel>>24) == 0x00 ) {
-		      return true;
-		}
+		int pixel;
+			pixel = coverage.render(null).getTile(x, y).getPixel(x, y, valuess)[noband];
+			if((pixel>>24) == 0x00 ) {
+			      return true;
+			}
 		return false;
 	}
 	

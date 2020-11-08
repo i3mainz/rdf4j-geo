@@ -30,15 +30,6 @@ public class Min extends RasterAlgebraFunction {
 		pbSubtracted.addSource(raster.render(raster.getGridGeometry().getExtent()));
 		pbSubtracted.addSource(raster2.render(raster2.getGridGeometry().getExtent()));
 		RenderedOp subtractedImage = JAI.create("min", pbSubtracted);
-		/*
-		 * final GridGeometry grid = new
-		 * GridGeometry(raster.getGridGeometry().getExtent(), PixelInCell.CELL_CENTER,
-		 * MathTransforms.identity(2),
-		 * raster.getGridGeometry().getCoordinateReferenceSystem());
-		 * 
-		 * final MathTransform1D toUnits = (MathTransform1D) MathTransforms.linear(0.5,
-		 * 100);
-		 */
 		final SampleDimension sd = new SampleDimension.Builder().setName("t")
 				.addQuantitative(
 						(raster.getSampleDimensions().get(rd1).getName() + "min"

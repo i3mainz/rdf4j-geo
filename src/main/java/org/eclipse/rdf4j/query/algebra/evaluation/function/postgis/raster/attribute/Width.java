@@ -12,9 +12,8 @@ public class Width extends RasterAttributeFunction {
 	}
 
 	@Override
-	public double attribute(GridCoverage raster) {
-		//return raster.getRenderedImage().getWidth();
-		return 0.;
+	public Double attribute(GridCoverage raster) {
+		return (double) raster.render(null).getWidth();
 	}
 
 }

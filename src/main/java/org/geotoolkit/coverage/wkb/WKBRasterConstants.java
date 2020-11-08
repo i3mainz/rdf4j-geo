@@ -17,7 +17,6 @@
 package org.geotoolkit.coverage.wkb;
 
 import java.awt.image.DataBuffer;
-
 import org.geotoolkit.coverage.SampleDimensionType;
 
 /**

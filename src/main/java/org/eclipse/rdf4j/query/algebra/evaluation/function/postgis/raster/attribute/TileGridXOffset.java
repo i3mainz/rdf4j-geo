@@ -12,8 +12,8 @@ public class TileGridXOffset extends RasterAttributeFunction {
 	}
 
 	@Override
-	public double attribute(GridCoverage raster) {
-		return raster.render(raster.getGridGeometry().getExtent()).getTileGridXOffset();
+	public Double attribute(GridCoverage raster) {
+		return (double) raster.render(raster.getGridGeometry().getExtent()).getTileGridXOffset();
 	}
 
 }

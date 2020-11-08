@@ -23,13 +23,13 @@ public abstract class RasterAttributeFunction implements Function {
 		System.out.println(l);
 		if(l instanceof RasterLiteral) {
 			GridCoverage geom=((RasterLiteral)l).read(args[0].stringValue());
-			System.out.println("Extracted GridCoverage: "+geom);
+			//System.out.println("Extracted GridCoverage: "+geom);
 			Double result = attribute(geom);
 			return valueFactory.createLiteral(result);
 		}
 		return null;
 	}
 	
-	public abstract double attribute(GridCoverage geom);
+	public abstract Double attribute(GridCoverage geom);
 	
 }

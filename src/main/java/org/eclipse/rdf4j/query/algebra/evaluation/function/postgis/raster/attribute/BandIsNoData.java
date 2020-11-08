@@ -14,10 +14,7 @@ public class BandIsNoData extends RasterAttributeBooleanIntFunction {
 
 	@Override
 	public Boolean attribute(GridCoverage coverage, Integer bandno) {
-		if(coverage.getSampleDimensions().get(bandno).getSampleRange().get().isEmpty()) {
-			return true;
-		}
-		return false;
+		return null;
 		//if(coverage.getSampleDimensions().get(bandno).getSampleRange().get().)
 	}
 

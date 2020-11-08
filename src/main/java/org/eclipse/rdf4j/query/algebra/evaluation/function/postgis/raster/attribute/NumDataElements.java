@@ -12,8 +12,8 @@ public class NumDataElements extends RasterAttributeFunction{
 	}
 
 	@Override
-	public double attribute(GridCoverage raster) {
-		return raster.render(raster.getGridGeometry().getExtent()).getNumXTiles();
+	public Double attribute(GridCoverage raster) {
+		return (double) raster.render(raster.getGridGeometry().getExtent()).getNumXTiles();
 	}
 
 	

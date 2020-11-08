@@ -26,7 +26,7 @@ public class BBOXDistanceTest {
 		Value geo=valfac.createLiteral(testGeom1, WKTDatatype.LiteralIRI);
 		Value geo2=valfac.createLiteral(testGeom2, WKTDatatype.LiteralIRI);
 		Value result=instance.evaluate(valfac, geo,geo2);
-		Value expResult=valfac.createLiteral(2);
+		Value expResult=valfac.createLiteral(2.0);
 		assertEquals(expResult, result);
 	}
 	

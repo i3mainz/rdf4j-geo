@@ -12,8 +12,8 @@ public class TileWidth extends RasterAttributeFunction {
 	}
 
 	@Override
-	public double attribute(GridCoverage raster) {
-		return raster.render(raster.getGridGeometry().getExtent()).getTileWidth();
+	public Double attribute(GridCoverage raster) {
+		return (double) raster.render(raster.getGridGeometry().getExtent()).getTileWidth();
 	}
 
 }

@@ -15,7 +15,7 @@ public class IsValidTest {
 	public void testIsValidFalse() {
 		IsValid is3d=new IsValid();
 		ValueFactory valfac=SimpleValueFactory.getInstance();
-		Value geo=valfac.createLiteral("<http://www.opengis.net/def/crs/EPSG/0/27700> LINESTRING (10 40, 40 30, 20 20, 30 10, 40 30)", WKTDatatype.LiteralIRI);
+		Value geo=valfac.createLiteral("<http://www.opengis.net/def/crs/EPSG/0/27700> POLYGON ((10 40), (40 30), (20 20), (30 10), (40 30))", WKTDatatype.LiteralIRI);
 		Value result=is3d.evaluate(valfac, geo);
 		Value expResult=valfac.createLiteral(false);
 	    assertEquals(expResult, result);

@@ -12,8 +12,8 @@ public class Height extends RasterAttributeFunction {
 	}
 
 	@Override
-	public double attribute(GridCoverage raster) {
-		return raster.render(raster.getGridGeometry().getExtent()).getHeight();
+	public Double attribute(GridCoverage raster) {
+		return (double) raster.render(raster.getGridGeometry().getExtent()).getHeight();
 	}
 
 }

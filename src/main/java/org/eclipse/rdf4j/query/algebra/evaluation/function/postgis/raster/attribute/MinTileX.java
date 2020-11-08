@@ -3,8 +3,9 @@ package org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.raster.attri
 import org.apache.sis.coverage.grid.GridCoverage;
 import org.eclipse.rdf4j.model.vocabulary.POSTGIS;
 import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.raster.base.RasterAttributeFunction;
+import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.raster.base.RasterAttributeIntFunction;
 
-public class MinTileX extends RasterAttributeFunction {
+public class MinTileX extends RasterAttributeIntFunction {
 
 	@Override
 	public String getURI() {
@@ -12,7 +13,7 @@ public class MinTileX extends RasterAttributeFunction {
 	}
 
 	@Override
-	public double attribute(GridCoverage raster) {
+	public Integer attribute(GridCoverage raster) {
 		return raster.render(raster.getGridGeometry().getExtent()).getMinTileX();
 	}
 

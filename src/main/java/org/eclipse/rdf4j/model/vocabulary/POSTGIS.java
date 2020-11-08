@@ -354,6 +354,7 @@ public class POSTGIS {
 		public static final IRI ST_rast_algebra_addconst =factory.createIRI(NAMESPACE, "ST_AddConst");
 		public static final IRI ST_rast_algebra_and =factory.createIRI(NAMESPACE, "ST_And");
 		public static final IRI ST_rast_algebra_andconst =factory.createIRI(NAMESPACE, "ST_AndConst");
+		public static final IRI ST_rast_algebra_dct = factory.createIRI(NAMESPACE, "ST_DCT");
 		public static final IRI ST_rast_algebra_equal =factory.createIRI(NAMESPACE, "ST_Equal");
 		public static final IRI ST_rast_algebra_exp =factory.createIRI(NAMESPACE, "ST_Exp");
 		public static final IRI ST_rast_algebra_idct =factory.createIRI(NAMESPACE, "ST_IDCT");
@@ -375,6 +376,7 @@ public class POSTGIS {
 		public static final IRI ST_rast_algebra_mult =factory.createIRI(NAMESPACE, "ST_Mult");
 		public static final IRI ST_rast_algebra_multconst =factory.createIRI(NAMESPACE, "ST_MultConst");
 		public static final IRI ST_rast_algebra_not  =factory.createIRI(NAMESPACE, "ST_Not");
+		public static final IRI ST_rast_algebra_threshold = factory.createIRI(NAMESPACE, "ST_Threshold");
 		public static final IRI ST_rast_algebra_xor =factory.createIRI(NAMESPACE, "ST_Xor");
 		public static final IRI ST_rast_algebra_xorconst =factory.createIRI(NAMESPACE, "ST_XorConst");
         public static final IRI st_rast_isEmpty=factory.createIRI(NAMESPACE, "ST_IsEmpty");
@@ -483,6 +485,7 @@ public class POSTGIS {
         public static final IRI st_unaryUnion=factory.createIRI(NAMESPACE, "ST_UnaryUnion");
         public static final IRI st_upperLeftX=factory.createIRI(NAMESPACE, "ST_UpperLeftX");
         public static final IRI st_upperLeftY=factory.createIRI(NAMESPACE, "ST_UpperLeftY");
+		public static final IRI ST_validpixelcount = factory.createIRI(NAMESPACE, "ST_ValidPixelCount");
 		public static final IRI st_value = factory.createIRI(NAMESPACE, "ST_Value");
         public static final IRI st_vectorize=factory.createIRI(NAMESPACE, "ST_Vectorize");
 		public static final IRI st_volume=factory.createIRI(NAMESPACE, "ST_Volume");
@@ -605,6 +608,8 @@ public class POSTGIS {
 		public static final IRI ST_ToDegrees=factory.createIRI(NAMESPACE, "ST_ToDegrees");
 	
 		public static final IRI ST_ToRadians=factory.createIRI(NAMESPACE, "ST_ToRadians");
+
+
 
 
 

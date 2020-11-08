@@ -1,5 +1,19 @@
 package org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.raster.attribute;
 
-public class NoDataPixelCount {
+import org.apache.sis.coverage.grid.GridCoverage;
+import org.eclipse.rdf4j.model.vocabulary.POSTGIS;
+import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.raster.base.RasterAttributeFunction;
+
+public class NoDataPixelCount extends RasterAttributeFunction {
+
+	@Override
+	public String getURI() {
+		return POSTGIS.st_nodataPixelCount.stringValue();
+	}
+
+	@Override
+	public Double attribute(GridCoverage raster) {
+		return (double) raster.render(raster.getGridGeometry().getExtent()).getMinTileY();
+	}
 
 }

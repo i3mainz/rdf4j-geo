@@ -33,7 +33,7 @@ public class HexWKBRastDatatype extends RasterLiteral {
 			System.out.println("Read it: "+geometryLiteral);
 			CRSAuthorityFactory crs=CRS.getAuthorityFactory("EPSG");
 			coverage = reader2.readCoverage(WKBReader.hexToBytes(geometryLiteral),crs);
-			System.out.println("Read wan le: "+coverage);
+			//System.out.println("Read wan le: "+coverage);
 			return coverage;
 		} catch (IOException | FactoryException e) {
 			// TODO Auto-generated catch block

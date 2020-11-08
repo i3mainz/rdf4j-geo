@@ -12,9 +12,9 @@ public class MakeEmptyRaster extends RasterAttributeFunction {
 	}
 
 	@Override
-	public double attribute(GridCoverage geom) {
+	public Double attribute(GridCoverage geom) {
 		// TODO Auto-generated method stub
-		return 0;
+		return 0.;
 	}
 
 }

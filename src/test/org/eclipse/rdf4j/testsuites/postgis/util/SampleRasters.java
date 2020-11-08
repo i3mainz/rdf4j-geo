@@ -1,12 +1,21 @@
 package org.eclipse.rdf4j.testsuites.postgis.util;
 
+import static org.junit.Assert.assertEquals;
+
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
 
 import org.apache.commons.io.IOUtils;
+import org.eclipse.rdf4j.model.Value;
+import org.eclipse.rdf4j.model.ValueFactory;
+import org.eclipse.rdf4j.model.impl.SimpleValueFactory;
+import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.raster.algebra.Log;
+import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.raster.attribute.Summary;
+import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.literals.raster.CovJSONDatatype;
 
 import com.sun.jersey.core.util.Base64;
+
 
 public class SampleRasters {
 
@@ -111,6 +120,21 @@ public class SampleRasters {
 			rasters=new SampleRasters();
 		}
 		return rasters;
+	}
+	
+	public static String displayRasterSummary(String rast) {
+		ValueFactory valfac=SimpleValueFactory.getInstance();
+        Value cov1 = valfac.createLiteral(rast, org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.literals.raster.HexWKBRastDatatype.LiteralIRI);
+        Summary instance=new Summary();
+        Value result= instance.evaluate(valfac,cov1);
+        return result.stringValue();
+	}
+	
+	public static String displayRasterSummary(Value cov1) {		
+		ValueFactory valfac=SimpleValueFactory.getInstance();
+		Summary instance=new Summary();
+        Value result= instance.evaluate(valfac,cov1);
+        return result.stringValue();
 	}
 	
 }

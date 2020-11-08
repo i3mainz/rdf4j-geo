@@ -1,8 +1,5 @@
 package org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.raster.algebra;
 
-import java.awt.image.BufferedImage;
-import java.awt.image.DataBuffer;
-import java.awt.image.WritableRaster;
 import java.awt.image.renderable.ParameterBlock;
 import java.util.LinkedList;
 import java.util.List;
@@ -10,11 +7,16 @@ import java.util.List;
 import javax.media.jai.JAI;
 import javax.media.jai.RenderedOp;
 
+import org.apache.sis.coverage.Category;
 import org.apache.sis.coverage.SampleDimension;
 import org.apache.sis.coverage.grid.GridCoverage;
+import org.apache.sis.coverage.grid.GridExtent;
+import org.apache.sis.coverage.grid.GridGeometry;
 import org.apache.sis.internal.coverage.BufferedGridCoverage;
+import org.apache.sis.util.iso.DefaultNameFactory;
 import org.eclipse.rdf4j.model.vocabulary.POSTGIS;
 import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.raster.base.RasterAlgebraFunction;
+import org.opengis.referencing.datum.PixelInCell;
 
 public class And extends RasterAlgebraFunction {
 
@@ -29,34 +31,18 @@ public class And extends RasterAlgebraFunction {
 		pbSubtracted.addSource(raster.render(raster.getGridGeometry().getExtent()));
 		pbSubtracted.addSource(raster2.render(raster2.getGridGeometry().getExtent()));
 		RenderedOp subtractedImage = JAI.create("and", pbSubtracted);
-		/*
-		 * final GridGeometry grid = new
-		 * GridGeometry(raster.getGridGeometry().getExtent(), PixelInCell.CELL_CENTER,
-		 * MathTransforms.identity(2),
-		 * raster.getGridGeometry().getCoordinateReferenceSystem());
-		 * 
-		 * final MathTransform1D toUnits = (MathTransform1D) MathTransforms.linear(0.5,
-		 * 100);
-		 */
-		final SampleDimension sd = new SampleDimension.Builder().setName("t")
-				.addQuantitative(
-						(raster.getSampleDimensions().get(rd1).getName() + "and"
-								+ raster2.getSampleDimensions().get(rd2).getName()).toString(),
-						raster.getSampleDimensions().get(0).getMeasurementRange().get(),
-						raster.getSampleDimensions().get(0).getTransferFunction().get(),
-						raster.getSampleDimensions().get(0).getUnits().get())
-				.build();
-		
+		final SampleDimension sd =raster.getSampleDimensions().get(rd1);
 		List<SampleDimension>sds=new LinkedList<SampleDimension>();
 		sds.add(sd);
-		/*
-		 * Create the grid coverage, gets its image and set values directly as short
-		 * integers.
-		 */
-		BufferedGridCoverage coverage = new BufferedGridCoverage(raster2.getGridGeometry(),
-				sds, DataBuffer.TYPE_SHORT);
-		WritableRaster rasterr = ((BufferedImage) coverage.render(null)).getRaster();
-		rasterr.setRect(subtractedImage.getSourceImage(0).getData());
+        GridExtent extent=new GridExtent(subtractedImage.getWidth(), subtractedImage.getHeight());
+        GridGeometry gridgeom=new GridGeometry(extent, PixelInCell.CELL_CENTER, raster.getGridGeometry().getGridToCRS(PixelInCell.CELL_CENTER), raster.getCoordinateReferenceSystem());
+        List<SampleDimension> dimensions=new LinkedList<SampleDimension>();
+        DefaultNameFactory fac=new DefaultNameFactory();
+        for(int i=0;i<subtractedImage.getNumBands();i++) {
+        	dimensions.add(new SampleDimension(fac.createGenericName(null,  "Dimension "+i),0.,new LinkedList<Category>()));
+        }
+        BufferedGridCoverage coverage=new BufferedGridCoverage(
+        		gridgeom, dimensions, subtractedImage.getData().getDataBuffer());
 		return coverage;
 	}
 

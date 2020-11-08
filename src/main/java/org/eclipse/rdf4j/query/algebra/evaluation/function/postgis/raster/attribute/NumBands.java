@@ -3,8 +3,9 @@ package org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.raster.attri
 import org.apache.sis.coverage.grid.GridCoverage;
 import org.eclipse.rdf4j.model.vocabulary.POSTGIS;
 import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.raster.base.RasterAttributeFunction;
+import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.raster.base.RasterAttributeIntFunction;
 
-public class NumBands extends RasterAttributeFunction{
+public class NumBands extends RasterAttributeIntFunction{
 
 	@Override
 	public String getURI() {
@@ -12,8 +13,7 @@ public class NumBands extends RasterAttributeFunction{
 	}
 
 	@Override
-	public double attribute(GridCoverage raster) {
-		System.out.println(raster);
+	public Integer attribute(GridCoverage raster) {
 		return raster.getSampleDimensions().size();
 	}
 

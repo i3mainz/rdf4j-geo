@@ -17,7 +17,7 @@ public class SkewY extends RasterAttributeFunction {
 
 
 	@Override
-	public double attribute(GridCoverage raster) {
+	public Double attribute(GridCoverage raster) {
 		GridGeometry gridGeometry2D = raster.getGridGeometry();
         AffineTransform gridToWorld = (AffineTransform) gridGeometry2D.getGridToCRS(PixelInCell.CELL_CENTER);
         return gridToWorld.getShearX();

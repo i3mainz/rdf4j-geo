@@ -19,9 +19,8 @@ public class NumBandsTest extends SampleRasters {
         Value cov1 = valfac.createLiteral(wkbString1, HexWKBRastDatatype.LiteralIRI);
         System.out.println(cov1);
         NumBands instance=new NumBands();
-        Value expResult = valfac.createLiteral(0);
+        Value expResult = valfac.createLiteral(1);
         Value result= instance.evaluate(valfac,cov1);
-        System.out.println(result);
         assertEquals(expResult, result);
 	}
 	

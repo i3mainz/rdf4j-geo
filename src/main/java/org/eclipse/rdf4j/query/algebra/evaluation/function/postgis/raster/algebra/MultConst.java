@@ -10,11 +10,16 @@ import java.util.List;
 import javax.media.jai.JAI;
 import javax.media.jai.RenderedOp;
 
+import org.apache.sis.coverage.Category;
 import org.apache.sis.coverage.SampleDimension;
 import org.apache.sis.coverage.grid.GridCoverage;
+import org.apache.sis.coverage.grid.GridExtent;
+import org.apache.sis.coverage.grid.GridGeometry;
 import org.apache.sis.internal.coverage.BufferedGridCoverage;
+import org.apache.sis.util.iso.DefaultNameFactory;
 import org.eclipse.rdf4j.model.vocabulary.POSTGIS;
 import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.raster.base.RasterAlgebraConstFunction;
+import org.opengis.referencing.datum.PixelInCell;
 
 public class MultConst extends RasterAlgebraConstFunction {
 
@@ -43,26 +48,19 @@ public class MultConst extends RasterAlgebraConstFunction {
 			}
 		}
 		pbSubtracted.add(consts);
-		RenderedOp subtractedImage = JAI.create("multconst", pbSubtracted);
-		final SampleDimension sd = new SampleDimension.Builder().setName("t")
-				.addQuantitative(
-						(raster.getSampleDimensions().get(rd1).getName() + " multconst "
-								+ constt).toString(),
-						raster.getSampleDimensions().get(rd1).getMeasurementRange().get(),
-						raster.getSampleDimensions().get(rd1).getTransferFunction().get(),
-						raster.getSampleDimensions().get(rd1).getUnits().get())
-				.build();
-		
+		RenderedOp subtractedImage = JAI.create("multiplyconst", pbSubtracted);
+		final SampleDimension sd =raster.getSampleDimensions().get(rd1);
 		List<SampleDimension>sds=new LinkedList<SampleDimension>();
 		sds.add(sd);
-		/*
-		 * Create the grid coverage, gets its image and set values directly as short
-		 * integers.
-		 */
-		BufferedGridCoverage coverage = new BufferedGridCoverage(raster.getGridGeometry(),
-				sds, DataBuffer.TYPE_SHORT);
-		WritableRaster rasterr = ((BufferedImage) coverage.render(null)).getRaster();
-		rasterr.setRect(subtractedImage.getSourceImage(0).getData());
+        GridExtent extent=new GridExtent(subtractedImage.getWidth(), subtractedImage.getHeight());
+        GridGeometry gridgeom=new GridGeometry(extent, PixelInCell.CELL_CENTER, raster.getGridGeometry().getGridToCRS(PixelInCell.CELL_CENTER), raster.getCoordinateReferenceSystem());
+        List<SampleDimension> dimensions=new LinkedList<SampleDimension>();
+        DefaultNameFactory fac=new DefaultNameFactory();
+        for(int i=0;i<subtractedImage.getNumBands();i++) {
+        	dimensions.add(new SampleDimension(fac.createGenericName(null,  "Dimension "+i),0.,new LinkedList<Category>()));
+        }
+        BufferedGridCoverage coverage=new BufferedGridCoverage(
+        		gridgeom, dimensions, subtractedImage.getData().getDataBuffer());
 		return coverage;
 	}
 

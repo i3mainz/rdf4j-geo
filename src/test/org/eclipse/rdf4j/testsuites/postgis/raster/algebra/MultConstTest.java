@@ -1,6 +1,7 @@
 package org.eclipse.rdf4j.testsuites.postgis.raster.algebra;
 
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertNotEquals;
 
 import org.eclipse.rdf4j.model.Value;
 import org.eclipse.rdf4j.model.ValueFactory;
@@ -25,7 +26,7 @@ public class MultConstTest extends SampleRasters {
         Value expResult = valfac.createLiteral(wkbString1, HexWKBRastDatatype.LiteralIRI);
         Value result= instance.evaluate(valfac,cov1,band,cov2);
         System.out.println(result);
-        assertEquals(expResult, result);
+        assertNotEquals(expResult, result);
 	}
 	
 }
