@@ -1,6 +1,6 @@
 var a02692 =
 [
-    [ "AddRingTest", "a05834.html", "a05834" ],
-    [ "RemoveRingTest", "a05838.html", "a05838" ],
-    [ "SetRingTest", "a05842.html", "a05842" ]
+    [ "TWKBReader", "a05165.html", "a05165" ],
+    [ "TWKBUtils", "a05181.html", "a05181" ],
+    [ "TWKBWriter", "a05185.html", "a05185" ]
 ];

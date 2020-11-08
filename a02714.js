@@ -1,10 +1,10 @@
 var a02714 =
 [
-    [ "TripleStoreConnection", "a02714.html#a99975d732097fdfe4f47d2964403e230", null ],
-    [ "executeQuery", "a02714.html#afc28007d407dd38599a43837f62668c1", null ],
-    [ "main", "a02714.html#a8b260eecbaabcef8473fd87ada040682", null ],
-    [ "INSTANCE", "a02714.html#a6f5f1a252f13ef259f6f4fa12b72f2a4", null ],
-    [ "modelmap", "a02714.html#a3c4a20fbf4fb24d73799bdd30661d7b0", null ],
-    [ "prefixCollection", "a02714.html#ab228ed3bdfee44797a6b31717ec5022a", null ],
-    [ "repo", "a02714.html#aa988c42c1c1c9f1d313c217ec0b5e2e0", null ]
+    [ "AddGeometryTest", "a05429.html", "a05429" ],
+    [ "AddPointTest", "a05433.html", "a05433" ],
+    [ "EnsureClosedTest", "a05437.html", "a05437" ],
+    [ "RemoveGeometryTest", "a05441.html", "a05441" ],
+    [ "RemovePointTest", "a05445.html", "a05445" ],
+    [ "SetGeometryTest", "a05449.html", "a05449" ],
+    [ "SetPointTest", "a05453.html", "a05453" ]
 ];

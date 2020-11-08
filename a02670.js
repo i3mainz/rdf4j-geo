@@ -1,12 +1,10 @@
 var a02670 =
 [
-    [ "envelope", "a02671.html", "a02671" ],
-    [ "geometry", "a02673.html", "a02673" ],
-    [ "linestring", "a02681.html", "a02681" ],
-    [ "math", "a02685.html", "a02685" ],
-    [ "point", "a02687.html", "a02687" ],
-    [ "polygon", "a02690.html", "a02690" ],
-    [ "raster", "a02695.html", "a02695" ],
-    [ "unit", "a02700.html", "a02700" ],
-    [ "util", "a02701.html", "a02701" ]
+    [ "AddBand", "a04605.html", "a04605" ],
+    [ "SetBandNoDataValue", "a04609.html", "a04609" ],
+    [ "SetGeoReference", "a04613.html", null ],
+    [ "SetRotation", "a04617.html", "a04617" ],
+    [ "SetScale", "a04621.html", "a04621" ],
+    [ "SetSkew", "a04625.html", "a04625" ],
+    [ "SetUpperLeft", "a04629.html", "a04629" ]
 ];

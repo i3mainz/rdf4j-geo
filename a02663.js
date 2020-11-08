@@ -1,6 +1,6 @@
 var a02663 =
 [
-    [ "LengthSubstring", "a05114.html", "a05114" ],
-    [ "LengthToPoint", "a05118.html", "a05118" ],
-    [ "LocatePoint", "a05122.html", "a05122" ]
+    [ "AddInteriorRing", "a04133.html", "a04133" ],
+    [ "RemoveInteriorRing", "a04137.html", "a04137" ],
+    [ "SetInteriorRing", "a04141.html", "a04141" ]
 ];

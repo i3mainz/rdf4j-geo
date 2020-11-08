@@ -1,2620 +1,2662 @@
 var files =
 [
-    [ "math/Abs.java", "a07583.html", [
-      [ "Abs", "a03794.html", "a03794" ]
+    [ "math/Abs.java", "a07814.html", [
+      [ "Abs", "a03845.html", "a03845" ]
     ] ],
-    [ "raster/algebra/Abs.java", "a07586.html", [
-      [ "Abs", "a04114.html", "a04114" ]
+    [ "raster/algebra/Abs.java", "a07817.html", [
+      [ "Abs", "a04165.html", "a04165" ]
     ] ],
-    [ "ACos.java", "a00809.html", [
-      [ "ACos", "a03798.html", "a03798" ]
+    [ "ACos.java", "a00818.html", [
+      [ "ACos", "a03849.html", "a03849" ]
     ] ],
-    [ "Add.java", "a01046.html", [
-      [ "Add", "a04118.html", "a04118" ]
+    [ "Add.java", "a01055.html", [
+      [ "Add", "a04169.html", "a04169" ]
     ] ],
-    [ "AddBand.java", "a01346.html", [
-      [ "AddBand", "a04530.html", "a04530" ]
+    [ "AddBand.java", "a01373.html", [
+      [ "AddBand", "a04605.html", "a04605" ]
     ] ],
-    [ "AddConst.java", "a01049.html", [
-      [ "AddConst", "a04122.html", "a04122" ]
+    [ "AddConst.java", "a01058.html", [
+      [ "AddConst", "a04173.html", "a04173" ]
     ] ],
-    [ "AddConstTest.java", "a02303.html", [
-      [ "AddConstTest", "a05858.html", "a05858" ]
+    [ "AddConstTest.java", "a02342.html", [
+      [ "AddConstTest", "a05961.html", "a05961" ]
     ] ],
-    [ "AddGeometry.java", "a00386.html", [
-      [ "AddGeometry", "a03226.html", "a03226" ]
+    [ "AddGeometry.java", "a00389.html", [
+      [ "AddGeometry", "a03269.html", "a03269" ]
     ] ],
-    [ "AddGeometryTest.java", "a01907.html", [
-      [ "AddGeometryTest", "a05330.html", "a05330" ]
+    [ "AddGeometryTest.java", "a01943.html", [
+      [ "AddGeometryTest", "a05429.html", "a05429" ]
     ] ],
-    [ "AddInteriorRing.java", "a01022.html", [
-      [ "AddInteriorRing", "a04082.html", "a04082" ]
+    [ "AddInteriorRing.java", "a01031.html", [
+      [ "AddInteriorRing", "a04133.html", "a04133" ]
     ] ],
-    [ "AddIsoNode.java", "a01475.html", [
-      [ "AddIsoNode", "a04706.html", "a04706" ]
+    [ "AddIsoNode.java", "a01505.html", [
+      [ "AddIsoNode", "a04785.html", "a04785" ]
     ] ],
-    [ "AddMeasure.java", "a00755.html", [
-      [ "AddMeasure", "a03722.html", "a03722" ]
+    [ "AddMeasure.java", "a00761.html", [
+      [ "AddMeasure", "a03769.html", "a03769" ]
     ] ],
-    [ "AddPoint.java", "a00758.html", [
-      [ "AddPoint", "a03726.html", "a03726" ]
+    [ "AddPoint.java", "a00764.html", [
+      [ "AddPoint", "a03773.html", "a03773" ]
     ] ],
-    [ "AddPointTest.java", "a01910.html", [
-      [ "AddPointTest", "a05334.html", "a05334" ]
+    [ "AddPointTest.java", "a01946.html", [
+      [ "AddPointTest", "a05433.html", "a05433" ]
     ] ],
-    [ "AddRingTest.java", "a02285.html", [
-      [ "AddRingTest", "a05834.html", "a05834" ]
+    [ "AddRingTest.java", "a02324.html", [
+      [ "AddRingTest", "a05937.html", "a05937" ]
     ] ],
-    [ "AddTest.java", "a02306.html", [
-      [ "AddTest", "a05862.html", "a05862" ]
+    [ "AddTest.java", "a02345.html", [
+      [ "AddTest", "a05965.html", "a05965" ]
     ] ],
-    [ "AddZ.java", "a00389.html", [
-      [ "AddZ", "a03230.html", "a03230" ]
+    [ "AddZ.java", "a00392.html", [
+      [ "AddZ", "a03273.html", "a03273" ]
     ] ],
     [ "AggCentroid.java", "a00017.html", [
-      [ "AggCentroid", "a02730.html", "a02730" ]
+      [ "AggCentroid", "a02769.html", "a02769" ]
     ] ],
-    [ "And.java", "a01052.html", [
-      [ "And", "a04126.html", "a04126" ]
+    [ "And.java", "a01061.html", [
+      [ "And", "a04177.html", "a04177" ]
     ] ],
-    [ "AndConst.java", "a01055.html", [
-      [ "AndConst", "a04130.html", "a04130" ]
+    [ "AndConst.java", "a01064.html", [
+      [ "AndConst", "a04181.html", "a04181" ]
     ] ],
-    [ "AndConstTest.java", "a02309.html", [
-      [ "AndConstTest", "a05866.html", "a05866" ]
+    [ "AndConstTest.java", "a02348.html", [
+      [ "AndConstTest", "a05969.html", "a05969" ]
     ] ],
-    [ "AndTest.java", "a02312.html", [
-      [ "AndTest", "a05870.html", "a05870" ]
+    [ "AndTest.java", "a02351.html", [
+      [ "AndTest", "a05973.html", "a05973" ]
     ] ],
-    [ "Angle.java", "a00869.html", [
-      [ "Angle", "a03878.html", "a03878" ]
+    [ "Angle.java", "a00878.html", [
+      [ "Angle", "a03929.html", "a03929" ]
     ] ],
-    [ "AngleTest.java", "a02177.html", [
-      [ "AngleTest", "a05690.html", "a05690" ]
+    [ "AngleTest.java", "a02213.html", [
+      [ "AngleTest", "a05789.html", "a05789" ]
     ] ],
-    [ "ApproximateMedialAxis.java", "a00941.html", [
-      [ "ApproximateMedialAxis", "a03974.html", "a03974" ]
+    [ "ApproximateMedialAxis.java", "a00950.html", [
+      [ "ApproximateMedialAxis", "a04025.html", "a04025" ]
     ] ],
     [ "Area.java", "a00122.html", [
-      [ "Area", "a02870.html", "a02870" ]
+      [ "Area", "a02909.html", "a02909" ]
     ] ],
     [ "Area3D.java", "a00125.html", [
-      [ "Area3D", "a02874.html", "a02874" ]
+      [ "Area3D", "a02913.html", "a02913" ]
     ] ],
-    [ "AreaSimilarity.java", "a00473.html", [
-      [ "AreaSimilarity", "a03342.html", "a03342" ]
+    [ "AreaSimilarity.java", "a00476.html", [
+      [ "AreaSimilarity", "a03385.html", "a03385" ]
     ] ],
-    [ "AreaSimilarityTest.java", "a01967.html", [
-      [ "AreaSimilarityTest", "a05410.html", "a05410" ]
+    [ "AreaSimilarityTest.java", "a02003.html", [
+      [ "AreaSimilarityTest", "a05509.html", "a05509" ]
     ] ],
-    [ "AreaTest.java", "a01790.html", [
-      [ "AreaTest", "a05174.html", "a05174" ]
+    [ "AreaTest.java", "a01826.html", [
+      [ "AreaTest", "a05273.html", "a05273" ]
     ] ],
-    [ "AsBinary.java", "a00410.html", [
-      [ "AsBinary", "a03258.html", "a03258" ]
+    [ "AsBinary.java", "a00413.html", [
+      [ "AsBinary", "a03301.html", "a03301" ]
     ] ],
-    [ "AsBinaryTest.java", "a01928.html", [
-      [ "AsBinaryTest", "a05358.html", "a05358" ]
+    [ "AsBinaryTest.java", "a01964.html", [
+      [ "AsBinaryTest", "a05457.html", "a05457" ]
     ] ],
-    [ "AsCoverageJSON.java", "a01367.html", [
-      [ "AsCoverageJSON", "a04558.html", "a04558" ]
+    [ "AsCoverageJSON.java", "a01394.html", [
+      [ "AsCoverageJSON", "a04633.html", "a04633" ]
     ] ],
-    [ "AsCoverageJSONTest.java", "a02462.html", [
-      [ "AsCoverageJSONTest", "a06074.html", "a06074" ]
+    [ "AsCoverageJSONTest.java", "a02501.html", [
+      [ "AsCoverageJSONTest", "a06177.html", "a06177" ]
     ] ],
-    [ "AsEncodedPolyline.java", "a00773.html", [
-      [ "AsEncodedPolyline", "a03746.html", "a03746" ]
+    [ "AsEncodedPolyline.java", "a00779.html", [
+      [ "AsEncodedPolyline", "a03793.html", "a03793" ]
     ] ],
-    [ "AsEncodedPolylineTest.java", "a02168.html", [
-      [ "AsEncodedPolylineTest", "a05678.html", "a05678" ]
+    [ "AsEncodedPolylineTest.java", "a02204.html", [
+      [ "AsEncodedPolylineTest", "a05777.html", "a05777" ]
     ] ],
-    [ "AsGARS.java", "a00413.html", [
-      [ "AsGARS", "a03262.html", "a03262" ]
+    [ "AsGARS.java", "a00416.html", [
+      [ "AsGARS", "a03305.html", "a03305" ]
     ] ],
-    [ "AsGARSTest.java", "a01931.html", [
-      [ "AsGARSTest", "a05362.html", "a05362" ]
+    [ "AsGARSTest.java", "a01967.html", [
+      [ "AsGARSTest", "a05461.html", "a05461" ]
     ] ],
-    [ "AsGeobuf.java", "a00416.html", [
-      [ "AsGeobuf", "a03266.html", "a03266" ]
+    [ "AsGeobuf.java", "a00419.html", [
+      [ "AsGeobuf", "a03309.html", "a03309" ]
     ] ],
-    [ "AsGeoHash.java", "a00419.html", [
-      [ "AsGeoHash", "a03270.html", "a03270" ]
+    [ "AsGeoHash.java", "a00422.html", [
+      [ "AsGeoHash", "a03313.html", "a03313" ]
     ] ],
-    [ "AsGeoJSON.java", "a00422.html", [
-      [ "AsGeoJSON", "a03274.html", "a03274" ]
+    [ "AsGeoJSON.java", "a00425.html", [
+      [ "AsGeoJSON", "a03317.html", "a03317" ]
     ] ],
-    [ "AsGeoJSONTest.java", "a01934.html", [
-      [ "AsGeoJSONTest", "a05366.html", "a05366" ]
+    [ "AsGeoJSONTest.java", "a01970.html", [
+      [ "AsGeoJSONTest", "a05465.html", "a05465" ]
     ] ],
-    [ "AsGeometry.java", "a01322.html", [
-      [ "AsGeometry", "a04498.html", "a04498" ]
+    [ "AsGeometry.java", "a01349.html", [
+      [ "AsGeometry", "a04573.html", "a04573" ]
     ] ],
-    [ "AsGeoRSS.java", "a00425.html", [
-      [ "AsGeoRSS", "a03278.html", "a03278" ]
+    [ "AsGeoRSS.java", "a00428.html", [
+      [ "AsGeoRSS", "a03321.html", "a03321" ]
     ] ],
-    [ "AsGeoRSSTest.java", "a01937.html", [
-      [ "AsGeoRSSTest", "a05370.html", "a05370" ]
+    [ "AsGeoRSSTest.java", "a01973.html", [
+      [ "AsGeoRSSTest", "a05469.html", "a05469" ]
     ] ],
-    [ "AsGeoTIFF.java", "a01370.html", [
-      [ "AsGeoTIFF", "a04562.html", "a04562" ]
+    [ "AsGeoTIFF.java", "a01397.html", [
+      [ "AsGeoTIFF", "a04637.html", "a04637" ]
     ] ],
-    [ "AsGeoTIFFTest.java", "a02465.html", [
-      [ "AsGeoTIFFTest", "a06078.html", "a06078" ]
+    [ "AsGeoTIFFTest.java", "a02504.html", [
+      [ "AsGeoTIFFTest", "a06181.html", "a06181" ]
     ] ],
-    [ "AsGeoURI.java", "a00428.html", [
-      [ "AsGeoURI", "a03282.html", "a03282" ]
+    [ "AsGeoURI.java", "a00431.html", [
+      [ "AsGeoURI", "a03325.html", "a03325" ]
     ] ],
-    [ "AsGeoURITest.java", "a01940.html", [
-      [ "AsGeoURITest", "a05374.html", "a05374" ]
+    [ "AsGeoURITest.java", "a01976.html", [
+      [ "AsGeoURITest", "a05473.html", "a05473" ]
     ] ],
-    [ "AsGML.java", "a00431.html", [
-      [ "AsGML", "a03286.html", "a03286" ]
+    [ "AsGML.java", "a00434.html", [
+      [ "AsGML", "a03329.html", "a03329" ]
     ] ],
-    [ "AsGMLCOV.java", "a01373.html", [
-      [ "AsGMLCOV", "a04566.html", "a04566" ]
+    [ "AsGMLCOV.java", "a01400.html", [
+      [ "AsGMLCOV", "a04641.html", "a04641" ]
     ] ],
-    [ "AsGPX.java", "a00434.html", [
-      [ "AsGPX", "a03290.html", "a03290" ]
+    [ "AsGPX.java", "a00437.html", [
+      [ "AsGPX", "a03333.html", "a03333" ]
     ] ],
-    [ "ASin.java", "a00812.html", [
-      [ "ASin", "a03802.html", "a03802" ]
+    [ "ASin.java", "a00821.html", [
+      [ "ASin", "a03853.html", "a03853" ]
     ] ],
-    [ "AsKML.java", "a00437.html", [
-      [ "AsKML", "a03294.html", "a03294" ]
+    [ "AsKML.java", "a00440.html", [
+      [ "AsKML", "a03337.html", "a03337" ]
     ] ],
-    [ "AsLatLonText.java", "a00440.html", [
-      [ "AsLatLonText", "a03298.html", "a03298" ]
+    [ "AsLatLonText.java", "a00443.html", [
+      [ "AsLatLonText", "a03341.html", "a03341" ]
     ] ],
-    [ "AsLatLonTextTest.java", "a01943.html", [
-      [ "AsLatLonTextTest", "a05378.html", "a05378" ]
+    [ "AsLatLonTextTest.java", "a01979.html", [
+      [ "AsLatLonTextTest", "a05477.html", "a05477" ]
     ] ],
-    [ "AsMVT.java", "a00443.html", [
-      [ "AsMVT", "a03302.html", "a03302" ]
+    [ "AsMVT.java", "a00446.html", [
+      [ "AsMVT", "a03345.html", "a03345" ]
     ] ],
-    [ "AsNetCDF.java", "a01376.html", [
-      [ "AsNetCDF", "a04570.html", "a04570" ]
+    [ "AsNetCDF.java", "a01403.html", [
+      [ "AsNetCDF", "a04645.html", "a04645" ]
     ] ],
-    [ "AsOSMLink.java", "a00446.html", [
-      [ "AsOSMLink", "a03306.html", "a03306" ]
+    [ "AsOSMLink.java", "a00449.html", [
+      [ "AsOSMLink", "a03349.html", "a03349" ]
     ] ],
-    [ "AsOSMLinkTest.java", "a01946.html", [
-      [ "AsOSMLinkTest", "a05382.html", "a05382" ]
+    [ "AsOSMLinkTest.java", "a01982.html", [
+      [ "AsOSMLinkTest", "a05481.html", "a05481" ]
     ] ],
-    [ "main/java/org/eclipse/rdf4j/query/algebra/evaluation/function/postgis/raster/exporter/AsPolygon.java", "a07589.html", [
-      [ "AsPolygon", "a04574.html", null ]
+    [ "main/java/org/eclipse/rdf4j/query/algebra/evaluation/function/postgis/raster/exporter/AsPolygon.java", "a07820.html", [
+      [ "AsPolygon", "a04649.html", null ]
     ] ],
-    [ "test/de/hsmainz/cs/semgis/arqextension/test/raster/exporter/AsPolygon.java", "a07592.html", [
-      [ "AsPolygon", "a05126.html", null ]
+    [ "test/de/hsmainz/cs/semgis/arqextension/test/raster/exporter/AsPolygon.java", "a07823.html", [
+      [ "AsPolygon", "a05225.html", null ]
     ] ],
-    [ "AsPolyshape.java", "a00449.html", [
-      [ "AsPolyshape", "a03310.html", "a03310" ]
+    [ "AsPolyshape.java", "a00452.html", [
+      [ "AsPolyshape", "a03353.html", "a03353" ]
     ] ],
-    [ "AsPolyshapeTest.java", "a01949.html", [
-      [ "AsPolyshapeTest", "a05386.html", "a05386" ]
+    [ "AsPolyshapeTest.java", "a01985.html", [
+      [ "AsPolyshapeTest", "a05485.html", "a05485" ]
     ] ],
-    [ "AsRaster.java", "a01325.html", [
-      [ "AsRaster", "a04502.html", "a04502" ]
+    [ "AsRaster.java", "a01352.html", [
+      [ "AsRaster", "a04577.html", "a04577" ]
     ] ],
-    [ "AsRastHexWKB.java", "a01382.html", [
-      [ "AsRastHexWKB", "a04578.html", "a04578" ]
+    [ "AsRastHexWKB.java", "a01409.html", [
+      [ "AsRastHexWKB", "a04653.html", "a04653" ]
     ] ],
-    [ "AsRastHexWKBTest.java", "a02468.html", [
-      [ "AsRastHexWKBTest", "a06082.html", "a06082" ]
+    [ "AsRastHexWKBTest.java", "a02507.html", [
+      [ "AsRastHexWKBTest", "a06185.html", "a06185" ]
     ] ],
-    [ "AsRastWKB.java", "a01385.html", [
-      [ "AsRastWKB", "a04582.html", "a04582" ]
+    [ "AsRastWKB.java", "a01412.html", [
+      [ "AsRastWKB", "a04657.html", "a04657" ]
     ] ],
-    [ "AsRastWKBTest.java", "a02471.html", [
-      [ "AsRastWKBTest", "a06086.html", "a06086" ]
+    [ "AsRastWKBTest.java", "a02510.html", [
+      [ "AsRastWKBTest", "a06189.html", "a06189" ]
     ] ],
-    [ "AsSVG.java", "a00452.html", [
-      [ "AsSVG", "a03314.html", "a03314" ]
+    [ "AsSVG.java", "a00455.html", [
+      [ "AsSVG", "a03357.html", "a03357" ]
     ] ],
-    [ "AsSVGTest.java", "a01952.html", [
-      [ "AsSVGTest", "a05390.html", "a05390" ]
+    [ "AsSVGTest.java", "a01988.html", [
+      [ "AsSVGTest", "a05489.html", "a05489" ]
     ] ],
-    [ "AsText.java", "a00455.html", [
-      [ "AsText", "a03318.html", "a03318" ]
+    [ "AsText.java", "a00458.html", [
+      [ "AsText", "a03361.html", "a03361" ]
     ] ],
-    [ "AsTextRaw.java", "a00458.html", [
-      [ "AsTextRaw", "a03322.html", "a03322" ]
+    [ "AsTextRaw.java", "a00461.html", [
+      [ "AsTextRaw", "a03365.html", "a03365" ]
     ] ],
-    [ "AsTextRawTest.java", "a01955.html", [
-      [ "AsTextRawTest", "a05394.html", "a05394" ]
+    [ "AsTextRawTest.java", "a01991.html", [
+      [ "AsTextRawTest", "a05493.html", "a05493" ]
     ] ],
-    [ "AsTextRound.java", "a00461.html", [
-      [ "AsTextRound", "a03326.html", "a03326" ]
+    [ "AsTextRound.java", "a00464.html", [
+      [ "AsTextRound", "a03369.html", "a03369" ]
     ] ],
-    [ "AsTextRoundTest.java", "a01958.html", [
-      [ "AsTextRoundTest", "a05398.html", "a05398" ]
+    [ "AsTextRoundTest.java", "a01994.html", [
+      [ "AsTextRoundTest", "a05497.html", "a05497" ]
     ] ],
-    [ "AsTextTest.java", "a01961.html", [
-      [ "AsTextTest", "a05402.html", "a05402" ]
+    [ "AsTextTest.java", "a01997.html", [
+      [ "AsTextTest", "a05501.html", "a05501" ]
     ] ],
-    [ "AsTopoJSON.java", "a01490.html", [
-      [ "AsTopoJSON", "a04726.html", "a04726" ]
+    [ "AsTopoJSON.java", "a01520.html", [
+      [ "AsTopoJSON", "a04805.html", "a04805" ]
     ] ],
-    [ "AsTWKB.java", "a00464.html", [
-      [ "AsTWKB", "a03330.html", "a03330" ]
+    [ "AsTWKB.java", "a00467.html", [
+      [ "AsTWKB", "a03373.html", "a03373" ]
     ] ],
-    [ "AsTWKBTest.java", "a01964.html", [
-      [ "AsTWKBTest", "a05406.html", "a05406" ]
+    [ "AsTWKBTest.java", "a02000.html", [
+      [ "AsTWKBTest", "a05505.html", "a05505" ]
     ] ],
-    [ "AsX3D.java", "a00467.html", [
-      [ "AsX3D", "a03334.html", "a03334" ]
+    [ "AsX3D.java", "a00470.html", [
+      [ "AsX3D", "a03377.html", "a03377" ]
     ] ],
-    [ "ATan.java", "a00815.html", [
-      [ "ATan", "a03806.html", "a03806" ]
+    [ "ATan.java", "a00824.html", [
+      [ "ATan", "a03857.html", "a03857" ]
     ] ],
     [ "AvgX.java", "a00020.html", [
-      [ "AvgX", "a02734.html", "a02734" ]
+      [ "AvgX", "a02773.html", "a02773" ]
     ] ],
     [ "AvgY.java", "a00023.html", [
-      [ "AvgY", "a02738.html", "a02738" ]
+      [ "AvgY", "a02777.html", "a02777" ]
     ] ],
     [ "AvgZ.java", "a00026.html", [
-      [ "AvgZ", "a02742.html", "a02742" ]
+      [ "AvgZ", "a02781.html", "a02781" ]
     ] ],
-    [ "Band.java", "a01118.html", [
-      [ "Band", "a04222.html", "a04222" ]
+    [ "Band.java", "a01133.html", [
+      [ "Band", "a04281.html", "a04281" ]
     ] ],
-    [ "BandIsNoData.java", "a01121.html", [
-      [ "BandIsNoData", "a04226.html", "a04226" ]
+    [ "BandIsNoData.java", "a01136.html", [
+      [ "BandIsNoData", "a04285.html", "a04285" ]
     ] ],
-    [ "BandMax.java", "a01124.html", [
-      [ "BandMax", "a04230.html", "a04230" ]
+    [ "BandMax.java", "a01139.html", [
+      [ "BandMax", "a04289.html", "a04289" ]
     ] ],
-    [ "BandMetadata.java", "a01127.html", [
-      [ "BandMetadata", "a04234.html", "a04234" ]
+    [ "BandMetadata.java", "a01142.html", [
+      [ "BandMetadata", "a04293.html", "a04293" ]
     ] ],
-    [ "BandMin.java", "a01130.html", [
-      [ "BandMin", "a04238.html", "a04238" ]
+    [ "BandMin.java", "a01145.html", [
+      [ "BandMin", "a04297.html", "a04297" ]
     ] ],
-    [ "BandNoDataValue.java", "a01133.html", [
-      [ "BandNoDataValue", "a04242.html", "a04242" ]
+    [ "BandNoDataValue.java", "a01148.html", [
+      [ "BandNoDataValue", "a04301.html", "a04301" ]
     ] ],
-    [ "BandNoDataValueTest.java", "a02360.html", [
-      [ "BandNoDataValueTest", "a05934.html", "a05934" ]
+    [ "BandNoDataValueTest.java", "a02399.html", [
+      [ "BandNoDataValueTest", "a06037.html", "a06037" ]
     ] ],
-    [ "BandTest.java", "a02363.html", [
-      [ "BandTest", "a05938.html", "a05938" ]
+    [ "BandTest.java", "a02402.html", [
+      [ "BandTest", "a06041.html", "a06041" ]
     ] ],
     [ "BBOXAbove.java", "a00080.html", [
-      [ "BBOXAbove", "a02814.html", "a02814" ]
+      [ "BBOXAbove", "a02853.html", "a02853" ]
     ] ],
-    [ "BBOXAboveTest.java", "a01757.html", [
-      [ "BBOXAboveTest", "a05130.html", "a05130" ]
+    [ "BBOXAboveTest.java", "a01793.html", [
+      [ "BBOXAboveTest", "a05229.html", "a05229" ]
     ] ],
     [ "BBOXBelow.java", "a00083.html", [
-      [ "BBOXBelow", "a02818.html", "a02818" ]
+      [ "BBOXBelow", "a02857.html", "a02857" ]
     ] ],
-    [ "BBOXBelowTest.java", "a01760.html", [
-      [ "BBOXBelowTest", "a05134.html", "a05134" ]
+    [ "BBOXBelowTest.java", "a01796.html", [
+      [ "BBOXBelowTest", "a05233.html", "a05233" ]
     ] ],
     [ "BBOXContains.java", "a00086.html", [
-      [ "BBOXContains", "a02822.html", "a02822" ]
+      [ "BBOXContains", "a02861.html", "a02861" ]
     ] ],
-    [ "BBOXContainsTest.java", "a01763.html", [
-      [ "BBOXContainsTest", "a05138.html", "a05138" ]
+    [ "BBOXContainsTest.java", "a01799.html", [
+      [ "BBOXContainsTest", "a05237.html", "a05237" ]
     ] ],
     [ "BBOXDistance.java", "a00089.html", [
-      [ "BBOXDistance", "a02826.html", "a02826" ]
+      [ "BBOXDistance", "a02865.html", "a02865" ]
     ] ],
-    [ "BBOXDistanceTest.java", "a01766.html", [
-      [ "BBOXDistanceTest", "a05142.html", "a05142" ]
+    [ "BBOXDistanceTest.java", "a01802.html", [
+      [ "BBOXDistanceTest", "a05241.html", "a05241" ]
     ] ],
     [ "BBOXEquals.java", "a00092.html", [
-      [ "BBOXEquals", "a02830.html", "a02830" ]
+      [ "BBOXEquals", "a02869.html", "a02869" ]
     ] ],
-    [ "BBOXEqualsTest.java", "a01769.html", [
-      [ "BBOXEqualsTest", "a05146.html", "a05146" ]
+    [ "BBOXEqualsTest.java", "a01805.html", [
+      [ "BBOXEqualsTest", "a05245.html", "a05245" ]
     ] ],
     [ "BBOXFPIntersects.java", "a00095.html", [
-      [ "BBOXFPIntersects", "a02834.html", "a02834" ]
+      [ "BBOXFPIntersects", "a02873.html", "a02873" ]
     ] ],
     [ "BBOXIntersects.java", "a00098.html", [
-      [ "BBOXIntersects", "a02838.html", "a02838" ]
+      [ "BBOXIntersects", "a02877.html", "a02877" ]
     ] ],
-    [ "BBOXIntersectsTest.java", "a01772.html", [
-      [ "BBOXIntersectsTest", "a05150.html", "a05150" ]
+    [ "BBOXIntersectsTest.java", "a01808.html", [
+      [ "BBOXIntersectsTest", "a05249.html", "a05249" ]
     ] ],
     [ "BBOXIsContainedBy.java", "a00101.html", [
-      [ "BBOXIsContainedBy", "a02842.html", "a02842" ]
+      [ "BBOXIsContainedBy", "a02881.html", "a02881" ]
     ] ],
-    [ "BBOXIsContainedByTest.java", "a01775.html", [
-      [ "BBOXIsContainedByTest", "a05154.html", "a05154" ]
+    [ "BBOXIsContainedByTest.java", "a01811.html", [
+      [ "BBOXIsContainedByTest", "a05253.html", "a05253" ]
     ] ],
     [ "BBOXLeftOf.java", "a00104.html", [
-      [ "BBOXLeftOf", "a02846.html", "a02846" ]
+      [ "BBOXLeftOf", "a02885.html", "a02885" ]
     ] ],
-    [ "BBOXLeftOfTest.java", "a01778.html", [
-      [ "BBOXLeftOfTest", "a05158.html", "a05158" ]
+    [ "BBOXLeftOfTest.java", "a01814.html", [
+      [ "BBOXLeftOfTest", "a05257.html", "a05257" ]
     ] ],
     [ "BBOXOverlapsAbove.java", "a00107.html", [
-      [ "BBOXOverlapsAbove", "a02850.html", "a02850" ]
+      [ "BBOXOverlapsAbove", "a02889.html", "a02889" ]
     ] ],
     [ "BBOXOverlapsBelow.java", "a00110.html", [
-      [ "BBOXOverlapsBelow", "a02854.html", "a02854" ]
+      [ "BBOXOverlapsBelow", "a02893.html", "a02893" ]
     ] ],
     [ "BBOXOverlapsLeft.java", "a00113.html", [
-      [ "BBOXOverlapsLeft", "a02858.html", "a02858" ]
+      [ "BBOXOverlapsLeft", "a02897.html", "a02897" ]
     ] ],
-    [ "BBOXOverlapsLeftTest.java", "a01781.html", [
-      [ "BBOXOverlapsLeftTest", "a05162.html", "a05162" ]
+    [ "BBOXOverlapsLeftTest.java", "a01817.html", [
+      [ "BBOXOverlapsLeftTest", "a05261.html", "a05261" ]
     ] ],
     [ "BBOXOverlapsRight.java", "a00116.html", [
-      [ "BBOXOverlapsRight", "a02862.html", "a02862" ]
+      [ "BBOXOverlapsRight", "a02901.html", "a02901" ]
     ] ],
-    [ "BBOXOverlapsRightTest.java", "a01784.html", [
-      [ "BBOXOverlapsRightTest", "a05166.html", "a05166" ]
+    [ "BBOXOverlapsRightTest.java", "a01820.html", [
+      [ "BBOXOverlapsRightTest", "a05265.html", "a05265" ]
     ] ],
     [ "BBOXRightOf.java", "a00119.html", [
-      [ "BBOXRightOf", "a02866.html", "a02866" ]
+      [ "BBOXRightOf", "a02905.html", "a02905" ]
     ] ],
-    [ "BBOXRightOfTest.java", "a01787.html", [
-      [ "BBOXRightOfTest", "a05170.html", "a05170" ]
+    [ "BBOXRightOfTest.java", "a01823.html", [
+      [ "BBOXRightOfTest", "a05269.html", "a05269" ]
+    ] ],
+    [ "BezierSmoothing.java", "a00791.html", [
+      [ "BezierSmoothing", "a03813.html", "a03813" ]
     ] ],
     [ "Boundary.java", "a00128.html", [
-      [ "Boundary", "a02878.html", "a02878" ]
+      [ "Boundary", "a02917.html", "a02917" ]
     ] ],
-    [ "BoundaryTest.java", "a01793.html", [
-      [ "BoundaryTest", "a05178.html", "a05178" ]
+    [ "BoundaryTest.java", "a01829.html", [
+      [ "BoundaryTest", "a05277.html", "a05277" ]
     ] ],
     [ "BoundingBox.java", "a00029.html", [
-      [ "BoundingBox", "a02746.html", "a02746" ]
+      [ "BoundingBox", "a02785.html", "a02785" ]
     ] ],
     [ "BoundingDiagonal.java", "a00131.html", [
-      [ "BoundingDiagonal", "a02882.html", "a02882" ]
+      [ "BoundingDiagonal", "a02921.html", "a02921" ]
     ] ],
-    [ "BoundingDiagonalTest.java", "a01796.html", [
-      [ "BoundingDiagonalTest", "a05182.html", "a05182" ]
+    [ "BoundingDiagonalTest.java", "a01832.html", [
+      [ "BoundingDiagonalTest", "a05281.html", "a05281" ]
     ] ],
     [ "Box2DFromGeoHash.java", "a00062.html", [
-      [ "Box2DFromGeoHash", "a02790.html", null ]
+      [ "Box2DFromGeoHash", "a02829.html", null ]
     ] ],
-    [ "Ceil.java", "a00818.html", [
-      [ "Ceil", "a03810.html", "a03810" ]
+    [ "Ceil.java", "a00827.html", [
+      [ "Ceil", "a03861.html", "a03861" ]
     ] ],
-    [ "CentimeterToMeter.java", "a01499.html", [
-      [ "CentimeterToMeter", "a04738.html", "a04738" ]
+    [ "CentimeterToMeter.java", "a01529.html", [
+      [ "CentimeterToMeter", "a04817.html", "a04817" ]
     ] ],
-    [ "CentimeterToMeterTest.java", "a02474.html", [
-      [ "CentimeterToMeterTest", "a06090.html", "a06090" ]
+    [ "CentimeterToMeterTest.java", "a02513.html", [
+      [ "CentimeterToMeterTest", "a06193.html", "a06193" ]
     ] ],
     [ "Centroid.java", "a00134.html", [
-      [ "Centroid", "a02886.html", "a02886" ]
+      [ "Centroid", "a02925.html", "a02925" ]
     ] ],
-    [ "CentroidDistance.java", "a00476.html", [
-      [ "CentroidDistance", "a03346.html", "a03346" ]
+    [ "CentroidDistance.java", "a00479.html", [
+      [ "CentroidDistance", "a03389.html", "a03389" ]
     ] ],
-    [ "CentroidDistanceTest.java", "a01970.html", [
-      [ "CentroidDistanceTest", "a05414.html", "a05414" ]
+    [ "CentroidDistanceTest.java", "a02006.html", [
+      [ "CentroidDistanceTest", "a05513.html", "a05513" ]
     ] ],
-    [ "CentroidTest.java", "a01799.html", [
-      [ "CentroidTest", "a05186.html", "a05186" ]
+    [ "CentroidTest.java", "a01835.html", [
+      [ "CentroidTest", "a05285.html", "a05285" ]
     ] ],
-    [ "ChainToMeter.java", "a01502.html", [
-      [ "ChainToMeter", "a04742.html", "a04742" ]
+    [ "ChainToMeter.java", "a01532.html", [
+      [ "ChainToMeter", "a04821.html", "a04821" ]
     ] ],
-    [ "ChainToMeterTest.java", "a02477.html", [
-      [ "ChainToMeterTest", "a06094.html", "a06094" ]
+    [ "ChainToMeterTest.java", "a02516.html", [
+      [ "ChainToMeterTest", "a06197.html", "a06197" ]
     ] ],
-    [ "Circularity.java", "a00944.html", [
-      [ "Circularity", "a03978.html", "a03978" ]
+    [ "Circularity.java", "a00953.html", [
+      [ "Circularity", "a04029.html", "a04029" ]
     ] ],
-    [ "CircularityTest.java", "a02231.html", [
-      [ "CircularityTest", "a05762.html", "a05762" ]
+    [ "CircularityTest.java", "a02267.html", [
+      [ "CircularityTest", "a05861.html", "a05861" ]
     ] ],
-    [ "Circumcentre.java", "a00947.html", [
-      [ "Circumcentre", "a03982.html", "a03982" ]
+    [ "Circumcentre.java", "a00956.html", [
+      [ "Circumcentre", "a04033.html", "a04033" ]
     ] ],
-    [ "CircumcentreTest.java", "a02234.html", [
-      [ "CircumcentreTest", "a05766.html", "a05766" ]
+    [ "CircumcentreTest.java", "a02270.html", [
+      [ "CircumcentreTest", "a05865.html", "a05865" ]
     ] ],
-    [ "ClosestPoint.java", "a00479.html", [
-      [ "ClosestPoint", "a03350.html", "a03350" ]
+    [ "ClosestPoint.java", "a00482.html", [
+      [ "ClosestPoint", "a03393.html", "a03393" ]
     ] ],
-    [ "ClosestPoint3D.java", "a00482.html", [
-      [ "ClosestPoint3D", "a03354.html", "a03354" ]
+    [ "ClosestPoint3D.java", "a00485.html", [
+      [ "ClosestPoint3D", "a03397.html", "a03397" ]
     ] ],
-    [ "ClosestPointTest.java", "a01973.html", [
-      [ "ClosestPointTest", "a05418.html", "a05418" ]
+    [ "ClosestPointTest.java", "a02009.html", [
+      [ "ClosestPointTest", "a05517.html", "a05517" ]
     ] ],
     [ "CollectionAttributeFunction.java", "a00032.html", [
-      [ "CollectionAttributeFunction", "a02750.html", "a02750" ]
+      [ "CollectionAttributeFunction", "a02789.html", "a02789" ]
     ] ],
-    [ "CollectionExtract.java", "a00611.html", [
-      [ "CollectionExtract", "a03526.html", "a03526" ]
+    [ "CollectionExtract.java", "a00614.html", [
+      [ "CollectionExtract", "a03569.html", "a03569" ]
     ] ],
-    [ "CollectionExtractTest.java", "a02081.html", [
-      [ "CollectionExtractTest", "a05562.html", "a05562" ]
+    [ "CollectionExtractTest.java", "a02117.html", [
+      [ "CollectionExtractTest", "a05661.html", "a05661" ]
     ] ],
-    [ "CollectionHomogenize.java", "a00614.html", [
-      [ "CollectionHomogenize", "a03530.html", "a03530" ]
+    [ "CollectionHomogenize.java", "a00617.html", [
+      [ "CollectionHomogenize", "a03573.html", "a03573" ]
     ] ],
-    [ "CollectionHomogenizeTest.java", "a02084.html", [
-      [ "CollectionHomogenizeTest", "a05566.html", "a05566" ]
+    [ "CollectionHomogenizeTest.java", "a02120.html", [
+      [ "CollectionHomogenizeTest", "a05665.html", "a05665" ]
     ] ],
     [ "CompactnessRatio.java", "a00137.html", [
-      [ "CompactnessRatio", "a02890.html", "a02890" ]
+      [ "CompactnessRatio", "a02929.html", "a02929" ]
     ] ],
-    [ "CompactnessRatioTest.java", "a01802.html", [
-      [ "CompactnessRatioTest", "a05190.html", "a05190" ]
+    [ "CompactnessRatioTest.java", "a01838.html", [
+      [ "CompactnessRatioTest", "a05289.html", "a05289" ]
     ] ],
     [ "ConcatenateLines.java", "a00035.html", [
-      [ "ConcatenateLines", "a02754.html", "a02754" ]
+      [ "ConcatenateLines", "a02793.html", "a02793" ]
     ] ],
     [ "ConcaveHull.java", "a00140.html", [
-      [ "ConcaveHull", "a02894.html", "a02894" ]
+      [ "ConcaveHull", "a02933.html", "a02933" ]
     ] ],
-    [ "Contains.java", "a01388.html", [
-      [ "Contains", "a04586.html", "a04586" ]
+    [ "Contains.java", "a01415.html", [
+      [ "Contains", "a04661.html", "a04661" ]
     ] ],
-    [ "ContainsProperly.java", "a01391.html", [
-      [ "ContainsProperly", "a04590.html", "a04590" ]
+    [ "ContainsProperly.java", "a01418.html", [
+      [ "ContainsProperly", "a04665.html", "a04665" ]
     ] ],
-    [ "aggregate/ConvexHull.java", "a07595.html", [
-      [ "ConvexHull", "a02758.html", null ]
+    [ "aggregate/ConvexHull.java", "a07826.html", [
+      [ "ConvexHull", "a02797.html", null ]
     ] ],
-    [ "geometry/attribute/ConvexHull.java", "a07598.html", [
-      [ "ConvexHull", "a02898.html", "a02898" ]
+    [ "geometry/attribute/ConvexHull.java", "a07829.html", [
+      [ "ConvexHull", "a02937.html", "a02937" ]
     ] ],
-    [ "Coordinate.java", "a01742.html", [
-      [ "Coordinate", "a05098.html", "a05098" ],
-      [ "DimensionalComparator", "a05102.html", "a05102" ]
+    [ "Coordinate.java", "a01778.html", [
+      [ "Coordinate", "a05197.html", "a05197" ],
+      [ "DimensionalComparator", "a05201.html", "a05201" ]
     ] ],
-    [ "CoordinateT.java", "a01745.html", [
-      [ "CoordinateT", "a05106.html", null ]
+    [ "CoordinateT.java", "a01781.html", [
+      [ "CoordinateT", "a05205.html", null ]
     ] ],
-    [ "CosH.java", "a00821.html", [
-      [ "CosH", "a03814.html", "a03814" ]
+    [ "CosH.java", "a00830.html", [
+      [ "CosH", "a03865.html", "a03865" ]
     ] ],
-    [ "Cosine.java", "a00824.html", [
-      [ "Cosine", "a03818.html", "a03818" ]
+    [ "Cosine.java", "a00833.html", [
+      [ "Cosine", "a03869.html", "a03869" ]
     ] ],
-    [ "CoverageJSONReader.java", "a01685.html", [
-      [ "CoverageJSONReader", "a05002.html", "a05002" ]
+    [ "CoverageJSONReader.java", "a01715.html", [
+      [ "CoverageJSONReader", "a05081.html", "a05081" ]
     ] ],
-    [ "CoverageJsonWriter.java", "a01688.html", [
-      [ "CoverageJsonWriter", "a05006.html", "a05006" ]
+    [ "CoverageJsonWriter.java", "a01718.html", [
+      [ "CoverageJsonWriter", "a05085.html", "a05085" ]
     ] ],
-    [ "CoveredBy.java", "a01394.html", [
-      [ "CoveredBy", "a04594.html", "a04594" ]
+    [ "CoveredBy.java", "a01421.html", [
+      [ "CoveredBy", "a04669.html", "a04669" ]
     ] ],
-    [ "CovJSONCoverage.java", "a01691.html", [
-      [ "CovJSONCoverage", "a05010.html", null ]
+    [ "CovJSONCoverage.java", "a01721.html", [
+      [ "CovJSONCoverage", "a05089.html", null ]
     ] ],
-    [ "CovJSONDatatype.java", "a01604.html", [
-      [ "CovJSONDatatype", "a04878.html", "a04878" ]
+    [ "CovJSONDatatype.java", "a01634.html", [
+      [ "CovJSONDatatype", "a04957.html", "a04957" ]
     ] ],
-    [ "CreateTopology.java", "a01469.html", [
-      [ "CreateTopology", "a04698.html", null ]
+    [ "CreateTopology.java", "a01499.html", [
+      [ "CreateTopology", "a04777.html", null ]
     ] ],
-    [ "Crosses.java", "a01397.html", [
-      [ "Crosses", "a04598.html", "a04598" ]
+    [ "Crosses.java", "a01424.html", [
+      [ "Crosses", "a04673.html", "a04673" ]
     ] ],
-    [ "DecimeterToMeter.java", "a01505.html", [
-      [ "DecimeterToMeter", "a04746.html", "a04746" ]
+    [ "DCT.java", "a01067.html", [
+      [ "DCT", "a04185.html", "a04185" ]
     ] ],
-    [ "DecimeterToMeterTest.java", "a02480.html", [
-      [ "DecimeterToMeterTest", "a06098.html", "a06098" ]
+    [ "DecimeterToMeter.java", "a01535.html", [
+      [ "DecimeterToMeter", "a04825.html", "a04825" ]
+    ] ],
+    [ "DecimeterToMeterTest.java", "a02519.html", [
+      [ "DecimeterToMeterTest", "a06201.html", "a06201" ]
     ] ],
     [ "Degenerate.java", "a00143.html", [
-      [ "Degenerate", "a02902.html", "a02902" ]
+      [ "Degenerate", "a02941.html", "a02941" ]
     ] ],
-    [ "DelaunayTriangles.java", "a00617.html", [
-      [ "DelaunayTriangles", "a03534.html", "a03534" ]
+    [ "DelaunayTriangles.java", "a00620.html", [
+      [ "DelaunayTriangles", "a03577.html", "a03577" ]
     ] ],
-    [ "Densify.java", "a00620.html", [
-      [ "Densify", "a03538.html", "a03538" ]
+    [ "Densify.java", "a00623.html", [
+      [ "Densify", "a03581.html", "a03581" ]
     ] ],
-    [ "DensifyTest.java", "a02087.html", [
-      [ "DensifyTest", "a05570.html", "a05570" ]
+    [ "DensifyTest.java", "a02123.html", [
+      [ "DensifyTest", "a05669.html", "a05669" ]
     ] ],
-    [ "DFullyWithin.java", "a01400.html", [
-      [ "DFullyWithin", "a04602.html", "a04602" ]
+    [ "DFullyWithin.java", "a01427.html", [
+      [ "DFullyWithin", "a04677.html", "a04677" ]
     ] ],
-    [ "Difference3D.java", "a00485.html", [
-      [ "Difference3D", "a03358.html", "a03358" ]
+    [ "Difference3D.java", "a00488.html", [
+      [ "Difference3D", "a03401.html", "a03401" ]
     ] ],
-    [ "Disjoint.java", "a01403.html", [
-      [ "Disjoint", "a04606.html", "a04606" ]
+    [ "Disjoint.java", "a01430.html", [
+      [ "Disjoint", "a04681.html", "a04681" ]
     ] ],
-    [ "Dissolve.java", "a00785.html", [
-      [ "Dissolve", "a03766.html", "a03766" ]
+    [ "Dissolve.java", "a00794.html", [
+      [ "Dissolve", "a03817.html", "a03817" ]
     ] ],
-    [ "DissolvePoints.java", "a00623.html", [
-      [ "DissolvePoints", "a03542.html", "a03542" ]
+    [ "DissolvePoints.java", "a00626.html", [
+      [ "DissolvePoints", "a03585.html", "a03585" ]
     ] ],
-    [ "DissolveSegments.java", "a00626.html", [
-      [ "DissolveSegments", "a03546.html", "a03546" ]
+    [ "DissolveSegments.java", "a00629.html", [
+      [ "DissolveSegments", "a03589.html", "a03589" ]
     ] ],
-    [ "Distance3D.java", "a00488.html", [
-      [ "Distance3D", "a03362.html", "a03362" ]
+    [ "Distance3D.java", "a00491.html", [
+      [ "Distance3D", "a03405.html", "a03405" ]
     ] ],
-    [ "DistanceClosestPointOfApproach.java", "a00491.html", [
-      [ "DistanceClosestPointOfApproach", "a03366.html", null ]
+    [ "DistanceClosestPointOfApproach.java", "a00494.html", [
+      [ "DistanceClosestPointOfApproach", "a03409.html", null ]
     ] ],
-    [ "DistanceSphere.java", "a00494.html", [
-      [ "DistanceSphere", "a03370.html", "a03370" ]
+    [ "DistanceSphere.java", "a00497.html", [
+      [ "DistanceSphere", "a03413.html", "a03413" ]
     ] ],
-    [ "DistanceSphereTest.java", "a01976.html", [
-      [ "DistanceSphereTest", "a05422.html", "a05422" ]
+    [ "DistanceSphereTest.java", "a02012.html", [
+      [ "DistanceSphereTest", "a05521.html", "a05521" ]
     ] ],
-    [ "DistanceTest.java", "a01979.html", [
-      [ "DistanceTest", "a05426.html", "a05426" ]
+    [ "DistanceTest.java", "a02015.html", [
+      [ "DistanceTest", "a05525.html", "a05525" ]
     ] ],
-    [ "Div.java", "a01058.html", [
-      [ "Div", "a04134.html", "a04134" ]
+    [ "Div.java", "a01070.html", [
+      [ "Div", "a04189.html", "a04189" ]
     ] ],
-    [ "DivConst.java", "a01061.html", [
-      [ "DivConst", "a04138.html", "a04138" ]
+    [ "DivConst.java", "a01073.html", [
+      [ "DivConst", "a04193.html", "a04193" ]
     ] ],
-    [ "DivConstTest.java", "a02315.html", [
-      [ "DivConstTest", "a05874.html", "a05874" ]
+    [ "DivConstTest.java", "a02354.html", [
+      [ "DivConstTest", "a05977.html", "a05977" ]
     ] ],
-    [ "DivTest.java", "a02318.html", [
-      [ "DivTest", "a05878.html", "a05878" ]
+    [ "DivTest.java", "a02357.html", [
+      [ "DivTest", "a05981.html", "a05981" ]
     ] ],
     [ "Dump.java", "a00146.html", [
-      [ "Dump", "a02906.html", "a02906" ]
+      [ "Dump", "a02945.html", "a02945" ]
     ] ],
-    [ "DumpRings.java", "a00950.html", [
-      [ "DumpRings", "a03986.html", "a03986" ]
+    [ "DumpRings.java", "a00959.html", [
+      [ "DumpRings", "a04037.html", "a04037" ]
     ] ],
-    [ "DumpTest.java", "a01805.html", [
-      [ "DumpTest", "a05194.html", "a05194" ]
+    [ "DumpTest.java", "a01841.html", [
+      [ "DumpTest", "a05293.html", "a05293" ]
     ] ],
-    [ "DWithin.java", "a01406.html", [
-      [ "DWithin", "a04610.html", "a04610" ]
+    [ "DWithin.java", "a01433.html", [
+      [ "DWithin", "a04685.html", "a04685" ]
     ] ],
-    [ "DXFDatatype.java", "a01631.html", [
-      [ "DXFDatatype", "a04914.html", "a04914" ]
+    [ "DXFDatatype.java", "a01661.html", [
+      [ "DXFDatatype", "a04993.html", "a04993" ]
     ] ],
-    [ "EncodedPolylineDatatype.java", "a01634.html", [
-      [ "EncodedPolylineDatatype", "a04918.html", "a04918" ]
+    [ "EncodedPolylineDatatype.java", "a01664.html", [
+      [ "EncodedPolylineDatatype", "a04997.html", "a04997" ]
     ] ],
-    [ "EndPoint.java", "a00716.html", [
-      [ "EndPoint", "a03670.html", "a03670" ]
+    [ "EndPoint.java", "a00722.html", [
+      [ "EndPoint", "a03717.html", "a03717" ]
     ] ],
-    [ "EndPointTest.java", "a02141.html", [
-      [ "EndPointTest", "a05642.html", "a05642" ]
+    [ "EndPointTest.java", "a02177.html", [
+      [ "EndPointTest", "a05741.html", "a05741" ]
     ] ],
-    [ "EnsureClosed.java", "a00392.html", [
-      [ "EnsureClosed", "a03234.html", "a03234" ]
+    [ "EnsureClosed.java", "a00395.html", [
+      [ "EnsureClosed", "a03277.html", "a03277" ]
     ] ],
-    [ "EnsureClosedRings.java", "a00395.html", [
-      [ "EnsureClosedRings", "a03238.html", "a03238" ]
+    [ "EnsureClosedRings.java", "a00398.html", [
+      [ "EnsureClosedRings", "a03281.html", "a03281" ]
     ] ],
-    [ "EnsureClosedTest.java", "a01913.html", [
-      [ "EnsureClosedTest", "a05338.html", "a05338" ]
+    [ "EnsureClosedTest.java", "a01949.html", [
+      [ "EnsureClosedTest", "a05437.html", "a05437" ]
     ] ],
-    [ "EPSGToSRID.java", "a00566.html", [
-      [ "EPSGToSRID", "a03466.html", "a03466" ]
+    [ "EPSGToSRID.java", "a00569.html", [
+      [ "EPSGToSRID", "a03509.html", "a03509" ]
     ] ],
-    [ "EPSGToSRIDTest.java", "a02039.html", [
-      [ "EPSGToSRIDTest", "a05506.html", "a05506" ]
+    [ "EPSGToSRIDTest.java", "a02075.html", [
+      [ "EPSGToSRIDTest", "a05605.html", "a05605" ]
     ] ],
-    [ "EPSGToWKT.java", "a00569.html", [
-      [ "EPSGToWKT", "a03470.html", "a03470" ]
+    [ "EPSGToWKT.java", "a00572.html", [
+      [ "EPSGToWKT", "a03513.html", "a03513" ]
     ] ],
-    [ "EPSGToWKTTest.java", "a02042.html", [
-      [ "EPSGToWKTTest", "a05510.html", "a05510" ]
+    [ "EPSGToWKTTest.java", "a02078.html", [
+      [ "EPSGToWKTTest", "a05609.html", "a05609" ]
     ] ],
-    [ "EqualNormTest.java", "a01982.html", [
-      [ "EqualNormTest", "a05430.html", "a05430" ]
+    [ "EqualNormTest.java", "a02018.html", [
+      [ "EqualNormTest", "a05529.html", "a05529" ]
     ] ],
-    [ "Equals.java", "a01409.html", [
-      [ "Equals", "a04614.html", "a04614" ]
+    [ "Equals.java", "a01436.html", [
+      [ "Equals", "a04689.html", "a04689" ]
     ] ],
-    [ "EqualsNorm.java", "a00497.html", [
-      [ "EqualsNorm", "a03374.html", "a03374" ]
+    [ "EqualsNorm.java", "a00500.html", [
+      [ "EqualsNorm", "a03417.html", "a03417" ]
     ] ],
-    [ "EqualSRS.java", "a00500.html", [
-      [ "EqualSRS", "a03378.html", "a03378" ]
+    [ "EqualSRS.java", "a00503.html", [
+      [ "EqualSRS", "a03421.html", "a03421" ]
     ] ],
-    [ "EqualSRSTest.java", "a01985.html", [
-      [ "EqualSRSTest", "a05434.html", "a05434" ]
+    [ "EqualSRSTest.java", "a02021.html", [
+      [ "EqualSRSTest", "a05533.html", "a05533" ]
     ] ],
-    [ "EqualsTopo.java", "a00503.html", [
-      [ "EqualsTopo", "a03382.html", "a03382" ]
+    [ "EqualsTopo.java", "a00506.html", [
+      [ "EqualsTopo", "a03425.html", "a03425" ]
     ] ],
-    [ "EqualTest.java", "a02321.html", [
-      [ "EqualTest", "a05882.html", "a05882" ]
+    [ "EqualTest.java", "a02360.html", [
+      [ "EqualTest", "a05985.html", "a05985" ]
     ] ],
-    [ "EqualTopoTest.java", "a01988.html", [
-      [ "EqualTopoTest", "a05438.html", "a05438" ]
+    [ "EqualTopoTest.java", "a02024.html", [
+      [ "EqualTopoTest", "a05537.html", "a05537" ]
     ] ],
-    [ "EqualType.java", "a00506.html", [
-      [ "EqualType", "a03386.html", "a03386" ]
+    [ "EqualType.java", "a00509.html", [
+      [ "EqualType", "a03429.html", "a03429" ]
     ] ],
-    [ "EqualTypeTest.java", "a01991.html", [
-      [ "EqualTypeTest", "a05442.html", "a05442" ]
+    [ "EqualTypeTest.java", "a02027.html", [
+      [ "EqualTypeTest", "a05541.html", "a05541" ]
     ] ],
     [ "ExampleWebService.java", "a00002.html", [
-      [ "ExampleWebService", "a02710.html", "a02710" ]
+      [ "ExampleWebService", "a02749.html", "a02749" ]
     ] ],
-    [ "math/Exp.java", "a07601.html", [
-      [ "Exp", "a03822.html", "a03822" ]
+    [ "math/Exp.java", "a07832.html", [
+      [ "Exp", "a03873.html", "a03873" ]
     ] ],
-    [ "raster/algebra/Exp.java", "a07604.html", [
-      [ "Exp", "a04142.html", "a04142" ]
+    [ "raster/algebra/Exp.java", "a07835.html", [
+      [ "Exp", "a04197.html", "a04197" ]
     ] ],
     [ "Expand.java", "a00065.html", [
-      [ "Expand", "a02794.html", "a02794" ]
+      [ "Expand", "a02833.html", "a02833" ]
     ] ],
-    [ "ExpTest.java", "a02324.html", [
-      [ "ExpTest", "a05886.html", "a05886" ]
+    [ "ExpTest.java", "a02363.html", [
+      [ "ExpTest", "a05989.html", "a05989" ]
     ] ],
-    [ "ExteriorRing.java", "a00953.html", [
-      [ "ExteriorRing", "a03990.html", "a03990" ]
+    [ "ExteriorRing.java", "a00962.html", [
+      [ "ExteriorRing", "a04041.html", "a04041" ]
     ] ],
-    [ "FathomToMeter.java", "a01508.html", [
-      [ "FathomToMeter", "a04750.html", "a04750" ]
+    [ "FathomToMeter.java", "a01538.html", [
+      [ "FathomToMeter", "a04829.html", "a04829" ]
     ] ],
-    [ "FathomToMeterTest.java", "a02483.html", [
-      [ "FathomToMeterTest", "a06102.html", "a06102" ]
+    [ "FathomToMeterTest.java", "a02522.html", [
+      [ "FathomToMeterTest", "a06205.html", "a06205" ]
     ] ],
-    [ "Flip.java", "a01433.html", [
-      [ "Flip", "a04646.html", "a04646" ]
+    [ "Flip.java", "a01460.html", [
+      [ "Flip", "a04721.html", "a04721" ]
     ] ],
-    [ "FlipCoordinates.java", "a00629.html", [
-      [ "FlipCoordinates", "a03550.html", "a03550" ]
+    [ "FlipCoordinates.java", "a00632.html", [
+      [ "FlipCoordinates", "a03593.html", "a03593" ]
     ] ],
-    [ "FlipCoordinatesTest.java", "a02090.html", [
-      [ "FlipCoordinatesTest", "a05574.html", "a05574" ]
+    [ "FlipCoordinatesTest.java", "a02126.html", [
+      [ "FlipCoordinatesTest", "a05673.html", "a05673" ]
     ] ],
-    [ "Floor.java", "a00830.html", [
-      [ "Floor", "a03826.html", "a03826" ]
+    [ "Floor.java", "a00839.html", [
+      [ "Floor", "a03877.html", "a03877" ]
     ] ],
-    [ "FootToMeter.java", "a01511.html", [
-      [ "FootToMeter", "a04754.html", "a04754" ]
+    [ "FootToMeter.java", "a01541.html", [
+      [ "FootToMeter", "a04833.html", "a04833" ]
     ] ],
-    [ "FootToMeterTest.java", "a02486.html", [
-      [ "FootToMeterTest", "a06106.html", "a06106" ]
+    [ "FootToMeterTest.java", "a02525.html", [
+      [ "FootToMeterTest", "a06209.html", "a06209" ]
     ] ],
-    [ "Force2D.java", "a00632.html", [
-      [ "Force2D", "a03554.html", "a03554" ]
+    [ "Force2D.java", "a00635.html", [
+      [ "Force2D", "a03597.html", "a03597" ]
     ] ],
-    [ "Force2DTest.java", "a02093.html", [
-      [ "Force2DTest", "a05578.html", "a05578" ]
+    [ "Force2DTest.java", "a02129.html", [
+      [ "Force2DTest", "a05677.html", "a05677" ]
     ] ],
-    [ "Force3D.java", "a00635.html", [
-      [ "Force3D", "a03558.html", "a03558" ]
+    [ "Force3D.java", "a00638.html", [
+      [ "Force3D", "a03601.html", "a03601" ]
     ] ],
-    [ "Force3DM.java", "a00638.html", [
-      [ "Force3DM", "a03562.html", "a03562" ]
+    [ "Force3DM.java", "a00641.html", [
+      [ "Force3DM", "a03605.html", "a03605" ]
     ] ],
-    [ "Force3DMTest.java", "a02096.html", [
-      [ "Force3DMTest", "a05582.html", "a05582" ]
+    [ "Force3DMTest.java", "a02132.html", [
+      [ "Force3DMTest", "a05681.html", "a05681" ]
     ] ],
-    [ "Force3DTest.java", "a02099.html", [
-      [ "Force3DTest", "a05586.html", "a05586" ]
+    [ "Force3DTest.java", "a02135.html", [
+      [ "Force3DTest", "a05685.html", "a05685" ]
     ] ],
-    [ "Force4D.java", "a00641.html", [
-      [ "Force4D", "a03566.html", "a03566" ]
+    [ "Force4D.java", "a00644.html", [
+      [ "Force4D", "a03609.html", "a03609" ]
     ] ],
-    [ "Force4DTest.java", "a02102.html", [
-      [ "Force4DTest", "a05590.html", "a05590" ]
+    [ "Force4DTest.java", "a02138.html", [
+      [ "Force4DTest", "a05689.html", "a05689" ]
     ] ],
-    [ "ForceCollection.java", "a00644.html", [
-      [ "ForceCollection", "a03570.html", "a03570" ]
+    [ "ForceCollection.java", "a00647.html", [
+      [ "ForceCollection", "a03613.html", "a03613" ]
     ] ],
-    [ "ForceCollectionTest.java", "a02105.html", [
-      [ "ForceCollectionTest", "a05594.html", "a05594" ]
+    [ "ForceCollectionTest.java", "a02141.html", [
+      [ "ForceCollectionTest", "a05693.html", "a05693" ]
     ] ],
-    [ "ForcePolygonCCW.java", "a01031.html", [
-      [ "ForcePolygonCCW", "a04094.html", "a04094" ]
+    [ "ForcePolygonCCW.java", "a01040.html", [
+      [ "ForcePolygonCCW", "a04145.html", "a04145" ]
     ] ],
-    [ "ForcePolygonCCWTest.java", "a02294.html", [
-      [ "ForcePolygonCCWTest", "a05846.html", "a05846" ]
+    [ "ForcePolygonCCWTest.java", "a02333.html", [
+      [ "ForcePolygonCCWTest", "a05949.html", "a05949" ]
     ] ],
-    [ "ForcePolygonCW.java", "a01034.html", [
-      [ "ForcePolygonCW", "a04098.html", "a04098" ]
+    [ "ForcePolygonCW.java", "a01043.html", [
+      [ "ForcePolygonCW", "a04149.html", "a04149" ]
     ] ],
-    [ "ForcePolygonCWTest.java", "a02297.html", [
-      [ "ForcePolygonCWTest", "a05850.html", "a05850" ]
+    [ "ForcePolygonCWTest.java", "a02336.html", [
+      [ "ForcePolygonCWTest", "a05953.html", "a05953" ]
     ] ],
-    [ "FullyWithinDistance.java", "a00509.html", [
-      [ "FullyWithinDistance", "a03390.html", "a03390" ]
+    [ "FullyWithinDistance.java", "a00512.html", [
+      [ "FullyWithinDistance", "a03433.html", "a03433" ]
     ] ],
-    [ "FullyWithinDistance3D.java", "a00512.html", [
-      [ "FullyWithinDistance3D", "a03394.html", "a03394" ]
+    [ "FullyWithinDistance3D.java", "a00515.html", [
+      [ "FullyWithinDistance3D", "a03437.html", "a03437" ]
     ] ],
-    [ "FullyWithinDistanceTest.java", "a01994.html", [
-      [ "FullyWithinDistanceTest", "a05446.html", "a05446" ]
+    [ "FullyWithinDistanceTest.java", "a02030.html", [
+      [ "FullyWithinDistanceTest", "a05545.html", "a05545" ]
     ] ],
-    [ "FurthestCoordinate.java", "a00515.html", [
-      [ "FurthestCoordinate", "a03398.html", "a03398" ]
+    [ "FurthestCoordinate.java", "a00518.html", [
+      [ "FurthestCoordinate", "a03441.html", "a03441" ]
     ] ],
-    [ "FurthestCoordinateTest.java", "a01997.html", [
-      [ "FurthestCoordinateTest", "a05450.html", "a05450" ]
+    [ "FurthestCoordinateTest.java", "a02033.html", [
+      [ "FurthestCoordinateTest", "a05549.html", "a05549" ]
     ] ],
     [ "GARStoLL.java", "a00008.html", [
-      [ "GARStoLL", "a02718.html", "a02718" ]
+      [ "GARStoLL", "a02757.html", "a02757" ]
     ] ],
-    [ "GeneratePoints.java", "a00920.html", [
-      [ "GeneratePoints", "a03946.html", "a03946" ]
+    [ "GeneratePoints.java", "a00929.html", [
+      [ "GeneratePoints", "a03997.html", "a03997" ]
     ] ],
-    [ "GeneratePointsTest.java", "a02219.html", [
-      [ "GeneratePointsTest", "a05746.html", "a05746" ]
+    [ "GeneratePointsTest.java", "a02255.html", [
+      [ "GeneratePointsTest", "a05845.html", "a05845" ]
     ] ],
-    [ "GeobufDatatype.java", "a01637.html", [
-      [ "GeobufDatatype", "a04922.html", "a04922" ]
+    [ "GeobufDatatype.java", "a01667.html", [
+      [ "GeobufDatatype", "a05001.html", "a05001" ]
     ] ],
-    [ "GeoHashDatatype.java", "a01640.html", [
-      [ "GeoHashDatatype", "a04926.html", "a04926" ]
+    [ "GeoHashDatatype.java", "a01670.html", [
+      [ "GeoHashDatatype", "a05005.html", "a05005" ]
     ] ],
-    [ "GeoJSONDatatype.java", "a01643.html", [
-      [ "GeoJSONDatatype", "a04930.html", "a04930" ]
+    [ "GeoJSONDatatype.java", "a01673.html", [
+      [ "GeoJSONDatatype", "a05009.html", "a05009" ]
     ] ],
-    [ "GeoJSONLDDatatype.java", "a01646.html", [
-      [ "GeoJSONLDDatatype", "a04934.html", "a04934" ]
+    [ "GeoJSONLDDatatype.java", "a01676.html", [
+      [ "GeoJSONLDDatatype", "a05013.html", "a05013" ]
     ] ],
-    [ "GeomCollFromText.java", "a00371.html", [
-      [ "GeomCollFromText", "a03206.html", "a03206" ]
+    [ "GeomCollFromText.java", "a00374.html", [
+      [ "GeomCollFromText", "a03249.html", "a03249" ]
     ] ],
-    [ "GeomCRSToWKT.java", "a00572.html", [
-      [ "GeomCRSToWKT", "a03474.html", "a03474" ]
+    [ "GeomCRSToWKT.java", "a00575.html", [
+      [ "GeomCRSToWKT", "a03517.html", "a03517" ]
     ] ],
-    [ "GeomCRSToWKTTest.java", "a02045.html", [
-      [ "GeomCRSToWKTTest", "a05514.html", "a05514" ]
+    [ "GeomCRSToWKTTest.java", "a02081.html", [
+      [ "GeomCRSToWKTTest", "a05613.html", "a05613" ]
     ] ],
-    [ "GeometricBinaryAttributeFunction.java", "a00281.html", [
-      [ "GeometricBinaryAttributeFunction", "a03086.html", "a03086" ]
+    [ "GeometricBinaryAttributeFunction.java", "a00284.html", [
+      [ "GeometricBinaryAttributeFunction", "a03129.html", "a03129" ]
     ] ],
-    [ "GeometricBinaryCRSAttributeFunction.java", "a00284.html", [
-      [ "GeometricBinaryCRSAttributeFunction", "a03090.html", "a03090" ]
+    [ "GeometricBinaryCRSAttributeFunction.java", "a00287.html", [
+      [ "GeometricBinaryCRSAttributeFunction", "a03133.html", "a03133" ]
     ] ],
-    [ "GeometricBinaryFunction.java", "a00287.html", [
-      [ "GeometricBinaryFunction", "a03094.html", "a03094" ]
+    [ "GeometricBinaryFunction.java", "a00290.html", [
+      [ "GeometricBinaryFunction", "a03137.html", "a03137" ]
     ] ],
-    [ "GeometricConstructor.java", "a00290.html", [
-      [ "GeometricConstructor", "a03098.html", "a03098" ]
+    [ "GeometricConstructor.java", "a00293.html", [
+      [ "GeometricConstructor", "a03141.html", "a03141" ]
     ] ],
-    [ "GeometricConstructorInteger.java", "a00293.html", [
-      [ "GeometricConstructorInteger", "a03102.html", "a03102" ]
+    [ "GeometricConstructorInteger.java", "a00296.html", [
+      [ "GeometricConstructorInteger", "a03145.html", "a03145" ]
     ] ],
-    [ "GeometricDoubleAttributeFunction.java", "a00296.html", [
-      [ "GeometricDoubleAttributeFunction", "a03106.html", "a03106" ]
+    [ "GeometricDoubleAttributeFunction.java", "a00299.html", [
+      [ "GeometricDoubleAttributeFunction", "a03149.html", "a03149" ]
     ] ],
-    [ "GeometricDoubleModifierIntegerFunction.java", "a00299.html", [
-      [ "GeometricDoubleModifierIntegerFunction", "a03110.html", "a03110" ]
+    [ "GeometricDoubleModifierIntegerFunction.java", "a00302.html", [
+      [ "GeometricDoubleModifierIntegerFunction", "a03153.html", "a03153" ]
     ] ],
-    [ "GeometricDoubleThreeGeometryFunction.java", "a00302.html", [
-      [ "GeometricDoubleThreeGeometryFunction", "a03114.html", "a03114" ]
+    [ "GeometricDoubleThreeGeometryFunction.java", "a00305.html", [
+      [ "GeometricDoubleThreeGeometryFunction", "a03157.html", "a03157" ]
     ] ],
-    [ "GeometricEditFunction.java", "a00305.html", [
-      [ "GeometricEditFunction", "a03118.html", "a03118" ]
+    [ "GeometricEditFunction.java", "a00308.html", [
+      [ "GeometricEditFunction", "a03161.html", "a03161" ]
     ] ],
-    [ "GeometricExportToRasterFunction.java", "a00308.html", [
-      [ "GeometricExportToRasterFunction", "a03122.html", "a03122" ]
+    [ "GeometricExportToRasterFunction.java", "a00311.html", [
+      [ "GeometricExportToRasterFunction", "a03165.html", "a03165" ]
     ] ],
-    [ "GeometricIntegerAttributeFunction.java", "a00311.html", [
-      [ "GeometricIntegerAttributeFunction", "a03126.html", "a03126" ]
+    [ "GeometricIntegerAttributeFunction.java", "a00314.html", [
+      [ "GeometricIntegerAttributeFunction", "a03169.html", "a03169" ]
     ] ],
     [ "GeometricMedian.java", "a00149.html", [
-      [ "GeometricMedian", "a02910.html", "a02910" ]
+      [ "GeometricMedian", "a02949.html", "a02949" ]
     ] ],
-    [ "GeometricModifierDoubleDoubleDoubleFunction.java", "a00314.html", [
-      [ "GeometricModifierDoubleDoubleDoubleFunction", "a03130.html", "a03130" ]
+    [ "GeometricModifierDoubleDoubleDoubleFunction.java", "a00317.html", [
+      [ "GeometricModifierDoubleDoubleDoubleFunction", "a03173.html", "a03173" ]
     ] ],
-    [ "GeometricModifierDoubleDoubleFunction.java", "a00317.html", [
-      [ "GeometricModifierDoubleDoubleFunction", "a03134.html", "a03134" ]
+    [ "GeometricModifierDoubleDoubleFunction.java", "a00320.html", [
+      [ "GeometricModifierDoubleDoubleFunction", "a03177.html", "a03177" ]
     ] ],
-    [ "GeometricModifierDoubleFunction.java", "a00320.html", [
-      [ "GeometricModifierDoubleFunction", "a03138.html", "a03138" ]
+    [ "GeometricModifierDoubleFunction.java", "a00323.html", [
+      [ "GeometricModifierDoubleFunction", "a03181.html", "a03181" ]
     ] ],
-    [ "GeometricModifierFunction.java", "a00323.html", [
-      [ "GeometricModifierFunction", "a03142.html", "a03142" ]
+    [ "GeometricModifierFunction.java", "a00326.html", [
+      [ "GeometricModifierFunction", "a03185.html", "a03185" ]
     ] ],
-    [ "GeometricModifierGeometryIntegerFunction.java", "a00326.html", [
-      [ "GeometricModifierGeometryIntegerFunction", "a03146.html", "a03146" ]
+    [ "GeometricModifierGeometryIntegerFunction.java", "a00329.html", [
+      [ "GeometricModifierGeometryIntegerFunction", "a03189.html", "a03189" ]
     ] ],
-    [ "GeometricModifierIntegerFunction.java", "a00329.html", [
-      [ "GeometricModifierIntegerFunction", "a03150.html", "a03150" ]
+    [ "GeometricModifierIntegerFunction.java", "a00332.html", [
+      [ "GeometricModifierIntegerFunction", "a03193.html", "a03193" ]
     ] ],
-    [ "GeometricModifierStringFunction.java", "a00332.html", [
-      [ "GeometricModifierStringFunction", "a03154.html", "a03154" ]
+    [ "GeometricModifierStringFunction.java", "a00335.html", [
+      [ "GeometricModifierStringFunction", "a03197.html", "a03197" ]
     ] ],
-    [ "GeometricRasterFunction.java", "a00335.html", [
-      [ "GeometricRasterFunction", "a03158.html", "a03158" ]
+    [ "GeometricRasterFunction.java", "a00338.html", [
+      [ "GeometricRasterFunction", "a03201.html", "a03201" ]
     ] ],
-    [ "GeometricRelationBinaryFunction.java", "a00338.html", [
-      [ "GeometricRelationBinaryFunction", "a03162.html", "a03162" ]
+    [ "GeometricRelationBinaryFunction.java", "a00341.html", [
+      [ "GeometricRelationBinaryFunction", "a03205.html", "a03205" ]
     ] ],
-    [ "GeometricRelationDoubleBinaryFunction.java", "a00341.html", [
-      [ "GeometricRelationDoubleBinaryFunction", "a03166.html", "a03166" ]
+    [ "GeometricRelationDoubleBinaryFunction.java", "a00344.html", [
+      [ "GeometricRelationDoubleBinaryFunction", "a03209.html", "a03209" ]
     ] ],
-    [ "GeometricRelationDoubleDoubleFunction.java", "a00344.html", [
-      [ "GeometricRelationDoubleDoubleFunction", "a03170.html", "a03170" ]
+    [ "GeometricRelationDoubleDoubleFunction.java", "a00347.html", [
+      [ "GeometricRelationDoubleDoubleFunction", "a03213.html", "a03213" ]
     ] ],
-    [ "GeometricRelationDoubleFunction.java", "a00347.html", [
-      [ "GeometricRelationDoubleFunction", "a03174.html", "a03174" ]
+    [ "GeometricRelationDoubleFunction.java", "a00350.html", [
+      [ "GeometricRelationDoubleFunction", "a03217.html", "a03217" ]
     ] ],
-    [ "GeometricRelationIntegerBinaryFunction.java", "a00350.html", [
-      [ "GeometricRelationIntegerBinaryFunction", "a03178.html", "a03178" ]
+    [ "GeometricRelationIntegerBinaryFunction.java", "a00353.html", [
+      [ "GeometricRelationIntegerBinaryFunction", "a03221.html", "a03221" ]
     ] ],
-    [ "GeometricRelationIntegerFunction.java", "a00353.html", [
-      [ "GeometricRelationIntegerFunction", "a03182.html", "a03182" ]
+    [ "GeometricRelationIntegerFunction.java", "a00356.html", [
+      [ "GeometricRelationIntegerFunction", "a03225.html", "a03225" ]
     ] ],
-    [ "GeometricRelationModifierFunction.java", "a00356.html", [
-      [ "GeometricRelationModifierFunction", "a03186.html", "a03186" ]
+    [ "GeometricRelationModifierFunction.java", "a00359.html", [
+      [ "GeometricRelationModifierFunction", "a03229.html", "a03229" ]
     ] ],
-    [ "GeometricRelationStringFunction.java", "a00359.html", [
-      [ "GeometricRelationStringFunction", "a03190.html", "a03190" ]
+    [ "GeometricRelationStringFunction.java", "a00362.html", [
+      [ "GeometricRelationStringFunction", "a03233.html", "a03233" ]
     ] ],
-    [ "GeometricStringExportFunction.java", "a00362.html", [
-      [ "GeometricStringExportFunction", "a03194.html", "a03194" ]
+    [ "GeometricStringExportFunction.java", "a00365.html", [
+      [ "GeometricStringExportFunction", "a03237.html", "a03237" ]
     ] ],
-    [ "GeometricStringExportIntegerFunction.java", "a00365.html", [
-      [ "GeometricStringExportIntegerFunction", "a03198.html", "a03198" ]
+    [ "GeometricStringExportIntegerFunction.java", "a00368.html", [
+      [ "GeometricStringExportIntegerFunction", "a03241.html", "a03241" ]
     ] ],
-    [ "GeometricUnaryFunction.java", "a00368.html", [
-      [ "GeometricUnaryFunction", "a03202.html", "a03202" ]
+    [ "GeometricUnaryFunction.java", "a00371.html", [
+      [ "GeometricUnaryFunction", "a03245.html", "a03245" ]
     ] ],
     [ "GeometryN.java", "a00152.html", [
-      [ "GeometryN", "a02914.html", "a02914" ]
+      [ "GeometryN", "a02953.html", "a02953" ]
     ] ],
     [ "GeometryType.java", "a00155.html", [
-      [ "GeometryType", "a02918.html", "a02918" ]
+      [ "GeometryType", "a02957.html", "a02957" ]
     ] ],
-    [ "GeometryTypeTest.java", "a01808.html", [
-      [ "GeometryTypeTest", "a05198.html", "a05198" ]
+    [ "GeometryTypeTest.java", "a01844.html", [
+      [ "GeometryTypeTest", "a05297.html", "a05297" ]
     ] ],
-    [ "GeomFromGeoHash.java", "a00374.html", [
-      [ "GeomFromGeoHash", "a03210.html", "a03210" ]
+    [ "GeomFromGeoHash.java", "a00377.html", [
+      [ "GeomFromGeoHash", "a03253.html", "a03253" ]
     ] ],
-    [ "GeomFromGeoJSON.java", "a00377.html", [
-      [ "GeomFromGeoJSON", "a03214.html", "a03214" ]
+    [ "GeomFromGeoJSON.java", "a00380.html", [
+      [ "GeomFromGeoJSON", "a03257.html", "a03257" ]
     ] ],
-    [ "GeomFromGeoJSONTest.java", "a01898.html", [
-      [ "GeomFromGeoJSONTest", "a05318.html", "a05318" ]
+    [ "GeomFromGeoJSONTest.java", "a01934.html", [
+      [ "GeomFromGeoJSONTest", "a05417.html", "a05417" ]
     ] ],
-    [ "GeomFromText.java", "a00380.html", [
-      [ "GeomFromText", "a03218.html", "a03218" ]
+    [ "GeomFromText.java", "a00383.html", [
+      [ "GeomFromText", "a03261.html", "a03261" ]
     ] ],
-    [ "GeomFromTextTest.java", "a01901.html", [
-      [ "GeomFromTextTest", "a05322.html", "a05322" ]
+    [ "GeomFromTextTest.java", "a01937.html", [
+      [ "GeomFromTextTest", "a05421.html", "a05421" ]
     ] ],
-    [ "GeomFromWKB.java", "a00383.html", [
-      [ "GeomFromWKB", "a03222.html", "a03222" ]
+    [ "GeomFromWKB.java", "a00386.html", [
+      [ "GeomFromWKB", "a03265.html", "a03265" ]
     ] ],
-    [ "GeomFromWKBTest.java", "a01904.html", [
-      [ "GeomFromWKBTest", "a05326.html", "a05326" ]
+    [ "GeomFromWKBTest.java", "a01940.html", [
+      [ "GeomFromWKBTest", "a05425.html", "a05425" ]
     ] ],
     [ "GeomUnion.java", "a00041.html", [
-      [ "GeomUnion", "a02762.html", "a02762" ]
+      [ "GeomUnion", "a02801.html", "a02801" ]
     ] ],
-    [ "GeoTIFFDatatype.java", "a01607.html", [
-      [ "GeoTIFFDatatype", "a04882.html", "a04882" ]
+    [ "GeoTIFFDatatype.java", "a01637.html", [
+      [ "GeoTIFFDatatype", "a04961.html", "a04961" ]
     ] ],
-    [ "GeoURIDatatype.java", "a01649.html", [
-      [ "GeoURIDatatype", "a04938.html", "a04938" ]
+    [ "GeoURIDatatype.java", "a01679.html", [
+      [ "GeoURIDatatype", "a05017.html", "a05017" ]
     ] ],
-    [ "GetEdgeByPoint.java", "a01451.html", [
-      [ "GetEdgeByPoint", "a04674.html", "a04674" ]
+    [ "GetEdgeByPoint.java", "a01481.html", [
+      [ "GetEdgeByPoint", "a04753.html", "a04753" ]
     ] ],
-    [ "GetNodeByPoint.java", "a01454.html", [
-      [ "GetNodeByPoint", "a04678.html", "a04678" ]
+    [ "GetNodeByPoint.java", "a01484.html", [
+      [ "GetNodeByPoint", "a04757.html", "a04757" ]
     ] ],
-    [ "GMLCOVDatatype.java", "a01610.html", [
-      [ "GMLCOVDatatype", "a04886.html", "a04886" ]
+    [ "GMLCOVDatatype.java", "a01640.html", [
+      [ "GMLCOVDatatype", "a04965.html", "a04965" ]
     ] ],
-    [ "GMLDatatype.java", "a01652.html", [
-      [ "GMLDatatype", "a04942.html", "a04942" ]
+    [ "GMLDatatype.java", "a01682.html", [
+      [ "GMLDatatype", "a05021.html", "a05021" ]
     ] ],
-    [ "GPXDatatype.java", "a01655.html", [
-      [ "GPXDatatype", "a04946.html", "a04946" ]
+    [ "GPXDatatype.java", "a01685.html", [
+      [ "GPXDatatype", "a05025.html", "a05025" ]
     ] ],
-    [ "GPXHandler.java", "a01595.html", [
-      [ "GPXHandler", "a04866.html", "a04866" ]
+    [ "GPXHandler.java", "a01625.html", [
+      [ "GPXHandler", "a04945.html", "a04945" ]
     ] ],
-    [ "HasConnectedInterior.java", "a00956.html", [
-      [ "HasConnectedInterior", "a03994.html", "a03994" ]
+    [ "HasConnectedInterior.java", "a00965.html", [
+      [ "HasConnectedInterior", "a04045.html", "a04045" ]
     ] ],
-    [ "HasConnectedInteriorTest.java", "a02237.html", [
-      [ "HasConnectedInteriorTest", "a05770.html", "a05770" ]
+    [ "HasConnectedInteriorTest.java", "a02273.html", [
+      [ "HasConnectedInteriorTest", "a05869.html", "a05869" ]
     ] ],
-    [ "HasDuplicateRings.java", "a00959.html", [
-      [ "HasDuplicateRings", "a03998.html", "a03998" ]
+    [ "HasCurvedGeometry.java", "a00158.html", [
+      [ "HasCurvedGeometry", "a02961.html", null ]
     ] ],
-    [ "HasDuplicateRingsTest.java", "a02240.html", [
-      [ "HasDuplicateRingsTest", "a05774.html", "a05774" ]
+    [ "HasDuplicateRings.java", "a00968.html", [
+      [ "HasDuplicateRings", "a04049.html", "a04049" ]
     ] ],
-    [ "HasHorizontalCRS.java", "a00158.html", [
-      [ "HasHorizontalCRS", "a02922.html", "a02922" ]
+    [ "HasDuplicateRingsTest.java", "a02276.html", [
+      [ "HasDuplicateRingsTest", "a05873.html", "a05873" ]
     ] ],
-    [ "HasHorizontalCRSTest.java", "a01811.html", [
-      [ "HasHorizontalCRSTest", "a05202.html", "a05202" ]
+    [ "HasHorizontalCRS.java", "a00161.html", [
+      [ "HasHorizontalCRS", "a02965.html", "a02965" ]
     ] ],
-    [ "HasNestedRings.java", "a00962.html", [
-      [ "HasNestedRings", "a04002.html", "a04002" ]
+    [ "HasHorizontalCRSTest.java", "a01847.html", [
+      [ "HasHorizontalCRSTest", "a05301.html", "a05301" ]
     ] ],
-    [ "HasNoBand.java", "a01136.html", [
-      [ "HasNoBand", "a04246.html", "a04246" ]
+    [ "HasNestedRings.java", "a00971.html", [
+      [ "HasNestedRings", "a04053.html", "a04053" ]
     ] ],
-    [ "HasNoBandTest.java", "a02366.html", [
-      [ "HasNoBandTest", "a05942.html", "a05942" ]
+    [ "HasNoBand.java", "a01151.html", [
+      [ "HasNoBand", "a04305.html", "a04305" ]
     ] ],
-    [ "HasRepeatedPoints.java", "a00161.html", [
-      [ "HasRepeatedPoints", "a02926.html", "a02926" ]
+    [ "HasNoBandTest.java", "a02405.html", [
+      [ "HasNoBandTest", "a06045.html", "a06045" ]
     ] ],
-    [ "HasRepeatedPointsTest.java", "a01814.html", [
-      [ "HasRepeatedPointsTest", "a05206.html", "a05206" ]
+    [ "HasRepeatedPoints.java", "a00164.html", [
+      [ "HasRepeatedPoints", "a02969.html", "a02969" ]
     ] ],
-    [ "HasSelfIntersections.java", "a00719.html", [
-      [ "HasSelfIntersections", "a03674.html", "a03674" ]
+    [ "HasRepeatedPointsTest.java", "a01850.html", [
+      [ "HasRepeatedPointsTest", "a05305.html", "a05305" ]
     ] ],
-    [ "HasSelfIntersectionsTest.java", "a02144.html", [
-      [ "HasSelfIntersectionsTest", "a05646.html", "a05646" ]
+    [ "HasSelfIntersections.java", "a00725.html", [
+      [ "HasSelfIntersections", "a03721.html", "a03721" ]
     ] ],
-    [ "HausdorffDistance.java", "a00518.html", [
-      [ "HausdorffDistance", "a03402.html", "a03402" ]
+    [ "HasSelfIntersectionsTest.java", "a02180.html", [
+      [ "HasSelfIntersectionsTest", "a05745.html", "a05745" ]
     ] ],
-    [ "HausdorffDistanceTest.java", "a02000.html", [
-      [ "HausdorffDistanceTest", "a05454.html", "a05454" ]
+    [ "HausdorffDistance.java", "a00521.html", [
+      [ "HausdorffDistance", "a03445.html", "a03445" ]
     ] ],
-    [ "Height.java", "a01139.html", [
-      [ "Height", "a04250.html", "a04250" ]
+    [ "HausdorffDistanceTest.java", "a02036.html", [
+      [ "HausdorffDistanceTest", "a05553.html", "a05553" ]
     ] ],
-    [ "HeightTest.java", "a02369.html", [
-      [ "HeightTest", "a05946.html", "a05946" ]
+    [ "Height.java", "a01154.html", [
+      [ "Height", "a04309.html", "a04309" ]
     ] ],
-    [ "HexWKBDatatype.java", "a01658.html", [
-      [ "HexWKBDatatype", "a04950.html", "a04950" ],
-      [ "HexWKBTextSRS", "a04954.html", "a04954" ]
+    [ "HeightTest.java", "a02408.html", [
+      [ "HeightTest", "a06049.html", "a06049" ]
     ] ],
-    [ "HexWKBRastDatatype.java", "a01613.html", [
-      [ "HexWKBRastDatatype", "a04890.html", "a04890" ]
+    [ "HexWKBDatatype.java", "a01688.html", [
+      [ "HexWKBDatatype", "a05029.html", "a05029" ],
+      [ "HexWKBTextSRS", "a05033.html", "a05033" ]
     ] ],
-    [ "Histogram.java", "a01142.html", [
-      [ "Histogram", "a04254.html", null ]
+    [ "HexWKBRastDatatype.java", "a01643.html", [
+      [ "HexWKBRastDatatype", "a04969.html", "a04969" ]
     ] ],
-    [ "IDCT.java", "a01064.html", [
-      [ "IDCT", "a04146.html", "a04146" ]
+    [ "Histogram.java", "a01157.html", [
+      [ "Histogram", "a04313.html", null ]
     ] ],
-    [ "IDFT.java", "a01067.html", [
-      [ "IDFT", "a04150.html", "a04150" ]
+    [ "IDCT.java", "a01076.html", [
+      [ "IDCT", "a04201.html", "a04201" ]
     ] ],
-    [ "InchToMeter.java", "a01514.html", [
-      [ "InchToMeter", "a04758.html", "a04758" ]
+    [ "IDFT.java", "a01079.html", [
+      [ "IDFT", "a04205.html", "a04205" ]
     ] ],
-    [ "InchToMeterTest.java", "a02489.html", [
-      [ "InchToMeterTest", "a06110.html", "a06110" ]
+    [ "InchToMeter.java", "a01544.html", [
+      [ "InchToMeter", "a04837.html", "a04837" ]
     ] ],
-    [ "InteriorRingN.java", "a00965.html", [
-      [ "InteriorRingN", "a04006.html", "a04006" ]
+    [ "InchToMeterTest.java", "a02528.html", [
+      [ "InchToMeterTest", "a06213.html", "a06213" ]
     ] ],
-    [ "Intersection.java", "a01412.html", [
-      [ "Intersection", "a04618.html", "a04618" ]
+    [ "InteriorRingN.java", "a00974.html", [
+      [ "InteriorRingN", "a04057.html", "a04057" ]
     ] ],
-    [ "IntersectionMatrix.java", "a00521.html", [
-      [ "IntersectionMatrix", "a03406.html", "a03406" ]
+    [ "Intersection.java", "a01439.html", [
+      [ "Intersection", "a04693.html", "a04693" ]
     ] ],
-    [ "IntersectionMatrixTest.java", "a02003.html", [
-      [ "IntersectionMatrixTest", "a05458.html", "a05458" ]
+    [ "IntersectionMatrix.java", "a00524.html", [
+      [ "IntersectionMatrix", "a03449.html", "a03449" ]
     ] ],
-    [ "IntersectionPercentage.java", "a00524.html", [
-      [ "IntersectionPercentage", "a03410.html", "a03410" ]
+    [ "IntersectionMatrixTest.java", "a02039.html", [
+      [ "IntersectionMatrixTest", "a05557.html", "a05557" ]
     ] ],
-    [ "IntersectionPercentageTest.java", "a02006.html", [
-      [ "IntersectionPercentageTest", "a05462.html", "a05462" ]
+    [ "IntersectionPercentage.java", "a00527.html", [
+      [ "IntersectionPercentage", "a03453.html", "a03453" ]
     ] ],
-    [ "Intersects.java", "a01415.html", [
-      [ "Intersects", "a04622.html", "a04622" ]
+    [ "IntersectionPercentageTest.java", "a02042.html", [
+      [ "IntersectionPercentageTest", "a05561.html", "a05561" ]
     ] ],
-    [ "Invert.java", "a01070.html", [
-      [ "Invert", "a04154.html", "a04154" ]
+    [ "Intersects.java", "a01442.html", [
+      [ "Intersects", "a04697.html", "a04697" ]
     ] ],
-    [ "InvertTest.java", "a02327.html", [
-      [ "InvertTest", "a05890.html", "a05890" ]
+    [ "Invert.java", "a01082.html", [
+      [ "Invert", "a04209.html", "a04209" ]
     ] ],
-    [ "Is3D.java", "a00164.html", [
-      [ "Is3D", "a02930.html", "a02930" ]
+    [ "InvertTest.java", "a02366.html", [
+      [ "InvertTest", "a05993.html", "a05993" ]
     ] ],
-    [ "Is3DTest.java", "a01817.html", [
-      [ "Is3DTest", "a05210.html", "a05210" ]
+    [ "Is3D.java", "a00167.html", [
+      [ "Is3D", "a02973.html", "a02973" ]
     ] ],
-    [ "IsAcute.java", "a00968.html", [
-      [ "IsAcute", "a04010.html", "a04010" ]
+    [ "Is3DTest.java", "a01853.html", [
+      [ "Is3DTest", "a05309.html", "a05309" ]
     ] ],
-    [ "IsAcuteTest.java", "a02243.html", [
-      [ "IsAcuteTest", "a05778.html", "a05778" ]
+    [ "IsAcute.java", "a00977.html", [
+      [ "IsAcute", "a04061.html", "a04061" ]
     ] ],
-    [ "IsClosed.java", "a00167.html", [
-      [ "IsClosed", "a02934.html", "a02934" ]
+    [ "IsAcuteTest.java", "a02279.html", [
+      [ "IsAcuteTest", "a05877.html", "a05877" ]
     ] ],
-    [ "IsClosedTest.java", "a02246.html", [
-      [ "IsClosedTest", "a05782.html", "a05782" ]
+    [ "IsClosed.java", "a00170.html", [
+      [ "IsClosed", "a02977.html", "a02977" ]
     ] ],
-    [ "IsCollection.java", "a00170.html", [
-      [ "IsCollection", "a02938.html", "a02938" ]
+    [ "IsClosedTest.java", "a02282.html", [
+      [ "IsClosedTest", "a05881.html", "a05881" ]
     ] ],
-    [ "IsCollectionTest.java", "a01820.html", [
-      [ "IsCollectionTest", "a05214.html", "a05214" ]
+    [ "IsCollection.java", "a00173.html", [
+      [ "IsCollection", "a02981.html", "a02981" ]
     ] ],
-    [ "IsConvex.java", "a00173.html", [
-      [ "IsConvex", "a02942.html", "a02942" ]
+    [ "IsCollectionTest.java", "a01856.html", [
+      [ "IsCollectionTest", "a05313.html", "a05313" ]
     ] ],
-    [ "IsConvexTest.java", "a02249.html", [
-      [ "IsConvexTest", "a05786.html", "a05786" ]
+    [ "IsConvex.java", "a00176.html", [
+      [ "IsConvex", "a02985.html", "a02985" ]
     ] ],
-    [ "IsEmpty.java", "a00176.html", [
-      [ "IsEmpty", "a02946.html", "a02946" ]
+    [ "IsConvexTest.java", "a02285.html", [
+      [ "IsConvexTest", "a05885.html", "a05885" ]
     ] ],
-    [ "geometry/attribute/IsEmptyTest.java", "a07607.html", [
-      [ "IsEmptyTest", "a05218.html", "a05218" ]
+    [ "IsEmpty.java", "a00179.html", [
+      [ "IsEmpty", "a02989.html", "a02989" ]
     ] ],
-    [ "raster/attribute/IsEmptyTest.java", "a07610.html", [
-      [ "IsEmptyTest", "a05950.html", "a05950" ]
+    [ "geometry/attribute/IsEmptyTest.java", "a07838.html", [
+      [ "IsEmptyTest", "a05317.html", "a05317" ]
     ] ],
-    [ "IsEquilateralTriangle.java", "a00971.html", [
-      [ "IsEquilateralTriangle", "a04014.html", "a04014" ]
+    [ "raster/attribute/IsEmptyTest.java", "a07841.html", [
+      [ "IsEmptyTest", "a06053.html", "a06053" ]
     ] ],
-    [ "IsEquilateralTriangleTest.java", "a02252.html", [
-      [ "IsEquilateralTriangleTest", "a05790.html", "a05790" ]
+    [ "IsEquilateralTriangle.java", "a00980.html", [
+      [ "IsEquilateralTriangle", "a04065.html", "a04065" ]
     ] ],
-    [ "IsGrayscale.java", "a01145.html", [
-      [ "IsGrayscale", "a04258.html", "a04258" ]
+    [ "IsEquilateralTriangleTest.java", "a02288.html", [
+      [ "IsEquilateralTriangleTest", "a05889.html", "a05889" ]
     ] ],
-    [ "IsInCRSAreaOfValidity.java", "a00179.html", [
-      [ "IsInCRSAreaOfValidity", "a02950.html", "a02950" ]
+    [ "IsGrayscale.java", "a01160.html", [
+      [ "IsGrayscale", "a04317.html", "a04317" ]
     ] ],
-    [ "IsInCRSAreaOfValidityTest.java", "a01826.html", [
-      [ "IsInCRSAreaOfValidityTest", "a05222.html", "a05222" ]
+    [ "IsInCRSAreaOfValidity.java", "a00182.html", [
+      [ "IsInCRSAreaOfValidity", "a02993.html", "a02993" ]
     ] ],
-    [ "IsIndexed.java", "a01148.html", [
-      [ "IsIndexed", "a04262.html", "a04262" ]
+    [ "IsInCRSAreaOfValidityTest.java", "a01862.html", [
+      [ "IsInCRSAreaOfValidityTest", "a05321.html", "a05321" ]
     ] ],
-    [ "IsIsocelesTriangle.java", "a00974.html", [
-      [ "IsIsocelesTriangle", "a04018.html", "a04018" ]
+    [ "IsIndexed.java", "a01163.html", [
+      [ "IsIndexed", "a04321.html", "a04321" ]
     ] ],
-    [ "IsIsocelesTriangleTest.java", "a02255.html", [
-      [ "IsIsocelesTriangleTest", "a05794.html", "a05794" ]
+    [ "IsIsocelesTriangle.java", "a00983.html", [
+      [ "IsIsocelesTriangle", "a04069.html", "a04069" ]
     ] ],
-    [ "IsLocationOnEdge.java", "a00977.html", [
-      [ "IsLocationOnEdge", "a04022.html", "a04022" ]
+    [ "IsIsocelesTriangleTest.java", "a02291.html", [
+      [ "IsIsocelesTriangleTest", "a05893.html", "a05893" ]
     ] ],
-    [ "IsMeasured.java", "a00182.html", [
-      [ "IsMeasured", "a02954.html", "a02954" ]
+    [ "IsLocationOnEdge.java", "a00986.html", [
+      [ "IsLocationOnEdge", "a04073.html", "a04073" ]
     ] ],
-    [ "IsMeasuredTest.java", "a01829.html", [
-      [ "IsMeasuredTest", "a05226.html", "a05226" ]
+    [ "IsMeasured.java", "a00185.html", [
+      [ "IsMeasured", "a02997.html", "a02997" ]
     ] ],
-    [ "IsMorePrecise.java", "a00527.html", [
-      [ "IsMorePrecise", "a03414.html", "a03414" ]
+    [ "IsMeasuredTest.java", "a01865.html", [
+      [ "IsMeasuredTest", "a05325.html", "a05325" ]
     ] ],
-    [ "IsMorePreciseTest.java", "a02009.html", [
-      [ "IsMorePreciseTest", "a05466.html", "a05466" ]
+    [ "IsMorePrecise.java", "a00530.html", [
+      [ "IsMorePrecise", "a03457.html", "a03457" ]
     ] ],
-    [ "IsNodingValid.java", "a00185.html", [
-      [ "IsNodingValid", "a02958.html", "a02958" ]
+    [ "IsMorePreciseTest.java", "a02045.html", [
+      [ "IsMorePreciseTest", "a05565.html", "a05565" ]
     ] ],
-    [ "IsNodingValidTest.java", "a01832.html", [
-      [ "IsNodingValidTest", "a05230.html", "a05230" ]
+    [ "IsNodingValid.java", "a00188.html", [
+      [ "IsNodingValid", "a03001.html", "a03001" ]
     ] ],
-    [ "IsObliqueTriangle.java", "a00980.html", [
-      [ "IsObliqueTriangle", "a04026.html", "a04026" ]
+    [ "IsNodingValidTest.java", "a01868.html", [
+      [ "IsNodingValidTest", "a05329.html", "a05329" ]
     ] ],
-    [ "IsObliqueTriangleTest.java", "a02258.html", [
-      [ "IsObliqueTriangleTest", "a05798.html", "a05798" ]
+    [ "IsObliqueTriangle.java", "a00989.html", [
+      [ "IsObliqueTriangle", "a04077.html", "a04077" ]
     ] ],
-    [ "IsObtuseTriangle.java", "a00983.html", [
-      [ "IsObtuseTriangle", "a04030.html", "a04030" ]
+    [ "IsObliqueTriangleTest.java", "a02294.html", [
+      [ "IsObliqueTriangleTest", "a05897.html", "a05897" ]
     ] ],
-    [ "IsObtuseTriangleTest.java", "a02261.html", [
-      [ "IsObtuseTriangleTest", "a05802.html", "a05802" ]
+    [ "IsObtuseTriangle.java", "a00992.html", [
+      [ "IsObtuseTriangle", "a04081.html", "a04081" ]
     ] ],
-    [ "IsOpaquePixel.java", "a01151.html", [
-      [ "IsOpaquePixel", "a04266.html", "a04266" ]
+    [ "IsObtuseTriangleTest.java", "a02297.html", [
+      [ "IsObtuseTriangleTest", "a05901.html", "a05901" ]
     ] ],
-    [ "IsPlanar.java", "a00188.html", [
-      [ "IsPlanar", "a02962.html", "a02962" ]
+    [ "IsOpaquePixel.java", "a01166.html", [
+      [ "IsOpaquePixel", "a04325.html", "a04325" ]
     ] ],
-    [ "IsPlanarTest.java", "a01835.html", [
-      [ "IsPlanarTest", "a05234.html", "a05234" ]
+    [ "IsPlanar.java", "a00191.html", [
+      [ "IsPlanar", "a03005.html", "a03005" ]
     ] ],
-    [ "IsPointInRing.java", "a00872.html", [
-      [ "IsPointInRing", "a03882.html", "a03882" ]
+    [ "IsPlanarTest.java", "a01871.html", [
+      [ "IsPlanarTest", "a05333.html", "a05333" ]
     ] ],
-    [ "IsPointOnLine.java", "a00875.html", [
-      [ "IsPointOnLine", "a03886.html", "a03886" ]
+    [ "IsPointInRing.java", "a00881.html", [
+      [ "IsPointInRing", "a03933.html", "a03933" ]
     ] ],
-    [ "IsPolygonCCW.java", "a00986.html", [
-      [ "IsPolygonCCW", "a04034.html", "a04034" ]
+    [ "IsPointOnLine.java", "a00884.html", [
+      [ "IsPointOnLine", "a03937.html", "a03937" ]
     ] ],
-    [ "IsPolygonCCWTest.java", "a02264.html", [
-      [ "IsPolygonCCWTest", "a05806.html", "a05806" ]
+    [ "IsPolygonCCW.java", "a00995.html", [
+      [ "IsPolygonCCW", "a04085.html", "a04085" ]
     ] ],
-    [ "IsPolygonCW.java", "a00989.html", [
-      [ "IsPolygonCW", "a04038.html", "a04038" ]
+    [ "IsPolygonCCWTest.java", "a02300.html", [
+      [ "IsPolygonCCWTest", "a05905.html", "a05905" ]
     ] ],
-    [ "IsPolygonCWTest.java", "a02267.html", [
-      [ "IsPolygonCWTest", "a05810.html", "a05810" ]
+    [ "IsPolygonCW.java", "a00998.html", [
+      [ "IsPolygonCW", "a04089.html", "a04089" ]
     ] ],
-    [ "IsRectangle.java", "a00191.html", [
-      [ "IsRectangle", "a02966.html", "a02966" ]
+    [ "IsPolygonCWTest.java", "a02303.html", [
+      [ "IsPolygonCWTest", "a05909.html", "a05909" ]
     ] ],
-    [ "IsRectangleTest.java", "a01838.html", [
-      [ "IsRectangleTest", "a05238.html", "a05238" ]
+    [ "IsRectangle.java", "a00194.html", [
+      [ "IsRectangle", "a03009.html", "a03009" ]
     ] ],
-    [ "IsRightTriangle.java", "a00992.html", [
-      [ "IsRightTriangle", "a04042.html", "a04042" ]
+    [ "IsRectangleTest.java", "a01874.html", [
+      [ "IsRectangleTest", "a05337.html", "a05337" ]
     ] ],
-    [ "IsRightTriangleTest.java", "a02270.html", [
-      [ "IsRightTriangleTest", "a05814.html", "a05814" ]
+    [ "IsRightTriangle.java", "a01001.html", [
+      [ "IsRightTriangle", "a04093.html", "a04093" ]
     ] ],
-    [ "IsRing.java", "a00194.html", [
-      [ "IsRing", "a02970.html", "a02970" ]
+    [ "IsRightTriangleTest.java", "a02306.html", [
+      [ "IsRightTriangleTest", "a05913.html", "a05913" ]
     ] ],
-    [ "IsRingTest.java", "a02147.html", [
-      [ "IsRingTest", "a05650.html", "a05650" ]
+    [ "IsRing.java", "a00197.html", [
+      [ "IsRing", "a03013.html", "a03013" ]
     ] ],
-    [ "IsSimple.java", "a00197.html", [
-      [ "IsSimple", "a02974.html", "a02974" ]
+    [ "IsRingTest.java", "a02183.html", [
+      [ "IsRingTest", "a05749.html", "a05749" ]
     ] ],
-    [ "IsSimpleTest.java", "a01841.html", [
-      [ "IsSimpleTest", "a05242.html", null ]
+    [ "IsSimple.java", "a00200.html", [
+      [ "IsSimple", "a03017.html", "a03017" ]
     ] ],
-    [ "IsSolid.java", "a00200.html", [
-      [ "IsSolid", "a02978.html", "a02978" ]
+    [ "IsSimpleTest.java", "a01877.html", [
+      [ "IsSimpleTest", "a05341.html", null ]
     ] ],
-    [ "IsSolidTest.java", "a01844.html", [
-      [ "IsSolidTest", "a05246.html", "a05246" ]
+    [ "IsSolid.java", "a00203.html", [
+      [ "IsSolid", "a03021.html", "a03021" ]
     ] ],
-    [ "IsSquare.java", "a00203.html", [
-      [ "IsSquare", "a02982.html", "a02982" ]
+    [ "IsSolidTest.java", "a01880.html", [
+      [ "IsSolidTest", "a05345.html", "a05345" ]
     ] ],
-    [ "IsSquareTest.java", "a01847.html", [
-      [ "IsSquareTest", "a05250.html", "a05250" ]
+    [ "IsSquare.java", "a00206.html", [
+      [ "IsSquare", "a03025.html", "a03025" ]
     ] ],
-    [ "IsTiled.java", "a01154.html", [
-      [ "IsTiled", "a04270.html", "a04270" ]
+    [ "IsSquareTest.java", "a01883.html", [
+      [ "IsSquareTest", "a05349.html", "a05349" ]
     ] ],
-    [ "IsTranslucent.java", "a01157.html", [
-      [ "IsTranslucent", "a04274.html", "a04274" ]
+    [ "IsTiled.java", "a01169.html", [
+      [ "IsTiled", "a04329.html", "a04329" ]
     ] ],
-    [ "IsTransparentPixel.java", "a01160.html", [
-      [ "IsTransparentPixel", "a04278.html", "a04278" ]
+    [ "IsTranslucent.java", "a01172.html", [
+      [ "IsTranslucent", "a04333.html", "a04333" ]
     ] ],
-    [ "IsTriangle.java", "a00995.html", [
-      [ "IsTriangle", "a04046.html", "a04046" ]
+    [ "IsTransparentPixel.java", "a01175.html", [
+      [ "IsTransparentPixel", "a04337.html", "a04337" ]
     ] ],
-    [ "IsTriangleTest.java", "a02273.html", [
-      [ "IsTriangleTest", "a05818.html", "a05818" ]
+    [ "IsTriangle.java", "a01004.html", [
+      [ "IsTriangle", "a04097.html", "a04097" ]
     ] ],
-    [ "IsValid.java", "a00206.html", [
-      [ "IsValid", "a02986.html", "a02986" ]
+    [ "IsTriangleTest.java", "a02309.html", [
+      [ "IsTriangleTest", "a05917.html", "a05917" ]
     ] ],
-    [ "IsValidDetail.java", "a00209.html", [
-      [ "IsValidDetail", "a02990.html", "a02990" ]
+    [ "IsValid.java", "a00209.html", [
+      [ "IsValid", "a03029.html", "a03029" ]
     ] ],
-    [ "IsValidReason.java", "a00212.html", [
-      [ "IsValidReason", "a02994.html", "a02994" ]
+    [ "IsValidDetail.java", "a00212.html", [
+      [ "IsValidDetail", "a03033.html", "a03033" ]
     ] ],
-    [ "IsValidTest.java", "a01850.html", [
-      [ "IsValidTest", "a05254.html", "a05254" ]
+    [ "IsValidReason.java", "a00215.html", [
+      [ "IsValidReason", "a03037.html", "a03037" ]
     ] ],
-    [ "IsValidTrajectory.java", "a00215.html", [
-      [ "IsValidTrajectory", "a02998.html", "a02998" ]
+    [ "IsValidTest.java", "a01886.html", [
+      [ "IsValidTest", "a05353.html", "a05353" ]
     ] ],
-    [ "KilometerToMeter.java", "a01517.html", [
-      [ "KilometerToMeter", "a04762.html", "a04762" ]
+    [ "IsValidTrajectory.java", "a00218.html", [
+      [ "IsValidTrajectory", "a03041.html", "a03041" ]
     ] ],
-    [ "KilometerToMeterTest.java", "a02492.html", [
-      [ "KilometerToMeterTest", "a06114.html", "a06114" ]
+    [ "KilometerToMeter.java", "a01547.html", [
+      [ "KilometerToMeter", "a04841.html", "a04841" ]
     ] ],
-    [ "KMLDatatype.java", "a01661.html", [
-      [ "KMLDatatype", "a04958.html", "a04958" ]
+    [ "KilometerToMeterTest.java", "a02531.html", [
+      [ "KilometerToMeterTest", "a06217.html", "a06217" ]
     ] ],
-    [ "LEDataInputStream.java", "a01727.html", [
-      [ "LEDataInputStream", "a05058.html", "a05058" ]
+    [ "KMLDatatype.java", "a01691.html", [
+      [ "KMLDatatype", "a05037.html", "a05037" ]
     ] ],
-    [ "LEDataOutputStream.java", "a01730.html", [
-      [ "LEDataOutputStream", "a05062.html", "a05062" ]
+    [ "LEDataInputStream.java", "a01763.html", [
+      [ "LEDataInputStream", "a05157.html", "a05157" ]
     ] ],
-    [ "Length.java", "a00218.html", [
-      [ "Length", "a03002.html", "a03002" ]
+    [ "LEDataOutputStream.java", "a01766.html", [
+      [ "LEDataOutputStream", "a05161.html", "a05161" ]
     ] ],
-    [ "Length3D.java", "a00221.html", [
-      [ "Length3D", "a03006.html", "a03006" ]
+    [ "Length.java", "a00221.html", [
+      [ "Length", "a03045.html", "a03045" ]
     ] ],
-    [ "LengthSubstring.java", "a01751.html", [
-      [ "LengthSubstring", "a05114.html", "a05114" ]
+    [ "Length3D.java", "a00224.html", [
+      [ "Length3D", "a03049.html", "a03049" ]
     ] ],
-    [ "LengthTest.java", "a01853.html", [
-      [ "LengthTest", "a05258.html", "a05258" ]
+    [ "LengthSubstring.java", "a01787.html", [
+      [ "LengthSubstring", "a05213.html", "a05213" ]
     ] ],
-    [ "eclipse/rdf4j/query/algebra/evaluation/function/postgis/linestring/LengthToPoint.java", "a07613.html", [
-      [ "LengthToPoint", "a03750.html", "a03750" ]
+    [ "LengthTest.java", "a01889.html", [
+      [ "LengthTest", "a05357.html", "a05357" ]
     ] ],
-    [ "locationtech/jump/algorithm/LengthToPoint.java", "a07616.html", [
-      [ "LengthToPoint", "a05118.html", "a05118" ]
+    [ "eclipse/rdf4j/query/algebra/evaluation/function/postgis/linestring/LengthToPoint.java", "a07844.html", [
+      [ "LengthToPoint", "a03797.html", "a03797" ]
     ] ],
-    [ "LineCrossingDirection.java", "a00782.html", [
-      [ "LineCrossingDirection", "a03762.html", "a03762" ]
+    [ "locationtech/jump/algorithm/LengthToPoint.java", "a07847.html", [
+      [ "LengthToPoint", "a05217.html", "a05217" ]
     ] ],
-    [ "LineFromEncodedPolyline.java", "a00737.html", [
-      [ "LineFromEncodedPolyline", "a03698.html", "a03698" ]
+    [ "LineCrossingDirection.java", "a00788.html", [
+      [ "LineCrossingDirection", "a03809.html", "a03809" ]
     ] ],
-    [ "LineFromMultiPoint.java", "a00740.html", [
-      [ "LineFromMultiPoint", "a03702.html", "a03702" ]
+    [ "LineFromEncodedPolyline.java", "a00743.html", [
+      [ "LineFromEncodedPolyline", "a03745.html", "a03745" ]
     ] ],
-    [ "LineFromText.java", "a00743.html", [
-      [ "LineFromText", "a03706.html", "a03706" ]
+    [ "LineFromMultiPoint.java", "a00746.html", [
+      [ "LineFromMultiPoint", "a03749.html", "a03749" ]
     ] ],
-    [ "LineFromWKB.java", "a00746.html", [
-      [ "LineFromWKB", "a03710.html", "a03710" ]
+    [ "LineFromText.java", "a00749.html", [
+      [ "LineFromText", "a03753.html", "a03753" ]
     ] ],
-    [ "attribute/LineInterpolatePoint.java", "a07619.html", [
-      [ "LineInterpolatePoint", "a03678.html", "a03678" ]
+    [ "LineFromWKB.java", "a00752.html", [
+      [ "LineFromWKB", "a03757.html", "a03757" ]
     ] ],
-    [ "LineInterpolatePoint.java", "a00722.html", [
-      [ "LineInterpolatePoint", "a03754.html", "a03754" ]
+    [ "attribute/LineInterpolatePoint.java", "a07850.html", [
+      [ "LineInterpolatePoint", "a03725.html", "a03725" ]
     ] ],
-    [ "LineLength3D.java", "a00725.html", [
-      [ "LineLength3D", "a03682.html", "a03682" ]
+    [ "LineInterpolatePoint.java", "a00728.html", [
+      [ "LineInterpolatePoint", "a03801.html", "a03801" ]
     ] ],
-    [ "LineMerge.java", "a00788.html", [
-      [ "LineMerge", "a03770.html", "a03770" ]
+    [ "LineLength3D.java", "a00731.html", [
+      [ "LineLength3D", "a03729.html", "a03729" ]
     ] ],
-    [ "LinesCutAtNodes.java", "a00791.html", [
-      [ "LinesCutAtNodes", "a03774.html", "a03774" ]
+    [ "LineMerge.java", "a00797.html", [
+      [ "LineMerge", "a03821.html", "a03821" ]
     ] ],
-    [ "LineSelfIntersectionPoint.java", "a00728.html", [
-      [ "LineSelfIntersectionPoint", "a03686.html", "a03686" ]
+    [ "LinesCutAtNodes.java", "a00800.html", [
+      [ "LinesCutAtNodes", "a03825.html", "a03825" ]
     ] ],
-    [ "LinesFromRings.java", "a01037.html", [
-      [ "LinesFromRings", "a04102.html", "a04102" ]
+    [ "LineSelfIntersectionPoint.java", "a00734.html", [
+      [ "LineSelfIntersectionPoint", "a03733.html", "a03733" ]
     ] ],
-    [ "Linesubstring.java", "a00779.html", [
-      [ "Linesubstring", "a03758.html", null ]
+    [ "LinesFromRings.java", "a01046.html", [
+      [ "LinesFromRings", "a04153.html", "a04153" ]
     ] ],
-    [ "LinkToMeter.java", "a01520.html", [
-      [ "LinkToMeter", "a04766.html", "a04766" ]
+    [ "Linesubstring.java", "a00785.html", [
+      [ "Linesubstring", "a03805.html", null ]
     ] ],
-    [ "LinkToMeterTest.java", "a02495.html", [
-      [ "LinkToMeterTest", "a06118.html", "a06118" ]
+    [ "LinkToMeter.java", "a01550.html", [
+      [ "LinkToMeter", "a04845.html", "a04845" ]
     ] ],
-    [ "LiteralRegistry.java", "a01598.html", [
-      [ "LiteralRegistry", "a04870.html", "a04870" ]
+    [ "LinkToMeterTest.java", "a02534.html", [
+      [ "LinkToMeterTest", "a06221.html", "a06221" ]
     ] ],
-    [ "LiteralType.java", "a01601.html", [
-      [ "LiteralType", "a04874.html", null ]
+    [ "LiteralRegistry.java", "a01628.html", [
+      [ "LiteralRegistry", "a04949.html", "a04949" ]
     ] ],
-    [ "LiteralUtils.java", "a01682.html", [
-      [ "LiteralUtils", "a04998.html", "a04998" ]
+    [ "LiteralType.java", "a01631.html", [
+      [ "LiteralType", "a04953.html", null ]
+    ] ],
+    [ "LiteralUtils.java", "a01712.html", [
+      [ "LiteralUtils", "a05077.html", "a05077" ]
     ] ],
     [ "LLtoGARS.java", "a00011.html", [
-      [ "LLtoGARS", "a02722.html", "a02722" ]
+      [ "LLtoGARS", "a02761.html", "a02761" ]
     ] ],
-    [ "LocateAlong.java", "a00224.html", [
-      [ "LocateAlong", "a03010.html", "a03010" ]
+    [ "LocateAlong.java", "a00227.html", [
+      [ "LocateAlong", "a03053.html", "a03053" ]
     ] ],
-    [ "LocateBetweenMeasures.java", "a00227.html", [
-      [ "LocateBetweenMeasures", "a03014.html", "a03014" ]
+    [ "LocateBetweenMeasures.java", "a00230.html", [
+      [ "LocateBetweenMeasures", "a03057.html", "a03057" ]
     ] ],
-    [ "LocatePoint.java", "a01754.html", [
-      [ "LocatePoint", "a05122.html", "a05122" ]
+    [ "LocatePoint.java", "a01790.html", [
+      [ "LocatePoint", "a05221.html", "a05221" ]
     ] ],
-    [ "math/Log.java", "a07622.html", [
-      [ "Log", "a03830.html", "a03830" ]
+    [ "math/Log.java", "a07853.html", [
+      [ "Log", "a03881.html", "a03881" ]
     ] ],
-    [ "raster/algebra/Log.java", "a07625.html", [
-      [ "Log", "a04158.html", "a04158" ]
+    [ "raster/algebra/Log.java", "a07856.html", [
+      [ "Log", "a04213.html", "a04213" ]
     ] ],
-    [ "Log10.java", "a00836.html", [
-      [ "Log10", "a03834.html", "a03834" ]
+    [ "Log10.java", "a00845.html", [
+      [ "Log10", "a03885.html", "a03885" ]
     ] ],
-    [ "LogTest.java", "a02330.html", [
-      [ "LogTest", "a05894.html", "a05894" ]
+    [ "LogTest.java", "a02369.html", [
+      [ "LogTest", "a05997.html", "a05997" ]
     ] ],
-    [ "LongestLine.java", "a00530.html", [
-      [ "LongestLine", "a03418.html", "a03418" ]
+    [ "LongestLine.java", "a00533.html", [
+      [ "LongestLine", "a03461.html", "a03461" ]
     ] ],
-    [ "LongestLineTest.java", "a02012.html", [
-      [ "LongestLineTest", "a05470.html", "a05470" ]
+    [ "LongestLineTest.java", "a02048.html", [
+      [ "LongestLineTest", "a05569.html", "a05569" ]
     ] ],
-    [ "M.java", "a00878.html", [
-      [ "M", "a03890.html", "a03890" ]
+    [ "M.java", "a00887.html", [
+      [ "M", "a03941.html", "a03941" ]
     ] ],
     [ "MakeBox2D.java", "a00068.html", [
-      [ "MakeBox2D", "a02798.html", "a02798" ]
+      [ "MakeBox2D", "a02837.html", "a02837" ]
     ] ],
     [ "MakeBox3D.java", "a00071.html", [
-      [ "MakeBox3D", "a02802.html", "a02802" ]
+      [ "MakeBox3D", "a02841.html", "a02841" ]
     ] ],
-    [ "MakeEmptyRaster.java", "a01328.html", [
-      [ "MakeEmptyRaster", "a04506.html", "a04506" ]
+    [ "MakeEmptyRaster.java", "a01355.html", [
+      [ "MakeEmptyRaster", "a04581.html", "a04581" ]
     ] ],
     [ "MakeEnvelope.java", "a00074.html", [
-      [ "MakeEnvelope", "a02806.html", "a02806" ]
+      [ "MakeEnvelope", "a02845.html", "a02845" ]
     ] ],
-    [ "MakeLine.java", "a00749.html", [
-      [ "MakeLine", "a03714.html", "a03714" ]
+    [ "MakeLine.java", "a00755.html", [
+      [ "MakeLine", "a03761.html", "a03761" ]
     ] ],
-    [ "MakeLineTest.java", "a02159.html", [
-      [ "MakeLineTest", "a05666.html", "a05666" ]
+    [ "MakeLineTest.java", "a02195.html", [
+      [ "MakeLineTest", "a05765.html", "a05765" ]
     ] ],
-    [ "MakePoint.java", "a00923.html", [
-      [ "MakePoint", "a03950.html", "a03950" ]
+    [ "MakePoint.java", "a00932.html", [
+      [ "MakePoint", "a04001.html", "a04001" ]
     ] ],
-    [ "MakePointTest.java", "a02222.html", [
-      [ "MakePointTest", "a05750.html", "a05750" ]
+    [ "MakePointTest.java", "a02258.html", [
+      [ "MakePointTest", "a05849.html", "a05849" ]
     ] ],
-    [ "MakePolygon.java", "a01010.html", [
-      [ "MakePolygon", "a04066.html", "a04066" ]
+    [ "MakePolygon.java", "a01019.html", [
+      [ "MakePolygon", "a04117.html", "a04117" ]
     ] ],
-    [ "MakeValid.java", "a00647.html", [
-      [ "MakeValid", "a03574.html", "a03574" ]
+    [ "MakeSolid.java", "a00650.html", [
+      [ "MakeSolid", "a03617.html", null ]
     ] ],
-    [ "MakeValidDiscarded.java", "a00650.html", [
-      [ "MakeValidDiscarded", "a03578.html", "a03578" ]
+    [ "MakeValid.java", "a00653.html", [
+      [ "MakeValid", "a03621.html", "a03621" ]
     ] ],
-    [ "ManhattanDistance.java", "a00533.html", [
-      [ "ManhattanDistance", "a03422.html", "a03422" ]
+    [ "MakeValidDiscarded.java", "a00656.html", [
+      [ "MakeValidDiscarded", "a03625.html", "a03625" ]
     ] ],
-    [ "ManhattanDistanceTest.java", "a02015.html", [
-      [ "ManhattanDistanceTest", "a05474.html", "a05474" ]
+    [ "ManhattanDistance.java", "a00536.html", [
+      [ "ManhattanDistance", "a03465.html", "a03465" ]
     ] ],
-    [ "Max.java", "a01073.html", [
-      [ "Max", "a04162.html", "a04162" ]
+    [ "ManhattanDistanceTest.java", "a02051.html", [
+      [ "ManhattanDistanceTest", "a05573.html", "a05573" ]
     ] ],
-    [ "MaxDistance.java", "a00536.html", [
-      [ "MaxDistance", "a03426.html", "a03426" ]
+    [ "Max.java", "a01085.html", [
+      [ "Max", "a04217.html", "a04217" ]
     ] ],
-    [ "MaxDistance3D.java", "a00539.html", [
-      [ "MaxDistance3D", "a03430.html", "a03430" ]
+    [ "MaxDistance.java", "a00539.html", [
+      [ "MaxDistance", "a03469.html", "a03469" ]
     ] ],
-    [ "MaxDistance3DTest.java", "a02018.html", [
-      [ "MaxDistance3DTest", "a05478.html", "a05478" ]
+    [ "MaxDistance3D.java", "a00542.html", [
+      [ "MaxDistance3D", "a03473.html", "a03473" ]
     ] ],
-    [ "MaxDistanceTest.java", "a02021.html", [
-      [ "MaxDistanceTest", "a05482.html", "a05482" ]
+    [ "MaxDistance3DTest.java", "a02054.html", [
+      [ "MaxDistance3DTest", "a05577.html", "a05577" ]
     ] ],
-    [ "MaxFilter.java", "a01076.html", [
-      [ "MaxFilter", "a04166.html", "a04166" ]
+    [ "MaxDistanceTest.java", "a02057.html", [
+      [ "MaxDistanceTest", "a05581.html", "a05581" ]
     ] ],
-    [ "MaxMTest.java", "a02180.html", [
-      [ "MaxMTest", "a05694.html", "a05694" ]
+    [ "MaxFilter.java", "a01088.html", [
+      [ "MaxFilter", "a04221.html", "a04221" ]
+    ] ],
+    [ "MaxMTest.java", "a02216.html", [
+      [ "MaxMTest", "a05793.html", "a05793" ]
     ] ],
     [ "MaxX.java", "a00044.html", [
-      [ "MaxX", "a02766.html", "a02766" ]
+      [ "MaxX", "a02805.html", "a02805" ]
     ] ],
-    [ "MaxXTest.java", "a02183.html", [
-      [ "MaxXTest", "a05698.html", "a05698" ]
+    [ "MaxXTest.java", "a02219.html", [
+      [ "MaxXTest", "a05797.html", "a05797" ]
     ] ],
     [ "MaxY.java", "a00047.html", [
-      [ "MaxY", "a02770.html", "a02770" ]
+      [ "MaxY", "a02809.html", "a02809" ]
     ] ],
-    [ "MaxYTest.java", "a02186.html", [
-      [ "MaxYTest", "a05702.html", "a05702" ]
+    [ "MaxYTest.java", "a02222.html", [
+      [ "MaxYTest", "a05801.html", "a05801" ]
     ] ],
     [ "MaxZ.java", "a00050.html", [
-      [ "MaxZ", "a02774.html", "a02774" ]
+      [ "MaxZ", "a02813.html", "a02813" ]
     ] ],
-    [ "MaxZTest.java", "a02189.html", [
-      [ "MaxZTest", "a05706.html", "a05706" ]
+    [ "MaxZTest.java", "a02225.html", [
+      [ "MaxZTest", "a05805.html", "a05805" ]
     ] ],
-    [ "Mean.java", "a01079.html", [
-      [ "Mean", "a04170.html", "a04170" ]
+    [ "Mean.java", "a01091.html", [
+      [ "Mean", "a04225.html", "a04225" ]
     ] ],
-    [ "MedianFilter.java", "a01082.html", [
-      [ "MedianFilter", "a04174.html", "a04174" ]
+    [ "MedianFilter.java", "a01094.html", [
+      [ "MedianFilter", "a04229.html", "a04229" ]
     ] ],
-    [ "MeterToCentimeter.java", "a01523.html", [
-      [ "MeterToCentimeter", "a04770.html", "a04770" ]
+    [ "MeterToCentimeter.java", "a01553.html", [
+      [ "MeterToCentimeter", "a04849.html", "a04849" ]
     ] ],
-    [ "MeterToCentimeterTest.java", "a02498.html", [
-      [ "MeterToCentimeterTest", "a06122.html", "a06122" ]
+    [ "MeterToCentimeterTest.java", "a02537.html", [
+      [ "MeterToCentimeterTest", "a06225.html", "a06225" ]
     ] ],
-    [ "MeterToChain.java", "a01526.html", [
-      [ "MeterToChain", "a04774.html", "a04774" ]
+    [ "MeterToChain.java", "a01556.html", [
+      [ "MeterToChain", "a04853.html", "a04853" ]
     ] ],
-    [ "MeterToChainTest.java", "a02501.html", [
-      [ "MeterToChainTest", "a06126.html", "a06126" ]
+    [ "MeterToChainTest.java", "a02540.html", [
+      [ "MeterToChainTest", "a06229.html", "a06229" ]
     ] ],
-    [ "MeterToDecimeter.java", "a01529.html", [
-      [ "MeterToDecimeter", "a04778.html", "a04778" ]
+    [ "MeterToDecimeter.java", "a01559.html", [
+      [ "MeterToDecimeter", "a04857.html", "a04857" ]
     ] ],
-    [ "MeterToDecimeterTest.java", "a02504.html", [
-      [ "MeterToDecimeterTest", "a06130.html", "a06130" ]
+    [ "MeterToDecimeterTest.java", "a02543.html", [
+      [ "MeterToDecimeterTest", "a06233.html", "a06233" ]
     ] ],
-    [ "MeterToFathom.java", "a01532.html", [
-      [ "MeterToFathom", "a04782.html", "a04782" ]
+    [ "MeterToFathom.java", "a01562.html", [
+      [ "MeterToFathom", "a04861.html", "a04861" ]
     ] ],
-    [ "MeterToFathomTest.java", "a02507.html", [
-      [ "MeterToFathomTest", "a06134.html", "a06134" ]
+    [ "MeterToFathomTest.java", "a02546.html", [
+      [ "MeterToFathomTest", "a06237.html", "a06237" ]
     ] ],
-    [ "MeterToFoot.java", "a01535.html", [
-      [ "MeterToFoot", "a04786.html", "a04786" ]
+    [ "MeterToFoot.java", "a01565.html", [
+      [ "MeterToFoot", "a04865.html", "a04865" ]
     ] ],
-    [ "MeterToFootTest.java", "a02510.html", [
-      [ "MeterToFootTest", "a06138.html", "a06138" ]
+    [ "MeterToFootTest.java", "a02549.html", [
+      [ "MeterToFootTest", "a06241.html", "a06241" ]
     ] ],
-    [ "MeterToInch.java", "a01538.html", [
-      [ "MeterToInch", "a04790.html", "a04790" ]
+    [ "MeterToInch.java", "a01568.html", [
+      [ "MeterToInch", "a04869.html", "a04869" ]
     ] ],
-    [ "MeterToInchTest.java", "a02513.html", [
-      [ "MeterToInchTest", "a06142.html", "a06142" ]
+    [ "MeterToInchTest.java", "a02552.html", [
+      [ "MeterToInchTest", "a06245.html", "a06245" ]
     ] ],
-    [ "MeterToKilometer.java", "a01541.html", [
-      [ "MeterToKilometer", "a04794.html", "a04794" ]
+    [ "MeterToKilometer.java", "a01571.html", [
+      [ "MeterToKilometer", "a04873.html", "a04873" ]
     ] ],
-    [ "MeterToKilometerTest.java", "a02516.html", [
-      [ "MeterToKilometerTest", "a06146.html", "a06146" ]
+    [ "MeterToKilometerTest.java", "a02555.html", [
+      [ "MeterToKilometerTest", "a06249.html", "a06249" ]
     ] ],
-    [ "MeterToLink.java", "a01544.html", [
-      [ "MeterToLink", "a04798.html", "a04798" ]
+    [ "MeterToLink.java", "a01574.html", [
+      [ "MeterToLink", "a04877.html", "a04877" ]
     ] ],
-    [ "MeterToLinkTest.java", "a02519.html", [
-      [ "MeterToLinkTest", "a06150.html", "a06150" ]
+    [ "MeterToLinkTest.java", "a02558.html", [
+      [ "MeterToLinkTest", "a06253.html", "a06253" ]
     ] ],
-    [ "MeterToMile.java", "a01547.html", [
-      [ "MeterToMile", "a04802.html", "a04802" ]
+    [ "MeterToMile.java", "a01577.html", [
+      [ "MeterToMile", "a04881.html", "a04881" ]
     ] ],
-    [ "MeterToMileTest.java", "a02522.html", [
-      [ "MeterToMileTest", "a06154.html", "a06154" ]
+    [ "MeterToMileTest.java", "a02561.html", [
+      [ "MeterToMileTest", "a06257.html", "a06257" ]
     ] ],
-    [ "MeterToMillimeter.java", "a01550.html", [
-      [ "MeterToMillimeter", "a04806.html", "a04806" ]
+    [ "MeterToMillimeter.java", "a01580.html", [
+      [ "MeterToMillimeter", "a04885.html", "a04885" ]
     ] ],
-    [ "MeterToMillimeterTest.java", "a02525.html", [
-      [ "MeterToMillimeterTest", "a06158.html", "a06158" ]
+    [ "MeterToMillimeterTest.java", "a02564.html", [
+      [ "MeterToMillimeterTest", "a06261.html", "a06261" ]
     ] ],
-    [ "MeterToNauticalMile.java", "a01553.html", [
-      [ "MeterToNauticalMile", "a04810.html", "a04810" ]
+    [ "MeterToNauticalMile.java", "a01583.html", [
+      [ "MeterToNauticalMile", "a04889.html", "a04889" ]
     ] ],
-    [ "MeterToNauticalMileTest.java", "a02528.html", [
-      [ "MeterToNauticalMileTest", "a06162.html", "a06162" ]
+    [ "MeterToNauticalMileTest.java", "a02567.html", [
+      [ "MeterToNauticalMileTest", "a06265.html", "a06265" ]
     ] ],
-    [ "MeterToUSFoot.java", "a01556.html", [
-      [ "MeterToUSFoot", "a04814.html", "a04814" ]
+    [ "MeterToUSFoot.java", "a01586.html", [
+      [ "MeterToUSFoot", "a04893.html", "a04893" ]
     ] ],
-    [ "MeterToUSFootTest.java", "a02531.html", [
-      [ "MeterToUSFootTest", "a06166.html", "a06166" ]
+    [ "MeterToUSFootTest.java", "a02570.html", [
+      [ "MeterToUSFootTest", "a06269.html", "a06269" ]
     ] ],
-    [ "MeterToUSInch.java", "a01559.html", [
-      [ "MeterToUSInch", "a04818.html", "a04818" ]
+    [ "MeterToUSInch.java", "a01589.html", [
+      [ "MeterToUSInch", "a04897.html", "a04897" ]
     ] ],
-    [ "MeterToUSInchTest.java", "a02534.html", [
-      [ "MeterToUSInchTest", "a06170.html", "a06170" ]
+    [ "MeterToUSInchTest.java", "a02573.html", [
+      [ "MeterToUSInchTest", "a06273.html", "a06273" ]
     ] ],
-    [ "MeterToUSMile.java", "a01562.html", [
-      [ "MeterToUSMile", "a04822.html", "a04822" ]
+    [ "MeterToUSMile.java", "a01592.html", [
+      [ "MeterToUSMile", "a04901.html", "a04901" ]
     ] ],
-    [ "MeterToUSMileTest.java", "a02537.html", [
-      [ "MeterToUSMileTest", "a06174.html", "a06174" ]
+    [ "MeterToUSMileTest.java", "a02576.html", [
+      [ "MeterToUSMileTest", "a06277.html", "a06277" ]
     ] ],
-    [ "MeterToUSYard.java", "a01565.html", [
-      [ "MeterToUSYard", "a04826.html", "a04826" ]
+    [ "MeterToUSYard.java", "a01595.html", [
+      [ "MeterToUSYard", "a04905.html", "a04905" ]
     ] ],
-    [ "MeterToUSYardTest.java", "a02540.html", [
-      [ "MeterToUSYardTest", "a06178.html", "a06178" ]
+    [ "MeterToUSYardTest.java", "a02579.html", [
+      [ "MeterToUSYardTest", "a06281.html", "a06281" ]
     ] ],
-    [ "MeterToYard.java", "a01568.html", [
-      [ "MeterToYard", "a04830.html", "a04830" ]
+    [ "MeterToYard.java", "a01598.html", [
+      [ "MeterToYard", "a04909.html", "a04909" ]
     ] ],
-    [ "MeterToYardTest.java", "a02543.html", [
-      [ "MeterToYardTest", "a06182.html", "a06182" ]
+    [ "MeterToYardTest.java", "a02582.html", [
+      [ "MeterToYardTest", "a06285.html", "a06285" ]
     ] ],
-    [ "MileToMeter.java", "a01571.html", [
-      [ "MileToMeter", "a04834.html", "a04834" ]
+    [ "MileToMeter.java", "a01601.html", [
+      [ "MileToMeter", "a04913.html", "a04913" ]
     ] ],
-    [ "MileToMeterTest.java", "a02546.html", [
-      [ "MileToMeterTest", "a06186.html", "a06186" ]
+    [ "MileToMeterTest.java", "a02585.html", [
+      [ "MileToMeterTest", "a06289.html", "a06289" ]
     ] ],
-    [ "MillimeterToMeter.java", "a01574.html", [
-      [ "MillimeterToMeter", "a04838.html", "a04838" ]
+    [ "MillimeterToMeter.java", "a01604.html", [
+      [ "MillimeterToMeter", "a04917.html", "a04917" ]
     ] ],
-    [ "MillimeterToMeterTest.java", "a02549.html", [
-      [ "MillimeterToMeterTest", "a06190.html", "a06190" ]
+    [ "MillimeterToMeterTest.java", "a02588.html", [
+      [ "MillimeterToMeterTest", "a06293.html", "a06293" ]
     ] ],
-    [ "Min.java", "a01085.html", [
-      [ "Min", "a04178.html", "a04178" ]
+    [ "Min.java", "a01097.html", [
+      [ "Min", "a04233.html", "a04233" ]
     ] ],
-    [ "MinFilter.java", "a01088.html", [
-      [ "MinFilter", "a04182.html", "a04182" ]
+    [ "MinFilter.java", "a01100.html", [
+      [ "MinFilter", "a04237.html", "a04237" ]
     ] ],
-    [ "MinimumBoundingCircle.java", "a00230.html", [
-      [ "MinimumBoundingCircle", "a03018.html", "a03018" ]
+    [ "MinimumBoundingCircle.java", "a00233.html", [
+      [ "MinimumBoundingCircle", "a03061.html", "a03061" ]
     ] ],
-    [ "MinimumBoundingCircleCenter.java", "a00233.html", [
-      [ "MinimumBoundingCircleCenter", "a03022.html", "a03022" ]
+    [ "MinimumBoundingCircleCenter.java", "a00236.html", [
+      [ "MinimumBoundingCircleCenter", "a03065.html", "a03065" ]
     ] ],
-    [ "MinimumBoundingCircleCenterTest.java", "a01856.html", [
-      [ "MinimumBoundingCircleCenterTest", "a05262.html", "a05262" ]
+    [ "MinimumBoundingCircleCenterTest.java", "a01892.html", [
+      [ "MinimumBoundingCircleCenterTest", "a05361.html", "a05361" ]
     ] ],
-    [ "MinimumBoundingCircleTest.java", "a01859.html", [
-      [ "MinimumBoundingCircleTest", "a05266.html", "a05266" ]
+    [ "MinimumBoundingCircleTest.java", "a01895.html", [
+      [ "MinimumBoundingCircleTest", "a05365.html", "a05365" ]
     ] ],
-    [ "MinimumBoundingRadius.java", "a00236.html", [
-      [ "MinimumBoundingRadius", "a03026.html", "a03026" ]
+    [ "MinimumBoundingRadius.java", "a00239.html", [
+      [ "MinimumBoundingRadius", "a03069.html", "a03069" ]
     ] ],
-    [ "MinimumBoundingRadiusTest.java", "a01862.html", [
-      [ "MinimumBoundingRadiusTest", "a05270.html", "a05270" ]
+    [ "MinimumBoundingRadiusTest.java", "a01898.html", [
+      [ "MinimumBoundingRadiusTest", "a05369.html", "a05369" ]
     ] ],
-    [ "MinimumClearance.java", "a00239.html", [
-      [ "MinimumClearance", "a03030.html", "a03030" ]
+    [ "MinimumClearance.java", "a00242.html", [
+      [ "MinimumClearance", "a03073.html", "a03073" ]
     ] ],
-    [ "MinimumClearanceLine.java", "a00242.html", [
-      [ "MinimumClearanceLine", "a03034.html", "a03034" ]
+    [ "MinimumClearanceLine.java", "a00245.html", [
+      [ "MinimumClearanceLine", "a03077.html", "a03077" ]
     ] ],
-    [ "MinimumClearanceLineTest.java", "a01865.html", [
-      [ "MinimumClearanceLineTest", "a05274.html", "a05274" ]
+    [ "MinimumClearanceLineTest.java", "a01901.html", [
+      [ "MinimumClearanceLineTest", "a05373.html", "a05373" ]
     ] ],
-    [ "MinimumClearanceTest.java", "a01868.html", [
-      [ "MinimumClearanceTest", "a05278.html", "a05278" ]
+    [ "MinimumClearanceTest.java", "a01904.html", [
+      [ "MinimumClearanceTest", "a05377.html", "a05377" ]
     ] ],
-    [ "MinimumDiameter.java", "a00245.html", [
-      [ "MinimumDiameter", "a03038.html", "a03038" ]
+    [ "MinimumDiameter.java", "a00248.html", [
+      [ "MinimumDiameter", "a03081.html", "a03081" ]
     ] ],
-    [ "MinimumDiameterLine.java", "a00248.html", [
-      [ "MinimumDiameterLine", "a03042.html", "a03042" ]
+    [ "MinimumDiameterLine.java", "a00251.html", [
+      [ "MinimumDiameterLine", "a03085.html", "a03085" ]
     ] ],
-    [ "MinimumDiameterLineTest.java", "a01871.html", [
-      [ "MinimumDiameterLineTest", "a05282.html", "a05282" ]
+    [ "MinimumDiameterLineTest.java", "a01907.html", [
+      [ "MinimumDiameterLineTest", "a05381.html", "a05381" ]
     ] ],
-    [ "MinimumDiameterTest.java", "a01874.html", [
-      [ "MinimumDiameterTest", "a05286.html", "a05286" ]
+    [ "MinimumDiameterTest.java", "a01910.html", [
+      [ "MinimumDiameterTest", "a05385.html", "a05385" ]
     ] ],
-    [ "MinimumRectangle.java", "a00251.html", [
-      [ "MinimumRectangle", "a03046.html", "a03046" ]
+    [ "MinimumRectangle.java", "a00254.html", [
+      [ "MinimumRectangle", "a03089.html", "a03089" ]
     ] ],
-    [ "MinimumRectangleTest.java", "a01877.html", [
-      [ "MinimumRectangleTest", "a05290.html", "a05290" ]
+    [ "MinimumRectangleTest.java", "a01913.html", [
+      [ "MinimumRectangleTest", "a05389.html", "a05389" ]
     ] ],
-    [ "MinkowskiDistance.java", "a00542.html", [
-      [ "MinkowskiDistance", "a03434.html", "a03434" ]
+    [ "MinkowskiDistance.java", "a00545.html", [
+      [ "MinkowskiDistance", "a03477.html", "a03477" ]
     ] ],
-    [ "MinMTest.java", "a02192.html", [
-      [ "MinMTest", "a05710.html", "a05710" ]
+    [ "MinMTest.java", "a02228.html", [
+      [ "MinMTest", "a05809.html", "a05809" ]
     ] ],
-    [ "MinTileX.java", "a01163.html", [
-      [ "MinTileX", "a04282.html", "a04282" ]
+    [ "MinTileX.java", "a01178.html", [
+      [ "MinTileX", "a04341.html", "a04341" ]
     ] ],
-    [ "MinTileXTest.java", "a02372.html", [
-      [ "MinTileXTest", "a05954.html", "a05954" ]
+    [ "MinTileXTest.java", "a02411.html", [
+      [ "MinTileXTest", "a06057.html", "a06057" ]
     ] ],
-    [ "MinTileY.java", "a01166.html", [
-      [ "MinTileY", "a04286.html", "a04286" ]
+    [ "MinTileY.java", "a01181.html", [
+      [ "MinTileY", "a04345.html", "a04345" ]
     ] ],
-    [ "MinTileYTest.java", "a02375.html", [
-      [ "MinTileYTest", "a05958.html", "a05958" ]
+    [ "MinTileYTest.java", "a02414.html", [
+      [ "MinTileYTest", "a06061.html", "a06061" ]
     ] ],
-    [ "aggregate/MinX.java", "a07628.html", [
-      [ "MinX", "a02778.html", "a02778" ]
+    [ "aggregate/MinX.java", "a07859.html", [
+      [ "MinX", "a02817.html", "a02817" ]
     ] ],
-    [ "raster/attribute/MinX.java", "a07631.html", [
-      [ "MinX", "a04290.html", null ]
+    [ "raster/attribute/MinX.java", "a07862.html", [
+      [ "MinX", "a04349.html", null ]
     ] ],
-    [ "MinXTest.java", "a02195.html", [
-      [ "MinXTest", "a05714.html", "a05714" ]
+    [ "MinXTest.java", "a02231.html", [
+      [ "MinXTest", "a05813.html", "a05813" ]
     ] ],
     [ "MinY.java", "a00056.html", [
-      [ "MinY", "a02782.html", "a02782" ]
+      [ "MinY", "a02821.html", "a02821" ]
     ] ],
-    [ "MinYTest.java", "a02198.html", [
-      [ "MinYTest", "a05718.html", "a05718" ]
+    [ "MinYTest.java", "a02234.html", [
+      [ "MinYTest", "a05817.html", "a05817" ]
     ] ],
     [ "MinZ.java", "a00059.html", [
-      [ "MinZ", "a02786.html", "a02786" ]
+      [ "MinZ", "a02825.html", "a02825" ]
     ] ],
-    [ "MinZTest.java", "a02201.html", [
-      [ "MinZTest", "a05722.html", "a05722" ]
+    [ "MinZTest.java", "a02237.html", [
+      [ "MinZTest", "a05821.html", "a05821" ]
     ] ],
-    [ "Mirror.java", "a01436.html", [
-      [ "Mirror", "a04650.html", "a04650" ]
+    [ "Mirror.java", "a01463.html", [
+      [ "Mirror", "a04725.html", "a04725" ]
     ] ],
-    [ "MLineFromText.java", "a00752.html", [
-      [ "MLineFromText", "a03718.html", "a03718" ]
+    [ "MLineFromText.java", "a00758.html", [
+      [ "MLineFromText", "a03765.html", "a03765" ]
     ] ],
-    [ "MMax.java", "a00881.html", [
-      [ "MMax", "a03894.html", "a03894" ]
+    [ "MMax.java", "a00890.html", [
+      [ "MMax", "a03945.html", "a03945" ]
     ] ],
-    [ "MMin.java", "a00884.html", [
-      [ "MMin", "a03898.html", "a03898" ]
+    [ "MMin.java", "a00893.html", [
+      [ "MMin", "a03949.html", "a03949" ]
     ] ],
-    [ "MoveIsoNode.java", "a01478.html", [
-      [ "MoveIsoNode", "a04710.html", null ]
+    [ "MoveIsoNode.java", "a01508.html", [
+      [ "MoveIsoNode", "a04789.html", null ]
     ] ],
-    [ "MPointFromText.java", "a00926.html", [
-      [ "MPointFromText", "a03954.html", "a03954" ]
+    [ "MPointFromText.java", "a00935.html", [
+      [ "MPointFromText", "a04005.html", "a04005" ]
     ] ],
-    [ "MTest.java", "a02204.html", [
-      [ "MTest", "a05726.html", "a05726" ]
+    [ "MTest.java", "a02240.html", [
+      [ "MTest", "a05825.html", "a05825" ]
     ] ],
-    [ "Mult.java", "a01091.html", [
-      [ "Mult", "a04186.html", "a04186" ]
+    [ "Mult.java", "a01103.html", [
+      [ "Mult", "a04241.html", "a04241" ]
     ] ],
-    [ "MultConst.java", "a01094.html", [
-      [ "MultConst", "a04190.html", "a04190" ]
+    [ "MultConst.java", "a01106.html", [
+      [ "MultConst", "a04245.html", "a04245" ]
     ] ],
-    [ "MultConstTest.java", "a02333.html", [
-      [ "MultConstTest", "a05898.html", "a05898" ]
+    [ "MultConstTest.java", "a02372.html", [
+      [ "MultConstTest", "a06001.html", "a06001" ]
     ] ],
-    [ "Multi.java", "a00653.html", [
-      [ "Multi", "a03582.html", "a03582" ]
+    [ "Multi.java", "a00659.html", [
+      [ "Multi", "a03629.html", "a03629" ]
     ] ],
-    [ "MultiplyZ.java", "a00656.html", [
-      [ "MultiplyZ", "a03586.html", "a03586" ]
+    [ "MultiplyZ.java", "a00662.html", [
+      [ "MultiplyZ", "a03633.html", "a03633" ]
     ] ],
-    [ "MultiTest.java", "a02108.html", [
-      [ "MultiTest", "a05598.html", "a05598" ]
+    [ "MultiTest.java", "a02144.html", [
+      [ "MultiTest", "a05697.html", "a05697" ]
     ] ],
-    [ "MultTest.java", "a02336.html", [
-      [ "MultTest", "a05902.html", "a05902" ]
+    [ "MultTest.java", "a02375.html", [
+      [ "MultTest", "a06005.html", "a06005" ]
     ] ],
-    [ "MVTDatatype.java", "a01664.html", [
-      [ "MVTDatatype", "a04962.html", "a04962" ]
+    [ "MVTDatatype.java", "a01694.html", [
+      [ "MVTDatatype", "a05041.html", "a05041" ]
     ] ],
-    [ "NauticalMileToMeter.java", "a01577.html", [
-      [ "NauticalMileToMeter", "a04842.html", "a04842" ]
+    [ "NauticalMileToMeter.java", "a01607.html", [
+      [ "NauticalMileToMeter", "a04921.html", "a04921" ]
     ] ],
-    [ "NauticalMileToMeterTest.java", "a02552.html", [
-      [ "NauticalMileToMeterTest", "a06194.html", "a06194" ]
+    [ "NauticalMileToMeterTest.java", "a02591.html", [
+      [ "NauticalMileToMeterTest", "a06297.html", "a06297" ]
     ] ],
-    [ "NDims.java", "a00254.html", [
-      [ "NDims", "a03050.html", "a03050" ]
+    [ "NDims.java", "a00257.html", [
+      [ "NDims", "a03093.html", "a03093" ]
     ] ],
-    [ "NDimsTest.java", "a01880.html", [
-      [ "NDimsTest", "a05294.html", "a05294" ]
+    [ "NDimsTest.java", "a01916.html", [
+      [ "NDimsTest", "a05393.html", "a05393" ]
     ] ],
-    [ "NetCDFDatatype.java", "a01616.html", [
-      [ "NetCDFDatatype", "a04894.html", "a04894" ]
+    [ "NetCDFDatatype.java", "a01646.html", [
+      [ "NetCDFDatatype", "a04973.html", "a04973" ]
     ] ],
-    [ "NoDataPixelCount.java", "a01169.html", [
-      [ "NoDataPixelCount", "a04294.html", null ]
+    [ "NoDataPixelCount.java", "a01184.html", [
+      [ "NoDataPixelCount", "a04353.html", "a04353" ]
     ] ],
-    [ "Node.java", "a00659.html", [
-      [ "Node", "a03590.html", "a03590" ]
+    [ "Node.java", "a00665.html", [
+      [ "Node", "a03637.html", "a03637" ]
     ] ],
-    [ "relation/Normalize.java", "a07634.html", [
-      [ "Normalize", "a03438.html", "a03438" ]
+    [ "relation/Normalize.java", "a07865.html", [
+      [ "Normalize", "a03481.html", "a03481" ]
     ] ],
-    [ "transform/Normalize.java", "a07637.html", [
-      [ "Normalize", "a03594.html", "a03594" ]
+    [ "transform/Normalize.java", "a07868.html", [
+      [ "Normalize", "a03641.html", "a03641" ]
     ] ],
-    [ "Not.java", "a01097.html", [
-      [ "Not", "a04194.html", "a04194" ]
+    [ "Not.java", "a01109.html", [
+      [ "Not", "a04249.html", "a04249" ]
     ] ],
-    [ "NotTest.java", "a02339.html", [
-      [ "NotTest", "a05906.html", "a05906" ]
+    [ "NotTest.java", "a02378.html", [
+      [ "NotTest", "a06009.html", "a06009" ]
     ] ],
-    [ "NRingsTest.java", "a02276.html", [
-      [ "NRingsTest", "a05822.html", "a05822" ]
+    [ "NRingsTest.java", "a02312.html", [
+      [ "NRingsTest", "a05921.html", "a05921" ]
     ] ],
-    [ "NumBands.java", "a01172.html", [
-      [ "NumBands", "a04298.html", "a04298" ]
+    [ "NumBands.java", "a01187.html", [
+      [ "NumBands", "a04357.html", "a04357" ]
     ] ],
-    [ "NumBandsTest.java", "a02378.html", [
-      [ "NumBandsTest", "a05962.html", "a05962" ]
+    [ "NumBandsTest.java", "a02417.html", [
+      [ "NumBandsTest", "a06065.html", "a06065" ]
     ] ],
-    [ "NumDataElements.java", "a01175.html", [
-      [ "NumDataElements", "a04302.html", "a04302" ]
+    [ "NumDataElements.java", "a01190.html", [
+      [ "NumDataElements", "a04361.html", "a04361" ]
     ] ],
-    [ "NumDistinctGeometries.java", "a00257.html", [
-      [ "NumDistinctGeometries", "a03054.html", "a03054" ]
+    [ "NumDistinctGeometries.java", "a00260.html", [
+      [ "NumDistinctGeometries", "a03097.html", "a03097" ]
     ] ],
-    [ "NumDistinctGeometriesTest.java", "a01883.html", [
-      [ "NumDistinctGeometriesTest", "a05298.html", "a05298" ]
+    [ "NumDistinctGeometriesTest.java", "a01919.html", [
+      [ "NumDistinctGeometriesTest", "a05397.html", "a05397" ]
     ] ],
-    [ "NumDistinctInteriorRings.java", "a00998.html", [
-      [ "NumDistinctInteriorRings", "a04050.html", "a04050" ]
+    [ "NumDistinctInteriorRings.java", "a01007.html", [
+      [ "NumDistinctInteriorRings", "a04101.html", "a04101" ]
     ] ],
-    [ "NumDistinctInteriorRingsTest.java", "a02279.html", [
-      [ "NumDistinctInteriorRingsTest", "a05826.html", "a05826" ]
+    [ "NumDistinctInteriorRingsTest.java", "a02315.html", [
+      [ "NumDistinctInteriorRingsTest", "a05925.html", "a05925" ]
     ] ],
-    [ "NumDistinctPoints.java", "a00260.html", [
-      [ "NumDistinctPoints", "a03058.html", "a03058" ]
+    [ "NumDistinctPoints.java", "a00263.html", [
+      [ "NumDistinctPoints", "a03101.html", "a03101" ]
     ] ],
-    [ "NumDistinctPointsTest.java", "a01886.html", [
-      [ "NumDistinctPointsTest", "a05302.html", "a05302" ]
+    [ "NumDistinctPointsTest.java", "a01922.html", [
+      [ "NumDistinctPointsTest", "a05401.html", "a05401" ]
     ] ],
-    [ "NumGeometries.java", "a00263.html", [
-      [ "NumGeometries", "a03062.html", "a03062" ]
+    [ "NumGeometries.java", "a00266.html", [
+      [ "NumGeometries", "a03105.html", "a03105" ]
     ] ],
-    [ "NumGeometriesTest.java", "a01889.html", [
-      [ "NumGeometriesTest", "a05306.html", "a05306" ]
+    [ "NumGeometriesTest.java", "a01925.html", [
+      [ "NumGeometriesTest", "a05405.html", "a05405" ]
     ] ],
-    [ "NumInteriorRings.java", "a01001.html", [
-      [ "NumInteriorRings", "a04054.html", "a04054" ]
+    [ "NumInteriorRings.java", "a01010.html", [
+      [ "NumInteriorRings", "a04105.html", "a04105" ]
     ] ],
-    [ "NumPatches.java", "a00266.html", [
-      [ "NumPatches", "a03066.html", "a03066" ]
+    [ "NumPatches.java", "a00269.html", [
+      [ "NumPatches", "a03109.html", "a03109" ]
     ] ],
-    [ "NumPoints.java", "a00269.html", [
-      [ "NumPoints", "a03070.html", "a03070" ]
+    [ "NumPoints.java", "a00272.html", [
+      [ "NumPoints", "a03113.html", "a03113" ]
     ] ],
-    [ "NumPointsTest.java", "a01892.html", [
-      [ "NumPointsTest", "a05310.html", "a05310" ]
+    [ "NumPointsTest.java", "a01928.html", [
+      [ "NumPointsTest", "a05409.html", "a05409" ]
     ] ],
-    [ "NumXTiles.java", "a01178.html", [
-      [ "NumXTiles", "a04306.html", "a04306" ]
+    [ "NumXTiles.java", "a01193.html", [
+      [ "NumXTiles", "a04365.html", "a04365" ]
     ] ],
-    [ "NumXTilesTest.java", "a02381.html", [
-      [ "NumXTilesTest", "a05966.html", "a05966" ]
+    [ "NumXTilesTest.java", "a02420.html", [
+      [ "NumXTilesTest", "a06069.html", "a06069" ]
     ] ],
-    [ "NumYTiles.java", "a01181.html", [
-      [ "NumYTiles", "a04310.html", "a04310" ]
+    [ "NumYTiles.java", "a01196.html", [
+      [ "NumYTiles", "a04369.html", "a04369" ]
     ] ],
-    [ "NumYTilesTest.java", "a02384.html", [
-      [ "NumYTilesTest", "a05970.html", "a05970" ]
+    [ "NumYTilesTest.java", "a02423.html", [
+      [ "NumYTilesTest", "a06073.html", "a06073" ]
     ] ],
     [ "OctagonalEnvelope.java", "a00077.html", [
-      [ "OctagonalEnvelope", "a02810.html", "a02810" ]
+      [ "OctagonalEnvelope", "a02849.html", "a02849" ]
     ] ],
-    [ "OffsetCurve.java", "a00794.html", [
-      [ "OffsetCurve", "a03778.html", "a03778" ]
+    [ "OffsetCurve.java", "a00803.html", [
+      [ "OffsetCurve", "a03829.html", "a03829" ]
     ] ],
-    [ "Or.java", "a01100.html", [
-      [ "Or", "a04198.html", "a04198" ]
+    [ "Or.java", "a01112.html", [
+      [ "Or", "a04253.html", "a04253" ]
     ] ],
-    [ "OrConst.java", "a01103.html", [
-      [ "OrConst", "a04202.html", "a04202" ]
+    [ "OrConst.java", "a01115.html", [
+      [ "OrConst", "a04257.html", "a04257" ]
     ] ],
-    [ "OrConstTest.java", "a02342.html", [
-      [ "OrConstTest", "a05910.html", "a05910" ]
+    [ "OrConstTest.java", "a02381.html", [
+      [ "OrConstTest", "a06013.html", "a06013" ]
     ] ],
-    [ "OrderingEquals.java", "a00548.html", [
-      [ "OrderingEquals", "a03442.html", "a03442" ]
+    [ "OrderingEquals.java", "a00551.html", [
+      [ "OrderingEquals", "a03485.html", "a03485" ]
     ] ],
-    [ "OrderingEqualsTest.java", "a02024.html", [
-      [ "OrderingEqualsTest", "a05486.html", "a05486" ]
+    [ "OrderingEqualsTest.java", "a02060.html", [
+      [ "OrderingEqualsTest", "a05585.html", "a05585" ]
     ] ],
-    [ "Orientation.java", "a01004.html", [
-      [ "Orientation", "a04058.html", "a04058" ]
+    [ "Orientation.java", "a01013.html", [
+      [ "Orientation", "a04109.html", "a04109" ]
     ] ],
-    [ "OrTest.java", "a02345.html", [
-      [ "OrTest", "a05914.html", "a05914" ]
+    [ "OrientationTest.java", "a02318.html", [
+      [ "OrientationTest", "a05929.html", "a05929" ]
     ] ],
-    [ "Overlaps.java", "a01418.html", [
-      [ "Overlaps", "a04626.html", "a04626" ]
+    [ "OrTest.java", "a02384.html", [
+      [ "OrTest", "a06017.html", "a06017" ]
     ] ],
-    [ "Perimeter.java", "a00272.html", [
-      [ "Perimeter", "a03074.html", "a03074" ]
+    [ "Overlaps.java", "a01445.html", [
+      [ "Overlaps", "a04701.html", "a04701" ]
     ] ],
-    [ "Perimeter3D.java", "a00275.html", [
-      [ "Perimeter3D", "a03078.html", "a03078" ]
+    [ "Perimeter.java", "a00275.html", [
+      [ "Perimeter", "a03117.html", "a03117" ]
     ] ],
-    [ "PerimeterTest.java", "a01895.html", [
-      [ "PerimeterTest", "a05314.html", "a05314" ]
+    [ "Perimeter3D.java", "a00278.html", [
+      [ "Perimeter3D", "a03121.html", "a03121" ]
     ] ],
-    [ "PI.java", "a00839.html", [
-      [ "PI", "a03838.html", "a03838" ]
+    [ "PerimeterTest.java", "a01931.html", [
+      [ "PerimeterTest", "a05413.html", "a05413" ]
     ] ],
-    [ "PixelAsPoint.java", "a01184.html", [
-      [ "PixelAsPoint", "a04314.html", "a04314" ]
+    [ "PI.java", "a00848.html", [
+      [ "PI", "a03889.html", "a03889" ]
     ] ],
-    [ "PixelEquals.java", "a01421.html", [
-      [ "PixelEquals", "a04630.html", null ]
+    [ "PixelAsPoint.java", "a01199.html", [
+      [ "PixelAsPoint", "a04373.html", "a04373" ]
     ] ],
-    [ "PixelHeight.java", "a01187.html", [
-      [ "PixelHeight", "a04318.html", "a04318" ]
+    [ "PixelEquals.java", "a01448.html", [
+      [ "PixelEquals", "a04705.html", null ]
     ] ],
-    [ "PointFromGeoHash.java", "a00929.html", [
-      [ "PointFromGeoHash", "a03958.html", "a03958" ]
+    [ "PixelHeight.java", "a01202.html", [
+      [ "PixelHeight", "a04377.html", "a04377" ]
     ] ],
-    [ "PointFromText.java", "a00932.html", [
-      [ "PointFromText", "a03962.html", "a03962" ]
+    [ "PointFromGeoHash.java", "a00938.html", [
+      [ "PointFromGeoHash", "a04009.html", "a04009" ]
     ] ],
-    [ "PointFromTextTest.java", "a02225.html", [
-      [ "PointFromTextTest", "a05754.html", "a05754" ]
+    [ "PointFromText.java", "a00941.html", [
+      [ "PointFromText", "a04013.html", "a04013" ]
     ] ],
-    [ "PointFromWKB.java", "a00935.html", [
-      [ "PointFromWKB", "a03966.html", "a03966" ]
+    [ "PointFromTextTest.java", "a02261.html", [
+      [ "PointFromTextTest", "a05853.html", "a05853" ]
     ] ],
-    [ "PointFromWKBTest.java", "a02228.html", [
-      [ "PointFromWKBTest", "a05758.html", null ]
+    [ "PointFromWKB.java", "a00944.html", [
+      [ "PointFromWKB", "a04017.html", "a04017" ]
     ] ],
-    [ "PointInsideCircle.java", "a00887.html", [
-      [ "PointInsideCircle", "a03902.html", "a03902" ]
+    [ "PointFromWKBTest.java", "a02264.html", [
+      [ "PointFromWKBTest", "a05857.html", null ]
     ] ],
-    [ "PointInsideCircleTest.java", "a02207.html", [
-      [ "PointInsideCircleTest", "a05730.html", "a05730" ]
+    [ "PointInsideCircle.java", "a00896.html", [
+      [ "PointInsideCircle", "a03953.html", "a03953" ]
     ] ],
-    [ "PointN.java", "a00278.html", [
-      [ "PointN", "a03082.html", "a03082" ]
+    [ "PointInsideCircleTest.java", "a02243.html", [
+      [ "PointInsideCircleTest", "a05829.html", "a05829" ]
     ] ],
-    [ "PointNTest.java", "a02150.html", [
-      [ "PointNTest", "a05654.html", "a05654" ]
+    [ "PointN.java", "a00281.html", [
+      [ "PointN", "a03125.html", "a03125" ]
     ] ],
-    [ "PointOnSurface.java", "a00470.html", [
-      [ "PointOnSurface", "a03338.html", "a03338" ]
+    [ "PointNTest.java", "a02186.html", [
+      [ "PointNTest", "a05753.html", "a05753" ]
     ] ],
-    [ "Points.java", "a00662.html", [
-      [ "Points", "a03598.html", "a03598" ]
+    [ "PointOnSurface.java", "a00473.html", [
+      [ "PointOnSurface", "a03381.html", "a03381" ]
     ] ],
-    [ "PointsTest.java", "a02111.html", [
-      [ "PointsTest", "a05602.html", "a05602" ]
+    [ "Points.java", "a00668.html", [
+      [ "Points", "a03645.html", "a03645" ]
     ] ],
-    [ "Polygon.java", "a01013.html", [
-      [ "Polygon", "a04070.html", "a04070" ]
+    [ "PointsTest.java", "a02147.html", [
+      [ "PointsTest", "a05701.html", "a05701" ]
     ] ],
-    [ "PolygonFromText.java", "a01016.html", [
-      [ "PolygonFromText", "a04074.html", "a04074" ]
+    [ "Polygon.java", "a01022.html", [
+      [ "Polygon", "a04121.html", "a04121" ]
     ] ],
-    [ "PolygonFromTextTest.java", "a02282.html", [
-      [ "PolygonFromTextTest", "a05830.html", "a05830" ]
+    [ "PolygonFromText.java", "a01025.html", [
+      [ "PolygonFromText", "a04125.html", "a04125" ]
     ] ],
-    [ "PolygonFromWKB.java", "a01019.html", [
-      [ "PolygonFromWKB", "a04078.html", "a04078" ]
+    [ "PolygonFromTextTest.java", "a02321.html", [
+      [ "PolygonFromTextTest", "a05933.html", "a05933" ]
     ] ],
-    [ "Polygonize.java", "a00665.html", [
-      [ "Polygonize", "a03602.html", "a03602" ]
+    [ "PolygonFromWKB.java", "a01028.html", [
+      [ "PolygonFromWKB", "a04129.html", "a04129" ]
+    ] ],
+    [ "Polygonize.java", "a00671.html", [
+      [ "Polygonize", "a03649.html", "a03649" ]
     ] ],
     [ "POSTGIS.java", "a00014.html", [
-      [ "POSTGIS", "a02726.html", "a02726" ]
+      [ "POSTGIS", "a02765.html", "a02765" ]
     ] ],
-    [ "Pow.java", "a00842.html", [
-      [ "Pow", "a03842.html", "a03842" ]
+    [ "Pow.java", "a00851.html", [
+      [ "Pow", "a03893.html", "a03893" ]
     ] ],
-    [ "PrecisionReducer.java", "a00668.html", [
-      [ "PrecisionReducer", "a03606.html", "a03606" ]
+    [ "PrecisionReducer.java", "a00674.html", [
+      [ "PrecisionReducer", "a03653.html", "a03653" ]
     ] ],
-    [ "PrecisionReducerTest.java", "a02114.html", [
-      [ "PrecisionReducerTest", "a05606.html", "a05606" ]
+    [ "PrecisionReducerTest.java", "a02150.html", [
+      [ "PrecisionReducerTest", "a05705.html", "a05705" ]
     ] ],
-    [ "QueryModelVisitor.java", "a01709.html", [
-      [ "QueryModelVisitor", "a05034.html", "a05034" ]
+    [ "QueryModelVisitor.java", "a01739.html", [
+      [ "QueryModelVisitor", "a05113.html", "a05113" ]
     ] ],
-    [ "RasterAlgebraConstFunction.java", "a01253.html", [
-      [ "RasterAlgebraConstFunction", "a04406.html", "a04406" ]
+    [ "RasterAlgebraConstFunction.java", "a01274.html", [
+      [ "RasterAlgebraConstFunction", "a04473.html", "a04473" ]
     ] ],
-    [ "RasterAlgebraFunction.java", "a01256.html", [
-      [ "RasterAlgebraFunction", "a04410.html", "a04410" ]
+    [ "RasterAlgebraFunction.java", "a01277.html", [
+      [ "RasterAlgebraFunction", "a04477.html", "a04477" ]
     ] ],
-    [ "RasterAlgebraUnaryFunction.java", "a01259.html", [
-      [ "RasterAlgebraUnaryFunction", "a04414.html", "a04414" ]
+    [ "RasterAlgebraUnaryFunction.java", "a01280.html", [
+      [ "RasterAlgebraUnaryFunction", "a04481.html", "a04481" ]
     ] ],
-    [ "RasterAttributeBinaryFunction.java", "a01262.html", [
-      [ "RasterAttributeBinaryFunction", "a04418.html", "a04418" ]
+    [ "RasterAttributeBinaryFunction.java", "a01283.html", [
+      [ "RasterAttributeBinaryFunction", "a04485.html", "a04485" ]
     ] ],
-    [ "RasterAttributeBooleanIntFunction.java", "a01265.html", [
-      [ "RasterAttributeBooleanIntFunction", "a04422.html", "a04422" ]
+    [ "RasterAttributeBooleanIntFunction.java", "a01286.html", [
+      [ "RasterAttributeBooleanIntFunction", "a04489.html", "a04489" ]
     ] ],
-    [ "RasterAttributeDoubleIntFunction.java", "a01268.html", [
-      [ "RasterAttributeDoubleIntFunction", "a04426.html", "a04426" ]
+    [ "RasterAttributeDoubleIntFunction.java", "a01289.html", [
+      [ "RasterAttributeDoubleIntFunction", "a04493.html", "a04493" ]
     ] ],
-    [ "RasterAttributeFunction.java", "a01271.html", [
-      [ "RasterAttributeFunction", "a04430.html", "a04430" ]
+    [ "RasterAttributeFunction.java", "a01292.html", [
+      [ "RasterAttributeFunction", "a04497.html", "a04497" ]
     ] ],
-    [ "RasterAttributeIntIntDoubleFunction.java", "a01274.html", [
-      [ "RasterAttributeIntIntDoubleFunction", "a04434.html", "a04434" ]
+    [ "RasterAttributeIntFunction.java", "a01295.html", [
+      [ "RasterAttributeIntFunction", "a04501.html", "a04501" ]
     ] ],
-    [ "RasterAttributeIntIntFunction.java", "a01277.html", [
-      [ "RasterAttributeIntIntFunction", "a04438.html", "a04438" ]
+    [ "RasterAttributeIntIntDoubleFunction.java", "a01298.html", [
+      [ "RasterAttributeIntIntDoubleFunction", "a04505.html", "a04505" ]
     ] ],
-    [ "RasterAttributeIntIntGeomFunction.java", "a01280.html", [
-      [ "RasterAttributeIntIntGeomFunction", "a04442.html", "a04442" ]
+    [ "RasterAttributeIntIntFunction.java", "a01301.html", [
+      [ "RasterAttributeIntIntFunction", "a04509.html", "a04509" ]
     ] ],
-    [ "RasterAttributeIntIntIntBooleanFunction.java", "a01283.html", [
-      [ "RasterAttributeIntIntIntBooleanFunction", "a04446.html", "a04446" ]
+    [ "RasterAttributeIntIntGeomFunction.java", "a01304.html", [
+      [ "RasterAttributeIntIntGeomFunction", "a04513.html", "a04513" ]
     ] ],
-    [ "RasterAttributeIntIntIntIntFunction.java", "a01286.html", [
-      [ "RasterAttributeIntIntIntIntFunction", "a04450.html", "a04450" ]
+    [ "RasterAttributeIntIntIntBooleanFunction.java", "a01307.html", [
+      [ "RasterAttributeIntIntIntBooleanFunction", "a04517.html", "a04517" ]
     ] ],
-    [ "RasterAttributeIntIntIntStringFunction.java", "a01289.html", [
-      [ "RasterAttributeIntIntIntStringFunction", "a04454.html", "a04454" ]
+    [ "RasterAttributeIntIntIntIntFunction.java", "a01310.html", [
+      [ "RasterAttributeIntIntIntIntFunction", "a04521.html", "a04521" ]
     ] ],
-    [ "RasterConstructorFunction.java", "a01292.html", [
-      [ "RasterConstructorFunction", "a04458.html", "a04458" ]
+    [ "RasterAttributeIntIntIntStringFunction.java", "a01313.html", [
+      [ "RasterAttributeIntIntIntStringFunction", "a04525.html", "a04525" ]
     ] ],
-    [ "RasterGeometryConversionFunction.java", "a01295.html", [
-      [ "RasterGeometryConversionFunction", "a04462.html", "a04462" ]
+    [ "RasterAttributeStringFunction.java", "a01316.html", [
+      [ "RasterAttributeStringFunction", "a04529.html", "a04529" ]
     ] ],
-    [ "RasterIterator.java", "a01694.html", [
-      [ "RasterIterator", "a05014.html", "a05014" ]
+    [ "RasterConstructorFunction.java", "a01319.html", [
+      [ "RasterConstructorFunction", "a04533.html", "a04533" ]
     ] ],
-    [ "RasterLiteral.java", "a01619.html", [
-      [ "RasterLiteral", "a04898.html", "a04898" ]
+    [ "RasterGeometryConversionFunction.java", "a01322.html", [
+      [ "RasterGeometryConversionFunction", "a04537.html", "a04537" ]
     ] ],
-    [ "RasterModifierBoolDoubleFunction.java", "a01298.html", [
-      [ "RasterModifierBoolDoubleFunction", "a04466.html", "a04466" ]
+    [ "RasterIterator.java", "a01724.html", [
+      [ "RasterIterator", "a05093.html", "a05093" ]
     ] ],
-    [ "RasterModifierDoubleDoubleFunction.java", "a01301.html", [
-      [ "RasterModifierDoubleDoubleFunction", "a04470.html", "a04470" ]
+    [ "RasterLiteral.java", "a01649.html", [
+      [ "RasterLiteral", "a04977.html", "a04977" ]
     ] ],
-    [ "RasterModifierFunction.java", "a01304.html", [
-      [ "RasterModifierFunction", "a04474.html", "a04474" ]
+    [ "RasterModifierBoolDoubleFunction.java", "a01325.html", [
+      [ "RasterModifierBoolDoubleFunction", "a04541.html", "a04541" ]
     ] ],
-    [ "RasterModifierGeometryFunction.java", "a01307.html", [
-      [ "RasterModifierGeometryFunction", "a04478.html", "a04478" ]
+    [ "RasterModifierDoubleDoubleFunction.java", "a01328.html", [
+      [ "RasterModifierDoubleDoubleFunction", "a04545.html", "a04545" ]
     ] ],
-    [ "RasterModifierIntIntFunction.java", "a01310.html", [
-      [ "RasterModifierIntIntFunction", "a04482.html", "a04482" ]
+    [ "RasterModifierFunction.java", "a01331.html", [
+      [ "RasterModifierFunction", "a04549.html", "a04549" ]
     ] ],
-    [ "RasterRelationBooleanFunction.java", "a01313.html", [
-      [ "RasterRelationBooleanFunction", "a04486.html", "a04486" ]
+    [ "RasterModifierGeometryFunction.java", "a01334.html", [
+      [ "RasterModifierGeometryFunction", "a04553.html", "a04553" ]
     ] ],
-    [ "RasterStringExportFunction.java", "a01316.html", [
-      [ "RasterStringExportFunction", "a04490.html", "a04490" ]
+    [ "RasterModifierIntIntFunction.java", "a01337.html", [
+      [ "RasterModifierIntIntFunction", "a04557.html", "a04557" ]
     ] ],
-    [ "RasterToVectorExportFunction.java", "a01319.html", [
-      [ "RasterToVectorExportFunction", "a04494.html", "a04494" ]
+    [ "RasterRelationBooleanFunction.java", "a01340.html", [
+      [ "RasterRelationBooleanFunction", "a04561.html", "a04561" ]
     ] ],
-    [ "RasterToWorldCoord.java", "a01190.html", [
-      [ "RasterToWorldCoord", "a04322.html", "a04322" ]
+    [ "RasterStringExportFunction.java", "a01343.html", [
+      [ "RasterStringExportFunction", "a04565.html", "a04565" ]
     ] ],
-    [ "RasterToWorldCoordTest.java", "a02387.html", [
-      [ "RasterToWorldCoordTest", "a05974.html", "a05974" ]
+    [ "RasterToVectorExportFunction.java", "a01346.html", [
+      [ "RasterToVectorExportFunction", "a04569.html", "a04569" ]
     ] ],
-    [ "RasterToWorldCoordX.java", "a01193.html", [
-      [ "RasterToWorldCoordX", "a04326.html", "a04326" ]
+    [ "RasterToWorldCoord.java", "a01205.html", [
+      [ "RasterToWorldCoord", "a04381.html", "a04381" ]
     ] ],
-    [ "RasterToWorldCoordXTest.java", "a02390.html", [
-      [ "RasterToWorldCoordXTest", "a05978.html", "a05978" ]
+    [ "RasterToWorldCoordTest.java", "a02426.html", [
+      [ "RasterToWorldCoordTest", "a06077.html", "a06077" ]
     ] ],
-    [ "RasterToWorldCoordY.java", "a01196.html", [
-      [ "RasterToWorldCoordY", "a04330.html", "a04330" ]
+    [ "RasterToWorldCoordX.java", "a01208.html", [
+      [ "RasterToWorldCoordX", "a04385.html", "a04385" ]
     ] ],
-    [ "RasterToWorldCoordYTest.java", "a02393.html", [
-      [ "RasterToWorldCoordYTest", "a05982.html", "a05982" ]
+    [ "RasterToWorldCoordXTest.java", "a02429.html", [
+      [ "RasterToWorldCoordXTest", "a06081.html", "a06081" ]
     ] ],
-    [ "RasterUtils.java", "a01697.html", [
-      [ "RasterUtils", "a05018.html", "a05018" ]
+    [ "RasterToWorldCoordY.java", "a01211.html", [
+      [ "RasterToWorldCoordY", "a04389.html", "a04389" ]
     ] ],
-    [ "RasterVectorRelationBinaryFunction.java", "a01700.html", [
-      [ "RasterVectorRelationBinaryFunction", "a05022.html", "a05022" ]
+    [ "RasterToWorldCoordYTest.java", "a02432.html", [
+      [ "RasterToWorldCoordYTest", "a06085.html", "a06085" ]
     ] ],
-    [ "RasterVectorRelationFunction.java", "a01703.html", [
-      [ "RasterVectorRelationFunction", "a05026.html", "a05026" ]
+    [ "RasterUtils.java", "a01727.html", [
+      [ "RasterUtils", "a05097.html", "a05097" ]
     ] ],
-    [ "RasterVectorRelationIntBinaryFunction.java", "a01706.html", [
-      [ "RasterVectorRelationIntBinaryFunction", "a05030.html", "a05030" ]
+    [ "RasterVectorRelationBinaryFunction.java", "a01730.html", [
+      [ "RasterVectorRelationBinaryFunction", "a05101.html", "a05101" ]
     ] ],
-    [ "RastFromCoverageJSON.java", "a01331.html", [
-      [ "RastFromCoverageJSON", "a04510.html", "a04510" ]
+    [ "RasterVectorRelationFunction.java", "a01733.html", [
+      [ "RasterVectorRelationFunction", "a05105.html", "a05105" ]
     ] ],
-    [ "RastFromCoverageJSONTest.java", "a02450.html", [
-      [ "RastFromCoverageJSONTest", "a06058.html", "a06058" ]
+    [ "RasterVectorRelationIntBinaryFunction.java", "a01736.html", [
+      [ "RasterVectorRelationIntBinaryFunction", "a05109.html", "a05109" ]
     ] ],
-    [ "RastFromGMLCOV.java", "a01334.html", [
-      [ "RastFromGMLCOV", "a04514.html", "a04514" ]
+    [ "RastFromCoverageJSON.java", "a01358.html", [
+      [ "RastFromCoverageJSON", "a04585.html", "a04585" ]
     ] ],
-    [ "RastFromHexWKB.java", "a01337.html", [
-      [ "RastFromHexWKB", "a04518.html", "a04518" ]
+    [ "RastFromCoverageJSONTest.java", "a02489.html", [
+      [ "RastFromCoverageJSONTest", "a06161.html", "a06161" ]
     ] ],
-    [ "RastFromHexWKBTest.java", "a02453.html", [
-      [ "RastFromHexWKBTest", "a06062.html", "a06062" ]
+    [ "RastFromGMLCOV.java", "a01361.html", [
+      [ "RastFromGMLCOV", "a04589.html", "a04589" ]
     ] ],
-    [ "RastFromNetCDF.java", "a01340.html", [
-      [ "RastFromNetCDF", "a04522.html", "a04522" ]
+    [ "RastFromHexWKB.java", "a01364.html", [
+      [ "RastFromHexWKB", "a04593.html", "a04593" ]
     ] ],
-    [ "RastFromWKB.java", "a01343.html", [
-      [ "RastFromWKB", "a04526.html", "a04526" ]
+    [ "RastFromHexWKBTest.java", "a02492.html", [
+      [ "RastFromHexWKBTest", "a06165.html", "a06165" ]
     ] ],
-    [ "RastFromWKBTest.java", "a02456.html", [
-      [ "RastFromWKBTest", "a06066.html", "a06066" ]
+    [ "RastFromNetCDF.java", "a01367.html", [
+      [ "RastFromNetCDF", "a04597.html", "a04597" ]
     ] ],
-    [ "RayCrossings.java", "a01007.html", [
-      [ "RayCrossings", "a04062.html", "a04062" ]
+    [ "RastFromWKB.java", "a01370.html", [
+      [ "RastFromWKB", "a04601.html", "a04601" ]
     ] ],
-    [ "Reclass.java", "a01439.html", [
-      [ "Reclass", "a04654.html", null ]
+    [ "RastFromWKBTest.java", "a02495.html", [
+      [ "RastFromWKBTest", "a06169.html", "a06169" ]
     ] ],
-    [ "Reflect.java", "a00671.html", [
-      [ "Reflect", "a03610.html", "a03610" ]
+    [ "RayCrossings.java", "a01016.html", [
+      [ "RayCrossings", "a04113.html", "a04113" ]
     ] ],
-    [ "Relate.java", "a00551.html", [
-      [ "Relate", "a03446.html", "a03446" ]
+    [ "Reclass.java", "a01466.html", [
+      [ "Reclass", "a04729.html", null ]
     ] ],
-    [ "RelateMatch.java", "a00554.html", [
-      [ "RelateMatch", "a03450.html", "a03450" ]
+    [ "Reflect.java", "a00677.html", [
+      [ "Reflect", "a03657.html", "a03657" ]
     ] ],
-    [ "RelateMatchTest.java", "a02027.html", [
-      [ "RelateMatchTest", "a05490.html", "a05490" ]
+    [ "Relate.java", "a00554.html", [
+      [ "Relate", "a03489.html", "a03489" ]
     ] ],
-    [ "RelateTest.java", "a02030.html", [
-      [ "RelateTest", "a05494.html", "a05494" ]
+    [ "RelateMatch.java", "a00557.html", [
+      [ "RelateMatch", "a03493.html", "a03493" ]
     ] ],
-    [ "RemoveBandTest.java", "a02459.html", [
-      [ "RemoveBandTest", "a06070.html", null ]
+    [ "RelateMatchTest.java", "a02063.html", [
+      [ "RelateMatchTest", "a05589.html", "a05589" ]
     ] ],
-    [ "RemoveGeometry.java", "a00398.html", [
-      [ "RemoveGeometry", "a03242.html", "a03242" ]
+    [ "RelateTest.java", "a02066.html", [
+      [ "RelateTest", "a05593.html", "a05593" ]
     ] ],
-    [ "RemoveGeometryTest.java", "a01916.html", [
-      [ "RemoveGeometryTest", "a05342.html", "a05342" ]
+    [ "RemoveBandTest.java", "a02498.html", [
+      [ "RemoveBandTest", "a06173.html", null ]
     ] ],
-    [ "RemoveInteriorRing.java", "a01025.html", [
-      [ "RemoveInteriorRing", "a04086.html", "a04086" ]
+    [ "RemoveGeometry.java", "a00401.html", [
+      [ "RemoveGeometry", "a03285.html", "a03285" ]
     ] ],
-    [ "RemoveIsoNode.java", "a01481.html", [
-      [ "RemoveIsoNode", "a04714.html", null ]
+    [ "RemoveGeometryTest.java", "a01952.html", [
+      [ "RemoveGeometryTest", "a05441.html", "a05441" ]
     ] ],
-    [ "RemovePoint.java", "a00761.html", [
-      [ "RemovePoint", "a03730.html", "a03730" ]
+    [ "RemoveInteriorRing.java", "a01034.html", [
+      [ "RemoveInteriorRing", "a04137.html", "a04137" ]
     ] ],
-    [ "RemovePointTest.java", "a01919.html", [
-      [ "RemovePointTest", "a05346.html", "a05346" ]
+    [ "RemoveIsoNode.java", "a01511.html", [
+      [ "RemoveIsoNode", "a04793.html", null ]
     ] ],
-    [ "RemoveRepeatedPoints.java", "a00401.html", [
-      [ "RemoveRepeatedPoints", "a03246.html", "a03246" ]
+    [ "RemovePoint.java", "a00767.html", [
+      [ "RemovePoint", "a03777.html", "a03777" ]
     ] ],
-    [ "RemoveRepeatedPointsTest.java", "a02117.html", [
-      [ "RemoveRepeatedPointsTest", "a05610.html", "a05610" ]
+    [ "RemovePointTest.java", "a01955.html", [
+      [ "RemovePointTest", "a05445.html", "a05445" ]
     ] ],
-    [ "RemoveRingTest.java", "a02288.html", [
-      [ "RemoveRingTest", "a05838.html", "a05838" ]
+    [ "RemoveRepeatedPoints.java", "a00404.html", [
+      [ "RemoveRepeatedPoints", "a03289.html", "a03289" ]
     ] ],
-    [ "Rescale.java", "a01442.html", [
-      [ "Rescale", "a04658.html", "a04658" ]
+    [ "RemoveRepeatedPointsTest.java", "a02153.html", [
+      [ "RemoveRepeatedPointsTest", "a05709.html", "a05709" ]
     ] ],
-    [ "Resize.java", "a01445.html", [
-      [ "Resize", "a04662.html", null ]
+    [ "RemoveRingTest.java", "a02327.html", [
+      [ "RemoveRingTest", "a05941.html", "a05941" ]
     ] ],
-    [ "Reskew.java", "a01448.html", [
-      [ "Reskew", "a04666.html", null ]
+    [ "Resample.java", "a01469.html", [
+      [ "Resample", "a04733.html", "a04733" ]
     ] ],
-    [ "Reverse.java", "a00674.html", [
-      [ "Reverse", "a03614.html", "a03614" ]
+    [ "Rescale.java", "a01472.html", [
+      [ "Rescale", "a04737.html", "a04737" ]
     ] ],
-    [ "Reverse3D.java", "a00677.html", [
-      [ "Reverse3D", "a03618.html", null ]
+    [ "Resize.java", "a01475.html", [
+      [ "Resize", "a04741.html", null ]
     ] ],
-    [ "ReverseRing.java", "a01040.html", [
-      [ "ReverseRing", "a04106.html", "a04106" ]
+    [ "Reskew.java", "a01478.html", [
+      [ "Reskew", "a04745.html", null ]
     ] ],
-    [ "ReverseRingTest.java", "a02300.html", [
-      [ "ReverseRingTest", "a05854.html", "a05854" ]
+    [ "Reverse.java", "a00680.html", [
+      [ "Reverse", "a03661.html", "a03661" ]
     ] ],
-    [ "ReverseTest.java", "a02120.html", [
-      [ "ReverseTest", "a05614.html", "a05614" ]
+    [ "Reverse3D.java", "a00683.html", [
+      [ "Reverse3D", "a03665.html", null ]
     ] ],
-    [ "RingsCutAtNodes.java", "a01043.html", [
-      [ "RingsCutAtNodes", "a04110.html", "a04110" ]
+    [ "ReverseRing.java", "a01049.html", [
+      [ "ReverseRing", "a04157.html", "a04157" ]
     ] ],
-    [ "Rotate.java", "a00680.html", [
-      [ "Rotate", "a03622.html", "a03622" ]
+    [ "ReverseRingTest.java", "a02339.html", [
+      [ "ReverseRingTest", "a05957.html", "a05957" ]
     ] ],
-    [ "RotateX.java", "a00683.html", [
-      [ "RotateX", "a03626.html", "a03626" ]
+    [ "ReverseTest.java", "a02156.html", [
+      [ "ReverseTest", "a05713.html", "a05713" ]
     ] ],
-    [ "SameAlignment.java", "a01424.html", [
-      [ "SameAlignment", "a04634.html", "a04634" ]
+    [ "RingsCutAtNodes.java", "a01052.html", [
+      [ "RingsCutAtNodes", "a04161.html", "a04161" ]
     ] ],
-    [ "SampleDimensionType.java", "a01712.html", [
-      [ "SampleDimensionType", "a05038.html", "a05038" ]
+    [ "Rotate.java", "a00686.html", [
+      [ "Rotate", "a03669.html", "a03669" ]
     ] ],
-    [ "SampleGeometries.java", "a02570.html", [
-      [ "SampleGeometries", "a06218.html", null ]
+    [ "RotateX.java", "a00689.html", [
+      [ "RotateX", "a03673.html", "a03673" ]
     ] ],
-    [ "SampleRasters.java", "a02573.html", [
-      [ "SampleRasters", "a06222.html", "a06222" ]
+    [ "SameAlignment.java", "a01451.html", [
+      [ "SameAlignment", "a04709.html", "a04709" ]
     ] ],
-    [ "ScaleX.java", "a01199.html", [
-      [ "ScaleX", "a04334.html", "a04334" ]
+    [ "SampleDimensionType.java", "a01742.html", [
+      [ "SampleDimensionType", "a05117.html", "a05117" ]
     ] ],
-    [ "ScaleXTest.java", "a02396.html", [
-      [ "ScaleXTest", "a05986.html", "a05986" ]
+    [ "SampleGeometries.java", "a02609.html", [
+      [ "SampleGeometries", "a06321.html", null ]
     ] ],
-    [ "ScaleY.java", "a01202.html", [
-      [ "ScaleY", "a04338.html", "a04338" ]
+    [ "SampleRasters.java", "a02612.html", [
+      [ "SampleRasters", "a06325.html", "a06325" ]
     ] ],
-    [ "ScaleYTest.java", "a02399.html", [
-      [ "ScaleYTest", "a05990.html", "a05990" ]
+    [ "ScaleX.java", "a01214.html", [
+      [ "ScaleX", "a04393.html", "a04393" ]
     ] ],
-    [ "Segmentize.java", "a00797.html", [
-      [ "Segmentize", "a03782.html", "a03782" ]
+    [ "ScaleXTest.java", "a02435.html", [
+      [ "ScaleXTest", "a06089.html", "a06089" ]
     ] ],
-    [ "SelfIntersections.java", "a00731.html", [
-      [ "SelfIntersections", "a03690.html", "a03690" ]
+    [ "ScaleY.java", "a01217.html", [
+      [ "ScaleY", "a04397.html", "a04397" ]
     ] ],
-    [ "SelfIntersectionsTest.java", "a02153.html", [
-      [ "SelfIntersectionsTest", "a05658.html", "a05658" ]
+    [ "ScaleYTest.java", "a02438.html", [
+      [ "ScaleYTest", "a06093.html", "a06093" ]
     ] ],
-    [ "SetBandNoDataValue.java", "a01349.html", [
-      [ "SetBandNoDataValue", "a04534.html", "a04534" ]
+    [ "Segmentize.java", "a00806.html", [
+      [ "Segmentize", "a03833.html", "a03833" ]
     ] ],
-    [ "SetEndPoint.java", "a00764.html", [
-      [ "SetEndPoint", "a03734.html", "a03734" ]
+    [ "SelfIntersections.java", "a00737.html", [
+      [ "SelfIntersections", "a03737.html", "a03737" ]
     ] ],
-    [ "SetEndPointTest.java", "a02162.html", [
-      [ "SetEndPointTest", "a05670.html", "a05670" ]
+    [ "SelfIntersectionsTest.java", "a02189.html", [
+      [ "SelfIntersectionsTest", "a05757.html", "a05757" ]
     ] ],
-    [ "SetGeometry.java", "a00404.html", [
-      [ "SetGeometry", "a03250.html", "a03250" ]
+    [ "SetBandNoDataValue.java", "a01376.html", [
+      [ "SetBandNoDataValue", "a04609.html", "a04609" ]
     ] ],
-    [ "SetGeometryTest.java", "a01922.html", [
-      [ "SetGeometryTest", "a05350.html", "a05350" ]
+    [ "SetEndPoint.java", "a00770.html", [
+      [ "SetEndPoint", "a03781.html", "a03781" ]
     ] ],
-    [ "SetGeoReference.java", "a01352.html", [
-      [ "SetGeoReference", "a04538.html", null ]
+    [ "SetEndPointTest.java", "a02198.html", [
+      [ "SetEndPointTest", "a05769.html", "a05769" ]
     ] ],
-    [ "SetInteriorRing.java", "a01028.html", [
-      [ "SetInteriorRing", "a04090.html", "a04090" ]
+    [ "SetGeometry.java", "a00407.html", [
+      [ "SetGeometry", "a03293.html", "a03293" ]
     ] ],
-    [ "SetPoint.java", "a00767.html", [
-      [ "SetPoint", "a03738.html", "a03738" ]
+    [ "SetGeometryTest.java", "a01958.html", [
+      [ "SetGeometryTest", "a05449.html", "a05449" ]
     ] ],
-    [ "SetPointTest.java", "a01925.html", [
-      [ "SetPointTest", "a05354.html", "a05354" ]
+    [ "SetGeoReference.java", "a01379.html", [
+      [ "SetGeoReference", "a04613.html", null ]
     ] ],
-    [ "SetRingTest.java", "a02291.html", [
-      [ "SetRingTest", "a05842.html", "a05842" ]
+    [ "SetInteriorRing.java", "a01037.html", [
+      [ "SetInteriorRing", "a04141.html", "a04141" ]
     ] ],
-    [ "SetRotation.java", "a01355.html", [
-      [ "SetRotation", "a04542.html", "a04542" ]
+    [ "SetPoint.java", "a00773.html", [
+      [ "SetPoint", "a03785.html", "a03785" ]
     ] ],
-    [ "SetScale.java", "a01358.html", [
-      [ "SetScale", "a04546.html", "a04546" ]
+    [ "SetPointTest.java", "a01961.html", [
+      [ "SetPointTest", "a05453.html", "a05453" ]
     ] ],
-    [ "SetSkew.java", "a01361.html", [
-      [ "SetSkew", "a04550.html", "a04550" ]
+    [ "SetRingTest.java", "a02330.html", [
+      [ "SetRingTest", "a05945.html", "a05945" ]
     ] ],
-    [ "SetSRID.java", "a00407.html", [
-      [ "SetSRID", "a03254.html", "a03254" ]
+    [ "SetRotation.java", "a01382.html", [
+      [ "SetRotation", "a04617.html", "a04617" ]
     ] ],
-    [ "SetStartPoint.java", "a00770.html", [
-      [ "SetStartPoint", "a03742.html", "a03742" ]
+    [ "SetScale.java", "a01385.html", [
+      [ "SetScale", "a04621.html", "a04621" ]
     ] ],
-    [ "SetStartPointTest.java", "a02165.html", [
-      [ "SetStartPointTest", "a05674.html", "a05674" ]
+    [ "SetSkew.java", "a01388.html", [
+      [ "SetSkew", "a04625.html", "a04625" ]
     ] ],
-    [ "SetUpperLeft.java", "a01364.html", [
-      [ "SetUpperLeft", "a04554.html", "a04554" ]
+    [ "SetSRID.java", "a00410.html", [
+      [ "SetSRID", "a03297.html", "a03297" ]
     ] ],
-    [ "SharedPaths.java", "a00800.html", [
-      [ "SharedPaths", "a03786.html", "a03786" ]
+    [ "SetStartPoint.java", "a00776.html", [
+      [ "SetStartPoint", "a03789.html", "a03789" ]
     ] ],
-    [ "ShearTransformation.java", "a00938.html", [
-      [ "ShearTransformation", "a03970.html", "a03970" ]
+    [ "SetStartPointTest.java", "a02201.html", [
+      [ "SetStartPointTest", "a05773.html", "a05773" ]
     ] ],
-    [ "ShearX.java", "a01205.html", [
-      [ "ShearX", "a04342.html", "a04342" ]
+    [ "SetUpperLeft.java", "a01391.html", [
+      [ "SetUpperLeft", "a04629.html", "a04629" ]
     ] ],
-    [ "ShearXTest.java", "a02402.html", [
-      [ "ShearXTest", "a05994.html", "a05994" ]
+    [ "SharedPaths.java", "a00809.html", [
+      [ "SharedPaths", "a03837.html", "a03837" ]
     ] ],
-    [ "ShearY.java", "a01208.html", [
-      [ "ShearY", "a04346.html", "a04346" ]
+    [ "ShearTransformation.java", "a00947.html", [
+      [ "ShearTransformation", "a04021.html", "a04021" ]
     ] ],
-    [ "ShearYTest.java", "a02405.html", [
-      [ "ShearYTest", "a05998.html", "a05998" ]
+    [ "ShearX.java", "a01220.html", [
+      [ "ShearX", "a04401.html", "a04401" ]
     ] ],
-    [ "ShiftLongitude.java", "a00686.html", [
-      [ "ShiftLongitude", "a03630.html", "a03630" ]
+    [ "ShearXTest.java", "a02441.html", [
+      [ "ShearXTest", "a06097.html", "a06097" ]
     ] ],
-    [ "ShiftLongitudeTest.java", "a02123.html", [
-      [ "ShiftLongitudeTest", "a05618.html", "a05618" ]
+    [ "ShearY.java", "a01223.html", [
+      [ "ShearY", "a04405.html", "a04405" ]
     ] ],
-    [ "ShortestLine.java", "a00557.html", [
-      [ "ShortestLine", "a03454.html", "a03454" ]
+    [ "ShearYTest.java", "a02444.html", [
+      [ "ShearYTest", "a06101.html", "a06101" ]
     ] ],
-    [ "ShortestLine3D.java", "a00560.html", [
-      [ "ShortestLine3D", "a03458.html", "a03458" ]
+    [ "ShiftLongitude.java", "a00692.html", [
+      [ "ShiftLongitude", "a03677.html", "a03677" ]
     ] ],
-    [ "ShortestLine3DTest.java", "a02033.html", [
-      [ "ShortestLine3DTest", "a05498.html", "a05498" ]
+    [ "ShiftLongitudeTest.java", "a02159.html", [
+      [ "ShiftLongitudeTest", "a05717.html", "a05717" ]
     ] ],
-    [ "ShortestLineTest.java", "a02036.html", [
-      [ "ShortestLineTest", "a05502.html", "a05502" ]
+    [ "ShortestLine.java", "a00560.html", [
+      [ "ShortestLine", "a03497.html", "a03497" ]
     ] ],
-    [ "Sign.java", "a00845.html", [
-      [ "Sign", "a03846.html", "a03846" ]
+    [ "ShortestLine3D.java", "a00563.html", [
+      [ "ShortestLine3D", "a03501.html", "a03501" ]
     ] ],
-    [ "Simplify.java", "a00689.html", [
-      [ "Simplify", "a03634.html", "a03634" ]
+    [ "ShortestLine3DTest.java", "a02069.html", [
+      [ "ShortestLine3DTest", "a05597.html", "a05597" ]
     ] ],
-    [ "SimplifyPreserveTopology.java", "a00692.html", [
-      [ "SimplifyPreserveTopology", "a03638.html", "a03638" ]
+    [ "ShortestLineTest.java", "a02072.html", [
+      [ "ShortestLineTest", "a05601.html", "a05601" ]
     ] ],
-    [ "SimplifyPreserveTopologyTest.java", "a02126.html", [
-      [ "SimplifyPreserveTopologyTest", "a05622.html", "a05622" ]
+    [ "Sign.java", "a00854.html", [
+      [ "Sign", "a03897.html", "a03897" ]
     ] ],
-    [ "SimplifyTest.java", "a02129.html", [
-      [ "SimplifyTest", "a05626.html", "a05626" ]
+    [ "Simplify.java", "a00695.html", [
+      [ "Simplify", "a03681.html", "a03681" ]
     ] ],
-    [ "SimplifyVW.java", "a00695.html", [
-      [ "SimplifyVW", "a03642.html", "a03642" ]
+    [ "SimplifyPreserveTopology.java", "a00698.html", [
+      [ "SimplifyPreserveTopology", "a03685.html", "a03685" ]
     ] ],
-    [ "SimplifyVWTest.java", "a02132.html", [
-      [ "SimplifyVWTest", "a05630.html", "a05630" ]
+    [ "SimplifyPreserveTopologyTest.java", "a02162.html", [
+      [ "SimplifyPreserveTopologyTest", "a05721.html", "a05721" ]
     ] ],
-    [ "Sine.java", "a00848.html", [
-      [ "Sine", "a03850.html", "a03850" ]
+    [ "SimplifyTest.java", "a02165.html", [
+      [ "SimplifyTest", "a05725.html", "a05725" ]
     ] ],
-    [ "SinH.java", "a00851.html", [
-      [ "SinH", "a03854.html", "a03854" ]
+    [ "SimplifyVW.java", "a00701.html", [
+      [ "SimplifyVW", "a03689.html", "a03689" ]
     ] ],
-    [ "SkewX.java", "a01211.html", [
-      [ "SkewX", "a04350.html", "a04350" ]
+    [ "SimplifyVWTest.java", "a02168.html", [
+      [ "SimplifyVWTest", "a05729.html", "a05729" ]
     ] ],
-    [ "SkewXTest.java", "a02408.html", [
-      [ "SkewXTest", "a06002.html", "a06002" ]
+    [ "Sine.java", "a00857.html", [
+      [ "Sine", "a03901.html", "a03901" ]
     ] ],
-    [ "SkewY.java", "a01214.html", [
-      [ "SkewY", "a04354.html", "a04354" ]
+    [ "SinH.java", "a00860.html", [
+      [ "SinH", "a03905.html", "a03905" ]
     ] ],
-    [ "SkewYTest.java", "a02411.html", [
-      [ "SkewYTest", "a06006.html", "a06006" ]
+    [ "SkewX.java", "a01226.html", [
+      [ "SkewX", "a04409.html", "a04409" ]
     ] ],
-    [ "Snap.java", "a00698.html", [
-      [ "Snap", "a03646.html", "a03646" ]
+    [ "SkewXTest.java", "a02447.html", [
+      [ "SkewXTest", "a06105.html", "a06105" ]
     ] ],
-    [ "Sqrt.java", "a00854.html", [
-      [ "Sqrt", "a03858.html", "a03858" ]
+    [ "SkewY.java", "a01229.html", [
+      [ "SkewY", "a04413.html", "a04413" ]
     ] ],
-    [ "SridGetAxis1Name.java", "a00575.html", [
-      [ "SridGetAxis1Name", "a03478.html", "a03478" ]
+    [ "SkewYTest.java", "a02450.html", [
+      [ "SkewYTest", "a06109.html", "a06109" ]
     ] ],
-    [ "SridGetAxis1NameTest.java", "a02048.html", [
-      [ "SridGetAxis1NameTest", "a05518.html", "a05518" ]
+    [ "Snap.java", "a00704.html", [
+      [ "Snap", "a03693.html", "a03693" ]
     ] ],
-    [ "SridGetAxis1Orientation.java", "a00578.html", [
-      [ "SridGetAxis1Orientation", "a03482.html", "a03482" ]
+    [ "Sqrt.java", "a00863.html", [
+      [ "Sqrt", "a03909.html", "a03909" ]
     ] ],
-    [ "SridGetAxis1OrientationTest.java", "a02051.html", [
-      [ "SridGetAxis1OrientationTest", "a05522.html", "a05522" ]
+    [ "SridGetAxis1Name.java", "a00578.html", [
+      [ "SridGetAxis1Name", "a03521.html", "a03521" ]
     ] ],
-    [ "SridGetAxis2Name.java", "a00581.html", [
-      [ "SridGetAxis2Name", "a03486.html", "a03486" ]
+    [ "SridGetAxis1NameTest.java", "a02084.html", [
+      [ "SridGetAxis1NameTest", "a05617.html", "a05617" ]
     ] ],
-    [ "SridGetAxis2NameTest.java", "a02054.html", [
-      [ "SridGetAxis2NameTest", "a05526.html", "a05526" ]
+    [ "SridGetAxis1Orientation.java", "a00581.html", [
+      [ "SridGetAxis1Orientation", "a03525.html", "a03525" ]
     ] ],
-    [ "SridGetAxis2Orientation.java", "a00584.html", [
-      [ "SridGetAxis2Orientation", "a03490.html", "a03490" ]
+    [ "SridGetAxis1OrientationTest.java", "a02087.html", [
+      [ "SridGetAxis1OrientationTest", "a05621.html", "a05621" ]
     ] ],
-    [ "SridGetAxis2OrientationTest.java", "a02057.html", [
-      [ "SridGetAxis2OrientationTest", "a05530.html", "a05530" ]
+    [ "SridGetAxis2Name.java", "a00584.html", [
+      [ "SridGetAxis2Name", "a03529.html", "a03529" ]
     ] ],
-    [ "SridGetDatum.java", "a00587.html", [
-      [ "SridGetDatum", "a03494.html", "a03494" ]
+    [ "SridGetAxis2NameTest.java", "a02090.html", [
+      [ "SridGetAxis2NameTest", "a05625.html", "a05625" ]
     ] ],
-    [ "SridGetDatumTest.java", "a02060.html", [
-      [ "SridGetDatumTest", "a05534.html", "a05534" ]
+    [ "SridGetAxis2Orientation.java", "a00587.html", [
+      [ "SridGetAxis2Orientation", "a03533.html", "a03533" ]
     ] ],
-    [ "SridGetUnit.java", "a00590.html", [
-      [ "SridGetUnit", "a03498.html", "a03498" ]
+    [ "SridGetAxis2OrientationTest.java", "a02093.html", [
+      [ "SridGetAxis2OrientationTest", "a05629.html", "a05629" ]
     ] ],
-    [ "SridHasFlippedAxis.java", "a00593.html", [
-      [ "SridHasFlippedAxis", "a03502.html", "a03502" ]
+    [ "SridGetDatum.java", "a00590.html", [
+      [ "SridGetDatum", "a03537.html", "a03537" ]
     ] ],
-    [ "SridHasFlippedAxisTest.java", "a02063.html", [
-      [ "SridHasFlippedAxisTest", "a05538.html", "a05538" ]
+    [ "SridGetDatumTest.java", "a02096.html", [
+      [ "SridGetDatumTest", "a05633.html", "a05633" ]
     ] ],
-    [ "SridIsGeographic.java", "a00596.html", [
-      [ "SridIsGeographic", "a03506.html", "a03506" ]
+    [ "SridGetUnit.java", "a00593.html", [
+      [ "SridGetUnit", "a03541.html", "a03541" ]
     ] ],
-    [ "SridIsGeographicTest.java", "a02066.html", [
-      [ "SridIsGeographicTest", "a05542.html", "a05542" ]
+    [ "SridHasFlippedAxis.java", "a00596.html", [
+      [ "SridHasFlippedAxis", "a03545.html", "a03545" ]
     ] ],
-    [ "SridIsProjected.java", "a00599.html", [
-      [ "SridIsProjected", "a03510.html", "a03510" ]
+    [ "SridHasFlippedAxisTest.java", "a02099.html", [
+      [ "SridHasFlippedAxisTest", "a05637.html", "a05637" ]
     ] ],
-    [ "SridIsProjectedTest.java", "a02069.html", [
-      [ "SridIsProjectedTest", "a05546.html", "a05546" ]
+    [ "SridIsGeographic.java", "a00599.html", [
+      [ "SridIsGeographic", "a03549.html", "a03549" ]
     ] ],
-    [ "SridIsVertical.java", "a00602.html", [
-      [ "SridIsVertical", "a03514.html", "a03514" ]
+    [ "SridIsGeographicTest.java", "a02102.html", [
+      [ "SridIsGeographicTest", "a05641.html", "a05641" ]
     ] ],
-    [ "SridIsVerticalTest.java", "a02072.html", [
-      [ "SridIsVerticalTest", "a05550.html", "a05550" ]
+    [ "SridIsProjected.java", "a00602.html", [
+      [ "SridIsProjected", "a03553.html", "a03553" ]
     ] ],
-    [ "SRIDToEPSG.java", "a00605.html", [
-      [ "SRIDToEPSG", "a03518.html", "a03518" ]
+    [ "SridIsProjectedTest.java", "a02105.html", [
+      [ "SridIsProjectedTest", "a05645.html", "a05645" ]
     ] ],
-    [ "SRIDToEPSGTest.java", "a02075.html", [
-      [ "SRIDToEPSGTest", "a05554.html", "a05554" ]
+    [ "SridIsVertical.java", "a00605.html", [
+      [ "SridIsVertical", "a03557.html", "a03557" ]
     ] ],
-    [ "SRIDToWKT.java", "a00608.html", [
-      [ "SRIDToWKT", "a03522.html", "a03522" ]
+    [ "SridIsVerticalTest.java", "a02108.html", [
+      [ "SridIsVerticalTest", "a05649.html", "a05649" ]
     ] ],
-    [ "SRIDToWKTTest.java", "a02078.html", [
-      [ "SRIDToWKTTest", "a05558.html", "a05558" ]
+    [ "SRIDToEPSG.java", "a00608.html", [
+      [ "SRIDToEPSG", "a03561.html", "a03561" ]
     ] ],
-    [ "StartPoint.java", "a00734.html", [
-      [ "StartPoint", "a03694.html", "a03694" ]
+    [ "SRIDToEPSGTest.java", "a02111.html", [
+      [ "SRIDToEPSGTest", "a05653.html", "a05653" ]
     ] ],
-    [ "StartPointTest.java", "a02156.html", [
-      [ "StartPointTest", "a05662.html", "a05662" ]
+    [ "SRIDToWKT.java", "a00611.html", [
+      [ "SRIDToWKT", "a03565.html", "a03565" ]
     ] ],
-    [ "SubdivideLines.java", "a00803.html", [
-      [ "SubdivideLines", "a03790.html", "a03790" ]
+    [ "SRIDToWKTTest.java", "a02114.html", [
+      [ "SRIDToWKTTest", "a05657.html", "a05657" ]
     ] ],
-    [ "Subtract.java", "a01106.html", [
-      [ "Subtract", "a04206.html", "a04206" ]
+    [ "StartPoint.java", "a00740.html", [
+      [ "StartPoint", "a03741.html", "a03741" ]
     ] ],
-    [ "SubtractConst.java", "a01109.html", [
-      [ "SubtractConst", "a04210.html", "a04210" ]
+    [ "StartPointTest.java", "a02192.html", [
+      [ "StartPointTest", "a05761.html", "a05761" ]
     ] ],
-    [ "SubtractConstTest.java", "a02348.html", [
-      [ "SubtractConstTest", "a05918.html", "a05918" ]
+    [ "SubdivideLines.java", "a00812.html", [
+      [ "SubdivideLines", "a03841.html", "a03841" ]
     ] ],
-    [ "SubtractTest.java", "a02351.html", [
-      [ "SubtractTest", "a05922.html", "a05922" ]
+    [ "Subtract.java", "a01118.html", [
+      [ "Subtract", "a04261.html", "a04261" ]
     ] ],
-    [ "SVGDatatype.java", "a01667.html", [
-      [ "SVGDatatype", "a04966.html", "a04966" ]
+    [ "SubtractConst.java", "a01121.html", [
+      [ "SubtractConst", "a04265.html", "a04265" ]
     ] ],
-    [ "SVGWriter.java", "a01748.html", [
-      [ "SVGWriter", "a05110.html", "a05110" ]
+    [ "SubtractConstTest.java", "a02387.html", [
+      [ "SubtractConstTest", "a06021.html", "a06021" ]
     ] ],
-    [ "SwapOrdinates.java", "a00701.html", [
-      [ "SwapOrdinates", "a03650.html", "a03650" ]
+    [ "SubtractTest.java", "a02390.html", [
+      [ "SubtractTest", "a06025.html", "a06025" ]
     ] ],
-    [ "SwapOrdinatesTest.java", "a02135.html", [
-      [ "SwapOrdinatesTest", "a05634.html", "a05634" ]
+    [ "Summary.java", "a01232.html", [
+      [ "Summary", "a04417.html", "a04417" ]
     ] ],
-    [ "Tangent.java", "a00857.html", [
-      [ "Tangent", "a03862.html", "a03862" ]
+    [ "SVGDatatype.java", "a01697.html", [
+      [ "SVGDatatype", "a05045.html", "a05045" ]
     ] ],
-    [ "TanH.java", "a00860.html", [
-      [ "TanH", "a03866.html", "a03866" ]
+    [ "SVGWriter.java", "a01784.html", [
+      [ "SVGWriter", "a05209.html", "a05209" ]
     ] ],
-    [ "TileGridXOffset.java", "a01217.html", [
-      [ "TileGridXOffset", "a04358.html", "a04358" ]
+    [ "SwapOrdinates.java", "a00707.html", [
+      [ "SwapOrdinates", "a03697.html", "a03697" ]
     ] ],
-    [ "TileGridXOffsetTest.java", "a02414.html", [
-      [ "TileGridXOffsetTest", "a06010.html", "a06010" ]
+    [ "SwapOrdinatesTest.java", "a02171.html", [
+      [ "SwapOrdinatesTest", "a05733.html", "a05733" ]
     ] ],
-    [ "TileGridYOffset.java", "a01220.html", [
-      [ "TileGridYOffset", "a04362.html", "a04362" ]
+    [ "Tangent.java", "a00866.html", [
+      [ "Tangent", "a03913.html", "a03913" ]
     ] ],
-    [ "TileGridYOffsetTest.java", "a02417.html", [
-      [ "TileGridYOffsetTest", "a06014.html", "a06014" ]
+    [ "TanH.java", "a00869.html", [
+      [ "TanH", "a03917.html", "a03917" ]
     ] ],
-    [ "TileHeight.java", "a01223.html", [
-      [ "TileHeight", "a04366.html", "a04366" ]
+    [ "Threshold.java", "a01124.html", [
+      [ "Threshold", "a04269.html", "a04269" ]
     ] ],
-    [ "TileHeightTest.java", "a02420.html", [
-      [ "TileHeightTest", "a06018.html", "a06018" ]
+    [ "TileGridXOffset.java", "a01235.html", [
+      [ "TileGridXOffset", "a04421.html", "a04421" ]
     ] ],
-    [ "TileWidth.java", "a01226.html", [
-      [ "TileWidth", "a04370.html", "a04370" ]
+    [ "TileGridXOffsetTest.java", "a02453.html", [
+      [ "TileGridXOffsetTest", "a06113.html", "a06113" ]
     ] ],
-    [ "TileWidthTest.java", "a02423.html", [
-      [ "TileWidthTest", "a06022.html", "a06022" ]
+    [ "TileGridYOffset.java", "a01238.html", [
+      [ "TileGridYOffset", "a04425.html", "a04425" ]
     ] ],
-    [ "ToDegrees.java", "a00863.html", [
-      [ "ToDegrees", "a03870.html", "a03870" ]
+    [ "TileGridYOffsetTest.java", "a02456.html", [
+      [ "TileGridYOffsetTest", "a06117.html", "a06117" ]
     ] ],
-    [ "ToDegreesTest.java", "a02171.html", [
-      [ "ToDegreesTest", "a05682.html", "a05682" ]
+    [ "TileHeight.java", "a01241.html", [
+      [ "TileHeight", "a04429.html", "a04429" ]
     ] ],
-    [ "Topo_AddLineString.java", "a01484.html", [
-      [ "Topo_AddLineString", "a04718.html", null ]
+    [ "TileHeightTest.java", "a02459.html", [
+      [ "TileHeightTest", "a06121.html", "a06121" ]
     ] ],
-    [ "Topo_AddPoint.java", "a01487.html", [
-      [ "Topo_AddPoint", "a04722.html", "a04722" ]
+    [ "TileWidth.java", "a01244.html", [
+      [ "TileWidth", "a04433.html", "a04433" ]
     ] ],
-    [ "Topo_Polygonize.java", "a01493.html", [
-      [ "Topo_Polygonize", "a04730.html", null ]
+    [ "TileWidthTest.java", "a02462.html", [
+      [ "TileWidthTest", "a06125.html", "a06125" ]
     ] ],
-    [ "Topo_Snap.java", "a01496.html", [
-      [ "Topo_Snap", "a04734.html", null ]
+    [ "ToDegrees.java", "a00872.html", [
+      [ "ToDegrees", "a03921.html", "a03921" ]
     ] ],
-    [ "TopoJSONDatatype.java", "a01625.html", [
-      [ "TopoJSONDatatype", "a04906.html", "a04906" ]
+    [ "ToDegreesTest.java", "a02207.html", [
+      [ "ToDegreesTest", "a05781.html", "a05781" ]
     ] ],
-    [ "TopologyExportFunction.java", "a01457.html", [
-      [ "TopologyExportFunction", "a04682.html", "a04682" ]
+    [ "Topo_AddLineString.java", "a01514.html", [
+      [ "Topo_AddLineString", "a04797.html", null ]
     ] ],
-    [ "TopologyFromTopoJSON.java", "a01472.html", [
-      [ "TopologyFromTopoJSON", "a04702.html", null ]
+    [ "Topo_AddPoint.java", "a01517.html", [
+      [ "Topo_AddPoint", "a04801.html", "a04801" ]
     ] ],
-    [ "TopologyLiteral.java", "a01628.html", [
-      [ "TopologyLiteral", "a04910.html", "a04910" ]
+    [ "Topo_Polygonize.java", "a01523.html", [
+      [ "Topo_Polygonize", "a04809.html", null ]
     ] ],
-    [ "TopologyModificationFunction.java", "a01460.html", [
-      [ "TopologyModificationFunction", "a04686.html", "a04686" ]
+    [ "Topo_Snap.java", "a01526.html", [
+      [ "Topo_Snap", "a04813.html", null ]
     ] ],
-    [ "TopologyModificationGeometryFunction.java", "a01463.html", [
-      [ "TopologyModificationGeometryFunction", "a04690.html", "a04690" ]
+    [ "TopoJSONDatatype.java", "a01655.html", [
+      [ "TopoJSONDatatype", "a04985.html", "a04985" ]
     ] ],
-    [ "TopologyStringExportFunction.java", "a01466.html", [
-      [ "TopologyStringExportFunction", "a04694.html", "a04694" ]
+    [ "TopologyExportFunction.java", "a01487.html", [
+      [ "TopologyExportFunction", "a04761.html", "a04761" ]
     ] ],
-    [ "ToRadians.java", "a00866.html", [
-      [ "ToRadians", "a03874.html", "a03874" ]
+    [ "TopologyFromTopoJSON.java", "a01502.html", [
+      [ "TopologyFromTopoJSON", "a04781.html", null ]
     ] ],
-    [ "ToRadiansTest.java", "a02174.html", [
-      [ "ToRadiansTest", "a05686.html", "a05686" ]
+    [ "TopologyLiteral.java", "a01658.html", [
+      [ "TopologyLiteral", "a04989.html", "a04989" ]
     ] ],
-    [ "Touches.java", "a01427.html", [
-      [ "Touches", "a04638.html", "a04638" ]
+    [ "TopologyModificationFunction.java", "a01490.html", [
+      [ "TopologyModificationFunction", "a04765.html", "a04765" ]
     ] ],
-    [ "geometry/transform/Transform.java", "a07640.html", [
-      [ "Transform", "a03654.html", "a03654" ]
+    [ "TopologyModificationGeometryFunction.java", "a01493.html", [
+      [ "TopologyModificationGeometryFunction", "a04769.html", "a04769" ]
     ] ],
-    [ "raster/transform/Transform.java", "a07643.html", [
-      [ "Transform", "a04670.html", null ]
+    [ "TopologyStringExportFunction.java", "a01496.html", [
+      [ "TopologyStringExportFunction", "a04773.html", "a04773" ]
     ] ],
-    [ "Translate.java", "a00707.html", [
-      [ "Translate", "a03658.html", "a03658" ]
+    [ "ToRadians.java", "a00875.html", [
+      [ "ToRadians", "a03925.html", "a03925" ]
     ] ],
-    [ "TranslateX.java", "a01229.html", [
-      [ "TranslateX", "a04374.html", "a04374" ]
+    [ "ToRadiansTest.java", "a02210.html", [
+      [ "ToRadiansTest", "a05785.html", "a05785" ]
     ] ],
-    [ "TranslateXTest.java", "a02426.html", [
-      [ "TranslateXTest", "a06026.html", "a06026" ]
+    [ "Touches.java", "a01454.html", [
+      [ "Touches", "a04713.html", "a04713" ]
     ] ],
-    [ "TranslateY.java", "a01232.html", [
-      [ "TranslateY", "a04378.html", "a04378" ]
+    [ "geometry/transform/Transform.java", "a07871.html", [
+      [ "Transform", "a03701.html", "a03701" ]
     ] ],
-    [ "TranslateYTest.java", "a02429.html", [
-      [ "TranslateYTest", "a06030.html", "a06030" ]
+    [ "raster/transform/Transform.java", "a07874.html", [
+      [ "Transform", "a04749.html", null ]
     ] ],
-    [ "TransScale.java", "a00710.html", [
-      [ "TransScale", "a03662.html", "a03662" ]
+    [ "Translate.java", "a00713.html", [
+      [ "Translate", "a03705.html", "a03705" ]
     ] ],
-    [ "TransScaleTest.java", "a02138.html", [
-      [ "TransScaleTest", "a05638.html", "a05638" ]
+    [ "TranslateX.java", "a01247.html", [
+      [ "TranslateX", "a04437.html", "a04437" ]
+    ] ],
+    [ "TranslateXTest.java", "a02465.html", [
+      [ "TranslateXTest", "a06129.html", "a06129" ]
+    ] ],
+    [ "TranslateY.java", "a01250.html", [
+      [ "TranslateY", "a04441.html", "a04441" ]
+    ] ],
+    [ "TranslateYTest.java", "a02468.html", [
+      [ "TranslateYTest", "a06133.html", "a06133" ]
+    ] ],
+    [ "TransScale.java", "a00716.html", [
+      [ "TransScale", "a03709.html", "a03709" ]
+    ] ],
+    [ "TransScaleTest.java", "a02174.html", [
+      [ "TransScaleTest", "a05737.html", "a05737" ]
     ] ],
     [ "TripleStoreConnection.java", "a00005.html", [
-      [ "TripleStoreConnection", "a02714.html", "a02714" ]
+      [ "TripleStoreConnection", "a02753.html", "a02753" ]
     ] ],
-    [ "TWKBDatatype.java", "a01670.html", [
-      [ "TWKBDatatype", "a04970.html", "a04970" ],
-      [ "WKBTextSRS", "a04974.html", "a04974" ]
+    [ "TWKBDatatype.java", "a01700.html", [
+      [ "TWKBDatatype", "a05049.html", "a05049" ],
+      [ "WKBTextSRS", "a05053.html", "a05053" ]
     ] ],
-    [ "TWKBReader.java", "a01733.html", [
-      [ "TWKBReader", "a05066.html", "a05066" ],
-      [ "ByteBufferInputStream", "a05070.html", "a05070" ],
-      [ "PrecisionReader", "a05074.html", "a05074" ],
-      [ "ExtendedPrecisionReader", "a05078.html", "a05078" ]
+    [ "TWKBReader.java", "a01769.html", [
+      [ "TWKBReader", "a05165.html", "a05165" ],
+      [ "ByteBufferInputStream", "a05169.html", "a05169" ],
+      [ "PrecisionReader", "a05173.html", "a05173" ],
+      [ "ExtendedPrecisionReader", "a05177.html", "a05177" ]
     ] ],
-    [ "TWKBUtils.java", "a01736.html", [
-      [ "TWKBUtils", "a05082.html", "a05082" ]
+    [ "TWKBUtils.java", "a01772.html", [
+      [ "TWKBUtils", "a05181.html", "a05181" ]
     ] ],
-    [ "TWKBWriter.java", "a01739.html", [
-      [ "TWKBWriter", "a05086.html", "a05086" ],
-      [ "PrecisionWriter", "a05090.html", "a05090" ],
-      [ "ExtendedPrecisionWriter", "a05094.html", "a05094" ]
+    [ "TWKBWriter.java", "a01775.html", [
+      [ "TWKBWriter", "a05185.html", "a05185" ],
+      [ "PrecisionWriter", "a05189.html", "a05189" ],
+      [ "ExtendedPrecisionWriter", "a05193.html", "a05193" ]
     ] ],
-    [ "UpperLeftX.java", "a01235.html", [
-      [ "UpperLeftX", "a04382.html", "a04382" ]
+    [ "UpperLeftX.java", "a01253.html", [
+      [ "UpperLeftX", "a04445.html", "a04445" ]
     ] ],
-    [ "UpperLeftXTest.java", "a02432.html", [
-      [ "UpperLeftXTest", "a06034.html", "a06034" ]
+    [ "UpperLeftXTest.java", "a02471.html", [
+      [ "UpperLeftXTest", "a06137.html", "a06137" ]
     ] ],
-    [ "UpperLeftY.java", "a01238.html", [
-      [ "UpperLeftY", "a04386.html", "a04386" ]
+    [ "UpperLeftY.java", "a01256.html", [
+      [ "UpperLeftY", "a04449.html", "a04449" ]
     ] ],
-    [ "UpperLeftYTest.java", "a02435.html", [
-      [ "UpperLeftYTest", "a06038.html", "a06038" ]
+    [ "UpperLeftYTest.java", "a02474.html", [
+      [ "UpperLeftYTest", "a06141.html", "a06141" ]
     ] ],
-    [ "USFootToMeter.java", "a01580.html", [
-      [ "USFootToMeter", "a04846.html", "a04846" ]
+    [ "USFootToMeter.java", "a01610.html", [
+      [ "USFootToMeter", "a04925.html", "a04925" ]
     ] ],
-    [ "USFootToMeterTest.java", "a02555.html", [
-      [ "USFootToMeterTest", "a06198.html", "a06198" ]
+    [ "USFootToMeterTest.java", "a02594.html", [
+      [ "USFootToMeterTest", "a06301.html", "a06301" ]
     ] ],
-    [ "USInchToMeter.java", "a01583.html", [
-      [ "USInchToMeter", "a04850.html", "a04850" ]
+    [ "USInchToMeter.java", "a01613.html", [
+      [ "USInchToMeter", "a04929.html", "a04929" ]
     ] ],
-    [ "USInchToMeterTest.java", "a02558.html", [
-      [ "USInchToMeterTest", "a06202.html", "a06202" ]
+    [ "USInchToMeterTest.java", "a02597.html", [
+      [ "USInchToMeterTest", "a06305.html", "a06305" ]
     ] ],
-    [ "USMileToMeter.java", "a01586.html", [
-      [ "USMileToMeter", "a04854.html", "a04854" ]
+    [ "USMileToMeter.java", "a01616.html", [
+      [ "USMileToMeter", "a04933.html", "a04933" ]
     ] ],
-    [ "USMileToMeterTest.java", "a02561.html", [
-      [ "USMileToMeterTest", "a06206.html", "a06206" ]
+    [ "USMileToMeterTest.java", "a02600.html", [
+      [ "USMileToMeterTest", "a06309.html", "a06309" ]
     ] ],
-    [ "USYardToMeter.java", "a01589.html", [
-      [ "USYardToMeter", "a04858.html", "a04858" ]
+    [ "USYardToMeter.java", "a01619.html", [
+      [ "USYardToMeter", "a04937.html", "a04937" ]
     ] ],
-    [ "USYardToMeterTest.java", "a02564.html", [
-      [ "USYardToMeterTest", "a06210.html", "a06210" ]
+    [ "USYardToMeterTest.java", "a02603.html", [
+      [ "USYardToMeterTest", "a06313.html", "a06313" ]
     ] ],
-    [ "VectorLiteral.java", "a01673.html", [
-      [ "VectorLiteral", "a04978.html", "a04978" ]
+    [ "ValidPixelCount.java", "a01259.html", [
+      [ "ValidPixelCount", "a04453.html", "a04453" ]
     ] ],
-    [ "VoronoiPolygons.java", "a00713.html", [
-      [ "VoronoiPolygons", "a03666.html", "a03666" ]
+    [ "VectorLiteral.java", "a01703.html", [
+      [ "VectorLiteral", "a05057.html", "a05057" ]
     ] ],
-    [ "Width.java", "a01241.html", [
-      [ "Width", "a04390.html", "a04390" ]
+    [ "VoronoiPolygons.java", "a00719.html", [
+      [ "VoronoiPolygons", "a03713.html", "a03713" ]
     ] ],
-    [ "WidthTest.java", "a02438.html", [
-      [ "WidthTest", "a06042.html", "a06042" ]
+    [ "Width.java", "a01262.html", [
+      [ "Width", "a04457.html", "a04457" ]
     ] ],
-    [ "Within.java", "a01430.html", [
-      [ "Within", "a04642.html", "a04642" ]
+    [ "WidthTest.java", "a02477.html", [
+      [ "WidthTest", "a06145.html", "a06145" ]
     ] ],
-    [ "WithinDistance3D.java", "a00563.html", [
-      [ "WithinDistance3D", "a03462.html", "a03462" ]
+    [ "Within.java", "a01457.html", [
+      [ "Within", "a04717.html", "a04717" ]
     ] ],
-    [ "WKBDatatype.java", "a01676.html", [
-      [ "WKBDatatype", "a04982.html", "a04982" ],
-      [ "WKBTextSRS", "a04986.html", "a04986" ]
+    [ "WithinDistance3D.java", "a00566.html", [
+      [ "WithinDistance3D", "a03505.html", "a03505" ]
     ] ],
-    [ "WKBRastDatatype.java", "a01622.html", [
-      [ "WKBRastDatatype", "a04902.html", "a04902" ]
+    [ "WKBDatatype.java", "a01706.html", [
+      [ "WKBDatatype", "a05061.html", "a05061" ],
+      [ "WKBTextSRS", "a05065.html", "a05065" ]
     ] ],
-    [ "WKBRasterBand.java", "a01715.html", [
-      [ "WKBRasterBand", "a05042.html", "a05042" ]
+    [ "WKBRastDatatype.java", "a01652.html", [
+      [ "WKBRastDatatype", "a04981.html", "a04981" ]
     ] ],
-    [ "WKBRasterConstants.java", "a01718.html", [
-      [ "WKBRasterConstants", "a05046.html", "a05046" ]
+    [ "WKBRasterBand.java", "a01745.html", [
+      [ "WKBRasterBand", "a05121.html", "a05121" ]
     ] ],
-    [ "WKBRasterReader.java", "a01721.html", [
-      [ "WKBRasterReader", "a05050.html", "a05050" ]
+    [ "WKBRasterConstants.java", "a01748.html", [
+      [ "WKBRasterConstants", "a05125.html", "a05125" ]
     ] ],
-    [ "WKBRasterWriter.java", "a01724.html", [
-      [ "WKBRasterWriter", "a05054.html", "a05054" ]
+    [ "WKBRasterImageReader.java", "a01751.html", [
+      [ "WKBRasterImageReader", "a05129.html", "a05129" ],
+      [ "Spi", "a05133.html", "a05133" ],
+      [ "InputStreamAdapter", "a05137.html", "a05137" ]
     ] ],
-    [ "WKTDatatype.java", "a01679.html", [
-      [ "WKTDatatype", "a04990.html", "a04990" ],
-      [ "WKBTextSRS", "a04994.html", "a04994" ]
+    [ "WKBRasterImageWriter.java", "a01754.html", [
+      [ "WKBRasterImageWriter", "a05141.html", "a05141" ],
+      [ "Spi", "a05145.html", "a05145" ]
     ] ],
-    [ "WorldToRasterCoord.java", "a01244.html", [
-      [ "WorldToRasterCoord", "a04394.html", "a04394" ]
+    [ "WKBRasterReader.java", "a01757.html", [
+      [ "WKBRasterReader", "a05149.html", "a05149" ]
     ] ],
-    [ "WorldToRasterCoordTest.java", "a02441.html", [
-      [ "WorldToRasterCoordTest", "a06046.html", "a06046" ]
+    [ "WKBRasterWriter.java", "a01760.html", [
+      [ "WKBRasterWriter", "a05153.html", "a05153" ]
     ] ],
-    [ "WorldToRasterCoordX.java", "a01247.html", [
-      [ "WorldToRasterCoordX", "a04398.html", "a04398" ]
+    [ "WKTDatatype.java", "a01709.html", [
+      [ "WKTDatatype", "a05069.html", "a05069" ],
+      [ "WKBTextSRS", "a05073.html", "a05073" ]
     ] ],
-    [ "WorldToRasterCoordXTest.java", "a02444.html", [
-      [ "WorldToRasterCoordXTest", "a06050.html", "a06050" ]
+    [ "WorldToRasterCoord.java", "a01265.html", [
+      [ "WorldToRasterCoord", "a04461.html", "a04461" ]
     ] ],
-    [ "WorldToRasterCoordY.java", "a01250.html", [
-      [ "WorldToRasterCoordY", "a04402.html", "a04402" ]
+    [ "WorldToRasterCoordTest.java", "a02480.html", [
+      [ "WorldToRasterCoordTest", "a06149.html", "a06149" ]
     ] ],
-    [ "WorldToRasterCoordYTest.java", "a02447.html", [
-      [ "WorldToRasterCoordYTest", "a06054.html", "a06054" ]
+    [ "WorldToRasterCoordX.java", "a01268.html", [
+      [ "WorldToRasterCoordX", "a04465.html", "a04465" ]
     ] ],
-    [ "X.java", "a00890.html", [
-      [ "X", "a03906.html", "a03906" ]
+    [ "WorldToRasterCoordXTest.java", "a02483.html", [
+      [ "WorldToRasterCoordXTest", "a06153.html", "a06153" ]
     ] ],
-    [ "XMax.java", "a00893.html", [
-      [ "XMax", "a03910.html", "a03910" ]
+    [ "WorldToRasterCoordY.java", "a01271.html", [
+      [ "WorldToRasterCoordY", "a04469.html", "a04469" ]
     ] ],
-    [ "XMin.java", "a00896.html", [
-      [ "XMin", "a03914.html", "a03914" ]
+    [ "WorldToRasterCoordYTest.java", "a02486.html", [
+      [ "WorldToRasterCoordYTest", "a06157.html", "a06157" ]
     ] ],
-    [ "Xor.java", "a01112.html", [
-      [ "Xor", "a04214.html", "a04214" ]
+    [ "X.java", "a00899.html", [
+      [ "X", "a03957.html", "a03957" ]
     ] ],
-    [ "XorConst.java", "a01115.html", [
-      [ "XorConst", "a04218.html", "a04218" ]
+    [ "XMax.java", "a00902.html", [
+      [ "XMax", "a03961.html", "a03961" ]
     ] ],
-    [ "XorConstTest.java", "a02354.html", [
-      [ "XorConstTest", "a05926.html", "a05926" ]
+    [ "XMin.java", "a00905.html", [
+      [ "XMin", "a03965.html", "a03965" ]
     ] ],
-    [ "XorTest.java", "a02357.html", [
-      [ "XorTest", "a05930.html", "a05930" ]
+    [ "Xor.java", "a01127.html", [
+      [ "Xor", "a04273.html", "a04273" ]
     ] ],
-    [ "XTest.java", "a02210.html", [
-      [ "XTest", "a05734.html", "a05734" ]
+    [ "XorConst.java", "a01130.html", [
+      [ "XorConst", "a04277.html", "a04277" ]
     ] ],
-    [ "Y.java", "a00899.html", [
-      [ "Y", "a03918.html", "a03918" ]
+    [ "XorConstTest.java", "a02393.html", [
+      [ "XorConstTest", "a06029.html", "a06029" ]
     ] ],
-    [ "YardToMeter.java", "a01592.html", [
-      [ "YardToMeter", "a04862.html", "a04862" ]
+    [ "XorTest.java", "a02396.html", [
+      [ "XorTest", "a06033.html", "a06033" ]
     ] ],
-    [ "YardToMeterTest.java", "a02567.html", [
-      [ "YardToMeterTest", "a06214.html", "a06214" ]
+    [ "XTest.java", "a02246.html", [
+      [ "XTest", "a05833.html", "a05833" ]
     ] ],
-    [ "YMax.java", "a00902.html", [
-      [ "YMax", "a03922.html", "a03922" ]
+    [ "Y.java", "a00908.html", [
+      [ "Y", "a03969.html", "a03969" ]
     ] ],
-    [ "YMin.java", "a00905.html", [
-      [ "YMin", "a03926.html", "a03926" ]
+    [ "YardToMeter.java", "a01622.html", [
+      [ "YardToMeter", "a04941.html", "a04941" ]
     ] ],
-    [ "YTest.java", "a02213.html", [
-      [ "YTest", "a05738.html", "a05738" ]
+    [ "YardToMeterTest.java", "a02606.html", [
+      [ "YardToMeterTest", "a06317.html", "a06317" ]
     ] ],
-    [ "Z.java", "a00908.html", [
-      [ "Z", "a03930.html", "a03930" ]
+    [ "YMax.java", "a00911.html", [
+      [ "YMax", "a03973.html", "a03973" ]
     ] ],
-    [ "ZMax.java", "a00911.html", [
-      [ "ZMax", "a03934.html", "a03934" ]
+    [ "YMin.java", "a00914.html", [
+      [ "YMin", "a03977.html", "a03977" ]
     ] ],
-    [ "Zmflag.java", "a00914.html", [
-      [ "Zmflag", "a03938.html", "a03938" ]
+    [ "YTest.java", "a02249.html", [
+      [ "YTest", "a05837.html", "a05837" ]
     ] ],
-    [ "ZMin.java", "a00917.html", [
-      [ "ZMin", "a03942.html", "a03942" ]
+    [ "Z.java", "a00917.html", [
+      [ "Z", "a03981.html", "a03981" ]
     ] ],
-    [ "ZTest.java", "a02216.html", [
-      [ "ZTest", "a05742.html", "a05742" ]
+    [ "ZMax.java", "a00920.html", [
+      [ "ZMax", "a03985.html", "a03985" ]
+    ] ],
+    [ "Zmflag.java", "a00923.html", [
+      [ "Zmflag", "a03989.html", "a03989" ]
+    ] ],
+    [ "ZMin.java", "a00926.html", [
+      [ "ZMin", "a03993.html", "a03993" ]
+    ] ],
+    [ "ZTest.java", "a02252.html", [
+      [ "ZTest", "a05841.html", "a05841" ]
     ] ]
 ];

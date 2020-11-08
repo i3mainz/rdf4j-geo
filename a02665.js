@@ -1,4 +1,32 @@
 var a02665 =
 [
-    [ "AsPolygon", "a05126.html", null ]
+    [ "Abs", "a04165.html", "a04165" ],
+    [ "Add", "a04169.html", "a04169" ],
+    [ "AddConst", "a04173.html", "a04173" ],
+    [ "And", "a04177.html", "a04177" ],
+    [ "AndConst", "a04181.html", "a04181" ],
+    [ "DCT", "a04185.html", "a04185" ],
+    [ "Div", "a04189.html", "a04189" ],
+    [ "DivConst", "a04193.html", "a04193" ],
+    [ "Exp", "a04197.html", "a04197" ],
+    [ "IDCT", "a04201.html", "a04201" ],
+    [ "IDFT", "a04205.html", "a04205" ],
+    [ "Invert", "a04209.html", "a04209" ],
+    [ "Log", "a04213.html", "a04213" ],
+    [ "Max", "a04217.html", "a04217" ],
+    [ "MaxFilter", "a04221.html", "a04221" ],
+    [ "Mean", "a04225.html", "a04225" ],
+    [ "MedianFilter", "a04229.html", "a04229" ],
+    [ "Min", "a04233.html", "a04233" ],
+    [ "MinFilter", "a04237.html", "a04237" ],
+    [ "Mult", "a04241.html", "a04241" ],
+    [ "MultConst", "a04245.html", "a04245" ],
+    [ "Not", "a04249.html", "a04249" ],
+    [ "Or", "a04253.html", "a04253" ],
+    [ "OrConst", "a04257.html", "a04257" ],
+    [ "Subtract", "a04261.html", "a04261" ],
+    [ "SubtractConst", "a04265.html", "a04265" ],
+    [ "Threshold", "a04269.html", "a04269" ],
+    [ "Xor", "a04273.html", "a04273" ],
+    [ "XorConst", "a04277.html", "a04277" ]
 ];

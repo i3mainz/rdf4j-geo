@@ -1,4 +1,5 @@
 var a02691 =
 [
-    [ "PolygonFromTextTest", "a05830.html", "a05830" ]
+    [ "LEDataInputStream", "a05157.html", "a05157" ],
+    [ "LEDataOutputStream", "a05161.html", "a05161" ]
 ];

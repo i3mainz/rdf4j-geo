@@ -1,5 +1,4 @@
 var a02652 =
 [
-    [ "LEDataInputStream", "a05058.html", "a05058" ],
-    [ "LEDataOutputStream", "a05062.html", "a05062" ]
+    [ "AsEncodedPolyline", "a03793.html", "a03793" ]
 ];

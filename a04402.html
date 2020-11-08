@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>rdf4j-postgis: WorldToRasterCoordY Class Reference</title>
+<title>rdf4j-postgis: Member List</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -56,147 +56,26 @@ $(function() {
   </div>
 </div>
 <script type="text/javascript">
-$(document).ready(function(){initNavTree('a04402.html','');});
+$(document).ready(function(){initNavTree('a04405.html','');});
 </script>
 <div id="doc-content">
 <div class="header">
-  <div class="summary">
-<a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="a04399.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">WorldToRasterCoordY Class Reference</div>  </div>
+<div class="title">ShearY Member List</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="dynheader">
-Inheritance diagram for WorldToRasterCoordY:</div>
-<div class="dyncontent">
-<div class="center"><img src="a04401.png" border="0" usemap="#WorldToRasterCoordY_inherit__map" alt="Inheritance graph"/></div>
-<map name="WorldToRasterCoordY_inherit__map" id="WorldToRasterCoordY_inherit__map">
-<area shape="rect" id="node2" href="a04434.html" title="RasterAttributeIntIntDouble\lFunction" alt="" coords="5,80,187,121"/>
-</map>
-<center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
-<div class="dynheader">
-Collaboration diagram for WorldToRasterCoordY:</div>
-<div class="dyncontent">
-<div class="center"><img src="a04400.png" border="0" usemap="#WorldToRasterCoordY_coll__map" alt="Collaboration graph"/></div>
-<map name="WorldToRasterCoordY_coll__map" id="WorldToRasterCoordY_coll__map">
-<area shape="rect" id="node2" href="a04434.html" title="RasterAttributeIntIntDouble\lFunction" alt="" coords="5,80,187,121"/>
-</map>
-<center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
-<table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
-Public Member Functions</h2></td></tr>
-<tr class="memitem:ad9fb16b36dd4ccc533d4f05ff94646e3"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a04402.html#ad9fb16b36dd4ccc533d4f05ff94646e3">getURI</a> ()</td></tr>
-<tr class="separator:ad9fb16b36dd4ccc533d4f05ff94646e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aea606687c5a2e035e9dbff817bc15739"><td class="memItemLeft" align="right" valign="top">Double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a04402.html#aea606687c5a2e035e9dbff817bc15739">attribute</a> (GridCoverage raster, Integer longitude, Integer latitude)</td></tr>
-<tr class="separator:aea606687c5a2e035e9dbff817bc15739"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a43b4c73244bc6722ce551c1033cf1115"><td class="memItemLeft" align="right" valign="top">Value&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a04434.html#a43b4c73244bc6722ce551c1033cf1115">evaluate</a> (ValueFactory valueFactory, Value... args)  throws ValueExprEvaluationException </td></tr>
-<tr class="separator:a43b4c73244bc6722ce551c1033cf1115"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table>
-<h2 class="groupheader">Member Function Documentation</h2>
-<a id="aea606687c5a2e035e9dbff817bc15739"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aea606687c5a2e035e9dbff817bc15739">&#9670;&nbsp;</a></span>attribute()</h2>
 
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">Double attribute </td>
-          <td>(</td>
-          <td class="paramtype">GridCoverage&#160;</td>
-          <td class="paramname"><em>raster</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">Integer&#160;</td>
-          <td class="paramname"><em>longitude</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">Integer&#160;</td>
-          <td class="paramname"><em>latitude</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="reference">References <a class="el" href="a05098.html#ab927965981178aa1fba979a37168db2a">Coordinate.y</a>.</p>
-<div class="fragment"><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;                                                                                        {</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;        <span class="keywordflow">try</span> {           </div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;                 GridGeometry gg2D = raster.getGridGeometry();</div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;             MathTransform gridToCRS = gg2D.getGridToCRS(PixelInCell.CELL_CENTER);</div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;             MathTransform crsToGrid = gridToCRS.inverse();</div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;             DirectPosition realPos=<span class="keyword">new</span> DirectPosition2D(latitude, longitude);</div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;             DirectPosition gridPos = <span class="keyword">new</span> DirectPosition2D();</div><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;             DirectPosition res=crsToGrid.transform(realPos, gridPos);</div><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;             Coordinate coord=<span class="keyword">new</span> Coordinate(res.getCoordinate()[0],res.getCoordinate()[1]);</div><div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;             <span class="keywordflow">return</span> coord.y;</div><div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;        } <span class="keywordflow">catch</span> (TransformException e) {</div><div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;            <span class="keywordflow">return</span> (Double) null;</div><div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;        }</div><div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;        }</div></div><!-- fragment -->
-</div>
-</div>
-<a id="a43b4c73244bc6722ce551c1033cf1115"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a43b4c73244bc6722ce551c1033cf1115">&#9670;&nbsp;</a></span>evaluate()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">Value evaluate </td>
-          <td>(</td>
-          <td class="paramtype">ValueFactory&#160;</td>
-          <td class="paramname"><em>valueFactory</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">Value...&#160;</td>
-          <td class="paramname"><em>args</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td> throws ValueExprEvaluationException</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inherited</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="reference">References <a class="el" href="a04434.html#abb2a64532d36910bf9386a033b2d32b3">RasterAttributeIntIntDoubleFunction.attribute()</a>, and <a class="el" href="a04870.html#a8796f5aec1965b6c4e88b2ba7c1d2e53">LiteralRegistry.getLiteral()</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="a05978.html#a618380de95de6b7c7abfbc480a671c17">RasterToWorldCoordXTest.testRasterToWorldCoordX()</a>, <a class="el" href="a05982.html#a24ce6ed3c7eedd4a897b2c7e85151c25">RasterToWorldCoordYTest.testRasterToWorldCoordY()</a>, <a class="el" href="a06050.html#a6e94cee45e46d07a602e9ce792812c08">WorldToRasterCoordXTest.testWorldToRasterCoordX()</a>, and <a class="el" href="a06054.html#a56f9c565f021f053e0a81581df5dc08f">WorldToRasterCoordYTest.testWorldToRasterCoordY()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;                                                                                                            {</div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;                <span class="keywordflow">if</span> (args.length != 3) {</div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;                        <span class="keywordflow">throw</span> <span class="keyword">new</span> ValueExprEvaluationException(getURI() + <span class="stringliteral">&quot; requires exactly 1 arguments, got &quot;</span> + args.length);</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;                }</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;                LiteralType l=LiteralRegistry.getLiteral(((Literal)args[0]).getDatatype().toString());</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;                <span class="keywordflow">if</span>(l instanceof RasterLiteral) {</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;                        GridCoverage geom=((RasterLiteral)l).read(args[0].stringValue());</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;                        Integer longitude = Integer.valueOf(args[1].stringValue());</div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;                        Integer latitude = Integer.valueOf(args[2].stringValue());</div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;                        Double result = <a class="code" href="a04434.html#abb2a64532d36910bf9386a033b2d32b3">attribute</a>(geom,longitude,latitude);</div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;                        <span class="keywordflow">return</span> valueFactory.createLiteral(result);</div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;                }</div><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;                <span class="keywordflow">return</span> null;</div><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;        }</div><div class="ttc" id="a04434_html_abb2a64532d36910bf9386a033b2d32b3"><div class="ttname"><a href="a04434.html#abb2a64532d36910bf9386a033b2d32b3">org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.raster.base.RasterAttributeIntIntDoubleFunction.attribute</a></div><div class="ttdeci">abstract Double attribute(GridCoverage geom, Integer longitude, Integer latitude)</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="ad9fb16b36dd4ccc533d4f05ff94646e3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad9fb16b36dd4ccc533d4f05ff94646e3">&#9670;&nbsp;</a></span>getURI()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">String getURI </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="reference">References <a class="el" href="a02726.html#a7c5297ac4933a9ae3b4eeb752b1982b6">POSTGIS.st_worldToRasterCoordY</a>.</p>
-<div class="fragment"><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;                               {</div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;                <span class="keywordflow">return</span> POSTGIS.st_worldToRasterCoordY.stringValue();</div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;        }</div></div><!-- fragment -->
-</div>
-</div>
-</div><!-- contents -->
+<p>This is the complete list of members for <a class="el" href="a04405.html">ShearY</a>, including all inherited members.</p>
+<table class="directory">
+  <tr class="even"><td class="entry"><a class="el" href="a04405.html#a7315be3e5069dc48d12323785acdd821">attribute</a>(GridCoverage raster)</td><td class="entry"><a class="el" href="a04405.html">ShearY</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="a04497.html#a43b4c73244bc6722ce551c1033cf1115">evaluate</a>(ValueFactory valueFactory, Value... args)</td><td class="entry"><a class="el" href="a04497.html">RasterAttributeFunction</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="a04405.html#ad9fb16b36dd4ccc533d4f05ff94646e3">getURI</a>()</td><td class="entry"><a class="el" href="a04405.html">ShearY</a></td><td class="entry"></td></tr>
+</table></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.13-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="a02585.html">org</a></li><li class="navelem"><a class="el" href="a02586.html">eclipse</a></li><li class="navelem"><a class="el" href="a02587.html">rdf4j</a></li><li class="navelem"><a class="el" href="a02590.html">query</a></li><li class="navelem"><a class="el" href="a02591.html">algebra</a></li><li class="navelem"><a class="el" href="a02592.html">evaluation</a></li><li class="navelem"><a class="el" href="a02593.html">function</a></li><li class="navelem"><a class="el" href="a02594.html">postgis</a></li><li class="navelem"><a class="el" href="a02627.html">raster</a></li><li class="navelem"><a class="el" href="a02628.html">attribute</a></li><li class="navelem"><a class="el" href="a04402.html">WorldToRasterCoordY</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>

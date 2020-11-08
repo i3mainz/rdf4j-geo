@@ -1,6 +1,5 @@
 var a02697 =
 [
-    [ "RastFromCoverageJSONTest", "a06058.html", "a06058" ],
-    [ "RastFromHexWKBTest", "a06062.html", "a06062" ],
-    [ "RastFromWKBTest", "a06066.html", "a06066" ]
+    [ "Coordinate", "a05197.html", "a05197" ],
+    [ "CoordinateT", "a05205.html", null ]
 ];

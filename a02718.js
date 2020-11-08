@@ -1,12 +1,23 @@
 var a02718 =
 [
-    [ "getCenterCoords", "a02718.html#a0b94a3cba36588b3af66d9c1e0c7730d", null ],
-    [ "getCenterCoordsArray", "a02718.html#a64034156cc179512544e7fccb53347c0", null ],
-    [ "getCenterJSONCoords", "a02718.html#a5cbc30114e4451fa59b413f0e804fa5c", null ],
-    [ "getCenterKMLCoords", "a02718.html#ad2c549fae82697c8f9af929dc6ead13d", null ],
-    [ "getCornerCoordsArray", "a02718.html#a3f13e52b306db2b7f1b08e32c7b210bb", null ],
-    [ "getCornerJSONCoords", "a02718.html#aeffb4ecc5c8b24103f2b4d6f00f19a2e", null ],
-    [ "getKMLLine", "a02718.html#ae1a814fa4b99e9828246b27473fd6876", null ],
-    [ "getKMLPoint", "a02718.html#a8dd725437f92ab0936d3e4179f3ce37e", null ],
-    [ "getKMLPolygon", "a02718.html#a30387f81231caaf6fccceacdeea65949", null ]
+    [ "CollectionExtractTest", "a05661.html", "a05661" ],
+    [ "CollectionHomogenizeTest", "a05665.html", "a05665" ],
+    [ "DensifyTest", "a05669.html", "a05669" ],
+    [ "FlipCoordinatesTest", "a05673.html", "a05673" ],
+    [ "Force2DTest", "a05677.html", "a05677" ],
+    [ "Force3DMTest", "a05681.html", "a05681" ],
+    [ "Force3DTest", "a05685.html", "a05685" ],
+    [ "Force4DTest", "a05689.html", "a05689" ],
+    [ "ForceCollectionTest", "a05693.html", "a05693" ],
+    [ "MultiTest", "a05697.html", "a05697" ],
+    [ "PointsTest", "a05701.html", "a05701" ],
+    [ "PrecisionReducerTest", "a05705.html", "a05705" ],
+    [ "RemoveRepeatedPointsTest", "a05709.html", "a05709" ],
+    [ "ReverseTest", "a05713.html", "a05713" ],
+    [ "ShiftLongitudeTest", "a05717.html", "a05717" ],
+    [ "SimplifyPreserveTopologyTest", "a05721.html", "a05721" ],
+    [ "SimplifyTest", "a05725.html", "a05725" ],
+    [ "SimplifyVWTest", "a05729.html", "a05729" ],
+    [ "SwapOrdinatesTest", "a05733.html", "a05733" ],
+    [ "TransScaleTest", "a05737.html", "a05737" ]
 ];
