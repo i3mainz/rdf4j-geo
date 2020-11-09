@@ -99,11 +99,11 @@
     <artifactId>geopackage</artifactId>
     <version>3.5.0</version>
 </dependency> 
-	<dependency>
+	<!-- <dependency>
 	    <groupId>com.github.ccancellieri</groupId>
 	    <artifactId>topojson</artifactId>
 	    <version>master-SNAPSHOT</version>
-	</dependency>
+	</dependency>-->
       <dependency>
     <groupId>org.wololo</groupId>
     <artifactId>jts2geojson</artifactId>
@@ -229,11 +229,11 @@
             <artifactId>sis-utility</artifactId>
             <version>${sis.version}</version>
         </dependency>
-<dependency>
+<!-- <dependency>
     <groupId>net.sourceforge</groupId>
     <artifactId>kabeja</artifactId>
     <version>0.4</version>
-</dependency>
+</dependency>-->
 <dependency>
     <groupId>com.sun.jersey</groupId>
     <artifactId>jersey-server</artifactId>

@@ -10,8 +10,6 @@ import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.literals
 import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.literals.raster.HexWKBRastDatatype;
 import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.literals.raster.NetCDFDatatype;
 import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.literals.raster.WKBRastDatatype;
-import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.literals.topo.TopoJSONDatatype;
-import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.literals.vector.DXFDatatype;
 import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.literals.vector.EncodedPolylineDatatype;
 import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.literals.vector.GMLDatatype;
 import org.eclipse.rdf4j.query.algebra.evaluation.function.postgis.util.literals.vector.GPXDatatype;
@@ -43,7 +41,7 @@ public class LiteralRegistry {
 		literals.put(SVGDatatype.URI, SVGDatatype.INSTANCE);
 		literals.put(GeobufDatatype.URI, GeobufDatatype.INSTANCE);
 		//literals.put(TopoJSONDatatype.URI, TopoJSONDatatype.INSTANCE);
-		literals.put(DXFDatatype.URI, DXFDatatype.INSTANCE);
+		//literals.put(DXFDatatype.URI, DXFDatatype.INSTANCE);
 		literals.put(EncodedPolylineDatatype.URI, EncodedPolylineDatatype.INSTANCE);
 		literals.put(WKBRastDatatype.URI, WKBRastDatatype.INSTANCE);
 		literals.put(GeoTIFFDatatype.URI, GeoTIFFDatatype.INSTANCE);
