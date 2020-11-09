@@ -1,20 +1,10 @@
 var a02656 =
 [
-    [ "Angle", "a03929.html", "a03929" ],
-    [ "IsPointInRing", "a03933.html", "a03933" ],
-    [ "IsPointOnLine", "a03937.html", "a03937" ],
-    [ "M", "a03941.html", "a03941" ],
-    [ "MMax", "a03945.html", "a03945" ],
-    [ "MMin", "a03949.html", "a03949" ],
-    [ "PointInsideCircle", "a03953.html", "a03953" ],
-    [ "X", "a03957.html", "a03957" ],
-    [ "XMax", "a03961.html", "a03961" ],
-    [ "XMin", "a03965.html", "a03965" ],
-    [ "Y", "a03969.html", "a03969" ],
-    [ "YMax", "a03973.html", "a03973" ],
-    [ "YMin", "a03977.html", "a03977" ],
-    [ "Z", "a03981.html", "a03981" ],
-    [ "ZMax", "a03985.html", "a03985" ],
-    [ "Zmflag", "a03989.html", "a03989" ],
-    [ "ZMin", "a03993.html", "a03993" ]
+    [ "AvgX", "a02656.html#a10b6c03397249a72335dba37c2081ca7", null ],
+    [ "AvgX", "a02656.html#a5016fc52295739edbf1f03e77724e3ea", null ],
+    [ "clone", "a02656.html#a352eb057d6e77fa0352c87042b505a17", null ],
+    [ "equals", "a02656.html#a8e18a3a952a9e38a9a4191004a30c938", null ],
+    [ "hashCode", "a02656.html#a077e18fe97323c7194e2665ffc766399", null ],
+    [ "visit", "a02656.html#ace7c41d3761122fda287033559696cdd", null ],
+    [ "serialVersionUID", "a02656.html#a3238d314ecdee14d2966760945d00c3b", null ]
 ];

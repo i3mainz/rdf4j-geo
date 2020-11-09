@@ -1,12 +1,12 @@
 var a02640 =
 [
-    [ "attribute", "a02639.html", "a02639" ],
-    [ "base", "a02641.html", "a02641" ],
-    [ "constructor", "a02642.html", "a02642" ],
-    [ "editor", "a02643.html", "a02643" ],
-    [ "exporter", "a02644.html", "a02644" ],
-    [ "relation", "a02645.html", "a02645" ],
-    [ "srid", "a02646.html", "a02646" ],
-    [ "transform", "a02647.html", "a02647" ],
-    [ "PointOnSurface", "a03381.html", "a03381" ]
+    [ "getCenterCoords", "a02640.html#a0b94a3cba36588b3af66d9c1e0c7730d", null ],
+    [ "getCenterCoordsArray", "a02640.html#a64034156cc179512544e7fccb53347c0", null ],
+    [ "getCenterJSONCoords", "a02640.html#a5cbc30114e4451fa59b413f0e804fa5c", null ],
+    [ "getCenterKMLCoords", "a02640.html#ad2c549fae82697c8f9af929dc6ead13d", null ],
+    [ "getCornerCoordsArray", "a02640.html#a3f13e52b306db2b7f1b08e32c7b210bb", null ],
+    [ "getCornerJSONCoords", "a02640.html#aeffb4ecc5c8b24103f2b4d6f00f19a2e", null ],
+    [ "getKMLLine", "a02640.html#ae1a814fa4b99e9828246b27473fd6876", null ],
+    [ "getKMLPoint", "a02640.html#a8dd725437f92ab0936d3e4179f3ce37e", null ],
+    [ "getKMLPolygon", "a02640.html#a30387f81231caaf6fccceacdeea65949", null ]
 ];

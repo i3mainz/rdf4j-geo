@@ -1,3 +1,4 @@
-<map id="RasterToWorldCoordY" name="RasterToWorldCoordY">
-<area shape="rect" id="node2" href="$a04505.html" title="RasterAttributeIntIntDouble\lFunction" alt="" coords="5,80,187,121"/>
+<map id="RasterAttributeIntIntIntBooleanFunction" name="RasterAttributeIntIntIntBooleanFunction">
+<area shape="rect" id="node3" href="$a04196.html" title="IsOpaquePixel" alt="" coords="5,169,112,196"/>
+<area shape="rect" id="node4" href="$a04208.html" title="IsTransparentPixel" alt="" coords="136,169,267,196"/>
 </map>

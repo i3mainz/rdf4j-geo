@@ -1,8 +1,10 @@
 var a02660 =
 [
-    [ "attribute", "a02661.html", "a02661" ],
-    [ "constructor", "a02662.html", "a02662" ],
-    [ "editor", "a02663.html", "a02663" ],
-    [ "transform", "a02664.html", "a02664" ],
-    [ "ApproximateMedialAxis", "a04025.html", "a04025" ]
+    [ "AvgY", "a02660.html#a89f2a9c4d169c51a7d909ed45505d6f8", null ],
+    [ "AvgY", "a02660.html#adfc7b876b003f75aa14f5e1b483e35a4", null ],
+    [ "clone", "a02660.html#a35f32456abdd4806fcdf9dec22eb55a6", null ],
+    [ "equals", "a02660.html#a8e18a3a952a9e38a9a4191004a30c938", null ],
+    [ "hashCode", "a02660.html#a077e18fe97323c7194e2665ffc766399", null ],
+    [ "visit", "a02660.html#ace7c41d3761122fda287033559696cdd", null ],
+    [ "serialVersionUID", "a02660.html#a3238d314ecdee14d2966760945d00c3b", null ]
 ];

@@ -1,10 +1,9 @@
 var a02684 =
 [
-    [ "CovJSONDatatype", "a04957.html", "a04957" ],
-    [ "GeoTIFFDatatype", "a04961.html", "a04961" ],
-    [ "GMLCOVDatatype", "a04965.html", "a04965" ],
-    [ "HexWKBRastDatatype", "a04969.html", "a04969" ],
-    [ "NetCDFDatatype", "a04973.html", "a04973" ],
-    [ "RasterLiteral", "a04977.html", "a04977" ],
-    [ "WKBRastDatatype", "a04981.html", "a04981" ]
+    [ "GeomUnion", "a02684.html#a5b8abc050132eb40bba1242871140569", null ],
+    [ "GeomUnion", "a02684.html#aadd560c908d8beca0c2dda2c4ac3006f", null ],
+    [ "clone", "a02684.html#ab17e10d88ff54332324b8b0865e9a243", null ],
+    [ "equals", "a02684.html#a8e18a3a952a9e38a9a4191004a30c938", null ],
+    [ "hashCode", "a02684.html#a077e18fe97323c7194e2665ffc766399", null ],
+    [ "visit", "a02684.html#ace7c41d3761122fda287033559696cdd", null ]
 ];

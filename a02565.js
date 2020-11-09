@@ -1,0 +1,25 @@
+var a02565 =
+[
+    [ "Circularity", "a03900.html", "a03900" ],
+    [ "Circumcentre", "a03904.html", "a03904" ],
+    [ "DumpRings", "a03908.html", "a03908" ],
+    [ "ExteriorRing", "a03912.html", "a03912" ],
+    [ "HasConnectedInterior", "a03916.html", "a03916" ],
+    [ "HasDuplicateRings", "a03920.html", "a03920" ],
+    [ "HasNestedRings", "a03924.html", "a03924" ],
+    [ "InteriorRingN", "a03928.html", "a03928" ],
+    [ "IsAcute", "a03932.html", "a03932" ],
+    [ "IsEquilateralTriangle", "a03936.html", "a03936" ],
+    [ "IsIsocelesTriangle", "a03940.html", "a03940" ],
+    [ "IsLocationOnEdge", "a03944.html", "a03944" ],
+    [ "IsObliqueTriangle", "a03948.html", "a03948" ],
+    [ "IsObtuseTriangle", "a03952.html", "a03952" ],
+    [ "IsPolygonCCW", "a03956.html", "a03956" ],
+    [ "IsPolygonCW", "a03960.html", "a03960" ],
+    [ "IsRightTriangle", "a03964.html", "a03964" ],
+    [ "IsTriangle", "a03968.html", "a03968" ],
+    [ "NumDistinctInteriorRings", "a03972.html", "a03972" ],
+    [ "NumInteriorRings", "a03976.html", "a03976" ],
+    [ "Orientation", "a03980.html", "a03980" ],
+    [ "RayCrossings", "a03984.html", "a03984" ]
+];

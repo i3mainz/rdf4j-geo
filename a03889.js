@@ -1,5 +1,0 @@
-var a03889 =
-[
-    [ "evaluate", "a03889.html#a43b4c73244bc6722ce551c1033cf1115", null ],
-    [ "getURI", "a03889.html#ad9fb16b36dd4ccc533d4f05ff94646e3", null ]
-];

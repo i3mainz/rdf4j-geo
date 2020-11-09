@@ -1,23 +1,9 @@
 var a02644 =
 [
-    [ "AsBinary", "a03301.html", "a03301" ],
-    [ "AsGARS", "a03305.html", "a03305" ],
-    [ "AsGeobuf", "a03309.html", "a03309" ],
-    [ "AsGeoHash", "a03313.html", "a03313" ],
-    [ "AsGeoJSON", "a03317.html", "a03317" ],
-    [ "AsGeoRSS", "a03321.html", "a03321" ],
-    [ "AsGeoURI", "a03325.html", "a03325" ],
-    [ "AsGML", "a03329.html", "a03329" ],
-    [ "AsGPX", "a03333.html", "a03333" ],
-    [ "AsKML", "a03337.html", "a03337" ],
-    [ "AsLatLonText", "a03341.html", "a03341" ],
-    [ "AsMVT", "a03345.html", "a03345" ],
-    [ "AsOSMLink", "a03349.html", "a03349" ],
-    [ "AsPolyshape", "a03353.html", "a03353" ],
-    [ "AsSVG", "a03357.html", "a03357" ],
-    [ "AsText", "a03361.html", "a03361" ],
-    [ "AsTextRaw", "a03365.html", "a03365" ],
-    [ "AsTextRound", "a03369.html", "a03369" ],
-    [ "AsTWKB", "a03373.html", "a03373" ],
-    [ "AsX3D", "a03377.html", "a03377" ]
+    [ "getGARS", "a02644.html#ad32b2611bcfa60ea86cc4e6c3e17a7f9", null ],
+    [ "getGARS", "a02644.html#aab0ce72463899f6ec6442a3d84a3505e", null ],
+    [ "getKeyPad", "a02644.html#af7bff98d14ce187151a4a42f2f2dd8bf", null ],
+    [ "getLatitudeBand", "a02644.html#ad4746c530ec18633752a358cb6be1fca", null ],
+    [ "getLongitudeBand", "a02644.html#aed1e474b826a038d1709638ca60ed398", null ],
+    [ "getQudarant", "a02644.html#a71d9179536894e21c4fa1049adf3d105", null ]
 ];

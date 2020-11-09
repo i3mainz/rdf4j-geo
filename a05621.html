@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>rdf4j-postgis: SridGetAxis1OrientationTest Class Reference</title>
+<title>rdf4j-postgis: Member List</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -56,86 +56,27 @@ $(function() {
   </div>
 </div>
 <script type="text/javascript">
-$(document).ready(function(){initNavTree('a05621.html','');});
+$(document).ready(function(){initNavTree('a05624.html','');});
 </script>
 <div id="doc-content">
 <div class="header">
-  <div class="summary">
-<a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pub-static-attribs">Static Public Attributes</a> &#124;
-<a href="a05618.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">SridGetAxis1OrientationTest Class Reference</div>  </div>
+<div class="title">IsObtuseTriangleTest Member List</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="dynheader">
-Collaboration diagram for SridGetAxis1OrientationTest:</div>
-<div class="dyncontent">
-<div class="center"><img src="a05619.png" border="0" usemap="#SridGetAxis1OrientationTest_coll__map" alt="Collaboration graph"/></div>
-<map name="SridGetAxis1OrientationTest_coll__map" id="SridGetAxis1OrientationTest_coll__map">
-</map>
-<center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
-<table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
-Public Member Functions</h2></td></tr>
-<tr class="memitem:ae0ff51be0fe1734cba043c3509606d4d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05621.html#ae0ff51be0fe1734cba043c3509606d4d">testSridAxis1Orientation</a> ()</td></tr>
-<tr class="separator:ae0ff51be0fe1734cba043c3509606d4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
-Static Public Attributes</h2></td></tr>
-<tr class="memitem:af26f700ee129f846cac58735f6dcc380"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a05621.html#af26f700ee129f846cac58735f6dcc380">testPoint</a> =&quot;&lt;http://www.opengis.net/def/crs/EPSG/0/4326&gt; POINT(1 2 3)&quot;</td></tr>
-<tr class="separator:af26f700ee129f846cac58735f6dcc380"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table>
-<h2 class="groupheader">Member Function Documentation</h2>
-<a id="ae0ff51be0fe1734cba043c3509606d4d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae0ff51be0fe1734cba043c3509606d4d">&#9670;&nbsp;</a></span>testSridAxis1Orientation()</h2>
 
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void testSridAxis1Orientation </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="reference">References <a class="el" href="a03237.html#a43b4c73244bc6722ce551c1033cf1115">GeometricStringExportFunction.evaluate()</a>, and <a class="el" href="a05069.html#ae02c2e86ac0dea8538c7b43e9e82421a">WKTDatatype.LiteralIRI</a>.</p>
-<div class="fragment"><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;                                               {</div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;                SridGetAxis1Orientation is3d=<span class="keyword">new</span> SridGetAxis1Orientation();</div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;                ValueFactory valfac=SimpleValueFactory.getInstance();</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;                Value geo=valfac.createLiteral(<span class="stringliteral">&quot;&lt;http://www.opengis.net/def/crs/EPSG/0/4326&gt; MULTIPOINT (10 40, 40 30, 20 20, 30 10)&quot;</span>, WKTDatatype.LiteralIRI);</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;                <span class="comment">//Value geo=valfac.createLiteral(testPoint,WKTDatatype.LiteralIRI);</span></div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;                Value result=is3d.evaluate(valfac, geo);</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;                Value expResult=valfac.createLiteral(<span class="stringliteral">&quot;X&quot;</span>);</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;            assertEquals(expResult, result);</div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;        }</div></div><!-- fragment -->
-</div>
-</div>
-<h2 class="groupheader">Member Data Documentation</h2>
-<a id="af26f700ee129f846cac58735f6dcc380"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af26f700ee129f846cac58735f6dcc380">&#9670;&nbsp;</a></span>testPoint</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">final String testPoint =&quot;&lt;http://www.opengis.net/def/crs/EPSG/0/4326&gt; POINT(1 2 3)&quot;</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-</div><!-- contents -->
+<p>This is the complete list of members for <a class="el" href="a05624.html">IsObtuseTriangleTest</a>, including all inherited members.</p>
+<table class="directory">
+  <tr class="even"><td class="entry"><a class="el" href="a05624.html#aa04dfbec745e2622b9f7646f8572e501">isocelesTriangle</a></td><td class="entry"><a class="el" href="a05624.html">IsObtuseTriangleTest</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
+  <tr><td class="entry"><a class="el" href="a05624.html#a055d99fb63bcee37763ffcf4da9e0521">notIsocelesTriangle</a></td><td class="entry"><a class="el" href="a05624.html">IsObtuseTriangleTest</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="a05624.html#ac80a489d515561b4fa72bf9548671fec">testIsObliqueTriangleFalse</a>()</td><td class="entry"><a class="el" href="a05624.html">IsObtuseTriangleTest</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="a05624.html#a5dab292e852630a1fa1b2124f19480e5">testIsObliqueTriangleTrue</a>()</td><td class="entry"><a class="el" href="a05624.html">IsObtuseTriangleTest</a></td><td class="entry"></td></tr>
+</table></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.8.13-->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="a02624.html">org</a></li><li class="navelem"><a class="el" href="a02625.html">eclipse</a></li><li class="navelem"><a class="el" href="a02626.html">rdf4j</a></li><li class="navelem"><a class="el" href="a02708.html">testsuites</a></li><li class="navelem"><a class="el" href="a02709.html">postgis</a></li><li class="navelem"><a class="el" href="a02712.html">geometry</a></li><li class="navelem"><a class="el" href="a02717.html">srid</a></li><li class="navelem"><a class="el" href="a05621.html">SridGetAxis1OrientationTest</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>

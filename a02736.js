@@ -1,6 +1,6 @@
 var a02736 =
 [
-    [ "RastFromCoverageJSONTest", "a06161.html", "a06161" ],
-    [ "RastFromHexWKBTest", "a06165.html", "a06165" ],
-    [ "RastFromWKBTest", "a06169.html", "a06169" ]
+    [ "evaluate", "a02736.html#a43b4c73244bc6722ce551c1033cf1115", null ],
+    [ "getURI", "a02736.html#ad9fb16b36dd4ccc533d4f05ff94646e3", null ],
+    [ "relation", "a02736.html#a92cf9e3c55586df35a528a95c51b6882", null ]
 ];

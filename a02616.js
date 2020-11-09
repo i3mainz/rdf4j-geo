@@ -1,5 +1,6 @@
 var a02616 =
 [
-    [ "ExampleWebService", "a02749.html", "a02749" ],
-    [ "TripleStoreConnection", "a02753.html", "a02753" ]
+    [ "AddRingTest", "a05660.html", "a05660" ],
+    [ "RemoveRingTest", "a05664.html", "a05664" ],
+    [ "SetRingTest", "a05668.html", "a05668" ]
 ];

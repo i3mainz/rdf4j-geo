@@ -1,6 +1,6 @@
 var a02732 =
 [
-    [ "ForcePolygonCCWTest", "a05949.html", "a05949" ],
-    [ "ForcePolygonCWTest", "a05953.html", "a05953" ],
-    [ "ReverseRingTest", "a05957.html", "a05957" ]
+    [ "evaluate", "a02732.html#a43b4c73244bc6722ce551c1033cf1115", null ],
+    [ "getURI", "a02732.html#ad9fb16b36dd4ccc533d4f05ff94646e3", null ],
+    [ "operation", "a02732.html#a7719320b83dd8de753a7e13fc75c9c55", null ]
 ];
