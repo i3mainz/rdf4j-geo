@@ -1,6 +1,8 @@
 <map id="RasterAttributeIntIntDoubleFunction" name="RasterAttributeIntIntDoubleFunction">
-<area shape="rect" id="node3" href="$a04256.html" title="RasterToWorldCoordX" alt="" coords="5,169,160,196"/>
-<area shape="rect" id="node4" href="$a04260.html" title="RasterToWorldCoordY" alt="" coords="184,169,339,196"/>
-<area shape="rect" id="node5" href="$a04336.html" title="WorldToRasterCoordX" alt="" coords="363,169,517,196"/>
-<area shape="rect" id="node6" href="$a04340.html" title="WorldToRasterCoordY" alt="" coords="541,169,696,196"/>
+<area shape="rect" id="node1" title=" " alt="" coords="266,80,467,121"/>
+<area shape="rect" id="node3" href="$a04256.html" title=" " alt="" coords="5,169,168,196"/>
+<area shape="rect" id="node4" href="$a04260.html" title=" " alt="" coords="193,169,354,196"/>
+<area shape="rect" id="node5" href="$a04336.html" title=" " alt="" coords="379,169,541,196"/>
+<area shape="rect" id="node6" href="$a04340.html" title=" " alt="" coords="566,169,727,196"/>
+<area shape="rect" id="node2" title=" " alt="" coords="328,5,405,32"/>
 </map>

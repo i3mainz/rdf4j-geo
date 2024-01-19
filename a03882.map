@@ -1,3 +1,5 @@
 <map id="PointFromText" name="PointFromText">
-<area shape="rect" id="node2" href="$a03024.html" title="GeometricConstructor" alt="" coords="5,80,156,107"/>
+<area shape="rect" id="node1" title="Creates a point from a WKT string representation." alt="" coords="31,155,145,181"/>
+<area shape="rect" id="node2" href="$a03024.html" title=" " alt="" coords="5,80,171,107"/>
+<area shape="rect" id="node3" title=" " alt="" coords="49,5,127,32"/>
 </map>

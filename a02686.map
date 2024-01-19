@@ -1,2 +1,5 @@
 <map id="MaxX" name="MaxX">
+<area shape="rect" id="node1" title="Aggregate function to find the maximum x coordinate of a set of geometries." alt="" coords="168,95,227,121"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,5,205,32"/>
+<area shape="rect" id="node3" title=" " alt="" coords="229,5,352,32"/>
 </map>

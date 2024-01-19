@@ -1,6 +1,8 @@
 <map id="GeometricRelationModifierFunction" name="GeometricRelationModifierFunction">
-<area shape="rect" id="node3" href="$a03336.html" title="LongestLine" alt="" coords="5,169,97,196"/>
-<area shape="rect" id="node4" href="$a03372.html" title="ShortestLine" alt="" coords="121,169,216,196"/>
-<area shape="rect" id="node5" href="$a03376.html" title="ShortestLine3D" alt="" coords="241,169,353,196"/>
-<area shape="rect" id="node6" href="$a03708.html" title="Calculates shared paths of two geometries. " alt="" coords="377,169,475,196"/>
+<area shape="rect" id="node1" title=" " alt="" coords="150,80,347,121"/>
+<area shape="rect" id="node3" href="$a03336.html" title=" " alt="" coords="5,169,105,196"/>
+<area shape="rect" id="node4" href="$a03372.html" title=" " alt="" coords="129,169,232,196"/>
+<area shape="rect" id="node5" href="$a03376.html" title=" " alt="" coords="256,169,377,196"/>
+<area shape="rect" id="node6" href="$a03708.html" title="Calculates shared paths of two geometries." alt="" coords="401,169,504,196"/>
+<area shape="rect" id="node2" title=" " alt="" coords="210,5,287,32"/>
 </map>

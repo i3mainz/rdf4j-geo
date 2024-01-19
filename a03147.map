@@ -1,3 +1,5 @@
 <map id="GeomFromWKB" name="GeomFromWKB">
-<area shape="rect" id="node2" href="$a03024.html" title="GeometricConstructor" alt="" coords="5,80,156,107"/>
+<area shape="rect" id="node1" title="Returns a geometry from a WKB String." alt="" coords="25,155,151,181"/>
+<area shape="rect" id="node2" href="$a03024.html" title=" " alt="" coords="5,80,171,107"/>
+<area shape="rect" id="node3" title=" " alt="" coords="49,5,127,32"/>
 </map>

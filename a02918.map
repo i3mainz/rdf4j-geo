@@ -1,3 +1,5 @@
 <map id="IsValidReason" name="IsValidReason">
-<area shape="rect" id="node2" href="$a03120.html" title="GeometricStringExportFunction" alt="" coords="5,80,209,107"/>
+<area shape="rect" id="node1" title="Checks if the given geometry is valid and gives a reason for the geometry not being valid." alt="" coords="61,155,175,181"/>
+<area shape="rect" id="node2" href="$a03120.html" title=" " alt="" coords="5,80,231,107"/>
+<area shape="rect" id="node3" title=" " alt="" coords="79,5,157,32"/>
 </map>

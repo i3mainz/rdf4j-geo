@@ -1,9 +1,11 @@
 <map id="RasterAlgebraConstFunction" name="RasterAlgebraConstFunction">
-<area shape="rect" id="node3" href="$a04044.html" title="AddConst" alt="" coords="5,155,85,181"/>
-<area shape="rect" id="node4" href="$a04052.html" title="AndConst" alt="" coords="109,155,189,181"/>
-<area shape="rect" id="node5" href="$a04064.html" title="DivConst" alt="" coords="213,155,291,181"/>
-<area shape="rect" id="node6" href="$a04116.html" title="MultConst" alt="" coords="315,155,397,181"/>
-<area shape="rect" id="node7" href="$a04128.html" title="OrConst" alt="" coords="422,155,493,181"/>
-<area shape="rect" id="node8" href="$a04136.html" title="SubtractConst" alt="" coords="517,155,624,181"/>
-<area shape="rect" id="node9" href="$a04148.html" title="XorConst" alt="" coords="648,155,725,181"/>
+<area shape="rect" id="node1" title=" " alt="" coords="268,80,475,107"/>
+<area shape="rect" id="node3" href="$a04044.html" title=" " alt="" coords="5,155,89,181"/>
+<area shape="rect" id="node4" href="$a04052.html" title=" " alt="" coords="113,155,197,181"/>
+<area shape="rect" id="node5" href="$a04064.html" title=" " alt="" coords="221,155,303,181"/>
+<area shape="rect" id="node6" href="$a04116.html" title=" " alt="" coords="327,155,415,181"/>
+<area shape="rect" id="node7" href="$a04128.html" title=" " alt="" coords="439,155,514,181"/>
+<area shape="rect" id="node8" href="$a04136.html" title=" " alt="" coords="539,155,652,181"/>
+<area shape="rect" id="node9" href="$a04148.html" title=" " alt="" coords="676,155,757,181"/>
+<area shape="rect" id="node2" title=" " alt="" coords="333,5,410,32"/>
 </map>

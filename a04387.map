@@ -1,4 +1,6 @@
 <map id="RasterAttributeIntIntIntBooleanFunction" name="RasterAttributeIntIntIntBooleanFunction">
-<area shape="rect" id="node3" href="$a04196.html" title="IsOpaquePixel" alt="" coords="5,169,112,196"/>
-<area shape="rect" id="node4" href="$a04208.html" title="IsTransparentPixel" alt="" coords="136,169,267,196"/>
+<area shape="rect" id="node1" title=" " alt="" coords="53,80,225,121"/>
+<area shape="rect" id="node3" href="$a04196.html" title=" " alt="" coords="5,169,120,196"/>
+<area shape="rect" id="node4" href="$a04208.html" title=" " alt="" coords="145,169,285,196"/>
+<area shape="rect" id="node2" title=" " alt="" coords="100,5,177,32"/>
 </map>

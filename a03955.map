@@ -1,3 +1,5 @@
 <map id="IsPolygonCCW" name="IsPolygonCCW">
-<area shape="rect" id="node2" href="$a03012.html" title="GeometricBinaryAttribute\lFunction" alt="" coords="5,80,173,121"/>
+<area shape="rect" id="node1" title="Checks if the polygons coordinates&#39; orientations are defined counter&#45;clockwise." alt="" coords="42,169,158,196"/>
+<area shape="rect" id="node2" href="$a03012.html" title=" " alt="" coords="5,80,195,121"/>
+<area shape="rect" id="node3" title=" " alt="" coords="61,5,139,32"/>
 </map>

@@ -1,4 +1,7 @@
 <map id="HexWKBDatatype" name="HexWKBDatatype">
-<area shape="rect" id="node2" href="$a04848.html" title="VectorLiteral" alt="" coords="5,81,100,108"/>
-<area shape="rect" id="node3" href="$a04760.html" title="LiteralType" alt="" coords="9,5,96,32"/>
+<area shape="rect" id="node1" title="WKTDatatype class allows the URI &quot;geo:wktLiteral&quot; to be used as a datatype and it will parse that dat..." alt="" coords="84,171,223,197"/>
+<area shape="rect" id="node2" href="$a04848.html" title=" " alt="" coords="5,81,109,108"/>
+<area shape="rect" id="node3" href="$a04760.html" title=" " alt="" coords="11,5,104,32"/>
+<area shape="rect" id="node4" title=" " alt="" coords="134,81,173,108"/>
+<area shape="rect" id="node5" title=" " alt="" coords="217,81,277,108"/>
 </map>

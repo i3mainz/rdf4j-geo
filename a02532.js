@@ -1,6 +1,8 @@
 var a02532 =
 [
-    [ "collection", "a02539.html", "a02539" ],
+    [ "collection", null, [
+      [ "base", "a02538.html", "a02538" ]
+    ] ],
     [ "AggCentroid", "a02652.html", "a02652" ],
     [ "AvgX", "a02656.html", "a02656" ],
     [ "AvgY", "a02660.html", "a02660" ],

@@ -1,9 +1,10 @@
 <map id="RasterLiteral" name="RasterLiteral">
-<area shape="rect" id="node3" href="$a04764.html" title="CovJSONDatatype" alt="" coords="296,5,431,32"/>
-<area shape="rect" id="node4" href="$a04768.html" title="GeoTIFFDatatype" alt="" coords="300,56,427,83"/>
-<area shape="rect" id="node5" href="$a04772.html" title="GMLCOVDatatype" alt="" coords="297,107,429,133"/>
-<area shape="rect" id="node6" href="$a04776.html" title="HexWKBRastDatatype" alt="" coords="284,157,443,184"/>
-<area shape="rect" id="node7" href="$a04780.html" title="NetCDFDatatype" alt="" coords="301,208,425,235"/>
-<area shape="rect" id="node8" href="$a04788.html" title="WKBRastDatatype" alt="" coords="296,259,431,285"/>
-<area shape="rect" id="node2" href="$a04760.html" title="LiteralType" alt="" coords="5,132,92,159"/>
+<area shape="rect" id="node1" title=" " alt="" coords="147,132,252,159"/>
+<area shape="rect" id="node3" href="$a04764.html" title=" " alt="" coords="315,5,453,32"/>
+<area shape="rect" id="node4" href="$a04772.html" title=" " alt="" coords="315,56,453,83"/>
+<area shape="rect" id="node5" href="$a04768.html" title=" " alt="" coords="316,107,452,133"/>
+<area shape="rect" id="node6" href="$a04776.html" title=" " alt="" coords="300,157,468,184"/>
+<area shape="rect" id="node7" href="$a04780.html" title=" " alt="" coords="318,208,450,235"/>
+<area shape="rect" id="node8" href="$a04788.html" title=" " alt="" coords="313,259,455,285"/>
+<area shape="rect" id="node2" href="$a04760.html" title=" " alt="" coords="5,132,99,159"/>
 </map>

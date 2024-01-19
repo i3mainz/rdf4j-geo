@@ -127,8 +127,8 @@ var hierarchy =
     [ "LiteralType", "a04760.html", [
       [ "RasterLiteral", "a04784.html", [
         [ "CovJSONDatatype", "a04764.html", null ],
-        [ "GeoTIFFDatatype", "a04768.html", null ],
         [ "GMLCOVDatatype", "a04772.html", null ],
+        [ "GeoTIFFDatatype", "a04768.html", null ],
         [ "HexWKBRastDatatype", "a04776.html", null ],
         [ "NetCDFDatatype", "a04780.html", null ],
         [ "WKBRastDatatype", "a04788.html", null ]
@@ -136,13 +136,13 @@ var hierarchy =
       [ "TopologyLiteral", "a04792.html", null ],
       [ "VectorLiteral", "a04848.html", [
         [ "EncodedPolylineDatatype", "a04796.html", null ],
-        [ "GeobufDatatype", "a04800.html", null ],
+        [ "GMLDatatype", "a04820.html", null ],
+        [ "GPXDatatype", "a04824.html", null ],
         [ "GeoHashDatatype", "a04804.html", null ],
         [ "GeoJSONDatatype", "a04808.html", null ],
         [ "GeoJSONLDDatatype", "a04812.html", null ],
         [ "GeoURIDatatype", "a04816.html", null ],
-        [ "GMLDatatype", "a04820.html", null ],
-        [ "GPXDatatype", "a04824.html", null ],
+        [ "GeobufDatatype", "a04800.html", null ],
         [ "HexWKBDatatype", "a04828.html", null ],
         [ "KMLDatatype", "a04836.html", null ],
         [ "MVTDatatype", "a04840.html", null ],
@@ -366,7 +366,7 @@ var hierarchy =
     [ "DefaultHandler2", null, [
       [ "GPXHandler", "a04752.html", null ]
     ] ],
-    [ "Exception", "a07368.html", null ],
+    [ "Exception", "a07344.html", null ],
     [ "FilterOutputStream", null, [
       [ "LEDataOutputStream", "a04952.html", null ]
     ] ],
@@ -424,10 +424,10 @@ var hierarchy =
         [ "LineFromEncodedPolyline", "a03620.html", null ],
         [ "LineFromText", "a03628.html", null ],
         [ "LineFromWKB", "a03632.html", null ],
-        [ "MakeLine", "a03636.html", null ],
         [ "MLineFromText", "a03640.html", null ],
-        [ "MakePoint", "a03872.html", null ],
+        [ "MakeLine", "a03636.html", null ],
         [ "MPointFromText", "a03876.html", null ],
+        [ "MakePoint", "a03872.html", null ],
         [ "PointFromGeoHash", "a03880.html", null ],
         [ "PointFromText", "a03884.html", null ],
         [ "PointFromWKB", "a03888.html", null ],
@@ -465,8 +465,8 @@ var hierarchy =
         [ "Circularity", "a03900.html", null ]
       ] ],
       [ "GeometricDoubleModifierIntegerFunction", "a03036.html", [
-        [ "SetPoint", "a03660.html", null ],
-        [ "LengthToPoint", "a03672.html", null ]
+        [ "LengthToPoint", "a03672.html", null ],
+        [ "SetPoint", "a03660.html", null ]
       ] ],
       [ "GeometricDoubleThreeGeometryFunction", "a03040.html", [
         [ "Angle", "a03800.html", null ]
@@ -506,9 +506,9 @@ var hierarchy =
         [ "Simplify", "a03556.html", null ],
         [ "SimplifyVW", "a03564.html", null ],
         [ "VoronoiPolygons", "a03588.html", null ],
+        [ "LineInterpolatePoint", "a03676.html", null ],
         [ "LineInterpolatePoint", "a03600.html", null ],
         [ "AddMeasure", "a03644.html", null ],
-        [ "LineInterpolatePoint", "a03676.html", null ],
         [ "OffsetCurve", "a03700.html", null ],
         [ "Segmentize", "a03704.html", null ],
         [ "SubdivideLines", "a03712.html", null ]
@@ -565,10 +565,10 @@ var hierarchy =
         [ "BBOXOverlapsLeft", "a02780.html", null ],
         [ "BBOXOverlapsRight", "a02784.html", null ],
         [ "BBOXRightOf", "a02788.html", null ],
-        [ "EqualsNorm", "a03292.html", null ],
         [ "EqualSRS", "a03296.html", null ],
-        [ "EqualsTopo", "a03300.html", null ],
         [ "EqualType", "a03304.html", null ],
+        [ "EqualsNorm", "a03292.html", null ],
+        [ "EqualsTopo", "a03300.html", null ],
         [ "OrderingEquals", "a03360.html", null ],
         [ "IsPointInRing", "a03804.html", null ],
         [ "IsPointOnLine", "a03808.html", null ]
@@ -617,13 +617,13 @@ var hierarchy =
         [ "IsValidReason", "a02920.html", null ],
         [ "AsBinary", "a03184.html", null ],
         [ "AsGARS", "a03188.html", null ],
-        [ "AsGeobuf", "a03192.html", null ],
+        [ "AsGML", "a03212.html", null ],
+        [ "AsGPX", "a03216.html", null ],
         [ "AsGeoHash", "a03196.html", null ],
         [ "AsGeoJSON", "a03200.html", null ],
         [ "AsGeoRSS", "a03204.html", null ],
         [ "AsGeoURI", "a03208.html", null ],
-        [ "AsGML", "a03212.html", null ],
-        [ "AsGPX", "a03216.html", null ],
+        [ "AsGeobuf", "a03192.html", null ],
         [ "AsKML", "a03220.html", null ],
         [ "AsLatLonText", "a03224.html", null ],
         [ "AsMVT", "a03228.html", null ],
@@ -648,6 +648,7 @@ var hierarchy =
       ] ],
       [ "GeometricUnaryFunction", "a03128.html", [
         [ "OctagonalEnvelope", "a02732.html", null ],
+        [ "PointOnSurface", "a03256.html", null ],
         [ "Boundary", "a02800.html", null ],
         [ "BoundingDiagonal", "a02804.html", null ],
         [ "Centroid", "a02808.html", null ],
@@ -659,7 +660,6 @@ var hierarchy =
         [ "MinimumClearanceLine", "a02960.html", null ],
         [ "MinimumDiameterLine", "a02968.html", null ],
         [ "MinimumRectangle", "a02972.html", null ],
-        [ "PointOnSurface", "a03256.html", null ],
         [ "Normalize", "a03356.html", null ],
         [ "CollectionHomogenize", "a03448.html", null ],
         [ "DissolvePoints", "a03460.html", null ],
@@ -680,9 +680,9 @@ var hierarchy =
         [ "RotateX", "a03548.html", null ],
         [ "ShiftLongitude", "a03552.html", null ],
         [ "SimplifyPreserveTopology", "a03560.html", null ],
+        [ "TransScale", "a03584.html", null ],
         [ "Transform", "a03576.html", null ],
         [ "Translate", "a03580.html", null ],
-        [ "TransScale", "a03584.html", null ],
         [ "EndPoint", "a03592.html", null ],
         [ "LineSelfIntersectionPoint", "a03608.html", null ],
         [ "SelfIntersections", "a03612.html", null ],
@@ -703,10 +703,10 @@ var hierarchy =
       [ "EPSGToWKT", "a03388.html", null ],
       [ "SRIDToEPSG", "a03436.html", null ],
       [ "SRIDToWKT", "a03440.html", null ],
-      [ "Abs", "a03716.html", null ],
       [ "ACos", "a03720.html", null ],
       [ "ASin", "a03724.html", null ],
       [ "ATan", "a03728.html", null ],
+      [ "Abs", "a03716.html", null ],
       [ "Ceil", "a03732.html", null ],
       [ "CosH", "a03736.html", null ],
       [ "Cosine", "a03740.html", null ],
@@ -717,11 +717,11 @@ var hierarchy =
       [ "PI", "a03760.html", null ],
       [ "Pow", "a03764.html", null ],
       [ "Sign", "a03768.html", null ],
-      [ "Sine", "a03772.html", null ],
       [ "SinH", "a03776.html", null ],
+      [ "Sine", "a03772.html", null ],
       [ "Sqrt", "a03780.html", null ],
-      [ "Tangent", "a03784.html", null ],
       [ "TanH", "a03788.html", null ],
+      [ "Tangent", "a03784.html", null ],
       [ "ToDegrees", "a03792.html", null ],
       [ "ToRadians", "a03796.html", null ],
       [ "RasterAlgebraConstFunction", "a04344.html", [
@@ -863,8 +863,8 @@ var hierarchy =
       [ "RasterStringExportFunction", "a04436.html", [
         [ "BandMetadata", "a04164.html", null ],
         [ "AsCoverageJSON", "a04504.html", null ],
-        [ "AsGeoTIFF", "a04508.html", null ],
         [ "AsGMLCOV", "a04512.html", null ],
+        [ "AsGeoTIFF", "a04508.html", null ],
         [ "AsNetCDF", "a04516.html", null ],
         [ "AsRastHexWKB", "a04524.html", null ],
         [ "AsRastWKB", "a04528.html", null ]

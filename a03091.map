@@ -1,5 +1,7 @@
 <map id="GeometricRelationDoubleBinaryFunction" name="GeometricRelationDoubleBinaryFunction">
-<area shape="rect" id="node3" href="$a03308.html" title="FullyWithinDistance" alt="" coords="5,169,144,196"/>
-<area shape="rect" id="node4" href="$a03312.html" title="FullyWithinDistance3D" alt="" coords="169,169,325,196"/>
-<area shape="rect" id="node5" href="$a03380.html" title="WithinDistance3D" alt="" coords="349,169,477,196"/>
+<area shape="rect" id="node1" title=" " alt="" coords="151,80,383,121"/>
+<area shape="rect" id="node3" href="$a03308.html" title=" " alt="" coords="5,169,157,196"/>
+<area shape="rect" id="node4" href="$a03312.html" title=" " alt="" coords="181,169,352,196"/>
+<area shape="rect" id="node5" href="$a03380.html" title=" " alt="" coords="376,169,515,196"/>
+<area shape="rect" id="node2" title=" " alt="" coords="228,5,305,32"/>
 </map>

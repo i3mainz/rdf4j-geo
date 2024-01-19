@@ -1,8 +1,10 @@
 <map id="RasterAlgebraUnaryFunction" name="RasterAlgebraUnaryFunction">
-<area shape="rect" id="node3" href="$a04068.html" title="Exp" alt="" coords="5,155,51,181"/>
-<area shape="rect" id="node4" href="$a04080.html" title="Invert" alt="" coords="75,155,130,181"/>
-<area shape="rect" id="node5" href="$a04092.html" title="MaxFilter" alt="" coords="154,155,230,181"/>
-<area shape="rect" id="node6" href="$a04100.html" title="MedianFilter" alt="" coords="255,155,348,181"/>
-<area shape="rect" id="node7" href="$a04108.html" title="MinFilter" alt="" coords="372,155,444,181"/>
-<area shape="rect" id="node8" href="$a04120.html" title="Not" alt="" coords="468,155,511,181"/>
+<area shape="rect" id="node1" title=" " alt="" coords="157,80,365,107"/>
+<area shape="rect" id="node3" href="$a04068.html" title=" " alt="" coords="5,155,52,181"/>
+<area shape="rect" id="node4" href="$a04080.html" title=" " alt="" coords="76,155,136,181"/>
+<area shape="rect" id="node5" href="$a04092.html" title=" " alt="" coords="161,155,243,181"/>
+<area shape="rect" id="node6" href="$a04100.html" title=" " alt="" coords="268,155,371,181"/>
+<area shape="rect" id="node7" href="$a04108.html" title=" " alt="" coords="395,155,473,181"/>
+<area shape="rect" id="node8" href="$a04120.html" title=" " alt="" coords="498,155,543,181"/>
+<area shape="rect" id="node2" title=" " alt="" coords="222,5,299,32"/>
 </map>

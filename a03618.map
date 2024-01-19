@@ -1,3 +1,5 @@
 <map id="LineFromEncodedPolyline" name="LineFromEncodedPolyline">
-<area shape="rect" id="node2" href="$a03024.html" title="GeometricConstructor" alt="" coords="17,80,167,107"/>
+<area shape="rect" id="node1" title="Creates a LineString from the encoded polyline format." alt="" coords="5,155,195,181"/>
+<area shape="rect" id="node2" href="$a03024.html" title=" " alt="" coords="17,80,183,107"/>
+<area shape="rect" id="node3" title=" " alt="" coords="61,5,139,32"/>
 </map>

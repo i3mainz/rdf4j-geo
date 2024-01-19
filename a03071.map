@@ -1,5 +1,7 @@
 <map id="GeometricModifierGeometryIntegerFunction" name="GeometricModifierGeometryIntegerFunction">
-<area shape="rect" id="node3" href="$a03176.html" title="SetGeometry" alt="" coords="5,169,104,196"/>
-<area shape="rect" id="node4" href="$a03568.html" title="Snap" alt="" coords="129,169,181,196"/>
-<area shape="rect" id="node5" href="$a04012.html" title="Sets an interior ring replacing an already existing interior ring of a polygon. " alt="" coords="205,169,315,196"/>
+<area shape="rect" id="node1" title=" " alt="" coords="61,80,269,121"/>
+<area shape="rect" id="node3" href="$a03176.html" title=" " alt="" coords="5,169,113,196"/>
+<area shape="rect" id="node4" href="$a03568.html" title=" " alt="" coords="137,169,192,196"/>
+<area shape="rect" id="node5" href="$a04012.html" title="Sets an interior ring replacing an already existing interior ring of a polygon." alt="" coords="216,169,335,196"/>
+<area shape="rect" id="node2" title=" " alt="" coords="126,5,203,32"/>
 </map>
